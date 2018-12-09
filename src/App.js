@@ -5,7 +5,6 @@ import Main from './components/Main';
 
 const GlobalStyle = createGlobalStyle`
 body {
-    color: red;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
@@ -36,8 +35,6 @@ const App = () => (
         <GlobalStyle />
         <Header />
         <Main />
-        <main>Main</main>
-        <footer>Footer</footer>
     </div>
 );
 
