@@ -1,28 +1,44 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { createGlobalStyle } from 'styled-components';
+import Header from './components/Header';
+import Main from './components/Main';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
-  }
+const GlobalStyle = createGlobalStyle`
+body {
+    color: red;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
+
+* {
+    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html,
+#root {
+    height: 100%;
+    width: 100%;
+}
+
+/*
+    font-size: 62.5%;
+*/
+
+`;
+
+const App = () => (
+    <div>
+        <GlobalStyle />
+        <Header />
+        <Main />
+        <main>Main</main>
+        <footer>Footer</footer>
+    </div>
+);
 
 export default App;
