@@ -38,6 +38,22 @@ const yokais = [
         attribute: 'Wind',
         favoriteFood: 'Juice',
         evolution: null
+    },
+    {
+        name: 'Darumacho',
+        tribe: 'Tough',
+        rank: 'B',
+        attribute: 'Earth',
+        favoriteFood: 'Curry (YW1: Bread)',
+        evolution: null
+    },
+    {
+        name: 'Goruma',
+        tribe: 'Tough',
+        rank: 'B',
+        attribute: 'Wind',
+        favoriteFood: 'Curry (YW1: Bread)',
+        evolution: null
     }
 ];
 

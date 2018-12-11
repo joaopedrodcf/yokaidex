@@ -22,37 +22,70 @@ class Main extends Component {
     handleCheckbox(event) {
         const checkboxtype = event.target.getAttribute('checkboxtype');
 
-        this.filterResults(
-            checkboxtype,
-            event.target.name,
-            event.target.checked
-        );
+        switch (checkboxtype) {
+            case 'tribe':
+                this.filterTribeResults(
+                    event.target.name.toLowerCase(),
+                    event.target.checked
+                );
+                break;
+            case 'rank':
+                this.filterRankResults(
+                    event.target.name.toLowerCase(),
+                    event.target.checked
+                );
+                break;
+            case 'attribute':
+                this.filterAttributeResults(
+                    event.target.name.toLowerCase(),
+                    event.target.checked
+                );
+                break;
+            default:
+                break;
+        }
     }
 
-    filterResults(checkboxtype, filterRank, checked) {
-        const { yokais } = this.state;
-        const type = this.state[checkboxtype];
+    filterTribeResults(type, checked) {
+        const { tribe } = this.state;
 
-        console.log(type);
         if (checked) {
-            type.push(filterRank);
+            tribe.push(type);
         } else {
-            type.splice(type.indexOf(filterRank), 1);
+            tribe.splice(tribe.indexOf(type), 1);
         }
 
-        const filteredYokais = yokais.filter(yokai => {
-            console.log(yokai[checkboxtype]);
-            return type.includes(yokai[checkboxtype].toLowerCase());
-        });
-
-        console.log(filteredYokais);
-
-        /*
         this.setState({
-            ranks: type,
-            yokais: filteredYokais.length === 0 ? yokaisJson : filteredYokais
+            tribe
         });
-        */
+    }
+
+    filterRankResults(type, checked) {
+        const { rank } = this.state;
+
+        if (checked) {
+            rank.push(type);
+        } else {
+            rank.splice(rank.indexOf(type), 1);
+        }
+
+        this.setState({
+            rank
+        });
+    }
+
+    filterAttributeResults(type, checked) {
+        const { attribute } = this.state;
+
+        if (checked) {
+            attribute.push(type);
+        } else {
+            attribute.splice(attribute.indexOf(type), 1);
+        }
+
+        this.setState({
+            attribute
+        });
     }
 
     render() {
@@ -93,7 +126,9 @@ class Main extends Component {
                                 <div key={type}>
                                     <input
                                         type="checkbox"
-                                        checked={tribe.includes(type)}
+                                        checked={tribe.includes(
+                                            type.toLowerCase()
+                                        )}
                                         name={type}
                                         checkboxtype="tribe"
                                         onChange={this.handleCheckbox}
@@ -108,7 +143,9 @@ class Main extends Component {
                                 <div key={type}>
                                     <input
                                         type="checkbox"
-                                        checked={rank.includes(type)}
+                                        checked={rank.includes(
+                                            type.toLowerCase()
+                                        )}
                                         name={type}
                                         checkboxtype="rank"
                                         onChange={this.handleCheckbox}
@@ -123,7 +160,9 @@ class Main extends Component {
                                 <div key={type}>
                                     <input
                                         type="checkbox"
-                                        checked={attribute.includes(type)}
+                                        checked={attribute.includes(
+                                            type.toLowerCase()
+                                        )}
                                         name={type}
                                         checkboxtype="attribute"
                                         onChange={this.handleCheckbox}
@@ -145,14 +184,102 @@ class Main extends Component {
                             </tr>
                         </thead>
                         <tbody>
-                            {yokais.map(yokai => (
-                                <tr key={yokai.name}>
-                                    <td>{yokai.name}</td>
-                                    <td>{yokai.tribe}</td>
-                                    <td>{yokai.rank}</td>
-                                    <td>{yokai.attribute}</td>
-                                </tr>
-                            ))}
+                            {yokais
+                                .filter(yokai => {
+                                    if (
+                                        tribe.length === 0 &&
+                                        rank.length === 0 &&
+                                        attribute.length === 0
+                                    ) {
+                                        return true;
+                                    }
+
+                                    if (
+                                        tribe.includes(
+                                            yokai.tribe.toLowerCase()
+                                        ) &&
+                                        rank.length === 0 &&
+                                        attribute.length === 0
+                                    ) {
+                                        return true;
+                                    }
+
+                                    if (
+                                        tribe.length === 0 &&
+                                        rank.includes(
+                                            yokai.rank.toLowerCase()
+                                        ) &&
+                                        attribute.length === 0
+                                    ) {
+                                        return true;
+                                    }
+
+                                    if (
+                                        tribe.length === 0 &&
+                                        rank.length === 0 &&
+                                        attribute.includes(
+                                            yokai.attribute.toLowerCase()
+                                        )
+                                    ) {
+                                        return true;
+                                    }
+
+                                    if (
+                                        tribe.length === 0 &&
+                                        rank.includes(
+                                            yokai.rank.toLowerCase()
+                                        ) &&
+                                        attribute.includes(
+                                            yokai.attribute.toLowerCase()
+                                        )
+                                    ) {
+                                        return true;
+                                    }
+
+                                    if (
+                                        tribe.includes(
+                                            yokai.tribe.toLowerCase()
+                                        ) &&
+                                        rank.length === 0 &&
+                                        attribute.includes(
+                                            yokai.attribute.toLowerCase()
+                                        )
+                                    ) {
+                                        return true;
+                                    }
+
+                                    if (
+                                        tribe.includes(
+                                            yokai.tribe.toLowerCase()
+                                        ) &&
+                                        rank.includes(
+                                            yokai.rank.toLowerCase()
+                                        ) &&
+                                        attribute.length === 0
+                                    ) {
+                                        return true;
+                                    }
+
+                                    return (
+                                        tribe.includes(
+                                            yokai.tribe.toLowerCase()
+                                        ) &&
+                                        rank.includes(
+                                            yokai.rank.toLowerCase()
+                                        ) &&
+                                        attribute.includes(
+                                            yokai.attribute.toLowerCase()
+                                        )
+                                    );
+                                })
+                                .map(yokai => (
+                                    <tr key={yokai.name}>
+                                        <td>{yokai.name}</td>
+                                        <td>{yokai.tribe}</td>
+                                        <td>{yokai.rank}</td>
+                                        <td>{yokai.attribute}</td>
+                                    </tr>
+                                ))}
                         </tbody>
                     </Table>
                 </form>
