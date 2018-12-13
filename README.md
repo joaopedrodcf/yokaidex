@@ -2,6 +2,10 @@
 
 A PWA with the info from Yokai watch
 
+## Website
+
+The website is hosted on github pages: [yokaidex](https://joaopedrodcf.github.io/yokaidex)
+
 # Disclaimer
 Yokaidex is a website with information about the games from Level-5: Yo-kai watch. All the information gathered here is to be used as a resource to help our community have more info about the game.
 
