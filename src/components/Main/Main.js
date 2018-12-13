@@ -134,96 +134,32 @@ class Main extends Component {
                         <tbody>
                             {yokais
                                 .filter(yokai => {
-                                    const isEmptyTribe = tribe.length === 0;
-                                    const isEmptyRank = rank.length === 0;
-                                    const isEmptyAttribute =
-                                        attribute.length === 0;
+                                    let aux = true;
 
                                     if (
-                                        isEmptyTribe &&
-                                        isEmptyRank &&
-                                        isEmptyAttribute
-                                    ) {
-                                        return true;
-                                    }
-
-                                    if (
-                                        tribe.includes(
+                                        tribe.length > 0 &&
+                                        !tribe.includes(
                                             yokai.tribe.toLowerCase()
-                                        ) &&
-                                        isEmptyRank &&
-                                        isEmptyAttribute
+                                        )
                                     ) {
-                                        return true;
+                                        aux = false;
                                     }
-
                                     if (
-                                        isEmptyTribe &&
-                                        rank.includes(
-                                            yokai.rank.toLowerCase()
-                                        ) &&
-                                        isEmptyAttribute
+                                        rank.length > 0 &&
+                                        !rank.includes(yokai.rank.toLowerCase())
                                     ) {
-                                        return true;
+                                        aux = false;
                                     }
-
                                     if (
-                                        isEmptyTribe &&
-                                        isEmptyRank &&
-                                        attribute.includes(
+                                        attribute.length > 0 &&
+                                        !attribute.includes(
                                             yokai.attribute.toLowerCase()
                                         )
                                     ) {
-                                        return true;
+                                        aux = false;
                                     }
 
-                                    if (
-                                        isEmptyTribe &&
-                                        rank.includes(
-                                            yokai.rank.toLowerCase()
-                                        ) &&
-                                        attribute.includes(
-                                            yokai.attribute.toLowerCase()
-                                        )
-                                    ) {
-                                        return true;
-                                    }
-
-                                    if (
-                                        tribe.includes(
-                                            yokai.tribe.toLowerCase()
-                                        ) &&
-                                        isEmptyRank &&
-                                        attribute.includes(
-                                            yokai.attribute.toLowerCase()
-                                        )
-                                    ) {
-                                        return true;
-                                    }
-
-                                    if (
-                                        tribe.includes(
-                                            yokai.tribe.toLowerCase()
-                                        ) &&
-                                        rank.includes(
-                                            yokai.rank.toLowerCase()
-                                        ) &&
-                                        isEmptyAttribute
-                                    ) {
-                                        return true;
-                                    }
-
-                                    return (
-                                        tribe.includes(
-                                            yokai.tribe.toLowerCase()
-                                        ) &&
-                                        rank.includes(
-                                            yokai.rank.toLowerCase()
-                                        ) &&
-                                        attribute.includes(
-                                            yokai.attribute.toLowerCase()
-                                        )
-                                    );
+                                    return aux;
                                 })
                                 .map(yokai => (
                                     <tr key={yokai.name}>
