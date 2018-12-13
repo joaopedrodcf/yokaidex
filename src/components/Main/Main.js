@@ -21,70 +21,18 @@ class Main extends Component {
 
     handleCheckbox(event) {
         const checkboxtype = event.target.getAttribute('checkboxtype');
-
-        switch (checkboxtype) {
-            case 'tribe':
-                this.filterTribeResults(
-                    event.target.name.toLowerCase(),
-                    event.target.checked
-                );
-                break;
-            case 'rank':
-                this.filterRankResults(
-                    event.target.name.toLowerCase(),
-                    event.target.checked
-                );
-                break;
-            case 'attribute':
-                this.filterAttributeResults(
-                    event.target.name.toLowerCase(),
-                    event.target.checked
-                );
-                break;
-            default:
-                break;
-        }
-    }
-
-    filterTribeResults(type, checked) {
-        const { tribe } = this.state;
+        const type = event.target.name.toLowerCase();
+        const { checked } = event.target;
+        const filterType = this.state[checkboxtype];
 
         if (checked) {
-            tribe.push(type);
+            filterType.push(type);
         } else {
-            tribe.splice(tribe.indexOf(type), 1);
+            filterType.splice(filterType.indexOf(type), 1);
         }
 
         this.setState({
-            tribe
-        });
-    }
-
-    filterRankResults(type, checked) {
-        const { rank } = this.state;
-
-        if (checked) {
-            rank.push(type);
-        } else {
-            rank.splice(rank.indexOf(type), 1);
-        }
-
-        this.setState({
-            rank
-        });
-    }
-
-    filterAttributeResults(type, checked) {
-        const { attribute } = this.state;
-
-        if (checked) {
-            attribute.push(type);
-        } else {
-            attribute.splice(attribute.indexOf(type), 1);
-        }
-
-        this.setState({
-            attribute
+            [filterType]: filterType
         });
     }
 
