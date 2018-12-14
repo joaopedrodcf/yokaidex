@@ -136,28 +136,18 @@ class Main extends Component {
                                 .filter(yokai => {
                                     let aux = true;
 
-                                    if (
-                                        tribe.length > 0 &&
-                                        !tribe.includes(
-                                            yokai.tribe.toLowerCase()
-                                        )
-                                    ) {
-                                        aux = false;
-                                    }
-                                    if (
-                                        rank.length > 0 &&
-                                        !rank.includes(yokai.rank.toLowerCase())
-                                    ) {
-                                        aux = false;
-                                    }
-                                    if (
-                                        attribute.length > 0 &&
-                                        !attribute.includes(
-                                            yokai.attribute.toLowerCase()
-                                        )
-                                    ) {
-                                        aux = false;
-                                    }
+                                    const filters = { tribe, rank, attribute };
+
+                                    Object.keys(filters).forEach(key => {
+                                        if (
+                                            filters[key].length > 0 &&
+                                            !filters[key].includes(
+                                                yokai[key].toLowerCase()
+                                            )
+                                        ) {
+                                            aux = false;
+                                        }
+                                    });
 
                                     return aux;
                                 })
