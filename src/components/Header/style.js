@@ -12,6 +12,7 @@ const Container = styled.div`
     font-size: 24px;
     display: flex;
     align-items: center;
+    position: fixed;
 
     h5 {
         letter-spacing: 0;
