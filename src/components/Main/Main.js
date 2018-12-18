@@ -13,10 +13,12 @@ class Main extends Component {
             tribe: [],
             rank: [],
             attribute: [],
+            name: '',
             yokais: yokaisJson
         };
 
         this.handleCheckbox = this.handleCheckbox.bind(this);
+        this.handleText = this.handleText.bind(this);
     }
 
     handleCheckbox(event) {
@@ -36,8 +38,12 @@ class Main extends Component {
         });
     }
 
+    handleText(event) {
+        this.setState({ name: event.target.value.toLowerCase() });
+    }
+
     render() {
-        const { tribe, rank, attribute, yokais } = this.state;
+        const { tribe, rank, attribute, name, yokais } = this.state;
         const tribesCheckbox = [
             'Brave',
             'Charming',
@@ -49,7 +55,7 @@ class Main extends Component {
             'Shady',
             'Wicked'
         ];
-        const ranksCheckbox = ['A', 'B', 'C', 'D', 'E'];
+        const ranksCheckbox = ['S', 'A', 'B', 'C', 'D', 'E'];
         const attributesCheckbox = [
             'Fire',
             'Water',
@@ -121,7 +127,14 @@ class Main extends Component {
                         </Filter>
                     </Filters>
                     <label htmlFor="name">Search by name:</label>
-                    <input type="text" id="name" name="name" required />
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        value={this.state.name}
+                        onChange={this.handleText}
+                    />
                     <Table>
                         <thead>
                             <tr>
@@ -136,13 +149,23 @@ class Main extends Component {
                                 .filter(yokai => {
                                     let aux = true;
 
-                                    const filters = { tribe, rank, attribute };
+                                    const filters = {
+                                        tribe,
+                                        rank,
+                                        attribute
+                                    };
 
-                                    Object.keys(filters).forEach(key => {
+                                    if (
+                                        !yokai.name.toLowerCase().includes(name)
+                                    ) {
+                                        return false;
+                                    }
+
+                                    Object.keys(filters).forEach(type => {
                                         if (
-                                            filters[key].length > 0 &&
-                                            !filters[key].includes(
-                                                yokai[key].toLowerCase()
+                                            filters[type].length > 0 &&
+                                            !filters[type].includes(
+                                                yokai[type].toLowerCase()
                                             )
                                         ) {
                                             aux = false;
