@@ -103,7 +103,7 @@ const yokais = [
         japaneseName: 'Kabutosan',
         tribe: 'Brave',
         rank: 'D',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Vegetables',
         evolution: '+ Armsman ↓ Reuknight'
     },
@@ -115,7 +115,7 @@ const yokais = [
         japaneseName: 'Genma-shogun',
         tribe: 'Brave',
         rank: 'A',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Vegetables',
         evolution: null
     },
@@ -127,7 +127,7 @@ const yokais = [
         japaneseName: 'Yomigensui',
         tribe: 'Brave',
         rank: 'S',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Vegetables',
         evolution: null
     },
@@ -163,7 +163,7 @@ const yokais = [
         japaneseName: 'Todorokijishi',
         tribe: 'Brave',
         rank: 'A',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Meat',
         evolution: null
     },
@@ -200,7 +200,7 @@ const yokais = [
         japaneseName: 'Muramasa',
         tribe: 'Brave',
         rank: 'A',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Seafood',
         evolution: null
     },
@@ -212,7 +212,7 @@ const yokais = [
         japaneseName: 'Kusanagi',
         tribe: 'Brave',
         rank: 'S',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Seafood',
         evolution: null
     },
@@ -236,7 +236,7 @@ const yokais = [
         japaneseName: 'Karakuribenkei',
         tribe: 'Brave',
         rank: 'B',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Chinese Food',
         evolution: null
     },
@@ -368,7 +368,7 @@ const yokais = [
         japaneseName: 'Bakazukin',
         tribe: 'Mysterious',
         rank: 'E',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Cheap Sweets',
         evolution: null
     },
@@ -380,7 +380,7 @@ const yokais = [
         japaneseName: 'Tsuzukanasou',
         tribe: 'Mysterious',
         rank: 'E',
-        attribute: 'Recovery',
+        attribute: 'Restoration',
         favoriteFood: 'Hamburgers',
         evolution: 'Lv. 15 → N`more'
     },
@@ -392,7 +392,7 @@ const yokais = [
         japaneseName: 'Yametaishi',
         tribe: 'Mysterious',
         rank: 'C',
-        attribute: 'Recovery',
+        attribute: 'Restoration',
         favoriteFood: 'Hamburgers',
         evolution: null
     },
@@ -416,7 +416,7 @@ const yokais = [
         japaneseName: 'Waraenee',
         tribe: 'Mysterious',
         rank: 'D',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Hamburgers',
         evolution: null
     },
@@ -428,7 +428,7 @@ const yokais = [
         japaneseName: 'Aokuchibiru',
         tribe: 'Mysterious',
         rank: 'C',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Hamburgers',
         evolution: null
     },
@@ -512,7 +512,7 @@ const yokais = [
         japaneseName: 'Denbakukozo',
         tribe: 'Mysterious',
         rank: 'D',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Snacks (YW1: Rice Balls)',
         evolution: ' + GHz Orb ↓ Signiton'
     },
@@ -524,7 +524,7 @@ const yokais = [
         japaneseName: 'Denjin',
         tribe: 'Mysterious',
         rank: 'A',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Oden (YW1: Rice Balls)',
         evolution: null
     },
@@ -536,7 +536,7 @@ const yokais = [
         japaneseName: 'Hatsudenshin',
         tribe: 'Mysterious',
         rank: 'S',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Oden (YW1: Rice Balls)',
         evolution: null
     },
@@ -548,7 +548,7 @@ const yokais = [
         japaneseName: 'Ungaikyou',
         tribe: 'Mysterious',
         rank: 'C',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Chinese Food',
         evolution: null
     },
@@ -560,7 +560,7 @@ const yokais = [
         japaneseName: 'Yamikagami',
         tribe: 'Mysterious',
         rank: 'A',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Chinese Food',
         evolution: null
     },
@@ -596,7 +596,7 @@ const yokais = [
         japaneseName: 'Horoshi',
         tribe: 'Mysterious',
         rank: 'B',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Bread',
         evolution: null
     },
@@ -620,7 +620,7 @@ const yokais = [
         japaneseName: 'Yotsume',
         tribe: 'Mysterious',
         rank: 'B',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Vegetables',
         evolution: null
     },
@@ -824,7 +824,7 @@ const yokais = [
         japaneseName: 'Sakuranojim',
         tribe: 'Tough',
         rank: 'B',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Sushi (YW1: Rice Balls)',
         evolution: null
     },
@@ -932,7 +932,7 @@ const yokais = [
         japaneseName: 'Kinkaku',
         tribe: 'Tough',
         rank: 'A',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Milk',
         evolution: '+ Platinum Bar ↓ Castelius Max'
     },
@@ -968,7 +968,7 @@ const yokais = [
         japaneseName: 'Gorunyan',
         tribe: 'Tough',
         rank: 'S',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Chocobo (YW1: Seafood)',
         evolution: null
     },
@@ -1208,7 +1208,7 @@ const yokais = [
         japaneseName: 'Komajirou',
         tribe: 'Charming',
         rank: 'D',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Milk',
         evolution: 'Lv. 33 → Komiger'
     },
@@ -1220,7 +1220,7 @@ const yokais = [
         japaneseName: 'Torajirou',
         tribe: 'Charming',
         rank: 'A',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Milk',
         evolution: null
     },
@@ -1232,7 +1232,7 @@ const yokais = [
         japaneseName: 'Baku',
         tribe: 'Charming',
         rank: 'D',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Juice',
         evolution: 'Lv. 29 → Obakusama (YW2)'
     },
@@ -1244,7 +1244,7 @@ const yokais = [
         japaneseName: 'Haku',
         tribe: 'Charming',
         rank: 'C',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Juice',
         evolution: null
     },
@@ -1280,7 +1280,7 @@ const yokais = [
         japaneseName: 'Urakyunta',
         tribe: 'Charming',
         rank: 'A',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Hamburgers',
         evolution: null
     },
@@ -1364,7 +1364,7 @@ const yokais = [
         japaneseName: 'Urayamashirou',
         tribe: 'Heartful',
         rank: 'E',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Noodles',
         evolution: null
     },
@@ -1400,7 +1400,7 @@ const yokais = [
         japaneseName: 'Kuiijii',
         tribe: 'Heartful',
         rank: 'B',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Rice Balls',
         evolution: null
     },
@@ -1460,7 +1460,7 @@ const yokais = [
         japaneseName: 'ZEKKOUchou',
         tribe: 'Heartful',
         rank: 'D',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Juice',
         evolution: null
     },
@@ -1544,7 +1544,7 @@ const yokais = [
         japaneseName: 'Fukurojijii',
         tribe: 'Heartful',
         rank: 'B',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Curry',
         evolution: null
     },
@@ -1580,7 +1580,7 @@ const yokais = [
         japaneseName: 'Raioton',
         tribe: 'Heartful',
         rank: 'A',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Sushi (YW1: Meat)',
         evolution: null
     },
@@ -1592,7 +1592,7 @@ const yokais = [
         japaneseName: 'Zetsuojii',
         tribe: 'Heartful',
         rank: 'S',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Sushi (YW1: Meat)',
         evolution: null
     },
@@ -1640,7 +1640,7 @@ const yokais = [
         japaneseName: 'Ekohiiki',
         tribe: 'Shady',
         rank: 'D',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Cheap Sweets',
         evolution: null
     },
@@ -1688,7 +1688,7 @@ const yokais = [
         japaneseName: 'Negativoon',
         tribe: 'Shady',
         rank: 'E',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Juice',
         evolution: 'Lv. 17 → Moskevil'
     },
@@ -1700,7 +1700,7 @@ const yokais = [
         japaneseName: 'Janegavoon',
         tribe: 'Shady',
         rank: 'C',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Juice',
         evolution: null
     },
@@ -1712,7 +1712,7 @@ const yokais = [
         japaneseName: 'Kayukayu',
         tribe: 'Shady',
         rank: 'A',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Juice',
         evolution: null
     },
@@ -1820,7 +1820,7 @@ const yokais = [
         japaneseName: 'Amanojaku',
         tribe: 'Shady',
         rank: 'B',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Chinese Food',
         evolution: null
     },
@@ -1868,7 +1868,7 @@ const yokais = [
         japaneseName: 'Uma',
         tribe: 'Shady',
         rank: 'A',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Vegetables',
         evolution: null
     },
@@ -1964,7 +1964,7 @@ const yokais = [
         japaneseName: 'Yokodori',
         tribe: 'Eerie',
         rank: 'E',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Hamburgers',
         evolution: 'Lv. 23 → Bunbundori (YW2)'
     },
@@ -1976,7 +1976,7 @@ const yokais = [
         japaneseName: 'Haraodori',
         tribe: 'Eerie',
         rank: 'D',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Hamburgers',
         evolution: null
     },
@@ -2120,7 +2120,7 @@ const yokais = [
         japaneseName: 'Kuchidakeonna',
         tribe: 'Eerie',
         rank: 'D',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Bread',
         evolution: null
     },
@@ -2132,7 +2132,7 @@ const yokais = [
         japaneseName: 'Otsubonesama',
         tribe: 'Eerie',
         rank: 'C',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Bread',
         evolution: null
     },
@@ -2180,7 +2180,7 @@ const yokais = [
         japaneseName: 'Osuberisama',
         tribe: 'Eerie',
         rank: 'A',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Snacks',
         evolution: null
     },
@@ -2192,7 +2192,7 @@ const yokais = [
         japaneseName: 'Oshisshou',
         tribe: 'Eerie',
         rank: 'A',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Snacks',
         evolution: null
     },
@@ -2204,7 +2204,7 @@ const yokais = [
         japaneseName: 'Shiwakuchan',
         tribe: 'Eerie',
         rank: 'B',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Milk',
         evolution: '+ Ageless Powder ↓ Everfore'
     },
@@ -2216,7 +2216,7 @@ const yokais = [
         japaneseName: 'Oiran',
         tribe: 'Eerie',
         rank: 'S',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Milk',
         evolution: null
     },
@@ -2228,7 +2228,7 @@ const yokais = [
         japaneseName: 'Fujimigozen',
         tribe: 'Eerie',
         rank: 'S',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Milk',
         evolution: null
     },
@@ -2252,7 +2252,7 @@ const yokais = [
         japaneseName: 'Onemunosei',
         tribe: 'Eerie',
         rank: 'S',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Cheap Sweets',
         evolution: null
     },
@@ -2312,7 +2312,7 @@ const yokais = [
         japaneseName: 'Utaunagi',
         tribe: 'Slippery',
         rank: 'C',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Meat',
         evolution: null
     },
@@ -2336,7 +2336,7 @@ const yokais = [
         japaneseName: 'Kiraigyo',
         tribe: 'Slippery',
         rank: 'D',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Meat',
         evolution: 'Lv. 27 → Rageon'
     },
@@ -2348,7 +2348,7 @@ const yokais = [
         japaneseName: 'Zouo',
         tribe: 'Slippery',
         rank: 'B',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Meat',
         evolution: null
     },
@@ -2408,7 +2408,7 @@ const yokais = [
         japaneseName: 'Boobou',
         tribe: 'Slippery',
         rank: 'C',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Cheap Sweets',
         evolution: null
     },
@@ -2420,7 +2420,7 @@ const yokais = [
         japaneseName: 'Shidoromodoro',
         tribe: 'Slippery',
         rank: 'B',
-        attribute: 'Absorption',
+        attribute: 'Drain',
         favoriteFood: 'Cheap Sweets',
         evolution: null
     },
@@ -2528,7 +2528,7 @@ const yokais = [
         japaneseName: 'Mamushigyouji',
         tribe: 'Slippery',
         rank: 'A',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Seafood',
         evolution: null
     },
@@ -2540,7 +2540,7 @@ const yokais = [
         japaneseName: 'Orochi',
         tribe: 'Slippery',
         rank: 'S',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Seafood',
         evolution: null
     },
@@ -2612,7 +2612,7 @@ const yokais = [
         japaneseName: 'Yamabuki',
         tribe: 'Tough',
         rank: 'S',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Meat',
         evolution: null
     },
@@ -2660,7 +2660,7 @@ const yokais = [
         japaneseName: 'Topanyan',
         tribe: 'Charming',
         rank: 'A',
-        attribute: 'Thunder',
+        attribute: 'Lightning',
         favoriteFood: 'Chocobo (YW1: Seafood)',
         evolution: null
     },

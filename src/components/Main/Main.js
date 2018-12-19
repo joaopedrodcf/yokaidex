@@ -14,11 +14,14 @@ class Main extends Component {
             rank: [],
             attribute: [],
             name: '',
+            sort: '',
+            orderAsc: true,
             yokais: yokaisJson
         };
 
         this.handleCheckbox = this.handleCheckbox.bind(this);
         this.handleText = this.handleText.bind(this);
+        this.handleSort = this.handleSort.bind(this);
     }
 
     handleCheckbox(event) {
@@ -42,8 +45,26 @@ class Main extends Component {
         this.setState({ name: event.target.value.toLowerCase() });
     }
 
+    handleSort(event) {
+        const thtype = event.target.getAttribute('thtype');
+        const { sort, orderAsc } = this.state;
+
+        this.setState({
+            sort: thtype,
+            orderAsc: sort === thtype ? !orderAsc : true
+        });
+    }
+
     render() {
-        const { tribe, rank, attribute, name, yokais } = this.state;
+        const {
+            tribe,
+            rank,
+            attribute,
+            name,
+            sort,
+            orderAsc,
+            yokais
+        } = this.state;
         const tribesCheckbox = [
             'Brave',
             'Charming',
@@ -55,16 +76,16 @@ class Main extends Component {
             'Shady',
             'Wicked'
         ];
-        const ranksCheckbox = ['S', 'A', 'B', 'C', 'D', 'E'];
+        const ranksCheckbox = ['A', 'B', 'C', 'D', 'E', 'S'];
         const attributesCheckbox = [
-            'Fire',
-            'Water',
-            'Lightning',
-            'Earth',
-            'Ice',
-            'Wind',
             'Drain',
-            'Restoration'
+            'Earth',
+            'Fire',
+            'Ice',
+            'Lightning',
+            'Restoration',
+            'Water',
+            'Wind'
         ];
 
         return (
@@ -138,14 +159,51 @@ class Main extends Component {
                     <Table>
                         <thead>
                             <tr>
-                                <th>Name</th>
-                                <th>Tribe</th>
-                                <th>Rank</th>
-                                <th>Attribute</th>
+                                <th onClick={this.handleSort} thtype="name">
+                                    Name
+                                </th>
+                                <th onClick={this.handleSort} thtype="tribe">
+                                    Tribe
+                                </th>
+                                <th onClick={this.handleSort} thtype="rank">
+                                    Rank
+                                </th>
+                                <th
+                                    onClick={this.handleSort}
+                                    thtype="attribute"
+                                >
+                                    Attribute
+                                </th>
                             </tr>
                         </thead>
                         <tbody>
                             {yokais
+                                .sort((a, b) => {
+                                    if (sort === '') {
+                                        return 0;
+                                    }
+
+                                    const nameA = a[sort].toLowerCase();
+                                    const nameB = b[sort].toLowerCase();
+
+                                    if (orderAsc) {
+                                        if (nameA < nameB) {
+                                            return -1;
+                                        }
+                                        if (nameA > nameB) {
+                                            return 1;
+                                        }
+                                    } else {
+                                        if (nameA > nameB) {
+                                            return -1;
+                                        }
+                                        if (nameA < nameB) {
+                                            return 1;
+                                        }
+                                    }
+
+                                    return 0;
+                                })
                                 .filter(yokai => {
                                     let aux = true;
 
