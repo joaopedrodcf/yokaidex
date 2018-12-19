@@ -14,7 +14,7 @@ export const Container = styled.div`
         height: 48px;
         width: 100%;
         color: #212121;
-        margin: 24px 0;
+        margin: 12px 0 24px 0;
     }
 
     h5 {
@@ -27,7 +27,7 @@ export const Container = styled.div`
 export const Filters = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 24px 0;
+    margin: 12px 0 24px 0;
 `;
 
 export const Filter = styled.div`

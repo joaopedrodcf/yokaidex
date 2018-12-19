@@ -91,6 +91,17 @@ class Main extends Component {
         return (
             <Container>
                 <form>
+                    <label htmlFor="name">
+                        <h5>Search by name:</h5>
+                    </label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        required
+                        value={this.state.name}
+                        onChange={this.handleText}
+                    />
                     <div>
                         <h5>Filters:</h5>
                     </div>
@@ -147,15 +158,6 @@ class Main extends Component {
                             ))}
                         </Filter>
                     </Filters>
-                    <label htmlFor="name">Search by name:</label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        required
-                        value={this.state.name}
-                        onChange={this.handleText}
-                    />
                     <Table>
                         <thead>
                             <tr>
