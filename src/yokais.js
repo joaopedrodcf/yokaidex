@@ -9,7 +9,9 @@ const yokais = [
         rank: 'E',
         attribute: 'Fire',
         favoriteFood: 'Rice Balls',
-        evolution: 'Lv. 18 → Undy'
+        evolution: 'Lv. 18 → Undy',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545337580/Yokai/Buyojinbo_YW2-001.png'
     },
     {
         yw: 2,
@@ -21,7 +23,9 @@ const yokais = [
         rank: 'C',
         attribute: 'Fire',
         favoriteFood: 'Rice Balls',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545338263/Yokai/Garakinbo_YW2-003.png'
     },
     {
         yw: 3,
