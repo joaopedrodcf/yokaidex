@@ -10,7 +10,9 @@ import {
     faUserCircle,
     faHome,
     faEnvelope,
-    faPen
+    faPen,
+    faArrowUp,
+    faArrowDown
 } from '@fortawesome/free-solid-svg-icons';
 
 import * as serviceWorker from './serviceWorker';
@@ -25,7 +27,9 @@ library.add(
     faUserCircle,
     faHome,
     faEnvelope,
-    faPen
+    faPen,
+    faArrowUp,
+    faArrowDown
 );
 
 ReactDOM.render(<App />, document.getElementById('root'));

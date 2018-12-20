@@ -2,6 +2,7 @@
 /* eslint-disable react/no-access-state-in-setstate */
 
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container, Filter, Filters, Table } from './style';
 import yokaisJson from '../../yokais';
 
@@ -51,7 +52,7 @@ class Main extends Component {
     }
 
     handleSort(event) {
-        const thtype = event.target.getAttribute('thtype');
+        const thtype = event.currentTarget.getAttribute('thtype');
         const { sort, orderAsc } = this.state;
 
         this.setState({
@@ -171,20 +172,59 @@ class Main extends Component {
                     <Table>
                         <thead>
                             <tr>
-                                <th onClick={this.handleSort} thtype="name">
-                                    Name
+                                <th>
+                                    <th onClick={this.handleSort} thtype="name">
+                                        Name{' '}
+                                        {sort === 'name' ? (
+                                            <FontAwesomeIcon
+                                                icon={
+                                                    orderAsc
+                                                        ? 'arrow-down'
+                                                        : 'arrow-up'
+                                                }
+                                            />
+                                        ) : null}
+                                    </th>
                                 </th>
+
                                 <th onClick={this.handleSort} thtype="tribe">
                                     Tribe
+                                    {sort === 'tribe' ? (
+                                        <FontAwesomeIcon
+                                            icon={
+                                                orderAsc
+                                                    ? 'arrow-down'
+                                                    : 'arrow-up'
+                                            }
+                                        />
+                                    ) : null}
                                 </th>
                                 <th onClick={this.handleSort} thtype="rank">
                                     Rank
+                                    {sort === 'rank' ? (
+                                        <FontAwesomeIcon
+                                            icon={
+                                                orderAsc
+                                                    ? 'arrow-down'
+                                                    : 'arrow-up'
+                                            }
+                                        />
+                                    ) : null}
                                 </th>
                                 <th
                                     onClick={this.handleSort}
                                     thtype="attribute"
                                 >
                                     Attribute
+                                    {sort === 'attribute' ? (
+                                        <FontAwesomeIcon
+                                            icon={
+                                                orderAsc
+                                                    ? 'arrow-down'
+                                                    : 'arrow-up'
+                                            }
+                                        />
+                                    ) : null}
                                 </th>
                             </tr>
                         </thead>
