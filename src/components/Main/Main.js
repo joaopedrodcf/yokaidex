@@ -22,6 +22,11 @@ class Main extends Component {
         this.handleCheckbox = this.handleCheckbox.bind(this);
         this.handleText = this.handleText.bind(this);
         this.handleSort = this.handleSort.bind(this);
+        this.handleResetFilter = this.handleResetFilter.bind(this);
+    }
+
+    handleResetFilter() {
+        this.setState({ tribe: [], rank: [], attribute: [] });
     }
 
     handleCheckbox(event) {
@@ -104,6 +109,11 @@ class Main extends Component {
                     />
                     <div>
                         <h5>Filters:</h5>
+                    </div>
+                    <div>
+                        <button type="button" onClick={this.handleResetFilter}>
+                            Reset Filters
+                        </button>
                     </div>
                     <Filters>
                         <Filter>
