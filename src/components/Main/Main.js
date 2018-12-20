@@ -286,7 +286,15 @@ class Main extends Component {
                                 })
                                 .map(yokai => (
                                     <tr key={yokai.name}>
-                                        <td>{yokai.name}</td>
+                                        <td>
+                                            <img
+                                                src={yokai.image}
+                                                alt=""
+                                                height="42"
+                                                width="42"
+                                            />
+                                            {yokai.name}
+                                        </td>
                                         <td>{yokai.tribe}</td>
                                         <td>{yokai.rank}</td>
                                         <td>{yokai.attribute}</td>
