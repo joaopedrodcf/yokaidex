@@ -56,7 +56,7 @@ class Main extends Component {
 
         this.setState({
             sort: thtype,
-            orderAsc: sort === thtype ? !orderAsc : true
+            orderAsc: sort === thtype || sort === '' ? !orderAsc : true
         });
     }
 
