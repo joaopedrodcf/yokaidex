@@ -11,7 +11,7 @@ const yokais = [
         favoriteFood: 'Rice Balls',
         evolution: 'Lv. 18 → Undy',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545337580/Yokai/Buyojinbo_YW2-001.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pandle.png'
     },
     {
         yw: 2,
@@ -25,7 +25,7 @@ const yokais = [
         favoriteFood: 'Rice Balls',
         evolution: null,
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545338263/Yokai/Garakinbo_YW2-003.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/undy.png'
     },
     {
         yw: 3,
@@ -37,19 +37,23 @@ const yokais = [
         rank: 'B',
         attribute: 'Earth',
         favoriteFood: 'Rice Balls',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tanbo.png'
     },
     {
         yw: 4,
         yw2: 4,
-        name: 'Cuttanah',
+        name: 'Cutta-nah',
         japanese: 'ダラケ刀',
         japaneseName: 'Daraketo',
         tribe: 'Brave',
         rank: 'E',
         attribute: 'Wind',
         favoriteFood: 'Juice',
-        evolution: 'Lv. 20 → Cutta-nah-nah'
+        evolution: 'Lv. 20 → Cutta-nah-nah',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cutta-nah.png'
     },
     {
         yw: 5,
@@ -61,7 +65,9 @@ const yokais = [
         rank: 'C',
         attribute: 'Wind',
         favoriteFood: 'Juice',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cutta-nah-nah.png'
     },
     {
         yw: 6,
@@ -73,7 +79,9 @@ const yokais = [
         rank: 'B',
         attribute: 'Ice',
         favoriteFood: 'Juice',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/slacka-slash.png'
     },
     {
         yw: 7,
@@ -85,7 +93,9 @@ const yokais = [
         rank: 'D',
         attribute: 'Earth',
         favoriteFood: 'Rice Balls',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mochismo.png'
     },
     {
         yw: 8,
@@ -97,7 +107,9 @@ const yokais = [
         rank: 'D',
         attribute: 'Fire',
         favoriteFood: 'Rice Balls',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/minochi.png'
     },
     {
         yw: 9,
@@ -109,7 +121,9 @@ const yokais = [
         rank: 'D',
         attribute: 'Lightning',
         favoriteFood: 'Vegetables',
-        evolution: '+ Armsman ↓ Reuknight'
+        evolution: '+ Armsman ↓ Reuknight',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/helmsman.png'
     },
     {
         yw: 10,
@@ -121,7 +135,9 @@ const yokais = [
         rank: 'A',
         attribute: 'Lightning',
         favoriteFood: 'Vegetables',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/reuknight.png'
     },
     {
         yw: 11,
@@ -133,7 +149,9 @@ const yokais = [
         rank: 'S',
         attribute: 'Drain',
         favoriteFood: 'Vegetables',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/corptain.png'
     },
     {
         yw: 12,
@@ -145,7 +163,9 @@ const yokais = [
         rank: 'D',
         attribute: 'Fire',
         favoriteFood: 'Meat',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/blazion.png'
     },
     {
         yw: 13,
@@ -157,7 +177,9 @@ const yokais = [
         rank: 'B',
         attribute: 'Earth',
         favoriteFood: 'Meat',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/quaken.png'
     },
     {
         yw: 14,
@@ -169,7 +191,9 @@ const yokais = [
         rank: 'A',
         attribute: 'Lightning',
         favoriteFood: 'Meat',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/siro.png'
     },
     {
         yw: 15,
@@ -182,7 +206,9 @@ const yokais = [
         attribute: 'Fire',
         favoriteFood: 'Seafood',
         evolution:
-            '+ Legendary Blade ↓ Sheen + Cursed Blade ↓ Snee + Holy Blade ↓ Gleam'
+            '+ Legendary Blade ↓ Sheen + Cursed Blade ↓ Snee + Holy Blade ↓ Gleam',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/chansin.png'
     },
     {
         yw: 16,
@@ -194,7 +220,9 @@ const yokais = [
         rank: 'A',
         attribute: 'Wind',
         favoriteFood: 'Seafood',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sheen.png'
     },
     {
         yw: 17,
@@ -206,7 +234,9 @@ const yokais = [
         rank: 'A',
         attribute: 'Drain',
         favoriteFood: 'Seafood',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/snee.png'
     },
     {
         yw: 18,
@@ -218,7 +248,9 @@ const yokais = [
         rank: 'S',
         attribute: 'Lightning',
         favoriteFood: 'Seafood',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/gleam.png'
     },
     {
         yw: 19,
@@ -230,7 +262,9 @@ const yokais = [
         rank: 'B',
         attribute: 'Ice',
         favoriteFood: 'Chinese Food',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/benkei.png'
     },
     {
         yw: 20,
@@ -242,7 +276,9 @@ const yokais = [
         rank: 'B',
         attribute: 'Lightning',
         favoriteFood: 'Chinese Food',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/b3-nk1.png'
     },
     {
         yw: 21,
@@ -254,7 +290,9 @@ const yokais = [
         rank: 'B',
         attribute: 'Ice',
         favoriteFood: 'Soba (YW1: Rice Balls)',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sushiyama.png'
     },
     {
         yw: 22,
@@ -266,7 +304,9 @@ const yokais = [
         rank: 'A',
         attribute: 'Fire',
         favoriteFood: 'Soba (YW1: Rice Balls)',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/kapunki.png'
     },
     {
         yw: 23,
@@ -278,7 +318,9 @@ const yokais = [
         rank: 'B',
         attribute: 'Earth',
         favoriteFood: 'Vegetables',
-        evolution: '+ General`s Soul ↓ Beetall'
+        evolution: '+ General`s Soul ↓ Beetall',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/beetler.png'
     },
     {
         yw: 24,
@@ -290,7 +332,9 @@ const yokais = [
         rank: 'S',
         attribute: 'Ice',
         favoriteFood: 'Vegetables',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/beetall.png'
     },
     {
         yw: 25,
@@ -302,7 +346,9 @@ const yokais = [
         rank: 'S',
         attribute: 'Ice',
         favoriteFood: 'Vegetables',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/Cruncha.png'
     },
     {
         yw: 26,
@@ -314,7 +360,9 @@ const yokais = [
         rank: 'A',
         attribute: 'Fire',
         favoriteFood: 'Meat',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/zerberker.png'
     },
     {
         yw: 27,
@@ -326,7 +374,9 @@ const yokais = [
         rank: 'S',
         attribute: 'Ice',
         favoriteFood: 'Meat',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/snartle.png'
     },
     {
         yw: 28,
@@ -338,7 +388,9 @@ const yokais = [
         rank: 'E',
         attribute: 'Water',
         favoriteFood: 'Seafood',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/snotsolong.png'
     },
     {
         yw: 29,
@@ -350,7 +402,9 @@ const yokais = [
         rank: 'D',
         attribute: 'Ice',
         favoriteFood: 'Seafood',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/duchoo.png'
     },
     {
         yw: 30,
@@ -362,7 +416,9 @@ const yokais = [
         rank: 'E',
         attribute: 'Wind',
         favoriteFood: 'Cheap Sweets',
-        evolution: 'Lv. 21 → Mezon Dowasure (YW2)'
+        evolution: 'Lv. 21 → Mezon Dowasure (YW2)',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/wazzat.png'
     },
     {
         yw: 31,
@@ -374,7 +430,9 @@ const yokais = [
         rank: 'E',
         attribute: 'Lightning',
         favoriteFood: 'Cheap Sweets',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dummkap.png'
     },
     {
         yw: 32,
@@ -386,7 +444,9 @@ const yokais = [
         rank: 'E',
         attribute: 'Restoration',
         favoriteFood: 'Hamburgers',
-        evolution: 'Lv. 15 → N`more'
+        evolution: 'Lv. 15 → N`more',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dwanna.png'
     },
     {
         yw: 33,
@@ -398,7 +458,9 @@ const yokais = [
         rank: 'C',
         attribute: 'Restoration',
         favoriteFood: 'Hamburgers',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545503878/Yokai/yokais/nmore.png'
     },
     {
         yw: 34,
@@ -410,7 +472,9 @@ const yokais = [
         rank: 'C',
         attribute: 'Earth',
         favoriteFood: 'Hamburgers',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545503900/Yokai/yokais/qwit.png'
     },
     {
         yw: 35,
@@ -422,7 +486,9 @@ const yokais = [
         rank: 'D',
         attribute: 'Drain',
         favoriteFood: 'Hamburgers',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545504000/Yokai/yokais/lafalotta.png'
     },
     {
         yw: 36,
@@ -2570,7 +2636,9 @@ const yokais = [
         rank: 'S',
         attribute: 'Wind',
         favoriteFood: 'Seafood',
-        evolution: null
+        evolution: null,
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shogunyan.png'
     },
     {
         yw: 215,
