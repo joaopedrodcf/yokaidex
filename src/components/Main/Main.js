@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container, Filter, Filters, Table } from './style';
 import yokaisJson from '../../yokais';
+import Card from '../Card';
 
 class Main extends Component {
     constructor(props) {
@@ -96,6 +97,7 @@ class Main extends Component {
 
         return (
             <Container>
+                <Card />
                 <form>
                     <label htmlFor="name">
                         <h5>Search by name:</h5>

@@ -12,7 +12,8 @@ import {
     faEnvelope,
     faPen,
     faArrowUp,
-    faArrowDown
+    faArrowDown,
+    faArrowRight
 } from '@fortawesome/free-solid-svg-icons';
 
 import * as serviceWorker from './serviceWorker';
@@ -29,7 +30,8 @@ library.add(
     faEnvelope,
     faPen,
     faArrowUp,
-    faArrowDown
+    faArrowDown,
+    faArrowRight
 );
 
 ReactDOM.render(<App />, document.getElementById('root'));
