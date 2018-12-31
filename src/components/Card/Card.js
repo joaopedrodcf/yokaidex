@@ -1,15 +1,33 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container, Table, Column, Row } from './style';
+import tribes from '../../tribes';
+import attributes from '../../attributes';
+import ranks from '../../ranks';
 
-const Card = () => (
+const Card = ({
+    name,
+    tribe,
+    image,
+    attribute,
+    rank,
+    yokai_number_1,
+    yokai_number_2,
+    yokai_number_3,
+    yokai_food_1,
+    yokai_food_2,
+    yokai_food_3,
+    base_stats,
+    hp,
+    spirit,
+    power,
+    speed,
+    defence
+}) => (
     <Container>
-        <h2>Pandle</h2>
+        <h2>{name}</h2>
 
-        <img
-            src="https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pandle.png"
-            alt=""
-        />
+        <img src={image} alt="" />
 
         <Table>
             <thead>
@@ -23,7 +41,7 @@ const Card = () => (
                 <tr>
                     <td>
                         <img
-                            src="https://res.cloudinary.com/dcrcweea8/image/upload/v1545341843/Yokai/tribes/brave.png"
+                            src={tribes.find(trb => tribe === trb.name).image}
                             alt=""
                             height="35"
                             width="35"
@@ -31,7 +49,7 @@ const Card = () => (
                     </td>
                     <td>
                         <img
-                            src="https://res.cloudinary.com/dcrcweea8/image/upload/v1545345803/Yokai/attributes/fire.png"
+                            src={ranks.find(rnk => rank === rnk.name).image}
                             alt=""
                             height="35"
                             width="35"
@@ -39,7 +57,10 @@ const Card = () => (
                     </td>
                     <td>
                         <img
-                            src="https://res.cloudinary.com/dcrcweea8/image/upload/v1545345803/Yokai/ranks/e.png"
+                            src={
+                                attributes.find(atr => attribute === atr.name)
+                                    .image
+                            }
                             alt=""
                             height="35"
                             width="35"
@@ -53,12 +74,54 @@ const Card = () => (
                 <tr>
                     <th>Yokai watch 1</th>
                     <th>Yokai watch 2</th>
+                    <th>Yokai watch 3</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>1</td>
-                    <td>1</td>
+                    <td>{yokai_number_1}</td>
+                    <td>{yokai_number_2}</td>
+                    <td>{yokai_number_3}</td>
+                </tr>
+            </tbody>
+        </Table>
+
+        <Table>
+            <thead>
+                <tr>
+                    <th>Favorite food</th>
+                    <th>Favorite food</th>
+                    <th>Favorite food</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{yokai_food_1}</td>
+                    <td>{yokai_food_2}</td>
+                    <td>{yokai_food_3}</td>
+                </tr>
+            </tbody>
+        </Table>
+
+        <Table>
+            <thead>
+                <tr>
+                    <th>base stats</th>
+                    <th>hp</th>
+                    <th>spirit</th>
+                    <th>power</th>
+                    <th>speed</th>
+                    <th>defence</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>{base_stats}</td>
+                    <td>{hp}</td>
+                    <td>{spirit}</td>
+                    <td>{power}</td>
+                    <td>{speed}</td>
+                    <td>{defence}</td>
                 </tr>
             </tbody>
         </Table>
@@ -96,18 +159,6 @@ const Card = () => (
                             </Column>
                         </Row>
                     </td>
-                </tr>
-            </tbody>
-        </Table>
-        <Table>
-            <thead>
-                <tr>
-                    <th>Favorite food</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Rice Balls</td>
                 </tr>
             </tbody>
         </Table>

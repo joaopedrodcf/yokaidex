@@ -3,6 +3,7 @@
 
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, Filter, Filters, Table } from './style';
 import yokaisJson from '../../yokais';
 import Card from '../Card';
@@ -97,7 +98,7 @@ class Main extends Component {
 
         return (
             <Container>
-                <Card />
+                <Card {...yokais[20]} />
                 <form>
                     <label htmlFor="name">
                         <h5>Search by name:</h5>
