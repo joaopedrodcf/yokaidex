@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './components/Header';
-import Main from './components/Main';
+import Routes from './Routes';
 import GlobalStyle from './globalStyle';
 
 const App = () => (
     <>
         <GlobalStyle />
         <Header />
-        <Main />
+        <Routes />
     </>
 );
 

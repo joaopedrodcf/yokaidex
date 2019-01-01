@@ -64,3 +64,7 @@ export const Table = styled.table`
         background-color: #f2f2f2;
     }
 `;
+
+export const InputContainer = styled.div`
+    padding: 6px 0;
+`;

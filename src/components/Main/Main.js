@@ -3,10 +3,9 @@
 
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import { Container, Filter, Filters, Table } from './style';
+import { Link } from 'react-router-dom';
+import { Container, Filter, Filters, Table, InputContainer } from './style';
 import yokaisJson from '../../yokais';
-import Card from '../Card';
 
 class Main extends Component {
     constructor(props) {
@@ -26,6 +25,10 @@ class Main extends Component {
         this.handleText = this.handleText.bind(this);
         this.handleSort = this.handleSort.bind(this);
         this.handleResetFilter = this.handleResetFilter.bind(this);
+    }
+
+    goTo(url) {
+        console.log(this.props.history.push(url));
     }
 
     handleResetFilter() {
@@ -98,7 +101,6 @@ class Main extends Component {
 
         return (
             <Container>
-                <Card {...yokais[20]} />
                 <form>
                     <label htmlFor="name">
                         <h5>Search by name:</h5>
@@ -123,7 +125,7 @@ class Main extends Component {
                         <Filter>
                             <h5>Tribes</h5>
                             {tribesCheckbox.map(type => (
-                                <div key={type}>
+                                <InputContainer key={type}>
                                     <input
                                         type="checkbox"
                                         checked={tribe.includes(
@@ -134,13 +136,13 @@ class Main extends Component {
                                         onChange={this.handleCheckbox}
                                     />
                                     <label htmlFor={type}>{type}</label>
-                                </div>
+                                </InputContainer>
                             ))}
                         </Filter>
                         <Filter>
                             <h5>Ranks</h5>
                             {ranksCheckbox.map(type => (
-                                <div key={type}>
+                                <InputContainer key={type}>
                                     <input
                                         type="checkbox"
                                         checked={rank.includes(
@@ -151,13 +153,13 @@ class Main extends Component {
                                         onChange={this.handleCheckbox}
                                     />
                                     <label htmlFor={type}>{type}</label>
-                                </div>
+                                </InputContainer>
                             ))}
                         </Filter>
                         <Filter>
                             <h5>Attribute</h5>
                             {attributesCheckbox.map(type => (
-                                <div key={type}>
+                                <InputContainer key={type}>
                                     <input
                                         type="checkbox"
                                         checked={attribute.includes(
@@ -168,7 +170,7 @@ class Main extends Component {
                                         onChange={this.handleCheckbox}
                                     />
                                     <label htmlFor={type}>{type}</label>
-                                </div>
+                                </InputContainer>
                             ))}
                         </Filter>
                     </Filters>
@@ -288,7 +290,12 @@ class Main extends Component {
                                     return aux;
                                 })
                                 .map(yokai => (
-                                    <tr key={yokai.name}>
+                                    <tr
+                                        key={yokai.name}
+                                        onClick={() =>
+                                            this.goTo(`/yokai/${yokai.name}`)
+                                        }
+                                    >
                                         <td>
                                             <img
                                                 src={yokai.image}
