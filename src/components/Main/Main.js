@@ -3,8 +3,14 @@
 
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
-import { Container, Filter, Filters, Table, InputContainer } from './style';
+import {
+    Container,
+    Filters,
+    Table,
+    InputContainer,
+    Collapsible,
+    Button
+} from './style';
 import yokaisJson from '../../yokais';
 
 class Main extends Component {
@@ -18,17 +24,19 @@ class Main extends Component {
             name: '',
             sort: '',
             orderAsc: true,
-            yokais: yokaisJson
+            yokais: yokaisJson,
+            isCollapsed: true
         };
 
         this.handleCheckbox = this.handleCheckbox.bind(this);
         this.handleText = this.handleText.bind(this);
         this.handleSort = this.handleSort.bind(this);
         this.handleResetFilter = this.handleResetFilter.bind(this);
+        this.handleCollapse = this.handleCollapse.bind(this);
     }
 
     goTo(url) {
-        console.log(this.props.history.push(url));
+        this.props.history.push(url);
     }
 
     handleResetFilter() {
@@ -66,6 +74,10 @@ class Main extends Component {
         });
     }
 
+    handleCollapse() {
+        this.setState({ isCollapsed: !this.state.isCollapsed });
+    }
+
     render() {
         const {
             tribe,
@@ -74,7 +86,8 @@ class Main extends Component {
             name,
             sort,
             orderAsc,
-            yokais
+            yokais,
+            isCollapsed
         } = this.state;
         const tribesCheckbox = [
             'Brave',
@@ -109,7 +122,6 @@ class Main extends Component {
                         type="text"
                         id="name"
                         name="name"
-                        required
                         value={this.state.name}
                         onChange={this.handleText}
                     />
@@ -117,13 +129,23 @@ class Main extends Component {
                         <h5>Filters:</h5>
                     </div>
                     <div>
-                        <button type="button" onClick={this.handleResetFilter}>
+                        <Button type="button" onClick={this.handleResetFilter}>
                             Reset Filters
-                        </button>
+                            <FontAwesomeIcon icon="trash-alt" />
+                        </Button>
                     </div>
                     <Filters>
-                        <Filter>
-                            <h5>Tribes</h5>
+                        <Collapsible isCollapsed={this.state.isCollapsed}>
+                            <Button onClick={this.handleCollapse} type="button">
+                                Tribes
+                                <FontAwesomeIcon
+                                    icon={
+                                        isCollapsed
+                                            ? 'chevron-down'
+                                            : 'chevron-up'
+                                    }
+                                />
+                            </Button>
                             {tribesCheckbox.map(type => (
                                 <InputContainer key={type}>
                                     <input
@@ -138,9 +160,18 @@ class Main extends Component {
                                     <label htmlFor={type}>{type}</label>
                                 </InputContainer>
                             ))}
-                        </Filter>
-                        <Filter>
-                            <h5>Ranks</h5>
+                        </Collapsible>
+                        <Collapsible isCollapsed={this.state.isCollapsed}>
+                            <Button onClick={this.handleCollapse} type="button">
+                                Ranks
+                                <FontAwesomeIcon
+                                    icon={
+                                        isCollapsed
+                                            ? 'chevron-down'
+                                            : 'chevron-up'
+                                    }
+                                />
+                            </Button>
                             {ranksCheckbox.map(type => (
                                 <InputContainer key={type}>
                                     <input
@@ -155,9 +186,18 @@ class Main extends Component {
                                     <label htmlFor={type}>{type}</label>
                                 </InputContainer>
                             ))}
-                        </Filter>
-                        <Filter>
-                            <h5>Attribute</h5>
+                        </Collapsible>
+                        <Collapsible isCollapsed={this.state.isCollapsed}>
+                            <Button onClick={this.handleCollapse} type="button">
+                                Attribute
+                                <FontAwesomeIcon
+                                    icon={
+                                        isCollapsed
+                                            ? 'chevron-down'
+                                            : 'chevron-up'
+                                    }
+                                />
+                            </Button>
                             {attributesCheckbox.map(type => (
                                 <InputContainer key={type}>
                                     <input
@@ -172,7 +212,7 @@ class Main extends Component {
                                     <label htmlFor={type}>{type}</label>
                                 </InputContainer>
                             ))}
-                        </Filter>
+                        </Collapsible>
                     </Filters>
                     <Table>
                         <thead>

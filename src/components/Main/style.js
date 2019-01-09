@@ -30,11 +30,6 @@ export const Filters = styled.div`
     margin: 12px 0 24px 0;
 `;
 
-export const Filter = styled.div`
-    display: flex;
-    flex-direction: column;
-`;
-
 export const Table = styled.table`
     margin: 24px 0;
     width: 100%;
@@ -67,4 +62,28 @@ export const Table = styled.table`
 
 export const InputContainer = styled.div`
     padding: 6px 0;
+`;
+
+export const Collapsible = styled.div`
+    display: flex;
+    flex-direction: column;
+
+    div {
+        display: ${props => (props.isCollapsed ? 'none' : 'block')};
+    }
+`;
+
+export const Button = styled.button`
+    border: 0;
+    border-radius: 4px;
+    padding: 12px 24px;
+    background-color: #ab000d;
+    color: #ffffff;
+    outline: none;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+    svg {
+        margin-left: 10px;
+    }
 `;

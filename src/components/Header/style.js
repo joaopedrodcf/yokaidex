@@ -20,6 +20,17 @@ const Container = styled.div`
         font-weight: 400;
         margin-left: 24px;
     }
+
+    a {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    a:hover {
+        text-decoration: none;
+        cursor: pointer;
+        color: #ffffff;
+    }
 `;
 
 export default Container;
