@@ -116,7 +116,7 @@ class Main extends Component {
             <Container>
                 <form>
                     <label htmlFor="name">
-                        <h5>Search by name:</h5>
+                        <h2>Find your yo-kai</h2>
                     </label>
                     <input
                         type="text"
@@ -126,7 +126,7 @@ class Main extends Component {
                         onChange={this.handleText}
                     />
                     <div>
-                        <h5>Filters:</h5>
+                        <h2>Filter</h2>
                     </div>
                     <div>
                         <Button type="button" onClick={this.handleResetFilter}>

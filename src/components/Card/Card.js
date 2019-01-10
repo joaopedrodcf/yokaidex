@@ -27,7 +27,7 @@ const Card = ({
     <Container>
         <h2>{name}</h2>
 
-        <img src={image} alt="" />
+        <img src={image} alt="" height="280" width="280" />
 
         <Table>
             <thead>

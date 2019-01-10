@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
     background-color: #ffffff;
     color: #000000;
-    padding: 56px 24px 24px 24px;
+    padding: 24px 24px 24px 24px;
+    margin-top: 56px;
     font-size: 16px;
     display: flex;
     flex-direction: column;
@@ -39,7 +40,7 @@ export const Table = styled.table`
     th,
     td {
         text-align: center;
-        padding: 4px;
+        padding: 8px;
     }
 
     tr:nth-child(even) {
