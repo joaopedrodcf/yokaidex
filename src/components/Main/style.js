@@ -45,6 +45,11 @@ export const Table = styled.table`
         display: block;
     }
 
+    td div {
+        display: flex;
+        flex-direction: column;
+    }
+
     th {
         background-color: #ab000d;
         color: #ffffff;

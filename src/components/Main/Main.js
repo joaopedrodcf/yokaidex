@@ -340,8 +340,8 @@ class Main extends Component {
                                             <img
                                                 src={yokai.image}
                                                 alt=""
-                                                height="42"
-                                                width="42"
+                                                height="62"
+                                                width="62"
                                             />
                                             {yokai.name}
                                         </td>
