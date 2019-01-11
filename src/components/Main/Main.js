@@ -8,10 +8,10 @@ import {
     Filters,
     Table,
     InputContainer,
-    Collapsible,
-    Button
+    Collapsible
 } from './style';
 import yokaisJson from '../../yokais';
+import Button from '../shared/Button';
 
 class Main extends Component {
     constructor(props) {
@@ -129,15 +129,22 @@ class Main extends Component {
                         <h2>Filter</h2>
                     </div>
                     <div>
-                        <Button type="button" onClick={this.handleResetFilter}>
-                            Reset Filters
+                        <Button
+                            type="button"
+                            onClick={this.handleResetFilter}
+                            label="
+                            Reset Filters"
+                        >
                             <FontAwesomeIcon icon="trash-alt" />
                         </Button>
                     </div>
                     <Filters>
                         <Collapsible isCollapsed={this.state.isCollapsed}>
-                            <Button onClick={this.handleCollapse} type="button">
-                                Tribes
+                            <Button
+                                onClick={this.handleCollapse}
+                                type="button"
+                                label="Tribes"
+                            >
                                 <FontAwesomeIcon
                                     icon={
                                         isCollapsed
@@ -162,8 +169,11 @@ class Main extends Component {
                             ))}
                         </Collapsible>
                         <Collapsible isCollapsed={this.state.isCollapsed}>
-                            <Button onClick={this.handleCollapse} type="button">
-                                Ranks
+                            <Button
+                                onClick={this.handleCollapse}
+                                type="button"
+                                label="Ranks"
+                            >
                                 <FontAwesomeIcon
                                     icon={
                                         isCollapsed
@@ -188,8 +198,11 @@ class Main extends Component {
                             ))}
                         </Collapsible>
                         <Collapsible isCollapsed={this.state.isCollapsed}>
-                            <Button onClick={this.handleCollapse} type="button">
-                                Attribute
+                            <Button
+                                onClick={this.handleCollapse}
+                                type="button"
+                                label="Attributes"
+                            >
                                 <FontAwesomeIcon
                                     icon={
                                         isCollapsed
