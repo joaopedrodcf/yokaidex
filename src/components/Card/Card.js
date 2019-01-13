@@ -4,6 +4,7 @@ import { Container, Table, Column, Row } from './style';
 import tribes from '../../tribes';
 import attributes from '../../attributes';
 import ranks from '../../ranks';
+import Image from '../shared/Image';
 
 const Card = ({
     name,
@@ -27,7 +28,7 @@ const Card = ({
     <Container>
         <h2>{name}</h2>
 
-        <img src={image} alt="" height="280" width="280" />
+        <Image imageUrl={image} altText={name} size="large" />
 
         <Table>
             <thead>
@@ -40,30 +41,31 @@ const Card = ({
             <tbody>
                 <tr>
                     <td>
-                        <img
-                            src={tribes.find(trb => tribe === trb.name).image}
-                            alt=""
-                            height="35"
-                            width="35"
+                        <Image
+                            imageUrl={
+                                tribes.find(trb => tribe === trb.name).image
+                            }
+                            altText={tribe}
+                            size="small"
                         />
                     </td>
                     <td>
-                        <img
-                            src={ranks.find(rnk => rank === rnk.name).image}
-                            alt=""
-                            height="35"
-                            width="35"
+                        <Image
+                            imageUrl={
+                                ranks.find(rnk => rank === rnk.name).image
+                            }
+                            altText={rank}
+                            size="small"
                         />
                     </td>
                     <td>
-                        <img
-                            src={
+                        <Image
+                            imageUrl={
                                 attributes.find(atr => attribute === atr.name)
                                     .image
                             }
-                            alt=""
-                            height="35"
-                            width="35"
+                            altText={attribute}
+                            size="small"
                         />
                     </td>
                 </tr>
@@ -106,12 +108,12 @@ const Card = ({
         <Table>
             <thead>
                 <tr>
-                    <th>base stats</th>
-                    <th>hp</th>
-                    <th>spirit</th>
-                    <th>power</th>
-                    <th>speed</th>
-                    <th>defence</th>
+                    <th>BASE STATS</th>
+                    <th>HP</th>
+                    <th>SPR</th>
+                    <th>STR</th>
+                    <th>SPD</th>
+                    <th>DEF</th>
                 </tr>
             </thead>
             <tbody>
@@ -136,11 +138,10 @@ const Card = ({
                     <td>
                         <Row>
                             <Column>
-                                <img
-                                    src="https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pandle.png"
-                                    alt=""
-                                    height="64"
-                                    width="64"
+                                <Image
+                                    imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pandle.png"
+                                    altText=""
+                                    size="medium"
                                 />
                                 Pandle
                             </Column>
@@ -149,11 +150,10 @@ const Card = ({
                                 <FontAwesomeIcon icon="arrow-right" />
                             </Row>
                             <Column>
-                                <img
-                                    src="https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/undy.png"
-                                    alt=""
-                                    height="64"
-                                    width="64"
+                                <Image
+                                    imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/undy.png"
+                                    altText=""
+                                    size="medium"
                                 />
                                 Undy
                             </Column>

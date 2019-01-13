@@ -12,6 +12,7 @@ import {
 } from './style';
 import yokaisJson from '../../yokais';
 import Button from '../shared/Button';
+import Image from '../shared/Image';
 
 class Main extends Component {
     constructor(props) {
@@ -350,11 +351,10 @@ class Main extends Component {
                                         }
                                     >
                                         <td>
-                                            <img
-                                                src={yokai.image}
-                                                alt=""
-                                                height="62"
-                                                width="62"
+                                            <Image
+                                                imageUrl={yokai.image}
+                                                altText={yokai.name}
+                                                size="medium"
                                             />
                                             {yokai.name}
                                         </td>
