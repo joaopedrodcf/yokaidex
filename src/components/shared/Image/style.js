@@ -5,6 +5,7 @@ const SCImage = styled.img`
         if (props.size === 'small') return '35px';
         if (props.size === 'medium') return '62px';
         if (props.size === 'large') return '150px';
+        if (props.size === 'special') return '25px';
 
         return '35px';
     }};
@@ -13,6 +14,7 @@ const SCImage = styled.img`
         if (props.size === 'small') return '35px';
         if (props.size === 'medium') return '62px';
         if (props.size === 'large') return '150px';
+        if (props.size === 'special') return '100px';
 
         return '35px';
     }};

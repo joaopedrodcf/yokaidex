@@ -1,9 +1,10 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container, Table, Column, Row } from './style';
-import tribes from '../../tribes';
+import tribes from '../../mocks/tribes';
 import attributes from '../../attributes';
-import ranks from '../../ranks';
+import ranks from '../../mocks/ranks';
+import foods from '../../mocks/foods';
 import Image from '../shared/Image';
 
 const Card = ({
@@ -98,9 +99,36 @@ const Card = ({
             </thead>
             <tbody>
                 <tr>
-                    <td>{yokai_food_1}</td>
-                    <td>{yokai_food_2}</td>
-                    <td>{yokai_food_3}</td>
+                    <td>
+                        <Image
+                            imageUrl={
+                                foods.find(food => yokai_food_1 === food.name)
+                                    .image
+                            }
+                            altText={rank}
+                            size="special"
+                        />
+                    </td>
+                    <td>
+                        <Image
+                            imageUrl={
+                                foods.find(food => yokai_food_2 === food.name)
+                                    .image
+                            }
+                            altText={rank}
+                            size="special"
+                        />
+                    </td>
+                    <td>
+                        <Image
+                            imageUrl={
+                                foods.find(food => yokai_food_3 === food.name)
+                                    .image
+                            }
+                            altText={rank}
+                            size="special"
+                        />
+                    </td>
                 </tr>
             </tbody>
         </Table>

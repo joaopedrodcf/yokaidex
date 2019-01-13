@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Card from './components/Card';
 import Main from './components/Main';
-import yokaisJson from './yokais';
+import yokaisJson from './mocks/yokais';
 
 class Routes extends Component {
     constructor(props) {

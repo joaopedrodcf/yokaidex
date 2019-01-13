@@ -10,7 +10,7 @@ import {
     InputContainer,
     Collapsible
 } from './style';
-import yokaisJson from '../../yokais';
+import yokaisJson from '../../mocks/yokais';
 import Button from '../shared/Button';
 import Image from '../shared/Image';
 
