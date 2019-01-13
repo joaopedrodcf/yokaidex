@@ -13,13 +13,13 @@ const Card = ({
     image,
     attribute,
     rank,
-    yokai_number_1,
-    yokai_number_2,
-    yokai_number_3,
-    yokai_food_1,
-    yokai_food_2,
-    yokai_food_3,
-    base_stats,
+    yokaiNumber1,
+    yokaiNumber2,
+    yokaiNumber3,
+    yokaiFood1,
+    yokaiFood2,
+    yokaiFood3,
+    baseStats,
     hp,
     spirit,
     power,
@@ -82,9 +82,9 @@ const Card = ({
             </thead>
             <tbody>
                 <tr>
-                    <td>{yokai_number_1}</td>
-                    <td>{yokai_number_2}</td>
-                    <td>{yokai_number_3}</td>
+                    <td>{yokaiNumber1}</td>
+                    <td>{yokaiNumber2}</td>
+                    <td>{yokaiNumber3}</td>
                 </tr>
             </tbody>
         </Table>
@@ -102,7 +102,7 @@ const Card = ({
                     <td>
                         <Image
                             imageUrl={
-                                foods.find(food => yokai_food_1 === food.name)
+                                foods.find(food => yokaiFood1 === food.name)
                                     .image
                             }
                             altText={rank}
@@ -112,7 +112,7 @@ const Card = ({
                     <td>
                         <Image
                             imageUrl={
-                                foods.find(food => yokai_food_2 === food.name)
+                                foods.find(food => yokaiFood2 === food.name)
                                     .image
                             }
                             altText={rank}
@@ -122,7 +122,7 @@ const Card = ({
                     <td>
                         <Image
                             imageUrl={
-                                foods.find(food => yokai_food_3 === food.name)
+                                foods.find(food => yokaiFood3 === food.name)
                                     .image
                             }
                             altText={rank}
@@ -146,7 +146,7 @@ const Card = ({
             </thead>
             <tbody>
                 <tr>
-                    <td>{base_stats}</td>
+                    <td>{baseStats}</td>
                     <td>{hp}</td>
                     <td>{spirit}</td>
                     <td>{power}</td>
