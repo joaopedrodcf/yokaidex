@@ -14,6 +14,16 @@ import yokaisJson from '../../mocks/yokais';
 import Button from '../shared/button';
 import Image from '../shared/image';
 
+import tribes from '../../mocks/tribes';
+import attributes from '../../attributes';
+import ranks from '../../mocks/ranks';
+
+const getImage = (types, wantedType) => {
+    const typeRow = types.find(aux => wantedType === aux.name);
+
+    return typeRow ? typeRow.image : '';
+};
+
 class Main extends Component {
     constructor(props) {
         super(props);
@@ -356,9 +366,36 @@ class Main extends Component {
                                             />
                                             {yokai.name}
                                         </td>
-                                        <td>{yokai.tribe}</td>
-                                        <td>{yokai.rank}</td>
-                                        <td>{yokai.attribute}</td>
+                                        <td>
+                                            <Image
+                                                imageUrl={getImage(
+                                                    tribes,
+                                                    yokai.tribe
+                                                )}
+                                                altText={yokai.tribe}
+                                                size="small"
+                                            />
+                                        </td>
+                                        <td>
+                                            <Image
+                                                imageUrl={getImage(
+                                                    ranks,
+                                                    yokai.rank
+                                                )}
+                                                altText={yokai.rank}
+                                                size="small"
+                                            />
+                                        </td>
+                                        <td>
+                                            <Image
+                                                imageUrl={getImage(
+                                                    attributes,
+                                                    yokai.attribute
+                                                )}
+                                                altText={yokai.attribute}
+                                                size="small"
+                                            />
+                                        </td>
                                     </tr>
                                 ))}
                         </tbody>
