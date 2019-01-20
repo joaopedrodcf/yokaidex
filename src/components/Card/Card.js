@@ -6,12 +6,7 @@ import attributes from '../../attributes';
 import ranks from '../../mocks/ranks';
 import foods from '../../mocks/foods';
 import Image from '../shared/image';
-
-const getImage = (tableType, yokaiType) => {
-    const typeRow = tableType.find(aux => yokaiType === aux.name);
-
-    return typeRow ? typeRow.image : '';
-};
+import SCTable from '../shared/table';
 
 const Card = ({
     name,
@@ -37,114 +32,34 @@ const Card = ({
 
         <Image imageUrl={image} altText={name} size="large" />
 
-        <Table>
-            <thead>
-                <tr>
-                    <th>Tribe</th>
-                    <th>Rank</th>
-                    <th>Attribute</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <Image
-                            imageUrl={getImage(tribes, tribe)}
-                            altText={tribe}
-                            size="small"
-                        />
-                    </td>
-                    <td>
-                        <Image
-                            imageUrl={getImage(ranks, rank)}
-                            altText={rank}
-                            size="small"
-                        />
-                    </td>
-                    <td>
-                        <Image
-                            imageUrl={getImage(attributes, attribute)}
-                            altText={attribute}
-                            size="small"
-                        />
-                    </td>
-                </tr>
-            </tbody>
-        </Table>
-        <Table>
-            <thead>
-                <tr>
-                    <th>Yokai watch 1</th>
-                    <th>Yokai watch 2</th>
-                    <th>Yokai watch 3</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>{yokaiNumber1}</td>
-                    <td>{yokaiNumber2}</td>
-                    <td>{yokaiNumber3}</td>
-                </tr>
-            </tbody>
-        </Table>
+        <SCTable
+            headers={['Tribe', 'Rank', 'Attribute']}
+            imageRows={[
+                { types: tribes, wantedType: tribe, size: 'small' },
+                { types: ranks, wantedType: rank, size: 'small' },
+                { types: attributes, wantedType: attribute, size: 'small' }
+            ]}
+        />
 
-        <Table>
-            <thead>
-                <tr>
-                    <th>Favorite food</th>
-                    <th>Favorite food</th>
-                    <th>Favorite food</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <Image
-                            imageUrl={getImage(foods, yokaiFood1)}
-                            altText={rank}
-                            size="special"
-                        />
-                    </td>
-                    <td>
-                        <Image
-                            imageUrl={getImage(foods, yokaiFood2)}
-                            altText={rank}
-                            size="special"
-                        />
-                    </td>
-                    <td>
-                        <Image
-                            imageUrl={getImage(foods, yokaiFood3)}
-                            altText={rank}
-                            size="special"
-                        />
-                    </td>
-                </tr>
-            </tbody>
-        </Table>
+        <SCTable
+            headers={['Yokai watch 1', 'Yokai watch 2', 'Yokai watch 3']}
+            rows={[yokaiNumber1, yokaiNumber2, yokaiNumber3]}
+        />
 
-        <Table>
-            <thead>
-                <tr>
-                    <th>BASE STATS</th>
-                    <th>HP</th>
-                    <th>SPR</th>
-                    <th>STR</th>
-                    <th>SPD</th>
-                    <th>DEF</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>{baseStats}</td>
-                    <td>{hp}</td>
-                    <td>{spirit}</td>
-                    <td>{power}</td>
-                    <td>{speed}</td>
-                    <td>{defence}</td>
-                </tr>
-            </tbody>
-        </Table>
+        <SCTable
+            headers={['Fav food 1', 'Fav food 2', 'Fav food 3']}
+            imageRows={[
+                { types: foods, wantedType: yokaiFood1, size: 'special' },
+                { types: foods, wantedType: yokaiFood2, size: 'special' },
+                { types: foods, wantedType: yokaiFood3, size: 'special' }
+            ]}
+        />
+
+        <SCTable
+            headers={['BASE STATS', 'HP', 'SPR', 'STR', 'SPD', 'DEF']}
+            rows={[baseStats, hp, spirit, power, speed, defence]}
+        />
+
         <Table>
             <thead>
                 <tr>
