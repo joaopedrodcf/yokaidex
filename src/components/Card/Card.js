@@ -5,7 +5,7 @@ import tribes from '../../mocks/tribes';
 import attributes from '../../attributes';
 import ranks from '../../mocks/ranks';
 import foods from '../../mocks/foods';
-import Image from '../shared/Image';
+import Image from '../shared/image';
 
 const Card = ({
     name,

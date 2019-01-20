@@ -3,11 +3,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import Container from './style';
 
-const Header = () => (
+const Header = ({ location }) => (
     <Container>
         <FontAwesomeIcon icon="bars" />
         <Link to="/">
-            <h5>Yokaidex</h5>
+            <h5>Yokaidex {location}</h5>
         </Link>
     </Container>
 );

@@ -11,8 +11,8 @@ import {
     Collapsible
 } from './style';
 import yokaisJson from '../../mocks/yokais';
-import Button from '../shared/Button';
-import Image from '../shared/Image';
+import Button from '../shared/button';
+import Image from '../shared/image';
 
 class Main extends Component {
     constructor(props) {
@@ -231,19 +231,17 @@ class Main extends Component {
                     <Table>
                         <thead>
                             <tr>
-                                <th>
-                                    <th onClick={this.handleSort} thtype="name">
-                                        Name{' '}
-                                        {sort === 'name' ? (
-                                            <FontAwesomeIcon
-                                                icon={
-                                                    orderAsc
-                                                        ? 'arrow-down'
-                                                        : 'arrow-up'
-                                                }
-                                            />
-                                        ) : null}
-                                    </th>
+                                <th onClick={this.handleSort} thtype="name">
+                                    Name{' '}
+                                    {sort === 'name' ? (
+                                        <FontAwesomeIcon
+                                            icon={
+                                                orderAsc
+                                                    ? 'arrow-down'
+                                                    : 'arrow-up'
+                                            }
+                                        />
+                                    ) : null}
                                 </th>
 
                                 <th onClick={this.handleSort} thtype="tribe">
