@@ -7,6 +7,12 @@ import ranks from '../../mocks/ranks';
 import foods from '../../mocks/foods';
 import Image from '../shared/image';
 
+const getImage = (tableType, yokaiType) => {
+    const typeRow = tableType.find(aux => yokaiType === aux.name);
+
+    return typeRow ? typeRow.image : '';
+};
+
 const Card = ({
     name,
     tribe,
@@ -43,28 +49,21 @@ const Card = ({
                 <tr>
                     <td>
                         <Image
-                            imageUrl={
-                                tribes.find(trb => tribe === trb.name).image
-                            }
+                            imageUrl={getImage(tribes, tribe)}
                             altText={tribe}
                             size="small"
                         />
                     </td>
                     <td>
                         <Image
-                            imageUrl={
-                                ranks.find(rnk => rank === rnk.name).image
-                            }
+                            imageUrl={getImage(ranks, rank)}
                             altText={rank}
                             size="small"
                         />
                     </td>
                     <td>
                         <Image
-                            imageUrl={
-                                attributes.find(atr => attribute === atr.name)
-                                    .image
-                            }
+                            imageUrl={getImage(attributes, attribute)}
                             altText={attribute}
                             size="small"
                         />
@@ -101,30 +100,21 @@ const Card = ({
                 <tr>
                     <td>
                         <Image
-                            imageUrl={
-                                foods.find(food => yokaiFood1 === food.name)
-                                    .image
-                            }
+                            imageUrl={getImage(foods, yokaiFood1)}
                             altText={rank}
                             size="special"
                         />
                     </td>
                     <td>
                         <Image
-                            imageUrl={
-                                foods.find(food => yokaiFood2 === food.name)
-                                    .image
-                            }
+                            imageUrl={getImage(foods, yokaiFood2)}
                             altText={rank}
                             size="special"
                         />
                     </td>
                     <td>
                         <Image
-                            imageUrl={
-                                foods.find(food => yokaiFood3 === food.name)
-                                    .image
-                            }
+                            imageUrl={getImage(foods, yokaiFood3)}
                             altText={rank}
                             size="special"
                         />
