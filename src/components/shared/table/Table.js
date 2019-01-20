@@ -8,8 +8,8 @@ const getImage = (types, wantedType) => {
     return typeRow ? typeRow.image : '';
 };
 
-const Table = ({ headers, rows, imageRows }) => (
-    <SCTable>
+const Table = ({ headers, rows, imageRows, color }) => (
+    <SCTable color={color}>
         <thead>
             <tr>
                 {headers.map(header => (
@@ -22,11 +22,16 @@ const Table = ({ headers, rows, imageRows }) => (
                 {imageRows &&
                     imageRows.map((row, index) => (
                         <td key={index + row}>
-                            <Image
-                                imageUrl={getImage(row.types, row.wantedType)}
-                                altText={row.yokaiType}
-                                size={row.size}
-                            />
+                            {getImage(row.types, row.wantedType) && (
+                                <Image
+                                    imageUrl={getImage(
+                                        row.types,
+                                        row.wantedType
+                                    )}
+                                    altText={row.yokaiType}
+                                    size={row.size}
+                                />
+                            )}
                         </td>
                     ))}
 

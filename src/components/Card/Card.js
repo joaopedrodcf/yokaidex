@@ -2,11 +2,17 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Container, Table, Column, Row } from './style';
 import tribes from '../../mocks/tribes';
-import attributes from '../../attributes';
+import attributes from '../../mocks/attributes';
 import ranks from '../../mocks/ranks';
 import foods from '../../mocks/foods';
 import Image from '../shared/image';
 import SCTable from '../shared/table';
+
+const getColor = (types, wantedType) => {
+    const typeRow = types.find(aux => wantedType === aux.name);
+
+    return typeRow ? typeRow.color1 : '';
+};
 
 const Card = ({
     name,
@@ -39,11 +45,13 @@ const Card = ({
                 { types: ranks, wantedType: rank, size: 'small' },
                 { types: attributes, wantedType: attribute, size: 'small' }
             ]}
+            color={getColor(tribes, tribe)}
         />
 
         <SCTable
             headers={['Yokai watch 1', 'Yokai watch 2', 'Yokai watch 3']}
             rows={[yokaiNumber1, yokaiNumber2, yokaiNumber3]}
+            color={getColor(tribes, tribe)}
         />
 
         <SCTable
@@ -53,14 +61,16 @@ const Card = ({
                 { types: foods, wantedType: yokaiFood2, size: 'special' },
                 { types: foods, wantedType: yokaiFood3, size: 'special' }
             ]}
+            color={getColor(tribes, tribe)}
         />
 
         <SCTable
             headers={['BASE STATS', 'HP', 'SPR', 'STR', 'SPD', 'DEF']}
             rows={[baseStats, hp, spirit, power, speed, defence]}
+            color={getColor(tribes, tribe)}
         />
 
-        <Table>
+        <Table color={getColor(tribes, tribe)}>
             <thead>
                 <tr>
                     <th>Evolution</th>

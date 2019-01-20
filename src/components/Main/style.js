@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     background-color: #ffffff;
     color: #000000;
-    padding: 24px 24px 24px 24px;
+    padding: 12px;
     margin-top: 56px;
     font-size: 16px;
 
@@ -39,6 +39,7 @@ export const Table = styled.table`
     border-radius: 4px;
     border-collapse: collapse;
     table-layout: fixed;
+    font-weight: 600;
 
     tr a {
         width: 100%;
@@ -51,18 +52,14 @@ export const Table = styled.table`
     }
 
     th {
-        background-color: #ab000d;
-        color: #ffffff;
+        background-color: #1b1919;
+        color: #fffafa;
     }
 
     th,
     td {
         text-align: center;
         padding: 8px;
-    }
-
-    tr:nth-child(even) {
-        background-color: #f2f2f2;
     }
 `;
 
@@ -76,20 +73,5 @@ export const Collapsible = styled.div`
 
     div {
         display: ${props => (props.isCollapsed ? 'none' : 'block')};
-    }
-`;
-
-export const Button = styled.button`
-    border: 0;
-    border-radius: 4px;
-    padding: 12px 24px;
-    background-color: #ab000d;
-    color: #ffffff;
-    outline: none;
-    transition: all 0.3s ease;
-    cursor: pointer;
-
-    svg {
-        margin-left: 10px;
     }
 `;

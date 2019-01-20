@@ -15,13 +15,19 @@ import Button from '../shared/button';
 import Image from '../shared/image';
 
 import tribes from '../../mocks/tribes';
-import attributes from '../../attributes';
+import attributes from '../../mocks/attributes';
 import ranks from '../../mocks/ranks';
 
 const getImage = (types, wantedType) => {
     const typeRow = types.find(aux => wantedType === aux.name);
 
     return typeRow ? typeRow.image : '';
+};
+
+const getColor = (types, wantedType) => {
+    const typeRow = types.find(aux => wantedType === aux.name);
+
+    return typeRow ? `${typeRow.color1}, ${typeRow.color2}` : '';
 };
 
 class Main extends Component {
@@ -357,12 +363,19 @@ class Main extends Component {
                                         onClick={() =>
                                             this.goTo(`/yokai/${yokai.name}`)
                                         }
+                                        style={{
+                                            background: `linear-gradient(to bottom, ${getColor(
+                                                tribes,
+                                                yokai.tribe
+                                            )})`
+                                        }}
                                     >
                                         <td>
                                             <Image
                                                 imageUrl={yokai.image}
                                                 altText={yokai.name}
                                                 size="medium"
+                                                isThumbnail
                                             />
                                             {yokai.name}
                                         </td>

@@ -18,6 +18,18 @@ const SCImage = styled.img`
 
         return '35px';
     }};
+
+    background-color: ${props => {
+        if (props.isThumbnail) return 'white';
+
+        return 'none';
+    }};
+
+    border-radius: ${props => {
+        if (props.isThumbnail) return '50%';
+
+        return '0%';
+    }};
 `;
 
 export default SCImage;

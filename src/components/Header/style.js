@@ -17,7 +17,7 @@ const Container = styled.div`
     h5 {
         letter-spacing: 0;
         font-size: 24px;
-        font-weight: 400;
+        font-weight: 700;
         margin-left: 24px;
     }
 
@@ -29,7 +29,7 @@ const Container = styled.div`
     a:hover {
         text-decoration: none;
         cursor: pointer;
-        color: #ffffff;
+        color: #403b3b;
     }
 `;
 

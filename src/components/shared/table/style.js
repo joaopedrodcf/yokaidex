@@ -20,8 +20,12 @@ const SCTable = styled.table`
     }
 
     th {
-        background-color: #ab000d;
-        color: #ffffff;
+        background-color: ${props => {
+            if (props.color) return props.color;
+
+            return '';
+        }};
+        color: #000000;
     }
 
     th,
@@ -30,8 +34,8 @@ const SCTable = styled.table`
         padding: 8px;
     }
 
-    tr:nth-child(even) {
-        background-color: #f2f2f2;
+    tbody tr {
+        background-color: white;
     }
 `;
 
