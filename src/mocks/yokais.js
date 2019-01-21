@@ -1,9 +1,11 @@
 const yokais = [
     {
         name: 'Pandle',
+        description:
+            'A careless Yo-kai who enters battle wearing only a loincloth...and a pan on his head.Try not to take after him so much',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/pandle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pandle.png',
         attribute: 'Fire',
         rank: 'E',
         yokaiNumber1: '001',
@@ -12,18 +14,24 @@ const yokais = [
         yokaiFood1: 'Rice Balls',
         yokaiFood2: 'Rice Balls',
         yokaiFood3: 'Rice Balls',
-        baseStats: '3800',
-        hp: '1300',
-        spirit: '380',
-        power: '980',
-        speed: '620',
-        defence: '520'
+        hp: '319',
+        spirit: '70',
+        power: '160',
+        speed: '130',
+        defence: '82',
+        evolution: {
+            description: 'Evolves into Undy at level 18',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/undy.png'
+        }
     },
     {
         name: 'Undy',
+        description:
+            "Having abandoned the pan, Undy is pretty much bare to the world.That aside, you won't ever see him wince or bruise",
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/undy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/undy.png',
         attribute: 'Fire',
         rank: 'C',
         yokaiNumber1: '002',
@@ -32,18 +40,24 @@ const yokais = [
         yokaiFood1: 'Rice Balls',
         yokaiFood2: 'Rice Balls',
         yokaiFood3: 'Rice Balls',
-        baseStats: '4640',
-        hp: '1480',
-        spirit: '520',
-        power: '1200',
-        speed: '880',
-        defence: '560'
+        hp: '392',
+        spirit: '106',
+        power: '166',
+        speed: '151',
+        defence: '90',
+        evolution: {
+            description: 'Evolves from Pandle at level 18',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pandle.png'
+        }
     },
     {
         name: 'Tanbo',
+        description:
+            'A Yo-kai that is always first to the battle! With no clothes to slow him down, he shows up early and always has a nice tan',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tanbo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tanbo.png',
         attribute: 'Earth',
         rank: 'B',
         yokaiNumber1: '003',
@@ -52,18 +66,19 @@ const yokais = [
         yokaiFood1: 'Rice Balls',
         yokaiFood2: 'Rice Balls',
         yokaiFood3: 'Rice Balls',
-        baseStats: '4700',
-        hp: '1430',
-        spirit: '510',
-        power: '1270',
-        speed: '810',
-        defence: '680'
+        hp: '468',
+        spirit: '121',
+        power: '181',
+        speed: '151',
+        defence: '90'
     },
     {
         name: 'Cutta-nah',
+        description:
+            "A lazy katana Yo-kai who can drain all of your motivation. He's strangely sharp for being so lazy",
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cutta-nah.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah.png',
         attribute: 'Wind',
         rank: 'E',
         yokaiNumber1: '004',
@@ -72,18 +87,24 @@ const yokais = [
         yokaiFood1: 'Juices',
         yokaiFood2: 'Juices',
         yokaiFood3: 'Juices',
-        baseStats: '3720',
-        hp: '1260',
-        spirit: '420',
-        power: '900',
-        speed: '620',
-        defence: '520'
+        hp: '297',
+        spirit: '79',
+        power: '155',
+        speed: '101',
+        defence: '111',
+        evolution: {
+            description: 'Evolves into Cutta-nah-nah at Level 20',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah-nah.png'
+        }
     },
     {
         name: 'Cutta-nah-nah',
+        description:
+            'Too lazy to get a haircut, but not too lazy to slash enemies with his untidy strands',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cutta-nah-nah.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah-nah.png',
         attribute: 'Wind',
         rank: 'C',
         yokaiNumber1: '005',
@@ -92,18 +113,24 @@ const yokais = [
         yokaiFood1: 'Juices',
         yokaiFood2: 'Juices',
         yokaiFood3: 'Juices',
-        baseStats: '4720',
-        hp: '1400',
-        spirit: '600',
-        power: '1120',
-        speed: '840',
-        defence: '760'
+        hp: '374',
+        spirit: '96',
+        power: '172',
+        speed: '131',
+        defence: '128',
+        evolution: {
+            description: 'Evolves from Cutta-nah at Level 20',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah.png'
+        }
     },
     {
         name: 'Slacka-slash',
+        description:
+            'More dangerous than he looks, Slacka-slash can beat his foes with only a single slice',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/slacka-slash.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slacka-slash.png',
         attribute: 'Ice',
         rank: 'B',
         yokaiNumber1: '006',
@@ -121,15 +148,17 @@ const yokais = [
     },
     {
         name: 'Brushido',
+        description:
+            "A foot soldier who loves cleaning. His spotless reputation means he's sure to be a shogun someday",
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/brushido.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/brushido.png',
         attribute: 'Ice',
         rank: 'E',
-        yokaiNumber1: '006',
+        yokaiNumber1: '',
         yokaiNumber2: '007',
         yokaiNumber3: '009',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '3960',
@@ -137,19 +166,26 @@ const yokais = [
         spirit: '460',
         power: '900',
         speed: '780',
-        defence: '520'
+        defence: '520',
+        evolution: {
+            description: 'Evolves into Washogun at Level 19',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/washogun.png'
+        }
     },
     {
         name: 'Washogun',
+        description:
+            'A neat-freak shogun who has been known to make heads roll if an underling so much as smudges his helmet',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/washogun.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/washogun.png',
         attribute: 'Ice',
         rank: 'B',
-        yokaiNumber1: '006',
+        yokaiNumber1: '',
         yokaiNumber2: '008',
         yokaiNumber3: '010',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '5000',
@@ -157,19 +193,26 @@ const yokais = [
         spirit: '630',
         power: '1190',
         speed: '930',
-        defence: '800'
+        defence: '800',
+        evolution: {
+            description: 'Evolves from Brushido at Level 19',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/brushido.png'
+        }
     },
     {
         name: 'Lie-in',
+        description:
+            'A laid-back lion who wants to be a mighty warrior but tends to prioritize nap time over sword practice',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/lie-in.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in.png',
         attribute: 'Ice',
         rank: 'E',
-        yokaiNumber1: '006',
+        yokaiNumber1: '',
         yokaiNumber2: '009',
         yokaiNumber3: '011',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Chinese foods',
         yokaiFood3: 'Chinese foods',
         baseStats: '3820',
@@ -177,19 +220,26 @@ const yokais = [
         spirit: '420',
         power: '940',
         speed: '620',
-        defence: '520'
+        defence: '520',
+        evolution: {
+            description: 'Evolves into Lie-in Heart at Level 28',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in_heart.png'
+        }
     },
     {
         name: 'Lie-in Heart',
+        description:
+            "A lion who's realized his full potential. He always waits for the perfect moment before striking",
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/lie-in_heart.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in_heart.png',
         attribute: 'Ice',
         rank: 'A',
-        yokaiNumber1: '006',
+        yokaiNumber1: '',
         yokaiNumber2: '010',
         yokaiNumber3: '012',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Chinese foods',
         yokaiFood3: 'Chinese foods',
         baseStats: '5110',
@@ -197,19 +247,26 @@ const yokais = [
         spirit: '540',
         power: '1340',
         speed: '980',
-        defence: '760'
+        defence: '760',
+        evolution: {
+            description: 'Evolves from Lie-in at Level 28',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in.png'
+        }
     },
     {
         name: 'Hissfit',
+        description:
+            'This foul-tempered fellow stamps his feet constantly, making it hard to take him seriously',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/hissfit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hissfit.png',
         attribute: 'Fire',
         rank: 'E',
-        yokaiNumber1: '006',
+        yokaiNumber1: '',
         yokaiNumber2: '011',
         yokaiNumber3: '013',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Meats',
         yokaiFood3: 'Meats',
         baseStats: '3720',
@@ -217,13 +274,21 @@ const yokais = [
         spirit: '420',
         power: '900',
         speed: '620',
-        defence: '520'
+        defence: '520',
+        fusion: {
+            description:
+                'Evolves into Zerberker through Fusion with a Raging Blade',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zerberker.png'
+        }
     },
     {
         name: 'Zerberker',
+        description:
+            "Legend has it that this Yo-kai leveled an entire village with one tantrum. You'll explode with rage if he's around",
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/zerberker.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zerberker.png',
         attribute: 'Fire',
         rank: 'A',
         yokaiNumber1: '026',
@@ -237,13 +302,21 @@ const yokais = [
         spirit: '700',
         power: '1300',
         speed: '1020',
-        defence: '880'
+        defence: '880',
+        fusion: {
+            description:
+                'Evolves into Hissfit through Fusion with a Raging Blade',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hissfit.png'
+        }
     },
     {
         name: 'Snartle',
+        description:
+            "This Yo-kai visits homes asking, 'Any brats here?' It's a way of scaring kids into behaving well. Kind of like a reverse Santa",
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/snartle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snartle.png',
         attribute: 'Ice',
         rank: 'S',
         yokaiNumber1: '027',
@@ -263,7 +336,7 @@ const yokais = [
         name: 'Mochismo',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mochismo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mochismo.png',
         attribute: 'Earth',
         rank: 'D',
         yokaiNumber1: '007',
@@ -277,13 +350,18 @@ const yokais = [
         spirit: '450',
         power: '1090',
         speed: '590',
-        defence: '600'
+        defence: '600',
+        fusion: {
+            description: 'Evolves into Darumacho through fusion with Dulluma',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png'
+        }
     },
     {
         name: 'Minochi',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/minochi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/minochi.png',
         attribute: 'Fire',
         rank: 'D',
         yokaiNumber1: '008',
@@ -303,13 +381,13 @@ const yokais = [
         name: 'Tublappa',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tublappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tublappa.png',
         attribute: 'Lightning',
         rank: 'D',
-        yokaiNumber1: '008',
+        yokaiNumber1: '',
         yokaiNumber2: '016',
         yokaiNumber3: '031',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4070',
@@ -323,47 +401,57 @@ const yokais = [
         name: 'Slicenrice',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/slicenrice.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slicenrice.png',
         attribute: 'Restoration',
         rank: 'D',
-        yokaiNumber1: '008',
+        yokaiNumber1: '',
         yokaiNumber2: '017',
         yokaiNumber3: '029',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Odens',
+        yokaiFood3: 'Rice Balls',
         baseStats: '4010',
         hp: '1320',
         spirit: '450',
         power: '970',
         speed: '710',
-        defence: '560'
+        defence: '560',
+        evolution: {
+            description: 'Evolves into Flamurice at Level 31',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flamurice.png'
+        }
     },
     {
         name: 'Flamurice',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/flamurice.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flamurice.png',
         attribute: 'Fire',
         rank: 'A',
-        yokaiNumber1: '008',
+        yokaiNumber1: '',
         yokaiNumber2: '018',
         yokaiNumber3: '029',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Odens',
+        yokaiFood3: 'Rice Balls',
         baseStats: '5410',
         hp: '1470',
         spirit: '740',
         power: '1300',
         speed: '1020',
-        defence: '880'
+        defence: '880',
+        evolution: {
+            description: 'Evolves from Slicenrice at Level 31',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slicenrice.png'
+        }
     },
     {
         name: 'Helmsman',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/helmsman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/helmsman.png',
         attribute: 'Lightning',
         rank: 'D',
         yokaiNumber1: '009',
@@ -377,13 +465,18 @@ const yokais = [
         spirit: '450',
         power: '1050',
         speed: '590',
-        defence: '680'
+        defence: '680',
+        fusion: {
+            description: 'Evolves into Reuknight through fusion with Armsman',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reuknight.png'
+        }
     },
     {
         name: 'Reuknight',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/reuknight.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reuknight.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '010',
@@ -397,13 +490,20 @@ const yokais = [
         spirit: '620',
         power: '1260',
         speed: '900',
-        defence: '840'
+        defence: '840',
+        fusion: {
+            description: 'Evolves from Helmsman and Armsman through fusion',
+            image1:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/helmsman.png',
+            image2:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/armsman.png'
+        }
     },
     {
         name: 'Corptain',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/corptain.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/corptain.png',
         attribute: 'Drain',
         rank: 'S',
         yokaiNumber1: '011',
@@ -423,7 +523,7 @@ const yokais = [
         name: 'Mudmunch',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mudmunch.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mudmunch.png',
         attribute: 'Earth',
         rank: 'C',
         yokaiNumber1: '011',
@@ -443,13 +543,13 @@ const yokais = [
         name: 'Sgt. Burly',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sgt._burly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sgt._burly.png',
         attribute: 'Lightning',
         rank: 'A',
-        yokaiNumber1: '011',
+        yokaiNumber1: '',
         yokaiNumber2: '023',
         yokaiNumber3: '059',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Hamburgers',
         yokaiFood3: 'Hamburgers',
         baseStats: '5030',
@@ -463,7 +563,7 @@ const yokais = [
         name: 'Blazion',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/blazion.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blazion.png',
         attribute: 'Fire',
         rank: 'C',
         yokaiNumber1: '012',
@@ -477,13 +577,18 @@ const yokais = [
         spirit: '600',
         power: '1080',
         speed: '680',
-        defence: '600'
+        defence: '600',
+        fusion: {
+            description: 'Evolves into Carniboy through Fusion with Herbiboy',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/herbiboy.png'
+        }
     },
     {
         name: 'Quaken',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/quaken.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/quaken.png',
         attribute: 'Earth',
         rank: 'B',
         yokaiNumber1: '013',
@@ -503,7 +608,7 @@ const yokais = [
         name: 'Siro',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/siro.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/siro.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '014',
@@ -523,7 +628,7 @@ const yokais = [
         name: 'Chansin',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/chansin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png',
         attribute: 'Fire',
         rank: 'C',
         yokaiNumber1: '015',
@@ -537,13 +642,24 @@ const yokais = [
         spirit: '560',
         power: '1120',
         speed: '800',
-        defence: '640'
+        defence: '640',
+        fusion: {
+            description1: 'Evolves into Sheen through fusion with a Legendary',
+            image1:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sheen.png',
+            description2: 'Evolves into Snee through fusion with a Cursed',
+            image2:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snee.png',
+            description3: 'Evolves into Gleam through fusion with Holy Blade',
+            image3:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gleam.png'
+        }
     },
     {
         name: 'Sheen',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sheen.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sheen.png',
         attribute: 'Wind',
         rank: 'A',
         yokaiNumber1: '016',
@@ -557,13 +673,19 @@ const yokais = [
         spirit: '580',
         power: '1340',
         speed: '1020',
-        defence: '680'
+        defence: '680',
+        fusion: {
+            description:
+                'Evolves from Chansin through fusion with a Legendary Blade',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
+        }
     },
     {
         name: 'Snee',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/snee.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snee.png',
         attribute: 'Drain',
         rank: 'A',
         yokaiNumber1: '017',
@@ -577,13 +699,19 @@ const yokais = [
         spirit: '540',
         power: '1300',
         speed: '960',
-        defence: '800'
+        defence: '800',
+        fusion: {
+            description:
+                'Evolves from Chansin through fusion with a Cursed Blade',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
+        }
     },
     {
         name: 'Gleam',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/gleam.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gleam.png',
         attribute: 'Lightning',
         rank: 'S',
         yokaiNumber1: '018',
@@ -597,13 +725,19 @@ const yokais = [
         spirit: '610',
         power: '1450',
         speed: '1070',
-        defence: '800'
+        defence: '800',
+        fusion: {
+            description:
+                'Evolves from Chansin through fusion with a Holy Blade',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
+        }
     },
     {
         name: 'Benkei',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/benkei.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/benkei.png',
         attribute: 'Ice',
         rank: 'C',
         yokaiNumber1: '019',
@@ -623,7 +757,7 @@ const yokais = [
         name: 'B3-NK1',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/b3-nk1.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/b3-nk1.png',
         attribute: 'Lightning',
         rank: 'B',
         yokaiNumber1: '020',
@@ -643,7 +777,7 @@ const yokais = [
         name: 'Sushisyama',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sushiyama.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sushiyama.png',
         attribute: 'Ice',
         rank: 'B',
         yokaiNumber1: '021',
@@ -663,13 +797,13 @@ const yokais = [
         name: 'Kapunki',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/kapunki.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kapunki.png',
         attribute: 'Fire',
         rank: 'A',
-        yokaiNumber1: '021',
+        yokaiNumber1: '',
         yokaiNumber2: '034',
         yokaiNumber3: '052',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Sobas',
         yokaiFood3: 'Sobas',
         baseStats: '5150',
@@ -683,7 +817,7 @@ const yokais = [
         name: 'Beetler',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/beetler.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetler.png',
         attribute: 'Earth',
         rank: 'B',
         yokaiNumber1: '023',
@@ -697,13 +831,19 @@ const yokais = [
         spirit: '510',
         power: '1230',
         speed: '810',
-        defence: '760'
+        defence: '760',
+        fusion: {
+            description:
+                'Evolves into Beetall through fusion with a Generals Soul',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetall.png'
+        }
     },
     {
         name: 'Beetall',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/beetall.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetall.png',
         attribute: 'Ice',
         rank: 'S',
         yokaiNumber1: '024',
@@ -717,13 +857,19 @@ const yokais = [
         spirit: '540',
         power: '1300',
         speed: '900',
-        defence: '800'
+        defence: '800',
+        fusion: {
+            description:
+                'Evolves from Beetler through fusion with a Generals Soul',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetler.png'
+        }
     },
     {
         name: 'Cruncha',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cruncha.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cruncha.png',
         attribute: 'Lightning',
         rank: 'S',
         yokaiNumber1: '025',
@@ -743,13 +889,13 @@ const yokais = [
         name: 'Demuncher',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/demuncher.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/demuncher.png',
         attribute: 'Earth',
         rank: 'S',
-        yokaiNumber1: '025',
+        yokaiNumber1: '',
         yokaiNumber2: '038',
         yokaiNumber3: '061',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Meats',
         yokaiFood3: 'Meats',
         baseStats: '5690',
@@ -763,13 +909,13 @@ const yokais = [
         name: 'Devourer',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/devourer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/devourer.png',
         attribute: 'Drain',
         rank: 'S',
-        yokaiNumber1: '025',
+        yokaiNumber1: '',
         yokaiNumber2: '039',
         yokaiNumber3: '062',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '5410',
@@ -783,13 +929,13 @@ const yokais = [
         name: 'Brokenbrella',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/brokenbrella.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/brokenbrella.png',
         attribute: 'Wind',
         rank: 'E',
-        yokaiNumber1: '025',
+        yokaiNumber1: '',
         yokaiNumber2: '040',
         yokaiNumber3: '068',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '3420',
@@ -803,13 +949,13 @@ const yokais = [
         name: 'Pittapatt',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/pittapatt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pittapatt.png',
         attribute: 'Earth',
         rank: 'E',
-        yokaiNumber1: '025',
+        yokaiNumber1: '',
         yokaiNumber2: '041',
         yokaiNumber3: '069',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '3520',
@@ -823,7 +969,7 @@ const yokais = [
         name: 'Snotsolong',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/snotsolong.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snotsolong.png',
         attribute: 'Water',
         rank: 'E',
         yokaiNumber1: '028',
@@ -843,7 +989,7 @@ const yokais = [
         name: 'Duchoo',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/duchoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/duchoo.png',
         attribute: 'Ice',
         rank: 'D',
         yokaiNumber1: '029',
@@ -863,7 +1009,7 @@ const yokais = [
         name: "D'wanna",
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/d_wanna.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/d_wanna.png',
         attribute: 'Restoration',
         rank: 'E',
         yokaiNumber1: '032',
@@ -877,13 +1023,18 @@ const yokais = [
         spirit: '940',
         power: '460',
         speed: '760',
-        defence: '560'
+        defence: '560',
+        evolution: {
+            description: "Evolves into N'more at Level 15",
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/n_more.png'
+        }
     },
     {
         name: "N'more",
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/n_more.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/n_more.png',
         attribute: 'Restoration',
         rank: 'C',
         yokaiNumber1: '033',
@@ -897,13 +1048,18 @@ const yokais = [
         spirit: '940',
         power: '460',
         speed: '760',
-        defence: '560'
+        defence: '560',
+        evolution: {
+            description: "Evolves from D'wanna at Level 15",
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/d_wanna.png'
+        }
     },
     {
         name: "Q'wit",
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/q_wit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/q_wit.png',
         attribute: 'Earth',
         rank: 'C',
         yokaiNumber1: '034',
@@ -923,7 +1079,7 @@ const yokais = [
         name: 'Wazzat',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/wazzat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wazzat.png',
         attribute: 'Wind',
         rank: 'E',
         yokaiNumber1: '030',
@@ -937,19 +1093,24 @@ const yokais = [
         spirit: '860',
         power: '420',
         speed: '920',
-        defence: '480'
+        defence: '480',
+        evolution: {
+            description: 'Evolves into Houzzat at Level 20',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/houzzat.png'
+        }
     },
     {
         name: 'Houzzat',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/houzzat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/houzzat.png',
         attribute: 'Wind',
         rank: 'B',
-        yokaiNumber1: '030',
+        yokaiNumber1: '',
         yokaiNumber2: '048',
         yokaiNumber3: '078',
-        yokaiFood1: 'Candies',
+        yokaiFood1: '',
         yokaiFood2: 'Candies',
         yokaiFood3: 'Candies',
         baseStats: '3560',
@@ -957,13 +1118,18 @@ const yokais = [
         spirit: '860',
         power: '420',
         speed: '920',
-        defence: '480'
+        defence: '480',
+        evolution: {
+            description: 'Evolves from Wazzat at Level 20',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wazzat.png'
+        }
     },
     {
         name: 'Dummkap',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dummkap.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dummkap.png',
         attribute: 'Lightning',
         rank: 'E',
         yokaiNumber1: '031',
@@ -983,13 +1149,13 @@ const yokais = [
         name: 'Faysoff',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/faysoff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/faysoff.png',
         attribute: 'Water',
         rank: 'D',
-        yokaiNumber1: '031',
+        yokaiNumber1: '',
         yokaiNumber2: '050',
         yokaiNumber3: '084',
-        yokaiFood1: 'Candies',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '3890',
@@ -1003,7 +1169,7 @@ const yokais = [
         name: 'Lafalotta',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/lafalotta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lafalotta.png',
         attribute: 'Drain',
         rank: 'D',
         yokaiNumber1: '035',
@@ -1017,13 +1183,19 @@ const yokais = [
         spirit: '1090',
         power: '490',
         speed: '940',
-        defence: '680'
+        defence: '680',
+        fusion: {
+            description:
+                'Evolves into Tattlecast through fusion with Tattletell',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast .png'
+        }
     },
     {
         name: 'Blips',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/blips.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blips.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '036',
@@ -1043,7 +1215,7 @@ const yokais = [
         name: 'Tattletell',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tattletell.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattletell.png',
         attribute: 'Restoration',
         rank: 'D',
         yokaiNumber1: '037',
@@ -1057,13 +1229,18 @@ const yokais = [
         spirit: '16',
         power: '7',
         speed: '13',
-        defence: '9'
+        defence: '9',
+        evolution: {
+            description: 'Evolves into Tattlecast at Level 22',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast .png'
+        }
     },
     {
         name: 'Tattlecast',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tattlecast.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast.png',
         attribute: 'Restoration',
         rank: 'B',
         yokaiNumber1: '038',
@@ -1077,13 +1254,18 @@ const yokais = [
         spirit: '1270',
         power: '550',
         speed: '1100',
-        defence: '720'
+        defence: '720',
+        evolution: {
+            description: 'Evolves from Tattletell at Level 22',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattletell .png'
+        }
     },
     {
         name: 'Skranny',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/skranny.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/skranny.png',
         attribute: 'Restoration',
         rank: 'C',
         yokaiNumber1: '039',
@@ -1103,7 +1285,7 @@ const yokais = [
         name: 'Cupistol',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cupistol.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cupistol.png',
         attribute: 'Wind',
         rank: 'D',
         yokaiNumber1: '040',
@@ -1123,7 +1305,7 @@ const yokais = [
         name: 'Casanuva',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/casanuva.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/casanuva.png',
         attribute: 'Wind',
         rank: 'A',
         yokaiNumber1: '041',
@@ -1143,7 +1325,7 @@ const yokais = [
         name: 'Casanono',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/casanono.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/casanono.png',
         attribute: 'Fire',
         rank: 'A',
         yokaiNumber1: '042',
@@ -1163,13 +1345,13 @@ const yokais = [
         name: 'So-Sorree',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/so-sorree.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/so-sorree.png',
         attribute: 'Lightning',
         rank: 'D',
-        yokaiNumber1: '042',
+        yokaiNumber1: '',
         yokaiNumber2: '059',
         yokaiNumber3: '098',
-        yokaiFood1: 'Breads',
+        yokaiFood1: '',
         yokaiFood2: 'Curries',
         yokaiFood3: 'Curries',
         baseStats: '3930',
@@ -1183,13 +1365,13 @@ const yokais = [
         name: 'Bowminos',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/bowminos.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bowminos.png',
         attribute: 'Earth',
         rank: 'A',
-        yokaiNumber1: '042',
+        yokaiNumber1: '',
         yokaiNumber2: '060',
         yokaiNumber3: '099',
-        yokaiFood1: 'Breads',
+        yokaiFood1: '',
         yokaiFood2: 'Curries',
         yokaiFood3: 'Curries',
         baseStats: '4760',
@@ -1203,13 +1385,13 @@ const yokais = [
         name: 'Smogling',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/smogling.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smogling.png',
         attribute: 'Wind',
         rank: 'D',
-        yokaiNumber1: '042',
+        yokaiNumber1: '',
         yokaiNumber2: '061',
         yokaiNumber3: '100',
-        yokaiFood1: 'Breads',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '4010',
@@ -1223,13 +1405,13 @@ const yokais = [
         name: 'Smogmella',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/smogmella.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smogmella.png',
         attribute: 'Wind',
         rank: 'A',
-        yokaiNumber1: '042',
+        yokaiNumber1: '',
         yokaiNumber2: '062',
         yokaiNumber3: '101',
-        yokaiFood1: 'Breads',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '5080',
@@ -1243,7 +1425,7 @@ const yokais = [
         name: 'Signibble',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/signibble.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/signibble.png',
         attribute: 'Lightning',
         rank: 'D',
         yokaiNumber1: '043',
@@ -1263,7 +1445,7 @@ const yokais = [
         name: 'Signiton',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/signiton.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/signiton.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '044',
@@ -1283,7 +1465,7 @@ const yokais = [
         name: 'Statiking',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/statiking.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/statiking.png',
         attribute: 'Lightning',
         rank: 'S',
         yokaiNumber1: '045',
@@ -1303,13 +1485,13 @@ const yokais = [
         name: 'Master Odens',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/master_oden.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/master_oden.png',
         attribute: 'Lightning',
         rank: 'A',
-        yokaiNumber1: '045',
+        yokaiNumber1: '',
         yokaiNumber2: '065',
         yokaiNumber3: '105',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4660',
@@ -1323,13 +1505,13 @@ const yokais = [
         name: 'Failian',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/failian.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/failian.png',
         attribute: 'Ice',
         rank: 'C',
-        yokaiNumber1: '045',
+        yokaiNumber1: '',
         yokaiNumber2: '067',
         yokaiNumber3: '106',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Sushis',
         yokaiFood3: 'Sushis',
         baseStats: '4350',
@@ -1343,13 +1525,13 @@ const yokais = [
         name: 'Apelican',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/apelican.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/apelican.png',
         attribute: 'Wind',
         rank: 'C',
-        yokaiNumber1: '045',
+        yokaiNumber1: '',
         yokaiNumber2: '068',
         yokaiNumber3: '107',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Hamburgers',
         yokaiFood3: 'Hamburgers',
         baseStats: '4150',
@@ -1363,7 +1545,7 @@ const yokais = [
         name: 'Mirapo',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mirapo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mirapo.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '046',
@@ -1383,13 +1565,13 @@ const yokais = [
         name: 'Miradox',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/miradox.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/miradox.png',
         attribute: 'Drain',
         rank: 'A',
-        yokaiNumber1: '046',
+        yokaiNumber1: '',
         yokaiNumber2: '070',
         yokaiNumber3: '119',
-        yokaiFood1: 'Chinese foods',
+        yokaiFood1: '',
         yokaiFood2: 'Chinese foods',
         yokaiFood3: 'Chinese foods',
         baseStats: '5120',
@@ -1403,7 +1585,7 @@ const yokais = [
         name: 'Mircle',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mircle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mircle.png',
         attribute: 'Drain',
         rank: 'A',
         yokaiNumber1: '047',
@@ -1423,7 +1605,7 @@ const yokais = [
         name: 'Illoo',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/illoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/illoo.png',
         attribute: 'Water',
         rank: 'C',
         yokaiNumber1: '048',
@@ -1443,7 +1625,7 @@ const yokais = [
         name: 'Elloo',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/elloo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/elloo.png',
         attribute: 'Ice',
         rank: 'C',
         yokaiNumber1: '049',
@@ -1463,7 +1645,7 @@ const yokais = [
         name: 'Alloo',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/alloo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/alloo.png',
         attribute: 'Lightning',
         rank: 'B',
         yokaiNumber1: '050',
@@ -1483,7 +1665,7 @@ const yokais = [
         name: 'Espy',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/espy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/espy.png',
         attribute: 'Earth',
         rank: 'C',
         yokaiNumber1: '051',
@@ -1503,7 +1685,7 @@ const yokais = [
         name: 'Infour',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/infour.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/infour.png',
         attribute: 'Drain',
         rank: 'B',
         yokaiNumber1: '052',
@@ -1523,13 +1705,13 @@ const yokais = [
         name: 'Verygoodsir',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/verygoodsir.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/verygoodsir.png',
         attribute: 'Restoration',
         rank: 'B',
-        yokaiNumber1: '052',
+        yokaiNumber1: '',
         yokaiNumber2: '077',
         yokaiNumber3: '121',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Sobas',
         yokaiFood3: 'Vegetables',
         baseStats: '4520',
@@ -1543,7 +1725,7 @@ const yokais = [
         name: 'Tengu',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tengu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tengu.png',
         attribute: 'Wind',
         rank: 'S',
         yokaiNumber1: '053',
@@ -1563,7 +1745,7 @@ const yokais = [
         name: 'Flengu',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/flengu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flengu.png',
         attribute: 'Fire',
         rank: 'S',
         yokaiNumber1: '054',
@@ -1583,7 +1765,7 @@ const yokais = [
         name: 'Kyubi',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/kyubi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kyubi.png',
         attribute: 'Fire',
         rank: 'S',
         yokaiNumber1: '055',
@@ -1603,7 +1785,7 @@ const yokais = [
         name: 'Frostail',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/frostail.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/frostail.png',
         attribute: 'Ice',
         rank: 'S',
         yokaiNumber1: '056',
@@ -1623,13 +1805,13 @@ const yokais = [
         name: 'Chymera',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/chymera.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chymera.png',
         attribute: 'Lightning',
         rank: 'S',
-        yokaiNumber1: '056',
+        yokaiNumber1: '',
         yokaiNumber2: '082',
         yokaiNumber3: '132',
-        yokaiFood1: 'Seafoods',
+        yokaiFood1: '',
         yokaiFood2: 'Chinese foods',
         yokaiFood3: 'Odens',
         baseStats: '5240',
@@ -1643,13 +1825,13 @@ const yokais = [
         name: 'Kingmera',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/kingmera.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kingmera.png',
         attribute: 'Lightning',
         rank: 'S',
-        yokaiNumber1: '056',
+        yokaiNumber1: '',
         yokaiNumber2: '083',
         yokaiNumber3: '132',
-        yokaiFood1: 'Seafoods',
+        yokaiFood1: '',
         yokaiFood2: 'Chinese foods',
         yokaiFood3: 'Chinese foods',
         baseStats: '99',
@@ -1663,13 +1845,13 @@ const yokais = [
         name: 'Terrorpotta',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/terrorpotta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/terrorpotta.png',
         attribute: 'Earth',
         rank: 'E',
-        yokaiNumber1: '056',
+        yokaiNumber1: '',
         yokaiNumber2: '084',
         yokaiNumber3: '147',
-        yokaiFood1: 'Seafoods',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '3580',
@@ -1683,7 +1865,7 @@ const yokais = [
         name: 'Dulluma',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dulluma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dulluma.png',
         attribute: 'Earth',
         rank: 'E',
         yokaiNumber1: '057',
@@ -1697,13 +1879,18 @@ const yokais = [
         spirit: '420',
         power: '760',
         speed: '480',
-        defence: '940'
+        defence: '940',
+        fusion: {
+            description: 'Evolves into Darumacho through fusion with Mochismo',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png'
+        }
     },
     {
         name: 'Darumacho',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/darumacho.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png',
         attribute: 'Earth',
         rank: 'B',
         yokaiNumber1: '058',
@@ -1717,13 +1904,20 @@ const yokais = [
         spirit: '630',
         power: '1060',
         speed: '800',
-        defence: '1270'
+        defence: '1270',
+        fusion: {
+            description: 'Evolves through fusion of Mochismo and Dulluma',
+            image1:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mochismo.png',
+            image2:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dulluma.png'
+        }
     },
     {
         name: 'Goruma',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/goruma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/goruma.png',
         attribute: 'Wind',
         rank: 'B',
         yokaiNumber1: '059',
@@ -1743,7 +1937,7 @@ const yokais = [
         name: 'Wotchagot',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/wotchagot.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wotchagot.png',
         attribute: 'Ice',
         rank: 'E',
         yokaiNumber1: '059',
@@ -1757,19 +1951,25 @@ const yokais = [
         spirit: '420',
         power: '720',
         speed: '520',
-        defence: '900'
+        defence: '900',
+        fusion: {
+            description:
+                'Evolves into Pride Shrimp through fusion with Papa Windbag',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pride_shrimp.png'
+        }
     },
     {
         name: 'Pride Shrimp',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/pride_shrimp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pride_shrimp.png',
         attribute: 'Restoration',
         rank: 'B',
-        yokaiNumber1: '059',
+        yokaiNumber1: '',
         yokaiNumber2: '089',
         yokaiNumber3: '144',
-        yokaiFood1: 'Breads',
+        yokaiFood1: '',
         yokaiFood2: 'Seafoods',
         yokaiFood3: 'Seafoods',
         baseStats: '4700',
@@ -1777,19 +1977,26 @@ const yokais = [
         spirit: '670',
         power: '1020',
         speed: '760',
-        defence: '1230'
+        defence: '1230',
+        fusion: {
+            description: 'Evolves through fusion of Papa Windbag and Wotchagot',
+            image1:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/papa_windbag.png',
+            image2:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wotchagot.png'
+        }
     },
     {
         name: 'No-Go Kart',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/no-go_kart.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/no-go_kart.png',
         attribute: 'Earth',
         rank: 'E',
-        yokaiNumber1: '059',
+        yokaiNumber1: '',
         yokaiNumber2: '090',
         yokaiNumber3: '145',
-        yokaiFood1: 'Breads',
+        yokaiFood1: '',
         yokaiFood2: 'Rice Balls',
         yokaiFood3: 'Rice Balls',
         baseStats: '3540',
@@ -1803,13 +2010,13 @@ const yokais = [
         name: 'Mistank',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mistank.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mistank.png',
         attribute: 'Earth',
         rank: 'B',
-        yokaiNumber1: '059',
+        yokaiNumber1: '',
         yokaiNumber2: '090',
         yokaiNumber3: '145',
-        yokaiFood1: 'Breads',
+        yokaiFood1: '',
         yokaiFood2: 'Rice Balls',
         yokaiFood3: 'Rice Balls',
         baseStats: '4700',
@@ -1823,7 +2030,7 @@ const yokais = [
         name: 'Noway',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/noway.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/noway.png',
         attribute: 'Earth',
         rank: 'E',
         yokaiNumber1: '060',
@@ -1843,7 +2050,7 @@ const yokais = [
         name: 'Impass',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/impass.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/impass.png',
         attribute: 'Earth',
         rank: 'A',
         yokaiNumber1: '061',
@@ -1863,13 +2070,13 @@ const yokais = [
         name: 'Walldin',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/walldin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/walldin.png',
         attribute: 'Earth',
         rank: 'A',
-        yokaiNumber1: '061',
+        yokaiNumber1: '',
         yokaiNumber2: '093',
         yokaiNumber3: '150',
-        yokaiFood1: 'Ramens',
+        yokaiFood1: '',
         yokaiFood2: 'Ramens',
         yokaiFood3: 'Ramens',
         baseStats: '4880',
@@ -1883,7 +2090,7 @@ const yokais = [
         name: 'Roughraff',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/roughraff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/roughraff.png',
         attribute: 'Earth',
         rank: 'E',
         yokaiNumber1: '070',
@@ -1903,7 +2110,7 @@ const yokais = [
         name: 'Badude',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/badude.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/badude.png',
         attribute: 'Earth',
         rank: 'B',
         yokaiNumber1: '071',
@@ -1923,7 +2130,7 @@ const yokais = [
         name: 'Bruff',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/bruff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bruff.png',
         attribute: 'Earth',
         rank: 'A',
         yokaiNumber1: '072',
@@ -1943,7 +2150,7 @@ const yokais = [
         name: 'Armsman',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/armsman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/armsman.png',
         attribute: 'Ice',
         rank: 'D',
         yokaiNumber1: '063',
@@ -1963,13 +2170,13 @@ const yokais = [
         name: 'Mimikin',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mimikin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mimikin.png',
         attribute: 'Ice',
         rank: 'D',
-        yokaiNumber1: '063',
+        yokaiNumber1: '',
         yokaiNumber2: '098',
         yokaiNumber3: '160',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Candies',
         yokaiFood3: 'Candies',
         baseStats: '4070',
@@ -1983,7 +2190,7 @@ const yokais = [
         name: 'Blowkade',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/blowkade.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blowkade.png',
         attribute: 'Water',
         rank: 'D',
         yokaiNumber1: '066',
@@ -2003,7 +2210,7 @@ const yokais = [
         name: 'Ledballoon',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/ledballoon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ledballoon.png',
         attribute: 'Water',
         rank: 'C',
         yokaiNumber1: '067',
@@ -2023,7 +2230,7 @@ const yokais = [
         name: 'Fidgephant',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/fidgephant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/fidgephant.png',
         attribute: 'Water',
         rank: 'D',
         yokaiNumber1: '064',
@@ -2043,7 +2250,7 @@ const yokais = [
         name: 'Touphant',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/touphant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/touphant.png',
         attribute: 'Water',
         rank: 'C',
         yokaiNumber1: '065',
@@ -2063,13 +2270,13 @@ const yokais = [
         name: 'Enduriphant',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/enduriphant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enduriphant.png',
         attribute: 'Water',
         rank: 'A',
-        yokaiNumber1: '065',
+        yokaiNumber1: '',
         yokaiNumber2: '104',
         yokaiNumber3: '171',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Rice Balls',
         yokaiFood3: 'Rice Balls',
         baseStats: '4760',
@@ -2083,13 +2290,13 @@ const yokais = [
         name: 'Zappary',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/zappary.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zappary.png',
         attribute: 'Lightning',
         rank: 'D',
-        yokaiNumber1: '065',
+        yokaiNumber1: '',
         yokaiNumber2: '105',
         yokaiNumber3: '173',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Chinese foods',
         yokaiFood3: 'Chinese foods',
         baseStats: '4110',
@@ -2103,13 +2310,13 @@ const yokais = [
         name: 'Frazzel',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/frazzel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/frazzel.png',
         attribute: 'Lightning',
         rank: 'A',
-        yokaiNumber1: '065',
+        yokaiNumber1: '',
         yokaiNumber2: '106',
         yokaiNumber3: '173',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Chinese foods',
         yokaiFood3: 'Chinese foods',
         baseStats: '5020',
@@ -2123,13 +2330,13 @@ const yokais = [
         name: 'Swelton',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/swelton.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/swelton.png',
         attribute: 'Fire',
         rank: 'C',
-        yokaiNumber1: '065',
+        yokaiNumber1: '',
         yokaiNumber2: '107',
         yokaiNumber3: '177',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Curries',
         yokaiFood3: 'Curries',
         baseStats: '4030',
@@ -2143,7 +2350,7 @@ const yokais = [
         name: 'Mad Mountain',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mad_mountain.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mad_mountain.png',
         attribute: 'Ice',
         rank: 'C',
         yokaiNumber1: '068',
@@ -2163,7 +2370,7 @@ const yokais = [
         name: 'Lava Lord',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/lava_lord.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lava_lord.png',
         attribute: 'Lightning',
         rank: 'B',
         yokaiNumber1: '069',
@@ -2183,7 +2390,7 @@ const yokais = [
         name: 'Castelius III',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/castelius_iii.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_iii.png',
         attribute: 'Earth',
         rank: 'C',
         yokaiNumber1: '076',
@@ -2203,7 +2410,7 @@ const yokais = [
         name: 'Castelius II',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/castelius_ii.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_ii.png',
         attribute: 'Ice',
         rank: 'B',
         yokaiNumber1: '077',
@@ -2223,7 +2430,7 @@ const yokais = [
         name: 'Castelius I',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/castelius_i.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_i.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '078',
@@ -2243,7 +2450,7 @@ const yokais = [
         name: 'Castelius Max',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/castelius_max.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_max.png',
         attribute: 'Wind',
         rank: 'S',
         yokaiNumber1: '079',
@@ -2263,7 +2470,7 @@ const yokais = [
         name: 'Rhinoggin',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/rhinoggin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhinoggin.png',
         attribute: 'Earth',
         rank: 'B',
         yokaiNumber1: '073',
@@ -2283,7 +2490,7 @@ const yokais = [
         name: 'Rhinormous',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/rhinormous.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhinormous.png',
         attribute: 'Earth',
         rank: 'A',
         yokaiNumber1: '074',
@@ -2303,7 +2510,7 @@ const yokais = [
         name: 'Hornaplenty',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/hornaplenty.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hornaplenty.png',
         attribute: 'Earth',
         rank: 'S',
         yokaiNumber1: '075',
@@ -2323,7 +2530,7 @@ const yokais = [
         name: 'Robonyan',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/robonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robonyan.png',
         attribute: 'Ice',
         rank: 'A',
         yokaiNumber1: '080',
@@ -2343,7 +2550,7 @@ const yokais = [
         name: 'Goldenyan',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/goldenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/goldenyan.png',
         attribute: 'Lightning',
         rank: 'S',
         yokaiNumber1: '081',
@@ -2363,7 +2570,7 @@ const yokais = [
         name: 'Dromp',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dromp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dromp.png',
         attribute: 'Earth',
         rank: 'A',
         yokaiNumber1: '082',
@@ -2383,7 +2590,7 @@ const yokais = [
         name: 'Swosh',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/swosh.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/swosh.png',
         attribute: 'Water',
         rank: 'S',
         yokaiNumber1: '083',
@@ -2403,13 +2610,13 @@ const yokais = [
         name: 'Toadal Dude',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/toadal_dude.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/toadal_dude.png',
         attribute: 'Water',
         rank: 'S',
-        yokaiNumber1: '083',
+        yokaiNumber1: '',
         yokaiNumber2: '121',
         yokaiNumber3: '200',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Sobas Noodles',
         yokaiFood3: 'Sobas Noodles',
         baseStats: '193',
@@ -2423,13 +2630,13 @@ const yokais = [
         name: 'Uber Geeko',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/uber_geeko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/uber_geeko.png',
         attribute: 'Fire',
         rank: 'S',
-        yokaiNumber1: '083',
+        yokaiNumber1: '',
         yokaiNumber2: '122',
         yokaiNumber3: '201',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Sobas',
         yokaiFood3: 'Sobas',
         baseStats: '5260',
@@ -2443,13 +2650,13 @@ const yokais = [
         name: 'Leggly',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/leggly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/leggly.png',
         attribute: 'Restoration',
         rank: 'E',
-        yokaiNumber1: '083',
+        yokaiNumber1: '',
         yokaiNumber2: '213',
         yokaiNumber3: '209',
-        yokaiFood1: 'Vegetables',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '3940',
@@ -2463,7 +2670,7 @@ const yokais = [
         name: 'Dazzabel',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dazzabel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dazzabel.png',
         attribute: 'Fire',
         rank: 'E',
         yokaiNumber1: '084',
@@ -2483,7 +2690,7 @@ const yokais = [
         name: 'Rattelle',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/rattelle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rattelle.png',
         attribute: 'Fire',
         rank: 'C',
         yokaiNumber1: '085',
@@ -2503,7 +2710,7 @@ const yokais = [
         name: 'Skelebella',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/skelebella.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/skelebella.png',
         attribute: 'Water',
         rank: 'B',
         yokaiNumber1: '086',
@@ -2523,7 +2730,7 @@ const yokais = [
         name: 'Cadin',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cadin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cadin.png',
         attribute: 'Wind',
         rank: 'E',
         yokaiNumber1: '087',
@@ -2543,7 +2750,7 @@ const yokais = [
         name: 'Cadable',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cadable.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cadable.png',
         attribute: 'Wind',
         rank: 'C',
         yokaiNumber1: '088',
@@ -2563,13 +2770,13 @@ const yokais = [
         name: 'Singcada',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/singcada.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/singcada.png',
         attribute: 'Fire',
         rank: 'B',
-        yokaiNumber1: '088',
+        yokaiNumber1: '',
         yokaiNumber2: '128',
         yokaiNumber3: '216',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Juices',
         yokaiFood3: 'Juices',
         baseStats: '5040',
@@ -2583,7 +2790,7 @@ const yokais = [
         name: 'Pupsicle',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/pupsicle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pupsicle.png',
         attribute: 'Ice',
         rank: 'E',
         yokaiNumber1: '090',
@@ -2603,7 +2810,7 @@ const yokais = [
         name: 'Chilhuahua',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/chilhuahua.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chilhuahua.png',
         attribute: 'Ice',
         rank: 'A',
         yokaiNumber1: '091',
@@ -2623,12 +2830,12 @@ const yokais = [
         name: 'Swelterrier',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/swelterrier.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/swelterrier.png',
         attribute: 'Fire',
         rank: 'S',
         yokaiNumber1: '092',
         yokaiNumber2: '132',
-        yokaiNumber3: '223',
+        yokaiNumber3: '',
         yokaiFood1: 'Ramens',
         yokaiFood2: 'Ramens',
         yokaiFood3: 'Ramens',
@@ -2643,13 +2850,13 @@ const yokais = [
         name: 'Jumbelina',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/jumbelina.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jumbelina.png',
         attribute: 'Ice',
         rank: 'D',
-        yokaiNumber1: '092',
+        yokaiNumber1: '',
         yokaiNumber2: '132',
         yokaiNumber3: '227',
-        yokaiFood1: 'Ramens',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '4200',
@@ -2663,13 +2870,13 @@ const yokais = [
         name: 'Boyclops',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/boyclops.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/boyclops.png',
         attribute: 'Ice',
         rank: 'D',
-        yokaiNumber1: '092',
+        yokaiNumber1: '',
         yokaiNumber2: '134',
         yokaiNumber3: '228',
-        yokaiFood1: 'Ramens',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4240',
@@ -2683,7 +2890,7 @@ const yokais = [
         name: 'Jibanyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/jibanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jibanyan.png',
         attribute: 'Fire',
         rank: 'D',
         yokaiNumber1: '093',
@@ -2703,7 +2910,7 @@ const yokais = [
         name: 'Thornyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/thornyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/thornyan.png',
         attribute: 'Wind',
         rank: 'B',
         yokaiNumber1: '094',
@@ -2723,7 +2930,7 @@ const yokais = [
         name: 'Baddinyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/baddinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/baddinyan.png',
         attribute: 'Fire',
         rank: 'B',
         yokaiNumber1: '095',
@@ -2743,13 +2950,13 @@ const yokais = [
         name: 'Buchinyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/buchinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/buchinyan.png',
         attribute: 'Lightning',
         rank: 'A',
-        yokaiNumber1: '095',
+        yokaiNumber1: '',
         yokaiNumber2: '138',
         yokaiNumber3: '250',
-        yokaiFood1: 'Seafoods',
+        yokaiFood1: '',
         yokaiFood2: 'Chocobars',
         yokaiFood3: 'Chocobars',
         baseStats: '5340',
@@ -2763,7 +2970,7 @@ const yokais = [
         name: 'Walkappa',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/walkappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/walkappa.png',
         attribute: 'Water',
         rank: 'D',
         yokaiNumber1: '096',
@@ -2783,7 +2990,7 @@ const yokais = [
         name: 'Appak',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/appak.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/appak.png',
         attribute: 'Water',
         rank: 'A',
         yokaiNumber1: '097',
@@ -2803,7 +3010,7 @@ const yokais = [
         name: 'Supyo',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/supyo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/supyo.png',
         attribute: 'Water',
         rank: 'A',
         yokaiNumber1: '098',
@@ -2823,7 +3030,7 @@ const yokais = [
         name: 'Komasan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/komasan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komasan.png',
         attribute: 'Fire',
         rank: 'D',
         yokaiNumber1: '099',
@@ -2843,7 +3050,7 @@ const yokais = [
         name: 'Komane',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/komane.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komane.png',
         attribute: 'Fire',
         rank: 'A',
         yokaiNumber1: '100',
@@ -2863,7 +3070,7 @@ const yokais = [
         name: 'Komajiro',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/komajiro.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komajiro.png',
         attribute: 'Lightning',
         rank: 'D',
         yokaiNumber1: '101',
@@ -2883,7 +3090,7 @@ const yokais = [
         name: 'Komiger',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/komiger.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komiger.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '102',
@@ -2903,7 +3110,7 @@ const yokais = [
         name: 'Baku',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/baku.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/baku.png',
         attribute: 'Drain',
         rank: 'D',
         yokaiNumber1: '103',
@@ -2923,13 +3130,13 @@ const yokais = [
         name: 'Bakulia',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/bakulia.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bakulia.png',
         attribute: 'Drain',
         rank: 'B',
-        yokaiNumber1: '103',
+        yokaiNumber1: '',
         yokaiNumber2: '147',
         yokaiNumber3: '233',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Juices',
         yokaiFood3: 'Juices',
         baseStats: '5080',
@@ -2943,7 +3150,7 @@ const yokais = [
         name: 'Whapir',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/whapir.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whapir.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '104',
@@ -2963,13 +3170,13 @@ const yokais = [
         name: 'Drizzelda',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/drizzelda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/drizzelda.png',
         attribute: 'Water',
         rank: 'C',
-        yokaiNumber1: '104',
+        yokaiNumber1: '',
         yokaiNumber2: '148',
         yokaiNumber3: '234',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Juices',
         yokaiFood3: 'Juices',
         baseStats: '4330',
@@ -2983,13 +3190,13 @@ const yokais = [
         name: 'Nekidspeed',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/nekidspeed.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nekidspeed.png',
         attribute: 'Ice',
         rank: 'C',
-        yokaiNumber1: '104',
+        yokaiNumber1: '',
         yokaiNumber2: '150',
         yokaiNumber3: '261',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Curries',
         yokaiFood3: 'Juices',
         baseStats: '4330',
@@ -3003,7 +3210,7 @@ const yokais = [
         name: 'Shmoopie',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/shmoopie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shmoopie.png',
         attribute: 'Restoration',
         rank: 'C',
         yokaiNumber1: '105',
@@ -3023,7 +3230,7 @@ const yokais = [
         name: 'Pinkipoo',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/pinkipoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pinkipoo.png',
         attribute: 'Restoration',
         rank: 'B',
         yokaiNumber1: '106',
@@ -3043,7 +3250,7 @@ const yokais = [
         name: 'Pookivil',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/pookivil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pookivil.png',
         attribute: 'Drain',
         rank: 'A',
         yokaiNumber1: '107',
@@ -3063,13 +3270,13 @@ const yokais = [
         name: 'Harry Barry',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/harry_barry.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/harry_barry.png',
         attribute: 'Restoration',
         rank: 'B',
-        yokaiNumber1: '107',
+        yokaiNumber1: '',
         yokaiNumber2: '154',
         yokaiNumber3: '269',
-        yokaiFood1: 'Hamburgers',
+        yokaiFood1: '',
         yokaiFood2: 'Meats',
         yokaiFood3: 'Meats',
         baseStats: '88',
@@ -3083,7 +3290,7 @@ const yokais = [
         name: 'Frostina',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/frostina.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/frostina.png',
         attribute: 'Ice',
         rank: 'B',
         yokaiNumber1: '108',
@@ -3103,7 +3310,7 @@ const yokais = [
         name: 'Blizzaria',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/blizzaria.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blizzaria.png',
         attribute: 'Ice',
         rank: 'S',
         yokaiNumber1: '109',
@@ -3123,7 +3330,7 @@ const yokais = [
         name: 'Damona',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/damona.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/damona.png',
         attribute: 'Ice',
         rank: 'S',
         yokaiNumber1: '110',
@@ -3143,13 +3350,13 @@ const yokais = [
         name: 'Faux Kappa',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/faux_kappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/faux_kappa.png',
         attribute: 'Water',
         rank: 'A',
-        yokaiNumber1: '110',
+        yokaiNumber1: '',
         yokaiNumber2: '158',
         yokaiNumber3: '301',
-        yokaiFood1: 'Candies',
+        yokaiFood1: '',
         yokaiFood2: 'Vegetables',
         yokaiFood3: 'Vegetables',
         baseStats: '5160',
@@ -3163,13 +3370,13 @@ const yokais = [
         name: 'Tigappa',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tigappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tigappa.png',
         attribute: 'Water',
         rank: 'S',
-        yokaiNumber1: '110',
+        yokaiNumber1: '',
         yokaiNumber2: '159',
         yokaiNumber3: '302',
-        yokaiFood1: 'Candies',
+        yokaiFood1: '',
         yokaiFood2: 'Chinese foods',
         yokaiFood3: 'Chinese foods',
         baseStats: '5780',
@@ -3183,13 +3390,13 @@ const yokais = [
         name: 'Master Nyada',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/master_nyada.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/master_nyada.png',
         attribute: 'Wind',
         rank: 'S',
-        yokaiNumber1: '110',
+        yokaiNumber1: '',
         yokaiNumber2: '160',
         yokaiNumber3: '303',
-        yokaiFood1: 'Candies',
+        yokaiFood1: '',
         yokaiFood2: 'Seafoods',
         yokaiFood3: 'Seafoods',
         baseStats: '5780',
@@ -3203,7 +3410,7 @@ const yokais = [
         name: 'Wantston',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/wantston.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wantston.png',
         attribute: 'Lightning',
         rank: 'E',
         yokaiNumber1: '114',
@@ -3223,7 +3430,7 @@ const yokais = [
         name: 'Grubsnitch',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/grubsnitch.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grubsnitch.png',
         attribute: 'Earth',
         rank: 'D',
         yokaiNumber1: '115',
@@ -3243,7 +3450,7 @@ const yokais = [
         name: 'Wiglin',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/wiglin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wiglin.png',
         attribute: 'Restoration',
         rank: 'E',
         yokaiNumber1: '111',
@@ -3263,13 +3470,13 @@ const yokais = [
         name: 'Kelpacabana',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/kelpacabana.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kelpacabana.png',
         attribute: 'Restoration',
         rank: 'C',
-        yokaiNumber1: '111',
+        yokaiNumber1: '',
         yokaiNumber2: '164',
         yokaiNumber3: '312',
-        yokaiFood1: 'Ramens',
+        yokaiFood1: '',
         yokaiFood2: 'Ramens',
         yokaiFood3: 'Ramens',
         baseStats: '4710',
@@ -3283,7 +3490,7 @@ const yokais = [
         name: 'Steppa',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/steppa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/steppa.png',
         attribute: 'Restoration',
         rank: 'E',
         yokaiNumber1: '112',
@@ -3303,7 +3510,7 @@ const yokais = [
         name: 'Rhyth',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/rhyth.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhyth.png',
         attribute: 'Restoration',
         rank: 'D',
         yokaiNumber1: '113',
@@ -3323,7 +3530,7 @@ const yokais = [
         name: 'Hungramps',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/hungramps.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hungramps.png',
         attribute: 'Restoration',
         rank: 'E',
         yokaiNumber1: '116',
@@ -3343,7 +3550,7 @@ const yokais = [
         name: 'Hungorge',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/hungorge.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hungorge.png',
         attribute: 'Drain',
         rank: 'B',
         yokaiNumber1: '117',
@@ -3363,7 +3570,7 @@ const yokais = [
         name: 'Grainpa',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/grainpa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grainpa.png',
         attribute: 'Restoration',
         rank: 'B',
         yokaiNumber1: '118',
@@ -3383,13 +3590,13 @@ const yokais = [
         name: 'Tongus',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tongus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tongus.png',
         attribute: 'Restoration',
         rank: 'E',
-        yokaiNumber1: '118',
+        yokaiNumber1: '',
         yokaiNumber2: '170',
         yokaiNumber3: '320',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Vegetables',
         yokaiFood3: 'Vegetables',
         baseStats: '3960',
@@ -3403,13 +3610,13 @@ const yokais = [
         name: 'Nurse Tongus',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/nurse_tongus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nurse_tongus.png',
         attribute: 'Restoration',
         rank: 'B',
-        yokaiNumber1: '118',
+        yokaiNumber1: '',
         yokaiNumber2: '171',
         yokaiNumber3: '321',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Vegetables',
         yokaiFood3: 'Vegetables',
         baseStats: '977',
@@ -3423,13 +3630,13 @@ const yokais = [
         name: 'Sandmeh',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sandmeh.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sandmeh.png',
         attribute: 'Earth',
         rank: 'E',
-        yokaiNumber1: '118',
+        yokaiNumber1: '',
         yokaiNumber2: '172',
         yokaiNumber3: '322',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '3720',
@@ -3443,13 +3650,13 @@ const yokais = [
         name: 'Mister Sandmeh',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mister_sandmeh.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mister_sandmeh.png',
         attribute: 'Earth',
         rank: 'B',
-        yokaiNumber1: '118',
+        yokaiNumber1: '',
         yokaiNumber2: '172',
         yokaiNumber3: '323',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '3720',
@@ -3463,13 +3670,13 @@ const yokais = [
         name: 'Pallysol',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/pallysol.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pallysol.png',
         attribute: 'Wind',
         rank: 'E',
-        yokaiNumber1: '118',
+        yokaiNumber1: '',
         yokaiNumber2: '174',
         yokaiNumber3: '306',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '3800',
@@ -3483,13 +3690,13 @@ const yokais = [
         name: 'Scarasol',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/scarasol.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scarasol.png',
         attribute: 'Earth',
         rank: 'A',
-        yokaiNumber1: '118',
+        yokaiNumber1: '',
         yokaiNumber2: '174',
         yokaiNumber3: '364',
-        yokaiFood1: 'Rice Balls',
+        yokaiFood1: '',
         yokaiFood2: 'Sushis',
         yokaiFood3: 'Odens',
         baseStats: '5090',
@@ -3503,7 +3710,7 @@ const yokais = [
         name: 'Lodo',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/lodo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lodo.png',
         attribute: 'Wind',
         rank: 'D',
         yokaiNumber1: '119',
@@ -3523,13 +3730,13 @@ const yokais = [
         name: 'Supoor Hero',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/supoor_hero.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/supoor_hero.png',
         attribute: 'Wind',
         rank: 'A',
-        yokaiNumber1: '119',
+        yokaiNumber1: '',
         yokaiNumber2: '177',
         yokaiNumber3: '334',
-        yokaiFood1: 'Milks',
+        yokaiFood1: '',
         yokaiFood2: 'Milks',
         yokaiFood3: 'Milks',
         baseStats: '4220',
@@ -3543,7 +3750,7 @@ const yokais = [
         name: 'Chippa',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/chippa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chippa.png',
         attribute: 'Water',
         rank: 'C',
         yokaiNumber1: '120',
@@ -3563,7 +3770,7 @@ const yokais = [
         name: 'Gnomey',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/gnomey.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gnomey.png',
         attribute: 'Restoration',
         rank: 'D',
         yokaiNumber1: '120',
@@ -3583,13 +3790,13 @@ const yokais = [
         name: 'High Gnomey',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/high_gnomey.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/high_gnomey.png',
         attribute: 'Restoration',
         rank: 'A',
-        yokaiNumber1: '120',
+        yokaiNumber1: '',
         yokaiNumber2: '180',
         yokaiNumber3: '337',
-        yokaiFood1: 'Milks',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '4950',
@@ -3603,7 +3810,7 @@ const yokais = [
         name: 'Enerfly',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/enerfly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enerfly.png',
         attribute: 'Restoration',
         rank: 'D',
         yokaiNumber1: '121',
@@ -3623,7 +3830,7 @@ const yokais = [
         name: 'Enefly',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/enefly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enefly.png',
         attribute: 'Drain',
         rank: 'D',
         yokaiNumber1: '122',
@@ -3643,7 +3850,7 @@ const yokais = [
         name: 'Betterfly',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/betterfly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/betterfly.png',
         attribute: 'Restoration',
         rank: 'A',
         yokaiNumber1: '123',
@@ -3663,7 +3870,7 @@ const yokais = [
         name: 'Peppillon',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/peppillon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/peppillon.png',
         attribute: 'Restoration',
         rank: 'S',
         yokaiNumber1: '124',
@@ -3683,13 +3890,13 @@ const yokais = [
         name: 'Predictabull',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/predictabull.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/predictabull.png',
         attribute: 'Restoration',
         rank: 'D',
-        yokaiNumber1: '124',
+        yokaiNumber1: '',
         yokaiNumber2: '185',
         yokaiNumber3: '342',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Sushis',
         yokaiFood3: 'Sushis',
         baseStats: '4100',
@@ -3703,13 +3910,13 @@ const yokais = [
         name: 'Smashibull',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/smashibull.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smashibull.png',
         attribute: 'Restoration',
         rank: 'S',
-        yokaiNumber1: '124',
+        yokaiNumber1: '',
         yokaiNumber2: '186',
         yokaiNumber3: '343',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Sushis',
         yokaiFood3: 'Sushis',
         baseStats: '5340',
@@ -3723,13 +3930,13 @@ const yokais = [
         name: 'Don Chan',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/don_chan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/don_chan.png',
         attribute: 'Restoration',
         rank: 'C',
-        yokaiNumber1: '124',
+        yokaiNumber1: '',
         yokaiNumber2: '187',
         yokaiNumber3: '344',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '5340',
@@ -3743,13 +3950,13 @@ const yokais = [
         name: "Ray O'Light",
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/ray_o_light.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ray_o_light.png',
         attribute: 'Fire',
         rank: 'C',
-        yokaiNumber1: '124',
+        yokaiNumber1: '',
         yokaiNumber2: '188',
         yokaiNumber3: '345',
-        yokaiFood1: 'Juices',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '4450',
@@ -3763,7 +3970,7 @@ const yokais = [
         name: 'Happierre',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/happierre.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/happierre.png',
         attribute: 'Restoration',
         rank: 'C',
         yokaiNumber1: '125',
@@ -3783,7 +3990,7 @@ const yokais = [
         name: 'Reversa',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/reversa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reversa.png',
         attribute: 'Restoration',
         rank: 'A',
         yokaiNumber1: '126',
@@ -3803,7 +4010,7 @@ const yokais = [
         name: 'Reversette',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/reversette.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reversette.png',
         attribute: 'Wind',
         rank: 'A',
         yokaiNumber1: '127',
@@ -3823,7 +4030,7 @@ const yokais = [
         name: "Ol' Saint Trick",
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/ol__saint_trick.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ol__saint_trick.png',
         attribute: 'Restoration',
         rank: 'C',
         yokaiNumber1: '128',
@@ -3843,7 +4050,7 @@ const yokais = [
         name: "Ol' Fortune",
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/ol__fortune.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ol__fortune.png',
         attribute: 'Lightning',
         rank: 'C',
         yokaiNumber1: '129',
@@ -3863,7 +4070,7 @@ const yokais = [
         name: 'Rollen',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/rollen.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rollen.png',
         attribute: 'Water',
         rank: 'B',
         yokaiNumber1: '130',
@@ -3883,7 +4090,7 @@ const yokais = [
         name: 'Dubbles',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dubbles.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dubbles.png',
         attribute: 'Water',
         rank: 'A',
         yokaiNumber1: '131',
@@ -3903,7 +4110,7 @@ const yokais = [
         name: 'Papa Bolt',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/papa_bolt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/papa_bolt.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '132',
@@ -3923,7 +4130,7 @@ const yokais = [
         name: 'Uncle Infinite',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/uncle_infinite.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/uncle_infinite.png',
         attribute: 'Lightning',
         rank: 'S',
         yokaiNumber1: '133',
@@ -3943,7 +4150,7 @@ const yokais = [
         name: 'Mama Aura',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mama_aura.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mama_aura.png',
         attribute: 'Restoration',
         rank: 'A',
         yokaiNumber1: '134',
@@ -3963,7 +4170,7 @@ const yokais = [
         name: 'Auntie Heart',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/auntie_heart.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/auntie_heart.png',
         attribute: 'Restoration',
         rank: 'S',
         yokaiNumber1: '135',
@@ -3983,7 +4190,7 @@ const yokais = [
         name: 'Kyryn',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/kyryn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kyryn.png',
         attribute: 'Restoration',
         rank: 'S',
         yokaiNumber1: '135',
@@ -4003,7 +4210,7 @@ const yokais = [
         name: 'Unikirin',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/unikirin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unikirin.png',
         attribute: 'Restoration',
         rank: 'S',
         yokaiNumber1: '135',
@@ -4023,7 +4230,7 @@ const yokais = [
         name: 'Leadoni',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/leadoni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/leadoni.png',
         attribute: 'Ice',
         rank: 'E',
         yokaiNumber1: '136',
@@ -4043,7 +4250,7 @@ const yokais = [
         name: 'Mynimo',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mynimo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mynimo.png',
         attribute: 'Drain',
         rank: 'D',
         yokaiNumber1: '137',
@@ -4063,7 +4270,7 @@ const yokais = [
         name: 'Ake',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/ake.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ake.png',
         attribute: 'Earth',
         rank: 'E',
         yokaiNumber1: '138',
@@ -4083,7 +4290,7 @@ const yokais = [
         name: 'Payn',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/payn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/payn.png',
         attribute: 'Earth',
         rank: 'C',
         yokaiNumber1: '139',
@@ -4103,7 +4310,7 @@ const yokais = [
         name: 'Agon',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/agon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/agon.png',
         attribute: 'Earth',
         rank: 'B',
         yokaiNumber1: '140',
@@ -4123,7 +4330,7 @@ const yokais = [
         name: 'Wydeawake',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/wydeawake.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wydeawake.png',
         attribute: 'Lightning',
         rank: 'E',
         yokaiNumber1: '140',
@@ -4143,7 +4350,7 @@ const yokais = [
         name: 'Allnyta',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/allnyta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/allnyta.png',
         attribute: 'Lightning',
         rank: 'B',
         yokaiNumber1: '140',
@@ -4163,7 +4370,7 @@ const yokais = [
         name: 'Herbiboy',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/herbiboy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/herbiboy.png',
         attribute: 'Water',
         rank: 'E',
         yokaiNumber1: '140',
@@ -4183,7 +4390,7 @@ const yokais = [
         name: 'Carniboy',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/carniboy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/carniboy.png',
         attribute: 'Fire',
         rank: 'B',
         yokaiNumber1: '140',
@@ -4203,7 +4410,7 @@ const yokais = [
         name: 'Negatibuzz',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/negatibuzz.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/negatibuzz.png',
         attribute: 'Drain',
         rank: 'E',
         yokaiNumber1: '141',
@@ -4223,7 +4430,7 @@ const yokais = [
         name: 'Moskevil',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/moskevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/moskevil.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '142',
@@ -4243,7 +4450,7 @@ const yokais = [
         name: 'Scritchy',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/scritchy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scritchy.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '143',
@@ -4263,7 +4470,7 @@ const yokais = [
         name: 'Dimmy',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dimmy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dimmy.png',
         attribute: 'Wind',
         rank: 'E',
         yokaiNumber1: '144',
@@ -4283,7 +4490,7 @@ const yokais = [
         name: 'Blandon',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/blandon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blandon.png',
         attribute: 'Wind',
         rank: 'B',
         yokaiNumber1: '144',
@@ -4303,7 +4510,7 @@ const yokais = [
         name: 'Nul',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/null.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/null.png',
         attribute: 'Wind',
         rank: 'A',
         yokaiNumber1: '146',
@@ -4323,7 +4530,7 @@ const yokais = [
         name: 'Suspicioni',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/suspicioni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/suspicioni.png',
         attribute: 'Water',
         rank: 'D',
         yokaiNumber1: '150',
@@ -4343,7 +4550,7 @@ const yokais = [
         name: 'Tantroni',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tantroni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tantroni.png',
         attribute: 'Fire',
         rank: 'D',
         yokaiNumber1: '151',
@@ -4363,7 +4570,7 @@ const yokais = [
         name: 'Contrarioni',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/contrarioni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/contrarioni.png',
         attribute: 'Lightning',
         rank: 'B',
         yokaiNumber1: '151',
@@ -4383,7 +4590,7 @@ const yokais = [
         name: 'Hidabat',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/hidabat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hidabat.png',
         attribute: 'Wind',
         rank: 'D',
         yokaiNumber1: '147',
@@ -4403,7 +4610,7 @@ const yokais = [
         name: 'Abodabat',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/abodabat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/abodabat.png',
         attribute: 'Wind',
         rank: 'A',
         yokaiNumber1: '148',
@@ -4423,7 +4630,7 @@ const yokais = [
         name: 'Belfree',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/belfree.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/belfree.png',
         attribute: 'Wind',
         rank: 'A',
         yokaiNumber1: '149',
@@ -4443,11 +4650,11 @@ const yokais = [
         name: 'Yoink',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/yoink.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/yoink.png',
         attribute: 'Drain',
         rank: 'D',
         yokaiNumber1: '149',
-        yokaiNumber2: '223',
+        yokaiNumber2: '',
         yokaiNumber3: '404',
         yokaiFood1: 'Meats',
         yokaiFood2: 'Sushis',
@@ -4463,7 +4670,7 @@ const yokais = [
         name: 'Gimme',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/gimme.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gimme.png',
         attribute: 'Drain',
         rank: 'A',
         yokaiNumber1: '149',
@@ -4483,7 +4690,7 @@ const yokais = [
         name: "K'mon-K'mon",
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/k_mon-k_mon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/k_mon-k_mon.png',
         attribute: 'Wind',
         rank: 'C',
         yokaiNumber1: '149',
@@ -4503,7 +4710,7 @@ const yokais = [
         name: 'Yoodooit',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/yoodooit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/yoodooit.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '149',
@@ -4523,7 +4730,7 @@ const yokais = [
         name: 'Count Zapaway',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/count_zapaway.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/count_zapaway.png',
         attribute: 'Ice',
         rank: 'C',
         yokaiNumber1: '149',
@@ -4543,7 +4750,7 @@ const yokais = [
         name: 'Tyrat',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tyrat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tyrat.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '149',
@@ -4563,7 +4770,7 @@ const yokais = [
         name: 'Tengloom',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tengloom.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tengloom.png',
         attribute: 'Wind',
         rank: 'C',
         yokaiNumber1: '153',
@@ -4583,7 +4790,7 @@ const yokais = [
         name: 'Nird',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/nird.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nird.png',
         attribute: 'Wind',
         rank: 'B',
         yokaiNumber1: '154',
@@ -4603,7 +4810,7 @@ const yokais = [
         name: 'Snobetty',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/snobetty.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snobetty.png',
         attribute: 'Ice',
         rank: 'B',
         yokaiNumber1: '154',
@@ -4623,7 +4830,7 @@ const yokais = [
         name: 'Slimamander',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/slimamander.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slimamander.png',
         attribute: 'Fire',
         rank: 'B',
         yokaiNumber1: '224',
@@ -4643,7 +4850,7 @@ const yokais = [
         name: 'Dracunyan',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dracunyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dracunyan.png',
         attribute: 'Drain',
         rank: 'B',
         yokaiNumber1: '224',
@@ -4663,7 +4870,7 @@ const yokais = [
         name: 'Negasus',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/negasus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/negasus.png',
         attribute: 'Wind',
         rank: 'A',
         yokaiNumber1: '155',
@@ -4683,7 +4890,7 @@ const yokais = [
         name: 'Neighfarious',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/neighfarious.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/neighfarious.png',
         attribute: 'Drain',
         rank: 'A',
         yokaiNumber1: '156',
@@ -4703,7 +4910,7 @@ const yokais = [
         name: 'Timidevil',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/timidevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/timidevil.png',
         attribute: 'Fire',
         rank: 'A',
         yokaiNumber1: '157',
@@ -4723,7 +4930,7 @@ const yokais = [
         name: 'Beelzebold',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/beelzebold.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beelzebold.png',
         attribute: 'Fire',
         rank: 'S',
         yokaiNumber1: '158',
@@ -4743,7 +4950,7 @@ const yokais = [
         name: 'Count Cavity',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/count_cavity.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/count_cavity.png',
         attribute: 'Fire',
         rank: 'S',
         yokaiNumber1: '159',
@@ -4763,7 +4970,7 @@ const yokais = [
         name: 'Eyesoar',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/eyesoar.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/eyesoar.png',
         attribute: 'Earth',
         rank: 'A',
         yokaiNumber1: '159',
@@ -4783,7 +4990,7 @@ const yokais = [
         name: 'Eyellure',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/eyellure.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/eyellure.png',
         attribute: 'Lightning',
         rank: 'S',
         yokaiNumber1: '159',
@@ -4803,7 +5010,7 @@ const yokais = [
         name: 'Greesel',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/greesel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/greesel.png',
         attribute: 'Fire',
         rank: 'A',
         yokaiNumber1: '160',
@@ -4823,7 +5030,7 @@ const yokais = [
         name: 'Awevil',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/awevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/awevil.png',
         attribute: 'Water',
         rank: 'S',
         yokaiNumber1: '161',
@@ -4843,7 +5050,7 @@ const yokais = [
         name: 'Wobblewok',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/wobblewok.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wobblewok.png',
         attribute: 'Earth',
         rank: 'S',
         yokaiNumber1: '242',
@@ -4863,7 +5070,7 @@ const yokais = [
         name: 'Coughkoff',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/coughkoff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/coughkoff.png',
         attribute: 'Water',
         rank: 'E',
         yokaiNumber1: '162',
@@ -4883,7 +5090,7 @@ const yokais = [
         name: 'Hurchin',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/hurchin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hurchin.png',
         attribute: 'Water',
         rank: 'D',
         yokaiNumber1: '163',
@@ -4903,7 +5110,7 @@ const yokais = [
         name: 'Droplette',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/droplette.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/droplette.png',
         attribute: 'Water',
         rank: 'E',
         yokaiNumber1: '172',
@@ -4923,7 +5130,7 @@ const yokais = [
         name: 'Drizzle',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/drizzle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/drizzle.png',
         attribute: 'Water',
         rank: 'B',
         yokaiNumber1: '173',
@@ -4943,7 +5150,7 @@ const yokais = [
         name: 'Slush',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/slush.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slush.png',
         attribute: 'Ice',
         rank: 'E',
         yokaiNumber1: '174',
@@ -4963,7 +5170,7 @@ const yokais = [
         name: 'Alhail',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/alhail.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/alhail.png',
         attribute: 'Ice',
         rank: 'B',
         yokaiNumber1: '174',
@@ -4983,7 +5190,7 @@ const yokais = [
         name: 'Gush',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/gush.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gush.png',
         attribute: 'Fire',
         rank: 'D',
         yokaiNumber1: '176',
@@ -5003,7 +5210,7 @@ const yokais = [
         name: 'Peckpocket',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/peckpocket.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/peckpocket.png',
         attribute: 'Drain',
         rank: 'E',
         yokaiNumber1: '164',
@@ -5023,7 +5230,7 @@ const yokais = [
         name: 'Robbinyu',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/robbinyu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robbinyu.png',
         attribute: 'Drain',
         rank: 'B',
         yokaiNumber1: '164',
@@ -5043,7 +5250,7 @@ const yokais = [
         name: 'Rockabelly',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/rockabelly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rockabelly.png',
         attribute: 'Drain',
         rank: 'D',
         yokaiNumber1: '165',
@@ -5063,7 +5270,7 @@ const yokais = [
         name: 'Squeeky',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/squeeky.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/squeeky.png',
         attribute: 'Ice',
         rank: 'E',
         yokaiNumber1: '165',
@@ -5083,7 +5290,7 @@ const yokais = [
         name: 'Rawry',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/rawry.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rawry.png',
         attribute: 'Ice',
         rank: 'B',
         yokaiNumber1: '165',
@@ -5103,7 +5310,7 @@ const yokais = [
         name: 'Buhu',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/buhu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/buhu.png',
         attribute: 'Wind',
         rank: 'E',
         yokaiNumber1: '166',
@@ -5123,7 +5330,7 @@ const yokais = [
         name: 'Flumpy',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/flumpy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flumpy.png',
         attribute: 'Wind',
         rank: 'C',
         yokaiNumber1: '167',
@@ -5143,7 +5350,7 @@ const yokais = [
         name: 'Skreek',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/skreek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/skreek.png',
         attribute: 'Wind',
         rank: 'A',
         yokaiNumber1: '053',
@@ -5163,7 +5370,7 @@ const yokais = [
         name: 'Manjimutt',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/manjimutt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/manjimutt.png',
         attribute: 'Fire',
         rank: 'E',
         yokaiNumber1: '169',
@@ -5183,7 +5390,7 @@ const yokais = [
         name: 'Multimutt',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/multimutt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/multimutt.png',
         attribute: 'Fire',
         rank: 'B',
         yokaiNumber1: '170',
@@ -5203,7 +5410,7 @@ const yokais = [
         name: 'Sir Berus',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sir_berus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sir_berus.png',
         attribute: 'Earth',
         rank: 'A',
         yokaiNumber1: '171',
@@ -5223,7 +5430,7 @@ const yokais = [
         name: 'Furgus',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/furgus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/furgus.png',
         attribute: 'Earth',
         rank: 'E',
         yokaiNumber1: '171',
@@ -5243,7 +5450,7 @@ const yokais = [
         name: 'Furdinand',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/furdinand.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/furdinand.png',
         attribute: 'Earth',
         rank: 'A',
         yokaiNumber1: '171',
@@ -5263,7 +5470,7 @@ const yokais = [
         name: 'Nosirs',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/nosirs.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nosirs.png',
         attribute: 'Restoration',
         rank: 'D',
         yokaiNumber1: '171',
@@ -5283,7 +5490,7 @@ const yokais = [
         name: 'Dismarelda',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dismarelda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dismarelda.png',
         attribute: 'Earth',
         rank: 'D',
         yokaiNumber1: '179',
@@ -5303,7 +5510,7 @@ const yokais = [
         name: 'Chatalie',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/chatalie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chatalie.png',
         attribute: 'Lightning',
         rank: 'D',
         yokaiNumber1: '177',
@@ -5323,7 +5530,7 @@ const yokais = [
         name: 'Nagatha',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/nagatha.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nagatha.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '178',
@@ -5343,7 +5550,7 @@ const yokais = [
         name: 'Papa Windbag',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/papa_windbag.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/papa_windbag.png',
         attribute: 'Lightning',
         rank: 'C',
         yokaiNumber1: '178',
@@ -5357,13 +5564,19 @@ const yokais = [
         spirit: '960',
         power: '650',
         speed: '630',
-        defence: '625'
+        defence: '625',
+        fusion: {
+            description:
+                'Evolves into Pride Shrimp through fusion with Wotchagot',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pride_shrimp.png'
+        }
     },
     {
         name: 'Ben Tover',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/ben_tover.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ben_tover.png',
         attribute: 'Wind',
         rank: 'C',
         yokaiNumber1: '178',
@@ -5383,7 +5596,7 @@ const yokais = [
         name: 'Cheeksqueek',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cheeksqueek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cheeksqueek.png',
         attribute: 'Ice',
         rank: 'C',
         yokaiNumber1: '180',
@@ -5403,7 +5616,7 @@ const yokais = [
         name: 'Cuttincheez',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cuttincheez.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cuttincheez.png',
         attribute: 'Ice',
         rank: 'A',
         yokaiNumber1: '181',
@@ -5423,7 +5636,7 @@ const yokais = [
         name: 'Toiletta',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/toiletta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/toiletta.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '181',
@@ -5443,7 +5656,7 @@ const yokais = [
         name: 'Foiletta',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/foiletta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/foiletta.png',
         attribute: 'Drain',
         rank: 'A',
         yokaiNumber1: '181',
@@ -5463,7 +5676,7 @@ const yokais = [
         name: 'Sproink',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sproink.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sproink.png',
         attribute: 'Fire',
         rank: 'A',
         yokaiNumber1: '225',
@@ -5483,7 +5696,7 @@ const yokais = [
         name: 'Compunzer',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/compunzer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/compunzer.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '182',
@@ -5503,7 +5716,7 @@ const yokais = [
         name: 'Lamedian',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/lamedian.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lamedian.png',
         attribute: 'Drain',
         rank: 'B',
         yokaiNumber1: '183',
@@ -5523,7 +5736,7 @@ const yokais = [
         name: 'Grumples',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/grumples.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grumples.png',
         attribute: 'Drain',
         rank: 'B',
         yokaiNumber1: '184',
@@ -5543,7 +5756,7 @@ const yokais = [
         name: 'Everfore',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/everfore.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/everfore.png',
         attribute: 'Drain',
         rank: 'S',
         yokaiNumber1: '185',
@@ -5563,7 +5776,7 @@ const yokais = [
         name: 'Eterna',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/eterna.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/eterna.png',
         attribute: 'Drain',
         rank: 'S',
         yokaiNumber1: '186',
@@ -5583,7 +5796,7 @@ const yokais = [
         name: 'Insomni',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/insomni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/insomni.png',
         attribute: 'Ice',
         rank: 'A',
         yokaiNumber1: '187',
@@ -5603,7 +5816,7 @@ const yokais = [
         name: 'Sandi',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sandi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sandi.png',
         attribute: 'Drain',
         rank: 'S',
         yokaiNumber1: '188',
@@ -5623,7 +5836,7 @@ const yokais = [
         name: 'Arachnus',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/arachnus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/arachnus.png',
         attribute: 'Earth',
         rank: 'S',
         yokaiNumber1: '188',
@@ -5643,7 +5856,7 @@ const yokais = [
         name: 'Arachnia',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/arachnia.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/arachnia.png',
         attribute: 'Earth',
         rank: 'S',
         yokaiNumber1: '188',
@@ -5663,7 +5876,7 @@ const yokais = [
         name: 'Cricky',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cricky.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cricky.png',
         attribute: 'Water',
         rank: 'E',
         yokaiNumber1: '188',
@@ -5683,7 +5896,7 @@ const yokais = [
         name: 'Noko',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/noko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/noko.png',
         attribute: 'Earth',
         rank: 'E',
         yokaiNumber1: '189',
@@ -5703,7 +5916,7 @@ const yokais = [
         name: 'Bloominoko',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/bloominoko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bloominoko.png',
         attribute: 'Earth',
         rank: 'A',
         yokaiNumber1: '190',
@@ -5723,7 +5936,7 @@ const yokais = [
         name: 'Pandanoko',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/pandanoko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pandanoko.png',
         attribute: 'Ice',
         rank: 'A',
         yokaiNumber1: '191',
@@ -5743,7 +5956,7 @@ const yokais = [
         name: 'Snaggly',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/snaggly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snaggly.png',
         attribute: 'Lightning',
         rank: 'E',
         yokaiNumber1: '191',
@@ -5763,7 +5976,7 @@ const yokais = [
         name: 'Whinona',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/whinona.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whinona.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '191',
@@ -5783,7 +5996,7 @@ const yokais = [
         name: 'Heheheel',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/heheheel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/heheheel.png',
         attribute: 'Restoration',
         rank: 'D',
         yokaiNumber1: '192',
@@ -5803,7 +6016,7 @@ const yokais = [
         name: 'Croonger',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/croonger.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/croonger.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '193',
@@ -5823,7 +6036,7 @@ const yokais = [
         name: 'Urnaconda',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/urnaconda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/urnaconda.png',
         attribute: 'Restoration',
         rank: 'C',
         yokaiNumber1: '194',
@@ -5843,7 +6056,7 @@ const yokais = [
         name: 'Fishpicable',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/fishpicable.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/fishpicable.png',
         attribute: 'Lightning',
         rank: 'D',
         yokaiNumber1: '195',
@@ -5863,7 +6076,7 @@ const yokais = [
         name: 'Rageon',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/rageon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rageon.png',
         attribute: 'Lightning',
         rank: 'B',
         yokaiNumber1: '196',
@@ -5883,7 +6096,7 @@ const yokais = [
         name: 'Tunatic',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/tunatic.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tunatic.png',
         attribute: 'Fire',
         rank: 'A',
         yokaiNumber1: '197',
@@ -5903,7 +6116,7 @@ const yokais = [
         name: 'Flushback',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/flushback.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flushback.png',
         attribute: 'Restoration',
         rank: 'D',
         yokaiNumber1: '197',
@@ -5923,7 +6136,7 @@ const yokais = [
         name: 'Vacuumory',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/vacuumory.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/vacuumory.png',
         attribute: 'Restoration',
         rank: 'A',
         yokaiNumber1: '197',
@@ -5943,7 +6156,7 @@ const yokais = [
         name: 'Irewig',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/irewig.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/irewig.png',
         attribute: 'Fire',
         rank: 'D',
         yokaiNumber1: '197',
@@ -5963,7 +6176,7 @@ const yokais = [
         name: 'Firewig',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/firewig.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/firewig.png',
         attribute: 'Fire',
         rank: 'A',
         yokaiNumber1: '197',
@@ -5983,7 +6196,7 @@ const yokais = [
         name: 'Draggie',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/draggie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/draggie.png',
         attribute: 'Earth',
         rank: 'D',
         yokaiNumber1: '198',
@@ -6003,7 +6216,7 @@ const yokais = [
         name: 'Dragon Lord',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dragon_lord.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dragon_lord.png',
         attribute: 'Earth',
         rank: 'S',
         yokaiNumber1: '199',
@@ -6023,7 +6236,7 @@ const yokais = [
         name: 'Azure Dragon',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/azure_dragon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/azure_dragon.png',
         attribute: 'Water',
         rank: 'S',
         yokaiNumber1: '200',
@@ -6043,7 +6256,7 @@ const yokais = [
         name: 'Mermaidyn',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mermaidyn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermaidyn.png',
         attribute: 'Water',
         rank: 'D',
         yokaiNumber1: '200',
@@ -6063,7 +6276,7 @@ const yokais = [
         name: 'Mermadonna',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mermadonna.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermadonna.png',
         attribute: 'Water',
         rank: 'S',
         yokaiNumber1: '200',
@@ -6083,7 +6296,7 @@ const yokais = [
         name: 'Mermother',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mermother.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermother.png',
         attribute: 'Water',
         rank: 'S',
         yokaiNumber1: '200',
@@ -6103,7 +6316,7 @@ const yokais = [
         name: 'Lady Longnek',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/lady_longnek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lady_longnek.png',
         attribute: 'Restoration',
         rank: 'C',
         yokaiNumber1: '200',
@@ -6123,7 +6336,7 @@ const yokais = [
         name: 'Daiz',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/daiz.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/daiz.png',
         attribute: 'Drain',
         rank: 'C',
         yokaiNumber1: '201',
@@ -6143,7 +6356,7 @@ const yokais = [
         name: 'Confuze',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/confuze.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/confuze.png',
         attribute: 'Drain',
         rank: 'B',
         yokaiNumber1: '201',
@@ -6163,7 +6376,7 @@ const yokais = [
         name: 'Chummer',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/chummer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chummer.png',
         attribute: 'Water',
         rank: 'C',
         yokaiNumber1: '203',
@@ -6183,7 +6396,7 @@ const yokais = [
         name: 'Shrook',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/shrook.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shrook.png',
         attribute: 'Water',
         rank: 'B',
         yokaiNumber1: '204',
@@ -6203,7 +6416,7 @@ const yokais = [
         name: 'Spenp',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/spenp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/spenp.png',
         attribute: 'Wind',
         rank: 'C',
         yokaiNumber1: '205',
@@ -6223,7 +6436,7 @@ const yokais = [
         name: 'Almi',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/almi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/almi.png',
         attribute: 'Water',
         rank: 'B',
         yokaiNumber1: '206',
@@ -6243,7 +6456,7 @@ const yokais = [
         name: 'Babblong',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/babblong.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/babblong.png',
         attribute: 'Water',
         rank: 'C',
         yokaiNumber1: '207',
@@ -6263,7 +6476,7 @@ const yokais = [
         name: 'Bananose',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/bananose.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bananose.png',
         attribute: 'Water',
         rank: 'B',
         yokaiNumber1: '208',
@@ -6283,7 +6496,7 @@ const yokais = [
         name: 'Draaagin',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/draaagin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/draaagin.png',
         attribute: 'Ice',
         rank: 'B',
         yokaiNumber1: '208',
@@ -6303,7 +6516,7 @@ const yokais = [
         name: 'SV Snaggerjag',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sv_snaggerjag.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sv_snaggerjag.png',
         attribute: 'Water',
         rank: 'A',
         yokaiNumber1: '226 (boss)',
@@ -6323,7 +6536,7 @@ const yokais = [
         name: 'Copperled',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/copperled.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/copperled.png',
         attribute: 'Fire',
         rank: 'B',
         yokaiNumber1: '209',
@@ -6343,7 +6556,7 @@ const yokais = [
         name: 'Cynake',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/cynake.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cynake.png',
         attribute: 'Water',
         rank: 'B',
         yokaiNumber1: '210',
@@ -6363,7 +6576,7 @@ const yokais = [
         name: 'Slitheref',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/slitheref.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slitheref.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '211',
@@ -6383,7 +6596,7 @@ const yokais = [
         name: 'Venoct',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/venoct.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/venoct.png',
         attribute: 'Lightning',
         rank: 'S',
         yokaiNumber1: '212',
@@ -6403,7 +6616,7 @@ const yokais = [
         name: 'Shadow Venoct',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/shadow_venoct.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shadow_venoct.png',
         attribute: 'Restoration',
         rank: 'S',
         yokaiNumber1: '213',
@@ -6423,7 +6636,7 @@ const yokais = [
         name: 'Shogunyan',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/shogunyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shogunyan.png',
         attribute: 'Wind',
         rank: 'S',
         yokaiNumber1: '214',
@@ -6443,7 +6656,7 @@ const yokais = [
         name: 'Komashura',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/komashura.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komashura.png',
         attribute: 'Fire',
         rank: 'S',
         yokaiNumber1: '215',
@@ -6463,7 +6676,7 @@ const yokais = [
         name: 'Gilgaros',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/gilgaros.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gilgaros.png',
         attribute: 'Lightning',
         rank: 'S',
         yokaiNumber1: '218',
@@ -6483,7 +6696,7 @@ const yokais = [
         name: 'Spoilerina',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/spoilerina.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/spoilerina.png',
         attribute: 'Wind',
         rank: 'S',
         yokaiNumber1: '218',
@@ -6503,7 +6716,7 @@ const yokais = [
         name: 'Elder Bloom',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/elder_bloom.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/elder_bloom.png',
         attribute: 'Restoration',
         rank: 'S',
         yokaiNumber1: '216',
@@ -6523,7 +6736,7 @@ const yokais = [
         name: 'Poofessor',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/poofessor.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/poofessor.png',
         attribute: 'Drain',
         rank: 'S',
         yokaiNumber1: '216',
@@ -6543,7 +6756,7 @@ const yokais = [
         name: 'Dandoodle',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dandoodle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dandoodle.png',
         attribute: 'Restoration',
         rank: 'S',
         yokaiNumber1: '217',
@@ -6563,7 +6776,7 @@ const yokais = [
         name: 'Slurpent',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/slurpent.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slurpent.png',
         attribute: 'Drain',
         rank: 'S',
         yokaiNumber1: '217',
@@ -6583,7 +6796,7 @@ const yokais = [
         name: 'Sapphinyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sapphinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sapphinyan.png',
         attribute: 'Water',
         rank: 'A',
         yokaiNumber1: '219',
@@ -6603,7 +6816,7 @@ const yokais = [
         name: 'Emenyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/emenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/emenyan.png',
         attribute: 'Restoration',
         rank: 'A',
         yokaiNumber1: '220',
@@ -6623,7 +6836,7 @@ const yokais = [
         name: 'Rubinyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/rubinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rubinyan.png',
         attribute: 'Fire',
         rank: 'A',
         yokaiNumber1: '221',
@@ -6643,7 +6856,7 @@ const yokais = [
         name: 'Topanyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/topanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/topanyan.png',
         attribute: 'Lightning',
         rank: 'A',
         yokaiNumber1: '222',
@@ -6663,10 +6876,10 @@ const yokais = [
         name: 'Dianyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/dianyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dianyan.png',
         attribute: 'Ice',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '334',
         yokaiNumber3: '288',
         yokaiFood1: 'Seafoods',
@@ -6683,10 +6896,10 @@ const yokais = [
         name: 'Melonyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/melonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/melonyan.png',
         attribute: 'Ice',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '335',
         yokaiNumber3: '278',
         yokaiFood1: 'Seafoods',
@@ -6703,7 +6916,7 @@ const yokais = [
         name: 'Oranyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/oranyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/oranyan.png',
         attribute: 'Lightning',
         rank: 'B',
         yokaiNumber1: '223',
@@ -6723,10 +6936,10 @@ const yokais = [
         name: 'Kiwinyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/kiwinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kiwinyan.png',
         attribute: 'Earth',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '336',
         yokaiNumber3: '279',
         yokaiFood1: 'Seafoods',
@@ -6743,10 +6956,10 @@ const yokais = [
         name: 'Grapenyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/grapenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grapenyan.png',
         attribute: 'Water',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '338',
         yokaiNumber3: '281',
         yokaiFood1: 'Seafoods',
@@ -6763,10 +6976,10 @@ const yokais = [
         name: 'Strawbnyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/strawbnyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/strawbnyan.png',
         attribute: 'Fire',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '339',
         yokaiNumber3: '282',
         yokaiFood1: 'Seafoods',
@@ -6783,10 +6996,10 @@ const yokais = [
         name: 'Watermelnyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/watermelnyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/watermelnyan.png',
         attribute: 'Wind',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '340',
         yokaiNumber3: '283',
         yokaiFood1: 'Chocobars',
@@ -6803,10 +7016,10 @@ const yokais = [
         name: 'Robokapp',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/robokapp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robokapp.png',
         attribute: 'Water',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '340',
         yokaiNumber3: '283',
         yokaiFood1: 'Chocobars',
@@ -6823,10 +7036,10 @@ const yokais = [
         name: 'Robokoma',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/robokoma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robokoma.png',
         attribute: 'Fire',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '342',
         yokaiNumber3: '290',
         yokaiFood1: 'Chocobars',
@@ -6843,13 +7056,13 @@ const yokais = [
         name: 'Robogramps',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/robogramps.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robogramps.png',
         attribute: 'Restoration',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '343',
         yokaiNumber3: '361',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Rice Balls',
         yokaiFood3: 'Rice Balls',
         baseStats: '4860',
@@ -6863,13 +7076,13 @@ const yokais = [
         name: 'Robomutt',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/robomutt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robomutt.png',
         attribute: 'Wind',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '344',
         yokaiNumber3: '493',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Curries',
         yokaiFood3: 'Curries',
         baseStats: '4860',
@@ -6883,13 +7096,13 @@ const yokais = [
         name: 'Robonoko',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/robonoko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robonoko.png',
         attribute: 'Earth',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '345',
         yokaiNumber3: '562',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Hamburgers',
         yokaiFood3: 'Hamburgers',
         baseStats: '4860',
@@ -6903,13 +7116,13 @@ const yokais = [
         name: 'Robodraggie',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/robodraggie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robodraggie.png',
         attribute: 'Fire',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '346',
         yokaiNumber3: '562',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Chinese foods',
         yokaiFood3: 'Chinese foods',
         baseStats: '612',
@@ -6923,13 +7136,13 @@ const yokais = [
         name: 'Wondernyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/wondernyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wondernyan.png',
         attribute: 'Drain',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '347',
         yokaiNumber3: '270',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Chocobars',
         yokaiFood3: 'Chocobars',
         baseStats: '910',
@@ -6943,13 +7156,13 @@ const yokais = [
         name: 'Robonyan F',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/robonyan_f.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robonyan_f.png',
         attribute: 'Fire',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '348',
         yokaiNumber3: '195',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Chocobars',
         yokaiFood3: 'Chocobars',
         baseStats: '4940',
@@ -6963,13 +7176,13 @@ const yokais = [
         name: 'Sailornyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sailornyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sailornyan.png',
         attribute: 'Restoration',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '349',
         yokaiNumber3: '291',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Chocobars',
         yokaiFood3: 'Chocobars',
         baseStats: '5060',
@@ -6983,13 +7196,13 @@ const yokais = [
         name: 'Machonyan',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/machonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/machonyan.png',
         attribute: 'Lightning',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '350',
         yokaiNumber3: '056',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Chocobars',
         yokaiFood3: 'Chocobars',
         baseStats: '5210',
@@ -7003,13 +7216,13 @@ const yokais = [
         name: 'Hovernyan',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/hovernyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hovernyan.png',
         attribute: 'Wind',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '351',
         yokaiNumber3: '047',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Seafoods',
         yokaiFood3: 'Seafoods',
         baseStats: '5210',
@@ -7023,13 +7236,13 @@ const yokais = [
         name: 'Darknyan',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/darknyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darknyan.png',
         attribute: 'Wind',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '352',
         yokaiNumber3: '501',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Seafoods',
         yokaiFood3: 'Seafoods',
         baseStats: '5210',
@@ -7043,13 +7256,13 @@ const yokais = [
         name: 'Jibakoma',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/jibakoma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jibakoma.png',
         attribute: 'Fire',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '353',
         yokaiNumber3: '256',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Chocobars',
         yokaiFood3: 'Chocobars',
         baseStats: '5280',
@@ -7063,13 +7276,13 @@ const yokais = [
         name: 'Jetnyan',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/jetnyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jetnyan.png',
         attribute: 'Wind',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '354',
         yokaiNumber3: '271',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Chocobars',
         yokaiFood3: 'Chocobars',
         baseStats: '5120',
@@ -7083,13 +7296,13 @@ const yokais = [
         name: 'Unfairy',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/unfairy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unfairy.png',
         attribute: 'Drain',
         rank: 'S',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '355',
         yokaiNumber3: '575',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '6510',
@@ -7103,13 +7316,13 @@ const yokais = [
         name: 'Unkaind',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/unkaind.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unkaind.png',
         attribute: 'Water',
         rank: 'S',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '356',
         yokaiNumber3: '576',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Seafoods',
         yokaiFood3: 'Seafoods',
         baseStats: '5670',
@@ -7123,13 +7336,13 @@ const yokais = [
         name: 'Untidy',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/untidy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/untidy.png',
         attribute: 'Earth',
         rank: 'S',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '357',
         yokaiNumber3: '577',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Meats',
         yokaiFood3: 'Meats',
         baseStats: '5770',
@@ -7143,13 +7356,13 @@ const yokais = [
         name: 'Unpleasant',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/unpleasant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unpleasant.png',
         attribute: 'Wind',
         rank: 'S',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '358',
         yokaiNumber3: '578',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '5770',
@@ -7163,13 +7376,13 @@ const yokais = [
         name: 'Unkeen',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/unkeen.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unkeen.png',
         attribute: 'Lightning',
         rank: 'S',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '359',
         yokaiNumber3: '579',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Curries',
         yokaiFood3: 'Curries',
         baseStats: '5830',
@@ -7183,13 +7396,13 @@ const yokais = [
         name: 'Grublappa',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/grublappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grublappa.png',
         attribute: 'Lightning',
         rank: 'C',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '360',
         yokaiNumber3: '580',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '5830',
@@ -7203,13 +7416,13 @@ const yokais = [
         name: 'Madmunch',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/madmunch.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/madmunch.png',
         attribute: 'Earth',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '360',
         yokaiNumber3: '581',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '5830',
@@ -7223,13 +7436,13 @@ const yokais = [
         name: 'Badsmella',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/badsmella.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/badsmella.png',
         attribute: 'Wind',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '362',
         yokaiNumber3: '582',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '5830',
@@ -7243,13 +7456,13 @@ const yokais = [
         name: 'Mad Kappa',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/mad_kappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mad_kappa.png',
         attribute: 'Water',
         rank: 'A',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '363',
         yokaiNumber3: '583',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Vegetables',
         yokaiFood3: 'Vegetables',
         baseStats: '6090',
@@ -7263,13 +7476,13 @@ const yokais = [
         name: 'Shamasol',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/shamasol.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shamasol.png',
         attribute: 'Wind',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '364',
         yokaiNumber3: '584',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4430',
@@ -7283,13 +7496,13 @@ const yokais = [
         name: 'Gnomine',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/gnomine.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gnomine.png',
         attribute: 'Restoration',
         rank: 'C',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '365',
         yokaiNumber3: '585',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '5530',
@@ -7303,13 +7516,13 @@ const yokais = [
         name: 'Defectabull',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/defectabull.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/defectabull.png',
         attribute: 'Restoration',
         rank: 'C',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '366',
         yokaiNumber3: '586',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Sushis',
         yokaiFood3: 'Sushis',
         baseStats: '4790',
@@ -7323,13 +7536,13 @@ const yokais = [
         name: 'Feargus',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/feargus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/feargus.png',
         attribute: 'Earth',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '366',
         yokaiNumber3: '587',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Rice Balls',
         yokaiFood3: 'Rice Balls',
         baseStats: '3760',
@@ -7343,13 +7556,13 @@ const yokais = [
         name: 'Scaremaiden',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/scaremaiden.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scaremaiden.png',
         attribute: 'Water',
         rank: 'C',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '368',
         yokaiNumber3: '588',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '4710',
@@ -7363,13 +7576,13 @@ const yokais = [
         name: 'Wrongnek',
         tribe: 'Wicked',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/wrongnek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wrongnek.png',
         attribute: 'Restoration',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '369',
         yokaiNumber3: '589',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '4150',
@@ -7383,13 +7596,13 @@ const yokais = [
         name: 'Grumpus Khan',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/grumpus_khan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grumpus_khan.png',
         attribute: 'Wind',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '370',
         yokaiNumber3: '589',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '4680',
@@ -7403,13 +7616,13 @@ const yokais = [
         name: 'Groupus Khan',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/groupus_khan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/groupus_khan.png',
         attribute: 'Wind',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '371',
         yokaiNumber3: '400',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Sweets',
         yokaiFood3: 'Sweets',
         baseStats: '5090',
@@ -7423,13 +7636,13 @@ const yokais = [
         name: 'Slumberhog',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/slumberhog.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slumberhog.png',
         attribute: 'Fire',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '372',
         yokaiNumber3: '020',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Curries',
         yokaiFood3: 'Curries',
         baseStats: '4550',
@@ -7443,13 +7656,13 @@ const yokais = [
         name: 'Snortlehog',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/snortlehog.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snortlehog.png',
         attribute: 'Fire',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '373',
         yokaiNumber3: '021',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Curries',
         yokaiFood3: 'Curries',
         baseStats: '5140',
@@ -7463,13 +7676,13 @@ const yokais = [
         name: 'Panja Pupil',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/panja_pupil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/panja_pupil.png',
         attribute: 'Ice',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '374',
         yokaiNumber3: '236',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Sushis',
         yokaiFood3: 'Sushis',
         baseStats: '4600',
@@ -7483,13 +7696,13 @@ const yokais = [
         name: 'Panja Pro',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/panja_pro.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/panja_pro.png',
         attribute: 'Ice',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '375',
         yokaiNumber3: '237',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Sushis',
         yokaiFood3: 'Sushis',
         baseStats: '4860',
@@ -7503,13 +7716,13 @@ const yokais = [
         name: 'Samureel',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/samureel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/samureel.png',
         attribute: 'Water',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '376',
         yokaiNumber3: '022',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Seafoods',
         yokaiFood3: 'Seafoods',
         baseStats: '4430',
@@ -7523,13 +7736,13 @@ const yokais = [
         name: 'Time Keeler',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/time_keeler.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/time_keeler.png',
         attribute: 'Water',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '377',
         yokaiNumber3: '023',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Seafoods',
         yokaiFood3: 'Seafoods',
         baseStats: '4600',
@@ -7543,13 +7756,13 @@ const yokais = [
         name: 'Takoyakid',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/takoyakid.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/takoyakid.png',
         attribute: 'Fire',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '378',
         yokaiNumber3: '528',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4270',
@@ -7563,13 +7776,13 @@ const yokais = [
         name: 'Takoyaking',
         tribe: 'Slippery',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/takoyaking.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/takoyaking.png',
         attribute: 'Fire',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '379',
         yokaiNumber3: '529',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4500',
@@ -7583,13 +7796,13 @@ const yokais = [
         name: 'Danke Sand',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/danke_sand.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/danke_sand.png',
         attribute: 'Earth',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '380',
         yokaiNumber3: '529',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4600',
@@ -7603,13 +7816,13 @@ const yokais = [
         name: 'No Sandkyu',
         tribe: 'Eerie',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/no_sandkyu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/no_sandkyu.png',
         attribute: 'Earth',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '381',
         yokaiNumber3: '481',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4920',
@@ -7623,13 +7836,13 @@ const yokais = [
         name: 'Sumodon',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/sumodon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sumodon.png',
         attribute: 'Restoration',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '382',
         yokaiNumber3: '166',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4150',
@@ -7643,13 +7856,13 @@ const yokais = [
         name: 'Yokozudon',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/yokozudon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/yokozudon.png',
         attribute: 'Restoration',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '383',
         yokaiNumber3: '167',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
         baseStats: '4420',
@@ -7663,13 +7876,13 @@ const yokais = [
         name: 'Whateverest',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/whateverest.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whateverest.png',
         attribute: 'Fire',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '384',
         yokaiNumber3: '168',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Meats',
         yokaiFood3: 'Meats',
         baseStats: '4150',
@@ -7683,13 +7896,13 @@ const yokais = [
         name: 'Whatuption',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/whatuption.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whatuption.png',
         attribute: 'Fire',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '385',
         yokaiNumber3: '169',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Meats',
         yokaiFood3: 'Meats',
         baseStats: '4460',
@@ -7703,13 +7916,13 @@ const yokais = [
         name: 'Happycane',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/happycane.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/happycane.png',
         attribute: 'Restoration',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '386',
         yokaiNumber3: '331',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '4440',
@@ -7723,13 +7936,13 @@ const yokais = [
         name: 'Starrycane',
         tribe: 'Heartful',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/starrycane.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/starrycane.png',
         attribute: 'Restoration',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '387',
         yokaiNumber3: '332',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '4920',
@@ -7743,13 +7956,13 @@ const yokais = [
         name: 'Snottle',
         tribe: 'Mysterious',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/snottle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snottle.png',
         attribute: 'Drain',
         rank: 'D',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '430',
         yokaiNumber3: '085',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '4010',
@@ -7763,13 +7976,13 @@ const yokais = [
         name: 'Moximous N',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/moximous_n.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/moximous_n.png',
         attribute: 'Wind',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '431',
         yokaiNumber3: '048',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '4010',
@@ -7783,13 +7996,13 @@ const yokais = [
         name: 'Moximous K',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/moximous_k.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/moximous_k.png',
         attribute: 'Water',
         rank: 'B',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '432',
         yokaiNumber3: '049',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Snacks',
         yokaiFood3: 'Snacks',
         baseStats: '747',
@@ -7803,13 +8016,13 @@ const yokais = [
         name: 'Jibanyan S',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/jibanyan_s.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jibanyan_s.png',
         attribute: 'Fire',
         rank: 'S',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '432',
         yokaiNumber3: '049',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Chocobars',
         yokaiFood3: 'Chocobars',
         baseStats: '5760',
@@ -7823,13 +8036,13 @@ const yokais = [
         name: 'Komasan S',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/komasan_s.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komasan_s.png',
         attribute: 'Fire',
         rank: 'S',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '434',
         yokaiNumber3: '254',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Milks',
         yokaiFood3: 'Soft Creams',
         baseStats: '5720',
@@ -7843,13 +8056,13 @@ const yokais = [
         name: 'Komajiro S',
         tribe: 'Charming',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/komajiro_s.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komajiro_s.png',
         attribute: 'Lightning',
         rank: 'S',
-        yokaiNumber1: '223',
-        yokaiNumber2: '434',
+        yokaiNumber1: '',
+        yokaiNumber2: '435',
         yokaiNumber3: '254',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Milks',
         yokaiFood3: 'Milks',
         baseStats: '5680',
@@ -7861,103 +8074,108 @@ const yokais = [
     },
     {
         name: 'Darkyubi',
+        description:
+            'Entranced by evil power, Darkyubi has a dark soul. He wants to crush all hope and send the world into despair...or does he?',
         tribe: 'Shady',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/darkyubi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darkyubi.png',
         attribute: 'Drain',
         rank: 'S',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '436',
         yokaiNumber3: '442',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Odens',
         yokaiFood3: 'Odens',
-        baseStats: '154',
-        hp: '53',
-        spirit: '36',
-        power: '22',
-        speed: '29',
-        defence: '14'
+        hp: '417',
+        spirit: '238',
+        power: '103',
+        speed: '199',
+        defence: '153'
     },
     {
         name: 'Illuminoct',
+        description:
+            'Illuminoct has a heart full of pure, golden justice that shines as brightly as the sun. That light shines on and obliterates all evil',
         tribe: 'Brave',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/illuminoct.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/illuminoct.png',
         attribute: 'Lightning',
         rank: 'S',
-        yokaiNumber1: '223',
+        yokaiNumber1: '',
         yokaiNumber2: '437',
         yokaiNumber3: '063',
-        yokaiFood1: 'None',
+        yokaiFood1: '',
         yokaiFood2: 'Seafoods',
         yokaiFood3: 'Seafoods',
-        baseStats: '1068',
-        hp: '430',
-        spirit: '164',
-        power: '231',
-        speed: '189',
-        defence: '54'
+        hp: '413',
+        spirit: '103',
+        power: '216',
+        speed: '201',
+        defence: '177'
     },
     {
         name: 'Gargaros',
+        description:
+            'Gargaros, a symbol of fear itself, swoops in from Terror Time swinging his powerful club and smashing weak Yo-kai who get in his way',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/gargaros.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gargaros.png',
         attribute: 'Fire',
         rank: 'S',
-        yokaiNumber1: '243',
-        yokaiNumber2: '438 (Friend)/427 (Boss)',
+        yokaiNumber1: '',
+        yokaiNumber2: '438',
         yokaiNumber3: '202 (Friend)/B-26 (Boss)',
-        yokaiFood1: 'Meats',
+        yokaiFood1: '',
         yokaiFood2: 'Meats',
         yokaiFood3: 'Meats',
-        baseStats: '5400',
-        hp: '1160',
-        spirit: '650',
-        power: '1380',
-        speed: '1080',
-        defence: '1130'
+        hp: '?',
+        spirit: '?',
+        power: '?',
+        speed: '?',
+        defence: '?'
     },
     {
         name: 'Ogralus',
+        description:
+            'He prowls Terror Time, smashing and bashing his Enemies. He befriends those with the strength and purity of heart to escape Terror Time',
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/ogralus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ogralus.png',
         attribute: 'Water',
         rank: 'S',
-        yokaiNumber1: '244',
-        yokaiNumber2: null,
-        yokaiNumber3: null,
-        yokaiFood1: 'Meats',
+        yokaiNumber1: '',
+        yokaiNumber2: '438',
+        yokaiNumber3: '',
+        yokaiFood1: '',
         yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5560',
-        hp: '1160',
-        spirit: '930',
-        power: '1020',
-        speed: '1080',
-        defence: '1370'
+        yokaiFood3: '',
+        hp: '?',
+        spirit: '?',
+        power: '?',
+        speed: '?',
+        defence: '?'
     },
     {
         name: 'Orcanos',
+        description:
+            "The giant horns mean he's an Oni of supreme rank.The characteristic Oni pattern stands out when his blood is up in battle",
         tribe: 'Tough',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/yokais/orcanos.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/orcanos.png',
         attribute: 'Drain',
         rank: 'S',
-        yokaiNumber1: '245',
-        yokaiNumber2: '429 (Boss)/440 (Friend)',
+        yokaiNumber1: '',
+        yokaiNumber2: '440',
         yokaiNumber3: '204 (Friend)/B-028 (Boss)',
-        yokaiFood1: 'Meats',
+        yokaiFood1: '',
         yokaiFood2: 'Meats',
         yokaiFood3: 'Meats',
-        baseStats: '5880',
-        hp: '1160',
-        spirit: '930',
-        power: '1340',
-        speed: '920',
-        defence: '1530'
+        hp: '?',
+        spirit: '?',
+        power: '?',
+        speed: '?',
+        defence: '?'
     }
 ];
 
