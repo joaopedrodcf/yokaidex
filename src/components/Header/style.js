@@ -24,6 +24,8 @@ const Container = styled.div`
     a {
         text-decoration: none;
         color: #000000;
+        display: flex;
+        align-items: center;
     }
 
     a:hover {

@@ -15,17 +15,21 @@ import Button from '../shared/button';
 import Image from '../shared/image';
 
 import tribes from '../../mocks/tribes';
-import attributes from '../../mocks/attributes';
+import elements from '../../mocks/elements';
 import ranks from '../../mocks/ranks';
 
 const getImage = (types, wantedType) => {
-    const typeRow = types.find(aux => wantedType === aux.name);
+    const typeRow = types.find(
+        aux => wantedType.toLowerCase() === aux.name.toLowerCase()
+    );
 
     return typeRow ? typeRow.image : '';
 };
 
 const getColor = (types, wantedType) => {
-    const typeRow = types.find(aux => wantedType === aux.name);
+    const typeRow = types.find(
+        aux => wantedType.toLowerCase() === aux.name.toLowerCase()
+    );
 
     return typeRow ? `${typeRow.color1}, ${typeRow.color2}` : '';
 };
@@ -37,7 +41,7 @@ class Main extends Component {
         this.state = {
             tribe: [],
             rank: [],
-            attribute: [],
+            element: [],
             name: '',
             sort: '',
             orderAsc: true,
@@ -57,7 +61,7 @@ class Main extends Component {
     }
 
     handleResetFilter() {
-        this.setState({ tribe: [], rank: [], attribute: [] });
+        this.setState({ tribe: [], rank: [], element: [] });
     }
 
     handleCheckbox(event) {
@@ -99,7 +103,7 @@ class Main extends Component {
         const {
             tribe,
             rank,
-            attribute,
+            element,
             name,
             sort,
             orderAsc,
@@ -115,10 +119,11 @@ class Main extends Component {
             'Shady',
             'Slippery',
             'Tough',
-            'Wicked'
+            'Wicked',
+            'Boss'
         ];
         const ranksCheckbox = ['A', 'B', 'C', 'D', 'E', 'S'];
-        const attributesCheckbox = [
+        const elementsCheckbox = [
             'Drain',
             'Earth',
             'Fire',
@@ -228,15 +233,15 @@ class Main extends Component {
                                     }
                                 />
                             </Button>
-                            {attributesCheckbox.map(type => (
+                            {elementsCheckbox.map(type => (
                                 <InputContainer key={type}>
                                     <input
                                         type="checkbox"
-                                        checked={attribute.includes(
+                                        checked={element.includes(
                                             type.toLowerCase()
                                         )}
                                         name={type}
-                                        checkboxtype="attribute"
+                                        checkboxtype="element"
                                         onChange={this.handleCheckbox}
                                     />
                                     <label htmlFor={type}>{type}</label>
@@ -284,12 +289,9 @@ class Main extends Component {
                                         />
                                     ) : null}
                                 </th>
-                                <th
-                                    onClick={this.handleSort}
-                                    thtype="attribute"
-                                >
+                                <th onClick={this.handleSort} thtype="element">
                                     Attribute
-                                    {sort === 'attribute' ? (
+                                    {sort === 'element' ? (
                                         <FontAwesomeIcon
                                             icon={
                                                 orderAsc
@@ -335,7 +337,7 @@ class Main extends Component {
                                     const filters = {
                                         tribe,
                                         rank,
-                                        attribute
+                                        element
                                     };
 
                                     if (
@@ -402,10 +404,10 @@ class Main extends Component {
                                         <td>
                                             <Image
                                                 imageUrl={getImage(
-                                                    attributes,
-                                                    yokai.attribute
+                                                    elements,
+                                                    yokai.element
                                                 )}
-                                                altText={yokai.attribute}
+                                                altText={yokai.element}
                                                 size="small"
                                             />
                                         </td>

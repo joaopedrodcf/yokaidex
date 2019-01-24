@@ -1,8181 +1,21635 @@
 const yokais = [
     {
         name: 'Pandle',
-        description:
-            'A careless Yo-kai who enters battle wearing only a loincloth...and a pan on his head.Try not to take after him so much',
-        tribe: 'Brave',
+        yokaiNumber: '001',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pandle.png',
-        attribute: 'Fire',
-        rank: 'E',
-        yokaiNumber1: '001',
-        yokaiNumber2: '001',
-        yokaiNumber3: '003',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        hp: '319',
-        spirit: '70',
-        power: '160',
-        speed: '130',
-        defence: '82',
-        evolution: {
-            description: 'Evolves into Undy at level 18',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/undy.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/pandle.png',
+        description:
+            'A careless Yo-kai who enters battle wearing only a loincloth...and a pan on his head. Try not to take after him so much.',
+        locations: [
+            'Uptown Springdale - The Catwalk',
+            'Uptown Springdale - Desolate Lane',
+            'Uptown Springdale - Elementary School 3F',
+            'Uptown Springdale - Elementary School 2F',
+            'Uptown Springdale - Elementary School 1F',
+            'Uptown Springdale - Bushes',
+            'Mystery Way - Route 2',
+            'Infinite Inferno - 1st Circle',
+            'Infinite Inferno - 2nd Circle',
+            'Infinite Inferno - 3rd Circle',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Careless',
+            description: 'Prone to be dealtcritical attacks.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Pointy Toothpick',
+            description: 'Pokes his foes with his beloved toothpick.',
+            power: '18x5'
+        },
+        inspirit: {
+            name: 'Careless',
+            description: 'Makes a foe careless and decreases its DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '205',
+            str: '99',
+            spr: '44',
+            def: '51',
+            spd: '81'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'e',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description: 'Evolves into Undy at level 18',
+                yokais: [
+                    {
+                        name: 'Undy',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/undy.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Undy',
-        description:
-            "Having abandoned the pan, Undy is pretty much bare to the world.That aside, you won't ever see him wince or bruise",
-        tribe: 'Brave',
+        yokaiNumber: '002',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/undy.png',
-        attribute: 'Fire',
-        rank: 'C',
-        yokaiNumber1: '002',
-        yokaiNumber2: '002',
-        yokaiNumber3: '004',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        hp: '392',
-        spirit: '106',
-        power: '166',
-        speed: '151',
-        defence: '90',
-        evolution: {
-            description: 'Evolves from Pandle at level 18',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pandle.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/undy.png',
+        description:
+            "Having abandoned the pan, Undy is pretty much bare to the world. That aside, you won't ever see him wince or bruise.",
+        locations: ['Evolve Pandle at Level 18.', 'Evolve Pandle at Level 18.'],
+        skill: {
+            name: 'Careless',
+            description: 'Prone to be dealtcritical attacks.'
+        },
+        attack: {
+            name: 'Pointy Pokes',
+            power: '12x3 to 26x3'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Toothpick Rainfall',
+            description: 'Pokes his foes very hard with his beloved toothpick.',
+            power: '20x7'
+        },
+        inspirit: {
+            name: 'Defenseless',
+            description:
+                'Makes a foe defenseless, which... lowers its DEF. Duh!',
+            power: '0'
+        },
+        stats: {
+            hp: '243',
+            str: '118',
+            spr: '52',
+            def: '55',
+            spd: '93'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'c',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description: 'Evolves from Pandle at level 18',
+                yokais: [
+                    {
+                        name: 'Pandle',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pandle.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Tanbo',
-        description:
-            'A Yo-kai that is always first to the battle! With no clothes to slow him down, he shows up early and always has a nice tan',
-        tribe: 'Brave',
+        yokaiNumber: '003',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tanbo.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '003',
-        yokaiNumber2: '003',
-        yokaiNumber3: '005',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        hp: '468',
-        spirit: '121',
-        power: '181',
-        speed: '151',
-        defence: '90'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tanbo.png',
+        description:
+            'A Yo-kai that is always first to the battle! With no clothes to slow him down, he shows up early and always has a nice tan.',
+        locations: [
+            'Uptown Springdale - Elementary School 3F',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin'
+        ],
+        skill: {
+            name: 'Careless',
+            description: 'Prone to be dealtcritical attacks.'
+        },
+        attack: {
+            name: 'Pointy Pokes',
+            power: '12x3 to 26x3'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Gutsy Cut',
+            description:
+                'Cuts into a single foe with confidence and for high damage.',
+            power: '155 to 232'
+        },
+        inspirit: {
+            name: 'Gutsiness',
+            description: "Raises an ally's SPD by making it gutsy!",
+            power: '0'
+        },
+        stats: {
+            hp: '278',
+            str: '128',
+            spr: '63',
+            def: '59',
+            spd: '95'
+        },
+        tribe: 'brave',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Cutta-nah',
-        description:
-            "A lazy katana Yo-kai who can drain all of your motivation. He's strangely sharp for being so lazy",
-        tribe: 'Brave',
+        yokaiNumber: '004',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah.png',
-        attribute: 'Wind',
-        rank: 'E',
-        yokaiNumber1: '004',
-        yokaiNumber2: '004',
-        yokaiNumber3: '006',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        hp: '297',
-        spirit: '79',
-        power: '155',
-        speed: '101',
-        defence: '111',
-        evolution: {
-            description: 'Evolves into Cutta-nah-nah at Level 20',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah-nah.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cutta-nah.png',
+        description:
+            "A lazy katana Yo-kai who can drain all of your motivation. He's strangely sharp for being so lazy.",
+        locations: [
+            'Mt. Wildwood - Abandoned Tunnel West',
+            'Mt. Wildwood - Abandoned Tunnel East',
+            'Mt. Wildwood - Bamboo Groves',
+            'Mt. Wildwood - Brushwoods',
+            'Mt. Wildwood - Abandoned Tunnel West & East & Jumbo Slider - Brushwoods',
+            'Blossom Heights - Bamboo groves',
+            "Shopper's Row - Brushwoods & flowers",
+            'Breezy Hills - Under cars & Garbages',
+            'Breezy Hills - Distributors',
+            'Breezy Hills - Empty flats',
+            'Old Springdale - Mt.Wildwood Shrine - Bamboo groves',
+            'Fleshy Souls Way - Exit',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Bladed Body',
+            description: 'Body deals damage toall foes who attack it.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Halfhearted Chop',
+            description: 'Slices his opponents while lolling around. ',
+            power: '20x5'
+        },
+        inspirit: {
+            name: 'Aimless',
+            description:
+                'Makes Yo-kai lose their motivation and Loaf around more.',
+            power: '0'
+        },
+        stats: {
+            hp: '191',
+            str: '96',
+            spr: '49',
+            def: '69',
+            spd: '62'
+        },
+        tribe: 'brave',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'e',
+        favouriteFood: 'juices',
+        evolution: [
+            {
+                description: 'Evolves into Cutta-nah-nah at Level 20',
+                yokais: [
+                    {
+                        name: 'Cutta-nah-nah',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah-nah.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Cutta-nah-nah',
-        description:
-            'Too lazy to get a haircut, but not too lazy to slash enemies with his untidy strands',
-        tribe: 'Brave',
+        yokaiNumber: '005',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah-nah.png',
-        attribute: 'Wind',
-        rank: 'C',
-        yokaiNumber1: '005',
-        yokaiNumber2: '005',
-        yokaiNumber3: '007',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        hp: '374',
-        spirit: '96',
-        power: '172',
-        speed: '131',
-        defence: '128',
-        evolution: {
-            description: 'Evolves from Cutta-nah at Level 20',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cutta-nah-nah.png',
+        description:
+            'Too lazy to get a haircut, but not too lazy to slash enemies with his untidy strands.',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Evolve Cuttah-nah at Level 20.',
+            'Evolve Cuttah-nah at Level 20.'
+        ],
+        skill: {
+            name: 'Bladed Body',
+            description: 'Body deals damage toall foes who attack it.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Resigned Rush',
+            description:
+                'Rushes into battle and spins around while slicing up his foes.',
+            power: '20x7'
+        },
+        inspirit: {
+            name: 'Laziness',
+            description: 'Makes enemies so lazy that it saps their STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '241',
+            str: '109',
+            spr: '62',
+            def: '82',
+            spd: '84'
+        },
+        tribe: 'brave',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'juices',
+        evolution: [
+            {
+                description: 'Evolves from Cutta-nah at Level 20',
+                yokais: [
+                    {
+                        name: 'Cutta-nah',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Slacka-slash',
-        description:
-            'More dangerous than he looks, Slacka-slash can beat his foes with only a single slice',
-        tribe: 'Brave',
+        yokaiNumber: '006',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slacka-slash.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '006',
-        yokaiNumber2: '006',
-        yokaiNumber3: '008',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '5000',
-        hp: '1450',
-        spirit: '630',
-        power: '1190',
-        speed: '930',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/slacka-slash.png',
+        description:
+            'More dangerous than he looks, Slacka-slash can beat his foes with only a single slice.',
+        locations: [
+            'Breezy Hills - Gourd Pond Museum 2F',
+            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
+            'Mystery Way - Crank-a-kai - Deer Mystery Coin'
+        ],
+        skill: {
+            name: 'Bladed Body',
+            description: 'Body deals damage toall foes who attack it.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Phantom Smash',
+            description:
+                'Chops an enemy with his hair. Likely to be either critical or a miss.',
+            power: '155 to 232'
+        },
+        inspirit: {
+            name: 'Laziness',
+            description: 'Makes enemies so lazy that it saps their STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '257',
+            str: '124',
+            spr: '66',
+            def: '89',
+            spd: '94'
+        },
+        tribe: 'brave',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'juices'
     },
     {
         name: 'Brushido',
-        description:
-            "A foot soldier who loves cleaning. His spotless reputation means he's sure to be a shogun someday",
-        tribe: 'Brave',
+        yokaiNumber: '007',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/brushido.png',
-        attribute: 'Ice',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '007',
-        yokaiNumber3: '009',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '3960',
-        hp: '1300',
-        spirit: '460',
-        power: '900',
-        speed: '780',
-        defence: '520',
-        evolution: {
-            description: 'Evolves into Washogun at Level 19',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/washogun.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/brushido.png',
+        description:
+            "A foot soldier who loves  cleaning. His spotless  reputation means he's  sure to be a shogun  someday.",
+        locations: [
+            'Uptown Springdale - Under cars, Distributors & Garbages',
+            'Uptown Springdale - Lonely Waterway, Shady Back Alley, The Catwalk & Desolate Lane - Garbages & Dumps',
+            'Gera Gera Land',
+            'Gera Gera Land'
+        ],
+        skill: {
+            name: 'Washed Out',
+            description: 'Stats decrease when negatively Inspirited.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Cleaning Circle',
+            description: 'Uses his trusty brush to scrub his allies clean.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Freshen Up',
+            description:
+                'Clean, virtuous power restores a little HP to the Inspirited Yo-kai.',
+            power: '0'
+        },
+        stats: {
+            hp: '193',
+            str: '88',
+            spr: '56',
+            def: '49',
+            spd: '104'
+        },
+        tribe: 'brave',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'sweets',
+        evolution: [
+            {
+                description: 'Evolves into Washogun at Level 19',
+                yokais: [
+                    {
+                        name: 'Washogun',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/washogun.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Washogun',
-        description:
-            'A neat-freak shogun who has been known to make heads roll if an underling so much as smudges his helmet',
-        tribe: 'Brave',
+        yokaiNumber: '008',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/washogun.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '008',
-        yokaiNumber3: '010',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5000',
-        hp: '1450',
-        spirit: '630',
-        power: '1190',
-        speed: '930',
-        defence: '800',
-        evolution: {
-            description: 'Evolves from Brushido at Level 19',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/brushido.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/washogun.png',
+        description:
+            'A neat-freak shogun who has been known to make heads roll if an underling so much as smudges his helmet.',
+        locations: [
+            'Evolve Brushido at Level 19.',
+            'Evolve Brushido at Level 19.'
+        ],
+        skill: {
+            name: 'Washed Out',
+            description: 'Stats decrease when negatively Inspirited.'
+        },
+        attack: {
+            name: 'Spraygun',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Spray Care',
+            description: 'Cleanses allies with his spray gun, restoring HP.',
+            power: '70'
+        },
+        inspirit: {
+            name: 'Spruce Up',
+            description:
+                'Clean, virtuous power restores a little HP to the Inspirited Yo-kai.',
+            power: '0'
+        },
+        stats: {
+            hp: '227',
+            str: '125',
+            spr: '69',
+            def: '99',
+            spd: '88'
+        },
+        tribe: 'brave',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'sweets',
+        evolution: [
+            {
+                description: 'Evolves from Brushido at Level 19',
+                yokais: [
+                    {
+                        name: 'Brushido',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/brushido.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Lie-in',
-        description:
-            'A laid-back lion who wants to be a mighty warrior but tends to prioritize nap time over sword practice',
-        tribe: 'Brave',
+        yokaiNumber: '009',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in.png',
-        attribute: 'Ice',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '009',
-        yokaiNumber3: '011',
-        yokaiFood1: '',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '3820',
-        hp: '1320',
-        spirit: '420',
-        power: '940',
-        speed: '620',
-        defence: '520',
-        evolution: {
-            description: 'Evolves into Lie-in Heart at Level 28',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in_heart.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/lie-in.png',
+        description:
+            'A laid-back lion who  wants to be a mighty warrior but tends to prioritize nap time over  sword practice.',
+        locations: [
+            'Blossom Heights - Tucked Away Lot',
+            'Mystery Way - Back Road',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Quest - "Train Lie-in with Pride".',
+            'Quest - "Train Lie-in with Pride".'
+        ],
+        skill: {
+            name: 'Hard Worker',
+            description: 'Receives moreexperience points.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: "Paws 'n' Claws",
+            description:
+                'Serves up a serious beating to his foes with his bare hands.',
+            power: '16x5'
+        },
+        inspirit: {
+            name: 'Lionize',
+            description:
+                'The power of a lion awakes in the Inspirited Yo-kai. STR goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '184',
+            str: '89',
+            spr: '57',
+            def: '48',
+            spd: '100'
+        },
+        tribe: 'brave',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'chinese foods',
+        evolution: [
+            {
+                description: 'Evolves into Lie-in Heart at Level 28',
+                yokais: [
+                    {
+                        name: 'Lie-in Heart',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in_heart.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Lie-in Heart',
-        description:
-            "A lion who's realized his full potential. He always waits for the perfect moment before striking",
-        tribe: 'Brave',
+        yokaiNumber: '010',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in_heart.png',
-        attribute: 'Ice',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '010',
-        yokaiNumber3: '012',
-        yokaiFood1: '',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '5110',
-        hp: '1490',
-        spirit: '540',
-        power: '1340',
-        speed: '980',
-        defence: '760',
-        evolution: {
-            description: 'Evolves from Lie-in at Level 28',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/lie-in_heart.png',
+        description:
+            "A lion who's realized his full potential. He always waits for the perfect moment before striking.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Sum Mystery Coin',
+            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Evolve Lie-in at Level 28.',
+            'Evolve Lie-in at Level 28.'
+        ],
+        skill: {
+            name: 'Lie-in Wait',
+            description: "Doesn't take an actionfor one to two turns."
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Lion Blade',
+            description:
+                'Waits for the perfect moment before cutting foes with his sword.',
+            power: '28x8'
+        },
+        inspirit: {
+            name: 'Lionize',
+            description:
+                'The power of a lion awakes in the Inspirited Yo-kai. STR goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '223',
+            str: '130',
+            spr: '90',
+            def: '87',
+            spd: '125'
+        },
+        tribe: 'brave',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'a',
+        favouriteFood: 'chinese foods',
+        evolution: [
+            {
+                description: 'Evolves from Lie-in at Level 28',
+                yokais: [
+                    {
+                        name: 'Lie-in',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Hissfit',
-        description:
-            'This foul-tempered fellow stamps his feet constantly, making it hard to take him seriously',
-        tribe: 'Brave',
+        yokaiNumber: '011',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hissfit.png',
-        attribute: 'Fire',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '011',
-        yokaiNumber3: '013',
-        yokaiFood1: '',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '3720',
-        hp: '1260',
-        spirit: '420',
-        power: '900',
-        speed: '620',
-        defence: '520',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hissfit.png',
+        description:
+            'This foul-tempered fellow  stamps his feet  constantly, making it hard to take him seriously.',
+        locations: [
+            'Uptown Springdale - The Catwalk',
+            'Gera Gera Land',
+            'Mystery Way - Route 2',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)'
+        ],
+        skill: {
+            name: 'Annoyance',
+            description: 'May attack an ally.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Angry Crosscut',
             description:
-                'Evolves into Zerberker through Fusion with a Raging Blade',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zerberker.png'
-        }
+                'In a rage, he waves his sword around and strikes all foes.',
+            power: '18x5'
+        },
+        inspirit: {
+            name: 'Temper Tantrum',
+            description:
+                'The Inspirited Yo-kai, angry at everything, attacks its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '178',
+            str: '92',
+            spr: '58',
+            def: '64',
+            spd: '82'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'e',
+        favouriteFood: 'meats',
+        evolution: [
+            {
+                description:
+                    'Evolves into Zerberker through Fusion with a Raging Blade.',
+                yokais: [
+                    {
+                        name: 'Zerberker',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zerberker.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Zerberker',
-        description:
-            "Legend has it that this Yo-kai leveled an entire village with one tantrum. You'll explode with rage if he's around",
-        tribe: 'Brave',
+        yokaiNumber: '012',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zerberker.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '026',
-        yokaiNumber2: '012',
-        yokaiNumber3: '014',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5390',
-        hp: '1490',
-        spirit: '700',
-        power: '1300',
-        speed: '1020',
-        defence: '880',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/zerberker.png',
+        description:
+            "Legend has it that this Yo-kai leveled an entire village with one tantrum. You'll explode with rage if he's around.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Annoyance',
+            description: 'May attack an ally.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Zerberker Slash',
             description:
-                'Evolves into Hissfit through Fusion with a Raging Blade',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hissfit.png'
-        }
+                'Goes nuts with his cutters and slashes all of his opponents.',
+            power: '20x10'
+        },
+        inspirit: {
+            name: 'Berserk',
+            description: 'Irritates a foe and makes it attack its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '271',
+            str: '134',
+            spr: '82',
+            def: '85',
+            spd: '95'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'meats',
+        evolution: [
+            {
+                description:
+                    'Evolves from Hissfit through Fusion with a Raging Blade.',
+                yokais: [
+                    {
+                        name: 'Hissfit',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hissfit.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Snartle',
-        description:
-            "This Yo-kai visits homes asking, 'Any brats here?' It's a way of scaring kids into behaving well. Kind of like a reverse Santa",
-        tribe: 'Brave',
+        yokaiNumber: '013',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snartle.png',
-        attribute: 'Ice',
-        rank: 'S',
-        yokaiNumber1: '027',
-        yokaiNumber2: '013',
-        yokaiNumber3: '015',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5330',
-        hp: '1520',
-        spirit: '570',
-        power: '1370',
-        speed: '990',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/snartle.png',
+        description:
+            'This Yo-kai visits homes asking, "Any brats here?"  It\'s a way of scaring kids into behaving well. Kind of like a reverse Santa.',
+        locations: ['Jaywalk', 'Jaywalk'],
+        skill: {
+            name: 'Sword Hunting',
+            description: 'Power increases eachtime a foe is defeated.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'For Naughty Brats',
+            description:
+                'Goes nuts with his cutters and slashes all of his opponents.',
+            power: '22x10'
+        },
+        inspirit: {
+            name: 'Frighten',
+            description:
+                'Makes an enemy so scared of Snartle that it can hardly move.',
+            power: '0'
+        },
+        stats: {
+            hp: '294',
+            str: '150',
+            spr: '71',
+            def: '76',
+            spd: '114'
+        },
+        tribe: 'brave',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 's',
+        favouriteFood: 'meats'
     },
     {
         name: 'Mochismo',
-        tribe: 'Brave',
+        yokaiNumber: '014',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mochismo.png',
-        attribute: 'Earth',
-        rank: 'D',
-        yokaiNumber1: '007',
-        yokaiNumber2: '014',
-        yokaiNumber3: '017',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4130',
-        hp: '1400',
-        spirit: '450',
-        power: '1090',
-        speed: '590',
-        defence: '600',
-        fusion: {
-            description: 'Evolves into Darumacho through fusion with Dulluma',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mochismo.png',
+        description:
+            "He's cute most of the time, but when he's mad, his body cracks and his manly face pops out.",
+        locations: [
+            'Uptown Springdale - Elementary School 3F',
+            'Uptown Springdale - Elementary School 2F',
+            'Uptown Springdale - Elementary School 1F',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)'
+        ],
+        skill: {
+            name: 'Soft Skin',
+            description: 'Increases own DEF ifdealt critical damage.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Mochi Punch',
+            description: 'Puffs up and decks an opponent with one mean punch.',
+            power: '105 to 157'
+        },
+        inspirit: {
+            name: 'Mochi Power',
+            description: "Boosts an ally's STR with tasty mochi power.",
+            power: '0'
+        },
+        stats: {
+            hp: '236',
+            str: '107',
+            spr: '41',
+            def: '73',
+            spd: '65'
+        },
+        tribe: 'brave',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description:
+                    'Evolves into Darumacho through fusion with Dulluma.',
+                yokais: [
+                    {
+                        name: 'Darumacho',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Minochi',
-        tribe: 'Brave',
+        yokaiNumber: '015',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/minochi.png',
-        attribute: 'Fire',
-        rank: 'D',
-        yokaiNumber1: '008',
-        yokaiNumber2: '015',
-        yokaiNumber3: '018',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4070',
-        hp: '1380',
-        spirit: '450',
-        power: '1010',
-        speed: '590',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/minochi.png',
+        description:
+            "When he's in love, he gets overly protective of his partner. He can make you a very jealous person.",
+        locations: [
+            'Downtown Springdale - Behind Frostia\u2019s place',
+            'Downtown Springdale - Rivers & Sea',
+            "Shopper's Row - Brushwoods & flowers",
+            'Breezy Hills - Gourd Pond Museum 1F',
+            'Breezy Hills - Gourd Pond Museum 2F',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Soft Skin',
+            description: 'Increases own DEF ifdealt critical damage.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Minochi Punch',
+            description: 'Puffs up and decks an opponent with one mean punch.',
+            power: '120 to 180'
+        },
+        inspirit: {
+            name: 'Jealousy',
+            description:
+                'Makes a foe so jealous of its allies that it will attack them!',
+            power: '0'
+        },
+        stats: {
+            hp: '244',
+            str: '110',
+            spr: '23',
+            def: '88',
+            spd: '57'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Tublappa',
-        tribe: 'Brave',
+        yokaiNumber: '016',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tublappa.png',
-        attribute: 'Lightning',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '016',
-        yokaiNumber3: '031',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4070',
-        hp: '1380',
-        spirit: '450',
-        power: '1010',
-        speed: '590',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tublappa.png',
+        description:
+            "There's nothing he won't lick\u2014the ickier the better! Don't get Inspirited by Tublappa if you value a clean tongue.",
+        locations: [
+            'Old Springdale - Well Road',
+            'Old Springdale - Fox Shrine Road',
+            'Old Springdale - Brushwoods & Under cars',
+            'Old Springdale - Gravestones',
+            'Old Springdale - Well Road - Under porches',
+            'Old Springdale - Gourd Pond - Brushwoods',
+            'Fleshy Souls - Gogo Junction',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Lickaway',
+            description: 'Purifies adjacent allies.'
+        },
+        attack: {
+            name: 'Slurp',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Lickety-Lick',
+            description:
+                'Unfurls his lengthy tongue and does damage to all foes.',
+            power: '40x3'
+        },
+        inspirit: {
+            name: 'Sick Lick',
+            description:
+                'The Inspirited Yo-kai is licked, feels terrible, and is unable to act.',
+            power: '0'
+        },
+        stats: {
+            hp: '200',
+            str: '97',
+            spr: '64',
+            def: '84',
+            spd: '75'
+        },
+        tribe: 'brave',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'odens'
     },
     {
         name: 'Slicenrice',
-        tribe: 'Brave',
+        yokaiNumber: '017',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slicenrice.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '017',
-        yokaiNumber3: '029',
-        yokaiFood1: '',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4010',
-        hp: '1320',
-        spirit: '450',
-        power: '970',
-        speed: '710',
-        defence: '560',
-        evolution: {
-            description: 'Evolves into Flamurice at Level 31',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flamurice.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/slicenrice.png',
+        description:
+            'Strength: defeating Oni in battle. Weakness: being eaten by Hungramps.',
+        locations: [
+            'Blossom Heights - Old Mansion Attic',
+            'Blossom Heights - Old Mansion House',
+            'Bony Spirits - Gogo Junction',
+            'Quest - "Slicenrice Under Fire".',
+            'Quest - "Slicenrice Under Fire".'
+        ],
+        skill: {
+            name: 'Rice and Dice',
+            description: "Ups damage Yo-kaidoes to enemy's Oni."
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Onigiri Slash',
+            description:
+                'Leaps into the air and delivers a sword blow to a single foe.',
+            power: '120 to 180'
+        },
+        inspirit: {
+            name: 'Power Snack',
+            description:
+                "The Inspirited Yo-kai's STR goes up due to yummy rice power.",
+            power: '0'
+        },
+        stats: {
+            hp: '206',
+            str: '106',
+            spr: '51',
+            def: '61',
+            spd: '88'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'ice',
+        rank: 'd',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description: 'Evolves into Flamurice at Level 31.',
+                yokais: [
+                    {
+                        name: 'Flamurice',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flamurice.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Flamurice',
-        tribe: 'Brave',
+        yokaiNumber: '018',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flamurice.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '018',
-        yokaiNumber3: '029',
-        yokaiFood1: '',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '5410',
-        hp: '1470',
-        spirit: '740',
-        power: '1300',
-        speed: '1020',
-        defence: '880',
-        evolution: {
-            description: 'Evolves from Slicenrice at Level 31',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slicenrice.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/flamurice.png',
+        description:
+            "A smokin'-hot, next-level rice warrior. His tough, crispy skin makes him pretty unappealing to Hungramps.",
+        locations: [
+            'Evolve Slicenrice at Level 31.',
+            'Evolve Slicenrice at Level 31.'
+        ],
+        skill: {
+            name: 'Rice and Dice',
+            description: "Ups damage Yo-kaidoes to enemy's Oni."
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Toasted Slash',
+            description:
+                'Leaps into the air and delivers a sword blow to a single foe.',
+            power: '180 to 270'
+        },
+        inspirit: {
+            name: 'Power Lunch',
+            description:
+                "The Inspirited Yo-kai's STR goes up due to yummy rice power.",
+            power: '0'
+        },
+        stats: {
+            hp: '226',
+            str: '126',
+            spr: '120',
+            def: '84',
+            spd: '102'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description: 'Evolves from Slicenrice at Level 31.',
+                yokais: [
+                    {
+                        name: 'Slicenrice',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slicenrice.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Helmsman',
-        tribe: 'Brave',
+        yokaiNumber: '019',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/helmsman.png',
-        attribute: 'Lightning',
-        rank: 'D',
-        yokaiNumber1: '009',
-        yokaiNumber2: '019',
-        yokaiNumber3: '026',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4150',
-        hp: '1380',
-        spirit: '450',
-        power: '1050',
-        speed: '590',
-        defence: '680',
-        fusion: {
-            description: 'Evolves into Reuknight through fusion with Armsman',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reuknight.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/helmsman.png',
+        description:
+            'A floating helmet that was worn by a famous military commander. He spends his days searching for his body\u2014a good use of time.',
+        locations: [
+            'Blossom Heights - Old Mansion House',
+            'Sawayama-jo - Area 2',
+            'Mystery Way - Route 1',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)'
+        ],
+        skill: {
+            name: 'Spirit Guard',
+            description: 'No elemental-weaknessdamage if guarding.'
+        },
+        attack: {
+            name: 'Headbutt',
+            power: '55 to 121'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Helmsman Helm',
+            description: "Gives an order that raises allies' morale and DEF.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Helmet Defense',
+            description:
+                "Raises an ally's DEF... as if it were wearing a helmet!",
+            power: '0'
+        },
+        stats: {
+            hp: '231',
+            str: '100',
+            spr: '42',
+            def: '92',
+            spd: '59'
+        },
+        tribe: 'brave',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'vegetables',
+        evolution: [
+            {
+                description:
+                    'Evolves into Reuknight through fusion with Armsman.',
+                yokais: [
+                    {
+                        name: 'Reuknight',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reuknight.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Reuknight',
-        tribe: 'Brave',
+        yokaiNumber: '020',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reuknight.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '010',
-        yokaiNumber2: '020',
-        yokaiNumber3: '027',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5130',
-        hp: '1510',
-        spirit: '620',
-        power: '1260',
-        speed: '900',
-        defence: '840',
-        fusion: {
-            description: 'Evolves from Helmsman and Armsman through fusion',
-            image1:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/helmsman.png',
-            image2:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/armsman.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/reuknight.png',
+        description:
+            "Helmsman and Armsman reunited. He now aspires to do what he couldn't do when he was alive\u2014 unify the country.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Spirit Guard',
+            description: 'No elemental-weaknessdamage if guarding.'
+        },
+        attack: {
+            name: 'Stab Storm',
+            power: '10x5 to 22x5'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: "Knight's Slash",
+            description:
+                'Draws a sword from his hip and strikes all his foes with one blow.',
+            power: '130 to 195'
+        },
+        inspirit: {
+            name: "Knight's Curse",
+            description:
+                "Lowers a foe's SPR with the power of an undead knight.",
+            power: '0'
+        },
+        stats: {
+            hp: '263',
+            str: '128',
+            spr: '54',
+            def: '121',
+            spd: '90'
+        },
+        tribe: 'brave',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'vegetables',
+        evolution: [
+            {
+                description:
+                    'Evolves from Helmsman and Armsman through fusion.',
+                yokais: [
+                    {
+                        name: 'Helmsman',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/helmsman.png'
+                    },
+                    {
+                        name: 'Armsman',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/armsman.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Corptain',
-        tribe: 'Brave',
+        yokaiNumber: '021',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/corptain.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '011',
-        yokaiNumber2: '021',
-        yokaiNumber3: '028',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5470',
-        hp: '1540',
-        spirit: '690',
-        power: '1330',
-        speed: '990',
-        defence: '920'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/corptain.png',
+        description:
+            "A popular leader when he was alive, Corptain leads an army of souls even after death. Now that's charisma! ",
+        locations: [
+            'Quest - Nightmare Revelation',
+            'Quest - Nightmare Revelation'
+        ],
+        skill: {
+            name: 'Spirit Guard',
+            description: 'No elemental-weaknessdamage if guarding.'
+        },
+        attack: {
+            name: 'Stab Storm',
+            power: '10x5 to 22x5'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Ticket to Hades',
+            description:
+                'Cuts his enemies. Likely to be either critical or a miss.',
+            power: '135 to 202'
+        },
+        inspirit: {
+            name: 'Stygian Curse',
+            description:
+                "Drops a foe's SPR with a strange power from the underworld.",
+            power: '0'
+        },
+        stats: {
+            hp: '283',
+            str: '143',
+            spr: '57',
+            def: '130',
+            spd: '81'
+        },
+        tribe: 'brave',
+        element: 'drain',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Mudmunch',
-        tribe: 'Brave',
+        yokaiNumber: '022',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mudmunch.png',
-        attribute: 'Earth',
-        rank: 'C',
-        yokaiNumber1: '011',
-        yokaiNumber2: '022',
-        yokaiNumber3: '028',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5470',
-        hp: '1540',
-        spirit: '690',
-        power: '1330',
-        speed: '990',
-        defence: '920'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mudmunch.png',
+        description:
+            'This Yo-kai embodies the pain of farmers who have lost their fields. He\'s easy to identify thanks to his moan, "Get off my land!"',
+        locations: [
+            'Old Harrisville - Paddy fields',
+            'Old Harrisville - Rice Paddy, Fullface Rock & Cicada Canyon - Paddy fields',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)'
+        ],
+        skill: {
+            name: 'Sludge Grudge',
+            description: 'When defeated, takesrevenge on enemy.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Dirty Trick',
+            description:
+                'Focuses all his rage to attack and sap the STR of his foes.',
+            power: '100'
+        },
+        inspirit: {
+            name: 'Sucking Mud',
+            description:
+                'The Inspirited Yo-kai loses HP due to anger about a rice field.',
+            power: '0'
+        },
+        stats: {
+            hp: '225',
+            str: '108',
+            spr: '60',
+            def: '98',
+            spd: '69'
+        },
+        tribe: 'brave',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'c',
+        favouriteFood: 'odens'
     },
     {
         name: 'Sgt. Burly',
-        tribe: 'Brave',
+        yokaiNumber: '023',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sgt._burly.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '023',
-        yokaiNumber3: '059',
-        yokaiFood1: '',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '5030',
-        hp: '1490',
-        spirit: '540',
-        power: '1340',
-        speed: '900',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sgt._burly.png',
+        description:
+            "The much-loved boss of Burly's Beat Camp doesn't go easy on folks he  trains. He's there to pump you up, after all!",
+        locations: [
+            'Climb the flagpole every day until you see Sgt. Burly on the rooftop for a daily fight.',
+            'Climb the flagpole every day until you see Sgt. Burly on the rooftop for a daily fight.'
+        ],
+        skill: {
+            name: 'Gimme Twenty',
+            description: "Boosts all adjacentYo-kai's STR."
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Victoryyyyyyyy!',
+            description:
+                "Boosts all allies' stats with a stint in his Beat Camp.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Fighting Fit',
+            description:
+                "The Inspirited Yo-kai boosts all stats at Burly's Beat Camp.",
+            power: '0'
+        },
+        stats: {
+            hp: '259',
+            str: '130',
+            spr: '33',
+            def: '81',
+            spd: '77'
+        },
+        tribe: 'brave',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Blazion',
-        tribe: 'Brave',
+        yokaiNumber: '024',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blazion.png',
-        attribute: 'Fire',
-        rank: 'C',
-        yokaiNumber1: '012',
-        yokaiNumber2: '024',
-        yokaiNumber3: '040',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4400',
-        hp: '1440',
-        spirit: '600',
-        power: '1080',
-        speed: '680',
-        defence: '600',
-        fusion: {
-            description: 'Evolves into Carniboy through Fusion with Herbiboy',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/herbiboy.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/blazion.png',
+        description:
+            'The king of beasts with a mane of fire! This hot- blooded Yo-kai fills folks with fiery enthusiasm.',
+        locations: [
+            'Excellent Tower - Garbages',
+            'Excellent Tower - Empty flats',
+            'Excellent Tower - Under cars & Distributors',
+            'Excellent Tower - Under cars & Distributors'
+        ],
+        skill: {
+            name: 'Blazing Spirit',
+            description: 'Power increases whenan ally is defeated.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Blazing Fist',
+            description:
+                'Burns enemies with the flaming power of his fighting spirit.',
+            power: '60 to 132'
+        },
+        inspirit: {
+            name: 'Emblaze',
+            description:
+                "Sets an ally's heart ablaze. This also raises its STR.",
+            power: '0'
+        },
+        stats: {
+            hp: '243',
+            str: '106',
+            spr: '94',
+            def: '50',
+            spd: '73'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'c',
+        favouriteFood: 'meats',
+        evolution: [
+            {
+                description:
+                    'Evolves into Carniboy through Fusion with Herbiboy.',
+                yokais: [
+                    {
+                        name: 'Carniboy',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/carniboy.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Quaken',
-        tribe: 'Brave',
+        yokaiNumber: '025',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/quaken.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '013',
-        yokaiNumber2: '025',
-        yokaiNumber3: '029',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4780',
-        hp: '1390',
-        spirit: '630',
-        power: '1190',
-        speed: '890',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/quaken.png',
+        description:
+            'Every step Quaken takes shakes the place...and some of those vibrations can even move your heart. Awwwwww!',
+        locations: [
+            'Mt. Wildwood Trail',
+            'Bony Spirits Way - Exit',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
+        ],
+        skill: {
+            name: 'Courageous Spirit',
+            description: 'Power increases whenan ally is defeated.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Earthshaker',
+            description:
+                'Shakes the earth and batters opponents with massive rocks.',
+            power: '75 to 165'
+        },
+        inspirit: {
+            name: "Lion's Pride",
+            description:
+                'The Inspirited Yo-kai will really cheer up, and DEF will increase.',
+            power: '0'
+        },
+        stats: {
+            hp: '253',
+            str: '117',
+            spr: '105',
+            def: '41',
+            spd: '91'
+        },
+        tribe: 'brave',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'meats'
     },
     {
         name: 'Siro',
-        tribe: 'Brave',
+        yokaiNumber: '026',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/siro.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '014',
-        yokaiNumber2: '026',
-        yokaiNumber3: '030',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '164',
-        hp: '31',
-        spirit: '31',
-        power: '35',
-        speed: '38',
-        defence: '29'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/siro.png',
+        description:
+            'Siro brings out the best in those he Inspirits. They become shining lights for the future.',
+        locations: [
+            'Mt. Wildwood Trail',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Mon Mystery Coin',
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
+            'Terror Time - Crank-a-kai - Red Oni Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb'
+        ],
+        skill: {
+            name: 'Shining Spirit',
+            description: 'Power increases whenan ally is defeated.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Roaring Stance',
+            description:
+                'Massively increases the STR of allies with his fierce aura.',
+            power: '0'
+        },
+        inspirit: {
+            name: "Heart's Roar",
+            description: "Raises an ally's SPD with his roaring aura!",
+            power: '0'
+        },
+        stats: {
+            hp: '267',
+            str: '111',
+            spr: '123',
+            def: '65',
+            spd: '93'
+        },
+        tribe: 'brave',
+        element: 'lightning',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'meats'
     },
     {
         name: 'Chansin',
-        tribe: 'Brave',
+        yokaiNumber: '027',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png',
-        attribute: 'Fire',
-        rank: 'C',
-        yokaiNumber1: '015',
-        yokaiNumber2: '027',
-        yokaiNumber3: '043',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '4540',
-        hp: '1420',
-        spirit: '560',
-        power: '1120',
-        speed: '800',
-        defence: '640',
-        fusion: {
-            description1: 'Evolves into Sheen through fusion with a Legendary',
-            image1:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sheen.png',
-            description2: 'Evolves into Snee through fusion with a Cursed',
-            image2:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snee.png',
-            description3: 'Evolves into Gleam through fusion with Holy Blade',
-            image3:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gleam.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/chansin.png',
+        description:
+            'Once a proud warrior, Chansin threw it all away by gambling... Now his best odds are to retreat.',
+        locations: [
+            'San Fantastico - Seaside Cave',
+            'Sawayama-jo - Area 2',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
+        ],
+        skill: {
+            name: 'Gambler',
+            description: 'High chance to giveand take critical strikes.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Go for Broke',
+            description:
+                'Boosts STR of allies by increasing their focus on the battle.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Bad Bet',
+            description:
+                'Makes a foe stop worrying about losing and lowers its DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '241',
+            str: '106',
+            spr: '68',
+            def: '71',
+            spd: '92'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'c',
+        favouriteFood: 'seafoods',
+        evolution: [
+            {
+                description:
+                    'Evolves into Sheen through fusion with a Legendary Blade',
+                yokais: [
+                    {
+                        name: 'Sheen',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sheen.png'
+                    }
+                ]
+            },
+            {
+                description:
+                    'Evolves into Snee through fusion with a Cursed Blade',
+                yokais: [
+                    {
+                        name: 'Snee',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snee.png'
+                    }
+                ]
+            },
+            {
+                description:
+                    'Evolves into Gleam through fusion with Holy Blade',
+                yokais: [
+                    {
+                        name: 'Gleam',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gleam.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Sheen',
-        tribe: 'Brave',
+        yokaiNumber: '028',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sheen.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '016',
-        yokaiNumber2: '028',
-        yokaiNumber3: '044',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '5130',
-        hp: '1510',
-        spirit: '580',
-        power: '1340',
-        speed: '1020',
-        defence: '680',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sheen.png',
+        description:
+            'A Yo-kai swordsman who returned to the way of the sword when a legendary blade reignited his spirit.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Light Speed',
+            description: 'High chance to dealcritical attacks.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Legendary Slash',
             description:
-                'Evolves from Chansin through fusion with a Legendary Blade',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
-        }
+                'Cuts one foe with the blade of justice. High critical chance.',
+            power: '155 to 232'
+        },
+        inspirit: {
+            name: 'Fine Weapon',
+            description: "The masterwork blade Masamune boosts an ally's STR.",
+            power: '0'
+        },
+        stats: {
+            hp: '257',
+            str: '129',
+            spr: '77',
+            def: '87',
+            spd: '102'
+        },
+        tribe: 'brave',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'seafoods',
+        evolution: [
+            {
+                description:
+                    'Evolves from Chansin through fusion with a Legendary Blade',
+                yokais: [
+                    {
+                        name: 'Chansin',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Snee',
-        tribe: 'Brave',
+        yokaiNumber: '029',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snee.png',
-        attribute: 'Drain',
-        rank: 'A',
-        yokaiNumber1: '017',
-        yokaiNumber2: '029',
-        yokaiNumber3: '045',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '5090',
-        hp: '1490',
-        spirit: '540',
-        power: '1300',
-        speed: '960',
-        defence: '800',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/snee.png',
+        description:
+            'Cursed by his demon blade, Snee searches the world for blood. He excels at silently sneaking up on his enemies.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Cursed Skin',
+            description: 'All stats will increasewhen Inspirited by foe.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Absorb',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Demonic Slash',
+            description: 'Dices all opponents with his cursed blade.',
+            power: '20x7 to 30x7'
+        },
+        inspirit: {
+            name: 'Cursed Sword',
             description:
-                'Evolves from Chansin through fusion with a Cursed Blade',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
-        }
+                "Curses a foe with the blade Muramasa and drops the foe's SPD.",
+            power: '0'
+        },
+        stats: {
+            hp: '256',
+            str: '125',
+            spr: '104',
+            def: '62',
+            spd: '108'
+        },
+        tribe: 'brave',
+        element: 'drain',
+        weakness: 'lightning',
+        rank: 'a',
+        favouriteFood: 'seafoods',
+        evolution: [
+            {
+                description:
+                    'Evolves from Chansin through fusion with a Cursed Blade',
+                yokais: [
+                    {
+                        name: 'Chansin',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Gleam',
-        tribe: 'Brave',
+        yokaiNumber: '030',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gleam.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '018',
-        yokaiNumber2: '030',
-        yokaiNumber3: '046',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '5370',
-        hp: '1440',
-        spirit: '610',
-        power: '1450',
-        speed: '1070',
-        defence: '800',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gleam.png',
+        description:
+            'A holy swordsman with a divine blade that cuts through evil like cheddar cheese. Could he bring about tasty world peace?',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Cheerful Coin',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Light Speed',
+            description: 'High chance to dealcritical attacks.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Holy Slash',
             description:
-                'Evolves from Chansin through fusion with a Holy Blade',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
-        }
+                'Slices a single enemy with his sacred sword. High critical chance.',
+            power: '165 to 247'
+        },
+        inspirit: {
+            name: 'Holy Sword',
+            description: "The holy sword Kusanagi boosts an ally's STR.",
+            power: '0'
+        },
+        stats: {
+            hp: '276',
+            str: '142',
+            spr: '89',
+            def: '81',
+            spd: '115'
+        },
+        tribe: 'brave',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'seafoods',
+        evolution: [
+            {
+                description:
+                    'Evolves from Gleam through fusion with a Holy Blade',
+                yokais: [
+                    {
+                        name: 'Chansin',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Benkei',
-        tribe: 'Brave',
+        yokaiNumber: '031',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/benkei.png',
-        attribute: 'Ice',
-        rank: 'C',
-        yokaiNumber1: '019',
-        yokaiNumber2: '031',
-        yokaiNumber3: '038',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '4440',
-        hp: '1440',
-        spirit: '480',
-        power: '1160',
-        speed: '680',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/benkei.png',
+        description:
+            'Hiding 999 weapons from fallen foes in his stomach, Benkei can call any one of them out in a moment of need.',
+        locations: [
+            'Breezy Hills - Gourd Pond Museum 1F',
+            'Breezy Hills - Gourd Pond Museum 2F',
+            'Sawayama-jo - Area 2',
+            'Mystery Way - Route 1',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)'
+        ],
+        skill: {
+            name: 'Sword Hunting',
+            description: 'Power increases eachtime a foe is defeated.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: '999 Blades',
+            description: 'Unleashes 999 blades and attacks all foes.',
+            power: '17x9'
+        },
+        inspirit: {
+            name: 'Clumsiness',
+            description: 'Makes a foe clumsy. This decreases its SPR.',
+            power: '0'
+        },
+        stats: {
+            hp: '251',
+            str: '125',
+            spr: '49',
+            def: '59',
+            spd: '92'
+        },
+        tribe: 'brave',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'c',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'B3-NK1',
-        tribe: 'Brave',
+        yokaiNumber: '032',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/b3-nk1.png',
-        attribute: 'Lightning',
-        rank: 'B',
-        yokaiNumber1: '020',
-        yokaiNumber2: '032',
-        yokaiNumber3: '039',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '4720',
-        hp: '1490',
-        spirit: '510',
-        power: '1230',
-        speed: '770',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/b3-nk1.png',
+        description:
+            "A Yo-kai whose body is half machine. He could  very well be the world's  first cyborg Yo-kai.",
+        locations: [
+            'Breezy Hills - Gate Room - Traffic-Light Zone',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Blasters - Crank-a-kai - Brown mission - Gold Orb',
+            'Blasters - Crank-a-kai - Brown mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Sword Hunting',
+            description: 'Power increases eachtime a foe is defeated.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'B3-NK1 GUN',
+            description:
+                'Rapidly fires blades. Likely to be either critical or a miss.',
+            power: '20x9'
+        },
+        inspirit: {
+            name: 'Cyborg Strength',
+            description:
+                "Raises an ally's DEF by making part of its body mechanical!",
+            power: '0'
+        },
+        stats: {
+            hp: '284',
+            str: '128',
+            spr: '32',
+            def: '69',
+            spd: '100'
+        },
+        tribe: 'brave',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'chinese foods'
     },
     {
-        name: 'Sushisyama',
-        tribe: 'Brave',
+        name: 'Sushiyama',
+        yokaiNumber: '033',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sushiyama.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '021',
-        yokaiNumber2: '033',
-        yokaiNumber3: '051',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Sobas',
-        yokaiFood3: 'Sobas',
-        baseStats: '4740',
-        hp: '1430',
-        spirit: '510',
-        power: '1230',
-        speed: '850',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sushiyama.png',
+        description:
+            'A Yo-kai who desperately wants to be Japanese. He sleeps on a futon and eats only sushi. I think he might be doing it wrong...',
+        locations: [
+            "Shopper's Row - Nocturne Hospital",
+            'Harrisville - Under porches',
+            'Harrisville - Under cars',
+            'Gera Gera Land',
+            'Sawayama-jo - Area 2',
+            'Mystery Way - Route 3',
+            'Bony Spirits Way - Entrance',
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Guard Break',
+            description: "Ignore foe's guardeffect when attacking."
+        },
+        attack: {
+            name: 'Headbuster',
+            power: '130 to 195'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Sushiyama Strike',
+            description:
+                'Smashes his pole onto a foe. High critical and miss chances.',
+            power: '210'
+        },
+        inspirit: {
+            name: 'Samurai Spirit',
+            description:
+                "Raises an ally's STR with the spirit of an ancient samurai.",
+            power: '0'
+        },
+        stats: {
+            hp: '229',
+            str: '121',
+            spr: '82',
+            def: '77',
+            spd: '103'
+        },
+        tribe: 'brave',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Kapunki',
-        tribe: 'Brave',
+        yokaiNumber: '034',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kapunki.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '034',
-        yokaiNumber3: '052',
-        yokaiFood1: '',
-        yokaiFood2: 'Sobas',
-        yokaiFood3: 'Sobas',
-        baseStats: '5150',
-        hp: '1490',
-        spirit: '660',
-        power: '1260',
-        speed: '940',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kapunki.png',
+        description:
+            'A punk Yo-kai who wears kabuki-style makeup. He dreams of rocking the socks and faces off his fans all across the globe.',
+        locations: [
+            'Harrisville - Under porches',
+            'Mt.Wildwood - Crank-a-kai - 3DS coin',
+            'Mystery Way - Crank-a-kai - Mystery Coin',
+            'Mystery Way - Crank-a-kai - Mystery Coin'
+        ],
+        skill: {
+            name: 'The Stand',
+            description: 'Will keep 1 HP after aknockout blow once.'
+        },
+        attack: {
+            name: 'Headbuster',
+            power: '130 to 195'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Boastful Bomber',
+            description:
+                'Boldly bashes a foe with his pole. High critical/miss chance.',
+            power: '260'
+        },
+        inspirit: {
+            name: 'Kabuki Fun',
+            description:
+                'Injects an ally with the soul of kabuki to raise its STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '240',
+            str: '144',
+            spr: '90',
+            def: '92',
+            spd: '102'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Beetler',
-        tribe: 'Brave',
+        yokaiNumber: '035',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetler.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '023',
-        yokaiNumber2: '035',
-        yokaiNumber3: '053',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4760',
-        hp: '1450',
-        spirit: '510',
-        power: '1230',
-        speed: '810',
-        defence: '760',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/beetler.png',
+        description:
+            'Beetler is a young battler who fights with his horns and his fists. He trains with his rival, Rhinoggin.',
+        locations: [
+            'Mt. Wildwood - Trees',
+            'Mt. Wildwood - Brushwoods',
+            'Fleshy Souls Way - Entrance',
+            "Quest - Which Beetle's Better",
+            "Quest - Which Beetle's Better"
+        ],
+        skill: {
+            name: 'Too Serious',
+            description: 'Will never Loaf.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Big Pincers',
+            description: 'Pinches a foe with... well, his pincers.',
+            power: '110 to 242'
+        },
+        inspirit: {
+            name: 'Stag Power',
             description:
-                'Evolves into Beetall through fusion with a Generals Soul',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetall.png'
-        }
+                "Boosts an ally's STR with the power of a stag beetle.",
+            power: '0'
+        },
+        stats: {
+            hp: '233',
+            str: '113',
+            spr: '65',
+            def: '105',
+            spd: '92'
+        },
+        tribe: 'brave',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'vegetables',
+        evolution: [
+            {
+                description:
+                    "Evolves into Beetall through fusion with a General's Soul.",
+                yokais: [
+                    {
+                        name: 'Beetall',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetall.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Beetall',
-        tribe: 'Brave',
+        yokaiNumber: '036',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetall.png',
-        attribute: 'Ice',
-        rank: 'S',
-        yokaiNumber1: '024',
-        yokaiNumber2: '036',
-        yokaiNumber3: '054',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5030',
-        hp: '1490',
-        spirit: '540',
-        power: '1300',
-        speed: '900',
-        defence: '800',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/beetall.png',
+        description:
+            'If Beetler bashes baddies in a bevy of brutal battles, the result will be a big- bodied Beetall.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Intimidation',
+            description: 'No Yo-kai will Loafaround.'
+        },
+        attack: {
+            name: 'Meteor Punch',
+            power: '20x3 to 30x3'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Infernal Pincers',
             description:
-                'Evolves from Beetler through fusion with a Generals Soul',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetler.png'
-        }
+                'Crushes an opponent with the huge pincers atop his head.',
+            power: '195 to 292'
+        },
+        inspirit: {
+            name: 'Fighter Power',
+            description: "Boosts an ally's STR to make it a worthier fighter.",
+            power: '0'
+        },
+        stats: {
+            hp: '275',
+            str: '138',
+            spr: '70',
+            def: '125',
+            spd: '96'
+        },
+        tribe: 'brave',
+        element: 'ice',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'vegetables',
+        evolution: [
+            {
+                description:
+                    "Evolves from Beetler through fusion with a General's Soul.",
+                yokais: [
+                    {
+                        name: 'Beetler',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetler.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Cruncha',
-        tribe: 'Brave',
+        yokaiNumber: '037',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cruncha.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '025',
-        yokaiNumber2: '037',
-        yokaiNumber3: '055',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5350',
-        hp: '1540',
-        spirit: '570',
-        power: '1410',
-        speed: '950',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cruncha.png',
+        description:
+            'A stag beetle Yo-kai that represents the apex of the thorax. He can grant you incredible strength.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Kai Mystery Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Intimidation',
+            description: 'No Yo-kai will Loafaround.'
+        },
+        attack: {
+            name: 'Meteor Punch',
+            power: '20x3 to 30x3'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'The Guillotine',
+            description: 'Cuts an enemy with the massive pincers on his head.',
+            power: '210 to 315'
+        },
+        inspirit: {
+            name: 'Legend Power',
+            description:
+                "Raises an ally's STR to transform it into a great warrior!",
+            power: '0'
+        },
+        stats: {
+            hp: '281',
+            str: '132',
+            spr: '89',
+            def: '117',
+            spd: '98'
+        },
+        tribe: 'brave',
+        element: 'earth',
+        weakness: 'ice',
+        rank: 's',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Demuncher',
-        tribe: 'Brave',
+        yokaiNumber: '038',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/demuncher.png',
-        attribute: 'Earth',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '038',
-        yokaiNumber3: '061',
-        yokaiFood1: '',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5690',
-        hp: '1520',
-        spirit: '770',
-        power: '1370',
-        speed: '1070',
-        defence: '960'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/demuncher.png',
+        description:
+            'A terrifying Yo-kai who can open his huge mouth and swallow monsters whole. He has very bad indigestion.',
+        locations: ["Quest - Nyada's Trials", "Quest - Nyada's Trials"],
+        skill: {
+            name: 'Sneaky Snacker',
+            description: 'Recovers HP after anenemy is defeated.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Open Wide',
+            description: 'Opens his massive mouth and chomps on a single foe.',
+            power: '195 to 292'
+        },
+        inspirit: {
+            name: 'Fightamins',
+            description:
+                'The Inspirited Yo-kai gets nasty nutrients. STR goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '258',
+            str: '137',
+            spr: '103',
+            def: '114',
+            spd: '98'
+        },
+        tribe: 'brave',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'meats'
     },
     {
         name: 'Devourer',
-        tribe: 'Brave',
+        yokaiNumber: '039',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/devourer.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '039',
-        yokaiNumber3: '062',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5410',
-        hp: '1560',
-        spirit: '690',
-        power: '1330',
-        speed: '990',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/devourer.png',
+        description:
+            "He sucks the energy out of his victims but leaves their bodies intact so that they look like they've simply fallen asleep.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Soul Snacker',
+            description: 'Recovers HP after anenemy is defeated.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Ill Appetite',
+            description: 'Opens his massive mouth and chomps on a single foe.',
+            power: '205 to 307'
+        },
+        inspirit: {
+            name: 'Maulnutrition',
+            description:
+                'The Inspirited Yo-kai has its life snatched away. HP drains.',
+            power: '0'
+        },
+        stats: {
+            hp: '267',
+            str: '137',
+            spr: '110',
+            def: '88',
+            spd: '105'
+        },
+        tribe: 'brave',
+        element: 'drain',
+        weakness: 'fire',
+        rank: 's',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Brokenbrella',
-        tribe: 'Mysterious',
+        yokaiNumber: '040',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/brokenbrella.png',
-        attribute: 'Wind',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '040',
-        yokaiNumber3: '068',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '3420',
-        hp: '860',
-        spirit: '860',
-        power: '420',
-        speed: '800',
-        defence: '480'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/brokenbrella.png',
+        description:
+            'A Yo-kai born from the pain of a flimsy plastic umbrella who desperately wished he was a sturdier model.',
+        locations: [
+            'Infinite Inferno - 1st Circle',
+            'Infinite Inferno - 2nd Circle',
+            'Infinite Inferno - 3rd Circle',
+            'Story recruit.',
+            'Story recruit.'
+        ],
+        skill: {
+            name: "Gust o' Gusto",
+            description: "When in the back, increases allies' SPD."
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'North Wind',
+            description:
+                'Whips up a wind that turns him inside out and strikes all foes.',
+            power: '80'
+        },
+        inspirit: {
+            name: 'Tailwind',
+            description:
+                'The Inspirited Yo-kai benefits from a tailwind. SPD goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '188',
+            str: '43',
+            spr: '97',
+            def: '46',
+            spd: '99'
+        },
+        tribe: 'mysterious',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'e',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Pittapatt',
-        tribe: 'Mysterious',
+        yokaiNumber: '041',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pittapatt.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '041',
-        yokaiNumber3: '069',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '3520',
-        hp: '880',
-        spirit: '900',
-        power: '420',
-        speed: '800',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/pittapatt.png',
+        description:
+            "The spirit of a pair of well- worn straw sandals. If you ever find yourself hearing mysterious footsteps, it's probably this little guy.",
+        locations: [
+            'Old Springdale - Well Road',
+            'Old Springdale - Fox Shrine Road',
+            'Old Springdale - Brushwoods & Under cars',
+            'Old Springdale - Under porches',
+            'Old Springdale - Bamboo Groves',
+            'Old Springdale - Well Road - Under porches',
+            'Old Springdale - Mt.Wildwood Shrine - Bamboo groves',
+            'Sawayama-jo - Area 2 - Under porches',
+            'Fleshy Souls - Gogo Junction',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Got Your Back',
+            description: "When in back, slowlyrefills front row's HP."
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Sole Quaker',
+            description:
+                'Uses power built up on his epic walks to strike every foe.',
+            power: '75'
+        },
+        inspirit: {
+            name: 'Bless My Sole',
+            description:
+                'The Inspirited Yo-kai gets a SPD boost from well-fitted sandals.',
+            power: '0'
+        },
+        stats: {
+            hp: '185',
+            str: '33',
+            spr: '92',
+            def: '61',
+            spd: '108'
+        },
+        tribe: 'mysterious',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Snotsolong',
-        tribe: 'Mysterious',
+        yokaiNumber: '042',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snotsolong.png',
-        attribute: 'Water',
-        rank: 'E',
-        yokaiNumber1: '028',
-        yokaiNumber2: '042',
-        yokaiNumber3: '072',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '3500',
-        hp: '860',
-        spirit: '900',
-        power: '460',
-        speed: '760',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/snotsolong.png',
+        description:
+            "A crane Yo-kai with an insanely runny nose. He's scared his drippings will make him too heavy to fly. ...I'd be scared too.",
+        locations: [
+            'Blossom Heights - Secret Byway',
+            'Mystery Way - Route 6',
+            'Mystery Way - Route 6'
+        ],
+        skill: {
+            name: 'Water Play',
+            description: 'Increases damage ofown Water attacks.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Stretchy Slap',
+            description:
+                'Slaps an opponent with his snot. May cancel Soultimate Moves!',
+            power: '100'
+        },
+        inspirit: {
+            name: 'Runny Nose',
+            description:
+                "Gives a foe a nose so runny that it can't do anything but blow it!",
+            power: '0'
+        },
+        stats: {
+            hp: '194',
+            str: '46',
+            spr: '96',
+            def: '54',
+            spd: '92'
+        },
+        tribe: 'mysterious',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'e',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Duchoo',
-        tribe: 'Mysterious',
+        yokaiNumber: '043',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/duchoo.png',
-        attribute: 'Ice',
-        rank: 'D',
-        yokaiNumber1: '029',
-        yokaiNumber2: '043',
-        yokaiNumber3: '073',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '3610',
-        hp: '930',
-        spirit: '930',
-        power: '450',
-        speed: '780',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/duchoo.png',
+        description:
+            "Ever felt like you might be sick, but you're not totally sure if you really are? Blame Duchoo.",
+        locations: [
+            'Springdale Underground Waterway',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Snow Play',
+            description: 'Increases damage ofown Ice attacks.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Sneezy Spike',
+            description:
+                'Slaps an opponent with his snot. May cancel Soultimate Moves!',
+            power: '130'
+        },
+        inspirit: {
+            name: 'Catch Cold',
+            description:
+                'Makes an enemy Yo-kai catch a cold. This will lower its STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '208',
+            str: '53',
+            spr: '95',
+            def: '67',
+            spd: '85'
+        },
+        tribe: 'mysterious',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'd',
+        favouriteFood: 'seafoods'
     },
     {
         name: "D'wanna",
-        tribe: 'Mysterious',
+        yokaiNumber: '044',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/d_wanna.png',
-        attribute: 'Restoration',
-        rank: 'E',
-        yokaiNumber1: '032',
-        yokaiNumber2: '044',
-        yokaiNumber3: '074',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '3640',
-        hp: '920',
-        spirit: '940',
-        power: '460',
-        speed: '760',
-        defence: '560',
-        evolution: {
-            description: "Evolves into N'more at Level 15",
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/n_more.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/d_wanna.png',
+        description:
+            "D'wanna's chants will weaken your resolve! This can make you give up on...y'know, stuff and whatever.",
+        locations: [
+            "Shopper's Row - Empty flats",
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)'
+        ],
+        skill: {
+            name: 'Soothing Rhythm',
+            description: 'All foes will be prone toLoafing around.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Croaking Prayer',
+            description: 'Hinders foes with a chanted curse.',
+            power: '30'
+        },
+        inspirit: {
+            name: 'Full of Sighs',
+            description:
+                "Lowers an opponent's STR and makes it sigh constantly.",
+            power: '0'
+        },
+        stats: {
+            hp: '185',
+            str: '58',
+            spr: '83',
+            def: '64',
+            spd: '77'
+        },
+        tribe: 'mysterious',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 'e',
+        favouriteFood: 'hamburgers',
+        evolution: [
+            {
+                description: "Evolves into N'more at Level 15",
+                yokais: [
+                    {
+                        name: "N'more",
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/n_more.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: "N'more",
-        tribe: 'Mysterious',
+        yokaiNumber: '045',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/n_more.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '033',
-        yokaiNumber2: '045',
-        yokaiNumber3: '075',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '3640',
-        hp: '920',
-        spirit: '940',
-        power: '460',
-        speed: '760',
-        defence: '560',
-        evolution: {
-            description: "Evolves from D'wanna at Level 15",
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/d_wanna.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/n_more.png',
+        description:
+            "N'more gets bored of things quickly. Some say his cool brows and beard grew from his boredom with shaving.",
+        locations: [
+            'Gera Gera Land',
+            'Evolve D\u2019wanna at Level 15.',
+            'Evolve D\u2019wanna at Level 15.'
+        ],
+        skill: {
+            name: 'Soothing Rhythm',
+            description: 'All foes will be prone toLoafing around.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Yawnehameha',
+            description: 'Hinders foes with a rolling wave of curses.',
+            power: '100'
+        },
+        inspirit: {
+            name: 'Full of Sighs',
+            description:
+                "Lowers an opponent's STR significantly and makes it sigh constantly.",
+            power: '0'
+        },
+        stats: {
+            hp: '226',
+            str: '68',
+            spr: '110',
+            def: '74',
+            spd: '92'
+        },
+        tribe: 'mysterious',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'hamburgers',
+        evolution: [
+            {
+                description: "Evolves from D'wanna at Level 15",
+                yokais: [
+                    {
+                        name: "D'wanna",
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/d_wanna.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: "Q'wit",
-        tribe: 'Mysterious',
+        yokaiNumber: '046',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/q_wit.png',
-        attribute: 'Earth',
-        rank: 'C',
-        yokaiNumber1: '034',
-        yokaiNumber2: '046',
-        yokaiNumber3: '076',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4210',
-        hp: '970',
-        spirit: '1080',
-        power: '600',
-        speed: '920',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/q_wit.png',
+        description:
+            "He gives up on everything he tries and won't do the same thing twice. He has a lot of experience in doing things once.",
+        locations: [
+            'Blossom Heights - Old Mansion Attic',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin'
+        ],
+        skill: {
+            name: 'Soothing Rhythm',
+            description: 'All foes will be prone toLoafing around.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Yawnehameha X',
+            description:
+                "Drops a foe's DEF with a very strong wave of rolling curses.",
+            power: '130'
+        },
+        inspirit: {
+            name: 'Demotivator',
+            description:
+                'Lowers all stats of an opponent by taking away its motivation.',
+            power: '0'
+        },
+        stats: {
+            hp: '233',
+            str: '89',
+            spr: '109',
+            def: '68',
+            spd: '75'
+        },
+        tribe: 'mysterious',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'c',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Wazzat',
-        tribe: 'Mysterious',
+        yokaiNumber: '047',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wazzat.png',
-        attribute: 'Wind',
-        rank: 'E',
-        yokaiNumber1: '030',
-        yokaiNumber2: '047',
-        yokaiNumber3: '077',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '3560',
-        hp: '880',
-        spirit: '860',
-        power: '420',
-        speed: '920',
-        defence: '480',
-        evolution: {
-            description: 'Evolves into Houzzat at Level 20',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/houzzat.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wazzat.png',
+        description:
+            'He fits snugly on your  head then devours your memories. It can be nice to forget the bad ones... or to just wear a hat.',
+        locations: [
+            'Downtown Springdale - Academy Shortcut',
+            'Downtown Springdale - Delivery Bay',
+            'Downtown Springdale - Springdale Business Tower',
+            'Downtown Springdale - Behind Frostia\u2019s place',
+            'Downtown Springdale - Under cars, Distributors, Garbages & Dumps',
+            'Downtown Springdale - Behind Frostina, Delivery Bay & Academy Shortcut - Garbages & Dumps',
+            "Breezy Hills - Gate Room - Compunzer's Zone",
+            'Breezy Hills - Trees',
+            'Old Springdale - Gourd Pond - Trees',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Forgot to Guard',
+            description: 'No Yo-kai will guard inbattle.'
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Wuwuzzat?',
+            description:
+                'Undoes good effects on foes by eating up their memories.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Memory Eater',
+            description:
+                'Makes a foe forgetful enough to start attacking its allies!',
+            power: '0'
+        },
+        stats: {
+            hp: '161',
+            str: '47',
+            spr: '93',
+            def: '55',
+            spd: '119'
+        },
+        tribe: 'mysterious',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'e',
+        favouriteFood: 'candy',
+        evolution: [
+            {
+                description: 'Evolves into Houzzat at Level 20',
+                yokais: [
+                    {
+                        name: 'Houzzat',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/houzzat.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Houzzat',
-        tribe: 'Mysterious',
+        yokaiNumber: '048',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/houzzat.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '048',
-        yokaiNumber3: '078',
-        yokaiFood1: '',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '3560',
-        hp: '880',
-        spirit: '860',
-        power: '420',
-        speed: '920',
-        defence: '480',
-        evolution: {
-            description: 'Evolves from Wazzat at Level 20',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wazzat.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/houzzat.png',
+        description:
+            "A Wazzat who has grown to the size of a house and can wolf down someone's entire memory in one gigantic gulp.",
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Evolve Wazzat at Level 21.',
+            'Evolve Wazzat at Level 21.'
+        ],
+        skill: {
+            name: 'Forgot to Guard',
+            description: 'No Yo-kai will guard inbattle.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Forget about It',
+            description:
+                'Sucks foes into his mysterious maw and causes confusion.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Memory Loss',
+            description:
+                'Makes a foe forgetful enough to start attacking its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '216',
+            str: '63',
+            spr: '118',
+            def: '99',
+            spd: '116'
+        },
+        tribe: 'mysterious',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'candy',
+        evolution: [
+            {
+                description: 'Evolves from Wazzat at Level 20',
+                yokais: [
+                    {
+                        name: 'Wazzat',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wazzat.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Dummkap',
-        tribe: 'Mysterious',
+        yokaiNumber: '049',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dummkap.png',
-        attribute: 'Lightning',
-        rank: 'E',
-        yokaiNumber1: '031',
-        yokaiNumber2: '049',
-        yokaiNumber3: '079',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '3700',
-        hp: '860',
-        spirit: '800',
-        power: '460',
-        speed: '980',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dummkap.png',
+        description:
+            'This hat Yo-kai can make geniuses into dreamy fools. A foolish life can be more fun...but would you even realize if it were?!',
+        locations: [
+            'Uptown Springdale - The Catwalk',
+            'Uptown Springdale - Desolate Lane',
+            'Uptown Springdale - Trees',
+            'Uptown Springdale - Lonely Waterway, Shady Back Alley, The Catwalk & Desolate Lane - Garbages & Dumps',
+            'Blossom Heights - Trees',
+            'Downtown Springdale - Under cars, Distributors, Garbages & Dumps',
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
+            'Old Springdale - Trees',
+            'Old Springdale - Telephone poles',
+            'Old Springdale - Well Road - Trees',
+            'Mystery Way - Route 2',
+            'Mystery Way - Route 2'
+        ],
+        skill: {
+            name: 'Prediction',
+            description: "Decreases foe'saccuracy."
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Ignorance Is Bliss',
+            description:
+                "Unleashes an ally's heart and significantly boosts SPD.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Liven Up',
+            description:
+                'The Inspirited Yo-kai gets into a groove and gets a big SPR boost.',
+            power: '0'
+        },
+        stats: {
+            hp: '172',
+            str: '34',
+            spr: '90',
+            def: '52',
+            spd: '126'
+        },
+        tribe: 'mysterious',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'e',
+        favouriteFood: 'candy'
     },
     {
         name: 'Faysoff',
-        tribe: 'Mysterious',
+        yokaiNumber: '050',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/faysoff.png',
-        attribute: 'Water',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '050',
-        yokaiNumber3: '084',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '3890',
-        hp: '950',
-        spirit: '1050',
-        power: '430',
-        speed: '860',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/faysoff.png',
+        description:
+            'This most classic of Classic Yo-kai can give anyone he Inspirits a completely blank expression.',
+        locations: ['Old Springdale - Well Road', 'Old Springdale - Well Road'],
+        skill: {
+            name: 'Bony Bond',
+            description: 'Gives a DEF boost toall Bony Spirits Yo-kai.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Blank Face',
+            description:
+                'Calls spirits with no elemental affiliation to damage all foes.',
+            power: '65 to 170'
+        },
+        inspirit: {
+            name: 'Losing Face',
+            description:
+                "The Inspirited Yo-kai's face becomes blank, and it loses DEF.",
+            power: '0'
+        },
+        stats: {
+            hp: '204',
+            str: '59',
+            spr: '104',
+            def: '69',
+            spd: '97'
+        },
+        tribe: 'mysterious',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'd',
+        favouriteFood: 'odens'
     },
     {
         name: 'Lafalotta',
-        tribe: 'Mysterious',
+        yokaiNumber: '051',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lafalotta.png',
-        attribute: 'Drain',
-        rank: 'D',
-        yokaiNumber1: '035',
-        yokaiNumber2: '051',
-        yokaiNumber3: '090',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4130',
-        hp: '930',
-        spirit: '1090',
-        power: '490',
-        speed: '940',
-        defence: '680',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/lafalotta.png',
+        description:
+            'This Yo-kai sucks the laughter and fun out of a  situation and keeps all the laughs for herself.',
+        locations: [
+            'Blossom Heights - Old Mansion Attic',
+            'Blossom Heights - Old Mansion House',
+            'Blossom Heights - Bamboo groves',
+            'Breezy Hills - Under cars & Garbages',
+            'Breezy Hills - Distributors',
+            'Breezy Hills - Empty flats',
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Absorb',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Mwabsorption',
             description:
-                'Evolves into Tattlecast through fusion with Tattletell',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast .png'
-        }
+                'Absorbs HP from all foes and divides it among her allies.',
+            power: '50 to 131'
+        },
+        inspirit: {
+            name: 'Side Splitter',
+            description:
+                "Makes a foe laugh so much during a battle that it can't move.",
+            power: '0'
+        },
+        stats: {
+            hp: '197',
+            str: '64',
+            spr: '96',
+            def: '70',
+            spd: '89'
+        },
+        tribe: 'mysterious',
+        element: 'drain',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'hamburgers',
+        evolution: [
+            {
+                description:
+                    'Evolves into Tattlecast through fusion with Tattletell.',
+                yokais: [
+                    {
+                        name: 'Tattlecast',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Blips',
-        tribe: 'Mysterious',
+        yokaiNumber: '052',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blips.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '036',
-        yokaiNumber2: '052',
-        yokaiNumber3: '091',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4310',
-        hp: '990',
-        spirit: '1060',
-        power: '560',
-        speed: '980',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/blips.png',
+        description:
+            'If you see someone get out of a pool with blue lips, they might just be Inspirited by Blips...',
+        locations: [
+            'Blossom Heights - Brushwoods & Flowers',
+            'Sawayama-jo - Area 2 - Under Cars',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Blue Kiss',
+            description:
+                'Absorbs HP from all foes and divides it among her allies.',
+            power: '50 to 131'
+        },
+        inspirit: {
+            name: 'Shivers',
+            description: 'Chills a foe so much that its SPR drops.',
+            power: '0'
+        },
+        stats: {
+            hp: '220',
+            str: '72',
+            spr: '97',
+            def: '81',
+            spd: '94'
+        },
+        tribe: 'mysterious',
+        element: 'drain',
+        weakness: 'wind',
+        rank: 'c',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Tattletell',
-        tribe: 'Mysterious',
+        yokaiNumber: '053',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattletell.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '037',
-        yokaiNumber2: '053',
-        yokaiNumber3: '092',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '85',
-        hp: '40',
-        spirit: '16',
-        power: '7',
-        speed: '13',
-        defence: '9',
-        evolution: {
-            description: 'Evolves into Tattlecast at Level 22',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast .png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tattletell.png',
+        description:
+            "When Tattletell Inspirits you, you'll feel inspired to TELL, TELL, TELL all of your secrets. ",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin',
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin'
+        ],
+        skill: {
+            name: 'Caring',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Loving Slap',
+            description:
+                'Slaps a foe...with love. May cancel enemy Soultimate Moves.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Disclose',
+            description:
+                'Makes a foe reveal its weakness, thus lowering its DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '206',
+            str: '53',
+            spr: '113',
+            def: '72',
+            spd: '92'
+        },
+        tribe: 'mysterious',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'd',
+        favouriteFood: 'ramens',
+        evolution: [
+            {
+                description: 'Evolves into Tattlecast at Level 22.',
+                yokais: [
+                    {
+                        name: 'Tattlecast',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Tattlecast',
-        tribe: 'Mysterious',
+        yokaiNumber: '054',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '038',
-        yokaiNumber2: '054',
-        yokaiNumber3: '093',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '4600',
-        hp: '960',
-        spirit: '1270',
-        power: '550',
-        speed: '1100',
-        defence: '720',
-        evolution: {
-            description: 'Evolves from Tattletell at Level 22',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattletell .png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tattlecast.png',
+        description:
+            "She uses her massive speakers to broadcast scandalous secrets to the whole city. Hope they aren't yours!",
+        locations: [
+            'Evolve Tattletell at Level 22.',
+            'Evolve Tattletell at Level 22.'
+        ],
+        skill: {
+            name: 'Caring',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Max Volume 11!',
+            description:
+                "Tosses speakers and slaps. May cancel foe's Soultimate Moves.",
+            power: '160'
+        },
+        inspirit: {
+            name: 'Disclose',
+            description:
+                'Makes a foe reveal its weakness, thus lowering its DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '240',
+            str: '71',
+            spr: '127',
+            def: '79',
+            spd: '107'
+        },
+        tribe: 'mysterious',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'ramens',
+        evolution: [
+            {
+                description: 'Evolves from Tattletell at Level 22.',
+                yokais: [
+                    {
+                        name: 'Tattletell',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattletell.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Skranny',
-        tribe: 'Mysterious',
+        yokaiNumber: '055',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/skranny.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '039',
-        yokaiNumber2: '055',
-        yokaiNumber3: '094',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '4370',
-        hp: '970',
-        spirit: '1060',
-        power: '560',
-        speed: '1060',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/skranny.png',
+        description:
+            'Only Tattletells who discover their love of heavy metal music can don the skull makeup and become a Skranny.',
+        locations: ['Statue Yo-kai Spots.', 'Statue Yo-kai Spots.'],
+        skill: {
+            name: 'Caring',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Skeleton Smack',
+            description:
+                'A bony-handed slap that can cancel enemy Soultimate Moves.',
+            power: '130'
+        },
+        inspirit: {
+            name: 'Face Paint',
+            description: "Lowers an enemy's DEF with a shady skeletal curse.",
+            power: '0'
+        },
+        stats: {
+            hp: '215',
+            str: '69',
+            spr: '120',
+            def: '61',
+            spd: '103'
+        },
+        tribe: 'mysterious',
+        element: 'restoration',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Cupistol',
-        tribe: 'Mysterious',
+        yokaiNumber: '056',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cupistol.png',
-        attribute: 'Wind',
-        rank: 'D',
-        yokaiNumber1: '040',
-        yokaiNumber2: '056',
-        yokaiNumber3: '095',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '3990',
-        hp: '910',
-        spirit: '1010',
-        power: '530',
-        speed: '900',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cupistol.png',
+        description:
+            "This debonair Yo-kai is quite a hit with the ladies. Anyone he shoots will love you. He's just the greatest! *swoon*",
+        locations: [
+            'Downtown Springdale - Springdale Business Tower',
+            'Downtown Springdale - Rivers & Sea',
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Popularity',
+            description: 'Makes more foesbefriend you.'
+        },
+        attack: {
+            name: 'Shoot',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Kiss of Life',
+            description:
+                'Restores HP of allies by blowing a very handsome kiss!',
+            power: '50 to 131'
+        },
+        inspirit: {
+            name: 'Popularize',
+            description:
+                'Makes an ally so popular that all foes will target it.',
+            power: '0'
+        },
+        stats: {
+            hp: '208',
+            str: '61',
+            spr: '96',
+            def: '64',
+            spd: '100'
+        },
+        tribe: 'mysterious',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'd',
+        favouriteFood: 'sweets',
+        evolution: [
+            {
+                description:
+                    'Evolves into Casanuva through fusion with a Love Buster.',
+                yokais: [
+                    {
+                        name: 'Casanuva',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/casanuva.png'
+                    }
+                ]
+            },
+            {
+                description:
+                    'Evolves into Rattelle through fusion with Dazzabel.',
+                yokais: [
+                    {
+                        name: 'Rattelle',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rattelle.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Casanuva',
-        tribe: 'Mysterious',
+        yokaiNumber: '057',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/casanuva.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '041',
-        yokaiNumber2: '057',
-        yokaiNumber3: '096',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5100',
-        hp: '1060',
-        spirit: '1300',
-        power: '700',
-        speed: '1160',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/casanuva.png',
+        description:
+            'This narcissist makes every lady he sees fall in love with him, regardless of appearance.',
+        locations: [
+            'Gold-Gleaming Hwy. - Entrance',
+            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Popularity',
+            description: 'Makes more foesbefriend you.'
+        },
+        attack: {
+            name: 'Guns Blazing',
+            power: '15x3 to 33x3'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Heavenly Heart',
+            description:
+                'Restores HP of allies with his extremely handsome aura!',
+            power: '120 to 180'
+        },
+        inspirit: {
+            name: 'Popularize',
+            description:
+                'Makes an ally so popular that all foes will target it.',
+            power: '0'
+        },
+        stats: {
+            hp: '235',
+            str: '81',
+            spr: '132',
+            def: '87',
+            spd: '124'
+        },
+        tribe: 'mysterious',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'sweets',
+        evolution: [
+            {
+                description:
+                    'Evolves from Cupistol through fusion with a Love Buster.',
+                yokais: [
+                    {
+                        name: 'Cupistol',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cupistol.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Casanono',
-        tribe: 'Mysterious',
+        yokaiNumber: '058',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/casanono.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '042',
-        yokaiNumber2: '058',
-        yokaiNumber3: '097',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5100',
-        hp: '1060',
-        spirit: '1300',
-        power: '700',
-        speed: '1160',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/casanono.png',
+        description:
+            "Casanuva's opposite. He just can't get a date no matter what! He'll make you unpopular too. Best to give him some space.",
+        locations: [
+            'Breezy Hills - Brushwoods & flowers',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Unpopularity',
+            description: 'Makes foes less likelyto become your friend.'
+        },
+        attack: {
+            name: 'Guns Blazing',
+            power: '15x3 to 33x3'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Fiery Longing',
+            description:
+                'Uses his bitterness from being unpopular to fry all his foes.',
+            power: '130 to 195'
+        },
+        inspirit: {
+            name: 'Unpopularize',
+            description:
+                'Makes an ally so unpopular that all foes will ignore it.',
+            power: '0'
+        },
+        stats: {
+            hp: '243',
+            str: '80',
+            spr: '142',
+            def: '78',
+            spd: '118'
+        },
+        tribe: 'mysterious',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'sweets'
     },
     {
         name: 'So-Sorree',
-        tribe: 'Mysterious',
+        yokaiNumber: '059',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/so-sorree.png',
-        attribute: 'Lightning',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '059',
-        yokaiNumber3: '098',
-        yokaiFood1: '',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '3930',
-        hp: '930',
-        spirit: '1010',
-        power: '530',
-        speed: '860',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/so-sorree.png',
+        description:
+            "He may apologize for everything, but the truth is he doesn't mean a word of it and cheerfully avoids any real responsibility.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Bird Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin'
+        ],
+        skill: {
+            name: 'Make Amends',
+            description: 'Restores HP to allieswhile Yo-kai Loafs.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'My Bad',
+            description:
+                'Apologizes profusely as he purifies all allies and boosts HP.',
+            power: '40'
+        },
+        inspirit: {
+            name: 'Not So Sorry',
+            description:
+                "The Inspirited Yo-kai thinks it's all that and is always targeted for it.",
+            power: '0'
+        },
+        stats: {
+            hp: '212',
+            str: '59',
+            spr: '108',
+            def: '48',
+            spd: '93'
+        },
+        tribe: 'mysterious',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'curries',
+        evolution: [
+            {
+                description: 'Evolves into Bowminos at Level 30.',
+                yokais: [
+                    {
+                        name: 'Bowminos',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bowminos.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Bowminos',
-        tribe: 'Mysterious',
+        yokaiNumber: '060',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bowminos.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '060',
-        yokaiNumber3: '099',
-        yokaiFood1: '',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '4760',
-        hp: '1040',
-        spirit: '1260',
-        power: '580',
-        speed: '1080',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/bowminos.png',
+        description:
+            'These domino Yo-kai are forever falling over themselves to apologize for every little thing.',
+        locations: [
+            'Evolve So-Sorree at Level 30.',
+            'Evolve So-Sorree at Level 30.'
+        ],
+        skill: {
+            name: 'Make Amends',
+            description: 'Restores HP to allieswhile Yo-kai Loafs.'
+        },
+        attack: {
+            name: 'Flatten',
+            power: '30 to 66'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Endless Apology',
+            description:
+                'Crushes an enemy with the force of apology. Enemies are hindered.',
+            power: '150'
+        },
+        inspirit: {
+            name: 'Not So Sorry',
+            description:
+                "The Inspirited Yo-kai thinks it's all that and is always targeted for it.",
+            power: '0'
+        },
+        stats: {
+            hp: '259',
+            str: '93',
+            spr: '117',
+            def: '113',
+            spd: '91'
+        },
+        tribe: 'mysterious',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'curries',
+        evolution: [
+            {
+                description: 'Evolves from So-Sorree at Level 30.',
+                yokais: [
+                    {
+                        name: 'So-Sorree',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/so-sorree.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Smogling',
-        tribe: 'Mysterious',
+        yokaiNumber: '061',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smogling.png',
-        attribute: 'Wind',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '061',
-        yokaiNumber3: '100',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4010',
-        hp: '930',
-        spirit: '1010',
-        power: '530',
-        speed: '900',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/smogling.png',
+        description:
+            'A wispy spirit who appears in smoky places but often blows away before she develops into something more substantial.',
+        locations: [
+            'Old Harrisville - Rice Paddy',
+            'Old Harrisville - Rice Paddy, Fullface Rock & Cicada Canyon - Trees',
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Magic Mist',
+            description: "Helps recover adjacentYo-kai's Soul Meters."
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Cloud Control',
+            description:
+                'Calls up a lovable little storm that damages all foes.',
+            power: '60 to 157'
+        },
+        inspirit: {
+            name: 'Amazing Haze',
+            description:
+                'The Inspirited Yo-kai is encircled by mysterious smoke. SPR goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '190',
+            str: '49',
+            spr: '103',
+            def: '57',
+            spd: '107'
+        },
+        tribe: 'mysterious',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'd',
+        favouriteFood: 'sweets',
+        evolution: [
+            {
+                description: 'Evolves into Smogmella at Level 27.',
+                yokais: [
+                    {
+                        name: 'Smogmella',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smogmella.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Smogmella',
-        tribe: 'Mysterious',
+        yokaiNumber: '062',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smogmella.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '062',
-        yokaiNumber3: '101',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5080',
-        hp: '1040',
-        spirit: '1300',
-        power: '700',
-        speed: '1160',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/smogmella.png',
+        description:
+            'Her vaporous nature means she can take on any form she chooses,  but this shape is by far  her current favorite.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Blasters - Crank-a-kai - Brown mission - Gold Orb',
+            'Evolve Smogling at Level 27.',
+            'Evolve Smogling at Level 27.'
+        ],
+        skill: {
+            name: 'Magic Mist',
+            description: "Helps recover adjacentYo-kai's Soul Meters."
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Upward Tornado',
+            description:
+                "Calls a tornado strong enough to mess up the enemy's clothes.",
+            power: '220'
+        },
+        inspirit: {
+            name: 'Amazing Haze',
+            description:
+                'The Inspirited Yo-kai is encircled by smoke. SPR goes way up.',
+            power: '0'
+        },
+        stats: {
+            hp: '232',
+            str: '75',
+            spr: '126',
+            def: '90',
+            spd: '134'
+        },
+        tribe: 'mysterious',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'sweets',
+        evolution: [
+            {
+                description: 'Evolves from Smogling at Level 27.',
+                yokais: [
+                    {
+                        name: 'Smogling',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smogling.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Signibble',
-        tribe: 'Mysterious',
+        yokaiNumber: '063',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/signibble.png',
-        attribute: 'Lightning',
-        rank: 'D',
-        yokaiNumber1: '043',
-        yokaiNumber2: '063',
-        yokaiNumber3: '102',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '3950',
-        hp: '910',
-        spirit: '990',
-        power: '570',
-        speed: '880',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/signibble.png',
+        description:
+            "A mischievous Yo-kai that snacks on radio waves in the air. You'll lose a few bars on your phone when he's around.",
+        locations: [
+            'Mt. Wildwood - Abandoned Tunnel West',
+            'Mt. Wildwood - Abandoned Tunnel East',
+            'Blossom Heights - Telephone poles',
+            "Shopper's Row - Telephone poles",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            'Harrisville - Station Plaza - Telephone poles',
+            'Gera Gera Land',
+            'Fleshy Souls Way - Exit',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Lightning Play',
+            description: 'Increases damage of own Lightning attacks.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Signal Shock',
+            description:
+                'Releases his stored electric waves onto his foes all at once.',
+            power: '55 to 144'
+        },
+        inspirit: {
+            name: 'Paralyze',
+            description: 'Slows an enemy down with an electric shock.',
+            power: '0'
+        },
+        stats: {
+            hp: '197',
+            str: '75',
+            spr: '90',
+            def: '68',
+            spd: '98'
+        },
+        tribe: 'mysterious',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'snacks',
+        evolution: [
+            {
+                description:
+                    'Evolves into Signiton through fusion with a GHz Orb.',
+                yokais: [
+                    {
+                        name: 'Signiton',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/signiton.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Signiton',
-        tribe: 'Mysterious',
+        yokaiNumber: '064',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/signiton.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '044',
-        yokaiNumber2: '064',
-        yokaiNumber3: '103',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Snacks',
-        baseStats: '4520',
-        hp: '960',
-        spirit: '1200',
-        power: '620',
-        speed: '940',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/signiton.png',
+        description:
+            'Signiton is almost a deity for those in desperate need of a wireless signal. He can boost your reception if you ask.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Lightning Play',
+            description: 'Increases damage of own Lightning attacks.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: "Ton o' Thunder",
+            description:
+                'Beats his stomach to call lightning down onto his opponents.',
+            power: '120 to 180'
+        },
+        inspirit: {
+            name: 'Paralyze',
+            description: 'Slows an enemy down with an electric shock.',
+            power: '0'
+        },
+        stats: {
+            hp: '244',
+            str: '112',
+            spr: '118',
+            def: '99',
+            spd: '69'
+        },
+        tribe: 'mysterious',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'odens',
+        evolution: [
+            {
+                description:
+                    'Evolves from Signibble through fusion with a GHz Ball.',
+                yokais: [
+                    {
+                        name: 'Signibble',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/signibble.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Statiking',
-        tribe: 'Mysterious',
+        yokaiNumber: '065',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/statiking.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '045',
-        yokaiNumber2: '065',
-        yokaiNumber3: '105',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '1150',
-        hp: '490',
-        spirit: '340',
-        power: '60',
-        speed: '90',
-        defence: '170'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/statiking.png',
+        description:
+            "He's pretty lazy, but if he got motivated, his power would fix a ton of the world's energy problems.",
+        locations: [
+            'Terror Time - Crank-a-kai - Gold Oni Orb',
+            'Terror Time - Crank-a-kai - Stone Oni Orb',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Long Lasting',
+            description: 'Good Inspirits will lastlonger.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Giga Turbocharge',
+            description:
+                'Absorbs HP from all foes and divides it among his allies.',
+            power: '190'
+        },
+        inspirit: {
+            name: 'Electrocute',
+            description:
+                "Gradually decreases an enemy's HP through electric shock.",
+            power: '0'
+        },
+        stats: {
+            hp: '256',
+            str: '113',
+            spr: '132',
+            def: '105',
+            spd: '93'
+        },
+        tribe: 'mysterious',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'odens'
     },
     {
-        name: 'Master Odens',
-        tribe: 'Mysterious',
+        name: 'Master Oden',
+        yokaiNumber: '066',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/master_oden.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '065',
-        yokaiNumber3: '105',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4660',
-        hp: '1020',
-        spirit: '1220',
-        power: '660',
-        speed: '1000',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/master_oden.png',
+        description:
+            'A cheerful Yo-kai who runs an oden stall. He dishes up hot food and loves nothing more than a good chat.',
+        locations: ['Quest - Oden of the Soul', 'Quest - Oden of the Soul'],
+        skill: {
+            name: 'Tasty Aroma',
+            description: "All adjacent Yo-kai's HPis slowly refilled."
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Stirring Broth',
+            description:
+                'Revives a single ally with a bowl of hot, soothing broth.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Hot Pot',
+            description:
+                'The Inspirited Yo-kai eats some warm food. HP steadily increases.',
+            power: '0'
+        },
+        stats: {
+            hp: '249',
+            str: '117',
+            spr: '111',
+            def: '101',
+            spd: '79'
+        },
+        tribe: 'mysterious',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'odens'
     },
     {
         name: 'Failian',
-        tribe: 'Mysterious',
+        yokaiNumber: '067',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/failian.png',
-        attribute: 'Ice',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '067',
-        yokaiNumber3: '106',
-        yokaiFood1: '',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4350',
-        hp: '990',
-        spirit: '1080',
-        power: '480',
-        speed: '920',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/failian.png',
+        description:
+            'This fake flying saucer causes anyone he  Inspirits to turn into a  massive liar.',
+        locations: ['Uptown Springdale - Trees', 'Uptown Springdale - Trees'],
+        skill: {
+            name: 'Electro Field',
+            description: 'Lightning damage triggers DEF boost.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Lies-er Beam',
+            description:
+                'Blasts a foe with an ice beam he says is from outer space.',
+            power: '95 to 209'
+        },
+        inspirit: {
+            name: 'Lying Saucer',
+            description:
+                "The Inspirited Yo-kai fibs that it's pro-enemy. They stop attacking it.",
+            power: '0'
+        },
+        stats: {
+            hp: '197',
+            str: '28',
+            spr: '111',
+            def: '104',
+            spd: '129'
+        },
+        tribe: 'mysterious',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'c',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Apelican',
-        tribe: 'Mysterious',
+        yokaiNumber: '068',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/apelican.png',
-        attribute: 'Wind',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '068',
-        yokaiNumber3: '107',
-        yokaiFood1: '',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4150',
-        hp: '990',
-        spirit: '1080',
-        power: '520',
-        speed: '880',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/apelican.png',
+        description:
+            "He studied in Texas and loves all things American, but his Southern accent still isn't great.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Bird Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin'
+        ],
+        skill: {
+            name: 'Apelican Is No.1',
+            description: 'SPD increases when front and center.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Yes We Pelican!',
+            description:
+                "Leads a rousing line dance that boosts all of his allies' stats.",
+            power: '0'
+        },
+        inspirit: {
+            name: "Stats 'n' Stripes",
+            description:
+                "The Inspirited Yo-kai's stats rise due to pride in its country's power.",
+            power: '0'
+        },
+        stats: {
+            hp: '204',
+            str: '76',
+            spr: '103',
+            def: '92',
+            spd: '104'
+        },
+        tribe: 'mysterious',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Mirapo',
-        tribe: 'Mysterious',
+        yokaiNumber: '069',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mirapo.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '046',
-        yokaiNumber2: '069',
-        yokaiNumber3: '118',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '4410',
-        hp: '970',
-        spirit: '1200',
-        power: '520',
-        speed: '880',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mirapo.png',
+        description:
+            'An ancient mirror that embodied a soul and became a Yo-kai. It can make a portal between two mirrors.',
+        locations: [
+            'Yo-kai World - Liar Mountain',
+            'Story recruit.',
+            'Story recruit.'
+        ],
+        skill: {
+            name: 'Mirror Body',
+            description: 'Sends 1/2 of Techniquedamage back at foe.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Mirror to Mirror',
+            description:
+                'Calls forth a random spirit from the mirror world to attack.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Mirror Power',
+            description:
+                "Raises an ally's SPR with the power of a mysterious mirror.",
+            power: '0'
+        },
+        stats: {
+            hp: '214',
+            str: '65',
+            spr: '106',
+            def: '98',
+            spd: '81'
+        },
+        tribe: 'mysterious',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'chinese foods',
+        evolution: [
+            {
+                description: 'Evolves into Miradox through Fusion with Espy.',
+                yokais: [
+                    {
+                        name: 'Miradox',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/miradox.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Miradox',
-        tribe: 'Mysterious',
+        yokaiNumber: '070',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/miradox.png',
-        attribute: 'Drain',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '070',
-        yokaiNumber3: '119',
-        yokaiFood1: '',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '5120',
-        hp: '1040',
-        spirit: '1300',
-        power: '700',
-        speed: '1120',
-        defence: '960'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/miradox.png',
+        description:
+            'Triple the size and triple  the power of Mirapo, Miradox makes it possible to travel through time as well as space.',
+        locations: ['Fusion.', 'Story recruit.', 'Story recruit.'],
+        skill: {
+            name: 'Mirror Body',
+            description: 'Sends 1/2 of Techniquedamage back at foe.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Mirror Mirror',
+            description:
+                'Calls forth a random spirit from the mirror world to attack.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Mirror Power',
+            description:
+                "Raises an ally's SPR with the power of a mysterious mirror.",
+            power: '0'
+        },
+        stats: {
+            hp: '236',
+            str: '80',
+            spr: '128',
+            def: '125',
+            spd: '89'
+        },
+        tribe: 'mysterious',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'chinese foods',
+        evolution: [
+            {
+                description: 'Evolves from Mirapo and Espy through Fusion.',
+                yokais: [
+                    {
+                        name: 'Mirapo',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mirapo.png'
+                    },
+                    {
+                        name: 'Espy',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/espy.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Mircle',
-        tribe: 'Mysterious',
+        yokaiNumber: '071',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mircle.png',
-        attribute: 'Drain',
-        rank: 'A',
-        yokaiNumber1: '047',
-        yokaiNumber2: '071',
-        yokaiNumber3: '120',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '4700',
-        hp: '980',
-        spirit: '1340',
-        power: '540',
-        speed: '920',
-        defence: '920'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mircle.png',
+        description:
+            'Mircle fills the space behind mirrors with evil by renting it out to bad Yo-kai...at a wickedly high rate, naturally.',
+        locations: [
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 3F",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)'
+        ],
+        skill: {
+            name: 'Mirror Body',
+            description: 'Sends 1/2 of Techniquedamage back at foe.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Dark World',
+            description:
+                'Calls forth a random spirit from the mirror world to attack.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Cursed Mirror',
+            description: 'Curses foes and makes their SPR drop significantly.',
+            power: '0'
+        },
+        stats: {
+            hp: '244',
+            str: '77',
+            spr: '123',
+            def: '125',
+            spd: '79'
+        },
+        tribe: 'mysterious',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Illoo',
-        tribe: 'Mysterious',
+        yokaiNumber: '072',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/illoo.png',
-        attribute: 'Water',
-        rank: 'C',
-        yokaiNumber1: '048',
-        yokaiNumber2: '072',
-        yokaiNumber3: '113',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4130',
-        hp: '970',
-        spirit: '1080',
-        power: '480',
-        speed: '960',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/illoo.png',
+        description:
+            'A caring teacher who uses illusions to simplify his lessons. He can make complex topics seem pretty accessible.',
+        locations: [
+            'Downtown Springdale - Construction Site',
+            "Breezy Hills - Gate Room - Compunzer's Zone",
+            'Harrisville - Trees',
+            'Harrisville - Telephone poles',
+            'Harrisville - Mt. Middleton',
+            'Gera Gera Land',
+            'Mystery Way - Route 3',
+            'Gold-Gleaming Hwy. - Inner Lane',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: "Brother's Vow",
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Spirit Illusion',
+            description: "Summons will-o'-the- wisps to damage his enemies.",
+            power: '110'
+        },
+        inspirit: {
+            name: 'Illusion Power',
+            description:
+                'Envelops an ally in an illusion, which will raise its SPR significantly.',
+            power: '0'
+        },
+        stats: {
+            hp: '215',
+            str: '56',
+            spr: '115',
+            def: '61',
+            spd: '94'
+        },
+        tribe: 'mysterious',
+        element: 'water',
+        weakness: 'wind',
+        rank: 'c',
+        favouriteFood: 'breads'
     },
     {
         name: 'Elloo',
-        tribe: 'Mysterious',
+        yokaiNumber: '073',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/elloo.png',
-        attribute: 'Ice',
-        rank: 'C',
-        yokaiNumber1: '049',
-        yokaiNumber2: '073',
-        yokaiNumber3: '114',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4210',
-        hp: '890',
-        spirit: '1180',
-        power: '480',
-        speed: '1060',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/elloo.png',
+        description:
+            "A friendly, old Yo-kai who can dissipate into a haze. He's Illoo's brother.",
+        locations: [
+            'Breezy Hills - Gate Room - Can-Kicking Zone',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)'
+        ],
+        skill: {
+            name: "Brother's Vow",
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Spirit Daze',
+            description: "Summons will-o'-the- wisps to damage his enemies.",
+            power: '120'
+        },
+        inspirit: {
+            name: 'Haze Power',
+            description:
+                'Makes an ally move fast enough to look like a thin haze.',
+            power: '0'
+        },
+        stats: {
+            hp: '202',
+            str: '52',
+            spr: '129',
+            def: '50',
+            spd: '106'
+        },
+        tribe: 'mysterious',
+        element: 'ice',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'breads'
     },
     {
         name: 'Alloo',
-        tribe: 'Mysterious',
+        yokaiNumber: '074',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/alloo.png',
-        attribute: 'Lightning',
-        rank: 'B',
-        yokaiNumber1: '050',
-        yokaiNumber2: '074',
-        yokaiNumber3: '115',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4600',
-        hp: '960',
-        spirit: '1270',
-        power: '510',
-        speed: '1100',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/alloo.png',
+        description:
+            "He wanders the world without a goal. It's an absolute miracle if the three brothers Illoo, Elloo, and Alloo all meet up. ",
+        locations: [
+            'Mt. Wildwood - Abandoned Tunnel',
+            "Shopper's Row - Nocturne Hospital",
+            'Sawayama-jo - Area 1 - Trees',
+            'Divine Paradise - 3F',
+            'Divine Paradise - 4F',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)'
+        ],
+        skill: {
+            name: "Brother's Vow",
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Wandering World',
+            description:
+                'Curses his enemies with strong magic. May confuse them as well.',
+            power: '80'
+        },
+        inspirit: {
+            name: 'Wanderlust',
+            description:
+                "Drops an enemy's DEF by filling it with the desire to wander.",
+            power: '0'
+        },
+        stats: {
+            hp: '230',
+            str: '82',
+            spr: '122',
+            def: '71',
+            spd: '102'
+        },
+        tribe: 'mysterious',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'breads'
     },
     {
         name: 'Espy',
-        tribe: 'Mysterious',
+        yokaiNumber: '075',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/espy.png',
-        attribute: 'Earth',
-        rank: 'C',
-        yokaiNumber1: '051',
-        yokaiNumber2: '075',
-        yokaiNumber3: '116',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4360',
-        hp: '920',
-        spirit: '1120',
-        power: '600',
-        speed: '960',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/espy.png',
+        description:
+            "Espy gets a kick out of reading people's minds. It's totally not fair that no one can read hers...and now she knows that too.",
+        locations: [
+            "Shopper's Row - Nocturne Hospital",
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Third Eye',
+            description:
+                'Absorbs HP from all foes and divides it among her allies.',
+            power: '55 to 144'
+        },
+        inspirit: {
+            name: 'Expose Weakness',
+            description: "Reads a foe's weakness and drops its DEF.",
+            power: '0'
+        },
+        stats: {
+            hp: '234',
+            str: '93',
+            spr: '115',
+            def: '96',
+            spd: '75'
+        },
+        tribe: 'mysterious',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Infour',
-        tribe: 'Mysterious',
+        yokaiNumber: '076',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/infour.png',
-        attribute: 'Drain',
-        rank: 'B',
-        yokaiNumber1: '052',
-        yokaiNumber2: '076',
-        yokaiNumber3: '117',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4600',
-        hp: '1000',
-        spirit: '1190',
-        power: '630',
-        speed: '1020',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/infour.png',
+        description:
+            "Her four eyes can see a person's age, name, gender, and birthday, but  she can't read minds. It's still kinda creepy, though.",
+        locations: [
+            'Yo-kai World - Hooligan Road',
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 3F",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            'San Fantastico - Trees',
+            'San Fantastico - Garbages',
+            'San Fantastico - Empty flats',
+            'San Fantastico - Telephone poles',
+            'Divine Paradise - 3F',
+            'Divine Paradise - 4F',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Foursight',
+            description:
+                'Absorbs HP from all foes and divides it among her allies.',
+            power: '65 to 170'
+        },
+        inspirit: {
+            name: 'Mysterious Power',
+            description:
+                "Mysterious power significantly lowers an enemy's SPR. ",
+            power: '0'
+        },
+        stats: {
+            hp: '246',
+            str: '65',
+            spr: '127',
+            def: '78',
+            spd: '99'
+        },
+        tribe: 'mysterious',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Verygoodsir',
-        tribe: 'Mysterious',
+        yokaiNumber: '077',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/verygoodsir.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '077',
-        yokaiNumber3: '121',
-        yokaiFood1: '',
-        yokaiFood2: 'Sobas',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4520',
-        hp: '1000',
-        spirit: '1190',
-        power: '630',
-        speed: '1020',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/verygoodsir.png',
+        description:
+            'An excellent but fussy manservant officially certified by the Yo-kai Council of Applied Butlering.',
+        locations: [
+            'Excellent Tower - Trees',
+            'Excellent Tower - Brushwoods & Flowers',
+            'Excellent Tower - Empty flats',
+            'Excellent Tower - Observation Deck',
+            'Excellent Tower - Observation Deck'
+        ],
+        skill: {
+            name: 'Caring',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Bon App\u00e9tit',
+            description: 'Top-class butler skills serve to heal all allies.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'At Your Service',
+            description:
+                'Due to advanced butler skills, the Inspirited Yo-kai regains HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '212',
+            str: '98',
+            spr: '115',
+            def: '68',
+            spd: '110'
+        },
+        tribe: 'mysterious',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Tengu',
-        tribe: 'Mysterious',
+        yokaiNumber: '078',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tengu.png',
-        attribute: 'Wind',
-        rank: 'S',
-        yokaiNumber1: '053',
-        yokaiNumber2: '078',
-        yokaiNumber3: '129',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Sweets',
-        baseStats: '5380',
-        hp: '1020',
-        spirit: '1410',
-        power: '730',
-        speed: '1220',
-        defence: '1000'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tengu.png',
+        description:
+            'A popular tengu who controls the power of wind. Apparently all that power comes from his number-one fan.',
+        locations: [
+            'Divine Paradise - 5F',
+            'Infinite Tunnel',
+            'Heights - Shoten Temple',
+            ' Yo-kai Spot - The Bell That Tolls at Night',
+            ' Yo-kai Spot - Another Bell That Tolls at Night',
+            ' Yo-kai Spot - Another Bell That Tolls at Night'
+        ],
+        skill: {
+            name: 'Wind Play',
+            description: 'Increases damage ofown Wind attacks.'
+        },
+        attack: {
+            name: 'Nasty Kick',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Typhoon Fan',
+            description:
+                'Uses his fan to create a whirlwind that hits all of his enemies.',
+            power: '180'
+        },
+        inspirit: {
+            name: "Tengu'd",
+            description:
+                'Makes a Yo-kai into a hated tengu, drawing attacks to it.',
+            power: '0'
+        },
+        stats: {
+            hp: '228',
+            str: '86',
+            spr: '91',
+            def: '90',
+            spd: '77'
+        },
+        tribe: 'mysterious',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 's',
+        favouriteFood: 'candy'
     },
     {
         name: 'Flengu',
-        tribe: 'Mysterious',
+        yokaiNumber: '079',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flengu.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '054',
-        yokaiNumber2: '079',
-        yokaiNumber3: '130',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '1000',
-        hp: '470',
-        spirit: '180',
-        power: '90',
-        speed: '120',
-        defence: '140'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/flengu.png',
+        description:
+            'A tengu with hair the color of fire. Legend says he causes a drought when humanity needs to be taught a lesson.',
+        locations: [
+            'Mystery Way - Crank-a-kai - Mystery Coin',
+            'Mystery Way - Crank-a-kai - Mystery Coin'
+        ],
+        skill: {
+            name: 'Fire Play',
+            description: 'Increases damage ofown Fire attacks.'
+        },
+        attack: {
+            name: 'Nasty Kick',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Blazing Typhoon',
+            description:
+                'Uses his fan to create a typhoon that blasts all of his enemies.',
+            power: '200'
+        },
+        inspirit: {
+            name: 'Burn',
+            description:
+                'Burns a foe with raging fire and steadily lowers its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '249',
+            str: '97',
+            spr: '100',
+            def: '81',
+            spd: '65'
+        },
+        tribe: 'mysterious',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'candy'
     },
     {
         name: 'Kyubi',
-        tribe: 'Mysterious',
+        yokaiNumber: '080',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kyubi.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '055',
-        yokaiNumber2: '080',
-        yokaiNumber3: '131',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4980',
-        hp: '1060',
-        spirit: '1370',
-        power: '570',
-        speed: '1140',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kyubi.png',
+        description:
+            'An elite nine-tailed-fox Yo-kai. He can easily produce power greater than a volcanic eruption.',
+        locations: ['Quest - The Old Fox Shrine', 'Quest - The Old Fox Shrine'],
+        skill: {
+            name: 'Penetrate',
+            description: 'Always deals elementaldamage.'
+        },
+        attack: {
+            name: 'Tail Slap',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Inferno',
+            description:
+                'Creates a massive fireball and burns enemies to ashes.',
+            power: '250'
+        },
+        inspirit: {
+            name: 'Burn',
+            description:
+                'Burns a foe with raging fire and steadily lowers its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '255',
+            str: '83',
+            spr: '151',
+            def: '107',
+            spd: '124'
+        },
+        tribe: 'mysterious',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'odens'
     },
     {
         name: 'Frostail',
-        tribe: 'Mysterious',
+        yokaiNumber: '081',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/frostail.png',
-        attribute: 'Ice',
-        rank: 'S',
-        yokaiNumber1: '056',
-        yokaiNumber2: '081',
-        yokaiNumber3: '132',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '5080',
-        hp: '1000',
-        spirit: '1450',
-        power: '610',
-        speed: '1180',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/frostail.png',
+        description:
+            "Even a single hair of this rare Yo-kai's silvery coat can bring generations of good luck!",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Yo Mystery Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Sense of Smell',
+            description: 'Never misses attacks.'
+        },
+        attack: {
+            name: 'Tail Slap',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Arctic Abyss',
+            description: 'Freezes his foes with his powerful, icy spirit.',
+            power: '250'
+        },
+        inspirit: {
+            name: 'Divine Protection',
+            description:
+                "Boosts an ally's SPR under the watchful eye of Frostail.",
+            power: '0'
+        },
+        stats: {
+            hp: '261',
+            str: '84',
+            spr: '152',
+            def: '99',
+            spd: '122'
+        },
+        tribe: 'mysterious',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 's',
+        favouriteFood: 'odens'
     },
     {
         name: 'Chymera',
-        tribe: 'Mysterious',
+        yokaiNumber: '082',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chymera.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '082',
-        yokaiNumber3: '132',
-        yokaiFood1: '',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Odens',
-        baseStats: '5240',
-        hp: '1080',
-        spirit: '1330',
-        power: '730',
-        speed: '1180',
-        defence: '920'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/chymera.png',
+        description:
+            "This Yo-kai has a monkey's head, a tiger's body, a snake's tail, and a cry that creeps people out\u2014much to his dismay.",
+        locations: [
+            'Infinite Inferno - 6th Circle',
+            'Infinite Inferno - 7th Circle',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'In a Flash',
+            description: 'Gets one preemptiveattack.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Shock Tactic',
+            description:
+                'Summons a lightning strike, doing great damage to one foe.',
+            power: '185 to 277'
+        },
+        inspirit: {
+            name: 'Beastly Blare',
+            description:
+                'The Inspirited Yo-kai feels the Chymera cry. SPD goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '247',
+            str: '119',
+            spr: '131',
+            def: '95',
+            spd: '112'
+        },
+        tribe: 'mysterious',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Kingmera',
-        tribe: 'Mysterious',
+        yokaiNumber: '083',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kingmera.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '083',
-        yokaiNumber3: '132',
-        yokaiFood1: '',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '99',
-        hp: '42',
-        spirit: '21',
-        power: '12',
-        speed: '13',
-        defence: '11'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kingmera.png',
+        description:
+            'A regal Yo-kai who was once a legendary ninja. Supremely stealthy, he can steal any treasure.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Cheerful Coin',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'In a Flash',
+            description: 'Gets one preemptiveattack.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Thunderstruck',
+            description:
+                'Summons a lightning strike, doing great damage to one foe.',
+            power: '190 to 285'
+        },
+        inspirit: {
+            name: 'Royal Rush',
+            description:
+                "The Inspirited Yo-kai's SPD will rise due to the power of a wind demon.",
+            power: '0'
+        },
+        stats: {
+            hp: '246',
+            str: '105',
+            spr: '147',
+            def: '86',
+            spd: '118'
+        },
+        tribe: 'mysterious',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Terrorpotta',
-        tribe: 'Tough',
+        yokaiNumber: '084',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/terrorpotta.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '084',
-        yokaiNumber3: '147',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '3580',
-        hp: '820',
-        spirit: '460',
-        power: '800',
-        speed: '600',
-        defence: '900'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/terrorpotta.png',
+        description:
+            "Loves scaring people by making them think that he's about to fall onto the floor and be smashed to smithereens.",
+        locations: [
+            'Mt. Wildwood Trail',
+            'Mt. Wildwood - Jumbo Slider',
+            'Mt. Wildwood - Bamboo Groves',
+            'Mt. Wildwood - Brushwoods',
+            'Bony Spirits Way - Exit',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Rest in Pieces',
+            description: 'Prevents all Yo-kaifrom being revived.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Cracked Pot',
+            description:
+                'Causes confusion in foes by teetering on the brink of tripping.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Crack Up',
+            description:
+                "The Inspirited Yo-kai's body becomes fragile, lowering DEF.",
+            power: '0'
+        },
+        stats: {
+            hp: '150',
+            str: '83',
+            spr: '61',
+            def: '92',
+            spd: '94'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Dulluma',
-        tribe: 'Tough',
+        yokaiNumber: '085',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dulluma.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '057',
-        yokaiNumber2: '085',
-        yokaiNumber3: '140',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '3540',
-        hp: '940',
-        spirit: '420',
-        power: '760',
-        speed: '480',
-        defence: '940',
-        fusion: {
-            description: 'Evolves into Darumacho through fusion with Mochismo',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dulluma.png',
+        description:
+            'He looks like a lucky daruma, but his real body is inside the shell. Dull and sluggish, he can really slow you down.',
+        locations: [
+            'Downtown Springdale - Academy Shortcut',
+            'Gera Gera Land',
+            'Gold-Gleaming Hwy. - Westbound',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)'
+        ],
+        skill: {
+            name: 'Glossy Skin',
+            description: 'Does not get dealtcritical damage.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Headbutt HEY-O!',
+            description:
+                'Leaps high into the air and delivers a powerful headbutt.',
+            power: '60 to 157'
+        },
+        inspirit: {
+            name: 'Dullness',
+            description:
+                'Makes an enemy very lazy, with absolutely no desire to move.',
+            power: '0'
+        },
+        stats: {
+            hp: '212',
+            str: '84',
+            spr: '44',
+            def: '88',
+            spd: '56'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'curries',
+        evolution: [
+            {
+                description:
+                    'Evolves into Darumacho through fusion with Mochismo.',
+                yokais: [
+                    {
+                        name: 'Darumacho',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Darumacho',
-        tribe: 'Tough',
+        yokaiNumber: '086',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '058',
-        yokaiNumber2: '086',
-        yokaiNumber3: '141',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '4780',
-        hp: '1020',
-        spirit: '630',
-        power: '1060',
-        speed: '800',
-        defence: '1270',
-        fusion: {
-            description: 'Evolves through fusion of Mochismo and Dulluma',
-            image1:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mochismo.png',
-            image2:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dulluma.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/darumacho.png',
+        description:
+            'Now a truly macho Yo-kai, this one worked tirelessly in a mountain retreat to train away his dullness.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Glossy Skin',
+            description: 'Does not get dealtcritical damage.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Burning Buster',
+            description:
+                'Jumps and charges a foe but will hurt himself with the effort.',
+            power: '170 to 255'
+        },
+        inspirit: {
+            name: 'Machismo',
+            description: 'Fills an ally with machismo and boosts its STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '253',
+            str: '112',
+            spr: '63',
+            def: '120',
+            spd: '68'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'curries',
+        evolution: [
+            {
+                description:
+                    'Evolves from Mochismo and Dulluma through fusion.',
+                yokais: [
+                    {
+                        name: 'Mochismo',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mochismo.png'
+                    },
+                    {
+                        name: 'Dulluma',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dulluma.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Goruma',
-        tribe: 'Tough',
+        yokaiNumber: '087',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/goruma.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '059',
-        yokaiNumber2: '087',
-        yokaiNumber3: '142',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '1027',
-        hp: '451',
-        spirit: '67',
-        power: '216',
-        speed: '82',
-        defence: '211'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/goruma.png',
+        description:
+            "Darumacho wasn't happy until he had the body and strength of a gorilla. Goruma can crush cars  like marshmallows. ",
+        locations: [
+            "Shopper's Row - Nocturne Hospital",
+            "Shopper's Row - Distributors",
+            "Shopper's Row - Garbages & Dumps",
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Glossy Skin',
+            description: 'Does not get dealtcritical damage.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Gorilla Straight',
+            description:
+                'Unleashes a straight punch with all the strength of a gorilla.',
+            power: '160 to 240'
+        },
+        inspirit: {
+            name: 'Musclehead',
+            description:
+                'Makes an enemy such a knucklehead that it forgets its friends.',
+            power: '0'
+        },
+        stats: {
+            hp: '267',
+            str: '119',
+            spr: '57',
+            def: '108',
+            spd: '58'
+        },
+        tribe: 'tough',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'curries'
     },
     {
         name: 'Wotchagot',
-        tribe: 'Tough',
+        yokaiNumber: '088',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wotchagot.png',
-        attribute: 'Ice',
-        rank: 'E',
-        yokaiNumber1: '059',
-        yokaiNumber2: '088',
-        yokaiNumber3: '143',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '3500',
-        hp: '940',
-        spirit: '420',
-        power: '720',
-        speed: '520',
-        defence: '900',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wotchagot.png',
+        description:
+            "A plain bowl of rice who can't help looking at the tasty treats others are eating and turning green with envy.",
+        locations: [
+            "Shopper's Row - Shopping Street Narrows",
+            "Shopper's Row - Shopping Street Narrows"
+        ],
+        skill: {
+            name: 'Bitter Rice',
+            description: 'May attack an ally.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Bowl Buster',
             description:
-                'Evolves into Pride Shrimp through fusion with Papa Windbag',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pride_shrimp.png'
-        }
+                'Strikes a foe in envy and ends up hurting himself in the process.',
+            power: '60 to 157'
+        },
+        inspirit: {
+            name: 'Envy',
+            description:
+                'Makes a foe so envious of its allies that it will attack them.',
+            power: '0'
+        },
+        stats: {
+            hp: '166',
+            str: '50',
+            spr: '86',
+            def: '93',
+            spd: '89'
+        },
+        tribe: 'tough',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'chinese foods',
+        evolution: [
+            {
+                description:
+                    'Evolves into Pride Shrimp through fusion with Papa Windbag.',
+                yokais: [
+                    {
+                        name: 'Pride Shrimp',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pride_shrimp.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Pride Shrimp',
-        tribe: 'Tough',
+        yokaiNumber: '089',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pride_shrimp.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '089',
-        yokaiNumber3: '144',
-        yokaiFood1: '',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '4700',
-        hp: '1020',
-        spirit: '670',
-        power: '1020',
-        speed: '760',
-        defence: '1230',
-        fusion: {
-            description: 'Evolves through fusion of Papa Windbag and Wotchagot',
-            image1:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/papa_windbag.png',
-            image2:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wotchagot.png'
-        }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/pride_shrimp.png',
+        description:
+            "He's the priciest dish in the shop, and he knows it. Inspirits people to be insufferably self-satisfied.",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Thick Crust',
+            description: 'DEF increases whenfront and center.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Prawn Punch',
+            description:
+                'Dramatically strikes a foe with a perfectly cooked prawn.',
+            power: '165 to 247'
+        },
+        inspirit: {
+            name: 'Shrimpervious',
+            description:
+                'Inspirited Yo-kai gets a DEF boost from a bowl of prawn tempura.',
+            power: '0'
+        },
+        stats: {
+            hp: '224',
+            str: '75',
+            spr: '104',
+            def: '126',
+            spd: '97'
+        },
+        tribe: 'tough',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'seafoods',
+        evolution: [
+            {
+                description:
+                    'Evolves from Wotchagot and Papa Windbag through fusion.',
+                yokais: [
+                    {
+                        name: 'Wotchagot',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wotchagot.png'
+                    },
+                    {
+                        name: 'Papa Windbag',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/papa_windbag.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'No-Go Kart',
-        tribe: 'Tough',
+        yokaiNumber: '090',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/no-go_kart.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '090',
-        yokaiNumber3: '145',
-        yokaiFood1: '',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '3540',
-        hp: '900',
-        spirit: '420',
-        power: '760',
-        speed: '600',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/no-go_kart.png',
+        description:
+            'Unsuspecting folks who accept a ride from this Yo-kai find themselves terribly lost because he has no sense of direction.',
+        locations: [
+            "Shopper's Row - Shopping Street Narrows",
+            "Shopper's Row - Shopping Street Narrows"
+        ],
+        skill: {
+            name: 'Digging In',
+            description: 'Takes less damagefrom Earth attacks.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: "You've Lost Me",
+            description:
+                'His bizarre sense of direction serves to confuse the enemy.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Get Lost',
+            description: "The Inspirited Yo-kai gets so lost it can't move.",
+            power: '0'
+        },
+        stats: {
+            hp: '174',
+            str: '79',
+            spr: '32',
+            def: '94',
+            spd: '103'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description:
+                    'Evolves into Mistank through fusion with Ledballoon.',
+                yokais: [
+                    {
+                        name: 'Mistank',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mistank.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Mistank',
-        tribe: 'Tough',
+        yokaiNumber: '091',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mistank.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '090',
-        yokaiNumber3: '145',
-        yokaiFood1: '',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4700',
-        hp: '1020',
-        spirit: '630',
-        power: '1060',
-        speed: '800',
-        defence: '1190'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mistank.png',
+        description:
+            "A tank who trundled off toward the enemy but got badly lost. At least his heart's in the right place.",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Earth Cannon',
+            description: 'Normal attacks becomeEarth attacks.'
+        },
+        attack: {
+            name: 'Kaboom!',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: "Tank 'n' Spank",
+            description:
+                'Unleashes a massive cannon blast, hitting a single foe.',
+            power: '170 to 255'
+        },
+        inspirit: {
+            name: 'Loose Cannon',
+            description:
+                'The Inspirited Yo-kai behaves erratically and attacks allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '227',
+            str: '116',
+            spr: '53',
+            def: '109',
+            spd: '120'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description:
+                    'Evolves from No-Go Kart and Ledballoon through fusion.',
+                yokais: [
+                    {
+                        name: 'No-Go Kart',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/no_go_Kart.png'
+                    },
+                    {
+                        name: 'Ledballoon',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ledballoon.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Noway',
-        tribe: 'Tough',
+        yokaiNumber: '092',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/noway.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '060',
-        yokaiNumber2: '092',
-        yokaiNumber3: '149',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '3960',
-        hp: '960',
-        spirit: '460',
-        power: '880',
-        speed: '560',
-        defence: '1100'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/noway.png',
+        description:
+            'He rejects everything with a "no way!" Becoming a brain-surgeon astronaut is easier than getting past him.',
+        locations: [
+            'Uptown Springdale - Desolate Lane',
+            'Gold-Gleaming Hwy. - Eastbound',
+            'Gold-Gleaming Hwy. - Eastbound'
+        ],
+        skill: {
+            name: 'Blocker',
+            description: 'Will be guarding whenmoving to the front.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'No Way Through',
+            description:
+                'A defensive posture that boosts DEF and draws enemy attacks.',
+            power: '42 to 0'
+        },
+        inspirit: {
+            name: 'Refusal',
+            description:
+                'Uses the power of "no way!" to make a Yo-kai refuse to fight.',
+            power: '0'
+        },
+        stats: {
+            hp: '217',
+            str: '75',
+            spr: '41',
+            def: '104',
+            spd: '40'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'ramens',
+        evolution: [
+            {
+                description: 'Evolves into Impass at Level 29.',
+                yokais: [
+                    {
+                        name: 'Impass',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/impass.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Impass',
-        tribe: 'Tough',
+        yokaiNumber: '093',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/impass.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '061',
-        yokaiNumber2: '093',
-        yokaiNumber3: '150',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '4740',
-        hp: '1060',
-        spirit: '540',
-        power: '1040',
-        speed: '680',
-        defence: '1420'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/impass.png',
+        description:
+            "You...you just can't get by Impass. Why?! What's his  motivation?! What's the story behind him?! Nobody knows...",
+        locations: ['Evolve Noway at Level 29.', 'Evolve Noway at Level 29.'],
+        skill: {
+            name: 'Blocker',
+            description: 'Will be guarding whenmoving to the front.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Insurmountable',
+            description:
+                'A defensive posture that strongly boosts DEF and draws attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Refusal',
+            description: 'Makes a foe refuse everything...including fighting.',
+            power: '0'
+        },
+        stats: {
+            hp: '271',
+            str: '109',
+            spr: '59',
+            def: '139',
+            spd: '79'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'ramens',
+        evolution: [
+            {
+                description: 'Evolves from Noway at Level 29.',
+                yokais: [
+                    {
+                        name: 'Noway',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/noway.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Walldin',
-        tribe: 'Tough',
+        yokaiNumber: '094',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/walldin.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '093',
-        yokaiNumber3: '150',
-        yokaiFood1: '',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '4880',
-        hp: '1080',
-        spirit: '500',
-        power: '1120',
-        speed: '720',
-        defence: '1460'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/walldin.png',
+        description:
+            'Formerly a sturdy castle wall, the fall of the family he once protected turned him into a Yo-kai.',
+        locations: [
+            'Breezy Hills - Empty flats',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
+            'Terror Time - Crank-a-kai - Gold Oni Orb',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Blocker',
+            description: 'Will be guarding whenmoving to the front.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Stonewall Drop',
+            description:
+                'Drops a stone wall from his former castle onto his foes.',
+            power: '180'
+        },
+        inspirit: {
+            name: 'Castle Power',
+            description:
+                "Increases an ally's DEF to the level of a castle wall.",
+            power: '0'
+        },
+        stats: {
+            hp: '277',
+            str: '88',
+            spr: '61',
+            def: '143',
+            spd: '95'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Roughraff',
-        tribe: 'Tough',
+        yokaiNumber: '095',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/roughraff.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '070',
-        yokaiNumber2: '095',
-        yokaiNumber3: '152',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '3760',
-        hp: '920',
-        spirit: '360',
-        power: '920',
-        speed: '620',
-        defence: '940'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/roughraff.png',
+        description:
+            'A Yo-kai whose only cause is rebellion, he Inspirits good kids into badness and delinquency.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin',
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin'
+        ],
+        skill: {
+            name: 'Revenge',
+            description: 'Reflects some damageback to foe.'
+        },
+        attack: {
+            name: 'Headbutt',
+            power: '55 to 121'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Stare Down',
+            description: 'Glares at his foes and lowers their SPD.',
+            power: '30'
+        },
+        inspirit: {
+            name: 'Rebel Soul',
+            description:
+                "Fails to fill a foe with a rebel's soul and lowers its DEF.",
+            power: '0'
+        },
+        stats: {
+            hp: '218',
+            str: '84',
+            spr: '30',
+            def: '96',
+            spd: '73'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'ramens',
+        evolution: [
+            {
+                description: 'Evolves into Badude at Level 25.',
+                yokais: [
+                    {
+                        name: 'Badude',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/badude.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Badude',
-        tribe: 'Tough',
+        yokaiNumber: '096',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/badude.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '071',
-        yokaiNumber2: '096',
-        yokaiNumber3: '153',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '4460',
-        hp: '1020',
-        spirit: '410',
-        power: '1140',
-        speed: '740',
-        defence: '1150'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/badude.png',
+        description:
+            "This gang leader runs into enemy territory wielding his brutal nail bat. That's his way of taking care of his gang.",
+        locations: [
+            'Evolve Roughraff at Level 26.',
+            'Evolve Roughraff at Level 26.'
+        ],
+        skill: {
+            name: 'Revenge',
+            description: 'Reflects some damageback to foe.'
+        },
+        attack: {
+            name: 'Headbuster',
+            power: '130 to 195'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Gangster Glare',
+            description:
+                "Glares at enemies until they're self-conscious. Lowers SPD.",
+            power: '100'
+        },
+        inspirit: {
+            name: 'Rebel Soul',
+            description:
+                "Inspirited Yo-kai's DEF decreases when it works against itself.",
+            power: '0'
+        },
+        stats: {
+            hp: '256',
+            str: '123',
+            spr: '58',
+            def: '112',
+            spd: '86'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'ramens',
+        evolution: [
+            {
+                description: 'Evolves from Roughraff at Level 25.',
+                yokais: [
+                    {
+                        name: 'Roughraff',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/roughraff.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Bruff',
-        tribe: 'Tough',
+        yokaiNumber: '097',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bruff.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '072',
-        yokaiNumber2: '097',
-        yokaiNumber3: '154',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '4860',
-        hp: '1060',
-        spirit: '540',
-        power: '1240',
-        speed: '800',
-        defence: '1220'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/bruff.png',
+        description:
+            'Said to have taken down an entire Yo-kai gang by himself. Many rebel Yo-kai revere him as a big brother.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Yo Mystery Coin',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb'
+        ],
+        skill: {
+            name: 'Revenge',
+            description: 'Reflects some damageback to foe.'
+        },
+        attack: {
+            name: 'Headbuster',
+            power: '130 to 195'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Brutal Butt Bat',
+            description:
+                'Crunches his foes with his nail bat. Likely to be either critical or a miss.',
+            power: '260'
+        },
+        inspirit: {
+            name: 'Enrage',
+            description:
+                'Enrages an enemy and makes it attack anyone who may be nearby.',
+            power: '0'
+        },
+        stats: {
+            hp: '256',
+            str: '128',
+            spr: '67',
+            def: '120',
+            spd: '100'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Armsman',
-        tribe: 'Tough',
+        yokaiNumber: '098',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/armsman.png',
-        attribute: 'Ice',
-        rank: 'D',
-        yokaiNumber1: '063',
-        yokaiNumber2: '098',
-        yokaiNumber3: '160',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4070',
-        hp: '950',
-        spirit: '530',
-        power: '900',
-        speed: '640',
-        defence: '1050'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/armsman.png',
+        description:
+            'Even headless, he gives 110 percent. He dreams of reuniting with his head someday... Not sure how he dreams\u2014he just does.',
+        locations: [
+            'Breezy Hills - Gourd Pond Museum 1F',
+            'Breezy Hills - Gourd Pond Museum 2F',
+            'Sawayama-jo - Area 2',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)'
+        ],
+        skill: {
+            name: 'Spirit Guard',
+            description: 'No elemental-weaknessdamage if guarding.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Lock of Steel',
+            description: "Gives an order that raises allies' morale and DEF.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Armor Defense',
+            description:
+                "Raises an ally's DEF with Armsman's divine protection.",
+            power: '0'
+        },
+        stats: {
+            hp: '244',
+            str: '84',
+            spr: '50',
+            def: '96',
+            spd: '54'
+        },
+        tribe: 'tough',
+        element: 'ice',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'vegetables',
+        evolution: [
+            {
+                description:
+                    'Evolves into Reuknight through fusion with Helmsman.',
+                yokais: [
+                    {
+                        name: 'Reuknight',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reuknight.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Mimikin',
-        tribe: 'Tough',
+        yokaiNumber: '099',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mimikin.png',
-        attribute: 'Ice',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '098',
-        yokaiNumber3: '160',
-        yokaiFood1: '',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4070',
-        hp: '950',
-        spirit: '450',
-        power: '940',
-        speed: '640',
-        defence: '1090'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mimikin.png',
+        description:
+            'A store mannequin and very gifted mimic. Anyone he Inspirits starts doing impressions of others whenever possible.',
+        locations: [
+            'Uptown Springdale - Elementary School 3F',
+            'Uptown Springdale - Elementary School 2F',
+            'Uptown Springdale - Elementary School 1F',
+            'Breezy Hills - Gate Room - Traffic-Light Zone',
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
+        ],
+        skill: {
+            name: 'Me Too!',
+            description: 'Yo-kai mimics movesmade by an ally in front.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Imitate Guardian',
+            description:
+                'Ups his DEF by mimicking a deity, drawing enemy attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Copycat',
+            description:
+                'The Inspirited Yo-kai imitates the enemy and attacks its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '195',
+            str: '100',
+            spr: '34',
+            def: '104',
+            spd: '96'
+        },
+        tribe: 'tough',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'd',
+        favouriteFood: 'candy'
     },
     {
         name: 'Blowkade',
-        tribe: 'Tough',
+        yokaiNumber: '100',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blowkade.png',
-        attribute: 'Water',
-        rank: 'D',
-        yokaiNumber1: '066',
-        yokaiNumber2: '100',
-        yokaiNumber3: '164',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4170',
-        hp: '1010',
-        spirit: '490',
-        power: '940',
-        speed: '560',
-        defence: '1170'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/blowkade.png',
+        description:
+            "Blowkade is one weird Yo-kai. Nobody knows why he puts his all into blocking people's paths.",
+        locations: [
+            'Uptown Springdale - Elementary School 3F',
+            'Downtown Springdale - Construction Site',
+            "Breezy Hills - Gate Room - Compunzer's Zone",
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Blasters - Crank-a-kai - Brown mission - Red Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'The Stand',
+            description: 'Will keep 1 HP after aknockout blow once.'
+        },
+        attack: {
+            name: 'Palm Strike',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Barricade Block',
+            description:
+                'Raises DEF and draws enemy attacks. Quite the effective blockade.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Needle Poke',
+            description:
+                'Pierces a foe with a needle and gradually lowers its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '236',
+            str: '79',
+            spr: '43',
+            def: '93',
+            spd: '66'
+        },
+        tribe: 'tough',
+        element: 'water',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'milks'
     },
     {
         name: 'Ledballoon',
-        tribe: 'Tough',
+        yokaiNumber: '101',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ledballoon.png',
-        attribute: 'Water',
-        rank: 'C',
-        yokaiNumber1: '067',
-        yokaiNumber2: '101',
-        yokaiNumber3: '165',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4290',
-        hp: '1010',
-        spirit: '480',
-        power: '1040',
-        speed: '600',
-        defence: '1160'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/ledballoon.png',
+        description:
+            "A dump truck couldn't move Ledballoon's heavy body...which is bad news if he gets in your way.",
+        locations: [
+            "Breezy Hills - Gate Room - Compunzer's Zone",
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb'
+        ],
+        skill: {
+            name: 'The Stand',
+            description: 'Will keep 1 HP after aknockout blow once.'
+        },
+        attack: {
+            name: 'Palm Strike',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Iron Cloutain',
+            description: 'Slaps an enemy. Can cancel enemy Soultimate Moves.',
+            power: '130'
+        },
+        inspirit: {
+            name: 'Big Needle Poke',
+            description:
+                'Pierces a foe with a needle and gradually lowers its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '246',
+            str: '98',
+            spr: '47',
+            def: '110',
+            spd: '62'
+        },
+        tribe: 'tough',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'milks',
+        evolution: [
+            {
+                description:
+                    'Evolves into Mistank through fusion with No-Go Kart.',
+                yokais: [
+                    {
+                        name: 'No-Go Kart',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/no_go_kart.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Fidgephant',
-        tribe: 'Tough',
+        yokaiNumber: '102',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/fidgephant.png',
-        attribute: 'Water',
-        rank: 'D',
-        yokaiNumber1: '064',
-        yokaiNumber2: '102',
-        yokaiNumber3: '170',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4030',
-        hp: '990',
-        spirit: '390',
-        power: '940',
-        speed: '620',
-        defence: '1090'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/fidgephant.png',
+        description:
+            'Fidgephant always feels like his nose is going to leak. He attacks with a water stream when he has to release it all!',
+        locations: [
+            'Harrisville - Cicada Canyon',
+            'Harrisville - Fullface Rock',
+            'Harrisville - Old House by The Station',
+            'Harrisville - Rivers',
+            'Harrisville - Rice Paddy Path, Cicada Canyon & Fullface Rock - Rivers',
+            'Old Harrisville - Rivers',
+            'Old Harrisville - Rice Paddy, Fullface Rock & Cicada Canyon - Rivers',
+            'Bony Spirits Way - Entrance',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Blasters - Crank-a-kai - Brown mission - Red Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Endurance',
+            description: 'Will keep 1 HP after aknockout blow once.'
+        },
+        attack: {
+            name: 'Fullswing',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Fidgeting Smack',
+            description:
+                'Slaps an opponent with his nose. May cancel Soultimate Moves.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Fidgeting',
+            description: 'Makes a foe fidget too much to fight.',
+            power: '0'
+        },
+        stats: {
+            hp: '221',
+            str: '80',
+            spr: '64',
+            def: '95',
+            spd: '71'
+        },
+        tribe: 'tough',
+        element: 'water',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description:
+                    'Evolves into Enduriphant through fusion with Touphant.',
+                yokais: [
+                    {
+                        name: 'Enduriphant',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enduriphant.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Touphant',
-        tribe: 'Tough',
+        yokaiNumber: '103',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/touphant.png',
-        attribute: 'Water',
-        rank: 'C',
-        yokaiNumber1: '065',
-        yokaiNumber2: '103',
-        yokaiNumber3: '171',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4250',
-        hp: '970',
-        spirit: '540',
-        power: '960',
-        speed: '580',
-        defence: '1200'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/touphant.png',
+        description:
+            'Touphant can endure anything...with a certain amount of body-shaking effort. He can help you persevere as well.',
+        locations: [
+            'San Fantastico - Trees',
+            'San Fantastico - Telephone poles',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)'
+        ],
+        skill: {
+            name: 'Endurance',
+            description: 'Will keep 1 HP after aknockout blow once.'
+        },
+        attack: {
+            name: 'Fullswing',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Trembling Smack',
+            description:
+                'Slaps an opponent with his nose. May cancel Soultimate Moves.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Shaking',
+            description: 'Makes an enemy shake like a newborn fawn.',
+            power: '0'
+        },
+        stats: {
+            hp: '206',
+            str: '69',
+            spr: '104',
+            def: '107',
+            spd: '71'
+        },
+        tribe: 'tough',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description:
+                    'Evolves into Enduriphant through fusion with Fidgephant.',
+                yokais: [
+                    {
+                        name: 'Enduriphant',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enduriphant.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Enduriphant',
-        tribe: 'Tough',
+        yokaiNumber: '104',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enduriphant.png',
-        attribute: 'Water',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '104',
-        yokaiNumber3: '171',
-        yokaiFood1: '',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4760',
-        hp: '1040',
-        spirit: '620',
-        power: '1120',
-        speed: '760',
-        defence: '1220'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/enduriphant.png',
+        description:
+            'Heroically resists the urge to go to the bathroom for reasons that remain obscure.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Going Nowhere',
+            description: 'Retains 1 HP after aknockout blow twice.'
+        },
+        attack: {
+            name: 'Ventilator',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Patience Wall',
+            description: 'Turns himself into a wall, hugely increasing DEF.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Thick Skin',
+            description:
+                'The Inspirited Yo-kai can endure anything. DEF rises strongly.',
+            power: '0'
+        },
+        stats: {
+            hp: '247',
+            str: '117',
+            spr: '83',
+            def: '114',
+            spd: '85'
+        },
+        tribe: 'tough',
+        element: 'water',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'rice balls',
+        evolution: [
+            {
+                description:
+                    'Evolves from Fidgephant and Touphant through fusion.',
+                yokais: [
+                    {
+                        name: 'Fidgephant',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/fidgephant.png'
+                    },
+                    {
+                        name: 'Touphant',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/touphant.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Zappary',
-        tribe: 'Tough',
+        yokaiNumber: '105',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zappary.png',
-        attribute: 'Lightning',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '105',
-        yokaiNumber3: '173',
-        yokaiFood1: '',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '4110',
-        hp: '870',
-        spirit: '610',
-        power: '900',
-        speed: '720',
-        defence: '1010'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/zappary.png',
+        description:
+            'His mother made him a nice knapsack in which he stores the mighty powers of thunder and lightning.',
+        locations: [
+            'Mt. Wildwood - Abandoned Tunnel West',
+            'Mt. Wildwood - Abandoned Tunnel East',
+            'Mt. Wildwood - Abandoned Tunnel East'
+        ],
+        skill: {
+            name: 'In a Flash',
+            description: 'Gets one preemptiveattack.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Zattack',
+            description:
+                'Pierces a single foe with an impressive bolt of lightning.',
+            power: '65 to 170'
+        },
+        inspirit: {
+            name: 'Lightning Speed',
+            description:
+                'The Inspirited Yo-kai is hit by lightning, and SPD rises.',
+            power: '0'
+        },
+        stats: {
+            hp: '154',
+            str: '91',
+            spr: '100',
+            def: '90',
+            spd: '99'
+        },
+        tribe: 'tough',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'chinese foods',
+        evolution: [
+            {
+                description: 'Evolves into Frazzel at Level 29.',
+                yokais: [
+                    {
+                        name: 'Frazzel',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/frazzel.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Frazzel',
-        tribe: 'Tough',
+        yokaiNumber: '106',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/frazzel.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '106',
-        yokaiNumber3: '173',
-        yokaiFood1: '',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '5020',
-        hp: '1020',
-        spirit: '740',
-        power: '1120',
-        speed: '840',
-        defence: '1300'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/frazzel.png',
+        description:
+            "He's like a lightning rod for danger and attracts trouble wherever he goes. Not the most relaxing way to live...",
+        locations: [
+            'Evolve Zappary at Level 29.',
+            'Evolve Zappary at Level 29.'
+        ],
+        skill: {
+            name: 'Superconductor',
+            description: 'Blocks damage from allLightning skill attacks.'
+        },
+        attack: {
+            name: 'Pinpoint Pierce',
+            power: '30 to 66'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Divine Strike',
+            description:
+                'Releases the electric power he has absorbed and strikes all foes.',
+            power: '180'
+        },
+        inspirit: {
+            name: 'Lightning Speed',
+            description:
+                'The Inspirited Yo-kai is hit by lightning, and SPD rises.',
+            power: '0'
+        },
+        stats: {
+            hp: '218',
+            str: '95',
+            spr: '123',
+            def: '117',
+            spd: '114'
+        },
+        tribe: 'tough',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'chinese foods',
+        evolution: [
+            {
+                description: 'Evolves from Zappary at Level 29.',
+                yokais: [
+                    {
+                        name: 'Frazzel',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zappary.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Swelton',
-        tribe: 'Tough',
+        yokaiNumber: '107',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/swelton.png',
-        attribute: 'Fire',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '107',
-        yokaiNumber3: '177',
-        yokaiFood1: '',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '4030',
-        hp: '990',
-        spirit: '520',
-        power: '880',
-        speed: '600',
-        defence: '1040'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/swelton.png',
+        description:
+            "Those he's Inspirited sweat up a storm. When several of these Yo-kai get together, they make for a very sticky situation!",
+        locations: [
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Story recruit.',
+            'Story recruit.'
+        ],
+        skill: {
+            name: 'Oily Mess',
+            description: 'Extends time allowedto spin Yo-kai Wheel.'
+        },
+        attack: {
+            name: 'Squish',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Sweaty Wall',
+            description:
+                'Ups DEF with a sweaty stance and draws enemy attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Sweat It Out',
+            description:
+                "The Inspirited Yo-kai can't stop sweating and gradually loses HP.",
+            power: '0'
+        },
+        stats: {
+            hp: '231',
+            str: '79',
+            spr: '88',
+            def: '107',
+            spd: '63'
+        },
+        tribe: 'tough',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'c',
+        favouriteFood: 'curries'
     },
     {
         name: 'Mad Mountain',
-        tribe: 'Tough',
+        yokaiNumber: '108',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mad_mountain.png',
-        attribute: 'Ice',
-        rank: 'C',
-        yokaiNumber1: '068',
-        yokaiNumber2: '108',
-        yokaiNumber3: '182',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4150',
-        hp: '990',
-        spirit: '520',
-        power: '960',
-        speed: '640',
-        defence: '1040'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mad_mountain.png',
+        description:
+            "Hailing from the land of frost, he's the wrestler with legs as thick as glaciers and a heart of ice: MAD MOUNTAIN!",
+        locations: [
+            'Harrisville - Cicada Canyon',
+            'Sawayama-jo - Area 2',
+            'Bony Spirits Way - Entrance',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Blasters - Crank-a-kai - Brown mission - Red Orb',
+            'Blasters - Crank-a-kai - Brown mission - Red Orb'
+        ],
+        skill: {
+            name: 'The Stand',
+            description: 'Will keep 1 HP after aknockout blow once.'
+        },
+        attack: {
+            name: 'Palm Strike',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Ultra Sumo Stomp',
+            description:
+                'Makes a defensive stomp. Boosts DEF and draws enemy attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Perseverance',
+            description:
+                "Boosts an ally's DEF with an extra jolt of directed tenacity.",
+            power: '0'
+        },
+        stats: {
+            hp: '249',
+            str: '96',
+            spr: '55',
+            def: '93',
+            spd: '72'
+        },
+        tribe: 'tough',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'c',
+        favouriteFood: 'sushis',
+        evolution: [
+            {
+                description:
+                    'Evolves into Scarasol through fusion with Pallysol.',
+                yokais: [
+                    {
+                        name: 'Scarasol',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scarasol.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Lava Lord',
-        tribe: 'Tough',
+        yokaiNumber: '109',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lava_lord.png',
-        attribute: 'Lightning',
-        rank: 'B',
-        yokaiNumber1: '069',
-        yokaiNumber2: '109',
-        yokaiNumber3: '183',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4440',
-        hp: '1040',
-        spirit: '550',
-        power: '940',
-        speed: '640',
-        defence: '1270'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/lava_lord.png',
+        description:
+            "And in red, we have the only wrestler to rival Mad Mountain! It's the violent volcano himself\u2014 LAAAVA LOOOOOOORD!",
+        locations: [
+            'Excellent Tower - Brushwoods & Flowers',
+            'Excellent Tower - Garbages',
+            'Excellent Tower - Under cars & Distributors',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Terror Time - Crank-a-kai - Red Oni Orb',
+            'Blasters - Crank-a-kai - Brown mission - Red Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb'
+        ],
+        skill: {
+            name: 'The Stand',
+            description: 'Will keep 1 HP after aknockout blow once.'
+        },
+        attack: {
+            name: 'Palm Strike',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Midnight Stomp',
+            description:
+                'Makes a defensive stomp. Greatly boosts DEF. Draws attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Volcanic Blessing',
+            description:
+                'Warms an ally like a volcanic hot spring and gradually restores HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '265',
+            str: '90',
+            spr: '83',
+            def: '93',
+            spd: '85'
+        },
+        tribe: 'tough',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Castelius III',
-        tribe: 'Tough',
+        yokaiNumber: '110',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_iii.png',
-        attribute: 'Earth',
-        rank: 'C',
-        yokaiNumber1: '076',
-        yokaiNumber2: '110',
-        yokaiNumber3: '184',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '976',
-        hp: '455',
-        spirit: '85',
-        power: '123',
-        speed: '69',
-        defence: '244'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/castelius_iii.png',
+        description:
+            "Castelius III will make you always come in third. There's not much of a future in that...unless you're a bronze tycoon.",
+        locations: [
+            'Downtown Springdale - Construction Site',
+            'Breezy Hills - Distributors',
+            'Breezy Hills - Empty flats',
+            'Sawayama-jo - Area 2',
+            'Mystery Way - Service Road',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Bronze Guard',
+            description: 'Takes less Earth andWind damage.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Self-Destruct',
+            description:
+                'Explosion that will deal damage to enemies and allies alike.',
+            power: '220'
+        },
+        inspirit: {
+            name: 'Bronze Power',
+            description: 'Wraps an ally in bronze and raises DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '229',
+            str: '83',
+            spr: '61',
+            def: '103',
+            spd: '73'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'c',
+        favouriteFood: 'milks',
+        evolution: [
+            {
+                description:
+                    'Evolves into Castelius II through fusion with Castelius III.',
+                yokais: [
+                    {
+                        name: 'Castelius II',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_ii.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Castelius II',
-        tribe: 'Tough',
+        yokaiNumber: '111',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_ii.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '077',
-        yokaiNumber2: '111',
-        yokaiNumber3: '185',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4380',
-        hp: '1020',
-        spirit: '450',
-        power: '980',
-        speed: '700',
-        defence: '1230'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/castelius_ii.png',
+        description:
+            'Castelius II will always lock you in second place. Not bad, but could you have done a bit better...?',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Terror Time - Crank-a-kai - Red Oni Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Silver Guard',
+            description: 'Takes less Fire and Icedamage.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Refined Guard',
+            description:
+                'A strong defensive pose. Greatly boosts DEF. Draws attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Silver Power',
+            description: 'Covers an ally in silver and raises DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '239',
+            str: '94',
+            spr: '71',
+            def: '116',
+            spd: '83'
+        },
+        tribe: 'tough',
+        element: 'ice',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'milks',
+        evolution: [
+            {
+                description:
+                    'Evolves into Castelius I through fusion with Castelius II.',
+                yokais: [
+                    {
+                        name: 'Castelius I',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_i.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Castelius I',
-        tribe: 'Tough',
+        yokaiNumber: '112',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_i.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '078',
-        yokaiNumber2: '112',
-        yokaiNumber3: '186',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4520',
-        hp: '1080',
-        spirit: '440',
-        power: '1000',
-        speed: '700',
-        defence: '1300'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/castelius_i.png',
+        description:
+            "First place. Gold medals. Big trophies. That's your life if Castelius I Inspirits you. But with great power comes great...ness!",
+        locations: ['Gold-Gleaming Hwy. - Interchange', 'Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Gold Guard',
+            description: 'Takes less Lightningand Water damage.'
+        },
+        attack: {
+            name: 'Bone Crusher',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Glorious Buh-Bye',
+            description:
+                'Explosion that will deal damage to enemies and allies alike.',
+            power: '250'
+        },
+        inspirit: {
+            name: 'Gold Power',
+            description: 'Covers an ally in gold and raises DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '259',
+            str: '103',
+            spr: '82',
+            def: '131',
+            spd: '93'
+        },
+        tribe: 'tough',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'milks',
+        evolution: [
+            {
+                description:
+                    'Evolves into Castelius Max through fusion with a Platinum Bar.',
+                yokais: [
+                    {
+                        name: 'Castelius Max',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_max.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Castelius Max',
-        tribe: 'Tough',
+        yokaiNumber: '113',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_max.png',
-        attribute: 'Wind',
-        rank: 'S',
-        yokaiNumber1: '079',
-        yokaiNumber2: '113',
-        yokaiNumber3: '187',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '5140',
-        hp: '1140',
-        spirit: '610',
-        power: '1180',
-        speed: '800',
-        defence: '1410'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/castelius_max.png',
+        description:
+            'Being Inspirited by this extremely rare Yo-kai will let you transcend mere winning and losing.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Platinum Guard',
+            description: 'Weakens Ice, Wind, andWater elemental hits.'
+        },
+        attack: {
+            name: 'Bone Crusher',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Platinum Guard',
+            description:
+                'A strong defensive pose with a strong DEF boost. Draws attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Platinum Power',
+            description:
+                'Covers an ally in shiny platinum and boosts all stats!',
+            power: '0'
+        },
+        stats: {
+            hp: '276',
+            str: '107',
+            spr: '86',
+            def: '146',
+            spd: '104'
+        },
+        tribe: 'tough',
+        element: 'wind',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'milks',
+        evolution: [
+            {
+                description:
+                    'Evolves from Castelius I through fusion with a Platinum Bar.',
+                yokais: [
+                    {
+                        name: 'Castelius I',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_i.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Rhinoggin',
-        tribe: 'Tough',
+        yokaiNumber: '114',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhinoggin.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '073',
-        yokaiNumber2: '114',
-        yokaiNumber3: '189',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4340',
-        hp: '1020',
-        spirit: '550',
-        power: '980',
-        speed: '640',
-        defence: '1150'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rhinoggin.png',
+        description:
+            'The hyperaggressive Rhinoggin is always  battling Beetler for the title of Bug Yo-kai King.',
+        locations: [
+            'Harrisville - Trees',
+            'Bony Spirits - Gogo Junction',
+            "Quest - Which Beetle's Better",
+            "Quest - Which Beetle's Better"
+        ],
+        skill: {
+            name: 'Guard Break',
+            description: "Ignore foe's guardeffect when attacking."
+        },
+        attack: {
+            name: 'Fullswing',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Super Horn Crash',
+            description:
+                'Crashes into an enemy with his prized horn and deals big damage.',
+            power: '160 to 240'
+        },
+        inspirit: {
+            name: 'Rhino Power',
+            description:
+                'Gives an ally all the proportionate STR of a Rhino Beetle.',
+            power: '0'
+        },
+        stats: {
+            hp: '261',
+            str: '102',
+            spr: '66',
+            def: '113',
+            spd: '64'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'vegetables',
+        evolution: [
+            {
+                description:
+                    'Evolves into Rhinormous through fusion with an Unbeatable Soul.',
+                yokais: [
+                    {
+                        name: 'Rhinormous',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhinormous.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Rhinormous',
-        tribe: 'Tough',
+        yokaiNumber: '115',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhinormous.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '074',
-        yokaiNumber2: '115',
-        yokaiNumber3: '190',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5220',
-        hp: '1100',
-        spirit: '690',
-        power: '1180',
-        speed: '880',
-        defence: '1370'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rhinormous.png',
+        description:
+            'Only the select few Rhinoggin who have proven their might in battle can hold the name of Rhinormous.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Guard Break',
+            description: "Ignore foe's guardeffect when attacking."
+        },
+        attack: {
+            name: 'Headbuster',
+            power: '130 to 195'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Horn Breaker',
+            description: 'Smashes into an enemy like a dump truck with a horn!',
+            power: '190 to 285'
+        },
+        inspirit: {
+            name: 'Peerless Power',
+            description: "Raises an ally's STR to peerless levels.",
+            power: '0'
+        },
+        stats: {
+            hp: '280',
+            str: '116',
+            spr: '68',
+            def: '133',
+            spd: '98'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'vegetables',
+        evolution: [
+            {
+                description:
+                    'Evolves from Rhinoggin through fusion with an Unbeatable Soul.',
+                yokais: [
+                    {
+                        name: 'Rhinoggin',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhinoggin.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Hornaplenty',
-        tribe: 'Tough',
+        yokaiNumber: '116',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hornaplenty.png',
-        attribute: 'Earth',
-        rank: 'S',
-        yokaiNumber1: '075',
-        yokaiNumber2: '116',
-        yokaiNumber3: '191',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5400',
-        hp: '1080',
-        spirit: '730',
-        power: '1220',
-        speed: '920',
-        defence: '1450'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hornaplenty.png',
+        description:
+            'When Rhinormous achieves power far beyond his peers, he can earn the rare title of Hornaplenty.',
+        locations: [
+            'Terror Time - Crank-a-kai - Gold Oni Orb',
+            'Terror Time - Crank-a-kai - Stone Oni Orb',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Guard Break',
+            description: "Ignore foe's guardeffect when attacking."
+        },
+        attack: {
+            name: 'Headbuster',
+            power: '130 to 195'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Horn Explosion',
+            description: 'Smashes into an enemy like a dump truck with a horn!',
+            power: '210 to 315'
+        },
+        inspirit: {
+            name: 'Legend Power',
+            description: "Boosts an ally's DEF with divine combat abilities.",
+            power: '0'
+        },
+        stats: {
+            hp: '279',
+            str: '133',
+            spr: '57',
+            def: '141',
+            spd: '112'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Robonyan',
-        tribe: 'Tough',
+        yokaiNumber: '117',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robonyan.png',
-        attribute: 'Ice',
-        rank: 'A',
-        yokaiNumber1: '080',
-        yokaiNumber2: '117',
-        yokaiNumber3: '194',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5400',
-        hp: '1080',
-        spirit: '730',
-        power: '1220',
-        speed: '920',
-        defence: '1450'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/robonyan.png',
+        description:
+            "A robot that thinks he's actually Jibanyan. Stiff movement aside, the resemblance is uncatty! Meow meow.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - 3DS coin',
+            'Terror Time - Crank-a-kai - Stone Oni Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
+            'Quest - From the Future!',
+            'Quest - Watch the Skies',
+            'Quest - Watch the Skies'
+        ],
+        skill: {
+            name: 'Blocker',
+            description: 'Will be guarding whenmoving to the front.'
+        },
+        attack: {
+            name: 'Rocket Punch',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Guard Meowde',
+            description: 'Increases DEF and draws enemy attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Steel Power',
+            description: "Makes an ally's skin as strong as steel. Raises DEF.",
+            power: '0'
+        },
+        stats: {
+            hp: '266',
+            str: '101',
+            spr: '79',
+            def: '119',
+            spd: '104'
+        },
+        tribe: 'tough',
+        element: 'ice',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Goldenyan',
-        tribe: 'Tough',
+        yokaiNumber: '118',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/goldenyan.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '081',
-        yokaiNumber2: '118',
-        yokaiNumber3: '197',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5040',
-        hp: '1080',
-        spirit: '610',
-        power: '1140',
-        speed: '800',
-        defence: '1410'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/goldenyan.png',
+        description:
+            'Goldenyan glistens with purrfection. Meow meow. Truly priceless.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mystery Way - Crank-a-kai - Mystery Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Gold Guard',
+            description: 'Takes less Lightningand Water damage.'
+        },
+        attack: {
+            name: 'Rocket Punch',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Gold Thundpurr',
+            description:
+                'Increases stats of allies with mystic, golden powers.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Golden Power',
+            description: "Makes an ally's skin shiny as gold. Raises DEF.",
+            power: '0'
+        },
+        stats: {
+            hp: '282',
+            str: '102',
+            spr: '67',
+            def: '132',
+            spd: '122'
+        },
+        tribe: 'tough',
+        element: 'lightning',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Dromp',
-        tribe: 'Tough',
+        yokaiNumber: '119',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dromp.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '082',
-        yokaiNumber2: '119',
-        yokaiNumber3: '198',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4640',
-        hp: '1040',
-        spirit: '620',
-        power: '1040',
-        speed: '720',
-        defence: '1220'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dromp.png',
+        description:
+            'Fairy tales tell of the monstrous Dromp building mountains and digging ponds.',
+        locations: [
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
+            'Quest - Treasure Hunters',
+            'Quest - Treasure Hunters'
+        ],
+        skill: {
+            name: 'Insulator',
+            description: 'Takes less damagefrom Lightning attacks.'
+        },
+        attack: {
+            name: 'Steamroll',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Total Collapse',
+            description:
+                'Explosion that will deal damage to enemies and allies alike.',
+            power: '300'
+        },
+        inspirit: {
+            name: 'Earth Healing',
+            description:
+                "Gradually restores an ally's HP using the power of earth.",
+            power: '0'
+        },
+        stats: {
+            hp: '275',
+            str: '111',
+            spr: '58',
+            def: '142',
+            spd: '58'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Swosh',
-        tribe: 'Tough',
+        yokaiNumber: '120',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/swosh.png',
-        attribute: 'Water',
-        rank: 'S',
-        yokaiNumber1: '083',
-        yokaiNumber2: '120',
-        yokaiNumber3: '199',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '1283',
-        hp: '705',
-        spirit: '173',
-        power: '76',
-        speed: '86',
-        defence: '243'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/swosh.png',
+        description:
+            'A Yo-kai with a heart as big as the ocean. Some say that Swosh embodies the sea itself.',
+        locations: ['Quest - The God of the Sea', 'Quest - The God of the Sea'],
+        skill: {
+            name: 'Blessed Body',
+            description: 'When defeated, Yo-kaiin the front recover HP.'
+        },
+        attack: {
+            name: 'Steamroll',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Tidal Guard',
+            description:
+                'Braces himself and raises DEF for the attacks he will draw.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Ocean Power',
+            description:
+                "Boosts an ally's stats with the vast power of the sea.",
+            power: '0'
+        },
+        stats: {
+            hp: '291',
+            str: '55',
+            spr: '111',
+            def: '156',
+            spd: '84'
+        },
+        tribe: 'tough',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Toadal Dude',
-        tribe: 'Tough',
+        yokaiNumber: '121',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/toadal_dude.png',
-        attribute: 'Water',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '121',
-        yokaiNumber3: '200',
-        yokaiFood1: '',
-        yokaiFood2: 'Sobas Noodles',
-        yokaiFood3: 'Sobas Noodles',
-        baseStats: '193',
-        hp: '69',
-        spirit: '48',
-        power: '24',
-        speed: '25',
-        defence: '27'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/toadal_dude.png',
+        description:
+            'A toad who lived for so long that he turned into a Yo-kai. He says the secret to his long life lies in his slick sense of style.',
+        locations: [
+            'Clear "Fleshy Souls General" quest.',
+            'Clear "Fleshy Souls General" quest.'
+        ],
+        skill: {
+            name: 'Toadally Saved',
+            description: 'Protects allies on theverge of defeat.'
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Warts and All',
+            description: 'Attacks all foes with a blast of pent-up toad power.',
+            power: '46x5'
+        },
+        inspirit: {
+            name: 'Big Shot',
+            description:
+                'The Inspirited Yo-kai feels so important that it is always targeted.',
+            power: '0'
+        },
+        stats: {
+            hp: '261',
+            str: '149',
+            spr: '96',
+            def: '129',
+            spd: '111'
+        },
+        tribe: 'tough',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Uber Geeko',
-        tribe: 'Tough',
+        yokaiNumber: '122',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/uber_geeko.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '122',
-        yokaiNumber3: '201',
-        yokaiFood1: '',
-        yokaiFood2: 'Sobas',
-        yokaiFood3: 'Sobas',
-        baseStats: '5260',
-        hp: '1060',
-        spirit: '730',
-        power: '1180',
-        speed: '880',
-        defence: '1410'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/uber_geeko.png',
+        description:
+            'This gecko-turned-guy prefers staying in to living the high life, unlike his outgoing cousin Toadal Dude.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
+            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin'
+        ],
+        skill: {
+            name: 'Geckstra Safe',
+            description: 'Protects allies on theverge of defeat.'
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Geck Out',
+            description:
+                'Attacks all foes with a blast of pent-up gecko power.',
+            power: '42x5'
+        },
+        inspirit: {
+            name: 'Fade Away',
+            description:
+                'The Inspirited Yo-kai fades out of awareness and cannot be targeted.',
+            power: '0'
+        },
+        stats: {
+            hp: '252',
+            str: '99',
+            spr: '126',
+            def: '131',
+            spd: '101'
+        },
+        tribe: 'tough',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Leggly',
-        tribe: 'Charming',
+        yokaiNumber: '123',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/leggly.png',
-        attribute: 'Restoration',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '213',
-        yokaiNumber3: '209',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '3940',
-        hp: '1120',
-        spirit: '560',
-        power: '700',
-        speed: '940',
-        defence: '620'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/leggly.png',
+        description:
+            'A pair of perfect limbs that gives whomever he Inspirits the loveliest legs in town!',
+        locations: [
+            'Uptown Springdale - Bushes',
+            'Blossom Heights - Secret Byway',
+            'Blossom Heights - Bamboo groves',
+            'Blossom Heights - Under cars & Distributors',
+            'Blossom Heights - Tucked Away Lot, Secret Byway & Hidden Side Street - Garbages & Dumps',
+            'Breezy Hills - Gate Room - Can-Kicking Zone',
+            'Mystery Way - Route 6',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)'
+        ],
+        skill: {
+            name: 'Great Legs',
+            description: 'When in back, allies infront recover HP.'
+        },
+        attack: {
+            name: 'Kick',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Shake a Leg',
+            description: 'Boosts morale, giving her allies a burst of SPD.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Leg Up',
+            description:
+                "The Inspirited Yo-kai's newly beautified legs give it a SPD boost.",
+            power: '0'
+        },
+        stats: {
+            hp: '189',
+            str: '84',
+            spr: '49',
+            def: '41',
+            spd: '110'
+        },
+        tribe: 'charming',
+        element: 'restoration',
+        weakness: 'water',
+        rank: 'e',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Dazzabel',
-        tribe: 'Charming',
+        yokaiNumber: '124',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dazzabel.png',
-        attribute: 'Fire',
-        rank: 'E',
-        yokaiNumber1: '084',
-        yokaiNumber2: '124',
-        yokaiNumber3: '213',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4200',
-        hp: '1140',
-        spirit: '520',
-        power: '780',
-        speed: '940',
-        defence: '820'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dazzabel.png',
+        description:
+            "Dazzabel loves wearing anything gaudy. If she Inspirits you, you'll start liking that style too!",
+        locations: [
+            'Uptown Springdale - Bushes',
+            'Breezy Hills - Gourd Pond Museum 1F',
+            'Breezy Hills - Gourd Pond Museum 2F',
+            'Breezy Hills - Brushwoods & flowers',
+            'Gera Gera Land',
+            'Mystery Way - Service Road',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: '\u2606Stylish Stab',
+            description:
+                'Repeatedly stabs her opponents with her stylish umbrella.',
+            power: '17x5'
+        },
+        inspirit: {
+            name: 'Makeover',
+            description:
+                'Turns a Yo-kai into a gaudy fashionista who draws a lot of anger.',
+            power: '0'
+        },
+        stats: {
+            hp: '180',
+            str: '75',
+            spr: '49',
+            def: '82',
+            spd: '88'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'e',
+        favouriteFood: 'sweets',
+        evolution: [
+            {
+                description:
+                    'Evolves into Rattelle through fusion with Cupistol.',
+                yokais: [
+                    {
+                        name: 'Rattelle',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rattelle.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Rattelle',
-        tribe: 'Charming',
+        yokaiNumber: '125',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rattelle.png',
-        attribute: 'Fire',
-        rank: 'C',
-        yokaiNumber1: '085',
-        yokaiNumber2: '125',
-        yokaiNumber3: '214',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4640',
-        hp: '1160',
-        spirit: '680',
-        power: '840',
-        speed: '1120',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rattelle.png',
+        description:
+            "While she looks calm in her gothic wear, she'll fly into a rage if you insult her style.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Stab Storm',
+            power: '10x5 to 22x5'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: '\u2606Prism Parasol',
+            description: 'Pokes all foes with her sassy umbrella.',
+            power: '22x7'
+        },
+        inspirit: {
+            name: 'So Generous',
+            description: 'Makes a Yo-kai generous enough to scatter money.',
+            power: '0'
+        },
+        stats: {
+            hp: '222',
+            str: '92',
+            spr: '68',
+            def: '89',
+            spd: '101'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'c',
+        favouriteFood: 'sweets',
+        evolution: [
+            {
+                description:
+                    'Evolves from Dazzabel and Cupisol through fusion.',
+                yokais: [
+                    {
+                        name: 'Dazzabel',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dazzabel.png'
+                    },
+                    {
+                        name: 'Cupisol',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cupisol.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Skelebella',
-        tribe: 'Charming',
+        yokaiNumber: '126',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/skelebella.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '086',
-        yokaiNumber2: '126',
-        yokaiNumber3: '214',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4920',
-        hp: '1230',
-        spirit: '720',
-        power: '890',
-        speed: '1150',
-        defence: '930'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/skelebella.png',
+        description:
+            "She's so confident in the unparalleled beauty of her bones that she doesn't even need her skin.",
+        locations: [
+            'Mt. Wildwood - Brushwoods',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
+            'Terror Time - Crank-a-kai - Gold Oni Orb',
+            'Blasters - Crank-a-kai - Brown mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Pointy Pokes',
+            power: '12x3 to 26x3'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: '\u2606Radiant Rain',
+            description:
+                'Damages opponents by calling down rain to match her umbrella.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'So Generous',
+            description: 'Makes a Yo-kai generous enough to scatter money.',
+            power: '0'
+        },
+        stats: {
+            hp: '245',
+            str: '90',
+            spr: '81',
+            def: '104',
+            spd: '98'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Cadin',
-        tribe: 'Charming',
+        yokaiNumber: '127',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cadin.png',
-        attribute: 'Wind',
-        rank: 'E',
-        yokaiNumber1: '087',
-        yokaiNumber2: '127',
-        yokaiNumber3: '216',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '115',
-        hp: '24',
-        spirit: '25',
-        power: '21',
-        speed: '19',
-        defence: '26'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cadin.png',
+        description:
+            'He claims to practice "cicada ninjutsu"...but that\'s not really a thing. Unless it\'s a mastery of running away.',
+        locations: [
+            'Uptown Springdale - Trees',
+            'Mt. Wildwood - Trees',
+            'Mt. Wildwood - Abandoned Tunnel West & East & Jumbo Slider - Trees',
+            'Blossom Heights - Trees',
+            "Shopper's Row - Trees",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
+            'San Fantastico - Trees',
+            'Harrisville - Trees',
+            'Old Springdale - Trees',
+            'Old Springdale - Well Road - Trees',
+            'Old Springdale - Gourd Pond - Trees',
+            'Old Harrisville - Trees',
+            'Sawayama-jo - Area 1 - Trees',
+            'Gold-Gleaming Hwy. - Eastbound',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Blasters - Crank-a-kai - Normal mission - Red Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Modest',
+            description: 'Low chance of gettingattacked by foes.'
+        },
+        attack: {
+            name: 'Stepping Slice',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Cicada Cut',
+            description: 'Nervously slices all of his foes.',
+            power: '18x5'
+        },
+        inspirit: {
+            name: 'Cicada Ninjutsu',
+            description: "Raises a Yo-kai's SPD with cicada-style ninjutsu.",
+            power: '0'
+        },
+        stats: {
+            hp: '185',
+            str: '84',
+            spr: '64',
+            def: '56',
+            spd: '87'
+        },
+        tribe: 'charming',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'e',
+        favouriteFood: 'juices',
+        evolution: [
+            {
+                description: 'Evolves into Cadable at Level 21.',
+                yokais: [
+                    {
+                        name: 'Cadable',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cadable.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Cadable',
-        tribe: 'Charming',
+        yokaiNumber: '128',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cadable.png',
-        attribute: 'Wind',
-        rank: 'C',
-        yokaiNumber1: '088',
-        yokaiNumber2: '128',
-        yokaiNumber3: '216',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4680',
-        hp: '1200',
-        spirit: '620',
-        power: '960',
-        speed: '1140',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cadable.png',
+        description:
+            'Cadin has trained his "cicada ninjutsu" to its peak. Now Cadable claims it\'s a worthy martial art! *crickets* *cicadas*',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb',
+            'Evolve Cadin at Level 21.',
+            'Evolve Cadin at Level 21.'
+        ],
+        skill: {
+            name: 'Modest',
+            description: 'Low chance of gettingattacked by foes.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Shadow Speed',
+            description:
+                "Cicada ninjutsu's ultimate move! This boosts SPD of allies.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Cicada Ninjutsu',
+            description: "Raises a Yo-kai's SPD with cicada-style ninjutsu.",
+            power: '0'
+        },
+        stats: {
+            hp: '222',
+            str: '104',
+            spr: '74',
+            def: '67',
+            spd: '98'
+        },
+        tribe: 'charming',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'juices',
+        evolution: [
+            {
+                description: 'Evolves from Cadin at Level 21.',
+                yokais: [
+                    {
+                        name: 'Cadin',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cadin.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Singcada',
-        tribe: 'Charming',
+        yokaiNumber: '129',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/singcada.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '128',
-        yokaiNumber3: '216',
-        yokaiFood1: '',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '5040',
-        hp: '1230',
-        spirit: '800',
-        power: '970',
-        speed: '1270',
-        defence: '770'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/singcada.png',
+        description:
+            'His advanced style of "cicada ninjutsu" involves singing as you swing! His battles even attract the occasional music fan!',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
+            'Mystery Way - Crank-a-kai - Mystery Coin',
+            'Blasters - Crank-a-kai - Normal mission - Stone Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Quest - A Cicada Professional',
+            'Quest - A Cicada Professional'
+        ],
+        skill: {
+            name: 'Eyesight A',
+            description: 'Never misses attacks.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Wind Run',
+            description:
+                "Cicada ninjutsu's ultimate technique! Boosts SPD of allies.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Radical Ninjutsu',
+            description:
+                "Raises a Yo-kai's SPD with a branch style of cicada ninjutsu.",
+            power: '0'
+        },
+        stats: {
+            hp: '250',
+            str: '105',
+            spr: '88',
+            def: '63',
+            spd: '112'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'juices'
     },
     {
         name: 'Pupsicle',
-        tribe: 'Charming',
+        yokaiNumber: '130',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pupsicle.png',
-        attribute: 'Ice',
-        rank: 'E',
-        yokaiNumber1: '090',
-        yokaiNumber2: '130',
-        yokaiNumber3: '221',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '3820',
-        hp: '1040',
-        spirit: '600',
-        power: '660',
-        speed: '900',
-        defence: '620'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/pupsicle.png',
+        description:
+            'Pupsicle is always cold. He may be Inspiriting those who wear layers of clothes in summer.',
+        locations: [
+            'Blossom Heights - Hidden Side Street',
+            'Mystery Way - Back Road',
+            'Mystery Way - Back Road'
+        ],
+        skill: {
+            name: 'Penetrate',
+            description: 'Always deals elementaldamage.'
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Icicle Crack',
+            description: 'Drops a number of sharp icicles on his opponents.',
+            power: '55 to 144'
+        },
+        inspirit: {
+            name: 'Chills',
+            description: 'Makes a foe too cold to fight and lowers its STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '174',
+            str: '73',
+            spr: '80',
+            def: '57',
+            spd: '85'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'ramens',
+        evolution: [
+            {
+                description:
+                    'Evolves into Chilhuahua through fusion with a Snowstorm Cloak.',
+                yokais: [
+                    {
+                        name: 'Chilhuahua',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chilhuahua.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Chilhuahua',
-        tribe: 'Charming',
+        yokaiNumber: '131',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chilhuahua.png',
-        attribute: 'Ice',
-        rank: 'A',
-        yokaiNumber1: '091',
-        yokaiNumber2: '131',
-        yokaiNumber3: '222',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '5480',
-        hp: '1220',
-        spirit: '880',
-        power: '1020',
-        speed: '1300',
-        defence: '1060'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/chilhuahua.png',
+        description:
+            'Legends tell of Chilhuahua saving people lost in the snowy mountains. Some consider him a deity.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Penetrate',
+            description: 'Always deals elementaldamage.'
+        },
+        attack: {
+            name: 'Ventilator',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Subzero',
+            description: 'Crushes his foes with an icy blast.',
+            power: '125 to 187'
+        },
+        inspirit: {
+            name: 'Freeze',
+            description: 'Makes a foe shiver and drops its SPD.',
+            power: '0'
+        },
+        stats: {
+            hp: '221',
+            str: '109',
+            spr: '131',
+            def: '89',
+            spd: '106'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'a',
+        favouriteFood: 'ramens',
+        evolution: [
+            {
+                description:
+                    'Evolves from Pupsicle through fusion with a Snowstorm Cloak.',
+                yokais: [
+                    {
+                        name: 'Pupsicle',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pupsicle.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Swelterrier',
-        tribe: 'Charming',
+        yokaiNumber: '132',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/swelterrier.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '092',
-        yokaiNumber2: '132',
-        yokaiNumber3: '',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '5680',
-        hp: '1250',
-        spirit: '920',
-        power: '1070',
-        speed: '1370',
-        defence: '1070'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/swelterrier.png',
+        description:
+            'His fiery heart and body always make him feel too hot. Being near him is like being near a space heater.',
+        locations: [
+            'Terror Time - Crank-a-kai - Gold Oni Orb',
+            'Terror Time - Crank-a-kai - Stone Oni Orb',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Fire Watchout',
+            description: 'Takes less damagefrom Fire attacks.'
+        },
+        attack: {
+            name: 'Ventilator',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Heat Wave',
+            description: 'Overwhelms his foes with a stifling heat.',
+            power: '140 to 210'
+        },
+        inspirit: {
+            name: 'Blazing Heart',
+            description: "Sets an ally's heart ablaze and boosts STR.",
+            power: '0'
+        },
+        stats: {
+            hp: '237',
+            str: '120',
+            spr: '127',
+            def: '98',
+            spd: '115'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Jumbelina',
-        tribe: 'Charming',
+        yokaiNumber: '133',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jumbelina.png',
-        attribute: 'Ice',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '132',
-        yokaiNumber3: '227',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4200',
-        hp: '1130',
-        spirit: '640',
-        power: '710',
-        speed: '970',
-        defence: '750'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/jumbelina.png',
+        description:
+            'Those she Inspirits wind up with their faces rearranged. For some reason, her victims are usually female...',
+        locations: [
+            'Uptown Springdale - Bushes',
+            'Breezy Hills - Gate Room - Traffic-Light Zone',
+            'Breezy Hills - Brushwoods & flowers',
+            'Harrisville - Under porches',
+            'Harrisville - Gravestones',
+            'Harrisville - Under cars',
+            'Sawayama-jo - Area 1 - Brushwoods',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)'
+        ],
+        skill: {
+            name: 'Shuffle',
+            description: 'Shuffles all Yo-kailineups.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Change Face',
+            description:
+                'Rearranges her facial features at top speed to confuse foes.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Funny Face',
+            description:
+                "The Inspirited Yo-kai's face looks so funny, it's always targeted.",
+            power: '0'
+        },
+        stats: {
+            hp: '205',
+            str: '55',
+            spr: '89',
+            def: '70',
+            spd: '103'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'd',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Boyclops',
-        tribe: 'Charming',
+        yokaiNumber: '134',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/boyclops.png',
-        attribute: 'Ice',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '134',
-        yokaiNumber3: '228',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4240',
-        hp: '1090',
-        spirit: '600',
-        power: '790',
-        speed: '1010',
-        defence: '750'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/boyclops.png',
+        description:
+            "Not the most intimidating of Yo-kai, but he saves so much on contact lenses that he doesn't really care.",
+        locations: ['Old Springdale - Well Road', 'Old Springdale - Well Road'],
+        skill: {
+            name: 'Soulful Promise',
+            description: 'Gives a SPD boost to all Fleshy Souls Yo-kai.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Eyelusion',
+            description:
+                'Stares down the enemy, sowing discomfort in their ranks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Eye-Eye',
+            description:
+                "The Inspirited Yo-kai's eyesight gets better, and so does its STR.",
+            power: '0'
+        },
+        stats: {
+            hp: '197',
+            str: '95',
+            spr: '55',
+            def: '77',
+            spd: '101'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'd',
+        favouriteFood: 'odens'
     },
     {
         name: 'Jibanyan',
-        tribe: 'Charming',
+        yokaiNumber: '135',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jibanyan.png',
-        attribute: 'Fire',
-        rank: 'D',
-        yokaiNumber1: '093',
-        yokaiNumber2: '135',
-        yokaiNumber3: '243',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '4360',
-        hp: '1170',
-        spirit: '500',
-        power: '710',
-        speed: '1190',
-        defence: '790'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/jibanyan.png',
+        description:
+            'After being run over by a truck, he Inspirits an intersection and seeks to get his revenge on passing trucks.',
+        locations: ['Story recruit.', 'Story recruit.'],
+        skill: {
+            name: 'Adrenaline',
+            description: 'Power increases eachtime a foe is defeated.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Paws of Fury',
+            description:
+                'Punches all opponents with paws trained on moving vehicles.',
+            power: '20x5'
+        },
+        inspirit: {
+            name: 'Slow Down',
+            description: 'Lowers enemy SPD with a paralyzing seal.',
+            power: '0'
+        },
+        stats: {
+            hp: '208',
+            str: '97',
+            spr: '56',
+            def: '68',
+            spd: '104'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'chocobars',
+        evolution: [
+            {
+                description:
+                    'Evolves into Baddinyan through fusion with Roughraff.',
+                yokais: [
+                    {
+                        name: 'Baddinyan',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/baddinyan.png'
+                    }
+                ]
+            },
+            {
+                description:
+                    'Evolves into Thornyan through fusion with Coughkoff.',
+                yokais: [
+                    {
+                        name: 'Thornyan',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/thornyan.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Thornyan',
-        tribe: 'Charming',
+        yokaiNumber: '136',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/thornyan.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '094',
-        yokaiNumber2: '136',
-        yokaiNumber3: '248',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '4900',
-        hp: '1210',
-        spirit: '680',
-        power: '810',
-        speed: '1310',
-        defence: '890'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/thornyan.png',
+        description:
+            "Jibanyan's proud of his new spiky body. Just don't walk behind him while you're barefoot.",
+        locations: [
+            'Row - Tranquility Apartments',
+            'Row - Tranquility Apartments'
+        ],
+        skill: {
+            name: 'Spiky Guard',
+            description: 'Deals damage back tofoe while guarding.'
+        },
+        attack: {
+            name: 'Ventilator',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Thorny Thwacks',
+            description: 'Grows spikes on his paws and punches all opponents.',
+            power: '23x7'
+        },
+        inspirit: {
+            name: 'Needle Poke',
+            description:
+                'Stabs a foe with tons of needles and steadily lowers its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '224',
+            str: '104',
+            spr: '90',
+            def: '93',
+            spd: '121'
+        },
+        tribe: 'charming',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Baddinyan',
-        tribe: 'Charming',
+        yokaiNumber: '137',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/baddinyan.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '095',
-        yokaiNumber2: '137',
-        yokaiNumber3: '249',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '4920',
-        hp: '1230',
-        spirit: '540',
-        power: '970',
-        speed: '1250',
-        defence: '930'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/baddinyan.png',
+        description:
+            "Jibanyan gone bad. REAL BAD. With an impressive pompadour haircut and classy tails, he's a delinquent with no cause.",
+        locations: [
+            'Row - Tranquility Apartments',
+            'Row - Tranquility Apartments'
+        ],
+        skill: {
+            name: 'Pompadour',
+            description: 'Will dodge enemyheadbutt attacks.'
+        },
+        attack: {
+            name: 'Nasty Kick',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Nyice ta Beatcha',
+            description:
+                'Damages and confuses his enemies with a wave of evil.',
+            power: '130'
+        },
+        inspirit: {
+            name: 'Delinquency',
+            description:
+                "Makes a foe such a delinquent that it'll attack its allies.",
+            power: '0'
+        },
+        stats: {
+            hp: '246',
+            str: '111',
+            spr: '51',
+            def: '105',
+            spd: '119'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Buchinyan',
-        tribe: 'Charming',
+        yokaiNumber: '138',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/buchinyan.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '138',
-        yokaiNumber3: '250',
-        yokaiFood1: '',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5340',
-        hp: '1280',
-        spirit: '800',
-        power: '1020',
-        speed: '1300',
-        defence: '940'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/buchinyan.png',
+        description:
+            'A combination of Jibanyan and Whisper. Despite their obvious differences, it actually works pretty well.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin +',
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin +'
+        ],
+        skill: {
+            name: 'Soft Skin',
+            description: 'Increases own DEF ifdealt critical damage.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Flurry of Furry',
+            description:
+                'A new level of Paws of Fury that deals damage to all foes.',
+            power: '13x10'
+        },
+        inspirit: {
+            name: 'All Shook Up',
+            description:
+                'The Inspirited Yo-kai is befuddled and attacks its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '208',
+            str: '113',
+            spr: '88',
+            def: '62',
+            spd: '119'
+        },
+        tribe: 'charming',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Walkappa',
-        tribe: 'Charming',
+        yokaiNumber: '139',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/walkappa.png',
-        attribute: 'Water',
-        rank: 'D',
-        yokaiNumber1: '096',
-        yokaiNumber2: '139',
-        yokaiNumber3: '240',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4300',
-        hp: '1150',
-        spirit: '660',
-        power: '750',
-        speed: '1030',
-        defence: '710'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/walkappa.png',
+        description:
+            'Most kappas stay in the water, but this one likes to walk around. He pours water on his head to make up for this.',
+        locations: [
+            'Uptown Springdale - Rivers',
+            'Fleshy Souls Way - Entrance',
+            'Fleshy Souls Way - Entrance'
+        ],
+        skill: {
+            name: 'Skilled Loafer',
+            description: 'Will recover a little HPwhen Loafing around.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Mega Waterfall',
+            description: 'Summons a huge waterfall directly above his enemies.',
+            power: '80'
+        },
+        inspirit: {
+            name: 'Nap Time',
+            description:
+                'Walkappa makes an enemy quick to nap... just like him!',
+            power: '0'
+        },
+        stats: {
+            hp: '197',
+            str: '62',
+            spr: '99',
+            def: '68',
+            spd: '95'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'd',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Appak',
-        tribe: 'Charming',
+        yokaiNumber: '140',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/appak.png',
-        attribute: 'Water',
-        rank: 'A',
-        yokaiNumber1: '097',
-        yokaiNumber2: '140',
-        yokaiNumber3: '241',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '5060',
-        hp: '1280',
-        spirit: '700',
-        power: '1060',
-        speed: '1160',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/appak.png',
+        description:
+            'Appak can cut just about anything with his water sword. He wanders the world in order to heighten his skills.',
+        locations: [
+            'Evolve Walkappa at Level 32.',
+            'Evolve Walkappa at Level 32.'
+        ],
+        skill: {
+            name: "Fill 'Er Up",
+            description: 'Blocks damage from allWater skill attacks.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Torrent Slash',
+            description:
+                'Puts all his spirit into his water blade to cut his enemies.',
+            power: '130 to 195'
+        },
+        inspirit: {
+            name: 'Torrent Power',
+            description: "Improves an ally's concentration as well as SPR!",
+            power: '0'
+        },
+        stats: {
+            hp: '237',
+            str: '110',
+            spr: '113',
+            def: '75',
+            spd: '101'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Supyo',
-        tribe: 'Charming',
+        yokaiNumber: '141',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/supyo.png',
-        attribute: 'Water',
-        rank: 'A',
-        yokaiNumber1: '098',
-        yokaiNumber2: '141',
-        yokaiNumber3: '242',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '5160',
-        hp: '1300',
-        spirit: '840',
-        power: '980',
-        speed: '1180',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/supyo.png',
+        description:
+            "Whereas most kappas stick to rivers, this one likes to surf...and pick up girls while he's at it.",
+        locations: [
+            'San Fantastico - Sea',
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
+            'Terror Time - Crank-a-kai - Gold Oni Orb',
+            'Terror Time - Crank-a-kai - Stone Oni Orb',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
+            'Evolve D\u2019wanna at Level 15.',
+            'Quest - The Realest Kappa',
+            'Quest - The Realest Kappa'
+        ],
+        skill: {
+            name: 'Penetrate',
+            description: 'Always deals elementaldamage.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Bodacious Slash',
+            description:
+                'Puts all his spirit into his water blade to cut his enemies.',
+            power: '135 to 202'
+        },
+        inspirit: {
+            name: 'Surf Power',
+            description:
+                "Makes an ally move so fast, you'd think it was surfing.",
+            power: '0'
+        },
+        stats: {
+            hp: '245',
+            str: '109',
+            spr: '124',
+            def: '85',
+            spd: '103'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Komasan',
-        tribe: 'Charming',
+        yokaiNumber: '142',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komasan.png',
-        attribute: 'Fire',
-        rank: 'D',
-        yokaiNumber1: '099',
-        yokaiNumber2: '142',
-        yokaiNumber3: '251',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Soft Creams',
-        baseStats: '4320',
-        hp: '1130',
-        spirit: '660',
-        power: '750',
-        speed: '1030',
-        defence: '750'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/komasan.png',
+        description:
+            "Komasan is a guardian lion-dog who got bored with guarding his shrine. Now he's looking for a new one.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin +',
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin +'
+        ],
+        skill: {
+            name: 'Alpha',
+            description: 'With an adjacent OmegaYo-kai, SPR increases.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Spirit Dance',
+            description: "Summons will-o'-the- wisps to damage his enemies.",
+            power: '100'
+        },
+        inspirit: {
+            name: 'Burn',
+            description:
+                'Burns a foe with raging fire and steadily drains its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '203',
+            str: '65',
+            spr: '105',
+            def: '72',
+            spd: '94'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'milks'
     },
     {
         name: 'Komane',
-        tribe: 'Charming',
+        yokaiNumber: '143',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komane.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '100',
-        yokaiNumber2: '143',
-        yokaiNumber3: '252',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Soft Creams',
-        baseStats: '5020',
-        hp: '1240',
-        spirit: '820',
-        power: '860',
-        speed: '1240',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/komane.png',
+        description:
+            "Komasan's travels made him grow up into a brave and dependable Yo-kai. He's strong too!",
+        locations: [
+            'Evolve Komasan at Level 35.',
+            'Evolve Komasan at Level 35.'
+        ],
+        skill: {
+            name: 'Alpha',
+            description: 'With an adjacent OmegaYo-kai, SPR increases.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Spirit Burst',
+            description:
+                "Will-o'-the-wisps fly from his body to burn his foes.",
+            power: '140 to 210'
+        },
+        inspirit: {
+            name: 'Burn',
+            description:
+                'Burns a foe with raging fire and steadily decreases its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '248',
+            str: '87',
+            spr: '124',
+            def: '90',
+            spd: '114'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'milks'
     },
     {
         name: 'Komajiro',
-        tribe: 'Charming',
+        yokaiNumber: '144',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komajiro.png',
-        attribute: 'Lightning',
-        rank: 'D',
-        yokaiNumber1: '101',
-        yokaiNumber2: '144',
-        yokaiNumber3: '257',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '5020',
-        hp: '1240',
-        spirit: '820',
-        power: '860',
-        speed: '1240',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/komajiro.png',
+        description:
+            "Komajiro is Komasan's younger, more streetwise twin. But he'll always look up to his bumpkin big bro.",
+        locations: [
+            'Blossom Heights - Under cars & Distributors',
+            'Bony Spirits - Gogo Junction',
+            'Bony Spirits - Gogo Junction'
+        ],
+        skill: {
+            name: 'Omega',
+            description: 'With an adjacent AlphaYo-kai, STR increases.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Wild Zaps',
+            description: 'Calls down lightning upon his opponents.',
+            power: '85'
+        },
+        inspirit: {
+            name: 'Tiger Power',
+            description: "Raises an ally's SPD to match that of a tiger.",
+            power: '0'
+        },
+        stats: {
+            hp: '178',
+            str: '79',
+            spr: '82',
+            def: '77',
+            spd: '96'
+        },
+        tribe: 'charming',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'milks'
     },
     {
         name: 'Komiger',
-        tribe: 'Charming',
+        yokaiNumber: '145',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komiger.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '102',
-        yokaiNumber2: '145',
-        yokaiNumber3: '258',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '5020',
-        hp: '1240',
-        spirit: '820',
-        power: '860',
-        speed: '1240',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/komiger.png',
+        description:
+            "Komajiro's pursuit of his brother brought out his ferocious tiger spirit. He even has stripes!",
+        locations: [
+            'Evolve Komajiro at Level 35.',
+            ' Yo-kai Spot - Heavyweight Boxing Ghost',
+            ' Yo-kai Spot - Heavyweight Boxing Ghost'
+        ],
+        skill: {
+            name: 'Omega',
+            description: 'With an adjacent AlphaYo-kai, STR increases.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Crazy Lightning',
+            description:
+                'Calls down strong lightning bolts upon his unfortunate enemies.',
+            power: '120 to 180'
+        },
+        inspirit: {
+            name: 'Tiger Power',
+            description:
+                "Raises an ally's SPD significantly to match that of a tiger.",
+            power: '0'
+        },
+        stats: {
+            hp: '228',
+            str: '111',
+            spr: '107',
+            def: '95',
+            spd: '102'
+        },
+        tribe: 'charming',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'milks'
     },
     {
         name: 'Baku',
-        tribe: 'Charming',
+        yokaiNumber: '146',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/baku.png',
-        attribute: 'Drain',
-        rank: 'D',
-        yokaiNumber1: '103',
-        yokaiNumber2: '146',
-        yokaiNumber3: '233',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4420',
-        hp: '1110',
-        spirit: '760',
-        power: '750',
-        speed: '1050',
-        defence: '750'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/baku.png',
+        description:
+            'A Yo-kai that eats only human dreams. It puts people to sleep before digging in. Beaux r\u00eaves!',
+        locations: [
+            'Yo-kai World - Liar Mountain',
+            'Sawayama-jo - Area 2',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
+            'Story recruit.',
+            'Story recruit.'
+        ],
+        skill: {
+            name: 'Grip on You',
+            description: 'Amount of absorbed HPincreased.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Sleepy Smoke',
+            description:
+                'Sprays smoke from his nose and puts his foes to sleep.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Bedtime',
+            description:
+                'Hits Yo-kai with a heavy drowsiness...and makes them very...sleepy...',
+            power: '0'
+        },
+        stats: {
+            hp: '196',
+            str: '65',
+            spr: '94',
+            def: '75',
+            spd: '90'
+        },
+        tribe: 'charming',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'juices'
     },
     {
         name: 'Bakulia',
-        tribe: 'Charming',
+        yokaiNumber: '147',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bakulia.png',
-        attribute: 'Drain',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '147',
-        yokaiNumber3: '233',
-        yokaiFood1: '',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '5080',
-        hp: '1230',
-        spirit: '800',
-        power: '930',
-        speed: '1190',
-        defence: '930'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/bakulia.png',
+        description:
+            "Has the ability to enter people's dreams and find out what they're feeling\u2014 and can take others along for the ride.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
+            'Evolve Baku at Level 29.',
+            'Evolve Baku at Level 29.'
+        ],
+        skill: {
+            name: 'Grip on You',
+            description: 'Amount of absorbed HPincreased.'
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Sleepy Gas',
+            description:
+                'Emits sleeping gas from her nostrils, flooring all foes.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Bedtime',
+            description:
+                "Makes a foe so deeply sleepy that it'll even sleep in battle!",
+            power: '0'
+        },
+        stats: {
+            hp: '233',
+            str: '78',
+            spr: '108',
+            def: '93',
+            spd: '110'
+        },
+        tribe: 'charming',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'juices'
     },
     {
         name: 'Whapir',
-        tribe: 'Charming',
+        yokaiNumber: '148',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whapir.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '104',
-        yokaiNumber2: '148',
-        yokaiNumber3: '234',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4760',
-        hp: '1120',
-        spirit: '800',
-        power: '840',
-        speed: '1120',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/whapir.png',
+        description:
+            "A rare white Baku. Legends say that if a Whapir Inspirits you, you're guaranteed to have good dreams. ",
+        locations: [
+            'San Fantastico - Garbages',
+            'San Fantastico - Empty flats',
+            'San Fantastico - Under cars',
+            'San Fantastico - Hidden Workshop - Garbages',
+            'San Fantastico - Hidden Workshop - Empty Flats',
+            'San Fantastico - Hidden Workshop - Empty Flats'
+        ],
+        skill: {
+            name: 'Good Fortune',
+            description: 'Will increase money atthe end of a battle.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Daydream',
+            description: 'Heals the heart and HP of allies with happy dreams.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Sweet Dreams',
+            description:
+                "Gradually restores an ally's HP with the power of dreams.",
+            power: '0'
+        },
+        stats: {
+            hp: '191',
+            str: '83',
+            spr: '111',
+            def: '82',
+            spd: '110'
+        },
+        tribe: 'charming',
+        element: 'drain',
+        weakness: 'water',
+        rank: 'c',
+        favouriteFood: 'juices'
     },
     {
         name: 'Drizzelda',
-        tribe: 'Charming',
+        yokaiNumber: '149',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/drizzelda.png',
-        attribute: 'Water',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '148',
-        yokaiNumber3: '234',
-        yokaiFood1: '',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4330',
-        hp: '1170',
-        spirit: '720',
-        power: '720',
-        speed: '1000',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/drizzelda.png',
+        description:
+            "This Yo-kai is a serious downer. Don't invite her to outdoor events, as she's bound to make it rain.",
+        locations: [
+            'Mt. Wildwood - Brushwoods',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)'
+        ],
+        skill: {
+            name: 'Downpour',
+            description: 'All Yo-kai receive moreWater damage.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Drenched',
+            description:
+                'A deluge of deeply depressing rain does damage to all foes.',
+            power: '80 to 176'
+        },
+        inspirit: {
+            name: 'Storm Drain',
+            description:
+                'The Inspirited Yo-kai gets soaking wet and loses a lot of DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '210',
+            str: '41',
+            spr: '114',
+            def: '83',
+            spd: '109'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'juices'
     },
     {
         name: 'Nekidspeed',
-        tribe: 'Charming',
+        yokaiNumber: '150',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nekidspeed.png',
-        attribute: 'Ice',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '150',
-        yokaiNumber3: '261',
-        yokaiFood1: '',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Juices',
-        baseStats: '4330',
-        hp: '1170',
-        spirit: '720',
-        power: '720',
-        speed: '1000',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/nekidspeed.png',
+        description:
+            'Anyone Inspirited by this Yo-kai will race around at top speed. Useful for that big track meet.',
+        locations: [
+            'Breezy Hills - Under cars & Garbages',
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb',
+            ' Yo-kai Spot - Nuisance Vehicle Complaints',
+            ' Yo-kai Spot - Nuisance Vehicle Complaints'
+        ],
+        skill: {
+            name: 'Step Up',
+            description: 'Gets one preemptiveattack.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Flying Start',
+            description:
+                'Comes flying out of the blocks with a huge SPD boost.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Hot Stepper',
+            description:
+                'The Inspirited Yo-kai gets a strong SPD boost via Nekidspeed.',
+            power: '0'
+        },
+        stats: {
+            hp: '219',
+            str: '100',
+            spr: '60',
+            def: '50',
+            spd: '140'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'c',
+        favouriteFood: 'curries'
     },
     {
         name: 'Shmoopie',
-        tribe: 'Charming',
+        yokaiNumber: '151',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shmoopie.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '105',
-        yokaiNumber2: '151',
-        yokaiNumber3: '266',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4480',
-        hp: '1160',
-        spirit: '760',
-        power: '760',
-        speed: '1040',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/shmoopie.png',
+        description:
+            "This Yo-kai is cute enough to melt anyone's heart...and he knows it!  He can be quite the schemer, so look out!",
+        locations: [
+            'Downtown Springdale - Under cars, Distributors, Garbages & Dumps',
+            'Gera Gera Land',
+            'Divine Paradise - 5F',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)'
+        ],
+        skill: {
+            name: 'Popularity',
+            description: 'Makes more foesbefriend you.'
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Heartstring Tug',
+            description:
+                "He's oh-so cute! The hearts of his allies skip a beat and recover HP.",
+            power: '90'
+        },
+        inspirit: {
+            name: 'Skip a Beat',
+            description:
+                "Makes an ally's heart skip a beat. Steadily recovers HP.",
+            power: '0'
+        },
+        stats: {
+            hp: '221',
+            str: '66',
+            spr: '103',
+            def: '68',
+            spd: '97'
+        },
+        tribe: 'charming',
+        element: 'restoration',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Pinkipoo',
-        tribe: 'Charming',
+        yokaiNumber: '152',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pinkipoo.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '106',
-        yokaiNumber2: '152',
-        yokaiNumber3: '267',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '5080',
-        hp: '1230',
-        spirit: '800',
-        power: '930',
-        speed: '1190',
-        defence: '930'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/pinkipoo.png',
+        description:
+            'Known as the Aristocrat of Love, Pinkipoo uses his overpowering cuteness to win over new followers.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
+            'Terror Time - Crank-a-kai - Red Oni Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Popularity',
+            description: 'Makes more foesbefriend you.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Heartmelt Love',
+            description:
+                "He's so adorable! The hearts of his allies skip a beat and recover HP.",
+            power: '120 to 180'
+        },
+        inspirit: {
+            name: 'Skip a Beat',
+            description:
+                "Makes an ally's heart skip a beat. Steadily recovers HP.",
+            power: '0'
+        },
+        stats: {
+            hp: '238',
+            str: '81',
+            spr: '121',
+            def: '73',
+            spd: '111'
+        },
+        tribe: 'charming',
+        element: 'restoration',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Pookivil',
-        tribe: 'Charming',
+        yokaiNumber: '153',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pookivil.png',
-        attribute: 'Drain',
-        rank: 'A',
-        yokaiNumber1: '107',
-        yokaiNumber2: '153',
-        yokaiNumber3: '268',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '88',
-        hp: '46',
-        spirit: '10',
-        power: '11',
-        speed: '12',
-        defence: '9'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/pookivil.png',
+        description:
+            "This Yo-kai will make even nice people into scheming manipulators. An embodiment of Pinkipoo's bad side.",
+        locations: [
+            'Divine Paradise - 5F',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Kai Mystery Coin',
+            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
+            'Terror Time - Crank-a-kai - Gold Oni Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Unpopularity',
+            description: 'Makes foes less likelyto become your friend.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Twisted Love',
+            description:
+                'Heals the hearts of his allies and restores HP) when he acts cute.',
+            power: '140 to 210'
+        },
+        inspirit: {
+            name: 'Trickery',
+            description:
+                'Passes his wickedness on to a foe, who will attack its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '247',
+            str: '113',
+            spr: '93',
+            def: '89',
+            spd: '118'
+        },
+        tribe: 'charming',
+        element: 'drain',
+        weakness: 'lightning',
+        rank: 'a',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Harry Barry',
-        tribe: 'Charming',
+        yokaiNumber: '154',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/harry_barry.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '154',
-        yokaiNumber3: '269',
-        yokaiFood1: '',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '88',
-        hp: '46',
-        spirit: '10',
-        power: '11',
-        speed: '12',
-        defence: '9'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/harry_barry.png',
+        description:
+            'This village mascot works night and day to come up with ways of making his hometown more popular.',
+        locations: ['Quest - Your Local Mascot', 'Quest - Your Local Mascot'],
+        skill: {
+            name: 'Bear Care',
+            description: 'Can recover once whenlow on HP.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Bear Knuckle',
+            description:
+                'Bolstered by hearty Harrisville vegetables, he hits a single foe.',
+            power: '170 to 255'
+        },
+        inspirit: {
+            name: 'Rustic Charm',
+            description:
+                'The Inspirited Yo-kai is charmed by rural life. All stats boosted.',
+            power: '0'
+        },
+        stats: {
+            hp: '227',
+            str: '124',
+            spr: '95',
+            def: '109',
+            spd: '85'
+        },
+        tribe: 'charming',
+        element: 'restoration',
+        weakness: 'nothing',
+        rank: 'b',
+        favouriteFood: 'meats'
     },
     {
         name: 'Frostina',
-        tribe: 'Charming',
+        yokaiNumber: '155',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/frostina.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '108',
-        yokaiNumber2: '155',
-        yokaiNumber3: '275',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4980',
-        hp: '1210',
-        spirit: '880',
-        power: '810',
-        speed: '1230',
-        defence: '850'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/frostina.png',
+        description:
+            'Frostina has the power to freeze anything, but that keeps her pretty chilly\u2014 that and bad circulation.',
+        locations: [
+            'Uptown Springdale - Trees',
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Blasters - Crank-a-kai - Normal mission - Stone Orb',
+            'Blasters - Crank-a-kai - Normal mission - Stone Orb'
+        ],
+        skill: {
+            name: 'Snow Play',
+            description: 'Increases damage ofown Ice attacks.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Snow Sherbet',
+            description:
+                'Bombards opponents with a barrage of freezing icicles.',
+            power: '65 to 170'
+        },
+        inspirit: {
+            name: 'Numbify',
+            description: 'Numbs a foe with sheer cold and lowers its STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '225',
+            str: '73',
+            spr: '114',
+            def: '78',
+            spd: '106'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'candy'
     },
     {
         name: 'Blizzaria',
-        tribe: 'Charming',
+        yokaiNumber: '156',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blizzaria.png',
-        attribute: 'Ice',
-        rank: 'S',
-        yokaiNumber1: '109',
-        yokaiNumber2: '156',
-        yokaiNumber3: '276 (Normal)\\686 (Blizzie)',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '5450',
-        hp: '1290',
-        spirit: '960',
-        power: '880',
-        speed: '1370',
-        defence: '950'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/blizzaria.png',
+        description:
+            'Now she can fully control her chilling power. Blizzaria can make snow fall in summer and freeze volcanoes.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Snow Play',
+            description: 'Increases damage ofown Ice attacks.'
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Shiny Snowdrifts',
+            description: 'Blasts her opponents with a sparkling ice formation.',
+            power: '180'
+        },
+        inspirit: {
+            name: 'Numbify',
+            description: 'Numbs a foe with sheer cold and lowers its STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '244',
+            str: '81',
+            spr: '138',
+            def: '93',
+            spd: '126'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 's',
+        favouriteFood: 'candy'
     },
     {
         name: 'Damona',
-        tribe: 'Charming',
+        yokaiNumber: '157',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/damona.png',
-        attribute: 'Ice',
-        rank: 'S',
-        yokaiNumber1: '110',
-        yokaiNumber2: '157',
-        yokaiNumber3: '277',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '5400',
-        hp: '1290',
-        spirit: '920',
-        power: '990',
-        speed: '1210',
-        defence: '990'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/damona.png',
+        description:
+            'The princess of a small netherworld region. Her power is immense, but she lacks the power to feel any emotion.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Cursed Skin',
+            description: 'All stats will increasewhen Inspirited by foe.'
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: '\u2606Shiny Chaos',
+            description:
+                'Damages her foes and lowers their stats with a dark power.',
+            power: '140'
+        },
+        inspirit: {
+            name: 'Curse of Darkness',
+            description:
+                "Drops a foe's SPR with the terrifying curse of darkness.",
+            power: '0'
+        },
+        stats: {
+            hp: '254',
+            str: '116',
+            spr: '132',
+            def: '99',
+            spd: '105'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 's',
+        favouriteFood: 'candy'
     },
     {
         name: 'Faux Kappa',
-        tribe: 'Charming',
+        yokaiNumber: '158',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/faux_kappa.png',
-        attribute: 'Water',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '158',
-        yokaiNumber3: '301',
-        yokaiFood1: '',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5160',
-        hp: '1260',
-        spirit: '800',
-        power: '940',
-        speed: '1260',
-        defence: '900'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/faux_kappa.png',
+        description:
+            "Now THIS is a Yo-kai! There's a possibility that he's related to Walkappa!",
+        locations: [
+            'Old Springdale - Rivers',
+            'Sawayama-jo - Area 2 - Rivers',
+            'Story recruit.',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Intimidation',
+            description: 'No Yo-kai will Loafaround.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Mega Wave',
+            description:
+                "Harnesses the power of a river's flow to do damage to a foe.",
+            power: '170 to 255'
+        },
+        inspirit: {
+            name: 'Kappa Quick',
+            description:
+                'The Inspirited Yo-kai gets a SPD boost thanks to Faux Kappa.',
+            power: '0'
+        },
+        stats: {
+            hp: '232',
+            str: '105',
+            spr: '113',
+            def: '79',
+            spd: '119'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'a',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Tigappa',
-        tribe: 'Charming',
+        yokaiNumber: '159',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tigappa.png',
-        attribute: 'Water',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '159',
-        yokaiNumber3: '302',
-        yokaiFood1: '',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '5780',
-        hp: '1270',
-        spirit: '920',
-        power: '1070',
-        speed: '1410',
-        defence: '1110'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tigappa.png',
+        description:
+            "Although he's well  respected in Springdale, this exotic kappa can't help getting homesick sometimes.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Sum Mystery Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Intimidation',
+            description: 'No Yo-kai will Loafaround.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Raging River',
+            description:
+                "Harnesses the power of a river's flow to do damage to a foe.",
+            power: '200 to 300'
+        },
+        inspirit: {
+            name: 'Kappa Quick',
+            description:
+                'The Inspirited Yo-kai gets a SPD boost thanks to Tigappa.',
+            power: '0'
+        },
+        stats: {
+            hp: '244',
+            str: '122',
+            spr: '126',
+            def: '79',
+            spd: '143'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Master Nyada',
-        tribe: 'Charming',
+        yokaiNumber: '160',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/master_nyada.png',
-        attribute: 'Wind',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '160',
-        yokaiNumber3: '303',
-        yokaiFood1: '',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '5780',
-        hp: '1270',
-        spirit: '920',
-        power: '1070',
-        speed: '1410',
-        defence: '1110'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/master_nyada.png',
+        description:
+            'A battle-hardened Yo-kai who channels an energy known as "The Faucet" via his mastery of a mystical conduit. No pushover.',
+        locations: ["Quest - Nyada's Trials", "Quest - Nyada's Trials"],
+        skill: {
+            name: 'Use the Hose',
+            description: 'Dodges and returnsevery enemy attack.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'The Hose',
+            description:
+                'Infinite Hose energy flows from his palms, damaging all enemies.',
+            power: '210'
+        },
+        inspirit: {
+            name: 'Hose Be with You',
+            description:
+                "The Inspirited Yo-kai's stats get boosted by Hose power.",
+            power: '0'
+        },
+        stats: {
+            hp: '249',
+            str: '92',
+            spr: '150',
+            def: '108',
+            spd: '129'
+        },
+        tribe: 'charming',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 's',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Wantston',
-        tribe: 'Heartful',
+        yokaiNumber: '161',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wantston.png',
-        attribute: 'Lightning',
-        rank: 'E',
-        yokaiNumber1: '114',
-        yokaiNumber2: '161',
-        yokaiNumber3: '309',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Seafoods',
-        baseStats: '4240',
-        hp: '1540',
-        spirit: '740',
-        power: '620',
-        speed: '740',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wantston.png',
+        description:
+            "Wantston wants everything others have, but he won't even try to acquire what he envies. So no worries.",
+        locations: [
+            'Downtown Springdale - Delivery Bay',
+            'Gold-Gleaming Hwy. - Westbound',
+            'Gold-Gleaming Hwy. - Westbound'
+        ],
+        skill: {
+            name: 'Greed',
+            description: 'Foe will be more proneto drop items.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Envious Hand',
+            description:
+                'Grows a hand from his mouth and gives enemy HP to his allies.',
+            power: '45 to 117'
+        },
+        inspirit: {
+            name: 'Envy',
+            description:
+                'The Inspirited Yo-kai attacks allies out of jealousy.',
+            power: '0'
+        },
+        stats: {
+            hp: '180',
+            str: '80',
+            spr: '72',
+            def: '61',
+            spd: '85'
+        },
+        tribe: 'heartful',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'e',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Grubsnitch',
-        tribe: 'Heartful',
+        yokaiNumber: '162',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grubsnitch.png',
-        attribute: 'Earth',
-        rank: 'D',
-        yokaiNumber1: '115',
-        yokaiNumber2: '162',
-        yokaiNumber3: '310',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '4420',
-        hp: '1590',
-        spirit: '790',
-        power: '650',
-        speed: '830',
-        defence: '560'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/grubsnitch.png',
+        description:
+            "If you can't stop snacking before dinner, Grubsnitch is probably nearby.",
+        locations: [
+            'Blossom Heights - Bamboo groves',
+            "Shopper's Row - Brushwoods & flowers",
+            'Old Springdale - Under porches',
+            'Old Springdale - Gravestones',
+            'Old Springdale - Bamboo Groves',
+            'Sawayama-jo - Area 2 - Under porches',
+            'Mystery Way - Route 5',
+            'Mystery Way - Route 5'
+        ],
+        skill: {
+            name: 'Snitch',
+            description: "Absorbs foe's HP withregular attacks."
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Grub Stealer',
+            description:
+                'Grows a hand from his mouth and gives enemy HP to his allies.',
+            power: '50 to 131'
+        },
+        inspirit: {
+            name: 'Gluttony',
+            description:
+                "Gradually decreases a foe's HP with a strong stomachache. ",
+            power: '0'
+        },
+        stats: {
+            hp: '205',
+            str: '91',
+            spr: '74',
+            def: '63',
+            spd: '89'
+        },
+        tribe: 'heartful',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Wiglin',
-        tribe: 'Heartful',
+        yokaiNumber: '163',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wiglin.png',
-        attribute: 'Restoration',
-        rank: 'E',
-        yokaiNumber1: '111',
-        yokaiNumber2: '163',
-        yokaiNumber3: '311',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '3860',
-        hp: '1520',
-        spirit: '700',
-        power: '500',
-        speed: '620',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wiglin.png',
+        description:
+            "A seaweed Yo-kai who wants to spread his hometown dance to the world. And he's very healthy too!",
+        locations: [
+            "Shopper's Row - Shopping Street Narrows",
+            "Shopper's Row - Rivers",
+            "Shopper's Row - Shopping Street Narrows - Garbages & Dumps",
+            'San Fantastico - Seaside Cave',
+            'San Fantastico - Hidden Workshop',
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Blasters - Crank-a-kai - Normal mission - Red Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Wavy Body',
+            description: "Dodges attacks likeyou wouldn't believe!"
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Wiggling Wave',
+            description:
+                'Raises the cheer and DEF of all allies with a catchy tune.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Healthy Wakame',
+            description: "Uses seaweed to raise an ally's STR.",
+            power: '0'
+        },
+        stats: {
+            hp: '189',
+            str: '88',
+            spr: '65',
+            def: '73',
+            spd: '69'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'lightning',
+        rank: 'e',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Kelpacabana',
-        tribe: 'Heartful',
+        yokaiNumber: '164',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kelpacabana.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '164',
-        yokaiNumber3: '312',
-        yokaiFood1: '',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '4710',
-        hp: '1590',
-        spirit: '880',
-        power: '640',
-        speed: '880',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kelpacabana.png',
+        description:
+            'The biggest star the world of seaweed has ever seen! He dances for screaming fans wherever he goes.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Evolve Wiglin at Level 17.',
+            'Evolve Wiglin at Level 17.'
+        ],
+        skill: {
+            name: 'Seaweed Samba',
+            description: "Boosts all adjacentYo-kai's STR."
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Seaweed Carnival',
+            description: "An elaborate dance steadily restores all allies' HP.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Dance Party',
+            description:
+                "The Inspirited Yo-kai's stats get boosted due to a samba beat.",
+            power: '0'
+        },
+        stats: {
+            hp: '199',
+            str: '97',
+            spr: '101',
+            def: '77',
+            spd: '107'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Steppa',
-        tribe: 'Heartful',
+        yokaiNumber: '165',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/steppa.png',
-        attribute: 'Restoration',
-        rank: 'E',
-        yokaiNumber1: '112',
-        yokaiNumber2: '165',
-        yokaiNumber3: '313',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '3860',
-        hp: '1520',
-        spirit: '700',
-        power: '420',
-        speed: '660',
-        defence: '560'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/steppa.png',
+        description:
+            "Steppa is one of Wiglin's rivals. He believes that kombu is the best kind of seaweed...if there is such a thing.",
+        locations: [
+            "Shopper's Row - Shopping Street Narrows",
+            "Shopper's Row - Rivers",
+            "Shopper's Row - Shopping Street Narrows - Garbages & Dumps",
+            'San Fantastico - Seaside Cave',
+            'San Fantastico - Hidden Workshop',
+            'Gera Gera Land',
+            'Gera Gera Land'
+        ],
+        skill: {
+            name: 'Wavy Body',
+            description: "Dodges attacks likeyou wouldn't believe!"
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Mambo Madness',
+            description: 'Dances a mambo to get his allies moving faster.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Kombu Energy',
+            description: "Uses the power of seaweed to raise an ally's DEF.",
+            power: '0'
+        },
+        stats: {
+            hp: '185',
+            str: '64',
+            spr: '76',
+            def: '83',
+            spd: '78'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Rhyth',
-        tribe: 'Heartful',
+        yokaiNumber: '166',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhyth.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '113',
-        yokaiNumber2: '166',
-        yokaiNumber3: '314',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '4320',
-        hp: '1570',
-        spirit: '770',
-        power: '450',
-        speed: '890',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rhyth.png',
+        description:
+            "The one female of the seaweed trio. Wiglin and Steppa both really like her, but she doesn't seem to notice.",
+        locations: [
+            "Shopper's Row - Rivers",
+            'San Fantastico - Seaside Cave',
+            'San Fantastico - Hidden Workshop',
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Blasters - Crank-a-kai - Normal mission - Red Orb',
+            'Blasters - Crank-a-kai - Normal mission - Red Orb'
+        ],
+        skill: {
+            name: 'Wavy Body',
+            description: "Dodges attacks likeyou wouldn't believe!"
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Seaweed Samba',
+            description:
+                'Dances a samba that gradually restores HP of her allies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Slippery Mekabu',
+            description:
+                "The Inspirited Yo-kai's SPD increases thanks to a gooey additive.",
+            power: '0'
+        },
+        stats: {
+            hp: '172',
+            str: '62',
+            spr: '96',
+            def: '70',
+            spd: '110'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Hungramps',
-        tribe: 'Heartful',
+        yokaiNumber: '167',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hungramps.png',
-        attribute: 'Restoration',
-        rank: 'E',
-        yokaiNumber1: '116',
-        yokaiNumber2: '167',
-        yokaiNumber3: '316',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4060',
-        hp: '1520',
-        spirit: '720',
-        power: '540',
-        speed: '680',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hungramps.png',
+        description:
+            "A Yo-kai who is always hungry and can make others' tummies rumble. ...That's really about the only thing he can do. ",
+        locations: [
+            'Downtown Springdale - Brushwoods & Flowers',
+            'Downtown Springdale - Rivers & Sea',
+            'Downtown Springdale - Behind Frostina, Delivery Bay & Academy Shortcut - Garbages & Dumps',
+            'Story recruit.',
+            'Story recruit.'
+        ],
+        skill: {
+            name: 'Starver',
+            description: 'Increases the effect offood on allies.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Hungry Impact',
+            description:
+                'Restores HP for allies with a wealth of heavenly rice balls.',
+            power: '50 to 131'
+        },
+        inspirit: {
+            name: 'Starve',
+            description: 'Makes a foe hungry and decreases its STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '193',
+            str: '53',
+            spr: '83',
+            def: '67',
+            spd: '89'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Hungorge',
-        tribe: 'Heartful',
+        yokaiNumber: '168',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hungorge.png',
-        attribute: 'Drain',
-        rank: 'B',
-        yokaiNumber1: '117',
-        yokaiNumber2: '168',
-        yokaiNumber3: '317',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4640',
-        hp: '1650',
-        spirit: '930',
-        power: '510',
-        speed: '830',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hungorge.png',
+        description:
+            "A terribly gluttonous Yo-kai that'll eat anything in front of him. His mouth is like a black hole\u2014even rice can't escape it.",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Starver',
+            description: 'Increases the effect offood on allies.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Gleeful Gluttony',
+            description:
+                'Heals allies with rice balls summoned by the power of gluttony.',
+            power: '90 to 198'
+        },
+        inspirit: {
+            name: 'Starve',
+            description:
+                "Makes a foe's food unfilling and lowers its STR significantly.",
+            power: '0'
+        },
+        stats: {
+            hp: '239',
+            str: '87',
+            spr: '117',
+            def: '85',
+            spd: '99'
+        },
+        tribe: 'heartful',
+        element: 'drain',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Grainpa',
-        tribe: 'Heartful',
+        yokaiNumber: '169',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grainpa.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '118',
-        yokaiNumber2: '169',
-        yokaiNumber3: '318',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4840',
-        hp: '1670',
-        spirit: '910',
-        power: '630',
-        speed: '870',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/grainpa.png',
+        description:
+            "A rare Hungramps with a body made of rice. He's so kind, he'll let a hungry person eat part of his body if necessary. ",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Terror Time - Crank-a-kai - Gold Oni Orb',
+            'Terror Time - Crank-a-kai - Stone Oni Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Stone Orb'
+        ],
+        skill: {
+            name: 'Blessed Body',
+            description: 'When defeated, Yo-kaiin the front recover HP.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Fresh Impact',
+            description:
+                'Restores HP for allies with a wealth of fresh rice balls.',
+            power: '150'
+        },
+        inspirit: {
+            name: "Rice's Kindness",
+            description:
+                "Gradually restores an ally's HP with delicious, delectable rice!",
+            power: '0'
+        },
+        stats: {
+            hp: '230',
+            str: '115',
+            spr: '99',
+            def: '82',
+            spd: '100'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Tongus',
-        tribe: 'Heartful',
+        yokaiNumber: '170',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tongus.png',
-        attribute: 'Restoration',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '170',
-        yokaiNumber3: '320',
-        yokaiFood1: '',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '3960',
-        hp: '1540',
-        spirit: '780',
-        power: '420',
-        speed: '740',
-        defence: '480'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tongus.png',
+        description:
+            'Her healing tongue can cure any wound and even serve to strengthen the bonds between people!',
+        locations: [
+            'Yo-kai World - Liar Mountain',
+            'Sawayama-jo - Area 2 - Under porches',
+            'Story recruit.',
+            'Story recruit.'
+        ],
+        skill: {
+            name: 'Lick It Clean',
+            description: 'Yo-kai gets purifiedwhen healing allies.'
+        },
+        attack: {
+            name: 'Slurp',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Lick of Love',
+            description:
+                'All allies are licked from head to toe, and their HP is restored.',
+            power: '50 to 131'
+        },
+        inspirit: {
+            name: 'Lick Your Wounds',
+            description:
+                'The Inspirited Yo-kai gets its injuries licked and slowly regains HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '194',
+            str: '39',
+            spr: '102',
+            def: '42',
+            spd: '98'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Nurse Tongus',
-        tribe: 'Heartful',
+        yokaiNumber: '171',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nurse_tongus.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '171',
-        yokaiNumber3: '321',
-        yokaiFood1: '',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '977',
-        hp: '366',
-        spirit: '191',
-        power: '115',
-        speed: '180',
-        defence: '125'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/nurse_tongus.png',
+        description:
+            'A hugely popular nurse with a long waiting list of patients who want their wounds licked better.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Lick It Clean',
+            description: 'Yo-kai gets purifiedwhen healing allies.'
+        },
+        attack: {
+            name: 'Slurp',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Lick of Life',
+            description:
+                'All allies are licked from head to toe, and their HP is restored.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Lick Your Wounds',
+            description:
+                'The Inspirited Yo-kai gets its injuries licked and slowly regains HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '229',
+            str: '67',
+            spr: '119',
+            def: '73',
+            spd: '111'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Sandmeh',
-        tribe: 'Heartful',
+        yokaiNumber: '172',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sandmeh.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '172',
-        yokaiNumber3: '322',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '3720',
-        hp: '1460',
-        spirit: '620',
-        power: '500',
-        speed: '620',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sandmeh.png',
+        description:
+            'A simple, serene Yo-kai whose calming aura is so effective, he can get even Roughraff to chill out.',
+        locations: [
+            'Mt. Wildwood - Bamboo Groves',
+            'Mt. Wildwood - Brushwoods',
+            'Mt. Wildwood - Abandoned Tunnel West & East & Jumbo Slider - Brushwoods',
+            'Old Springdale - Mt.Wildwood Shrine - Brushwoods',
+            'Fleshy Souls Way - Entrance',
+            'Fleshy Souls Way - Entrance'
+        ],
+        skill: {
+            name: 'Sand Still',
+            description: 'Will never Loaf.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Sandslide',
+            description: 'A ton of loose sand is dumped on the enemy.',
+            power: '80'
+        },
+        inspirit: {
+            name: 'A-meh-zing',
+            description:
+                'The Inspirited Yo-kai is so docile, it cannot be targeted.',
+            power: '0'
+        },
+        stats: {
+            hp: '175',
+            str: '92',
+            spr: '62',
+            def: '63',
+            spd: '84'
+        },
+        tribe: 'heartful',
+        element: 'earth',
+        weakness: 'water',
+        rank: 'e',
+        favouriteFood: 'odens'
     },
     {
-        name: 'Mister Sandmeh',
-        tribe: 'Heartful',
+        name: 'Mr. Sandmeh',
+        yokaiNumber: '173',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mister_sandmeh.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '172',
-        yokaiNumber3: '323',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '3720',
-        hp: '1460',
-        spirit: '620',
-        power: '500',
-        speed: '620',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mr._sandmeh.png',
+        description:
+            "His responsible attitude and respectable-salary- man's air of humility are so intense that others can't help but notice.",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Sand Still',
+            description: 'Will never Loaf.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Sand Stormal',
+            description:
+                'All foes are struck by the force of a steady lifestyle.',
+            power: '130'
+        },
+        inspirit: {
+            name: 'A-meh-zing',
+            description:
+                'The Inspirited Yo-kai is so docile, it cannot be targeted.',
+            power: '0'
+        },
+        stats: {
+            hp: '231',
+            str: '105',
+            spr: '97',
+            def: '87',
+            spd: '97'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'odens'
     },
     {
         name: 'Pallysol',
-        tribe: 'Heartful',
+        yokaiNumber: '174',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pallysol.png',
-        attribute: 'Wind',
-        rank: 'E',
-        yokaiNumber1: '',
-        yokaiNumber2: '174',
-        yokaiNumber3: '306',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '3800',
-        hp: '1500',
-        spirit: '660',
-        power: '420',
-        speed: '660',
-        defence: '560'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/pallysol.png',
+        description:
+            'The sprightly spirit of a well-loved parasol. Just  thinking about his old owner makes him jump up and down with joy.',
+        locations: [
+            'Old Springdale - Well Road',
+            'Sawayama-jo - Area 2',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Story recruit.',
+            'Story recruit.'
+        ],
+        skill: {
+            name: 'Sun Shield',
+            description: 'Returns all attackswhen guarding.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Umbrella Gust',
+            description:
+                'Strikes all enemies with a dry gust of wind from a traditional Yo-kai.',
+            power: '90'
+        },
+        inspirit: {
+            name: 'Undercover',
+            description:
+                'The Inspirited Yo-kai is defended by a keen umbrella. DEF goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '183',
+            str: '66',
+            spr: '78',
+            def: '85',
+            spd: '74'
+        },
+        tribe: 'heartful',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'e',
+        favouriteFood: 'odens'
     },
     {
         name: 'Scarasol',
-        tribe: 'Heartful',
+        yokaiNumber: '175',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scarasol.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '174',
-        yokaiNumber3: '364',
-        yokaiFood1: '',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Odens',
-        baseStats: '5090',
-        hp: '1710',
-        spirit: '940',
-        power: '700',
-        speed: '900',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/scarasol.png',
+        description:
+            'He uses a Pallysol as a weapon, blocking attacks by opening him and then striking by jabbing him at opponents.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Cheerful Coin',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Sun Shield',
+            description: 'Returns all attackswhen guarding.'
+        },
+        attack: {
+            name: 'Ventilator',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Umbrellicade',
+            description:
+                'Opens his parasol to boost his DEF and draw enemy attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Deep Cover',
+            description:
+                'The Inspirited Yo-kai is protected by an umbrella. DEF goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '253',
+            str: '117',
+            spr: '90',
+            def: '114',
+            spd: '76'
+        },
+        tribe: 'heartful',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Lodo',
-        tribe: 'Heartful',
+        yokaiNumber: '176',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lodo.png',
-        attribute: 'Wind',
-        rank: 'D',
-        yokaiNumber1: '119',
-        yokaiNumber2: '176',
-        yokaiNumber3: '333',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4220',
-        hp: '1550',
-        spirit: '750',
-        power: '490',
-        speed: '790',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/lodo.png',
+        description:
+            "You know when you keep losing change or keep getting the wrong change back? Lodo's fault.",
+        locations: [
+            'Harrisville - Cicada Canyon',
+            'Harrisville - Rice Paddy Path',
+            'Gold-Gleaming Hwy. - Inner Lane',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Blasters - Crank-a-kai - Brown mission - Red Orb',
+            'Blasters - Crank-a-kai - Brown mission - Red Orb'
+        ],
+        skill: {
+            name: 'Stealing',
+            description: 'Will increase money atthe end of a battle.'
+        },
+        attack: {
+            name: 'Kick',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'I Want It All!',
+            description:
+                'Sucks in everything without thinking. Gives enemy HP to allies.',
+            power: '50 to 131'
+        },
+        inspirit: {
+            name: 'Poverty',
+            description:
+                "Makes a foe drop cash uncontrollably until it's poor.",
+            power: '0'
+        },
+        stats: {
+            hp: '214',
+            str: '69',
+            spr: '82',
+            def: '78',
+            spd: '85'
+        },
+        tribe: 'heartful',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'd',
+        favouriteFood: 'milks'
     },
     {
         name: 'Supoor Hero',
-        tribe: 'Heartful',
+        yokaiNumber: '177',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/supoor_hero.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '177',
-        yokaiNumber3: '334',
-        yokaiFood1: '',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4220',
-        hp: '1550',
-        spirit: '750',
-        power: '490',
-        speed: '790',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/supoor_hero.png',
+        description:
+            'Fights for the poor. Unfortunately, the fact that he can rarely afford bus fare sorely limits the reach of his efforts.',
+        locations: [
+            'Gold-Gleaming Hwy. - Entrance',
+            'Evolve Lodo at Level 28.',
+            'Evolve Lodo at Level 28.'
+        ],
+        skill: {
+            name: 'Acrobat',
+            description: 'Counterattacks rightafter dodging enemy.'
+        },
+        attack: {
+            name: 'Flip Kick',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Empty Pockets',
+            description: 'Tosses all his coins at the enemy with great force.',
+            power: '36x5'
+        },
+        inspirit: {
+            name: 'Big Spender',
+            description:
+                'The Inspirited Yo-kai frivolously scatters money around.',
+            power: '0'
+        },
+        stats: {
+            hp: '228',
+            str: '104',
+            spr: '117',
+            def: '95',
+            spd: '102'
+        },
+        tribe: 'heartful',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'milks'
     },
     {
         name: 'Chippa',
-        tribe: 'Heartful',
+        yokaiNumber: '178',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chippa.png',
-        attribute: 'Water',
-        rank: 'C',
-        yokaiNumber1: '120',
-        yokaiNumber2: '178',
-        yokaiNumber3: '335',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4430',
-        hp: '1630',
-        spirit: '760',
-        power: '560',
-        speed: '800',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/chippa.png',
+        description:
+            'An eternal optimist that never worries about anything. Being Inspirited by him can be worse than you think.',
+        locations: [
+            'Harrisville - Under porches',
+            'Harrisville - Under cars',
+            'Sawayama-jo - Area 2 - Under Cars',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)'
+        ],
+        skill: {
+            name: 'Optimism Power',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Flip Kick',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Carefree Hero',
+            description:
+                'Confuses his enemies with his strange pose and mysterious aura.',
+            power: '90'
+        },
+        inspirit: {
+            name: 'Optimism',
+            description:
+                'Turns an ally into an optimist and gradually restores HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '227',
+            str: '101',
+            spr: '73',
+            def: '67',
+            spd: '98'
+        },
+        tribe: 'heartful',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'milks'
     },
     {
         name: 'Gnomey',
-        tribe: 'Heartful',
+        yokaiNumber: '179',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gnomey.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '120',
-        yokaiNumber2: '179',
-        yokaiNumber3: '336',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '4140',
-        hp: '1550',
-        spirit: '790',
-        power: '450',
-        speed: '750',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gnomey.png',
+        description:
+            'A playful Yo-kai who takes up residence in old houses and gives them a nice, homey atmosphere.',
+        locations: [
+            'Old Harrisville - Cicada Canyon',
+            'Old Harrisville - Fullface Rock',
+            'Old Harrisville - Brushwoods',
+            'Old Harrisville - Gravestones & Under porches',
+            'Old Harrisville - Station - Brushwoods & Under porches',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Kai Mystery Coin',
+            'Story recruit.',
+            'Story recruit.'
+        ],
+        skill: {
+            name: 'Good Fortune',
+            description: 'Will increase money atthe end of a battle.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Innocent World',
+            description:
+                "The power of good, clean fun steadily restores allies' HP.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Cheer Up',
+            description:
+                'The Inspirited Yo-kai cheers up and slowly regains HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '193',
+            str: '57',
+            spr: '96',
+            def: '88',
+            spd: '84'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'd',
+        favouriteFood: 'snacks'
     },
     {
         name: 'High Gnomey',
-        tribe: 'Heartful',
+        yokaiNumber: '180',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/high_gnomey.png',
-        attribute: 'Restoration',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '180',
-        yokaiNumber3: '337',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '4950',
-        hp: '1690',
-        spirit: '980',
-        power: '540',
-        speed: '980',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/high_gnomey.png',
+        description:
+            "It's said that if you get hold of a single hair from this deity Yo-kai's head, you'll enjoy an eternity of good fortune.",
+        locations: [
+            'Gold-Gleaming Hwy. - Interchange',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Evolve Gnomey at Level 28.',
+            'Evolve Gnomey at Level 28.'
+        ],
+        skill: {
+            name: 'Golden Touch',
+            description: 'Win more money afterbattles.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Joyful Jig',
+            description:
+                "The healing power of dance steadily restores allies' HP.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Cheer Up',
+            description:
+                'The Inspirited Yo-kai is engulfed in joy and regains HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '244',
+            str: '77',
+            spr: '126',
+            def: '89',
+            spd: '115'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'a',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Enerfly',
-        tribe: 'Heartful',
+        yokaiNumber: '181',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enerfly.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '121',
-        yokaiNumber2: '181',
-        yokaiNumber3: '338',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4420',
-        hp: '1550',
-        spirit: '870',
-        power: '570',
-        speed: '870',
-        defence: '560'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/enerfly.png',
+        description:
+            'A butterfly Yo-kai who brings those he Inspirits to their peak condition. Often mistaken for Enefly.',
+        locations: [
+            'Mt. Wildwood - Trees',
+            'Mt. Wildwood - Abandoned Tunnel',
+            'Old Springdale - Mt.Wildwood Shrine - Trees',
+            'Old Springdale - Mt.Wildwood Shrine - Trees'
+        ],
+        skill: {
+            name: 'Miraculous Scales',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Energy Heaven',
+            description:
+                'Creates an energizing breeze that restores HP for allies.',
+            power: '60 to 157'
+        },
+        inspirit: {
+            name: 'Energize',
+            description: 'Makes an ally feel energized and boosts its stats.',
+            power: '0'
+        },
+        stats: {
+            hp: '174',
+            str: '90',
+            spr: '83',
+            def: '69',
+            spd: '94'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'lightning',
+        rank: 'd',
+        favouriteFood: 'juices'
     },
     {
         name: 'Enefly',
-        tribe: 'Heartful',
+        yokaiNumber: '182',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enefly.png',
-        attribute: 'Drain',
-        rank: 'D',
-        yokaiNumber1: '122',
-        yokaiNumber2: '182',
-        yokaiNumber3: '339',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4180',
-        hp: '1550',
-        spirit: '770',
-        power: '490',
-        speed: '770',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/enefly.png',
+        description:
+            'A butterfly Yo-kai who makes those he Inspirits cut ties with their best friends. Often mistaken  for Enerfly.',
+        locations: [
+            'Harrisville - Trees',
+            'Harrisville - Rice Paddy Path, Cicada Canyon & Fullface Rock - Trees',
+            'Harrisville - Mt. Middleton',
+            'Harrisville - Station Plaza - Trees',
+            'Old Harrisville - Trees',
+            'Old Harrisville - Rice Paddy, Fullface Rock & Cicada Canyon - Trees',
+            'Old Harrisville - Station - Trees',
+            'Old Harrisville - Station - Trees'
+        ],
+        skill: {
+            name: 'Miraculous Scales',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Absorb',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Enemy Aura',
+            description:
+                'Uses his evil spirit to undo all good effects on enemies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Enemy Maker',
+            description:
+                'Makes a foe cut ties with its friends and attack them!',
+            power: '0'
+        },
+        stats: {
+            hp: '199',
+            str: '65',
+            spr: '97',
+            def: '67',
+            spd: '84'
+        },
+        tribe: 'heartful',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'juices'
     },
     {
         name: 'Betterfly',
-        tribe: 'Heartful',
+        yokaiNumber: '183',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/betterfly.png',
-        attribute: 'Restoration',
-        rank: 'A',
-        yokaiNumber1: '123',
-        yokaiNumber2: '183',
-        yokaiNumber3: '340',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4990',
-        hp: '1690',
-        spirit: '1060',
-        power: '540',
-        speed: '980',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/betterfly.png',
+        description:
+            "People will fulfill their potential in ways they've never imagined with Betterfly. Everyone wants this Yo-kai!",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Miraculous Scales',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Bestacular',
+            description:
+                'Restores HP for allies and gets them into tip- top shape.',
+            power: '110 to 165'
+        },
+        inspirit: {
+            name: 'Feeling Fine',
+            description:
+                'Puts an ally into top shape and raises all of its stats.',
+            power: '0'
+        },
+        stats: {
+            hp: '236',
+            str: '90',
+            spr: '123',
+            def: '76',
+            spd: '113'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'juices'
     },
     {
         name: 'Peppillon',
-        tribe: 'Heartful',
+        yokaiNumber: '184',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/peppillon.png',
-        attribute: 'Restoration',
-        rank: 'S',
-        yokaiNumber1: '124',
-        yokaiNumber2: '184',
-        yokaiNumber3: '341',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '1065',
-        hp: '422',
-        spirit: '258',
-        power: '65',
-        speed: '136',
-        defence: '184'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/peppillon.png',
+        description:
+            'A butterfly Yo-kai with otherworldly wings. Breathing in her scales  will boost your level of excitement to its max.',
+        locations: [
+            'Harrisville - Mt. Middleton',
+            'Harrisville - Mt. Middleton'
+        ],
+        skill: {
+            name: 'Miraculous Scales',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Party Miracle',
+            description:
+                "Blows a gust that restores HP and raises allies' spirits!",
+            power: '180'
+        },
+        inspirit: {
+            name: 'Life Is Good',
+            description: 'Takes an ally to paradise and steadily restores HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '250',
+            str: '96',
+            spr: '135',
+            def: '94',
+            spd: '122'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'juices'
     },
     {
         name: 'Predictabull',
-        tribe: 'Heartful',
+        yokaiNumber: '185',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/predictabull.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '185',
-        yokaiNumber3: '342',
-        yokaiFood1: '',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4100',
-        hp: '1510',
-        spirit: '750',
-        power: '530',
-        speed: '750',
-        defence: '560'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/predictabull.png',
+        description:
+            'Half-man, half-bull, all- trainee fortune-teller. His powers so far are limited to weather forecasting.',
+        locations: [
+            'Old Harrisville - Cicada Canyon',
+            'Old Harrisville - Fullface Rock',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)'
+        ],
+        skill: {
+            name: 'Clairvoidance',
+            description: 'Improves ability tododge enemy attacks.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Soothing Fortune',
+            description: "Good fortune causes all allies' HP to recover.",
+            power: '70 to 183'
+        },
+        inspirit: {
+            name: 'Raging Bull',
+            description:
+                'The Inspirited Yo-kai gets a STR boost and charges like a bull.',
+            power: '0'
+        },
+        stats: {
+            hp: '191',
+            str: '82',
+            spr: '85',
+            def: '63',
+            spd: '90'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Smashibull',
-        tribe: 'Heartful',
+        yokaiNumber: '186',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smashibull.png',
-        attribute: 'Restoration',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '186',
-        yokaiNumber3: '343',
-        yokaiFood1: '',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '5340',
-        hp: '1750',
-        spirit: '1030',
-        power: '730',
-        speed: '990',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/smashibull.png',
+        description:
+            "He's completed his training as a fortune- teller and now knows exactly what's going to happen next.",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Clairvoidance',
+            description: 'Improves ability tododge enemy attacks.'
+        },
+        attack: {
+            name: 'Bone Crusher',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Bull Rush',
+            description:
+                'Slams a single enemy to the ground with the force of a raging bull.',
+            power: '180 to 270'
+        },
+        inspirit: {
+            name: 'Raging Bull',
+            description:
+                'The Inspirited Yo-kai gets a STR boost and charges like a bull.',
+            power: '0'
+        },
+        stats: {
+            hp: '262',
+            str: '129',
+            spr: '112',
+            def: '95',
+            spd: '100'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Don Chan',
-        tribe: 'Heartful',
+        yokaiNumber: '187',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/don_chan.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '187',
-        yokaiNumber3: '344',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '5340',
-        hp: '1750',
-        spirit: '1030',
-        power: '730',
-        speed: '990',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/don_chan.png',
+        description:
+            'The spirit of a well-used Japanese drum. His big ambition is to bring his unique rhythms to the world.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Mon Mystery Coin',
+            'Quest - Inspirited Away',
+            'Quest - Inspirited Away'
+        ],
+        skill: {
+            name: 'Feel the Beat',
+            description: 'Boosts all stats.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: "Rockin' Rockets",
+            description:
+                'The sound of drums summons fireworks to rain upon all foes.',
+            power: '100 to 220'
+        },
+        inspirit: {
+            name: 'Battle Beat',
+            description:
+                'The Inspirited Yo-kai gets a big STR boost from taiko drumming.',
+            power: '0'
+        },
+        stats: {
+            hp: '205',
+            str: '51',
+            spr: '118',
+            def: '99',
+            spd: '103'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'water',
+        rank: 'c',
+        favouriteFood: 'snacks'
     },
     {
         name: "Ray O'Light",
-        tribe: 'Heartful',
+        yokaiNumber: '188',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ray_o_light.png',
-        attribute: 'Fire',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '188',
-        yokaiNumber3: '345',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4450',
-        hp: '1610',
-        spirit: '800',
-        power: '600',
-        speed: '800',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/ray_o_light.png',
+        description:
+            "A sunny fellow who brings fine weather wherever he goes. He's been trying to brighten up Drizzelda's view on life.",
+        locations: [
+            'Harrisville - Brushwoods',
+            'Harrisville - Gravestones',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
+        ],
+        skill: {
+            name: 'Sunburn',
+            description: 'All Yo-kai receive moreFire damage.'
+        },
+        attack: {
+            name: 'Flip Kick',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Solar Flare',
+            description: 'Enemies are engulfed in a fiery conflagration.',
+            power: '80 to 176'
+        },
+        inspirit: {
+            name: 'Solar Power',
+            description:
+                'The Inspirited Yo-kai is feeling bright and gets a STR boost.',
+            power: '0'
+        },
+        stats: {
+            hp: '215',
+            str: '105',
+            spr: '93',
+            def: '65',
+            spd: '94'
+        },
+        tribe: 'heartful',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'c',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Happierre',
-        tribe: 'Heartful',
+        yokaiNumber: '189',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/happierre.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '125',
-        yokaiNumber2: '189',
-        yokaiNumber3: '355',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4430',
-        hp: '1630',
-        spirit: '840',
-        power: '480',
-        speed: '760',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/happierre.png',
+        description:
+            'This heartwarming  Yo-kai removes the  tension in the air. He can cheer up even the angriest of people.',
+        locations: [
+            'Blossom Heights - Trees',
+            'Excellent Tower - Trees',
+            'Excellent Tower - Observation Deck',
+            'Old Springdale - Trees',
+            'Old Springdale - Telephone poles',
+            'Divine Paradise - 1F',
+            'Divine Paradise - 2F',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Caring',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Air of Happiness',
+            description:
+                'Gradually recovers HP of allies with his blissful aura.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Cheerfulness',
+            description:
+                "Fills an ally's heart with cheer and steadily recovers HP.",
+            power: '0'
+        },
+        stats: {
+            hp: '213',
+            str: '76',
+            spr: '104',
+            def: '74',
+            spd: '94'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'breads'
     },
     {
         name: 'Reversa',
-        tribe: 'Heartful',
+        yokaiNumber: '190',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reversa.png',
-        attribute: 'Restoration',
-        rank: 'A',
-        yokaiNumber1: '126',
-        yokaiNumber2: '190',
-        yokaiNumber3: '356',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4970',
-        hp: '1710',
-        spirit: '980',
-        power: '540',
-        speed: '900',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/reversa.png',
+        description:
+            "One moment he's happy, and the next, he's sad. He can be more difficult to deal with than Dismarelda sometimes.",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Insecure',
+            description: 'High chance to giveand take critical strikes.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Fun Field',
+            description:
+                'Steadily recovers HP of allies with her exciting aura.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Insecurity',
+            description:
+                'Makes an enemy so insecure that it takes it out on its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '235',
+            str: '94',
+            spr: '116',
+            def: '91',
+            spd: '103'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'breads'
     },
     {
         name: 'Reversette',
-        tribe: 'Heartful',
+        yokaiNumber: '191',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reversette.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '127',
-        yokaiNumber2: '191',
-        yokaiNumber3: '357',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '5110',
-        hp: '1690',
-        spirit: '1020',
-        power: '700',
-        speed: '940',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/reversette.png',
+        description:
+            'She resembles Reversa, but her reversed pattern is a rare sight. Her depression\u2014not so rare.',
+        locations: [
+            'Downtown Springdale - Under cars, Distributors, Garbages & Dumps',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
+            'Blasters - Crank-a-kai - Brown mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb'
+        ],
+        skill: {
+            name: 'Insecure',
+            description: 'High chance to giveand take critical strikes.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Zany Zone',
+            description:
+                'Steadily recovers HP of allies with her exciting aura.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Insecurity',
+            description:
+                'Makes an enemy so insecure that it takes it out on its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '243',
+            str: '117',
+            spr: '107',
+            def: '88',
+            spd: '109'
+        },
+        tribe: 'heartful',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'breads'
     },
     {
         name: "Ol' Saint Trick",
-        tribe: 'Heartful',
+        yokaiNumber: '192',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ol__saint_trick.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '128',
-        yokaiNumber2: '192',
-        yokaiNumber3: '346',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '5080',
-        hp: '1670',
-        spirit: '970',
-        power: '670',
-        speed: '970',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/ol__saint_trick.png',
+        description:
+            "Take a guess and get one of three presents: bad, good, or average. He'll leave if you ask for all three, though...",
+        locations: [
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            'Excellent Tower - Trees',
+            'Excellent Tower - Observation Deck',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)'
+        ],
+        skill: {
+            name: 'Caring',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Fullswing',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Pick-a-Present',
+            description:
+                'Pulls something out of a bag... What comes out is up to chance!',
+            power: '0'
+        },
+        inspirit: {
+            name: 'So Generous',
+            description: 'Makes a Yo-kai scatter money everywhere.',
+            power: '0'
+        },
+        stats: {
+            hp: '229',
+            str: '81',
+            spr: '114',
+            def: '80',
+            spd: '110'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'curries'
     },
     {
         name: "Ol' Fortune",
-        tribe: 'Heartful',
+        yokaiNumber: '193',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ol__fortune.png',
-        attribute: 'Lightning',
-        rank: 'C',
-        yokaiNumber1: '129',
-        yokaiNumber2: '193',
-        yokaiNumber3: '347',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '4740',
-        hp: '1650',
-        spirit: '890',
-        power: '670',
-        speed: '850',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/ol__fortune.png',
+        description:
+            "Another old man with bags full of gifts. Unlike Ol' Saint Trick, all of his presents are good!",
+        locations: [
+            'Harrisville - Mt. Middleton',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)'
+        ],
+        skill: {
+            name: 'Penetrate',
+            description: 'Always deals elementaldamage.'
+        },
+        attack: {
+            name: 'Fullswing',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Get-a-Present',
+            description:
+                'Opens a bag full of presents that restore HP of allies.',
+            power: '130'
+        },
+        inspirit: {
+            name: 'So Generous',
+            description: 'Makes a Yo-kai scatter money everywhere.',
+            power: '0'
+        },
+        stats: {
+            hp: '220',
+            str: '112',
+            spr: '94',
+            def: '86',
+            spd: '91'
+        },
+        tribe: 'heartful',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'curries'
     },
     {
         name: 'Rollen',
-        tribe: 'Heartful',
+        yokaiNumber: '194',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rollen.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '130',
-        yokaiNumber2: '194',
-        yokaiNumber3: '362',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4740',
-        hp: '1650',
-        spirit: '890',
-        power: '670',
-        speed: '850',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rollen.png',
+        description:
+            'Everything he does is decided by a roll of his dice eyes. Their outcome changes his personality! ',
+        locations: [
+            'Breezy Hills - Under cars & Garbages',
+            'Breezy Hills - Distributors',
+            'Breezy Hills - Empty flats',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)'
+        ],
+        skill: {
+            name: 'Gambler',
+            description: 'High chance to giveand take critical strikes.'
+        },
+        attack: {
+            name: 'Earthsplitter',
+            power: '95 to 142'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Roll of Fate',
+            description:
+                'Rolls his eyes and attacks based on the result of the dice roll.',
+            power: '0'
+        },
+        inspirit: {
+            name: "Luck's Smile",
+            description: 'Gradually heals an ally with divine protection.',
+            power: '0'
+        },
+        stats: {
+            hp: '226',
+            str: '90',
+            spr: '106',
+            def: '97',
+            spd: '92'
+        },
+        tribe: 'heartful',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'candy'
     },
     {
         name: 'Dubbles',
-        tribe: 'Heartful',
+        yokaiNumber: '195',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dubbles.png',
-        attribute: 'Water',
-        rank: 'A',
-        yokaiNumber1: '131',
-        yokaiNumber2: '195',
-        yokaiNumber3: '363',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4740',
-        hp: '1650',
-        spirit: '890',
-        power: '670',
-        speed: '850',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dubbles.png',
+        description:
+            "Dubbles will Inspirit you and point you toward an unknown fate. Even he doesn't know if it'll be a good or bad one.",
+        locations: [
+            "Shopper's Row - Brushwoods & flowers",
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Gambler',
+            description: 'High chance to giveand take critical strikes.'
+        },
+        attack: {
+            name: 'Earthsplitter',
+            power: '95 to 142'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Hit It Big!',
+            description:
+                "Attacks with the kind of damage you'd expect from rolling doubles.",
+            power: '140 to 210'
+        },
+        inspirit: {
+            name: 'Lucky Streak',
+            description: 'Steadily heals an ally with divine protection.',
+            power: '0'
+        },
+        stats: {
+            hp: '222',
+            str: '119',
+            spr: '108',
+            def: '130',
+            spd: '97'
+        },
+        tribe: 'heartful',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'a',
+        favouriteFood: 'candy'
     },
     {
         name: 'Papa Bolt',
-        tribe: 'Heartful',
+        yokaiNumber: '196',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/papa_bolt.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '132',
-        yokaiNumber2: '196',
-        yokaiNumber3: '367',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '5250',
-        hp: '1750',
-        spirit: '980',
-        power: '700',
-        speed: '980',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/papa_bolt.png',
+        description:
+            "No matter how lazy you are, you'll work fast when Papa Bolt's watching. His anger is SCAAAAARY!",
+        locations: [
+            'Mt. Wildwood - Abandoned Tunnel',
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Strict',
+            description: 'All allies will Loafaround less.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: "A Father's Scorn",
+            description:
+                'Zaps foes with the lightning of fatherly discontent. Yikes!',
+            power: '125 to 187'
+        },
+        inspirit: {
+            name: "Dad's Support",
+            description: "Papa's encouragement will raise an ally's STR.",
+            power: '0'
+        },
+        stats: {
+            hp: '242',
+            str: '105',
+            spr: '90',
+            def: '95',
+            spd: '113'
+        },
+        tribe: 'heartful',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Uncle Infinite',
-        tribe: 'Heartful',
+        yokaiNumber: '197',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/uncle_infinite.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '133',
-        yokaiNumber2: '197',
-        yokaiNumber3: '368',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '5460',
-        hp: '1790',
-        spirit: '1030',
-        power: '730',
-        speed: '1030',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/uncle_infinite.png',
+        description:
+            "Even Papa Bolt is scared of Uncle Infinite's power. He can throw a table an entire mile!",
+        locations: [
+            'Mt. Wildwood - Abandoned Tunnel',
+            'Infinite Tunnel',
+            'Randomly appears the night when it rains at Mt.Wildwood Summit when using the pair of binoculars. ',
+            'Randomly appears the night when it rains at Mt.Wildwood Summit when using the pair of binoculars. '
+        ],
+        skill: {
+            name: 'Intimidation',
+            description: 'No Yo-kai will Loafaround.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Table Flip',
+            description:
+                'Flips a table onto foes. High chance to cancel Soultimate Moves.',
+            power: '250'
+        },
+        inspirit: {
+            name: "Uncle's Shout",
+            description:
+                "Uncle's words will significantly raise an ally's STR. ",
+            power: '0'
+        },
+        stats: {
+            hp: '275',
+            str: '122',
+            spr: '102',
+            def: '103',
+            spd: '116'
+        },
+        tribe: 'heartful',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Mama Aura',
-        tribe: 'Heartful',
+        yokaiNumber: '198',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mama_aura.png',
-        attribute: 'Restoration',
-        rank: 'A',
-        yokaiNumber1: '134',
-        yokaiNumber2: '198',
-        yokaiNumber3: '369',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '5460',
-        hp: '1790',
-        spirit: '1030',
-        power: '730',
-        speed: '1030',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mama_aura.png',
+        description:
+            'Sometimes strict and sometimes nice, she embraces Yo-kai with her warm aura. No Yo-kai can defy her.',
+        locations: [
+            'Excellent Tower - Observation Deck',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Prayer',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: "A Mother's Love",
+            description:
+                'Steadily recovers HP for allies with her motherly warmth.',
+            power: '0'
+        },
+        inspirit: {
+            name: "Mama's Warmth",
+            description:
+                "Gradually restores an ally's HP by wrapping it in Mama's warmth.",
+            power: '0'
+        },
+        stats: {
+            hp: '224',
+            str: '78',
+            spr: '118',
+            def: '92',
+            spd: '125'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Auntie Heart',
-        tribe: 'Heartful',
+        yokaiNumber: '199',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/auntie_heart.png',
-        attribute: 'Restoration',
-        rank: 'S',
-        yokaiNumber1: '135',
-        yokaiNumber2: '199',
-        yokaiNumber3: '370',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetabes',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5460',
-        hp: '1790',
-        spirit: '1030',
-        power: '730',
-        speed: '1030',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/auntie_heart.png',
+        description:
+            "Regardless of how bad a Yo-kai is, Auntie Heart's healing hug will make it pure again. That is some true kindness!",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Prayer',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Loving Auntie',
+            description:
+                'Revives and heals her allies with all the love of a favorite aunt.',
+            power: '0'
+        },
+        inspirit: {
+            name: "Auntie's Love",
+            description:
+                "Envelops an ally in Auntie's kindness, which raises DEF.",
+            power: '0'
+        },
+        stats: {
+            hp: '258',
+            str: '102',
+            spr: '134',
+            def: '85',
+            spd: '126'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'ice',
+        rank: 's',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Kyryn',
-        tribe: 'Heartful',
+        yokaiNumber: '200',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kyryn.png',
-        attribute: 'Restoration',
-        rank: 'S',
-        yokaiNumber1: '135',
-        yokaiNumber2: '200',
-        yokaiNumber3: '371',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '5200',
-        hp: '1730',
-        spirit: '1110',
-        power: '610',
-        speed: '950',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kyryn.png',
+        description:
+            'A sacred being who protects all living things. His divine cry tops the Yo-kai download chart.',
+        locations: [
+            'Divine Paradise - 3F',
+            'Divine Paradise - 4F',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Second Wind',
+            description: 'Restores a chunk of HPto allies in need.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: "Kyryn's Kry",
+            description:
+                "A holy howl is sent to heaven, fully restoring allies' HP.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Rest Aura',
+            description:
+                "The Inspirited Yo-kai regains HP thanks to a sacred beast's aura.",
+            power: '0'
+        },
+        stats: {
+            hp: '238',
+            str: '106',
+            spr: '132',
+            def: '92',
+            spd: '127'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Unikirin',
-        tribe: 'Heartful',
+        yokaiNumber: '201',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unikirin.png',
-        attribute: 'Restoration',
-        rank: 'S',
-        yokaiNumber1: '135',
-        yokaiNumber2: '201',
-        yokaiNumber3: '372',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '5380',
-        hp: '1750',
-        spirit: '1030',
-        power: '730',
-        speed: '1030',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/unikirin.png',
+        description:
+            'A legendary creature with a horn that countless figures throughout history have tried to steal.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Kai Mystery Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Second Wind',
+            description: 'Restores a chunk of HPto allies in need.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Horn of Plenty',
+            description:
+                "A holy horn is blown toward heaven, fully restoring allies' HP.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Healing Horn',
+            description:
+                'The Inspirited Yo-kai regains HP, courtesy of a healing horn.',
+            power: '0'
+        },
+        stats: {
+            hp: '250',
+            str: '131',
+            spr: '115',
+            def: '84',
+            spd: '123'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 's',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Leadoni',
-        tribe: 'Shady',
+        yokaiNumber: '202',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/leadoni.png',
-        attribute: 'Ice',
-        rank: 'E',
-        yokaiNumber1: '136',
-        yokaiNumber2: '202',
-        yokaiNumber3: '378',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4120',
-        hp: '940',
-        spirit: '860',
-        power: '720',
-        speed: '780',
-        defence: '820'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/leadoni.png',
+        description:
+            "A Yo-kai that beckons to people with a huge hand and gets them confused. It's his fault when a child gets lost!",
+        locations: [
+            'Mt. Wildwood Trail',
+            'Mt. Wildwood - Jumbo Slider',
+            'Bony Spirits Way - Exit',
+            'Bony Spirits Way - Exit'
+        ],
+        skill: {
+            name: 'Windshield',
+            description: 'Takes less damagefrom Wind attacks.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: "C'mon, This Way!",
+            description:
+                'Draws enemy attacks to himself while increasing his DEF.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Guide',
+            description:
+                'Makes one Yo-kai bring all incoming attacks onto itself.',
+            power: '0'
+        },
+        stats: {
+            hp: '178',
+            str: '93',
+            spr: '53',
+            def: '68',
+            spd: '87'
+        },
+        tribe: 'shady',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'candy'
     },
     {
         name: 'Mynimo',
-        tribe: 'Shady',
+        yokaiNumber: '203',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mynimo.png',
-        attribute: 'Drain',
-        rank: 'D',
-        yokaiNumber1: '137',
-        yokaiNumber2: '203',
-        yokaiNumber3: '379',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4560',
-        hp: '950',
-        spirit: '1040',
-        power: '800',
-        speed: '900',
-        defence: '870'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mynimo.png',
+        description:
+            "People Inspirited by Mynimo get much better treatment than those around them. Hey! That's not fair!",
+        locations: [
+            'Uptown Springdale - Elementary School 3F',
+            'Uptown Springdale - Elementary School 2F',
+            'Uptown Springdale - Elementary School 1F',
+            'Uptown Springdale - Under cars, Distributors & Garbages',
+            'Mt. Wildwood - Bamboo Groves',
+            'Mt. Wildwood - Brushwoods',
+            'Old Springdale - Mt.Wildwood Shrine - Brushwoods',
+            'Gera Gera Land',
+            'Sawayama-jo - Area 2 - Under Cars',
+            'Infinite Inferno - 1st Circle',
+            'Infinite Inferno - 2nd Circle',
+            'Infinite Inferno - 3rd Circle',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Windshield',
+            description: 'Takes less damagefrom Wind attacks.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Absorb',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Just for You',
+            description:
+                'Raises the DEF of all allies. Affects all enemy attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Bias',
+            description:
+                "The Inspirited ally won't be targeted. Very special treatment.",
+            power: '0'
+        },
+        stats: {
+            hp: '201',
+            str: '95',
+            spr: '72',
+            def: '88',
+            spd: '85'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'fire',
+        rank: 'd',
+        favouriteFood: 'candy'
     },
     {
         name: 'Ake',
-        tribe: 'Shady',
+        yokaiNumber: '204',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ake.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '138',
-        yokaiNumber2: '204',
-        yokaiNumber3: '380',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4560',
-        hp: '950',
-        spirit: '1040',
-        power: '800',
-        speed: '900',
-        defence: '870'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/ake.png',
+        description:
+            "A bratty Yo-kai who's always kicking people's shoulders. The kicks just make your shoulders stiff.",
+        locations: [
+            'Blossom Heights - Tucked Away Lot',
+            'Blossom Heights - Secret Byway',
+            'Blossom Heights - Old Mansion House',
+            'Blossom Heights - Brushwoods & Flowers',
+            'Blossom Heights - Tucked Away Lot, Secret Byway & Hidden Side Street - Garbages & Dumps',
+            'Breezy Hills - Brushwoods & flowers',
+            'Mystery Way - Route 6',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Extreme Critical',
+            description: 'Power of criticalattacks is high.'
+        },
+        attack: {
+            name: 'Kick',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Shoulder Crunch',
+            description:
+                "Jumps up to hurt an enemy's shoulders but will hurt himself too...",
+            power: '135'
+        },
+        inspirit: {
+            name: 'Shoulder Pain',
+            description:
+                'Gives a foe an aching shoulder, which will steadily decrease HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '166',
+            str: '78',
+            spr: '71',
+            def: '73',
+            spd: '93'
+        },
+        tribe: 'shady',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'candy'
     },
     {
         name: 'Payn',
-        tribe: 'Shady',
+        yokaiNumber: '205',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/payn.png',
-        attribute: 'Earth',
-        rank: 'C',
-        yokaiNumber1: '139',
-        yokaiNumber2: '205',
-        yokaiNumber3: '381',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4560',
-        hp: '950',
-        spirit: '1040',
-        power: '800',
-        speed: '900',
-        defence: '870'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/payn.png',
+        description:
+            'Payn will show your shoulders the meaning of pain using his massive strength. Payn is really into working out.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Extreme Critical',
+            description: 'Power of criticalattacks is high.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Shoulder Lock',
+            description:
+                "Jumps up to hurt an enemy's shoulders but will hurt himself too...",
+            power: '145 to 217'
+        },
+        inspirit: {
+            name: 'Shoulder Pain',
+            description:
+                'Gives a foe an aching shoulder, which will steadily decrease HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '223',
+            str: '119',
+            spr: '74',
+            def: '83',
+            spd: '78'
+        },
+        tribe: 'shady',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'c',
+        favouriteFood: 'candy'
     },
     {
         name: 'Agon',
-        tribe: 'Shady',
+        yokaiNumber: '206',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/agon.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '140',
-        yokaiNumber2: '206',
-        yokaiNumber3: '381',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4560',
-        hp: '950',
-        spirit: '1040',
-        power: '800',
-        speed: '900',
-        defence: '870'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/agon.png',
+        description:
+            "A horrible Yo-kai that gives people a slipped disk in their backs! You're more susceptible the older you are.",
+        locations: [
+            'Mt. Wildwood - Abandoned Tunnel East',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
+            'Blasters - Crank-a-kai - Normal mission - Gold Orb',
+            'Blasters - Crank-a-kai - Normal mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Extreme Critical',
+            description: 'Power of criticalattacks is high.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Backache Buster',
+            description: "Bashes a foe's hips. May cancel Soultimate Moves.",
+            power: '180'
+        },
+        inspirit: {
+            name: 'Back Pain',
+            description:
+                "Messes up a foe's back and makes it completely immobile.",
+            power: '0'
+        },
+        stats: {
+            hp: '251',
+            str: '126',
+            spr: '79',
+            def: '93',
+            spd: '66'
+        },
+        tribe: 'shady',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'candy'
     },
     {
         name: 'Wydeawake',
-        tribe: 'Shady',
+        yokaiNumber: '207',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wydeawake.png',
-        attribute: 'Lightning',
-        rank: 'E',
-        yokaiNumber1: '140',
-        yokaiNumber2: '207',
-        yokaiNumber3: '385',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '3940',
-        hp: '920',
-        spirit: '1000',
-        power: '560',
-        speed: '840',
-        defence: '620'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wydeawake.png',
+        description:
+            "This nighttime nuisance loves staying up late. Have a friend who won't go to bed? It's probably this Yo-kai's fault.",
+        locations: [
+            'Downtown Springdale - Behind Frostia\u2019s place',
+            'Downtown Springdale - Behind Frostia\u2019s place'
+        ],
+        skill: {
+            name: 'Night Life',
+            description: 'All statuses receiveboosts at night.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Worn Out',
+            description: 'Too many late nights greatly weakens enemy defenses.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Restless Night',
+            description:
+                "The Inspirited Yo-kai can't stop staying up late. DEF goes down.",
+            power: '0'
+        },
+        stats: {
+            hp: '220',
+            str: '37',
+            spr: '89',
+            def: '43',
+            spd: '98'
+        },
+        tribe: 'shady',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'e',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Allnyta',
-        tribe: 'Shady',
+        yokaiNumber: '208',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/allnyta.png',
-        attribute: 'Lightning',
-        rank: 'B',
-        yokaiNumber1: '140',
-        yokaiNumber2: '208',
-        yokaiNumber3: '386',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4810',
-        hp: '1020',
-        spirit: '1320',
-        power: '680',
-        speed: '1020',
-        defence: '770'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/allnyta.png',
+        description:
+            "The bags under his eyes from playing video games all night are enough to make anyone worry for this Yo-kai's health.",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Night Life',
+            description: 'All statuses receiveboosts at night.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Tuckered Out',
+            description:
+                'Too many late nights massively weakens enemy defenses.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Sleepless Night',
+            description:
+                'The Inspirited Yo-kai stays up all night. DEF goes way down.',
+            power: '0'
+        },
+        stats: {
+            hp: '260',
+            str: '51',
+            spr: '126',
+            def: '60',
+            spd: '123'
+        },
+        tribe: 'shady',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Herbiboy',
-        tribe: 'Shady',
+        yokaiNumber: '209',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/herbiboy.png',
-        attribute: 'Water',
-        rank: 'E',
-        yokaiNumber1: '140',
-        yokaiNumber2: '209',
-        yokaiNumber3: '383',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4810',
-        hp: '1020',
-        spirit: '1320',
-        power: '680',
-        speed: '1020',
-        defence: '770'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/herbiboy.png',
+        description:
+            'A weakling with no real ambitions to speak of. Anyone Inspirited by him is bound to lose their spark.',
+        locations: [
+            'Downtown Springdale - Behind Frostia\u2019s place',
+            'Downtown Springdale - Behind Frostia\u2019s place'
+        ],
+        skill: {
+            name: 'Herbivaura',
+            description: 'All Yo-kai find it harderto attack.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Sap',
+            description:
+                "A faintly wimpy aura greatly weakens the enemy's attack.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Wilt',
+            description:
+                'The Inspirited Yo-kai becomes a delicate flower. STR goes down.',
+            power: '0'
+        },
+        stats: {
+            hp: '182',
+            str: '82',
+            spr: '81',
+            def: '56',
+            spd: '85'
+        },
+        tribe: 'shady',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'e',
+        favouriteFood: 'vegetables',
+        evolution: [
+            {
+                description:
+                    'Evolves into Carniboy through Fusion with Blazion.',
+                yokais: [
+                    {
+                        name: 'Carniboy',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/carniboy.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Carniboy',
-        tribe: 'Shady',
+        yokaiNumber: '210',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/carniboy.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '140',
-        yokaiNumber2: '210',
-        yokaiNumber3: '384',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '977',
-        hp: '327',
-        spirit: '148',
-        power: '195',
-        speed: '151',
-        defence: '156'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/carniboy.png',
+        description:
+            'A red-blooded Yo-kai who uses a gorgeous tan, luscious golden locks, and robust supply of one- liners to wow the ladies.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Carnivaura',
+            description: 'All Yo-kai find it easierto attack.'
+        },
+        attack: {
+            name: 'Flip Kick',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Proteam',
+            description:
+                "An aura of vim and vigor boosts allies' attacking prowess.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Beef Up',
+            description:
+                'The Inspirited Yo-kai greedily eats meat. STR is strongly boosted.',
+            power: '0'
+        },
+        stats: {
+            hp: '215',
+            str: '122',
+            spr: '91',
+            def: '98',
+            spd: '95'
+        },
+        tribe: 'shady',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'meats',
+        evolution: [
+            {
+                description:
+                    'Evolves from Blazion and Herbiboy through Fusion.',
+                yokais: [
+                    {
+                        name: 'Blazion',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blazion.png'
+                    },
+                    {
+                        name: 'Herbiboy',
+                        image:
+                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/herbiboy.png'
+                    }
+                ]
+            }
+        ]
     },
     {
         name: 'Negatibuzz',
-        tribe: 'Shady',
+        yokaiNumber: '211',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/negatibuzz.png',
-        attribute: 'Drain',
-        rank: 'E',
-        yokaiNumber1: '141',
-        yokaiNumber2: '211',
-        yokaiNumber3: '389',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4060',
-        hp: '880',
-        spirit: '900',
-        power: '720',
-        speed: '820',
-        defence: '740'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/negatibuzz.png',
+        description:
+            'A Yo-kai that nurtures negativity and sucks it up with its needlelike nose.',
+        locations: [
+            'Uptown Springdale - Shady Back Alley',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)'
+        ],
+        skill: {
+            name: 'Vampiric',
+            description: "Absorbs foe's HP withregular attacks."
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Absorb',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Negativity Germs',
+            description: 'Spreads negativity germs that lower enemy DEF.',
+            power: '20'
+        },
+        inspirit: {
+            name: 'Negativize',
+            description: 'Makes an enemy very pessimistic and lowers its SPD.',
+            power: '0'
+        },
+        stats: {
+            hp: '182',
+            str: '86',
+            spr: '76',
+            def: '60',
+            spd: '79'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'ice',
+        rank: 'e',
+        favouriteFood: 'juices'
     },
     {
         name: 'Moskevil',
-        tribe: 'Shady',
+        yokaiNumber: '212',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/moskevil.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '142',
-        yokaiNumber2: '212',
-        yokaiNumber3: '390',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4630',
-        hp: '990',
-        spirit: '1020',
-        power: '760',
-        speed: '1060',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/moskevil.png',
+        description:
+            "This nasty Yo-kai can drop you into the depths of despair. You cannot cheer up if he's nearby. ",
+        locations: [
+            'Evolve Negatibuzz at Level 17.',
+            'Evolve Negatibuzz at Level 17.'
+        ],
+        skill: {
+            name: 'Vampiric',
+            description: "Absorbs foe's HP withregular attacks."
+        },
+        attack: {
+            name: 'Pinpoint Pierce',
+            power: '30 to 66'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Think Evil',
+            description:
+                'Sends evil sound waves at his enemies and lowers their DEF.',
+            power: '80'
+        },
+        inspirit: {
+            name: 'Negativize',
+            description: 'Makes an enemy very pessimistic and lowers its SPD.',
+            power: '0'
+        },
+        stats: {
+            hp: '209',
+            str: '92',
+            spr: '90',
+            def: '78',
+            spd: '102'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'juices'
     },
     {
         name: 'Scritchy',
-        tribe: 'Shady',
+        yokaiNumber: '213',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scritchy.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '143',
-        yokaiNumber2: '213',
-        yokaiNumber3: '391',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '5320',
-        hp: '1060',
-        spirit: '1320',
-        power: '840',
-        speed: '1160',
-        defence: '940'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/scritchy.png',
+        description:
+            'The mere presence of Scritchy will make your body itch. No amount of scratching can make it stop.',
+        locations: [
+            'Excellent Tower - Trees',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
+            'Terror Time - Crank-a-kai - Red Oni Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb'
+        ],
+        skill: {
+            name: 'Vampiric',
+            description: "Absorbs foe's HP withregular attacks."
+        },
+        attack: {
+            name: 'Pinpoint Pierce',
+            power: '30 to 66'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Itchpocalypse',
+            description: 'Makes enemies itchy and lowers their STR.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Itchy',
+            description:
+                'Makes an enemy itch constantly, which will decrease its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '265',
+            str: '68',
+            spr: '125',
+            def: '91',
+            spd: '117'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'juices'
     },
     {
         name: 'Dimmy',
-        tribe: 'Shady',
+        yokaiNumber: '214',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dimmy.png',
-        attribute: 'Wind',
-        rank: 'E',
-        yokaiNumber1: '144',
-        yokaiNumber2: '214',
-        yokaiNumber3: '392',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4160',
-        hp: '900',
-        spirit: '1040',
-        power: '680',
-        speed: '880',
-        defence: '660'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dimmy.png',
+        description:
+            'Being Inspirited by Dimmy will tone down your presence. Dimmy uses this for his job as a ninja.',
+        locations: [
+            'Breezy Hills - Under cars & Garbages',
+            'Breezy Hills - Distributors',
+            'Breezy Hills - Empty flats',
+            'Old Springdale - Gourd Pond - Brushwoods',
+            'Old Springdale - Gourd Pond - Brushwoods'
+        ],
+        skill: {
+            name: 'Secrecy',
+            description: 'Will not become targetof attacks.'
+        },
+        attack: {
+            name: 'Stepping Slice',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Did You See Me?',
+            description:
+                "Deals a strong but dull slap. Can cancel a foe's Soultimate Move.",
+            power: '100'
+        },
+        inspirit: {
+            name: 'Fade Away',
+            description: 'Makes a Yo-kai so plain that its foes ignore it.',
+            power: '0'
+        },
+        stats: {
+            hp: '185',
+            str: '88',
+            spr: '65',
+            def: '48',
+            spd: '98'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'e',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Blandon',
-        tribe: 'Shady',
+        yokaiNumber: '215',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blandon.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '144',
-        yokaiNumber2: '214',
-        yokaiNumber3: '392',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4970',
-        hp: '980',
-        spirit: '1320',
-        power: '800',
-        speed: '1100',
-        defence: '770'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/blandon.png',
+        description:
+            "Blandon's lack of presence makes him a really great spy, but he's sad that no one recognizes him for that.",
+        locations: ['Evolve Dimmy at Level 24.', 'Evolve Dimmy at Level 24.'],
+        skill: {
+            name: 'Secrecy',
+            description: 'Will not become targetof attacks.'
+        },
+        attack: {
+            name: 'Ninja Star',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Hazy Dance',
+            description:
+                'Deals a strong hit. May cancel enemy Soultimate Moves.',
+            power: '180'
+        },
+        inspirit: {
+            name: 'Fade Away',
+            description: 'Makes a Yo-kai so plain that its foes ignore it.',
+            power: '0'
+        },
+        stats: {
+            hp: '225',
+            str: '120',
+            spr: '101',
+            def: '61',
+            spd: '124'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Nul',
-        tribe: 'Shady',
+        yokaiNumber: '216',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/null.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '146',
-        yokaiNumber2: '216',
-        yokaiNumber3: '394',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '5220',
-        hp: '1000',
-        spirit: '1400',
-        power: '880',
-        speed: '1160',
-        defence: '780'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/null.png',
+        description:
+            "You can't sense Nul even if you're really close to him. He's really good at entertaining himself.",
+        locations: [
+            'San Fantastico - Under cars',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Secrecy',
+            description: 'Will not become targetof attacks.'
+        },
+        attack: {
+            name: 'Ninja Star',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: "Creep 'n' Cut",
+            description:
+                'Hits from the shadows and may cancel enemy Soultimate Moves.',
+            power: '200'
+        },
+        inspirit: {
+            name: 'Absence',
+            description:
+                'Makes foes ignore an ally by reducing its presence to nothing.',
+            power: '0'
+        },
+        stats: {
+            hp: '238',
+            str: '100',
+            spr: '114',
+            def: '84',
+            spd: '116'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Suspicioni',
-        tribe: 'Shady',
+        yokaiNumber: '217',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/suspicioni.png',
-        attribute: 'Water',
-        rank: 'D',
-        yokaiNumber1: '150',
-        yokaiNumber2: '217',
-        yokaiNumber3: '396',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '4180',
-        hp: '970',
-        spirit: '1120',
-        power: '600',
-        speed: '820',
-        defence: '670'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/suspicioni.png',
+        description:
+            "An Oni who doubts everything. He hangs out with his fellow Oni but doesn't trust them at all.",
+        locations: [
+            'Downtown Springdale - Garbages & Dumps',
+            'Gera Gera Land',
+            'Gera Gera Land'
+        ],
+        skill: {
+            name: 'Suspicion',
+            description: 'May attack an ally.'
+        },
+        attack: {
+            name: 'Pinpoint Pierce',
+            power: '30 to 66'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Suspicious Eyes',
+            description:
+                'Gives his enemies the evil eye and hinders their actions.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Distrust',
+            description: 'Makes a foe distrust its allies and attack them.',
+            power: '0'
+        },
+        stats: {
+            hp: '188',
+            str: '80',
+            spr: '94',
+            def: '78',
+            spd: '85'
+        },
+        tribe: 'shady',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'd',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Tantroni',
-        tribe: 'Shady',
+        yokaiNumber: '218',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tantroni.png',
-        attribute: 'Fire',
-        rank: 'D',
-        yokaiNumber1: '151',
-        yokaiNumber2: '218',
-        yokaiNumber3: '397',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '4260',
-        hp: '890',
-        spirit: '1040',
-        power: '720',
-        speed: '820',
-        defence: '790'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tantroni.png',
+        description:
+            "This Yo-kai will throw a fit whenever he doesn't get his way... It's probably time to grow out of that.",
+        locations: [
+            'Harrisville - Cicada Canyon',
+            'Harrisville - Fullface Rock',
+            'Harrisville - Old House by The Station',
+            'Harrisville - Rice Paddy Path',
+            'Harrisville - Brushwoods',
+            'Harrisville - Under cars',
+            'Harrisville - Rice Paddy Path, Cicada Canyon & Fullface Rock - Brushwoods',
+            'Harrisville - Station Plaza - Brushwoods, Garbages & Empty flats',
+            'Harrisville - Station Plaza - Under cars',
+            'Old Harrisville - Brushwoods',
+            'Old Harrisville - Gravestones & Under porches',
+            'Gera Gera Land',
+            'Gold-Gleaming Hwy. - Inner Lane',
+            'Infinite Inferno - 6th Circle',
+            'Infinite Inferno - 7th Circle',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Suspicion',
+            description: 'May attack an ally.'
+        },
+        attack: {
+            name: 'Pinpoint Pierce',
+            power: '30 to 66'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Temper Tantrum',
+            description:
+                'Gives his enemies the evil eye and hinders their actions.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Bratty',
+            description:
+                'Makes a Yo-kai have a temper tantrum and attack its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '186',
+            str: '102',
+            spr: '59',
+            def: '91',
+            spd: '81'
+        },
+        tribe: 'shady',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Contrarioni',
-        tribe: 'Shady',
+        yokaiNumber: '219',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/contrarioni.png',
-        attribute: 'Lightning',
-        rank: 'B',
-        yokaiNumber1: '151',
-        yokaiNumber2: '218',
-        yokaiNumber3: '398',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '5050',
-        hp: '1020',
-        spirit: '1280',
-        power: '760',
-        speed: '1060',
-        defence: '930'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/contrarioni.png',
+        description:
+            'Get ready to say "no" a lot if Contrarioni Inspirits you. You\'ll disagree with anything people say. Always fun at parties.',
+        locations: [
+            'Yo-kai World - Hooligan Road',
+            'Excellent Tower - Garbages',
+            'Excellent Tower - Empty flats',
+            'Excellent Tower - Under cars & Distributors',
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Suspicion',
+            description: 'May attack an ally.'
+        },
+        attack: {
+            name: 'Pinpoint Pierce',
+            power: '30 to 66'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Contrary Gas',
+            description:
+                'Spreads gas that makes enemies contrarians, causing chaos.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Contrariness',
+            description: 'Makes an enemy attack its allies...just because.',
+            power: '0'
+        },
+        stats: {
+            hp: '204',
+            str: '86',
+            spr: '97',
+            def: '109',
+            spd: '116'
+        },
+        tribe: 'shady',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Hidabat',
-        tribe: 'Shady',
+        yokaiNumber: '220',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hidabat.png',
-        attribute: 'Wind',
-        rank: 'D',
-        yokaiNumber1: '147',
-        yokaiNumber2: '220',
-        yokaiNumber3: '401',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4120',
-        hp: '950',
-        spirit: '1000',
-        power: '640',
-        speed: '860',
-        defence: '670'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hidabat.png',
+        description:
+            "Hidabat will make you a shut-in who fears going outside. He's better at Inspiriting modern city dwellers. ",
+        locations: [
+            'Mt. Wildwood - Abandoned Tunnel West',
+            'Yo-kai World - Hooligan Road',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Blasters - Crank-a-kai - Normal mission - Red Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Vampiric',
+            description: "Absorbs foe's HP withregular attacks."
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Hidabat Harmony',
+            description: 'Hinders enemies with a cursed lullaby.',
+            power: '60'
+        },
+        inspirit: {
+            name: 'Shut Away',
+            description: "Takes away a foe's motivation.",
+            power: '0'
+        },
+        stats: {
+            hp: '193',
+            str: '68',
+            spr: '81',
+            def: '92',
+            spd: '82'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'd',
+        favouriteFood: 'meats'
     },
     {
         name: 'Abodabat',
-        tribe: 'Shady',
+        yokaiNumber: '221',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/abodabat.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '148',
-        yokaiNumber2: '221',
-        yokaiNumber3: '402',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5180',
-        hp: '960',
-        spirit: '1360',
-        power: '800',
-        speed: '1000',
-        defence: '1060'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/abodabat.png',
+        description:
+            "After being inside the house for so long, Hidabat fused with it. Now he really can't ever leave!",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Vampiric',
+            description: "Absorbs foe's HP withregular attacks."
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Abodaballad',
+            description: 'Hinders enemies with a baleful ballad.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Shut Away',
+            description: "Takes away a foe's motivation.",
+            power: '0'
+        },
+        stats: {
+            hp: '227',
+            str: '99',
+            spr: '105',
+            def: '115',
+            spd: '97'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'meats'
     },
     {
         name: 'Belfree',
-        tribe: 'Shady',
+        yokaiNumber: '222',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/belfree.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '149',
-        yokaiNumber2: '222',
-        yokaiNumber3: '403',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5180',
-        hp: '960',
-        spirit: '1300',
-        power: '800',
-        speed: '1020',
-        defence: '1100'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/belfree.png',
+        description:
+            "A rare Abodabat in  temporary housing. Once a year, if you're lucky, you can see him change  houses.",
+        locations: [
+            'Springdale Underground Waterway',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - 3DS coin',
+            'Mt.Wildwood - Crank-a-kai - Sum Mystery Coin',
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin'
+        ],
+        skill: {
+            name: 'Vampiric',
+            description: "Absorbs foe's HP withregular attacks."
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Belfree Blues',
+            description: 'Hinders enemies with some bad-luck blues.',
+            power: '150'
+        },
+        inspirit: {
+            name: 'Shut Away',
+            description: "Takes away a foe's motivation.",
+            power: '0'
+        },
+        stats: {
+            hp: '234',
+            str: '101',
+            spr: '98',
+            def: '128',
+            spd: '100'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'meats'
     },
     {
         name: 'Yoink',
-        tribe: 'Shady',
+        yokaiNumber: '223',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/yoink.png',
-        attribute: 'Drain',
-        rank: 'D',
-        yokaiNumber1: '149',
-        yokaiNumber2: '',
-        yokaiNumber3: '404',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4240',
-        hp: '950',
-        spirit: '1040',
-        power: '680',
-        speed: '860',
-        defence: '710'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/yoink.png',
+        description:
+            "A Yo-kai who says he's borrowing people's stuff but actually just swallows it and never gives it back.",
+        locations: [
+            'Harrisville - Fullface Rock',
+            'Harrisville - Old House by The Station',
+            'Harrisville - Brushwoods',
+            'Harrisville - Under porches',
+            'Harrisville - Gravestones',
+            'Harrisville - Rice Paddy Path, Cicada Canyon & Fullface Rock - Brushwoods',
+            'Harrisville - Station Plaza - Brushwoods, Garbages & Empty flats',
+            'Old Harrisville - Station - Paddy fields',
+            'Gera Gera Land',
+            'Mystery Way - Route 3',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Sticky Fingers',
+            description: 'Steals an item whileattacking an enemy.'
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Absorb',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Energetic Gulp',
+            description:
+                'Yoink helps himself to enemy HP, sharing it among his allies.',
+            power: '50'
+        },
+        inspirit: {
+            name: 'Bad Influence',
+            description:
+                'The Inspirited Yo-kai wants to borrow things, so it attacks its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '203',
+            str: '93',
+            spr: '61',
+            def: '90',
+            spd: '80'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'lightning',
+        rank: 'd',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Gimme',
-        tribe: 'Shady',
+        yokaiNumber: '224',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gimme.png',
-        attribute: 'Drain',
-        rank: 'A',
-        yokaiNumber1: '149',
-        yokaiNumber2: '224',
-        yokaiNumber3: '405',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4240',
-        hp: '950',
-        spirit: '1040',
-        power: '680',
-        speed: '860',
-        defence: '710'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gimme.png',
+        description:
+            "Why borrow people's stuff when you can just steal it? Stores his loot in the bag on his head.",
+        locations: ['Evolve Yoink at Level 27.', 'Evolve Yoink at Level 27.'],
+        skill: {
+            name: 'Sticky Fingers',
+            description: 'Steals an item whileattacking an enemy.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Life Looter',
+            description:
+                "Enemy HP is skillfully pilfered and shared among Gimme's allies.",
+            power: '130'
+        },
+        inspirit: {
+            name: 'Shakedown',
+            description:
+                'The Inspirited Yo-kai gets shaken down and loses money.',
+            power: '0'
+        },
+        stats: {
+            hp: '220',
+            str: '115',
+            spr: '80',
+            def: '103',
+            spd: '116'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'lightning',
+        rank: 'a',
+        favouriteFood: 'sushis'
     },
     {
         name: "K'mon-K'mon",
-        tribe: 'Shady',
+        yokaiNumber: '225',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/k_mon-k_mon.png',
-        attribute: 'Wind',
-        rank: 'C',
-        yokaiNumber1: '149',
-        yokaiNumber2: '225',
-        yokaiNumber3: '418',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '4490',
-        hp: '970',
-        spirit: '1080',
-        power: '760',
-        speed: '920',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/k_mon-k_mon.png',
+        description:
+            "An impatient Yo-kai who's always antsy. You'll find him first in line whenever anything new is released.",
+        locations: [
+            'Blossom Heights - Bamboo groves',
+            "Shopper's Row - Nocturne Hospital",
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Me First!',
+            description: 'Gets one preemptiveattack.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Abrupt Punch',
+            description:
+                'An enemy is confused by an explosion of pent-up frustration.',
+            power: '80'
+        },
+        inspirit: {
+            name: 'Hate to Wait',
+            description:
+                "The Inspirited Yo-kai doesn't want to wait its turn and attacks allies.",
+            power: '0'
+        },
+        stats: {
+            hp: '204',
+            str: '103',
+            spr: '98',
+            def: '88',
+            spd: '78'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'curries'
     },
     {
         name: 'Yoodooit',
-        tribe: 'Shady',
+        yokaiNumber: '226',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/yoodooit.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '149',
-        yokaiNumber2: '226',
-        yokaiNumber3: '408',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4490',
-        hp: '970',
-        spirit: '1080',
-        power: '760',
-        speed: '920',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/yoodooit.png',
+        description:
+            'A wise old man who never lifts a finger if he can help it and always gets others to do his dirty work.',
+        locations: [
+            'Blossom Heights - Old Mansion House',
+            'Sawayama-jo - Area 1 - Trees',
+            'Mystery Way - Route 1',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)'
+        ],
+        skill: {
+            name: 'You First',
+            description: 'Another Yo-kai willfight for this one.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Borrowed Health',
+            description:
+                'An evil staff is used to steal enemy HP and share it with allies.',
+            power: '70'
+        },
+        inspirit: {
+            name: 'Helpless',
+            description: "The Inspirited Yo-kai can't do anything for itself.",
+            power: '0'
+        },
+        stats: {
+            hp: '210',
+            str: '77',
+            spr: '109',
+            def: '96',
+            spd: '76'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Count Zapaway',
-        tribe: 'Shady',
+        yokaiNumber: '227',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/count_zapaway.png',
-        attribute: 'Ice',
-        rank: 'C',
-        yokaiNumber1: '149',
-        yokaiNumber2: '227',
-        yokaiNumber3: '409',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Burger',
-        yokaiFood3: 'Burger',
-        baseStats: '4510',
-        hp: '910',
-        spirit: '1120',
-        power: '720',
-        speed: '960',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/count_zapaway.png',
+        description:
+            'A Yo-kai who whisks TV remotes away on dreamy, romantic dates and then leaves them in the very strangest of places.',
+        locations: [
+            'Uptown Springdale - Under cars, Distributors & Garbages',
+            'Uptown Springdale - Under cars, Distributors & Garbages'
+        ],
+        skill: {
+            name: 'Zap Away',
+            description: 'Steals an item whileattacking an enemy.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Channel Changer',
+            description:
+                'An infrared signal damages the enemy and causes confusion.',
+            power: '80'
+        },
+        inspirit: {
+            name: 'Spirit Zapper',
+            description: 'The Inspirited Yo-kai loses SPR to strange waves.',
+            power: '0'
+        },
+        stats: {
+            hp: '189',
+            str: '105',
+            spr: '65',
+            def: '94',
+            spd: '114'
+        },
+        tribe: 'shady',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'c',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Tyrat',
-        tribe: 'Shady',
+        yokaiNumber: '228',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tyrat.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '149',
-        yokaiNumber2: '228',
-        yokaiNumber3: '410',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4770',
-        hp: '970',
-        spirit: '1160',
-        power: '760',
-        speed: '1000',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tyrat.png',
+        description:
+            "He's spent so much time hiding alone in his hole, he thinks the universe revolves around him.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin'
+        ],
+        skill: {
+            name: 'Dirty Rat',
+            description: 'May attack an ally.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Me, Me, Me',
+            description:
+                "The sheer scale of Tyrat's selfishness confuses the enemy.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Rat Fink',
+            description: 'The Inspirited Yo-kai selfishly attacks its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '205',
+            str: '114',
+            spr: '53',
+            def: '85',
+            spd: '105'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'wind',
+        rank: 'c',
+        favouriteFood: 'milks'
     },
     {
         name: 'Tengloom',
-        tribe: 'Shady',
+        yokaiNumber: '229',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tengloom.png',
-        attribute: 'Wind',
-        rank: 'C',
-        yokaiNumber1: '153',
-        yokaiNumber2: '229',
-        yokaiNumber3: '416',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4650',
-        hp: '930',
-        spirit: '1280',
-        power: '640',
-        speed: '1000',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tengloom.png',
+        description:
+            "A gloomy tengu who's always reading. He's somehow amassed a Yo-kai fan base that likes his pessimism.",
+        locations: [
+            'Excellent Tower - Observation Deck',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)'
+        ],
+        skill: {
+            name: 'Windshield',
+            description: 'Takes less damagefrom Wind attacks.'
+        },
+        attack: {
+            name: 'Flip Kick',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Gloomy Storm',
+            description: 'Batters enemies with a powerful tornado.',
+            power: '90 to 135'
+        },
+        inspirit: {
+            name: 'Pessimism',
+            description: 'Makes an enemy a pessimist and lowers its SPD.',
+            power: '0'
+        },
+        stats: {
+            hp: '208',
+            str: '70',
+            spr: '106',
+            def: '81',
+            spd: '100'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'breads'
     },
     {
         name: 'Nird',
-        tribe: 'Shady',
+        yokaiNumber: '230',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nird.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '154',
-        yokaiNumber2: '230',
-        yokaiNumber3: '417',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4790',
-        hp: '960',
-        spirit: '1260',
-        power: '680',
-        speed: '1040',
-        defence: '850'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/nird.png',
+        description:
+            'This Yo-kai became a bookworm upon arrival in the human world. Noisiness will be severely punished! Shhhh!',
+        locations: [
+            "Shopper's Row - Nocturne Hospital",
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)'
+        ],
+        skill: {
+            name: 'Death Sphere',
+            description: 'All healing Techniqueswill be weaker.'
+        },
+        attack: {
+            name: 'Flip Kick',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Demonic Storm',
+            description:
+                'Buffets enemies with vicious winds from the underworld.',
+            power: '100 to 150'
+        },
+        inspirit: {
+            name: 'Stygian Curse',
+            description: "Drops a foe's SPR significantly with a dark power.",
+            power: '0'
+        },
+        stats: {
+            hp: '240',
+            str: '66',
+            spr: '124',
+            def: '78',
+            spd: '100'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'breads'
     },
     {
         name: 'Snobetty',
-        tribe: 'Shady',
+        yokaiNumber: '231',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snobetty.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '154',
-        yokaiNumber2: '231',
-        yokaiNumber3: '417',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4790',
-        hp: '960',
-        spirit: '1260',
-        power: '680',
-        speed: '1040',
-        defence: '850'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/snobetty.png',
+        description:
+            'This stuck-up, high-and- mighty Yo-kai married into money and loves to boss around those she sees as "commoners."',
+        locations: [
+            "Shopper's Row - Nocturne Hospital",
+            'Breezy Hills - Brushwoods & flowers',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Blasters - Crank-a-kai - Brown mission - Gold Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Know Your Place',
+            description: 'Transfers a defeat to anally and restores HP.'
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'How Dare You!',
+            description:
+                'Slaps an enemy for no good reason, stopping it from moving.',
+            power: '20x5'
+        },
+        inspirit: {
+            name: 'Prima Donna',
+            description:
+                'The Inspirited Yo-kai becomes irrational and attacks allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '222',
+            str: '80',
+            spr: '118',
+            def: '93',
+            spd: '102'
+        },
+        tribe: 'shady',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Slimamander',
-        tribe: 'Shady',
+        yokaiNumber: '232',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slimamander.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '224',
-        yokaiNumber2: null,
-        yokaiNumber3: '430 (friend)',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '5430',
-        hp: '1000',
-        spirit: '1280',
-        power: '1280',
-        speed: '1020',
-        defence: '850'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/slimamander.png',
+        description:
+            'Slimamander hides his eye in one of his three mouths so that enemies have a hard time targeting that sensitive spot.',
+        locations: ['Quest - Seal No Evil', 'Quest - Seal No Evil'],
+        skill: {
+            name: 'Triple-Header',
+            description: "This Yo-kai's Skills willtarget all enemy Yo-kai."
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Triple Trouble',
+            description: 'Slams all enemies using his three powerful heads.',
+            power: '25x6'
+        },
+        inspirit: {
+            name: 'Burn',
+            description:
+                'The Inspirited Yo-kai is burnt by flames and loses HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '222',
+            str: '127',
+            spr: '96',
+            def: '84',
+            spd: '92'
+        },
+        tribe: 'shady',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'odens'
     },
     {
         name: 'Dracunyan',
-        tribe: 'Shady',
+        yokaiNumber: '233',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dracunyan.png',
-        attribute: 'Drain',
-        rank: 'B',
-        yokaiNumber1: '224',
-        yokaiNumber2: '233',
-        yokaiNumber3: '420',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '4790',
-        hp: '1000',
-        spirit: '1280',
-        power: '640',
-        speed: '1060',
-        defence: '810'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dracunyan.png',
+        description:
+            "Jibanyan has taken the form of a vampire, but his victims really don't need to worry\u2014they'll feel a bit dizzy at worst.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin'
+        ],
+        skill: {
+            name: 'Bloodsucker',
+            description: 'Steals HP from adjacentYo-kai when attacking.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Big Bloodsucker',
+            description:
+                'Sucks the HP out of one enemy and shares it with his allies.',
+            power: '150'
+        },
+        inspirit: {
+            name: 'Dracufang',
+            description:
+                'The Inspirited Yo-kai gets chewed on, causing it to lose HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '214',
+            str: '127',
+            spr: '89',
+            def: '76',
+            spd: '123'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Negasus',
-        tribe: 'Shady',
+        yokaiNumber: '234',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/negasus.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '155',
-        yokaiNumber2: '234',
-        yokaiNumber3: '431',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5080',
-        hp: '1020',
-        spirit: '1360',
-        power: '680',
-        speed: '1160',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/negasus.png',
+        description:
+            "Negasus will make you  want to do things that'll get you in trouble. The more trouble the better!",
+        locations: [
+            'Divine Paradise - 1F',
+            'Divine Paradise - 2F',
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Bird Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Negasus Curse',
+            description: 'Creates an evil aura that lowers STR of all enemies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Negasus Waves',
+            description:
+                'Makes enemies give in to the urge to hit their own allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '221',
+            str: '73',
+            spr: '127',
+            def: '90',
+            spd: '123'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Neighfarious',
-        tribe: 'Shady',
+        yokaiNumber: '235',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/neighfarious.png',
-        attribute: 'Drain',
-        rank: 'A',
-        yokaiNumber1: '156',
-        yokaiNumber2: '234',
-        yokaiNumber3: '431',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5080',
-        hp: '1020',
-        spirit: '1360',
-        power: '680',
-        speed: '1160',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/neighfarious.png',
+        description:
+            'Shining mysteriously in the night sky, Neighfarious is a bit of an enigma. What kind of evil Yo-kai is he?',
+        locations: ['Infinite Tunnel', 'Infinite Tunnel'],
+        skill: {
+            name: 'Cursed Skin',
+            description: 'All stats will increasewhen Inspirited by foe.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Dark Horse',
+            description: 'Creates an evil aura that lowers DEF of all enemies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Neighing Curse',
+            description:
+                "Significantly lowers all of an enemy's stats with an unknown evil.",
+            power: '0'
+        },
+        stats: {
+            hp: '234',
+            str: '127',
+            spr: '77',
+            def: '123',
+            spd: '90'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Timidevil',
-        tribe: 'Shady',
+        yokaiNumber: '236',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/timidevil.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '157',
-        yokaiNumber2: '236',
-        yokaiNumber3: '434',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5220',
-        hp: '920',
-        spirit: '1360',
-        power: '920',
-        speed: '1040',
-        defence: '980'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/timidevil.png',
+        description:
+            "A nervous devil who's too scared to even use his own powers. If he'd just relax, he could be unstoppable.",
+        locations: [
+            'Yo-kai World - Hooligan Road',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Too Afraid',
+            description: 'Loafs around a lot.'
+        },
+        attack: {
+            name: 'Stab Storm',
+            power: '10x5 to 22x5'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Timid Boo',
+            description:
+                'Curses his foes with a spell that gradually decreases HP.',
+            power: '110'
+        },
+        inspirit: {
+            name: 'Scaredy-Cat',
+            description:
+                "Makes a foe a super scaredy-cat who's even afraid to fight.",
+            power: '0'
+        },
+        stats: {
+            hp: '210',
+            str: '141',
+            spr: '91',
+            def: '100',
+            spd: '139'
+        },
+        tribe: 'shady',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Beelzebold',
-        tribe: 'Shady',
+        yokaiNumber: '237',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beelzebold.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '158',
-        yokaiNumber2: '237',
-        yokaiNumber3: '435',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Vegetables',
-        baseStats: '5450',
-        hp: '960',
-        spirit: '1440',
-        power: '840',
-        speed: '1140',
-        defence: '1070'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/beelzebold.png',
+        description:
+            'Timidevil at full power! He still gets nervous every so often, though.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Intimidation',
+            description: 'No Yo-kai will Loafaround.'
+        },
+        attack: {
+            name: 'Stab Storm',
+            power: '10x5 to 22x5'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Boldakazam',
+            description:
+                'Curses his foes with a spell that steadily decreases HP.',
+            power: '140'
+        },
+        inspirit: {
+            name: 'Scaredy-Cat',
+            description:
+                "Makes a foe a super scaredy-cat who's even afraid to fight.",
+            power: '0'
+        },
+        stats: {
+            hp: '234',
+            str: '142',
+            spr: '101',
+            def: '109',
+            spd: '117'
+        },
+        tribe: 'shady',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Count Cavity',
-        tribe: 'Shady',
+        yokaiNumber: '238',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/count_cavity.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '159',
-        yokaiNumber2: '238',
-        yokaiNumber3: '436',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '5570',
-        hp: '1040',
-        spirit: '1480',
-        power: '880',
-        speed: '1180',
-        defence: '990'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/count_cavity.png',
+        description:
+            'A terrifying Yo-kai who can dissolve your teeth. He loves the sound of kids crying over aching teeth. What a jerk.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Sum Mystery Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Extreme Critical',
+            description: 'Power of criticalattacks is high.'
+        },
+        attack: {
+            name: 'Stab Storm',
+            power: '10x5 to 22x5'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Bacteria Barrage',
+            description:
+                'Steadily decreases enemy HP while giving them jet-black cavities.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Cavity',
+            description:
+                'Gives a foe a nasty cavity and gradually decreases HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '258',
+            str: '112',
+            spr: '129',
+            def: '80',
+            spd: '124'
+        },
+        tribe: 'shady',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'ramens'
     },
     {
         name: 'Eyesoar',
-        tribe: 'Shady',
+        yokaiNumber: '239',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/eyesoar.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '159',
-        yokaiNumber2: '239',
-        yokaiNumber3: '437',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '5570',
-        hp: '1040',
-        spirit: '1480',
-        power: '880',
-        speed: '1180',
-        defence: '990'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/eyesoar.png',
+        description:
+            "One of his many eyes is connected to his heart. You'll have to find out which one if you want to beat him.",
+        locations: [
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb',
+            "Quest - Nyada's Trials",
+            "Quest - Nyada's Trials"
+        ],
+        skill: {
+            name: 'Eye See You',
+            description: 'Never misses attacks.'
+        },
+        attack: {
+            name: 'Meteor Punch',
+            power: '20x3 to 30x3'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Centur-Eye Stare',
+            description:
+                'Beams of light fire from his eyes, damaging all enemies.',
+            power: '37x5'
+        },
+        inspirit: {
+            name: 'Evil Eyes',
+            description:
+                'The Inspirited Yo-kai is stared at by 100 eyes and loses STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '229',
+            str: '122',
+            spr: '118',
+            def: '108',
+            spd: '84'
+        },
+        tribe: 'shady',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'meats'
     },
     {
         name: 'Eyellure',
-        tribe: 'Shady',
+        yokaiNumber: '240',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/eyellure.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '159',
-        yokaiNumber2: '240',
-        yokaiNumber3: '438',
-        yokaiFood1: 'Ramens',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5570',
-        hp: '1040',
-        spirit: '1480',
-        power: '880',
-        speed: '1180',
-        defence: '990'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/eyellure.png',
+        description:
+            'The eyes that cover his body are made of jewels and give off a light so bright that he sometimes blinds even himself.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Yo Mystery Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Eye See You',
+            description: 'Never misses attacks.'
+        },
+        attack: {
+            name: 'Meteor Punch',
+            power: '20x3 to 30x3'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Dazzling Glare',
+            description:
+                'Beams of light fire from his eyes, damaging all enemies.',
+            power: '43x5'
+        },
+        inspirit: {
+            name: 'Evil Eyes',
+            description:
+                'The Inspirited Yo-kai is stared at by 100 eyes and loses STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '260',
+            str: '112',
+            spr: '133',
+            def: '115',
+            spd: '87'
+        },
+        tribe: 'shady',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Greesel',
-        tribe: 'Shady',
+        yokaiNumber: '241',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/greesel.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '160',
-        yokaiNumber2: '242',
-        yokaiNumber3: '440',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5570',
-        hp: '1040',
-        spirit: '1480',
-        power: '880',
-        speed: '1180',
-        defence: '990'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/greesel.png',
+        description:
+            "A powerful, greedy Yo-kai who wants to control the world's wealth. He'll do anything for money.",
+        locations: [
+            'Infinite Inferno - 4th Circle',
+            'Infinite Inferno - 5th Circle',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Mine',
+            description: 'Will take good Inspiritson allies for itself.'
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Stingy Curse',
+            description:
+                'An ominous, villainous curse lowers the HP of all enemies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Stinginess',
+            description:
+                'Makes an enemy extra greedy and hateful toward its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '260',
+            str: '86',
+            spr: '129',
+            def: '106',
+            spd: '110'
+        },
+        tribe: 'shady',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'meats'
     },
     {
         name: 'Awevil',
-        tribe: 'Shady',
+        yokaiNumber: '242',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/awevil.png',
-        attribute: 'Water',
-        rank: 'S',
-        yokaiNumber1: '161',
-        yokaiNumber2: '242',
-        yokaiNumber3: '440',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '1030',
-        hp: '430',
-        spirit: '210',
-        power: '110',
-        speed: '180',
-        defence: '100'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/awevil.png',
+        description:
+            "An aristocrat of evil. Pure depravity. A Yo-kai that will do anything just because it's bad. He's earned his name.",
+        locations: [
+            'Springdale Underground Waterway',
+            'Springdale Underground Waterway'
+        ],
+        skill: {
+            name: 'Ultimate Dark',
+            description: 'Inspirit will alwayssucceed.'
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Pitch-Black Curse',
+            description: 'The dark power of eternity hinders enemy actions.',
+            power: '140'
+        },
+        inspirit: {
+            name: 'Darkness Power',
+            description: 'Steadily damages a foe with the powers of darkness.',
+            power: '0'
+        },
+        stats: {
+            hp: '272',
+            str: '89',
+            spr: '128',
+            def: '94',
+            spd: '124'
+        },
+        tribe: 'shady',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'meats'
     },
     {
         name: 'Wobblewok',
-        tribe: 'Shady',
+        yokaiNumber: '243',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wobblewok.png',
-        attribute: 'Earth',
-        rank: 'S',
-        yokaiNumber1: '242',
-        yokaiNumber2: null,
-        yokaiNumber3: '441',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Sobas',
-        yokaiFood3: 'Sobas',
-        baseStats: '5630',
-        hp: '1060',
-        spirit: '1480',
-        power: '880',
-        speed: '1180',
-        defence: '1030'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wobblewok.png',
+        description:
+            "A Yo-kai formed from spirits who've fallen in battle. He struggles to keep a lid on all of his incredible power.",
+        locations: [
+            'Old Springdale - Flatpot Plains',
+            'Old Springdale - Flatpot Plains'
+        ],
+        skill: {
+            name: 'Ultimate Dark',
+            description: 'Inspirit will alwayssucceed.'
+        },
+        attack: {
+            name: 'Bone Crusher',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Pitch Bomber',
+            description: 'A giant ball of darkness crashes into all foes.',
+            power: '200'
+        },
+        inspirit: {
+            name: 'Boil Away',
+            description:
+                'The Inspirited Yo-kai is under a Wobblewok curse. Lowers all stats.',
+            power: '0'
+        },
+        stats: {
+            hp: '256',
+            str: '123',
+            spr: '123',
+            def: '100',
+            spd: '102'
+        },
+        tribe: 'shady',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Coughkoff',
-        tribe: 'Eerie',
+        yokaiNumber: '244',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/coughkoff.png',
-        attribute: 'Water',
-        rank: 'E',
-        yokaiNumber1: '162',
-        yokaiNumber2: '244',
-        yokaiNumber3: '450',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '119',
-        hp: '28',
-        spirit: '23',
-        power: '17',
-        speed: '26',
-        defence: '25'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/coughkoff.png',
+        description:
+            'Coughkoff can cause your throat to feel tingly and make you sick. Try to stay healthy!',
+        locations: [
+            'Uptown Springdale - Rivers',
+            'Downtown Springdale - Garbages & Dumps',
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            'Springdale Underground Waterway',
+            'Springdale Underground Waterway - Water',
+            'San Fantastico - Seaside Cave',
+            'Old Springdale - Rivers',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Spiky Guard',
+            description: 'Deals damage back tofoe while guarding.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Koff Dropper',
+            description:
+                'His prickly nature undoes all good effects on enemies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Sore Throat',
+            description:
+                'Gives a Yo-kai a sore throat and steadily decreases its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '223',
+            str: '93',
+            spr: '32',
+            def: '77',
+            spd: '68'
+        },
+        tribe: 'slippery',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'e',
+        favouriteFood: 'breads'
     },
     {
         name: 'Hurchin',
-        tribe: 'Eerie',
+        yokaiNumber: '245',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hurchin.png',
-        attribute: 'Water',
-        rank: 'D',
-        yokaiNumber1: '163',
-        yokaiNumber2: '245',
-        yokaiNumber3: '451',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4400',
-        hp: '1170',
-        spirit: '780',
-        power: '830',
-        speed: '680',
-        defence: '940'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hurchin.png',
+        description:
+            "He looks just like Coughkoff, but don't say that! He hates that guy.",
+        locations: [
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            'San Fantastico - Seaside Cave',
+            'San Fantastico - Hidden Workshop',
+            'San Fantastico - Sea',
+            'Mystery Way - Main Line',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)'
+        ],
+        skill: {
+            name: 'Spiky Guard',
+            description: 'Deals damage back tofoe while guarding.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Sting Bomb',
+            description:
+                'Explosion that will deal damage to enemies and allies alike.',
+            power: '100 to 262'
+        },
+        inspirit: {
+            name: 'Headache',
+            description:
+                'Gives a foe a headache and steadily decreases its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '223',
+            str: '35',
+            spr: '96',
+            def: '97',
+            spd: '78'
+        },
+        tribe: 'slippery',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'd',
+        favouriteFood: 'breads'
     },
     {
         name: 'Droplette',
-        tribe: 'Eerie',
+        yokaiNumber: '246',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/droplette.png',
-        attribute: 'Water',
-        rank: 'E',
-        yokaiNumber1: '172',
-        yokaiNumber2: '246',
-        yokaiNumber3: '452',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '3900',
-        hp: '1040',
-        spirit: '800',
-        power: '660',
-        speed: '640',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/droplette.png',
+        description:
+            "Droplette makes his way to places that don't get much sun and makes them damp and moldy...  Gross.",
+        locations: [
+            'Blossom Heights - Rivers',
+            'Blossom Heights - Prayer\u2019s Peak Tunnel - Garbages',
+            'Springdale Underground Waterway',
+            'Old Springdale - Rivers',
+            'Sawayama-jo - Area 2 - Rivers',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Moist Skin',
+            description: 'Takes less damagefrom Water attacks.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Drizzling Shower',
+            description: 'Builds up moisture and dumps rain on his foes.',
+            power: '50 to 131'
+        },
+        inspirit: {
+            name: 'Pruned',
+            description:
+                "The Inspirited Yo-kai's skin gets clammy and DEF decreases.",
+            power: '0'
+        },
+        stats: {
+            hp: '151',
+            str: '51',
+            spr: '108',
+            def: '56',
+            spd: '112'
+        },
+        tribe: 'slippery',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'e',
+        favouriteFood: 'juices'
     },
     {
         name: 'Drizzle',
-        tribe: 'Eerie',
+        yokaiNumber: '247',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/drizzle.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '173',
-        yokaiNumber2: '247',
-        yokaiNumber3: '453',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4800',
-        hp: '1230',
-        spirit: '1060',
-        power: '770',
-        speed: '800',
-        defence: '940'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/drizzle.png',
+        description:
+            'Drizzle creates rain clouds wherever he goes. You can find him in places that are thoroughly wet.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Evolve Droplette at Level 25.',
+            'Evolve Droplette at Level 25.'
+        ],
+        skill: {
+            name: 'Moist Skin',
+            description: 'Takes less damagefrom Water attacks.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Heavy Squall',
+            description: 'Builds moisture and dumps a squall on his opponents.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Pruned',
+            description:
+                "The Inspirited Yo-kai's skin gets clammy and DEF decreases.",
+            power: '0'
+        },
+        stats: {
+            hp: '223',
+            str: '67',
+            spr: '129',
+            def: '89',
+            spd: '94'
+        },
+        tribe: 'slippery',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'juices'
     },
     {
         name: 'Slush',
-        tribe: 'Eerie',
+        yokaiNumber: '248',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slush.png',
-        attribute: 'Ice',
-        rank: 'E',
-        yokaiNumber1: '174',
-        yokaiNumber2: '248',
-        yokaiNumber3: '454',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '3980',
-        hp: '1040',
-        spirit: '840',
-        power: '660',
-        speed: '640',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/slush.png',
+        description:
+            'A large gathering of these frosty Yo-kai could frost anything. Just one can freeze a cup of water.',
+        locations: [
+            'Uptown Springdale - Lonely Waterway',
+            'Mt. Wildwood - Abandoned Tunnel West & East & Jumbo Slider - Ponds & Rivers',
+            'Blossom Heights - Hidden Side Street',
+            "Shopper's Row - Shopping Street Narrows",
+            "Shopper's Row - Shopping Street Narrows - Garbages & Dumps",
+            'Breezy Hills - Rivers',
+            'Springdale Underground Waterway',
+            'Old Springdale - Gourd Pond - Pond',
+            'Sawayama-jo - Area 2 - Rivers',
+            'Mystery Way - Back Road',
+            'Gold-Gleaming Hwy. - Outer Lane',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Blasters - Crank-a-kai - Normal mission - Red Orb',
+            'Blasters - Crank-a-kai - Normal mission - Red Orb'
+        ],
+        skill: {
+            name: 'Stiff Skin',
+            description: 'Takes less damagefrom Ice attacks.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Shivering Sigh',
+            description:
+                'Uses his frosty power to drop icicles on his enemies.',
+            power: '50 to 131'
+        },
+        inspirit: {
+            name: 'Numbify',
+            description: 'Numbs a foe with cold and lowers STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '166',
+            str: '40',
+            spr: '90',
+            def: '87',
+            spd: '96'
+        },
+        tribe: 'slippery',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'juices'
     },
     {
         name: 'Alhail',
-        tribe: 'Eerie',
+        yokaiNumber: '249',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/alhail.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '174',
-        yokaiNumber2: '248',
-        yokaiNumber3: '454',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4940',
-        hp: '1210',
-        spirit: '1060',
-        power: '850',
-        speed: '800',
-        defence: '1020'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/alhail.png',
+        description:
+            'This Yo-kai has strong ice power by himself. Ice will gradually encase whatever he touches.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            'Evolve Slush at Level 25.',
+            'Evolve Slush at Level 25.'
+        ],
+        skill: {
+            name: 'Stiff Skin',
+            description: 'Takes less damagefrom Ice attacks.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Heavenly Hail',
+            description:
+                'Drops a hailstorm like a meteor shower down upon his foes.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Frozen Solid',
+            description: 'Thoroughly freezes a foe and lowers STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '236',
+            str: '50',
+            spr: '105',
+            def: '124',
+            spd: '90'
+        },
+        tribe: 'slippery',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'juices'
     },
     {
         name: 'Gush',
-        tribe: 'Eerie',
+        yokaiNumber: '250',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gush.png',
-        attribute: 'Fire',
-        rank: 'D',
-        yokaiNumber1: '176',
-        yokaiNumber2: '250',
-        yokaiNumber3: '456',
-        yokaiFood1: 'Juices',
-        yokaiFood2: 'Juices',
-        yokaiFood3: 'Juices',
-        baseStats: '4580',
-        hp: '1150',
-        spirit: '980',
-        power: '790',
-        speed: '800',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gush.png',
+        description:
+            "If he Inspirits you, your nose won't stop bleeding. This Yo-kai can be much scarier than he looks.",
+        locations: [
+            'Blossom Heights - Rivers',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            'Mystery Way - Crank-a-kai - Mystery Coin',
+            'Blasters - Crank-a-kai - Normal mission - Stone Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb'
+        ],
+        skill: {
+            name: 'Good Fortune',
+            description: 'Will increase money atthe end of a battle.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Nosebleed Bomb',
+            description:
+                'Blasts his opponents with enough power to give them nosebleeds.',
+            power: '100'
+        },
+        inspirit: {
+            name: 'Nosebleed',
+            description: 'Slows down a foe with a bloody nose.',
+            power: '0'
+        },
+        stats: {
+            hp: '227',
+            str: '33',
+            spr: '115',
+            def: '68',
+            spd: '87'
+        },
+        tribe: 'slippery',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'juices'
     },
     {
         name: 'Peckpocket',
-        tribe: 'Eerie',
+        yokaiNumber: '251',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/peckpocket.png',
-        attribute: 'Drain',
-        rank: 'E',
-        yokaiNumber1: '164',
-        yokaiNumber2: '251',
-        yokaiNumber3: '457',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4140',
-        hp: '1120',
-        spirit: '800',
-        power: '740',
-        speed: '640',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/peckpocket.png',
+        description:
+            "When Peckpocket has his eye on you, you'll start wanting other people's stuff. I'll take that!",
+        locations: [
+            'Uptown Springdale - Shady Back Alley',
+            'Blossom Heights - Brushwoods & Flowers',
+            "Shopper's Row - Brushwoods & flowers",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 3F",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
+            'Gera Gera Land',
+            'Gold-Gleaming Hwy. - Outer Lane',
+            'Infinite Inferno - 4th Circle',
+            'Infinite Inferno - 5th Circle',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Glossy Skin',
+            description: 'Does not get dealtcritical damage.'
+        },
+        attack: {
+            name: 'Squish',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Absorb',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Life Snag',
+            description:
+                'Snags HP from all opponents and divides it among his allies.',
+            power: '45 to 117'
+        },
+        inspirit: {
+            name: 'Snatch',
+            description:
+                "Makes a foe so jealous of its allies' things that it will attack them.",
+            power: '0'
+        },
+        stats: {
+            hp: '179',
+            str: '96',
+            spr: '61',
+            def: '80',
+            spd: '71'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Robbinyu',
-        tribe: 'Eerie',
+        yokaiNumber: '252',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robbinyu.png',
-        attribute: 'Drain',
-        rank: 'B',
-        yokaiNumber1: '164',
-        yokaiNumber2: '252',
-        yokaiNumber3: '458',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4800',
-        hp: '1230',
-        spirit: '770',
-        power: '980',
-        speed: '760',
-        defence: '1060'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/robbinyu.png',
+        description:
+            'A bird who uses a lasso to steal whatever he wants. He even lassoed his ex on her wedding day!',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Evolve Peckpocket at Level 23.',
+            'Evolve Peckpocket at Level 23.'
+        ],
+        skill: {
+            name: 'Glossy Skin',
+            description: 'Does not get dealtcritical damage.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: "Ropin' Robbin'",
+            description:
+                'A single enemy gets tied up tight and is unable to move.',
+            power: '110'
+        },
+        inspirit: {
+            name: 'Tie Down',
+            description:
+                'The Inspirited Yo-kai is tangled in rope and cannot move.',
+            power: '0'
+        },
+        stats: {
+            hp: '224',
+            str: '124',
+            spr: '80',
+            def: '94',
+            spd: '103'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Rockabelly',
-        tribe: 'Eerie',
+        yokaiNumber: '253',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rockabelly.png',
-        attribute: 'Drain',
-        rank: 'D',
-        yokaiNumber1: '165',
-        yokaiNumber2: '253',
-        yokaiNumber3: '459',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4300',
-        hp: '1150',
-        spirit: '860',
-        power: '750',
-        speed: '600',
-        defence: '940'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rockabelly.png',
+        description:
+            "A weird Yo-kai who's quite the belly dancer. His stomach feathers look like an old man's face.",
+        locations: [
+            'Breezy Hills - Brushwoods & flowers',
+            'Breezy Hills - Brushwoods & flowers'
+        ],
+        skill: {
+            name: 'Glossy Skin',
+            description: 'Does not get dealtcritical damage.'
+        },
+        attack: {
+            name: 'Squish',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Face Flop',
+            description:
+                'Slams his belly into a foe. The impact hurts him too, though.',
+            power: '130'
+        },
+        inspirit: {
+            name: 'Funky Dance',
+            description:
+                'Makes a foe dance with its belly out, which lowers its DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '200',
+            str: '60',
+            spr: '87',
+            def: '93',
+            spd: '77'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Squeeky',
-        tribe: 'Eerie',
+        yokaiNumber: '254',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/squeeky.png',
-        attribute: 'Ice',
-        rank: 'E',
-        yokaiNumber1: '165',
-        yokaiNumber2: '254',
-        yokaiNumber3: '460',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '4080',
-        hp: '1100',
-        spirit: '800',
-        power: '740',
-        speed: '640',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/squeeky.png',
+        description:
+            "If you hear annoying tunes leaking from someone's headphones, you can bet this busy little Yo-kai's behind it.",
+        locations: [
+            'Uptown Springdale - Under cars, Distributors & Garbages',
+            'Downtown Springdale - Academy Shortcut',
+            'Downtown Springdale - Delivery Bay',
+            'Downtown Springdale - Springdale Business Tower',
+            'Downtown Springdale - Behind Frostia\u2019s place',
+            'Downtown Springdale - Brushwoods & Flowers',
+            'Downtown Springdale - Rivers & Sea',
+            'Downtown Springdale - Behind Frostina, Delivery Bay & Academy Shortcut - Garbages & Dumps',
+            "Shopper's Row - Distributors",
+            "Shopper's Row - Garbages & Dumps",
+            'Breezy Hills - Gate Room - Can-Kicking Zone',
+            'Harrisville - Station Plaza - Distributors & Under porches',
+            'Gera Gera Land',
+            'Gold-Gleaming Hwy. - Westbound',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Noise Pollution',
+            description: 'All Yo-kai receive moredamage from Inspirits.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Maruckus',
+            description:
+                "The infernal sound of maracas gradually drops enemies' HP.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Ba-Dum-Diss',
+            description:
+                'The Inspirited Yo-kai slowly loses HP due to noise pollution.',
+            power: '0'
+        },
+        stats: {
+            hp: '180',
+            str: '90',
+            spr: '65',
+            def: '50',
+            spd: '99'
+        },
+        tribe: 'slippery',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'e',
+        favouriteFood: 'curries'
     },
     {
         name: 'Rawry',
-        tribe: 'Eerie',
+        yokaiNumber: '255',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rawry.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '165',
-        yokaiNumber2: '255',
-        yokaiNumber3: '461',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '5000',
-        hp: '1230',
-        spirit: '1020',
-        power: '930',
-        speed: '800',
-        defence: '1020'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rawry.png',
+        description:
+            'He loves nothing more than revving the engine on his stolen bike and thoroughly annoying everyone.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Noise Pollution',
+            description: 'All Yo-kai receive moredamage from Inspirits.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Loud and Proud',
+            description:
+                "A booming noise from the speakers steadily drops enemies' HP.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Vroom Vroom',
+            description:
+                "The Inspirited Yo-kai's ears ring from a nearby blast, and it loses HP.",
+            power: '0'
+        },
+        stats: {
+            hp: '226',
+            str: '116',
+            spr: '74',
+            def: '62',
+            spd: '131'
+        },
+        tribe: 'slippery',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'curries'
     },
     {
         name: 'Buhu',
-        tribe: 'Eerie',
+        yokaiNumber: '256',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/buhu.png',
-        attribute: 'Wind',
-        rank: 'E',
-        yokaiNumber1: '166',
-        yokaiNumber2: '256',
-        yokaiNumber3: '462',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '3860',
-        hp: '1120',
-        spirit: '840',
-        power: '620',
-        speed: '560',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/buhu.png',
+        description:
+            'This bird Yo-kai is always sad. People she Inspirits get depressed and distracted a lot.',
+        locations: [
+            'Mt. Wildwood - Trees',
+            'Mt. Wildwood - Abandoned Tunnel West & East & Jumbo Slider - Trees',
+            'Mt. Wildwood - Abandoned Tunnel',
+            'Old Springdale - Mt.Wildwood Shrine - Trees',
+            'Old Springdale - Mt.Wildwood Shrine - Trees'
+        ],
+        skill: {
+            name: 'Wind Play',
+            description: 'Increases damage ofown Wind attacks.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Boohoo Blast',
+            description:
+                'Blasts unpleasant energy at her foes and slows them down.',
+            power: '30'
+        },
+        inspirit: {
+            name: 'Depression',
+            description:
+                'Depresses foes and makes them unwilling to take action.',
+            power: '0'
+        },
+        stats: {
+            hp: '188',
+            str: '59',
+            spr: '89',
+            def: '66',
+            spd: '77'
+        },
+        tribe: 'slippery',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'e',
+        favouriteFood: 'breads'
     },
     {
         name: 'Flumpy',
-        tribe: 'Eerie',
+        yokaiNumber: '257',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flumpy.png',
-        attribute: 'Wind',
-        rank: 'C',
-        yokaiNumber1: '167',
-        yokaiNumber2: '257',
-        yokaiNumber3: '463',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4620',
-        hp: '1180',
-        spirit: '940',
-        power: '800',
-        speed: '780',
-        defence: '920'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/flumpy.png',
+        description:
+            'Flumpy can make even the coolest person unfashionable and awkward. She hates being so unstylish.',
+        locations: [
+            'Uptown Springdale - Lonely Waterway',
+            'Gold-Gleaming Hwy. - Outer Lane',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Blasters - Crank-a-kai - Normal mission - Gold Orb',
+            'Blasters - Crank-a-kai - Normal mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Wind Play',
+            description: 'Increases damage ofown Wind attacks.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Awfully Awkward',
+            description:
+                'Blasts unpleasant energy at her foes and slows them down.',
+            power: '70'
+        },
+        inspirit: {
+            name: 'Awkwardness',
+            description: 'Makes foes awkward and lowers their DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '216',
+            str: '72',
+            spr: '103',
+            def: '74',
+            spd: '94'
+        },
+        tribe: 'slippery',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'breads'
     },
     {
         name: 'Skreek',
-        tribe: 'Eerie',
+        yokaiNumber: '258',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/skreek.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '053',
-        yokaiNumber2: '258',
-        yokaiNumber3: '464',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '1053',
-        hp: '446',
-        spirit: '242',
-        power: '56',
-        speed: '174',
-        defence: '135'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/skreek.png',
+        description:
+            'If you catch a glimpse of Skreek, just run. He can throw you into the deepest pits of despair.',
+        locations: [
+            'Mystery Way - Crank-a-kai - Mystery Coin',
+            "Quest - Mr. Byrd's Tragic Tale",
+            "Quest - Mr. Byrd's Tragic Tale"
+        ],
+        skill: {
+            name: 'Penetrate',
+            description: 'Always deals elementaldamage.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Meet the Reaper',
+            description:
+                'Sends his foes and their stats) into the depths of despair.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Despair',
+            description:
+                'Stops foes from acting by filling them with a sense of despair.',
+            power: '0'
+        },
+        stats: {
+            hp: '247',
+            str: '121',
+            spr: '110',
+            def: '80',
+            spd: '113'
+        },
+        tribe: 'slippery',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'breads'
     },
     {
         name: 'Manjimutt',
-        tribe: 'Eerie',
+        yokaiNumber: '259',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/manjimutt.png',
-        attribute: 'Fire',
-        rank: 'E',
-        yokaiNumber1: '169',
-        yokaiNumber2: '259',
-        yokaiNumber3: '465',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '3780',
-        hp: '1120',
-        spirit: '680',
-        power: '700',
-        speed: '560',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/manjimutt.png',
+        description:
+            "A man-faced poodle who enjoys scaring people frightened by a poodle with a man's face. Hopes to one day be a CEO.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin',
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin'
+        ],
+        skill: {
+            name: "Mutt's Paradise",
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Creepy Superbite',
+            description:
+                'Bites all of his enemies in a frenzy. Pretty creepy, actually...',
+            power: '19x5'
+        },
+        inspirit: {
+            name: 'Confusion',
+            description: 'Startles foes into attacking their own allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '180',
+            str: '91',
+            spr: '73',
+            def: '59',
+            spd: '94'
+        },
+        tribe: 'slippery',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'e',
+        favouriteFood: 'curries'
     },
     {
         name: 'Multimutt',
-        tribe: 'Eerie',
+        yokaiNumber: '260',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/multimutt.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '170',
-        yokaiNumber2: '260',
-        yokaiNumber3: '466',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '4820',
-        hp: '1210',
-        spirit: '920',
-        power: '970',
-        speed: '740',
-        defence: '980'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/multimutt.png',
+        description:
+            "Nobody wants to get close to Multimutt because both of his faces look mean. He's a perfect guard dog.",
+        locations: [
+            'Evolve Manjimutt at Level 22.',
+            'Evolve Manjimutt at Level 22.'
+        ],
+        skill: {
+            name: "Mutt's Paradise",
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Superbite Twin',
+            description:
+                'Twice the heads means twice the bites for the same number of foes.',
+            power: '25'
+        },
+        inspirit: {
+            name: 'Confusion',
+            description: 'Startles foes into attacking their own allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '228',
+            str: '130',
+            spr: '89',
+            def: '83',
+            spd: '104'
+        },
+        tribe: 'slippery',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'curries'
     },
     {
         name: 'Sir Berus',
-        tribe: 'Eerie',
+        yokaiNumber: '261',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sir_berus.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '171',
-        yokaiNumber2: '261',
-        yokaiNumber3: '467',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '5220',
-        hp: '1240',
-        spirit: '1040',
-        power: '1060',
-        speed: '800',
-        defence: '1080'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sir_berus.png',
+        description:
+            "An elite guard dog born and raised in the netherworld. He doesn't let a single soul escape his grasp.",
+        locations: ['Open the given red box.', 'Open the given red box.'],
+        skill: {
+            name: "Mutt's Paradise",
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Stygian Slingshot',
+            description:
+                'Shoots rocks gathered from the underworld at his opponents.',
+            power: '130 to 195'
+        },
+        inspirit: {
+            name: "Styx's Curse",
+            description:
+                "Decreases a foe's SPR significantly using an underworld curse.",
+            power: '0'
+        },
+        stats: {
+            hp: '245',
+            str: '86',
+            spr: '127',
+            def: '94',
+            spd: '111'
+        },
+        tribe: 'slippery',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'curries'
     },
     {
         name: 'Furgus',
-        tribe: 'Eerie',
+        yokaiNumber: '262',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/furgus.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '171',
-        yokaiNumber2: '262',
-        yokaiNumber3: '468',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '57',
-        hp: '31',
-        spirit: '9',
-        power: '5',
-        speed: '8',
-        defence: '4'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/furgus.png',
+        description:
+            'A furry fellow who lurks in dark places and has the distinctly unimpressive ability to encourage mild hair growth.',
+        locations: [
+            'Old Harrisville - Cicada Canyon',
+            'Old Harrisville - Fullface Rock',
+            'Old Harrisville - Rice Paddy',
+            'Old Harrisville - Paddy fields',
+            'Old Harrisville - Brushwoods',
+            'Old Harrisville - Gravestones & Under porches',
+            'Old Harrisville - Station - Brushwoods & Under porches',
+            'Fleshy Souls - Gogo Junction',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Hairnet',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Tail Slap',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Fluffy Dispel',
+            description:
+                'Enemies are gently relieved of all their positive effects.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Thatch',
+            description:
+                'The Inspirited Yo-kai grows useless fluff, and SPD goes down.',
+            power: '0'
+        },
+        stats: {
+            hp: '173',
+            str: '50',
+            spr: '104',
+            def: '42',
+            spd: '102'
+        },
+        tribe: 'slippery',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Furdinand',
-        tribe: 'Eerie',
+        yokaiNumber: '263',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/furdinand.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '171',
-        yokaiNumber2: '263',
-        yokaiNumber3: '469',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '80',
-        hp: '38',
-        spirit: '15',
-        power: '6',
-        speed: '13',
-        defence: '8'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/furdinand.png',
+        description:
+            'A Yo-kai who makes thick, luxuriant hair sprout in the most...surprising places.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Yo Mystery Coin',
+            'Blasters - Crank-a-kai - Normal mission - Stone Orb',
+            'Evolve Furgus at Level 28.',
+            'Evolve Furgus at Level 28.'
+        ],
+        skill: {
+            name: 'Haiwax',
+            description: 'Returns all negativeInspiriting attacks.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Bushy World',
+            description:
+                'Furdinand blows himself up, damaging all enemies and allies.',
+            power: '270'
+        },
+        inspirit: {
+            name: 'Thicket',
+            description:
+                'The Inspirited Yo-kai gets overly fluffy. SPD goes way down.',
+            power: '0'
+        },
+        stats: {
+            hp: '231',
+            str: '78',
+            spr: '121',
+            def: '94',
+            spd: '118'
+        },
+        tribe: 'slippery',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Nosirs',
-        tribe: 'Eerie',
+        yokaiNumber: '264',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nosirs.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '171',
-        yokaiNumber2: '264',
-        yokaiNumber3: '472',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4320',
-        hp: '1130',
-        spirit: '940',
-        power: '790',
-        speed: '640',
-        defence: '820'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/nosirs.png',
+        description:
+            'This big-nosed trio always insists on its innocence and feigns ignorance when things go awry.',
+        locations: [
+            'Downtown Springdale - Brushwoods & Flowers',
+            "Shopper's Row - Distributors",
+            "Shopper's Row - Garbages & Dumps",
+            "Shopper's Row - Empty flats",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 3F",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
+            'Breezy Hills - Gourd Pond Museum 1F',
+            'Breezy Hills - Gourd Pond Museum 2F',
+            'Breezy Hills - Under cars & Garbages',
+            'Breezy Hills - Distributors',
+            'Breezy Hills - Empty flats',
+            'Mystery Way - Service Road',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Spin-no-rama',
+            description: "When in front, enemiescan't change positions."
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Ah, Ah, Ah\u2014',
+            description:
+                "The trio's endless denials manage to confuse the enemy.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Doubt It',
+            description:
+                'The Inspirited Yo-kai doubts everything and cannot move.',
+            power: '0'
+        },
+        stats: {
+            hp: '188',
+            str: '98',
+            spr: '103',
+            def: '56',
+            spd: '83'
+        },
+        tribe: 'slippery',
+        element: 'restoration',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Dismarelda',
-        tribe: 'Eerie',
+        yokaiNumber: '265',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dismarelda.png',
-        attribute: 'Earth',
-        rank: 'D',
-        yokaiNumber1: '179',
-        yokaiNumber2: '265',
-        yokaiNumber3: '478',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4160',
-        hp: '1170',
-        spirit: '860',
-        power: '710',
-        speed: '560',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dismarelda.png',
+        description:
+            "Her gloomy aura can  darken the mood in any environment. It's even worse when she's in a bad mood.",
+        locations: [
+            'Blossom Heights - Old Mansion Attic',
+            'Blossom Heights - Under cars & Distributors',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Cursed Skin',
+            description: 'All stats will increasewhen Inspirited by foe.'
+        },
+        attack: {
+            name: 'Squish',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Dismartillery',
+            description:
+                'Covers her foes in gloomy fumes that then lower their STR.',
+            power: '40'
+        },
+        inspirit: {
+            name: 'Overcast',
+            description:
+                'Surrounds a foe with overcast weather and lowers STR significantly.',
+            power: '0'
+        },
+        stats: {
+            hp: '208',
+            str: '58',
+            spr: '98',
+            def: '91',
+            spd: '76'
+        },
+        tribe: 'slippery',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'breads'
     },
     {
         name: 'Chatalie',
-        tribe: 'Eerie',
+        yokaiNumber: '266',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chatalie.png',
-        attribute: 'Lightning',
-        rank: 'D',
-        yokaiNumber1: '177',
-        yokaiNumber2: '266',
-        yokaiNumber3: '476',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4440',
-        hp: '1170',
-        spirit: '980',
-        power: '790',
-        speed: '720',
-        defence: '780'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/chatalie.png',
+        description:
+            "All talk and no action. If she Inspirits you, you'll be the same and lose the trust of others.",
+        locations: [
+            'Downtown Springdale - Springdale Business Tower',
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)'
+        ],
+        skill: {
+            name: 'Skilled Loafer',
+            description: 'Will recover a little HPwhen Loafing around.'
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Bigmouth',
+            description: 'Bites her opponents with a big-toothed grin.',
+            power: '18x5 to 27x5'
+        },
+        inspirit: {
+            name: 'All Talk',
+            description: 'Makes Yo-kai talk big... but do little.',
+            power: '0'
+        },
+        stats: {
+            hp: '200',
+            str: '75',
+            spr: '90',
+            def: '64',
+            spd: '87'
+        },
+        tribe: 'slippery',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'breads'
     },
     {
         name: 'Nagatha',
-        tribe: 'Eerie',
+        yokaiNumber: '267',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nagatha.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '178',
-        yokaiNumber2: '267',
-        yokaiNumber3: '477',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4640',
-        hp: '1200',
-        spirit: '780',
-        power: '960',
-        speed: '740',
-        defence: '960'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/nagatha.png',
+        description:
+            "Nagatha will make you into the kind of person that'll nag people over the smallest mistake.",
+        locations: [
+            'Excellent Tower - Brushwoods & Flowers',
+            'Excellent Tower - Under cars & Distributors',
+            'Excellent Tower - Under cars & Distributors'
+        ],
+        skill: {
+            name: 'Too Serious',
+            description: 'Will never Loaf.'
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Badger Bite',
+            description: 'Bites her opponents while complaining.',
+            power: '21x5 to 31x5'
+        },
+        inspirit: {
+            name: 'Complaints',
+            description:
+                'Makes foes complain a lot while they actually do very little.',
+            power: '0'
+        },
+        stats: {
+            hp: '220',
+            str: '115',
+            spr: '64',
+            def: '82',
+            spd: '96'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'breads'
     },
     {
         name: 'Papa Windbag',
-        tribe: 'Eerie',
+        yokaiNumber: '268',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/papa_windbag.png',
-        attribute: 'Lightning',
-        rank: 'C',
-        yokaiNumber1: '178',
-        yokaiNumber2: '268',
-        yokaiNumber3: '482',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Sobas Noodles',
-        yokaiFood3: 'Sobas Noodles',
-        baseStats: '4045',
-        hp: '1180',
-        spirit: '960',
-        power: '650',
-        speed: '630',
-        defence: '625',
-        fusion: {
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/papa_windbag.png',
+        description:
+            "This Yo-kai's constant insistence on his own greatness never fails to rub people the wrong way.",
+        locations: [
+            "Shopper's Row - Nocturne Hospital",
+            "Shopper's Row - Brushwoods & flowers",
+            "Shopper's Row - Empty flats",
+            'Gera Gera Land',
+            'Mystery Way - Route 5',
+            'Divine Paradise - 5F',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Center Stage',
+            description: 'All stats increase whenin front and center.'
+        },
+        attack: {
+            name: 'Flip Kick',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Boastful Dance',
             description:
-                'Evolves into Pride Shrimp through fusion with Wotchagot',
-            image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pride_shrimp.png'
-        }
+                'Papa Windbag sings his own praises and restores HP in the process.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Big Up',
+            description:
+                'The Inspirited Yo-kai is filled with confidence. All stats go up.',
+            power: '0'
+        },
+        stats: {
+            hp: '212',
+            str: '79',
+            spr: '110',
+            def: '65',
+            spd: '99'
+        },
+        tribe: 'slippery',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Ben Tover',
-        tribe: 'Eerie',
+        yokaiNumber: '269',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ben_tover.png',
-        attribute: 'Wind',
-        rank: 'C',
-        yokaiNumber1: '178',
-        yokaiNumber2: '269',
-        yokaiNumber3: '482',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Sobas Noodles',
-        baseStats: '943',
-        hp: '319',
-        spirit: '176',
-        power: '144',
-        speed: '185',
-        defence: '119'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/ben_tover.png',
+        description:
+            'A supple and slippery character whose pathetic excuses make it utterly impossible to pin blame on him.',
+        locations: [
+            'San Fantastico - Seaside Cave',
+            'San Fantastico - Garbages',
+            'San Fantastico - Empty flats',
+            'San Fantastico - Under cars',
+            'San Fantastico - Hidden Workshop - Garbages',
+            'San Fantastico - Hidden Workshop - Empty Flats',
+            'San Fantastico - Hidden Workshop - Under cars',
+            'Gera Gera Land',
+            'Sawayama-jo - Area 2',
+            'Infinite Inferno - 4th Circle',
+            'Infinite Inferno - 5th Circle',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Dodge',
+            description: 'All Soultimate Moveswill be dodged.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Squirm',
+            description: 'Unpleasant wriggling reduces all enemy stats.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Shirkster',
+            description:
+                "The Inspirited Yo-kai becomes lazy and doesn't do anything.",
+            power: '0'
+        },
+        stats: {
+            hp: '195',
+            str: '85',
+            spr: '102',
+            def: '70',
+            spd: '111'
+        },
+        tribe: 'slippery',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Cheeksqueek',
-        tribe: 'Eerie',
+        yokaiNumber: '270',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cheeksqueek.png',
-        attribute: 'Ice',
-        rank: 'C',
-        yokaiNumber1: '180',
-        yokaiNumber2: '270',
-        yokaiNumber3: '489',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4640',
-        hp: '1120',
-        spirit: '960',
-        power: '880',
-        speed: '760',
-        defence: '920'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cheeksqueek.png',
+        description:
+            "A Yo-kai that can't stop farting. There's a rumor that he just has really bad  breath...but I'm not going to clear the air here.",
+        locations: [
+            'Downtown Springdale - Brushwoods & Flowers',
+            'Gera Gera Land',
+            'Gera Gera Land'
+        ],
+        skill: {
+            name: 'Gassy Sphere',
+            description: 'Decreases accuracyof enemies.'
+        },
+        attack: {
+            name: 'Headbutt',
+            power: '55 to 121'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Stinky Smog',
+            description:
+                'Emits an evil fart that significantly lowers the SPD of enemies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Stink Up',
+            description:
+                "Confuses a foe with a stench so strong that it can't think straight.",
+            power: '0'
+        },
+        stats: {
+            hp: '206',
+            str: '101',
+            spr: '86',
+            def: '73',
+            spd: '106'
+        },
+        tribe: 'slippery',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'c',
+        favouriteFood: 'milks'
     },
     {
         name: 'Cuttincheez',
-        tribe: 'Eerie',
+        yokaiNumber: '271',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cuttincheez.png',
-        attribute: 'Ice',
-        rank: 'A',
-        yokaiNumber1: '181',
-        yokaiNumber2: '271',
-        yokaiNumber3: '490',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '5040',
-        hp: '1220',
-        spirit: '980',
-        power: '980',
-        speed: '820',
-        defence: '1040'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cuttincheez.png',
+        description:
+            'A god of flatulence. Brace yourself for agony if you get stuck in a windowless room with Cuttincheez.',
+        locations: [
+            'Uptown Springdale - Bushes',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Sense of Smell',
+            description: 'Never misses attacks.'
+        },
+        attack: {
+            name: 'Headbutt',
+            power: '55 to 121'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Toxic Gas',
+            description:
+                'Emits an evil fart that significantly lowers the SPD of enemies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Stink Up',
+            description:
+                "Confuses a foe with a stench so strong that it can't think straight.",
+            power: '0'
+        },
+        stats: {
+            hp: '230',
+            str: '97',
+            spr: '121',
+            def: '92',
+            spd: '118'
+        },
+        tribe: 'slippery',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'a',
+        favouriteFood: 'milks'
     },
     {
         name: 'Toiletta',
-        tribe: 'Eerie',
+        yokaiNumber: '272',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/toiletta.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '181',
-        yokaiNumber2: '272',
-        yokaiNumber3: '491',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Milks',
-        baseStats: '4420',
-        hp: '1180',
-        spirit: '960',
-        power: '720',
-        speed: '680',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/toiletta.png',
+        description:
+            "Toiletta really wants to make new friends, but she's too shy to leave the bathroom.",
+        locations: [
+            'Uptown Springdale - Elementary School 3F',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
+        ],
+        skill: {
+            name: 'Curse Worsener',
+            description: 'Intensifies negativeInspirits on allies.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Curse You!',
+            description:
+                'A powerful curse causes enemy HP to steadily drop away.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Elementary Curse',
+            description:
+                'The Inspirited Yo-kai is cursed by a third grader. SPR decreases.',
+            power: '0'
+        },
+        stats: {
+            hp: '200',
+            str: '68',
+            spr: '106',
+            def: '87',
+            spd: '104'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Foiletta',
-        tribe: 'Eerie',
+        yokaiNumber: '273',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/foiletta.png',
-        attribute: 'Drain',
-        rank: 'A',
-        yokaiNumber1: '181',
-        yokaiNumber2: '273',
-        yokaiNumber3: '492',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '5200',
-        hp: '1260',
-        spirit: '1120',
-        power: '900',
-        speed: '840',
-        defence: '1080'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/foiletta.png',
+        description:
+            "Toiletta's now in high school, where her love of curses and disruptive behavior has earned her a new nickname.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Cheerful Coin',
+            'Blasters - Crank-a-kai - Normal mission - Stone Orb',
+            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Curse Worsener',
+            description: 'Intensifies negativeInspirits on allies.'
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Cursed Love',
+            description:
+                'A curse from a book causes enemy HP to rapidly drop away.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'High School Hex',
+            description:
+                'The Inspirited Yo-kai is cursed by a kid in high school. SPR decreases.',
+            power: '0'
+        },
+        stats: {
+            hp: '224',
+            str: '85',
+            spr: '129',
+            def: '103',
+            spd: '113'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Sproink',
-        tribe: 'Eerie',
+        yokaiNumber: '274',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sproink.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '225',
-        yokaiNumber2: '274/398',
-        yokaiNumber3: '500',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '5120',
-        hp: '1230',
-        spirit: '1060',
-        power: '930',
-        speed: '800',
-        defence: '1100'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sproink.png',
+        description:
+            'Loves to bathe in super- hot water. Dip a toe before jumping in with him\u2014you might be making a HUGE mistake!',
+        locations: [
+            'Springdale Hot Springs - Lobby',
+            'Springdale Hot Springs - Lobby'
+        ],
+        skill: {
+            name: 'Pigskin',
+            description: 'Only receives halfdamage from an attack.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Squealing Boil',
+            description:
+                'Roasts the enemy with flames fired from his boiling-hot nose.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Sweaty Swine',
+            description:
+                'The Inspirited Yo-kai gets dizzy from heat. All stats go down.',
+            power: '0'
+        },
+        stats: {
+            hp: '218',
+            str: '96',
+            spr: '117',
+            def: '104',
+            spd: '92'
+        },
+        tribe: 'slippery',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Compunzer',
-        tribe: 'Eerie',
+        yokaiNumber: '275',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/compunzer.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '182',
-        yokaiNumber2: '275',
-        yokaiNumber3: '484',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '5120',
-        hp: '1230',
-        spirit: '1060',
-        power: '930',
-        speed: '800',
-        defence: '1100'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/compunzer.png',
+        description:
+            "Even though he wants to make people laugh, Compunzer's jokes fall flat and just lead to awkward silences.",
+        locations: [
+            'Old Harrisville - Brushwoods',
+            'Old Harrisville - Brushwoods'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Lamest Joke',
+            description:
+                'Tells a joke so badly that his foes slow down to a crawl...',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Fall Flat',
+            description:
+                "Makes a foe's jokes fall so flat that it hurts both pride and HP.",
+            power: '0'
+        },
+        stats: {
+            hp: '232',
+            str: '89',
+            spr: '117',
+            def: '100',
+            spd: '115'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Lamedian',
-        tribe: 'Eerie',
+        yokaiNumber: '276',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lamedian.png',
-        attribute: 'Drain',
-        rank: 'B',
-        yokaiNumber1: '183',
-        yokaiNumber2: '276',
-        yokaiNumber3: '485',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '5120',
-        hp: '1230',
-        spirit: '1060',
-        power: '930',
-        speed: '800',
-        defence: '1100'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/lamedian.png',
+        description:
+            "Recycles jokes like they're made out of plastic. He'll be here all week, folks.",
+        locations: [
+            'Downtown Springdale - Under cars, Distributors, Garbages & Dumps',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Hanging In',
+            description: "Won't get bad effectsof enemy Inspirits."
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Millennium of Lame',
+            description:
+                'Tells a joke so badly that his foes slow down to a crawl...',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Fall Flat',
+            description:
+                "Makes a foe's jokes fall so flat that it hurts both pride and HP.",
+            power: '0'
+        },
+        stats: {
+            hp: '249',
+            str: '119',
+            spr: '88',
+            def: '82',
+            spd: '110'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'fire',
+        rank: 'a',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Grumples',
-        tribe: 'Eerie',
+        yokaiNumber: '277',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grumples.png',
-        attribute: 'Drain',
-        rank: 'B',
-        yokaiNumber1: '184',
-        yokaiNumber2: '277',
-        yokaiNumber3: '497',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4780',
-        hp: '1210',
-        spirit: '1020',
-        power: '810',
-        speed: '800',
-        defence: '940'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/grumples.png',
+        description:
+            'Bitter toward youth and beauty, Grumples makes people wrinkly. She was quite the beauty when she was young, though.',
+        locations: [
+            'Blossom Heights - Bamboo groves',
+            'Sawayama-jo - Area 1 - Brushwoods',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb',
+            'Blasters - Crank-a-kai - Gold mission - Red Orb'
+        ],
+        skill: {
+            name: 'Oldness Zone',
+            description: 'No Yo-kai will be ableto dodge.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Absorb',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Scary Wrinkles',
+            description:
+                'Steals HP from foes with her staff and gives it to her allies.',
+            power: '100 to 150'
+        },
+        inspirit: {
+            name: 'Wrinkles',
+            description:
+                'Makes a foe wrinkled and decrepit, which will lower its DEF.',
+            power: '0'
+        },
+        stats: {
+            hp: '211',
+            str: '71',
+            spr: '124',
+            def: '78',
+            spd: '105'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'milks'
     },
     {
         name: 'Everfore',
-        tribe: 'Eerie',
+        yokaiNumber: '278',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/everfore.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '185',
-        yokaiNumber2: '278',
-        yokaiNumber3: '498',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '5440',
-        hp: '1290',
-        spirit: '1180',
-        power: '910',
-        speed: '1060',
-        defence: '1000'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/everfore.png',
+        description:
+            'Sustaining her own youth and beauty by absorbing it from others, Everfore is always out looking to meet beautiful women.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Oldness Zone',
+            description: 'No Yo-kai will be ableto dodge.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Beauty Beam',
+            description:
+                'Steals HP from foes with her staff and gives it to her allies.',
+            power: '130 to 195'
+        },
+        inspirit: {
+            name: 'Youth Drain',
+            description: "Saps an enemy's youth and lowers all stats.",
+            power: '0'
+        },
+        stats: {
+            hp: '246',
+            str: '90',
+            spr: '132',
+            def: '97',
+            spd: '125'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'milks'
     },
     {
         name: 'Eterna',
-        tribe: 'Eerie',
+        yokaiNumber: '279',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/eterna.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '186',
-        yokaiNumber2: '279',
-        yokaiNumber3: '499',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '5440',
-        hp: '1290',
-        spirit: '1180',
-        power: '910',
-        speed: '1060',
-        defence: '1000'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/eterna.png',
+        description:
+            "They say this Yo-kai's immortality stems from her staff and that she'll age instantly without it.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Mon Mystery Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Oldness Zone',
+            description: 'No Yo-kai will be ableto dodge.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Undying Drain',
+            description:
+                'Steals HP from foes with her staff and gives it to her allies.',
+            power: '140'
+        },
+        inspirit: {
+            name: 'Immortal Power',
+            description:
+                "Regenerates an ally's HP with the power of immortality.",
+            power: '0'
+        },
+        stats: {
+            hp: '267',
+            str: '108',
+            spr: '128',
+            def: '85',
+            spd: '121'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'milks'
     },
     {
         name: 'Insomni',
-        tribe: 'Eerie',
+        yokaiNumber: '280',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/insomni.png',
-        attribute: 'Ice',
-        rank: 'A',
-        yokaiNumber1: '187',
-        yokaiNumber2: '280',
-        yokaiNumber3: '504',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '5440',
-        hp: '1290',
-        spirit: '1180',
-        power: '910',
-        speed: '1060',
-        defence: '1000'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/insomni.png',
+        description:
+            "If you catch Insomni's eye, she won't let you fall asleep until she's bored with you...or you're almost dead.",
+        locations: [
+            'Blossom Heights - Trees',
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
+            ' Yo-kai Spot - The Light Pursuing Drivers',
+            ' Yo-kai Spot - The Light Pursuing Drivers'
+        ],
+        skill: {
+            name: 'Insecure',
+            description: 'High chance to giveand take critical strikes.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Never Sleep Ever',
+            description: "Lowers all her enemies' stats with just one look.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Insomnia',
+            description:
+                'Makes an enemy unable to sleep and lowers stats significantly.',
+            power: '0'
+        },
+        stats: {
+            hp: '244',
+            str: '94',
+            spr: '117',
+            def: '85',
+            spd: '120'
+        },
+        tribe: 'slippery',
+        element: 'ice',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'candy'
     },
     {
         name: 'Sandi',
-        tribe: 'Eerie',
+        yokaiNumber: '281',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sandi.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '188',
-        yokaiNumber2: '281',
-        yokaiNumber3: '505',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '5440',
-        hp: '1290',
-        spirit: '1180',
-        power: '910',
-        speed: '1060',
-        defence: '1000'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sandi.png',
+        description:
+            "When Sandi Inspirits you, the two of you will play in your dreams. It's too fun to ever wake up from.",
+        locations: [
+            'Mystery Way - Crank-a-kai - Mystery Coin',
+            'Mystery Way - Crank-a-kai - Mystery Coin'
+        ],
+        skill: {
+            name: 'Grip on You',
+            description: 'Amount of absorbed HPincreased.'
+        },
+        attack: {
+            name: 'Slap',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Unwaking Dream',
+            description:
+                'Sends a wave of evil at her foes and lowers all of their stats.',
+            power: '140'
+        },
+        inspirit: {
+            name: 'Bedtime',
+            description:
+                'The Inspirited Yo-kai falls so deeply asleep it is unable to act.',
+            power: '0'
+        },
+        stats: {
+            hp: '270',
+            str: '86',
+            spr: '124',
+            def: '92',
+            spd: '129'
+        },
+        tribe: 'slippery',
+        element: 'drain',
+        weakness: 'ice',
+        rank: 's',
+        favouriteFood: 'candy'
     },
     {
         name: 'Arachnus',
-        tribe: 'Eerie',
+        yokaiNumber: '282',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/arachnus.png',
-        attribute: 'Earth',
-        rank: 'S',
-        yokaiNumber1: '188',
-        yokaiNumber2: '282',
-        yokaiNumber3: '506',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Sobas',
-        yokaiFood3: 'Sobas',
-        baseStats: '163',
-        hp: '62',
-        spirit: '52',
-        power: '17',
-        speed: '18',
-        defence: '14'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/arachnus.png',
+        description:
+            'A Yo-kai from ancient Japan who sometimes confuses his prey by revealing his spidery true form.',
+        locations: [
+            'Clear "The Bony General" quest.',
+            'Clear "The Bony General" quest.'
+        ],
+        skill: {
+            name: 'Highlander',
+            description: 'Attack power increasesafter beating enemies.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Spider Smash',
+            description:
+                'Legendary spider power inflicts earth damage on an enemy.',
+            power: '300'
+        },
+        inspirit: {
+            name: 'Entrap',
+            description:
+                'The Inspirited Yo-kai gets tangled in a web and loses a lot of SPD.',
+            power: '0'
+        },
+        stats: {
+            hp: '254',
+            str: '107',
+            spr: '151',
+            def: '101',
+            spd: '120'
+        },
+        tribe: 'slippery',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Arachnia',
-        tribe: 'Eerie',
+        yokaiNumber: '283',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/arachnia.png',
-        attribute: 'Earth',
-        rank: 'S',
-        yokaiNumber1: '188',
-        yokaiNumber2: '283',
-        yokaiNumber3: '507',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Sobas Noodles',
-        yokaiFood3: 'Sobas Noodles',
-        baseStats: '1050',
-        hp: '440',
-        spirit: '140',
-        power: '90',
-        speed: '170',
-        defence: '210'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/arachnia.png',
+        description:
+            'An expert in poisons, this Yo-kai is often called a femme fatale, despite being very much a man.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin'
+        ],
+        skill: {
+            name: 'Highlander',
+            description: 'Attack power increasesafter beating enemies.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Spider Crash',
+            description:
+                'Infamous spider power inflicts earth damage on an enemy.',
+            power: '290'
+        },
+        inspirit: {
+            name: 'Entrap',
+            description:
+                'The Inspirited Yo-kai gets tangled in a web and loses a lot of SPD.',
+            power: '0'
+        },
+        stats: {
+            hp: '249',
+            str: '130',
+            spr: '97',
+            def: '96',
+            spd: '126'
+        },
+        tribe: 'slippery',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Cricky',
-        tribe: 'Slippery',
+        yokaiNumber: '284',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cricky.png',
-        attribute: 'Water',
-        rank: 'E',
-        yokaiNumber1: '188',
-        yokaiNumber2: '284',
-        yokaiNumber3: '511',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '57',
-        hp: '33',
-        spirit: '8',
-        power: '4',
-        speed: '7',
-        defence: '5'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cricky.png',
+        description:
+            'Poor Cricky is sure to wake up with a pain in his neck no matter how fluffy his pillows are.',
+        locations: [
+            'Uptown Springdale - Rivers',
+            'Downtown Springdale - Garbages & Dumps',
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
+            'Gold-Gleaming Hwy. - Eastbound',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Rest Less',
+            description: 'All Yo-kai take damagewhile Loafing.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Morning Shower',
+            description:
+                'A powerful morning shower causes damage to all enemies.',
+            power: '60 to 157'
+        },
+        inspirit: {
+            name: 'Pain in the Neck',
+            description:
+                'The Inspirited Yo-kai has a crick in its neck and slowly loses HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '193',
+            str: '48',
+            spr: '94',
+            def: '53',
+            spd: '92'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'e',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Noko',
-        tribe: 'Slippery',
+        yokaiNumber: '285',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/noko.png',
-        attribute: 'Earth',
-        rank: 'E',
-        yokaiNumber1: '189',
-        yokaiNumber2: '285',
-        yokaiNumber3: '516',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '3480',
-        hp: '800',
-        spirit: '760',
-        power: '480',
-        speed: '960',
-        defence: '480'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/noko.png',
+        description:
+            "This Yo-kai is one lucky snake! He's really scared of being seen by humans, which happens a lot since he's terrible at hiding.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin +',
+            'Mt.Wildwood - Crank-a-kai - Select-A-Coin +'
+        ],
+        skill: {
+            name: 'Good Fortune',
+            description: 'Will increase money atthe end of a battle.'
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Noko Smile',
+            description:
+                'Restores HP for his allies with his soothing Noko smile.',
+            power: '100'
+        },
+        inspirit: {
+            name: 'Fortunate',
+            description:
+                "Noko's luck provides an ally with a little stat boost.",
+            power: '0'
+        },
+        stats: {
+            hp: '195',
+            str: '37',
+            spr: '99',
+            def: '40',
+            spd: '128'
+        },
+        tribe: 'wicked',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'e',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Bloominoko',
-        tribe: 'Slippery',
+        yokaiNumber: '286',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bloominoko.png',
-        attribute: 'Earth',
-        rank: 'A',
-        yokaiNumber1: '190',
-        yokaiNumber2: '286',
-        yokaiNumber3: '517',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '136',
-        hp: '51',
-        spirit: '18',
-        power: '14',
-        speed: '40',
-        defence: '13'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/bloominoko.png',
+        description:
+            "The flower on top of Bloominoko's head brings people luck and happiness. Some folks even worship it.",
+        locations: ['Evolve Noko at Level 25.', 'Evolve Noko at Level 25.'],
+        skill: {
+            name: 'Good Fortune',
+            description: 'Will increase money atthe end of a battle.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Lucky Smile',
+            description:
+                'Recovers HP for his allies with a smile that brings good fortune.',
+            power: '150'
+        },
+        inspirit: {
+            name: 'Fortunate',
+            description:
+                "Bloominoko's luck provides an ally with a little stat boost.",
+            power: '0'
+        },
+        stats: {
+            hp: '247',
+            str: '78',
+            spr: '127',
+            def: '75',
+            spd: '148'
+        },
+        tribe: 'wicked',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'a',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Pandanoko',
-        tribe: 'Slippery',
+        yokaiNumber: '287',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pandanoko.png',
-        attribute: 'Ice',
-        rank: 'A',
-        yokaiNumber1: '191',
-        yokaiNumber2: '287',
-        yokaiNumber3: '518',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4940',
-        hp: '1020',
-        spirit: '1080',
-        power: '760',
-        speed: '1240',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/pandanoko.png',
+        description:
+            "A wandering Yo-kai from a faraway land. He's tough to find and a miracle to actually befriend.",
+        locations: ['Wayfarer Manor', 'Wayfarer Manor'],
+        skill: {
+            name: 'Summon',
+            description: 'Will make Wisps appearmore often.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Panda Smile',
+            description:
+                'Recovers HP for his allies with a rare black- and-white smile.',
+            power: '170'
+        },
+        inspirit: {
+            name: 'Panda Cuteness',
+            description:
+                'Heals an ally bit by bit with the cuteness of a panda bear.',
+            power: '0'
+        },
+        stats: {
+            hp: '230',
+            str: '131',
+            spr: '94',
+            def: '98',
+            spd: '127'
+        },
+        tribe: 'wicked',
+        element: 'ice',
+        weakness: 'nothing',
+        rank: 'a',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Snaggly',
-        tribe: 'Slippery',
+        yokaiNumber: '288',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snaggly.png',
-        attribute: 'Lightning',
-        rank: 'E',
-        yokaiNumber1: '191',
-        yokaiNumber2: '288',
-        yokaiNumber3: '520',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4940',
-        hp: '1020',
-        spirit: '1080',
-        power: '760',
-        speed: '1240',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/snaggly.png',
+        description:
+            "Delights in making people difficult to deal with. If someone's being awkward, you can bet she's nearby.",
+        locations: [
+            'Uptown Springdale - Trees',
+            'Mt. Wildwood - Trees',
+            'Blossom Heights - Trees',
+            'Blossom Heights - Bamboo groves',
+            "Shopper's Row - Shopping Street Narrows",
+            "Shopper's Row - Trees",
+            "Shopper's Row - Shopping Street Narrows - Garbages & Dumps",
+            'Breezy Hills - Gate Room - Can-Kicking Zone',
+            'Breezy Hills - Trees',
+            'Harrisville - Station Plaza - Distributors & Under porches',
+            'Mystery Way - Route 5',
+            'Divine Paradise - 1F',
+            'Divine Paradise - 2F',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Hassle',
+            description: 'Makes it difficult forenemies to be purified.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Tossabout',
+            description: 'Restless tossing and turning confuses all enemies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Two to Tangle',
+            description:
+                'The Inspirited Yo-kai keeps tripping. SPD goes way down.',
+            power: '0'
+        },
+        stats: {
+            hp: '186',
+            str: '82',
+            spr: '61',
+            def: '64',
+            spd: '92'
+        },
+        tribe: 'wicked',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'e',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Whinona',
-        tribe: 'Slippery',
+        yokaiNumber: '289',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whinona.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '191',
-        yokaiNumber2: '288',
-        yokaiNumber3: '520',
-        yokaiFood1: 'Hamburgers',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4940',
-        hp: '1020',
-        spirit: '1080',
-        power: '760',
-        speed: '1240',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/whinona.png',
+        description:
+            "She's never EVER happy, and her constant moaning has ruined more than a few friendships.",
+        locations: [
+            'Gold-Gleaming Hwy. - Interchange',
+            'Evolve Snaggly at Level 29.',
+            'Evolve Snaggly at Level 29.'
+        ],
+        skill: {
+            name: 'Hassle',
+            description: 'Makes it difficult forenemies to be purified.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Whining Wail',
+            description: 'Endless griping and groaning confuses all enemies.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'What a Drag',
+            description:
+                'The Inspirited Yo-kai gets all tangled up, and SPD goes down.',
+            power: '0'
+        },
+        stats: {
+            hp: '237',
+            str: '111',
+            spr: '105',
+            def: '91',
+            spd: '108'
+        },
+        tribe: 'wicked',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Heheheel',
-        tribe: 'Slippery',
+        yokaiNumber: '290',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/heheheel.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '192',
-        yokaiNumber2: '290',
-        yokaiNumber3: '525',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4150',
-        hp: '950',
-        spirit: '860',
-        power: '800',
-        speed: '860',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/heheheel.png',
+        description:
+            "This eel just can't stop laughing, and nobody knows why. Maybe his sense of humor is broken.",
+        locations: [
+            'San Fantastico - Seaside Cave',
+            'San Fantastico - Sea',
+            'San Fantastico - Empty flats',
+            'San Fantastico - Under cars',
+            'San Fantastico - Hidden Workshop - Empty Flats',
+            'San Fantastico - Hidden Workshop - Under cars',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Jar Guard',
+            description: 'Has extremely highchances to guard.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'In da Funny Bone',
+            description:
+                'Restores HP for allies. Laughter really is the best medicine!',
+            power: '85'
+        },
+        inspirit: {
+            name: 'Playfulness',
+            description: 'Cheers up allies and increases their STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '195',
+            str: '95',
+            spr: '66',
+            def: '78',
+            spd: '74'
+        },
+        tribe: 'wicked',
+        element: 'restoration',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'meats'
     },
     {
         name: 'Croonger',
-        tribe: 'Slippery',
+        yokaiNumber: '291',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/croonger.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '193',
-        yokaiNumber2: '291',
-        yokaiNumber3: '526',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4190',
-        hp: '990',
-        spirit: '880',
-        power: '720',
-        speed: '920',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/croonger.png',
+        description:
+            "A pot Yo-kai who sings a strange tune. If you hear singing coming from a pot, don't look into it!",
+        locations: [
+            'Uptown Springdale - Rivers',
+            'Gera Gera Land',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Jar Guard',
+            description: 'Has extremely highchances to guard.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Eel Life',
+            description: 'Bites his enemies as he sings classic tunes.',
+            power: '21x5 to 31x5'
+        },
+        inspirit: {
+            name: 'Power of Song',
+            description: 'Cheers up allies and increases their SPR.',
+            power: '0'
+        },
+        stats: {
+            hp: '202',
+            str: '100',
+            spr: '95',
+            def: '80',
+            spd: '84'
+        },
+        tribe: 'wicked',
+        element: 'drain',
+        weakness: 'fire',
+        rank: 'c',
+        favouriteFood: 'meats'
     },
     {
         name: 'Urnaconda',
-        tribe: 'Slippery',
+        yokaiNumber: '292',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/urnaconda.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '194',
-        yokaiNumber2: '292',
-        yokaiNumber3: '527',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4190',
-        hp: '990',
-        spirit: '960',
-        power: '600',
-        speed: '880',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/urnaconda.png',
+        description:
+            "That's no regular pot\u2014 there's a huge snake inside! Some say this inspired the creation of the jack-in-the-box.",
+        locations: [
+            'Springdale Underground Waterway',
+            'Mystery Way - Route 4',
+            'Mystery Way - Route 4'
+        ],
+        skill: {
+            name: 'Jar Guard',
+            description: 'Has extremely highchances to guard.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Venoconda',
+            description:
+                'Emits a poison mist that gradually drains HP of enemies.',
+            power: '80'
+        },
+        inspirit: {
+            name: "Serpent's Power",
+            description: 'Gives a Yo-kai snakelike speed.',
+            power: '0'
+        },
+        stats: {
+            hp: '220',
+            str: '112',
+            spr: '68',
+            def: '91',
+            spd: '78'
+        },
+        tribe: 'wicked',
+        element: 'restoration',
+        weakness: 'wind',
+        rank: 'c',
+        favouriteFood: 'meats'
     },
     {
         name: 'Fishpicable',
-        tribe: 'Slippery',
+        yokaiNumber: '293',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/fishpicable.png',
-        attribute: 'Lightning',
-        rank: 'D',
-        yokaiNumber1: '195',
-        yokaiNumber2: '292',
-        yokaiNumber3: '527',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4190',
-        hp: '990',
-        spirit: '960',
-        power: '600',
-        speed: '880',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/fishpicable.png',
+        description:
+            'Fishpicable sees only the bad in people and slaps things he hates with his tail. His tail is very busy.',
+        locations: [
+            'Springdale Underground Waterway',
+            'Springdale Underground Waterway - Water',
+            'Mystery Way - Route 4',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)'
+        ],
+        skill: {
+            name: 'Waterproof',
+            description: 'Takes less damagefrom Water attacks.'
+        },
+        attack: {
+            name: 'Batter',
+            power: '15x3 to 33x3'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Hateful Charge',
+            description:
+                'Charges up with enemy HP and shares some with his allies).',
+            power: '55 to 144'
+        },
+        inspirit: {
+            name: 'Hateful',
+            description: 'Makes an enemy hate everything. Even allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '207',
+            str: '83',
+            spr: '88',
+            def: '80',
+            spd: '67'
+        },
+        tribe: 'wicked',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'd',
+        favouriteFood: 'meats'
     },
     {
         name: 'Rageon',
-        tribe: 'Slippery',
+        yokaiNumber: '294',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rageon.png',
-        attribute: 'Lightning',
-        rank: 'B',
-        yokaiNumber1: '196',
-        yokaiNumber2: '294',
-        yokaiNumber3: '531',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4190',
-        hp: '990',
-        spirit: '960',
-        power: '600',
-        speed: '880',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rageon.png',
+        description:
+            'Rageon holds grudges for no reason. If you wake up to see him standing next to your bed...RUN!',
+        locations: [
+            'Evolve Fishpicable at Level 27.',
+            'Evolve Fishpicable at Level 27.'
+        ],
+        skill: {
+            name: 'Waterproof',
+            description: 'Takes less damagefrom Water attacks.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Vengeance',
+            description: 'Charges into an enemy. Deals huge damage.',
+            power: '110 to 242'
+        },
+        inspirit: {
+            name: 'Detest',
+            description: 'Makes an enemy hate everything. Even allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '229',
+            str: '97',
+            spr: '114',
+            def: '96',
+            spd: '79'
+        },
+        tribe: 'wicked',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'meats'
     },
     {
         name: 'Tunatic',
-        tribe: 'Slippery',
+        yokaiNumber: '295',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tunatic.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '197',
-        yokaiNumber2: '295',
-        yokaiNumber3: '531',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4190',
-        hp: '990',
-        spirit: '960',
-        power: '600',
-        speed: '880',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tunatic.png',
+        description:
+            "Tunatic will go on a rampage if he's criticized at all. He makes kids angry when they get guidance from adults.",
+        locations: [
+            'San Fantastico - Seaside Cave',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - 3DS coin',
+            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
+            'Terror Time - Crank-a-kai - Gold Oni Orb',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
+            'Blasters - Crank-a-kai - Gold mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Fire Play',
+            description: 'Increases damage ofown Fire attacks.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Frenzied Rage',
+            description:
+                'Calls forth his fiery rage to burn his foes to a crisp.',
+            power: '125 to 187'
+        },
+        inspirit: {
+            name: 'Frenzy',
+            description:
+                'Sends an enemy into a frenzy where it will attack anything.',
+            power: '0'
+        },
+        stats: {
+            hp: '261',
+            str: '128',
+            spr: '86',
+            def: '106',
+            spd: '78'
+        },
+        tribe: 'wicked',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'meats'
     },
     {
         name: 'Flushback',
-        tribe: 'Slippery',
+        yokaiNumber: '296',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flushback.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '197',
-        yokaiNumber2: '296',
-        yokaiNumber3: '533',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Sobas',
-        yokaiFood3: 'Sobas',
-        baseStats: '4110',
-        hp: '950',
-        spirit: '940',
-        power: '600',
-        speed: '900',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/flushback.png',
+        description:
+            "Uses a plunger to unblock people's memories and bring clarity to muddled minds.",
+        locations: [
+            'Breezy Hills - Gate Room - Traffic-Light Zone',
+            'San Fantastico - Seaside Cave',
+            'San Fantastico - Hidden Workshop',
+            'San Fantastico - Sea',
+            'San Fantastico - Garbages',
+            'San Fantastico - Under cars',
+            'San Fantastico - Hidden Workshop - Garbages',
+            'San Fantastico - Hidden Workshop - Under cars',
+            'Gera Gera Land',
+            'Mystery Way - Main Line',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Windbreaker',
+            description: 'Blocks damage from allWind skill attacks.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Sucksorcism',
+            description:
+                'Purifies all allies by pulling bad spirits out of them.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Happy Daze',
+            description:
+                'The Inspirited Yo-kai remembers something good. SPD goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '192',
+            str: '44',
+            spr: '97',
+            def: '92',
+            spd: '75'
+        },
+        tribe: 'wicked',
+        element: 'restoration',
+        weakness: 'ice',
+        rank: 'd',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Vacuumory',
-        tribe: 'Slippery',
+        yokaiNumber: '297',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/vacuumory.png',
-        attribute: 'Restoration',
-        rank: 'A',
-        yokaiNumber1: '197',
-        yokaiNumber2: '297',
-        yokaiNumber3: '534',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Sobas',
-        yokaiFood3: 'Sobas',
-        baseStats: '4880',
-        hp: '1040',
-        spirit: '1120',
-        power: '760',
-        speed: '1080',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/vacuumory.png',
+        description:
+            'This god of recollection can use his odd suction device to recover memories once thought lost.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Fusion.',
+            'Fusion.'
+        ],
+        skill: {
+            name: 'Windbreaker',
+            description: 'Blocks damage from allWind skill attacks.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Vacuucism',
+            description:
+                'Purifies all allies by pulling bad spirits out of them.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Happy Daze',
+            description:
+                'The Inspirited Yo-kai remembers something good. SPD goes up.',
+            power: '0'
+        },
+        stats: {
+            hp: '235',
+            str: '88',
+            spr: '127',
+            def: '116',
+            spd: '92'
+        },
+        tribe: 'wicked',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Irewig',
-        tribe: 'Slippery',
+        yokaiNumber: '298',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/irewig.png',
-        attribute: 'Fire',
-        rank: 'D',
-        yokaiNumber1: '197',
-        yokaiNumber2: '298',
-        yokaiNumber3: '534',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4880',
-        hp: '1040',
-        spirit: '1120',
-        power: '760',
-        speed: '1080',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/irewig.png',
+        description:
+            "This bug makes people get grumpy\u2014and asking them what's wrong will only make things worse!",
+        locations: [
+            'Harrisville - Fullface Rock',
+            'Harrisville - Fullface Rock'
+        ],
+        skill: {
+            name: 'Revenge',
+            description: 'Reflects some damageback to foe.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Flailing Tail',
+            description:
+                'An angry tail swipe that often misses but can score a critical hit.',
+            power: '75 to 165'
+        },
+        inspirit: {
+            name: 'Bugged Out',
+            description: 'The Inspirited Yo-kai goes mad and attacks allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '205',
+            str: '107',
+            spr: '52',
+            def: '63',
+            spd: '98'
+        },
+        tribe: 'wicked',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Firewig',
-        tribe: 'Slippery',
+        yokaiNumber: '299',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/firewig.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '197',
-        yokaiNumber2: '298',
-        yokaiNumber3: '536',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4880',
-        hp: '1040',
-        spirit: '1120',
-        power: '760',
-        speed: '1080',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/firewig.png',
+        description:
+            "He has SUCH a terrible temper. He's even been known to make people smash every plate they own!",
+        locations: ['Evolve Irewig at Level 26.', 'Evolve Irewig at Level 26.'],
+        skill: {
+            name: 'Revenge',
+            description: 'Reflects some damageback to foe.'
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Flaming Tail',
+            description:
+                'An angry tail swipe that often misses but can score a critical hit.',
+            power: '180'
+        },
+        inspirit: {
+            name: 'Wigged Out',
+            description:
+                'The Inspirited Yo-kai rages at everything and attacks allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '279',
+            str: '134',
+            spr: '77',
+            def: '54',
+            spd: '114'
+        },
+        tribe: 'wicked',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Draggie',
-        tribe: 'Slippery',
+        yokaiNumber: '300',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/draggie.png',
-        attribute: 'Earth',
-        rank: 'D',
-        yokaiNumber1: '198',
-        yokaiNumber2: '300',
-        yokaiNumber3: '537',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '3870',
-        hp: '950',
-        spirit: '860',
-        power: '640',
-        speed: '820',
-        defence: '600'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/draggie.png',
+        description:
+            'A dragon kid who wants attention. He can see the hidden strengths of others with the ball on his head.',
+        locations: [
+            'Mt. Wildwood - Abandoned Tunnel East',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            ' Yo-kai Spot - Miracle! A Living Fossil!',
+            ' Yo-kai Spot - Miracle! A Living Fossil!'
+        ],
+        skill: {
+            name: 'Hard Worker',
+            description: 'Receives moreexperience points.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Draggie Stone',
+            description:
+                'Shakes the earth beneath his foes with a sacred crystal.',
+            power: '100'
+        },
+        inspirit: {
+            name: 'Dragon Power',
+            description: "Boosts an ally's STR with a dragon's might.",
+            power: '0'
+        },
+        stats: {
+            hp: '202',
+            str: '63',
+            spr: '93',
+            def: '72',
+            spd: '86'
+        },
+        tribe: 'wicked',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Dragon Lord',
-        tribe: 'Slippery',
+        yokaiNumber: '301',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dragon_lord.png',
-        attribute: 'Earth',
-        rank: 'S',
-        yokaiNumber1: '199',
-        yokaiNumber2: '301',
-        yokaiNumber3: '538',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '4940',
-        hp: '1020',
-        spirit: '1140',
-        power: '800',
-        speed: '1140',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dragon_lord.png',
+        description:
+            'Draggie has come into his own with dignity  and might worthy of  the title "dragon."',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Dragon Force',
+            description: 'Power will increasewhen in trouble.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Dragon Rock',
+            description:
+                'Drops a boulder on his foes with the power of the crystal.',
+            power: '190'
+        },
+        inspirit: {
+            name: 'Dragon Power',
+            description: "Boosts an ally's STR with a dragon's might.",
+            power: '0'
+        },
+        stats: {
+            hp: '261',
+            str: '97',
+            spr: '126',
+            def: '91',
+            spd: '110'
+        },
+        tribe: 'wicked',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Azure Dragon',
-        tribe: 'Slippery',
+        yokaiNumber: '302',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/azure_dragon.png',
-        attribute: 'Water',
-        rank: 'S',
-        yokaiNumber1: '200',
-        yokaiNumber2: '302',
-        yokaiNumber3: '539',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '5080',
-        hp: '1080',
-        spirit: '1140',
-        power: '920',
-        speed: '1100',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/azure_dragon.png',
+        description:
+            'A legendary, divine beast. He holds domain over water, surpassing even the power of Dragon Lord.',
+        locations: [
+            'Excellent Tower - Observation Deck',
+            'Excellent Tower - Observation Deck'
+        ],
+        skill: {
+            name: 'Dragon Force',
+            description: 'Power will increasewhen in trouble.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Dragon Falls',
+            description:
+                'Creates a massive waterfall that simply overwhelms his foes.',
+            power: '200'
+        },
+        inspirit: {
+            name: 'Cobalt Power',
+            description: "Boosts an ally's SPR with a dragon's might.",
+            power: '0'
+        },
+        stats: {
+            hp: '277',
+            str: '124',
+            spr: '108',
+            def: '90',
+            spd: '104'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Mermaidyn',
-        tribe: 'Slippery',
+        yokaiNumber: '303',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermaidyn.png',
-        attribute: 'Water',
-        rank: 'D',
-        yokaiNumber1: '200',
-        yokaiNumber2: '303',
-        yokaiNumber3: '540',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '3830',
-        hp: '950',
-        spirit: '900',
-        power: '600',
-        speed: '820',
-        defence: '560'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mermaidyn.png',
+        description:
+            'Half girl, half fish, this Yo-kai has a lovely voice and is ever so curious about life on land.',
+        locations: [
+            'Old Springdale - Gourd Pond - Pond',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Blasters - Crank-a-kai - Brown mission - Red Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb',
+            'Story recruit.',
+            'Story recruit.'
+        ],
+        skill: {
+            name: 'Saintly Scales',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Tail Slap',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Beach Wave',
+            description:
+                'Summons waves and sends them crashing into all enemies.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Rejuvenate',
+            description:
+                'The Inspirited Yo-kai is rejuvenated and slowly regains HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '182',
+            str: '65',
+            spr: '99',
+            def: '62',
+            spd: '96'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'd',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Mermadonna',
-        tribe: 'Slippery',
+        yokaiNumber: '304',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermadonna.png',
-        attribute: 'Water',
-        rank: 'S',
-        yokaiNumber1: '200',
-        yokaiNumber2: '304',
-        yokaiNumber3: '541',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5020',
-        hp: '1060',
-        spirit: '1220',
-        power: '760',
-        speed: '1180',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mermadonna.png',
+        description:
+            'This ancient Yo-kai is known for her beautiful, lustrous skin and is said to have the ability to grant immortality.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Saintly Scales',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Tail Slap',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Tidal Wave',
+            description: 'Sends foaming white waves smashing into all enemies.',
+            power: '190'
+        },
+        inspirit: {
+            name: 'Rejuvenate',
+            description:
+                'The Inspirited Yo-kai is rejuvenated and slowly regains HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '240',
+            str: '99',
+            spr: '137',
+            def: '100',
+            spd: '117'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Mermother',
-        tribe: 'Slippery',
+        yokaiNumber: '305',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermother.png',
-        attribute: 'Water',
-        rank: 'S',
-        yokaiNumber1: '200',
-        yokaiNumber2: '305',
-        yokaiNumber3: '542',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5260',
-        hp: '1060',
-        spirit: '1260',
-        power: '880',
-        speed: '1180',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mermother.png',
+        description:
+            'This special Yo-kai is the source of all life and claims to have given birth to the gods.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Mon Mystery Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Saintly Scales',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Tail Slap',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Big Wave',
+            description: 'Assails all enemies with colossal crashing waves.',
+            power: '200'
+        },
+        inspirit: {
+            name: 'Legend Power',
+            description:
+                'The Inspirited Yo-kai is granted immense power. All stats go up.',
+            power: '0'
+        },
+        stats: {
+            hp: '247',
+            str: '91',
+            spr: '143',
+            def: '113',
+            spd: '113'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Lady Longnek',
-        tribe: 'Slippery',
+        yokaiNumber: '306',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lady_longnek.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '200',
-        yokaiNumber2: '306',
-        yokaiNumber3: '546',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4170',
-        hp: '970',
-        spirit: '920',
-        power: '720',
-        speed: '920',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/lady_longnek.png',
+        description:
+            'She could pass for human if she were able to resist the urge to stretch out her superlong neck.',
+        locations: [
+            'Old Springdale - Gravestones',
+            'Old Springdale - Bamboo Groves',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Blasters - Crank-a-kai - Normal mission - Gold Orb',
+            'Blasters - Crank-a-kai - Normal mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Rubberneck',
+            description: 'Does not get dealtcritical damage.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: "Twist 'n' Tangle",
+            description: 'A neck-stretching strike that always hits home.',
+            power: '140 to 210'
+        },
+        inspirit: {
+            name: 'Necks Level',
+            description:
+                "The Inspirited Yo-kai's neck grows very slightly. DEF boosted.",
+            power: '0'
+        },
+        stats: {
+            hp: '220',
+            str: '96',
+            spr: '79',
+            def: '80',
+            spd: '94'
+        },
+        tribe: 'wicked',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Daiz',
-        tribe: 'Slippery',
+        yokaiNumber: '307',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/daiz.png',
-        attribute: 'Drain',
-        rank: 'C',
-        yokaiNumber1: '201',
-        yokaiNumber2: '307',
-        yokaiNumber3: '522',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4170',
-        hp: '970',
-        spirit: '920',
-        power: '720',
-        speed: '920',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/daiz.png',
+        description:
+            "Daiz just stares off into space, sometimes not moving for three whole days. What's he thinking about all that time...?",
+        locations: [
+            'Mt. Wildwood - Jumbo Slider',
+            'Yo-kai World - Liar Mountain',
+            'Mt.Wildwood - Crank-a-kai - Bird Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin',
+            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin'
+        ],
+        skill: {
+            name: 'Dodge',
+            description: 'All Soultimate Moveswill be dodged.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Spacing Out',
+            description:
+                'Sends an evil aura at foes. The aura will send them into a daze.',
+            power: '80'
+        },
+        inspirit: {
+            name: 'Generous Heart',
+            description: 'Makes an ally big- hearted and increases all stats.',
+            power: '0'
+        },
+        stats: {
+            hp: '225',
+            str: '26',
+            spr: '103',
+            def: '88',
+            spd: '144'
+        },
+        tribe: 'wicked',
+        element: 'drain',
+        weakness: 'nothing',
+        rank: 'c',
+        favouriteFood: 'candy'
     },
     {
         name: 'Confuze',
-        tribe: 'Slippery',
+        yokaiNumber: '308',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/confuze.png',
-        attribute: 'Drain',
-        rank: 'B',
-        yokaiNumber1: '201',
-        yokaiNumber2: '307',
-        yokaiNumber3: '522',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4170',
-        hp: '970',
-        spirit: '920',
-        power: '720',
-        speed: '920',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/confuze.png',
+        description:
+            "Confuze will make you  babble and mumble. He's the worst when you have to read aloud in class!",
+        locations: [
+            'Springdale Underground Waterway - Water',
+            'Mystery Way - Route 4',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
+            'Blasters - Crank-a-kai - Silver mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Dodge',
+            description: 'All Soultimate Moveswill be dodged.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Uh, Er... Hold On.',
+            description: 'Sends a dark aura at foes and puts them into a daze.',
+            power: '100'
+        },
+        inspirit: {
+            name: 'Faltering Heart',
+            description: 'Makes an enemy falter and lowers its stats.',
+            power: '0'
+        },
+        stats: {
+            hp: '214',
+            str: '88',
+            spr: '116',
+            def: '78',
+            spd: '109'
+        },
+        tribe: 'wicked',
+        element: 'drain',
+        weakness: 'nothing',
+        rank: 'b',
+        favouriteFood: 'candy'
     },
     {
         name: 'Chummer',
-        tribe: 'Slippery',
+        yokaiNumber: '309',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chummer.png',
-        attribute: 'Water',
-        rank: 'C',
-        yokaiNumber1: '203',
-        yokaiNumber2: '309',
-        yokaiNumber3: '554',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4110',
-        hp: '990',
-        spirit: '880',
-        power: '720',
-        speed: '880',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/chummer.png',
+        description:
+            "Chummer loves eating kids. He'll make them loiter after school before devouring them. He likes asparagus too.",
+        locations: [
+            'San Fantastico - Hidden Workshop',
+            'Mystery Way - Main Line',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Terror Time - Crank-a-kai - Red Oni Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb',
+            'Blasters - Crank-a-kai - Silver mission - Red Orb'
+        ],
+        skill: {
+            name: 'Loiterer',
+            description: 'Will recover a little HPwhen Loafing around.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Sharkskin Shield',
+            description: 'Draws attacks to himself and raises DEF.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Loitering',
+            description: 'Makes a foe want to loiter instead of fight.',
+            power: '0'
+        },
+        stats: {
+            hp: '234',
+            str: '99',
+            spr: '65',
+            def: '82',
+            spd: '89'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Shrook',
-        tribe: 'Slippery',
+        yokaiNumber: '310',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shrook.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '204',
-        yokaiNumber2: '310',
-        yokaiNumber3: '555',
-        yokaiFood1: 'Vegetables',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '4460',
-        hp: '1060',
-        spirit: '1020',
-        power: '680',
-        speed: '940',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/shrook.png',
+        description:
+            "Shrook will make you bad at whatever you're usually good at. He can make a master into a novice pretty quickly.",
+        locations: [
+            'San Fantastico - Seaside Cave',
+            'San Fantastico - Seaside Cave'
+        ],
+        skill: {
+            name: 'Shark Skin',
+            description: 'Skin deals damage toattacking foes.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Feeding Frenzy',
+            description:
+                'Voraciously devours enemy HP and divides it among his allies.',
+            power: '120 to 180'
+        },
+        inspirit: {
+            name: 'Amateur',
+            description:
+                'Turns a foe into an amateur and drops STR significantly.',
+            power: '0'
+        },
+        stats: {
+            hp: '265',
+            str: '116',
+            spr: '57',
+            def: '104',
+            spd: '80'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'vegetables'
     },
     {
         name: 'Spenp',
-        tribe: 'Slippery',
+        yokaiNumber: '311',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/spenp.png',
-        attribute: 'Wind',
-        rank: 'C',
-        yokaiNumber1: '205',
-        yokaiNumber2: '311',
-        yokaiNumber3: '556',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4330',
-        hp: '970',
-        spirit: '920',
-        power: '680',
-        speed: '840',
-        defence: '920'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/spenp.png',
+        description:
+            "Being Inspirited by Spenp will make you buy things you don't even want. Wave bye to your cash!",
+        locations: [
+            "Shopper's Row - Distributors",
+            "Shopper's Row - Garbages & Dumps",
+            'Gold-Gleaming Hwy. - Entrance',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Blasters - Crank-a-kai - Normal mission - Red Orb',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Matchless Shell',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Bank Breaker',
+            description:
+                'Makes his foes forget the value of money as they toss it away!',
+            power: '130'
+        },
+        inspirit: {
+            name: 'Wastefulness',
+            description:
+                'Makes an enemy waste its money by tossing it everywhere.',
+            power: '0'
+        },
+        stats: {
+            hp: '218',
+            str: '86',
+            spr: '78',
+            def: '119',
+            spd: '76'
+        },
+        tribe: 'wicked',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'c',
+        favouriteFood: 'breads'
     },
     {
         name: 'Almi',
-        tribe: 'Slippery',
+        yokaiNumber: '312',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/almi.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '206',
-        yokaiNumber2: '312',
-        yokaiNumber3: '557',
-        yokaiFood1: 'Breads',
-        yokaiFood2: 'Breads',
-        yokaiFood3: 'Breads',
-        baseStats: '4460',
-        hp: '1020',
-        spirit: '940',
-        power: '760',
-        speed: '940',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/almi.png',
+        description:
+            "When Almi Inspirits you, you'll want to treat others all the time. Your wallet will be empty before you know it.",
+        locations: [
+            "Shopper's Row - Distributors",
+            'Mystery Way - Crank-a-kai - Mystery Coin',
+            'Mystery Way - Crank-a-kai - Mystery Coin'
+        ],
+        skill: {
+            name: 'Matchless Shell',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Eternal Debt',
+            description:
+                'Sends foes into debt by scattering their money uncontrollably. ',
+            power: '160'
+        },
+        inspirit: {
+            name: 'So Generous',
+            description: 'Makes a Yo-kai scatter money everywhere.',
+            power: '0'
+        },
+        stats: {
+            hp: '226',
+            str: '80',
+            spr: '110',
+            def: '124',
+            spd: '73'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'breads'
     },
     {
         name: 'Babblong',
-        tribe: 'Slippery',
+        yokaiNumber: '313',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/babblong.png',
-        attribute: 'Water',
-        rank: 'C',
-        yokaiNumber1: '207',
-        yokaiNumber2: '313',
-        yokaiNumber3: '558',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '4150',
-        hp: '990',
-        spirit: '840',
-        power: '760',
-        speed: '920',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/babblong.png',
+        description:
+            "Don't agree to listen to Babblong or else he'll talk and talk and talk and talk and talk and talk. He's a terrible listener.",
+        locations: [
+            'Mt. Wildwood - Bamboo Groves',
+            'Excellent Tower - Brushwoods & Flowers',
+            'Excellent Tower - Garbages',
+            'Excellent Tower - Empty flats',
+            'Fleshy Souls Way - Exit',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Skilled Loafer',
+            description: 'Will recover a little HPwhen Loafing around.'
+        },
+        attack: {
+            name: 'Fullswing',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Babbleblast',
+            description:
+                'Slaps a foe with his nose. May cancel Soultimate Moves.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Keep Chatting',
+            description: 'Makes an enemy chitchat so much that it slows down.',
+            power: '0'
+        },
+        stats: {
+            hp: '224',
+            str: '100',
+            spr: '65',
+            def: '91',
+            spd: '96'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'candy'
     },
     {
         name: 'Bananose',
-        tribe: 'Slippery',
+        yokaiNumber: '314',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bananose.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '208',
-        yokaiNumber2: '314',
-        yokaiNumber3: '558',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Candies',
-        yokaiFood3: 'Candies',
-        baseStats: '3360',
-        hp: '880',
-        spirit: '680',
-        power: '520',
-        speed: '760',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/bananose.png',
+        description:
+            'This Yo-kai is made of banana and is often bothered by circling flies. No relation to Babblong.',
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Blasters - Crank-a-kai - Normal mission - Gold Orb',
+            'Blasters - Crank-a-kai - Normal mission - Gold Orb'
+        ],
+        skill: {
+            name: 'Skilled Loafer',
+            description: 'Will recover a little HPwhen Loafing around.'
+        },
+        attack: {
+            name: 'Fullswing',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Banana Splat',
+            description:
+                'Slaps a foe with his nose. May cancel Soultimate Moves.',
+            power: '200'
+        },
+        inspirit: {
+            name: 'Banana Power',
+            description:
+                "Boosts an ally's SPD with a great, healthy banana taste!",
+            power: '0'
+        },
+        stats: {
+            hp: '246',
+            str: '125',
+            spr: '92',
+            def: '88',
+            spd: '121'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'a',
+        favouriteFood: 'candy'
     },
     {
         name: 'Draaagin',
-        tribe: 'Slippery',
+        yokaiNumber: '315',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/draaagin.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '208',
-        yokaiNumber2: '315',
-        yokaiNumber3: '561',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Ramens',
-        yokaiFood3: 'Ramens',
-        baseStats: '3360',
-        hp: '880',
-        spirit: '680',
-        power: '520',
-        speed: '760',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/draaagin.png',
+        description:
+            "A desperately indecisive dragon. Don't expect that anything at all will get done when he's around.",
+        locations: [
+            'Downtown Springdale - Brushwoods & Flowers',
+            'Gera Gera Land',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)'
+        ],
+        skill: {
+            name: 'Just a Minute',
+            description: "Doesn't take an actionfor one to two turns."
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Aaand Release',
+            description:
+                'Finally gets around to breathing a burst of watery breath.',
+            power: '230'
+        },
+        inspirit: {
+            name: 'Maybe Later',
+            description:
+                'The Inspirited Yo-kai puts everything on hold and cannot move.',
+            power: '0'
+        },
+        stats: {
+            hp: '210',
+            str: '102',
+            spr: '123',
+            def: '108',
+            spd: '82'
+        },
+        tribe: 'wicked',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'ramens'
     },
     {
         name: 'SV Snaggerjag',
-        tribe: 'Slippery',
+        yokaiNumber: '316',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sv_snaggerjag.png',
-        attribute: 'Water',
-        rank: 'A',
-        yokaiNumber1: '226 (boss)',
-        yokaiNumber2: null,
-        yokaiNumber3: '568',
-        yokaiFood1: 'Candies',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '3360',
-        hp: '880',
-        spirit: '680',
-        power: '520',
-        speed: '760',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sv_snaggerjag.png',
+        description:
+            'Fish of all species have nothing but love and respect for this Yo-kai, who brings bad luck to anglers.',
+        locations: ['Quest - The Price of Iron', 'Quest - The Price of Iron'],
+        skill: {
+            name: 'Waterworks',
+            description: 'Water attacks restoreHP.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: "A Fisher's Life",
+            description:
+                'Hooks a huge whale that blasts foes with its watery breath.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Coast Guard',
+            description:
+                "The Inspirited Yo-kai's DEF goes up thanks to a lake guardian.",
+            power: '0'
+        },
+        stats: {
+            hp: '218',
+            str: '88',
+            spr: '128',
+            def: '85',
+            spd: '104'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'odens'
     },
     {
         name: 'Copperled',
-        tribe: 'Slippery',
+        yokaiNumber: '317',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/copperled.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '209',
-        yokaiNumber2: '317',
-        yokaiNumber3: '565',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '4620',
-        hp: '1020',
-        spirit: '980',
-        power: '760',
-        speed: '1100',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/copperled.png',
+        description:
+            "You just can't refuse orders from the fan on this old Yo-kai's tail. And he loves to micromanage everything he can!",
+        locations: [
+            'Mt. Wildwood - Bamboo Groves',
+            'Mt. Wildwood - Brushwoods',
+            'Gera Gera Land',
+            'Infinite Inferno - 6th Circle',
+            'Infinite Inferno - 7th Circle',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)'
+        ],
+        skill: {
+            name: 'Fire Watchout',
+            description: 'Takes less damagefrom Fire attacks.'
+        },
+        attack: {
+            name: 'Batter',
+            power: '15x3 to 33x3'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: "I'll Take the Lead!",
+            description:
+                "Gives an order that heightens allies' morale and STR.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Bossiness',
+            description:
+                'Makes a Yo-kai so bossy that everyone wants to attack it.',
+            power: '0'
+        },
+        stats: {
+            hp: '244',
+            str: '92',
+            spr: '77',
+            def: '88',
+            spd: '110'
+        },
+        tribe: 'wicked',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Cynake',
-        tribe: 'Slippery',
+        yokaiNumber: '318',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cynake.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '210',
-        yokaiNumber2: '318',
-        yokaiNumber3: '566',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '4520',
-        hp: '1000',
-        spirit: '1100',
-        power: '640',
-        speed: '980',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cynake.png',
+        description:
+            'This sulky snake Yo-kai will make you sulk at the slightest problem. Hmph!',
+        locations: [
+            'San Fantastico - Garbages',
+            'San Fantastico - Empty flats',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
+            'Blasters - Crank-a-kai - Brown mission - Stone Orb'
+        ],
+        skill: {
+            name: 'Greed',
+            description: 'Foe will be more proneto drop items.'
+        },
+        attack: {
+            name: 'Batter',
+            power: '15x3 to 33x3'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Sulky Soul',
+            description:
+                'Undoes all good effects on foes by making them overly cynical. ',
+            power: '130'
+        },
+        inspirit: {
+            name: 'Sulky',
+            description: 'Makes an enemy sulk and start attacking its friends.',
+            power: '0'
+        },
+        stats: {
+            hp: '230',
+            str: '74',
+            spr: '117',
+            def: '98',
+            spd: '88'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Slitheref',
-        tribe: 'Slippery',
+        yokaiNumber: '319',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slitheref.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '211',
-        yokaiNumber2: '319',
-        yokaiNumber3: '567',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '4680',
-        hp: '1040',
-        spirit: '960',
-        power: '840',
-        speed: '1000',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/slitheref.png',
+        description:
+            'When a battle starts, Slitheref will appear out of nowhere and make sure the fight stays fair and square.',
+        locations: [
+            'Harrisville - Brushwoods',
+            'Harrisville - Gravestones',
+            'Sawayama-jo - Area 1 - Brushwoods',
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Too Serious',
+            description: 'Will never Loaf.'
+        },
+        attack: {
+            name: 'Batter',
+            power: '15x3 to 33x3'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Venomous Feint',
+            description: 'Sprays a venomous wave that decreases enemy STR.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Pit Viper Venom',
+            description:
+                "Viper's venom Inspirits Yo-kai and its SPD decreases significantly.",
+            power: '0'
+        },
+        stats: {
+            hp: '248',
+            str: '105',
+            spr: '92',
+            def: '107',
+            spd: '98'
+        },
+        tribe: 'wicked',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Venoct',
-        tribe: 'Slippery',
+        yokaiNumber: '320',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/venoct.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '212',
-        yokaiNumber2: '320',
-        yokaiNumber3: '570',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '4980',
-        hp: '1060',
-        spirit: '1020',
-        power: '880',
-        speed: '1220',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/venoct.png',
+        description:
+            'An elite Yo-kai who fights with his dragon scarf. All of his abilities are truly first class.',
+        locations: [
+            'Quest - Enma and the Serpent',
+            'Quest - Enma and the Serpent'
+        ],
+        skill: {
+            name: 'Venocharge',
+            description: 'Soul Meter chargesfaster.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Octo Snake',
+            description:
+                'Repeatedly bites his foes with his aura- filled dragon scarf. ',
+            power: '25x10'
+        },
+        inspirit: {
+            name: "Venoct's Blessing",
+            description:
+                "Increases an ally's SPD under Venoct's careful watch.",
+            power: '0'
+        },
+        stats: {
+            hp: '252',
+            str: '130',
+            spr: '112',
+            def: '86',
+            spd: '143'
+        },
+        tribe: 'wicked',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'seafoods'
     },
     {
-        name: 'Shadow Venoct',
-        tribe: 'Slippery',
+        name: 'Shad. Venoct',
+        yokaiNumber: '321',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shadow_venoct.png',
-        attribute: 'Restoration',
-        rank: 'S',
-        yokaiNumber1: '213',
-        yokaiNumber2: '321',
-        yokaiNumber3: '571',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '1062',
-        hp: '400',
-        spirit: '215',
-        power: '198',
-        speed: '173',
-        defence: '76'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/shad._venoct.png',
+        description:
+            "Venoct's shadow, skilled in the deadly arts. Few who learn that he exists live long after that.",
+        locations: [
+            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
+            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
+            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
+            'Infinite Tunnel',
+            'Infinite Tunnel'
+        ],
+        skill: {
+            name: 'Secrecy',
+            description: 'Will not become targetof attacks.'
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Shadow Dragon',
+            description:
+                'Repeatedly bites his foes with his dragon scarf made of aura. ',
+            power: '24x10'
+        },
+        inspirit: {
+            name: 'Enshroud',
+            description:
+                'Makes enemies ignore an ally by making it shadowlike.',
+            power: '0'
+        },
+        stats: {
+            hp: '263',
+            str: '104',
+            spr: '126',
+            def: '90',
+            spd: '120'
+        },
+        tribe: 'wicked',
+        element: 'restoration',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Shogunyan',
-        tribe: 'Brave',
+        yokaiNumber: '322',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shogunyan.png',
-        attribute: 'Wind',
-        rank: 'S',
-        yokaiNumber1: '214',
-        yokaiNumber2: '322',
-        yokaiNumber3: '608',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '5330',
-        hp: '1520',
-        spirit: '570',
-        power: '1330',
-        speed: '1110',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/shogunyan.png',
+        description:
+            'This ancestor of Jibanyan owns a sword so sharp it ------------------------------ can even slice this description in two!',
+        locations: ['Medallium.', 'Medallium.'],
+        skill: {
+            name: 'Extreme Critical',
+            description: 'Power of criticalattacks is high.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Bonito Blade',
+            description:
+                'Cuts his opponents\u2014 not with his claws, but with his trusty sword.',
+            power: '25x10'
+        },
+        inspirit: {
+            name: 'Heart of a Warrior',
+            description:
+                'Gives an ally the heart of a warrior and raises its STR. ',
+            power: '0'
+        },
+        stats: {
+            hp: '256',
+            str: '153',
+            spr: '87',
+            def: '92',
+            spd: '151'
+        },
+        tribe: 'brave',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 's',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Komashura',
-        tribe: 'Mysterious',
+        yokaiNumber: '323',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komashura.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '215',
-        yokaiNumber2: '323',
-        yokaiNumber3: '609',
-        yokaiFood1: 'Milks',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '4960',
-        hp: '1040',
-        spirit: '1350',
-        power: '610',
-        speed: '1160',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/komashura.png',
+        description:
+            'A legendary Komasan with the heart of a greater demon. He scorches his foes with infernal flame.',
+        locations: ['Medallium.', 'Medallium.'],
+        skill: {
+            name: 'Blazing Spirit',
+            description: 'Power increases whenan ally is defeated.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Shura Shower',
+            description: 'Broils all of his foes with fearsome flames.',
+            power: '170 to 255'
+        },
+        inspirit: {
+            name: 'Burly Power',
+            description:
+                'Fills an ally with a legendary burliness that raises its SPR.',
+            power: '0'
+        },
+        stats: {
+            hp: '267',
+            str: '86',
+            spr: '173',
+            def: '91',
+            spd: '123'
+        },
+        tribe: 'mysterious',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'milks'
     },
     {
         name: 'Gilgaros',
-        tribe: 'Tough',
+        yokaiNumber: '324',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gilgaros.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '218',
-        yokaiNumber2: '324',
-        yokaiNumber3: '610',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5340',
-        hp: '1140',
-        spirit: '570',
-        power: '1340',
-        speed: '920',
-        defence: '1370'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gilgaros.png',
+        description:
+            'The strongest Oni ever born. His power is so great that it needs no explanation. None. At all. Even this is too much...',
+        locations: ['Medallium.', 'Medallium.'],
+        skill: {
+            name: 'Extreme Critical',
+            description: 'Power of criticalattacks is high.'
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Golden Beatdown',
+            description:
+                'Crushes a single foe with all the might of a legendary Oni.',
+            power: '350'
+        },
+        inspirit: {
+            name: 'Power of Terror',
+            description: 'Gives an ally the insane DEF of an Oni.',
+            power: '0'
+        },
+        stats: {
+            hp: '318',
+            str: '190',
+            spr: '48',
+            def: '126',
+            spd: '96'
+        },
+        tribe: 'tough',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'meats'
     },
     {
         name: 'Spoilerina',
-        tribe: 'Charming',
+        yokaiNumber: '325',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/spoilerina.png',
-        attribute: 'Wind',
-        rank: 'S',
-        yokaiNumber1: '218',
-        yokaiNumber2: '325',
-        yokaiNumber3: '611',
-        yokaiFood1: 'Meats',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5780',
-        hp: '1310',
-        spirit: '880',
-        power: '1030',
-        speed: '1530',
-        defence: '1030'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/spoilerina.png',
+        description:
+            "There's nothing worse than a spoiler, but that doesn't stop Spoilerina from spilling the beans at the first opportunity.",
+        locations: ['Medallium.', 'Medallium.'],
+        skill: {
+            name: 'Twinkle Toes',
+            description: 'Dodges and returnsevery enemy attack.'
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Finale Spoiler',
+            description:
+                'A divine dance that heals HP and maxes out all stats.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Spoiler Spiller',
+            description:
+                'The Inspirited Yo-kai keeps giving spoilers and is always targeted.',
+            power: '0'
+        },
+        stats: {
+            hp: '254',
+            str: '94',
+            spr: '127',
+            def: '92',
+            spd: '169'
+        },
+        tribe: 'charming',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 's',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Elder Bloom',
-        tribe: 'Heartful',
+        yokaiNumber: '326',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/elder_bloom.png',
-        attribute: 'Restoration',
-        rank: 'S',
-        yokaiNumber1: '216',
-        yokaiNumber2: '326',
-        yokaiNumber3: '612',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '5300',
-        hp: '1710',
-        spirit: '1150',
-        power: '610',
-        speed: '1030',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/elder_bloom.png',
+        description:
+            'This legendary Hungramps supposedly once filled a city with spirit-invigorating cherry blossoms.',
+        locations: ['Medallium.', 'Medallium.'],
+        skill: {
+            name: 'Caring',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Full Bloom',
+            description:
+                'Revives allies and restores their HP with cherry-blossom power.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Miracle Blossom',
+            description: "Greatly improves an ally's SPD with cherry blossoms!",
+            power: '0'
+        },
+        stats: {
+            hp: '241',
+            str: '89',
+            spr: '161',
+            def: '98',
+            spd: '148'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Poofessor',
-        tribe: 'Shady',
+        yokaiNumber: '327',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/poofessor.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '216',
-        yokaiNumber2: '327',
-        yokaiNumber3: '613',
-        yokaiFood1: 'Rice Balls',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '5910',
-        hp: '1100',
-        spirit: '1520',
-        power: '1040',
-        speed: '1220',
-        defence: '1030'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/poofessor.png',
+        description:
+            'He insists on "sharing" his trivial knowledge, much to the annoyance of anyone who\'s forced to listen.',
+        locations: ['Medallium.', 'Medallium.'],
+        skill: {
+            name: 'Biochemistry',
+            description: 'Removes elements from all Yo-kai attacks.'
+        },
+        attack: {
+            name: 'Pointy Pokes',
+            power: '12x3 to 26x3'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Pooped Out',
+            description:
+                'A wave of woe hits all foes and can confuse them too.',
+            power: '150'
+        },
+        inspirit: {
+            name: 'Info Dump',
+            description:
+                "The Inspirited Yo-kai can only recite poo facts and can't act.",
+            power: '0'
+        },
+        stats: {
+            hp: '277',
+            str: '140',
+            spr: '126',
+            def: '67',
+            spd: '127'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'curries'
     },
     {
         name: 'Dandoodle',
-        tribe: 'Eerie',
+        yokaiNumber: '328',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dandoodle.png',
-        attribute: 'Restoration',
-        rank: 'S',
-        yokaiNumber1: '217',
-        yokaiNumber2: '328',
-        yokaiNumber3: '614',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '5400',
-        hp: '1250',
-        spirit: '1220',
-        power: '910',
-        speed: '960',
-        defence: '1060'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dandoodle.png',
+        description:
+            "A legendary Manjimutt that, through some sort of mistake, got handsome. His smile's so soothing!",
+        locations: ['Medallium.', 'Medallium.'],
+        skill: {
+            name: 'Popularity',
+            description: 'Makes more foesbefriend you.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Handsome Grin',
+            description:
+                'Fully recovers HP of his allies with a truly handsome smile.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Healing Air',
+            description:
+                "Steadily recovers an ally's HP with the power of a dandy!",
+            power: '0'
+        },
+        stats: {
+            hp: '272',
+            str: '95',
+            spr: '134',
+            def: '81',
+            spd: '156'
+        },
+        tribe: 'slippery',
+        element: 'restoration',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Slurpent',
-        tribe: 'Slippery',
+        yokaiNumber: '329',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slurpent.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '217',
-        yokaiNumber2: '329',
-        yokaiNumber3: '615',
-        yokaiFood1: 'Chinese foods',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5780',
-        hp: '1100',
-        spirit: '1380',
-        power: '1080',
-        speed: '1340',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/slurpent.png',
+        description:
+            'Slurpent is formed from eight dragons, each with a different personality.',
+        locations: ['Medallium.', 'Medallium.'],
+        skill: {
+            name: 'Tongue Twister',
+            description: "Ignore foe's guardeffect when attacking."
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: "Lick 'Em Good!",
+            description:
+                'Licks all enemies with eight tongues and then chews them up.',
+            power: '32x8'
+        },
+        inspirit: {
+            name: 'Slurperpowers',
+            description:
+                "The Inspirited Yo-kai's stats don't increase a lot, just a little.",
+            power: '0'
+        },
+        stats: {
+            hp: '332',
+            str: '141',
+            spr: '142',
+            def: '86',
+            spd: '122'
+        },
+        tribe: 'wicked',
+        element: 'drain',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'meats'
     },
     {
         name: 'Sapphinyan',
-        tribe: 'Charming',
+        yokaiNumber: '330',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sapphinyan.png',
-        attribute: 'Water',
-        rank: 'A',
-        yokaiNumber1: '219',
-        yokaiNumber2: '330',
-        yokaiNumber3: '284',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5200',
-        hp: '1220',
-        spirit: '920',
-        power: '900',
-        speed: '1260',
-        defence: '900'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sapphinyan.png',
+        description:
+            'Jibanyan made of sapphire. His body is the color of a clear ocean on a beautiful summer day.',
+        locations: [
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin'
+        ],
+        skill: {
+            name: 'Linked Together',
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Pure-Blue Paws',
+            description:
+                'Attacks all opponents with his beautiful sapphire paws.',
+            power: '15x10 to 22x10'
+        },
+        inspirit: {
+            name: 'Sapphire Power',
+            description:
+                "Makes all of an ally's stats shine like a glowing sapphire.",
+            power: '0'
+        },
+        stats: {
+            hp: '230',
+            str: '83',
+            spr: '132',
+            def: '90',
+            spd: '119'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Emenyan',
-        tribe: 'Charming',
+        yokaiNumber: '331',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/emenyan.png',
-        attribute: 'Restoration',
-        rank: 'A',
-        yokaiNumber1: '220',
-        yokaiNumber2: '331',
-        yokaiNumber3: '285',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5220',
-        hp: '1200',
-        spirit: '840',
-        power: '940',
-        speed: '1300',
-        defence: '940'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/emenyan.png',
+        description:
+            "Jibanyan made of emerald. If you could sell him, he'd be worth more  than 100 million dollars.",
+        locations: [
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin'
+        ],
+        skill: {
+            name: 'Linked Together',
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Cutie Paws',
+            description:
+                'Attacks all opponents with his adorable emerald paws.',
+            power: '15x10 to 22x10'
+        },
+        inspirit: {
+            name: 'Emerald Power',
+            description:
+                "Makes all of an ally's stats shine like a beautiful emerald.",
+            power: '0'
+        },
+        stats: {
+            hp: '221',
+            str: '96',
+            spr: '122',
+            def: '97',
+            spd: '121'
+        },
+        tribe: 'charming',
+        element: 'restoration',
+        weakness: 'nothing',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Rubinyan',
-        tribe: 'Charming',
+        yokaiNumber: '332',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rubinyan.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '221',
-        yokaiNumber2: '332',
-        yokaiNumber3: '286',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5220',
-        hp: '1280',
-        spirit: '760',
-        power: '1100',
-        speed: '1180',
-        defence: '900'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rubinyan.png',
+        description:
+            'Jibanyan made of ruby. Fire-like light reflects off of him as he fights.',
+        locations: [
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
+            'Mystery Way - Crank-a-kai - Boar Mystery Coin'
+        ],
+        skill: {
+            name: 'Linked Together',
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Ruby Boogie',
+            description: 'Attacks all opponents with shiny ruby paws.',
+            power: '15x10 to 22x10'
+        },
+        inspirit: {
+            name: 'Ruby Power',
+            description: "Makes all of an ally's stats shine like a ruby.",
+            power: '0'
+        },
+        stats: {
+            hp: '248',
+            str: '133',
+            spr: '86',
+            def: '87',
+            spd: '104'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Topanyan',
-        tribe: 'Charming',
+        yokaiNumber: '333',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/topanyan.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '222',
-        yokaiNumber2: '333',
-        yokaiNumber3: '287',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5320',
-        hp: '1260',
-        spirit: '800',
-        power: '980',
-        speed: '1260',
-        defence: '1020'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/topanyan.png',
+        description:
+            'Jibanyan made of topaz. Making friends with him means you have inherently good luck.',
+        locations: [
+            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
+            'Mystery Way - Crank-a-kai - Deer Mystery Coin'
+        ],
+        skill: {
+            name: 'Linked Together',
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Glittering Paws',
+            description: 'Attacks all opponents with rich topaz paws.',
+            power: '15x10 to 22x10'
+        },
+        inspirit: {
+            name: 'Topaz Power',
+            description: "Makes all of an ally's stats shine like topaz.",
+            power: '0'
+        },
+        stats: {
+            hp: '264',
+            str: '100',
+            spr: '65',
+            def: '131',
+            spd: '90'
+        },
+        tribe: 'charming',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Dianyan',
-        tribe: 'Charming',
+        yokaiNumber: '334',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dianyan.png',
-        attribute: 'Ice',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '334',
-        yokaiNumber3: '288',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5220',
-        hp: '1240',
-        spirit: '800',
-        power: '980',
-        speed: '1220',
-        defence: '980'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dianyan.png',
+        description:
+            "Jibanyan made of diamonds. He's said to be the most lavish, timeless, and romantic Yo-kai. Do you think so? I do!",
+        locations: [
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
+            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin'
+        ],
+        skill: {
+            name: 'Linked Together',
+            description: 'Stat boosts for adjacentYo-kai with same Skill.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Blizzard',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Perfect Paws',
+            description:
+                'Attacks all opponents with his unbreakable diamond paws.',
+            power: '15x10 to 22x10'
+        },
+        inspirit: {
+            name: 'Diamond Power',
+            description:
+                "Makes all of an ally's stats shine like a pure diamond.",
+            power: '0'
+        },
+        stats: {
+            hp: '240',
+            str: '99',
+            spr: '93',
+            def: '90',
+            spd: '132'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Melonyan',
-        tribe: 'Charming',
+        yokaiNumber: '335',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/melonyan.png',
-        attribute: 'Ice',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '335',
-        yokaiNumber3: '278',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5280',
-        hp: '1220',
-        spirit: '840',
-        power: '980',
-        speed: '1260',
-        defence: '980'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/melonyan.png',
+        description:
+            "A juicy Yo-kai who's been known to fetch a high price, he thinks less of other fruit as a result.",
+        locations: [
+            'Scan QR Code for daily fight in Harrisville School.',
+            'Scan QR Code for daily fight in Harrisville School.'
+        ],
+        skill: {
+            name: 'Juicy Goodness',
+            description: "When defeated, allies'Soul Meters are filled."
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Melon Masher',
+            description:
+                'Pummels all enemies with paws powered by pure melon juice.',
+            power: '22x10'
+        },
+        inspirit: {
+            name: 'Melon Juice',
+            description: "Melon juice gradually restores an ally's HP.",
+            power: '0'
+        },
+        stats: {
+            hp: '227',
+            str: '106',
+            spr: '107',
+            def: '102',
+            spd: '104'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Oranyan',
-        tribe: 'Charming',
+        yokaiNumber: '336',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/oranyan.png',
-        attribute: 'Lightning',
-        rank: 'B',
-        yokaiNumber1: '223',
-        yokaiNumber2: '336',
-        yokaiNumber3: '279',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5040',
-        hp: '1230',
-        spirit: '800',
-        power: '930',
-        speed: '1190',
-        defence: '890'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/oranyan.png',
+        description:
+            'More orange than cat, this Yo-kai would rather sleep in a bowl than knock it off the table.',
+        locations: [
+            'Scan QR Code for daily fight in Harrisville School.',
+            'Scan QR Code for daily fight in Harrisville School.'
+        ],
+        skill: {
+            name: 'Juicy Goodness',
+            description: "When defeated, allies'Soul Meters are filled."
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Vitameow C',
+            description: 'Heals all allies with a burst of pure vitamin C.',
+            power: '150'
+        },
+        inspirit: {
+            name: 'Juiced Up',
+            description:
+                'Greatly boosts STR with a burst of pure, strong vitamin C.',
+            power: '0'
+        },
+        stats: {
+            hp: '241',
+            str: '108',
+            spr: '85',
+            def: '68',
+            spd: '105'
+        },
+        tribe: 'charming',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Kiwinyan',
-        tribe: 'Charming',
+        yokaiNumber: '337',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kiwinyan.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '336',
-        yokaiNumber3: '279',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5000',
-        hp: '1190',
-        spirit: '760',
-        power: '930',
-        speed: '1190',
-        defence: '930'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kiwinyan.png',
+        description:
+            'This kiwi-kitty combo has a charming furry coat that can soften the blows of attacking foes.',
+        locations: [
+            'Scan QR Code for daily fight in Harrisville School.',
+            'Scan QR Code for daily fight in Harrisville School.'
+        ],
+        skill: {
+            name: 'Juicy Goodness',
+            description: "When defeated, allies'Soul Meters are filled."
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Stubble Barrier',
+            description: 'Maxes DEF with his tiny hairs and attracts attacks.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Fur Coat',
+            description: "Greatly boosts an ally's DEF with kiwi fuzz.",
+            power: '0'
+        },
+        stats: {
+            hp: '215',
+            str: '121',
+            spr: '69',
+            def: '94',
+            spd: '103'
+        },
+        tribe: 'charming',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Grapenyan',
-        tribe: 'Charming',
+        yokaiNumber: '338',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grapenyan.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '338',
-        yokaiNumber3: '281',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '4940',
-        hp: '1170',
-        spirit: '800',
-        power: '890',
-        speed: '1190',
-        defence: '890'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/grapenyan.png',
+        description:
+            "Grapenyan's aroma drives the ladies crazy, and boy does this narcissistic Yo-kai know it!",
+        locations: [
+            'Scan QR Code for daily fight in Harrisville School.',
+            'Scan QR Code for daily fight in Harrisville School.'
+        ],
+        skill: {
+            name: 'Juicy Goodness',
+            description: "When defeated, allies'Soul Meters are filled."
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Grape Buddies',
+            description: 'Confuses all foes with a waft of fruity goodness.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Feeling Grape',
+            description: "Delicious grape juice greatly boosts an ally's SPR.",
+            power: '0'
+        },
+        stats: {
+            hp: '211',
+            str: '73',
+            spr: '122',
+            def: '87',
+            spd: '107'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Strawbnyan',
-        tribe: 'Charming',
+        yokaiNumber: '339',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/strawbnyan.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '339',
-        yokaiNumber3: '282',
-        yokaiFood1: 'Seafoods',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5080',
-        hp: '1190',
-        spirit: '800',
-        power: '930',
-        speed: '1230',
-        defence: '930'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/strawbnyan.png',
+        description:
+            "This Yo-kai knows that there's no honor greater than being placed on top of a shortcake!",
+        locations: [
+            'Scan QR Code for daily fight in Harrisville School.',
+            'Scan QR Code for daily fight in Harrisville School.'
+        ],
+        skill: {
+            name: 'Juicy Goodness',
+            description: "When defeated, allies'Soul Meters are filled."
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Strawberry Roar',
+            description:
+                'Damages all enemies with a blast of strawberry breath.',
+            power: '140 to 210'
+        },
+        inspirit: {
+            name: 'Strawburst',
+            description: "Sweet strawberry juice greatly boosts an ally's SPD.",
+            power: '0'
+        },
+        stats: {
+            hp: '216',
+            str: '94',
+            spr: '101',
+            def: '72',
+            spd: '126'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Watermelnyan',
-        tribe: 'Charming',
+        yokaiNumber: '340',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/watermelnyan.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '340',
-        yokaiNumber3: '283',
-        yokaiFood1: 'Chocobars',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5460',
-        hp: '1240',
-        spirit: '840',
-        power: '1020',
-        speed: '1300',
-        defence: '1060'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/watermelnyan.png',
+        description:
+            "This juicy Yo-kai lives in fear of being sliced up and served for dessert on a hot summer's day.",
+        locations: [
+            'Scan QR Code for daily fight in Harrisville School.',
+            'Scan QR Code for daily fight in Harrisville School.'
+        ],
+        skill: {
+            name: 'Juicy Goodness',
+            description: "When defeated, allies'Soul Meters are filled."
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Seed Nyattack',
+            description: 'Spits a string of stinging seeds at all enemies.',
+            power: '32x7'
+        },
+        inspirit: {
+            name: "Watermaulin'",
+            description: "Watermelon juice greatly boosts an ally's STR.",
+            power: '0'
+        },
+        stats: {
+            hp: '220',
+            str: '111',
+            spr: '93',
+            def: '132',
+            spd: '101'
+        },
+        tribe: 'charming',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Robokapp',
-        tribe: 'Charming',
+        yokaiNumber: '341',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robokapp.png',
-        attribute: 'Water',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '340',
-        yokaiNumber3: '283',
-        yokaiFood1: 'Chocobars',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5460',
-        hp: '1240',
-        spirit: '840',
-        power: '1020',
-        speed: '1300',
-        defence: '1060'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/robokapp.png',
+        description:
+            'A robotic Walkappa from the future. A ring of unbreakable titanium protects his cranium.',
+        locations: [
+            'Scan QR Code for a daily fight at Green Street Station.',
+            'Scan QR Code for a daily fight at Green Street Station.'
+        ],
+        skill: {
+            name: 'Polarity',
+            description: 'Builds STR as SoulMeter refills.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Kappa Cutter',
+            description: 'Attacks all enemies with a hidden razor blade.',
+            power: '30x7'
+        },
+        inspirit: {
+            name: 'Steel Power',
+            description:
+                "The Inspirited Yo-kai's DEF is boosted by the steel power of robots.",
+            power: '0'
+        },
+        stats: {
+            hp: '221',
+            str: '104',
+            spr: '115',
+            def: '110',
+            spd: '112'
+        },
+        tribe: 'charming',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'a',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Robokoma',
-        tribe: 'Charming',
+        yokaiNumber: '342',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robokoma.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '342',
-        yokaiNumber3: '290',
-        yokaiFood1: 'Chocobars',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '5120',
-        hp: '1260',
-        spirit: '840',
-        power: '900',
-        speed: '1220',
-        defence: '900'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/robokoma.png',
+        description:
+            'A robotic Komasan from the future. Not only does he still find city life hard, but now he has to worry about his battery too...',
+        locations: [
+            'Scan QR Code for a daily fight at Hibarly Hills Station.',
+            'Scan QR Code for a daily fight at Hibarly Hills Station.'
+        ],
+        skill: {
+            name: 'Polarity',
+            description: 'Builds STR as SoulMeter refills.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Koma Kannon',
+            description: 'Attacks a single foe with a beam of country power!',
+            power: '260'
+        },
+        inspirit: {
+            name: 'Steel Power',
+            description:
+                "The Inspirited Yo-kai's DEF gets a big boost due to steely robot power.",
+            power: '0'
+        },
+        stats: {
+            hp: '217',
+            str: '90',
+            spr: '128',
+            def: '106',
+            spd: '120'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'milks'
     },
     {
         name: 'Robogramps',
-        tribe: 'Heartful',
+        yokaiNumber: '343',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robogramps.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '343',
-        yokaiNumber3: '361',
-        yokaiFood1: '',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '4860',
-        hp: '1650',
-        spirit: '930',
-        power: '590',
-        speed: '890',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/robogramps.png',
+        description:
+            'A robotic Hungramps from the future. Even in robotic form, his appetite is as insatiable as ever.',
+        locations: [
+            'Scan QR Code for a daily fight at Temple Park Station.',
+            'Scan QR Code for a daily fight at Temple Park Station.'
+        ],
+        skill: {
+            name: 'Polarity',
+            description: 'Builds STR as SoulMeter refills.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Eat This!',
+            description: 'Attacks a single foe with a beam of advanced hunger.',
+            power: '230'
+        },
+        inspirit: {
+            name: 'Steel Power',
+            description:
+                "The Inspirited Yo-kai's DEF gets a big boost due to steely robot power.",
+            power: '0'
+        },
+        stats: {
+            hp: '208',
+            str: '95',
+            spr: '111',
+            def: '104',
+            spd: '101'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Robomutt',
-        tribe: 'Eerie',
+        yokaiNumber: '344',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robomutt.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '344',
-        yokaiNumber3: '493',
-        yokaiFood1: '',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '4860',
-        hp: '1650',
-        spirit: '930',
-        power: '590',
-        speed: '890',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/robomutt.png',
+        description:
+            "A robotic Manjimutt from the future. There's nothing even faintly human about him anymore.",
+        locations: [
+            'Scan QR Code for a daily fight at Bayside Station.',
+            'Scan QR Code for a daily fight at Bayside Station.'
+        ],
+        skill: {
+            name: 'Polarity',
+            description: 'Builds STR as SoulMeter refills.'
+        },
+        attack: {
+            name: 'Chomp',
+            power: '45 to 99'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: "Pooch a' Splode",
+            description: 'Explodes and damages all enemies and allies.',
+            power: '250'
+        },
+        inspirit: {
+            name: 'Steel Power',
+            description:
+                "The Inspirited Yo-kai's DEF gets a big boost due to steely robot power.",
+            power: '0'
+        },
+        stats: {
+            hp: '220',
+            str: '107',
+            spr: '72',
+            def: '97',
+            spd: '119'
+        },
+        tribe: 'slippery',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'curries'
     },
     {
         name: 'Robonoko',
-        tribe: 'Slippery',
+        yokaiNumber: '345',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robonoko.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '345',
-        yokaiNumber3: '562',
-        yokaiFood1: '',
-        yokaiFood2: 'Hamburgers',
-        yokaiFood3: 'Hamburgers',
-        baseStats: '4860',
-        hp: '1650',
-        spirit: '930',
-        power: '590',
-        speed: '890',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/robonoko.png',
+        description:
+            'This robotic Noko from the future has the ability to blend into the background, avoiding detection.',
+        locations: [
+            'Scan QR Code for a daily fight at Dingle Falls Station.',
+            'Scan QR Code for a daily fight at Dingle Falls Station.'
+        ],
+        skill: {
+            name: 'Polarity',
+            description: 'Builds STR as SoulMeter refills.'
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Soothing Smile',
+            description: "An awkward robotic smile recovers all allies' HP.",
+            power: '150'
+        },
+        inspirit: {
+            name: 'Steel Power',
+            description:
+                "The Inspirited Yo-kai's DEF gets a big boost due to steely robot power.",
+            power: '0'
+        },
+        stats: {
+            hp: '199',
+            str: '39',
+            spr: '115',
+            def: '129',
+            spd: '138'
+        },
+        tribe: 'wicked',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'hamburgers'
     },
     {
         name: 'Robodraggie',
-        tribe: 'Slippery',
+        yokaiNumber: '346',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robodraggie.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '346',
-        yokaiNumber3: '562',
-        yokaiFood1: '',
-        yokaiFood2: 'Chinese foods',
-        yokaiFood3: 'Chinese foods',
-        baseStats: '612',
-        hp: '199',
-        spirit: '123',
-        power: '70',
-        speed: '110',
-        defence: '110'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/robodraggie.png',
+        description:
+            "A steel-bodied robot Draggie. Becoming Dragon Lord is beyond him now, but he's still quite powerful.",
+        locations: [
+            'Scan QR Code for a daily fight at Ridgemont Station.',
+            'Scan QR Code for a daily fight at Ridgemont Station.'
+        ],
+        skill: {
+            name: 'Polarity',
+            description: 'Builds STR as SoulMeter refills.'
+        },
+        attack: {
+            name: 'Headsmack',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Dragonic Burn',
+            description:
+                'Beams of futuristic dragon energy blast a single foe.',
+            power: '230'
+        },
+        inspirit: {
+            name: 'Steel Power',
+            description:
+                "The Inspirited Yo-kai's DEF gets a big boost due to steely robot power.",
+            power: '0'
+        },
+        stats: {
+            hp: '207',
+            str: '69',
+            spr: '127',
+            def: '113',
+            spd: '115'
+        },
+        tribe: 'wicked',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Wondernyan',
-        tribe: 'Charming',
+        yokaiNumber: '347',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wondernyan.png',
-        attribute: 'Drain',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '347',
-        yokaiNumber3: '270',
-        yokaiFood1: '',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '910',
-        hp: '360',
-        spirit: '40',
-        power: '210',
-        speed: '180',
-        defence: '120'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wondernyan.png',
+        description:
+            'Never without his bandanna and sword, this wandering Jibanyan has visited many distant lands.',
+        locations: [
+            'Scan QR Code for a daily fight on Mt. Middleton.',
+            'Scan QR Code for a daily fight on Mt. Middleton.'
+        ],
+        skill: {
+            name: 'Long Lasting',
+            description: 'Good Inspirits will lastlonger.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Absorb',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Vagabond Blade',
+            description: "Slices all foes with his beloved wanderer's sword.",
+            power: '15x10 to 22x10'
+        },
+        inspirit: {
+            name: 'Wanderlust',
+            description:
+                "The Inspirited Yo-kai's adventurous spirit rises and with it, its STR.",
+            power: '0'
+        },
+        stats: {
+            hp: '233',
+            str: '120',
+            spr: '95',
+            def: '72',
+            spd: '112'
+        },
+        tribe: 'charming',
+        element: 'drain',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Robonyan F',
-        tribe: 'Tough',
+        yokaiNumber: '348',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robonyan_f.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '348',
-        yokaiNumber3: '195',
-        yokaiFood1: '',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '4940',
-        hp: '1060',
-        spirit: '540',
-        power: '1200',
-        speed: '800',
-        defence: '1340'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/robonyan_f.png',
+        description:
+            "Robonyan's latest model is leaner and meaner than ever now that all the unnecessary extras are gone.",
+        locations: [
+            'Buy Bony Spirits digitally for a daily fight in Springdale Elementary science lab.',
+            'Buy Bony Spirits digitally for a daily fight in Springdale Elementary science lab.'
+        ],
+        skill: {
+            name: 'Polarity',
+            description: 'Builds STR as SoulMeter refills.'
+        },
+        attack: {
+            name: 'Rocket Punch',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Farewell Blast',
+            description: 'Explodes and damages all enemies and allies.',
+            power: '300'
+        },
+        inspirit: {
+            name: 'System Upgrade',
+            description:
+                "The Inspirited Yo-kai's DEF goes up thanks to the latest firmware.",
+            power: '0'
+        },
+        stats: {
+            hp: '267',
+            str: '132',
+            spr: '65',
+            def: '113',
+            spd: '92'
+        },
+        tribe: 'tough',
+        element: 'ice',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Sailornyan',
-        tribe: 'Charming',
+        yokaiNumber: '349',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sailornyan.png',
-        attribute: 'Restoration',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '349',
-        yokaiNumber3: '291',
-        yokaiFood1: '',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5060',
-        hp: '1240',
-        spirit: '880',
-        power: '860',
-        speed: '1220',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sailornyan.png',
+        description:
+            "Sailornyan makes the most of her charms and is a much-loved member of her ship's crew.",
+        locations: [
+            'Buy Fleshy Souls digitally for a daily fight at Springdale Elementary 3F.',
+            'Buy Fleshy Souls digitally for a daily fight at Springdale Elementary 3F.'
+        ],
+        skill: {
+            name: 'Healer Moon',
+            description: "When in back, slowlyrefills front row's HP."
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Paradise',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Lovely Meow',
+            description:
+                'The potent power of feline femininity heals all allies.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Girl Power',
+            description:
+                'The Inspirited Yo-kai slowly regains HP due to excess girl power.',
+            power: '0'
+        },
+        stats: {
+            hp: '228',
+            str: '82',
+            spr: '130',
+            def: '95',
+            spd: '122'
+        },
+        tribe: 'charming',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Machonyan',
-        tribe: 'Brave',
+        yokaiNumber: '350',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/machonyan.png',
-        attribute: 'Lightning',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '350',
-        yokaiNumber3: '056',
-        yokaiFood1: '',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5210',
-        hp: '1510',
-        spirit: '580',
-        power: '1340',
-        speed: '980',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/machonyan.png',
+        description:
+            "Machonyan's mask hides the scars he suffered during his time as a wrestler-in-training.",
+        locations: [
+            'Buy Psychic Specters digitally for a daily fight at Springdale Elementary Gym.',
+            'Buy Psychic Specters digitally for a daily fight at Springdale Elementary Gym.'
+        ],
+        skill: {
+            name: 'Purrsistence',
+            description: 'Retains 1 HP after aknockout blow twice.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Shock',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Tiger Meow',
+            description:
+                'Dives off the ropes to attack so hard he hurts himself.',
+            power: '210'
+        },
+        inspirit: {
+            name: 'Tiger Power',
+            description:
+                'The Inspirited Yo-kai gains STR with all the power of a tiger.',
+            power: '0'
+        },
+        stats: {
+            hp: '277',
+            str: '134',
+            spr: '62',
+            def: '86',
+            spd: '105'
+        },
+        tribe: 'brave',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Hovernyan',
-        tribe: 'Brave',
+        yokaiNumber: '351',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hovernyan.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '351',
-        yokaiNumber3: '047',
-        yokaiFood1: '',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '5210',
-        hp: '1510',
-        spirit: '580',
-        power: '1340',
-        speed: '980',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hovernyan.png',
+        description:
+            "Despite being able to float, Hovernyan's very down to earth. His forehead scar reminds him of his fallibility.",
+        locations: [
+            'Scan QR Code for a daily fight at Past Ninja Forest.',
+            'Scan QR Code for a daily fight at Past Ninja Forest.'
+        ],
+        skill: {
+            name: 'Acrobat',
+            description: 'Counterattacks rightafter dodging enemy.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Gusty Cross Paw',
+            description:
+                'Builds up and then hits a single foe with a stunning tackle.',
+            power: '180'
+        },
+        inspirit: {
+            name: 'Pal Power',
+            description:
+                'The Inspirited Yo-kai becomes a faithful friend. STR increases.',
+            power: '0'
+        },
+        stats: {
+            hp: '215',
+            str: '124',
+            spr: '89',
+            def: '67',
+            spd: '135'
+        },
+        tribe: 'brave',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Darknyan',
-        tribe: 'Eerie',
+        yokaiNumber: '352',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darknyan.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '352',
-        yokaiNumber3: '501',
-        yokaiFood1: '',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '5210',
-        hp: '1510',
-        spirit: '580',
-        power: '1340',
-        speed: '980',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/darknyan.png',
+        description:
+            'Hoping to gain new powers, Hovernyan has been rebooted as a dark, gritty version of his former self.',
+        locations: [
+            'Scan QR Code for a daily fight at Old Springdale Furnace.',
+            'Scan QR Code for a daily fight at Old Springdale Furnace.'
+        ],
+        skill: {
+            name: 'Night Guard',
+            description: 'Dodges all SoultimateMoves.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Night Claw',
+            description:
+                'Attacks a single foe from the shadows. High critical chance.',
+            power: '180 to 270'
+        },
+        inspirit: {
+            name: 'Curse of Darkness',
+            description:
+                "The Inspirited Yo-kai's stats all go down due to a dark curse.",
+            power: '0'
+        },
+        stats: {
+            hp: '219',
+            str: '93',
+            spr: '129',
+            def: '98',
+            spd: '123'
+        },
+        tribe: 'slippery',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Jibakoma',
-        tribe: 'Charming',
+        yokaiNumber: '353',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jibakoma.png',
-        attribute: 'Fire',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '353',
-        yokaiNumber3: '256',
-        yokaiFood1: '',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5280',
-        hp: '1260',
-        spirit: '880',
-        power: '1020',
-        speed: '1260',
-        defence: '860'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/jibakoma.png',
+        description:
+            'Someone messed up and blended Jibanyan and Komasan together. City smarts meet rustic charm!',
+        locations: [
+            'Scan QR Code for a daily fight at Springdale Elementary Infirmary.',
+            'Scan QR Code for a daily fight at Springdale Elementary Infirmary.'
+        ],
+        skill: {
+            name: 'Fire Play',
+            description: 'Increases damage ofown Fire attacks.'
+        },
+        attack: {
+            name: 'Punch',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Swirly Nyanball',
+            description:
+                'Attacks all enemies with balls of energy drawn from allies.',
+            power: '230'
+        },
+        inspirit: {
+            name: 'All Shook Up',
+            description:
+                'The Inspirited Yo-kai is befuddled and attacks its allies.',
+            power: '0'
+        },
+        stats: {
+            hp: '219',
+            str: '130',
+            spr: '122',
+            def: '75',
+            spd: '114'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'a',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Jetnyan',
-        tribe: 'Charming',
+        yokaiNumber: '354',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jetnyan.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '354',
-        yokaiNumber3: '271',
-        yokaiFood1: '',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5120',
-        hp: '1230',
-        spirit: '880',
-        power: '810',
-        speed: '1270',
-        defence: '930'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/jetnyan.png',
+        description:
+            "Jetnyan dreams of soaring through the skies, but that model plane on his head isn't going to help!",
+        locations: [
+            'Scan QR Code for a daily fight on Springdale Elementary\u2019s roof.',
+            'Scan QR Code for a daily fight on Springdale Elementary\u2019s roof.'
+        ],
+        skill: {
+            name: 'Apelican Is No.1',
+            description: 'SPD increases when front and center.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Paws of Flying',
+            description:
+                'Attacks all enemies with paws powered by jumbo-jet engines.',
+            power: '15x10 to 22x10'
+        },
+        inspirit: {
+            name: 'Jet Propulsion',
+            description:
+                "The Inspirited Yo-kai's SPD increases with jet propulsion.",
+            power: '0'
+        },
+        stats: {
+            hp: '225',
+            str: '65',
+            spr: '127',
+            def: '89',
+            spd: '126'
+        },
+        tribe: 'charming',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Unfairy',
-        tribe: 'Wicked',
+        yokaiNumber: '355',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unfairy.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '355',
-        yokaiNumber3: '575',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '6510',
-        hp: '1830',
-        spirit: '1340',
-        power: '1070',
-        speed: '1190',
-        defence: '1080'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/unfairy.png',
+        description:
+            'A Wicked boss who takes pleasure in being a pain. No wonder no one likes him!',
+        locations: [
+            'Blossom Heights - Prayer\u2019s Peak Tunnel - Night',
+            'Blossom Heights - Prayer\u2019s Peak Tunnel - Night'
+        ],
+        skill: {
+            name: 'Grip on You',
+            description: 'Amount of absorbed HPincreased.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Unfairy Kraft',
+            description: 'An uncommonly unfair curse rapidly decreases foe HP.',
+            power: '180'
+        },
+        inspirit: {
+            name: 'Unfairy Power',
+            description:
+                'The Inspirited Yo-kai is transfixed by a worrying curse and cannot act.',
+            power: '0'
+        },
+        stats: {
+            hp: '384',
+            str: '79',
+            spr: '140',
+            def: '198',
+            spd: '123'
+        },
+        tribe: 'wicked',
+        element: 'drain',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Unkaind',
-        tribe: 'Wicked',
+        yokaiNumber: '356',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unkaind.png',
-        attribute: 'Water',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '356',
-        yokaiNumber3: '576',
-        yokaiFood1: '',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '5670',
-        hp: '1750',
-        spirit: '1180',
-        power: '870',
-        speed: '1150',
-        defence: '720'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/unkaind.png',
+        description:
+            'A Wicked boss. She may be beautiful, but she enjoys nothing more than causing misery.',
+        locations: [
+            'Uptown - Springdale Elementary - Night',
+            'Uptown - Springdale Elementary - Night'
+        ],
+        skill: {
+            name: 'Curse Worsener',
+            description: 'Intensifies negativeInspirits on allies.'
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Unkind Kiss',
+            description: 'Restores HP to all allies with her alluring aura.',
+            power: '180'
+        },
+        inspirit: {
+            name: 'Unkaind Power',
+            description:
+                'The Inspirited Yo-kai is transfixed by an unkind curse and loses STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '353',
+            str: '120',
+            spr: '139',
+            def: '103',
+            spd: '188'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Untidy',
-        tribe: 'Wicked',
+        yokaiNumber: '357',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/untidy.png',
-        attribute: 'Earth',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '357',
-        yokaiNumber3: '577',
-        yokaiFood1: '',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '5770',
-        hp: '1850',
-        spirit: '1020',
-        power: '1150',
-        speed: '870',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/untidy.png',
+        description:
+            'A Wicked boss who is always all in. No Yo-kai can match Untidy for pure power. ',
+        locations: ['Gourd Pond Museum - Night', 'Gourd Pond Museum - Night'],
+        skill: {
+            name: 'Extreme Critical',
+            description: 'Power of criticalattacks is high.'
+        },
+        attack: {
+            name: 'Bone Crusher',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Meteor',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Untidy Keeper',
+            description:
+                'Raises DEF and directs all attacks to this character.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Untidy Power',
+            description:
+                'The Inspirited Yo-kai is transfixed by terrible power. SPD decreases.',
+            power: '0'
+        },
+        stats: {
+            hp: '399',
+            str: '202',
+            spr: '64',
+            def: '167',
+            spd: '100'
+        },
+        tribe: 'wicked',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'meats'
     },
     {
         name: 'Unpleasant',
-        tribe: 'Wicked',
+        yokaiNumber: '358',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unpleasant.png',
-        attribute: 'Wind',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '358',
-        yokaiNumber3: '578',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '5770',
-        hp: '1850',
-        spirit: '1020',
-        power: '1150',
-        speed: '870',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/unpleasant.png',
+        description:
+            'A Wicked boss who loves confusing people with long words and obscure nuggets of knowledge.',
+        locations: [
+            'Nocturne Hospital - 3F - Night',
+            'Nocturne Hospital - 3F - Night'
+        ],
+        skill: {
+            name: 'Soothing Rhythm',
+            description: 'All foes will be prone toLoafing around.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Unpleasant Kurse',
+            description: 'A nasty curse causes all enemies to get confused.',
+            power: '180'
+        },
+        inspirit: {
+            name: 'Unpleasant Power',
+            description:
+                'The Inspirited Yo-kai is transfixed by nasty power and loses HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '354',
+            str: '99',
+            spr: '196',
+            def: '114',
+            spd: '141'
+        },
+        tribe: 'wicked',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 's',
+        favouriteFood: 'odens'
     },
     {
         name: 'Unkeen',
-        tribe: 'Wicked',
+        yokaiNumber: '359',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/unkeen.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '359',
-        yokaiNumber3: '579',
-        yokaiFood1: '',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '5830',
-        hp: '1750',
-        spirit: '1180',
-        power: '1070',
-        speed: '990',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/unkeen.png',
+        description:
+            "A Wicked boss who wields great power, he believes it's his duty to destroy all that he sees.",
+        locations: [
+            'Springdale Business Tower - 4F - Night',
+            'Springdale Business Tower - 4F - Night'
+        ],
+        skill: {
+            name: 'Guard Break',
+            description: "Ignore foe's guardeffect when attacking."
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Unkeen Krack',
+            description:
+                'A punch capable of destroying all. Strikes one enemy.',
+            power: '265 to 397'
+        },
+        inspirit: {
+            name: 'Unkeen Power',
+            description:
+                'The Inspirited Yo-kai is transfixed by ruinous power. Stats go down.',
+            power: '0'
+        },
+        stats: {
+            hp: '352',
+            str: '171',
+            spr: '168',
+            def: '104',
+            spd: '160'
+        },
+        tribe: 'wicked',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'curries'
     },
     {
         name: 'Grublappa',
-        tribe: 'Wicked',
+        yokaiNumber: '360',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grublappa.png',
-        attribute: 'Lightning',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '360',
-        yokaiNumber3: '580',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '5830',
-        hp: '1750',
-        spirit: '1180',
-        power: '1070',
-        speed: '990',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/grublappa.png',
+        description:
+            'Tublappa turned Wicked! His long tongue sticks to surfaces and leaves them looking all grubby.',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Lickaway',
+            description: 'Purifies adjacent allies.'
+        },
+        attack: {
+            name: 'Slurp',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Lightning',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Lickety-Lick',
+            description:
+                'Unfurls his lengthy tongue and does damage to all foes.',
+            power: '40x3'
+        },
+        inspirit: {
+            name: 'Sick Lick',
+            description:
+                'The Inspirited Yo-kai is licked, feels terrible, and is unable to act.',
+            power: '0'
+        },
+        stats: {
+            hp: '266',
+            str: '135',
+            spr: '81',
+            def: '72',
+            spd: '101'
+        },
+        tribe: 'wicked',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 'c',
+        favouriteFood: 'odens'
     },
     {
         name: 'Madmunch',
-        tribe: 'Wicked',
+        yokaiNumber: '361',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/madmunch.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '360',
-        yokaiNumber3: '581',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '5830',
-        hp: '1750',
-        spirit: '1180',
-        power: '1070',
-        speed: '990',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/madmunch.png',
+        description:
+            "Mudmunch turned Wicked! Now even more resentful than ever, he's started lashing out at hapless passersby.",
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Sludge Grudge',
+            description: 'When defeated, takesrevenge on enemy.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Dirty Trick',
+            description:
+                'Focuses all his rage to attack and sap the STR of his foes.',
+            power: '100'
+        },
+        inspirit: {
+            name: 'Sucking Mud',
+            description:
+                'The Inspirited Yo-kai loses HP due to anger about a rice field.',
+            power: '0'
+        },
+        stats: {
+            hp: '291',
+            str: '142',
+            spr: '78',
+            def: '100',
+            spd: '99'
+        },
+        tribe: 'wicked',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'odens'
     },
     {
         name: 'Badsmella',
-        tribe: 'Wicked',
+        yokaiNumber: '362',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/badsmella.png',
-        attribute: 'Wind',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '362',
-        yokaiNumber3: '582',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5830',
-        hp: '1750',
-        spirit: '1180',
-        power: '1070',
-        speed: '990',
-        defence: '840'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/badsmella.png',
+        description:
+            'Smogmella turned Wicked! Shrouded in a cloud of poisonous gas, she can never stop coughing.',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Magic Mist',
+            description: "Helps recover adjacentYo-kai's Soul Meters."
+        },
+        attack: {
+            name: 'Smackdown',
+            power: '20x2 to 44x2'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Upward Tornado',
+            description:
+                "Calls a tornado strong enough to mess up the enemy's clothes.",
+            power: '220'
+        },
+        inspirit: {
+            name: 'Awful Haze',
+            description:
+                'The Inspirited Yo-kai inhales unpleasant smoke. HP decreases.',
+            power: '0'
+        },
+        stats: {
+            hp: '295',
+            str: '63',
+            spr: '160',
+            def: '72',
+            spd: '154'
+        },
+        tribe: 'wicked',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'a',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Mad Kappa',
-        tribe: 'Wicked',
+        yokaiNumber: '363',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mad_kappa.png',
-        attribute: 'Water',
-        rank: 'A',
-        yokaiNumber1: '',
-        yokaiNumber2: '363',
-        yokaiNumber3: '583',
-        yokaiFood1: '',
-        yokaiFood2: 'Vegetables',
-        yokaiFood3: 'Vegetables',
-        baseStats: '6090',
-        hp: '1730',
-        spirit: '1280',
-        power: '1020',
-        speed: '1140',
-        defence: '920'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mad_kappa.png',
+        description:
+            "Faux Kappa turned Wicked! He's always trying to drag people down the river to their doom.",
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Intimidation',
+            description: 'No Yo-kai will Loafaround.'
+        },
+        attack: {
+            name: 'One-Two Punch',
+            power: '15x2 to 33x2'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Mega Wave',
+            description:
+                "Harnesses the power of a river's flow to do damage to a foe.",
+            power: '170 to 255'
+        },
+        inspirit: {
+            name: 'Wicked Tale',
+            description:
+                'The Inspirited Yo-kai gets scared and loses a lot of SPR.',
+            power: '0'
+        },
+        stats: {
+            hp: '268',
+            str: '127',
+            spr: '152',
+            def: '49',
+            spd: '145'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'a',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Shamasol',
-        tribe: 'Wicked',
+        yokaiNumber: '364',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shamasol.png',
-        attribute: 'Wind',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '364',
-        yokaiNumber3: '584',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4430',
-        hp: '1590',
-        spirit: '820',
-        power: '710',
-        speed: '790',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/shamasol.png',
+        description:
+            'Pallysol turned Wicked! The regrets of a discarded umbrella brought to life...',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Sun Shield',
+            description: 'Returns all attackswhen guarding.'
+        },
+        attack: {
+            name: 'Pesky Poke',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Umbrella Gust',
+            description:
+                'Strikes all enemies with a dry gust of wind from a traditional Yo-kai.',
+            power: '90'
+        },
+        inspirit: {
+            name: 'Ruin',
+            description:
+                'The Inspirited Yo-kai loses DEF like a ruined, holey, old umbrella.',
+            power: '0'
+        },
+        stats: {
+            hp: '241',
+            str: '123',
+            spr: '81',
+            def: '62',
+            spd: '107'
+        },
+        tribe: 'wicked',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'd',
+        favouriteFood: 'odens'
     },
     {
         name: 'Gnomine',
-        tribe: 'Wicked',
+        yokaiNumber: '365',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gnomine.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '365',
-        yokaiNumber3: '585',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '5530',
-        hp: '1650',
-        spirit: '1160',
-        power: '880',
-        speed: '1040',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gnomine.png',
+        description:
+            'Gnomey turned Wicked! He brings bad luck into a home, eventually ruining its owners.',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Good Fortune',
+            description: 'Will increase money atthe end of a battle.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Innocent World',
+            description:
+                "The power of good, clean fun steadily restores allies' HP.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Chin Down',
+            description:
+                'The Inspirited Yo-kai is feeling down and slowly loses HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '251',
+            str: '100',
+            spr: '133',
+            def: '59',
+            spd: '116'
+        },
+        tribe: 'wicked',
+        element: 'restoration',
+        weakness: 'fire',
+        rank: 'c',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Defectabull',
-        tribe: 'Wicked',
+        yokaiNumber: '366',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/defectabull.png',
-        attribute: 'Restoration',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '366',
-        yokaiNumber3: '586',
-        yokaiFood1: '',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4790',
-        hp: '1630',
-        spirit: '1000',
-        power: '840',
-        speed: '760',
-        defence: '560'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/defectabull.png',
+        description:
+            'Predictabull turned Wicked! He only predicts bad things...and smiles when people get scared.',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Clairvoidance',
+            description: 'Improves ability tododge enemy attacks.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Soothing Fortune',
+            description: "Good fortune causes all allies' HP to recover.",
+            power: '70 to 183'
+        },
+        inspirit: {
+            name: 'Bad Fortune',
+            description:
+                'The Inspirited Yo-kai gets a bad fortune and loses STR.',
+            power: '0'
+        },
+        stats: {
+            hp: '255',
+            str: '133',
+            spr: '103',
+            def: '55',
+            spd: '114'
+        },
+        tribe: 'wicked',
+        element: 'restoration',
+        weakness: 'water',
+        rank: 'c',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Feargus',
-        tribe: 'Wicked',
+        yokaiNumber: '367',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/feargus.png',
-        attribute: 'Earth',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '366',
-        yokaiNumber3: '587',
-        yokaiFood1: '',
-        yokaiFood2: 'Rice Balls',
-        yokaiFood3: 'Rice Balls',
-        baseStats: '3760',
-        hp: '1060',
-        spirit: '800',
-        power: '660',
-        speed: '560',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/feargus.png',
+        description:
+            'Furgus turned Wicked! This menace leaves only evil deeds in his wake and causes incurable cooties!',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Hairnet',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Tail Slap',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Fluffy Dispel',
+            description:
+                'Enemies are gently relieved of all their positive effects.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Thatch',
+            description:
+                'The Inspirited Yo-kai grows useless fluff, and SPD goes down.',
+            power: '0'
+        },
+        stats: {
+            hp: '234',
+            str: '79',
+            spr: '128',
+            def: '40',
+            spd: '126'
+        },
+        tribe: 'wicked',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'rice balls'
     },
     {
         name: 'Scaremaiden',
-        tribe: 'Wicked',
+        yokaiNumber: '368',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scaremaiden.png',
-        attribute: 'Water',
-        rank: 'C',
-        yokaiNumber1: '',
-        yokaiNumber2: '368',
-        yokaiNumber3: '588',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4710',
-        hp: '1630',
-        spirit: '1000',
-        power: '760',
-        speed: '800',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/scaremaiden.png',
+        description:
+            'Mermaidyn turned Wicked! She uses her lovely voice to lure ships into storms, causing them to sink.',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Saintly Scales',
+            description: 'Does not get Inspiritedby enemies.'
+        },
+        attack: {
+            name: 'Tail Slap',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Beach Wave',
+            description:
+                'Summons waves and sends them crashing into all enemies.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Gouge',
+            description:
+                'The Inspirited Yo-kai has a bit of body odor. Slowly loses HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '266',
+            str: '72',
+            spr: '143',
+            def: '45',
+            spd: '131'
+        },
+        tribe: 'wicked',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'c',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Wrongnek',
-        tribe: 'Wicked',
+        yokaiNumber: '369',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wrongnek.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '369',
-        yokaiNumber3: '589',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4150',
-        hp: '950',
-        spirit: '880',
-        power: '720',
-        speed: '920',
-        defence: '680'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wrongnek.png',
+        description:
+            'Lady Longnek turned Wicked! She now uses her neck to ensnare hapless victims.',
+        locations: [
+            'Mystery Way - Gogo Junction',
+            'Mystery Way - Gogo Junction'
+        ],
+        skill: {
+            name: 'Rubberneck',
+            description: 'Does not get dealtcritical damage.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: "Twist 'n' Tangle",
+            description: 'A neck-stretching strike that always hits home.',
+            power: '140 to 210'
+        },
+        inspirit: {
+            name: 'Strained Neck',
+            description:
+                "The Inspirited Yo-kai's neck gets stiff, and it slowly loses HP.",
+            power: '0'
+        },
+        stats: {
+            hp: '275',
+            str: '136',
+            spr: '126',
+            def: '65',
+            spd: '115'
+        },
+        tribe: 'wicked',
+        element: 'restoration',
+        weakness: 'earth',
+        rank: 'b',
+        favouriteFood: 'sweets'
     },
     {
         name: 'Grumpus Khan',
-        tribe: 'Shady',
+        yokaiNumber: '370',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grumpus_khan.png',
-        attribute: 'Wind',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '370',
-        yokaiNumber3: '589',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '4680',
-        hp: '950',
-        spirit: '1160',
-        power: '720',
-        speed: '940',
-        defence: '910'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/grumpus_khan.png',
+        description:
+            'Those possessed by this morose Yo-kai end up hated by everyone for their negative attitude.',
+        locations: [
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin North",
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin North"
+        ],
+        skill: {
+            name: 'Breaking Baaad',
+            description: 'May attack an ally.'
+        },
+        attack: {
+            name: 'Bite',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Whirlwind',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Awkward Silence',
+            description:
+                'Makes the enemy so awkward that they all get confused.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Get Your Goat',
+            description:
+                'The Inspirited Yo-kai attacks allies as things get a little awkward.',
+            power: '0'
+        },
+        stats: {
+            hp: '180',
+            str: '105',
+            spr: '62',
+            def: '69',
+            spd: '94'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'd',
+        favouriteFood: 'meats'
     },
     {
         name: 'Groupus Khan',
-        tribe: 'Shady',
+        yokaiNumber: '371',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/groupus_khan.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '371',
-        yokaiNumber3: '400',
-        yokaiFood1: '',
-        yokaiFood2: 'Sweets',
-        yokaiFood3: 'Sweets',
-        baseStats: '5090',
-        hp: '1020',
-        spirit: '1280',
-        power: '800',
-        speed: '1060',
-        defence: '930'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/groupus_khan.png',
+        description:
+            'The leader of the Woolly Grumpers. His constant griping makes him monumentally unpopular.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Breaking Baaad',
+            description: 'May attack an ally.'
+        },
+        attack: {
+            name: 'Bowshot',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Tornado',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Awkward Moment',
+            description:
+                'Makes the enemy so awkward that they all get confused.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Get Your Goat',
+            description:
+                'The Inspirited Yo-kai attacks allies as things get a little awkward.',
+            power: '0'
+        },
+        stats: {
+            hp: '219',
+            str: '118',
+            spr: '68',
+            def: '82',
+            spd: '120'
+        },
+        tribe: 'shady',
+        element: 'wind',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'meats'
     },
     {
         name: 'Slumberhog',
-        tribe: 'Brave',
+        yokaiNumber: '372',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slumberhog.png',
-        attribute: 'Fire',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '372',
-        yokaiNumber3: '020',
-        yokaiFood1: '',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '4550',
-        hp: '1460',
-        spirit: '410',
-        power: '1210',
-        speed: '670',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/slumberhog.png',
+        description:
+            'With this Yo-kai, it is best to follow a slight twist on an old saying: "Let sleeping hogs lie."',
+        locations: [
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Northeast",
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Northeast"
+        ],
+        skill: {
+            name: 'Fast Asleep',
+            description: "Doesn't take an actionfor one to two turns."
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Snooze Bruiser',
+            description: 'Slams hard into an enemy without even waking up.',
+            power: '110 to 242'
+        },
+        inspirit: {
+            name: 'Bedtime',
+            description: "The Inspirited Yo-kai gets so sleepy, it can't move.",
+            power: '0'
+        },
+        stats: {
+            hp: '195',
+            str: '99',
+            spr: '92',
+            def: '72',
+            spd: '67'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Snortlehog',
-        tribe: 'Brave',
+        yokaiNumber: '373',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snortlehog.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '373',
-        yokaiNumber3: '021',
-        yokaiFood1: '',
-        yokaiFood2: 'Curries',
-        yokaiFood3: 'Curries',
-        baseStats: '5140',
-        hp: '1430',
-        spirit: '670',
-        power: '1230',
-        speed: '930',
-        defence: '880'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/snortlehog.png',
+        description:
+            "Someone made the mistake of wakin' the bacon, and he's absolutely furious about it!",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Extreme Critical',
+            description: 'Power of criticalattacks is high.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Hog Wild',
+            description:
+                'A battle-hardened blaze of blows that strikes all foes.',
+            power: '30x5'
+        },
+        inspirit: {
+            name: 'Festival Fun',
+            description:
+                'The Inspirited Yo-kai gets a STR boost due to festival enthusiasm.',
+            power: '0'
+        },
+        stats: {
+            hp: '222',
+            str: '114',
+            spr: '97',
+            def: '107',
+            spd: '71'
+        },
+        tribe: 'brave',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Panja Pupil',
-        tribe: 'Charming',
+        yokaiNumber: '374',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/panja_pupil.png',
-        attribute: 'Ice',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '374',
-        yokaiNumber3: '236',
-        yokaiFood1: '',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4600',
-        hp: '1170',
-        spirit: '760',
-        power: '750',
-        speed: '970',
-        defence: '950'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/panja_pupil.png',
+        description:
+            'This urban Yo-kai provides those he Inspirits with a dash of charm and big-city sophistication.',
+        locations: [
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin East",
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin East"
+        ],
+        skill: {
+            name: 'Secrecy',
+            description: 'Will not become targetof attacks.'
+        },
+        attack: {
+            name: 'Hit',
+            power: '10 to 45'
+        },
+        technique: {
+            name: 'Hail',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: "I'm a Panda!",
+            description:
+                'Attacks a single foe with the full power of the Panja.',
+            power: '90 to 198'
+        },
+        inspirit: {
+            name: 'Panja Power',
+            description:
+                'The Inspirited Yo-kai uses Panja power to increase its SPD.',
+            power: '0'
+        },
+        stats: {
+            hp: '185',
+            str: '100',
+            spr: '51',
+            def: '65',
+            spd: '107'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'd',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Panja Pro',
-        tribe: 'Charming',
+        yokaiNumber: '375',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/panja_pro.png',
-        attribute: 'Ice',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '375',
-        yokaiNumber3: '237',
-        yokaiFood1: '',
-        yokaiFood2: 'Sushis',
-        yokaiFood3: 'Sushis',
-        baseStats: '4860',
-        hp: '1210',
-        spirit: '720',
-        power: '890',
-        speed: '1190',
-        defence: '850'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/panja_pro.png',
+        description:
+            'This evolved Panja can vanish into thin air! Sadly, his big mouth keeps giving away his position.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Secrecy',
+            description: 'Will not become targetof attacks.'
+        },
+        attack: {
+            name: 'Double Slice',
+            power: '18x2 to 39x2'
+        },
+        technique: {
+            name: 'Frost',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Panjitsu',
+            description:
+                'Attacks a single foe with the full power of the Panja.',
+            power: '170 to 255'
+        },
+        inspirit: {
+            name: 'Panja Power',
+            description:
+                'The Inspirited Yo-kai uses Panja power to increase its SPD.',
+            power: '0'
+        },
+        stats: {
+            hp: '215',
+            str: '114',
+            spr: '65',
+            def: '79',
+            spd: '127'
+        },
+        tribe: 'charming',
+        element: 'ice',
+        weakness: 'fire',
+        rank: 'b',
+        favouriteFood: 'sushis'
     },
     {
         name: 'Samureel',
-        tribe: 'Brave',
+        yokaiNumber: '376',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/samureel.png',
-        attribute: 'Water',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '376',
-        yokaiNumber3: '022',
-        yokaiFood1: '',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '4430',
-        hp: '1420',
-        spirit: '450',
-        power: '1130',
-        speed: '670',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/samureel.png',
+        description:
+            'A warrior who aims to be the best in the world, he excels at giving enemies the slip.',
+        locations: [
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Central",
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Central"
+        ],
+        skill: {
+            name: 'Skilled Loafer',
+            description: 'Will recover a little HPwhen Loafing around.'
+        },
+        attack: {
+            name: 'Beat',
+            power: '40 to 88'
+        },
+        technique: {
+            name: 'Torrent',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Eelergetic',
+            description:
+                "Employs nutritious eeliness to increase all allies' STR.",
+            power: '0'
+        },
+        inspirit: {
+            name: 'Eelectrify',
+            description:
+                'The Inspirited Yo-kai gets a slight stat boost due to eelectricity.',
+            power: '0'
+        },
+        stats: {
+            hp: '205',
+            str: '108',
+            spr: '46',
+            def: '91',
+            spd: '71'
+        },
+        tribe: 'brave',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'd',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Time Keeler',
-        tribe: 'Brave',
+        yokaiNumber: '377',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/time_keeler.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '377',
-        yokaiNumber3: '023',
-        yokaiFood1: '',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        baseStats: '4600',
-        hp: '1410',
-        spirit: '510',
-        power: '1150',
-        speed: '770',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/time_keeler.png',
+        description:
+            'This evolved Samureel is so powerful that no one is willing to take him on in battle.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Skilled Loafer',
+            description: 'Will recover a little HPwhen Loafing around.'
+        },
+        attack: {
+            name: 'Lightning Slash',
+            power: '20x3 to 44x3'
+        },
+        technique: {
+            name: 'Rapids',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Bored Slice',
+            description:
+                'Strikes all enemies with his swords just because he can.',
+            power: '31x5'
+        },
+        inspirit: {
+            name: 'Eelectrify',
+            description:
+                'The Inspirited Yo-kai gets a slight stat boost due to eelectricity.',
+            power: '0'
+        },
+        stats: {
+            hp: '232',
+            str: '126',
+            spr: '54',
+            def: '121',
+            spd: '61'
+        },
+        tribe: 'brave',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Takoyakid',
-        tribe: 'Slippery',
+        yokaiNumber: '378',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/takoyakid.png',
-        attribute: 'Fire',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '378',
-        yokaiNumber3: '528',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4270',
-        hp: '950',
-        spirit: '980',
-        power: '800',
-        speed: '900',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/takoyakid.png',
+        description:
+            "A demon born from a tasty takoyaki octopus ball. Don't even think of underestimating that crispy, grilled exterior.",
+        locations: [
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin West",
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin West"
+        ],
+        skill: {
+            name: 'Killer Comeback',
+            description: 'Can immediatelycounterattack.'
+        },
+        attack: {
+            name: 'Pointy Pokes',
+            power: '12x3 to 26x3'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Octopick',
+            description: 'Pokes all enemies repeatedly with his little stick.',
+            power: '25x5'
+        },
+        inspirit: {
+            name: 'Octoplus',
+            description:
+                'The Inspirited Yo-kai, nourished by takoyaki, slowly regains HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '205',
+            str: '106',
+            spr: '47',
+            def: '85',
+            spd: '68'
+        },
+        tribe: 'wicked',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'odens'
     },
     {
         name: 'Takoyaking',
-        tribe: 'Slippery',
+        yokaiNumber: '379',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/takoyaking.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '379',
-        yokaiNumber3: '529',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4500',
-        hp: '1020',
-        spirit: '980',
-        power: '760',
-        speed: '980',
-        defence: '760'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/takoyaking.png',
+        description:
+            'This spouter of squid ink is the king of the kitchen and a keen advocate for takoyaki culture.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Killer Comeback',
+            description: 'Can immediatelycounterattack.'
+        },
+        attack: {
+            name: 'Stab Storm',
+            power: '10x5 to 22x5'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Octopoke',
+            description: 'Pokes all enemies repeatedly with his little stick.',
+            power: '23x7'
+        },
+        inspirit: {
+            name: 'Octoplus',
+            description:
+                'The Inspirited Yo-kai, nourished by takoyaki, regains HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '250',
+            str: '119',
+            spr: '50',
+            def: '102',
+            spd: '82'
+        },
+        tribe: 'wicked',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'odens'
     },
     {
         name: 'Danke Sand',
-        tribe: 'Eerie',
+        yokaiNumber: '380',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/danke_sand.png',
-        attribute: 'Earth',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '380',
-        yokaiNumber3: '529',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4600',
-        hp: '1170',
-        spirit: '980',
-        power: '750',
-        speed: '640',
-        defence: '1060'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/danke_sand.png',
+        description:
+            'A sand dune with a mouth so big he can swallow almost any opponent. But he never forgets to say thanks!',
+        locations: [
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Mountain",
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Mountain"
+        ],
+        skill: {
+            name: 'Sandbag',
+            description: 'Takes less damagefrom Earth attacks.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Pebble',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Thand You',
+            description:
+                'Attacks all enemies with energy from under the earth.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Sanks So Much',
+            description:
+                'The Inspirited Yo-kai is so grateful to everyone that it is not targeted.',
+            power: '0'
+        },
+        stats: {
+            hp: '209',
+            str: '46',
+            spr: '97',
+            def: '92',
+            spd: '64'
+        },
+        tribe: 'slippery',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'd',
+        favouriteFood: 'odens'
     },
     {
         name: 'No Sandkyu',
-        tribe: 'Eerie',
+        yokaiNumber: '381',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/no_sandkyu.png',
-        attribute: 'Earth',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '381',
-        yokaiNumber3: '481',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4920',
-        hp: '1230',
-        spirit: '1060',
-        power: '850',
-        speed: '720',
-        defence: '1060'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/no_sandkyu.png',
+        description:
+            'This evolved Yo-kai is a very fussy eater, refusing most things with a firm "No, thanks"!',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Sandbag',
+            description: 'Takes less damagefrom Earth attacks.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Rockslide',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'No Thand You',
+            description:
+                'Attacks all enemies with energy from under the earth.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Refusal',
+            description:
+                'The Inspirited Yo-kai denies everything and cannot move.',
+            power: '0'
+        },
+        stats: {
+            hp: '245',
+            str: '57',
+            spr: '119',
+            def: '111',
+            spd: '72'
+        },
+        tribe: 'slippery',
+        element: 'earth',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'odens'
     },
     {
         name: 'Sumodon',
-        tribe: 'Tough',
+        yokaiNumber: '382',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sumodon.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '382',
-        yokaiNumber3: '166',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4150',
-        hp: '1030',
-        spirit: '490',
-        power: '980',
-        speed: '560',
-        defence: '1090'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sumodon.png',
+        description:
+            'A proud sumo wrestler whose thick, noodly arms and piping-hot broth make him a real handful.',
+        locations: [
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin South",
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin South"
+        ],
+        skill: {
+            name: 'The Stand',
+            description: 'Will keep 1 HP after aknockout blow once.'
+        },
+        attack: {
+            name: 'Palm Strike',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Slapdown',
+            description:
+                "A stunning slap that can cancel a foe's Soultimate Move.",
+            power: '160'
+        },
+        inspirit: {
+            name: 'Suck It Up',
+            description:
+                "The Inspirited Yo-kai's DEF goes up due to its love of udon noodles.",
+            power: '0'
+        },
+        stats: {
+            hp: '204',
+            str: '99',
+            spr: '47',
+            def: '102',
+            spd: '60'
+        },
+        tribe: 'tough',
+        element: 'restoration',
+        weakness: 'lightning',
+        rank: 'd',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Yokozudon',
-        tribe: 'Tough',
+        yokaiNumber: '383',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/yokozudon.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '383',
-        yokaiNumber3: '167',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        baseStats: '4420',
-        hp: '980',
-        spirit: '550',
-        power: '1020',
-        speed: '680',
-        defence: '1190'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/yokozudon.png',
+        description:
+            'An evolved Sumodon who has reached the rank of yokozuna. His firm grip is the stuff of legend.',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'The Stand',
+            description: 'Will keep 1 HP after aknockout blow once.'
+        },
+        attack: {
+            name: 'Palm Strike',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Smackdown',
+            description:
+                "A stunning slap that can cancel a foe's Soultimate Move.",
+            power: '160 to 240'
+        },
+        inspirit: {
+            name: 'Suck It Up',
+            description:
+                "The Inspirited Yo-kai's DEF goes way up due to awe of udon noodles.",
+            power: '0'
+        },
+        stats: {
+            hp: '235',
+            str: '121',
+            spr: '56',
+            def: '115',
+            spd: '72'
+        },
+        tribe: 'tough',
+        element: 'restoration',
+        weakness: 'lightning',
+        rank: 'b',
+        favouriteFood: 'sobas'
     },
     {
         name: 'Whateverest',
-        tribe: 'Tough',
+        yokaiNumber: '384',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whateverest.png',
-        attribute: 'Fire',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '384',
-        yokaiNumber3: '168',
-        yokaiFood1: '',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4150',
-        hp: '990',
-        spirit: '450',
-        power: '940',
-        speed: '600',
-        defence: '1170'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/whateverest.png',
+        description:
+            "A Yo-kai who doesn't seem to have the slightest interest in anything. Not on the surface, at least...",
+        locations: [
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Midwest",
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Midwest"
+        ],
+        skill: {
+            name: 'Eruption',
+            description: 'Normal attacks becomeFire attacks.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Fire',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Oh!',
+            description:
+                'Musters the power of immovable mountains to attack all foes.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Could Care Less',
+            description:
+                'The Inspirited Yo-kai loses all interest. All stats go down.',
+            power: '0'
+        },
+        stats: {
+            hp: '209',
+            str: '34',
+            spr: '111',
+            def: '107',
+            spd: '47'
+        },
+        tribe: 'tough',
+        element: 'earth',
+        weakness: 'water',
+        rank: 'd',
+        favouriteFood: 'meats'
     },
     {
         name: 'Whatuption',
-        tribe: 'Tough',
+        yokaiNumber: '385',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whatuption.png',
-        attribute: 'Fire',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '385',
-        yokaiNumber3: '169',
-        yokaiFood1: '',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        baseStats: '4460',
-        hp: '1020',
-        spirit: '630',
-        power: '940',
-        speed: '680',
-        defence: '1190'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/whatuption.png',
+        description:
+            "Whateverest has blown his top, and now he's overflowing with curiosity about everything!",
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'Eruption',
+            description: 'Normal attacks becomeFire attacks.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Gleeruption',
+            description:
+                'A massive blast of magma rains fire damage on all foes.',
+            power: '160'
+        },
+        inspirit: {
+            name: 'Could Care More',
+            description:
+                'The Inspirited Yo-kai is interested in all things, so its STR goes way up.',
+            power: '0'
+        },
+        stats: {
+            hp: '240',
+            str: '39',
+            spr: '129',
+            def: '135',
+            spd: '58'
+        },
+        tribe: 'tough',
+        element: 'fire',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'meats'
     },
     {
         name: 'Happycane',
-        tribe: 'Heartful',
+        yokaiNumber: '386',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/happycane.png',
-        attribute: 'Restoration',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '386',
-        yokaiNumber3: '331',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '4440',
-        hp: '1570',
-        spirit: '870',
-        power: '450',
-        speed: '910',
-        defence: '640'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/happycane.png',
+        description:
+            'This Yo-kai is sweet in every way and loves to help people overcome their troubles with a kind word or two.',
+        locations: [
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Island",
+            "Mt.Wildwood - Crank-a-kai - Traveler's Coin Island"
+        ],
+        skill: {
+            name: 'How Sweet',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Body Bash',
+            power: '15 to 67'
+        },
+        technique: {
+            name: 'Heal',
+            power: '20 to 90'
+        },
+        soultime: {
+            name: 'Make You Happy',
+            description:
+                'Cheers everyone up with her cute moves, healing HP all round.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Sweet Relief',
+            description:
+                'The Inspirited Yo-kai slowly regains HP due to tender sugarcane.',
+            power: '0'
+        },
+        stats: {
+            hp: '182',
+            str: '53',
+            spr: '103',
+            def: '77',
+            spd: '94'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'ice',
+        rank: 'd',
+        favouriteFood: 'candy'
     },
     {
         name: 'Starrycane',
-        tribe: 'Heartful',
+        yokaiNumber: '387',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/starrycane.png',
-        attribute: 'Restoration',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '387',
-        yokaiNumber3: '332',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '4920',
-        hp: '1630',
-        spirit: '930',
-        power: '630',
-        speed: '930',
-        defence: '800'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/starrycane.png',
+        description:
+            'This Yo-kai is simply bursting with excitement! No wonder she makes people see stars!',
+        locations: ['Fusion.', 'Fusion.'],
+        skill: {
+            name: 'How Sweet',
+            description: 'Gradually recovers HPof adjacent Yo-kai.'
+        },
+        attack: {
+            name: 'Tackle',
+            power: '60 to 90'
+        },
+        technique: {
+            name: 'Restore',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Starry Bright',
+            description:
+                'Cheers everyone up with her cute moves, healing HP all round.',
+            power: '120'
+        },
+        inspirit: {
+            name: 'Sweet Relief',
+            description:
+                'The Inspirited Yo-kai regains HP due to tasty, tender sugarcane.',
+            power: '0'
+        },
+        stats: {
+            hp: '218',
+            str: '66',
+            spr: '117',
+            def: '92',
+            spd: '112'
+        },
+        tribe: 'heartful',
+        element: 'restoration',
+        weakness: 'ice',
+        rank: 'b',
+        favouriteFood: 'candy'
+    },
+    {
+        name: 'Gutsy Bones Boss',
+        yokaiNumber: '388',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gutsy_bones.png',
+        description:
+            "A skeleton Yo-kai who lurks atop the school, playing with his beloved Crank-a-kai. He's always dropping medals through his body, but his crow friends are kind enough to pick them up.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Meganyan Boss',
+        yokaiNumber: '389',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/meganyan.png',
+        description:
+            'Years of constant eating have made Hovernyan MASSIVE...and have given him the power to make others huge too!',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: "Cap'n Crash Boss",
+        yokaiNumber: '390',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cap_n_crash.png',
+        description:
+            "Once a famous pirate, he sank his ship on his final voyage after reading the map upside down. He was so upset, his spirit turned into a Yo-kai. He's been assembling a monstrous pirate crew ever since.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Eyeclone Boss',
+        yokaiNumber: '391',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/eyeclone.png',
+        description:
+            "Eyeclone is the Yo-kai who causes storms to rage during the summer. It's his ambition to set a new wind-speed record, but look on the bright side\u2014the calm after he leaves is quite lovely.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Kin Boss',
+        yokaiNumber: '392',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kin.png',
+        description:
+            'The older of the twin sisters who have dedicated themselves to Dame Dedtime. She can turn back time and rewrite history using the power of the Time Stone given to her by her mistress.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Gin Boss',
+        yokaiNumber: '393',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gin.png',
+        description:
+            'The younger of the twin sisters who have dedicated themselves to Dame Dedtime. Her powers are scarily strong, but she can only use them when her big sis is nearby.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Dame Dedtime Boss',
+        yokaiNumber: '394',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dame_dedtime.png',
+        description:
+            "Once a fair-faced young maiden, she spent most of her life behind bars for a crime she didn't commit. Now she robs humans of their happiness, just as she was robbed of hers.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Dame Demona Boss',
+        yokaiNumber: '395',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dame_demona.png',
+        description:
+            "Dame Dedtime's power has spiraled out of control thanks to all the human auras she's absorbed, and now stealing time and happiness alone isn't enough\u2014she wants the entire world! Stop her!",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Slimamander Boss',
+        yokaiNumber: '396',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/slimamander.png',
+        description:
+            "A huge, snakelike Yo-kai with three big-mouthed heads and skin thicker than an elephant's. Aim for the mouth with the eye in it!",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Eyedra Boss',
+        yokaiNumber: '397',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/eyedra.png',
+        description:
+            'A huge salamander Yo-kai that lives in the underworld. Those fixed by his red-eyed gaze will cower in fear before being swallowed whole.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Sproink Boss',
+        yokaiNumber: '398',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sproink.png',
+        description:
+            "This middle-aged Yo-kai loves hot baths so much that he sneaks into hot springs after hours. He turns red and snorts fire from his nose when he's been soaking too long.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Hoggles Boss',
+        yokaiNumber: '399',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hoggles.png',
+        description:
+            'Hoggles used to be a little piglet of a guy until he drank a broth made of other Yo-kai\u2014 then he got huge!',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'SV Snaggerjag Boss',
+        yokaiNumber: '400',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sv_snaggerjag.png',
+        description:
+            'The guardian spirit of Catfish Pond, who flies into a rage if he sees anyone mistreating his beloved lake. The fish respect him a lot for this and will do whatever he asks.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Styx Mk.VI Boss',
+        yokaiNumber: '401',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/styx_mk.vi.png',
+        description:
+            'The Styx Mk. VI fishes souls out of the fabled river of the underworld\u2014 no sinner can escape his net. On good fishing days, he sings sea chanties that resound throughout the inferno.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Massiface Boss',
+        yokaiNumber: '402',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/massiface.png',
+        description:
+            "If a giant, man-shaped shadow falls over you on a moonlit night, DO NOT turn around. Just stay still and wait until it's gone. Those who give in to fear and curiosity are never heard from again...",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Clipso Boss',
+        yokaiNumber: '403',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/clipso.png',
+        description:
+            "This massive being roams the earth on cloud- covered nights, searching for kids who've stayed up too late. Sleep well!",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Phantasmurai Boss',
+        yokaiNumber: '404',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/phantasmurai.png',
+        description:
+            "This eerie suit of armor wanders the museum at night. It's not actually possessed, but the little mouse inside doesn't want you to know that.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Spooklunk Boss',
+        yokaiNumber: '405',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/spooklunk.png',
+        description:
+            "This suit of armor once belonged to a mighty warrior but somehow found its way to the underworld. It's now raising an army in preparation for a return to the battlefield.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Tarantutor Boss',
+        yokaiNumber: '406',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tarantutor.png',
+        description:
+            "A spider Yo-kai that lives in a school and spends his days looking for prime opportunities to eat students. Fortunately for the kids, he's so shy that he only comes out after they've gone home.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Dr. Maddiman Boss',
+        yokaiNumber: '407',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dr._maddiman.png',
+        description:
+            'This madman used to perform experiments on humans at his hospital. Even as a Yo-kai, his search for new test subjects continues...',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Dr. Nogut Boss',
+        yokaiNumber: '408',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dr._nogut.png',
+        description:
+            'A mad doctor Yo-kai who wants to create an ideal creature by blending parts from humans and Yo-kai alike! He even used his own guts in one experiment!',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'McKraken 1 Boss',
+        yokaiNumber: '409',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mckraken.png',
+        description:
+            'Squiddilius McKraken was the leader of a group that once tried to take over the Yo-kai World. He can absorb energy through the holes in his hands.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'McKraken 2 Boss',
+        yokaiNumber: '410',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mckraken_2.png',
+        description:
+            'McKraken in the form he took after absorbing the aura pervading Springdale. The aura gave him the monstrous power to control the elements and wreak havoc.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Squisker Boss',
+        yokaiNumber: '411',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/squisker.png',
+        description:
+            "Sent to the inferno in disgrace after falling to one of McKraken's schemes, this former politician is still bitter about his banishment.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Duwheel Boss',
+        yokaiNumber: '412',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/duwheel.png',
+        description:
+            "The blue, cheery side of Duwheel is always smiling. Don't upset it, though, or it'll flip upside down and turn an angry shade of red!",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Chirpster Boss',
+        yokaiNumber: '413',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/chirpster.png',
+        description:
+            "If you hear music coming from an old, abandoned mansion, this Yo-kai is probably partying there\u2014 and if you venture inside, you might just wind up dancing 'til dawn!",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Wobblewok Boss',
+        yokaiNumber: '414',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wobblewok.png',
+        description:
+            'Many Yo-kai fought and died to keep this terrifying beast sealed in a large cauldron in the inferno. Some still dare not utter the name Wobblewok aloud.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Hans Full Boss',
+        yokaiNumber: '415',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hans_full.png',
+        description:
+            'An experimental Yo-kai sewn together in secret by a desperate doctor. He really would have preferred one or two legs, but all he got was more and more arms.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Eyephoon Boss',
+        yokaiNumber: '416',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/eyephoon.png',
+        description:
+            'He uses his illusion- creating powers to erect strange portals all over Springdale and then uses the delusions of the people who wander through them to create completely new worlds.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Mallice Boss',
+        yokaiNumber: '417',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mallice.png',
+        description:
+            'Time for a hammer! BAM BAM! BOOM BOOM! Cocky egomaniacs  beware, or this giant will take you down a notch with one swing of his mallet. He holds an insane Whack-a-Mole record.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: "Cap'n Rex Boss",
+        yokaiNumber: '418',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cap_n_rex.png',
+        description:
+            'The last in a long line of legendary pirates. His motto "Full steam ahead!" has sunk every ship he\'s sailed on, as well as his family legacy. He\'s known as Captain Shipwreck by sailors everywhere.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Flippa Boss',
+        yokaiNumber: '419',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/flippa.png',
+        description:
+            "Flippa and Floppa are minor witches who serve Dame Dredful. They're closer than sisters and can join forces to unleash a killer combo.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Floppa Boss',
+        yokaiNumber: '420',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/floppa.png',
+        description:
+            "Flippa and Floppa are minor witches who serve Dame Dredful. They're closer than sisters and can join forces to unleash a killer combo.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Dame Dredful',
+        yokaiNumber: '421',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dame_dredful.png',
+        description:
+            'A witch who has spent years studying black magic. Her spells are imbued with a lifetime of bitterness and are extra powerful as a result. In her spare time, she likes to morph into a tin can.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Kat Kraydel Boss',
+        yokaiNumber: '422',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kat_kraydel.png',
+        description:
+            "This string-pulling spirit controls the destiny of all humanity. It's up to you whether you go along with it or decide to fight fate!",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Goldy Bones Boss',
+        yokaiNumber: '423',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/goldy_bones.png',
+        description:
+            "Gutsy Bones got lucky, winning a Crank-a-kai loaded with cash! He spent all his winnings on making his body gold and partying every day, but he's since found out that it's lonely at the top.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Glitzy Bones Boss',
+        yokaiNumber: '424',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/glitzy_bones.png',
+        description:
+            "Gutsy Bones got himself covered in diamonds, but he's more interested in seeing what comes out of the Crank-a-kai next than in the fact that he's now the most valuable Yo-kai in the world!",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Hans Galore Boss',
+        yokaiNumber: '425',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hans_galore.png',
+        description:
+            "This friendly fellow is the designated meeter and  greeter down on Mystery Way. Don't get on his bad side though, or the only thing he'll give you is a deadly handshake or five.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Retinado Boss',
+        yokaiNumber: '426',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/retinado.png',
+        description:
+            "A Yo-kai who enforces the speed limit on Mystery Way, where the cost of being caught speeding is your life! You'll know he's nearby when you see his camera flash.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Gargaros Boss',
+        yokaiNumber: '427',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gargaros.png',
+        description:
+            "A giant red Oni that appears in children's nightmares. Some say that he's the essence of fear itself. If you beat him, you'll grow as a person.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Ogralus Boss',
+        yokaiNumber: '428',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/ogralus.png',
+        description:
+            'This two-horned terror is said to appear in the dreams of children who tell lies. The only way to escape him is to promise to be unfailingly honest for the rest of your days!',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Orcanos Boss',
+        yokaiNumber: '429',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/orcanos.png',
+        description:
+            'Orcanos appears in the nightmares of lazy kids and spanks them so hard with his iron bat that they wake up screaming. Now then...do you have any homework to finish?',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
     },
     {
         name: 'Snottle',
-        tribe: 'Mysterious',
+        yokaiNumber: '430',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snottle.png',
-        attribute: 'Drain',
-        rank: 'D',
-        yokaiNumber1: '',
-        yokaiNumber2: '430',
-        yokaiNumber3: '085',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '4010',
-        hp: '970',
-        spirit: '1010',
-        power: '450',
-        speed: '1060',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/snottle.png',
+        description:
+            "Snottle doesn't need a reason to pick his nose. He's got two nostrils, and he wants to know what's up there.",
+        locations: [
+            "Shopper's Row - Mary's Coin Laundry",
+            "Shopper's Row - Mary's Coin Laundry"
+        ],
+        skill: {
+            name: 'Mirror Body',
+            description: 'Sends 1/2 of Techniquedamage back at foe.'
+        },
+        attack: {
+            name: 'Pinpoint Pierce',
+            power: '30 to 66'
+        },
+        technique: {
+            name: 'Drain',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Icky Picky',
+            description:
+                'Confuses all enemies by striking an oddly defiant nose-picking pose.',
+            power: '0'
+        },
+        inspirit: {
+            name: '-',
+            description: '-',
+            power: '0'
+        },
+        stats: {
+            hp: '258',
+            str: '34',
+            spr: '85',
+            def: '36',
+            spd: '129'
+        },
+        tribe: 'mysterious',
+        element: 'drain',
+        weakness: '-',
+        rank: 'd',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Moximous N',
-        tribe: 'Brave',
+        yokaiNumber: '431',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/moximous_n.png',
-        attribute: 'Wind',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '431',
-        yokaiNumber3: '048',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '4010',
-        hp: '970',
-        spirit: '1010',
-        power: '450',
-        speed: '1060',
-        defence: '520'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/moximous_n.png',
+        description:
+            'This champion of justice has crushed countless evils via the purity of his heart. He used to be a normal boy who just loved superheroes...a lot.',
+        locations: [
+            'Harrisville - Night - Gravestones',
+            'Harrisville - Night - Gravestones'
+        ],
+        skill: {
+            name: 'Born Winner',
+            description: "Dodges attacks like you wouldn't believe!"
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Storm',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Mighty Moxie',
+            description:
+                'Strikes a Moxie pose, recovering HP and getting even more powerful!',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Moximous',
+            description:
+                'The Inspirited Yo-kai becomes gutsy, and its STR is boosted.',
+            power: '0'
+        },
+        stats: {
+            hp: '241',
+            str: '116',
+            spr: '84',
+            def: '80',
+            spd: '104'
+        },
+        tribe: 'brave',
+        element: 'wind',
+        weakness: 'water',
+        rank: 'b',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Moximous K',
-        tribe: 'Brave',
+        yokaiNumber: '432',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/moximous_k.png',
-        attribute: 'Water',
-        rank: 'B',
-        yokaiNumber1: '',
-        yokaiNumber2: '432',
-        yokaiNumber3: '049',
-        yokaiFood1: '',
-        yokaiFood2: 'Snacks',
-        yokaiFood3: 'Snacks',
-        baseStats: '747',
-        hp: '277',
-        spirit: '160',
-        power: '86',
-        speed: '135',
-        defence: '89'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/moximous_k.png',
+        description:
+            'He was a boy who loved Yo-kai so much that he became one himself. That love still spreads through hundreds of Yo-kai friends.',
+        locations: [
+            'Harrisville - Daytime - Gravestones',
+            'Harrisville - Daytime - Gravestones'
+        ],
+        skill: {
+            name: 'Born Lucky',
+            description: 'Dodges and returns every enemy attack.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Mega Moxie',
+            description:
+                'Reaches maximum strength while restoring HP in the moxie pose.',
+            power: '0'
+        },
+        inspirit: {
+            name: 'Moximous',
+            description:
+                'The inspired Yo-kai becomes gusty, and its STR is boosted.',
+            power: '0'
+        },
+        stats: {
+            hp: '231',
+            str: '70',
+            spr: '136',
+            def: '73',
+            spd: '113'
+        },
+        tribe: 'brave',
+        element: 'water',
+        weakness: 'wind',
+        rank: 'b',
+        favouriteFood: 'snacks'
     },
     {
         name: 'Jibanyan S',
-        tribe: 'Charming',
+        yokaiNumber: '433',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jibanyan_s.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '432',
-        yokaiNumber3: '049',
-        yokaiFood1: '',
-        yokaiFood2: 'Chocobars',
-        yokaiFood3: 'Chocobars',
-        baseStats: '5760',
-        hp: '1290',
-        spirit: '920',
-        power: '1110',
-        speed: '1410',
-        defence: '1030'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/jibanyan_s.png',
+        description:
+            "Finally Jibanyan is S-Rank! He's stronger and confident that he'll beat the truck, but...",
+        locations: ['Uptown - Fish Place', 'Uptown - Fish Place'],
+        skill: {
+            name: 'No Guard',
+            description: 'High chance to give and take critical strikes.'
+        },
+        attack: {
+            name: 'Sharp Claws',
+            power: '10x2 to 45x2'
+        },
+        technique: {
+            name: 'Blaze',
+            power: '50 to 110'
+        },
+        soultime: {
+            name: 'Paws of Fury',
+            description:
+                'Punches all opponents with paws trained on moving vehicles.',
+            power: '20x5'
+        },
+        inspirit: {
+            name: 'Paralyzing Seal S',
+            description:
+                'Lowers enemy SPD by a lot with a Rank S paralyzing seal.',
+            power: '0'
+        },
+        stats: {
+            hp: '266',
+            str: '129',
+            spr: '109',
+            def: '74',
+            spd: '127'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'chocobars'
     },
     {
         name: 'Komasan S',
-        tribe: 'Charming',
+        yokaiNumber: '434',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komasan_s.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '434',
-        yokaiNumber3: '254',
-        yokaiFood1: '',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Soft Creams',
-        baseStats: '5720',
-        hp: '1290',
-        spirit: '960',
-        power: '990',
-        speed: '1370',
-        defence: '1110'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/komasan_s.png',
+        description:
+            "Somehow or other, Komasan became S-Rank. He's rather bewildered and wants to go back to his previous rank if possible.",
+        locations: ['Nom Burger', 'Nom Burger'],
+        skill: {
+            name: 'Firewall',
+            description: 'Draws in all Fire Techniques.'
+        },
+        attack: {
+            name: 'Power Punch',
+            power: '50 to 110'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Spirit Dance',
+            description: "Summons will-o'-the- wisps to damage his enemies.",
+            power: '100'
+        },
+        inspirit: {
+            name: 'Burn S',
+            description:
+                'Burns a foe with Rank S fire and steadily lowers its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '271',
+            str: '65',
+            spr: '146',
+            def: '106',
+            spd: '134'
+        },
+        tribe: 'charming',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'milks'
     },
     {
         name: 'Komajiro S',
-        tribe: 'Charming',
+        yokaiNumber: '435',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komajiro_s.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '435',
-        yokaiNumber3: '254',
-        yokaiFood1: '',
-        yokaiFood2: 'Milks',
-        yokaiFood3: 'Milks',
-        baseStats: '5680',
-        hp: '1290',
-        spirit: '960',
-        power: '870',
-        speed: '1410',
-        defence: '1150'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/komajiro_s.png',
+        description:
+            "Komajiro noticed one day that he had become S-Rank. He's taking his new rank in stride. If anything, it's made him even more optimistic.",
+        locations: [
+            'Downtown - Rolling Waves Park',
+            'Downtown - Rolling Waves Park'
+        ],
+        skill: {
+            name: 'Superconductor',
+            description: 'Blocks damage from all Lightning skill attacks.'
+        },
+        attack: {
+            name: 'Practiced Punch',
+            power: '90 to 135'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Wild Zaps',
+            description: 'Calls down lightning upon his opponents.',
+            power: '85 to '
+        },
+        inspirit: {
+            name: 'Tiger Power S',
+            description:
+                "Significantly raises an ally's SPD to match that of an S-Rank tiger.",
+            power: '0'
+        },
+        stats: {
+            hp: '280',
+            str: '43',
+            spr: '136',
+            def: '133',
+            spd: '131'
+        },
+        tribe: 'charming',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'milks'
     },
     {
         name: 'Darkyubi',
+        yokaiNumber: '436',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/darkyubi.png',
         description:
             'Entranced by evil power, Darkyubi has a dark soul. He wants to crush all hope and send the world into despair...or does he?',
-        tribe: 'Shady',
-        image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darkyubi.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '436',
-        yokaiNumber3: '442',
-        yokaiFood1: '',
-        yokaiFood2: 'Odens',
-        yokaiFood3: 'Odens',
-        hp: '417',
-        spirit: '238',
-        power: '103',
-        speed: '199',
-        defence: '153'
+        locations: [
+            "Quest - Whistory Lesson, Part 3  - Directator's All-Star Cast  - Tamer of Time",
+            "Quest - Whistory Lesson, Part 3  - Directator's All-Star Cast  - Tamer of Time"
+        ],
+        skill: {
+            name: 'Darkness Falls',
+            description: 'Amount of absorbed HP increased.'
+        },
+        attack: {
+            name: 'Tail Slap',
+            power: '100 to 150'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Alpha Omega',
+            description:
+                'Unleashes a terrifying darkness, steadily lowering the HP of the enemy.',
+            power: '200 to '
+        },
+        inspirit: {
+            name: 'Dark Descent',
+            description:
+                'Fills an enemy with darkness and steadily decreases its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '272',
+            str: '70',
+            spr: '157',
+            def: '97',
+            spd: '131'
+        },
+        tribe: 'shady',
+        element: 'drain',
+        weakness: 'ice',
+        rank: 's',
+        favouriteFood: 'odens'
     },
     {
         name: 'Illuminoct',
-        description:
-            'Illuminoct has a heart full of pure, golden justice that shines as brightly as the sun. That light shines on and obliterates all evil',
-        tribe: 'Brave',
+        yokaiNumber: '437',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/illuminoct.png',
-        attribute: 'Lightning',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '437',
-        yokaiNumber3: '063',
-        yokaiFood1: '',
-        yokaiFood2: 'Seafoods',
-        yokaiFood3: 'Seafoods',
-        hp: '413',
-        spirit: '103',
-        power: '216',
-        speed: '201',
-        defence: '177'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/illuminoct.png',
+        description:
+            'Illuminoct has a heart full of pure, golden justice that shines as brightly as the sun. That light shines on and obliterates all evil.',
+        locations: ['Happy-Go-Lucky Express', 'Happy-Go-Lucky Express'],
+        skill: {
+            name: 'Lord of Light',
+            description: "All adjecent Yo-kai's HP is slowly refilled."
+        },
+        attack: {
+            name: 'Maul',
+            power: '80 to 120'
+        },
+        technique: {
+            name: 'Voltage',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Dragon Flash',
+            description:
+                'Repeatedly bites his foes with his aura- filled dragon scarf. ',
+            power: '24x10 to '
+        },
+        inspirit: {
+            name: 'Light of Life',
+            description:
+                'Wraps an ally in holy light, steadily restoring its HP.',
+            power: '0'
+        },
+        stats: {
+            hp: '268',
+            str: '144',
+            spr: '66',
+            def: '115',
+            spd: '133'
+        },
+        tribe: 'brave',
+        element: 'lightning',
+        weakness: 'earth',
+        rank: 's',
+        favouriteFood: 'seafoods'
     },
     {
         name: 'Gargaros',
-        description:
-            'Gargaros, a symbol of fear itself, swoops in from Terror Time swinging his powerful club and smashing weak Yo-kai who get in his way',
-        tribe: 'Tough',
+        yokaiNumber: '438',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gargaros.png',
-        attribute: 'Fire',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '438',
-        yokaiNumber3: '202 (Friend)/B-26 (Boss)',
-        yokaiFood1: '',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        hp: '?',
-        spirit: '?',
-        power: '?',
-        speed: '?',
-        defence: '?'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gargaros.png',
+        description:
+            'Gargaros, a symbol of fear itself, swoops in from Terror Time swinging his powerful club and smashing weak Yo-kai who get in his way.',
+        locations: ['Bony Spirits Way', 'Bony Spirits Way'],
+        skill: {
+            name: 'Guard Break',
+            description: "Ignore foe's guard effect when attacking."
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Incinerate',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Nightmare Beat',
+            description: '-',
+            power: '300 to '
+        },
+        inspirit: {
+            name: 'Power of Terror',
+            description: 'Gives an ally the insane DEF of an Oni.',
+            power: '0'
+        },
+        stats: {
+            hp: '431',
+            str: '195',
+            spr: '83',
+            def: '107',
+            spd: '144'
+        },
+        tribe: 'tough',
+        element: 'fire',
+        weakness: 'water',
+        rank: 's',
+        favouriteFood: 'meats'
     },
     {
         name: 'Ogralus',
-        description:
-            'He prowls Terror Time, smashing and bashing his Enemies. He befriends those with the strength and purity of heart to escape Terror Time',
-        tribe: 'Tough',
+        yokaiNumber: '439',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ogralus.png',
-        attribute: 'Water',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '438',
-        yokaiNumber3: '',
-        yokaiFood1: '',
-        yokaiFood2: 'Meats',
-        yokaiFood3: '',
-        hp: '?',
-        spirit: '?',
-        power: '?',
-        speed: '?',
-        defence: '?'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/ogralus.png',
+        description:
+            'He prowls Terror Time, smashing and bashing his enemies. He befriends those with the strength and purity of heart to escape Terror Time.',
+        locations: ['Fleshy Souls', 'Fleshy Souls'],
+        skill: {
+            name: 'Water Play',
+            description: 'Increased damage of own Water attacks.'
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Waterfall',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Nightmare Beat',
+            description: '-',
+            power: '400 to '
+        },
+        inspirit: {
+            name: 'Power of Terror',
+            description: 'Gives an ally the insane DEF of an Oni.',
+            power: '0'
+        },
+        stats: {
+            hp: '420',
+            str: '110',
+            spr: '177',
+            def: '115',
+            spd: '140'
+        },
+        tribe: 'tough',
+        element: 'water',
+        weakness: 'lightning',
+        rank: 's',
+        favouriteFood: 'meats'
     },
     {
         name: 'Orcanos',
-        description:
-            "The giant horns mean he's an Oni of supreme rank.The characteristic Oni pattern stands out when his blood is up in battle",
-        tribe: 'Tough',
+        yokaiNumber: '440',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/orcanos.png',
-        attribute: 'Drain',
-        rank: 'S',
-        yokaiNumber1: '',
-        yokaiNumber2: '440',
-        yokaiNumber3: '204 (Friend)/B-028 (Boss)',
-        yokaiFood1: '',
-        yokaiFood2: 'Meats',
-        yokaiFood3: 'Meats',
-        hp: '?',
-        spirit: '?',
-        power: '?',
-        speed: '?',
-        defence: '?'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/orcanos.png',
+        description:
+            "The giant horns mean he's an Oni of supreme rank. The characteristic Oni pattern stands out when his blood is up in battle.",
+        locations: ['Gold-Gleaming Hwy.', 'Gold-Gleaming Hwy.'],
+        skill: {
+            name: 'Thick Crust',
+            description: 'DEF increases when front and center.'
+        },
+        attack: {
+            name: 'Clobber',
+            power: '75 to 112'
+        },
+        technique: {
+            name: 'Reaper',
+            power: '80 to 120'
+        },
+        soultime: {
+            name: 'Nightmare Beat',
+            description: '-',
+            power: '500 to '
+        },
+        inspirit: {
+            name: 'Power of Terror',
+            description: 'Gives an ally the insane DEF of an Oni.',
+            power: '0'
+        },
+        stats: {
+            hp: '446',
+            str: '171',
+            spr: '77',
+            def: '183',
+            spd: '94'
+        },
+        tribe: 'tough',
+        element: 'drain',
+        weakness: 'wind',
+        rank: 's',
+        favouriteFood: 'meats'
+    },
+    {
+        name: 'Rubeus J Boss',
+        yokaiNumber: '441',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rubeus_j.png',
+        description:
+            'Feared as the strongest Yo-kai, this monster leaves a trail of defeated enemies in his wake. Accompanied by fiendish minions, Rubeus J can level a battlefield with his destructive power.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Hardy Hound Boss',
+        yokaiNumber: '442',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hardy_hound.png',
+        description:
+            'The majestic white body hides a savage soul. His backpack is full of explosive skulls that are reserved for his foes, and he devours the souls of those he defeats.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Hinozall Boss',
+        yokaiNumber: '443',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hinozall.png',
+        description:
+            'A godlike Yo-kai of infinite creativity, he can make anything imaginable and has been known to create many fantastic worlds.',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Bronzlow Boss',
+        yokaiNumber: '444',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/bronzlow_.png',
+        description:
+            "He's the younger brother of Dame Dedtime's associates, Kin and Gin. He admires his sisters and tries to help them, but he can't always keep up with them and often gets in their way.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Teastroyer Boss',
+        yokaiNumber: '445',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/teastroyer.png',
+        description:
+            'This huge raccoon dog uses his shape-shifting powers to become whatever he wants to become. He wears a huge tea kettle that can fuse two things into one. It can even fuse two Yo-kai together!',
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Infinipea Boss',
+        yokaiNumber: '446',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/infinipea.png',
+        description:
+            "He's spent several hundred years spinning and spinning ans spinning and...history has kind of passed him by. Civilizations rise and fall, technology marches on, and Infinipea spins. But lately, he's into meeting new people.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Headasteam Boss',
+        yokaiNumber: '447',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/headasteam.png',
+        description:
+            "He's been at the controls so long, he's become one with the Hexpress's engine room. He eats coal to keep the train running, but he overheats a little too easily. Where will this runaway train stop?",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
+    },
+    {
+        name: 'Kabuking Boss',
+        yokaiNumber: '448',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kabuking.png',
+        description:
+            "The owner of Gera Gera Resort, he's also a superstar in the world of Kaibuki theater. He's friendly in person, but watch out for his stage persona. He's quite the fierce leading man.",
+        locations: [],
+        skill: {},
+        attack: {},
+        technique: {},
+        soultime: {},
+        inspirit: {},
+        stats: {},
+        tribe: 'boss',
+        element: '',
+        weakness: '',
+        rank: '',
+        favouriteFood: ''
     }
 ];
 

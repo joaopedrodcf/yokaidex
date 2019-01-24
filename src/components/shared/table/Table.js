@@ -3,7 +3,7 @@ import SCTable from './style';
 import Image from '../image';
 
 const getImage = (types, wantedType) => {
-    const typeRow = types.find(aux => wantedType === aux.name);
+    const typeRow = types.find(aux => wantedType === aux.name.toLowerCase());
 
     return typeRow ? typeRow.image : '';
 };

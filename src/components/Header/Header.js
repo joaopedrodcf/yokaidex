@@ -3,11 +3,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from 'react-router-dom';
 import Container from './style';
 
-const Header = ({ location }) => (
+const getHeader = () => {
+    if (document.location.hash.match('yokai'))
+        return document.location.hash.split('/')[2];
+    return 'Yokaidex';
+};
+
+const getIcon = () => {
+    if (document.location.hash.match('yokai')) return 'arrow-left';
+    return 'bars';
+};
+
+const Header = () => (
     <Container>
-        <FontAwesomeIcon icon="bars" />
         <Link to="/">
-            <h5>Yokaidex {location}</h5>
+            <FontAwesomeIcon icon={getIcon()} />
+            <h5>{getHeader()}</h5>
         </Link>
     </Container>
 );

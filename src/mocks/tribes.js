@@ -61,6 +61,13 @@ const tribes = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/tribes/wicked.png',
         color1: '#90a4ae',
         color2: '#546e7a'
+    },
+    {
+        name: 'Boss',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/tribes/boss.png',
+        color1: '#bdbdbd',
+        color2: '#616161'
     }
 ];
 
