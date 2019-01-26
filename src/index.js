@@ -24,6 +24,8 @@ import { HashRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 
+import ScrollToTop from './components/shared/scroll-to-top';
+
 library.add(
     fab,
     faBars,
@@ -45,7 +47,9 @@ library.add(
 
 ReactDOM.render(
     <HashRouter>
-        <App />
+        <ScrollToTop>
+            <App />
+        </ScrollToTop>
     </HashRouter>,
     document.getElementById('root')
 );
