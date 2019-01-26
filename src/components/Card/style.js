@@ -53,3 +53,15 @@ export const Table = styled.table`
         background-color: white;
     }
 `;
+
+export const SpecialDiv = styled.div`
+    position: absolute;
+    top: 68px;
+    left: 12px;
+    display: flex;
+    flex-direction: column;
+
+    img {
+        margin-bottom: 42px;
+    }
+`;

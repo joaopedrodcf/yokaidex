@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Table, Column, Row } from './style';
+import { Container, Table, Column, Row, SpecialDiv } from './style';
 import tribes from '../../mocks/tribes';
 import elements from '../../mocks/elements';
 import ranks from '../../mocks/ranks';
@@ -16,6 +16,12 @@ const getColor = (types, wantedType) => {
     return typeRow ? typeRow.color1 : '';
 };
 
+const getImage = (types, wantedType) => {
+    const typeRow = types.find(aux => wantedType === aux.name.toLowerCase());
+
+    return typeRow ? typeRow.image : '';
+};
+
 const Card = ({
     name,
     description,
@@ -27,7 +33,6 @@ const Card = ({
     favouriteFood,
     stats,
     evolution,
-    fusion,
     locations,
     skill,
     attack,
@@ -37,31 +42,89 @@ const Card = ({
 }) => (
     <Container>
         <h2>{name}</h2>
-
         <Image imageUrl={image} altText={name} size="large" />
+        <h2>{yokaiNumber}</h2>
+        <SpecialDiv>
+            <Image
+                imageUrl={getImage(tribes, tribe)}
+                altText={tribe}
+                size="small"
+            />
+            <Image
+                imageUrl={getImage(ranks, rank)}
+                altText={rank}
+                size="small"
+            />
+            <Image
+                imageUrl={getImage(elements, element)}
+                altText={element}
+                size="small"
+            />
+        </SpecialDiv>
 
         <SCTable
-            headers={['Description']}
+            headers={['Bio']}
             rows={[description]}
             color={getColor(tribes, tribe)}
         />
-
-        <SCTable
-            headers={['Tribe', 'Rank', 'Attribute']}
-            imageRows={[
-                { types: tribes, wantedType: tribe, size: 'small' },
-                { types: ranks, wantedType: rank, size: 'small' },
-                { types: elements, wantedType: element, size: 'small' }
-            ]}
-            color={getColor(tribes, tribe)}
-        />
-
-        <SCTable
-            headers={['Yokai number']}
-            rows={[yokaiNumber]}
-            color={getColor(tribes, tribe)}
-        />
-
+        <Table color="#ba68c8">
+            <tr>
+                <th>Skill</th>
+                <td>{skill.name}</td>
+            </tr>
+            <tr>
+                <th>Power</th>
+                <td>{skill.description}</td>
+            </tr>
+        </Table>
+        <Table color="#fff176">
+            <tr>
+                <th>Attack</th>
+                <td>{attack.name}</td>
+            </tr>
+            <tr>
+                <th>Power</th>
+                <td>{attack.power}</td>
+            </tr>
+        </Table>
+        <Table color="#64b5f6">
+            <tr>
+                <th>Technique</th>
+                <td>{technique.name}</td>
+            </tr>
+            <tr>
+                <th>Power</th>
+                <td>{technique.power}</td>
+            </tr>
+        </Table>
+        <Table color="#e57373">
+            <tr>
+                <th>Soultime</th>
+                <td>{soultime.name}</td>
+            </tr>
+            <tr>
+                <th>Power</th>
+                <td>{soultime.power}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{soultime.description}</td>
+            </tr>
+        </Table>
+        <Table color="#f06292">
+            <tr>
+                <th>Inspirit</th>
+                <td>{inspirit.name}</td>
+            </tr>
+            <tr>
+                <th>Power</th>
+                <td>{inspirit.power}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{inspirit.description}</td>
+            </tr>
+        </Table>
         <SCTable
             headers={['Favourite food']}
             imageRows={[
@@ -70,12 +133,32 @@ const Card = ({
             color={getColor(tribes, tribe)}
         />
 
-        <SCTable
-            headers={['Level', 'HP', 'STR', 'SPR', 'DEF', 'SPD']}
-            rows={[60, stats.hp, stats.str, stats.spr, stats.def, stats.spd]}
-            color={getColor(tribes, tribe)}
-        />
-
+        <Table>
+            <tr>
+                <th style={{ backgroundColor: '#fdd835' }}>Level</th>
+                <td>60</td>
+            </tr>
+            <tr>
+                <th style={{ backgroundColor: '#f06292' }}>HP</th>
+                <td>{stats.hp}</td>
+            </tr>
+            <tr>
+                <th style={{ backgroundColor: '#e57373' }}>STR</th>
+                <td>{stats.str}</td>
+            </tr>
+            <tr>
+                <th style={{ backgroundColor: '#ba68c8' }}>SPR</th>
+                <td>{stats.str}</td>
+            </tr>
+            <tr>
+                <th style={{ backgroundColor: '#64b5f6' }}>DEF</th>
+                <td>{stats.def}</td>
+            </tr>
+            <tr>
+                <th style={{ backgroundColor: '#81c784' }}>SPD</th>
+                <td>{stats.spd}</td>
+            </tr>
+        </Table>
         <Table color={getColor(tribes, tribe)}>
             <thead>
                 <tr>
@@ -94,37 +177,6 @@ const Card = ({
                 ))}
             </tbody>
         </Table>
-
-        <SCTable
-            headers={['Skill', 'Description']}
-            rows={[skill.name, skill.description]}
-            color={getColor(tribes, tribe)}
-        />
-
-        <SCTable
-            headers={['Attack', 'Power']}
-            rows={[attack.name, attack.power]}
-            color={getColor(tribes, tribe)}
-        />
-
-        <SCTable
-            headers={['Technique', 'Power']}
-            rows={[technique.name, technique.power]}
-            color={getColor(tribes, tribe)}
-        />
-
-        <SCTable
-            headers={['Soultime', 'Description', 'Power']}
-            rows={[soultime.name, soultime.description, soultime.power]}
-            color={getColor(tribes, tribe)}
-        />
-
-        <SCTable
-            headers={['Inspirit', 'Description', 'Power']}
-            rows={[inspirit.name, inspirit.description, inspirit.power]}
-            color={getColor(tribes, tribe)}
-        />
-
         {evolution && (
             <Table color={getColor(tribes, tribe)}>
                 <thead>
@@ -153,50 +205,6 @@ const Card = ({
                                     </Column>
                                 </Row>
                             ))}
-                        </td>
-                    </tr>
-                </tbody>
-            </Table>
-        )}
-
-        {fusion && (
-            <Table color={getColor(tribes, tribe)}>
-                <thead>
-                    <tr>
-                        <th>Fusion</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            <Row>
-                                <Column>
-                                    {fusion.image ? (
-                                        <Row>
-                                            <Image
-                                                imageUrl={fusion.image}
-                                                altText=""
-                                                size="medium"
-                                            />
-                                        </Row>
-                                    ) : (
-                                        <Row>
-                                            <Image
-                                                imageUrl={fusion.image1}
-                                                altText=""
-                                                size="medium"
-                                            />
-                                            <Image
-                                                imageUrl={fusion.image2}
-                                                altText=""
-                                                size="medium"
-                                            />
-                                        </Row>
-                                    )}
-
-                                    {fusion.description}
-                                </Column>
-                            </Row>
                         </td>
                     </tr>
                 </tbody>
