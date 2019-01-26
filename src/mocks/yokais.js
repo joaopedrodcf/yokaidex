@@ -2689,7 +2689,7 @@ const yokais = [
         element: 'wind',
         weakness: 'ice',
         rank: 'e',
-        favouriteFood: 'candy',
+        favouriteFood: 'candies',
         evolution: [
             {
                 description: 'Evolves into Houzzat at Level 20',
@@ -2751,7 +2751,7 @@ const yokais = [
         element: 'wind',
         weakness: 'ice',
         rank: 'b',
-        favouriteFood: 'candy',
+        favouriteFood: 'candies',
         evolution: [
             {
                 description: 'Evolves from Wazzat at Level 20',
@@ -2822,7 +2822,7 @@ const yokais = [
         element: 'lightning',
         weakness: 'earth',
         rank: 'e',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Faysoff',
@@ -4452,7 +4452,7 @@ const yokais = [
         element: 'wind',
         weakness: 'ice',
         rank: 's',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Flengu',
@@ -4500,7 +4500,7 @@ const yokais = [
         element: 'fire',
         weakness: 'water',
         rank: 's',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Kyubi',
@@ -5640,7 +5640,7 @@ const yokais = [
         element: 'ice',
         weakness: 'fire',
         rank: 'd',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Blowkade',
@@ -8712,7 +8712,7 @@ const yokais = [
         element: 'ice',
         weakness: 'fire',
         rank: 'b',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Blizzaria',
@@ -8755,7 +8755,7 @@ const yokais = [
         element: 'ice',
         weakness: 'fire',
         rank: 's',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Damona',
@@ -8807,7 +8807,7 @@ const yokais = [
         element: 'ice',
         weakness: 'fire',
         rank: 's',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Faux Kappa',
@@ -10651,7 +10651,7 @@ const yokais = [
         element: 'water',
         weakness: 'lightning',
         rank: 'b',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Dubbles',
@@ -10700,7 +10700,7 @@ const yokais = [
         element: 'water',
         weakness: 'lightning',
         rank: 'a',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Papa Bolt',
@@ -11054,7 +11054,7 @@ const yokais = [
         element: 'ice',
         weakness: 'fire',
         rank: 'e',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Mynimo',
@@ -11115,7 +11115,7 @@ const yokais = [
         element: 'drain',
         weakness: 'fire',
         rank: 'd',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Ake',
@@ -11171,7 +11171,7 @@ const yokais = [
         element: 'earth',
         weakness: 'wind',
         rank: 'e',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Payn',
@@ -11220,7 +11220,7 @@ const yokais = [
         element: 'earth',
         weakness: 'wind',
         rank: 'c',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Agon',
@@ -11270,7 +11270,7 @@ const yokais = [
         element: 'earth',
         weakness: 'wind',
         rank: 'b',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Wydeawake',
@@ -13164,7 +13164,7 @@ const yokais = [
             def: '77',
             spd: '68'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'water',
         weakness: 'lightning',
         rank: 'e',
@@ -13217,7 +13217,7 @@ const yokais = [
             def: '97',
             spd: '78'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'ice',
         weakness: 'fire',
         rank: 'd',
@@ -13269,7 +13269,7 @@ const yokais = [
             def: '56',
             spd: '112'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'water',
         weakness: 'lightning',
         rank: 'e',
@@ -13317,7 +13317,7 @@ const yokais = [
             def: '89',
             spd: '94'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'water',
         weakness: 'lightning',
         rank: 'b',
@@ -13376,7 +13376,7 @@ const yokais = [
             def: '87',
             spd: '96'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'ice',
         weakness: 'fire',
         rank: 'e',
@@ -13424,7 +13424,7 @@ const yokais = [
             def: '124',
             spd: '90'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'ice',
         weakness: 'fire',
         rank: 'b',
@@ -13475,7 +13475,7 @@ const yokais = [
             def: '68',
             spd: '87'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'fire',
         weakness: 'water',
         rank: 'd',
@@ -13533,7 +13533,7 @@ const yokais = [
             def: '80',
             spd: '71'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'fire',
         rank: 'e',
@@ -13583,7 +13583,7 @@ const yokais = [
             def: '94',
             spd: '103'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'fire',
         rank: 'b',
@@ -13631,7 +13631,7 @@ const yokais = [
             def: '93',
             spd: '77'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'earth',
         rank: 'd',
@@ -13694,7 +13694,7 @@ const yokais = [
             def: '50',
             spd: '99'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'ice',
         weakness: 'fire',
         rank: 'e',
@@ -13743,7 +13743,7 @@ const yokais = [
             def: '62',
             spd: '131'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'ice',
         weakness: 'fire',
         rank: 'b',
@@ -13794,7 +13794,7 @@ const yokais = [
             def: '66',
             spd: '77'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'wind',
         weakness: 'ice',
         rank: 'e',
@@ -13844,7 +13844,7 @@ const yokais = [
             def: '74',
             spd: '94'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'wind',
         weakness: 'ice',
         rank: 'c',
@@ -13893,7 +13893,7 @@ const yokais = [
             def: '80',
             spd: '113'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'wind',
         weakness: 'ice',
         rank: 'a',
@@ -13940,7 +13940,7 @@ const yokais = [
             def: '59',
             spd: '94'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'fire',
         weakness: 'water',
         rank: 'e',
@@ -13987,7 +13987,7 @@ const yokais = [
             def: '83',
             spd: '104'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'fire',
         weakness: 'water',
         rank: 'b',
@@ -14032,7 +14032,7 @@ const yokais = [
             def: '94',
             spd: '111'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'earth',
         weakness: 'wind',
         rank: 'a',
@@ -14088,7 +14088,7 @@ const yokais = [
             def: '42',
             spd: '102'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'earth',
         weakness: 'wind',
         rank: 'e',
@@ -14139,7 +14139,7 @@ const yokais = [
             def: '94',
             spd: '118'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'earth',
         weakness: 'wind',
         rank: 'a',
@@ -14200,7 +14200,7 @@ const yokais = [
             def: '56',
             spd: '83'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'restoration',
         weakness: 'wind',
         rank: 'd',
@@ -14251,7 +14251,7 @@ const yokais = [
             def: '91',
             spd: '76'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'earth',
         weakness: 'wind',
         rank: 'd',
@@ -14299,7 +14299,7 @@ const yokais = [
             def: '64',
             spd: '87'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'lightning',
         weakness: 'earth',
         rank: 'd',
@@ -14347,7 +14347,7 @@ const yokais = [
             def: '82',
             spd: '96'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'ice',
         rank: 'c',
@@ -14402,7 +14402,7 @@ const yokais = [
             def: '65',
             spd: '99'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'lightning',
         weakness: 'earth',
         rank: 'c',
@@ -14461,7 +14461,7 @@ const yokais = [
             def: '70',
             spd: '111'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'wind',
         weakness: 'ice',
         rank: 'c',
@@ -14510,7 +14510,7 @@ const yokais = [
             def: '73',
             spd: '106'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'ice',
         weakness: 'fire',
         rank: 'c',
@@ -14559,7 +14559,7 @@ const yokais = [
             def: '92',
             spd: '118'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'ice',
         weakness: 'fire',
         rank: 'a',
@@ -14609,7 +14609,7 @@ const yokais = [
             def: '87',
             spd: '104'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'earth',
         rank: 'c',
@@ -14661,7 +14661,7 @@ const yokais = [
             def: '103',
             spd: '113'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'earth',
         rank: 'a',
@@ -14709,7 +14709,7 @@ const yokais = [
             def: '104',
             spd: '92'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'fire',
         weakness: 'water',
         rank: 'b',
@@ -14757,7 +14757,7 @@ const yokais = [
             def: '100',
             spd: '115'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'ice',
         rank: 'a',
@@ -14807,7 +14807,7 @@ const yokais = [
             def: '82',
             spd: '110'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'fire',
         rank: 'a',
@@ -14858,7 +14858,7 @@ const yokais = [
             def: '78',
             spd: '105'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'lightning',
         rank: 'b',
@@ -14902,7 +14902,7 @@ const yokais = [
             def: '97',
             spd: '125'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'lightning',
         rank: 's',
@@ -14954,7 +14954,7 @@ const yokais = [
             def: '85',
             spd: '121'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'earth',
         rank: 's',
@@ -15003,11 +15003,11 @@ const yokais = [
             def: '85',
             spd: '120'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'ice',
         weakness: 'earth',
         rank: 'a',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Sandi',
@@ -15051,11 +15051,11 @@ const yokais = [
             def: '92',
             spd: '129'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'drain',
         weakness: 'ice',
         rank: 's',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Arachnus',
@@ -15099,7 +15099,7 @@ const yokais = [
             def: '101',
             spd: '120'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'earth',
         weakness: 'wind',
         rank: 's',
@@ -15152,7 +15152,7 @@ const yokais = [
             def: '96',
             spd: '126'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'earth',
         weakness: 'wind',
         rank: 's',
@@ -15205,7 +15205,7 @@ const yokais = [
             def: '53',
             spd: '92'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 'e',
@@ -15253,7 +15253,7 @@ const yokais = [
             def: '40',
             spd: '128'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'earth',
         weakness: 'wind',
         rank: 'e',
@@ -15298,7 +15298,7 @@ const yokais = [
             def: '75',
             spd: '148'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'earth',
         weakness: 'wind',
         rank: 'a',
@@ -15343,7 +15343,7 @@ const yokais = [
             def: '98',
             spd: '127'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'ice',
         weakness: 'nothing',
         rank: 'a',
@@ -15404,7 +15404,7 @@ const yokais = [
             def: '64',
             spd: '92'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'lightning',
         weakness: 'earth',
         rank: 'e',
@@ -15452,7 +15452,7 @@ const yokais = [
             def: '91',
             spd: '108'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'lightning',
         weakness: 'earth',
         rank: 'a',
@@ -15506,7 +15506,7 @@ const yokais = [
             def: '78',
             spd: '74'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'restoration',
         weakness: 'wind',
         rank: 'd',
@@ -15554,7 +15554,7 @@ const yokais = [
             def: '80',
             spd: '84'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'drain',
         weakness: 'fire',
         rank: 'c',
@@ -15602,7 +15602,7 @@ const yokais = [
             def: '91',
             spd: '78'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'restoration',
         weakness: 'wind',
         rank: 'c',
@@ -15652,7 +15652,7 @@ const yokais = [
             def: '80',
             spd: '67'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'lightning',
         weakness: 'earth',
         rank: 'd',
@@ -15698,7 +15698,7 @@ const yokais = [
             def: '96',
             spd: '79'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'lightning',
         weakness: 'earth',
         rank: 'b',
@@ -15752,7 +15752,7 @@ const yokais = [
             def: '106',
             spd: '78'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'fire',
         weakness: 'water',
         rank: 'a',
@@ -15811,7 +15811,7 @@ const yokais = [
             def: '92',
             spd: '75'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'restoration',
         weakness: 'ice',
         rank: 'd',
@@ -15860,7 +15860,7 @@ const yokais = [
             def: '116',
             spd: '92'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'restoration',
         weakness: 'earth',
         rank: 'a',
@@ -15907,7 +15907,7 @@ const yokais = [
             def: '63',
             spd: '98'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'fire',
         weakness: 'water',
         rank: 'd',
@@ -15952,7 +15952,7 @@ const yokais = [
             def: '54',
             spd: '114'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'fire',
         weakness: 'water',
         rank: 'a',
@@ -16001,7 +16001,7 @@ const yokais = [
             def: '72',
             spd: '86'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'earth',
         weakness: 'wind',
         rank: 'd',
@@ -16045,7 +16045,7 @@ const yokais = [
             def: '91',
             spd: '110'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'earth',
         weakness: 'wind',
         rank: 's',
@@ -16092,7 +16092,7 @@ const yokais = [
             def: '90',
             spd: '104'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 's',
@@ -16144,7 +16144,7 @@ const yokais = [
             def: '62',
             spd: '96'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 'd',
@@ -16188,7 +16188,7 @@ const yokais = [
             def: '100',
             spd: '117'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 's',
@@ -16239,7 +16239,7 @@ const yokais = [
             def: '113',
             spd: '113'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 's',
@@ -16290,7 +16290,7 @@ const yokais = [
             def: '80',
             spd: '94'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'restoration',
         weakness: 'earth',
         rank: 'c',
@@ -16341,11 +16341,11 @@ const yokais = [
             def: '88',
             spd: '144'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'drain',
         weakness: 'nothing',
         rank: 'c',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Confuze',
@@ -16390,11 +16390,11 @@ const yokais = [
             def: '78',
             spd: '109'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'drain',
         weakness: 'nothing',
         rank: 'b',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Chummer',
@@ -16440,7 +16440,7 @@ const yokais = [
             def: '82',
             spd: '89'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 'c',
@@ -16488,7 +16488,7 @@ const yokais = [
             def: '104',
             spd: '80'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 'b',
@@ -16541,7 +16541,7 @@ const yokais = [
             def: '119',
             spd: '76'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'wind',
         weakness: 'ice',
         rank: 'c',
@@ -16589,7 +16589,7 @@ const yokais = [
             def: '124',
             spd: '73'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 'b',
@@ -16642,11 +16642,11 @@ const yokais = [
             def: '91',
             spd: '96'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 'c',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Bananose',
@@ -16691,11 +16691,11 @@ const yokais = [
             def: '88',
             spd: '121'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 'a',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Draaagin',
@@ -16742,7 +16742,7 @@ const yokais = [
             def: '108',
             spd: '82'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'ice',
         weakness: 'fire',
         rank: 'b',
@@ -16787,7 +16787,7 @@ const yokais = [
             def: '85',
             spd: '104'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 'b',
@@ -16840,7 +16840,7 @@ const yokais = [
             def: '88',
             spd: '110'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'fire',
         weakness: 'water',
         rank: 'b',
@@ -16890,7 +16890,7 @@ const yokais = [
             def: '98',
             spd: '88'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'water',
         weakness: 'lightning',
         rank: 'b',
@@ -16941,7 +16941,7 @@ const yokais = [
             def: '107',
             spd: '98'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'lightning',
         weakness: 'earth',
         rank: 'a',
@@ -16989,7 +16989,7 @@ const yokais = [
             def: '86',
             spd: '143'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'lightning',
         weakness: 'earth',
         rank: 's',
@@ -17042,7 +17042,7 @@ const yokais = [
             def: '90',
             spd: '120'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'restoration',
         weakness: 'water',
         rank: 's',
@@ -17399,7 +17399,7 @@ const yokais = [
             def: '86',
             spd: '122'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'drain',
         weakness: 'water',
         rank: 's',
@@ -18102,7 +18102,7 @@ const yokais = [
             def: '97',
             spd: '119'
         },
-        tribe: 'slippery',
+        tribe: 'eerie',
         element: 'wind',
         weakness: 'ice',
         rank: 'b',
@@ -18149,7 +18149,7 @@ const yokais = [
             def: '129',
             spd: '138'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'earth',
         weakness: 'wind',
         rank: 'b',
@@ -18197,7 +18197,7 @@ const yokais = [
             def: '113',
             spd: '115'
         },
-        tribe: 'wicked',
+        tribe: 'slippery',
         element: 'fire',
         weakness: 'water',
         rank: 'b',
@@ -20083,7 +20083,7 @@ const yokais = [
         element: 'restoration',
         weakness: 'ice',
         rank: 'd',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Starrycane',
@@ -20128,7 +20128,7 @@ const yokais = [
         element: 'restoration',
         weakness: 'ice',
         rank: 'b',
-        favouriteFood: 'candy'
+        favouriteFood: 'candies'
     },
     {
         name: 'Gutsy Bones Boss',

@@ -61,12 +61,51 @@ const Card = ({
                 size="small"
             />
         </SpecialDiv>
-
         <SCTable
             headers={['Bio']}
             rows={[description]}
             color={getColor(tribes, tribe)}
         />
+        <SCTable
+            headers={['Favourite food']}
+            imageRows={[
+                { types: foods, wantedType: favouriteFood, size: 'special' }
+            ]}
+            color={getColor(tribes, tribe)}
+        />{' '}
+        {evolution && (
+            <Table color={getColor(tribes, tribe)}>
+                <thead>
+                    <tr>
+                        <th>Evolution</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            {evolution.map(evo => (
+                                <Row>
+                                    <Column>
+                                        <Row>
+                                            {evo.yokais.map(yk => (
+                                                <Link to={`/yokai/${yk.name}`}>
+                                                    <Image
+                                                        imageUrl={yk.image}
+                                                        altText=""
+                                                        size="medium"
+                                                    />
+                                                </Link>
+                                            ))}
+                                        </Row>
+                                        {evo.description}
+                                    </Column>
+                                </Row>
+                            ))}
+                        </td>
+                    </tr>
+                </tbody>
+            </Table>
+        )}
         <Table color="#ba68c8">
             <tr>
                 <th>Skill</th>
@@ -125,14 +164,6 @@ const Card = ({
                 <td>{inspirit.description}</td>
             </tr>
         </Table>
-        <SCTable
-            headers={['Favourite food']}
-            imageRows={[
-                { types: foods, wantedType: favouriteFood, size: 'special' }
-            ]}
-            color={getColor(tribes, tribe)}
-        />
-
         <Table>
             <tr>
                 <th style={{ backgroundColor: '#fdd835' }}>Level</th>
@@ -177,39 +208,6 @@ const Card = ({
                 ))}
             </tbody>
         </Table>
-        {evolution && (
-            <Table color={getColor(tribes, tribe)}>
-                <thead>
-                    <tr>
-                        <th>Evolution</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>
-                            {evolution.map(evo => (
-                                <Row>
-                                    <Column>
-                                        <Row>
-                                            {evo.yokais.map(yk => (
-                                                <Link to={`/yokai/${yk.name}`}>
-                                                    <Image
-                                                        imageUrl={yk.image}
-                                                        altText=""
-                                                        size="medium"
-                                                    />
-                                                </Link>
-                                            ))}
-                                        </Row>
-                                        {evo.description}
-                                    </Column>
-                                </Row>
-                            ))}
-                        </td>
-                    </tr>
-                </tbody>
-            </Table>
-        )}
     </Container>
 );
 
