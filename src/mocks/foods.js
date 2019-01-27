@@ -88,6 +88,11 @@ const foods = [
         name: 'Vegetables',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/vegetables.png'
+    },
+    {
+        name: 'Milks',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/milks.png'
     }
 ];
 
