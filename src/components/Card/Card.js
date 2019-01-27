@@ -5,8 +5,8 @@ import tribes from '../../mocks/tribes';
 import elements from '../../mocks/elements';
 import ranks from '../../mocks/ranks';
 import foods from '../../mocks/foods';
-import Image from '../shared/image';
-import SCTable from '../shared/table';
+import Image from '../shared/temp/image';
+import SCTable from '../shared/temp/table';
 
 const getColor = (types, wantedType) => {
     const typeRow = types.find(

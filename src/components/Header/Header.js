@@ -9,17 +9,16 @@ const getHeader = () => {
     return 'Yokaidex';
 };
 
-const getIcon = () => {
-    if (document.location.hash.match('yokai')) return 'arrow-left';
-    return 'bars';
-};
-
-const Header = () => (
+const Header = ({ onSetSidebarOpen }) => (
     <Container>
-        <Link to="/">
-            <FontAwesomeIcon icon={getIcon()} />
-            <h5>{getHeader()}</h5>
-        </Link>
+        {document.location.hash.match('yokai') ? (
+            <Link to="/">
+                <FontAwesomeIcon icon="arrow-left" />
+            </Link>
+        ) : (
+            <FontAwesomeIcon icon="bars" onClick={onSetSidebarOpen} />
+        )}
+        <h5>{getHeader()}</h5>
     </Container>
 );
 

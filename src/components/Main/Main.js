@@ -11,9 +11,8 @@ import {
     Collapsible
 } from './style';
 import yokaisJson from '../../mocks/yokais';
-import Button from '../shared/button';
-import Image from '../shared/image';
-
+import Button from '../shared/temp/button';
+import Image from '../shared/temp/image';
 import tribes from '../../mocks/tribes';
 import elements from '../../mocks/elements';
 import ranks from '../../mocks/ranks';

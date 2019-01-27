@@ -24,7 +24,7 @@ import { HashRouter } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 
-import ScrollToTop from './components/shared/scroll-to-top';
+import ScrollToTop from './components/shared/temp/scroll-to-top';
 
 library.add(
     fab,
