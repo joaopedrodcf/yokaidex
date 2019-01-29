@@ -21698,7 +21698,7 @@ const yokais = [
         ]
     },
     {
-        name: 'Gutsy Bones Boss',
+        name: 'Gutsy Bones',
         yokaiNumber: '388',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gutsy_bones.png',
@@ -21718,7 +21718,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Meganyan Boss',
+        name: 'Meganyan',
         yokaiNumber: '389',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/meganyan.png',
@@ -21738,7 +21738,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: "Cap'n Crash Boss",
+        name: "Cap'n Crash",
         yokaiNumber: '390',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cap_n_crash.png',
@@ -21758,7 +21758,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Eyeclone Boss',
+        name: 'Eyeclone',
         yokaiNumber: '391',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/eyeclone.png',
@@ -21778,7 +21778,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Kin Boss',
+        name: 'Kin',
         yokaiNumber: '392',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kin.png',
@@ -21798,7 +21798,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Gin Boss',
+        name: 'Gin',
         yokaiNumber: '393',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gin.png',
@@ -21818,7 +21818,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Dame Dedtime Boss',
+        name: 'Dame Dedtime',
         yokaiNumber: '394',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dame_dedtime.png',
@@ -21838,7 +21838,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Dame Demona Boss',
+        name: 'Dame Demona',
         yokaiNumber: '395',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dame_demona.png',
@@ -21858,7 +21858,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Slimamander Boss',
+        name: 'Slimamander',
         yokaiNumber: '396',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/slimamander.png',
@@ -21878,7 +21878,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Eyedra Boss',
+        name: 'Eyedra',
         yokaiNumber: '397',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/eyedra.png',
@@ -21898,7 +21898,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Sproink Boss',
+        name: 'Sproink',
         yokaiNumber: '398',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sproink.png',
@@ -21918,7 +21918,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Hoggles Boss',
+        name: 'Hoggles',
         yokaiNumber: '399',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hoggles.png',
@@ -21938,7 +21938,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'SV Snaggerjag Boss',
+        name: 'SV Snaggerjag',
         yokaiNumber: '400',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/sv_snaggerjag.png',
@@ -21958,7 +21958,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Styx Mk.VI Boss',
+        name: 'Styx Mk.VI',
         yokaiNumber: '401',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/styx_mk.vi.png',
@@ -21978,7 +21978,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Massiface Boss',
+        name: 'Massiface',
         yokaiNumber: '402',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/massiface.png',
@@ -21998,7 +21998,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Clipso Boss',
+        name: 'Clipso',
         yokaiNumber: '403',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/clipso.png',
@@ -22018,7 +22018,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Phantasmurai Boss',
+        name: 'Phantasmurai',
         yokaiNumber: '404',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/phantasmurai.png',
@@ -22038,7 +22038,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Spooklunk Boss',
+        name: 'Spooklunk',
         yokaiNumber: '405',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/spooklunk.png',
@@ -22058,7 +22058,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Tarantutor Boss',
+        name: 'Tarantutor',
         yokaiNumber: '406',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/tarantutor.png',
@@ -22078,7 +22078,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Dr. Maddiman Boss',
+        name: 'Dr. Maddiman',
         yokaiNumber: '407',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dr._maddiman.png',
@@ -22098,7 +22098,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Dr. Nogut Boss',
+        name: 'Dr. Nogut',
         yokaiNumber: '408',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/dr._nogut.png',
@@ -22118,7 +22118,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'McKraken 1 Boss',
+        name: 'McKraken 1',
         yokaiNumber: '409',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mckraken.png',
@@ -22138,7 +22138,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'McKraken 2 Boss',
+        name: 'McKraken 2',
         yokaiNumber: '410',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mckraken_2.png',
@@ -22158,7 +22158,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Squisker Boss',
+        name: 'Squisker',
         yokaiNumber: '411',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/squisker.png',
@@ -22178,7 +22178,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Duwheel Boss',
+        name: 'Duwheel',
         yokaiNumber: '412',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/duwheel.png',
@@ -22198,7 +22198,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Chirpster Boss',
+        name: 'Chirpster',
         yokaiNumber: '413',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/chirpster.png',
@@ -22218,7 +22218,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Wobblewok Boss',
+        name: 'Wobblewok',
         yokaiNumber: '414',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/wobblewok.png',
@@ -22238,7 +22238,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Hans Full Boss',
+        name: 'Hans Full',
         yokaiNumber: '415',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hans_full.png',
@@ -22258,7 +22258,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Eyephoon Boss',
+        name: 'Eyephoon',
         yokaiNumber: '416',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/eyephoon.png',
@@ -22278,7 +22278,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Mallice Boss',
+        name: 'Mallice',
         yokaiNumber: '417',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/mallice.png',
@@ -22298,7 +22298,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: "Cap'n Rex Boss",
+        name: "Cap'n Rex",
         yokaiNumber: '418',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/cap_n_rex.png',
@@ -22318,7 +22318,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Flippa Boss',
+        name: 'Flippa',
         yokaiNumber: '419',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/flippa.png',
@@ -22338,7 +22338,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Floppa Boss',
+        name: 'Floppa',
         yokaiNumber: '420',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/floppa.png',
@@ -22378,7 +22378,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Kat Kraydel Boss',
+        name: 'Kat Kraydel',
         yokaiNumber: '422',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kat_kraydel.png',
@@ -22398,7 +22398,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Goldy Bones Boss',
+        name: 'Goldy Bones',
         yokaiNumber: '423',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/goldy_bones.png',
@@ -22418,7 +22418,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Glitzy Bones Boss',
+        name: 'Glitzy Bones',
         yokaiNumber: '424',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/glitzy_bones.png',
@@ -22438,7 +22438,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Hans Galore Boss',
+        name: 'Hans Galore',
         yokaiNumber: '425',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hans_galore.png',
@@ -22458,7 +22458,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Retinado Boss',
+        name: 'Retinado',
         yokaiNumber: '426',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/retinado.png',
@@ -22478,7 +22478,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Gargaros Boss',
+        name: 'Gargaros',
         yokaiNumber: '427',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/gargaros.png',
@@ -22498,7 +22498,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Ogralus Boss',
+        name: 'Ogralus',
         yokaiNumber: '428',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/ogralus.png',
@@ -22518,7 +22518,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Orcanos Boss',
+        name: 'Orcanos',
         yokaiNumber: '429',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/orcanos.png',
@@ -23039,7 +23039,7 @@ const yokais = [
         favouriteFood: 'meats'
     },
     {
-        name: 'Rubeus J Boss',
+        name: 'Rubeus J',
         yokaiNumber: '441',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/rubeus_j.png',
@@ -23059,7 +23059,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Hardy Hound Boss',
+        name: 'Hardy Hound',
         yokaiNumber: '442',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hardy_hound.png',
@@ -23079,7 +23079,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Hinozall Boss',
+        name: 'Hinozall',
         yokaiNumber: '443',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/hinozall.png',
@@ -23099,7 +23099,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Bronzlow Boss',
+        name: 'Bronzlow',
         yokaiNumber: '444',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/bronzlow_.png',
@@ -23119,7 +23119,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Teastroyer Boss',
+        name: 'Teastroyer',
         yokaiNumber: '445',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/teastroyer.png',
@@ -23139,7 +23139,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Infinipea Boss',
+        name: 'Infinipea',
         yokaiNumber: '446',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/infinipea.png',
@@ -23159,7 +23159,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Headasteam Boss',
+        name: 'Headasteam',
         yokaiNumber: '447',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/headasteam.png',
@@ -23179,7 +23179,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'Kabuking Boss',
+        name: 'Kabuking',
         yokaiNumber: '448',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1548371003/Yokai/yokais/kabuking.png',

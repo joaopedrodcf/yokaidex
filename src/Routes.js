@@ -16,6 +16,14 @@ class Routes extends Component {
     getYokai(name) {
         const { yokais } = this.state;
 
+        if (name.includes('_boss')) {
+            return yokais.find(
+                yokai =>
+                    yokai.name === name.replace('_boss', '') &&
+                    yokai.tribe === 'boss'
+            );
+        }
+
         return yokais.find(yokai => yokai.name === name);
     }
 

@@ -55,8 +55,11 @@ class Main extends Component {
         this.handleCollapse = this.handleCollapse.bind(this);
     }
 
-    goTo(url) {
-        this.props.history.push(url);
+    goTo(name, tribe) {
+        let nameUrl = name;
+        if (tribe === 'boss') nameUrl += `_${tribe}`;
+
+        this.props.history.push(`/yokai/${nameUrl}`);
     }
 
     handleResetFilter() {
@@ -360,9 +363,9 @@ class Main extends Component {
                                 })
                                 .map(yokai => (
                                     <tr
-                                        key={yokai.name}
+                                        key={yokai.name + yokai.tribe}
                                         onClick={() =>
-                                            this.goTo(`/yokai/${yokai.name}`)
+                                            this.goTo(yokai.name, yokai.tribe)
                                         }
                                         style={{
                                             background: `linear-gradient(to bottom, ${getColor(
