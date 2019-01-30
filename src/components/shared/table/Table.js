@@ -1,14 +1,9 @@
 import React from 'react';
 import SCTable from './style';
 import Image from '../image';
+import utils from '../../utils';
 
-const getImage = (types, wantedType) => {
-    const typeRow = types.find(aux => wantedType === aux.name.toLowerCase());
-
-    return typeRow ? typeRow.image : '';
-};
-
-const Table = ({ headers, rows, imageRows, color }) => (
+const Table = ({ headers, rows, imageRows, color, children }) => (
     <SCTable color={color}>
         <thead>
             <tr>
@@ -18,13 +13,14 @@ const Table = ({ headers, rows, imageRows, color }) => (
             </tr>
         </thead>
         <tbody>
+            {children}
             <tr>
                 {imageRows &&
                     imageRows.map((row, index) => (
                         <td key={index + row}>
-                            {getImage(row.types, row.wantedType) && (
+                            {utils.getImage(row.types, row.wantedType) && (
                                 <Image
-                                    imageUrl={getImage(
+                                    imageUrl={utils.getImage(
                                         row.types,
                                         row.wantedType
                                     )}

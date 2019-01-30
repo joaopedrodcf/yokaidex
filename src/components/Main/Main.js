@@ -1,8 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/no-access-state-in-setstate */
-
-import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React, { Component } from 'react';
 import {
     Container,
     Filters,
@@ -10,28 +9,10 @@ import {
     InputContainer,
     Collapsible
 } from './style';
-import yokaisJson from '../../mocks/yokais';
 import Button from '../shared/button';
 import Image from '../shared/image';
-import tribes from '../../mocks/tribes';
-import elements from '../../mocks/elements';
-import ranks from '../../mocks/ranks';
-
-const getImage = (types, wantedType) => {
-    const typeRow = types.find(
-        aux => wantedType.toLowerCase() === aux.name.toLowerCase()
-    );
-
-    return typeRow ? typeRow.image : '';
-};
-
-const getColor = (types, wantedType) => {
-    const typeRow = types.find(
-        aux => wantedType.toLowerCase() === aux.name.toLowerCase()
-    );
-
-    return typeRow ? `${typeRow.color1}, ${typeRow.color2}` : '';
-};
+import utils from '../utils';
+import { elements, yokais as yokaisJson, ranks, tribes } from '../../mocks';
 
 class Main extends Component {
     constructor(props) {
@@ -368,7 +349,7 @@ class Main extends Component {
                                             this.goTo(yokai.name, yokai.tribe)
                                         }
                                         style={{
-                                            background: `linear-gradient(to bottom, ${getColor(
+                                            background: `linear-gradient(to bottom, ${utils.getGradientColor(
                                                 tribes,
                                                 yokai.tribe
                                             )})`
@@ -385,7 +366,7 @@ class Main extends Component {
                                         </td>
                                         <td>
                                             <Image
-                                                imageUrl={getImage(
+                                                imageUrl={utils.getImage(
                                                     tribes,
                                                     yokai.tribe
                                                 )}
@@ -395,7 +376,7 @@ class Main extends Component {
                                         </td>
                                         <td>
                                             <Image
-                                                imageUrl={getImage(
+                                                imageUrl={utils.getImage(
                                                     ranks,
                                                     yokai.rank
                                                 )}
@@ -405,7 +386,7 @@ class Main extends Component {
                                         </td>
                                         <td>
                                             <Image
-                                                imageUrl={getImage(
+                                                imageUrl={utils.getImage(
                                                     elements,
                                                     yokai.element
                                                 )}
