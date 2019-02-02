@@ -68,6 +68,20 @@ const tribes = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/tribes/boss.png',
         color1: '#bdbdbd',
         color2: '#616161'
+    },
+    {
+        name: 'Enma',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/tribes/enma.png',
+        color1: '#ba68c8',
+        color2: '#fdd835'
+    },
+    {
+        name: 'Wandroid',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547399779/Yokai/tribes/wandroid .png',
+        color1: '#d1d9ff',
+        color2: '#757de8'
     }
 ];
 

@@ -40,6 +40,11 @@ const foods = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/meats.png'
     },
     {
+        name: 'Milks',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/milks.png'
+    },
+    {
         name: 'Odens',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/odens.png'
@@ -90,9 +95,24 @@ const foods = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/vegetables.png'
     },
     {
-        name: 'Milks',
+        name: 'Pastas',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/milks.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/pastas.png'
+    },
+    {
+        name: 'Donuts',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/donuts.png'
+    },
+    {
+        name: 'Tempuras',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/tempuras.png'
+    },
+    {
+        name: 'Hot Dogs',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/hot_dogs.png'
     }
 ];
 
