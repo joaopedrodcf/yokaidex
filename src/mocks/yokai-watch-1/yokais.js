@@ -3,7 +3,7 @@ const yokais = [
         name: 'Pandle',
         yokaiNumber: '001',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pandle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pandle.png',
         description:
             'A careless Yo-kai who enters battle wearing only a loincloth...and a pan...on his head. Try not to take after him so much.',
         locations: [
@@ -51,7 +51,7 @@ const yokais = [
         name: 'Undy',
         yokaiNumber: '002',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/undy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/undy.png',
         description:
             "Having abandoned the pan, Undy is pretty much bare to the world. That aside, you won't ever see him wince or bruise.",
         locations: [
@@ -99,7 +99,7 @@ const yokais = [
         name: 'Tanbo',
         yokaiNumber: '003',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tanbo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tanbo.png',
         description:
             'A Yo-kai that is always first to the battle! With no clothes to slow him down, he shows up early and always has a nice tan.',
         locations: ['Blossom Heights - Objects'],
@@ -143,7 +143,7 @@ const yokais = [
         name: 'Cutta-nah',
         yokaiNumber: '004',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cutta-nah.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cutta-nah.png',
         description:
             "A lazy katana Yo-kai who can drain all of your motivation. He's strangely sharp for being so lazy.",
         locations: ['Mt. Wildwood - Abandoned Tunnel West'],
@@ -187,7 +187,7 @@ const yokais = [
         name: 'Cutta-nah-nah',
         yokaiNumber: '005',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cutta-nah-nah.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cutta-nah-nah.png',
         description:
             'Too lazy to get a haircut, but not too lazy to slash enemies with his untidy strands.',
         locations: [
@@ -234,7 +234,7 @@ const yokais = [
         name: 'Slacka-slash',
         yokaiNumber: '006',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/slacka-slash.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slacka-slash.png',
         description:
             'More dangerous than he looks, Slacka-slash can beat his foes with only a single slice.',
         locations: [
@@ -281,7 +281,7 @@ const yokais = [
         name: 'Mochismo',
         yokaiNumber: '007',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mochismo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mochismo.png',
         description:
             "He's cute most of the time, but when he's mad, his body cracks and his manly face pops out.",
         locations: [
@@ -328,7 +328,7 @@ const yokais = [
         name: 'Minochi',
         yokaiNumber: '008',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/minochi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/minochi.png',
         description:
             "When he's in love, he gets overly protective about his partner. He can make you a very jealous person.",
         locations: ['Downtown Springdale - Springdale Business Tower'],
@@ -372,7 +372,7 @@ const yokais = [
         name: 'Helmsman',
         yokaiNumber: '009',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/helmsman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/helmsman.png',
         description:
             'A floating helmet that was worn by a famous military commander. It spends its days searching for its body\u2014a good use of time.',
         locations: [
@@ -421,7 +421,7 @@ const yokais = [
         name: 'Reuknight',
         yokaiNumber: '010',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/reuknight.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reuknight.png',
         description:
             "Helmsman and Armsman reunited. He now aspires to do what he couldn't do when he was alive\u2014 unify the country.",
         locations: ['Yo-kai World - Hooligan Road', 'Fusion.'],
@@ -466,7 +466,7 @@ const yokais = [
         name: 'Corptain',
         yokaiNumber: '011',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/corptain.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/corptain.png',
         description:
             "A popular leader when he was alive, Corptain leads an army of souls even after death. Now that's charisma! ",
         locations: ['Old Mansion - Side House'],
@@ -511,7 +511,7 @@ const yokais = [
         name: 'Blazion',
         yokaiNumber: '012',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/blazion.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blazion.png',
         description:
             'The king of beasts with a mane of fire! This hot- blooded Yo-kai fills folks with fiery enthusiasm.',
         locations: [
@@ -560,7 +560,7 @@ const yokais = [
         name: 'Quaken',
         yokaiNumber: '013',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/quaken.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/quaken.png',
         description:
             'Every step Quaken takes shakes the place...and some of those vibrations can even move your heart. Awwwwww!',
         locations: ['Uptown Springdale - Elementary School'],
@@ -604,7 +604,7 @@ const yokais = [
         name: 'Siro',
         yokaiNumber: '014',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/siro.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/siro.png',
         description:
             'Siro brings out the best in those he Inspirits. They become shining lights for the future.',
         locations: [
@@ -652,7 +652,7 @@ const yokais = [
         name: 'Chansin',
         yokaiNumber: '015',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/chansin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chansin.png',
         description:
             'Once a proud warrior, Chansin threw it all away by gambling... Now his best odds are to retreat.',
         locations: [
@@ -701,7 +701,7 @@ const yokais = [
         name: 'Sheen',
         yokaiNumber: '016',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sheen.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sheen.png',
         description:
             'A Yo-kai swordsman who returned to the way of the sword when a legendary blade reignited his spirit.',
         locations: ['Fusion.'],
@@ -746,7 +746,7 @@ const yokais = [
         name: 'Snee',
         yokaiNumber: '017',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/snee.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snee.png',
         description:
             'Cursed by his demon blade, Snee searches the world for blood. He excels at silently sneaking up on his enemies.',
         locations: ['Fusion.'],
@@ -789,7 +789,7 @@ const yokais = [
         name: 'Gleam',
         yokaiNumber: '018',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/gleam.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gleam.png',
         description:
             'A holy swordsman with a divine blade that cuts through evil like cheddar cheese. Could he bring about tasty world peace?',
         locations: ['Fusion.'],
@@ -834,7 +834,7 @@ const yokais = [
         name: 'Benkei',
         yokaiNumber: '019',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/benkei.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/benkei.png',
         description:
             'Hiding 999 weapons from fallen foes in his stomach, Benkei can call any one of them out in a moment of need.',
         locations: [
@@ -880,7 +880,7 @@ const yokais = [
         name: 'B3-NK1',
         yokaiNumber: '020',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/b3-nk1.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/b3-nk1.png',
         description:
             "A Yo-kai whose body is half machine. It could very well be the world's first cyborg Yo-kai.",
         locations: ['Breezy Hills - Gourd Pond Museum'],
@@ -925,7 +925,7 @@ const yokais = [
         name: 'Sushiyama',
         yokaiNumber: '021',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sushiyama.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sushiyama.png',
         description:
             'A Yo-kai who desperately wants to be Japanese. He sleeps on a futon and eats only sushi. I think he might be doing it wrong...',
         locations: [
@@ -976,7 +976,7 @@ const yokais = [
         name: 'Kapunki',
         yokaiNumber: '022',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/kapunki.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kapunki.png',
         description:
             'A punk Yo-kai who wears kabuki-style makeup. He dreams of rocking the socks and faces off his fans all across the globe.',
         locations: [
@@ -1024,7 +1024,7 @@ const yokais = [
         name: 'Beetler',
         yokaiNumber: '023',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/beetler.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/beetler.png',
         description:
             'Beetler is a young battler who fights with his horns and his fists. He trains with his rival, Rhinoggin.',
         locations: ['Mt. Wildwood - Trees'],
@@ -1068,7 +1068,7 @@ const yokais = [
         name: 'Beetall',
         yokaiNumber: '024',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/beetall.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/beetall.png',
         description:
             'If Beetler bashes baddies in a bevy of brutal battles, the result will be a big- bodied Beetall.',
         locations: ['Uptown Springdale - Trees', 'Fusion.'],
@@ -1112,7 +1112,7 @@ const yokais = [
         name: 'Cruncha',
         yokaiNumber: '025',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cruncha.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cruncha.png',
         description:
             'A stag-beetle Yo-kai that represents the apex of the thorax. He can grant you incredible strength.',
         locations: [
@@ -1160,7 +1160,7 @@ const yokais = [
         name: 'Zerberker',
         yokaiNumber: '026',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/zerberker.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zerberker.png',
         description:
             "Legend has it that this Yo-kai leveled an entire village with one tantrum. You'll explode with rage if he's around.",
         locations: ['Infinite Inferno - 7-8th Circle'],
@@ -1204,7 +1204,7 @@ const yokais = [
         name: 'Snartle',
         yokaiNumber: '027',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/snartle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snartle.png',
         description:
             'This Yo-kai visits homes asking, "Any brats here?"  It\'s a way of scaring kids into behaving well. Kind of like a reverse Santa.',
         locations: ['Pedestrian crossing '],
@@ -1249,7 +1249,7 @@ const yokais = [
         name: 'Snotsolong',
         yokaiNumber: '028',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/snotsolong.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snotsolong.png',
         description:
             "A crane Yo-kai with an insanely runny nose. It's scared its drippings will make it too heavy to fly. ...I'd be scared too.",
         locations: [
@@ -1299,7 +1299,7 @@ const yokais = [
         name: 'Duchoo',
         yokaiNumber: '029',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/duchoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/duchoo.png',
         description:
             "Ever felt like you might be sick, but you're not totally sure if you really are? Blame Duchoo.",
         locations: ['Breezy Hills - Water'],
@@ -1344,7 +1344,7 @@ const yokais = [
         name: 'Wazzat',
         yokaiNumber: '030',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/wazzat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wazzat.png',
         description:
             'It fits snugly on your head before it devours your memories. It can be nice to forget the bad ones... or to just wear a hat.',
         locations: ['Downtown Springdale - Trees'],
@@ -1389,7 +1389,7 @@ const yokais = [
         name: 'Dummkap',
         yokaiNumber: '031',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dummkap.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dummkap.png',
         description:
             'This hat Yo-kai can make geniuses into dreamy fools. A foolish life can be more fun...but would you even realize if it were?!',
         locations: ['Downtown Springdale - Trees'],
@@ -1434,7 +1434,7 @@ const yokais = [
         name: "D'wanna",
         yokaiNumber: '032',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/d_wanna.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/d_wanna.png',
         description:
             "D'wanna's chants will weaken your resolve! This can make you give up on...y'know, stuff and whatever.",
         locations: ['Blossom Heights - Old Mansion Attic'],
@@ -1478,7 +1478,7 @@ const yokais = [
         name: "N'more",
         yokaiNumber: '033',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/n_more.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/n_more.png',
         description:
             "N'more gets bored of things quickly. Some say his cool brows and beard grew from his boredom with shaving.",
         locations: [
@@ -1526,7 +1526,7 @@ const yokais = [
         name: "Q'wit",
         yokaiNumber: '034',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/q_wit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/q_wit.png',
         description:
             "He gives up on everything he tries and won't do the same thing twice. He has a lot of experience at doing things once.",
         locations: [
@@ -1574,7 +1574,7 @@ const yokais = [
         name: 'Lafalotta',
         yokaiNumber: '035',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/lafalotta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lafalotta.png',
         description:
             'This Yo-kai sucks the laughter and fun out of a  situation and keeps all the laughs for herself.',
         locations: ['Blossom Heights - Trees'],
@@ -1619,7 +1619,7 @@ const yokais = [
         name: 'Blips',
         yokaiNumber: '036',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/blips.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blips.png',
         description:
             'If you see someone get out of a pool with blue lips, they might just be Inspirited by Blips...',
         locations: ['Blossom Heights - Trees'],
@@ -1663,7 +1663,7 @@ const yokais = [
         name: 'Tattletell',
         yokaiNumber: '037',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tattletell.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tattletell.png',
         description:
             "When Tattletell Inspirits you, you'll feel inspired to TELL, TELL, TELL all of your secrets. ",
         locations: [
@@ -1712,7 +1712,7 @@ const yokais = [
         name: 'Tattlecast',
         yokaiNumber: '038',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tattlecast.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tattlecast.png',
         description:
             "She uses her massive speakers to broadcast scandalous secrets to the whole city. Hope they aren't yours!",
         locations: ['Fusion.'],
@@ -1757,7 +1757,7 @@ const yokais = [
         name: 'Skranny',
         yokaiNumber: '039',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/skranny.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skranny.png',
         description:
             'Only Tattletells who discover their love of heavy-metal music can don the skull makeup and become a Skranny.',
         locations: ["Shopper's Row - Trees", 'Statue Yo-kai Spots.'],
@@ -1801,7 +1801,7 @@ const yokais = [
         name: 'Cupistol',
         yokaiNumber: '040',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cupistol.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cupistol.png',
         description:
             "This debonair Yo-kai is quite a hit with the ladies. Anyone he shoots will love you. He's just the greatest! *swoon*",
         locations: [
@@ -1849,7 +1849,7 @@ const yokais = [
         name: 'Casanuva',
         yokaiNumber: '041',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/casanuva.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/casanuva.png',
         description:
             'This narcissist makes every lady he sees fall in love with him, regardless of appearance.',
         locations: ["Shopper's Row - Trees", 'Fusion.'],
@@ -1894,7 +1894,7 @@ const yokais = [
         name: 'Casanono',
         yokaiNumber: '042',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/casanono.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/casanono.png',
         description:
             "Casanuva's opposite. He just can't get a date no matter what! He'll make you unpopular too. Best to give him some space.",
         locations: [
@@ -1942,7 +1942,7 @@ const yokais = [
         name: 'Signibble',
         yokaiNumber: '043',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/signibble.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/signibble.png',
         description:
             "A mischievous Yo-kai that snacks on radio waves in the air. You'll lose a few bars on your phone when he's around.",
         locations: [
@@ -1994,7 +1994,7 @@ const yokais = [
         name: 'Signiton',
         yokaiNumber: '044',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/signiton.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/signiton.png',
         description:
             'Signiton is almost a deity for those in desperate need of a wireless signal. He can boost your reception if you ask.',
         locations: [
@@ -2043,7 +2043,7 @@ const yokais = [
         name: 'Statiking',
         yokaiNumber: '045',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/statiking.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/statiking.png',
         description:
             "He's pretty lazy, but if he got motivated, his power would fix a ton of the world's energy problems.",
         locations: ['Infinite Inferno - 2nd Circle'],
@@ -2088,7 +2088,7 @@ const yokais = [
         name: 'Mirapo',
         yokaiNumber: '046',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mirapo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mirapo.png',
         description:
             'An ancient mirror that embodied a soul and became a Yo-kai. It can make a portal between two mirrors.',
         locations: ['Breezy Hills - Trees'],
@@ -2133,7 +2133,7 @@ const yokais = [
         name: 'Mircle',
         yokaiNumber: '047',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mircle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mircle.png',
         description:
             'Mircle fills the space behind mirrors with evil by renting it out to bad Yo-kai...at a wickedly high rate, naturally.',
         locations: ["Shopper's Row - Trees", 'Breezy Hills - Trees'],
@@ -2177,7 +2177,7 @@ const yokais = [
         name: 'Illoo',
         yokaiNumber: '048',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/illoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/illoo.png',
         description:
             'A caring teacher who uses illusions to simplify his lessons. He can make complex topics seem pretty accessible.',
         locations: ['Breezy Hills - Objects'],
@@ -2221,7 +2221,7 @@ const yokais = [
         name: 'Elloo',
         yokaiNumber: '049',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/elloo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/elloo.png',
         description:
             "A friendly old Yo-kai who can dissipate into a haze. He's Illoo's brother.",
         locations: [
@@ -2268,7 +2268,7 @@ const yokais = [
         name: 'Alloo',
         yokaiNumber: '050',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/alloo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/alloo.png',
         description:
             "He wanders the world without a goal. It's an absolute miracle if the three brothers Illoo, Elloo, and Alloo all meet up. ",
         locations: [
@@ -2316,7 +2316,7 @@ const yokais = [
         name: 'Espy',
         yokaiNumber: '051',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/espy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/espy.png',
         description:
             "Espy gets a kick out of reading people's minds. It's totally not fair that no one can read hers...and now she knows that too.",
         locations: [
@@ -2364,7 +2364,7 @@ const yokais = [
         name: 'Infour',
         yokaiNumber: '052',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/infour.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/infour.png',
         description:
             "Her four eyes can see a person's age, name, gender, and birthday, but  she can't read minds. It's still kinda creepy, though.",
         locations: [
@@ -2412,7 +2412,7 @@ const yokais = [
         name: 'Tengu',
         yokaiNumber: '053',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tengu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tengu.png',
         description:
             'A popular tengu who controls the power of wind. Apparently all that power comes from his number-one fan.',
         locations: ['Quest - Take Out Tengu!'],
@@ -2457,7 +2457,7 @@ const yokais = [
         name: 'Flengu',
         yokaiNumber: '054',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/flengu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flengu.png',
         description:
             'A tengu with hair the color of fire. Legend says it causes a drought when humanity needs to be taught a lesson.',
         locations: ['Blossom Heights - Trees'],
@@ -2502,7 +2502,7 @@ const yokais = [
         name: 'Kyubi',
         yokaiNumber: '055',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/kyubi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kyubi.png',
         description:
             'An elite nine-tailed-fox Yo-kai. He can easily produce power greater than a volcanic eruption.',
         locations: ['Quest - The Legendary Kyubi'],
@@ -2547,7 +2547,7 @@ const yokais = [
         name: 'Frostail',
         yokaiNumber: '056',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/frostail.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frostail.png',
         description:
             "Even a single hair of this rare Yo-kai's silvery coat can bring generations of good luck!",
         locations: [
@@ -2595,7 +2595,7 @@ const yokais = [
         name: 'Dulluma',
         yokaiNumber: '057',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dulluma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dulluma.png',
         description:
             'He looks like a lucky daruma, but his real body is inside the shell. Dull and sluggish, he can really slow you down.',
         locations: [
@@ -2644,7 +2644,7 @@ const yokais = [
         name: 'Darumacho',
         yokaiNumber: '058',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/darumacho.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/darumacho.png',
         description:
             'Now a truly macho Yo-kai, this one worked tirelessly in a mountain retreat to train away his dullness.',
         locations: [
@@ -2692,7 +2692,7 @@ const yokais = [
         name: 'Goruma',
         yokaiNumber: '059',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/goruma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/goruma.png',
         description:
             "Darumacho wasn't happy until he had the body and strength of a gorilla. Goruma can crush cars  like marshmallows. ",
         locations: ['Uptown Springdale - Elementary School'],
@@ -2737,7 +2737,7 @@ const yokais = [
         name: 'Noway',
         yokaiNumber: '060',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/noway.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/noway.png',
         description:
             'He rejects everything with a "no way!" Becoming a brain-surgeon astronaut is easier than getting past him.',
         locations: [
@@ -2785,7 +2785,7 @@ const yokais = [
         name: 'Impass',
         yokaiNumber: '061',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/impass.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/impass.png',
         description:
             "You...you just can't get by Impass. Why?! What's his  motivation?! What's the story behind him?! Nobody knows...",
         locations: [
@@ -2832,7 +2832,7 @@ const yokais = [
         name: 'Walldin',
         yokaiNumber: '062',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/walldin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/walldin.png',
         description:
             'Formerly a sturdy castle wall, the fall of the family he once protected turned him into a Yo-kai.',
         locations: [
@@ -2880,7 +2880,7 @@ const yokais = [
         name: 'Armsman',
         yokaiNumber: '063',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/armsman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/armsman.png',
         description:
             'Even headless he gives 110 percent. He dreams of reuniting with his head someday... Not sure how he dreams\u2014he just does.',
         locations: ['Blossom Heights - Old Mansion Attic'],
@@ -2924,7 +2924,7 @@ const yokais = [
         name: 'Fidgephant',
         yokaiNumber: '064',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/fidgephant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/fidgephant.png',
         description:
             'Fidgephant always feels like his nose is going to leak. He attacks with a water stream when he has to release it all!',
         locations: ['Uptown Springdale - Bushes'],
@@ -2968,7 +2968,7 @@ const yokais = [
         name: 'Touphant',
         yokaiNumber: '065',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/touphant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/touphant.png',
         description:
             'Touphant can endure anything...with a certain amount of body-shaking effort. He can help you persevere as well.',
         locations: ['Uptown Springdale - Bushes'],
@@ -3012,7 +3012,7 @@ const yokais = [
         name: 'Blowkade',
         yokaiNumber: '066',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/blowkade.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blowkade.png',
         description:
             "Blowkade is one weird Yo-kai. Nobody knows why he puts his all into blocking people's paths.",
         locations: ['Downtown Springdale - Construction Site'],
@@ -3057,7 +3057,7 @@ const yokais = [
         name: 'Ledballoon',
         yokaiNumber: '067',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/ledballoon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ledballoon.png',
         description:
             "A dump truck couldn't move Ledballoon's heavy body...which is bad news if it gets in your way.",
         locations: [
@@ -3104,7 +3104,7 @@ const yokais = [
         name: 'Mad Mountain',
         yokaiNumber: '068',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mad_mountain.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mad_mountain.png',
         description:
             "Hailing from the land of frost, it's the wrestler with legs as thick as glaciers and a heart of ice: MAD MOUNTAIN!",
         locations: [
@@ -3153,7 +3153,7 @@ const yokais = [
         name: 'Lava Lord',
         yokaiNumber: '069',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/lava_lord.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lava_lord.png',
         description:
             "And in red, we have the only wrestler to rival Mad Mountain! It's the violent volcano himself\u2014 LAAAVA LOOOOOOORD!",
         locations: ['Breezy Hills - Gourd Pond Museum'],
@@ -3198,7 +3198,7 @@ const yokais = [
         name: 'Roughraff',
         yokaiNumber: '070',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/roughraff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/roughraff.png',
         description:
             'A Yo-kai whose only cause is rebellion, he Inspirits good kids into badness and delinquency.',
         locations: [
@@ -3247,7 +3247,7 @@ const yokais = [
         name: 'Badude',
         yokaiNumber: '071',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/badude.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/badude.png',
         description:
             "This gang leader runs into enemy territory wielding his brutal nail bat. That's his way of taking care of his gang.",
         locations: [
@@ -3296,7 +3296,7 @@ const yokais = [
         name: 'Bruff',
         yokaiNumber: '072',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/bruff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bruff.png',
         description:
             'Said to have taken down an entire Yo-kai gang by himself, many rebel Yo-kai revere him as a big brother.',
         locations: [
@@ -3345,7 +3345,7 @@ const yokais = [
         name: 'Rhinoggin',
         yokaiNumber: '073',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rhinoggin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhinoggin.png',
         description:
             'The hyperaggressive Rhinoggin is always  battling Beetler for the title of Bug Yo-kai King.',
         locations: [
@@ -3393,7 +3393,7 @@ const yokais = [
         name: 'Rhinormous',
         yokaiNumber: '074',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rhinormous.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhinormous.png',
         description:
             'Only the select few Rhinoggin who have proven their might in battle can hold the name of Rhinormous.',
         locations: ['Uptown Springdale - Trees', 'Fusion.'],
@@ -3436,7 +3436,7 @@ const yokais = [
         name: 'Hornaplenty',
         yokaiNumber: '075',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hornaplenty.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hornaplenty.png',
         description:
             'When Rhinormous achieves power far beyond his peers, he can earn the rarified title of Hornaplenty.',
         locations: ['Mt. Wildwood - Trees'],
@@ -3479,7 +3479,7 @@ const yokais = [
         name: 'Castelius III',
         yokaiNumber: '076',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/castelius_iii.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_iii.png',
         description:
             "Castelius III will make you always come in third. There's not much of a future in that...unless you're a bronze tycoon.",
         locations: ['Downtown Springdale - Construction Site'],
@@ -3523,7 +3523,7 @@ const yokais = [
         name: 'Castelius II',
         yokaiNumber: '077',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/castelius_ii.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_ii.png',
         description:
             'Castelius II will always lock you in second place. Not bad, but could you have done a bit better...?',
         locations: ['Breezy Hills - Gourd Pond Museum', 'Fusion.'],
@@ -3567,7 +3567,7 @@ const yokais = [
         name: 'Castelius I',
         yokaiNumber: '078',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/castelius_i.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_i.png',
         description:
             "First place. Gold medals. Big trophies. That's your life if Castelius I Inspirits you. But with great power comes great...ness!",
         locations: ['Fusion.'],
@@ -3611,7 +3611,7 @@ const yokais = [
         name: 'Castelius Max',
         yokaiNumber: '079',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/castelius_max.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_max.png',
         description:
             'Being Inspirited by this extremely rare Yo-kai will let you transcend mere winning and losing.',
         locations: ['Breezy Hills - Trees', 'Fusion.'],
@@ -3656,7 +3656,7 @@ const yokais = [
         name: 'Robonyan',
         yokaiNumber: '080',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/robonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan.png',
         description:
             "A robot that thinks it's actually Jibanyan. Stiff movement aside, the resemblance is uncatty! Meow meow.",
         locations: [
@@ -3702,7 +3702,7 @@ const yokais = [
         name: 'Goldenyan',
         yokaiNumber: '081',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/goldenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/goldenyan.png',
         description:
             'Goldenyan glistens with purrfection. Meow meow. Truly priceless.',
         locations: [
@@ -3750,7 +3750,7 @@ const yokais = [
         name: 'Dromp',
         yokaiNumber: '082',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dromp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dromp.png',
         description:
             'Fairy tales tell of the monstrous Dromp building mountains and digging ponds.',
         locations: ['Shrine Behind the Waterfall'],
@@ -3795,7 +3795,7 @@ const yokais = [
         name: 'Swosh',
         yokaiNumber: '083',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/swosh.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/swosh.png',
         description:
             'A Yo-kai with a heart as big as the ocean. Some say that Swosh embodies the sea itself.',
         locations: ['Downtown Springdale - Water'],
@@ -3840,7 +3840,7 @@ const yokais = [
         name: 'Dazzabel',
         yokaiNumber: '084',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dazzabel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dazzabel.png',
         description:
             "Dazzabel loves wearing anything gaudy. If she Inspirits you, you'll start liking that style too!",
         locations: [
@@ -3888,7 +3888,7 @@ const yokais = [
         name: 'Rattelle',
         yokaiNumber: '085',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rattelle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rattelle.png',
         description:
             "While she looks calm in her gothic wear, she'll fly into a rage if you insult her style.",
         locations: [
@@ -3935,7 +3935,7 @@ const yokais = [
         name: 'Skelebella',
         yokaiNumber: '086',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/skelebella.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skelebella.png',
         description:
             "She's so confident in the unparalleled beauty of her bones that she doesn't even need her skin.",
         locations: [
@@ -3983,7 +3983,7 @@ const yokais = [
         name: 'Cadin',
         yokaiNumber: '087',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cadin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cadin.png',
         description:
             'He claims to practice "cicada ninjutsu"...but that\'s not really a thing. Unless it\'s a mastery of running away.',
         locations: ['Uptown Springdale - Trees', 'Blossom Heights - Trees'],
@@ -4026,7 +4026,7 @@ const yokais = [
         name: 'Cadable',
         yokaiNumber: '088',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cadable.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cadable.png',
         description:
             'Cadin has trained his "cicada ninjutsu" to its peak. Now Cadable claims it\'s a worthy martial art! *crickets* *cicadas*',
         locations: [
@@ -4074,7 +4074,7 @@ const yokais = [
         name: 'Singcada',
         yokaiNumber: '089',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/singcada.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/singcada.png',
         description:
             'His advanced style of "cicada ninjutsu" makes him sing while he fights! His battles even draw music fans sometimes!',
         locations: [
@@ -4122,7 +4122,7 @@ const yokais = [
         name: 'Pupsicle',
         yokaiNumber: '090',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pupsicle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pupsicle.png',
         description:
             'Pupsicle is always cold. He may be Inspiriting those who wear layers of clothes in summer.',
         locations: [
@@ -4171,7 +4171,7 @@ const yokais = [
         name: 'Chilhuahua',
         yokaiNumber: '091',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/chilhuahua.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chilhuahua.png',
         description:
             'Legends tell of Chilhuahua saving people lost in the snowy mountains. Some consider him a deity.',
         locations: ['Mt. Wildwood - Ponds', 'Fusion.'],
@@ -4214,7 +4214,7 @@ const yokais = [
         name: 'Swelterrier',
         yokaiNumber: '092',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/swelterrier.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/swelterrier.png',
         description:
             'His fiery heart and body always make him feel too hot. Being near him is like being near a space heater.',
         locations: ['Infinite Inferno - 7-8th Circle'],
@@ -4257,7 +4257,7 @@ const yokais = [
         name: 'Jibanyan',
         yokaiNumber: '093',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/jibanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jibanyan.png',
         description:
             'After being run over by a truck, he Inspirits an intersection and seeks to get his revenge on passing trucks.',
         locations: [
@@ -4306,7 +4306,7 @@ const yokais = [
         name: 'Thornyan',
         yokaiNumber: '094',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/thornyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/thornyan.png',
         description:
             "Jibanyan's proud of his new spiky body. Just don't walk behind him while you're barefoot.",
         locations: ['Fusion.'],
@@ -4350,7 +4350,7 @@ const yokais = [
         name: 'Baddinyan',
         yokaiNumber: '095',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/baddinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/baddinyan.png',
         description:
             "Jibanyan gone bad. REAL BAD. With an impressive pompadour haircut and classy tails, he's a delinquent with no cause.",
         locations: ['Fusion.'],
@@ -4395,7 +4395,7 @@ const yokais = [
         name: 'Walkappa',
         yokaiNumber: '096',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/walkappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/walkappa.png',
         description:
             'Most kappas stay in the water, but this one likes to walk around. He pours water on his head to make up for this.',
         locations: [
@@ -4443,7 +4443,7 @@ const yokais = [
         name: 'Appak',
         yokaiNumber: '097',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/appak.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/appak.png',
         description:
             'Appak can cut just about anything with his water sword. He wanders the world in order to heighten his skills.',
         locations: [
@@ -4491,7 +4491,7 @@ const yokais = [
         name: 'Supyo',
         yokaiNumber: '098',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/supyo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/supyo.png',
         description:
             "Whereas most kappas stick to rivers, this one likes to surf...and pick up girls while he's at it.",
         locations: [
@@ -4539,7 +4539,7 @@ const yokais = [
         name: 'Komasan',
         yokaiNumber: '099',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/komasan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komasan.png',
         description:
             "Komasan is a guardian lion-dog that got bored with guarding his shrine. Now he's looking for a new one.",
         locations: [
@@ -4586,7 +4586,7 @@ const yokais = [
         name: 'Komane',
         yokaiNumber: '100',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/komane.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komane.png',
         description:
             "Komasan's travels made him grow up into a brave and dependable Yo-kai. He's strong too!",
         locations: ['Yo-kai World - Entry Hall', 'Evolve Komasan at Level 35.'],
@@ -4631,7 +4631,7 @@ const yokais = [
         name: 'Komajiro',
         yokaiNumber: '101',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/komajiro.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komajiro.png',
         description:
             "Komasan's younger twin, he looks for his runaway bro. But he can't find him anywhere, poor guy.",
         locations: [
@@ -4678,7 +4678,7 @@ const yokais = [
         name: 'Komiger',
         yokaiNumber: '102',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/komiger.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komiger.png',
         description:
             "Komajiro's pursuit of his brother brought out his ferocious tiger spirit. He even has stripes!",
         locations: ["Shopper's Row - Trees", 'Evolve Komajiro at Level 33.'],
@@ -4723,7 +4723,7 @@ const yokais = [
         name: 'Baku',
         yokaiNumber: '103',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/baku.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/baku.png',
         description:
             'A Yo-kai that eats only human dreams. It puts people to sleep before digging in. Beaux r\u00eaves!',
         locations: ['Blossom Heights - Bushes', 'During the story.'],
@@ -4768,7 +4768,7 @@ const yokais = [
         name: 'Whapir',
         yokaiNumber: '104',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/whapir.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whapir.png',
         description:
             "A rare white Baku. Legends say that if a Whapir Inspirits you, you're guaranteed to have good dreams. ",
         locations: ['Nocturne Hospital - 2F'],
@@ -4812,7 +4812,7 @@ const yokais = [
         name: 'Shmoopie',
         yokaiNumber: '105',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shmoopie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shmoopie.png',
         description:
             "This Yo-kai is cute enough to melt anyone's heart...and he knows it!  He can be quite the schemer, so look out!",
         locations: [
@@ -4861,7 +4861,7 @@ const yokais = [
         name: 'Pinkipoo',
         yokaiNumber: '106',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pinkipoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pinkipoo.png',
         description:
             'Known as the Aristocrat of Love, Pinkipoo uses his overpowering cuteness to win over new followers.',
         locations: ['Yo-kai World - Entry Hall', 'Fusion.'],
@@ -4906,7 +4906,7 @@ const yokais = [
         name: 'Pookivil',
         yokaiNumber: '107',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pookivil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pookivil.png',
         description:
             "This Yo-kai will make even nice people into scheming manipulators. An embodiment of Pinkipoo's bad side.",
         locations: [
@@ -4953,7 +4953,7 @@ const yokais = [
         name: 'Frostina',
         yokaiNumber: '108',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/frostina.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frostina.png',
         description:
             'Frostina has the power to freeze anything, but that keeps her pretty chilly\u2014 that and bad circulation.',
         locations: [
@@ -5002,7 +5002,7 @@ const yokais = [
         name: 'Blizzaria',
         yokaiNumber: '109',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/blizzaria.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blizzaria.png',
         description:
             'Now she can fully control her chilling power. Blizzaria can make snow fall in summer and freeze volcanoes.',
         locations: ['Fusion.'],
@@ -5045,7 +5045,7 @@ const yokais = [
         name: 'Damona',
         yokaiNumber: '110',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/damona.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/damona.png',
         description:
             'The princess of a small netherworld region. Her power is immense, but she lacks the power to feel any emotion.',
         locations: [
@@ -5094,7 +5094,7 @@ const yokais = [
         name: 'Wiglin',
         yokaiNumber: '111',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/wiglin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wiglin.png',
         description:
             "A seaweed Yo-kai who wants to spread his hometown dance to the world. And he's very healthy too!",
         locations: ['Downtown Springdale - Water'],
@@ -5138,7 +5138,7 @@ const yokais = [
         name: 'Steppa',
         yokaiNumber: '112',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/steppa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/steppa.png',
         description:
             "Steppa is one of Wiglin's rivals. It believes that kombu is the best kind of seaweed...if there is such a thing.",
         locations: ['Downtown Springdale - Water'],
@@ -5181,7 +5181,7 @@ const yokais = [
         name: 'Rhyth',
         yokaiNumber: '113',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rhyth.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhyth.png',
         description:
             "The one female of the seaweed trio. Wiglin and Steppa both really like her, but she doesn't seem to notice.",
         locations: ['Downtown Springdale - Water'],
@@ -5226,7 +5226,7 @@ const yokais = [
         name: 'Wantston',
         yokaiNumber: '114',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/wantston.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wantston.png',
         description:
             "Wantston wants everything others have, but he won't even try to acquire what he envies. So no worries.",
         locations: [
@@ -5274,7 +5274,7 @@ const yokais = [
         name: 'Grubsnitch',
         yokaiNumber: '115',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/grubsnitch.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grubsnitch.png',
         description:
             "If you can't stop snacking before dinner, Grubsnitch is probably nearby.",
         locations: ["Shopper's Row - Bushes", "Shopper's Row - Empty flats"],
@@ -5319,7 +5319,7 @@ const yokais = [
         name: 'Hungramps',
         yokaiNumber: '116',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hungramps.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hungramps.png',
         description:
             "A Yo-kai who is always hungry and can make other tummies rumble. ...That's really about the only thing he can do. ",
         locations: [
@@ -5366,7 +5366,7 @@ const yokais = [
         name: 'Hungorge',
         yokaiNumber: '117',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hungorge.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hungorge.png',
         description:
             "A terribly gluttonous Yo-kai that'll eat anything in front of him. His mouth is like a black hole\u2014even rice can't escape it.",
         locations: [
@@ -5416,7 +5416,7 @@ const yokais = [
         name: 'Grainpa',
         yokaiNumber: '118',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/grainpa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grainpa.png',
         description:
             "A rare Hungramps with a body made of rice. He's so kind, he'll let a hungry person eat part of his body if necessary. ",
         locations: ['Blossom Heights - Tucked Away Lot'],
@@ -5461,7 +5461,7 @@ const yokais = [
         name: 'Lodo',
         yokaiNumber: '119',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/lodo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lodo.png',
         description:
             "You know when you just keep losing change or getting the wrong change back? Lodo's fault.",
         locations: [
@@ -5510,7 +5510,7 @@ const yokais = [
         name: 'Chippa',
         yokaiNumber: '120',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/chippa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chippa.png',
         description:
             'An eternal optimist that never worries about anything. Being Inspirited by him can be worse than you think.',
         locations: [
@@ -5558,7 +5558,7 @@ const yokais = [
         name: 'Enerfly',
         yokaiNumber: '121',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/enerfly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/enerfly.png',
         description:
             'A butterfly Yo-kai who brings those it Inspirits to their peak condition. Often mistaken for Enefly.',
         locations: ['Mt. Wildwood - Trees'],
@@ -5602,7 +5602,7 @@ const yokais = [
         name: 'Enefly',
         yokaiNumber: '122',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/enefly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/enefly.png',
         description:
             'A butterfly Yo-kai who makes those it Inspirits cut ties with their best friends. Often mistaken  for Enerfly.',
         locations: ['Mt. Wildwood - Trees'],
@@ -5647,7 +5647,7 @@ const yokais = [
         name: 'Betterfly',
         yokaiNumber: '123',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/betterfly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/betterfly.png',
         description:
             "People will fulfill their potential in ways they've never imagined with Betterfly. Everyone wants this Yo-kai!",
         locations: ["Shopper's Row - Trees", 'Fusion.'],
@@ -5692,7 +5692,7 @@ const yokais = [
         name: 'Peppillon',
         yokaiNumber: '124',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/peppillon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/peppillon.png',
         description:
             'A butterfly Yo-kai with otherworldly wings. Breathing in its scales will boost your level of excitement to its max.',
         locations: ['Mt. Wildwood - Trees'],
@@ -5736,7 +5736,7 @@ const yokais = [
         name: 'Happierre',
         yokaiNumber: '125',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/happierre.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/happierre.png',
         description:
             'This heartwarming  Yo-kai removes the  tension in the air. He can cheer up even the angriest of people.',
         locations: [
@@ -5784,7 +5784,7 @@ const yokais = [
         name: 'Reversa',
         yokaiNumber: '126',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/reversa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reversa.png',
         description:
             "One moment she's happy, and the next, she's sad. She can be more difficult to deal with than Dismarelda sometimes.",
         locations: [
@@ -5833,7 +5833,7 @@ const yokais = [
         name: 'Reversette',
         yokaiNumber: '127',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/reversette.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reversette.png',
         description:
             'She resembles Reversa, but her reversed pattern is a rare sight. Her depression\u2014not so rare.',
         locations: [
@@ -5881,7 +5881,7 @@ const yokais = [
         name: "Ol' Saint Trick",
         yokaiNumber: '128',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/ol__saint_trick.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__saint_trick.png',
         description:
             "Take a guess and get one of three presents: bad, good, or average. He'll leave if you ask for all three, though...",
         locations: ['Uptown Springdale - Trees'],
@@ -5925,7 +5925,7 @@ const yokais = [
         name: "Ol' Fortune",
         yokaiNumber: '129',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/ol__fortune.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__fortune.png',
         description:
             "Another old man with bags full of gifts. Unlike Ol' Saint Trick, all of his presents are good!",
         locations: [
@@ -5972,7 +5972,7 @@ const yokais = [
         name: 'Rollen',
         yokaiNumber: '130',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rollen.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rollen.png',
         description:
             'Everything he does is decided by a roll of his dice eyes. Their outcome changes his personality! ',
         locations: ['Yo-kai World - Liar Mountain'],
@@ -6016,7 +6016,7 @@ const yokais = [
         name: 'Dubbles',
         yokaiNumber: '131',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dubbles.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dubbles.png',
         description:
             "Dubbles will Inspirit you and point you toward an unknown fate. Even he doesn't know if it'll be a good or bad one.",
         locations: [
@@ -6063,7 +6063,7 @@ const yokais = [
         name: 'Papa Bolt',
         yokaiNumber: '132',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/papa_bolt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/papa_bolt.png',
         description:
             "No matter how lazy you are, you'll work fast when Papa Bolt's watching. His anger is SCAAAAARY!",
         locations: ['Blossom Heights - Telephone poles'],
@@ -6107,7 +6107,7 @@ const yokais = [
         name: 'Uncle Infinite',
         yokaiNumber: '133',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/uncle_infinite.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/uncle_infinite.png',
         description:
             "Even Papa Bolt is scared of Uncle Infinite's power. He can throw a table an entire mile!",
         locations: ['Blossom Heights - Telephone poles'],
@@ -6152,7 +6152,7 @@ const yokais = [
         name: 'Mama Aura',
         yokaiNumber: '134',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mama_aura.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mama_aura.png',
         description:
             'Sometimes strict and sometimes nice, she embraces Yo-kai with her warm aura. No Yo-kai can defy her.',
         locations: [
@@ -6200,7 +6200,7 @@ const yokais = [
         name: 'Auntie Heart',
         yokaiNumber: '135',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/auntie_heart.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/auntie_heart.png',
         description:
             "Regardless of how bad a Yo-kai is, Auntie Heart's healing hug will make it pure again. That is some true kindness!",
         locations: [
@@ -6249,7 +6249,7 @@ const yokais = [
         name: 'Leadoni',
         yokaiNumber: '136',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/leadoni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/leadoni.png',
         description:
             "A Yo-kai that beckons people with a huge hand and gets them confused. It's his fault when a child gets lost!",
         locations: [
@@ -6297,7 +6297,7 @@ const yokais = [
         name: 'Mynimo',
         yokaiNumber: '137',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mynimo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mynimo.png',
         description:
             "People Inspirited by Mynimo get much better treatment than those around them. Hey! That's not fair!",
         locations: [
@@ -6347,7 +6347,7 @@ const yokais = [
         name: 'Ake',
         yokaiNumber: '138',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/ake.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ake.png',
         description:
             "A bratty Yo-kai that's always kicking people's shoulders. The kicks just make your shoulders stiff.",
         locations: ['Blossom Heights - Old Mansion Attic'],
@@ -6392,7 +6392,7 @@ const yokais = [
         name: 'Payn',
         yokaiNumber: '139',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/payn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/payn.png',
         description:
             'Payn will show your shoulders the meaning of pain using its massive strength. Payn is really into working out.',
         locations: [
@@ -6442,7 +6442,7 @@ const yokais = [
         name: 'Agon',
         yokaiNumber: '140',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/agon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/agon.png',
         description:
             "A horrible Yo-kai that gives people a slipped disc in their backs! You're more susceptible the older you are.",
         locations: [
@@ -6489,7 +6489,7 @@ const yokais = [
         name: 'Negatibuzz',
         yokaiNumber: '141',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/negatibuzz.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/negatibuzz.png',
         description:
             'A Yo-kai that nurtures negativity and sucks it up with its needlelike nose.',
         locations: [
@@ -6539,7 +6539,7 @@ const yokais = [
         name: 'Moskevil',
         yokaiNumber: '142',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/moskevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/moskevil.png',
         description:
             "This nasty Yo-kai can drop you into the depths of despair. You cannot cheer up if he's nearby. ",
         locations: [
@@ -6587,7 +6587,7 @@ const yokais = [
         name: 'Scritchy',
         yokaiNumber: '143',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/scritchy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/scritchy.png',
         description:
             'The mere presence of Scritchy will make your body itch. No amount of scratching can make it stop.',
         locations: [
@@ -6634,7 +6634,7 @@ const yokais = [
         name: 'Dimmy',
         yokaiNumber: '144',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dimmy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dimmy.png',
         description:
             'Being Inspirited by Dimmy will tone down your presence. Dimmy uses this for his job as a ninja.',
         locations: [
@@ -6682,7 +6682,7 @@ const yokais = [
         name: 'Blandon',
         yokaiNumber: '145',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/blandon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blandon.png',
         description:
             "Blandon's lack of presence makes him a really great spy, but he's sad that no one recognizes him for that.",
         locations: [
@@ -6730,7 +6730,7 @@ const yokais = [
         name: 'Nul',
         yokaiNumber: '146',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/nul.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nul.png',
         description:
             "You can't sense Nul even if you're really close to him. He's really good at entertaining himself.",
         locations: [
@@ -6779,7 +6779,7 @@ const yokais = [
         name: 'Hidabat',
         yokaiNumber: '147',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hidabat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hidabat.png',
         description:
             "Hidabat will make you a shut-in who fears going outside. It's better at Inspiriting modern city dwellers. ",
         locations: [
@@ -6828,7 +6828,7 @@ const yokais = [
         name: 'Abodabat',
         yokaiNumber: '148',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/abodabat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/abodabat.png',
         description:
             "After being inside the house for so long, Hidabat fused with it. Now it really can't ever leave!",
         locations: [
@@ -6876,7 +6876,7 @@ const yokais = [
         name: 'Belfree',
         yokaiNumber: '149',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/belfree.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/belfree.png',
         description:
             "A rare Abodabat in  temporary housing. Once a year, if you're lucky, you can see it change houses.",
         locations: ['Yo-kai World - Hooligan Road'],
@@ -6919,7 +6919,7 @@ const yokais = [
         name: 'Suspicioni',
         yokaiNumber: '150',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/suspicioni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/suspicioni.png',
         description:
             "An Oni who doubts everything. He hangs out with his fellow Oni but doesn't trust them at all.",
         locations: [
@@ -6970,7 +6970,7 @@ const yokais = [
         name: 'Tantroni',
         yokaiNumber: '151',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tantroni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tantroni.png',
         description:
             "This Yo-kai will throw a fit whenever he doesn't get his way... It's probably time to grow out of that.",
         locations: [
@@ -7021,7 +7021,7 @@ const yokais = [
         name: 'Contrarioni',
         yokaiNumber: '152',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/contrarioni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/contrarioni.png',
         description:
             "Get ready to say no a lot if Contrarioni Inspirits you. You'll disagree with anything people say. Always fun at parties.",
         locations: [
@@ -7068,7 +7068,7 @@ const yokais = [
         name: 'Tengloom',
         yokaiNumber: '153',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tengloom.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tengloom.png',
         description:
             "A gloomy tengu who's always reading. He's somehow amassed a Yo-kai fan base that likes his pessimism.",
         locations: [
@@ -7118,7 +7118,7 @@ const yokais = [
         name: 'Nird',
         yokaiNumber: '154',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/nird.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nird.png',
         description:
             'This Yo-kai became a bookworm upon arrival in the human world. Noisiness will be severely punished! Shhhh!',
         locations: ["Shopper's Row - Trees", "Shopper's Row - Empty flats"],
@@ -7162,7 +7162,7 @@ const yokais = [
         name: 'Negasus',
         yokaiNumber: '155',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/negasus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/negasus.png',
         description:
             "Negasus will make you  want to do things that'll get you in trouble. The more trouble the better!",
         locations: [
@@ -7210,7 +7210,7 @@ const yokais = [
         name: 'Neighfarious',
         yokaiNumber: '156',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/neighfarious.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/neighfarious.png',
         description:
             'Shining mysteriously in the night sky, Neighfarious is a bit of an enigma. What kind of evil Yo-kai is he?',
         locations: [
@@ -7258,7 +7258,7 @@ const yokais = [
         name: 'Timidevil',
         yokaiNumber: '157',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/timidevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/timidevil.png',
         description:
             "A nervous devil who's too scared to even use his own powers. If he'd just relax, he could be unstoppable.",
         locations: [
@@ -7308,7 +7308,7 @@ const yokais = [
         name: 'Beelzebold',
         yokaiNumber: '158',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/beelzebold.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/beelzebold.png',
         description:
             'Timidevil at full power! He still gets nervous every so often, though.',
         locations: ['Downtown Springdale - Objects', 'Fusion.'],
@@ -7353,7 +7353,7 @@ const yokais = [
         name: 'Count Cavity',
         yokaiNumber: '159',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/count_cavity.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/count_cavity.png',
         description:
             'A terrifying Yo-kai who can dissolve your teeth. He loves the sound of kids crying over aching teeth. What a jerk.',
         locations: [
@@ -7402,7 +7402,7 @@ const yokais = [
         name: 'Greesel',
         yokaiNumber: '160',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/greesel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/greesel.png',
         description:
             "A powerful, greedy Yo-kai who wants to control the world's wealth. He'll do anything for money.",
         locations: [
@@ -7450,7 +7450,7 @@ const yokais = [
         name: 'Awevil',
         yokaiNumber: '161',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/awevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/awevil.png',
         description:
             "An aristocrat of evil. Pure depravity. A Yo-kai that will do anything just because it's bad. He's earned his name.",
         locations: ['Springdale Underground Waterway'],
@@ -7493,7 +7493,7 @@ const yokais = [
         name: 'Coughkoff',
         yokaiNumber: '162',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/coughkoff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/coughkoff.png',
         description:
             'Coughkoff can cause your throat to feel tingly and make you sick. Try to stay healthy!',
         locations: [
@@ -7541,7 +7541,7 @@ const yokais = [
         name: 'Hurchin',
         yokaiNumber: '163',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hurchin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hurchin.png',
         description:
             "He looks just like Coughkoff, but don't say that! He hates that guy.",
         locations: ['Springdale Underground Waterway - Water'],
@@ -7586,7 +7586,7 @@ const yokais = [
         name: 'Peckpocket',
         yokaiNumber: '164',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/peckpocket.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/peckpocket.png',
         description:
             "When Peckpocket has its eye on you, you'll start wanting other people's stuff. I'll take that!",
         locations: [
@@ -7634,7 +7634,7 @@ const yokais = [
         name: 'Rockabelly',
         yokaiNumber: '165',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rockabelly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rockabelly.png',
         description:
             "A weird Yo-kai that's quite the belly dancer. Its stomach feathers look like an old man's face.",
         locations: ['Downtown Springdale - Springdale Business Tower'],
@@ -7679,7 +7679,7 @@ const yokais = [
         name: 'Buhu',
         yokaiNumber: '166',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/buhu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/buhu.png',
         description:
             'This bird Yo-kai is always bummed out. People it Inspirits get depressed and distracted a lot.',
         locations: [
@@ -7727,7 +7727,7 @@ const yokais = [
         name: 'Flumpy',
         yokaiNumber: '167',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/flumpy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flumpy.png',
         description:
             'Flumpy can make even the coolest person unfashionable and awkward. He hates being so unstylish.',
         locations: [
@@ -7775,7 +7775,7 @@ const yokais = [
         name: 'Skreek',
         yokaiNumber: '168',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/skreek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skreek.png',
         description:
             'If you catch a glimpse of Skreek, just run. He can throw you into the deepest pits of despair.',
         locations: ['Byrd House - Hidden Room'],
@@ -7820,7 +7820,7 @@ const yokais = [
         name: 'Manjimutt',
         yokaiNumber: '169',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/manjimutt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/manjimutt.png',
         description:
             "A man-faced poodle who enjoys scaring people frightened by a poodle with a man's face. Hopes to one day be a CEO.",
         locations: [
@@ -7870,7 +7870,7 @@ const yokais = [
         name: 'Multimutt',
         yokaiNumber: '170',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/multimutt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/multimutt.png',
         description:
             "Nobody wants to get close to Multimutt, because both of his faces look mean. He's a perfect guard dog.",
         locations: [
@@ -7919,7 +7919,7 @@ const yokais = [
         name: 'Sir Berus',
         yokaiNumber: '171',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sir_berus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sir_berus.png',
         description:
             "An elite guard dog born and raised in the netherworld. He doesn't let a single soul escape his grasp.",
         locations: [
@@ -7968,7 +7968,7 @@ const yokais = [
         name: 'Droplette',
         yokaiNumber: '172',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/droplette.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/droplette.png',
         description:
             "Droplette makes his way to places that don't get much sun and makes them damp and moldy...  Gross.",
         locations: [
@@ -8015,7 +8015,7 @@ const yokais = [
         name: 'Drizzle',
         yokaiNumber: '173',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/drizzle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzle.png',
         description:
             'Drizzle creates rain clouds wherever it goes. You can find it in places that are thoroughly wet.',
         locations: [
@@ -8063,7 +8063,7 @@ const yokais = [
         name: 'Slush',
         yokaiNumber: '174',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/slush.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slush.png',
         description:
             'A large gathering of these frosty Yo-kai could frost anything. Just one can freeze a cup of water.',
         locations: [
@@ -8110,7 +8110,7 @@ const yokais = [
         name: 'Alhail',
         yokaiNumber: '175',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/alhail.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/alhail.png',
         description:
             'This Yo-kai has strong ice power by itself. Ice will gradually encase whatever it touches. ',
         locations: [
@@ -8157,7 +8157,7 @@ const yokais = [
         name: 'Gush',
         yokaiNumber: '176',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/gush.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gush.png',
         description:
             "If it Inspirits you, your nose won't stop bleeding. This Yo-kai can be much scarier than it looks.",
         locations: ['Springdale Underground Waterway - Water'],
@@ -8201,7 +8201,7 @@ const yokais = [
         name: 'Chatalie',
         yokaiNumber: '177',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/chatalie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chatalie.png',
         description:
             "All talk and no action. If she Inspirits you, you'll be the same and lose the trust of others.",
         locations: ['Downtown Springdale - Springdale Business Tower'],
@@ -8244,7 +8244,7 @@ const yokais = [
         name: 'Nagatha',
         yokaiNumber: '178',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/nagatha.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nagatha.png',
         description:
             "Nagatha will make you into the kind of person that'll nag people over the smallest mistake.",
         locations: [
@@ -8291,7 +8291,7 @@ const yokais = [
         name: 'Dismarelda',
         yokaiNumber: '179',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dismarelda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dismarelda.png',
         description:
             "Her gloomy aura can  darken the mood in any environment. It's even worse when she's in a bad mood.",
         locations: [
@@ -8340,7 +8340,7 @@ const yokais = [
         name: 'Cheeksqueek',
         yokaiNumber: '180',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cheeksqueek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cheeksqueek.png',
         description:
             "A Yo-kai that can't stop farting. There's a rumor that it just has really bad  breath...but I'm not going to clear the air here.",
         locations: ["Shopper's Row - Shopping Street Narrows"],
@@ -8385,7 +8385,7 @@ const yokais = [
         name: 'Cuttincheez',
         yokaiNumber: '181',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cuttincheez.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cuttincheez.png',
         description:
             'A god of flatulence. Brace yourself for agony if you get stuck in a windowless room with Cuttincheez.',
         locations: [
@@ -8433,7 +8433,7 @@ const yokais = [
         name: 'Compunzer',
         yokaiNumber: '182',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/compunzer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/compunzer.png',
         description:
             "Even though he wants to make people laugh, Compunzer's jokes fall flat and just lead to awkward silences.",
         locations: ["Shopper's Row - Trees", 'Infinite Inferno - 7-8th Circle'],
@@ -8478,7 +8478,7 @@ const yokais = [
         name: 'Lamedian',
         yokaiNumber: '183',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/lamedian.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lamedian.png',
         description:
             "His jokes are the worst, inciting only involuntary guffaws at best. But he thinks he's hilarious. IS HE RITE, FOLKS?!",
         locations: [
@@ -8527,7 +8527,7 @@ const yokais = [
         name: 'Grumples',
         yokaiNumber: '184',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/grumples.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grumples.png',
         description:
             'Bitter toward youth and beauty, Grumples makes people wrinkly. She was quite the beauty when she was young, though.',
         locations: [
@@ -8578,7 +8578,7 @@ const yokais = [
         name: 'Everfore',
         yokaiNumber: '185',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/everfore.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/everfore.png',
         description:
             'Sustaining her own youth and beauty by absorbing it from others, Everfore is always out looking to meet beautiful women.',
         locations: ['Fusion.'],
@@ -8622,7 +8622,7 @@ const yokais = [
         name: 'Eterna',
         yokaiNumber: '186',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/eterna.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eterna.png',
         description:
             "They say this Yo-kai's immortality stems from her staff and that she'll age instantly without it.",
         locations: [
@@ -8671,7 +8671,7 @@ const yokais = [
         name: 'Insomni',
         yokaiNumber: '187',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/insomni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/insomni.png',
         description:
             "If you catch Insomni's eye, she won't let you fall asleep until she's bored with you...or you're almost dead.",
         locations: [
@@ -8718,7 +8718,7 @@ const yokais = [
         name: 'Sandi',
         yokaiNumber: '188',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sandi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sandi.png',
         description:
             "When Sandi Inspirits you, the two of you will play in your dreams. It's too fun to ever wake up from.",
         locations: ['Infinite Inferno - 6th Circle'],
@@ -8763,7 +8763,7 @@ const yokais = [
         name: 'Noko',
         yokaiNumber: '189',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/noko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/noko.png',
         description:
             "This Yo-kai is one lucky snake! It is always scared of being seen by humans. Which happens a lot since it's terrible at hiding.",
         locations: [
@@ -8812,7 +8812,7 @@ const yokais = [
         name: 'Bloominoko',
         yokaiNumber: '190',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/bloominoko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bloominoko.png',
         description:
             "The flower on top of Bloominoko's head brings people luck and happiness. Some folks even worship it.",
         locations: ['Infinite Inferno - 7-8th Circle', 'Fusion.'],
@@ -8857,7 +8857,7 @@ const yokais = [
         name: 'Pandanoko',
         yokaiNumber: '191',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pandanoko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pandanoko.png',
         description:
             "A wandering Yo-kai from a faraway land. It's tough to find and a miracle to actually befriend.",
         locations: ['Wayfarer Manor'],
@@ -8902,7 +8902,7 @@ const yokais = [
         name: 'Heheheel',
         yokaiNumber: '192',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/heheheel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/heheheel.png',
         description:
             "This eel just can't stop laughing, and nobody knows why. Maybe its sense of humor is broken.",
         locations: [
@@ -8952,7 +8952,7 @@ const yokais = [
         name: 'Croonger',
         yokaiNumber: '193',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/croonger.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/croonger.png',
         description:
             "A pot Yo-kai who sings a strange tune. If you hear singing coming from a pot, don't look into it!",
         locations: [
@@ -8998,7 +8998,7 @@ const yokais = [
         name: 'Urnaconda',
         yokaiNumber: '194',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/urnaconda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/urnaconda.png',
         description:
             "That's no regular pot\u2014 there's a huge snake inside! Some say this inspired the creation of the jack-in-the-box.",
         locations: [
@@ -9045,7 +9045,7 @@ const yokais = [
         name: 'Fishpicable',
         yokaiNumber: '195',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/fishpicable.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/fishpicable.png',
         description:
             'Fishpicable sees only the bad in people and slaps things he hates with his tail. His tail is very busy.',
         locations: [
@@ -9094,7 +9094,7 @@ const yokais = [
         name: 'Rageon',
         yokaiNumber: '196',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rageon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rageon.png',
         description:
             'Rageon holds grudges for no reason. If you wake up to see him standing next to your bed...RUN!',
         locations: [
@@ -9143,7 +9143,7 @@ const yokais = [
         name: 'Tunatic',
         yokaiNumber: '197',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tunatic.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tunatic.png',
         description:
             "Tunatic will go on a rampage if he's criticized at all. He makes kids angry when they get guidance from adults.",
         locations: [
@@ -9192,7 +9192,7 @@ const yokais = [
         name: 'Draggie',
         yokaiNumber: '198',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/draggie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/draggie.png',
         description:
             'A dragon kid who wants attention. He can see the hidden strengths of others with the ball on his head.',
         locations: [
@@ -9240,7 +9240,7 @@ const yokais = [
         name: 'Dragon Lord',
         yokaiNumber: '199',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dragon_lord.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dragon_lord.png',
         description:
             'Draggie has come into his own with dignity  and might worthy of  the title "dragon."',
         locations: ['Fusion.'],
@@ -9284,7 +9284,7 @@ const yokais = [
         name: 'Azure Dragon',
         yokaiNumber: '200',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/azure_dragon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/azure_dragon.png',
         description:
             'A legendary divine beast. It holds domain over water, surpassing even the power of Dragon Lord.',
         locations: ['Infinite Inferno - 4th Circle'],
@@ -9328,7 +9328,7 @@ const yokais = [
         name: 'Daiz',
         yokaiNumber: '201',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/daiz.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/daiz.png',
         description:
             "Daiz just stares off into space, sometimes not moving for three whole days. What's it thinking about all that time...?",
         locations: [
@@ -9376,7 +9376,7 @@ const yokais = [
         name: 'Confuze',
         yokaiNumber: '202',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/confuze.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/confuze.png',
         description:
             "Confuze will make you  babble and mumble. It's the worst when you have to read aloud in class!",
         locations: [
@@ -9423,7 +9423,7 @@ const yokais = [
         name: 'Chummer',
         yokaiNumber: '203',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/chummer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chummer.png',
         description:
             "Chummer loves eating kids. He'll make them loiter after school before devouring them. He likes asparagus too.",
         locations: [
@@ -9470,7 +9470,7 @@ const yokais = [
         name: 'Shrook',
         yokaiNumber: '204',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shrook.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shrook.png',
         description:
             "Shrook will make you bad at whatever you're usually good at. He can make a master into a novice pretty quickly.",
         locations: ['Rugged Path'],
@@ -9515,7 +9515,7 @@ const yokais = [
         name: 'Spenp',
         yokaiNumber: '205',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/spenp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/spenp.png',
         description:
             "Being Inspirited by Spenp will make you buy things you don't even want. Wave bye to your cash!",
         locations: ['Breezy Hills - Water'],
@@ -9560,7 +9560,7 @@ const yokais = [
         name: 'Almi',
         yokaiNumber: '206',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/almi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/almi.png',
         description:
             "When Almi Inspirits you, you'll want to treat others all the time. Your wallet will be empty before you know it.",
         locations: ['Breezy Hills - Water'],
@@ -9604,7 +9604,7 @@ const yokais = [
         name: 'Babblong',
         yokaiNumber: '207',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/babblong.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/babblong.png',
         description:
             "Don't agree to listen to Babblong or else he'll talk and talk and talk and talk and talk and talk. He's a terrible listener. ",
         locations: [
@@ -9652,7 +9652,7 @@ const yokais = [
         name: 'Bananose',
         yokaiNumber: '208',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/bananose.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bananose.png',
         description:
             'This Yo-kai is made of banana and is often bothered by circling flies. No relation to Babblong.',
         locations: ["Shopper's Row - Objects"],
@@ -9697,7 +9697,7 @@ const yokais = [
         name: 'Copperled',
         yokaiNumber: '209',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/copperled.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/copperled.png',
         description:
             "You just can't refuse orders from the fan on this old Yo-kai's tail. And he loves to micromanage everything he can!",
         locations: ['Uptown Springdale - Elementary School'],
@@ -9742,7 +9742,7 @@ const yokais = [
         name: 'Cynake',
         yokaiNumber: '210',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/cynake.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cynake.png',
         description:
             'This sulky snake Yo-kai will make you sulk at the slightest problem. Hmph!',
         locations: [
@@ -9789,7 +9789,7 @@ const yokais = [
         name: 'Slitheref',
         yokaiNumber: '211',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/slitheref.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slitheref.png',
         description:
             'When a battle starts, Slitheref will appear out of nowhere and make sure the fight stays fair and square.',
         locations: [
@@ -9838,7 +9838,7 @@ const yokais = [
         name: 'Venoct',
         yokaiNumber: '212',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/venoct.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/venoct.png',
         description:
             'An elite Yo-kai who fights with his dragon scarf. All of his abilities are truly first class.',
         locations: ['During the story.'],
@@ -9883,7 +9883,7 @@ const yokais = [
         name: 'Shad. Venoct',
         yokaiNumber: '213',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shad._venoct.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shad._venoct.png',
         description:
             "Venoct's shadow, skilled in the deadly arts. Few who learn that he exists live long after that.",
         locations: [
@@ -9932,7 +9932,7 @@ const yokais = [
         name: 'Shogunyan',
         yokaiNumber: '214',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shogunyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shogunyan.png',
         description:
             'Jibanyan turned into a legendary warrior. He just loves skipjack tuna and carries it around in his armor.',
         locations: ['Medallium.'],
@@ -9977,7 +9977,7 @@ const yokais = [
         name: 'Komashura',
         yokaiNumber: '215',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/komashura.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komashura.png',
         description:
             'A legendary Komasan with the heart of a greater demon. He scorches his foes with infernal flame.',
         locations: ['Medallium.'],
@@ -10021,7 +10021,7 @@ const yokais = [
         name: 'Dandoodle',
         yokaiNumber: '216',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dandoodle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dandoodle.png',
         description:
             "A legendary Manjimutt that, through some sort of mistake, got handsome. His smile's so soothing!",
         locations: ['Medallium.'],
@@ -10066,7 +10066,7 @@ const yokais = [
         name: 'Elder Bloom',
         yokaiNumber: '217',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/elder_bloom.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/elder_bloom.png',
         description:
             'This legendary Hungramps supposedly once filled a city with spirit-invigorating cherry blossoms.',
         locations: ['Medallium.'],
@@ -10110,7 +10110,7 @@ const yokais = [
         name: 'Gilgaros',
         yokaiNumber: '218',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/gilgaros.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gilgaros.png',
         description:
             'The strongest Oni ever born. His power is so great that it needs no explanation. None. At all. Even this is too much...',
         locations: ['Medallium.'],
@@ -10154,7 +10154,7 @@ const yokais = [
         name: 'Sapphinyan',
         yokaiNumber: '219',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sapphinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sapphinyan.png',
         description:
             'Jibanyan made of sapphire. Its body is the color of a clear ocean on a beautiful summer day.',
         locations: ['QR Code'],
@@ -10199,7 +10199,7 @@ const yokais = [
         name: 'Emenyan',
         yokaiNumber: '220',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/emenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/emenyan.png',
         description:
             "Jibanyan made of emerald. If you could sell it, it'd be worth more than 100 million dollars.",
         locations: ['QR Code'],
@@ -10244,7 +10244,7 @@ const yokais = [
         name: 'Rubinyan',
         yokaiNumber: '221',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rubinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rubinyan.png',
         description:
             'Jibanyan made of ruby. Fire-like light reflects off of it as it fights.',
         locations: ['QR Code'],
@@ -10287,7 +10287,7 @@ const yokais = [
         name: 'Topanyan',
         yokaiNumber: '222',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/topanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/topanyan.png',
         description:
             'Jibanyan made of topaz. Making friends with it means you have inherently good luck.',
         locations: ['QR Code'],
@@ -10330,7 +10330,7 @@ const yokais = [
         name: 'Dianyan',
         yokaiNumber: '223',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dianyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dianyan.png',
         description:
             "Jibanyan made of diamonds. It's said to be the most lavish, timeless, and romantic Yo-kai. Do you think so? I do!",
         locations: ['QR Code'],
@@ -10375,7 +10375,7 @@ const yokais = [
         name: 'Slimamander',
         yokaiNumber: '224',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/slimamander.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slimamander.png',
         description:
             "A huge, snakelike Yo-kai with three bigmouthed heads and skin thicker than an elephant's. Aim for the eye in its mouth!",
         locations: [],
@@ -10395,7 +10395,7 @@ const yokais = [
         name: 'Sproink',
         yokaiNumber: '225',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sproink.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sproink.png',
         description:
             "This middle-aged Yo-kai loves hot baths and even sneaks into hot springs after hours. He turns red and snorts fire from his nose when he's been soaking too long.",
         locations: [],
@@ -10415,7 +10415,7 @@ const yokais = [
         name: 'SV Snaggerjag',
         yokaiNumber: '226',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sv_snaggerjag.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sv_snaggerjag.png',
         description:
             'The guardian spirit of Catfish Pond, he gets mad if he sees anyone mistreating it. The fish respect his manly personality and will do whatever he asks.',
         locations: [],
@@ -10435,7 +10435,7 @@ const yokais = [
         name: 'Massiface',
         yokaiNumber: '227',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/massiface.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/massiface.png',
         description:
             'If a giant, man-shaped shadow falls over you on a hazy night, DO NOT turn around. Just wait for him to leave. Those who turn around disappear and fade from memory...',
         locations: [],
@@ -10455,7 +10455,7 @@ const yokais = [
         name: 'Phantasmurai',
         yokaiNumber: '228',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/phantasmurai.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/phantasmurai.png',
         description:
             "This eerie suit of armor wanders the museum every night. Or at least that's what a little mouse wants you to think.",
         locations: [],
@@ -10475,7 +10475,7 @@ const yokais = [
         name: 'Tarantutor',
         yokaiNumber: '229',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tarantutor.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tarantutor.png',
         description:
             "A spider Yo-kai that lives at school and looks for prime opportunities to eat students. It's so shy it comes out only at night.",
         locations: [],
@@ -10495,7 +10495,7 @@ const yokais = [
         name: 'Dr. Maddiman',
         yokaiNumber: '230',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dr._maddiman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dr._maddiman.png',
         description:
             'This madman used to  perform experiments on humans at his hospital. Now, as a Yo-kai, he continues his search for new test subjects.',
         locations: [],
@@ -10515,7 +10515,7 @@ const yokais = [
         name: 'McKraken',
         yokaiNumber: '231',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mckraken.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mckraken.png',
         description:
             'The leader of the group trying to take over the Yo-kai World. He can absorb energy through the holes in his hands. His full name is Squiddilius McKraken.',
         locations: [],
@@ -10535,7 +10535,7 @@ const yokais = [
         name: 'McKraken',
         yokaiNumber: '232',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mckraken.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mckraken.png',
         description:
             'The leader of the group trying to take over the Yo-kai World. He can absorb energy through the holes in his hands. His full name is Squiddilius McKraken.',
         locations: [],
@@ -10555,7 +10555,7 @@ const yokais = [
         name: 'Duwheel',
         yokaiNumber: '233',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/duwheel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/duwheel.png',
         description:
             "The blue, cheery side of Duwheel is always smiling. Don't cross it, or its head will flip upside down and turn an angry shade of red!",
         locations: [],
@@ -10575,7 +10575,7 @@ const yokais = [
         name: 'Chirpster',
         yokaiNumber: '234',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/chirpster.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chirpster.png',
         description:
             "If you hear music coming from an old, abandoned mansion, this Yo-kai is likely partying there. If you stumble in, you may be dancing 'til dawn!",
         locations: [],
@@ -10595,7 +10595,7 @@ const yokais = [
         name: 'Eyedra',
         yokaiNumber: '235',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/eyedra.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eyedra.png',
         description:
             'A huge salamander Yo-kai that lives in the inferno. Those who fall under its red-eyed gaze cower in fear before being swallowed whole.',
         locations: [],
@@ -10615,7 +10615,7 @@ const yokais = [
         name: 'Hoggles',
         yokaiNumber: '236',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hoggles.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hoggles.png',
         description:
             'He was once a tiny pig Yo-kai, but when he drank broth he made by boiling other Yo-kai...he got huge!',
         locations: [],
@@ -10635,7 +10635,7 @@ const yokais = [
         name: 'Styx Mk.VI',
         yokaiNumber: '237',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/styx_mk.vi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/styx_mk.vi.png',
         description:
             'The Styx Mk. VI fishes souls out of the River Styx. No sinner escapes his net. On good fishing days, he sings sea shanties that resound through the inferno.',
         locations: [],
@@ -10655,7 +10655,7 @@ const yokais = [
         name: 'Clipso',
         yokaiNumber: '238',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/clipso.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/clipso.png',
         description:
             'This massive being returns to earth on cloud- covered nights to take away kids who like to stay up all night. Good night!',
         locations: [],
@@ -10675,7 +10675,7 @@ const yokais = [
         name: 'Dr. Nogut',
         yokaiNumber: '239',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dr._nogut.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dr._nogut.png',
         description:
             'A mad doctor Yo-kai who wants to create an ideal Yo-kai by combining humans who fell into the inferno with other Yo-kai. He even used his own guts in one experiment.',
         locations: [],
@@ -10695,7 +10695,7 @@ const yokais = [
         name: 'Spooklunk',
         yokaiNumber: '240',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/spooklunk.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/spooklunk.png',
         description:
             'This armor once belonged to a strong warrior. It now  gathers vassals in the inferno and waits to return to battle someday.',
         locations: [],
@@ -10715,7 +10715,7 @@ const yokais = [
         name: 'Squisker',
         yokaiNumber: '241',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/squisker.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/squisker.png',
         description:
             "Sent to the inferno after falling victim to one of his distant relative's schemes, this former politician is filled with a blind rage.",
         locations: [],
@@ -10735,7 +10735,7 @@ const yokais = [
         name: 'Wobblewok',
         yokaiNumber: '242',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/wobblewok.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wobblewok.png',
         description:
             'Many Yo-kai fought and died to keep this terrifying beast sealed in a large cauldron in the inferno. Some still dare not utter the name Wobblewok aloud.',
         locations: [],
@@ -10755,7 +10755,7 @@ const yokais = [
         name: 'Gargaros',
         yokaiNumber: '243',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/gargaros.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gargaros.png',
         description:
             "A giant red Oni that appears in children's nightmares. Some say it's the essence of childhood fears given full form. If you triumph over this nightmare, you will grow as a person.",
         locations: [],
@@ -10775,7 +10775,7 @@ const yokais = [
         name: 'Ogralus',
         yokaiNumber: '244',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/ogralus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ogralus.png',
         description:
             'Ogralus is said to appear in the dreams of lying children to scare them back to honesty. Liars cannot escape from Ogralus or their nightmares.',
         locations: [],
@@ -10795,7 +10795,7 @@ const yokais = [
         name: 'Orcanos',
         yokaiNumber: '245',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/orcanos.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/orcanos.png',
         description:
             'Orcanos appears in the nightmares of lazy children and spanks them with its iron bat. The pain usually jolts them awake. So...did you do all of your homework?',
         locations: [],

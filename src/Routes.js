@@ -4,6 +4,7 @@ import Card from './components/Card';
 import Main from './components/Main';
 import yokaisJsonVersion2 from './mocks/yokais';
 import yokaisJsonVersion1 from './mocks/yokai-watch-1/yokais';
+import yokaisJsonVersion3 from './mocks/yokai-watch-3/yokais';
 
 const getYokai = (name, version) => {
     let yokais;
@@ -12,7 +13,7 @@ const getYokai = (name, version) => {
     } else if (version === 2) {
         yokais = yokaisJsonVersion2;
     } else {
-        yokais = yokaisJsonVersion1;
+        yokais = yokaisJsonVersion3;
     }
 
     if (name.includes('_boss')) {

@@ -12,8 +12,9 @@ import {
 import Button from '../shared/button';
 import Image from '../shared/image';
 import utils from '../utils';
-import { elements, yokais as yokaisJson, ranks, tribes } from '../../mocks';
+import { elements, ranks, yokais as yokaisJson, tribes } from '../../mocks';
 // import yokaisJson from '../../mocks/yokai-watch-1/yokais';
+// import yokaisJson from '../../mocks/yokai-watch-3/yokais';
 
 class Main extends Component {
     constructor(props) {

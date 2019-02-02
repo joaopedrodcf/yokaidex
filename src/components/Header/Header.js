@@ -8,6 +8,8 @@ const getHeader = () => {
         return document.location.hash
             .split('/')[2]
             .replace('%20', ' ')
+            .replace('%20', ' ')
+            .replace('%20', ' ')
             .replace('_boss', '');
     return 'Yokaidex';
 };
