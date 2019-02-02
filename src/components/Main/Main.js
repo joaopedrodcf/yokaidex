@@ -2,15 +2,9 @@
 /* eslint-disable react/no-access-state-in-setstate */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
-import {
-    Container,
-    Filters,
-    Table,
-    InputContainer,
-    Collapsible
-} from './style';
-import Search from '../Search/Search';
-import Button from '../shared/button';
+import { Container, Table } from './style';
+import Filter from './Filter/Filter';
+import Search from './Search/Search';
 import Image from '../shared/image';
 import utils from '../utils';
 import { elements, yokais as yokaisJson, ranks, tribes } from '../../mocks';
@@ -94,136 +88,21 @@ class Main extends Component {
             yokais,
             isCollapsed
         } = this.state;
-        const tribesCheckbox = [
-            'Brave',
-            'Charming',
-            'Eerie',
-            'Heartful',
-            'Mysterious',
-            'Shady',
-            'Slippery',
-            'Tough',
-            'Wicked',
-            'Boss'
-        ];
-        const ranksCheckbox = ['A', 'B', 'C', 'D', 'E', 'S'];
-        const elementsCheckbox = [
-            'Drain',
-            'Earth',
-            'Fire',
-            'Ice',
-            'Lightning',
-            'Restoration',
-            'Water',
-            'Wind'
-        ];
-
+        const filterPropsVars = {
+            isCollapsed,
+            tribe,
+            rank,
+            element
+        };
         return (
             <Container>
                 <form>
                     <Search handleText={this.handleText} name={this.name} />
-                    <div>
-                        <h2>Filter</h2>
-                    </div>
-                    <div>
-                        <Button
-                            type="button"
-                            onClick={this.handleResetFilter}
-                            label="
-                            Reset Filters"
-                        >
-                            <FontAwesomeIcon icon="trash-alt" />
-                        </Button>
-                    </div>
-                    <Filters>
-                        <Collapsible isCollapsed={this.state.isCollapsed}>
-                            <Button
-                                onClick={this.handleCollapse}
-                                type="button"
-                                label="Tribes"
-                            >
-                                <FontAwesomeIcon
-                                    icon={
-                                        isCollapsed
-                                            ? 'chevron-down'
-                                            : 'chevron-up'
-                                    }
-                                />
-                            </Button>
-                            {tribesCheckbox.map(type => (
-                                <InputContainer key={type}>
-                                    <input
-                                        type="checkbox"
-                                        checked={tribe.includes(
-                                            type.toLowerCase()
-                                        )}
-                                        name={type}
-                                        checkboxtype="tribe"
-                                        onChange={this.handleCheckbox}
-                                    />
-                                    <label htmlFor={type}>{type}</label>
-                                </InputContainer>
-                            ))}
-                        </Collapsible>
-                        <Collapsible isCollapsed={this.state.isCollapsed}>
-                            <Button
-                                onClick={this.handleCollapse}
-                                type="button"
-                                label="Ranks"
-                            >
-                                <FontAwesomeIcon
-                                    icon={
-                                        isCollapsed
-                                            ? 'chevron-down'
-                                            : 'chevron-up'
-                                    }
-                                />
-                            </Button>
-                            {ranksCheckbox.map(type => (
-                                <InputContainer key={type}>
-                                    <input
-                                        type="checkbox"
-                                        checked={rank.includes(
-                                            type.toLowerCase()
-                                        )}
-                                        name={type}
-                                        checkboxtype="rank"
-                                        onChange={this.handleCheckbox}
-                                    />
-                                    <label htmlFor={type}>{type}</label>
-                                </InputContainer>
-                            ))}
-                        </Collapsible>
-                        <Collapsible isCollapsed={this.state.isCollapsed}>
-                            <Button
-                                onClick={this.handleCollapse}
-                                type="button"
-                                label="Attributes"
-                            >
-                                <FontAwesomeIcon
-                                    icon={
-                                        isCollapsed
-                                            ? 'chevron-down'
-                                            : 'chevron-up'
-                                    }
-                                />
-                            </Button>
-                            {elementsCheckbox.map(type => (
-                                <InputContainer key={type}>
-                                    <input
-                                        type="checkbox"
-                                        checked={element.includes(
-                                            type.toLowerCase()
-                                        )}
-                                        name={type}
-                                        checkboxtype="element"
-                                        onChange={this.handleCheckbox}
-                                    />
-                                    <label htmlFor={type}>{type}</label>
-                                </InputContainer>
-                            ))}
-                        </Collapsible>
-                    </Filters>
+                    <Filter
+                        handleCollapse={this.handleCollapse}
+                        handleCheckbox={this.handleCheckbox}
+                        propsVars={filterPropsVars}
+                    />
                     <Table>
                         <thead>
                             <tr>
