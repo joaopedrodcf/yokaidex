@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Sidebar from 'react-sidebar';
+import { withRouter } from 'react-router';
 import Header from './components/Header';
 import Routes from './Routes';
 import GlobalStyle from './globalStyle';
@@ -11,18 +12,28 @@ class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            sidebarOpen: false
+            sidebarOpen: false,
+            gameVersion: 3
         };
 
         this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
+        this.changeGameVersion = this.changeGameVersion.bind(this);
     }
 
     onSetSidebarOpen(open) {
         this.setState({ sidebarOpen: open });
     }
 
+    changeGameVersion(gameVersion) {
+        const { history } = this.props;
+
+        this.setState({ gameVersion }, () => {
+            history.push(`/home`);
+        });
+    }
+
     render() {
-        const { sidebarOpen } = this.state;
+        const { sidebarOpen, gameVersion } = this.state;
         const sidebar = <SCSidebar />;
 
         return (
@@ -35,11 +46,14 @@ class App extends Component {
                     styles={{ sidebar: { background: 'white' } }}
                 >
                     <Header onSetSidebarOpen={this.onSetSidebarOpen} />
-                    <Routes />
+                    <Routes
+                        changeGameVersion={this.changeGameVersion}
+                        gameVersion={gameVersion}
+                    />
                 </Sidebar>
             </>
         );
     }
 }
 
-export default App;
+export default withRouter(App);

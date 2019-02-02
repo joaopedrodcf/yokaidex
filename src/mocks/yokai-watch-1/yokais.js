@@ -10532,7 +10532,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
-        name: 'McKraken',
+        name: 'McKraken 2',
         yokaiNumber: '232',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mckraken.png',

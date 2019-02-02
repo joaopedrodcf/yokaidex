@@ -2,6 +2,7 @@
 /* eslint-disable react/no-access-state-in-setstate */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
+import { withRouter } from 'react-router';
 import {
     Container,
     Filters,
@@ -12,9 +13,10 @@ import {
 import Button from '../shared/button';
 import Image from '../shared/image';
 import utils from '../utils';
-import { elements, ranks, yokais as yokaisJson, tribes } from '../../mocks';
-// import yokaisJson from '../../mocks/yokai-watch-1/yokais';
-// import yokaisJson from '../../mocks/yokai-watch-3/yokais';
+import { elements, ranks, tribes } from '../../mocks';
+import yokaisGame1 from '../../mocks/yokai-watch-1/yokais';
+import yokaisGame2 from '../../mocks/yokai-watch-2/yokais';
+import yokaisGame3 from '../../mocks/yokai-watch-3/yokais';
 
 class Main extends Component {
     constructor(props) {
@@ -27,7 +29,7 @@ class Main extends Component {
             name: '',
             sort: '',
             orderAsc: true,
-            yokais: yokaisJson,
+            yokais: yokaisGame1,
             isCollapsed: true
         };
 
@@ -36,6 +38,25 @@ class Main extends Component {
         this.handleSort = this.handleSort.bind(this);
         this.handleResetFilter = this.handleResetFilter.bind(this);
         this.handleCollapse = this.handleCollapse.bind(this);
+    }
+
+    componentDidMount() {
+        const { gameVersion } = this.props;
+        let yokais;
+
+        switch (gameVersion) {
+            case '1':
+                yokais = yokaisGame1;
+                break;
+            case '2':
+                yokais = yokaisGame2;
+                break;
+            default:
+                yokais = yokaisGame3;
+                break;
+        }
+
+        this.setState({ yokais });
     }
 
     goTo(name, tribe) {
@@ -406,4 +427,4 @@ class Main extends Component {
     }
 }
 
-export default Main;
+export default withRouter(Main);

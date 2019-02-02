@@ -29,7 +29,7 @@ The website is hosted on GitHub pages access it here [yokaidex](https://joaopedr
 First clone the project
 
 ```shell
-git clone https://github.com/joaopedrodcf/blog-mern.git
+git clone https://github.com/joaopedrodcf/yokaidex.git
 ```
 
 Then install the node_modules (this installs the server and the client)
