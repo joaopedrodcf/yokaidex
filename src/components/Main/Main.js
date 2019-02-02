@@ -9,6 +9,7 @@ import {
     InputContainer,
     Collapsible
 } from './style';
+import Search from '../Search/Search';
 import Button from '../shared/button';
 import Image from '../shared/image';
 import utils from '../utils';
@@ -120,16 +121,7 @@ class Main extends Component {
         return (
             <Container>
                 <form>
-                    <label htmlFor="name">
-                        <h2>Find your yo-kai</h2>
-                    </label>
-                    <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        value={this.state.name}
-                        onChange={this.handleText}
-                    />
+                    <Search handleText={this.handleText} name={this.name} />
                     <div>
                         <h2>Filter</h2>
                     </div>

@@ -70,7 +70,6 @@ export const InputContainer = styled.div`
 export const Collapsible = styled.div`
     display: flex;
     flex-direction: column;
-
     div {
         display: ${props => (props.isCollapsed ? 'none' : 'block')};
     }
