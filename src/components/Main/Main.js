@@ -1,13 +1,11 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/no-access-state-in-setstate */
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
-import { Container, Table } from './style';
 import Filter from './Filter/Filter';
 import Search from './Search/Search';
-import Image from '../shared/image';
-import utils from '../utils';
-import { elements, yokais as yokaisJson, ranks, tribes } from '../../mocks';
+import Table from './Table/table';
+import { yokais as yokaisJson } from '../../mocks';
+import { Container } from '../Card/style';
 
 class Main extends Component {
     constructor(props) {
@@ -88,6 +86,16 @@ class Main extends Component {
             yokais,
             isCollapsed
         } = this.state;
+
+        const tablePropsVars = {
+            tribe,
+            rank,
+            element,
+            name,
+            sort,
+            orderAsc,
+            yokais
+        };
         const filterPropsVars = {
             isCollapsed,
             tribe,
@@ -103,172 +111,10 @@ class Main extends Component {
                         handleCheckbox={this.handleCheckbox}
                         propsVars={filterPropsVars}
                     />
-                    <Table>
-                        <thead>
-                            <tr>
-                                <th onClick={this.handleSort} thtype="name">
-                                    Name{' '}
-                                    {sort === 'name' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-
-                                <th onClick={this.handleSort} thtype="tribe">
-                                    Tribe
-                                    {sort === 'tribe' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-                                <th onClick={this.handleSort} thtype="rank">
-                                    Rank
-                                    {sort === 'rank' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-                                <th onClick={this.handleSort} thtype="element">
-                                    Attribute
-                                    {sort === 'element' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {yokais
-                                .sort((a, b) => {
-                                    if (sort === '') {
-                                        return 0;
-                                    }
-
-                                    const nameA = a[sort].toLowerCase();
-                                    const nameB = b[sort].toLowerCase();
-
-                                    if (orderAsc) {
-                                        if (nameA < nameB) {
-                                            return -1;
-                                        }
-                                        if (nameA > nameB) {
-                                            return 1;
-                                        }
-                                    } else {
-                                        if (nameA > nameB) {
-                                            return -1;
-                                        }
-                                        if (nameA < nameB) {
-                                            return 1;
-                                        }
-                                    }
-
-                                    return 0;
-                                })
-                                .filter(yokai => {
-                                    let aux = true;
-
-                                    const filters = {
-                                        tribe,
-                                        rank,
-                                        element
-                                    };
-
-                                    if (
-                                        !yokai.name.toLowerCase().includes(name)
-                                    ) {
-                                        return false;
-                                    }
-
-                                    Object.keys(filters).forEach(type => {
-                                        if (
-                                            filters[type].length > 0 &&
-                                            !filters[type].includes(
-                                                yokai[type].toLowerCase()
-                                            )
-                                        ) {
-                                            aux = false;
-                                        }
-                                    });
-
-                                    return aux;
-                                })
-                                .map(yokai => (
-                                    <tr
-                                        key={yokai.name + yokai.tribe}
-                                        onClick={() =>
-                                            this.goTo(yokai.name, yokai.tribe)
-                                        }
-                                        style={{
-                                            background: `linear-gradient(to bottom, ${utils.getGradientColor(
-                                                tribes,
-                                                yokai.tribe
-                                            )})`
-                                        }}
-                                    >
-                                        <td>
-                                            <Image
-                                                imageUrl={yokai.image}
-                                                altText={yokai.name}
-                                                size="medium"
-                                                isThumbnail
-                                            />
-                                            {yokai.name}
-                                        </td>
-                                        <td>
-                                            <Image
-                                                imageUrl={utils.getImage(
-                                                    tribes,
-                                                    yokai.tribe
-                                                )}
-                                                altText={yokai.tribe}
-                                                size="small"
-                                            />
-                                        </td>
-                                        <td>
-                                            <Image
-                                                imageUrl={utils.getImage(
-                                                    ranks,
-                                                    yokai.rank
-                                                )}
-                                                altText={yokai.rank}
-                                                size="small"
-                                            />
-                                        </td>
-                                        <td>
-                                            <Image
-                                                imageUrl={utils.getImage(
-                                                    elements,
-                                                    yokai.element
-                                                )}
-                                                altText={yokai.element}
-                                                size="small"
-                                            />
-                                        </td>
-                                    </tr>
-                                ))}
-                        </tbody>
-                    </Table>
+                    <Table
+                        tablePropsVars={tablePropsVars}
+                        handleSort={this.handleSort}
+                    />
                 </form>
             </Container>
         );
