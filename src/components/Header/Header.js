@@ -5,7 +5,12 @@ import Container from './style';
 
 const getHeader = () => {
     if (document.location.hash.match('yokai'))
-        return document.location.hash.split('/')[2];
+        return document.location.hash
+            .split('/')[2]
+            .replace('%20', ' ')
+            .replace('%20', ' ')
+            .replace('%20', ' ')
+            .replace('_boss', '');
     return 'Yokaidex';
 };
 

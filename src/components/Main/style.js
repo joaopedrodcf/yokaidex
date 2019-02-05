@@ -23,6 +23,14 @@ export const Container = styled.div`
         font-size: 24px;
         font-weight: 400;
     }
+
+    @media (min-width: 960px) {
+        padding: 12px 125px;
+    }
+
+    @media (min-width: 1280px) {
+        padding: 12px 250px;
+    }
 `;
 
 export const InputContainer = styled.div`

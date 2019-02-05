@@ -1,11 +1,13 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/no-access-state-in-setstate */
 import React, { Component } from 'react';
+
 import Filter from './Filter/Filter';
 import Search from './Search/Search';
 import Table from './Table/table';
 import { yokais as yokaisJson } from '../../mocks';
 import { Container } from '../Card/style';
+
 
 class Main extends Component {
     constructor(props) {

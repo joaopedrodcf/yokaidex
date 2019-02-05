@@ -9,6 +9,18 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (min-width: 960px) {
+        padding: 12px 125px;
+    }
+
+    @media (min-width: 1280px) {
+        padding: 12px 250px;
+    }
+
+    @media (min-width: 1444px) {
+        padding: 12px 500px;
+    }
 `;
 
 export const Column = styled.div`
@@ -34,5 +46,17 @@ export const SpecialDiv = styled.div`
 
     img {
         margin-bottom: 42px;
+    }
+
+    @media (min-width: 960px) {
+        padding: 12px 125px;
+    }
+
+    @media (min-width: 1280px) {
+        padding: 12px 250px;
+    }
+
+    @media (min-width: 1444px) {
+        padding: 12px 500px;
     }
 `;

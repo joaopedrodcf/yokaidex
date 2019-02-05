@@ -24,6 +24,39 @@ The website is hosted on GitHub pages access it here [yokaidex](https://joaopedr
 - Create the sections need after having the data
 - Fix the header problem with space characters
 
+## How to run it locally
+
+First clone the project
+
+```shell
+git clone https://github.com/joaopedrodcf/blog-mern.git
+```
+
+Then install the node_modules (this installs the server and the client)
+
+```shell
+yarn
+```
+
+Or
+
+```shell
+npm install
+```
+
+Finally you can start dev enviroment
+
+```shell
+yarn start
+```
+
+Or
+
+```shell
+npm run start start
+```
+
+
 ## Disclaimer
 
 Yokaidex is a website with information about the games from Level-5: Yo-kai watch. All the information gathered here is to be used as a resource to help our community have more info about the game.
