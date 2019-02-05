@@ -1,5 +1,11 @@
 import styled from 'styled-components';
 
+export const Filters = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0 24px 0;
+`;
+
 export const Container = styled.div`
     background-color: #ffffff;
     color: #000000;
@@ -23,20 +29,11 @@ export const Container = styled.div`
         font-size: 24px;
         font-weight: 400;
     }
-
-    @media (min-width: 960px) {
-        padding: 12px 125px;
-    }
-
-    @media (min-width: 1280px) {
-        padding: 12px 250px;
-    }
 `;
 
 export const InputContainer = styled.div`
     padding: 6px 0;
 `;
-
 export const Collapsible = styled.div`
     display: flex;
     flex-direction: column;

@@ -1,11 +1,9 @@
 import React, { Component } from 'react';
-
 import Sidebar from 'react-sidebar';
 import Header from './components/Header';
-import Routes from './Routes';
-import GlobalStyle from './globalStyle';
-
 import SCSidebar from './components/Sidebar';
+import GlobalStyle from './globalStyle';
+import Routes from './Routes';
 
 class App extends Component {
     constructor(props) {
