@@ -1,13 +1,20 @@
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/no-access-state-in-setstate */
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
-
-import Filter from './Filter/Filter';
-import Search from './Search/Search';
-import Table from './Table/table';
-import { yokais as yokaisJson } from '../../mocks';
-import { Container } from '../Card/style';
-
+import {
+    Container,
+    Filters,
+    Table,
+    InputContainer,
+    Collapsible
+} from './style';
+import Button from '../shared/button';
+import Image from '../shared/image';
+import utils from '../utils';
+import { elements, ranks, yokais as yokaisJson, tribes } from '../../mocks';
+// import yokaisJson from '../../mocks/yokai-watch-1/yokais';
+// import yokaisJson from '../../mocks/yokai-watch-3/yokais';
 
 class Main extends Component {
     constructor(props) {
@@ -88,35 +95,311 @@ class Main extends Component {
             yokais,
             isCollapsed
         } = this.state;
+        const tribesCheckbox = [
+            'Brave',
+            'Charming',
+            'Eerie',
+            'Heartful',
+            'Mysterious',
+            'Shady',
+            'Slippery',
+            'Tough',
+            'Wicked',
+            'Boss'
+        ];
+        const ranksCheckbox = ['A', 'B', 'C', 'D', 'E', 'S'];
+        const elementsCheckbox = [
+            'Drain',
+            'Earth',
+            'Fire',
+            'Ice',
+            'Lightning',
+            'Restoration',
+            'Water',
+            'Wind'
+        ];
 
-        const tablePropsVars = {
-            tribe,
-            rank,
-            element,
-            name,
-            sort,
-            orderAsc,
-            yokais
-        };
-        const filterPropsVars = {
-            isCollapsed,
-            tribe,
-            rank,
-            element
-        };
         return (
             <Container>
                 <form>
-                    <Search handleText={this.handleText} name={this.name} />
-                    <Filter
-                        handleCollapse={this.handleCollapse}
-                        handleCheckbox={this.handleCheckbox}
-                        propsVars={filterPropsVars}
+                    <label htmlFor="name">
+                        <h2>Find your yo-kai</h2>
+                    </label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        value={this.state.name}
+                        onChange={this.handleText}
                     />
-                    <Table
-                        tablePropsVars={tablePropsVars}
-                        handleSort={this.handleSort}
-                    />
+                    <div>
+                        <h2>Filter</h2>
+                    </div>
+                    <div>
+                        <Button
+                            type="button"
+                            onClick={this.handleResetFilter}
+                            label="
+                            Reset Filters"
+                        >
+                            <FontAwesomeIcon icon="trash-alt" />
+                        </Button>
+                    </div>
+                    <Filters>
+                        <Collapsible isCollapsed={this.state.isCollapsed}>
+                            <Button
+                                onClick={this.handleCollapse}
+                                type="button"
+                                label="Tribes"
+                            >
+                                <FontAwesomeIcon
+                                    icon={
+                                        isCollapsed
+                                            ? 'chevron-down'
+                                            : 'chevron-up'
+                                    }
+                                />
+                            </Button>
+                            {tribesCheckbox.map(type => (
+                                <InputContainer key={type}>
+                                    <input
+                                        type="checkbox"
+                                        checked={tribe.includes(
+                                            type.toLowerCase()
+                                        )}
+                                        name={type}
+                                        checkboxtype="tribe"
+                                        onChange={this.handleCheckbox}
+                                    />
+                                    <label htmlFor={type}>{type}</label>
+                                </InputContainer>
+                            ))}
+                        </Collapsible>
+                        <Collapsible isCollapsed={this.state.isCollapsed}>
+                            <Button
+                                onClick={this.handleCollapse}
+                                type="button"
+                                label="Ranks"
+                            >
+                                <FontAwesomeIcon
+                                    icon={
+                                        isCollapsed
+                                            ? 'chevron-down'
+                                            : 'chevron-up'
+                                    }
+                                />
+                            </Button>
+                            {ranksCheckbox.map(type => (
+                                <InputContainer key={type}>
+                                    <input
+                                        type="checkbox"
+                                        checked={rank.includes(
+                                            type.toLowerCase()
+                                        )}
+                                        name={type}
+                                        checkboxtype="rank"
+                                        onChange={this.handleCheckbox}
+                                    />
+                                    <label htmlFor={type}>{type}</label>
+                                </InputContainer>
+                            ))}
+                        </Collapsible>
+                        <Collapsible isCollapsed={this.state.isCollapsed}>
+                            <Button
+                                onClick={this.handleCollapse}
+                                type="button"
+                                label="Attributes"
+                            >
+                                <FontAwesomeIcon
+                                    icon={
+                                        isCollapsed
+                                            ? 'chevron-down'
+                                            : 'chevron-up'
+                                    }
+                                />
+                            </Button>
+                            {elementsCheckbox.map(type => (
+                                <InputContainer key={type}>
+                                    <input
+                                        type="checkbox"
+                                        checked={element.includes(
+                                            type.toLowerCase()
+                                        )}
+                                        name={type}
+                                        checkboxtype="element"
+                                        onChange={this.handleCheckbox}
+                                    />
+                                    <label htmlFor={type}>{type}</label>
+                                </InputContainer>
+                            ))}
+                        </Collapsible>
+                    </Filters>
+                    <Table>
+                        <thead>
+                            <tr>
+                                <th onClick={this.handleSort} thtype="name">
+                                    Name{' '}
+                                    {sort === 'name' ? (
+                                        <FontAwesomeIcon
+                                            icon={
+                                                orderAsc
+                                                    ? 'arrow-down'
+                                                    : 'arrow-up'
+                                            }
+                                        />
+                                    ) : null}
+                                </th>
+
+                                <th onClick={this.handleSort} thtype="tribe">
+                                    Tribe
+                                    {sort === 'tribe' ? (
+                                        <FontAwesomeIcon
+                                            icon={
+                                                orderAsc
+                                                    ? 'arrow-down'
+                                                    : 'arrow-up'
+                                            }
+                                        />
+                                    ) : null}
+                                </th>
+                                <th onClick={this.handleSort} thtype="rank">
+                                    Rank
+                                    {sort === 'rank' ? (
+                                        <FontAwesomeIcon
+                                            icon={
+                                                orderAsc
+                                                    ? 'arrow-down'
+                                                    : 'arrow-up'
+                                            }
+                                        />
+                                    ) : null}
+                                </th>
+                                <th onClick={this.handleSort} thtype="element">
+                                    Attribute
+                                    {sort === 'element' ? (
+                                        <FontAwesomeIcon
+                                            icon={
+                                                orderAsc
+                                                    ? 'arrow-down'
+                                                    : 'arrow-up'
+                                            }
+                                        />
+                                    ) : null}
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {yokais
+                                .sort((a, b) => {
+                                    if (sort === '') {
+                                        return 0;
+                                    }
+
+                                    const nameA = a[sort].toLowerCase();
+                                    const nameB = b[sort].toLowerCase();
+
+                                    if (orderAsc) {
+                                        if (nameA < nameB) {
+                                            return -1;
+                                        }
+                                        if (nameA > nameB) {
+                                            return 1;
+                                        }
+                                    } else {
+                                        if (nameA > nameB) {
+                                            return -1;
+                                        }
+                                        if (nameA < nameB) {
+                                            return 1;
+                                        }
+                                    }
+
+                                    return 0;
+                                })
+                                .filter(yokai => {
+                                    let aux = true;
+
+                                    const filters = {
+                                        tribe,
+                                        rank,
+                                        element
+                                    };
+
+                                    if (
+                                        !yokai.name.toLowerCase().includes(name)
+                                    ) {
+                                        return false;
+                                    }
+
+                                    Object.keys(filters).forEach(type => {
+                                        if (
+                                            filters[type].length > 0 &&
+                                            !filters[type].includes(
+                                                yokai[type].toLowerCase()
+                                            )
+                                        ) {
+                                            aux = false;
+                                        }
+                                    });
+
+                                    return aux;
+                                })
+                                .map(yokai => (
+                                    <tr
+                                        key={yokai.name + yokai.tribe}
+                                        onClick={() =>
+                                            this.goTo(yokai.name, yokai.tribe)
+                                        }
+                                        style={{
+                                            background: `linear-gradient(to bottom, ${utils.getGradientColor(
+                                                tribes,
+                                                yokai.tribe
+                                            )})`
+                                        }}
+                                    >
+                                        <td>
+                                            <Image
+                                                imageUrl={yokai.image}
+                                                altText={yokai.name}
+                                                size="medium"
+                                                isThumbnail
+                                            />
+                                            {yokai.name}
+                                        </td>
+                                        <td>
+                                            <Image
+                                                imageUrl={utils.getImage(
+                                                    tribes,
+                                                    yokai.tribe
+                                                )}
+                                                altText={yokai.tribe}
+                                                size="small"
+                                            />
+                                        </td>
+                                        <td>
+                                            <Image
+                                                imageUrl={utils.getImage(
+                                                    ranks,
+                                                    yokai.rank
+                                                )}
+                                                altText={yokai.rank}
+                                                size="small"
+                                            />
+                                        </td>
+                                        <td>
+                                            <Image
+                                                imageUrl={utils.getImage(
+                                                    elements,
+                                                    yokai.element
+                                                )}
+                                                altText={yokai.element}
+                                                size="small"
+                                            />
+                                        </td>
+                                    </tr>
+                                ))}
+                        </tbody>
+                    </Table>
                 </form>
             </Container>
         );

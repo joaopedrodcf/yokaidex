@@ -33,6 +33,44 @@ export const Container = styled.div`
     }
 `;
 
+export const Filters = styled.div`
+    display: flex;
+    justify-content: space-between;
+    margin: 12px 0 24px 0;
+`;
+
+export const Table = styled.table`
+    margin: 24px 0;
+    width: 100%;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-weight: 600;
+
+    tr a {
+        width: 100%;
+        display: block;
+    }
+
+    td div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    th {
+        background-color: #1b1919;
+        color: #fffafa;
+    }
+
+    th,
+    td {
+        text-align: center;
+        padding: 8px;
+    }
+`;
+
 export const InputContainer = styled.div`
     padding: 6px 0;
 `;
@@ -40,6 +78,7 @@ export const InputContainer = styled.div`
 export const Collapsible = styled.div`
     display: flex;
     flex-direction: column;
+
     div {
         display: ${props => (props.isCollapsed ? 'none' : 'block')};
     }
