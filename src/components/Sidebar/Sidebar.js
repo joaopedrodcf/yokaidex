@@ -6,20 +6,11 @@ const Sidebar = () => (
     <SCSidebar>
         <SCHeader />
         <Container>
-            <Link to="/">
+            <Link to="/home">
                 <h5>Home</h5>
             </Link>
-            <Link to="/fish">
-                <h5>Fish location</h5>
-            </Link>
-            <Link to="/bugs">
-                <h5>Bugs location</h5>
-            </Link>
-            <Link to="/baffle-board">
-                <h5>Baffle board</h5>
-            </Link>
-            <Link to="/password-list">
-                <h5>Password list</h5>
+            <Link to="/">
+                <h5>Change game version</h5>
             </Link>
         </Container>
     </SCSidebar>
