@@ -32,6 +32,8 @@ const SCTable = styled.table`
     td {
         text-align: center;
         padding: 8px;
+        display: flex;
+        justify-content: center;
     }
 
     tbody tr {

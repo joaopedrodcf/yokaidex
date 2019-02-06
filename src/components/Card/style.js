@@ -44,7 +44,7 @@ export const SpecialDiv = styled.div`
     display: flex;
     flex-direction: column;
 
-    img {
+    div {
         margin-bottom: 42px;
     }
 
