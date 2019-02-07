@@ -6730,7 +6730,7 @@ const yokais = [
         name: 'Nul',
         yokaiNumber: '146',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nul.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/null.png',
         description:
             "You can't sense Nul even if you're really close to him. He's really good at entertaining himself.",
         locations: [
