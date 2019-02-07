@@ -1,7 +1,7 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Card from './components/Card';
-import Main from './components/Main';
+import Card from './components/card';
+import Main from './components/main';
 import VersionSelect from './components/version-select';
 import yokaisGame1 from './mocks/yokai-watch-1/yokais';
 import yokaisGame2 from './mocks/yokai-watch-2/yokais';
