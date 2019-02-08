@@ -80,6 +80,6 @@ export const Collapsible = styled.div`
     flex-direction: column;
 
     div {
-        display: ${props => (props.isCollapsed ? 'none' : 'block')};
+        display: ${props => props.isCollapsed && 'none'};
     }
 `;
