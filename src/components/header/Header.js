@@ -17,7 +17,7 @@ const getHeader = () => {
 const Header = ({ onSetSidebarOpen }) => (
     <Container>
         {document.location.hash.match('yokai') ? (
-            <Link to="/">
+            <Link to="/home">
                 <FontAwesomeIcon icon="arrow-left" />
             </Link>
         ) : (
