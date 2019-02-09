@@ -34,6 +34,9 @@ export const SCImage = styled.img`
 `;
 
 export const SCLazyLoad = styled(LazyLoad)`
+    display: flex;
+    align-items: center;
+
     height: ${props => {
         if (props.size === 'small') return '35px';
         if (props.size === 'medium') return '62px';

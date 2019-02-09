@@ -386,13 +386,16 @@ class Main extends Component {
                                         }}
                                     >
                                         <td>
-                                            <Image
-                                                imageUrl={yokai.image}
-                                                altText={yokai.name}
-                                                size="medium"
-                                                isThumbnail
-                                            />
-                                            {yokai.name}
+                                            <div>
+                                                <Image
+                                                    imageUrl={yokai.image}
+                                                    altText={yokai.name}
+                                                    size="medium"
+                                                    isThumbnail
+                                                    isToLazyLoad
+                                                />
+                                                {yokai.name}
+                                            </div>
                                         </td>
                                         <td>
                                             <Image
