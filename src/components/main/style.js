@@ -3,20 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
     background-color: #ffffff;
     color: #000000;
-    padding: 12px;
     margin-top: 56px;
     font-size: 16px;
-
-    input[type='text'] {
-        border: 0.1rem solid #9e9e9e;
-        border-radius: 4px;
-        outline: none;
-        padding: 0 12px;
-        height: 48px;
-        width: 100%;
-        color: #212121;
-        margin: 12px 0 24px 0;
-    }
 
     h5 {
         letter-spacing: 0;
@@ -33,14 +21,16 @@ export const Container = styled.div`
     }
 `;
 
+export const ContainerHeader = styled.div`
+    padding: 12px;
+`;
+
 export const Filters = styled.div`
     display: flex;
     justify-content: space-between;
-    margin: 12px 0 24px 0;
 `;
 
 export const Table = styled.table`
-    margin: 24px 0;
     width: 100%;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
         0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
@@ -73,13 +63,38 @@ export const Table = styled.table`
 
 export const InputContainer = styled.div`
     padding: 6px 0;
+    display: flex;
+    flex-direction: row;
 `;
 
 export const Collapsible = styled.div`
     display: flex;
     flex-direction: column;
 
-    div {
+    ${Filters} {
         display: ${props => props.isCollapsed && 'none'};
     }
+
+    button {
+        margin-bottom: 12px;
+    }
+`;
+
+export const SpecialHeader = styled.div`
+    border-bottom: 2px solid #fdd835;
+    h2 {
+        font-size: 18px;
+        font-weight: 700;
+    }
+`;
+
+export const Column = styled.div`
+    display: flex;
+    flex-direction: column;
+`;
+
+export const FilterButtons = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 `;
