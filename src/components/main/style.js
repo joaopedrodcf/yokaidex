@@ -22,7 +22,7 @@ export const Container = styled.div`
 `;
 
 export const ContainerHeader = styled.div`
-    padding: 12px;
+    padding: 12px 20px;
 `;
 
 export const Filters = styled.div`
