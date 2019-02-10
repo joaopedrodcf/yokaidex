@@ -39,6 +39,7 @@ class Main extends Component {
         this.handleSort = this.handleSort.bind(this);
         this.handleResetFilter = this.handleResetFilter.bind(this);
         this.handleCollapse = this.handleCollapse.bind(this);
+        this.handleFormSubmit = this.handleFormSubmit.bind(this);
     }
 
     componentDidMount() {
@@ -106,6 +107,11 @@ class Main extends Component {
         this.setState({ isCollapsed: !this.state.isCollapsed });
     }
 
+    // eslint-disable-next-line
+    handleFormSubmit(event) {
+        event.preventDefault();
+    }
+
     render() {
         const {
             tribe,
@@ -143,7 +149,7 @@ class Main extends Component {
 
         return (
             <Container>
-                <form>
+                <form onSubmit={this.handleFormSubmit}>
                     <label htmlFor="name">
                         <h2>Find your yo-kai</h2>
                     </label>
