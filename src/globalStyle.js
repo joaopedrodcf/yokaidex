@@ -21,6 +21,12 @@ body {
     flex-direction: column;
 }
 
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 
 /*
     font-size: 62.5%;

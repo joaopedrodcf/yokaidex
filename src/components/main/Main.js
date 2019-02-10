@@ -17,6 +17,7 @@ import { elements, ranks, tribes } from '../../mocks';
 import yokaisGame1 from '../../mocks/yokai-watch-1/yokais';
 import yokaisGame2 from '../../mocks/yokai-watch-2/yokais';
 import yokaisGame3 from '../../mocks/yokai-watch-3/yokais';
+import Checkbox from '../shared/checkbox';
 
 class Main extends Component {
     constructor(props) {
@@ -71,7 +72,7 @@ class Main extends Component {
     }
 
     handleCheckbox(event) {
-        const checkboxtype = event.target.getAttribute('checkboxtype');
+        const checkboxtype = event.target.getAttribute('data-checkbox-type');
         const type = event.target.name.toLowerCase();
         const { checked } = event.target;
         const filterType = this.state[checkboxtype];
@@ -183,16 +184,18 @@ class Main extends Component {
                             </Button>
                             {tribesCheckbox.map(type => (
                                 <InputContainer key={type}>
-                                    <input
-                                        type="checkbox"
-                                        checked={tribe.includes(
-                                            type.toLowerCase()
-                                        )}
-                                        name={type}
-                                        checkboxtype="tribe"
-                                        onChange={this.handleCheckbox}
-                                    />
-                                    <label htmlFor={type}>{type}</label>
+                                    <label>
+                                        <Checkbox
+                                            type="checkbox"
+                                            checked={tribe.includes(
+                                                type.toLowerCase()
+                                            )}
+                                            name={type}
+                                            checkboxtype="tribe"
+                                            onChange={this.handleCheckbox}
+                                            label={type}
+                                        />
+                                    </label>
                                 </InputContainer>
                             ))}
                         </Collapsible>
@@ -212,16 +215,18 @@ class Main extends Component {
                             </Button>
                             {ranksCheckbox.map(type => (
                                 <InputContainer key={type}>
-                                    <input
-                                        type="checkbox"
-                                        checked={rank.includes(
-                                            type.toLowerCase()
-                                        )}
-                                        name={type}
-                                        checkboxtype="rank"
-                                        onChange={this.handleCheckbox}
-                                    />
-                                    <label htmlFor={type}>{type}</label>
+                                    <label>
+                                        <Checkbox
+                                            type="checkbox"
+                                            checked={rank.includes(
+                                                type.toLowerCase()
+                                            )}
+                                            name={type}
+                                            checkboxtype="rank"
+                                            onChange={this.handleCheckbox}
+                                            label={type}
+                                        />
+                                    </label>
                                 </InputContainer>
                             ))}
                         </Collapsible>
@@ -241,16 +246,18 @@ class Main extends Component {
                             </Button>
                             {elementsCheckbox.map(type => (
                                 <InputContainer key={type}>
-                                    <input
-                                        type="checkbox"
-                                        checked={element.includes(
-                                            type.toLowerCase()
-                                        )}
-                                        name={type}
-                                        checkboxtype="element"
-                                        onChange={this.handleCheckbox}
-                                    />
-                                    <label htmlFor={type}>{type}</label>
+                                    <label>
+                                        <Checkbox
+                                            type="checkbox"
+                                            checked={element.includes(
+                                                type.toLowerCase()
+                                            )}
+                                            name={type}
+                                            checkboxtype="element"
+                                            onChange={this.handleCheckbox}
+                                            label={type}
+                                        />
+                                    </label>
                                 </InputContainer>
                             ))}
                         </Collapsible>
@@ -259,7 +266,7 @@ class Main extends Component {
                         <thead>
                             <tr>
                                 <th onClick={this.handleSort} thtype="name">
-                                    Name{' '}
+                                    Name
                                     {sort === 'name' ? (
                                         <FontAwesomeIcon
                                             icon={
