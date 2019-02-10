@@ -17,7 +17,9 @@ import {
     faChevronDown,
     faChevronUp,
     faTrashAlt,
-    faArrowLeft
+    faArrowLeft,
+    faFilter,
+    faSearch
 } from '@fortawesome/free-solid-svg-icons';
 
 import { HashRouter } from 'react-router-dom';
@@ -42,7 +44,9 @@ library.add(
     faArrowLeft,
     faChevronDown,
     faChevronUp,
-    faTrashAlt
+    faTrashAlt,
+    faFilter,
+    faSearch
 );
 
 ReactDOM.render(

@@ -22,7 +22,7 @@ const SCButton = styled.button`
 
     font-size: ${props => {
         if (props.size === 'large') return '20px';
-        return '16px';
+        return '14px';
     }};
 `;
 
