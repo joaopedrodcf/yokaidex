@@ -91,7 +91,7 @@ class Main extends Component {
         }
 
         this.setState({
-            [filterType]: filterType
+            [checkboxtype]: filterType
         });
     }
 
