@@ -53,18 +53,7 @@ const yokais = [
         weakness: 'water',
         rank: 'e',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description: 'Evolves into Undy at level 18',
-                yokais: [
-                    {
-                        name: 'Undy',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/undy.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [0]
     },
     {
         name: 'Undy',
@@ -109,18 +98,7 @@ const yokais = [
         weakness: 'water',
         rank: 'c',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description: 'Evolves from Pandle at level 18',
-                yokais: [
-                    {
-                        name: 'Pandle',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pandle.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [0]
     },
     {
         name: 'Tanbo',
@@ -227,18 +205,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'e',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves into Cutta-nah-nah at Level 20',
-                yokais: [
-                    {
-                        name: 'Cutta-nah-nah',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah-nah.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [1]
     },
     {
         name: 'Cutta-nah-nah',
@@ -287,18 +254,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'c',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves from Cutta-nah at Level 20',
-                yokais: [
-                    {
-                        name: 'Cutta-nah',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cutta-nah.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [1]
     },
     {
         name: 'Slacka-slash',
@@ -394,18 +350,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'e',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description: 'Evolves into Washogun at Level 19',
-                yokais: [
-                    {
-                        name: 'Washogun',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/washogun.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [2]
     },
     {
         name: 'Washogun',
@@ -450,18 +395,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'b',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description: 'Evolves from Brushido at Level 19',
-                yokais: [
-                    {
-                        name: 'Brushido',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/brushido.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [2]
     },
     {
         name: 'Lie-in',
@@ -512,18 +446,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'e',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description: 'Evolves into Lie-in Heart at Level 28',
-                yokais: [
-                    {
-                        name: 'Lie-in Heart',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in_heart.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [3]
     },
     {
         name: 'Lie-in Heart',
@@ -576,18 +499,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'a',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description: 'Evolves from Lie-in at Level 28',
-                yokais: [
-                    {
-                        name: 'Lie-in',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lie-in.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [3]
     },
     {
         name: 'Hissfit',
@@ -638,19 +550,7 @@ const yokais = [
         weakness: 'water',
         rank: 'e',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description:
-                    'Evolves into Zerberker through Fusion with a Raging Blade.',
-                yokais: [
-                    {
-                        name: 'Zerberker',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zerberker.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [5]
     },
     {
         name: 'Zerberker',
@@ -700,19 +600,7 @@ const yokais = [
         weakness: 'water',
         rank: 'a',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description:
-                    'Evolves from Hissfit through Fusion with a Raging Blade.',
-                yokais: [
-                    {
-                        name: 'Hissfit',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hissfit.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [5]
     },
     {
         name: 'Snartle',
@@ -806,19 +694,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'd',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description:
-                    'Evolves into Darumacho through fusion with Dulluma.',
-                yokais: [
-                    {
-                        name: 'Darumacho',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [7]
     },
     {
         name: 'Minochi',
@@ -927,19 +803,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves into Grublappa through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Grublappa',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grublappa.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [13]
     },
     {
         name: 'Slicenrice',
@@ -990,18 +854,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'd',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description: 'Evolves into Flamurice at Level 31.',
-                yokais: [
-                    {
-                        name: 'Flamurice',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flamurice.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [12]
     },
     {
         name: 'Flamurice',
@@ -1047,18 +900,7 @@ const yokais = [
         weakness: 'water',
         rank: 'a',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description: 'Evolves from Slicenrice at Level 31.',
-                yokais: [
-                    {
-                        name: 'Slicenrice',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slicenrice.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [12]
     },
     {
         name: 'Helmsman',
@@ -1108,19 +950,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    'Evolves into Reuknight through fusion with Armsman.',
-                yokais: [
-                    {
-                        name: 'Reuknight',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reuknight.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [11]
     },
     {
         name: 'Reuknight',
@@ -1170,24 +1000,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    'Evolves from Helmsman and Armsman through fusion.',
-                yokais: [
-                    {
-                        name: 'Helmsman',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/helmsman.png'
-                    },
-                    {
-                        name: 'Armsman',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/armsman.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [11]
     },
     {
         name: 'Corptain',
@@ -1283,19 +1096,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'c',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves from Madmunch through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Madmunch',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/madmunch.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [15]
     },
     {
         name: 'Sgt. Burly',
@@ -1392,19 +1193,7 @@ const yokais = [
         weakness: 'water',
         rank: 'c',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description:
-                    'Evolves into Carniboy through Fusion with Herbiboy.',
-                yokais: [
-                    {
-                        name: 'Carniboy',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/carniboy.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [17]
     },
     {
         name: 'Quaken',
@@ -1557,41 +1346,7 @@ const yokais = [
         weakness: 'water',
         rank: 'c',
         favouriteFood: 'seafoods',
-        evolution: [
-            {
-                description:
-                    'Evolves into Sheen through fusion with a Legendary Blade',
-                yokais: [
-                    {
-                        name: 'Sheen',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sheen.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Snee through fusion with a Cursed Blade',
-                yokais: [
-                    {
-                        name: 'Snee',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snee.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Gleam through fusion with Holy Blade',
-                yokais: [
-                    {
-                        name: 'Gleam',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gleam.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [19, 20, 21]
     },
     {
         name: 'Sheen',
@@ -1641,19 +1396,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'a',
         favouriteFood: 'seafoods',
-        evolution: [
-            {
-                description:
-                    'Evolves from Chansin through fusion with a Legendary Blade',
-                yokais: [
-                    {
-                        name: 'Chansin',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [19]
     },
     {
         name: 'Snee',
@@ -1698,19 +1441,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'a',
         favouriteFood: 'seafoods',
-        evolution: [
-            {
-                description:
-                    'Evolves from Chansin through fusion with a Cursed Blade',
-                yokais: [
-                    {
-                        name: 'Chansin',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [20]
     },
     {
         name: 'Gleam',
@@ -1762,19 +1493,7 @@ const yokais = [
         weakness: 'earth',
         rank: 's',
         favouriteFood: 'seafoods',
-        evolution: [
-            {
-                description:
-                    'Evolves from Gleam through fusion with a Holy Blade',
-                yokais: [
-                    {
-                        name: 'Chansin',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chansin.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [21]
     },
     {
         name: 'Benkei',
@@ -2027,19 +1746,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'b',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    "Evolves into Beetall through fusion with a General's Soul.",
-                yokais: [
-                    {
-                        name: 'Beetall',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetall.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [22]
     },
     {
         name: 'Beetall',
@@ -2084,19 +1791,7 @@ const yokais = [
         weakness: 'wind',
         rank: 's',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    "Evolves from Beetler through fusion with a General's Soul.",
-                yokais: [
-                    {
-                        name: 'Beetler',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beetler.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [22]
     },
     {
         name: 'Cruncha',
@@ -2489,18 +2184,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'e',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description: "Evolves into N'more at Level 15",
-                yokais: [
-                    {
-                        name: "N'more",
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/n_more.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [23]
     },
     {
         name: "N'more",
@@ -2545,18 +2229,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'c',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description: "Evolves from D'wanna at Level 15",
-                yokais: [
-                    {
-                        name: "D'wanna",
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/d_wanna.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [23]
     },
     {
         name: "Q'wit",
@@ -2662,18 +2335,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'e',
         favouriteFood: 'candies',
-        evolution: [
-            {
-                description: 'Evolves into Houzzat at Level 20',
-                yokais: [
-                    {
-                        name: 'Houzzat',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/houzzat.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [24]
     },
     {
         name: 'Houzzat',
@@ -2723,18 +2385,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'b',
         favouriteFood: 'candies',
-        evolution: [
-            {
-                description: 'Evolves from Wazzat at Level 20',
-                yokais: [
-                    {
-                        name: 'Wazzat',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wazzat.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [24]
     },
     {
         name: 'Dummkap',
@@ -2892,19 +2543,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'd',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description:
-                    'Evolves into Tattlecast through fusion with Tattletell.',
-                yokais: [
-                    {
-                        name: 'Tattlecast',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [28]
     },
     {
         name: 'Blips',
@@ -2998,18 +2637,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'd',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description: 'Evolves into Tattlecast at Level 22.',
-                yokais: [
-                    {
-                        name: 'Tattlecast',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattlecast.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [28]
     },
     {
         name: 'Tattlecast',
@@ -3055,18 +2683,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'b',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description: 'Evolves from Tattletell at Level 22.',
-                yokais: [
-                    {
-                        name: 'Tattletell',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tattletell.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [28]
     },
     {
         name: 'Skranny',
@@ -3162,30 +2779,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'd',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves into Casanuva through fusion with a Love Buster.',
-                yokais: [
-                    {
-                        name: 'Casanuva',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/casanuva.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Rattelle through fusion with Dazzabel.',
-                yokais: [
-                    {
-                        name: 'Rattelle',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rattelle.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [30, 31]
     },
     {
         name: 'Casanuva',
@@ -3235,19 +2829,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'a',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves from Cupistol through fusion with a Love Buster.',
-                yokais: [
-                    {
-                        name: 'Cupistol',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cupistol.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [30]
     },
     {
         name: 'Casanono',
@@ -3347,18 +2929,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'curries',
-        evolution: [
-            {
-                description: 'Evolves into Bowminos at Level 30.',
-                yokais: [
-                    {
-                        name: 'Bowminos',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bowminos.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [32]
     },
     {
         name: 'Bowminos',
@@ -3404,18 +2975,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'a',
         favouriteFood: 'curries',
-        evolution: [
-            {
-                description: 'Evolves from So-Sorree at Level 30.',
-                yokais: [
-                    {
-                        name: 'So-Sorree',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/so-sorree.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [32]
     },
     {
         name: 'Smogling',
@@ -3468,18 +3028,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'd',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description: 'Evolves into Smogmella at Level 27.',
-                yokais: [
-                    {
-                        name: 'Smogmella',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smogmella.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [33]
     },
     {
         name: 'Smogmella',
@@ -3529,29 +3078,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'a',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description: 'Evolves from Smogling at Level 27.',
-                yokais: [
-                    {
-                        name: 'Smogling',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smogling.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Badsmella through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Badsmella',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/badsmella.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [33, 121]
     },
     {
         name: 'Signibble',
@@ -3607,19 +3134,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'snacks',
-        evolution: [
-            {
-                description:
-                    'Evolves into Signiton through fusion with a GHz Orb.',
-                yokais: [
-                    {
-                        name: 'Signiton',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/signiton.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [34]
     },
     {
         name: 'Signiton',
@@ -3667,19 +3182,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves from Signibble through fusion with a GHz Ball.',
-                yokais: [
-                    {
-                        name: 'Signibble',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/signibble.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [34]
     },
     {
         name: 'Statiking',
@@ -3920,18 +3423,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'c',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description: 'Evolves into Miradox through Fusion with Espy.',
-                yokais: [
-                    {
-                        name: 'Miradox',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/miradox.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [35]
     },
     {
         name: 'Miradox',
@@ -3977,23 +3469,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description: 'Evolves from Mirapo and Espy through Fusion.',
-                yokais: [
-                    {
-                        name: 'Mirapo',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mirapo.png'
-                    },
-                    {
-                        name: 'Espy',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/espy.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [35]
     },
     {
         name: 'Mircle',
@@ -4745,19 +4221,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'e',
         favouriteFood: 'curries',
-        evolution: [
-            {
-                description:
-                    'Evolves into Darumacho through fusion with Mochismo.',
-                yokais: [
-                    {
-                        name: 'Darumacho',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/darumacho.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [7]
     },
     {
         name: 'Darumacho',
@@ -4805,24 +4269,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'b',
         favouriteFood: 'curries',
-        evolution: [
-            {
-                description:
-                    'Evolves from Mochismo and Dulluma through fusion.',
-                yokais: [
-                    {
-                        name: 'Mochismo',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mochismo.png'
-                    },
-                    {
-                        name: 'Dulluma',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dulluma.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [7]
     },
     {
         name: 'Goruma',
@@ -4920,19 +4367,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'e',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description:
-                    'Evolves into Pride Shrimp through fusion with Papa Windbag.',
-                yokais: [
-                    {
-                        name: 'Pride Shrimp',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pride_shrimp.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [36]
     },
     {
         name: 'Pride Shrimp',
@@ -4978,24 +4413,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'b',
         favouriteFood: 'seafoods',
-        evolution: [
-            {
-                description:
-                    'Evolves from Wotchagot and Papa Windbag through fusion.',
-                yokais: [
-                    {
-                        name: 'Wotchagot',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wotchagot.png'
-                    },
-                    {
-                        name: 'Papa Windbag',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/papa_windbag.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [36]
     },
     {
         name: 'No-Go Kart',
@@ -5040,19 +4458,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'e',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description:
-                    'Evolves into Mistank through fusion with Ledballoon.',
-                yokais: [
-                    {
-                        name: 'Mistank',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mistank.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [37]
     },
     {
         name: 'Mistank',
@@ -5098,24 +4504,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'b',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description:
-                    'Evolves from No-Go Kart and Ledballoon through fusion.',
-                yokais: [
-                    {
-                        name: 'No-Go Kart',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/no_go_Kart.png'
-                    },
-                    {
-                        name: 'Ledballoon',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ledballoon.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [37]
     },
     {
         name: 'Noway',
@@ -5164,18 +4553,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'e',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description: 'Evolves into Impass at Level 29.',
-                yokais: [
-                    {
-                        name: 'Impass',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/impass.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [39]
     },
     {
         name: 'Impass',
@@ -5220,18 +4598,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'a',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description: 'Evolves from Noway at Level 29.',
-                yokais: [
-                    {
-                        name: 'Noway',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/noway.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [39]
     },
     {
         name: 'Walldin',
@@ -5328,29 +4695,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'e',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description: 'Evolves into Badude at Level 25.',
-                yokais: [
-                    {
-                        name: 'Badude',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/badude.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Baddinyan through fusion with Roughraff.',
-                yokais: [
-                    {
-                        name: 'Baddinyan',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/baddinyan.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [40, 63]
     },
     {
         name: 'Badude',
@@ -5396,18 +4741,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'b',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description: 'Evolves from Roughraff at Level 25.',
-                yokais: [
-                    {
-                        name: 'Roughraff',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/roughraff.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [40]
     },
     {
         name: 'Bruff',
@@ -5507,19 +4841,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    'Evolves into Reuknight through fusion with Helmsman.',
-                yokais: [
-                    {
-                        name: 'Reuknight',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reuknight.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [11]
     },
     {
         name: 'Mimikin',
@@ -5673,19 +4995,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'c',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description:
-                    'Evolves into Mistank through fusion with No-Go Kart.',
-                yokais: [
-                    {
-                        name: 'Mistank',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mistank.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [37]
     },
     {
         name: 'Fidgephant',
@@ -5742,19 +5052,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'd',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description:
-                    'Evolves into Enduriphant through fusion with Touphant.',
-                yokais: [
-                    {
-                        name: 'Enduriphant',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enduriphant.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [46]
     },
     {
         name: 'Touphant',
@@ -5803,19 +5101,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'c',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description:
-                    'Evolves into Enduriphant through fusion with Fidgephant.',
-                yokais: [
-                    {
-                        name: 'Enduriphant',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enduriphant.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [46]
     },
     {
         name: 'Enduriphant',
@@ -5864,24 +5150,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'a',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description:
-                    'Evolves from Fidgephant and Touphant through fusion.',
-                yokais: [
-                    {
-                        name: 'Fidgephant',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/fidgephant.png'
-                    },
-                    {
-                        name: 'Touphant',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/touphant.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [46]
     },
     {
         name: 'Zappary',
@@ -5930,18 +5199,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description: 'Evolves into Frazzel at Level 29.',
-                yokais: [
-                    {
-                        name: 'Frazzel',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/frazzel.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [47]
     },
     {
         name: 'Frazzel',
@@ -5987,18 +5245,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description: 'Evolves from Zappary at Level 29.',
-                yokais: [
-                    {
-                        name: 'Frazzel',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/zappary.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [47]
     },
     {
         name: 'Swelton',
@@ -6099,19 +5346,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'c',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description:
-                    'Evolves into Scarasol through fusion with Pallysol.',
-                yokais: [
-                    {
-                        name: 'Scarasol',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scarasol.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [49]
     },
     {
         name: 'Lava Lord',
@@ -6217,19 +5452,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'c',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description:
-                    'Evolves into Castelius II through fusion with Castelius III.',
-                yokais: [
-                    {
-                        name: 'Castelius II',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_ii.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [50]
     },
     {
         name: 'Castelius II',
@@ -6280,19 +5503,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'b',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description:
-                    'Evolves into Castelius I through fusion with Castelius II.',
-                yokais: [
-                    {
-                        name: 'Castelius I',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_i.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [50, 51]
     },
     {
         name: 'Castelius I',
@@ -6337,19 +5548,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description:
-                    'Evolves into Castelius Max through fusion with a Platinum Bar.',
-                yokais: [
-                    {
-                        name: 'Castelius Max',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_max.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [51, 52]
     },
     {
         name: 'Castelius Max',
@@ -6395,19 +5594,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 's',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description:
-                    'Evolves from Castelius I through fusion with a Platinum Bar.',
-                yokais: [
-                    {
-                        name: 'Castelius I',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/castelius_i.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [52]
     },
     {
         name: 'Rhinoggin',
@@ -6457,19 +5644,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'b',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    'Evolves into Rhinormous through fusion with an Unbeatable Soul.',
-                yokais: [
-                    {
-                        name: 'Rhinormous',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhinormous.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [53]
     },
     {
         name: 'Rhinormous',
@@ -6513,19 +5688,7 @@ const yokais = [
         weakness: 'wind',
         rank: 's',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    'Evolves from Rhinoggin through fusion with an Unbeatable Soul.',
-                yokais: [
-                    {
-                        name: 'Rhinoggin',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rhinoggin.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [53]
     },
     {
         name: 'Hornaplenty',
@@ -6974,19 +6137,7 @@ const yokais = [
         weakness: 'water',
         rank: 'e',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves into Rattelle through fusion with Cupistol.',
-                yokais: [
-                    {
-                        name: 'Rattelle',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rattelle.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [31]
     },
     {
         name: 'Rattelle',
@@ -7033,24 +6184,7 @@ const yokais = [
         weakness: 'water',
         rank: 'c',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves from Dazzabel and Cupisol through fusion.',
-                yokais: [
-                    {
-                        name: 'Dazzabel',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dazzabel.png'
-                    },
-                    {
-                        name: 'Cupisol',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cupisol.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [31]
     },
     {
         name: 'Skelebella',
@@ -7164,18 +6298,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'e',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves into Cadable at Level 21.',
-                yokais: [
-                    {
-                        name: 'Cadable',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cadable.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [55]
     },
     {
         name: 'Cadable',
@@ -7224,18 +6347,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'c',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves from Cadin at Level 21.',
-                yokais: [
-                    {
-                        name: 'Cadin',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cadin.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [55]
     },
     {
         name: 'Singcada',
@@ -7333,19 +6445,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'e',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description:
-                    'Evolves into Chilhuahua through fusion with a Snowstorm Cloak.',
-                yokais: [
-                    {
-                        name: 'Chilhuahua',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/chilhuahua.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [57]
     },
     {
         name: 'Chilhuahua',
@@ -7389,19 +6489,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'a',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description:
-                    'Evolves from Pupsicle through fusion with a Snowstorm Cloak.',
-                yokais: [
-                    {
-                        name: 'Pupsicle',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pupsicle.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [57]
     },
     {
         name: 'Swelterrier',
@@ -7599,30 +6687,7 @@ const yokais = [
         weakness: 'water',
         rank: 'd',
         favouriteFood: 'chocobars',
-        evolution: [
-            {
-                description:
-                    'Evolves into Baddinyan through fusion with Roughraff.',
-                yokais: [
-                    {
-                        name: 'Baddinyan',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/baddinyan.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Thornyan through fusion with Coughkoff.',
-                yokais: [
-                    {
-                        name: 'Thornyan',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/thornyan.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [63, 64]
     },
     {
         name: 'Thornyan',
@@ -7667,24 +6732,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'b',
         favouriteFood: 'chocobars',
-        evolution: [
-            {
-                description:
-                    'Evolves from jibanyan through fusion with Coughkoff.',
-                yokais: [
-                    {
-                        name: 'Jibanyan',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jibanyan.png'
-                    },
-                    {
-                        name: 'Coughkoff',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/coughkoff.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [64]
     },
     {
         name: 'Baddinyan',
@@ -7730,24 +6778,7 @@ const yokais = [
         weakness: 'water',
         rank: 'b',
         favouriteFood: 'chocobars',
-        evolution: [
-            {
-                description:
-                    'Evolves from Jibanyan through fusion with Roughraff.',
-                yokais: [
-                    {
-                        name: 'Jibanyan',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/jibanyan.png'
-                    },
-                    {
-                        name: 'Roughraff',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/roughraff.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [63]
     },
     {
         name: 'Buchinyan',
@@ -7840,18 +6871,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'd',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description: 'Evolves into Appak at Level 32.',
-                yokais: [
-                    {
-                        name: 'Appak',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/appak.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [62]
     },
     {
         name: 'Appak',
@@ -7896,18 +6916,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'a',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description: 'Evolves from Walkappa at Level 32.',
-                yokais: [
-                    {
-                        name: 'Walkappa',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/walkappa.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [62]
     },
     {
         name: 'Supyo',
@@ -8008,18 +7017,7 @@ const yokais = [
         weakness: 'water',
         rank: 'd',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description: 'Evolves into Komane at Level 35.',
-                yokais: [
-                    {
-                        name: 'Komane',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komane.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [65]
     },
     {
         name: 'Komane',
@@ -8065,18 +7063,7 @@ const yokais = [
         weakness: 'water',
         rank: 'a',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description: 'Evolves from Komasan at Level 35.',
-                yokais: [
-                    {
-                        name: 'Komasan',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komasan.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [65]
     },
     {
         name: 'Komajiro',
@@ -8123,18 +7110,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description: 'Evolves into Komiger at Level 33.',
-                yokais: [
-                    {
-                        name: 'Komiger',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komiger.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [66]
     },
     {
         name: 'Komiger',
@@ -8183,18 +7159,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description: 'Evolves from Komajiro at Level 33.',
-                yokais: [
-                    {
-                        name: 'Komajiro',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komajiro.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [66]
     },
     {
         name: 'Baku',
@@ -8245,18 +7210,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves into Bakulia at Level 29.',
-                yokais: [
-                    {
-                        name: 'Bakulia',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bakulia.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [59]
     },
     {
         name: 'Bakulia',
@@ -8305,18 +7259,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'b',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves from Baku at Level 29.',
-                yokais: [
-                    {
-                        name: 'Baku',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/baku.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [59]
     },
     {
         name: 'Whapir',
@@ -8517,30 +7460,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'c',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description:
-                    'Evolves into Pinkipoo when fused with a Love Scepter.',
-                yokais: [
-                    {
-                        name: 'Pinkipoo',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pinkipoo.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Nurse Tungus when fused with Tongus.',
-                yokais: [
-                    {
-                        name: 'Nurse Tongus',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nurse_tongus.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [67, 68]
     },
     {
         name: 'Pinkipoo',
@@ -8591,19 +7511,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'b',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description:
-                    'Evolves from Shmoopie through fusion with a Love Scepter.',
-                yokais: [
-                    {
-                        name: 'Shmoopie',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shmoopie.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [67]
     },
     {
         name: 'Pookivil',
@@ -8750,19 +7658,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'b',
         favouriteFood: 'candies',
-        evolution: [
-            {
-                description:
-                    'Evolves into Blizzaria through fusion with a Glacial Clip.',
-                yokais: [
-                    {
-                        name: 'Blizzaria',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blizzaria.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [69]
     },
     {
         name: 'Blizzaria',
@@ -8806,19 +7702,7 @@ const yokais = [
         weakness: 'fire',
         rank: 's',
         favouriteFood: 'candies',
-        evolution: [
-            {
-                description:
-                    'Evolves into Mad Kappa through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Mad Kappa',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mad_kappa.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [59]
     },
     {
         name: 'Damona',
@@ -8970,20 +7854,7 @@ const yokais = [
         element: 'water',
         weakness: 'lightning',
         rank: 's',
-        favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description:
-                    'Evolves into Mad Kappa through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Mad Kappa',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mad_kappa.png'
-                    }
-                ]
-            }
-        ]
+        favouriteFood: 'chinese foods'
     },
     {
         name: 'Master Nyada',
@@ -9184,18 +8055,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'e',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description: 'Evolves into Kelpacabana at Level 17.',
-                yokais: [
-                    {
-                        name: 'Kelpacabana',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/kelpacabana.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [72]
     },
     {
         name: 'Kelpacabana',
@@ -9243,18 +8103,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'c',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description: 'Evolves from Wiglin at Level 17.',
-                yokais: [
-                    {
-                        name: 'Wiglin',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wiglin.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [72]
     },
     {
         name: 'Steppa',
@@ -9406,19 +8255,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'e',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description:
-                    'Evolves into Hungorge through Fusion with a Love-Packed Rice Ball.',
-                yokais: [
-                    {
-                        name: 'Hungorge',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hungorge.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [74]
     },
     {
         name: 'Hungorge',
@@ -9464,19 +8301,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'b',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description:
-                    'Evolves from Hungramps through Fusion with a Love-Packed Rice Ball.',
-                yokais: [
-                    {
-                        name: 'Hungramps',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hungramps.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [74]
     },
     {
         name: 'Grainpa',
@@ -9578,19 +8403,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'e',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    'Evolves into Nurse Tongus through fusion with Shmoopie.',
-                yokais: [
-                    {
-                        name: 'Nurse Tongus',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/nurse_tongus.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [68]
     },
     {
         name: 'Nurse Tongus',
@@ -9636,24 +8449,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'b',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    'Evolves from Tongus through fusion with Shmoopie.',
-                yokais: [
-                    {
-                        name: 'Tongus',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tongus.png'
-                    },
-                    {
-                        name: 'Shmoopie',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shmoopie.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [68]
     },
     {
         name: 'Sandmeh',
@@ -9704,22 +8500,10 @@ const yokais = [
         weakness: 'water',
         rank: 'e',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves into Mr. Sandmeh through Fusion with a Sand Suit.',
-                yokais: [
-                    {
-                        name: 'Mr. Sandmeh',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mr._Sandmeh.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [77]
     },
     {
-        name: 'Mr. Sandmeh',
+        name: 'Mister Sandmeh',
         yokaiNumber: '173',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mr._sandmeh.png',
@@ -9762,19 +8546,7 @@ const yokais = [
         weakness: 'water',
         rank: 'b',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves from Sandmeh through Fusion with a Sand Suit.',
-                yokais: [
-                    {
-                        name: 'Sandmeh',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sandmeh.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [77]
     },
     {
         name: 'Pallysol',
@@ -9825,30 +8597,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'e',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves into Scarasol through Fusion with Mad Mountain.',
-                yokais: [
-                    {
-                        name: 'Scarasol',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scarasol.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Shamasol through Fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Shamasol',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shamasol.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [49, 71]
     },
     {
         name: 'Scarasol',
@@ -9898,24 +8647,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'a',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description:
-                    'Evolves from Mad Mountain and Pallysol through Fusion.',
-                yokais: [
-                    {
-                        name: 'Mad Mountain',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mad_mountain.png'
-                    },
-                    {
-                        name: 'Pallysol',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pallysol.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [49]
     },
     {
         name: 'Lodo',
@@ -9967,18 +8699,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'd',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description: 'Evolves into Supoor Hero at Level 28.',
-                yokais: [
-                    {
-                        name: 'Supoor Hero',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/supoor_hero.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [80]
     },
     {
         name: 'Supoor Hero',
@@ -10026,18 +8747,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'a',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description: 'Evolves into Lodo at Level 28.',
-                yokais: [
-                    {
-                        name: 'Lodo',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lodo.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [80]
     },
     {
         name: 'Chippa',
@@ -10142,29 +8852,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'd',
         favouriteFood: 'snacks',
-        evolution: [
-            {
-                description: 'Evolves into High Gnomey at Level 28.',
-                yokais: [
-                    {
-                        name: 'High Gnomey',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/high_gnomey.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Gnomine through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Gnomine',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gnomine.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [81, 82]
     },
     {
         name: 'High Gnomey',
@@ -10215,18 +8903,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'a',
         favouriteFood: 'snacks',
-        evolution: [
-            {
-                description: 'Evolves from Gnomey at Level 28.',
-                yokais: [
-                    {
-                        name: 'Gnomey',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gnomey.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [81]
     },
     {
         name: 'Enerfly',
@@ -10275,19 +8952,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'd',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description:
-                    'Evolves into Betterfly through fusion with Enefly.',
-                yokais: [
-                    {
-                        name: 'Betterfly',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/betterfly.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [83]
     },
     {
         name: 'Enefly',
@@ -10341,19 +9006,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description:
-                    'Evolves into Betterfly through fusion with Enefly.',
-                yokais: [
-                    {
-                        name: 'Betterfly',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/betterfly.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [83]
     },
     {
         name: 'Betterfly',
@@ -10399,23 +9052,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'a',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves from Enerfly and Enefly through fusion.',
-                yokais: [
-                    {
-                        name: 'Enerfly',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enerfly.png'
-                    },
-                    {
-                        name: 'Enefly',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/enefly.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [83]
     },
     {
         name: 'Peppillon',
@@ -10508,30 +9145,7 @@ const yokais = [
         weakness: 'water',
         rank: 'd',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description:
-                    'Evolves into Smashibull through Fusion with Ethereal Water.',
-                yokais: [
-                    {
-                        name: 'Smashibull',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smashibull.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Defectabull through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Defectabull',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/defectabull.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [84, 85]
     },
     {
         name: 'Smashibull',
@@ -10577,19 +9191,7 @@ const yokais = [
         weakness: 'water',
         rank: 's',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description:
-                    'Evolves from Predictabull through Fusion with Ethereal Water.',
-                yokais: [
-                    {
-                        name: 'Predictabull',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/predictabull.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [84]
     },
     {
         name: 'Don Chan',
@@ -10742,19 +9344,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'c',
         favouriteFood: 'breads',
-        evolution: [
-            {
-                description:
-                    'Evolves into Reversa through fusion with Dismarelda.',
-                yokais: [
-                    {
-                        name: 'Reversa',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reversa.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [86]
     },
     {
         name: 'Reversa',
@@ -10800,24 +9390,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'breads',
-        evolution: [
-            {
-                description:
-                    'Evolves from Happierre and Dismarelda through fusion.',
-                yokais: [
-                    {
-                        name: 'Happierre',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/happierre.png'
-                    },
-                    {
-                        name: 'Dismarelda',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dismarelda.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [86]
     },
     {
         name: 'Reversette',
@@ -11522,19 +10095,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'e',
         favouriteFood: 'candies',
-        evolution: [
-            {
-                description:
-                    'Evolves into Payn through fusion with a Buff Weight.',
-                yokais: [
-                    {
-                        name: 'Payn',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/payn.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [87]
     },
     {
         name: 'Payn',
@@ -11583,19 +10144,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'c',
         favouriteFood: 'candies',
-        evolution: [
-            {
-                description:
-                    'Evolves from Ake through fusion with a Buff Weight.',
-                yokais: [
-                    {
-                        name: 'Ake',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/ake.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [87]
     },
     {
         name: 'Agon',
@@ -11689,19 +10238,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'e',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description:
-                    'Evolves into Allnyta through Fusion with Hidabat.',
-                yokais: [
-                    {
-                        name: 'Allnyta',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/allnyta.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [88]
     },
     {
         name: 'Allnyta',
@@ -11747,24 +10284,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'b',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description:
-                    'Evolves from Wydeawake and Hidabat through Fusion.',
-                yokais: [
-                    {
-                        name: 'Wydeawake',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wydeawake.png'
-                    },
-                    {
-                        name: 'Hidabat',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hidabat.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [88]
     },
     {
         name: 'Herbiboy',
@@ -11810,19 +10330,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'e',
         favouriteFood: 'vegetables',
-        evolution: [
-            {
-                description:
-                    'Evolves into Carniboy through Fusion with Blazion.',
-                yokais: [
-                    {
-                        name: 'Carniboy',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/carniboy.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [17]
     },
     {
         name: 'Carniboy',
@@ -11868,24 +10376,7 @@ const yokais = [
         weakness: 'water',
         rank: 'b',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description:
-                    'Evolves from Blazion and Herbiboy through Fusion.',
-                yokais: [
-                    {
-                        name: 'Blazion',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blazion.png'
-                    },
-                    {
-                        name: 'Herbiboy',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/herbiboy.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [17]
     },
     {
         name: 'Negatibuzz',
@@ -11932,18 +10423,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'e',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves into Moskevil at Level 17.',
-                yokais: [
-                    {
-                        name: 'Moskevil',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/moskevil.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [92]
     },
     {
         name: 'Moskevil',
@@ -11988,18 +10468,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'c',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves from Negatibuzz at Level 17.',
-                yokais: [
-                    {
-                        name: 'Negatibuzz',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/negatibuzz.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [92]
     },
     {
         name: 'Scritchy',
@@ -12099,18 +10568,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'e',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description: 'Evolves into Blandon at Level 24.',
-                yokais: [
-                    {
-                        name: 'Blandon',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/blandon.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [93]
     },
     {
         name: 'Blandon',
@@ -12155,18 +10613,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'b',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description: 'Evolves from Dimmy at Level 24.',
-                yokais: [
-                    {
-                        name: 'Dimmy',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dimmy.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [93]
     },
     {
         name: 'Nul',
@@ -12424,30 +10871,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'd',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description:
-                    'Evolves into Allnyta through fusion with Wydeawake.',
-                yokais: [
-                    {
-                        name: 'Allnyta',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/allnyta.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Abodabat through fusion with Tengloom.',
-                yokais: [
-                    {
-                        name: 'Abodabat',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/abodabat.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [88]
     },
     {
         name: 'Abodabat',
@@ -12491,24 +10915,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'a',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description:
-                    'Evolves from Hidabat and Tengloom through fusion.',
-                yokais: [
-                    {
-                        name: 'Hidabat',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hidabat.png'
-                    },
-                    {
-                        name: 'Tengloom',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tengloom.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [95]
     },
     {
         name: 'Belfree',
@@ -12616,18 +11023,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'd',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description: 'Evolves into Gimme at Level 27.',
-                yokais: [
-                    {
-                        name: 'Gimme',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/hidabat.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [96]
     },
     {
         name: 'Gimme',
@@ -12673,18 +11069,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'a',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description: 'Evolves from Yoink at Level 27.',
-                yokais: [
-                    {
-                        name: 'Yoink',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/yoink.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [96]
     },
     {
         name: "K'mon-K'mon",
@@ -12918,19 +11303,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'c',
         favouriteFood: 'breads',
-        evolution: [
-            {
-                description:
-                    'Evolves into Abodabat through fusion with Hidabat.',
-                yokais: [
-                    {
-                        name: 'Abodabat',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/abodabat.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [95]
     },
     {
         name: 'Nird',
@@ -13264,19 +11637,7 @@ const yokais = [
         weakness: 'water',
         rank: 'a',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description:
-                    'Evolves into Beelzebold through fusion with a Shard of Evil.',
-                yokais: [
-                    {
-                        name: 'Beelzebold',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/beelzebold.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [122]
     },
     {
         name: 'Beelzebold',
@@ -13322,19 +11683,7 @@ const yokais = [
         weakness: 'water',
         rank: 's',
         favouriteFood: 'ramens',
-        evolution: [
-            {
-                description:
-                    'Evolves from Timidevil through fusion with a Shard of Evil.',
-                yokais: [
-                    {
-                        name: 'Timidevil',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/timidevil.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [122]
     },
     {
         name: 'Count Cavity',
@@ -13677,19 +12026,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'e',
         favouriteFood: 'breads',
-        evolution: [
-            {
-                description:
-                    'Evolves into Thornyan through fusion with Jibanyan.',
-                yokais: [
-                    {
-                        name: 'Thornyan',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/thornyan.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [64]
     },
     {
         name: 'Hurchin',
@@ -13793,18 +12130,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'e',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves into Drizzle at Level 25.',
-                yokais: [
-                    {
-                        name: 'Drizzle',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/drizzle.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [98]
     },
     {
         name: 'Drizzle',
@@ -13852,18 +12178,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'b',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves from Droplette at Level 25.',
-                yokais: [
-                    {
-                        name: 'Droplette',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/droplette.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [98]
     },
     {
         name: 'Slush',
@@ -13922,18 +12237,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'e',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves into Alhail at Level 25.',
-                yokais: [
-                    {
-                        name: 'Alhail',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/alhail.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [123]
     },
     {
         name: 'Alhail',
@@ -13981,18 +12285,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'b',
         favouriteFood: 'juices',
-        evolution: [
-            {
-                description: 'Evolves from Slush at Level 25.',
-                yokais: [
-                    {
-                        name: 'Slush',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slush.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [123]
     },
     {
         name: 'Gush',
@@ -14100,18 +12393,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'e',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description: 'Evolves into Robbinyu at Level 23.',
-                yokais: [
-                    {
-                        name: 'Robbinyu',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/robbinyu.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [99]
     },
     {
         name: 'Robbinyu',
@@ -14161,18 +12443,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'b',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description: 'Evolves from Peckpocket at Level 23.',
-                yokais: [
-                    {
-                        name: 'Peckpocket',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/peckpocket.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [99]
     },
     {
         name: 'Rockabelly',
@@ -14280,18 +12551,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'e',
         favouriteFood: 'curries',
-        evolution: [
-            {
-                description: 'Evolves into Rawry through Fusion with a Horn.',
-                yokais: [
-                    {
-                        name: 'Rawry',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rawry.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [100]
     },
     {
         name: 'Rawry',
@@ -14340,18 +12600,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'b',
         favouriteFood: 'curries',
-        evolution: [
-            {
-                description: 'Evolves from Squeeky through Fusion with a Horn.',
-                yokais: [
-                    {
-                        name: 'Squeeky',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/squeeky.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [100]
     },
     {
         name: 'Buhu',
@@ -14543,18 +12792,7 @@ const yokais = [
         weakness: 'water',
         rank: 'e',
         favouriteFood: 'curries',
-        evolution: [
-            {
-                description: 'Evolves into Multimutt at Level 22.',
-                yokais: [
-                    {
-                        name: 'Multimutt',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/multimutt.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [101]
     },
     {
         name: 'Multimutt',
@@ -14599,18 +12837,7 @@ const yokais = [
         weakness: 'water',
         rank: 'b',
         favouriteFood: 'curries',
-        evolution: [
-            {
-                description: 'Evolves from Manjimutt at Level 22.',
-                yokais: [
-                    {
-                        name: 'Manjimutt',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/manjimutt.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [101]
     },
     {
         name: 'Sir Berus',
@@ -14711,29 +12938,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'e',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description: 'Evolves into Furdinand at Level 28.',
-                yokais: [
-                    {
-                        name: 'Furdinand',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/furdinand.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Feargus through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Feargus',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/feargus.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [103, 104]
     },
     {
         name: 'Furdinand',
@@ -14784,18 +12989,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'a',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description: 'Evolves from Furgus at Level 28.',
-                yokais: [
-                    {
-                        name: 'Furgus',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/furgus.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [103]
     },
     {
         name: 'Nosirs',
@@ -14906,19 +13100,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'd',
         favouriteFood: 'breads',
-        evolution: [
-            {
-                description:
-                    'Evolves into Reversa through fusion with Happierre.',
-                yokais: [
-                    {
-                        name: 'Reversa',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/reversa.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [86]
     },
     {
         name: 'Chatalie',
@@ -15067,19 +13249,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'c',
         favouriteFood: 'sobas',
-        evolution: [
-            {
-                description:
-                    'Evolves into Pride Shrimp through fusion with Wotchagot.',
-                yokais: [
-                    {
-                        name: 'Pride Shrimp',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pride_shrimp.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [36]
     },
     {
         name: 'Ben Tover',
@@ -15280,19 +13450,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'c',
         favouriteFood: 'snacks',
-        evolution: [
-            {
-                description:
-                    'Evolves into Foiletta through Fusion with the Cursed Diary.',
-                yokais: [
-                    {
-                        name: 'Foiletta',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/foiletta.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [107]
     },
     {
         name: 'Foiletta',
@@ -15344,19 +13502,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'snacks',
-        evolution: [
-            {
-                description:
-                    'Evolves from Toiletta through Fusion with the Cursed Diary.',
-                yokais: [
-                    {
-                        name: 'Toiletta',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/toiletta.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [107]
     },
     {
         name: 'Sproink',
@@ -15546,19 +13692,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'b',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description:
-                    'Evolves into Everfore through fusion with Ageless Powder.',
-                yokais: [
-                    {
-                        name: 'Everfore',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/everfore.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [108]
     },
     {
         name: 'Everfore',
@@ -15603,19 +13737,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 's',
         favouriteFood: 'milks',
-        evolution: [
-            {
-                description:
-                    'Evolves from Grumples through fusion with Ageless Powder.',
-                yokais: [
-                    {
-                        name: 'Grumples',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/grumples.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [108]
     },
     {
         name: 'Eterna',
@@ -15954,18 +14076,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'e',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description: 'Evolves into Bloominoko at Level 25.',
-                yokais: [
-                    {
-                        name: 'Bloominoko',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/bloominoko.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [111]
     },
     {
         name: 'Bloominoko',
@@ -16011,18 +14122,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'a',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description: 'Evolves from Noko at Level 25.',
-                yokais: [
-                    {
-                        name: 'Noko',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/noko.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [111]
     },
     {
         name: 'Pandanoko',
@@ -16128,18 +14228,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'e',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description: 'Evolves into Whinona at Level 29.',
-                yokais: [
-                    {
-                        name: 'Whinona',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whinona.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [112]
     },
     {
         name: 'Whinona',
@@ -16187,18 +14276,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description: 'Evolves from Snaggly at Level 29.',
-                yokais: [
-                    {
-                        name: 'Snaggly',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snaggly.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [112]
     },
     {
         name: 'Heheheel',
@@ -16392,18 +14470,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description: 'Evolves into Rageon at Level 27.',
-                yokais: [
-                    {
-                        name: 'Rageon',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/rageon.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [114]
     },
     {
         name: 'Rageon',
@@ -16447,18 +14514,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'b',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description: 'Evolves from Fishpicable at Level 27.',
-                yokais: [
-                    {
-                        name: 'Fishpicable',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/fishpicable.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [114]
     },
     {
         name: 'Tunatic',
@@ -16570,19 +14626,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'd',
         favouriteFood: 'sobas',
-        evolution: [
-            {
-                description:
-                    'Evolves into Vacuumory through Fusion with the Mem-o-Vac.',
-                yokais: [
-                    {
-                        name: 'Vacuumory',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/vacuumory.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [124]
     },
     {
         name: 'Vacuumory',
@@ -16631,19 +14675,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'sobas',
-        evolution: [
-            {
-                description:
-                    'Evolves from Flushback through Fusion with the Mem-o-Vac.',
-                yokais: [
-                    {
-                        name: 'Flushback',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/flushback.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [124]
     },
     {
         name: 'Irewig',
@@ -16688,18 +14720,7 @@ const yokais = [
         weakness: 'water',
         rank: 'd',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description: 'Evolves into Firewig at Level 26.',
-                yokais: [
-                    {
-                        name: 'Firewig',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/firewig.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [125]
     },
     {
         name: 'Firewig',
@@ -16745,18 +14766,7 @@ const yokais = [
         weakness: 'water',
         rank: 'a',
         favouriteFood: 'hamburgers',
-        evolution: [
-            {
-                description: 'Evolves from Irewig at Level 26.',
-                yokais: [
-                    {
-                        name: 'Irewig',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/irewig.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [125]
     },
     {
         name: 'Draggie',
@@ -16806,19 +14816,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'd',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description:
-                    'Evolves into Dragon Lord through fusion with a Dragon Orb.',
-                yokais: [
-                    {
-                        name: 'Dragon Lord',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dragon_lord.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [126]
     },
     {
         name: 'Dragon Lord',
@@ -16863,19 +14861,7 @@ const yokais = [
         weakness: 'wind',
         rank: 's',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description:
-                    'Evolves from Draggie through fusion with a Dragon Orb.',
-                yokais: [
-                    {
-                        name: 'Draggie',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/draggie.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [126]
     },
     {
         name: 'Azure Dragon',
@@ -16971,30 +14957,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'd',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves into Mermadonna through Fusion with a Mermaid Pearl.',
-                yokais: [
-                    {
-                        name: 'Mermadonna',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermadonna.png'
-                    }
-                ]
-            },
-            {
-                description:
-                    'Evolves into Scaremaiden through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Scaremaiden',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/scaremaiden.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [116, 117]
     },
     {
         name: 'Mermadonna',
@@ -17039,19 +15002,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 's',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves from Mermaidyn through Fusion with a Mermaid Pearl.',
-                yokais: [
-                    {
-                        name: 'Mermaidyn',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermaidyn.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [116]
     },
     {
         name: 'Mermother',
@@ -17152,19 +15103,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'c',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves into Wrongnek through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Wrongnek',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/wrongnek.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [119]
     },
     {
         name: 'Daiz',
@@ -19640,19 +17579,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'c',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves from Tublappa through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Tublappa',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/tublappa.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [113]
     },
     {
         name: 'Madmunch',
@@ -19698,19 +17625,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'b',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves from Mudmunch through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Mudmunch',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mudmunch.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [15]
     },
     {
         name: 'Badsmella',
@@ -19756,19 +17671,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'a',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves from Smogmella through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Smogmella',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/smogmella.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [121]
     },
     {
         name: 'Mad Kappa',
@@ -19814,19 +17717,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'a',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description:
-                    'Evolves from Faux Kappa through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Faux Kappa',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/faux_kappa.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [70]
     },
     {
         name: 'Shamasol',
@@ -19872,19 +17763,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'd',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves from Pallysol through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Pallysol',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/pallysol.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [71]
     },
     {
         name: 'Gnomine',
@@ -19930,19 +17809,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'c',
         favouriteFood: 'snacks',
-        evolution: [
-            {
-                description:
-                    'Evolves from Gnomey through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Gnomey',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gnomey.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [82]
     },
     {
         name: 'Defectabull',
@@ -19987,19 +17854,7 @@ const yokais = [
         weakness: 'water',
         rank: 'c',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description:
-                    'Evolves from Predictabull through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Predictabull',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/predictabull.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [85]
     },
     {
         name: 'Feargus',
@@ -20045,19 +17900,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'd',
         favouriteFood: 'rice balls',
-        evolution: [
-            {
-                description:
-                    'Evolves from Furgus through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Furgus',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/furgus.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [104]
     },
     {
         name: 'Scaremaiden',
@@ -20103,19 +17946,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'c',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves from Mermaidyn through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Mermaidyn',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermaidyn.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [117]
     },
     {
         name: 'Wrongnek',
@@ -20160,19 +17991,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'b',
         favouriteFood: 'sweets',
-        evolution: [
-            {
-                description:
-                    'Evolves from Lady Longnek through fusion with Essence of Evil.',
-                yokais: [
-                    {
-                        name: 'Lady Longnek',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/lady_longnek.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [119]
     },
     {
         name: 'Grumpus Khan',
@@ -20306,19 +18125,7 @@ const yokais = [
         weakness: 'water',
         rank: 'd',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description:
-                    'Evolves into Snortlehog through fusion with Goldfish Lantern.',
-                yokais: [
-                    {
-                        name: 'Snortlehog',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/snortlehog.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [8]
     },
     {
         name: 'Snortlehog',
@@ -20364,19 +18171,7 @@ const yokais = [
         weakness: 'water',
         rank: 'b',
         favouriteFood: 'chinese foods',
-        evolution: [
-            {
-                description:
-                    'Evolves from Slumberhog through fusion with Goldfish Lantern.',
-                yokais: [
-                    {
-                        name: 'Slumberhog',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/slumberhog.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [8]
     },
     {
         name: 'Panja Pupil',
@@ -20422,19 +18217,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'd',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description:
-                    "Evolves into Panja Pro through fusion with Master's Lantern.",
-                yokais: [
-                    {
-                        name: 'Panja Pro',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/panja_pro.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [60]
     },
     {
         name: 'Panja Pro',
@@ -20480,19 +18263,7 @@ const yokais = [
         weakness: 'fire',
         rank: 'b',
         favouriteFood: 'sushis',
-        evolution: [
-            {
-                description:
-                    "Evolves from Panja Pupil through fusion with Master's Lantern.",
-                yokais: [
-                    {
-                        name: 'Panja Pupil',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/panja_pupil.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [60]
     },
     {
         name: 'Samureel',
@@ -20538,19 +18309,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'd',
         favouriteFood: 'seafoods',
-        evolution: [
-            {
-                description:
-                    'Evolves into Time Keeler through fusion with Gold Emblem.',
-                yokais: [
-                    {
-                        name: 'Time Keeler',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/time_keeler.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [9]
     },
     {
         name: 'Time Keeler',
@@ -20596,19 +18355,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'b',
         favouriteFood: 'seafoods',
-        evolution: [
-            {
-                description:
-                    'Evolves from Samureel through fusion with Gold Emblem.',
-                yokais: [
-                    {
-                        name: 'Samureel',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/samureel.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [9]
     },
     {
         name: 'Takoyakid',
@@ -20653,19 +18400,7 @@ const yokais = [
         weakness: 'water',
         rank: 'd',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves into Takoyaking through fusion with Takoyaki Tray.',
-                yokais: [
-                    {
-                        name: 'Takoyaking',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/takoyaking.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [113]
     },
     {
         name: 'Takoyaking',
@@ -20710,19 +18445,7 @@ const yokais = [
         weakness: 'water',
         rank: 'b',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves into Takoyakid through fusion with Takoyaki Tray.',
-                yokais: [
-                    {
-                        name: 'Takoyakid',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/takoyakid.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [113]
     },
     {
         name: 'Danke Sand',
@@ -20768,19 +18491,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'd',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves into No Sandkyu through fusion with a Dune Sand.',
-                yokais: [
-                    {
-                        name: 'No Sandkyu',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/no_sandkyu.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [106]
     },
     {
         name: 'No Sandkyu',
@@ -20826,19 +18537,7 @@ const yokais = [
         weakness: 'wind',
         rank: 'b',
         favouriteFood: 'odens',
-        evolution: [
-            {
-                description:
-                    'Evolves from Danke Sand through fusion with a Dune Sand.',
-                yokais: [
-                    {
-                        name: 'Danke Sand',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/danke_sand.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [106]
     },
     {
         name: 'Sumodon',
@@ -20884,19 +18583,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'd',
         favouriteFood: 'sobas',
-        evolution: [
-            {
-                description:
-                    'Evolves into Yokozudon through fusion with a Vintage Parasol.',
-                yokais: [
-                    {
-                        name: 'Yokozudon',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/yokozudon.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [44]
     },
     {
         name: 'Yokozudon',
@@ -20942,19 +18629,7 @@ const yokais = [
         weakness: 'lightning',
         rank: 'b',
         favouriteFood: 'sobas',
-        evolution: [
-            {
-                description:
-                    'Evolves from Sumodon through fusion with a Vintage Parasol.',
-                yokais: [
-                    {
-                        name: 'Sumodon',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/sumodon.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [44]
     },
     {
         name: 'Whateverest',
@@ -21000,19 +18675,7 @@ const yokais = [
         weakness: 'water',
         rank: 'd',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description:
-                    'Evolves into Whatuption through fusion with a Terracota Figure.',
-                yokais: [
-                    {
-                        name: 'Whatuption',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whatuption.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [45]
     },
     {
         name: 'Whatuption',
@@ -21058,19 +18721,7 @@ const yokais = [
         weakness: 'water',
         rank: 'b',
         favouriteFood: 'meats',
-        evolution: [
-            {
-                description:
-                    'Evolves from Whateverest through fusion with a Terracota Figure.',
-                yokais: [
-                    {
-                        name: 'Whateverest',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/whateverest.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [45]
     },
     {
         name: 'Happycane',
@@ -21116,19 +18767,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'd',
         favouriteFood: 'candies',
-        evolution: [
-            {
-                description:
-                    'Evolves into Starrycane through fusion with a Bright Red Hibiscus.',
-                yokais: [
-                    {
-                        name: 'Starrycane',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/starrycane.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [79]
     },
     {
         name: 'Starrycane',
@@ -21174,19 +18813,7 @@ const yokais = [
         weakness: 'ice',
         rank: 'b',
         favouriteFood: 'candies',
-        evolution: [
-            {
-                description:
-                    'Evolves from Happycane through fusion with a Bright Red Hibiscus.',
-                yokais: [
-                    {
-                        name: 'Happycane',
-                        image:
-                            'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/happycane.png'
-                    }
-                ]
-            }
-        ]
+        evolutionIndexes: [79]
     },
     {
         name: 'Gutsy Bones',

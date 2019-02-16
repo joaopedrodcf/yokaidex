@@ -1,7 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Column, Container, Row, SpecialDiv } from './style';
-import { elements, foods, ranks, tribes } from '../../mocks';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+    Column,
+    Container,
+    Row,
+    SpecialDiv,
+    ContainerEvolutions
+} from './style';
+import { elements, foods, ranks, tribes, evolutions } from '../../mocks';
 import Image from '../shared/image';
 import SideTable from '../shared/side-table';
 import Table from '../shared/table';
@@ -17,13 +24,13 @@ const Card = ({
     yokaiNumber,
     favouriteFood,
     stats,
-    evolution,
     locations,
     skill,
     attack,
     technique,
     soultime,
-    inspirit
+    inspirit,
+    evolutionIndexes
 }) => (
     <Container>
         <h2>{name}</h2>
@@ -67,29 +74,181 @@ const Card = ({
                     color={utils.getColor(tribes, tribe)}
                 />
 
-                {evolution && (
+                {evolutionIndexes && (
                     <Table
                         headers={['Evolution']}
                         color={utils.getColor(tribes, tribe)}
                     >
-                        {evolution.map(evo => (
-                            <Row>
-                                <Column>
+                        {utils
+                            .getEvolution(evolutions, evolutionIndexes)
+                            .filter(evo => evo.type === 'level')
+                            .map(evo => (
+                                <ContainerEvolutions>
                                     <Row>
-                                        {evo.yokais.map(yk => (
-                                            <Link to={`/yokai/${yk.name}`}>
+                                        <Column>
+                                            <Link
+                                                to={`/yokai/${
+                                                    evo.yokais[0].name
+                                                }`}
+                                            >
                                                 <Image
-                                                    imageUrl={yk.image}
+                                                    imageUrl={
+                                                        evo.yokais[0].image
+                                                    }
                                                     altText=""
                                                     size="medium"
                                                 />
+                                                {evo.yokais[0].name}
                                             </Link>
-                                        ))}
+                                        </Column>
+                                        <Column>
+                                            <FontAwesomeIcon icon="arrow-right" />
+                                            Level {evo.level}
+                                        </Column>
+                                        <Column>
+                                            <Link
+                                                to={`/yokai/${
+                                                    evo.yokais[1].name
+                                                }`}
+                                            >
+                                                <Image
+                                                    imageUrl={
+                                                        evo.yokais[1].image
+                                                    }
+                                                    altText=""
+                                                    size="medium"
+                                                />
+                                                {evo.yokais[1].name}
+                                            </Link>
+                                        </Column>
                                     </Row>
-                                    {evo.description}
-                                </Column>
-                            </Row>
-                        ))}
+                                </ContainerEvolutions>
+                            ))}
+
+                        {utils
+                            .getEvolution(evolutions, evolutionIndexes)
+                            .filter(
+                                evo => evo.type === 'fusion' && !evo.withItems
+                            )
+                            .map(evo => (
+                                <ContainerEvolutions>
+                                    <Row>
+                                        <Column>
+                                            <Link
+                                                to={`/yokai/${
+                                                    evo.yokais[0].name
+                                                }`}
+                                            >
+                                                <Image
+                                                    imageUrl={
+                                                        evo.yokais[0].image
+                                                    }
+                                                    altText=""
+                                                    size="medium"
+                                                />
+                                                {evo.yokais[0].name}
+                                            </Link>
+                                        </Column>
+                                        <Column>
+                                            <FontAwesomeIcon icon="plus" />
+                                        </Column>
+                                        <Column>
+                                            <Link
+                                                to={`/yokai/${
+                                                    evo.yokais[1].name
+                                                }`}
+                                            >
+                                                <Image
+                                                    imageUrl={
+                                                        evo.yokais[1].image
+                                                    }
+                                                    altText=""
+                                                    size="medium"
+                                                />
+                                                {evo.yokais[1].name}
+                                            </Link>
+                                        </Column>
+                                        <Column>
+                                            <FontAwesomeIcon icon="equals" />
+                                        </Column>
+                                        <Column>
+                                            <Link
+                                                to={`/yokai/${
+                                                    evo.yokais[2].name
+                                                }`}
+                                            >
+                                                <Image
+                                                    imageUrl={
+                                                        evo.yokais[2].image
+                                                    }
+                                                    altText=""
+                                                    size="medium"
+                                                />
+                                                {evo.yokais[2].name}
+                                            </Link>
+                                        </Column>
+                                    </Row>
+                                </ContainerEvolutions>
+                            ))}
+
+                        {utils
+                            .getEvolution(evolutions, evolutionIndexes)
+                            .filter(
+                                evo => evo.type === 'fusion' && evo.withItems
+                            )
+                            .map(evo => (
+                                <ContainerEvolutions>
+                                    <Row>
+                                        <Column>
+                                            <Link
+                                                to={`/yokai/${
+                                                    evo.yokais[0].name
+                                                }`}
+                                            >
+                                                <Image
+                                                    imageUrl={
+                                                        evo.yokais[0].image
+                                                    }
+                                                    altText=""
+                                                    size="medium"
+                                                />
+                                                {evo.yokais[0].name}
+                                            </Link>
+                                        </Column>
+                                        <Column>
+                                            <FontAwesomeIcon icon="plus" />
+                                        </Column>
+                                        <Column>
+                                            <Image
+                                                imageUrl={evo.item.image}
+                                                altText=""
+                                                size="medium"
+                                            />
+                                            {evo.item.name}
+                                        </Column>
+                                        <Column>
+                                            <FontAwesomeIcon icon="equals" />
+                                        </Column>
+                                        <Column>
+                                            <Link
+                                                to={`/yokai/${
+                                                    evo.yokais[1].name
+                                                }`}
+                                            >
+                                                <Image
+                                                    imageUrl={
+                                                        evo.yokais[1].image
+                                                    }
+                                                    altText=""
+                                                    size="medium"
+                                                />
+
+                                                {evo.yokais[1].name}
+                                            </Link>
+                                        </Column>
+                                    </Row>
+                                </ContainerEvolutions>
+                            ))}
                     </Table>
                 )}
 

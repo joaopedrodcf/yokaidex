@@ -20,4 +20,19 @@ const getImage = (types, wantedType) => {
     return typeRow ? typeRow.image : '';
 };
 
-export default { getColor, getGradientColor, getImage };
+const getEvolution = (evolutions, evolutionIndexes) => {
+    if (evolutionIndexes === undefined) {
+        return;
+    }
+
+    const evolutionsArray = [];
+
+    evolutionIndexes.forEach(evo => {
+        evolutionsArray.push(evolutions[evo]);
+    });
+
+    // eslint-disable-next-line
+    return evolutionsArray;
+};
+
+export default { getColor, getGradientColor, getImage, getEvolution };
