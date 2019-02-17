@@ -6,7 +6,7 @@ const Image = ({ imageUrl, altText, size, isThumbnail, isToLazyLoad }) => (
         {isToLazyLoad ? (
             <SCLazyLoad
                 size={size}
-                offsetBottom={500}
+                offset={500}
                 throttle={250}
                 debounce={false}
             >

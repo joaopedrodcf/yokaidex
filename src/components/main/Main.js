@@ -37,7 +37,9 @@ class Main extends Component {
             sort: '',
             orderAsc: true,
             yokais: yokaisGame1,
-            isCollapsed: true
+            isCollapsed: true,
+            pageNumber: 0,
+            yokaisToShow: 50
         };
 
         this.handleCheckbox = this.handleCheckbox.bind(this);
@@ -46,6 +48,7 @@ class Main extends Component {
         this.handleResetFilter = this.handleResetFilter.bind(this);
         this.handleCollapse = this.handleCollapse.bind(this);
         this.handleFormSubmit = this.handleFormSubmit.bind(this);
+        this.handleScroll = this.handleScroll.bind(this);
     }
 
     componentDidMount() {
@@ -64,7 +67,13 @@ class Main extends Component {
                 break;
         }
 
+        document.addEventListener('scroll', this.handleScroll);
+
         this.setState({ yokais });
+    }
+
+    componentWillUnmount() {
+        document.removeEventListener('scroll', this.handleScroll);
     }
 
     goTo(name, tribe) {
@@ -118,6 +127,15 @@ class Main extends Component {
         event.preventDefault();
     }
 
+    handleScroll() {
+        const scrollTopHalfSize = 3000;
+        const { pageNumber } = this.state;
+
+        if (window.pageYOffset > scrollTopHalfSize * (pageNumber + 1)) {
+            this.setState({ pageNumber: pageNumber + 1 });
+        }
+    }
+
     render() {
         const {
             tribe,
@@ -127,7 +145,9 @@ class Main extends Component {
             sort,
             orderAsc,
             yokais,
-            isCollapsed
+            isCollapsed,
+            pageNumber,
+            yokaisToShow
         } = this.state;
         const tribesCheckbox = [
             'Brave',
@@ -370,6 +390,7 @@ class Main extends Component {
 
                                     return aux;
                                 })
+                                .slice(0, (pageNumber + 1) * yokaisToShow)
                                 .map(yokai => (
                                     <tr
                                         key={yokai.name + yokai.tribe}

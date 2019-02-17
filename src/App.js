@@ -43,7 +43,15 @@ class App extends Component {
                     sidebar={sidebar}
                     open={sidebarOpen}
                     onSetOpen={this.onSetSidebarOpen}
-                    styles={{ sidebar: { background: 'white' } }}
+                    styles={{
+                        sidebar: { background: 'white' },
+                        root: {
+                            overflow: 'initial'
+                        },
+                        content: {
+                            overflowY: 'initial'
+                        }
+                    }}
                 >
                     <Header onSetSidebarOpen={this.onSetSidebarOpen} />
                     <Routes
