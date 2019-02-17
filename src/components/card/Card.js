@@ -82,8 +82,8 @@ const Card = ({
                         {utils
                             .getEvolution(evolutions, evolutionIndexes)
                             .filter(evo => evo.type === 'level')
-                            .map(evo => (
-                                <ContainerEvolutions>
+                            .map((evo, index) => (
+                                <ContainerEvolutions key={index}>
                                     <Row>
                                         <Column>
                                             <Link
