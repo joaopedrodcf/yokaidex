@@ -25,6 +25,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 import { HashRouter } from 'react-router-dom';
+import ReactGA from 'react-ga';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
 
@@ -52,6 +53,9 @@ library.add(
     faPlus,
     faEquals
 );
+
+ReactGA.initialize('UA-134596491-1');
+ReactGA.set({ anonymizeIp: true });
 
 ReactDOM.render(
     <HashRouter>
