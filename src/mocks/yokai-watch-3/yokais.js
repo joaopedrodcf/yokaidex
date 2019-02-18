@@ -12114,7 +12114,7 @@ const yokais = [
         weakness: 'water',
         rank: 'd',
         favouriteFood: 'soft creams',
-        evolutionIndexes: [65]
+        evolutionIndexes: [129]
     },
     {
         name: 'Komane',
@@ -12163,7 +12163,7 @@ const yokais = [
         weakness: 'water',
         rank: 'a',
         favouriteFood: 'soft creams',
-        evolutionIndexes: [65]
+        evolutionIndexes: [129]
     },
     {
         name: 'Komasan B',
@@ -12401,7 +12401,8 @@ const yokais = [
         element: 'lightning',
         weakness: 'earth',
         rank: 'd',
-        favouriteFood: 'milks'
+        favouriteFood: 'milks',
+        evolutionIndexes: [130]
     },
     {
         name: 'Komiger',
@@ -12449,7 +12450,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'milks',
-        evolutionIndexes: [66]
+        evolutionIndexes: [130]
     },
     {
         name: 'Komajiro S',
@@ -15337,7 +15338,7 @@ const yokais = [
         yokaiNumber: '319',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/supersize_g..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/supersize_gramps.png',
         description:
             "This gluttonous Yo-kai has twice the appetite of Hungramps! He's been known to eat restaurants out of business!\u3000",
         locations: ['Fusion.'],

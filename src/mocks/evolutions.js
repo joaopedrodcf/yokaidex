@@ -2572,6 +2572,84 @@ const evolutions = [
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/dragon_lord.png'
             }
         ]
+    },
+    {
+        index: 127,
+        type: 'level',
+        level: '33',
+        yokais: [
+            {
+                name: 'Komasan',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komasan.png'
+            },
+            {
+                name: 'Komane',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komane.png'
+            }
+        ]
+    },
+    {
+        index: 128,
+        type: 'level',
+        level: '33',
+        yokais: [
+            {
+                name: 'Komajiro',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komajiro.png'
+            },
+            {
+                name: 'Komiger',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komiger.png'
+            }
+        ]
+    },
+    {
+        index: 129,
+        type: 'fusion',
+        withItems: true,
+        item: {
+            name: 'Swirly Soul',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/swirly_soul.png'
+        },
+        yokais: [
+            {
+                name: 'Komasan',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komasan.png'
+            },
+            {
+                name: 'Komane',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komane.png'
+            }
+        ]
+    },
+    {
+        index: 130,
+        type: 'fusion',
+        withItems: true,
+        item: {
+            name: 'Swirly Soul',
+            image:
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/swirly_soul.png'
+        },
+        yokais: [
+            {
+                name: 'Komajiro',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komajiro.png'
+            },
+            {
+                name: 'Komiger',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/komiger.png'
+            }
+        ]
     }
 ];
 
