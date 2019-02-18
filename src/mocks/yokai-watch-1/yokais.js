@@ -4626,7 +4626,7 @@ const yokais = [
         weakness: 'water',
         rank: 'd',
         favouriteFood: 'milks',
-        evolutionIndexes: [65]
+        evolutionIndexes: [127]
     },
     {
         name: 'Komane',
@@ -4672,7 +4672,7 @@ const yokais = [
         weakness: 'water',
         rank: 'a',
         favouriteFood: 'milks',
-        evolutionIndexes: [65]
+        evolutionIndexes: [127]
     },
     {
         name: 'Komajiro',
@@ -4720,7 +4720,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'd',
         favouriteFood: 'milks',
-        evolutionIndexes: [66]
+        evolutionIndexes: [128]
     },
     {
         name: 'Komiger',
@@ -4766,7 +4766,7 @@ const yokais = [
         weakness: 'earth',
         rank: 'a',
         favouriteFood: 'milks',
-        evolutionIndexes: [66]
+        evolutionIndexes: [128]
     },
     {
         name: 'Baku',
