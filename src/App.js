@@ -44,7 +44,7 @@ class App extends Component {
                     open={sidebarOpen}
                     onSetOpen={this.onSetSidebarOpen}
                     styles={{
-                        sidebar: { background: 'white' },
+                        sidebar: { background: 'white', position: 'fixed' },
                         root: {
                             overflow: 'initial'
                         },
