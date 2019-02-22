@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.yokaidex",
+            "sha256_cert_fingerprints": [
+                "43:83:46:EB:8E:6C:45:22:FF:E0:C7:4D:CD:85:8B:8D:3E:88:E9:D2:E9:03:B8:00:0B:8D:24:92:1B:FF:44:96"
+            ]
+        }
+    }
+]
