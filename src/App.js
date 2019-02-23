@@ -20,8 +20,10 @@ class App extends Component {
         this.changeGameVersion = this.changeGameVersion.bind(this);
     }
 
-    onSetSidebarOpen(open) {
-        this.setState({ sidebarOpen: open });
+    onSetSidebarOpen() {
+        const { sidebarOpen } = this.state;
+
+        this.setState({ sidebarOpen: !sidebarOpen });
     }
 
     changeGameVersion(gameVersion) {
