@@ -485,4 +485,6 @@ const fish = [
 		sell: '',
 		rareSell: ''
 	}
-]
+];
+
+export default fish;
