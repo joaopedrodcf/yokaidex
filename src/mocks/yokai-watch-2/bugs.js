@@ -192,11 +192,9 @@ const bugs = [
   {
     name: 'Miyama Stag (YW2)',
     location: 'It\'s most likely somewhere in the trees in Harrisville.',
-    description: 'A surprisingly delicate beetle that can'
-    t stand the heat.
-    ', sell:'
-    34 ', rareSell:'
-    '
+    description: 'A surprisingly delicate beetle that can\'t stand the heat.', 
+	  sell:'34 ', 
+	  rareSell:''
   },
   {
     name: 'Mole Cricket (YW2)',
@@ -208,20 +206,16 @@ const bugs = [
   {
     name: 'Peacock Butterfly (YW2)',
     location: 'It\'s most likely somewhere in the bushes in Harrisville.',
-    description: 'A butterfly with wings as black as a crow'
-    s feathers.
-    ', sell:'
-    40 ', rareSell:'
-    '
+    description: 'A butterfly with wings as black as a crow\'s feathers.', 
+	  sell:'40', 
+	  rareSell:''
   },
   {
     name: 'Pond Snail (YW2)',
     location: 'It\'s most likely somewhere in the paddy fields in Harrisville.',
-    description: 'An edible shallow-water snail. Don'
-    t eat it raw...seriously.
-    ', sell:'
-    10 ', rareSell:'
-    '
+    description: 'An edible shallow-water snail. Don\'t eat it raw...seriously.', 
+	  sell:'10', 
+	  rareSell:''
   },
   {
     name: 'Praying Mantis (YW2)',
@@ -289,12 +283,9 @@ const bugs = [
   {
     name: 'Tadpole Shrimp (YW2)',
     location: 'It\'s most likely somewhere in the paddy fields in Harrisville.',
-    description: 'Described as a living fossil, this shrimp hasn'
-    t changed
-    for eons.
-    ', sell:'
-    5 ', rareSell:'
-    '
+    description: 'Described as a living fossil, this shrimp hasn\'t changed for eons.', 
+	  sell:'5', 
+	  rareSell:''
   },
   {
     name: 'Toad (YW2)',
