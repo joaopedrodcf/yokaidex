@@ -134,4 +134,6 @@ const fish = [
 		sell: '0.90',
 		rareSell: '1.80'
 	}
-]
+];
+
+export default fish;
