@@ -120,4 +120,6 @@ const bugs = [
 	{
 		name:'Swallowtail (YW1)', location:'Found sometimes in the trees around town. Easier to find during the day.', description:'', sell:'1.41', rareSell:'2.82'
 	}
-]
+];
+
+export default bugs;
