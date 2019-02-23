@@ -184,4 +184,6 @@ const baffleboards = [
 		solution: "Elder Bloom",
 		effect: "Makes cherry trees bloom."
 	}
-]
+];
+
+export default baffleboards;
