@@ -17,13 +17,19 @@ const getHeader = () => {
 const Header = ({ onSetSidebarOpen }) => (
     <Container>
         {document.location.hash.match('yokai') ? (
-            <Link to="/home">
-                <FontAwesomeIcon icon="arrow-left" />
-            </Link>
+            <div>
+                <Link to="/home">
+                    <FontAwesomeIcon icon="arrow-left" />
+                </Link>
+            </div>
         ) : (
-            <FontAwesomeIcon icon="bars" onClick={onSetSidebarOpen} />
+            <div>
+                <FontAwesomeIcon icon="bars" onClick={onSetSidebarOpen} />
+            </div>
         )}
-        <h5>{getHeader()}</h5>
+        <div>
+            <h5>{getHeader()}</h5>
+        </div>
     </Container>
 );
 
