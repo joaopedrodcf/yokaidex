@@ -23,4 +23,6 @@ const baffleboards = [
 		solution: " Peckpocket",
 		effect: ""
 	}
-]
+];
+
+export default baffleboards;
