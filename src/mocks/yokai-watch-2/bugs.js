@@ -686,4 +686,6 @@ const bugs = [
     sell: '15',
     rareSell: ''
   }
-]
+];
+
+export default bugs;
