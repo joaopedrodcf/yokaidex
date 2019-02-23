@@ -362,9 +362,7 @@ const bugs = [
   {
     name: '★Asian Cicada (YW2)',
     location: 'It\'s most likely somewhere in the trees in Mount Wildwood.',
-    description: 'This cicada'
-    s so big,
-    you 'll need to grab it with both hands.',
+    description: 'This cicada\'s so big,you\'ll need to grab it with both hands.',
     sell: '205',
     rareSell: ''
   },
@@ -469,12 +467,9 @@ const bugs = [
   {
     name: '★Giant Stag (YW2)',
     location: 'It\'s most likely somewhere in the trees in Harrisville.',
-    description: 'Those mighty mandibles can seize any foe and won'
-    t
-    let go.
-    ', sell:'
-    110 ', rareSell:'
-    '
+    description: 'Those mighty mandibles can seize any foe and won\'t let go.', 
+	sell: '110', 
+	  rareSell: ''
   },
   {
     name: '★Grass Lizard (YW2)',
