@@ -12,6 +12,9 @@ const Sidebar = () => (
             <Link to="/">
                 <h5>Change game version</h5>
             </Link>
+            <Link to="/baffle-board">
+                <h5>Baffle board</h5>
+            </Link>
         </Container>
     </SCSidebar>
 );

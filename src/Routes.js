@@ -8,6 +8,9 @@ import VersionSelect from './components/version-select';
 import yokaisGame1 from './mocks/yokai-watch-1/yokais';
 import yokaisGame2 from './mocks/yokai-watch-2/yokais';
 import yokaisGame3 from './mocks/yokai-watch-3/yokais';
+import BaffleBoard from './components/baffle-board';
+import baffleBoardYW2 from './mocks/yokai-watch-2/baffle-boards';
+import baffleBoardYW3 from './mocks/yokai-watch-3/baffle-boards';
 
 const history = createHistory();
 history.listen(location => {
@@ -42,6 +45,14 @@ const getYokai = (name, version) => {
     return yokais.find(yokai => yokai.name === name);
 };
 
+const getBaffleBoard = gameVersion => {
+    if (gameVersion === '2') {
+        return baffleBoardYW2;
+    }
+
+    return baffleBoardYW3;
+};
+
 class Routes extends Component {
     componentDidMount() {
         const page = window.location.hash.replace('#', '');
@@ -63,6 +74,15 @@ class Routes extends Component {
                     path="/"
                     render={() => (
                         <VersionSelect changeGameVersion={changeGameVersion} />
+                    )}
+                />
+                <Route
+                    exact
+                    path="/baffle-board"
+                    render={() => (
+                        <BaffleBoard
+                            baffleBoard={getBaffleBoard(gameVersion)}
+                        />
                     )}
                 />
                 <Route
