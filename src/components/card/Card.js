@@ -71,6 +71,7 @@ const Card = ({
                             size: 'special'
                         }
                     ]}
+                    rows={[favouriteFood]}
                     color={utils.getColor(tribes, tribe)}
                 />
 
