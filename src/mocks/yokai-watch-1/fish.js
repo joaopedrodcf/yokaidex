@@ -1,9 +1,9 @@
 const fish = [
 	{
 		name: 'Beakfish (YW1)',
-		location': 'Can be fished rarely during the day at Rolling Waves Park Beach after acquiring the Fishing Rod in Chapter 5.',
-		time': '',
-		rarity': '',
+		location: 'Can be fished rarely during the day at Rolling Waves Park Beach after acquiring the Fishing Rod in Chapter 5.',
+		time: '',
+		rarity: '',
 		buy: '-',
 		sell: '13.80',
 		rareSell: '27.60'
