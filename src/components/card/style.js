@@ -61,24 +61,3 @@ export const SpecialDiv = styled.div`
         padding: 12px 500px;
     }
 `;
-
-export const ContainerEvolutions = styled.div`
-    padding: 12px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    ${Column} {
-        margin: 0 12px;
-        text-align: center;
-    }
-
-    a {
-        color: inherit;
-        text-decoration: inherit;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-`;
