@@ -192,4 +192,6 @@ const baffleboards = [
 		solution: "Miradox",
 		effect: "Takes you back to the past in a very limited area."
 	}
-]
+];
+
+export default baffleboards;
