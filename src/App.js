@@ -8,12 +8,17 @@ import GlobalStyle from './globalStyle';
 
 import SCSidebar from './components/sidebar';
 
+import yokaisGame1 from './mocks/yokai-watch-1/yokais';
+import yokaisGame2 from './mocks/yokai-watch-2/yokais';
+import yokaisGame3 from './mocks/yokai-watch-3/yokais';
+
 class App extends Component {
     constructor(props) {
         super(props);
         this.state = {
             sidebarOpen: false,
-            gameVersion: 3
+            gameVersion: 3,
+            yokais: yokaisGame3
         };
 
         this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
@@ -29,14 +34,29 @@ class App extends Component {
     changeGameVersion(gameVersion) {
         const { history } = this.props;
 
-        this.setState({ gameVersion }, () => {
-            history.push(`/home`);
+        let yokais;
+        switch (gameVersion) {
+            case '1':
+                yokais = yokaisGame1;
+                break;
+            case '2':
+                yokais = yokaisGame2;
+                break;
+            default:
+                yokais = yokaisGame3;
+                break;
+        }
+
+        this.setState({ gameVersion, yokais }, () => {
+            history.push(`/yokai-watch/${gameVersion}`);
         });
     }
 
     render() {
-        const { sidebarOpen, gameVersion } = this.state;
-        const sidebar = <SCSidebar />;
+        const { sidebarOpen, gameVersion, yokais } = this.state;
+        const sidebar = (
+            <SCSidebar changeGameVersion={this.changeGameVersion} />
+        );
 
         return (
             <>
@@ -56,10 +76,7 @@ class App extends Component {
                     }}
                 >
                     <Header onSetSidebarOpen={this.onSetSidebarOpen} />
-                    <Routes
-                        changeGameVersion={this.changeGameVersion}
-                        gameVersion={gameVersion}
-                    />
+                    <Routes gameVersion={gameVersion} yokais={yokais} />
                 </Sidebar>
             </>
         );

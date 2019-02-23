@@ -7,7 +7,7 @@ import { withRouter } from 'react-router';
 import Container from './style';
 
 const getHeader = () => {
-    if (document.location.hash.match('yokai'))
+    if (document.location.hash.match('/yokai/'))
         return document.location.hash
             .split('/')[2]
             .replace('%20', ' ')

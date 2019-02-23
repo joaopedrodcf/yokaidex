@@ -4,7 +4,6 @@ import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
 import Card from './components/card';
 import Main from './components/main';
-import VersionSelect from './components/version-select';
 import yokaisGame1 from './mocks/yokai-watch-1/yokais';
 import yokaisGame2 from './mocks/yokai-watch-2/yokais';
 import yokaisGame3 from './mocks/yokai-watch-3/yokais';
@@ -61,19 +60,21 @@ class Routes extends Component {
     }
 
     render() {
-        const { gameVersion, changeGameVersion } = this.props;
+        const { gameVersion, yokais } = this.props;
         return (
             <Switch>
                 <Route
                     exact
-                    path="/home"
-                    render={() => <Main gameVersion={gameVersion} />}
+                    path="/"
+                    render={() => (
+                        <Main gameVersion={gameVersion} yokais={yokais} />
+                    )}
                 />
                 <Route
                     exact
-                    path="/"
+                    path="/yokai-watch/:version"
                     render={() => (
-                        <VersionSelect changeGameVersion={changeGameVersion} />
+                        <Main gameVersion={gameVersion} yokais={yokais} />
                     )}
                 />
                 <Route

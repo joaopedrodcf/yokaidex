@@ -19,9 +19,6 @@ import Button from '../shared/button';
 import Image from '../shared/image';
 import utils from '../utils';
 import { elements, ranks, tribes } from '../../mocks';
-import yokaisGame1 from '../../mocks/yokai-watch-1/yokais';
-import yokaisGame2 from '../../mocks/yokai-watch-2/yokais';
-import yokaisGame3 from '../../mocks/yokai-watch-3/yokais';
 import Checkbox from '../shared/checkbox';
 import SCInput from '../shared/input';
 
@@ -36,7 +33,6 @@ class Main extends Component {
             name: '',
             sort: '',
             orderAsc: true,
-            yokais: yokaisGame1,
             isCollapsed: true,
             pageNumber: 0,
             yokaisToShow: 50
@@ -52,24 +48,7 @@ class Main extends Component {
     }
 
     componentDidMount() {
-        const { gameVersion } = this.props;
-        let yokais;
-
-        switch (gameVersion) {
-            case '1':
-                yokais = yokaisGame1;
-                break;
-            case '2':
-                yokais = yokaisGame2;
-                break;
-            default:
-                yokais = yokaisGame3;
-                break;
-        }
-
         document.addEventListener('scroll', this.handleScroll);
-
-        this.setState({ yokais });
     }
 
     componentWillUnmount() {
@@ -144,11 +123,11 @@ class Main extends Component {
             name,
             sort,
             orderAsc,
-            yokais,
             isCollapsed,
             pageNumber,
             yokaisToShow
         } = this.state;
+        const { yokais } = this.props;
         const tribesCheckbox = [
             'Brave',
             'Charming',
