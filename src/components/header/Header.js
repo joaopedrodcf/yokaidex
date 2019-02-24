@@ -6,8 +6,8 @@ import { Link } from 'react-router-dom';
 import { withRouter } from 'react-router';
 import Container from './style';
 
-const getHeader = () => {
-    if (document.location.hash.match('/yokai/'))
+const getHeader = gameVersion => {
+    if (document.location.hash.match(`/yokai-watch-${gameVersion}/`))
         return document.location.hash
             .split('/')[2]
             .replace('%20', ' ')
@@ -22,32 +22,37 @@ class Header extends Component {
         super(props);
 
         this.state = {
-            linkTo: '/home'
+            linkTo: '/'
         };
     }
 
     componentWillReceiveProps(nextProps) {
-        const { location } = this.props;
+        const { location, gameVersion } = this.props;
         const locationChanged = nextProps.location !== location;
 
-        if (locationChanged && !location.pathname.match('/yokai/')) {
+        if (
+            locationChanged &&
+            !location.pathname.match(`/yokai-watch-${gameVersion}/`)
+        ) {
             this.setState({
                 linkTo: location.pathname
             });
         } else {
             this.setState({
-                linkTo: '/home'
+                linkTo: '/'
             });
         }
     }
 
     render() {
-        const { onSetSidebarOpen } = this.props;
+        const { onSetSidebarOpen, gameVersion } = this.props;
         const { linkTo } = this.state;
 
         return (
             <Container>
-                {document.location.hash.match('yokai') ? (
+                {document.location.hash.match(
+                    `/yokai-watch-${gameVersion}/`
+                ) ? (
                     <div>
                         <Link to={linkTo}>
                             <FontAwesomeIcon icon="arrow-left" />
@@ -59,7 +64,7 @@ class Header extends Component {
                     </div>
                 )}
                 <div>
-                    <h5>{getHeader()}</h5>
+                    <h5>{getHeader(gameVersion)}</h5>
                 </div>
             </Container>
         );

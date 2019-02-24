@@ -23,7 +23,8 @@ const Card = ({
     technique,
     soultime,
     inspirit,
-    evolutionIndexes
+    evolutionIndexes,
+    gameVersion
 }) => (
     <Container>
         <h2>{name}</h2>
@@ -70,6 +71,7 @@ const Card = ({
 
                 {evolutionIndexes && (
                     <Evolution
+                        gameVersion={gameVersion}
                         evolutionIndexes={evolutionIndexes}
                         tribe={tribe}
                     />

@@ -12,13 +12,43 @@ import yokaisGame1 from './mocks/yokai-watch-1/yokais';
 import yokaisGame2 from './mocks/yokai-watch-2/yokais';
 import yokaisGame3 from './mocks/yokai-watch-3/yokais';
 
+import baffleBoardYW2 from './mocks/yokai-watch-2/baffle-boards';
+import baffleBoardYW3 from './mocks/yokai-watch-3/baffle-boards';
+
+const getBaffleBoard = gameVersion => {
+    switch (gameVersion) {
+        case '2':
+            return baffleBoardYW2;
+        case '3':
+            return baffleBoardYW3;
+        default:
+            return undefined;
+    }
+};
+
+const getYokais = gameVersion => {
+    switch (gameVersion) {
+        case '1':
+            return yokaisGame1;
+        case '2':
+            return yokaisGame2;
+        default:
+            return yokaisGame3;
+    }
+};
+
 class App extends Component {
     constructor(props) {
         super(props);
+
+        const gameVersion =
+            document.location.hash.split('/')[1].split('-')[2] || '3';
+
         this.state = {
             sidebarOpen: false,
-            gameVersion: 3,
-            yokais: yokaisGame3
+            gameVersion,
+            yokais: getYokais(gameVersion),
+            baffleBoard: getBaffleBoard(gameVersion)
         };
 
         this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
@@ -34,28 +64,21 @@ class App extends Component {
     changeGameVersion(gameVersion) {
         const { history } = this.props;
 
-        let yokais;
-        switch (gameVersion) {
-            case '1':
-                yokais = yokaisGame1;
-                break;
-            case '2':
-                yokais = yokaisGame2;
-                break;
-            default:
-                yokais = yokaisGame3;
-                break;
-        }
+        const yokais = getYokais(gameVersion);
+        const baffleBoard = getBaffleBoard(gameVersion);
 
-        this.setState({ gameVersion, yokais }, () => {
-            history.push(`/yokai-watch/${gameVersion}`);
+        this.setState({ gameVersion, yokais, baffleBoard }, () => {
+            history.push(`/yokai-watch-${gameVersion}`);
         });
     }
 
     render() {
-        const { sidebarOpen, gameVersion, yokais } = this.state;
+        const { sidebarOpen, gameVersion, yokais, baffleBoard } = this.state;
         const sidebar = (
-            <SCSidebar changeGameVersion={this.changeGameVersion} />
+            <SCSidebar
+                changeGameVersion={this.changeGameVersion}
+                gameVersion={gameVersion}
+            />
         );
 
         return (
@@ -75,8 +98,15 @@ class App extends Component {
                         }
                     }}
                 >
-                    <Header onSetSidebarOpen={this.onSetSidebarOpen} />
-                    <Routes gameVersion={gameVersion} yokais={yokais} />
+                    <Header
+                        gameVersion={gameVersion}
+                        onSetSidebarOpen={this.onSetSidebarOpen}
+                    />
+                    <Routes
+                        gameVersion={gameVersion}
+                        baffleBoard={baffleBoard}
+                        yokais={yokais}
+                    />
                 </Sidebar>
             </>
         );

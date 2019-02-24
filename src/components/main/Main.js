@@ -56,10 +56,11 @@ class Main extends Component {
     }
 
     goTo(name, tribe) {
+        const { gameVersion } = this.props;
         let nameUrl = name;
         if (tribe === 'boss') nameUrl += `_${tribe}`;
 
-        this.props.history.push(`/yokai/${nameUrl}`);
+        this.props.history.push(`/yokai-watch-${gameVersion}/${nameUrl}`);
     }
 
     handleResetFilter() {
