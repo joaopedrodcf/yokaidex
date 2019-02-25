@@ -1601,7 +1601,7 @@ const yokais = [
         evolutionIndexes: [16]
     },
     {
-        name: 'Gutso Grande',
+        name: 'El Gutso Grande',
         yokaiNumber: '034',
         bossNumber: '000',
         image:

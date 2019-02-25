@@ -329,7 +329,7 @@ const evolutions = [
             {
                 name: 'El Gutso Grande',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/el_gutso_grande.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/gutso_grande.png'
             }
         ]
     },
