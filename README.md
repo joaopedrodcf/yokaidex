@@ -4,7 +4,7 @@ Yokaidex is a progressive web app(PWA) that has lots of information about Yo-kai
 
 ## Website
 
-The website is hosted on GitHub pages 👉 [yokaidex page](https://joaopedrodcf.github.io/yokaidex)
+The website is hosted on GitHub pages 👉 [yokaidex page](https://yokaidex.com)
 
 ## Features
 
