@@ -5305,7 +5305,7 @@ const yokais = [
         element: 'fire',
         weakness: 'water',
         rank: 'c',
-        favouriteFood: 'pizza'
+        favouriteFood: 'pizzas'
     },
     {
         name: 'Skulleidoscope',
@@ -5402,7 +5402,7 @@ const yokais = [
         element: 'fire',
         weakness: 'water',
         rank: 'c',
-        favouriteFood: 'pizza',
+        favouriteFood: 'pizzas',
         evolutionIndexes: [18]
     },
     {
@@ -18663,7 +18663,7 @@ const yokais = [
         element: 'water',
         weakness: 'wind',
         rank: 'e',
-        favouriteFood: 'pizza',
+        favouriteFood: 'pizzas',
         evolutionIndexes: [91]
     },
     {
@@ -18712,7 +18712,7 @@ const yokais = [
         element: 'water',
         weakness: 'wind',
         rank: 'b',
-        favouriteFood: 'pizza',
+        favouriteFood: 'pizzas',
         evolutionIndexes: [91]
     },
     {
@@ -19584,7 +19584,7 @@ const yokais = [
         element: 'drain',
         weakness: 'fire',
         rank: 'd',
-        favouriteFood: 'pizza',
+        favouriteFood: 'pizzas',
         evolutionIndexes: [90]
     },
     {
@@ -19633,7 +19633,7 @@ const yokais = [
         element: 'ice',
         weakness: 'fire',
         rank: 'a',
-        favouriteFood: 'pizza',
+        favouriteFood: 'pizzas',
         evolutionIndexes: [90]
     },
     {
