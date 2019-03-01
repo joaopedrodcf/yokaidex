@@ -9,7 +9,7 @@ import utils from '../utils';
 import Image from '../shared/image';
 import { tribes, evolutions } from '../../mocks';
 
-const Evolution = ({ evolutionIndexes, tribe }) => (
+const Evolution = ({ evolutionIndexes, tribe, gameVersion }) => (
     <Table headers={['Evolution']} color={utils.getColor(tribes, tribe)}>
         {utils
             .getEvolution(evolutions, evolutionIndexes)
@@ -18,7 +18,11 @@ const Evolution = ({ evolutionIndexes, tribe }) => (
                 <ContainerEvolutions key={index}>
                     <Row>
                         <Column>
-                            <Link to={`/yokai/${evo.yokais[0].name}`}>
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/${
+                                    evo.yokais[0].name
+                                }`}
+                            >
                                 <Image
                                     imageUrl={evo.yokais[0].image}
                                     altText=""
@@ -32,7 +36,11 @@ const Evolution = ({ evolutionIndexes, tribe }) => (
                             Level {evo.level}
                         </Column>
                         <Column>
-                            <Link to={`/yokai/${evo.yokais[1].name}`}>
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/${
+                                    evo.yokais[1].name
+                                }`}
+                            >
                                 <Image
                                     imageUrl={evo.yokais[1].image}
                                     altText=""
@@ -52,7 +60,11 @@ const Evolution = ({ evolutionIndexes, tribe }) => (
                 <ContainerEvolutions>
                     <Row>
                         <Column>
-                            <Link to={`/yokai/${evo.yokais[0].name}`}>
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/${
+                                    evo.yokais[0].name
+                                }`}
+                            >
                                 <Image
                                     imageUrl={evo.yokais[0].image}
                                     altText=""
@@ -65,7 +77,11 @@ const Evolution = ({ evolutionIndexes, tribe }) => (
                             <FontAwesomeIcon icon="plus" />
                         </Column>
                         <Column>
-                            <Link to={`/yokai/${evo.yokais[1].name}`}>
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/${
+                                    evo.yokais[1].name
+                                }`}
+                            >
                                 <Image
                                     imageUrl={evo.yokais[1].image}
                                     altText=""
@@ -78,7 +94,11 @@ const Evolution = ({ evolutionIndexes, tribe }) => (
                             <FontAwesomeIcon icon="equals" />
                         </Column>
                         <Column>
-                            <Link to={`/yokai/${evo.yokais[2].name}`}>
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/${
+                                    evo.yokais[2].name
+                                }`}
+                            >
                                 <Image
                                     imageUrl={evo.yokais[2].image}
                                     altText=""
@@ -98,7 +118,11 @@ const Evolution = ({ evolutionIndexes, tribe }) => (
                 <ContainerEvolutions>
                     <Row>
                         <Column>
-                            <Link to={`/yokai/${evo.yokais[0].name}`}>
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/${
+                                    evo.yokais[0].name
+                                }`}
+                            >
                                 <Image
                                     imageUrl={evo.yokais[0].image}
                                     altText=""
@@ -122,7 +146,11 @@ const Evolution = ({ evolutionIndexes, tribe }) => (
                             <FontAwesomeIcon icon="equals" />
                         </Column>
                         <Column>
-                            <Link to={`/yokai/${evo.yokais[1].name}`}>
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/${
+                                    evo.yokais[1].name
+                                }`}
+                            >
                                 <Image
                                     imageUrl={evo.yokais[1].image}
                                     altText=""

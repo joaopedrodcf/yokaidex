@@ -21,7 +21,12 @@ import {
     faFilter,
     faSearch,
     faPlus,
-    faEquals
+    faEquals,
+    faListUl,
+    faHandsHelping,
+    faDragon,
+    faCat,
+    faDog
 } from '@fortawesome/free-solid-svg-icons';
 
 import { HashRouter } from 'react-router-dom';
@@ -51,7 +56,13 @@ library.add(
     faFilter,
     faSearch,
     faPlus,
-    faEquals
+    faEquals,
+    faListUl,
+    faHandsHelping,
+    faDragon,
+    faCat,
+    faDragon,
+    faDog
 );
 
 ReactGA.initialize('UA-134596491-1');
