@@ -113,6 +113,11 @@ const foods = [
         name: 'Hot Dogs',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/hot_dogs.png'
+    },
+    {
+        name: 'Pizzas',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/pizzas.png'
     }
 ];
 

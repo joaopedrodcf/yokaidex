@@ -1,11 +1,26 @@
 import React from 'react';
-import { Column, Container, Row, SpecialDiv } from './style';
+import {
+    Column,
+    Container,
+    Row,
+    SpecialDiv,
+    ProgressBar,
+    Bar,
+    Label,
+    Stats
+} from './style';
 import { elements, foods, ranks, tribes } from '../../mocks';
 import Image from '../shared/image';
 import SideTable from '../shared/side-table';
 import Table from '../shared/table';
 import utils from '../utils';
 import Evolution from '../evolution';
+import maxStats from '../../mocks/max-stats';
+
+const calculatePercentage = (value, max) => {
+    const percentage = (value / max) * 100;
+    return `${percentage}%`;
+};
 
 const Card = ({
     name,
@@ -107,25 +122,32 @@ const Card = ({
                     color="#f06292"
                 />
 
-                <SideTable
-                    headers={['Level', 'HP', 'STR', 'SPR', 'DEF', 'SPD']}
-                    rows={[
-                        60,
-                        stats.hp,
-                        stats.str,
-                        stats.spr,
-                        stats.def,
-                        stats.spd
-                    ]}
-                    colors={[
-                        '#fdd835',
-                        '#f06292',
-                        '#e57373',
-                        '#ba68c8',
-                        '#64b5f6',
-                        '#81c784'
-                    ]}
-                />
+                <Stats>
+                    <Label color={utils.getColor(tribes, tribe)}>
+                        Stats level 60
+                    </Label>
+                    {Object.entries(stats).map(([stat, value]) => (
+                        <ProgressBar key={stat}>
+                            <div>{stat}</div>
+                            <div>{value}</div>
+                            <Bar>
+                                <div
+                                    style={{
+                                        width: calculatePercentage(
+                                            value,
+                                            maxStats.find(
+                                                aux => aux.name === stat
+                                            ).max
+                                        ),
+                                        backgroundColor: maxStats.find(
+                                            aux => aux.name === stat
+                                        ).color
+                                    }}
+                                />
+                            </Bar>
+                        </ProgressBar>
+                    ))}
+                </Stats>
 
                 <Table
                     headers={['Locations']}
