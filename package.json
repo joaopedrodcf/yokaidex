@@ -1,7 +1,7 @@
 {
     "name": "yokaidex",
     "version": "0.1.5",
-    "description": "A PWA with the info from Yokai watch",
+    "description": "Contains all yo-kais from the 3 main games, their locations, stats, favorite foods, skills. You can see also the baffle board solutions.",
     "license": "MIT",
     "homepage": "https://yokaidex.com",
     "author": {

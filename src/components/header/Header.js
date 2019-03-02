@@ -64,7 +64,7 @@ class Header extends Component {
                     </div>
                 )}
                 <div>
-                    <h5>{getHeader(gameVersion)}</h5>
+                    <h1>{getHeader(gameVersion)}</h1>
                 </div>
             </Container>
         );

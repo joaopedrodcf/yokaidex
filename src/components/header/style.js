@@ -17,7 +17,7 @@ const Container = styled.div`
         padding: 12px;
     }
 
-    h5 {
+    h1 {
         letter-spacing: 0;
         font-size: 24px;
         font-weight: 700;
