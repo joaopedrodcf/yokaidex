@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route, Redirect } from 'react-router-dom';
+import { Switch, Route } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
 import Card from './components/card';
@@ -56,7 +56,7 @@ class Routes extends Component {
                 <Route
                     exact
                     path="/"
-                    render={() => <Redirect to="/yokai-watch-3" />}
+                    render={() => <Main gameVersion={3} yokais={yokais} />}
                 />
                 <Route
                     exact
