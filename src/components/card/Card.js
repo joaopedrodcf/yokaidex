@@ -7,11 +7,13 @@ import {
     ProgressBar,
     Bar,
     Label,
-    Stats
+    Sepators,
+    Moves,
+    MovesTitle,
+    MovesText
 } from './style';
 import { elements, foods, ranks, tribes } from '../../mocks';
 import Image from '../shared/image';
-import SideTable from '../shared/side-table';
 import Table from '../shared/table';
 import utils from '../utils';
 import Evolution from '../evolution';
@@ -92,40 +94,77 @@ const Card = ({
                     />
                 )}
 
-                <SideTable
-                    headers={['Skill', 'Description']}
-                    rows={[skill.name, skill.description]}
-                    color="#ba68c8"
-                />
+                <Sepators>
+                    <Label color={utils.getColor(tribes, tribe)}>Moves</Label>
+                    <Moves color="#e1bee7">
+                        <div>
+                            <MovesTitle color="#7b1fa2">Skill</MovesTitle>
+                            <MovesText bold>{skill.name}</MovesText>
+                            <MovesText>{skill.description}</MovesText>
+                        </div>
+                    </Moves>
+                    <Moves color="#fff176">
+                        <div>
+                            <MovesTitle color="#f57f17">Attack</MovesTitle>
+                            <MovesText bold>{attack.name}</MovesText>
+                        </div>
+                        <MovesText>
+                            <Image
+                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/attack.png"
+                                altText="attack"
+                                size="small"
+                            />
+                            {attack.power}
+                        </MovesText>
+                    </Moves>
+                    <Moves color="#b3e5fc">
+                        <div>
+                            <MovesTitle color="#0277bd">Technique</MovesTitle>
+                            <MovesText bold>{technique.name}</MovesText>
+                        </div>
+                        <MovesText>
+                            <Image
+                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/technique.png"
+                                altText="attack"
+                                size="small"
+                            />
+                            {technique.power}
+                        </MovesText>
+                    </Moves>
+                    <Moves color="#ef9a9a">
+                        <div>
+                            <MovesTitle color="#c62828">Soultime</MovesTitle>
+                            <MovesText bold>{soultime.name}</MovesText>
+                            <MovesText>{soultime.description}</MovesText>
+                        </div>
+                        <MovesText>
+                            <Image
+                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/soultime.png"
+                                altText="attack"
+                                size="small"
+                            />
+                            {soultime.power}
+                        </MovesText>
+                    </Moves>
+                    <Moves color="#f8bbd0">
+                        <div>
+                            <MovesTitle color="#d81b60">Inspirit</MovesTitle>
+                            <MovesText bold>{inspirit.name}</MovesText>
+                            <MovesText>{inspirit.description}</MovesText>
+                        </div>
+                        <MovesText>
+                            <Image
+                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/inspirit.png"
+                                altText="attack"
+                                size="small"
+                            />
+                            {inspirit.power}
+                        </MovesText>
+                    </Moves>
+                </Sepators>
 
-                <SideTable
-                    headers={['Attack', 'Power']}
-                    rows={[attack.name, attack.power]}
-                    color="#fff176"
-                />
-
-                <SideTable
-                    headers={['Technique', 'Power']}
-                    rows={[technique.name, technique.power]}
-                    color="#64b5f6"
-                />
-
-                <SideTable
-                    headers={['Soultime', 'Power', 'Description']}
-                    rows={[soultime.name, soultime.power, soultime.description]}
-                    color="#e57373"
-                />
-
-                <SideTable
-                    headers={['Inspirit', 'Power', 'Description']}
-                    rows={[inspirit.name, inspirit.power, inspirit.description]}
-                    color="#f06292"
-                />
-
-                <Stats>
-                    <Label color={utils.getColor(tribes, tribe)}>
-                        Stats level 60
-                    </Label>
+                <Sepators>
+                    <Label color={utils.getColor(tribes, tribe)}>Stats</Label>
                     {Object.entries(stats).map(([stat, value]) => (
                         <ProgressBar key={stat}>
                             <div>{stat}</div>
@@ -147,7 +186,7 @@ const Card = ({
                             </Bar>
                         </ProgressBar>
                     ))}
-                </Stats>
+                </Sepators>
 
                 <Table
                     headers={['Locations']}
