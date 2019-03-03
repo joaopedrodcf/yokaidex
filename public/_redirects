@@ -1,2 +1,5 @@
+# Redirecting All Traffic with Netlify
+/* /index.html 200
+
 # Redirect default Netlify subdomain to primary domain
-https://yokaidex.netlify.com/* https://www.yokaidex.com 301!
+https://yokaidex.netlify.com/* https://yokaidex.com/:splat 301!
