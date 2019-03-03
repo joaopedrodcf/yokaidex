@@ -62,11 +62,12 @@ export const SpecialDiv = styled.div`
     }
 `;
 
-export const Stats = styled.div`
+export const Sepators = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
     align-items: flex-start;
+    margin: 12px 0;
 `;
 
 export const Label = styled.div`
@@ -110,5 +111,59 @@ export const Bar = styled.div`
     div {
         border-radius: 12px;
         height: 10px;
+    }
+`;
+
+export const Moves = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 12px 12px;
+    justify-content: space-between;
+    border-radius: 12px;
+    align-items: flex-end;
+    position: relative;
+
+    > div:nth-child(1) {
+        width: 75%;
+        text-align: start;
+    }
+
+    > div:nth-child(2) {
+        width: 25%;
+        text-align: end;
+    }
+
+    background-color: ${props => {
+        if (props.color) return props.color;
+
+        return '';
+    }};
+
+    margin-bottom: 8px;
+`;
+
+export const MovesTitle = styled.div`
+    color: ${props => {
+        if (props.color) return props.color;
+
+        return '';
+    }};
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 12px;
+`;
+
+export const MovesText = styled.div`
+    font-weight: ${props => {
+        if (props.bold) return 600;
+
+        return '';
+    }};
+
+    img {
+        position: absolute;
+        top: 6px;
+        right: 6px;
     }
 `;
