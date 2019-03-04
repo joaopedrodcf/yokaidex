@@ -87,11 +87,16 @@ const Card = ({
                 />
 
                 {evolutionIndexes && (
-                    <Evolution
-                        gameVersion={gameVersion}
-                        evolutionIndexes={evolutionIndexes}
-                        tribe={tribe}
-                    />
+                    <Sepators>
+                        <Label color={utils.getColor(tribes, tribe)}>
+                            Evolution
+                        </Label>
+                        <Evolution
+                            gameVersion={gameVersion}
+                            evolutionIndexes={evolutionIndexes}
+                            tribe={tribe}
+                        />
+                    </Sepators>
                 )}
 
                 <Sepators>
