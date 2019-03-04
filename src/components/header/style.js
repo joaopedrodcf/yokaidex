@@ -6,8 +6,8 @@ const Container = styled.div`
     width: 100%;
     z-index: 1;
     color: #000000;
-    box-shadow: 0 12px 17px 2px rgba(0, 0, 0, 0.14),
-        0 5px 22px 4px rgba(0, 0, 0, 0.12), 0 7px 8px -4px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+
     font-size: 24px;
     display: flex;
     align-items: center;
@@ -18,8 +18,8 @@ const Container = styled.div`
     }
 
     h1 {
-        letter-spacing: 0;
-        font-size: 24px;
+        font-size: 28px;
+        letter-spacing: 4px;
         font-weight: 700;
     }
 

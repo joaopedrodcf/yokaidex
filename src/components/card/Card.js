@@ -44,7 +44,6 @@ const Card = ({
     gameVersion
 }) => (
     <Container>
-        <h2>{name}</h2>
         <Image imageUrl={image} altText={name} size="large" />
         <h2>{yokaiNumber}</h2>
         <SpecialDiv>
