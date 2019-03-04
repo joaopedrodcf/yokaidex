@@ -81,6 +81,7 @@ export const Label = styled.div`
     padding: 8px 25px;
     font-weight: 600;
     margin-bottom: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 `;
 
 export const ProgressBar = styled.div`
