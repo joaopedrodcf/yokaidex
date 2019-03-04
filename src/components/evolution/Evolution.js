@@ -4,13 +4,12 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Row, Column, ContainerEvolutions } from './style';
 
-import Table from '../shared/table';
 import utils from '../utils';
 import Image from '../shared/image';
-import { tribes, evolutions } from '../../mocks';
+import { evolutions } from '../../mocks';
 
-const Evolution = ({ evolutionIndexes, tribe, gameVersion }) => (
-    <Table headers={['Evolution']} color={utils.getColor(tribes, tribe)}>
+const Evolution = ({ evolutionIndexes, gameVersion }) => (
+    <>
         {utils
             .getEvolution(evolutions, evolutionIndexes)
             .filter(evo => evo.type === 'level')
@@ -163,7 +162,7 @@ const Evolution = ({ evolutionIndexes, tribe, gameVersion }) => (
                     </Row>
                 </ContainerEvolutions>
             ))}
-    </Table>
+    </>
 );
 
 export default Evolution;

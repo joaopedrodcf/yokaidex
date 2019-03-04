@@ -19,6 +19,7 @@ export const ContainerEvolutions = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
     ${Column} {
         margin: 0 12px;
