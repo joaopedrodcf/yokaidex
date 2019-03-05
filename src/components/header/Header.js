@@ -26,14 +26,10 @@ class Header extends Component {
         };
     }
 
-    componentWillReceiveProps(nextProps) {
-        const { location, gameVersion } = this.props;
-        const locationChanged = nextProps.location !== location;
+    componentWillReceiveProps() {
+        const { gameVersion } = this.props;
 
-        if (
-            locationChanged &&
-            document.location.hash.match(`/yokai-watch-${gameVersion}/`)
-        ) {
+        if (document.location.hash.match(`/yokai-watch-${gameVersion}/`)) {
             this.setState({
                 linkTo: `/yokai-watch-${gameVersion}`
             });
