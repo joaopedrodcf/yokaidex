@@ -1,20 +1,22 @@
 import React from 'react';
 import {
-    Column,
     Container,
-    Row,
     SpecialDiv,
     ProgressBar,
     Bar,
     Label,
-    Sepators,
+    Sections,
     Moves,
     MovesTitle,
-    MovesText
+    MovesText,
+    STable,
+    STableTitle,
+    STableText,
+    SLabel,
+    SLabelText
 } from './style';
 import { elements, foods, ranks, tribes } from '../../mocks';
 import Image from '../shared/image';
-import Table from '../shared/table';
 import utils from '../utils';
 import Evolution from '../evolution';
 import maxStats from '../../mocks/max-stats';
@@ -45,48 +47,82 @@ const Card = ({
 }) => (
     <Container>
         <Image imageUrl={image} altText={name} size="large" />
-        <h2>{yokaiNumber}</h2>
         <SpecialDiv>
-            <Image
-                imageUrl={utils.getImage(tribes, tribe)}
-                altText={tribe}
-                size="small"
-            />
+            <h2>#{yokaiNumber}</h2>
             <Image
                 imageUrl={utils.getImage(ranks, rank)}
                 altText={rank}
                 size="small"
             />
-            <Image
-                imageUrl={utils.getImage(elements, element)}
-                altText={element}
-                size="small"
-            />
         </SpecialDiv>
 
-        <Table
-            headers={['Bio']}
-            rows={[description]}
-            color={utils.getColor(tribes, tribe)}
-        />
+        <Sections isRow justifyContent="space-evenly">
+            <SLabel backgroundColor={utils.getColor(tribes, tribe)}>
+                <SLabelText>
+                    <Image
+                        imageUrl={utils.getImage(tribes, tribe)}
+                        altText={tribe}
+                        size="small"
+                    />
+                </SLabelText>
+                <SLabelText>{tribe}</SLabelText>
+            </SLabel>
+
+            <SLabel
+                backgroundColor={utils.getColor(elements, element)}
+                color={utils.getSecondaryColor(elements, element)}
+            >
+                <SLabelText>
+                    <Image
+                        imageUrl={utils.getImage(elements, element)}
+                        altText={element}
+                        size="small"
+                    />
+                </SLabelText>
+                <SLabelText>{element}</SLabelText>
+            </SLabel>
+        </Sections>
+
+        <Sections>
+            <STable>
+                <STableTitle color={utils.getColor(tribes, tribe)}>
+                    Bio
+                </STableTitle>
+                <STableText bold>{description}</STableText>
+            </STable>
+        </Sections>
 
         {tribe !== 'boss' && (
             <>
-                <Table
-                    headers={['Favourite food']}
-                    imageRows={[
-                        {
-                            types: foods,
-                            wantedType: favouriteFood,
-                            size: 'special'
-                        }
-                    ]}
-                    rows={[favouriteFood]}
-                    color={utils.getColor(tribes, tribe)}
-                />
+                <Sections>
+                    <STable>
+                        <STableTitle color={utils.getColor(tribes, tribe)}>
+                            Favourite food
+                        </STableTitle>
+                        <STableText>
+                            <Image
+                                imageUrl={utils.getImage(foods, favouriteFood)}
+                                altText={favouriteFood}
+                                size="special"
+                            />
+                            {favouriteFood}
+                        </STableText>
+                    </STable>
+                </Sections>
+
+                <Sections>
+                    <STable>
+                        <STableTitle color={utils.getColor(tribes, tribe)}>
+                            Locations
+                        </STableTitle>
+                        <STableText>
+                            {locations.map(location => location)}
+                        </STableText>
+                    </STable>
+                </Sections>
 
                 {evolutionIndexes && (
-                    <Sepators>
+                    <Sections>
                         <Label color={utils.getColor(tribes, tribe)}>
                             Evolution
                         </Label>
@@ -95,10 +131,10 @@ const Card = ({
                             evolutionIndexes={evolutionIndexes}
                             tribe={tribe}
                         />
-                    </Sepators>
+                    </Sections>
                 )}
 
-                <Sepators>
+                <Sections>
                     <Label color={utils.getColor(tribes, tribe)}>Moves</Label>
                     <Moves color="#e1bee7">
                         <div>
@@ -165,9 +201,9 @@ const Card = ({
                             {inspirit.power}
                         </MovesText>
                     </Moves>
-                </Sepators>
+                </Sections>
 
-                <Sepators>
+                <Sections>
                     <Label color={utils.getColor(tribes, tribe)}>Stats</Label>
                     {Object.entries(stats).map(([stat, value]) => (
                         <ProgressBar key={stat}>
@@ -190,22 +226,7 @@ const Card = ({
                             </Bar>
                         </ProgressBar>
                     ))}
-                </Sepators>
-
-                <Table
-                    headers={['Locations']}
-                    color={utils.getColor(tribes, tribe)}
-                >
-                    {locations.map((location, index) => (
-                        <tr key={index}>
-                            <td>
-                                <Row>
-                                    <Column>{location}</Column>
-                                </Row>
-                            </td>
-                        </tr>
-                    ))}
-                </Table>
+                </Sections>
             </>
         )}
     </Container>

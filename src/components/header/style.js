@@ -12,6 +12,8 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     position: fixed;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
 
     div {
         padding: 12px;
