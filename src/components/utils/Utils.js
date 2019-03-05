@@ -6,6 +6,14 @@ const getColor = (types, wantedType) => {
     return typeRow ? typeRow.color1 : '';
 };
 
+const getSecondaryColor = (types, wantedType) => {
+    const typeRow = types.find(
+        aux => wantedType.toLowerCase() === aux.name.toLowerCase()
+    );
+
+    return typeRow ? typeRow.color2 : '';
+};
+
 const getGradientColor = (types, wantedType) => {
     const typeRow = types.find(
         aux => wantedType.toLowerCase() === aux.name.toLowerCase()
@@ -15,7 +23,9 @@ const getGradientColor = (types, wantedType) => {
 };
 
 const getImage = (types, wantedType) => {
-    const typeRow = types.find(aux => wantedType === aux.name.toLowerCase());
+    const typeRow = types.find(
+        aux => wantedType.toLowerCase() === aux.name.toLowerCase()
+    );
 
     return typeRow ? typeRow.image : '';
 };
@@ -35,4 +45,10 @@ const getEvolution = (evolutions, evolutionIndexes) => {
     return evolutionsArray;
 };
 
-export default { getColor, getGradientColor, getImage, getEvolution };
+export default {
+    getColor,
+    getSecondaryColor,
+    getGradientColor,
+    getImage,
+    getEvolution
+};
