@@ -59,6 +59,10 @@ class Sidebar extends Component {
                         <SCLink href="https://github.com/joaopedrodcf/yokaidex">
                             <FontAwesomeIcon icon="hands-helping" /> Contribute
                         </SCLink>
+
+                        <SCNavLink to={`/yokai-watch-${gameVersion}/about-us`}>
+                            <FontAwesomeIcon icon="info-circle" /> About us
+                        </SCNavLink>
                     </Sections>
                     <Sections showBorder>
                         <SectionsHeader>Game Version</SectionsHeader>

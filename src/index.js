@@ -26,7 +26,8 @@ import {
     faHandsHelping,
     faDragon,
     faCat,
-    faDog
+    faDog,
+    faInfoCircle
 } from '@fortawesome/free-solid-svg-icons';
 
 import { HashRouter } from 'react-router-dom';
@@ -62,7 +63,8 @@ library.add(
     faDragon,
     faCat,
     faDragon,
-    faDog
+    faDog,
+    faInfoCircle
 );
 
 ReactGA.initialize('UA-134596491-1');
