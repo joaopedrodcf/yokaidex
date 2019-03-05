@@ -41,9 +41,9 @@ const yokais = [
             def: '54',
             spd: '176'
         },
-        tribe: 'brave',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Brave',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Vegetables'
     },
@@ -88,9 +88,9 @@ const yokais = [
             def: '145',
             spd: '96'
         },
-        tribe: 'brave',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Brave',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Rice balls'
     },
@@ -134,9 +134,9 @@ const yokais = [
             def: '115',
             spd: '115'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [0]
@@ -183,9 +183,9 @@ const yokais = [
             def: '124',
             spd: '134'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [0]
@@ -230,9 +230,9 @@ const yokais = [
             def: '102',
             spd: '125'
         },
-        tribe: 'brave',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Brave',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice balls'
     },
@@ -276,9 +276,9 @@ const yokais = [
             def: '117',
             spd: '125'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Juices',
         evolutionIndexes: [1]
@@ -324,9 +324,9 @@ const yokais = [
             def: '134',
             spd: '124'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Juices',
         evolutionIndexes: [1]
@@ -372,9 +372,9 @@ const yokais = [
             def: '139',
             spd: '140'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Juices'
     },
@@ -419,9 +419,9 @@ const yokais = [
             def: '112',
             spd: '132'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Sweets',
         evolutionIndexes: [2]
@@ -467,9 +467,9 @@ const yokais = [
             def: '148',
             spd: '149'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Sweets',
         evolutionIndexes: [2]
@@ -516,9 +516,9 @@ const yokais = [
             def: '110',
             spd: '119'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [4]
@@ -565,9 +565,9 @@ const yokais = [
             def: '148',
             spd: '250'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [4]
@@ -614,9 +614,9 @@ const yokais = [
             def: '116',
             spd: '120'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Meats',
         evolutionIndexes: [5]
@@ -663,9 +663,9 @@ const yokais = [
             def: '135',
             spd: '140'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats',
         evolutionIndexes: [5]
@@ -712,9 +712,9 @@ const yokais = [
             def: '158',
             spd: '163'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Meats',
         evolutionIndexes: [6]
@@ -761,9 +761,9 @@ const yokais = [
             def: '108',
             spd: '100'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Meats',
         evolutionIndexes: [6]
@@ -810,9 +810,9 @@ const yokais = [
             def: '120',
             spd: '58'
         },
-        tribe: 'brave',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Brave',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [7]
@@ -859,9 +859,9 @@ const yokais = [
             def: '142',
             spd: '40'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Rice balls'
     },
@@ -907,9 +907,9 @@ const yokais = [
             def: '74',
             spd: '192'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Soft creams'
     },
@@ -955,9 +955,9 @@ const yokais = [
             def: '130',
             spd: '46'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Curries',
         evolutionIndexes: [8]
@@ -1004,9 +1004,9 @@ const yokais = [
             def: '146',
             spd: '49'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Curries',
         evolutionIndexes: [8]
@@ -1053,9 +1053,9 @@ const yokais = [
             def: '153',
             spd: '43'
         },
-        tribe: 'brave',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Brave',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [9]
@@ -1102,9 +1102,9 @@ const yokais = [
             def: '171',
             spd: '55'
         },
-        tribe: 'brave',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Brave',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [9]
@@ -1151,9 +1151,9 @@ const yokais = [
             def: '126',
             spd: '138'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Hot Dogs',
         evolutionIndexes: [10]
@@ -1200,9 +1200,9 @@ const yokais = [
             def: '138',
             spd: '158'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Hot Dogs',
         evolutionIndexes: [10]
@@ -1249,9 +1249,9 @@ const yokais = [
             def: '153',
             spd: '43'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [11]
@@ -1298,9 +1298,9 @@ const yokais = [
             def: '183',
             spd: '100'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [11]
@@ -1347,9 +1347,9 @@ const yokais = [
             def: '196',
             spd: '105'
         },
-        tribe: 'brave',
-        element: 'drain',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Drain',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Vegetables'
     },
@@ -1395,9 +1395,9 @@ const yokais = [
             def: '74',
             spd: '128'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [12]
@@ -1444,9 +1444,9 @@ const yokais = [
             def: '136',
             spd: '149'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [12]
@@ -1493,9 +1493,9 @@ const yokais = [
             def: '120',
             spd: '139'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [13, 14]
@@ -1542,9 +1542,9 @@ const yokais = [
             def: '147',
             spd: '153'
         },
-        tribe: 'brave',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Odens',
         evolutionIndexes: [14]
@@ -1590,9 +1590,9 @@ const yokais = [
             def: '103',
             spd: '122'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Meats',
         evolutionIndexes: [16]
@@ -1638,9 +1638,9 @@ const yokais = [
             def: '106',
             spd: '168'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats',
         evolutionIndexes: [16]
@@ -1687,9 +1687,9 @@ const yokais = [
             def: '164',
             spd: '62'
         },
-        tribe: 'brave',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Brave',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Odens',
         evolutionIndexes: [15]
@@ -1736,9 +1736,9 @@ const yokais = [
             def: '164',
             spd: '65'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Meats'
     },
@@ -1783,9 +1783,9 @@ const yokais = [
             def: '106',
             spd: '196'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Tempuras'
     },
@@ -1830,9 +1830,9 @@ const yokais = [
             def: '150',
             spd: '50'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Chinese foods'
     },
@@ -1877,9 +1877,9 @@ const yokais = [
             def: '160',
             spd: '79'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Chinese foods'
     },
@@ -1925,9 +1925,9 @@ const yokais = [
             def: '90',
             spd: '79'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Meats',
         evolutionIndexes: [17, 18]
@@ -1974,9 +1974,9 @@ const yokais = [
             def: '104',
             spd: '127'
         },
-        tribe: 'brave',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Brave',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Meats'
     },
@@ -2021,9 +2021,9 @@ const yokais = [
             def: '143',
             spd: '140'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Meats'
     },
@@ -2069,9 +2069,9 @@ const yokais = [
             def: '125',
             spd: '130'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [19, 20, 21]
@@ -2116,9 +2116,9 @@ const yokais = [
             def: '136',
             spd: '153'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [19]
@@ -2165,9 +2165,9 @@ const yokais = [
             def: '150',
             spd: '145'
         },
-        tribe: 'brave',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Brave',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [20]
@@ -2213,9 +2213,9 @@ const yokais = [
             def: '146',
             spd: '159'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [21]
@@ -2262,9 +2262,9 @@ const yokais = [
             def: '121',
             spd: '211'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Seafoods'
     },
@@ -2310,9 +2310,9 @@ const yokais = [
             def: '139',
             spd: '158'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Snacks'
     },
@@ -2358,9 +2358,9 @@ const yokais = [
             def: '139',
             spd: '158'
         },
-        tribe: 'brave',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Brave',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Snacks'
     },
@@ -2406,9 +2406,9 @@ const yokais = [
             def: '160',
             spd: '86'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Hot Dogs'
     },
@@ -2454,9 +2454,9 @@ const yokais = [
             def: '134',
             spd: '150'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Sobas'
     },
@@ -2502,9 +2502,9 @@ const yokais = [
             def: '103',
             spd: '159'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sobas'
     },
@@ -2549,9 +2549,9 @@ const yokais = [
             def: '157',
             spd: '138'
         },
-        tribe: 'brave',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Brave',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [22]
@@ -2597,9 +2597,9 @@ const yokais = [
             def: '167',
             spd: '143'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [22]
@@ -2646,9 +2646,9 @@ const yokais = [
             def: '173',
             spd: '150'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Vegetables'
     },
@@ -2694,9 +2694,9 @@ const yokais = [
             def: '157',
             spd: '133'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -2742,9 +2742,9 @@ const yokais = [
             def: '205',
             spd: '181'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sushis'
     },
@@ -2790,9 +2790,9 @@ const yokais = [
             def: '250',
             spd: '109'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Snacks'
     },
@@ -2838,9 +2838,9 @@ const yokais = [
             def: '140',
             spd: '176'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'hamburgers'
     },
@@ -2886,9 +2886,9 @@ const yokais = [
             def: '165',
             spd: '128'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'hamburgers'
     },
@@ -2933,9 +2933,9 @@ const yokais = [
             def: '253',
             spd: '100'
         },
-        tribe: 'brave',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Brave',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -2980,9 +2980,9 @@ const yokais = [
             def: '234',
             spd: '97'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sweets'
     },
@@ -3028,9 +3028,9 @@ const yokais = [
             def: '49',
             spd: '184'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -3076,9 +3076,9 @@ const yokais = [
             def: '160',
             spd: '150'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -3124,9 +3124,9 @@ const yokais = [
             def: '112',
             spd: '235'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -3172,9 +3172,9 @@ const yokais = [
             def: '135',
             spd: '230'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -3220,9 +3220,9 @@ const yokais = [
             def: '78',
             spd: '180'
         },
-        tribe: 'brave',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -3268,9 +3268,9 @@ const yokais = [
             def: '114',
             spd: '142'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Snacks'
     },
@@ -3317,9 +3317,9 @@ const yokais = [
             def: '94',
             spd: '178'
         },
-        tribe: 'mysterious',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Mysterious',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Snacks'
     },
@@ -3365,9 +3365,9 @@ const yokais = [
             def: '145',
             spd: '70'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Donuts'
     },
@@ -3413,9 +3413,9 @@ const yokais = [
             def: '82',
             spd: '182'
         },
-        tribe: 'mysterious',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Hot Dogs'
     },
@@ -3460,9 +3460,9 @@ const yokais = [
             def: '95',
             spd: '113'
         },
-        tribe: 'mysterious',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Mysterious',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Seafoods'
     },
@@ -3507,9 +3507,9 @@ const yokais = [
             def: '111',
             spd: '118'
         },
-        tribe: 'mysterious',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Seafoods'
     },
@@ -3555,9 +3555,9 @@ const yokais = [
             def: '69',
             spd: '166'
         },
-        tribe: 'mysterious',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [23]
@@ -3604,9 +3604,9 @@ const yokais = [
             def: '84',
             spd: '179'
         },
-        tribe: 'mysterious',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [23]
@@ -3653,9 +3653,9 @@ const yokais = [
             def: '76',
             spd: '187'
         },
-        tribe: 'mysterious',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Mysterious',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'hamburgers'
     },
@@ -3701,9 +3701,9 @@ const yokais = [
             def: '63',
             spd: '225'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Candies',
         evolutionIndexes: [24]
@@ -3750,9 +3750,9 @@ const yokais = [
             def: '80',
             spd: '234'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Candies',
         evolutionIndexes: [24]
@@ -3799,9 +3799,9 @@ const yokais = [
             def: '63',
             spd: '189'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Candies'
     },
@@ -3847,9 +3847,9 @@ const yokais = [
             def: '85',
             spd: '96'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Pastas',
         evolutionIndexes: [25]
@@ -3896,9 +3896,9 @@ const yokais = [
             def: '170',
             spd: '86'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Pastas',
         evolutionIndexes: [25]
@@ -3945,9 +3945,9 @@ const yokais = [
             def: '93',
             spd: '110'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Curries',
         evolutionIndexes: [26]
@@ -3994,9 +3994,9 @@ const yokais = [
             def: '144',
             spd: '174'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Curries',
         evolutionIndexes: [26]
@@ -4043,9 +4043,9 @@ const yokais = [
             def: '119',
             spd: '122'
         },
-        tribe: 'mysterious',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Mysterious',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Odens'
     },
@@ -4090,8 +4090,8 @@ const yokais = [
             def: '74',
             spd: '243'
         },
-        tribe: 'mysterious',
-        element: 'drain',
+        tribe: 'Mysterious',
+        element: 'Drain',
         weakness: '-',
         rank: 'd',
         favouriteFood: 'Snacks'
@@ -4137,9 +4137,9 @@ const yokais = [
             def: '103',
             spd: '196'
         },
-        tribe: 'mysterious',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Mysterious',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Pastas'
     },
@@ -4185,9 +4185,9 @@ const yokais = [
             def: '119',
             spd: '150'
         },
-        tribe: 'mysterious',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Mysterious',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Soft creams'
     },
@@ -4233,9 +4233,9 @@ const yokais = [
             def: '152',
             spd: '85'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Donuts'
     },
@@ -4281,9 +4281,9 @@ const yokais = [
             def: '220',
             spd: '74'
         },
-        tribe: 'mysterious',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Breads'
     },
@@ -4329,9 +4329,9 @@ const yokais = [
             def: '120',
             spd: '139'
         },
-        tribe: 'mysterious',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Mysterious',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'hamburgers'
     },
@@ -4376,9 +4376,9 @@ const yokais = [
             def: '82',
             spd: '154'
         },
-        tribe: 'mysterious',
-        element: 'drain',
-        weakness: 'wind',
+        tribe: 'Mysterious',
+        element: 'Drain',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'hamburgers'
     },
@@ -4423,9 +4423,9 @@ const yokais = [
             def: '108',
             spd: '128'
         },
-        tribe: 'mysterious',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Ramens',
         evolutionIndexes: [27, 29]
@@ -4472,9 +4472,9 @@ const yokais = [
             def: '137',
             spd: '139'
         },
-        tribe: 'mysterious',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Ramens',
         evolutionIndexes: [27]
@@ -4519,9 +4519,9 @@ const yokais = [
             def: '88',
             spd: '131'
         },
-        tribe: 'mysterious',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Mysterious',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Ramens'
     },
@@ -4567,9 +4567,9 @@ const yokais = [
             def: '113',
             spd: '138'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Sweets',
         evolutionIndexes: [30, 31]
@@ -4616,9 +4616,9 @@ const yokais = [
             def: '138',
             spd: '153'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sweets',
         evolutionIndexes: [30]
@@ -4665,9 +4665,9 @@ const yokais = [
             def: '149',
             spd: '164'
         },
-        tribe: 'mysterious',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Mysterious',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sweets'
     },
@@ -4712,9 +4712,9 @@ const yokais = [
             def: '122',
             spd: '141'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Curries',
         evolutionIndexes: [32]
@@ -4761,9 +4761,9 @@ const yokais = [
             def: '153',
             spd: '146'
         },
-        tribe: 'mysterious',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Mysterious',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Curries',
         evolutionIndexes: [32]
@@ -4810,9 +4810,9 @@ const yokais = [
             def: '109',
             spd: '184'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Sweets',
         evolutionIndexes: [33]
@@ -4859,9 +4859,9 @@ const yokais = [
             def: '127',
             spd: '228'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sweets',
         evolutionIndexes: [33, 121]
@@ -4873,7 +4873,7 @@ const yokais = [
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/signibble.png',
         description:
-            "A mischievous Yo-kai that Snacks on radio waves in the air. You'll lose a few bars on your phone when he's around.",
+            "A mischievous Yo-kai that snacks on radio waves in the air. You'll lose a few bars on your phone when he's around.",
         locations: ['Blossom Heights - Telephone poles'],
         skill: {
             name: 'Lightning Play',
@@ -4908,9 +4908,9 @@ const yokais = [
             def: '121',
             spd: '133'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Snacks',
         evolutionIndexes: [34]
@@ -4957,9 +4957,9 @@ const yokais = [
             def: '173',
             spd: '79'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Odens',
         evolutionIndexes: [34]
@@ -5006,9 +5006,9 @@ const yokais = [
             def: '186',
             spd: '91'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Odens'
     },
@@ -5054,9 +5054,9 @@ const yokais = [
             def: '174',
             spd: '95'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Odens'
     },
@@ -5102,9 +5102,9 @@ const yokais = [
             def: '158',
             spd: '124'
         },
-        tribe: 'mysterious',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Sushis'
     },
@@ -5150,9 +5150,9 @@ const yokais = [
             def: '106',
             spd: '136'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'hamburgers'
     },
@@ -5198,9 +5198,9 @@ const yokais = [
             def: '127',
             spd: '145'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Breads'
     },
@@ -5246,9 +5246,9 @@ const yokais = [
             def: '92',
             spd: '160'
         },
-        tribe: 'mysterious',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Donuts'
     },
@@ -5294,9 +5294,9 @@ const yokais = [
             def: '163',
             spd: '123'
         },
-        tribe: 'mysterious',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Mysterious',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Pizzas'
     },
@@ -5343,9 +5343,9 @@ const yokais = [
             def: '70',
             spd: '152'
         },
-        tribe: 'mysterious',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Mysterious',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Soft creams'
     },
@@ -5391,9 +5391,9 @@ const yokais = [
             def: '155',
             spd: '74'
         },
-        tribe: 'mysterious',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Mysterious',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Pizzas',
         evolutionIndexes: [18]
@@ -5441,9 +5441,9 @@ const yokais = [
             def: '125',
             spd: '156'
         },
-        tribe: 'mysterious',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Mysterious',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Breads'
     },
@@ -5490,9 +5490,9 @@ const yokais = [
             def: '107',
             spd: '203'
         },
-        tribe: 'mysterious',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Breads'
     },
@@ -5539,9 +5539,9 @@ const yokais = [
             def: '149',
             spd: '102'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Breads'
     },
@@ -5586,9 +5586,9 @@ const yokais = [
             def: '144',
             spd: '55'
         },
-        tribe: 'mysterious',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Mysterious',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [35]
@@ -5634,9 +5634,9 @@ const yokais = [
             def: '174',
             spd: '40'
         },
-        tribe: 'mysterious',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Vegetables'
     },
@@ -5682,9 +5682,9 @@ const yokais = [
             def: '154',
             spd: '53'
         },
-        tribe: 'mysterious',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [35]
@@ -5731,9 +5731,9 @@ const yokais = [
             def: '214',
             spd: '57'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [35]
@@ -5779,9 +5779,9 @@ const yokais = [
             def: '200',
             spd: '72'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chinese foods'
     },
@@ -5826,9 +5826,9 @@ const yokais = [
             def: '119',
             spd: '149'
         },
-        tribe: 'mysterious',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Sobas'
     },
@@ -5874,9 +5874,9 @@ const yokais = [
             def: '122',
             spd: '172'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Snacks'
     },
@@ -5922,9 +5922,9 @@ const yokais = [
             def: '108',
             spd: '188'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Seafoods'
     },
@@ -5970,9 +5970,9 @@ const yokais = [
             def: '126',
             spd: '180'
         },
-        tribe: 'mysterious',
-        element: 'drain',
-        weakness: 'water',
+        tribe: 'Mysterious',
+        element: 'Drain',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Tempuras'
     },
@@ -6019,9 +6019,9 @@ const yokais = [
             def: '107',
             spd: '180'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Soft creams'
     },
@@ -6067,9 +6067,9 @@ const yokais = [
             def: '127',
             spd: '169'
         },
-        tribe: 'mysterious',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Pastas'
     },
@@ -6115,9 +6115,9 @@ const yokais = [
             def: '125',
             spd: '178'
         },
-        tribe: 'mysterious',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Mysterious',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sweets'
     },
@@ -6163,9 +6163,9 @@ const yokais = [
             def: '114',
             spd: '183'
         },
-        tribe: 'mysterious',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Pastas'
     },
@@ -6211,9 +6211,9 @@ const yokais = [
             def: '168',
             spd: '154'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Candies'
     },
@@ -6259,9 +6259,9 @@ const yokais = [
             def: '141',
             spd: '126'
         },
-        tribe: 'mysterious',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Mysterious',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Candies'
     },
@@ -6307,9 +6307,9 @@ const yokais = [
             def: '150',
             spd: '164'
         },
-        tribe: 'mysterious',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Mysterious',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Odens'
     },
@@ -6354,9 +6354,9 @@ const yokais = [
             def: '168',
             spd: '143'
         },
-        tribe: 'mysterious',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Odens'
     },
@@ -6402,9 +6402,9 @@ const yokais = [
             def: '150',
             spd: '143'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Chinese foods'
     },
@@ -6450,9 +6450,9 @@ const yokais = [
             def: '141',
             spd: '168'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -6498,9 +6498,9 @@ const yokais = [
             def: '144',
             spd: '174'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -6546,9 +6546,9 @@ const yokais = [
             def: '102',
             spd: '236'
         },
-        tribe: 'mysterious',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Mysterious',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -6595,9 +6595,9 @@ const yokais = [
             def: '84',
             spd: '250'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sweets'
     },
@@ -6644,9 +6644,9 @@ const yokais = [
             def: '123',
             spd: '202'
         },
-        tribe: 'mysterious',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Mysterious',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sweets'
     },
@@ -6692,9 +6692,9 @@ const yokais = [
             def: '173',
             spd: '143'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Donuts'
     },
@@ -6739,9 +6739,9 @@ const yokais = [
             def: '220',
             spd: '68'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Curries',
         evolutionIndexes: [7]
@@ -6787,9 +6787,9 @@ const yokais = [
             def: '231',
             spd: '86'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Curries',
         evolutionIndexes: [7]
@@ -6836,9 +6836,9 @@ const yokais = [
             def: '206',
             spd: '77'
         },
-        tribe: 'tough',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Tough',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Curries'
     },
@@ -6884,9 +6884,9 @@ const yokais = [
             def: '194',
             spd: '96'
         },
-        tribe: 'tough',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Tough',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [36]
@@ -6933,9 +6933,9 @@ const yokais = [
             def: '218',
             spd: '86'
         },
-        tribe: 'tough',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Tough',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [36]
@@ -6981,9 +6981,9 @@ const yokais = [
             def: '194',
             spd: '101'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [37]
@@ -7030,9 +7030,9 @@ const yokais = [
             def: '198',
             spd: '111'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [37]
@@ -7079,9 +7079,9 @@ const yokais = [
             def: '198',
             spd: '66'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Snacks',
         evolutionIndexes: [38]
@@ -7128,9 +7128,9 @@ const yokais = [
             def: '255',
             spd: '86'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Snacks',
         evolutionIndexes: [38]
@@ -7177,9 +7177,9 @@ const yokais = [
             def: '234',
             spd: '56'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Ramens',
         evolutionIndexes: [39]
@@ -7226,9 +7226,9 @@ const yokais = [
             def: '270',
             spd: '61'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Ramens',
         evolutionIndexes: [39]
@@ -7275,9 +7275,9 @@ const yokais = [
             def: '282',
             spd: '70'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Ramens'
     },
@@ -7323,9 +7323,9 @@ const yokais = [
             def: '189',
             spd: '86'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Ramens',
         evolutionIndexes: [40, 63, 41]
@@ -7372,9 +7372,9 @@ const yokais = [
             def: '218',
             spd: '93'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Ramens',
         evolutionIndexes: [40]
@@ -7420,9 +7420,9 @@ const yokais = [
             def: '231',
             spd: '100'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Ramens'
     },
@@ -7468,9 +7468,9 @@ const yokais = [
             def: '228',
             spd: '95'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Hot Dogs',
         evolutionIndexes: [41]
@@ -7517,9 +7517,9 @@ const yokais = [
             def: '201',
             spd: '76'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Candies',
         evolutionIndexes: [42]
@@ -7566,9 +7566,9 @@ const yokais = [
             def: '226',
             spd: '118'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Meats',
         evolutionIndexes: [42]
@@ -7615,9 +7615,9 @@ const yokais = [
             def: '186',
             spd: '89'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Milks',
         evolutionIndexes: [43]
@@ -7665,9 +7665,9 @@ const yokais = [
             def: '247',
             spd: '90'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Milks',
         evolutionIndexes: [43]
@@ -7714,9 +7714,9 @@ const yokais = [
             def: '231',
             spd: '85'
         },
-        tribe: 'tough',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Tough',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [11]
@@ -7763,9 +7763,9 @@ const yokais = [
             def: '220',
             spd: '80'
         },
-        tribe: 'tough',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Tough',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Candies'
     },
@@ -7810,9 +7810,9 @@ const yokais = [
             def: '202',
             spd: '106'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'hamburgers'
     },
@@ -7858,9 +7858,9 @@ const yokais = [
             def: '231',
             spd: '53'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Curries'
     },
@@ -7905,9 +7905,9 @@ const yokais = [
             def: '240',
             spd: '53'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Milks'
     },
@@ -7952,9 +7952,9 @@ const yokais = [
             def: '253',
             spd: '47'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Milks',
         evolutionIndexes: [37]
@@ -8000,9 +8000,9 @@ const yokais = [
             def: '205',
             spd: '63'
         },
-        tribe: 'tough',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sobas',
         evolutionIndexes: [44]
@@ -8048,9 +8048,9 @@ const yokais = [
             def: '218',
             spd: '70'
         },
-        tribe: 'tough',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Sobas',
         evolutionIndexes: [44]
@@ -8097,9 +8097,9 @@ const yokais = [
             def: '219',
             spd: '60'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Meats',
         evolutionIndexes: [45]
@@ -8146,9 +8146,9 @@ const yokais = [
             def: '249',
             spd: '64'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Meats',
         evolutionIndexes: [45]
@@ -8194,9 +8194,9 @@ const yokais = [
             def: '147',
             spd: '179'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [46]
@@ -8243,9 +8243,9 @@ const yokais = [
             def: '242',
             spd: '114'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [46]
@@ -8291,9 +8291,9 @@ const yokais = [
             def: '267',
             spd: '99'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [46]
@@ -8340,9 +8340,9 @@ const yokais = [
             def: '104',
             spd: '131'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [47]
@@ -8389,9 +8389,9 @@ const yokais = [
             def: '128',
             spd: '140'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [47]
@@ -8438,9 +8438,9 @@ const yokais = [
             def: '198',
             spd: '156'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Donuts',
         evolutionIndexes: [48]
@@ -8487,9 +8487,9 @@ const yokais = [
             def: '268',
             spd: '171'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Donuts',
         evolutionIndexes: [48]
@@ -8535,9 +8535,9 @@ const yokais = [
             def: '176',
             spd: '85'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Curries'
     },
@@ -8583,9 +8583,9 @@ const yokais = [
             def: '228',
             spd: '70'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Hot Dogs'
     },
@@ -8629,9 +8629,9 @@ const yokais = [
             def: '211',
             spd: '190'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Vegetables'
     },
@@ -8678,9 +8678,9 @@ const yokais = [
             def: '208',
             spd: '56'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Odens'
     },
@@ -8726,9 +8726,9 @@ const yokais = [
             def: '224',
             spd: '130'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Sushis'
     },
@@ -8774,9 +8774,9 @@ const yokais = [
             def: '259',
             spd: '70'
         },
-        tribe: 'tough',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Tough',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Sushis',
         evolutionIndexes: [49]
@@ -8823,9 +8823,9 @@ const yokais = [
             def: '268',
             spd: '77'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Sushis'
     },
@@ -8870,9 +8870,9 @@ const yokais = [
             def: '239',
             spd: '64'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Milks',
         evolutionIndexes: [50]
@@ -8918,9 +8918,9 @@ const yokais = [
             def: '252',
             spd: '70'
         },
-        tribe: 'tough',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Tough',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Milks',
         evolutionIndexes: [50, 51]
@@ -8966,9 +8966,9 @@ const yokais = [
             def: '269',
             spd: '78'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Milks',
         evolutionIndexes: [51, 52]
@@ -9015,9 +9015,9 @@ const yokais = [
             def: '289',
             spd: '84'
         },
-        tribe: 'tough',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Tough',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Milks',
         evolutionIndexes: [52]
@@ -9064,9 +9064,9 @@ const yokais = [
             def: '115',
             spd: '205'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -9112,9 +9112,9 @@ const yokais = [
             def: '228',
             spd: '86'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [53]
@@ -9160,9 +9160,9 @@ const yokais = [
             def: '240',
             spd: '87'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [53]
@@ -9209,9 +9209,9 @@ const yokais = [
             def: '256',
             spd: '92'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Vegetables'
     },
@@ -9257,9 +9257,9 @@ const yokais = [
             def: '186',
             spd: '130'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Meats'
     },
@@ -9295,7 +9295,7 @@ const yokais = [
         inspirit: {
             name: 'Steak Sauce',
             description:
-                'An ally\'s STR rises thanks to delicious, rare steak Juices!"',
+                'An ally\'s STR rises thanks to delicious, rare steak juices!"',
             power: '0'
         },
         stats: {
@@ -9305,9 +9305,9 @@ const yokais = [
             def: '230',
             spd: '136'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats'
     },
@@ -9352,9 +9352,9 @@ const yokais = [
             def: '234',
             spd: '143'
         },
-        tribe: 'tough',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Tough',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars',
         evolutionIndexes: [54]
@@ -9401,9 +9401,9 @@ const yokais = [
             def: '253',
             spd: '93'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -9448,9 +9448,9 @@ const yokais = [
             def: '189',
             spd: '139'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars',
         evolutionIndexes: [54]
@@ -9497,9 +9497,9 @@ const yokais = [
             def: '243',
             spd: '169'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Chocobars'
     },
@@ -9545,9 +9545,9 @@ const yokais = [
             def: '232',
             spd: '70'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Vegetables'
     },
@@ -9593,9 +9593,9 @@ const yokais = [
             def: '238',
             spd: '81'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Vegetables'
     },
@@ -9641,9 +9641,9 @@ const yokais = [
             def: '258',
             spd: '102'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -9689,9 +9689,9 @@ const yokais = [
             def: '243',
             spd: '138'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -9736,9 +9736,9 @@ const yokais = [
             def: '158',
             spd: '148'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -9783,9 +9783,9 @@ const yokais = [
             def: '123',
             spd: '133'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -9830,9 +9830,9 @@ const yokais = [
             def: '241',
             spd: '106'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -9878,9 +9878,9 @@ const yokais = [
             def: '254',
             spd: '93'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -9926,9 +9926,9 @@ const yokais = [
             def: '251',
             spd: '41'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Hot Dogs'
     },
@@ -9974,9 +9974,9 @@ const yokais = [
             def: '233',
             spd: '90'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Hot Dogs'
     },
@@ -10022,9 +10022,9 @@ const yokais = [
             def: '296',
             spd: '120'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -10070,9 +10070,9 @@ const yokais = [
             def: '72',
             spd: '184'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Sweets'
     },
@@ -10118,9 +10118,9 @@ const yokais = [
             def: '99',
             spd: '172'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Juices'
     },
@@ -10167,9 +10167,9 @@ const yokais = [
             def: '86',
             spd: '138'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Sweets'
     },
@@ -10215,9 +10215,9 @@ const yokais = [
             def: '95',
             spd: '168'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Vegetables'
     },
@@ -10263,9 +10263,9 @@ const yokais = [
             def: '102',
             spd: '135'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Sweets',
         evolutionIndexes: [31]
@@ -10311,9 +10311,9 @@ const yokais = [
             def: '115',
             spd: '152'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Sweets',
         evolutionIndexes: [31]
@@ -10360,9 +10360,9 @@ const yokais = [
             def: '123',
             spd: '166'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Sweets'
     },
@@ -10406,9 +10406,9 @@ const yokais = [
             def: '100',
             spd: '178'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Juices',
         evolutionIndexes: [55]
@@ -10454,9 +10454,9 @@ const yokais = [
             def: '112',
             spd: '203'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Juices',
         evolutionIndexes: [55]
@@ -10503,9 +10503,9 @@ const yokais = [
             def: '132',
             spd: '201'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Juices'
     },
@@ -10551,9 +10551,9 @@ const yokais = [
             def: '108',
             spd: '118'
         },
-        tribe: 'charming',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Charming',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Milks',
         evolutionIndexes: [56]
@@ -10600,9 +10600,9 @@ const yokais = [
             def: '140',
             spd: '146'
         },
-        tribe: 'charming',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Charming',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Milks',
         evolutionIndexes: [56]
@@ -10648,9 +10648,9 @@ const yokais = [
             def: '102',
             spd: '142'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Ramens',
         evolutionIndexes: [57]
@@ -10695,9 +10695,9 @@ const yokais = [
             def: '124',
             spd: '181'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Ramens',
         evolutionIndexes: [57]
@@ -10743,9 +10743,9 @@ const yokais = [
             def: '122',
             spd: '226'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Ramens'
     },
@@ -10791,9 +10791,9 @@ const yokais = [
             def: '79',
             spd: '180'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Snacks',
         evolutionIndexes: [58]
@@ -10840,9 +10840,9 @@ const yokais = [
             def: '96',
             spd: '243'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Snacks',
         evolutionIndexes: [58]
@@ -10889,9 +10889,9 @@ const yokais = [
             def: '111',
             spd: '214'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Snacks'
     },
@@ -10936,9 +10936,9 @@ const yokais = [
             def: '123',
             spd: '145'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Sweets'
     },
@@ -10984,9 +10984,9 @@ const yokais = [
             def: '102',
             spd: '123'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Odens'
     },
@@ -11032,9 +11032,9 @@ const yokais = [
             def: '53',
             spd: '179'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Tempuras'
     },
@@ -11080,9 +11080,9 @@ const yokais = [
             def: '107',
             spd: '172'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Hot Dogs'
     },
@@ -11128,9 +11128,9 @@ const yokais = [
             def: '98',
             spd: '187'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Seafoods'
     },
@@ -11177,9 +11177,9 @@ const yokais = [
             def: '128',
             spd: '171'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sweets'
     },
@@ -11225,9 +11225,9 @@ const yokais = [
             def: '120',
             spd: '144'
         },
-        tribe: 'charming',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Juices',
         evolutionIndexes: [59]
@@ -11274,9 +11274,9 @@ const yokais = [
             def: '124',
             spd: '169'
         },
-        tribe: 'charming',
-        element: 'drain',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Drain',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Juices'
     },
@@ -11322,9 +11322,9 @@ const yokais = [
             def: '130',
             spd: '167'
         },
-        tribe: 'charming',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Juices',
         evolutionIndexes: [59]
@@ -11371,9 +11371,9 @@ const yokais = [
             def: '98',
             spd: '182'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Sushis',
         evolutionIndexes: [60]
@@ -11420,9 +11420,9 @@ const yokais = [
             def: '109',
             spd: '211'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Sushis',
         evolutionIndexes: [60]
@@ -11468,9 +11468,9 @@ const yokais = [
             def: '97',
             spd: '156'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Pastas',
         evolutionIndexes: [61]
@@ -11517,9 +11517,9 @@ const yokais = [
             def: '107',
             spd: '179'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Pastas',
         evolutionIndexes: [61]
@@ -11566,9 +11566,9 @@ const yokais = [
             def: '108',
             spd: '147'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sushis',
         evolutionIndexes: [62]
@@ -11614,9 +11614,9 @@ const yokais = [
             def: '121',
             spd: '174'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Sushis',
         evolutionIndexes: [62]
@@ -11663,9 +11663,9 @@ const yokais = [
             def: '130',
             spd: '182'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Sushis'
     },
@@ -11710,9 +11710,9 @@ const yokais = [
             def: '104',
             spd: '216'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Chocobars',
         evolutionIndexes: [63, 64]
@@ -11759,9 +11759,9 @@ const yokais = [
             def: '80',
             spd: '215'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -11807,9 +11807,9 @@ const yokais = [
             def: '108',
             spd: '229'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Chocobars'
     },
@@ -11854,9 +11854,9 @@ const yokais = [
             def: '129',
             spd: '244'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Chocobars'
     },
@@ -11902,9 +11902,9 @@ const yokais = [
             def: '75',
             spd: '217'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Chocobars'
     },
@@ -11950,9 +11950,9 @@ const yokais = [
             def: '116',
             spd: '210'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Chocobars',
         evolutionIndexes: [64]
@@ -11999,9 +11999,9 @@ const yokais = [
             def: '133',
             spd: '194'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars',
         evolutionIndexes: [63]
@@ -12048,9 +12048,9 @@ const yokais = [
             def: '117',
             spd: '223'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -12095,9 +12095,9 @@ const yokais = [
             def: '102',
             spd: '160'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Soft creams',
         evolutionIndexes: [129]
@@ -12144,9 +12144,9 @@ const yokais = [
             def: '113',
             spd: '186'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Soft creams',
         evolutionIndexes: [129]
@@ -12193,9 +12193,9 @@ const yokais = [
             def: '97',
             spd: '224'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Soft creams'
     },
@@ -12240,9 +12240,9 @@ const yokais = [
             def: '117',
             spd: '194'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Soft creams'
     },
@@ -12287,9 +12287,9 @@ const yokais = [
             def: '128',
             spd: '189'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Soft creams',
         evolutionIndexes: [66]
@@ -12336,9 +12336,9 @@ const yokais = [
             def: '98',
             spd: '143'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -12382,9 +12382,9 @@ const yokais = [
             def: '141',
             spd: '137'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Milks',
         evolutionIndexes: [130]
@@ -12429,9 +12429,9 @@ const yokais = [
             def: '156',
             spd: '152'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Milks',
         evolutionIndexes: [130]
@@ -12477,9 +12477,9 @@ const yokais = [
             def: '173',
             spd: '156'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Milks'
     },
@@ -12525,9 +12525,9 @@ const yokais = [
             def: '120',
             spd: '158'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Juices'
     },
@@ -12573,9 +12573,9 @@ const yokais = [
             def: '85',
             spd: '270'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Curries'
     },
@@ -12621,9 +12621,9 @@ const yokais = [
             def: '85',
             spd: '203'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'pizza'
     },
@@ -12669,9 +12669,9 @@ const yokais = [
             def: '164',
             spd: '53'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Juices'
     },
@@ -12717,9 +12717,9 @@ const yokais = [
             def: '92',
             spd: '188'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Juices'
     },
@@ -12765,9 +12765,9 @@ const yokais = [
             def: '174',
             spd: '104'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Sushis'
     },
@@ -12813,9 +12813,9 @@ const yokais = [
             def: '114',
             spd: '134'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [67, 68]
@@ -12862,9 +12862,9 @@ const yokais = [
             def: '122',
             spd: '146'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [67]
@@ -12911,9 +12911,9 @@ const yokais = [
             def: '104',
             spd: '156'
         },
-        tribe: 'charming',
-        element: 'drain',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Drain',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'hamburgers'
     },
@@ -12941,7 +12941,7 @@ const yokais = [
         soultime: {
             name: 'Bear Knuckle',
             description:
-                'Bolstered by hearty Harrisville Vegetables, he hits the column in front.',
+                'Bolstered by hearty Harrisville vegetables, he hits the column in front.',
             power: '170 to 255 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -12959,8 +12959,8 @@ const yokais = [
             def: '105',
             spd: '109'
         },
-        tribe: 'charming',
-        element: 'restoration',
+        tribe: 'Charming',
+        element: 'Restoration',
         weakness: '-',
         rank: 'b',
         favouriteFood: 'Meats'
@@ -13007,9 +13007,9 @@ const yokais = [
             def: '120',
             spd: '183'
         },
-        tribe: 'charming',
-        element: 'drain',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Drain',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -13055,9 +13055,9 @@ const yokais = [
             def: '94',
             spd: '213'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -13103,9 +13103,9 @@ const yokais = [
             def: '81',
             spd: '231'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -13151,9 +13151,9 @@ const yokais = [
             def: '101',
             spd: '212'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'delishstick'
     },
@@ -13199,9 +13199,9 @@ const yokais = [
             def: '113',
             spd: '170'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Soft creams'
     },
@@ -13246,9 +13246,9 @@ const yokais = [
             def: '119',
             spd: '212'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Candies',
         evolutionIndexes: [69]
@@ -13293,9 +13293,9 @@ const yokais = [
             def: '130',
             spd: '236'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Candies',
         evolutionIndexes: [69]
@@ -13342,9 +13342,9 @@ const yokais = [
             def: '156',
             spd: '174'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Candies'
     },
@@ -13390,9 +13390,9 @@ const yokais = [
             def: '156',
             spd: '140'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -13437,9 +13437,9 @@ const yokais = [
             def: '147',
             spd: '147'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -13485,9 +13485,9 @@ const yokais = [
             def: '137',
             spd: '174'
         },
-        tribe: 'charming',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Charming',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -13532,9 +13532,9 @@ const yokais = [
             def: '126',
             spd: '185'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -13580,9 +13580,9 @@ const yokais = [
             def: '70',
             spd: '200'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -13628,9 +13628,9 @@ const yokais = [
             def: '247',
             spd: '136'
         },
-        tribe: 'charming',
-        element: 'drain',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Drain',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -13677,9 +13677,9 @@ const yokais = [
             def: '102',
             spd: '189'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -13726,8 +13726,8 @@ const yokais = [
             def: '118',
             spd: '133'
         },
-        tribe: 'charming',
-        element: 'restoration',
+        tribe: 'Charming',
+        element: 'Restoration',
         weakness: '-',
         rank: 'a',
         favouriteFood: 'Chocobars'
@@ -13773,9 +13773,9 @@ const yokais = [
             def: '141',
             spd: '149'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -13820,9 +13820,9 @@ const yokais = [
             def: '225',
             spd: '156'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -13869,9 +13869,9 @@ const yokais = [
             def: '137',
             spd: '213'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -13916,9 +13916,9 @@ const yokais = [
             def: '172',
             spd: '163'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Sushis'
     },
@@ -13963,9 +13963,9 @@ const yokais = [
             def: '159',
             spd: '199'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Soft creams'
     },
@@ -14011,9 +14011,9 @@ const yokais = [
             def: '110',
             spd: '192'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -14059,9 +14059,9 @@ const yokais = [
             def: '106',
             spd: '228'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -14106,9 +14106,9 @@ const yokais = [
             def: '197',
             spd: '84'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Soft creams'
     },
@@ -14155,9 +14155,9 @@ const yokais = [
             def: '40',
             spd: '228'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sobas'
     },
@@ -14203,9 +14203,9 @@ const yokais = [
             def: '95',
             spd: '240'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Vegetables'
     },
@@ -14250,9 +14250,9 @@ const yokais = [
             def: '113',
             spd: '196'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Soft creams'
     },
@@ -14298,9 +14298,9 @@ const yokais = [
             def: '103',
             spd: '223'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -14346,9 +14346,9 @@ const yokais = [
             def: '117',
             spd: '200'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Soft creams'
     },
@@ -14394,9 +14394,9 @@ const yokais = [
             def: '98',
             spd: '237'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sushis'
     },
@@ -14441,9 +14441,9 @@ const yokais = [
             def: '123',
             spd: '180'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Tempuras'
     },
@@ -14489,9 +14489,9 @@ const yokais = [
             def: '120',
             spd: '215'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [70]
@@ -14538,9 +14538,9 @@ const yokais = [
             def: '156',
             spd: '225'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Chinese foods'
     },
@@ -14586,9 +14586,9 @@ const yokais = [
             def: '131',
             spd: '230'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -14634,9 +14634,9 @@ const yokais = [
             def: '101',
             spd: '254'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -14682,9 +14682,9 @@ const yokais = [
             def: '98',
             spd: '236'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -14730,9 +14730,9 @@ const yokais = [
             def: '106',
             spd: '145'
         },
-        tribe: 'heartful',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Odens',
         evolutionIndexes: [49, 71]
@@ -14779,9 +14779,9 @@ const yokais = [
             def: '181',
             spd: '50'
         },
-        tribe: 'heartful',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Rice balls'
     },
@@ -14826,9 +14826,9 @@ const yokais = [
             def: '93',
             spd: '162'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Pastas'
     },
@@ -14874,9 +14874,9 @@ const yokais = [
             def: '69',
             spd: '163'
         },
-        tribe: 'heartful',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Ramens'
     },
@@ -14922,9 +14922,9 @@ const yokais = [
             def: '73',
             spd: '185'
         },
-        tribe: 'heartful',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Ramens'
     },
@@ -14969,9 +14969,9 @@ const yokais = [
             def: '65',
             spd: '117'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Ramens',
         evolutionIndexes: [72, 73]
@@ -15018,9 +15018,9 @@ const yokais = [
             def: '67',
             spd: '130'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Ramens',
         evolutionIndexes: [72]
@@ -15067,9 +15067,9 @@ const yokais = [
             def: '100',
             spd: '140'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Ramens'
     },
@@ -15115,9 +15115,9 @@ const yokais = [
             def: '75',
             spd: '188'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Ramens'
     },
@@ -15163,9 +15163,9 @@ const yokais = [
             def: '33',
             spd: '159'
         },
-        tribe: 'heartful',
-        element: 'drain',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Drain',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Sobas'
     },
@@ -15193,7 +15193,7 @@ const yokais = [
         soultime: {
             name: 'Hungry Impact',
             description:
-                "Restores allies' HP with a feast of heavenly Rice balls.",
+                "Restores allies' HP with a feast of heavenly rice balls.",
             power: '50 to 131 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -15210,9 +15210,9 @@ const yokais = [
             def: '113',
             spd: '131'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [75, 76]
@@ -15241,7 +15241,7 @@ const yokais = [
         soultime: {
             name: 'Gleeful Gluttony',
             description:
-                'Heals allies with Rice balls summoned by the power of gluttony.',
+                'Heals allies with rice balls summoned by the power of gluttony.',
             power: '90 to 198 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -15258,9 +15258,9 @@ const yokais = [
             def: '127',
             spd: '157'
         },
-        tribe: 'heartful',
-        element: 'drain',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Drain',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [75]
@@ -15289,7 +15289,7 @@ const yokais = [
         soultime: {
             name: 'Fresh Impact',
             description:
-                "Restores allies' HP with a banquet of fresh Rice balls.",
+                "Restores allies' HP with a banquet of fresh rice balls.",
             power: '150 to 150',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -15307,9 +15307,9 @@ const yokais = [
             def: '117',
             spd: '174'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice balls'
     },
@@ -15353,9 +15353,9 @@ const yokais = [
             def: '102',
             spd: '159'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Meats',
         evolutionIndexes: [76]
@@ -15402,9 +15402,9 @@ const yokais = [
             def: '83',
             spd: '176'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [68]
@@ -15451,9 +15451,9 @@ const yokais = [
             def: '94',
             spd: '203'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [68]
@@ -15500,9 +15500,9 @@ const yokais = [
             def: '112',
             spd: '147'
         },
-        tribe: 'heartful',
-        element: 'earth',
-        weakness: 'water',
+        tribe: 'Heartful',
+        element: 'Earth',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Odens',
         evolutionIndexes: [77]
@@ -15549,9 +15549,9 @@ const yokais = [
             def: '143',
             spd: '166'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Odens',
         evolutionIndexes: [26, 77]
@@ -15598,9 +15598,9 @@ const yokais = [
             def: '121',
             spd: '133'
         },
-        tribe: 'heartful',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Soft creams',
         evolutionIndexes: [78]
@@ -15647,9 +15647,9 @@ const yokais = [
             def: '154',
             spd: '183'
         },
-        tribe: 'heartful',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Soft creams',
         evolutionIndexes: [78]
@@ -15696,9 +15696,9 @@ const yokais = [
             def: '153',
             spd: '80'
         },
-        tribe: 'heartful',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Donuts'
     },
@@ -15743,9 +15743,9 @@ const yokais = [
             def: '150',
             spd: '133'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Rice balls'
     },
@@ -15791,9 +15791,9 @@ const yokais = [
             def: '105',
             spd: '168'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Soft creams'
     },
@@ -15839,9 +15839,9 @@ const yokais = [
             def: '64',
             spd: '177'
         },
-        tribe: 'heartful',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Vegetables'
     },
@@ -15887,9 +15887,9 @@ const yokais = [
             def: '75',
             spd: '183'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Hot Dogs'
     },
@@ -15935,9 +15935,9 @@ const yokais = [
             def: '113',
             spd: '149'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Snacks',
         evolutionIndexes: [79]
@@ -15984,9 +15984,9 @@ const yokais = [
             def: '126',
             spd: '166'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Snacks',
         evolutionIndexes: [79]
@@ -16033,9 +16033,9 @@ const yokais = [
             def: '111',
             spd: '136'
         },
-        tribe: 'heartful',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Milks',
         evolutionIndexes: [80]
@@ -16082,9 +16082,9 @@ const yokais = [
             def: '113',
             spd: '233'
         },
-        tribe: 'heartful',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Milks',
         evolutionIndexes: [80]
@@ -16131,9 +16131,9 @@ const yokais = [
             def: '126',
             spd: '153'
         },
-        tribe: 'heartful',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Milks'
     },
@@ -16179,9 +16179,9 @@ const yokais = [
             def: '112',
             spd: '152'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Snacks',
         evolutionIndexes: [81, 82]
@@ -16228,9 +16228,9 @@ const yokais = [
             def: '134',
             spd: '173'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Snacks',
         evolutionIndexes: [81]
@@ -16276,9 +16276,9 @@ const yokais = [
             def: '117',
             spd: '139'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Juices',
         evolutionIndexes: [83]
@@ -16325,9 +16325,9 @@ const yokais = [
             def: '98',
             spd: '161'
         },
-        tribe: 'heartful',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Juices',
         evolutionIndexes: [83]
@@ -16374,9 +16374,9 @@ const yokais = [
             def: '123',
             spd: '173'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Juices',
         evolutionIndexes: [83, 115]
@@ -16422,9 +16422,9 @@ const yokais = [
             def: '131',
             spd: '179'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Juices'
     },
@@ -16470,9 +16470,9 @@ const yokais = [
             def: '96',
             spd: '107'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Sushis',
         evolutionIndexes: [84, 85]
@@ -16519,9 +16519,9 @@ const yokais = [
             def: '108',
             spd: '136'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sushis',
         evolutionIndexes: [84]
@@ -16568,9 +16568,9 @@ const yokais = [
             def: '103',
             spd: '181'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Snacks'
     },
@@ -16616,9 +16616,9 @@ const yokais = [
             def: '101',
             spd: '172'
         },
-        tribe: 'heartful',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Heartful',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Sweets'
     },
@@ -16664,9 +16664,9 @@ const yokais = [
             def: '131',
             spd: '159'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Curries'
     },
@@ -16712,9 +16712,9 @@ const yokais = [
             def: '145',
             spd: '140'
         },
-        tribe: 'heartful',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Curries'
     },
@@ -16760,9 +16760,9 @@ const yokais = [
             def: '155',
             spd: '122'
         },
-        tribe: 'heartful',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Soft creams'
     },
@@ -16808,9 +16808,9 @@ const yokais = [
             def: '80',
             spd: '69'
         },
-        tribe: 'heartful',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Heartful',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Curries'
     },
@@ -16857,9 +16857,9 @@ const yokais = [
             def: '210',
             spd: '92'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Soft creams'
     },
@@ -16905,9 +16905,9 @@ const yokais = [
             def: '186',
             spd: '102'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Pastas'
     },
@@ -16953,9 +16953,9 @@ const yokais = [
             def: '129',
             spd: '143'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Vegetables'
     },
@@ -17001,9 +17001,9 @@ const yokais = [
             def: '101',
             spd: '161'
         },
-        tribe: 'heartful',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Hot Dogs'
     },
@@ -17049,9 +17049,9 @@ const yokais = [
             def: '114',
             spd: '143'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Milks',
         evolutionIndexes: [29]
@@ -17098,9 +17098,9 @@ const yokais = [
             def: '176',
             spd: '116'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Breads',
         evolutionIndexes: [86]
@@ -17147,9 +17147,9 @@ const yokais = [
             def: '189',
             spd: '142'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Breads',
         evolutionIndexes: [86]
@@ -17196,9 +17196,9 @@ const yokais = [
             def: '162',
             spd: '134'
         },
-        tribe: 'heartful',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Breads'
     },
@@ -17244,9 +17244,9 @@ const yokais = [
             def: '126',
             spd: '156'
         },
-        tribe: 'heartful',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -17292,9 +17292,9 @@ const yokais = [
             def: '37',
             spd: '192'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'pizza'
     },
@@ -17340,9 +17340,9 @@ const yokais = [
             def: '161',
             spd: '106'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Tempuras'
     },
@@ -17387,9 +17387,9 @@ const yokais = [
             def: '156',
             spd: '150'
         },
-        tribe: 'heartful',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Rice balls'
     },
@@ -17434,9 +17434,9 @@ const yokais = [
             def: '118',
             spd: '167'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Candies'
     },
@@ -17481,9 +17481,9 @@ const yokais = [
             def: '127',
             spd: '182'
         },
-        tribe: 'heartful',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Candies'
     },
@@ -17528,9 +17528,9 @@ const yokais = [
             def: '182',
             spd: '84'
         },
-        tribe: 'heartful',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Sushis',
         evolutionIndexes: [49]
@@ -17577,9 +17577,9 @@ const yokais = [
             def: '132',
             spd: '160'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Seafoods'
     },
@@ -17625,9 +17625,9 @@ const yokais = [
             def: '133',
             spd: '164'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Tempuras'
     },
@@ -17672,9 +17672,9 @@ const yokais = [
             def: '136',
             spd: '105'
         },
-        tribe: 'heartful',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Sushis'
     },
@@ -17719,9 +17719,9 @@ const yokais = [
             def: '102',
             spd: '52'
         },
-        tribe: 'heartful',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -17767,9 +17767,9 @@ const yokais = [
             def: '119',
             spd: '155'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Vegetables'
     },
@@ -17815,9 +17815,9 @@ const yokais = [
             def: '138',
             spd: '128'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Vegetables'
     },
@@ -17863,9 +17863,9 @@ const yokais = [
             def: '118',
             spd: '148'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Chinese foods'
     },
@@ -17911,9 +17911,9 @@ const yokais = [
             def: '138',
             spd: '130'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -17959,9 +17959,9 @@ const yokais = [
             def: '43',
             spd: '291'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'pizza'
     },
@@ -18007,9 +18007,9 @@ const yokais = [
             def: '34',
             spd: '318'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'pizza'
     },
@@ -18055,9 +18055,9 @@ const yokais = [
             def: '152',
             spd: '90'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Pastas'
     },
@@ -18103,9 +18103,9 @@ const yokais = [
             def: '36',
             spd: '197'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Juices'
     },
@@ -18151,9 +18151,9 @@ const yokais = [
             def: '54',
             spd: '175'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Donuts'
     },
@@ -18199,9 +18199,9 @@ const yokais = [
             def: '84',
             spd: '147'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Candies'
     },
@@ -18247,9 +18247,9 @@ const yokais = [
             def: '140',
             spd: '128'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Candies'
     },
@@ -18295,9 +18295,9 @@ const yokais = [
             def: '118',
             spd: '131'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Candies',
         evolutionIndexes: [87]
@@ -18344,9 +18344,9 @@ const yokais = [
             def: '140',
             spd: '144'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Candies',
         evolutionIndexes: [87]
@@ -18393,9 +18393,9 @@ const yokais = [
             def: '156',
             spd: '123'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Candies'
     },
@@ -18441,9 +18441,9 @@ const yokais = [
             def: '106',
             spd: '151'
         },
-        tribe: 'shady',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Shady',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [17]
@@ -18490,9 +18490,9 @@ const yokais = [
             def: '149',
             spd: '158'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Meats',
         evolutionIndexes: [17]
@@ -18539,9 +18539,9 @@ const yokais = [
             def: '95',
             spd: '156'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [89, 90]
@@ -18588,9 +18588,9 @@ const yokais = [
             def: '102',
             spd: '199'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [89]
@@ -18637,9 +18637,9 @@ const yokais = [
             def: '173',
             spd: '43'
         },
-        tribe: 'shady',
-        element: 'water',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Water',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Pizzas',
         evolutionIndexes: [91]
@@ -18686,9 +18686,9 @@ const yokais = [
             def: '230',
             spd: '43'
         },
-        tribe: 'shady',
-        element: 'water',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Water',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Pizzas',
         evolutionIndexes: [91]
@@ -18735,9 +18735,9 @@ const yokais = [
             def: '84',
             spd: '147'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Juices',
         evolutionIndexes: [92]
@@ -18784,9 +18784,9 @@ const yokais = [
             def: '88',
             spd: '195'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Juices',
         evolutionIndexes: [92]
@@ -18833,9 +18833,9 @@ const yokais = [
             def: '90',
             spd: '225'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Juices'
     },
@@ -18880,9 +18880,9 @@ const yokais = [
             def: '89',
             spd: '180'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [93]
@@ -18929,9 +18929,9 @@ const yokais = [
             def: '111',
             spd: '220'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [93]
@@ -18978,9 +18978,9 @@ const yokais = [
             def: '133',
             spd: '208'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Rice balls'
     },
@@ -19025,9 +19025,9 @@ const yokais = [
             def: '130',
             spd: '111'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Hot Dogs'
     },
@@ -19072,9 +19072,9 @@ const yokais = [
             def: '62',
             spd: '132'
         },
-        tribe: 'shady',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Shady',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Chinese foods'
     },
@@ -19120,9 +19120,9 @@ const yokais = [
             def: '95',
             spd: '101'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Chinese foods'
     },
@@ -19168,9 +19168,9 @@ const yokais = [
             def: '233',
             spd: '171'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Chinese foods'
     },
@@ -19216,9 +19216,9 @@ const yokais = [
             def: '134',
             spd: '143'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Meats',
         evolutionIndexes: [94]
@@ -19265,9 +19265,9 @@ const yokais = [
             def: '159',
             spd: '161'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Meats',
         evolutionIndexes: [94]
@@ -19314,9 +19314,9 @@ const yokais = [
             def: '115',
             spd: '167'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Meats',
         evolutionIndexes: [95]
@@ -19363,9 +19363,9 @@ const yokais = [
             def: '150',
             spd: '171'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Meats',
         evolutionIndexes: [95]
@@ -19412,9 +19412,9 @@ const yokais = [
             def: '92',
             spd: '217'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Meats'
     },
@@ -19460,9 +19460,9 @@ const yokais = [
             def: '106',
             spd: '140'
         },
-        tribe: 'shady',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Shady',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sushis',
         evolutionIndexes: [96]
@@ -19509,9 +19509,9 @@ const yokais = [
             def: '117',
             spd: '173'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'lightning',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Sushis',
         evolutionIndexes: [96]
@@ -19558,9 +19558,9 @@ const yokais = [
             def: '160',
             spd: '113'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Pizzas',
         evolutionIndexes: [90]
@@ -19607,9 +19607,9 @@ const yokais = [
             def: '186',
             spd: '122'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Pizzas',
         evolutionIndexes: [90]
@@ -19656,9 +19656,9 @@ const yokais = [
             def: '124',
             spd: '56'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Sushis'
     },
@@ -19704,9 +19704,9 @@ const yokais = [
             def: '97',
             spd: '215'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'hamburgers'
     },
@@ -19751,9 +19751,9 @@ const yokais = [
             def: '101',
             spd: '157'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Milks'
     },
@@ -19799,9 +19799,9 @@ const yokais = [
             def: '141',
             spd: '128'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Sushis'
     },
@@ -19847,9 +19847,9 @@ const yokais = [
             def: '57',
             spd: '177'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'pizza'
     },
@@ -19894,9 +19894,9 @@ const yokais = [
             def: '91',
             spd: '164'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Hot Dogs'
     },
@@ -19942,9 +19942,9 @@ const yokais = [
             def: '95',
             spd: '133'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Soft creams'
     },
@@ -19989,9 +19989,9 @@ const yokais = [
             def: '43',
             spd: '154'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Tempuras'
     },
@@ -20037,9 +20037,9 @@ const yokais = [
             def: '121',
             spd: '156'
         },
-        tribe: 'shady',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Shady',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Breads',
         evolutionIndexes: [89, 95]
@@ -20086,9 +20086,9 @@ const yokais = [
             def: '147',
             spd: '139'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Breads'
     },
@@ -20134,9 +20134,9 @@ const yokais = [
             def: '114',
             spd: '147'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Curries',
         evolutionIndexes: [97]
@@ -20183,9 +20183,9 @@ const yokais = [
             def: '199',
             spd: '73'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Sushis'
     },
@@ -20231,9 +20231,9 @@ const yokais = [
             def: '106',
             spd: '209'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars'
     },
@@ -20278,9 +20278,9 @@ const yokais = [
             def: '51',
             spd: '156'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'hamburgers'
     },
@@ -20326,9 +20326,9 @@ const yokais = [
             def: '44',
             spd: '179'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Donuts'
     },
@@ -20373,9 +20373,9 @@ const yokais = [
             def: '113',
             spd: '143'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Donuts'
     },
@@ -20420,9 +20420,9 @@ const yokais = [
             def: '113',
             spd: '143'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Donuts'
     },
@@ -20467,9 +20467,9 @@ const yokais = [
             def: '113',
             spd: '143'
         },
-        tribe: 'shady',
-        element: 'water',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Water',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Donuts'
     },
@@ -20514,9 +20514,9 @@ const yokais = [
             def: '113',
             spd: '143'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Donuts'
     },
@@ -20561,9 +20561,9 @@ const yokais = [
             def: '113',
             spd: '143'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Donuts'
     },
@@ -20609,9 +20609,9 @@ const yokais = [
             def: '127',
             spd: '158'
         },
-        tribe: 'shady',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Shady',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Donuts'
     },
@@ -20657,9 +20657,9 @@ const yokais = [
             def: '163',
             spd: '149'
         },
-        tribe: 'shady',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Shady',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Donuts'
     },
@@ -20705,9 +20705,9 @@ const yokais = [
             def: '150',
             spd: '106'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Odens'
     },
@@ -20753,9 +20753,9 @@ const yokais = [
             def: '125',
             spd: '219'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Vegetables'
     },
@@ -20800,9 +20800,9 @@ const yokais = [
             def: '155',
             spd: '181'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Vegetables'
     },
@@ -20848,9 +20848,9 @@ const yokais = [
             def: '193',
             spd: '70'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Milks'
     },
@@ -20896,9 +20896,9 @@ const yokais = [
             def: '113',
             spd: '189'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Ramens',
         evolutionIndexes: [122]
@@ -20945,9 +20945,9 @@ const yokais = [
             def: '117',
             spd: '194'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Ramens',
         evolutionIndexes: [122]
@@ -20994,9 +20994,9 @@ const yokais = [
             def: '122',
             spd: '207'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Ramens'
     },
@@ -21042,9 +21042,9 @@ const yokais = [
             def: '220',
             spd: '130'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Meats'
     },
@@ -21090,9 +21090,9 @@ const yokais = [
             def: '265',
             spd: '138'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sweets'
     },
@@ -21138,9 +21138,9 @@ const yokais = [
             def: '102',
             spd: '177'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -21185,9 +21185,9 @@ const yokais = [
             def: '107',
             spd: '180'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -21233,9 +21233,9 @@ const yokais = [
             def: '282',
             spd: '143'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -21281,9 +21281,9 @@ const yokais = [
             def: '155',
             spd: '140'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Odens'
     },
@@ -21329,9 +21329,9 @@ const yokais = [
             def: '65',
             spd: '178'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -21377,9 +21377,9 @@ const yokais = [
             def: '148',
             spd: '165'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -21424,9 +21424,9 @@ const yokais = [
             def: '92',
             spd: '282'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Curries',
         evolutionIndexes: [97]
@@ -21473,9 +21473,9 @@ const yokais = [
             def: '72',
             spd: '179'
         },
-        tribe: 'eerie',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Milks'
     },
@@ -21520,9 +21520,9 @@ const yokais = [
             def: '42',
             spd: '176'
         },
-        tribe: 'eerie',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'hamburgers'
     },
@@ -21567,9 +21567,9 @@ const yokais = [
             def: '88',
             spd: '143'
         },
-        tribe: 'eerie',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Hot Dogs'
     },
@@ -21614,9 +21614,9 @@ const yokais = [
             def: '145',
             spd: '58'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Soft creams'
     },
@@ -21662,9 +21662,9 @@ const yokais = [
             def: '211',
             spd: '88'
         },
-        tribe: 'eerie',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Eerie',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Breads',
         evolutionIndexes: [64]
@@ -21710,9 +21710,9 @@ const yokais = [
             def: '230',
             spd: '64'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Breads'
     },
@@ -21758,9 +21758,9 @@ const yokais = [
             def: '86',
             spd: '142'
         },
-        tribe: 'eerie',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Eerie',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Juices',
         evolutionIndexes: [98]
@@ -21807,9 +21807,9 @@ const yokais = [
             def: '116',
             spd: '159'
         },
-        tribe: 'eerie',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Eerie',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Juices',
         evolutionIndexes: [98]
@@ -21855,9 +21855,9 @@ const yokais = [
             def: '121',
             spd: '133'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Juices',
         evolutionIndexes: [123]
@@ -21903,9 +21903,9 @@ const yokais = [
             def: '144',
             spd: '145'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Juices',
         evolutionIndexes: [123]
@@ -21951,9 +21951,9 @@ const yokais = [
             def: '54',
             spd: '172'
         },
-        tribe: 'eerie',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Juices'
     },
@@ -21999,9 +21999,9 @@ const yokais = [
             def: '135',
             spd: '81'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [99]
@@ -22048,9 +22048,9 @@ const yokais = [
             def: '147',
             spd: '155'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [99]
@@ -22097,9 +22097,9 @@ const yokais = [
             def: '120',
             spd: '119'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'hamburgers'
     },
@@ -22145,9 +22145,9 @@ const yokais = [
             def: '52',
             spd: '188'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Curries',
         evolutionIndexes: [100]
@@ -22194,9 +22194,9 @@ const yokais = [
             def: '63',
             spd: '225'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Curries',
         evolutionIndexes: [100]
@@ -22243,9 +22243,9 @@ const yokais = [
             def: '80',
             spd: '133'
         },
-        tribe: 'eerie',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Breads'
     },
@@ -22290,9 +22290,9 @@ const yokais = [
             def: '113',
             spd: '156'
         },
-        tribe: 'eerie',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Breads'
     },
@@ -22338,9 +22338,9 @@ const yokais = [
             def: '130',
             spd: '169'
         },
-        tribe: 'eerie',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Breads'
     },
@@ -22387,9 +22387,9 @@ const yokais = [
             def: '102',
             spd: '142'
         },
-        tribe: 'eerie',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Curries',
         evolutionIndexes: [101]
@@ -22437,9 +22437,9 @@ const yokais = [
             def: '114',
             spd: '166'
         },
-        tribe: 'eerie',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Curries',
         evolutionIndexes: [101]
@@ -22487,9 +22487,9 @@ const yokais = [
             def: '106',
             spd: '219'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Curries'
     },
@@ -22535,9 +22535,9 @@ const yokais = [
             def: '93',
             spd: '142'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [103]
@@ -22584,9 +22584,9 @@ const yokais = [
             def: '247',
             spd: '91'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [103]
@@ -22633,9 +22633,9 @@ const yokais = [
             def: '182',
             spd: '95'
         },
-        tribe: 'eerie',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [105]
@@ -22682,9 +22682,9 @@ const yokais = [
             def: '169',
             spd: '153'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [105]
@@ -22731,8 +22731,8 @@ const yokais = [
             def: '97',
             spd: '147'
         },
-        tribe: 'eerie',
-        element: 'restoration',
+        tribe: 'Eerie',
+        element: 'Restoration',
         weakness: '-',
         rank: 'd',
         favouriteFood: 'hamburgers'
@@ -22778,9 +22778,9 @@ const yokais = [
             def: '98',
             spd: '149'
         },
-        tribe: 'eerie',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Soft creams'
     },
@@ -22826,9 +22826,9 @@ const yokais = [
             def: '106',
             spd: '162'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Hot Dogs'
     },
@@ -22874,9 +22874,9 @@ const yokais = [
             def: '181',
             spd: '79'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Tempuras'
     },
@@ -22920,9 +22920,9 @@ const yokais = [
             def: '55',
             spd: '156'
         },
-        tribe: 'eerie',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Breads'
     },
@@ -22968,9 +22968,9 @@ const yokais = [
             def: '113',
             spd: '137'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Breads'
     },
@@ -23016,9 +23016,9 @@ const yokais = [
             def: '151',
             spd: '88'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Breads',
         evolutionIndexes: [86]
@@ -23064,9 +23064,9 @@ const yokais = [
             def: '169',
             spd: '65'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Sweets'
     },
@@ -23112,9 +23112,9 @@ const yokais = [
             def: '193',
             spd: '75'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [106]
@@ -23161,9 +23161,9 @@ const yokais = [
             def: '237',
             spd: '78'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Odens',
         evolutionIndexes: [106]
@@ -23210,9 +23210,9 @@ const yokais = [
             def: '121',
             spd: '154'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Sobas',
         evolutionIndexes: [36]
@@ -23259,9 +23259,9 @@ const yokais = [
             def: '65',
             spd: '157'
         },
-        tribe: 'eerie',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Seafoods'
     },
@@ -23307,9 +23307,9 @@ const yokais = [
             def: '98',
             spd: '174'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Snacks'
     },
@@ -23355,9 +23355,9 @@ const yokais = [
             def: '130',
             spd: '153'
         },
-        tribe: 'eerie',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Snacks'
     },
@@ -23403,9 +23403,9 @@ const yokais = [
             def: '124',
             spd: '142'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Odens'
     },
@@ -23451,9 +23451,9 @@ const yokais = [
             def: '40',
             spd: '205'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Seafoods'
     },
@@ -23498,9 +23498,9 @@ const yokais = [
             def: '167',
             spd: '89'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'pizza'
     },
@@ -23546,9 +23546,9 @@ const yokais = [
             def: '81',
             spd: '131'
         },
-        tribe: 'eerie',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Eerie',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Milks'
     },
@@ -23594,9 +23594,9 @@ const yokais = [
             def: '79',
             spd: '228'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Milks'
     },
@@ -23642,9 +23642,9 @@ const yokais = [
             def: '83',
             spd: '172'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Snacks',
         evolutionIndexes: [107]
@@ -23691,9 +23691,9 @@ const yokais = [
             def: '87',
             spd: '225'
         },
-        tribe: 'eerie',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Snacks',
         evolutionIndexes: [107]
@@ -23739,9 +23739,9 @@ const yokais = [
             def: '137',
             spd: '213'
         },
-        tribe: 'eerie',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Curries'
     },
@@ -23787,9 +23787,9 @@ const yokais = [
             def: '189',
             spd: '75'
         },
-        tribe: 'eerie',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Vegetables'
     },
@@ -23835,9 +23835,9 @@ const yokais = [
             def: '71',
             spd: '231'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'pizza'
     },
@@ -23885,9 +23885,9 @@ const yokais = [
             def: '83',
             spd: '183'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Pastas'
     },
@@ -23933,9 +23933,9 @@ const yokais = [
             def: '100',
             spd: '186'
         },
-        tribe: 'eerie',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Eerie',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Milks',
         evolutionIndexes: [108]
@@ -23981,9 +23981,9 @@ const yokais = [
             def: '103',
             spd: '231'
         },
-        tribe: 'eerie',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Eerie',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Milks',
         evolutionIndexes: [108]
@@ -24030,9 +24030,9 @@ const yokais = [
             def: '78',
             spd: '216'
         },
-        tribe: 'eerie',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Milks'
     },
@@ -24078,9 +24078,9 @@ const yokais = [
             def: '134',
             spd: '145'
         },
-        tribe: 'eerie',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Curries'
     },
@@ -24126,9 +24126,9 @@ const yokais = [
             def: '99',
             spd: '230'
         },
-        tribe: 'eerie',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Seafoods'
     },
@@ -24173,9 +24173,9 @@ const yokais = [
             def: '126',
             spd: '170'
         },
-        tribe: 'eerie',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Eerie',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Sushis'
     },
@@ -24221,9 +24221,9 @@ const yokais = [
             def: '267',
             spd: '69'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Tempuras'
     },
@@ -24267,9 +24267,9 @@ const yokais = [
             def: '83',
             spd: '229'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Candies'
     },
@@ -24315,9 +24315,9 @@ const yokais = [
             def: '87',
             spd: '239'
         },
-        tribe: 'eerie',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Candies'
     },
@@ -24363,9 +24363,9 @@ const yokais = [
             def: '130',
             spd: '183'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -24411,9 +24411,9 @@ const yokais = [
             def: '98',
             spd: '170'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -24459,8 +24459,8 @@ const yokais = [
             def: '224',
             spd: '100'
         },
-        tribe: 'eerie',
-        element: 'drain',
+        tribe: 'Eerie',
+        element: 'Drain',
         weakness: '-',
         rank: 's',
         favouriteFood: 'pizza'
@@ -24507,8 +24507,8 @@ const yokais = [
             def: '180',
             spd: '119'
         },
-        tribe: 'eerie',
-        element: 'drain',
+        tribe: 'Eerie',
+        element: 'Drain',
         weakness: '-',
         rank: 's',
         favouriteFood: 'pizza'
@@ -24555,8 +24555,8 @@ const yokais = [
             def: '78',
             spd: '242'
         },
-        tribe: 'eerie',
-        element: 'fire',
+        tribe: 'Eerie',
+        element: 'Fire',
         weakness: '-',
         rank: 's',
         favouriteFood: 'Tempuras'
@@ -24603,9 +24603,9 @@ const yokais = [
             def: '100',
             spd: '137'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Sushis'
     },
@@ -24651,9 +24651,9 @@ const yokais = [
             def: '138',
             spd: '105'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Juices'
     },
@@ -24698,9 +24698,9 @@ const yokais = [
             def: '164',
             spd: '64'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Seafoods'
     },
@@ -24745,9 +24745,9 @@ const yokais = [
             def: '96',
             spd: '151'
         },
-        tribe: 'slippery',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Pastas',
         evolutionIndexes: [109]
@@ -24794,9 +24794,9 @@ const yokais = [
             def: '100',
             spd: '167'
         },
-        tribe: 'slippery',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Pastas',
         evolutionIndexes: [109]
@@ -24842,9 +24842,9 @@ const yokais = [
             def: '58',
             spd: '212'
         },
-        tribe: 'slippery',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [111]
@@ -24891,9 +24891,9 @@ const yokais = [
             def: '83',
             spd: '234'
         },
-        tribe: 'slippery',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [111]
@@ -24940,8 +24940,8 @@ const yokais = [
             def: '78',
             spd: '216'
         },
-        tribe: 'slippery',
-        element: 'ice',
+        tribe: 'Slippery',
+        element: 'Ice',
         weakness: '-',
         rank: 'a',
         favouriteFood: 'hamburgers'
@@ -24988,8 +24988,8 @@ const yokais = [
             def: '27',
             spd: '274'
         },
-        tribe: 'slippery',
-        element: 'restoration',
+        tribe: 'Slippery',
+        element: 'Restoration',
         weakness: '-',
         rank: 'b',
         favouriteFood: 'Donuts'
@@ -25036,9 +25036,9 @@ const yokais = [
             def: '66',
             spd: '115'
         },
-        tribe: 'slippery',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Sweets',
         evolutionIndexes: [61, 112]
@@ -25084,9 +25084,9 @@ const yokais = [
             def: '73',
             spd: '152'
         },
-        tribe: 'slippery',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Sweets',
         evolutionIndexes: [112]
@@ -25133,9 +25133,9 @@ const yokais = [
             def: '99',
             spd: '151'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Meats'
     },
@@ -25180,9 +25180,9 @@ const yokais = [
             def: '211',
             spd: '86'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Seafoods'
     },
@@ -25228,9 +25228,9 @@ const yokais = [
             def: '110',
             spd: '157'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Tempuras'
     },
@@ -25276,9 +25276,9 @@ const yokais = [
             def: '176',
             spd: '120'
         },
-        tribe: 'slippery',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Meats'
     },
@@ -25322,9 +25322,9 @@ const yokais = [
             def: '128',
             spd: '135'
         },
-        tribe: 'slippery',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Slippery',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Meats'
     },
@@ -25369,9 +25369,9 @@ const yokais = [
             def: '196',
             spd: '118'
         },
-        tribe: 'slippery',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Meats'
     },
@@ -25417,9 +25417,9 @@ const yokais = [
             def: '186',
             spd: '104'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [113]
@@ -25466,9 +25466,9 @@ const yokais = [
             def: '225',
             spd: '110'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Odens',
         evolutionIndexes: [113]
@@ -25515,9 +25515,9 @@ const yokais = [
             def: '149',
             spd: '80'
         },
-        tribe: 'slippery',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Meats',
         evolutionIndexes: [114]
@@ -25564,9 +25564,9 @@ const yokais = [
             def: '158',
             spd: '86'
         },
-        tribe: 'slippery',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Meats',
         evolutionIndexes: [114]
@@ -25613,9 +25613,9 @@ const yokais = [
             def: '179',
             spd: '105'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats'
     },
@@ -25661,9 +25661,9 @@ const yokais = [
             def: '173',
             spd: '60'
         },
-        tribe: 'slippery',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Slippery',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Sobas',
         evolutionIndexes: [124]
@@ -25709,9 +25709,9 @@ const yokais = [
             def: '193',
             spd: '77'
         },
-        tribe: 'slippery',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Slippery',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sobas',
         evolutionIndexes: [124]
@@ -25757,9 +25757,9 @@ const yokais = [
             def: '116',
             spd: '146'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [125]
@@ -25805,9 +25805,9 @@ const yokais = [
             def: '133',
             spd: '167'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'hamburgers',
         evolutionIndexes: [125]
@@ -25853,9 +25853,9 @@ const yokais = [
             def: '85',
             spd: '112'
         },
-        tribe: 'slippery',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [126]
@@ -25901,9 +25901,9 @@ const yokais = [
             def: '108',
             spd: '138'
         },
-        tribe: 'slippery',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [126]
@@ -25949,9 +25949,9 @@ const yokais = [
             def: '87',
             spd: '165'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Chinese foods'
     },
@@ -25997,9 +25997,9 @@ const yokais = [
             def: '116',
             spd: '138'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sweets',
         evolutionIndexes: [116, 117]
@@ -26046,9 +26046,9 @@ const yokais = [
             def: '136',
             spd: '167'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sweets',
         evolutionIndexes: [116]
@@ -26095,9 +26095,9 @@ const yokais = [
             def: '158',
             spd: '140'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sweets'
     },
@@ -26143,9 +26143,9 @@ const yokais = [
             def: '124',
             spd: '101'
         },
-        tribe: 'slippery',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Hot Dogs',
         evolutionIndexes: [118]
@@ -26192,9 +26192,9 @@ const yokais = [
             def: '170',
             spd: '126'
         },
-        tribe: 'slippery',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Hot Dogs',
         evolutionIndexes: [118]
@@ -26241,9 +26241,9 @@ const yokais = [
             def: '194',
             spd: '109'
         },
-        tribe: 'slippery',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Hot Dogs'
     },
@@ -26288,9 +26288,9 @@ const yokais = [
             def: '103',
             spd: '130'
         },
-        tribe: 'slippery',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Sweets',
         evolutionIndexes: [119]
@@ -26338,9 +26338,9 @@ const yokais = [
             def: '38',
             spd: '235'
         },
-        tribe: 'slippery',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Soft creams'
     },
@@ -26387,9 +26387,9 @@ const yokais = [
             def: '47',
             spd: '214'
         },
-        tribe: 'slippery',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Soft creams'
     },
@@ -26435,9 +26435,9 @@ const yokais = [
             def: '108',
             spd: '188'
         },
-        tribe: 'slippery',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Slippery',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Candies'
     },
@@ -26483,9 +26483,9 @@ const yokais = [
             def: '122',
             spd: '154'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Seafoods'
     },
@@ -26531,9 +26531,9 @@ const yokais = [
             def: '111',
             spd: '164'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Seafoods'
     },
@@ -26578,8 +26578,8 @@ const yokais = [
             def: '36',
             spd: '234'
         },
-        tribe: 'slippery',
-        element: 'drain',
+        tribe: 'Slippery',
+        element: 'Drain',
         weakness: '-',
         rank: 'c',
         favouriteFood: 'Candies'
@@ -26625,8 +26625,8 @@ const yokais = [
             def: '43',
             spd: '223'
         },
-        tribe: 'slippery',
-        element: 'drain',
+        tribe: 'Slippery',
+        element: 'Drain',
         weakness: '-',
         rank: 'b',
         favouriteFood: 'Candies'
@@ -26672,9 +26672,9 @@ const yokais = [
             def: '123',
             spd: '150'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Vegetables'
     },
@@ -26719,9 +26719,9 @@ const yokais = [
             def: '162',
             spd: '117'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Vegetables'
     },
@@ -26767,9 +26767,9 @@ const yokais = [
             def: '183',
             spd: '125'
         },
-        tribe: 'slippery',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Slippery',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Breads'
     },
@@ -26815,9 +26815,9 @@ const yokais = [
             def: '211',
             spd: '110'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Breads'
     },
@@ -26863,9 +26863,9 @@ const yokais = [
             def: '118',
             spd: '150'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Candies',
         evolutionIndexes: [109]
@@ -26911,9 +26911,9 @@ const yokais = [
             def: '120',
             spd: '162'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Candies',
         evolutionIndexes: [120]
@@ -26960,9 +26960,9 @@ const yokais = [
             def: '170',
             spd: '130'
         },
-        tribe: 'slippery',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Sweets',
         evolutionIndexes: [120]
@@ -27009,9 +27009,9 @@ const yokais = [
             def: '167',
             spd: '156'
         },
-        tribe: 'slippery',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Slippery',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Ramens'
     },
@@ -27056,9 +27056,9 @@ const yokais = [
             def: '231',
             spd: '133'
         },
-        tribe: 'slippery',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'hamburgers'
     },
@@ -27103,9 +27103,9 @@ const yokais = [
             def: '134',
             spd: '164'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chinese foods'
     },
@@ -27150,9 +27150,9 @@ const yokais = [
             def: '202',
             spd: '76'
         },
-        tribe: 'slippery',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Slippery',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Tempuras'
     },
@@ -27198,9 +27198,9 @@ const yokais = [
             def: '126',
             spd: '166'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Seafoods'
     },
@@ -27246,9 +27246,9 @@ const yokais = [
             def: '103',
             spd: '201'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Seafoods'
     },
@@ -27294,9 +27294,9 @@ const yokais = [
             def: '130',
             spd: '142'
         },
-        tribe: 'slippery',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Seafoods'
     },
@@ -27342,9 +27342,9 @@ const yokais = [
             def: '116',
             spd: '166'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Odens'
     },
@@ -27390,9 +27390,9 @@ const yokais = [
             def: '170',
             spd: '104'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Sushis'
     },
@@ -27438,9 +27438,9 @@ const yokais = [
             def: '110',
             spd: '230'
         },
-        tribe: 'slippery',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -27486,9 +27486,9 @@ const yokais = [
             def: '71',
             spd: '168'
         },
-        tribe: 'slippery',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -27534,9 +27534,9 @@ const yokais = [
             def: '155',
             spd: '163'
         },
-        tribe: 'slippery',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -27582,9 +27582,9 @@ const yokais = [
             def: '140',
             spd: '140'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Chocobars'
     },
@@ -27630,8 +27630,8 @@ const yokais = [
             def: '232',
             spd: '130'
         },
-        tribe: 'wandroid',
-        element: 'lightning',
+        tribe: 'Wandroid',
+        element: 'Lightning',
         weakness: '-',
         rank: 'b',
         favouriteFood: 'Curries'
@@ -27678,9 +27678,9 @@ const yokais = [
             def: '256',
             spd: '198'
         },
-        tribe: 'wicked',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Wicked',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Snacks'
     },
@@ -27725,9 +27725,9 @@ const yokais = [
             def: '95',
             spd: '300'
         },
-        tribe: 'wicked',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Wicked',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -27772,9 +27772,9 @@ const yokais = [
             def: '206',
             spd: '122'
         },
-        tribe: 'wicked',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Wicked',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -27820,9 +27820,9 @@ const yokais = [
             def: '145',
             spd: '199'
         },
-        tribe: 'wicked',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Wicked',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Odens'
     },
@@ -27868,9 +27868,9 @@ const yokais = [
             def: '127',
             spd: '156'
         },
-        tribe: 'wicked',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Wicked',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Curries'
     },
@@ -27916,9 +27916,9 @@ const yokais = [
             def: '79',
             spd: '154'
         },
-        tribe: 'wicked',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Wicked',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Odens',
         evolutionIndexes: [13]
@@ -27965,9 +27965,9 @@ const yokais = [
             def: '109',
             spd: '89'
         },
-        tribe: 'wicked',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Wicked',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Odens',
         evolutionIndexes: [15]
@@ -28014,9 +28014,9 @@ const yokais = [
             def: '94',
             spd: '225'
         },
-        tribe: 'wicked',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Wicked',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sweets',
         evolutionIndexes: [121]
@@ -28062,9 +28062,9 @@ const yokais = [
             def: '73',
             spd: '235'
         },
-        tribe: 'wicked',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Wicked',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [70]
@@ -28111,9 +28111,9 @@ const yokais = [
             def: '61',
             spd: '195'
         },
-        tribe: 'wicked',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Wicked',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [71]
@@ -28160,9 +28160,9 @@ const yokais = [
             def: '66',
             spd: '179'
         },
-        tribe: 'wicked',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Wicked',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Snacks',
         evolutionIndexes: [82]
@@ -28209,9 +28209,9 @@ const yokais = [
             def: '40',
             spd: '156'
         },
-        tribe: 'wicked',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Wicked',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Sushis',
         evolutionIndexes: [85]
@@ -28258,9 +28258,9 @@ const yokais = [
             def: '43',
             spd: '164'
         },
-        tribe: 'wicked',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Wicked',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [104]
@@ -28307,9 +28307,9 @@ const yokais = [
             def: '51',
             spd: '171'
         },
-        tribe: 'wicked',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Wicked',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Sweets',
         evolutionIndexes: [117]
@@ -28355,9 +28355,9 @@ const yokais = [
             def: '54',
             spd: '161'
         },
-        tribe: 'wicked',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Wicked',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Sweets',
         evolutionIndexes: [119]
@@ -28403,9 +28403,9 @@ const yokais = [
             def: '91',
             spd: '228'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -28450,9 +28450,9 @@ const yokais = [
             def: '150',
             spd: '167'
         },
-        tribe: 'shady',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Donuts'
     },
@@ -28496,9 +28496,9 @@ const yokais = [
             def: '126',
             spd: '178'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Soft creams'
     },
@@ -28543,9 +28543,9 @@ const yokais = [
             def: '139',
             spd: '167'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Milks'
     },
@@ -28589,9 +28589,9 @@ const yokais = [
             def: '83',
             spd: '225'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Seafoods'
     },
@@ -28638,9 +28638,9 @@ const yokais = [
             def: '61',
             spd: '181'
         },
-        tribe: 'slippery',
-        element: 'drain',
-        weakness: 'earth',
+        tribe: 'Slippery',
+        element: 'Drain',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Soft creams'
     },
@@ -28686,9 +28686,9 @@ const yokais = [
             def: '121',
             spd: '239'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Curries'
     },
@@ -28734,9 +28734,9 @@ const yokais = [
             def: '137',
             spd: '186'
         },
-        tribe: 'mysterious',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Mysterious',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -28782,9 +28782,9 @@ const yokais = [
             def: '276',
             spd: '123'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Odens'
     },
@@ -28830,9 +28830,9 @@ const yokais = [
             def: '182',
             spd: '156'
         },
-        tribe: 'slippery',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -28878,9 +28878,9 @@ const yokais = [
             def: '162',
             spd: '150'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -28926,9 +28926,9 @@ const yokais = [
             def: '151',
             spd: '183'
         },
-        tribe: 'brave',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Brave',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Pastas'
     },
@@ -28975,9 +28975,9 @@ const yokais = [
             def: '167',
             spd: '138'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'hamburgers'
     },
@@ -29023,9 +29023,9 @@ const yokais = [
             def: '211',
             spd: '140'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'pizza'
     },
@@ -29072,9 +29072,9 @@ const yokais = [
             def: '143',
             spd: '236'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -29119,9 +29119,9 @@ const yokais = [
             def: '112',
             spd: '246'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Soft creams'
     },
@@ -29167,8 +29167,8 @@ const yokais = [
             def: '260',
             spd: '180'
         },
-        tribe: 'tough',
-        element: 'lightning',
+        tribe: 'Tough',
+        element: 'Lightning',
         weakness: '-',
         rank: 's',
         favouriteFood: 'pizza'
@@ -29215,9 +29215,9 @@ const yokais = [
             def: '84',
             spd: '177'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -29263,9 +29263,9 @@ const yokais = [
             def: '128',
             spd: '259'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -29310,9 +29310,9 @@ const yokais = [
             def: '157',
             spd: '140'
         },
-        tribe: 'mysterious',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Mysterious',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Soft creams'
     },
@@ -29357,9 +29357,9 @@ const yokais = [
             def: '236',
             spd: '116'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -29405,9 +29405,9 @@ const yokais = [
             def: '110',
             spd: '261'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sweets'
     },
@@ -29453,9 +29453,9 @@ const yokais = [
             def: '115',
             spd: '172'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Rice balls'
     },
@@ -29501,9 +29501,9 @@ const yokais = [
             def: '147',
             spd: '186'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Curries'
     },
@@ -29549,9 +29549,9 @@ const yokais = [
             def: '112',
             spd: '235'
         },
-        tribe: 'eerie',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Eerie',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Chinese foods'
     },
@@ -29597,9 +29597,9 @@ const yokais = [
             def: '140',
             spd: '113'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -29644,9 +29644,9 @@ const yokais = [
             def: '180',
             spd: '141'
         },
-        tribe: 'eerie',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Eerie',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Odens'
     },
@@ -29691,9 +29691,9 @@ const yokais = [
             def: '134',
             spd: '240'
         },
-        tribe: 'charming',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -29739,9 +29739,9 @@ const yokais = [
             def: '168',
             spd: '173'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -29787,9 +29787,9 @@ const yokais = [
             def: '268',
             spd: '181'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -29834,9 +29834,9 @@ const yokais = [
             def: '154',
             spd: '229'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -29882,9 +29882,9 @@ const yokais = [
             def: '147',
             spd: '261'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -29930,9 +29930,9 @@ const yokais = [
             def: '160',
             spd: '253'
         },
-        tribe: 'brave',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Brave',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -29978,9 +29978,9 @@ const yokais = [
             def: '158',
             spd: '124'
         },
-        tribe: 'mysterious',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Mysterious',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Curries'
     },
@@ -30026,9 +30026,9 @@ const yokais = [
             def: '289',
             spd: '58'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Sushis'
     },
@@ -30074,9 +30074,9 @@ const yokais = [
             def: '500',
             spd: '58'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'sukiyaki'
     },
@@ -30122,9 +30122,9 @@ const yokais = [
             def: '241',
             spd: '103'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Milks'
     },
@@ -30169,9 +30169,9 @@ const yokais = [
             def: '301',
             spd: '99'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -30217,9 +30217,9 @@ const yokais = [
             def: '249',
             spd: '106'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -30264,9 +30264,9 @@ const yokais = [
             def: '296',
             spd: '99'
         },
-        tribe: 'tough',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Tough',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Odens'
     },
@@ -30312,9 +30312,9 @@ const yokais = [
             def: '253',
             spd: '152'
         },
-        tribe: 'tough',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Tough',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Chocobars'
     },
@@ -30360,9 +30360,9 @@ const yokais = [
             def: '102',
             spd: '119'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Vegetables'
     },
@@ -30408,9 +30408,9 @@ const yokais = [
             def: '123',
             spd: '187'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Sweets'
     },
@@ -30457,9 +30457,9 @@ const yokais = [
             def: '87',
             spd: '145'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Sweets'
     },
@@ -30505,9 +30505,9 @@ const yokais = [
             def: '139',
             spd: '193'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sushis'
     },
@@ -30553,9 +30553,9 @@ const yokais = [
             def: '102',
             spd: '224'
         },
-        tribe: 'charming',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Charming',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Chocobars'
     },
@@ -30601,9 +30601,9 @@ const yokais = [
             def: '116',
             spd: '201'
         },
-        tribe: 'charming',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Charming',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Soft creams'
     },
@@ -30649,8 +30649,8 @@ const yokais = [
             def: '235',
             spd: '79'
         },
-        tribe: 'charming',
-        element: 'restoration',
+        tribe: 'Charming',
+        element: 'Restoration',
         weakness: '-',
         rank: 's',
         favouriteFood: 'sukiyaki'
@@ -30696,9 +30696,9 @@ const yokais = [
             def: '109',
             spd: '226'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'sukiyaki'
     },
@@ -30744,9 +30744,9 @@ const yokais = [
             def: '114',
             spd: '143'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [73]
@@ -30793,9 +30793,9 @@ const yokais = [
             def: '105',
             spd: '168'
         },
-        tribe: 'heartful',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Heartful',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Snacks'
     },
@@ -30840,9 +30840,9 @@ const yokais = [
             def: '126',
             spd: '85'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Snacks',
         evolutionIndexes: [115]
@@ -30889,9 +30889,9 @@ const yokais = [
             def: '141',
             spd: '164'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Donuts'
     },
@@ -30936,9 +30936,9 @@ const yokais = [
             def: '89',
             spd: '76'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'lightning',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Soft creams'
     },
@@ -30983,9 +30983,9 @@ const yokais = [
             def: '175',
             spd: '176'
         },
-        tribe: 'shady',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Shady',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'sukiyaki'
     },
@@ -31031,9 +31031,9 @@ const yokais = [
             def: '100',
             spd: '100'
         },
-        tribe: 'shady',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Shady',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Sobas'
     },
@@ -31079,9 +31079,9 @@ const yokais = [
             def: '121',
             spd: '173'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Soft creams'
     },
@@ -31127,9 +31127,9 @@ const yokais = [
             def: '142',
             spd: '163'
         },
-        tribe: 'shady',
-        element: 'restoration',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Restoration',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'sukiyaki'
     },
@@ -31175,9 +31175,9 @@ const yokais = [
             def: '151',
             spd: '163'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'sukiyaki'
     },
@@ -31223,9 +31223,9 @@ const yokais = [
             def: '173',
             spd: '129'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -31271,9 +31271,9 @@ const yokais = [
             def: '88',
             spd: '65'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -31319,8 +31319,8 @@ const yokais = [
             def: '155',
             spd: '137'
         },
-        tribe: 'shady',
-        element: 'drain',
+        tribe: 'Shady',
+        element: 'Drain',
         weakness: '-',
         rank: 's',
         favouriteFood: 'Chinese foods'
@@ -31367,9 +31367,9 @@ const yokais = [
             def: '128',
             spd: '193'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Juices'
     },
@@ -31415,9 +31415,9 @@ const yokais = [
             def: '210',
             spd: '129'
         },
-        tribe: 'eerie',
-        element: 'drain',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Drain',
+        weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Hot Dogs'
     },
@@ -31462,9 +31462,9 @@ const yokais = [
             def: '98',
             spd: '224'
         },
-        tribe: 'eerie',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Eerie',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Snacks'
     },
@@ -31510,9 +31510,9 @@ const yokais = [
             def: '88',
             spd: '225'
         },
-        tribe: 'slippery',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Slippery',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Soft creams'
     },
@@ -31558,9 +31558,9 @@ const yokais = [
             def: '122',
             spd: '235'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Ramens'
     },
@@ -31606,9 +31606,9 @@ const yokais = [
             def: '123',
             spd: '159'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'earth',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Sushis'
     },
@@ -31654,9 +31654,9 @@ const yokais = [
             def: '217',
             spd: '78'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Curries'
     },
@@ -31702,9 +31702,9 @@ const yokais = [
             def: '223',
             spd: '82'
         },
-        tribe: 'tough',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Tough',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -31750,9 +31750,9 @@ const yokais = [
             def: '72',
             spd: '221'
         },
-        tribe: 'charming',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Charming',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'sukiyaki'
     },
@@ -31798,9 +31798,9 @@ const yokais = [
             def: '215',
             spd: '81'
         },
-        tribe: 'heartful',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'sukiyaki'
     },
@@ -31846,9 +31846,9 @@ const yokais = [
             def: '158',
             spd: '176'
         },
-        tribe: 'shady',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Shady',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -31894,9 +31894,9 @@ const yokais = [
             def: '159',
             spd: '177'
         },
-        tribe: 'eerie',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Breads'
     },
@@ -31941,9 +31941,9 @@ const yokais = [
             def: '143',
             spd: '176'
         },
-        tribe: 'charming',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sweets'
     },
@@ -31989,9 +31989,9 @@ const yokais = [
             def: '70',
             spd: '171'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Milks'
     },
@@ -32037,9 +32037,9 @@ const yokais = [
             def: '131',
             spd: '132'
         },
-        tribe: 'eerie',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Eerie',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -32086,9 +32086,9 @@ const yokais = [
             def: '145',
             spd: '101'
         },
-        tribe: 'slippery',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Slippery',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras'
     },
@@ -32134,9 +32134,9 @@ const yokais = [
             def: '165',
             spd: '86'
         },
-        tribe: 'slippery',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Slippery',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'sukiyaki'
     },
@@ -32182,8 +32182,8 @@ const yokais = [
             def: '200',
             spd: '200'
         },
-        tribe: 'enma',
-        element: 'fire',
+        tribe: 'Enma',
+        element: 'Fire',
         weakness: '-',
         rank: 's',
         favouriteFood: 'Candies'
@@ -32230,8 +32230,8 @@ const yokais = [
             def: '139',
             spd: '263'
         },
-        tribe: 'brave',
-        element: 'restoration',
+        tribe: 'Brave',
+        element: 'Restoration',
         weakness: '-',
         rank: 's',
         favouriteFood: 'Tempuras'
@@ -32278,9 +32278,9 @@ const yokais = [
             def: '102',
             spd: '76'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -32325,8 +32325,8 @@ const yokais = [
             def: '115',
             spd: '89'
         },
-        tribe: 'enma',
-        element: 'fire',
+        tribe: 'Enma',
+        element: 'Fire',
         weakness: '-',
         rank: 's',
         favouriteFood: 'Odens'
@@ -32372,8 +32372,8 @@ const yokais = [
             def: '210',
             spd: '210'
         },
-        tribe: 'enma',
-        element: 'lightning',
+        tribe: 'Enma',
+        element: 'Lightning',
         weakness: '-',
         rank: 's',
         favouriteFood: 'sukiyaki'
@@ -32419,9 +32419,9 @@ const yokais = [
             def: '129',
             spd: '218'
         },
-        tribe: 'slippery',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Slippery',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -32466,9 +32466,9 @@ const yokais = [
             def: '158',
             spd: '144'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'sukiyaki'
     },
@@ -32513,9 +32513,9 @@ const yokais = [
             def: '131',
             spd: '168'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'wind',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Sobas'
     },
@@ -32561,9 +32561,9 @@ const yokais = [
             def: '267',
             spd: '179'
         },
-        tribe: 'tough',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Tough',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Meats'
     },
@@ -32609,9 +32609,9 @@ const yokais = [
             def: '183',
             spd: '179'
         },
-        tribe: 'tough',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Tough',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Seafoods'
     },
@@ -32657,9 +32657,9 @@ const yokais = [
             def: '150',
             spd: '171'
         },
-        tribe: 'shady',
-        element: 'wind',
-        weakness: 'ice',
+        tribe: 'Shady',
+        element: 'Wind',
+        weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'sukiyaki'
     },
@@ -32704,9 +32704,9 @@ const yokais = [
             def: '43',
             spd: '213'
         },
-        tribe: 'eerie',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'b',
         favouriteFood: 'sukiyaki'
     },
@@ -32752,9 +32752,9 @@ const yokais = [
             def: '229',
             spd: '93'
         },
-        tribe: 'brave',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Brave',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sweets'
     },
@@ -32800,9 +32800,9 @@ const yokais = [
             def: '230',
             spd: '93'
         },
-        tribe: 'brave',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Brave',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sobas'
     },
@@ -32848,9 +32848,9 @@ const yokais = [
             def: '225',
             spd: '101'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Seafoods'
     },
@@ -32896,9 +32896,9 @@ const yokais = [
             def: '219',
             spd: '98'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Vegetables'
     },
@@ -32944,9 +32944,9 @@ const yokais = [
             def: '40',
             spd: '291'
         },
-        tribe: 'shady',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Shady',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'pizza'
     },
@@ -32992,9 +32992,9 @@ const yokais = [
             def: '130',
             spd: '236'
         },
-        tribe: 'charming',
-        element: 'ice',
-        weakness: 'fire',
+        tribe: 'Charming',
+        element: 'Ice',
+        weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Candies'
     },
@@ -33040,9 +33040,9 @@ const yokais = [
             def: '157',
             spd: '147'
         },
-        tribe: 'charming',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Charming',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Milks'
     },
@@ -33087,8 +33087,8 @@ const yokais = [
             def: '210',
             spd: '210'
         },
-        tribe: 'enma',
-        element: 'fire',
+        tribe: 'Enma',
+        element: 'Fire',
         weakness: '-',
         rank: 's',
         favouriteFood: 'Sushis'
@@ -33134,8 +33134,8 @@ const yokais = [
             def: '205',
             spd: '300'
         },
-        tribe: 'enma',
-        element: 'lightning',
+        tribe: 'Enma',
+        element: 'Lightning',
         weakness: '-',
         rank: 's',
         favouriteFood: 'Tempuras'
@@ -33182,8 +33182,8 @@ const yokais = [
             def: '220',
             spd: '210'
         },
-        tribe: 'enma',
-        element: 'wind',
+        tribe: 'Enma',
+        element: 'Wind',
         weakness: '-',
         rank: 's',
         favouriteFood: 'sukiyaki'
@@ -33229,9 +33229,9 @@ const yokais = [
             def: '121',
             spd: '193'
         },
-        tribe: 'slippery',
-        element: 'water',
-        weakness: 'lightning',
+        tribe: 'Slippery',
+        element: 'Water',
+        weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Seafoods'
     },
@@ -33277,9 +33277,9 @@ const yokais = [
             def: '189',
             spd: '181'
         },
-        tribe: 'mysterious',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Mysterious',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Sushis'
     },
@@ -33325,9 +33325,9 @@ const yokais = [
             def: '120',
             spd: '208'
         },
-        tribe: 'eerie',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Eerie',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats'
     },
@@ -33373,9 +33373,9 @@ const yokais = [
             def: '139',
             spd: '234'
         },
-        tribe: 'heartful',
-        element: 'restoration',
-        weakness: 'fire',
+        tribe: 'Heartful',
+        element: 'Restoration',
+        weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Milks'
     },
@@ -33421,9 +33421,9 @@ const yokais = [
             def: '187',
             spd: '236'
         },
-        tribe: 'charming',
-        element: 'restoration',
-        weakness: 'ice',
+        tribe: 'Charming',
+        element: 'Restoration',
+        weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Vegetables'
     },
@@ -33469,9 +33469,9 @@ const yokais = [
             def: '224',
             spd: '106'
         },
-        tribe: 'slippery',
-        element: 'earth',
-        weakness: 'wind',
+        tribe: 'Slippery',
+        element: 'Earth',
+        weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Rice balls'
     },
@@ -33516,9 +33516,9 @@ const yokais = [
             def: '158',
             spd: '71'
         },
-        tribe: 'brave',
-        element: 'lightning',
-        weakness: 'earth',
+        tribe: 'Brave',
+        element: 'Lightning',
+        weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Curries'
     },
@@ -33564,9 +33564,9 @@ const yokais = [
             def: '5',
             spd: '65'
         },
-        tribe: 'brave',
-        element: 'fire',
-        weakness: 'water',
+        tribe: 'Brave',
+        element: 'Fire',
+        weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats'
     },
@@ -33585,7 +33585,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33606,7 +33606,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33627,7 +33627,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33648,7 +33648,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33669,7 +33669,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33690,7 +33690,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33711,7 +33711,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33732,7 +33732,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33753,7 +33753,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33774,7 +33774,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33795,7 +33795,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33816,7 +33816,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33837,7 +33837,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33858,7 +33858,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33879,7 +33879,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33900,7 +33900,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33921,7 +33921,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33942,7 +33942,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33963,7 +33963,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -33984,7 +33984,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34005,7 +34005,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34026,7 +34026,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34047,7 +34047,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34068,7 +34068,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34089,7 +34089,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34110,7 +34110,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34131,7 +34131,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34152,7 +34152,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34173,7 +34173,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34194,7 +34194,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34215,7 +34215,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34236,7 +34236,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34257,7 +34257,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34278,7 +34278,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34299,7 +34299,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34320,7 +34320,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34341,7 +34341,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34362,7 +34362,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34383,7 +34383,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34404,7 +34404,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34425,7 +34425,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34446,7 +34446,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34467,7 +34467,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34488,7 +34488,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34509,7 +34509,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34530,7 +34530,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34551,7 +34551,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34572,7 +34572,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34593,7 +34593,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34614,7 +34614,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34635,7 +34635,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34656,7 +34656,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34677,7 +34677,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',
@@ -34698,7 +34698,7 @@ const yokais = [
         soultime: {},
         inspirit: {},
         stats: {},
-        tribe: 'boss',
+        tribe: 'Boss',
         element: '',
         weakness: '',
         rank: '',

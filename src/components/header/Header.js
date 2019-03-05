@@ -32,10 +32,10 @@ class Header extends Component {
 
         if (
             locationChanged &&
-            !location.pathname.match(`/yokai-watch-${gameVersion}/`)
+            document.location.hash.match(`/yokai-watch-${gameVersion}/`)
         ) {
             this.setState({
-                linkTo: location.pathname
+                linkTo: `/yokai-watch-${gameVersion}`
             });
         } else {
             this.setState({

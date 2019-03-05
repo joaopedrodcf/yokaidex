@@ -139,6 +139,7 @@ class Main extends Component {
             'Slippery',
             'Tough',
             'Wicked',
+            'Enma',
             'Boss'
         ];
         const ranksCheckbox = ['A', 'B', 'C', 'D', 'E', 'S'];

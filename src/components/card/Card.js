@@ -68,19 +68,21 @@ const Card = ({
                 <SLabelText>{tribe}</SLabelText>
             </SLabel>
 
-            <SLabel
-                backgroundColor={utils.getColor(elements, element)}
-                color={utils.getSecondaryColor(elements, element)}
-            >
-                <SLabelText>
-                    <Image
-                        imageUrl={utils.getImage(elements, element)}
-                        altText={element}
-                        size="small"
-                    />
-                </SLabelText>
-                <SLabelText>{element}</SLabelText>
-            </SLabel>
+            {tribe !== 'Boss' && (
+                <SLabel
+                    backgroundColor={utils.getColor(elements, element)}
+                    color={utils.getSecondaryColor(elements, element)}
+                >
+                    <SLabelText>
+                        <Image
+                            imageUrl={utils.getImage(elements, element)}
+                            altText={element}
+                            size="small"
+                        />
+                    </SLabelText>
+                    <SLabelText>{element}</SLabelText>
+                </SLabel>
+            )}
         </Sections>
 
         <Sections>
@@ -92,7 +94,7 @@ const Card = ({
             </STable>
         </Sections>
 
-        {tribe !== 'boss' && (
+        {tribe !== 'Boss' && (
             <>
                 <Sections>
                     <STable>
@@ -116,7 +118,9 @@ const Card = ({
                             Locations
                         </STableTitle>
                         <STableText>
-                            {locations.map(location => location)}
+                            {locations.map(location => (
+                                <div>{location}</div>
+                            ))}
                         </STableText>
                     </STable>
                 </Sections>
