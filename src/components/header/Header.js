@@ -1,8 +1,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 
-import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Link } from 'react-router-dom';
+import React from 'react';
 import { withRouter } from 'react-router';
 import Container from './style';
 
@@ -17,54 +16,27 @@ const getHeader = gameVersion => {
     return 'Yokaidex';
 };
 
-class Header extends Component {
-    constructor(props) {
-        super(props);
+function Header(props) {
+    const { onSetSidebarOpen, gameVersion, history } = props;
 
-        this.state = {
-            linkTo: '/'
-        };
-    }
-
-    componentWillReceiveProps() {
-        const { gameVersion } = this.props;
-
-        if (document.location.hash.match(`/yokai-watch-${gameVersion}/`)) {
-            this.setState({
-                linkTo: `/yokai-watch-${gameVersion}`
-            });
-        } else {
-            this.setState({
-                linkTo: '/'
-            });
-        }
-    }
-
-    render() {
-        const { onSetSidebarOpen, gameVersion } = this.props;
-        const { linkTo } = this.state;
-
-        return (
-            <Container>
-                {document.location.hash.match(
-                    `/yokai-watch-${gameVersion}/`
-                ) ? (
-                    <div>
-                        <Link to={linkTo}>
-                            <FontAwesomeIcon icon="arrow-left" />
-                        </Link>
-                    </div>
-                ) : (
-                    <div role="presentation" onClick={onSetSidebarOpen}>
-                        <FontAwesomeIcon icon="bars" />
-                    </div>
-                )}
+    return (
+        <Container>
+            {document.location.hash.match(`/yokai-watch-${gameVersion}/`) ? (
                 <div>
-                    <h1>{getHeader(gameVersion)}</h1>
+                    <div role="presentation" onClick={history.goBack}>
+                        <FontAwesomeIcon icon="arrow-left" />
+                    </div>
                 </div>
-            </Container>
-        );
-    }
+            ) : (
+                <div role="presentation" onClick={onSetSidebarOpen}>
+                    <FontAwesomeIcon icon="bars" />
+                </div>
+            )}
+            <div>
+                <h1>{getHeader(gameVersion)}</h1>
+            </div>
+        </Container>
+    );
 }
 
 export default withRouter(Header);
