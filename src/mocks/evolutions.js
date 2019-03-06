@@ -529,7 +529,7 @@ const evolutions = [
             {
                 name: 'Mister Sandmeh',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mister_sandmeh.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mr._sandmeh.png'
             },
             {
                 name: 'Naandhi',
@@ -968,12 +968,12 @@ const evolutions = [
             {
                 name: 'Shipshape Sailor',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/shipshape_sailor.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ship._sailor.png'
             },
             {
                 name: 'Admirable Admiral',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/admirable_admiral.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/adm._admiral.png'
             }
         ]
     },
@@ -1571,7 +1571,7 @@ const evolutions = [
             {
                 name: 'Mister Sandmeh',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mister_sandmeh.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mr._sandmeh.png'
             }
         ]
     },

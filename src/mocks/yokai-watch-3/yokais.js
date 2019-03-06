@@ -55,7 +55,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flippit.png',
         description:
             "Appears besides those fast asleep and flips over their pillows. If you've ever had a restless night, he's probably paid you a visit.",
-        locations: ['Blossom Heights - Brushwoods'],
+        locations: ['Blossom Heights - Bushes'],
         skill: {
             name: 'Antifreeze',
             description: 'Reduces Ice elemental damage taken by all allies.'
@@ -8397,7 +8397,7 @@ const yokais = [
         evolutionIndexes: [47]
     },
     {
-        name: 'Ship. Sailor',
+        name: 'Shipshape Sailor',
         yokaiNumber: '175',
         bossNumber: '000',
         image:
@@ -8446,7 +8446,7 @@ const yokais = [
         evolutionIndexes: [48]
     },
     {
-        name: 'Adm. Admiral',
+        name: 'Admirable Admiral',
         yokaiNumber: '176',
         bossNumber: '000',
         image:
@@ -11814,7 +11814,7 @@ const yokais = [
         favouriteFood: 'Chocobars'
     },
     {
-        name: 'Jiban. Liu Bei',
+        name: 'Jibanyan Liu Bei',
         yokaiNumber: '246',
         bossNumber: '000',
         image:
@@ -11857,7 +11857,7 @@ const yokais = [
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
-        rank: 'c',
+        rank: 's',
         favouriteFood: 'Chocobars'
     },
     {
@@ -12973,7 +12973,10 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wondernyan.png',
         description:
             'Never without his bandanna and sword, this wandering cat Yo-kai has visited many distant lands.',
-        locations: ['Crank-a-Kai (BBQ)'],
+        locations: [
+            'Crank-a-Kai (BBQ)',
+            "Daily battle in Grumbler's grotto after obtaining diamond drill"
+        ],
         skill: {
             name: 'Long Lasting',
             description: 'Charms will last longer.'
