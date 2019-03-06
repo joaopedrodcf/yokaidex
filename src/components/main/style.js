@@ -97,4 +97,8 @@ export const FilterButtons = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
+    > button:nth-child(1) {
+        margin-right: 12px;
+    }
 `;
