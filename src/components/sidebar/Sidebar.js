@@ -63,6 +63,12 @@ class Sidebar extends Component {
                         <SCNavLink to={`/yokai-watch-${gameVersion}/about-us`}>
                             <FontAwesomeIcon icon="info-circle" /> About us
                         </SCNavLink>
+
+                        <SCNavLink
+                            to={`/yokai-watch-${gameVersion}/contact-us`}
+                        >
+                            <FontAwesomeIcon icon="envelope" /> Contact us
+                        </SCNavLink>
                     </Sections>
                     <Sections showBorder>
                         <SectionsHeader>Game Version</SectionsHeader>

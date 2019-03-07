@@ -9,6 +9,7 @@ import yokaisGame2 from './mocks/yokai-watch-2/yokais';
 import yokaisGame3 from './mocks/yokai-watch-3/yokais';
 import BaffleBoard from './components/baffle-board';
 import AboutUs from './components/about-us';
+import ContactUs from './components/contact-us/ContactUs';
 
 const history = createHistory();
 history.listen(location => {
@@ -80,6 +81,11 @@ class Routes extends Component {
                     exact
                     path="/yokai-watch-:version/about-us"
                     render={() => <AboutUs />}
+                />
+                <Route
+                    exact
+                    path="/yokai-watch-:version/contact-us"
+                    render={() => <ContactUs />}
                 />
                 <Route
                     exact
