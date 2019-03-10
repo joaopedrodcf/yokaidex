@@ -4,11 +4,9 @@ import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
 import Card from './components/card';
 import Main from './components/main';
-import yokaisGame1 from './mocks/yokai-watch-1/yokais';
-import yokaisGame2 from './mocks/yokai-watch-2/yokais';
-import yokaisGame3 from './mocks/yokai-watch-3/yokais';
 import BaffleBoard from './components/baffle-board';
 import AboutUs from './components/about-us';
+import ItemCard from './components/item-card';
 
 const history = createHistory();
 history.listen(location => {
@@ -18,20 +16,7 @@ history.listen(location => {
     ReactGA.pageview(page);
 });
 
-const getYokai = (name, version) => {
-    let yokais;
-    switch (version) {
-        case '1':
-            yokais = yokaisGame1;
-            break;
-        case '2':
-            yokais = yokaisGame2;
-            break;
-        default:
-            yokais = yokaisGame3;
-            break;
-    }
-
+const getYokai = (yokais, name) => {
     if (name.includes('_boss')) {
         return yokais.find(
             yokai =>
@@ -43,6 +28,11 @@ const getYokai = (name, version) => {
     return yokais.find(yokai => yokai.name === name);
 };
 
+const getItem = (items, name) => items.find(item => item.name === name);
+
+const getEquipment = (equipments, name) =>
+    equipments.find(item => item.name === name);
+
 class Routes extends Component {
     componentDidMount() {
         const page = window.location.hash.replace('#', '');
@@ -51,7 +41,14 @@ class Routes extends Component {
     }
 
     render() {
-        const { gameVersion, yokais, baffleBoard } = this.props;
+        const {
+            gameVersion,
+            yokais,
+            baffleBoard,
+            items,
+            equipments
+        } = this.props;
+
         return (
             <Switch>
                 <Route
@@ -87,7 +84,31 @@ class Routes extends Component {
                     render={props => (
                         <Card
                             gameVersion={gameVersion}
-                            {...getYokai(props.match.params.name, gameVersion)}
+                            {...getYokai(yokais, props.match.params.name)}
+                        />
+                    )}
+                />
+                <Route
+                    exact
+                    path="/yokai-watch-:version/items/:name"
+                    render={props => (
+                        <ItemCard
+                            gameVersion={gameVersion}
+                            {...getItem(items, props.match.params.name)}
+                        />
+                    )}
+                />
+
+                <Route
+                    exact
+                    path="/yokai-watch-:version/equipments/:name"
+                    render={props => (
+                        <ItemCard
+                            gameVersion={gameVersion}
+                            {...getEquipment(
+                                equipments,
+                                props.match.params.name
+                            )}
                         />
                     )}
                 />

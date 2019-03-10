@@ -748,7 +748,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legendary_blade.png',
         description: 'This sword was forged by a master to mete out justice.',
         effect: '',
-        locations: [null],
+        locations: ['Triangle Lottery', 'Blasters T (Enma Palace 5)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -767,7 +767,7 @@ const items = [
         description:
             'A cursed sword that draws its owner toward a tragic future.',
         effect: '',
-        locations: [null],
+        locations: ['Triangle Lottery', 'Blasters T (Enma Palace 5)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -786,7 +786,11 @@ const items = [
         description:
             'Said to house holy power, this sword is over 10,000 years old!',
         effect: '',
-        locations: [null],
+        locations: [
+            'Triangle Lottery',
+            'Blasters T (Blazing aura)',
+            'Super/Ultra Red Coin'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -805,7 +809,7 @@ const items = [
         description:
             'The spirit of a legendary general. Linked to a particular Yo-kai.',
         effect: '',
-        locations: [null],
+        locations: ['Jungle Hunter', 'Blasters T (Cluphinx Spade Mouth 2)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -824,7 +828,10 @@ const items = [
         description:
             'This wackily strong weapon can only be used by popular folks.',
         effect: '',
-        locations: ['Feminine Fracas!'],
+        locations: [
+            'Scrapyard Crane mini game item',
+            'Quest - Feminine Fracas!'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -842,7 +849,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ghz_orb.png',
         description: 'A ball encasing electric waves. A zap could fry you!',
         effect: '',
-        locations: [null],
+        locations: ['Triangle Lottery', 'Blasters T (Cluvian Keyhole 1)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -861,7 +868,7 @@ const items = [
         description:
             'The spirit of a great warrior. Related to a horned Yo-kai.',
         effect: '',
-        locations: [null],
+        locations: ['Jungle Hunter'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -879,7 +886,11 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/platinum_bar.png',
         description: "A bar of pure platinum. It's heavy!",
         effect: '',
-        locations: ['Oh My Swirls! A Busted Watch!'],
+        locations: [
+            'Blasters T (Tornado aura/Labyrinth of Treasures)',
+            'Super/Ultra Orange Coin',
+            'Quest - Oh My Swirls! A Busted Watch!'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -898,7 +909,7 @@ const items = [
         description:
             'A white-chased blue cape for the king of a snowy mountain.',
         effect: '',
-        locations: [null],
+        locations: ['Clown Time reward', 'Blasters T (Blizzaria EX aura)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -916,7 +927,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/love_scepter.png',
         description: "It's a scepter for a nobleman of love. NOT just a stick.",
         effect: '',
-        locations: [null],
+        locations: [
+            'Triangle Lottery',
+            'San Fantastico - Sea Ring: Tattleterror (15%)'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -935,7 +949,7 @@ const items = [
         description:
             'A hair clip made of unmelting ice. It houses a lot of power.',
         effect: '',
-        locations: [null],
+        locations: ['Blasters T (Blizzaria Aura)', 'Super/Ultra/Pink Coin'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -953,7 +967,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/buff_weight.png',
         description: 'Training with this hefty dumbbell will buff you up!',
         effect: '',
-        locations: ['Jungle Hunter'],
+        locations: ['Jungle Hunter', 'BBQ Southmond (Wanted Points)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -972,7 +986,11 @@ const items = [
         description:
             'A dangerous shard that awakens the evil in a timid devil.',
         effect: '',
-        locations: ['Inspector '],
+        locations: [
+            'BBQ Southmond (Wanted Points)',
+            'Blasters T (Abyss aura)',
+            'Super/Ultra Blue Coin'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -991,7 +1009,11 @@ const items = [
         description:
             "A facial powder made of human souls. It'll make you younger.",
         effect: '',
-        locations: [null],
+        locations: [
+            'San Fantastico - Sea Ring: Tattleterror (0.7%)',
+            'Blasters T (Heavenly Aura)',
+            'Super/Ultra/Purple Coin'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1009,7 +1031,11 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/dragon_orb.png',
         description: 'An orb of unbelievable beauty. Full of dragon energy.',
         effect: '',
-        locations: ['A Ghost Club Odyssey'],
+        locations: [
+            'Blasters T (Storm aura)',
+            'Super/Ultra/Light-Blue Coin',
+            'Quest - A Ghost Club Odyssey'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1028,7 +1054,7 @@ const items = [
         description:
             'This will turn anyone into a rambunctious, one-person riot.',
         effect: '',
-        locations: ['Inspector '],
+        locations: ['BBQ Southmond (Wanted Points)', 'Zombie/Endless Night'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1046,7 +1072,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sand_suit.png',
         description: 'This unique suit gets especially heavy when it rains.',
         effect: '',
-        locations: [null],
+        locations: ['Triangle Lottery'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1065,7 +1091,11 @@ const items = [
         description:
             'Drinking this bestows godlike powers, so handle it with care.',
         effect: '',
-        locations: ['Wild Hunters'],
+        locations: [
+            'Wild Hunters (Dukesville)',
+            'Blasters T (Whirlpool aura)',
+            'Super/Ultra/Green Coin'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1084,7 +1114,7 @@ const items = [
         description:
             "A jinxed journal that you'll regret sneaking a peek into...",
         effect: '',
-        locations: [null],
+        locations: ['Triangle Lottery', 'Blasters T (Darkness aura)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1102,7 +1132,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/horn.png',
         description: 'A horn that emits a deafening blast, audible miles away.',
         effect: '',
-        locations: ['Wild Hunters'],
+        locations: ['Wild Hunters (Dukesville)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1121,7 +1151,10 @@ const items = [
         description:
             'A memory-inhaling device. It also has a setting for exhaling them.',
         effect: '',
-        locations: ['The Sorrows of Old Zomboy'],
+        locations: [
+            'Blasters T (Whirlwind aura)',
+            'Quest - The Sorrows of Old Zomboy'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1158,7 +1191,7 @@ const items = [
         description:
             'Made with love and affection, this will satisfy a rumbling tummy.',
         effect: '',
-        locations: [null],
+        locations: ['San Fantastico - Sea Ring: Tattleterror (6.5%)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1194,7 +1227,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/goldfish_lantern.png',
         description: 'Kids are sure to love this delightful paper lantern.',
         effect: '',
-        locations: ['Inspector '],
+        locations: ['BBQ Southmond (Wanted Points)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1213,7 +1246,7 @@ const items = [
         description:
             'This lantern gives off a glow that will cheer up all who see it.',
         effect: '',
-        locations: [null],
+        locations: ['Springdale Scratch-Off'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1231,7 +1264,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/gold_emblem.png',
         description: 'This striking item is crafted from only the purest gold.',
         effect: '',
-        locations: [null],
+        locations: ['Rub the Golden Egg'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1249,7 +1282,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/takoyaki_tray.png',
         description: 'Use this tray to make delicious takoyaki octopus balls.',
         effect: '',
-        locations: [null],
+        locations: ["Yellow chest near apartments in shopper's row"],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1267,7 +1300,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/dune_sand.png',
         description: 'A little bottle of joy scooped from a sand dune.',
         effect: '',
-        locations: [null],
+        locations: ['Ultra BBQ Cross Walk Quiz', 'Springdale Scratch-Off'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1286,7 +1319,10 @@ const items = [
         description:
             'A sunshade crafted from reeds. Often used in summer festivals.',
         effect: '',
-        locations: [null],
+        locations: [
+            'Springdale Scratch-Off',
+            'Blasters T (Tomb of King Clupharaon 2)'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1304,7 +1340,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/terracotta_figure.png',
         description: 'An ancient artifact recently uncovered on Mt. Wildwood.',
         effect: '',
-        locations: ["We're Super Comedy Heroes!"],
+        locations: [
+            'Blasters T (Tomb of King Clupharaon 3)',
+            "Quest - We're Super Comedy Heroes!"
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1322,7 +1361,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_hibiscus.png',
         description: 'This bright-red flower makes the world a lot less drab.',
         effect: '',
-        locations: [null],
+        locations: ['Blasters T (Tomb of King Clupharaon 1)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1341,7 +1380,7 @@ const items = [
         description:
             'The disembodied soul of somebody who was very pure-of-heart. Shiny.',
         effect: '',
-        locations: ['Jungle Hunter'],
+        locations: ['Jungle Hunter', 'Blasters T (Temple of Clusis 3)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1360,7 +1399,7 @@ const items = [
         description:
             "A once integral part of a castle's wall. Shines in its new role.",
         effect: '',
-        locations: ['Inspector '],
+        locations: ['BBQ Southmond (Wanted Points)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1398,7 +1437,7 @@ const items = [
         description:
             'Perilously pretty, this pearl releases the beast in its beholder.',
         effect: '',
-        locations: [null],
+        locations: ['Ambrosia Pavillion - rare drop after beating Brutle'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1417,7 +1456,7 @@ const items = [
         description:
             'Over 5000 years old, it instills all the savagery of ancient times.',
         effect: '',
-        locations: [null],
+        locations: ['Triangle Lottery', 'Blasters T (Cluvian Keyhole 2)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1436,7 +1475,10 @@ const items = [
         description:
             'Makes the bad worse, but heroes who overcome this are the best.',
         effect: '',
-        locations: ['The Rookie Hero! Unbearaboy!'],
+        locations: [
+            'Ambrosia Pavillion (Tempura Suk. Invite)',
+            'Quest - The Rookie Hero! Unbearaboy!'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1455,7 +1497,7 @@ const items = [
         description:
             'Its fresh floral fragrance makes for the best bath time experience.',
         effect: '',
-        locations: ['Wild Hunters'],
+        locations: ['Wild Hunters (Dukesville)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1473,7 +1515,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bad_news.png',
         description: 'Anger-inducing news about a delayed game release. Grrr!',
         effect: '',
-        locations: [null],
+        locations: [
+            'Zombie/Endless Night',
+            'Blasters T (Tomb of King Clupharaon 4)'
+        ],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1492,7 +1537,7 @@ const items = [
         description:
             'A dinosaur blood-sucking mosquito preserved in alluring amber.',
         effect: '',
-        locations: [null],
+        locations: ['Ambrosia Pavillion (Sushi Sukiyaki Invite)'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1529,7 +1574,7 @@ const items = [
         description:
             'Produces terrifying results when combined with certain Yo-kai.',
         effect: '',
-        locations: [null],
+        locations: ['Zombie/Endless Night'],
         statsInfo: {
             str: '0',
             spr: '0',
@@ -1547,7 +1592,7 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/starry_spangles.png',
         description: 'A flour packed with substances unique to BBQ.',
         effect: '',
-        locations: ['Inspector '],
+        locations: ['Scrapyard Trash Trade', 'BBQ Southmond (Wanted Points)'],
         statsInfo: {
             str: '0',
             spr: '0',

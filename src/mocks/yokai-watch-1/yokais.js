@@ -27,7 +27,7 @@ const yokais = [
         soultime: {
             name: 'Pointy Toothpick',
             description: 'Pokes his foes with his beloved toothpick.',
-            power: '18x5'
+            power: '20x5'
         },
         inspirit: {
             name: 'Careless',
@@ -75,7 +75,7 @@ const yokais = [
         soultime: {
             name: 'Toothpick Rainfall',
             description: 'Pokes his foes very hard with his beloved toothpick.',
-            power: '20x7'
+            power: '23x7'
         },
         inspirit: {
             name: 'Defenseless',
@@ -121,7 +121,7 @@ const yokais = [
             name: 'Gutsy Cut',
             description:
                 'Cuts into a single foe with confidence and for high damage.',
-            power: '155 to 232'
+            power: '140'
         },
         inspirit: {
             name: 'Gutsiness',
@@ -164,7 +164,7 @@ const yokais = [
         soultime: {
             name: 'Halfhearted Chop',
             description: 'Slices his opponents while lolling around. ',
-            power: '20x5'
+            power: '15x5'
         },
         inspirit: {
             name: 'Aimless',
@@ -213,7 +213,7 @@ const yokais = [
             name: 'Resigned Rush',
             description:
                 'Rushes into battle and spins around while slicing up his foes.',
-            power: '20x7'
+            power: '22x7'
         },
         inspirit: {
             name: 'Laziness',
@@ -261,7 +261,7 @@ const yokais = [
             name: 'Resigned Rush',
             description:
                 'Rushes into battle and spins around while slicing up his foes.',
-            power: '20x7'
+            power: '140'
         },
         inspirit: {
             name: 'Laziness',

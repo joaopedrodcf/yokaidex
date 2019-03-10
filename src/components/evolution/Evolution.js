@@ -134,12 +134,18 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                             <FontAwesomeIcon icon="plus" />
                         </Column>
                         <Column>
-                            <Image
-                                imageUrl={evo.item.image}
-                                altText=""
-                                size="medium"
-                            />
-                            {evo.item.name}
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/items/${
+                                    evo.item.name
+                                }`}
+                            >
+                                <Image
+                                    imageUrl={evo.item.image}
+                                    altText=""
+                                    size="medium"
+                                />
+                                {evo.item.name}
+                            </Link>
                         </Column>
                         <Column>
                             <FontAwesomeIcon icon="equals" />
