@@ -70,9 +70,9 @@ const foods = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/snacks.png'
     },
     {
-        name: 'Soft Creams',
+        name: 'Ice Creams',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/soft_creams.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1547981245/Yokai/foods/ice_creams.png'
     },
     {
         name: 'Sobas',

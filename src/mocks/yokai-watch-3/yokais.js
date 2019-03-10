@@ -70,7 +70,7 @@ const yokais = [
         },
         soultime: {
             name: 'Pillow Whump',
-            description: 'Flips himself into the column in front, head first!"',
+            description: 'Flips himself into the column in front, head first!',
             power: '113 to 279',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -173,7 +173,7 @@ const yokais = [
         inspirit: {
             name: 'Defenseless',
             description:
-                'Makes a foe defenseless, which... lowers their DEF, duh!"',
+                'Makes a foe defenseless, which... lowers their DEF, duh!',
             power: '0'
         },
         stats: {
@@ -220,7 +220,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Gutsiness',
-            description: 'Raises an ally\'s SPD by making it gutsy!"',
+            description: "Raises an ally's SPD by making it gutsy!",
             power: '0'
         },
         stats: {
@@ -743,7 +743,7 @@ const yokais = [
         soultime: {
             name: 'Fearful Fiesta',
             description:
-                'Brutalizes the column in front, and turns tiles into red hot magma!"',
+                'Brutalizes the column in front, and turns tiles into red hot magma!',
             power: '95',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -849,7 +849,7 @@ const yokais = [
         inspirit: {
             name: 'Jealousy',
             description:
-                'Makes a foe so jealous of its allies that it will sometimes attack them!"',
+                'Makes a foe so jealous of its allies that it will sometimes attack them!',
             power: '0'
         },
         stats: {
@@ -889,7 +889,7 @@ const yokais = [
         soultime: {
             name: 'Emotional Moment',
             description:
-                'In a flash he attacks the column in front, forcing back any enemies he hits!"',
+                'In a flash he attacks the column in front, forcing back any enemies he hits!',
             power: '93 to 279',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
@@ -911,7 +911,7 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'd',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Slumberhog',
@@ -1190,7 +1190,7 @@ const yokais = [
         inspirit: {
             name: 'Can-Do Champion',
             description:
-                'Makes an ally slug it out and hit the big leagues with a STR boost!"',
+                'Makes an ally slug it out and hit the big leagues with a STR boost!',
             power: '0'
         },
         stats: {
@@ -1239,7 +1239,7 @@ const yokais = [
         inspirit: {
             name: 'Helmet Defense',
             description:
-                'Raises an ally\'s DEF... as if it were wearing a helmet!"',
+                "Raises an ally's DEF... as if it were wearing a helmet!",
             power: '0'
         },
         stats: {
@@ -1628,7 +1628,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Grande Guts',
-            description: 'Power without peer! Raises an ally\'s STR!"',
+            description: "Power without peer! Raises an ally's STR!",
             power: '0'
         },
         stats: {
@@ -1726,7 +1726,7 @@ const yokais = [
         inspirit: {
             name: 'Meat-a-mins',
             description:
-                'An ally\'s STR goes up thanks to eating plenty of meat, meat, MEAT!"',
+                "An ally's STR goes up thanks to eating plenty of meat, meat, MEAT!",
             power: '0'
         },
         stats: {
@@ -1765,7 +1765,7 @@ const yokais = [
         },
         soultime: {
             name: 'Feinted Slice',
-            description: 'Cuts out the lying and cuts foes in range instead!"',
+            description: 'Cuts out the lying and cuts foes in range instead!',
             power: '24x5 to 48x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -1867,7 +1867,7 @@ const yokais = [
         inspirit: {
             name: 'Cyborg Strength',
             description:
-                'Raises an ally\'s DEF by making part of their body mechanical!"',
+                "Raises an ally's DEF by making part of their body mechanical!",
             power: '0'
         },
         stats: {
@@ -1964,7 +1964,7 @@ const yokais = [
         inspirit: {
             name: "Lion's Pride",
             description:
-                'The Inspirited Yo-kai will be so moved its DEF rises!"',
+                'The Inspirited Yo-kai will be so moved its DEF rises!',
             power: '0'
         },
         stats: {
@@ -2011,7 +2011,7 @@ const yokais = [
         },
         inspirit: {
             name: "Heart's Roar",
-            description: 'Raises an ally\'s SPD with his roaring aura!"',
+            description: "Raises an ally's SPD with his roaring aura!",
             power: '0'
         },
         stats: {
@@ -2292,7 +2292,7 @@ const yokais = [
         soultime: {
             name: 'Mighty Moxie',
             description:
-                'Strikes the Moxie Pose, recovering HP and getting even more powerful!"',
+                'Strikes the Moxie Pose, recovering HP and getting even more powerful!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -2340,7 +2340,7 @@ const yokais = [
         soultime: {
             name: 'Mega Moxie',
             description:
-                'Strikes the Moxie Pose, recovering HP and getting even more powerful!"',
+                'Strikes the Moxie Pose, recovering HP and getting even more powerful!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -2636,7 +2636,7 @@ const yokais = [
         inspirit: {
             name: 'Legend Power',
             description:
-                'Raises an ally\'s STR to transform it into a great warrior!"',
+                "Raises an ally's STR to transform it into a great warrior!",
             power: '0'
         },
         stats: {
@@ -2780,7 +2780,7 @@ const yokais = [
         inspirit: {
             name: 'Oath of Fealty',
             description:
-                'Raises an ally\'s DEF to a level befitting of a guardian knight!"',
+                "Raises an ally's DEF to a level befitting of a guardian knight!",
             power: '0'
         },
         stats: {
@@ -2868,7 +2868,7 @@ const yokais = [
         soultime: {
             name: 'Top-Secret Orders!',
             description:
-                'The force of his outstanding leadership boosts all allies\' stats!"',
+                "The force of his outstanding leadership boosts all allies' stats!",
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -3402,8 +3402,7 @@ const yokais = [
         },
         inspirit: {
             name: "Slip'n'slide",
-            description:
-                'Makes an ally slip and slide so fast that SPD rises!"',
+            description: 'Makes an ally slip and slide so fast that SPD rises!',
             power: '0'
         },
         stats: {
@@ -3450,7 +3449,7 @@ const yokais = [
         inspirit: {
             name: 'Runny Nose',
             description:
-                'Gives a foe a nose so runny that it can hardly do anything except blow it!"',
+                'Gives a foe a nose so runny that it can hardly do anything except blow it!',
             power: '0'
         },
         stats: {
@@ -3691,7 +3690,7 @@ const yokais = [
         inspirit: {
             name: 'Memory Eater',
             description:
-                'Makes a foe forgetful enough to start attacking their allies!"',
+                'Makes a foe forgetful enough to start attacking their allies!',
             power: '0'
         },
         stats: {
@@ -3740,7 +3739,7 @@ const yokais = [
         inspirit: {
             name: 'Memory Loss',
             description:
-                'Makes a foe forgetful enough to start attacking their allies!"',
+                'Makes a foe forgetful enough to start attacking their allies!',
             power: '0'
         },
         stats: {
@@ -3927,7 +3926,7 @@ const yokais = [
         soultime: {
             name: "What's All the Fuss?",
             description:
-                'Confuses all foes with a mysterious aura. Whhhhhhhyyyy?"',
+                'Confuses all foes with a mysterious aura. Whhhhhhhyyyy?',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -4189,7 +4188,7 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Cornfused',
@@ -4223,7 +4222,7 @@ const yokais = [
         inspirit: {
             name: 'Cornfuse',
             description:
-                'Makes a foe so confused about what\'s going on that their STR goes down!"',
+                "Makes a foe so confused about what's going on that their STR goes down!",
             power: '0'
         },
         stats: {
@@ -4549,7 +4548,7 @@ const yokais = [
         soultime: {
             name: 'Kiss of Life',
             description:
-                'Restores the HP of all allies by blowing a very handsome kiss!"',
+                'Restores the HP of all allies by blowing a very handsome kiss!',
             power: '50 to 131',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -4598,7 +4597,7 @@ const yokais = [
         soultime: {
             name: 'Heavenly Heart',
             description:
-                'Restores the HP of all allies with his extremely handsome aura!"',
+                'Restores the HP of all allies with his extremely handsome aura!',
             power: '120 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -4647,7 +4646,7 @@ const yokais = [
         soultime: {
             name: 'Fiery Longing',
             description:
-                'Uses his bitterness about being unpopular to fry foes within range!"',
+                'Uses his bitterness about being unpopular to fry foes within range!',
             power: '130 to 195 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -4792,7 +4791,7 @@ const yokais = [
         soultime: {
             name: 'Cloud Control',
             description:
-                'Attacks foes in range with a cute whirlwind that goes "Whooosh!""',
+                'Attacks foes in range with a cute whirlwind that goes "Whooosh!"',
             power: '60 to 157',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -4898,7 +4897,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -4947,7 +4946,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -5236,7 +5235,7 @@ const yokais = [
         inspirit: {
             name: 'Snobbery',
             description:
-                'Makes a foe so outright hysterical that it attacks its own allies!"',
+                'Makes a foe so outright hysterical that it attacks its own allies!',
             power: '0'
         },
         stats: {
@@ -5276,7 +5275,7 @@ const yokais = [
         soultime: {
             name: 'Party Time',
             description:
-                'Raises the roof (and all allies\' stats) by throwing a PAR-TAAAAY!"',
+                "Raises the roof (and all allies' stats) by throwing a PAR-TAAAAY!",
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -5332,8 +5331,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Rainbow Aura',
-            description:
-                'Raises an ally\'s SPR with a mysterious rainbow aura!"',
+            description: "Raises an ally's SPR with a mysterious rainbow aura!",
             power: '0'
         },
         stats: {
@@ -5347,7 +5345,7 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Lionguist',
@@ -5864,7 +5862,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -5912,7 +5910,7 @@ const yokais = [
         inspirit: {
             name: 'Perplex',
             description:
-                'What puzzles a foe so, they cannot strike a blow? Do you know?"',
+                'What puzzles a foe so, they cannot strike a blow? Do you know?',
             power: '0'
         },
         stats: {
@@ -5952,7 +5950,7 @@ const yokais = [
         soultime: {
             name: 'Wipe-a-Way',
             description:
-                'Wraps all foes in toilet paper, binding them in place!"',
+                'Wraps all foes in toilet paper, binding them in place!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -6023,7 +6021,7 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Miss Teri',
@@ -6145,7 +6143,7 @@ const yokais = [
         soultime: {
             name: 'Bulk Bestowal',
             description:
-                'Tosses a battle item onto the tactics board. Don\'t squander it!"',
+                "Tosses a battle item onto the tactics board. Don't squander it!",
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -6392,7 +6390,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -6440,7 +6438,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -6674,7 +6672,7 @@ const yokais = [
         soultime: {
             name: 'Dangerous Driving',
             description:
-                'Without a care he rams the column in front, forcing back any enemies he hits!"',
+                'Without a care he rams the column in front, forcing back any enemies he hits!',
             power: '93 to 279 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -7158,8 +7156,7 @@ const yokais = [
         },
         soultime: {
             name: 'No Way Through',
-            description:
-                'Rouses himself to stand guard. DEF goes way, way up!"',
+            description: 'Rouses himself to stand guard. DEF goes way, way up!',
             power: '42 to 0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/7.png'
@@ -7207,8 +7204,7 @@ const yokais = [
         },
         soultime: {
             name: 'Insurmountable',
-            description:
-                'Rouses himself to stand guard. DEF goes way, way up!"',
+            description: 'Rouses himself to stand guard. DEF goes way, way up!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/7.png'
@@ -7403,7 +7399,7 @@ const yokais = [
         soultime: {
             name: 'Brutal Butt Bat',
             description:
-                'Charges at the column in front of him with his nail bat. OUCH!"',
+                'Charges at the column in front of him with his nail bat. OUCH!',
             power: '260 to 260',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -7556,7 +7552,7 @@ const yokais = [
         inspirit: {
             name: 'No Herd Instinct',
             description:
-                'Stews a foe till it\'s so stir-crazy it turns on allies sometimes!"',
+                "Stews a foe till it's so stir-crazy it turns on allies sometimes!",
             power: '0'
         },
         stats: {
@@ -7605,7 +7601,7 @@ const yokais = [
         inspirit: {
             name: 'Nummskullery',
             description:
-                'Makes a foe such a numbskull they sometimes attack their own allies!"',
+                'Makes a foe such a numbskull they sometimes attack their own allies!',
             power: '0'
         },
         stats: {
@@ -7793,7 +7789,7 @@ const yokais = [
         soultime: {
             name: 'Oh My Gawd!',
             description:
-                'He vigorously tosses his patty at foes in range. Oh my!"',
+                'He vigorously tosses his patty at foes in range. Oh my!',
             power: '100 to 300',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -7840,7 +7836,7 @@ const yokais = [
         soultime: {
             name: 'Outta the Way!',
             description:
-                'He angrily drives into the column in front, forcing back any enemies he hits!"',
+                'He angrily drives into the column in front, forcing back any enemies he hits!',
             power: '93 to 279 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -7848,7 +7844,7 @@ const yokais = [
         inspirit: {
             name: 'Dreadful Driving',
             description:
-                'The enemy gets such a bad case of road rage, no ally is safe!"',
+                'The enemy gets such a bad case of road rage, no ally is safe!',
             power: '0'
         },
         stats: {
@@ -8573,7 +8569,7 @@ const yokais = [
         inspirit: {
             name: 'Burst into Song',
             description:
-                'All of an ally\'s stats rise slightly after hearing this passionate song!"',
+                "All of an ally's stats rise slightly after hearing this passionate song!",
             power: '0'
         },
         stats: {
@@ -9005,7 +9001,7 @@ const yokais = [
         inspirit: {
             name: 'Platinum Power',
             description:
-                'Covers an ally in shiny platinum and boosts all stats!"',
+                'Covers an ally in shiny platinum and boosts all stats!',
             power: '0'
         },
         stats: {
@@ -9054,7 +9050,7 @@ const yokais = [
         inspirit: {
             name: "Who's a good boy!",
             description:
-                'With dog-like obedience, the Inspirited Yo-kai\'s DEF rises up!"',
+                "With dog-like obedience, the Inspirited Yo-kai's DEF rises up!",
             power: '0'
         },
         stats: {
@@ -9143,7 +9139,7 @@ const yokais = [
         soultime: {
             name: 'Horn Breaker',
             description:
-                'Smashes into the column in front like a dump truck with a horn!"',
+                'Smashes into the column in front like a dump truck with a horn!',
             power: '190 to 285 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -9191,7 +9187,7 @@ const yokais = [
         soultime: {
             name: 'Horn Explosion',
             description:
-                'Smashes into the column in front like a dump truck with a horn!"',
+                'Smashes into the column in front like a dump truck with a horn!',
             power: '210 to 315 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -9199,7 +9195,7 @@ const yokais = [
         inspirit: {
             name: 'Legend Power',
             description:
-                'Raises an ally\'s STR to transform it into a great warrior!"',
+                "Raises an ally's STR to transform it into a great warrior!",
             power: '0'
         },
         stats: {
@@ -9295,7 +9291,7 @@ const yokais = [
         inspirit: {
             name: 'Steak Sauce',
             description:
-                'An ally\'s STR rises thanks to delicious, rare steak juices!"',
+                "An ally's STR rises thanks to delicious, rare steak juices!",
             power: '0'
         },
         stats: {
@@ -10012,7 +10008,7 @@ const yokais = [
         inspirit: {
             name: 'Silver Sheen',
             description:
-                'A power from the sky slightly raises all of an ally\'s stats!"',
+                "A power from the sky slightly raises all of an ally's stats!",
             power: '0'
         },
         stats: {
@@ -10108,7 +10104,7 @@ const yokais = [
         inspirit: {
             name: 'Befuddle',
             description:
-                'Makes a foe\'s eyes twirl round in confusion, causing them to hit allies!"',
+                "Makes a foe's eyes twirl round in confusion, causing them to hit allies!",
             power: '0'
         },
         stats: {
@@ -10590,7 +10586,7 @@ const yokais = [
         inspirit: {
             name: 'Breadwinner',
             description:
-                'Fires up an ally and raises STR so they can toast opponents!"',
+                'Fires up an ally and raises STR so they can toast opponents!',
             power: '0'
         },
         stats: {
@@ -10781,7 +10777,7 @@ const yokais = [
         inspirit: {
             name: 'Unbelievaboy Might',
             description:
-                'Slightly boosts all of an ally\'s stats by tapping into its hidden potential!"',
+                "Slightly boosts all of an ally's stats by tapping into its hidden potential!",
             power: '0'
         },
         stats: {
@@ -10822,7 +10818,7 @@ const yokais = [
         soultime: {
             name: 'Blazing Badness',
             description:
-                'His ground smash hits the column in front and makes the tiles magma!"',
+                'His ground smash hits the column in front and makes the tiles magma!',
             power: '95 to 95 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -10871,7 +10867,7 @@ const yokais = [
         soultime: {
             name: 'Inflammamewl',
             description:
-                'His ground punch hits the column in front and makes the tiles magma!"',
+                'His ground punch hits the column in front and makes the tiles magma!',
             power: '95 to 95 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -10879,7 +10875,7 @@ const yokais = [
         inspirit: {
             name: 'Hot Chilli Challenge',
             description:
-                'The foe slowly loses HP after burning its tongue on spicy hot sauce!"',
+                'The foe slowly loses HP after burning its tongue on spicy hot sauce!',
             power: '0'
         },
         stats: {
@@ -11014,7 +11010,7 @@ const yokais = [
         soultime: {
             name: 'Openly Hidden Heal',
             description:
-                'Lookie here! All allies are healed by the sight of her cute mannerisms!"',
+                'Lookie here! All allies are healed by the sight of her cute mannerisms!',
             power: '60 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -11062,7 +11058,7 @@ const yokais = [
         soultime: {
             name: 'Runsure How I Stop!',
             description:
-                'Runsurely rushes into the column in front, forcing back any enemies he hits!"',
+                'Runsurely rushes into the column in front, forcing back any enemies he hits!',
             power: '93 to 279 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -11499,7 +11495,7 @@ const yokais = [
         soultime: {
             name: 'Do I Dare?',
             description:
-                'Takes an overblown swing at all enemies, forcing them to spill out cash!"',
+                'Takes an overblown swing at all enemies, forcing them to spill out cash!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -11507,7 +11503,7 @@ const yokais = [
         inspirit: {
             name: 'Dire Demands',
             description:
-                'Makes a foe demand so much of its allies that it sometimes turns on them!"',
+                'Makes a foe demand so much of its allies that it sometimes turns on them!',
             power: '0'
         },
         stats: {
@@ -11604,7 +11600,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Torrent Power',
-            description: 'Improves an ally\'s concentration as well as SPR!"',
+            description: "Improves an ally's concentration as well as SPR!",
             power: '0'
         },
         stats: {
@@ -11741,7 +11737,7 @@ const yokais = [
         soultime: {
             name: 'Meow Meow Blaster',
             description:
-                'Lays waste to the column in front with a savage Blasters beam!"',
+                'Lays waste to the column in front with a savage Blasters beam!',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -12099,7 +12095,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Soft creams',
+        favouriteFood: 'Ice creams',
         evolutionIndexes: [129]
     },
     {
@@ -12148,7 +12144,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Soft creams',
+        favouriteFood: 'Ice creams',
         evolutionIndexes: [129]
     },
     {
@@ -12175,7 +12171,7 @@ const yokais = [
         soultime: {
             name: 'Bow Wow Blaster',
             description:
-                'Lays waste to the column in front with a savage Blasters beam!"',
+                'Lays waste to the column in front with a savage Blasters beam!',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
@@ -12197,7 +12193,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Komasan S',
@@ -12244,7 +12240,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Koma. Sun Ce',
@@ -12291,7 +12287,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Soft creams',
+        favouriteFood: 'Ice creams',
         evolutionIndexes: [66]
     },
     {
@@ -12652,14 +12648,14 @@ const yokais = [
         soultime: {
             name: 'Slackoon Splash',
             description:
-                'Summons random, vacation resort style whirlpools that can hit anywhere!"',
+                'Summons random, vacation resort style whirlpools that can hit anywhere!',
             power: '115 to 230',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Slack Off',
-            description: 'Makes an ally so relaxed its SPR rises!"',
+            description: 'Makes an ally so relaxed its SPR rises!',
             power: '0'
         },
         stats: {
@@ -13096,7 +13092,7 @@ const yokais = [
         inspirit: {
             name: 'Monkeying Around',
             description:
-                'Lends an ally the dexterity of a tree-hopping monkey, boosting their SPD!"',
+                'Lends an ally the dexterity of a tree-hopping monkey, boosting their SPD!',
             power: '0'
         },
         stats: {
@@ -13192,7 +13188,7 @@ const yokais = [
         inspirit: {
             name: "Swirlin' on Up",
             description:
-                'Fills an ally with such a fun feeling, they feel their SPD rising!"',
+                'Fills an ally with such a fun feeling, they feel their SPD rising!',
             power: '0'
         },
         stats: {
@@ -13206,7 +13202,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Frostina',
@@ -13566,7 +13562,7 @@ const yokais = [
         soultime: {
             name: 'Strawberry Roar',
             description:
-                'Damages foes in range with sweet, strawberry scented... FLAMES!"',
+                'Damages foes in range with sweet, strawberry scented... FLAMES!',
             power: '140 to 210',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -13949,7 +13945,7 @@ const yokais = [
         soultime: {
             name: 'Koma Kannon',
             description:
-                'Attacks the column in front with a beam of country power!"',
+                'Attacks the column in front with a beam of country power!',
             power: '260 to 260',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -13970,7 +13966,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Sailornyan',
@@ -14092,14 +14088,14 @@ const yokais = [
         soultime: {
             name: 'Explosive Strike',
             description:
-                'He\'s so hardcore he drops skull shaped BOMBS on those in range!"',
+                "He's so hardcore he drops skull shaped BOMBS on those in range!",
             power: '15x10 to 22x10',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Jittery Jinx',
-            description: 'The enemy becomes so terrified it just can\'t move!"',
+            description: "The enemy becomes so terrified it just can't move!",
             power: '0'
         },
         stats: {
@@ -14113,7 +14109,7 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Whirlweasel',
@@ -14243,7 +14239,7 @@ const yokais = [
         inspirit: {
             name: 'Kupower Nyan!',
             description:
-                'Provides moogle support magic, greatly boosting an ally\'s SPR!"',
+                "Provides moogle support magic, greatly boosting an ally's SPR!",
             power: '0'
         },
         stats: {
@@ -14257,7 +14253,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Wobblenyan',
@@ -14291,7 +14287,7 @@ const yokais = [
         inspirit: {
             name: 'Wobble Nyans',
             description:
-                'The Inspirited Yo-kai starts to wobble, reducing their DEF!"',
+                'The Inspirited Yo-kai starts to wobble, reducing their DEF!',
             power: '0'
         },
         stats: {
@@ -14339,7 +14335,7 @@ const yokais = [
         inspirit: {
             name: 'Wobble Nyans',
             description:
-                'The Inspirited Yo-kai starts to wobble, reducing their DEF!"',
+                'The Inspirited Yo-kai starts to wobble, reducing their DEF!',
             power: '0'
         },
         stats: {
@@ -14353,7 +14349,7 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Sushinyan',
@@ -14474,7 +14470,7 @@ const yokais = [
         soultime: {
             name: 'Mega Wave',
             description:
-                'Unleashes a genuine, powerful water stream that can hit anywhere!"',
+                'Unleashes a genuine, powerful water stream that can hit anywhere!',
             power: '170 to 255 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -14523,7 +14519,7 @@ const yokais = [
         soultime: {
             name: 'Raging River',
             description:
-                'Unleashes a genuine, powerful water stream that can hit anywhere!"',
+                'Unleashes a genuine, powerful water stream that can hit anywhere!',
             power: '200 to 300',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -14667,7 +14663,7 @@ const yokais = [
         soultime: {
             name: 'Garuda Flame',
             description:
-                'Scorches foes in range with cleansing flames. That\'s hot!"',
+                "Scorches foes in range with cleansing flames. That's hot!",
             power: '148 to 222 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -14772,7 +14768,7 @@ const yokais = [
         inspirit: {
             name: "Get Lookin'",
             description:
-                'The foe acts less as it\'s bumbling around, trying to work out what to do!"',
+                "The foe acts less as it's bumbling around, trying to work out what to do!",
             power: '0'
         },
         stats: {
@@ -14955,7 +14951,7 @@ const yokais = [
         soultime: {
             name: 'Wiggling Wave',
             description:
-                'Raises the cheer and DEF of all allies with a crazy tune!"',
+                'Raises the cheer and DEF of all allies with a crazy tune!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -15052,7 +15048,7 @@ const yokais = [
         soultime: {
             name: 'Mambo Madness',
             description:
-                'Dances a mambo to get his allies moving much, much faster!"',
+                'Dances a mambo to get his allies moving much, much faster!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -15300,7 +15296,7 @@ const yokais = [
         inspirit: {
             name: "Rice's Kindness",
             description:
-                'Gradually restores an ally\'s HP with delicious, delectable rice!"',
+                "Gradually restores an ally's HP with delicious, delectable rice!",
             power: '0'
         },
         stats: {
@@ -15605,7 +15601,7 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'e',
-        favouriteFood: 'Soft creams',
+        favouriteFood: 'Ice creams',
         evolutionIndexes: [78]
     },
     {
@@ -15654,7 +15650,7 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Soft creams',
+        favouriteFood: 'Ice creams',
         evolutionIndexes: [78]
     },
     {
@@ -15776,7 +15772,7 @@ const yokais = [
         soultime: {
             name: 'Go! Go! Tomorrow!',
             description:
-                'Cheers all allies with a pep rally that boosts all stats!"',
+                'Cheers all allies with a pep rally that boosts all stats!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -15784,7 +15780,7 @@ const yokais = [
         inspirit: {
             name: 'Cheer On',
             description:
-                'All of an ally\'s stats go up slightly just by thinking about tomorrow!"',
+                "All of an ally's stats go up slightly just by thinking about tomorrow!",
             power: '0'
         },
         stats: {
@@ -15798,7 +15794,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Swaycorn',
@@ -16318,7 +16314,7 @@ const yokais = [
         inspirit: {
             name: 'Enemy Maker',
             description:
-                'Makes a foe cut ties with its friends and sometimes attack them!"',
+                'Makes a foe cut ties with its friends and sometimes attack them!',
             power: '0'
         },
         stats: {
@@ -16359,7 +16355,7 @@ const yokais = [
         soultime: {
             name: 'Bestacular',
             description:
-                'Restores HP to allies and gets them into tip-top shape!"',
+                'Restores HP to allies and gets them into tip-top shape!',
             power: '110 to 165 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -16408,7 +16404,7 @@ const yokais = [
         soultime: {
             name: 'Party Miracle',
             description:
-                'Blows a gust that restores HP and raises allies\' spirits!"',
+                "Blows a gust that restores HP and raises allies' spirits!",
             power: '180 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -16649,7 +16645,7 @@ const yokais = [
         soultime: {
             name: 'Pick-a-Present',
             description:
-                'Pulls something out of a bag... What comes out is up to chance!"',
+                'Pulls something out of a bag... What comes out is up to chance!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -16767,7 +16763,7 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Tongue-Twister',
@@ -16801,7 +16797,7 @@ const yokais = [
         inspirit: {
             name: 'Tongue Tied',
             description:
-                'The foe gets its tongue in such a twist that HP slowly decreases!"',
+                'The foe gets its tongue in such a twist that HP slowly decreases!',
             power: '0'
         },
         stats: {
@@ -16864,7 +16860,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Got It Maid',
@@ -17034,7 +17030,7 @@ const yokais = [
         soultime: {
             name: 'Warm from the Oven',
             description:
-                'Restores all allies HP with yummy cakes baked with love!"',
+                'Restores all allies HP with yummy cakes baked with love!',
             power: '90 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -17277,7 +17273,7 @@ const yokais = [
         soultime: {
             name: 'Energizing Exercise',
             description:
-                'Does a happy dance, recovering HP and getting even more powerful!"',
+                'Does a happy dance, recovering HP and getting even more powerful!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -17364,23 +17360,24 @@ const yokais = [
         },
         attack: {
             name: 'Headsmack',
-            power: '15 to 67'
+            power: '30'
         },
         technique: {
             name: 'Restore',
-            power: '50 to 110'
+            power: '50'
         },
         soultime: {
             name: 'Eat This!',
             description:
                 'Attacks the column in front with a beam of advanced hunger.',
-            power: '230 to 230',
+            power: '140',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Steel Power',
-            description: "Makes an ally's skin as strong as steel. Raises DEF.",
+            description:
+                "The inspirited Yo-kai's DEF is boosted by metallic power of robots",
             power: '0'
         },
         stats: {
@@ -17705,7 +17702,7 @@ const yokais = [
         soultime: {
             name: 'Table Flip',
             description:
-                'Flips a table on a foe in an intense explosion of anger!"',
+                'Flips a table on a foe in an intense explosion of anger!',
             power: '250 to 250',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -17945,7 +17942,7 @@ const yokais = [
         soultime: {
             name: 'Too Fast LOL',
             description:
-                'He attacks foes in range so fast that they never see him coming!"',
+                'He attacks foes in range so fast that they never see him coming!',
             power: '160 to 240',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
@@ -17993,14 +17990,14 @@ const yokais = [
         soultime: {
             name: 'Flying Dolphin',
             description:
-                'He gives foes in range the fastest kung fu chops they\'ve never seen!"',
+                "He gives foes in range the fastest kung fu chops they've never seen!",
             power: '160 to 240',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
         },
         inspirit: {
             name: 'Sonic Stance',
-            description: 'Powers up an ally with super sonic kung-fu moves!"',
+            description: 'Powers up an ally with super sonic kung-fu moves!',
             power: '0'
         },
         stats: {
@@ -18048,7 +18045,7 @@ const yokais = [
         inspirit: {
             name: 'Stop Negging Me!',
             description:
-                'Mega negativity makes a foe take things out on its own allies!"',
+                'Mega negativity makes a foe take things out on its own allies!',
             power: '0'
         },
         stats: {
@@ -18079,17 +18076,17 @@ const yokais = [
         },
         attack: {
             name: 'Pointy Pokes',
-            power: '12x3 to 26x3'
+            power: '12x3'
         },
         technique: {
             name: 'Absorb',
-            power: '20 to 90'
+            power: '25'
         },
         soultime: {
             name: 'Finking Hard',
             description:
-                'Uses his pointy head to prick foes in range all over!"',
-            power: '15x5 to 45x5 ',
+                'Uses his pointy head to prick foes in range all over!',
+            power: '15x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
         },
@@ -18378,7 +18375,7 @@ const yokais = [
         soultime: {
             name: 'Backache Buster',
             description:
-                'Bashes a foe\'s back with a heavy-duty iron dumbbell. OUCH!"',
+                "Bashes a foe's back with a heavy-duty iron dumbbell. OUCH!",
             power: '180 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -18426,7 +18423,7 @@ const yokais = [
         soultime: {
             name: 'Sap',
             description:
-                'Wishy-washy Herbivaura blasts all enemies so their STR goes way down!"',
+                'Wishy-washy Herbivaura blasts all enemies so their STR goes way down!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -18524,7 +18521,7 @@ const yokais = [
         soultime: {
             name: 'Worn Out',
             description:
-                'All enemies are hit by a nasty all-nighter aura that greatly lowers DEF!"',
+                'All enemies are hit by a nasty all-nighter aura that greatly lowers DEF!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -18573,7 +18570,7 @@ const yokais = [
         soultime: {
             name: 'Tuckered Out',
             description:
-                'The DEF of all foes is greatly weakened by too many all nighters!"',
+                'The DEF of all foes is greatly weakened by too many all nighters!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -18613,11 +18610,11 @@ const yokais = [
         },
         attack: {
             name: 'Body Bash',
-            power: '15 to 67'
+            power: '20'
         },
         technique: {
             name: 'Pebble',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
             name: '#soultimatemove',
@@ -18630,7 +18627,7 @@ const yokais = [
         inspirit: {
             name: 'Retreet',
             description:
-                'Makes the foe spend more time on social media than the battle!"',
+                'Makes the foe spend more time on social media than the battle!',
             power: '0'
         },
         stats: {
@@ -18679,7 +18676,7 @@ const yokais = [
         inspirit: {
             name: 'Retreet',
             description:
-                'Makes the foe spend more time on social media than the battle!"',
+                'Makes the foe spend more time on social media than the battle!',
             power: '0'
         },
         stats: {
@@ -18914,7 +18911,7 @@ const yokais = [
         soultime: {
             name: 'Hazy Dance',
             description:
-                'Almost completely out of nowhere, a foe gets dealt a strong slap!"',
+                'Almost completely out of nowhere, a foe gets dealt a strong slap!',
             power: '180 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -18963,7 +18960,7 @@ const yokais = [
         soultime: {
             name: "Creep 'n' Cut",
             description:
-                'Almost completely out of nowhere, a foe gets dealt a strong slap!"',
+                'Almost completely out of nowhere, a foe gets dealt a strong slap!',
             power: '200 to 200',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -18995,7 +18992,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/salty_bacon.png',
         description:
             'This slice of bacon gets crispier the angrier he becomes, and crispy bacon is simply the tastiest!',
-        locations: ['East Pine - Flowers'],
+        locations: ['East Pine - Grass'],
         skill: {
             name: "Fryin' and Dandy",
             description: 'Absorbs Fire elemental damage and boosts STR.'
@@ -19011,14 +19008,14 @@ const yokais = [
         soultime: {
             name: 'Morning Frazzle',
             description:
-                'His temper gets so fiery it fries foes in range to a perfect crisp!"',
+                'His temper gets so fiery it fries foes in range to a perfect crisp!',
             power: '73 to 219 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Crisp and Tasty',
-            description: 'Makes a foe so salty, they attack their own allies!"',
+            description: 'Makes a foe so salty, they attack their own allies!',
             power: '0'
         },
         stats: {
@@ -19161,7 +19158,7 @@ const yokais = [
         inspirit: {
             name: 'Contrariness',
             description:
-                'Makes an enemy sometimes attack its allies. Because why not?"',
+                'Makes an enemy sometimes attack its allies. Because why not?',
             power: '0'
         },
         stats: {
@@ -19840,7 +19837,7 @@ const yokais = [
         inspirit: {
             name: 'Crook-a-doodle-do',
             description:
-                'Catches the Yo-kai in a scam that greatly decreases their SPD!"',
+                'Catches the Yo-kai in a scam that greatly decreases their SPD!',
             power: '0'
         },
         stats: {
@@ -19949,7 +19946,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Misterr Typoo',
@@ -19982,7 +19979,7 @@ const yokais = [
         inspirit: {
             name: 'Butterfingers',
             description:
-                'Teh FoE losses conTrl off tHEre HaNds, atakking alLies!"',
+                'Teh FoE losses conTrl off tHEre HaNds, atakking alLies!',
             power: '0'
         },
         stats: {
@@ -20224,7 +20221,7 @@ const yokais = [
         inspirit: {
             name: 'Dracufang',
             description:
-                'The Inspirited Yo-kai gets chewed on, causing it to lose HP gradually"',
+                'The Inspirited Yo-kai gets chewed on, causing it to lose HP gradually',
             power: '0'
         },
         stats: {
@@ -20263,7 +20260,7 @@ const yokais = [
         },
         soultime: {
             name: 'Bonkers Bash',
-            description: 'With his freaky flow, he confuses every foe! Yo!"',
+            description: 'With his freaky flow, he confuses every foe! Yo!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -20349,24 +20346,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20396,24 +20394,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20443,24 +20442,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20490,24 +20490,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20537,24 +20538,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20584,8 +20586,8 @@ const yokais = [
             description: 'Boosts own combo damage.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Frost',
@@ -20594,7 +20596,7 @@ const yokais = [
         soultime: {
             name: 'Boing Blaster',
             description:
-                'Lays waste to the column in front with a savage Blasters beam!"',
+                'Lays waste to the column in front with a savage Blasters beam!',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -20613,7 +20615,7 @@ const yokais = [
             spd: '158'
         },
         tribe: 'Shady',
-        element: 'Water',
+        element: 'Ice',
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Donuts'
@@ -20650,7 +20652,7 @@ const yokais = [
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20841,7 +20843,7 @@ const yokais = [
         inspirit: {
             name: 'Crank-a-Kai Crazy',
             description:
-                'The Inspirited Yo-kai\'s urge to crank makes it scatter money all over!"',
+                "The Inspirited Yo-kai's urge to crank makes it scatter money all over!",
             power: '0'
         },
         stats: {
@@ -21513,7 +21515,7 @@ const yokais = [
         inspirit: {
             name: 'Love-Torn Tirade',
             description:
-                'Resentment borne from a love-letter torn drives a foe to attack its allies!"',
+                'Resentment borne from a love-letter torn drives a foe to attack its allies!',
             power: '0'
         },
         stats: {
@@ -21560,7 +21562,7 @@ const yokais = [
         inspirit: {
             name: 'Slapped Silly',
             description:
-                'With the wave of a hand, a foe will attack its own allies!"',
+                'With the wave of a hand, a foe will attack its own allies!',
             power: '0'
         },
         stats: {
@@ -21600,7 +21602,7 @@ const yokais = [
         soultime: {
             name: 'Top Hit Stick',
             description:
-                'Makes a curse cling to all foes so they can\'t move anywhere!"',
+                "Makes a curse cling to all foes so they can't move anywhere!",
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -21621,7 +21623,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'e',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Coughkoff',
@@ -22179,7 +22181,7 @@ const yokais = [
         soultime: {
             name: 'Loud and Proud',
             description:
-                'All enemies gradually lose HP thanks to the blast of his speakers!"',
+                'All enemies gradually lose HP thanks to the blast of his speakers!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
@@ -22372,7 +22374,7 @@ const yokais = [
         soultime: {
             name: 'Creepy Superbite',
             description:
-                'Bites foes within range in a frenzy. Pretty creepy, actually...\u3000"',
+                'Bites foes within range in a frenzy. Pretty creepy, actually...\u3000',
             power: '19x5 to 19x5 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -22422,7 +22424,7 @@ const yokais = [
         soultime: {
             name: 'Superbite Twin',
             description:
-                'Bites foes within range with twice as many heads and twice as many teeth!\u3000"',
+                'Bites foes within range with twice as many heads and twice as many teeth!\u3000',
             power: '25 to 25 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -22785,7 +22787,7 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Nervous Rex',
@@ -22819,7 +22821,7 @@ const yokais = [
         inspirit: {
             name: 'Creep Out',
             description:
-                'Makes a foe\'s nerves overwhelm them -they turn on their own allies!"',
+                "Makes a foe's nerves overwhelm them -they turn on their own allies!",
             power: '0'
         },
         stats: {
@@ -23772,7 +23774,7 @@ const yokais = [
         soultime: {
             name: 'Bristleblockle',
             description:
-                'Drops gigantic furballs over the enemy field, blocking some tiles!"',
+                'Drops gigantic furballs over the enemy field, blocking some tiles!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -24063,7 +24065,7 @@ const yokais = [
         soultime: {
             name: 'Squealing Boil',
             description:
-                'Sproink is so fired up by the bath, he snorts flames at foes in range!"',
+                'Sproink is so fired up by the bath, he snorts flames at foes in range!',
             power: '160 to 160',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -24166,7 +24168,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Decisive Action',
-            description: 'Makes up an ally\'s mind for them! STR rises!"',
+            description: "Makes up an ally's mind for them! STR rises!",
             power: '0'
         },
         stats: {
@@ -24206,7 +24208,7 @@ const yokais = [
         soultime: {
             name: 'Block-a-Rock',
             description:
-                'Drops gigantic boulders over the enemy field, blocking some tiles!"',
+                'Drops gigantic boulders over the enemy field, blocking some tiles!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -24444,7 +24446,7 @@ const yokais = [
         soultime: {
             name: 'Atomicomet',
             description:
-                'Summons space meteorites that can land just about anywhere!"',
+                'Summons space meteorites that can land just about anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -24492,7 +24494,7 @@ const yokais = [
         soultime: {
             name: 'Phantasmal Shower',
             description:
-                'Summons space meteorites that can land just about anywhere!"',
+                'Summons space meteorites that can land just about anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -24981,7 +24983,7 @@ const yokais = [
         inspirit: {
             name: 'Astrally Augmented',
             description:
-                'Mysterious space powers make all of an ally\'s stats reach the stars!"',
+                "Mysterious space powers make all of an ally's stats reach the stars!",
             power: '0'
         },
         stats: {
@@ -25125,8 +25127,7 @@ const yokais = [
         },
         inspirit: {
             name: 'FREAK OUT!',
-            description:
-                'Makes a foe so gosh, darn shocked its DEF goes down!"',
+            description: 'Makes a foe so gosh, darn shocked its DEF goes down!',
             power: '0'
         },
         stats: {
@@ -25213,7 +25214,7 @@ const yokais = [
         soultime: {
             name: 'Wonder Wet',
             description:
-                'Summons random, violent whirlpools that can hit anywhere!"',
+                'Summons random, violent whirlpools that can hit anywhere!',
             power: '76 to 228 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -25261,7 +25262,7 @@ const yokais = [
         soultime: {
             name: 'In da Funny Bone',
             description:
-                'Restores HP for allies. Laughter really is the best medicine!"',
+                'Restores HP for allies. Laughter really is the best medicine!',
             power: '85 to 85 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -25887,7 +25888,7 @@ const yokais = [
         soultime: {
             name: 'Dragon Rock',
             description:
-                'Drops gigantic boulders over the enemy field, blocking some tiles!"',
+                'Drops gigantic boulders over the enemy field, blocking some tiles!',
             power: '190 to 190',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -26088,7 +26089,7 @@ const yokais = [
         inspirit: {
             name: 'Legend Power',
             description:
-                'Raises an ally\'s STR to transform it into a great warrior!"',
+                "Raises an ally's STR to transform it into a great warrior!",
             power: '0'
         },
         stats: {
@@ -26136,7 +26137,7 @@ const yokais = [
         inspirit: {
             name: 'Rampage',
             description:
-                'Makes a foe wreck its friendships by occasionally turning on its allies!"',
+                'Makes a foe wreck its friendships by occasionally turning on its allies!',
             power: '0'
         },
         stats: {
@@ -26345,7 +26346,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Whispocrates',
@@ -26394,7 +26395,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Snippity Cricket',
@@ -26476,7 +26477,7 @@ const yokais = [
         inspirit: {
             name: 'Yank Off',
             description:
-                'Flocktopus locks the foe in such a tight embrace, they can\'t move!"',
+                "Flocktopus locks the foe in such a tight embrace, they can't move!",
             power: '0'
         },
         stats: {
@@ -26524,7 +26525,7 @@ const yokais = [
         inspirit: {
             name: 'Battered Bitterness',
             description:
-                'Makes a foe so bitter that it sometimes batters its own allies!"',
+                'Makes a foe so bitter that it sometimes batters its own allies!',
             power: '0'
         },
         stats: {
@@ -26752,7 +26753,7 @@ const yokais = [
         soultime: {
             name: 'Bank Breaker',
             description:
-                'Makes his foes forget the value of money as they toss it away!"',
+                'Makes his foes forget the value of money as they toss it away!',
             power: '130 to 130',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -26800,7 +26801,7 @@ const yokais = [
         soultime: {
             name: 'Eternal Debt',
             description:
-                'Sends foes into debt by scattering their money uncontrollably!"',
+                'Sends foes into debt by scattering their money uncontrollably!',
             power: '160 to 160',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -26904,7 +26905,7 @@ const yokais = [
         inspirit: {
             name: 'Banana Power',
             description:
-                'Boosts an ally\'s SPD with a great, healthy banana taste!"',
+                "Boosts an ally's SPD with a great, healthy banana taste!",
             power: '0'
         },
         stats: {
@@ -28048,7 +28049,7 @@ const yokais = [
         soultime: {
             name: 'Mega Wave',
             description:
-                'Unleashes a genuine, powerful water stream that can hit anywhere!"',
+                'Unleashes a genuine, powerful water stream that can hit anywhere!',
             power: '170 to 255 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -28503,7 +28504,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Komajiro Ten',
@@ -28645,7 +28646,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Benzaiten',
@@ -28968,7 +28969,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -29016,7 +29017,7 @@ const yokais = [
         inspirit: {
             name: 'Scientific Method',
             description:
-                'An ally\'s SPR is raised thanks to extensive scientific research!"',
+                "An ally's SPR is raised thanks to extensive scientific research!",
             power: '0'
         },
         stats: {
@@ -29065,7 +29066,7 @@ const yokais = [
         inspirit: {
             name: 'Last Stand',
             description:
-                'Boosts an ally\'s STR in preparation for one last stand!"',
+                "Boosts an ally's STR in preparation for one last stand!",
             power: '0'
         },
         stats: {
@@ -29105,14 +29106,14 @@ const yokais = [
         soultime: {
             name: 'Twinkling Star',
             description:
-                'Summons random, shooting stars that can hit anywhere!"',
+                'Summons random, shooting stars that can hit anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Sparkly Swirls',
-            description: 'Makes an ally shine like a star, raising SPD!"',
+            description: 'Makes an ally shine like a star, raising SPD!',
             power: '0'
         },
         stats: {
@@ -29126,7 +29127,7 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Platinos',
@@ -29160,7 +29161,7 @@ const yokais = [
         inspirit: {
             name: 'Platinum Plating',
             description:
-                'Raises an ally\'s DEF by making its body hard platinum!"',
+                "Raises an ally's DEF by making its body hard platinum!",
             power: '0'
         },
         stats: {
@@ -29317,7 +29318,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Gilgaros',
@@ -29542,7 +29543,7 @@ const yokais = [
         inspirit: {
             name: 'Healing Air',
             description:
-                'Gradually restores an ally\'s HP with the power of a dandy!"',
+                "Gradually restores an ally's HP with the power of a dandy!",
             power: '0'
         },
         stats: {
@@ -29684,7 +29685,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Marine Mysteries',
-            description: 'Raises an ally\'s SPR with deep sea mineral powers!"',
+            description: "Raises an ally's SPR with deep sea mineral powers!",
             power: '0'
         },
         stats: {
@@ -29780,7 +29781,7 @@ const yokais = [
         inspirit: {
             name: 'Future Tech',
             description:
-                'All stats go up slightly thanks to technology from the future!"',
+                'All stats go up slightly thanks to technology from the future!',
             power: '0'
         },
         stats: {
@@ -30019,7 +30020,7 @@ const yokais = [
         inspirit: {
             name: 'Disbursement',
             description:
-                'Makes a foe ignore fund management and scatter money sometimes!"',
+                'Makes a foe ignore fund management and scatter money sometimes!',
             power: '0'
         },
         stats: {
@@ -30067,7 +30068,7 @@ const yokais = [
         inspirit: {
             name: 'Defenseless',
             description:
-                'Makes a foe defenseless, which... lowers their DEF, duh!"',
+                'Makes a foe defenseless, which... lowers their DEF, duh!',
             power: '0'
         },
         stats: {
@@ -30210,7 +30211,7 @@ const yokais = [
         inspirit: {
             name: 'Indomitable Ire',
             description:
-                'Raises an ally\'s STR with a peerless display of power!"',
+                "Raises an ally's STR with a peerless display of power!",
             power: '0'
         },
         stats: {
@@ -30250,7 +30251,7 @@ const yokais = [
         soultime: {
             name: 'Cut of Nine Tails',
             description:
-                'Shoots off a series of tail beams that can hit anywhere!"',
+                'Shoots off a series of tail beams that can hit anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -30442,7 +30443,7 @@ const yokais = [
         soultime: {
             name: 'Sweetheart',
             description:
-                'Her girly charm wins the hearts of allies and restores their HP too!"',
+                'Her girly charm wins the hearts of allies and restores their HP too!',
             power: '90 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -30490,7 +30491,7 @@ const yokais = [
         soultime: {
             name: 'Two World Beam',
             description:
-                'Damages foes in range with a beam that could change the world!"',
+                'Damages foes in range with a beam that could change the world!',
             power: '160 to 320',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -30498,7 +30499,7 @@ const yokais = [
         inspirit: {
             name: 'Dramatize',
             description:
-                'Messes with reality, raising all of an ally\'s stats a little!"',
+                "Messes with reality, raising all of an ally's stats a little!",
             power: '0'
         },
         stats: {
@@ -30608,7 +30609,7 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Eggcelency',
@@ -30634,7 +30635,7 @@ const yokais = [
         soultime: {
             name: "Yolk's on You",
             description:
-                'Egg is quite literally on the face of anyone these yolks randomly hit!"',
+                'Egg is quite literally on the face of anyone these yolks randomly hit!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -30681,7 +30682,7 @@ const yokais = [
         },
         soultime: {
             name: 'Deadly Deadeye',
-            description: 'Slices foes in range faster than the eye can see!"',
+            description: 'Slices foes in range faster than the eye can see!',
             power: '190 to 285 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -30737,7 +30738,7 @@ const yokais = [
         inspirit: {
             name: 'Lively Lettuce',
             description:
-                'All of an ally\'s stats are boosted by the power of fresh lettuce!"',
+                "All of an ally's stats are boosted by the power of fresh lettuce!",
             power: '0'
         },
         stats: {
@@ -30943,7 +30944,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: "Sunk'nsoul",
@@ -31024,7 +31025,7 @@ const yokais = [
         inspirit: {
             name: 'Crummy Curse',
             description:
-                'A mummy\'s curse confuses a foe into attacking their own allies!"',
+                "A mummy's curse confuses a foe into attacking their own allies!",
             power: '0'
         },
         stats: {
@@ -31086,7 +31087,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Tofupyon',
@@ -31120,7 +31121,7 @@ const yokais = [
         inspirit: {
             name: "Darn Tofootin'",
             description:
-                'The nutritious benefits of tofu boost all of an ally\'s stats a little!"',
+                "The nutritious benefits of tofu boost all of an ally's stats a little!",
             power: '0'
         },
         stats: {
@@ -31264,7 +31265,7 @@ const yokais = [
         inspirit: {
             name: 'That Eureka Moment',
             description:
-                'Makes an ally shine with such a brilliance that all its stats go up!"',
+                'Makes an ally shine with such a brilliance that all its stats go up!',
             power: '0'
         },
         stats: {
@@ -31312,7 +31313,7 @@ const yokais = [
         inspirit: {
             name: 'Arrest Momentum',
             description:
-                'Mighty magic powers bind the Yo-kai so badly it can\'t move!"',
+                "Mighty magic powers bind the Yo-kai so badly it can't move!",
             power: '0'
         },
         stats: {
@@ -31517,7 +31518,7 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Jurojin',
@@ -31551,7 +31552,7 @@ const yokais = [
         inspirit: {
             name: "Jurojin's Curse",
             description:
-                'Jurojin\'s curse strikes the foe, gradually decreasing their HP!"',
+                "Jurojin's curse strikes the foe, gradually decreasing their HP!",
             power: '0'
         },
         stats: {
@@ -31599,7 +31600,7 @@ const yokais = [
         inspirit: {
             name: "Fukurokuju's Favor",
             description:
-                'Fukurokuju serenades an ally and gradually restores their HP!"',
+                'Fukurokuju serenades an ally and gradually restores their HP!',
             power: '0'
         },
         stats: {
@@ -32119,7 +32120,7 @@ const yokais = [
         soultime: {
             name: 'Frigid Fist',
             description:
-                'Why, what is this wonder of frosty power blasting foes in range?"',
+                'Why, what is this wonder of frosty power blasting foes in range?',
             power: '200 to 300',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -32175,7 +32176,7 @@ const yokais = [
         inspirit: {
             name: "Lord Enma's Favor",
             description:
-                'By the order of Lord Enma, the Inspirited Yo-kai\'s stats rise!"',
+                "By the order of Lord Enma, the Inspirited Yo-kai's stats rise!",
             power: '0'
         },
         stats: {
@@ -32271,7 +32272,7 @@ const yokais = [
         inspirit: {
             name: 'That Eureka Moment',
             description:
-                'Makes an ally shine with such a brilliance that all its stats go up!"',
+                'Makes an ally shine with such a brilliance that all its stats go up!',
             power: '0'
         },
         stats: {
@@ -32311,7 +32312,7 @@ const yokais = [
         soultime: {
             name: 'Wrathful Judgment',
             description:
-                'His harsh fist descends upon those in range who dare defy him!"',
+                'His harsh fist descends upon those in range who dare defy him!',
             power: '190 to 190',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -32545,8 +32546,7 @@ const yokais = [
         },
         soultime: {
             name: 'Final Ferocity',
-            description:
-                'Rouses himself to stand guard. DEF goes way, way up!"',
+            description: 'Rouses himself to stand guard. DEF goes way, way up!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -32554,7 +32554,7 @@ const yokais = [
         inspirit: {
             name: 'Breathe In...',
             description:
-                'Enlightens an ally on the secret of defense. DEF of course rises!"',
+                'Enlightens an ally on the secret of defense. DEF of course rises!',
             power: '0'
         },
         stats: {
@@ -32602,7 +32602,7 @@ const yokais = [
         inspirit: {
             name: 'Breathe Out!',
             description:
-                'Enlightens an ally on the secret of offense. STR rises!"',
+                'Enlightens an ally on the secret of offense. STR rises!',
             power: '0'
         },
         stats: {
@@ -32642,7 +32642,7 @@ const yokais = [
         soultime: {
             name: 'Caw-Cawpse Breath',
             description:
-                'Spits sinister flames at the column in front but burns foes in range too!"',
+                'Spits sinister flames at the column in front but burns foes in range too!',
             power: '60 to 60',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -32690,7 +32690,7 @@ const yokais = [
         soultime: {
             name: 'Lava Lamp',
             description:
-                'Casts malicious flames at the column in front but burns foes in range too!"',
+                'Casts malicious flames at the column in front but burns foes in range too!',
             power: '110 to 220',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -32929,7 +32929,7 @@ const yokais = [
         soultime: {
             name: 'Lunar Landings',
             description:
-                'Decides to summon random moon rocks that can hit anywhere and anyone!"',
+                'Decides to summon random moon rocks that can hit anywhere and anyone!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
@@ -33120,7 +33120,7 @@ const yokais = [
         soultime: {
             name: 'Space-Time Surge',
             description:
-                'Bends time and space to damage all foes and hold them in place!"',
+                'Bends time and space to damage all foes and hold them in place!',
             power: '30 to 45 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
@@ -33168,7 +33168,7 @@ const yokais = [
         soultime: {
             name: 'Annihilator',
             description:
-                'Expels umbral energy that ANNIHILATES anyone in the column in front!"',
+                'Expels umbral energy that ANNIHILATES anyone in the column in front!',
             power: '190 to 285 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -33358,7 +33358,7 @@ const yokais = [
         soultime: {
             name: 'Pacifier Power',
             description:
-                'Pacifier power doesn\'t suck! Instead it restores HP to all allies!"',
+                "Pacifier power doesn't suck! Instead it restores HP to all allies!",
             power: '90 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
