@@ -6,6 +6,18 @@ import { withRouter } from 'react-router';
 import Container from './style';
 
 const getHeader = gameVersion => {
+    if (
+        document.location.hash.match(`/equipments/`) ||
+        document.location.hash.match(`/items/`)
+    ) {
+        return document.location.hash
+            .split('/')[3]
+            .replace('%20', ' ')
+            .replace('%20', ' ')
+            .replace('%20', ' ')
+            .replace('_boss', '');
+    }
+
     if (document.location.hash.match(`/yokai-watch-${gameVersion}/`))
         return document.location.hash
             .split('/')[2]
@@ -13,6 +25,7 @@ const getHeader = gameVersion => {
             .replace('%20', ' ')
             .replace('%20', ' ')
             .replace('_boss', '');
+
     return 'Yokaidex';
 };
 

@@ -15,6 +15,14 @@ import yokaisGame3 from './mocks/yokai-watch-3/yokais';
 import baffleBoardYW2 from './mocks/yokai-watch-2/baffle-boards';
 import baffleBoardYW3 from './mocks/yokai-watch-3/baffle-boards';
 
+import items1 from './mocks/yokai-watch-1/items';
+import items2 from './mocks/yokai-watch-2/items';
+import items3 from './mocks/yokai-watch-3/items';
+
+import equipments1 from './mocks/yokai-watch-1/equipments';
+import equipments2 from './mocks/yokai-watch-2/equipments';
+import equipments3 from './mocks/yokai-watch-3/equipments';
+
 const getBaffleBoard = gameVersion => {
     switch (gameVersion) {
         case '2':
@@ -37,6 +45,28 @@ const getYokais = gameVersion => {
     }
 };
 
+const getItems = gameVersion => {
+    switch (gameVersion) {
+        case '1':
+            return items1;
+        case '2':
+            return items2;
+        default:
+            return items3;
+    }
+};
+
+const getEquipments = gameVersion => {
+    switch (gameVersion) {
+        case '1':
+            return equipments1;
+        case '2':
+            return equipments2;
+        default:
+            return equipments3;
+    }
+};
+
 class App extends Component {
     constructor(props) {
         super(props);
@@ -48,7 +78,9 @@ class App extends Component {
             sidebarOpen: false,
             gameVersion,
             yokais: getYokais(gameVersion),
-            baffleBoard: getBaffleBoard(gameVersion)
+            baffleBoard: getBaffleBoard(gameVersion),
+            items: getItems(gameVersion),
+            equipments: getEquipments(gameVersion)
         };
 
         this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
@@ -73,7 +105,14 @@ class App extends Component {
     }
 
     render() {
-        const { sidebarOpen, gameVersion, yokais, baffleBoard } = this.state;
+        const {
+            sidebarOpen,
+            gameVersion,
+            yokais,
+            baffleBoard,
+            items,
+            equipments
+        } = this.state;
         const sidebar = (
             <SCSidebar
                 changeGameVersion={this.changeGameVersion}
@@ -106,6 +145,8 @@ class App extends Component {
                         gameVersion={gameVersion}
                         baffleBoard={baffleBoard}
                         yokais={yokais}
+                        items={items}
+                        equipments={equipments}
                     />
                 </Sidebar>
             </>
