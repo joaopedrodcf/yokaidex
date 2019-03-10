@@ -1,20 +1,27 @@
 import React, { Component } from 'react';
-import { Container, Field, Label } from './style';
-import { SCInput } from '../shared/input/style';
+import { Container, Field, Label, SCTextarea, TextAreaField } from './style';
+import SCInput from '../shared/input';
 
 export default class ContactUs extends Component {
     constructor() {
         super();
+        this.handleText = this.handleText.bind(this);
         this.state = {
             name: '',
             subject: '',
-            mail: '',
+            email: '',
             message: ''
         };
     }
 
+    handleText(event) {
+        this.setState({
+            [event.target.name]: event.target.value
+        });
+    }
+
     render() {
-        const { name, mail, subject, message } = this.props;
+        const { name, email, subject, message } = this.state;
         return (
             <Container>
                 <Field>
@@ -28,11 +35,11 @@ export default class ContactUs extends Component {
                     />
                 </Field>
                 <Field>
-                    <Label>Mail:</Label>
+                    <Label>Email:</Label>
                     <SCInput
-                        id="mail"
-                        name="mail"
-                        value={mail}
+                        id="email"
+                        name="email"
+                        value={email}
                         onChange={this.handleText}
                         placeholder="Enter your mail:"
                     />
@@ -47,16 +54,14 @@ export default class ContactUs extends Component {
                         placeholder="Enter your subject:"
                     />
                 </Field>
-                <Field>
+                <TextAreaField>
                     <Label>Message:</Label>
-                    <SCInput
-                        id="message"
-                        name="message"
-                        value={message}
-                        onChange={this.handleText}
+                    <SCTextarea
+                        cols="40"
+                        rows="15"
                         placeholder="Enter your message:"
                     />
-                </Field>
+                </TextAreaField>
             </Container>
         );
     }
