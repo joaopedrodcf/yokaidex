@@ -16,7 +16,7 @@ const equipments = [
             'Dropped by Mircle'
         ],
         statsInfo: {
-            str: '10',
+            str: '+10',
             spr: '0',
             def: '0',
             spd: '-5'
@@ -42,7 +42,7 @@ const equipments = [
             'Dropped by Grublappa'
         ],
         statsInfo: {
-            str: '10',
+            str: '+10',
             spr: '0',
             def: '-5',
             spd: '0'
@@ -74,7 +74,7 @@ const equipments = [
             'Lottery'
         ],
         statsInfo: {
-            str: '18',
+            str: '+18',
             spr: '0',
             def: '0',
             spd: '-8'
@@ -108,7 +108,7 @@ const equipments = [
             'Lottery'
         ],
         statsInfo: {
-            str: '18',
+            str: '+18',
             spr: '0',
             def: '-8',
             spd: '0'
@@ -142,7 +142,7 @@ const equipments = [
             'Lottery'
         ],
         statsInfo: {
-            str: '25',
+            str: '+25',
             spr: '0',
             def: '0',
             spd: '-12'
@@ -180,7 +180,7 @@ const equipments = [
             'Lottery'
         ],
         statsInfo: {
-            str: '25',
+            str: '+25',
             spr: '0',
             def: '-12',
             spd: '0'
@@ -212,7 +212,7 @@ const equipments = [
             'Lottery'
         ],
         statsInfo: {
-            str: '35',
+            str: '+35',
             spr: '0',
             def: '0',
             spd: '-15'
@@ -247,7 +247,7 @@ const equipments = [
             'Lottery'
         ],
         statsInfo: {
-            str: '35',
+            str: '+35',
             spr: '0',
             def: '-15',
             spd: '0'
@@ -270,7 +270,7 @@ const equipments = [
             'Quest \u2013 The Bony General'
         ],
         statsInfo: {
-            str: '50',
+            str: '+50',
             spr: '0',
             def: '0',
             spd: '-25'
@@ -294,7 +294,7 @@ const equipments = [
             'Quest \u2013 Fleshy Souls General'
         ],
         statsInfo: {
-            str: '50',
+            str: '+50',
             spr: '0',
             def: '-25',
             spd: '0'
@@ -320,7 +320,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '10',
+            spr: '+10',
             def: '-5',
             spd: '0'
         },
@@ -346,7 +346,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '10',
+            spr: '+10',
             def: '0',
             spd: '-5'
         },
@@ -377,7 +377,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '18',
+            spr: '+18',
             def: '-8',
             spd: '0'
         },
@@ -408,7 +408,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '18',
+            spr: '+18',
             def: '0',
             spd: '-8'
         },
@@ -447,7 +447,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '25',
+            spr: '+25',
             def: '-12',
             spd: '0'
         },
@@ -485,7 +485,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '25',
+            spr: '+25',
             def: '0',
             spd: '-12'
         },
@@ -517,7 +517,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '35',
+            spr: '+35',
             def: '-15',
             spd: '0'
         },
@@ -548,7 +548,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '35',
+            spr: '+35',
             def: '0',
             spd: '-15'
         },
@@ -570,7 +570,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '50',
+            spr: '+50',
             def: '-25',
             spd: '0'
         },
@@ -594,7 +594,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '50',
+            spr: '+50',
             def: '0',
             spd: '-25'
         },
@@ -621,7 +621,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-5',
-            def: '10',
+            def: '+10',
             spd: '0'
         },
         priceInfo: {
@@ -647,7 +647,7 @@ const equipments = [
         statsInfo: {
             str: '-5',
             spr: '0',
-            def: '10',
+            def: '+10',
             spd: '0'
         },
         priceInfo: {
@@ -678,7 +678,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-8',
-            def: '18',
+            def: '+18',
             spd: '0'
         },
         priceInfo: {
@@ -710,7 +710,7 @@ const equipments = [
         statsInfo: {
             str: '-8',
             spr: '0',
-            def: '18',
+            def: '+18',
             spd: '0'
         },
         priceInfo: {
@@ -747,7 +747,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-12',
-            def: '25',
+            def: '+25',
             spd: '0'
         },
         priceInfo: {
@@ -784,7 +784,7 @@ const equipments = [
         statsInfo: {
             str: '-12',
             spr: '0',
-            def: '25',
+            def: '+25',
             spd: '0'
         },
         priceInfo: {
@@ -817,7 +817,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-15',
-            def: '35',
+            def: '+35',
             spd: '0'
         },
         priceInfo: {
@@ -849,7 +849,7 @@ const equipments = [
         statsInfo: {
             str: '-15',
             spr: '0',
-            def: '35',
+            def: '+35',
             spd: '0'
         },
         priceInfo: {
@@ -867,7 +867,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-25',
-            def: '50',
+            def: '+50',
             spd: '0'
         },
         priceInfo: {
@@ -892,7 +892,7 @@ const equipments = [
         statsInfo: {
             str: '-25',
             spr: '0',
-            def: '50',
+            def: '+50',
             spd: '0'
         },
         priceInfo: {
@@ -918,7 +918,7 @@ const equipments = [
             str: '-5',
             spr: '0',
             def: '0',
-            spd: '8'
+            spd: '+8'
         },
         priceInfo: {
             sell: '1,8',
@@ -945,7 +945,7 @@ const equipments = [
             str: '0',
             spr: '-5',
             def: '0',
-            spd: '8'
+            spd: '+8'
         },
         priceInfo: {
             sell: '1,8',
@@ -976,7 +976,7 @@ const equipments = [
             str: '-8',
             spr: '0',
             def: '0',
-            spd: '15'
+            spd: '+15'
         },
         priceInfo: {
             sell: '6,5',
@@ -1009,7 +1009,7 @@ const equipments = [
             str: '0',
             spr: '-8',
             def: '0',
-            spd: '15'
+            spd: '+15'
         },
         priceInfo: {
             sell: '6,5',
@@ -1046,7 +1046,7 @@ const equipments = [
             str: '-12',
             spr: '0',
             def: '0',
-            spd: '20'
+            spd: '+20'
         },
         priceInfo: {
             sell: '11',
@@ -1083,7 +1083,7 @@ const equipments = [
             str: '0',
             spr: '-12',
             def: '0',
-            spd: '20'
+            spd: '+20'
         },
         priceInfo: {
             sell: '11',
@@ -1114,7 +1114,7 @@ const equipments = [
             str: '-15',
             spr: '0',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '28',
@@ -1148,7 +1148,7 @@ const equipments = [
             str: '0',
             spr: '-15',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '28',
@@ -1190,7 +1190,7 @@ const equipments = [
             str: '0',
             spr: '-25',
             def: '0',
-            spd: '40'
+            spd: '+40'
         },
         priceInfo: {
             sell: '80',
@@ -1206,10 +1206,10 @@ const equipments = [
         effect: '',
         locations: ['Dropped by Cadable', 'Dropped by Singcada', 'Lottery'],
         statsInfo: {
-            str: '35',
+            str: '+35',
             spr: '0',
             def: '0',
-            spd: '35'
+            spd: '+35'
         },
         priceInfo: {
             sell: '15',
@@ -1225,7 +1225,7 @@ const equipments = [
         effect: '',
         locations: ['Fusion.', 'Quest \u2013 Bam-Boom! Fusing!'],
         statsInfo: {
-            str: '50',
+            str: '+50',
             spr: '0',
             def: '0',
             spd: '0'
@@ -1245,7 +1245,7 @@ const equipments = [
         locations: ['Fusion.', 'Quest \u2013 Bam-Boom! Fusing!'],
         statsInfo: {
             str: '0',
-            spr: '50',
+            spr: '+50',
             def: '0',
             spd: '0'
         },
@@ -1265,7 +1265,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '50',
+            def: '+50',
             spd: '0'
         },
         priceInfo: {
@@ -1285,7 +1285,7 @@ const equipments = [
             str: '0',
             spr: '0',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '20',
@@ -1330,9 +1330,9 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: {
             str: '0',
-            spr: '100',
+            spr: '+100',
             def: '0',
-            spd: '100'
+            spd: '+100'
         },
         priceInfo: {
             sell: '50',
@@ -1351,7 +1351,7 @@ const equipments = [
             str: '0',
             spr: '0',
             def: '0',
-            spd: '50'
+            spd: '+50'
         },
         priceInfo: {
             sell: '18',
@@ -1367,7 +1367,7 @@ const equipments = [
         effect: '',
         locations: ['Jungle Hunter', 'Dropped by Badude'],
         statsInfo: {
-            str: '50',
+            str: '+50',
             spr: '0',
             def: '-25',
             spd: '0'
@@ -1386,8 +1386,8 @@ const equipments = [
         locations: ['Jungle Hunter', 'Quest \u2013 Inspirited Away'],
         statsInfo: {
             str: '0',
-            spr: '40',
-            def: '60',
+            spr: '+40',
+            def: '+60',
             spd: '0'
         },
         priceInfo: {
@@ -1415,8 +1415,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '45',
-            spd: '20'
+            def: '+45',
+            spd: '+20'
         },
         priceInfo: {
             sell: '35',
@@ -1435,7 +1435,7 @@ const equipments = [
             "Quest \u2013 Jibanyan's Secret"
         ],
         statsInfo: {
-            str: '60',
+            str: '+60',
             spr: '0',
             def: '0',
             spd: '0'
@@ -1453,10 +1453,10 @@ const equipments = [
         effect: '',
         locations: ["Quest \u2013 Jibanyan's Secret"],
         statsInfo: {
-            str: '40',
+            str: '+40',
             spr: '0',
             def: '0',
-            spd: '40'
+            spd: '+40'
         },
         priceInfo: {
             sell: '80',
@@ -1534,10 +1534,10 @@ const equipments = [
             'Lottery'
         ],
         statsInfo: {
-            str: '30',
+            str: '+30',
             spr: '0',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '25',
@@ -1554,9 +1554,9 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: {
             str: '0',
-            spr: '30',
+            spr: '+30',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '25',
@@ -1574,8 +1574,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '30',
-            spd: '30'
+            def: '+30',
+            spd: '+30'
         },
         priceInfo: {
             sell: '25',
@@ -1592,8 +1592,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '50',
-            spd: '50'
+            def: '+50',
+            spd: '+50'
         },
         priceInfo: {
             sell: '100',
@@ -1631,7 +1631,7 @@ const equipments = [
             'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Boar Mystery Coin'
         ],
         statsInfo: {
-            str: '80',
+            str: '+80',
             spr: '0',
             def: '0',
             spd: '-40'
@@ -1654,7 +1654,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '80',
+            spr: '+80',
             def: '0',
             spd: '-40'
         },
@@ -1676,7 +1676,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '80',
+            def: '+80',
             spd: '-40'
         },
         priceInfo: {
@@ -1698,7 +1698,7 @@ const equipments = [
             str: '0',
             spr: '0',
             def: '-40',
-            spd: '80'
+            spd: '+80'
         },
         priceInfo: {
             sell: '150',

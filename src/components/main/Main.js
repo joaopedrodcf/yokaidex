@@ -140,9 +140,10 @@ class Main extends Component {
             'Tough',
             'Wicked',
             'Enma',
+            'Wandroid',
             'Boss'
         ];
-        const ranksCheckbox = ['A', 'B', 'C', 'D', 'E', 'S'];
+        const ranksCheckbox = ['S', 'A', 'B', 'C', 'D', 'E'];
         const elementsCheckbox = [
             'Drain',
             'Earth',
