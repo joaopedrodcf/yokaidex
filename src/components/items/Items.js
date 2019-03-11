@@ -47,20 +47,20 @@ class Items extends Component {
                     })
                     .map((item, index) => (
                         <Sections key={index}>
-                            <STable>
-                                <Link
-                                    to={`/yokai-watch-${gameVersion}/${type}/${
-                                        item.name
-                                    }`}
-                                >
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/${type}/${
+                                    item.name
+                                }`}
+                            >
+                                <STable>
                                     <Image
                                         imageUrl={item.image}
                                         altText={item.name}
                                         size="medium"
                                     />
                                     <STableText>{item.name}</STableText>
-                                </Link>
-                            </STable>
+                                </STable>
+                            </Link>
                         </Sections>
                     ))}
             </Container>

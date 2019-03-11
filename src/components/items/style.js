@@ -41,6 +41,15 @@ export const Sections = styled.div`
     width: 100%;
     align-items: flex-start;
     margin: 12px 0;
+
+    a {
+        width: 100%;
+        color: inherit;
+        text-decoration: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 export const STable = styled.div`
@@ -56,14 +65,6 @@ export const STable = styled.div`
     font-weight: 600;
     font-size: 18px;
     background-color: #e1bee7;
-
-    a {
-        color: inherit;
-        text-decoration: inherit;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 `;
 
 export const STableText = styled.div`
