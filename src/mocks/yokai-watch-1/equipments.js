@@ -16,7 +16,7 @@ const equipments = [
             'Quest - Too Hot to Work'
         ],
         statsInfo: {
-            str: '10',
+            str: '+10',
             spr: '0',
             def: '0',
             spd: '-5'
@@ -44,7 +44,7 @@ const equipments = [
             'Quest - Re-Mom-Bear Me'
         ],
         statsInfo: {
-            str: '18',
+            str: '+18',
             spr: '0',
             def: '0',
             spd: '-10'
@@ -70,7 +70,7 @@ const equipments = [
             'Password'
         ],
         statsInfo: {
-            str: '25',
+            str: '+25',
             spr: '0',
             def: '0',
             spd: '-15'
@@ -94,7 +94,7 @@ const equipments = [
             'Password'
         ],
         statsInfo: {
-            str: '35',
+            str: '+35',
             spr: '0',
             def: '0',
             spd: '-20'
@@ -113,7 +113,7 @@ const equipments = [
         effect: '',
         locations: ['Dropped by Zerberker', 'Password'],
         statsInfo: {
-            str: '50',
+            str: '+50',
             spr: '0',
             def: '0',
             spd: '-50'
@@ -140,7 +140,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '10',
+            spr: '+10',
             def: '-5',
             spd: '0'
         },
@@ -165,7 +165,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '18',
+            spr: '+18',
             def: '-10',
             spd: '0'
         },
@@ -191,7 +191,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '25',
+            spr: '+25',
             def: '-15',
             spd: '0'
         },
@@ -217,7 +217,7 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '35',
+            spr: '+35',
             def: '-20',
             spd: '0'
         },
@@ -235,7 +235,7 @@ const equipments = [
         locations: ['Dropped by Ogralus', 'Password'],
         statsInfo: {
             str: '0',
-            spr: '50',
+            spr: '+50',
             def: '-50',
             spd: '0'
         },
@@ -414,7 +414,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-5',
-            def: '10',
+            def: '+10',
             spd: '0'
         },
         priceInfo: {
@@ -439,7 +439,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-10',
-            def: '18',
+            def: '+18',
             spd: '0'
         },
         priceInfo: {
@@ -465,7 +465,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-15',
-            def: '25',
+            def: '+25',
             spd: '0'
         },
         priceInfo: {
@@ -489,7 +489,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-20',
-            def: '35',
+            def: '+35',
             spd: '0'
         },
         priceInfo: {
@@ -507,7 +507,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-50',
-            def: '50',
+            def: '+50',
             spd: '0'
         },
         priceInfo: {
@@ -677,7 +677,7 @@ const equipments = [
             str: '-5',
             spr: '0',
             def: '0',
-            spd: '10'
+            spd: '+10'
         },
         priceInfo: {
             sell: '10',
@@ -703,7 +703,7 @@ const equipments = [
             str: '-10',
             spr: '0',
             def: '0',
-            spd: '18'
+            spd: '+18'
         },
         priceInfo: {
             sell: '32',
@@ -729,7 +729,7 @@ const equipments = [
             str: '-15',
             spr: '0',
             def: '0',
-            spd: '25'
+            spd: '+25'
         },
         priceInfo: {
             sell: '76',
@@ -754,7 +754,7 @@ const equipments = [
             str: '-20',
             spr: '0',
             def: '0',
-            spd: '35'
+            spd: '+35'
         },
         priceInfo: {
             sell: '114',
@@ -772,7 +772,7 @@ const equipments = [
             str: '-50',
             spr: '0',
             def: '0',
-            spd: '50'
+            spd: '+50'
         },
         priceInfo: {
             sell: '160',
@@ -792,10 +792,10 @@ const equipments = [
             'Password'
         ],
         statsInfo: {
-            str: '30',
+            str: '+30',
             spr: '0',
             def: '0',
-            spd: '20'
+            spd: '+20'
         },
         priceInfo: {
             sell: '30',
@@ -811,7 +811,7 @@ const equipments = [
         effect: '',
         locations: ['Jungle Hunter', 'Quest - The Legendary Kyubi', 'Password'],
         statsInfo: {
-            str: '30',
+            str: '+30',
             spr: '0',
             def: '0',
             spd: '0'
@@ -831,7 +831,7 @@ const equipments = [
         locations: ['Quest - Talisman Man, Man', 'Password'],
         statsInfo: {
             str: '0',
-            spr: '50',
+            spr: '+50',
             def: '0',
             spd: '0'
         },
@@ -851,7 +851,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '50',
+            def: '+50',
             spd: '0'
         },
         priceInfo: {
@@ -876,7 +876,7 @@ const equipments = [
             str: '0',
             spr: '0',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '35',
@@ -916,9 +916,9 @@ const equipments = [
         locations: ['Dropped by Tengu', 'Quest - Take Out Tengu!'],
         statsInfo: {
             str: '0',
-            spr: '100',
+            spr: '+100',
             def: '0',
-            spd: '100'
+            spd: '+100'
         },
         priceInfo: {
             sell: '65',
@@ -943,7 +943,7 @@ const equipments = [
             str: '0',
             spr: '0',
             def: '0',
-            spd: '50'
+            spd: '+50'
         },
         priceInfo: {
             sell: '0',
@@ -959,7 +959,7 @@ const equipments = [
         effect: '',
         locations: ['Dropped by Roughraff', 'Password'],
         statsInfo: {
-            str: '50',
+            str: '+50',
             spr: '0',
             def: '0',
             spd: '-50'
@@ -978,10 +978,10 @@ const equipments = [
         effect: '',
         locations: ['Jungle Hunter', 'Quest - Head Juggling', 'Password'],
         statsInfo: {
-            str: '30',
+            str: '+30',
             spr: '0',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '0',
@@ -1003,9 +1003,9 @@ const equipments = [
         ],
         statsInfo: {
             str: '0',
-            spr: '30',
+            spr: '+30',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '0',
@@ -1028,8 +1028,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '30',
-            spd: '30'
+            def: '+30',
+            spd: '+30'
         },
         priceInfo: {
             sell: '0',

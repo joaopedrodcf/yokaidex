@@ -1,5 +1,13 @@
 import React from 'react';
-import { Container, Sections, STable, STableText, STableTitle } from './style';
+import {
+    Container,
+    Sections,
+    STable,
+    STableText,
+    STableTitle,
+    SLabel,
+    SLabelText
+} from './style';
 
 import Image from '../shared/image';
 
@@ -17,22 +25,48 @@ const ItemCard = ({
 }) => (
     <Container>
         <Image imageUrl={image} altText={name} size="medium" />
-        {name}
+
+        <Sections isRow justifyContent="space-evenly">
+            <SLabel backgroundColor="#e1bee7">
+                <SLabelText>Sell</SLabelText>
+                <SLabelText>{priceInfo.sell}</SLabelText>
+            </SLabel>
+
+            <SLabel backgroundColor="#e1bee7">
+                <SLabelText>Buy</SLabelText>
+                <SLabelText>{priceInfo.buy}</SLabelText>
+            </SLabel>
+        </Sections>
+        {hasStatsInfo(statsInfo) && (
+            <Sections isRow justifyContent="space-evenly">
+                {Object.keys(statsInfo).map(
+                    key =>
+                        statsInfo[key] !== '0' &&
+                        !statsInfo[key].match('-') && (
+                            <SLabel backgroundColor="#a5d6a7">
+                                <SLabelText uppercase>{key}</SLabelText>
+                                <SLabelText>{statsInfo[key]}</SLabelText>
+                            </SLabel>
+                        )
+                )}
+
+                {Object.keys(statsInfo).map(
+                    key =>
+                        statsInfo[key] !== '0' &&
+                        statsInfo[key].match('-') && (
+                            <SLabel backgroundColor="#ef9a9a">
+                                <SLabelText uppercase>{key}</SLabelText>
+                                <SLabelText>{statsInfo[key]}</SLabelText>
+                            </SLabel>
+                        )
+                )}
+            </Sections>
+        )}
+
         <Sections>
             <STable>
                 <STableTitle color="#e1bee7">Description</STableTitle>
                 <STableText bold>{description}</STableText>
-            </STable>
-        </Sections>
-
-        <Sections>
-            <STable>
-                <STableTitle color="#e1bee7">Locations</STableTitle>
-                <STableText>
-                    {locations.map((location, index) => (
-                        <div key={index}>{location}</div>
-                    ))}
-                </STableText>
             </STable>
         </Sections>
 
@@ -45,33 +79,12 @@ const ItemCard = ({
             </Sections>
         )}
 
-        {hasStatsInfo(statsInfo) && (
-            <Sections>
-                <STable>
-                    <STableTitle color="#e1bee7">Stats</STableTitle>
-
-                    <STableText>
-                        {Object.keys(statsInfo).map(
-                            key =>
-                                statsInfo[key] !== '0' && (
-                                    <div key={key}>
-                                        {key} = {statsInfo[key]}
-                                    </div>
-                                )
-                        )}
-                    </STableText>
-                </STable>
-            </Sections>
-        )}
-
         <Sections>
             <STable>
-                <STableTitle color="#e1bee7">Prices</STableTitle>
+                <STableTitle color="#e1bee7">Locations</STableTitle>
                 <STableText>
-                    {Object.keys(priceInfo).map(key => (
-                        <div key={key}>
-                            {key} = {priceInfo[key]}
-                        </div>
+                    {locations.map((location, index) => (
+                        <div key={index}>{location}</div>
                     ))}
                 </STableText>
             </STable>

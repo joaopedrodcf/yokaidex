@@ -8,7 +8,7 @@ const equipments = [
         effect: '',
         locations: ["Margarita's"],
         statsInfo: {
-            str: '8',
+            str: '+8',
             spr: '0',
             def: '0',
             spd: '-5'
@@ -26,7 +26,7 @@ const equipments = [
         effect: '',
         locations: ["Margarita's"],
         statsInfo: {
-            str: '8',
+            str: '+8',
             spr: '0',
             def: '-5',
             spd: '0'
@@ -45,7 +45,7 @@ const equipments = [
         effect: '',
         locations: ['Whatta Find'],
         statsInfo: {
-            str: '15',
+            str: '+15',
             spr: '0',
             def: '0',
             spd: '-8'
@@ -64,7 +64,7 @@ const equipments = [
         effect: '',
         locations: ['Whatta Find'],
         statsInfo: {
-            str: '15',
+            str: '+15',
             spr: '0',
             def: '-8',
             spd: '0'
@@ -82,7 +82,7 @@ const equipments = [
         effect: '',
         locations: ['Wild Hunters'],
         statsInfo: {
-            str: '22',
+            str: '+22',
             spr: '0',
             def: '0',
             spd: '-12'
@@ -101,7 +101,7 @@ const equipments = [
         effect: '',
         locations: ['Wild Hunters'],
         statsInfo: {
-            str: '22',
+            str: '+22',
             spr: '0',
             def: '-12',
             spd: '0'
@@ -120,7 +120,7 @@ const equipments = [
         effect: '',
         locations: ['Whatta Find'],
         statsInfo: {
-            str: '30',
+            str: '+30',
             spr: '0',
             def: '0',
             spd: '-15'
@@ -139,7 +139,7 @@ const equipments = [
         effect: '',
         locations: ['Wild Hunters'],
         statsInfo: {
-            str: '30',
+            str: '+30',
             spr: '0',
             def: '-15',
             spd: '0'
@@ -158,7 +158,7 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '40',
+            str: '+40',
             spr: '0',
             def: '0',
             spd: '-25'
@@ -176,7 +176,7 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '40',
+            str: '+40',
             spr: '0',
             def: '-25',
             spd: '0'
@@ -195,7 +195,7 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '65',
+            str: '+65',
             spr: '0',
             def: '0',
             spd: '-40'
@@ -214,7 +214,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: {
             str: '0',
-            spr: '8',
+            spr: '+8',
             def: '-5',
             spd: '0'
         },
@@ -232,7 +232,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: {
             str: '0',
-            spr: '8',
+            spr: '+8',
             def: '0',
             spd: '-5'
         },
@@ -250,7 +250,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: {
             str: '0',
-            spr: '15',
+            spr: '+15',
             def: '-8',
             spd: '0'
         },
@@ -269,7 +269,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: {
             str: '0',
-            spr: '15',
+            spr: '+15',
             def: '0',
             spd: '-8'
         },
@@ -288,7 +288,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: {
             str: '0',
-            spr: '22',
+            spr: '+22',
             def: '-12',
             spd: '0'
         },
@@ -306,7 +306,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: {
             str: '0',
-            spr: '22',
+            spr: '+22',
             def: '0',
             spd: '-12'
         },
@@ -325,7 +325,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: {
             str: '0',
-            spr: '30',
+            spr: '+30',
             def: '-15',
             spd: '0'
         },
@@ -343,7 +343,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: {
             str: '0',
-            spr: '30',
+            spr: '+30',
             def: '0',
             spd: '-15'
         },
@@ -361,7 +361,7 @@ const equipments = [
         locations: [null],
         statsInfo: {
             str: '0',
-            spr: '40',
+            spr: '+40',
             def: '-25',
             spd: '0'
         },
@@ -379,7 +379,7 @@ const equipments = [
         locations: [null],
         statsInfo: {
             str: '0',
-            spr: '40',
+            spr: '+40',
             def: '0',
             spd: '-25'
         },
@@ -398,7 +398,7 @@ const equipments = [
         locations: [null],
         statsInfo: {
             str: '0',
-            spr: '65',
+            spr: '+65',
             def: '-40',
             spd: '0'
         },
@@ -417,7 +417,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-5',
-            def: '8',
+            def: '+8',
             spd: '0'
         },
         priceInfo: {
@@ -436,7 +436,7 @@ const equipments = [
         statsInfo: {
             str: '-5',
             spr: '0',
-            def: '8',
+            def: '+8',
             spd: '0'
         },
         priceInfo: {
@@ -454,7 +454,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-8',
-            def: '15',
+            def: '+15',
             spd: '0'
         },
         priceInfo: {
@@ -472,7 +472,7 @@ const equipments = [
         statsInfo: {
             str: '-8',
             spr: '0',
-            def: '15',
+            def: '+15',
             spd: '0'
         },
         priceInfo: {
@@ -490,7 +490,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-12',
-            def: '22',
+            def: '+22',
             spd: '0'
         },
         priceInfo: {
@@ -508,7 +508,7 @@ const equipments = [
         statsInfo: {
             str: '-12',
             spr: '0',
-            def: '22',
+            def: '+22',
             spd: '0'
         },
         priceInfo: {
@@ -526,7 +526,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-15',
-            def: '30',
+            def: '+30',
             spd: '0'
         },
         priceInfo: {
@@ -545,7 +545,7 @@ const equipments = [
         statsInfo: {
             str: '-15',
             spr: '0',
-            def: '30',
+            def: '+30',
             spd: '0'
         },
         priceInfo: {
@@ -563,7 +563,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '-25',
-            def: '40',
+            def: '+40',
             spd: '0'
         },
         priceInfo: {
@@ -582,7 +582,7 @@ const equipments = [
         statsInfo: {
             str: '-25',
             spr: '0',
-            def: '40',
+            def: '+40',
             spd: '0'
         },
         priceInfo: {
@@ -601,7 +601,7 @@ const equipments = [
         statsInfo: {
             str: '-40',
             spr: '0',
-            def: '65',
+            def: '+65',
             spd: '0'
         },
         priceInfo: {
@@ -621,7 +621,7 @@ const equipments = [
             str: '-5',
             spr: '0',
             def: '0',
-            spd: '8'
+            spd: '+8'
         },
         priceInfo: {
             sell: '180',
@@ -639,7 +639,7 @@ const equipments = [
             str: '0',
             spr: '-5',
             def: '0',
-            spd: '8'
+            spd: '+8'
         },
         priceInfo: {
             sell: '180',
@@ -657,7 +657,7 @@ const equipments = [
             str: '-8',
             spr: '0',
             def: '0',
-            spd: '15'
+            spd: '+15'
         },
         priceInfo: {
             sell: '650',
@@ -676,7 +676,7 @@ const equipments = [
             str: '0',
             spr: '-8',
             def: '0',
-            spd: '15'
+            spd: '+15'
         },
         priceInfo: {
             sell: '650',
@@ -694,7 +694,7 @@ const equipments = [
             str: '-12',
             spr: '0',
             def: '0',
-            spd: '22'
+            spd: '+22'
         },
         priceInfo: {
             sell: '1400',
@@ -712,7 +712,7 @@ const equipments = [
             str: '0',
             spr: '-12',
             def: '0',
-            spd: '22'
+            spd: '+22'
         },
         priceInfo: {
             sell: '1400',
@@ -731,7 +731,7 @@ const equipments = [
             str: '-15',
             spr: '0',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '3300',
@@ -749,7 +749,7 @@ const equipments = [
             str: '0',
             spr: '-15',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '3300',
@@ -767,7 +767,7 @@ const equipments = [
             str: '-25',
             spr: '0',
             def: '0',
-            spd: '40'
+            spd: '+40'
         },
         priceInfo: {
             sell: '8000',
@@ -786,7 +786,7 @@ const equipments = [
             str: '0',
             spr: '-25',
             def: '0',
-            spd: '40'
+            spd: '+40'
         },
         priceInfo: {
             sell: '8000',
@@ -805,7 +805,7 @@ const equipments = [
             str: '0',
             spr: '-40',
             def: '0',
-            spd: '65'
+            spd: '+65'
         },
         priceInfo: {
             sell: '5000',
@@ -859,10 +859,10 @@ const equipments = [
         effect: '',
         locations: ['Run Through The Old Mansion'],
         statsInfo: {
-            str: '35',
+            str: '+35',
             spr: '0',
             def: '0',
-            spd: '35'
+            spd: '+35'
         },
         priceInfo: {
             sell: '1800',
@@ -878,7 +878,7 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '30',
+            str: '+30',
             spr: '0',
             def: '0',
             spd: '0'
@@ -898,7 +898,7 @@ const equipments = [
         locations: [null],
         statsInfo: {
             str: '0',
-            spr: '30',
+            spr: '+30',
             def: '0',
             spd: '0'
         },
@@ -918,7 +918,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '30',
+            def: '+30',
             spd: '0'
         },
         priceInfo: {
@@ -938,7 +938,7 @@ const equipments = [
             str: '0',
             spr: '0',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '2200',
@@ -974,9 +974,9 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: {
             str: '0',
-            spr: '100',
+            spr: '+100',
             def: '0',
-            spd: '100'
+            spd: '+100'
         },
         priceInfo: {
             sell: '5000',
@@ -995,7 +995,7 @@ const equipments = [
             str: '0',
             spr: '0',
             def: '0',
-            spd: '50'
+            spd: '+50'
         },
         priceInfo: {
             sell: '1800',
@@ -1011,7 +1011,7 @@ const equipments = [
         effect: '',
         locations: ['Jungle Hunter'],
         statsInfo: {
-            str: '60',
+            str: '+60',
             spr: '0',
             def: '-30',
             spd: '0'
@@ -1030,8 +1030,8 @@ const equipments = [
         locations: [null],
         statsInfo: {
             str: '0',
-            spr: '20',
-            def: '40',
+            spr: '+20',
+            def: '+40',
             spd: '0'
         },
         priceInfo: {
@@ -1049,8 +1049,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '20',
-            spd: '20'
+            def: '+20',
+            spd: '+20'
         },
         priceInfo: {
             sell: '3500',
@@ -1066,7 +1066,7 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '60',
+            str: '+60',
             spr: '0',
             def: '0',
             spd: '-30'
@@ -1084,10 +1084,10 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '20',
+            str: '+20',
             spr: '0',
             def: '0',
-            spd: '20'
+            spd: '+20'
         },
         priceInfo: {
             sell: '8000',
@@ -1103,10 +1103,10 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '30',
+            str: '+30',
             spr: '0',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '2700',
@@ -1123,9 +1123,9 @@ const equipments = [
         locations: [null],
         statsInfo: {
             str: '0',
-            spr: '30',
+            spr: '+30',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '2700',
@@ -1143,8 +1143,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '30',
-            spd: '30'
+            def: '+30',
+            spd: '+30'
         },
         priceInfo: {
             sell: '2700',
@@ -1161,8 +1161,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '30',
-            spd: '30'
+            def: '+30',
+            spd: '+30'
         },
         priceInfo: {
             sell: '10000',
@@ -1181,7 +1181,7 @@ const equipments = [
             str: '0',
             spr: '0',
             def: '0',
-            spd: '50'
+            spd: '+50'
         },
         priceInfo: {
             sell: '2500',
@@ -1197,8 +1197,8 @@ const equipments = [
         effect: '',
         locations: ['Jungle Hunter'],
         statsInfo: {
-            str: '25',
-            spr: '25',
+            str: '+25',
+            spr: '+25',
             def: '0',
             spd: '0'
         },
@@ -1218,8 +1218,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '20',
-            spd: '20'
+            def: '+20',
+            spd: '+20'
         },
         priceInfo: {
             sell: '2800',
@@ -1235,8 +1235,8 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '25',
-            spr: '25',
+            str: '+25',
+            spr: '+25',
             def: '0',
             spd: '0'
         },
@@ -1256,8 +1256,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '20',
-            spd: '20'
+            def: '+20',
+            spd: '+20'
         },
         priceInfo: {
             sell: '4000',
@@ -1273,10 +1273,10 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '20',
+            str: '+20',
             spr: '0',
             def: '0',
-            spd: '20'
+            spd: '+20'
         },
         priceInfo: {
             sell: '2500',
@@ -1293,9 +1293,9 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: {
             str: '0',
-            spr: '40',
+            spr: '+40',
             def: '0',
-            spd: '20'
+            spd: '+20'
         },
         priceInfo: {
             sell: '2000',
@@ -1312,9 +1312,9 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: {
             str: '0',
-            spr: '20',
+            spr: '+20',
             def: '0',
-            spd: '20'
+            spd: '+20'
         },
         priceInfo: {
             sell: '3500',
@@ -1331,9 +1331,9 @@ const equipments = [
         locations: [null],
         statsInfo: {
             str: '0',
-            spr: '20',
+            spr: '+20',
             def: '0',
-            spd: '40'
+            spd: '+40'
         },
         priceInfo: {
             sell: '3000',
@@ -1349,10 +1349,10 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '30',
+            str: '+30',
             spr: '0',
             def: '0',
-            spd: '30'
+            spd: '+30'
         },
         priceInfo: {
             sell: '2500',
@@ -1387,7 +1387,7 @@ const equipments = [
         effect: '',
         locations: ["Diana Gately & the Keeper's Old Man"],
         statsInfo: {
-            str: '35',
+            str: '+35',
             spr: '0',
             def: '0',
             spd: '0'
@@ -1407,7 +1407,7 @@ const equipments = [
         locations: ['The Calamity that Lurks Below...'],
         statsInfo: {
             str: '0',
-            spr: '35',
+            spr: '+35',
             def: '0',
             spd: '0'
         },
@@ -1427,7 +1427,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '35',
+            def: '+35',
             spd: '0'
         },
         priceInfo: {
@@ -1465,7 +1465,7 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '35',
+            def: '+35',
             spd: '0'
         },
         priceInfo: {
@@ -1482,7 +1482,7 @@ const equipments = [
         locations: [null],
         statsInfo: {
             str: '0',
-            spr: '35',
+            spr: '+35',
             def: '0',
             spd: '0'
         },
@@ -1502,8 +1502,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '20',
-            spd: '20'
+            def: '+20',
+            spd: '+20'
         },
         priceInfo: {
             sell: '0',
@@ -1519,7 +1519,7 @@ const equipments = [
         effect: '',
         locations: [null],
         statsInfo: {
-            str: '50',
+            str: '+50',
             spr: '0',
             def: '0',
             spd: '0'
@@ -1540,8 +1540,8 @@ const equipments = [
         statsInfo: {
             str: '0',
             spr: '0',
-            def: '30',
-            spd: '30'
+            def: '+30',
+            spd: '+30'
         },
         priceInfo: {
             sell: '0',

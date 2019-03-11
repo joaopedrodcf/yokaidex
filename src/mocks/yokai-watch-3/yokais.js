@@ -21144,7 +21144,7 @@ const yokais = [
             spd: '177'
         },
         tribe: 'Shady',
-        element: 'Wind',
+        element: 'Fire',
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Meats'
@@ -21191,7 +21191,7 @@ const yokais = [
             spd: '180'
         },
         tribe: 'Shady',
-        element: 'Wind',
+        element: 'Water',
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Meats'
@@ -33186,7 +33186,7 @@ const yokais = [
             spd: '210'
         },
         tribe: 'Enma',
-        element: 'Wind',
+        element: 'Drain',
         weakness: '-',
         rank: 's',
         favouriteFood: 'sukiyaki'
