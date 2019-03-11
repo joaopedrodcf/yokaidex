@@ -20,14 +20,14 @@ const ItemCard = ({
         {name}
         <Sections>
             <STable>
-                <STableTitle color="#ea80fc">Description</STableTitle>
+                <STableTitle color="#e1bee7">Description</STableTitle>
                 <STableText bold>{description}</STableText>
             </STable>
         </Sections>
 
         <Sections>
             <STable>
-                <STableTitle color="#ea80fc">Locations</STableTitle>
+                <STableTitle color="#e1bee7">Locations</STableTitle>
                 <STableText>
                     {locations.map((location, index) => (
                         <div key={index}>{location}</div>
@@ -39,7 +39,7 @@ const ItemCard = ({
         {effect !== '' && (
             <Sections>
                 <STable>
-                    <STableTitle color="#ea80fc">Effect</STableTitle>
+                    <STableTitle color="#e1bee7">Effect</STableTitle>
                     <STableText>{effect}</STableText>
                 </STable>
             </Sections>
@@ -48,7 +48,7 @@ const ItemCard = ({
         {hasStatsInfo(statsInfo) && (
             <Sections>
                 <STable>
-                    <STableTitle color="#ea80fc">Stats</STableTitle>
+                    <STableTitle color="#e1bee7">Stats</STableTitle>
 
                     <STableText>
                         {Object.keys(statsInfo).map(
@@ -66,7 +66,7 @@ const ItemCard = ({
 
         <Sections>
             <STable>
-                <STableTitle color="#ea80fc">Prices</STableTitle>
+                <STableTitle color="#e1bee7">Prices</STableTitle>
                 <STableText>
                     {Object.keys(priceInfo).map(key => (
                         <div key={key}>

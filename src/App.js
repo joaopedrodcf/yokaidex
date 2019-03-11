@@ -98,10 +98,15 @@ class App extends Component {
 
         const yokais = getYokais(gameVersion);
         const baffleBoard = getBaffleBoard(gameVersion);
+        const items = getItems(gameVersion);
+        const equipments = getEquipments(gameVersion);
 
-        this.setState({ gameVersion, yokais, baffleBoard }, () => {
-            history.push(`/yokai-watch-${gameVersion}`);
-        });
+        this.setState(
+            { gameVersion, yokais, baffleBoard, items, equipments },
+            () => {
+                history.push(`/yokai-watch-${gameVersion}`);
+            }
+        );
     }
 
     render() {

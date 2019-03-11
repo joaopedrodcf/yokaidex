@@ -7,6 +7,7 @@ import Main from './components/main';
 import BaffleBoard from './components/baffle-board';
 import AboutUs from './components/about-us';
 import ItemCard from './components/item-card';
+import Items from './components/items';
 
 const history = createHistory();
 history.listen(location => {
@@ -70,6 +71,29 @@ class Routes extends Component {
                         <BaffleBoard
                             gameVersion={gameVersion}
                             baffleBoard={baffleBoard}
+                        />
+                    )}
+                />
+                <Route
+                    exact
+                    path="/yokai-watch-:version/items"
+                    render={() => (
+                        <Items
+                            gameVersion={gameVersion}
+                            items={items}
+                            type="items"
+                        />
+                    )}
+                />
+
+                <Route
+                    exact
+                    path="/yokai-watch-:version/equipments"
+                    render={() => (
+                        <Items
+                            gameVersion={gameVersion}
+                            items={equipments}
+                            type="equipments"
                         />
                     )}
                 />
