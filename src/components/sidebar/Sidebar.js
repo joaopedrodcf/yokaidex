@@ -56,6 +56,16 @@ class Sidebar extends Component {
                             </SCNavLink>
                         )}
 
+                        <SCNavLink to={`/yokai-watch-${gameVersion}/items`}>
+                            <FontAwesomeIcon icon="list-ul" /> Items
+                        </SCNavLink>
+
+                        <SCNavLink
+                            to={`/yokai-watch-${gameVersion}/equipments`}
+                        >
+                            <FontAwesomeIcon icon="list-ul" /> Equipments
+                        </SCNavLink>
+
                         <SCLink href="https://github.com/joaopedrodcf/yokaidex">
                             <FontAwesomeIcon icon="hands-helping" /> Contribute
                         </SCLink>
