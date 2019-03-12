@@ -118,8 +118,8 @@ const Card = ({
                             Locations
                         </STableTitle>
                         <STableText>
-                            {locations.map(location => (
-                                <div>{location}</div>
+                            {locations.map((location, index) => (
+                                <div key={index}>{location}</div>
                             ))}
                         </STableText>
                     </STable>
