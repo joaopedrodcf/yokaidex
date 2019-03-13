@@ -23613,7 +23613,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/toiletta.png',
         description:
             'This Yo-kai considers it her life goal to refine the art of scaring children at school. Extremely dedicated to the cause.',
-        locations: ['Springdale Elementary'],
+        locations: ['Springdale Elementary at night'],
         skill: {
             name: 'Curse Worsener',
             description: "Increases potency of allies' Jinxes."

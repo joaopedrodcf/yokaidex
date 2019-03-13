@@ -4,6 +4,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
+import { Helmet } from 'react-helmet';
 import {
     Container,
     Filters,
@@ -60,7 +61,9 @@ class Main extends Component {
         let nameUrl = name;
         if (tribe === 'boss') nameUrl += `_${tribe}`;
 
-        this.props.history.push(`/yokai-watch-${gameVersion}/${nameUrl}`);
+        this.props.history.push(
+            `/yokai-watch-${gameVersion}/yokais/${nameUrl}`
+        );
     }
 
     handleResetFilter() {
@@ -157,6 +160,16 @@ class Main extends Component {
 
         return (
             <Container>
+                <Helmet>
+                    <title>
+                        Yokaidex - Where you can find all the information from
+                        Yo-kai Watch games!
+                    </title>
+                    <meta
+                        name="description"
+                        content="Contains all yo-kais for Yo-kai Watch, their locations, stats, favorite foods, skills and evolutions."
+                    />
+                </Helmet>
                 <form onSubmit={this.handleFormSubmit}>
                     <ContainerHeader>
                         <SCInput

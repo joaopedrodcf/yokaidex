@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 import {
     Container,
     SpecialDiv,
@@ -50,6 +51,14 @@ const Card = ({
     seal
 }) => (
     <Container>
+        <Helmet>
+            <title>{`${name} | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
+            <meta
+                name="description"
+                content={`${name} is a yo-kai from ${tribe} tribe, of the rank ${rank} and with the attribute ${element} in Yo-kai Watch ${gameVersion}`}
+            />
+            <meta name="og:image" content={image} />
+        </Helmet>
         <Image imageUrl={image} altText={name} size="large" />
         <SpecialDiv>
             <h2>#{yokaiNumber}</h2>
@@ -152,7 +161,7 @@ const Card = ({
                             {legendarys[seal].yokaisToUnlock.map(yokai => (
                                 <SealElements>
                                     <Link
-                                        to={`/yokai-watch-${gameVersion}/${
+                                        to={`/yokai-watch-${gameVersion}/yokais/${
                                             yokai.name
                                         }`}
                                     >

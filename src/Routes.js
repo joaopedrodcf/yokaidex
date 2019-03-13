@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
 import Card from './components/card';
@@ -102,9 +102,22 @@ class Routes extends Component {
                     path="/yokai-watch-:version/about-us"
                     render={() => <AboutUs />}
                 />
+
+                {/* Just for now to be retrocompatible with the old version of the route */}
                 <Route
                     exact
                     path="/yokai-watch-:version/:name"
+                    render={props => (
+                        <Redirect
+                            to={`/yokai-watch-${
+                                props.match.params.version
+                            }/yokais/${props.match.params.name}`}
+                        />
+                    )}
+                />
+                <Route
+                    exact
+                    path="/yokai-watch-:version/yokais/:name"
                     render={props => (
                         <Card
                             gameVersion={gameVersion}
@@ -112,6 +125,7 @@ class Routes extends Component {
                         />
                     )}
                 />
+
                 <Route
                     exact
                     path="/yokai-watch-:version/items/:name"

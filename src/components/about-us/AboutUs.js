@@ -1,8 +1,15 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Container, Row } from './style';
 
 const AboutUs = () => (
     <Container>
+        <Helmet>
+            <title>
+                About us | Yokaidex - Where you can find all the information
+                from Yo-kai Watch games!
+            </title>
+        </Helmet>
         <Row>
             Yokaidex is a website with information about the games from Level-5:
             Yo-kai watch. All the information gathered here is to be used as a

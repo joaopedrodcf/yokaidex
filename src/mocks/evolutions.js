@@ -2165,7 +2165,7 @@ const evolutions = [
         item: {
             name: 'Cursed Journal',
             image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cursed_journal.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1552171966/Yokai/items/cursed_journal.png'
         },
         yokais: [
             {

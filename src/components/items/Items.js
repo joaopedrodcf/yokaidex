@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Helmet } from 'react-helmet';
 import {
     Container,
     Sections,
@@ -9,7 +10,6 @@ import {
     ContainerHeader
 } from './style';
 import Image from '../shared/image';
-
 import SCInput from '../shared/input';
 
 class Items extends Component {
@@ -32,6 +32,16 @@ class Items extends Component {
         const { name } = this.state;
         return (
             <Container>
+                <Helmet>
+                    <title>
+                        Items | Yokaidex - Where you can find all the
+                        information from Yo-kai Watch games!
+                    </title>
+                    <meta
+                        name="description"
+                        content={`Items that can be collected in Yo-kai Watch ${gameVersion}`}
+                    />
+                </Helmet>
                 <ContainerHeader>
                     <SCInput
                         id="name"
@@ -56,7 +66,7 @@ class Items extends Component {
                     .map((item, index) => (
                         <Sections key={index}>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/${type}/${
+                                to={`/yokai-watch-${gameVersion}/items/${type}/${
                                     item.name
                                 }`}
                             >
