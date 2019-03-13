@@ -66,7 +66,7 @@ class Items extends Component {
                     .map((item, index) => (
                         <Sections key={index}>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/items/${type}/${
+                                to={`/yokai-watch-${gameVersion}/${type}/${
                                     item.name
                                 }`}
                             >
