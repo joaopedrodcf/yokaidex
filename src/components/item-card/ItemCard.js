@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import {
     Container,
     Sections,
@@ -8,7 +9,6 @@ import {
     SLabel,
     SLabelText
 } from './style';
-
 import Image from '../shared/image';
 
 const hasStatsInfo = statsInfo =>
@@ -21,9 +21,18 @@ const ItemCard = ({
     effect,
     locations,
     statsInfo,
-    priceInfo
+    priceInfo,
+    gameVersion
 }) => (
     <Container>
+        <Helmet>
+            <title>{`${name} | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
+            <meta
+                name="description"
+                content={`${name} is an item from Yo-kai Watch ${gameVersion}`}
+            />
+            <meta name="og:image" content={image} />
+        </Helmet>
         <Image imageUrl={image} altText={name} size="medium" />
 
         <Sections isRow justifyContent="space-evenly">

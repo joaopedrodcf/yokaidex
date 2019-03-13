@@ -8,7 +8,8 @@ import Container from './style';
 const getHeader = gameVersion => {
     if (
         document.location.hash.match(`/equipments/`) ||
-        document.location.hash.match(`/items/`)
+        document.location.hash.match(`/items/`) ||
+        document.location.hash.match(`/yokais/`)
     ) {
         return document.location.hash
             .split('/')[3]
@@ -34,7 +35,9 @@ function Header(props) {
 
     return (
         <Container>
-            {document.location.hash.match(`/yokai-watch-${gameVersion}/`) ? (
+            {document.location.hash.match(`/yokais/`) ||
+            document.location.hash.match(`/items/`) ||
+            document.location.hash.match(`/equipments/`) ? (
                 <div>
                     <div role="presentation" onClick={history.goBack}>
                         <FontAwesomeIcon icon="arrow-left" />
