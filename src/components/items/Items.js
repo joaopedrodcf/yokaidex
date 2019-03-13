@@ -1,7 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Container, Sections, STable, STableText } from './style';
+import {
+    Container,
+    Sections,
+    STable,
+    STableText,
+    ContainerHeader
+} from './style';
 import Image from '../shared/image';
 
 import SCInput from '../shared/input';
@@ -26,15 +32,17 @@ class Items extends Component {
         const { name } = this.state;
         return (
             <Container>
-                <SCInput
-                    id="name"
-                    name="name"
-                    value={name}
-                    onChange={this.handleText}
-                    placeholder="Find by name"
-                >
-                    <FontAwesomeIcon icon="search" />
-                </SCInput>
+                <ContainerHeader>
+                    <SCInput
+                        id="name"
+                        name="name"
+                        value={name}
+                        onChange={this.handleText}
+                        placeholder="Find by name"
+                    >
+                        <FontAwesomeIcon icon="search" />
+                    </SCInput>
+                </ContainerHeader>
                 {items
                     .filter(item => {
                         const aux = true;
