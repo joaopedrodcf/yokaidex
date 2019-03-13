@@ -6,9 +6,6 @@ export const Container = styled.div`
     padding: 12px;
     margin-top: 56px;
     font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
     @media (min-width: 960px) {
         padding: 12px 125px;
@@ -21,6 +18,10 @@ export const Container = styled.div`
     @media (min-width: 1444px) {
         padding: 12px 500px;
     }
+`;
+
+export const ContainerHeader = styled.div`
+    padding: 12px 20px;
 `;
 
 export const Sections = styled.div`

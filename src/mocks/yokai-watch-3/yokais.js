@@ -29271,7 +29271,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        seal: 0
     },
     {
         name: 'Komashura',
@@ -29318,7 +29319,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        seal: 1
     },
     {
         name: 'Gilgaros',

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import {
     Container,
     SpecialDiv,
@@ -13,9 +14,11 @@ import {
     STableTitle,
     STableText,
     SLabel,
-    SLabelText
+    SLabelText,
+    ContainerSeal,
+    SealElements
 } from './style';
-import { elements, foods, ranks, tribes } from '../../mocks';
+import { elements, foods, ranks, tribes, legendarys } from '../../mocks';
 import Image from '../shared/image';
 import utils from '../utils';
 import Evolution from '../evolution';
@@ -43,7 +46,8 @@ const Card = ({
     soultime,
     inspirit,
     evolutionIndexes,
-    gameVersion
+    gameVersion,
+    seal
 }) => (
     <Container>
         <Image imageUrl={image} altText={name} size="large" />
@@ -135,6 +139,33 @@ const Card = ({
                             evolutionIndexes={evolutionIndexes}
                             tribe={tribe}
                         />
+                    </Sections>
+                )}
+
+                {seal !== undefined && (
+                    <Sections>
+                        <Label color={utils.getColor(tribes, tribe)}>
+                            Yokai seal
+                        </Label>
+
+                        <ContainerSeal>
+                            {legendarys[seal].yokaisToUnlock.map(yokai => (
+                                <SealElements>
+                                    <Link
+                                        to={`/yokai-watch-${gameVersion}/${
+                                            yokai.name
+                                        }`}
+                                    >
+                                        <Image
+                                            imageUrl={yokai.image}
+                                            altText=""
+                                            size="medium"
+                                        />
+                                        {yokai.name}
+                                    </Link>
+                                </SealElements>
+                            ))}
+                        </ContainerSeal>
                     </Sections>
                 )}
 
