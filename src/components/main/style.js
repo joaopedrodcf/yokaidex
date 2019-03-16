@@ -28,6 +28,7 @@ export const ContainerHeader = styled.div`
 export const Filters = styled.div`
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 `;
 
 export const Table = styled.table`
