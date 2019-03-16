@@ -31,6 +31,7 @@ class Main extends Component {
             tribe: [],
             rank: [],
             element: [],
+            misc: [],
             name: '',
             sort: '',
             orderAsc: true,
@@ -124,6 +125,7 @@ class Main extends Component {
             tribe,
             rank,
             element,
+            misc,
             name,
             sort,
             orderAsc,
@@ -157,6 +159,8 @@ class Main extends Component {
             'Water',
             'Wind'
         ];
+
+        const miscCheckbox = ['has evolution', 'is legendary'];
 
         return (
             <Container>
@@ -263,6 +267,29 @@ class Main extends Component {
                                                     )}
                                                     name={type}
                                                     checkboxtype="element"
+                                                    onChange={
+                                                        this.handleCheckbox
+                                                    }
+                                                    label={type}
+                                                />
+                                            </label>
+                                        </InputContainer>
+                                    ))}
+                                </Column>
+                                <Column>
+                                    <SpecialHeader>
+                                        <h2>Misc</h2>
+                                    </SpecialHeader>
+                                    {miscCheckbox.map(type => (
+                                        <InputContainer key={type}>
+                                            <label>
+                                                <Checkbox
+                                                    type="checkbox"
+                                                    checked={misc.includes(
+                                                        type.toLowerCase()
+                                                    )}
+                                                    name={type}
+                                                    checkboxtype="misc"
                                                     onChange={
                                                         this.handleCheckbox
                                                     }
@@ -382,6 +409,20 @@ class Main extends Component {
                                             aux = false;
                                         }
                                     });
+
+                                    if (
+                                        misc.includes('has evolution') &&
+                                        !yokai.evolutionIndexes
+                                    ) {
+                                        return false;
+                                    }
+
+                                    if (
+                                        misc.includes('is legendary') &&
+                                        yokai.seal === undefined
+                                    ) {
+                                        return false;
+                                    }
 
                                     return aux;
                                 })

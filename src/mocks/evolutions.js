@@ -512,7 +512,7 @@ const evolutions = [
             {
                 name: 'Too-Much-To-Take',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/too-much-to-take.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/2-much-2-take.png'
             }
         ]
     },
@@ -2420,7 +2420,7 @@ const evolutions = [
             {
                 name: 'Lady Longnek',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/lady_longnek.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lady_longnek.png'
             },
             {
                 name: 'Wrongnek',
