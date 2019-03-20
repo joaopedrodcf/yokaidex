@@ -70,6 +70,11 @@ class Sidebar extends Component {
                             <FontAwesomeIcon icon="hands-helping" /> Contribute
                         </SCLink>
 
+                        <SCLink href="https://twitter.com/yokaidex">
+                            <FontAwesomeIcon icon={['fab', 'twitter']} /> Follow
+                            us
+                        </SCLink>
+
                         <SCNavLink to={`/yokai-watch-${gameVersion}/about-us`}>
                             <FontAwesomeIcon icon="info-circle" /> About us
                         </SCNavLink>
