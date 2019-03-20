@@ -15882,7 +15882,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        seal: 13
     },
     {
         name: 'Komashura',
@@ -15926,7 +15927,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        seal: 15
     },
     {
         name: 'Gilgaros',
@@ -15970,7 +15972,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        seal: 4
     },
     {
         name: 'Spoilerina',
@@ -16015,7 +16018,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        seal: 20
     },
     {
         name: 'Elder Bloom',
@@ -16059,7 +16063,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Rice Balls'
+        favouriteFood: 'Rice Balls',
+        seal: 19
     },
     {
         name: 'Poofessor',
@@ -16104,7 +16109,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        seal: 21
     },
     {
         name: 'Dandoodle',
@@ -16149,7 +16155,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        seal: 17
     },
     {
         name: 'Slurpent',
@@ -16194,7 +16201,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        seal: 7
     },
     {
         name: 'Sapphinyan',

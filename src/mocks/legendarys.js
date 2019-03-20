@@ -550,6 +550,466 @@ const legendary = [
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/clodzilla.png'
             }
         ]
+    },
+    {
+        index: 12,
+        result: 'Shogunyan',
+        yokaisToUnlock: [
+            {
+                name: 'Mochismo',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mochismo.png'
+            },
+            {
+                name: 'Tattletell',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tattletell.png'
+            },
+            {
+                name: 'Castelius III',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_iii.png'
+            },
+            {
+                name: 'Jibanyan',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jibanyan.png'
+            },
+            {
+                name: 'Happierre',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/happierre.png'
+            },
+            {
+                name: 'Leadoni',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/leadoni.png'
+            },
+            {
+                name: 'Dismarelda',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dismarelda.png'
+            },
+            {
+                name: 'Draggie',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/draggie.png'
+            }
+        ]
+    },
+    {
+        index: 13,
+        result: 'Shogunyan',
+        yokaisToUnlock: [
+            {
+                name: 'Mirapo',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mirapo.png'
+            },
+            {
+                name: 'Draggie',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/draggie.png'
+            },
+            {
+                name: 'Dismarelda',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dismarelda.png'
+            },
+            {
+                name: 'Jibanyan',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jibanyan.png'
+            },
+            {
+                name: 'Baku',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/baku.png'
+            },
+            {
+                name: 'Buhu',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/buhu.png'
+            },
+            {
+                name: 'Cadin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cadin.png'
+            },
+            {
+                name: 'Insomni',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/insomni.png'
+            }
+        ]
+    },
+    {
+        index: 14,
+        result: 'Komashura',
+        yokaisToUnlock: [
+            {
+                name: 'Komane',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komane.png'
+            },
+            {
+                name: 'Blazion',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blazion.png'
+            },
+            {
+                name: 'Kyubi',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kyubi.png'
+            },
+            {
+                name: 'Mad Mountain',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mad_mountain.png'
+            },
+            {
+                name: 'Lava Lord',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lava_lord.png'
+            },
+            {
+                name: 'Casanuva',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/casanuva.png'
+            },
+            {
+                name: 'Quaken',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/quaken.png'
+            },
+            {
+                name: 'Komajiro',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komajiro.png'
+            }
+        ]
+    },
+    {
+        index: 15,
+        result: 'Komashura',
+        yokaisToUnlock: [
+            {
+                name: 'Firewig',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/firewig.png'
+            },
+            {
+                name: 'Blazion',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blazion.png'
+            },
+            {
+                name: 'Swelterrier',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/swelterrier.png'
+            },
+            {
+                name: 'Tublappa',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tublappa.png'
+            },
+            {
+                name: 'Lava Lord',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lava_lord.png'
+            },
+            {
+                name: 'Tunatic',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tunatic.png'
+            },
+            {
+                name: 'Zerberker',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zerberker.png'
+            },
+            {
+                name: 'Frazzel',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frazzel.png'
+            }
+        ]
+    },
+    {
+        index: 16,
+        result: 'Dandoodle',
+        yokaisToUnlock: [
+            {
+                name: 'Manjimutt',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/manjimutt.png'
+            },
+            {
+                name: 'Cuttincheez',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cuttincheez.png'
+            },
+            {
+                name: 'Drizzle',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzle.png'
+            },
+            {
+                name: 'Everfore',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/everfore.png'
+            },
+            {
+                name: 'Insomni',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/insomni.png'
+            },
+            {
+                name: 'Skreek',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skreek.png'
+            },
+            {
+                name: 'Compunzer',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/compunzer.png'
+            },
+            {
+                name: 'Nagatha',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nagatha.png'
+            }
+        ]
+    },
+    {
+        index: 17,
+        result: 'Dandoodle',
+        yokaisToUnlock: [
+            {
+                name: 'Multimutt',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/multimutt.png'
+            },
+            {
+                name: 'Lie-in Heart',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lie-in_heart.png'
+            },
+            {
+                name: 'Badude',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/badude.png'
+            },
+            {
+                name: 'Shmoopie',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shmoopie.png'
+            },
+            {
+                name: 'Tattlecast',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tattlecast.png'
+            },
+            {
+                name: 'Casanuva',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/casanuva.png'
+            },
+            {
+                name: 'Skreek',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skreek.png'
+            },
+            {
+                name: "Ray O'Light",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ray_o_light.png'
+            }
+        ]
+    },
+    {
+        index: 18,
+        result: 'Elder Bloom',
+        yokaisToUnlock: [
+            {
+                name: 'Hungramps',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hungramps.png'
+            },
+            {
+                name: 'Bloominoko',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bloominoko.png'
+            },
+            {
+                name: 'Negasus',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/negasus.png'
+            },
+            {
+                name: 'Castelius Max',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_max.png'
+            },
+            {
+                name: 'Betterfly',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/betterfly.png'
+            },
+            {
+                name: 'Heheheel',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/heheheel.png'
+            },
+            {
+                name: 'Timidevil',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/timidevil.png'
+            },
+            {
+                name: 'Dromp',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dromp.png'
+            }
+        ]
+    },
+    {
+        index: 19,
+        result: 'Elder Bloom',
+        yokaisToUnlock: [
+            {
+                name: 'Nurse Tongus',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nurse_tongus.png'
+            },
+            {
+                name: 'High Gnomey',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/high_gnomey.png'
+            },
+            {
+                name: 'Don Chan',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/don_chan.png'
+            },
+            {
+                name: 'Papa Windbag',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/papa_windbag.png'
+            },
+            {
+                name: 'Peppillon',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/peppillon.png'
+            },
+            {
+                name: 'Statiking',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/statiking.png'
+            },
+            {
+                name: 'Rhyth',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhyth.png'
+            },
+            {
+                name: 'Dromp',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dromp.png'
+            }
+        ]
+    },
+    {
+        index: 20,
+        result: 'Spoilerina',
+        yokaisToUnlock: [
+            {
+                name: 'Master Nyada',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/master_nyada.png'
+            },
+            {
+                name: 'Mermaidyn',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mermaidyn.png'
+            },
+            {
+                name: 'Faux Kappa',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/faux_kappa.png'
+            },
+            {
+                name: 'Pallysol',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pallysol.png'
+            },
+            {
+                name: 'Predictabull',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/predictabull.png'
+            },
+            {
+                name: 'Miradox',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/miradox.png'
+            },
+            {
+                name: 'Smogmella',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/smogmella.png'
+            },
+            {
+                name: 'Demuncher',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/demuncher.png'
+            }
+        ]
+    },
+    {
+        index: 21,
+        result: 'Poofessor',
+        yokaisToUnlock: [
+            {
+                name: 'Snartle',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snartle.png'
+            },
+            {
+                name: 'Fidgephant',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/fidgephant.png'
+            },
+            {
+                name: 'Daiz',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/daiz.png'
+            },
+            {
+                name: 'Kyubi',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kyubi.png'
+            },
+            {
+                name: 'Grainpa',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grainpa.png'
+            },
+            {
+                name: 'Cheeksqueek',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cheeksqueek.png'
+            },
+            {
+                name: 'Venoct',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/venoct.png'
+            },
+            {
+                name: 'Steppa',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/steppa.png'
+            }
+        ]
     }
 ];
 
