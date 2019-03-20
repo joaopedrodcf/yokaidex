@@ -10058,7 +10058,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        seal: 12
     },
     {
         name: 'Komashura',
@@ -10102,7 +10103,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        seal: 14
     },
     {
         name: 'Dandoodle',
@@ -10147,7 +10149,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'x',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        seal: 16
     },
     {
         name: 'Elder Bloom',
@@ -10191,7 +10194,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'x',
         rank: 's',
-        favouriteFood: 'Rice Balls'
+        favouriteFood: 'Rice Balls',
+        seal: 18
     },
     {
         name: 'Gilgaros',
@@ -10235,7 +10239,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        seal: 4
     },
     {
         name: 'Sapphinyan',
