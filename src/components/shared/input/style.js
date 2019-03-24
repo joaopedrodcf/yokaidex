@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     position: relative;
-    margin: 12px 0;
+    margin: 0 0 12px 0;
 
     svg {
         position: absolute;

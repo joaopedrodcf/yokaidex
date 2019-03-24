@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
     background-color: #ffffff;
     color: #000000;
+    padding: 12px;
     margin-top: 56px;
     font-size: 16px;
 
@@ -29,6 +30,7 @@ export const Filters = styled.div`
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 12px;
 `;
 
 export const Table = styled.table`
@@ -92,6 +94,35 @@ export const SpecialHeader = styled.div`
 export const Column = styled.div`
     display: flex;
     flex-direction: column;
+
+    justify-content: ${props => {
+        if (props.justifyContent) return props.justifyContent;
+
+        return '';
+    }};
+
+    align-items: ${props => {
+        if (props.alignItems) return props.alignItems;
+
+        return '';
+    }};
+`;
+
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+
+    justify-content: ${props => {
+        if (props.justifyContent) return props.justifyContent;
+
+        return '';
+    }};
+
+    align-items: ${props => {
+        if (props.alignItems) return props.alignItems;
+
+        return '';
+    }};
 `;
 
 export const FilterButtons = styled.div`
@@ -102,4 +133,47 @@ export const FilterButtons = styled.div`
     > button:nth-child(1) {
         margin-right: 12px;
     }
+`;
+
+export const Sections = styled.div`
+    display: flex;
+
+    flex-direction: ${props => {
+        if (props.isRow) return 'row';
+
+        return 'column';
+    }};
+
+    justify-content: ${props => {
+        if (props.justifyContent) return props.justifyContent;
+
+        return 'column';
+    }};
+
+    width: 100%;
+    align-items: flex-start;
+    margin: 0 0 12px 0;
+
+    a {
+        width: 100%;
+        color: inherit;
+        text-decoration: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+`;
+
+export const STable = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: start;
+    border-radius: 12px;
+    padding: 12px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
 `;

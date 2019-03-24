@@ -2,13 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Helmet } from 'react-helmet';
-import {
-    Container,
-    Sections,
-    STable,
-    STableText,
-    ContainerHeader
-} from './style';
+import { Container, Sections, STable, STableText } from './style';
 import Image from '../shared/image';
 import SCInput from '../shared/input';
 
@@ -42,17 +36,15 @@ class Items extends Component {
                         content={`Items that can be collected in Yo-kai Watch ${gameVersion}`}
                     />
                 </Helmet>
-                <ContainerHeader>
-                    <SCInput
-                        id="name"
-                        name="name"
-                        value={name}
-                        onChange={this.handleText}
-                        placeholder="Find by name"
-                    >
-                        <FontAwesomeIcon icon="search" />
-                    </SCInput>
-                </ContainerHeader>
+                <SCInput
+                    id="name"
+                    name="name"
+                    value={name}
+                    onChange={this.handleText}
+                    placeholder="Find by name"
+                >
+                    <FontAwesomeIcon icon="search" />
+                </SCInput>
                 {items
                     .filter(item => {
                         const aux = true;

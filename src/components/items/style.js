@@ -41,7 +41,7 @@ export const Sections = styled.div`
 
     width: 100%;
     align-items: flex-start;
-    margin: 12px 0;
+    margin: 0 0 12px 0;
 
     a {
         width: 100%;

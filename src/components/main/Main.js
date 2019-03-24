@@ -5,16 +5,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import {
     Container,
     Filters,
-    Table,
     InputContainer,
     Collapsible,
-    ContainerHeader,
     SpecialHeader,
     Column,
-    FilterButtons
+    FilterButtons,
+    Sections,
+    STable,
+    Row
 } from './style';
 import Button from '../shared/button';
 import Image from '../shared/image';
@@ -131,7 +133,8 @@ class Main extends Component {
             orderAsc,
             isCollapsed,
             pageNumber,
-            yokaisToShow
+            yokaisToShow,
+            gameVersion
         } = this.state;
         const { yokais } = this.props;
         const tribesCheckbox = [
@@ -175,264 +178,199 @@ class Main extends Component {
                     />
                 </Helmet>
                 <form onSubmit={this.handleFormSubmit}>
-                    <ContainerHeader>
-                        <SCInput
-                            id="name"
-                            name="name"
-                            value={this.state.name}
-                            onChange={this.handleText}
-                            placeholder="Find your yokai by name"
-                        >
-                            <FontAwesomeIcon icon="search" />
-                        </SCInput>
-                        <Collapsible isCollapsed={isCollapsed}>
-                            <FilterButtons>
-                                <Button
-                                    onClick={this.handleCollapse}
-                                    type="button"
-                                    label="Filters"
-                                    style={{ width: '160px' }}
-                                >
-                                    <FontAwesomeIcon icon="filter" />
-                                </Button>
+                    <SCInput
+                        id="name"
+                        name="name"
+                        value={this.state.name}
+                        onChange={this.handleText}
+                        placeholder="Find your yokai by name"
+                    >
+                        <FontAwesomeIcon icon="search" />
+                    </SCInput>
+                    <Collapsible isCollapsed={isCollapsed}>
+                        <FilterButtons>
+                            <Button
+                                onClick={this.handleCollapse}
+                                type="button"
+                                label="Filters"
+                                style={{ width: '160px' }}
+                            >
+                                <FontAwesomeIcon icon="filter" />
+                            </Button>
 
-                                <Button
-                                    type="button"
-                                    onClick={this.handleResetFilter}
-                                    label="
+                            <Button
+                                type="button"
+                                onClick={this.handleResetFilter}
+                                label="
                             Reset Filters"
-                                    style={{ width: '160px' }}
+                                style={{ width: '160px' }}
+                            >
+                                <FontAwesomeIcon icon="trash-alt" />
+                            </Button>
+                        </FilterButtons>
+                        <Filters>
+                            <Column>
+                                <SpecialHeader>
+                                    <h2>Tribes</h2>
+                                </SpecialHeader>
+                                {tribesCheckbox.map(type => (
+                                    <InputContainer key={type}>
+                                        <label>
+                                            <Checkbox
+                                                type="checkbox"
+                                                checked={tribe.includes(
+                                                    type.toLowerCase()
+                                                )}
+                                                name={type}
+                                                checkboxtype="tribe"
+                                                onChange={this.handleCheckbox}
+                                                label={type}
+                                            />
+                                        </label>
+                                    </InputContainer>
+                                ))}
+                            </Column>
+                            <Column>
+                                <SpecialHeader>
+                                    <h2>Ranks</h2>
+                                </SpecialHeader>
+                                {ranksCheckbox.map(type => (
+                                    <InputContainer key={type}>
+                                        <label>
+                                            <Checkbox
+                                                type="checkbox"
+                                                checked={rank.includes(
+                                                    type.toLowerCase()
+                                                )}
+                                                name={type}
+                                                checkboxtype="rank"
+                                                onChange={this.handleCheckbox}
+                                                label={type}
+                                            />
+                                        </label>
+                                    </InputContainer>
+                                ))}
+                            </Column>
+                            <Column>
+                                <SpecialHeader>
+                                    <h2>Elements</h2>
+                                </SpecialHeader>
+                                {elementsCheckbox.map(type => (
+                                    <InputContainer key={type}>
+                                        <label>
+                                            <Checkbox
+                                                type="checkbox"
+                                                checked={element.includes(
+                                                    type.toLowerCase()
+                                                )}
+                                                name={type}
+                                                checkboxtype="element"
+                                                onChange={this.handleCheckbox}
+                                                label={type}
+                                            />
+                                        </label>
+                                    </InputContainer>
+                                ))}
+                            </Column>
+                            <Column>
+                                <SpecialHeader>
+                                    <h2>Misc</h2>
+                                </SpecialHeader>
+                                {miscCheckbox.map(type => (
+                                    <InputContainer key={type}>
+                                        <label>
+                                            <Checkbox
+                                                type="checkbox"
+                                                checked={misc.includes(
+                                                    type.toLowerCase()
+                                                )}
+                                                name={type}
+                                                checkboxtype="misc"
+                                                onChange={this.handleCheckbox}
+                                                label={type}
+                                            />
+                                        </label>
+                                    </InputContainer>
+                                ))}
+                            </Column>
+                        </Filters>
+                    </Collapsible>
+                    {yokais
+                        .sort((a, b) => {
+                            if (sort === '') {
+                                return 0;
+                            }
+
+                            const nameA = a[sort].toLowerCase();
+                            const nameB = b[sort].toLowerCase();
+
+                            if (orderAsc) {
+                                if (nameA < nameB) {
+                                    return -1;
+                                }
+                                if (nameA > nameB) {
+                                    return 1;
+                                }
+                            } else {
+                                if (nameA > nameB) {
+                                    return -1;
+                                }
+                                if (nameA < nameB) {
+                                    return 1;
+                                }
+                            }
+
+                            return 0;
+                        })
+                        .filter(yokai => {
+                            let aux = true;
+
+                            const filters = {
+                                tribe,
+                                rank,
+                                element
+                            };
+
+                            if (!yokai.name.toLowerCase().includes(name)) {
+                                return false;
+                            }
+
+                            Object.keys(filters).forEach(type => {
+                                if (
+                                    filters[type].length > 0 &&
+                                    !filters[type].includes(
+                                        yokai[type].toLowerCase()
+                                    )
+                                ) {
+                                    aux = false;
+                                }
+                            });
+
+                            if (
+                                misc.includes('has evolution') &&
+                                !yokai.evolutionIndexes
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                misc.includes('is legendary') &&
+                                yokai.seal === undefined
+                            ) {
+                                return false;
+                            }
+
+                            return aux;
+                        })
+                        .slice(0, (pageNumber + 1) * yokaisToShow)
+                        .map(yokai => (
+                            <Sections key={yokai.name + yokai.tribe}>
+                                <Link
+                                    to={`/yokai-watch-${gameVersion}/${
+                                        yokai.name
+                                    }`}
                                 >
-                                    <FontAwesomeIcon icon="trash-alt" />
-                                </Button>
-                            </FilterButtons>
-                            <Filters>
-                                <Column>
-                                    <SpecialHeader>
-                                        <h2>Tribes</h2>
-                                    </SpecialHeader>
-                                    {tribesCheckbox.map(type => (
-                                        <InputContainer key={type}>
-                                            <label>
-                                                <Checkbox
-                                                    type="checkbox"
-                                                    checked={tribe.includes(
-                                                        type.toLowerCase()
-                                                    )}
-                                                    name={type}
-                                                    checkboxtype="tribe"
-                                                    onChange={
-                                                        this.handleCheckbox
-                                                    }
-                                                    label={type}
-                                                />
-                                            </label>
-                                        </InputContainer>
-                                    ))}
-                                </Column>
-                                <Column>
-                                    <SpecialHeader>
-                                        <h2>Ranks</h2>
-                                    </SpecialHeader>
-                                    {ranksCheckbox.map(type => (
-                                        <InputContainer key={type}>
-                                            <label>
-                                                <Checkbox
-                                                    type="checkbox"
-                                                    checked={rank.includes(
-                                                        type.toLowerCase()
-                                                    )}
-                                                    name={type}
-                                                    checkboxtype="rank"
-                                                    onChange={
-                                                        this.handleCheckbox
-                                                    }
-                                                    label={type}
-                                                />
-                                            </label>
-                                        </InputContainer>
-                                    ))}
-                                </Column>
-                                <Column>
-                                    <SpecialHeader>
-                                        <h2>Elements</h2>
-                                    </SpecialHeader>
-                                    {elementsCheckbox.map(type => (
-                                        <InputContainer key={type}>
-                                            <label>
-                                                <Checkbox
-                                                    type="checkbox"
-                                                    checked={element.includes(
-                                                        type.toLowerCase()
-                                                    )}
-                                                    name={type}
-                                                    checkboxtype="element"
-                                                    onChange={
-                                                        this.handleCheckbox
-                                                    }
-                                                    label={type}
-                                                />
-                                            </label>
-                                        </InputContainer>
-                                    ))}
-                                </Column>
-                                <Column>
-                                    <SpecialHeader>
-                                        <h2>Misc</h2>
-                                    </SpecialHeader>
-                                    {miscCheckbox.map(type => (
-                                        <InputContainer key={type}>
-                                            <label>
-                                                <Checkbox
-                                                    type="checkbox"
-                                                    checked={misc.includes(
-                                                        type.toLowerCase()
-                                                    )}
-                                                    name={type}
-                                                    checkboxtype="misc"
-                                                    onChange={
-                                                        this.handleCheckbox
-                                                    }
-                                                    label={type}
-                                                />
-                                            </label>
-                                        </InputContainer>
-                                    ))}
-                                </Column>
-                            </Filters>
-                        </Collapsible>
-                    </ContainerHeader>
-                    <Table>
-                        <thead>
-                            <tr>
-                                <th onClick={this.handleSort} thtype="name">
-                                    Name
-                                    {sort === 'name' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-
-                                <th onClick={this.handleSort} thtype="tribe">
-                                    Tribe
-                                    {sort === 'tribe' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-                                <th onClick={this.handleSort} thtype="rank">
-                                    Rank
-                                    {sort === 'rank' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-                                <th onClick={this.handleSort} thtype="element">
-                                    Attribute
-                                    {sort === 'element' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {yokais
-                                .sort((a, b) => {
-                                    if (sort === '') {
-                                        return 0;
-                                    }
-
-                                    const nameA = a[sort].toLowerCase();
-                                    const nameB = b[sort].toLowerCase();
-
-                                    if (orderAsc) {
-                                        if (nameA < nameB) {
-                                            return -1;
-                                        }
-                                        if (nameA > nameB) {
-                                            return 1;
-                                        }
-                                    } else {
-                                        if (nameA > nameB) {
-                                            return -1;
-                                        }
-                                        if (nameA < nameB) {
-                                            return 1;
-                                        }
-                                    }
-
-                                    return 0;
-                                })
-                                .filter(yokai => {
-                                    let aux = true;
-
-                                    const filters = {
-                                        tribe,
-                                        rank,
-                                        element
-                                    };
-
-                                    if (
-                                        !yokai.name.toLowerCase().includes(name)
-                                    ) {
-                                        return false;
-                                    }
-
-                                    Object.keys(filters).forEach(type => {
-                                        if (
-                                            filters[type].length > 0 &&
-                                            !filters[type].includes(
-                                                yokai[type].toLowerCase()
-                                            )
-                                        ) {
-                                            aux = false;
-                                        }
-                                    });
-
-                                    if (
-                                        misc.includes('has evolution') &&
-                                        !yokai.evolutionIndexes
-                                    ) {
-                                        return false;
-                                    }
-
-                                    if (
-                                        misc.includes('is legendary') &&
-                                        yokai.seal === undefined
-                                    ) {
-                                        return false;
-                                    }
-
-                                    return aux;
-                                })
-                                .slice(0, (pageNumber + 1) * yokaisToShow)
-                                .map(yokai => (
-                                    <tr
-                                        key={yokai.name + yokai.tribe}
-                                        onClick={() =>
-                                            this.goTo(yokai.name, yokai.tribe)
-                                        }
+                                    <STable
                                         style={{
                                             background: `linear-gradient(to bottom, ${utils.getGradientColor(
                                                 tribes,
@@ -440,19 +378,20 @@ class Main extends Component {
                                             )})`
                                         }}
                                     >
-                                        <td>
-                                            <div>
-                                                <Image
-                                                    imageUrl={yokai.image}
-                                                    altText={yokai.name}
-                                                    size="medium"
-                                                    isThumbnail
-                                                    isToLazyLoad
-                                                />
-                                                {yokai.name}
-                                            </div>
-                                        </td>
-                                        <td>
+                                        <Column alignItems="center">
+                                            <Image
+                                                imageUrl={yokai.image}
+                                                altText={yokai.name}
+                                                size="medium"
+                                                isThumbnail
+                                                isToLazyLoad
+                                            />
+                                            {yokai.name}
+                                        </Column>
+                                        <Row alignItems="center">
+                                            #{yokai.yokaiNumber}
+                                        </Row>
+                                        <Row alignItems="center">
                                             <Image
                                                 imageUrl={utils.getImage(
                                                     tribes,
@@ -461,18 +400,8 @@ class Main extends Component {
                                                 altText={yokai.tribe}
                                                 size="small"
                                             />
-                                        </td>
-                                        <td>
-                                            <Image
-                                                imageUrl={utils.getImage(
-                                                    ranks,
-                                                    yokai.rank
-                                                )}
-                                                altText={yokai.rank}
-                                                size="small"
-                                            />
-                                        </td>
-                                        <td>
+                                        </Row>
+                                        <Row alignItems="center">
                                             <Image
                                                 imageUrl={utils.getImage(
                                                     elements,
@@ -481,11 +410,21 @@ class Main extends Component {
                                                 altText={yokai.element}
                                                 size="small"
                                             />
-                                        </td>
-                                    </tr>
-                                ))}
-                        </tbody>
-                    </Table>
+                                        </Row>
+                                        <Row alignItems="center">
+                                            <Image
+                                                imageUrl={utils.getImage(
+                                                    ranks,
+                                                    yokai.rank
+                                                )}
+                                                altText={yokai.rank}
+                                                size="small"
+                                            />
+                                        </Row>
+                                    </STable>
+                                </Link>
+                            </Sections>
+                        ))}
                 </form>
             </Container>
         );
