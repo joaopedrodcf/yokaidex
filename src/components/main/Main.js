@@ -133,10 +133,9 @@ class Main extends Component {
             orderAsc,
             isCollapsed,
             pageNumber,
-            yokaisToShow,
-            gameVersion
+            yokaisToShow
         } = this.state;
-        const { yokais } = this.props;
+        const { yokais, gameVersion } = this.props;
         const tribesCheckbox = [
             'Brave',
             'Charming',
