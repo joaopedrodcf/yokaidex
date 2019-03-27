@@ -35,7 +35,7 @@ Or
 npm install
 ```
 
-Finally you can start dev enviroment
+Finally you can start dev environment
 
 ```shell
 yarn start

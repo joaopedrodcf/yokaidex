@@ -52,7 +52,7 @@ const ItemCard = ({
                     key =>
                         statsInfo[key] !== '0' &&
                         !statsInfo[key].match('-') && (
-                            <SLabel backgroundColor="#a5d6a7">
+                            <SLabel key={key} backgroundColor="#a5d6a7">
                                 <SLabelText uppercase>{key}</SLabelText>
                                 <SLabelText>{statsInfo[key]}</SLabelText>
                             </SLabel>
@@ -63,7 +63,7 @@ const ItemCard = ({
                     key =>
                         statsInfo[key] !== '0' &&
                         statsInfo[key].match('-') && (
-                            <SLabel backgroundColor="#ef9a9a">
+                            <SLabel key={key} backgroundColor="#ef9a9a">
                                 <SLabelText uppercase>{key}</SLabelText>
                                 <SLabelText>{statsInfo[key]}</SLabelText>
                             </SLabel>

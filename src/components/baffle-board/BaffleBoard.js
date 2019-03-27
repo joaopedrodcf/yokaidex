@@ -1,6 +1,4 @@
-/* eslint-disable react/destructuring-assignment */ import React, {
-    Component
-} from 'react';
+import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { Helmet } from 'react-helmet';
 import { Container, Table, Row } from './style';
@@ -8,13 +6,11 @@ import Image from '../shared/image';
 
 class BaffleBoard extends Component {
     goTo(name, tribe = '') {
-        const { gameVersion } = this.props;
+        const { gameVersion, history } = this.props;
         let nameUrl = name;
         if (tribe === 'boss') nameUrl += `_${tribe}`;
 
-        this.props.history.push(
-            `/yokai-watch-${gameVersion}/yokais/${nameUrl}`
-        );
+        history.push(`/yokai-watch-${gameVersion}/yokais/${nameUrl}`);
     }
 
     render() {
