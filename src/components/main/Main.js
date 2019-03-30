@@ -1,6 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/no-access-state-in-setstate */
-/* eslint-disable class-methods-use-this */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
@@ -23,7 +20,13 @@ import Image from '../shared/image';
 import utils from '../utils';
 import { elements, ranks, tribes } from '../../mocks';
 import Checkbox from '../shared/checkbox';
-import SCInput from '../shared/input';
+import Input from '../shared/input';
+import {
+    elements as elementsFilters,
+    ranks as ranksfilters,
+    tribes as tribesFilters,
+    misc as miscFilters
+} from '../../mocks/filters';
 
 class Main extends Component {
     constructor(props) {
@@ -35,8 +38,6 @@ class Main extends Component {
             element: [],
             misc: [],
             name: '',
-            sort: '',
-            orderAsc: true,
             isCollapsed: true,
             pageNumber: 0,
             yokaisToShow: 50
@@ -44,7 +45,6 @@ class Main extends Component {
 
         this.handleCheckbox = this.handleCheckbox.bind(this);
         this.handleText = this.handleText.bind(this);
-        this.handleSort = this.handleSort.bind(this);
         this.handleResetFilter = this.handleResetFilter.bind(this);
         this.handleCollapse = this.handleCollapse.bind(this);
         this.handleFormSubmit = this.handleFormSubmit.bind(this);
@@ -59,14 +59,12 @@ class Main extends Component {
         document.removeEventListener('scroll', this.handleScroll);
     }
 
-    goTo(name, tribe) {
-        const { gameVersion } = this.props;
+    goTo(name, tribe = '') {
+        const { gameVersion, history } = this.props;
         let nameUrl = name;
         if (tribe === 'boss') nameUrl += `_${tribe}`;
 
-        this.props.history.push(
-            `/yokai-watch-${gameVersion}/yokais/${nameUrl}`
-        );
+        history.push(`/yokai-watch-${gameVersion}/yokais/${nameUrl}`);
     }
 
     handleResetFilter() {
@@ -74,38 +72,31 @@ class Main extends Component {
     }
 
     handleCheckbox(event) {
-        const checkboxtype = event.target.getAttribute('data-checkbox-type');
-        const type = event.target.name.toLowerCase();
         const { checked } = event.target;
-        const filterType = this.state[checkboxtype];
+        const checkboxtype = event.target.getAttribute('data-checkbox-type');
+        const nameLowerCase = event.target.name.toLowerCase();
 
         if (checked) {
-            filterType.push(type);
+            this.setState(state => ({
+                [checkboxtype]: [...state[checkboxtype], nameLowerCase]
+            }));
         } else {
-            filterType.splice(filterType.indexOf(type), 1);
+            this.setState(state => ({
+                [checkboxtype]: state[checkboxtype].filter(
+                    element => element !== nameLowerCase
+                )
+            }));
         }
-
-        this.setState({
-            [checkboxtype]: filterType
-        });
     }
 
     handleText(event) {
         this.setState({ name: event.target.value.toLowerCase() });
     }
 
-    handleSort(event) {
-        const thtype = event.currentTarget.getAttribute('thtype');
-        const { sort, orderAsc } = this.state;
-
-        this.setState({
-            sort: thtype,
-            orderAsc: sort === thtype || sort === '' ? !orderAsc : true
-        });
-    }
-
     handleCollapse() {
-        this.setState({ isCollapsed: !this.state.isCollapsed });
+        const { isCollapsed } = this.state;
+
+        this.setState({ isCollapsed: !isCollapsed });
     }
 
     // eslint-disable-next-line
@@ -129,40 +120,11 @@ class Main extends Component {
             element,
             misc,
             name,
-            sort,
-            orderAsc,
             isCollapsed,
             pageNumber,
             yokaisToShow
         } = this.state;
         const { yokais, gameVersion } = this.props;
-        const tribesCheckbox = [
-            'Brave',
-            'Charming',
-            'Eerie',
-            'Heartful',
-            'Mysterious',
-            'Shady',
-            'Slippery',
-            'Tough',
-            'Wicked',
-            'Enma',
-            'Wandroid',
-            'Boss'
-        ];
-        const ranksCheckbox = ['S', 'A', 'B', 'C', 'D', 'E'];
-        const elementsCheckbox = [
-            'Drain',
-            'Earth',
-            'Fire',
-            'Ice',
-            'Lightning',
-            'Restoration',
-            'Water',
-            'Wind'
-        ];
-
-        const miscCheckbox = ['has evolution', 'is legendary'];
 
         return (
             <Container>
@@ -177,15 +139,15 @@ class Main extends Component {
                     />
                 </Helmet>
                 <form onSubmit={this.handleFormSubmit}>
-                    <SCInput
+                    <Input
                         id="name"
                         name="name"
-                        value={this.state.name}
+                        value={name}
                         onChange={this.handleText}
                         placeholder="Find your yokai by name"
                     >
                         <FontAwesomeIcon icon="search" />
-                    </SCInput>
+                    </Input>
                     <Collapsible isCollapsed={isCollapsed}>
                         <FilterButtons>
                             <Button
@@ -212,7 +174,7 @@ class Main extends Component {
                                 <SpecialHeader>
                                     <h2>Tribes</h2>
                                 </SpecialHeader>
-                                {tribesCheckbox.map(type => (
+                                {tribesFilters.map(type => (
                                     <InputContainer key={type}>
                                         <label>
                                             <Checkbox
@@ -233,7 +195,7 @@ class Main extends Component {
                                 <SpecialHeader>
                                     <h2>Ranks</h2>
                                 </SpecialHeader>
-                                {ranksCheckbox.map(type => (
+                                {ranksfilters.map(type => (
                                     <InputContainer key={type}>
                                         <label>
                                             <Checkbox
@@ -254,7 +216,7 @@ class Main extends Component {
                                 <SpecialHeader>
                                     <h2>Elements</h2>
                                 </SpecialHeader>
-                                {elementsCheckbox.map(type => (
+                                {elementsFilters.map(type => (
                                     <InputContainer key={type}>
                                         <label>
                                             <Checkbox
@@ -275,7 +237,7 @@ class Main extends Component {
                                 <SpecialHeader>
                                     <h2>Misc</h2>
                                 </SpecialHeader>
-                                {miscCheckbox.map(type => (
+                                {miscFilters.map(type => (
                                     <InputContainer key={type}>
                                         <label>
                                             <Checkbox
@@ -295,32 +257,6 @@ class Main extends Component {
                         </Filters>
                     </Collapsible>
                     {yokais
-                        .sort((a, b) => {
-                            if (sort === '') {
-                                return 0;
-                            }
-
-                            const nameA = a[sort].toLowerCase();
-                            const nameB = b[sort].toLowerCase();
-
-                            if (orderAsc) {
-                                if (nameA < nameB) {
-                                    return -1;
-                                }
-                                if (nameA > nameB) {
-                                    return 1;
-                                }
-                            } else {
-                                if (nameA > nameB) {
-                                    return -1;
-                                }
-                                if (nameA < nameB) {
-                                    return 1;
-                                }
-                            }
-
-                            return 0;
-                        })
                         .filter(yokai => {
                             let aux = true;
 
