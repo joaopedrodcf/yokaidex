@@ -49,14 +49,16 @@ class Main extends Component {
         this.handleCollapse = this.handleCollapse.bind(this);
         this.handleFormSubmit = this.handleFormSubmit.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
+
+        this.listref = React.createRef();
     }
 
     componentDidMount() {
-        document.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('scroll', this.handleScroll);
     }
 
     componentWillUnmount() {
-        document.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('scroll', this.handleScroll);
     }
 
     goTo(name, tribe = '') {
@@ -105,10 +107,12 @@ class Main extends Component {
     }
 
     handleScroll() {
-        const scrollTopHalfSize = 3000;
         const { pageNumber } = this.state;
 
-        if (window.pageYOffset > scrollTopHalfSize * (pageNumber + 1)) {
+        if (
+            window.innerHeight + window.pageYOffset >
+            this.listref.current.clientHeight
+        ) {
             this.setState({ pageNumber: pageNumber + 1 });
         }
     }
@@ -127,7 +131,7 @@ class Main extends Component {
         const { yokais, gameVersion } = this.props;
 
         return (
-            <Container>
+            <Container ref={this.listref}>
                 <Helmet>
                     <title>
                         Yokaidex - Where you can find all the information from
