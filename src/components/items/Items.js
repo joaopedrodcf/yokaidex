@@ -11,10 +11,34 @@ class Items extends Component {
         super(props);
 
         this.state = {
-            name: ''
+            name: '',
+            pageNumber: 0,
+            itemsToShow: 50
         };
 
         this.handleText = this.handleText.bind(this);
+        this.handleScroll = this.handleScroll.bind(this);
+
+        this.listref = React.createRef();
+    }
+
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
+    }
+
+    handleScroll() {
+        const { pageNumber } = this.state;
+
+        if (
+            window.innerHeight + window.pageYOffset >
+            this.listref.current.clientHeight
+        ) {
+            this.setState({ pageNumber: pageNumber + 1 });
+        }
     }
 
     handleText(event) {
@@ -23,9 +47,9 @@ class Items extends Component {
 
     render() {
         const { items, gameVersion, type } = this.props;
-        const { name } = this.state;
+        const { name, pageNumber, itemsToShow } = this.state;
         return (
-            <Container>
+            <Container ref={this.listref}>
                 <Helmet>
                     <title>
                         Items | Yokaidex - Where you can find all the
@@ -55,6 +79,7 @@ class Items extends Component {
 
                         return aux;
                     })
+                    .slice(0, (pageNumber + 1) * itemsToShow)
                     .map((item, index) => (
                         <Sections key={index}>
                             <Link
