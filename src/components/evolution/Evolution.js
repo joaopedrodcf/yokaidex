@@ -55,8 +55,8 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
         {utils
             .getEvolution(evolutions, evolutionIndexes)
             .filter(evo => evo.type === 'fusion' && !evo.withItems)
-            .map(evo => (
-                <ContainerEvolutions>
+            .map((evo, index) => (
+                <ContainerEvolutions key={index}>
                     <Row>
                         <Column>
                             <Link
@@ -113,8 +113,8 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
         {utils
             .getEvolution(evolutions, evolutionIndexes)
             .filter(evo => evo.type === 'fusion' && evo.withItems)
-            .map(evo => (
-                <ContainerEvolutions>
+            .map((evo, index) => (
+                <ContainerEvolutions key={index}>
                     <Row>
                         <Column>
                             <Link

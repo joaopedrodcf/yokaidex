@@ -382,7 +382,7 @@ const evolutions = [
         type: 'fusion',
         withItems: true,
         item: {
-            name: 'Legendary blade',
+            name: 'Legendary Blade',
             image:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/legendary_blade.png'
         },
@@ -426,7 +426,7 @@ const evolutions = [
         type: 'fusion',
         withItems: true,
         item: {
-            name: 'Holy blade',
+            name: 'Holy Blade',
             image:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/holy_blade.png'
         },
