@@ -1,5 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5bc77de0-4f9f-458c-88d0-51adfbb64fa5/deploy-status)](https://app.netlify.com/sites/yokaidex/deploys)
 
+<a href="https://www.patreon.com/bePatron?u=18891840" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
+
 # Yokaidex
 
 Yokaidex is a progressive web app(PWA) that has lots of information about Yo-kai Watch games.
