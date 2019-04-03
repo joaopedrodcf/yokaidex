@@ -66,8 +66,8 @@ class Sidebar extends Component {
                             <FontAwesomeIcon icon="list-ul" /> Equipments
                         </SCNavLink>
 
-                        <SCLink href="https://github.com/joaopedrodcf/yokaidex">
-                            <FontAwesomeIcon icon="hands-helping" /> Contribute
+                        <SCLink href="https://www.patreon.com/yokaidex">
+                            <FontAwesomeIcon icon="hands-helping" /> Help us
                         </SCLink>
 
                         <SCLink href="https://twitter.com/yokaidex">
