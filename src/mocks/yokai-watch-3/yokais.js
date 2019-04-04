@@ -92,7 +92,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'e',
-        favouriteFood: 'Rice balls'
+        favouriteFood: 'Rice balls',
+        type: ['classic']
     },
     {
         name: 'Pandle',
@@ -235,7 +236,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice balls',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Cutta-nah',
@@ -378,7 +379,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Juices',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Brushido',
@@ -720,7 +721,7 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Meats',
         evolutionIndexes: [6],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Brutle',
@@ -770,7 +771,7 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Meats',
         evolutionIndexes: [6],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Mochismo',
@@ -965,7 +966,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Curries',
         evolutionIndexes: [8],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Snortlehog',
@@ -1015,7 +1016,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Curries',
         evolutionIndexes: [8],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Samureel',
@@ -1065,7 +1066,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [9],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Time Keeler',
@@ -1115,7 +1116,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [9],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Goofball',
@@ -1164,7 +1165,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Hot Dogs',
-        evolutionIndexes: [10]
+        evolutionIndexes: [10],
+        type: ["'merican"]
     },
     {
         name: 'Slugger',
@@ -1213,7 +1215,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Hot Dogs',
-        evolutionIndexes: [10]
+        evolutionIndexes: [10],
+        type: ["'merican"]
     },
     {
         name: 'Helmsman',
@@ -1360,7 +1363,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Slicenrice',
@@ -1507,7 +1510,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Odens',
-        evolutionIndexes: [13, 14]
+        evolutionIndexes: [13, 14],
+        type: ['classic']
     },
     {
         name: 'Lappinitup',
@@ -1701,7 +1705,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Odens',
-        evolutionIndexes: [15]
+        evolutionIndexes: [15],
+        type: ['classic']
     },
     {
         name: 'BBQvil',
@@ -1749,7 +1754,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ["'merican"]
     },
     {
         name: 'Liarbird',
@@ -2035,7 +2041,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Chansin',
@@ -2229,7 +2235,7 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [21],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Hovernyan',
@@ -2278,7 +2284,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Moximous N',
@@ -2327,7 +2333,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Snacks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Moximous K',
@@ -2376,7 +2382,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Snacks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Hot Air Buffoon',
@@ -2424,7 +2430,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Sushiyama',
@@ -2521,7 +2528,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sobas',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Beetler',
@@ -2666,7 +2673,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Machonyan',
@@ -2715,7 +2722,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Momonyan',
@@ -2764,7 +2771,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Sir Nyansalot',
@@ -2813,7 +2820,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Snacks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Sgt. Burly',
@@ -2909,8 +2916,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'hamburgers',
-        type: 'rare'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Demuncher',
@@ -3005,7 +3012,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Illuminoct',
@@ -3054,7 +3061,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Arachnevil',
@@ -3103,7 +3110,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Shurikenny',
@@ -3151,7 +3158,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ["'merican"]
     },
     {
         name: 'Nunchucky',
@@ -3200,7 +3208,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Camellia',
@@ -3249,7 +3257,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Brokenbrella',
@@ -3346,7 +3354,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'e',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        type: ['classic']
     },
     {
         name: 'Zip Unlock',
@@ -3394,7 +3403,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'e',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Slippup',
@@ -3583,7 +3593,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 'e',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [23]
     },
     {
@@ -3632,7 +3642,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [23]
     },
     {
@@ -3681,8 +3691,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'hamburgers',
-        type: 'rare'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Wazzat',
@@ -4072,7 +4082,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['classic']
     },
     {
         name: 'Snottle',
@@ -4120,7 +4131,7 @@ const yokais = [
         weakness: '-',
         rank: 'd',
         favouriteFood: 'Snacks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Legsit',
@@ -4215,7 +4226,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Cornfused',
@@ -4263,7 +4275,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Unshelltered',
@@ -4311,7 +4324,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        type: ["'merican"]
     },
     {
         name: 'Lafalotta',
@@ -4550,7 +4564,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Ramens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Cupistol',
@@ -4745,7 +4759,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Curries',
         evolutionIndexes: [32],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Bowminos',
@@ -4795,7 +4809,7 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Curries',
         evolutionIndexes: [32],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Smogling',
@@ -4844,7 +4858,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [33]
+        evolutionIndexes: [33],
+        type: ['classic']
     },
     {
         name: 'Smogmella',
@@ -4893,7 +4908,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [33, 121]
+        evolutionIndexes: [33, 121],
+        type: ['classic']
     },
     {
         name: 'Signibble',
@@ -5040,7 +5056,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Odens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Statiking',
@@ -5089,7 +5105,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Odens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Failian',
@@ -5185,8 +5201,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'hamburgers',
-        type: 'rare'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Fuu 2',
@@ -5235,7 +5251,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Breads',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Shrillington',
@@ -5331,7 +5347,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Pizzas'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Skulleidoscope',
@@ -5379,7 +5396,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Lionguist',
@@ -5428,7 +5446,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [18]
+        evolutionIndexes: [18],
+        type: ["'merican"]
     },
     {
         name: 'Illoo',
@@ -6055,7 +6074,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Miss Teri',
@@ -6103,7 +6123,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        type: ["'merican"]
     },
     {
         name: 'Maginyan',
@@ -6152,7 +6173,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sweets',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Squandeer',
@@ -6200,7 +6221,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        type: ["'merican"]
     },
     {
         name: 'Tengu',
@@ -6297,7 +6319,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Candies',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Kyubi',
@@ -6393,7 +6415,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Odens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Chymera',
@@ -6441,7 +6463,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        type: ['classic']
     },
     {
         name: 'Kingmera',
@@ -6490,7 +6513,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'Toadal Demon',
@@ -6539,7 +6562,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Thurston',
@@ -6587,7 +6610,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['classic']
     },
     {
         name: 'Spect-hare',
@@ -6636,7 +6660,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ["'merican"]
     },
     {
         name: 'Snow Spect-hare',
@@ -6686,7 +6711,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Oh Wheel',
@@ -6734,7 +6759,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'e',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Dulluma',
@@ -7316,7 +7342,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Ramens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Roughraff',
@@ -7462,7 +7488,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Ramens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Roughgraff',
@@ -7512,7 +7538,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Hot Dogs',
         evolutionIndexes: [41],
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Chilled Cowcao',
@@ -7561,7 +7587,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Candies',
-        evolutionIndexes: [42]
+        evolutionIndexes: [42],
+        type: ["'merican"]
     },
     {
         name: 'Stircrazy Stu',
@@ -7610,7 +7637,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Meats',
-        evolutionIndexes: [42]
+        evolutionIndexes: [42],
+        type: ["'merican"]
     },
     {
         name: 'Nummskull',
@@ -7853,10 +7881,11 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ["'merican"]
     },
     {
-        name: 'Sp mountain',
+        name: 'Speedemountain',
         yokaiNumber: '163',
         bossNumber: '000',
         image:
@@ -7901,7 +7930,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        type: ["'merican"]
     },
     {
         name: 'Blowkade',
@@ -8045,7 +8075,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Sobas',
         evolutionIndexes: [44],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Yokozudon',
@@ -8094,7 +8124,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Sobas',
         evolutionIndexes: [44],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Whateverest',
@@ -8144,7 +8174,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Meats',
         evolutionIndexes: [45],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Whatuption',
@@ -8194,7 +8224,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Meats',
         evolutionIndexes: [45],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Fidgephant',
@@ -8486,7 +8516,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Donuts',
-        evolutionIndexes: [48]
+        evolutionIndexes: [48],
+        type: ["'merican"]
     },
     {
         name: 'Admirable Admiral',
@@ -8535,7 +8566,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Donuts',
-        evolutionIndexes: [48]
+        evolutionIndexes: [48],
+        type: ["'merican"]
     },
     {
         name: 'Swelton',
@@ -8630,7 +8662,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Slippy',
@@ -9064,7 +9097,7 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Milks',
         evolutionIndexes: [52],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Puppynyan',
@@ -9113,7 +9146,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Rhinoggin',
@@ -9259,7 +9292,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Kintaronyan',
@@ -9308,7 +9341,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Steaking',
@@ -9356,7 +9389,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ["'merican"]
     },
     {
         name: 'Robonyan',
@@ -9405,7 +9439,7 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Chocobars',
         evolutionIndexes: [54],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Robonyan F',
@@ -9454,7 +9488,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Showbonyan',
@@ -9503,7 +9537,7 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Chocobars',
         evolutionIndexes: [54],
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Goldenyan',
@@ -9552,7 +9586,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Dromp',
@@ -9649,7 +9683,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Toadal Dude',
@@ -9697,7 +9731,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['classic']
     },
     {
         name: 'Uber Geeko',
@@ -9746,7 +9781,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'Gargaros',
@@ -9794,7 +9829,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Ogralus',
@@ -9842,7 +9877,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Orcanos',
@@ -9890,7 +9925,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Kabuking',
@@ -9939,7 +9974,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Jawsome Kid',
@@ -9987,7 +10022,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'El Sharkador',
@@ -10036,7 +10072,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Hot Dogs',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Silver Lining',
@@ -10084,7 +10120,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ["'merican"]
     },
     {
         name: 'Leggly',
@@ -10229,10 +10266,11 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'e',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ["'merican"]
     },
     {
-        name: 'Hoppy.',
+        name: 'Hoppy-go-Lucky',
         yokaiNumber: '212',
         bossNumber: '000',
         image:
@@ -10277,7 +10315,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'e',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ["'merican"]
     },
     {
         name: 'Dazzabel',
@@ -10423,7 +10462,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Sweets',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Cadin',
@@ -10567,7 +10606,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Juices',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Buttered Blue',
@@ -10616,7 +10655,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Milks',
-        evolutionIndexes: [56]
+        evolutionIndexes: [56],
+        type: ["'merican"]
     },
     {
         name: 'Punching Baguette',
@@ -10665,7 +10705,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Milks',
-        evolutionIndexes: [56]
+        evolutionIndexes: [56],
+        type: ["'merican"]
     },
     {
         name: 'Pupsicle',
@@ -10808,7 +10849,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Ramens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Unbelievaboy!',
@@ -10857,7 +10898,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [58]
+        evolutionIndexes: [58],
+        type: ["'merican"]
     },
     {
         name: 'Unbearaboy!',
@@ -10906,7 +10948,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [58]
+        evolutionIndexes: [58],
+        type: ["'merican"]
     },
     {
         name: 'Inflammaboy!',
@@ -10955,7 +10998,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Snacks',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Jumbelina',
@@ -11050,7 +11093,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['classic']
     },
     {
         name: 'Krystal Fox',
@@ -11146,7 +11190,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'd',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Kittylumbus',
@@ -11194,7 +11239,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ["'merican"]
     },
     {
         name: 'Zest-a-Minute',
@@ -11243,7 +11289,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ["'merican"]
     },
     {
         name: 'Baku',
@@ -11439,7 +11486,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Sushis',
         evolutionIndexes: [60],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Panja Pro',
@@ -11489,7 +11536,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Sushis',
         evolutionIndexes: [60],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Cue-Tee',
@@ -11732,7 +11779,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Jibanyan',
@@ -11829,7 +11876,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Jibanyan S',
@@ -11878,7 +11925,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Jibanyan Liu Bei',
@@ -11974,7 +12021,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Thornyan',
@@ -12121,7 +12168,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Komasan',
@@ -12170,7 +12217,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Ice creams',
         evolutionIndexes: [129],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Komane',
@@ -12220,7 +12267,7 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Ice creams',
         evolutionIndexes: [129],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Komasan B',
@@ -12269,7 +12316,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Komasan S',
@@ -12317,7 +12364,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Koma. Sun Ce',
@@ -12413,7 +12460,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Komajiro',
@@ -12555,7 +12602,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Milks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Drizzelda',
@@ -12699,7 +12746,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Slackoon',
@@ -12747,7 +12795,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        type: ["'merican"]
     },
     {
         name: 'Puppiccino',
@@ -12795,7 +12844,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        type: ["'merican"]
     },
     {
         name: 'Ballin',
@@ -12891,7 +12941,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [67, 68]
     },
     {
@@ -12940,7 +12990,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [67]
     },
     {
@@ -12989,8 +13039,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'hamburgers',
-        type: 'rare'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Harry Barry',
@@ -13090,7 +13140,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Jetnyan',
@@ -13139,7 +13189,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Chimpanyan',
@@ -13188,7 +13238,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Tomnyan',
@@ -13237,7 +13287,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Mega Tasty Bar',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Koma Knomads',
@@ -13286,7 +13336,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Frostina',
@@ -13430,7 +13480,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Candies',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Melonyan',
@@ -13479,7 +13529,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Oranyan',
@@ -13527,7 +13577,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Kiwinyan',
@@ -13576,7 +13626,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Grapenyan',
@@ -13624,7 +13674,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Strawbnyan',
@@ -13673,7 +13723,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Watermelnyan',
@@ -13722,7 +13772,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Sapphinyan',
@@ -13772,7 +13822,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Emenyan',
@@ -13822,7 +13872,7 @@ const yokais = [
         weakness: '-',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Rubinyan',
@@ -13870,7 +13920,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Topanyan',
@@ -13918,7 +13968,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Dianyan',
@@ -13968,7 +14018,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Robokapp',
@@ -14016,7 +14066,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Robokoma',
@@ -14064,7 +14114,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Sailornyan',
@@ -14113,7 +14163,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Rubeus J',
@@ -14209,7 +14259,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Whirlweasel',
@@ -14258,7 +14308,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['classic']
     },
     {
         name: 'Chocobonyan',
@@ -14307,7 +14358,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Vegetables',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Mooglenyan',
@@ -14355,7 +14406,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Wobblenyan',
@@ -14404,7 +14455,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Wibblekoma',
@@ -14453,7 +14504,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Sushinyan',
@@ -14502,7 +14553,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Tempurasan',
@@ -14550,7 +14601,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Tempuras',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Faux Kappa',
@@ -14599,7 +14650,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Vegetables',
-        evolutionIndexes: [70]
+        evolutionIndexes: [70],
+        type: ['classic']
     },
     {
         name: 'Tigappa',
@@ -14648,7 +14700,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Chinese foods',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'Master Nyada',
@@ -14744,7 +14796,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['classic']
     },
     {
         name: 'Tengulightened',
@@ -14793,7 +14846,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'Pallysol',
@@ -14842,7 +14895,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Odens',
-        evolutionIndexes: [49, 71]
+        evolutionIndexes: [49, 71],
+        type: ['classic']
     },
     {
         name: 'Bumblejack',
@@ -14937,7 +14991,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Fire',
         rank: 'e',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        type: ["'merican"]
     },
     {
         name: 'Wantston',
@@ -15275,7 +15330,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Sobas',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Hungramps',
@@ -15420,7 +15475,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice balls',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Supersize Gramps',
@@ -15468,7 +15523,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Meats',
         evolutionIndexes: [76],
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Tongus',
@@ -15810,7 +15865,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Cereal Spiller',
@@ -15905,7 +15961,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Swaycorn',
@@ -16051,7 +16108,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Snacks',
         evolutionIndexes: [79],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Starrycane',
@@ -16101,7 +16158,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Snacks',
         evolutionIndexes: [79],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Lodo',
@@ -16345,7 +16402,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [81]
+        evolutionIndexes: [81],
+        type: ['classic']
     },
     {
         name: 'Enerfly',
@@ -16539,7 +16597,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Juices',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Predictabull',
@@ -16588,7 +16646,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [84, 85]
+        evolutionIndexes: [84, 85],
+        type: ['classic']
     },
     {
         name: 'Smashibull',
@@ -16637,7 +16696,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [84]
+        evolutionIndexes: [84],
+        type: ['classic']
     },
     {
         name: 'DON-CHAN',
@@ -16974,7 +17034,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Got It Maid',
@@ -17022,7 +17083,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        type: ["'merican"]
     },
     {
         name: 'Greengramps',
@@ -17118,7 +17180,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Tattlecakes',
@@ -17168,7 +17231,7 @@ const yokais = [
         rank: 'c',
         favouriteFood: 'Milks',
         evolutionIndexes: [29],
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Happierre',
@@ -17315,7 +17378,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Breads',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Pheasanyan',
@@ -17364,7 +17427,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Fundango',
@@ -17412,7 +17475,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas'
     },
     {
         name: 'Pearly White',
@@ -17460,7 +17523,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ["'merican"]
     },
     {
         name: 'Robogramps',
@@ -17509,7 +17573,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Rice balls',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Rollen',
@@ -17651,7 +17715,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [49]
+        evolutionIndexes: [49],
+        type: ['classic']
     },
     {
         name: 'Odysseynyan',
@@ -17700,7 +17765,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Ghostess',
@@ -17843,7 +17908,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Mama Aura',
@@ -17940,7 +18005,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Kyryn',
@@ -17988,7 +18053,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        type: ['classic']
     },
     {
         name: 'Unikirin',
@@ -18037,7 +18103,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'Double Time',
@@ -18085,7 +18151,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Sonic Bam',
@@ -18133,8 +18200,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'pizza',
-        type: 'rare'
+        favouriteFood: 'Pizzas',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Neggplant',
@@ -18521,7 +18588,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Candies',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Herbiboy',
@@ -18667,7 +18734,7 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'e',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [89, 90]
     },
     {
@@ -18716,7 +18783,7 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [89]
     },
     {
@@ -18766,7 +18833,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [91]
+        evolutionIndexes: [91],
+        type: ["'merican"]
     },
     {
         name: 'Retreeter',
@@ -18815,7 +18883,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [91]
+        evolutionIndexes: [91],
+        type: ["'merican"]
     },
     {
         name: 'Negatibuzz',
@@ -18962,7 +19031,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Juices',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Dimmy',
@@ -19154,7 +19223,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Suspicioni',
@@ -19347,7 +19417,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Meats',
         evolutionIndexes: [94],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Groupus Khan',
@@ -19397,7 +19467,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Meats',
         evolutionIndexes: [94],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Hidabat',
@@ -19544,7 +19614,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Yoink',
@@ -19691,7 +19761,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [90]
+        evolutionIndexes: [90],
+        type: ["'merican"]
     },
     {
         name: 'Hack King',
@@ -19740,7 +19811,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [90]
+        evolutionIndexes: [90],
+        type: ["'merican"]
     },
     {
         name: 'Yoodooit',
@@ -19884,7 +19956,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Milks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'DisliKing',
@@ -19980,7 +20052,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Rocky Badboya',
@@ -20027,7 +20100,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Injurnalist',
@@ -20075,7 +20149,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Misterr Typoo',
@@ -20365,7 +20440,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Lil Kappa',
@@ -20412,7 +20487,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ["'merican"]
     },
     {
         name: 'Horizontail',
@@ -20508,7 +20584,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon Football Gear',
@@ -20556,7 +20633,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon Scuba Gear',
@@ -20604,7 +20682,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon GI Gear',
@@ -20652,7 +20731,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon Racing Gear',
@@ -20700,7 +20780,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon B',
@@ -20749,7 +20830,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Donuts',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Usa. Zhongda',
@@ -20846,7 +20927,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Odens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Negasus',
@@ -20942,7 +21023,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Vegetables',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Gutsy Bones',
@@ -20991,7 +21072,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Milks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Timidevil',
@@ -21138,7 +21219,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Ramens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Eyesoar',
@@ -21186,7 +21267,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['classic']
     },
     {
         name: 'Eyellure',
@@ -21235,7 +21317,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'Greesel',
@@ -21331,7 +21413,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Wobblewok',
@@ -21380,7 +21462,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Darkyubi',
@@ -21429,7 +21511,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Odens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Dr. E. Raser',
@@ -21477,7 +21559,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ["'merican"]
     },
     {
         name: 'Dr. Nocturne',
@@ -21526,7 +21609,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: "Tut 'n' K'mon",
@@ -21622,7 +21705,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'e',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        type: ["'merican"]
     },
     {
         name: 'Love-Torn',
@@ -21669,7 +21753,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'e',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ["'merican"]
     },
     {
         name: 'Shakey',
@@ -22101,7 +22186,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Juices',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Peckpocket',
@@ -22149,7 +22234,7 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'e',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [99]
     },
     {
@@ -22198,7 +22283,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [99]
     },
     {
@@ -22489,7 +22574,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Breads',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Manjimutt',
@@ -22639,7 +22724,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Curries',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Furgus',
@@ -22688,7 +22773,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Rice balls',
-        evolutionIndexes: [103]
+        evolutionIndexes: [103],
+        type: ['classic']
     },
     {
         name: 'Furdinand',
@@ -22737,7 +22823,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Rice balls',
-        evolutionIndexes: [103]
+        evolutionIndexes: [103],
+        type: ['classic']
     },
     {
         name: 'Pergushin',
@@ -22930,7 +23017,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Nervous Rex',
@@ -22978,7 +23066,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Rinsin Repete',
@@ -23217,7 +23306,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Sweets',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Danke Sand',
@@ -23267,7 +23356,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [106],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'No Sandkyu',
@@ -23317,7 +23406,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Odens',
         evolutionIndexes: [106],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Papa Windbag',
@@ -23653,7 +23742,7 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas'
     },
     {
         name: 'Cheeksqueek',
@@ -23895,7 +23984,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Curries',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Shedwin',
@@ -23991,7 +24080,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas'
     },
     {
         name: 'Spewart',
@@ -24187,7 +24276,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Milks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Sproink',
@@ -24236,7 +24325,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Curries',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Darknyan',
@@ -24285,7 +24374,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Decidevible',
@@ -24380,7 +24469,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['classic']
     },
     {
         name: 'Insomni',
@@ -24475,7 +24565,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Candies',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Arachnus',
@@ -24523,7 +24613,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['classic']
     },
     {
         name: 'Arachnia',
@@ -24572,7 +24663,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'Oridjinn',
@@ -24620,7 +24711,8 @@ const yokais = [
         element: 'Drain',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Horridjinn',
@@ -24668,8 +24760,8 @@ const yokais = [
         element: 'Drain',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'pizza',
-        type: 'rare'
+        favouriteFood: 'Pizzas',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Little Charrmer',
@@ -24718,7 +24810,7 @@ const yokais = [
         weakness: '-',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Cricky',
@@ -24861,7 +24953,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'e',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ["'merican"]
     },
     {
         name: 'Putasockinit',
@@ -24909,7 +25002,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Pastas',
-        evolutionIndexes: [109]
+        evolutionIndexes: [109],
+        type: ["'merican"]
     },
     {
         name: 'Snidewinder',
@@ -24958,7 +25052,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Pastas',
-        evolutionIndexes: [109]
+        evolutionIndexes: [109],
+        type: ["'merican"]
     },
     {
         name: 'Noko',
@@ -25005,9 +25100,9 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'e',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [111],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Bloominoko',
@@ -25055,9 +25150,9 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [111],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Pandanoko',
@@ -25105,8 +25200,8 @@ const yokais = [
         element: 'Ice',
         weakness: '-',
         rank: 'a',
-        favouriteFood: 'hamburgers',
-        type: 'rare'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Starry Noko',
@@ -25155,7 +25250,7 @@ const yokais = [
         weakness: '-',
         rank: 'b',
         favouriteFood: 'Donuts',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Snaggly',
@@ -25299,7 +25394,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ["'merican"]
     },
     {
         name: 'Nautaloss',
@@ -25346,7 +25442,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ["'merican"]
     },
     {
         name: 'Shellebrity',
@@ -25585,7 +25682,7 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [113],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Takoyaking',
@@ -25635,7 +25732,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Odens',
         evolutionIndexes: [113],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Fishpicable',
@@ -25782,7 +25879,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Flushback',
@@ -25926,7 +26023,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [125]
     },
     {
@@ -25974,7 +26071,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [125]
     },
     {
@@ -26119,7 +26216,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Chinese foods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Mermaidyn',
@@ -26168,7 +26265,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [116, 117]
+        evolutionIndexes: [116, 117],
+        type: ['classic']
     },
     {
         name: 'Mermadonna',
@@ -26217,7 +26315,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [116]
+        evolutionIndexes: [116],
+        type: ['classic']
     },
     {
         name: 'Mermother',
@@ -26266,7 +26365,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'T-Wrecks',
@@ -26315,7 +26414,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Hot Dogs',
-        evolutionIndexes: [118]
+        evolutionIndexes: [118],
+        type: ["'merican"]
     },
     {
         name: 'D-Stroy',
@@ -26364,7 +26464,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Hot Dogs',
-        evolutionIndexes: [118]
+        evolutionIndexes: [118],
+        type: ["'merican"]
     },
     {
         name: 'Clodzilla',
@@ -26413,7 +26514,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Hot Dogs',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Lady Longnek',
@@ -26461,7 +26562,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [119]
+        evolutionIndexes: [119],
+        type: ['classic']
     },
     {
         name: 'Whisper',
@@ -26511,7 +26613,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Whispocrates',
@@ -26561,7 +26663,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Snippity Cricket',
@@ -26990,7 +27092,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Breads',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Babblong',
@@ -27088,7 +27190,7 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Candies',
         evolutionIndexes: [120],
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Cocobanana',
@@ -27138,7 +27240,7 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Sweets',
         evolutionIndexes: [120],
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Draaagin',
@@ -27233,8 +27335,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'hamburgers',
-        type: 'rare'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Robodraggie',
@@ -27282,7 +27384,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chinese foods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Ooze Zat',
@@ -27329,7 +27431,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['classic']
     },
     {
         name: 'Copperled',
@@ -27522,7 +27625,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Odens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Mython',
@@ -27667,7 +27770,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Frogetmenot',
@@ -27715,7 +27818,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['classic']
     },
     {
         name: 'Originyan',
@@ -27860,7 +27964,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Snacks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Unkaind',
@@ -27908,7 +28012,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Untidy',
@@ -27956,7 +28060,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Unpleasant',
@@ -28005,7 +28109,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Odens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Unkeen',
@@ -28054,7 +28158,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Curries',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Grublappa',
@@ -28590,7 +28694,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Queen Usapyon',
@@ -28638,7 +28742,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Donuts',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Jackomasan',
@@ -28685,7 +28789,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Komajiro Ten',
@@ -28733,7 +28837,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Milks',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Acenyan',
@@ -28780,7 +28884,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Josper',
@@ -28830,7 +28934,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Benzaiten',
@@ -28879,7 +28983,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Curries',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Hotei',
@@ -28928,7 +29032,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Daikokuten',
@@ -28977,7 +29081,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Odens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Ebisu',
@@ -29026,7 +29130,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Bishamonten',
@@ -29075,7 +29179,7 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Columbakat',
@@ -29220,7 +29324,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas'
     },
     {
         name: 'Last Nyanmurai',
@@ -29269,7 +29373,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ["'merican legendary"]
     },
     {
         name: 'Koma Star',
@@ -29316,7 +29421,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican legendary"]
     },
     {
         name: 'Platinos',
@@ -29364,7 +29470,8 @@ const yokais = [
         element: 'Lightning',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican legendary"]
     },
     {
         name: 'Flash T. Cash',
@@ -29412,7 +29519,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ["'merican legendary"]
     },
     {
         name: 'Shogunyan',
@@ -29996,7 +30104,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Supernyan',
@@ -30044,7 +30152,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Hovernyan S',
@@ -30093,7 +30201,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Hover. Cao Cao',
@@ -30238,7 +30346,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Urnfulfilled',
@@ -30286,7 +30394,7 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Sad 2 the Bone',
@@ -30382,7 +30490,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Orcanos Lu Bu',
@@ -30478,7 +30586,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Odens',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Ultimate Robonyan',
@@ -30527,7 +30635,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Molar Petite',
@@ -30673,7 +30781,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Sweets',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Koalanyan',
@@ -30722,7 +30830,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Jibanyan T',
@@ -30771,7 +30879,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Komasan T',
@@ -30820,7 +30928,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Eggcelency',
@@ -30868,8 +30976,8 @@ const yokais = [
         element: 'Restoration',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'sukiyaki',
-        type: 'rare'
+        favouriteFood: 'Sukiyakis',
+        type: ['rare']
     },
     {
         name: 'Deadcool',
@@ -30916,7 +31024,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ["'merican"]
     },
     {
         name: 'Sweattuce',
@@ -30966,7 +31075,7 @@ const yokais = [
         rank: 'c',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [73],
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Mr Blue-Shy',
@@ -31063,7 +31172,7 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Snacks',
         evolutionIndexes: [115],
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Ulteria',
@@ -31159,7 +31268,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: "Sunk'nsoul",
@@ -31206,7 +31315,7 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Crummy Mum.',
@@ -31303,7 +31412,7 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Ice creams',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Tofupyon',
@@ -31351,8 +31460,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'sukiyaki',
-        type: 'rare'
+        favouriteFood: 'Sukiyakis',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Ed Zoff',
@@ -31400,7 +31509,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['classic']
     },
     {
         name: 'Gorgeous Ambassador',
@@ -31449,7 +31559,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: 'rare'
+        type: ['rare', "'merican"]
     },
     {
         name: 'Hinozall',
@@ -31498,7 +31608,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Meats',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Zazel',
@@ -31547,7 +31657,7 @@ const yokais = [
         weakness: '-',
         rank: 's',
         favouriteFood: 'Chinese foods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Procrastino.',
@@ -31691,7 +31801,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Snacks',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Whi. Kongming',
@@ -31788,7 +31898,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Ramens',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Fukurokuju',
@@ -31837,7 +31947,7 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Sarchopha.',
@@ -31981,7 +32091,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Comic Genieus',
@@ -32029,7 +32139,7 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Bastnetnyan',
@@ -32172,7 +32282,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ["'merican legendary"]
     },
     {
         name: 'Teducator',
@@ -32220,7 +32331,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        type: ["'merican legendary"]
     },
     {
         name: 'Gentlemutt',
@@ -32268,7 +32380,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ["'merican legendary"]
     },
     {
         name: 'City Licker',
@@ -32317,7 +32430,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ["'merican legendary"]
     },
     {
         name: 'Whyvern King',
@@ -32365,7 +32479,7 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'sukiyaki',
+        favouriteFood: 'Sukiyakis',
         seal: 10
     },
     {
@@ -32415,10 +32529,10 @@ const yokais = [
         weakness: '-',
         rank: 's',
         favouriteFood: 'Candies',
-        type: 'rare'
+        type: ['rare']
     },
     {
-        name: 'Rgt. Zazel',
+        name: 'Righteous Zazel',
         yokaiNumber: '670',
         bossNumber: '000',
         image:
@@ -32463,10 +32577,11 @@ const yokais = [
         element: 'Restoration',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['deva']
     },
     {
-        name: 'Hinozall Awk.',
+        name: 'Hinozall Awoken',
         yokaiNumber: '671',
         bossNumber: '000',
         image:
@@ -32511,7 +32626,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['deva']
     },
     {
         name: 'Ancient Enma',
@@ -32558,10 +32674,11 @@ const yokais = [
         element: 'Fire',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['deva']
     },
     {
-        name: 'Enma Awk.',
+        name: 'Enma Awoken',
         yokaiNumber: '673',
         bossNumber: '000',
         image:
@@ -32605,7 +32722,8 @@ const yokais = [
         element: 'Lightning',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['deva']
     },
     {
         name: 'The Boracle',
@@ -32699,7 +32817,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Cymbalina',
@@ -32746,7 +32864,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['classic']
     },
     {
         name: 'Mumbles',
@@ -32793,7 +32912,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['classic']
     },
     {
         name: 'Roary',
@@ -32841,7 +32961,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['classic']
     },
     {
         name: 'Letsbifrenz',
@@ -32889,7 +33010,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['classic']
     },
     {
         name: "Wack o' Lantern",
@@ -32936,7 +33058,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['classic']
     },
     {
         name: 'Moolinda',
@@ -32985,7 +33108,7 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'Neighthan',
@@ -33034,7 +33157,7 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: 'rare'
+        type: ['rare', 'classic']
     },
     {
         name: 'Big Fish',
@@ -33083,7 +33206,7 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Alpina',
@@ -33132,7 +33255,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: 'rare'
+        type: ['rare']
     },
     {
         name: 'Lunie',
@@ -33180,8 +33303,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'pizza',
-        type: 'rare'
+        favouriteFood: 'Pizzas',
+        type: ['rare']
     },
     {
         name: 'Blizzie',
@@ -33324,7 +33447,8 @@ const yokais = [
         element: 'Fire',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['deva']
     },
     {
         name: 'Infinite Enma',
@@ -33371,7 +33495,8 @@ const yokais = [
         element: 'Lightning',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['deva']
     },
     {
         name: 'Umbral Enma',
@@ -33419,7 +33544,8 @@ const yokais = [
         element: 'Drain',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['deva']
     },
     {
         name: 'Indiana Jaws',

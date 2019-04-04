@@ -123,6 +123,11 @@ const foods = [
         name: 'Mega Tasty Bar',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1554336151/Yokai/foods/mega_tasty_bar.png'
+    },
+    {
+        name: 'Sukiyakis',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1554336151/Yokai/foods/sukiyakis.png'
     }
 ];
 

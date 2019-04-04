@@ -40,7 +40,7 @@ class Main extends Component {
             name: '',
             isCollapsed: true,
             pageNumber: 0,
-            yokaisToShow: 50
+            yokaisToShow: 15
         };
 
         this.handleCheckbox = this.handleCheckbox.bind(this);
@@ -293,15 +293,55 @@ class Main extends Component {
                             }
 
                             if (
-                                misc.includes('is legendary') &&
+                                misc.includes('legendary') &&
                                 yokai.seal === undefined
                             ) {
                                 return false;
                             }
 
                             if (
-                                misc.includes('is rare') &&
-                                yokai.type !== 'rare'
+                                misc.includes('rare') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('rare')))
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                misc.includes('classic') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('classic')))
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                misc.includes("'merican legendary") &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes(
+                                            "'merican legendary"
+                                        )))
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                misc.includes("'merican") &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes("'merican")))
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                misc.includes('deva') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('deva')))
                             ) {
                                 return false;
                             }

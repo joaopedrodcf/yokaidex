@@ -13,7 +13,7 @@ class Items extends Component {
         this.state = {
             name: '',
             pageNumber: 0,
-            itemsToShow: 50
+            itemsToShow: 15
         };
 
         this.handleText = this.handleText.bind(this);
