@@ -2398,7 +2398,7 @@ const evolutions = [
             {
                 name: 'T-Wrecks',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/t-wrecks.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/t-wrecks.png'
             },
             {
                 name: 'D-Stroy',
