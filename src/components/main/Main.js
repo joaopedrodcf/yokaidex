@@ -299,6 +299,13 @@ class Main extends Component {
                                 return false;
                             }
 
+                            if (
+                                misc.includes('is rare') &&
+                                yokai.type !== 'rare'
+                            ) {
+                                return false;
+                            }
+
                             return aux;
                         })
                         .slice(0, (pageNumber + 1) * yokaisToShow)
