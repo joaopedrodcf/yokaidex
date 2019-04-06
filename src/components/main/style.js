@@ -28,9 +28,19 @@ export const ContainerHeader = styled.div`
 
 export const Filters = styled.div`
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 12px;
+
+    @media (min-width: 576px) {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        > div {
+            width: 50%;
+            padding: 12px;
+        }
+    }
 `;
 
 export const Table = styled.table`
@@ -68,6 +78,7 @@ export const InputContainer = styled.div`
     padding: 6px 0;
     display: flex;
     flex-direction: row;
+    width: 50%;
 `;
 
 export const Collapsible = styled.div`
@@ -78,13 +89,40 @@ export const Collapsible = styled.div`
         display: ${props => props.isCollapsed && 'none'};
     }
 
+    ${InputContainer} {
+        display: ${props => props.isCollapsed && 'none'};
+    }
+
     button {
         margin-bottom: 12px;
     }
 `;
 
+export const CollapsibleFilters = styled.div`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    ${InputContainer} {
+        display: ${props => props.isCollapsed && 'none'};
+    }
+`;
+
+export const FiltersColumn = styled.div`
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+`;
+
 export const SpecialHeader = styled.div`
     border-bottom: 2px solid #fdd835;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 12px;
+    margin-bottom: 12px;
+
     h2 {
         font-size: 18px;
         font-weight: 700;

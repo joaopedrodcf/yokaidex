@@ -13,7 +13,8 @@ import {
     FilterButtons,
     Sections,
     STable,
-    Row
+    Row,
+    CollapsibleFilters
 } from './style';
 import Button from '../shared/button';
 import Image from '../shared/image';
@@ -40,15 +41,33 @@ class Main extends Component {
             name: '',
             isCollapsed: true,
             pageNumber: 0,
-            yokaisToShow: 15
+            yokaisToShow: 15,
+            isCollapsedFilterTribes: true,
+            isCollapsedFilterRanks: true,
+            isCollapsedFilterElements: true,
+            isCollapsedFilterMisc: true
         };
 
-        this.handleCheckbox = this.handleCheckbox.bind(this);
         this.handleText = this.handleText.bind(this);
-        this.handleResetFilter = this.handleResetFilter.bind(this);
         this.handleCollapse = this.handleCollapse.bind(this);
         this.handleFormSubmit = this.handleFormSubmit.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
+        this.handleOpenFilterTribes = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterTribes'
+        );
+        this.handleOpenFilterRanks = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterRanks'
+        );
+        this.handleOpenFilterElements = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterElements'
+        );
+        this.handleOpenFilterMisc = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterMisc'
+        );
 
         this.listref = React.createRef();
     }
@@ -69,28 +88,6 @@ class Main extends Component {
         history.push(`/yokai-watch-${gameVersion}/yokais/${nameUrl}`);
     }
 
-    handleResetFilter() {
-        this.setState({ tribe: [], rank: [], element: [] });
-    }
-
-    handleCheckbox(event) {
-        const { checked } = event.target;
-        const checkboxtype = event.target.getAttribute('data-checkbox-type');
-        const nameLowerCase = event.target.name.toLowerCase();
-
-        if (checked) {
-            this.setState(state => ({
-                [checkboxtype]: [...state[checkboxtype], nameLowerCase]
-            }));
-        } else {
-            this.setState(state => ({
-                [checkboxtype]: state[checkboxtype].filter(
-                    element => element !== nameLowerCase
-                )
-            }));
-        }
-    }
-
     handleText(event) {
         this.setState({ name: event.target.value.toLowerCase() });
     }
@@ -99,6 +96,12 @@ class Main extends Component {
         const { isCollapsed } = this.state;
 
         this.setState({ isCollapsed: !isCollapsed });
+    }
+
+    handleOpenFilter(filterType) {
+        this.setState(state => ({
+            [filterType]: !state[filterType]
+        }));
     }
 
     // eslint-disable-next-line
@@ -119,16 +122,25 @@ class Main extends Component {
 
     render() {
         const {
-            tribe,
-            rank,
-            element,
-            misc,
             name,
             isCollapsed,
             pageNumber,
-            yokaisToShow
+            yokaisToShow,
+            isCollapsedFilterTribes,
+            isCollapsedFilterRanks,
+            isCollapsedFilterElements,
+            isCollapsedFilterMisc
         } = this.state;
-        const { yokais, gameVersion } = this.props;
+        const {
+            yokais,
+            gameVersion,
+            handleResetFilter,
+            handleCheckbox,
+            tribe,
+            rank,
+            element,
+            misc
+        } = this.props;
 
         return (
             <Container ref={this.listref}>
@@ -165,7 +177,7 @@ class Main extends Component {
 
                             <Button
                                 type="button"
-                                onClick={this.handleResetFilter}
+                                onClick={handleResetFilter}
                                 label="
                             Reset Filters"
                                 style={{ width: '160px' }}
@@ -175,88 +187,118 @@ class Main extends Component {
                         </FilterButtons>
                         <Filters>
                             <Column>
-                                <SpecialHeader>
+                                <SpecialHeader
+                                    onClick={this.handleOpenFilterTribes}
+                                >
                                     <h2>Tribes</h2>
+                                    <FontAwesomeIcon icon="plus" />
                                 </SpecialHeader>
-                                {tribesFilters.map(type => (
-                                    <InputContainer key={type}>
-                                        <label>
-                                            <Checkbox
-                                                type="checkbox"
-                                                checked={tribe.includes(
-                                                    type.toLowerCase()
-                                                )}
-                                                name={type}
-                                                checkboxtype="tribe"
-                                                onChange={this.handleCheckbox}
-                                                label={type}
-                                            />
-                                        </label>
-                                    </InputContainer>
-                                ))}
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterTribes}
+                                    checkboxtype="tribe"
+                                >
+                                    {tribesFilters.map(type => (
+                                        <InputContainer key={type}>
+                                            <label>
+                                                <Checkbox
+                                                    type="checkbox"
+                                                    checked={tribe.includes(
+                                                        type.toLowerCase()
+                                                    )}
+                                                    name={type}
+                                                    checkboxtype="tribe"
+                                                    onChange={handleCheckbox}
+                                                    label={type}
+                                                />
+                                            </label>
+                                        </InputContainer>
+                                    ))}
+                                </CollapsibleFilters>
                             </Column>
                             <Column>
-                                <SpecialHeader>
+                                <SpecialHeader
+                                    onClick={this.handleOpenFilterRanks}
+                                >
                                     <h2>Ranks</h2>
+                                    <FontAwesomeIcon icon="plus" />
                                 </SpecialHeader>
-                                {ranksfilters.map(type => (
-                                    <InputContainer key={type}>
-                                        <label>
-                                            <Checkbox
-                                                type="checkbox"
-                                                checked={rank.includes(
-                                                    type.toLowerCase()
-                                                )}
-                                                name={type}
-                                                checkboxtype="rank"
-                                                onChange={this.handleCheckbox}
-                                                label={type}
-                                            />
-                                        </label>
-                                    </InputContainer>
-                                ))}
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterRanks}
+                                    isToWrap
+                                >
+                                    {ranksfilters.map(type => (
+                                        <InputContainer key={type}>
+                                            <label>
+                                                <Checkbox
+                                                    type="checkbox"
+                                                    checked={rank.includes(
+                                                        type.toLowerCase()
+                                                    )}
+                                                    name={type}
+                                                    checkboxtype="rank"
+                                                    onChange={handleCheckbox}
+                                                    label={type}
+                                                />
+                                            </label>
+                                        </InputContainer>
+                                    ))}
+                                </CollapsibleFilters>
                             </Column>
                             <Column>
-                                <SpecialHeader>
+                                <SpecialHeader
+                                    onClick={this.handleOpenFilterElements}
+                                >
                                     <h2>Elements</h2>
+                                    <FontAwesomeIcon icon="plus" />
                                 </SpecialHeader>
-                                {elementsFilters.map(type => (
-                                    <InputContainer key={type}>
-                                        <label>
-                                            <Checkbox
-                                                type="checkbox"
-                                                checked={element.includes(
-                                                    type.toLowerCase()
-                                                )}
-                                                name={type}
-                                                checkboxtype="element"
-                                                onChange={this.handleCheckbox}
-                                                label={type}
-                                            />
-                                        </label>
-                                    </InputContainer>
-                                ))}
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterElements}
+                                >
+                                    {elementsFilters.map(type => (
+                                        <InputContainer key={type}>
+                                            <label>
+                                                <Checkbox
+                                                    type="checkbox"
+                                                    checked={element.includes(
+                                                        type.toLowerCase()
+                                                    )}
+                                                    name={type}
+                                                    checkboxtype="element"
+                                                    onChange={handleCheckbox}
+                                                    label={type}
+                                                />
+                                            </label>
+                                        </InputContainer>
+                                    ))}
+                                </CollapsibleFilters>
                             </Column>
                             <Column>
-                                <SpecialHeader>
+                                <SpecialHeader
+                                    onClick={this.handleOpenFilterMisc}
+                                >
                                     <h2>Misc</h2>
+                                    <FontAwesomeIcon icon="plus" />
                                 </SpecialHeader>
-                                {miscFilters.map(type => (
-                                    <InputContainer key={type}>
-                                        <label>
-                                            <Checkbox
-                                                type="checkbox"
-                                                checked={misc.includes(
-                                                    type.toLowerCase()
-                                                )}
-                                                name={type}
-                                                checkboxtype="misc"
-                                                onChange={this.handleCheckbox}
-                                                label={type}
-                                            />
-                                        </label>
-                                    </InputContainer>
-                                ))}
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterMisc}
+                                >
+                                    {miscFilters.map(type => (
+                                        <InputContainer key={type}>
+                                            <label>
+                                                <Checkbox
+                                                    type="checkbox"
+                                                    checked={misc.includes(
+                                                        type.toLowerCase()
+                                                    )}
+                                                    name={type}
+                                                    checkboxtype="misc"
+                                                    onChange={handleCheckbox}
+                                                    label={type}
+                                                />
+                                            </label>
+                                        </InputContainer>
+                                    ))}
+                                </CollapsibleFilters>
                             </Column>
                         </Filters>
                     </Collapsible>
