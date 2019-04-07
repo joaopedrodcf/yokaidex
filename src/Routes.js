@@ -47,7 +47,13 @@ class Routes extends Component {
             yokais,
             baffleBoard,
             items,
-            equipments
+            equipments,
+            handleResetFilter,
+            handleCheckbox,
+            tribe,
+            rank,
+            element,
+            misc
         } = this.props;
 
         return (
@@ -55,13 +61,33 @@ class Routes extends Component {
                 <Route
                     exact
                     path="/"
-                    render={() => <Main gameVersion={3} yokais={yokais} />}
+                    render={() => (
+                        <Main
+                            gameVersion={3}
+                            yokais={yokais}
+                            handleResetFilter={handleResetFilter}
+                            handleCheckbox={handleCheckbox}
+                            tribe={tribe}
+                            rank={rank}
+                            element={element}
+                            misc={misc}
+                        />
+                    )}
                 />
                 <Route
                     exact
                     path="/yokai-watch-:version"
                     render={() => (
-                        <Main gameVersion={gameVersion} yokais={yokais} />
+                        <Main
+                            gameVersion={gameVersion}
+                            yokais={yokais}
+                            handleResetFilter={handleResetFilter}
+                            handleCheckbox={handleCheckbox}
+                            tribe={tribe}
+                            rank={rank}
+                            element={element}
+                            misc={misc}
+                        />
                     )}
                 />
                 <Route
