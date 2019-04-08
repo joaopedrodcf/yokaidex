@@ -24,7 +24,7 @@ export const ContainerHeader = styled.div`
     padding: 12px 20px;
 `;
 
-export const Sections = styled.div`
+export const Section = styled.div`
     display: flex;
 
     flex-direction: ${props => {
@@ -53,7 +53,7 @@ export const Sections = styled.div`
     }
 `;
 
-export const STable = styled.div`
+export const SectionWrapper = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -68,7 +68,7 @@ export const STable = styled.div`
     background-color: #e1bee7;
 `;
 
-export const STableText = styled.div`
+export const SectionText = styled.div`
     font-weight: 600;
     font-size: 18px;
     margin-left: 12px;

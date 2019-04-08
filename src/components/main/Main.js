@@ -11,10 +11,11 @@ import {
     SpecialHeader,
     Column,
     FilterButtons,
-    Sections,
-    STable,
+    Section,
+    SectionWrapper,
     Row,
-    CollapsibleFilters
+    CollapsibleFilters,
+    SectionImageTitle
 } from './style';
 import Button from '../shared/button';
 import Image from '../shared/image';
@@ -174,12 +175,10 @@ class Main extends Component {
                             >
                                 <FontAwesomeIcon icon="filter" />
                             </Button>
-
                             <Button
                                 type="button"
                                 onClick={handleResetFilter}
-                                label="
-                            Reset Filters"
+                                label="Reset Filters"
                                 style={{ width: '160px' }}
                             >
                                 <FontAwesomeIcon icon="trash-alt" />
@@ -392,13 +391,13 @@ class Main extends Component {
                         })
                         .slice(0, (pageNumber + 1) * yokaisToShow)
                         .map(yokai => (
-                            <Sections key={yokai.name + yokai.tribe}>
+                            <Section key={yokai.name + yokai.tribe}>
                                 <Link
                                     to={`/yokai-watch-${gameVersion}/${
                                         yokai.name
                                     }`}
                                 >
-                                    <STable
+                                    <SectionWrapper
                                         style={{
                                             background: `linear-gradient(to bottom, ${utils.getGradientColor(
                                                 tribes,
@@ -406,7 +405,7 @@ class Main extends Component {
                                             )})`
                                         }}
                                     >
-                                        <Column alignItems="center">
+                                        <SectionImageTitle>
                                             <Image
                                                 imageUrl={yokai.image}
                                                 altText={yokai.name}
@@ -415,7 +414,7 @@ class Main extends Component {
                                                 isToLazyLoad
                                             />
                                             {yokai.name}
-                                        </Column>
+                                        </SectionImageTitle>
                                         <Row alignItems="center">
                                             #{yokai.yokaiNumber}
                                         </Row>
@@ -449,9 +448,9 @@ class Main extends Component {
                                                 size="small"
                                             />
                                         </Row>
-                                    </STable>
+                                    </SectionWrapper>
                                 </Link>
-                            </Sections>
+                            </Section>
                         ))}
                 </form>
             </Container>

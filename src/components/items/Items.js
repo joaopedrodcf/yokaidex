@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Helmet } from 'react-helmet';
-import { Container, Sections, STable, STableText } from './style';
+import { Container, Section, SectionWrapper, SectionText } from './style';
 import Image from '../shared/image';
 import SCInput from '../shared/input';
 
@@ -81,22 +81,22 @@ class Items extends Component {
                     })
                     .slice(0, (pageNumber + 1) * itemsToShow)
                     .map((item, index) => (
-                        <Sections key={index}>
+                        <Section key={index}>
                             <Link
                                 to={`/yokai-watch-${gameVersion}/${type}/${
                                     item.name
                                 }`}
                             >
-                                <STable>
+                                <SectionWrapper>
                                     <Image
                                         imageUrl={item.image}
                                         altText={item.name}
                                         size="medium"
                                     />
-                                    <STableText>{item.name}</STableText>
-                                </STable>
+                                    <SectionText>{item.name}</SectionText>
+                                </SectionWrapper>
                             </Link>
-                        </Sections>
+                        </Section>
                     ))}
             </Container>
         );

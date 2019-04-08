@@ -173,7 +173,7 @@ export const FilterButtons = styled.div`
     }
 `;
 
-export const Sections = styled.div`
+export const Section = styled.div`
     display: flex;
 
     flex-direction: ${props => {
@@ -202,7 +202,7 @@ export const Sections = styled.div`
     }
 `;
 
-export const STable = styled.div`
+export const SectionWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -214,4 +214,12 @@ export const STable = styled.div`
     align-items: center;
     font-weight: 600;
     font-size: 18px;
+`;
+
+export const SectionImageTitle = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    text-align: center;
 `;
