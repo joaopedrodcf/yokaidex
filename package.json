@@ -31,13 +31,12 @@
         "react-lazy-load": "^3.0.13",
         "react-router": "^4.3.1",
         "react-router-dom": "^4.3.1",
-        "react-scripts": "2.1.1",
+        "react-scripts": "^2.1.8",
         "react-sidebar": "^3.0.2",
         "styled-components": "^4.1.2"
     },
     "devDependencies": {
-        "eslint": "5.6.0",
-        "eslint-config-airbnb": "17.1.0",
+               "eslint-config-airbnb": "17.1.0",
         "eslint-config-joaopedrodcf": "1.0.10",
         "eslint-config-prettier": "3.0.1",
         "eslint-plugin-import": "2.14.0",
