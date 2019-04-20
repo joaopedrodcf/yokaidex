@@ -2,9 +2,6 @@
     "extends": [
         "joaopedrodcf"
     ],
-    "plugins": [
-        "markdown"
-    ],
     "rules": {
         "react/prop-types": [
             0

@@ -1,26 +1,34 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable react/no-access-state-in-setstate */
-/* eslint-disable class-methods-use-this */
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
+import { Helmet } from 'react-helmet';
+import { Link } from 'react-router-dom';
 import {
     Container,
     Filters,
-    Table,
     InputContainer,
     Collapsible,
-    ContainerHeader,
     SpecialHeader,
     Column,
-    FilterButtons
+    FilterButtons,
+    Section,
+    SectionWrapper,
+    Row,
+    CollapsibleFilters,
+    SectionImageTitle
 } from './style';
 import Button from '../shared/button';
 import Image from '../shared/image';
 import utils from '../utils';
 import { elements, ranks, tribes } from '../../mocks';
 import Checkbox from '../shared/checkbox';
-import SCInput from '../shared/input';
+import Input from '../shared/input';
+import {
+    elements as elementsFilters,
+    ranks as ranksfilters,
+    tribes as tribesFilters,
+    misc as miscFilters
+} from '../../mocks/filters';
 
 class Main extends Component {
     constructor(props) {
@@ -30,76 +38,71 @@ class Main extends Component {
             tribe: [],
             rank: [],
             element: [],
+            misc: [],
             name: '',
-            sort: '',
-            orderAsc: true,
             isCollapsed: true,
             pageNumber: 0,
-            yokaisToShow: 50
+            yokaisToShow: 15,
+            isCollapsedFilterTribes: true,
+            isCollapsedFilterRanks: true,
+            isCollapsedFilterElements: true,
+            isCollapsedFilterMisc: true
         };
 
-        this.handleCheckbox = this.handleCheckbox.bind(this);
         this.handleText = this.handleText.bind(this);
-        this.handleSort = this.handleSort.bind(this);
-        this.handleResetFilter = this.handleResetFilter.bind(this);
         this.handleCollapse = this.handleCollapse.bind(this);
         this.handleFormSubmit = this.handleFormSubmit.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
+        this.handleOpenFilterTribes = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterTribes'
+        );
+        this.handleOpenFilterRanks = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterRanks'
+        );
+        this.handleOpenFilterElements = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterElements'
+        );
+        this.handleOpenFilterMisc = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterMisc'
+        );
+
+        this.listref = React.createRef();
     }
 
     componentDidMount() {
-        document.addEventListener('scroll', this.handleScroll);
+        window.addEventListener('scroll', this.handleScroll);
     }
 
     componentWillUnmount() {
-        document.removeEventListener('scroll', this.handleScroll);
+        window.removeEventListener('scroll', this.handleScroll);
     }
 
-    goTo(name, tribe) {
-        const { gameVersion } = this.props;
+    goTo(name, tribe = '') {
+        const { gameVersion, history } = this.props;
         let nameUrl = name;
         if (tribe === 'boss') nameUrl += `_${tribe}`;
 
-        this.props.history.push(`/yokai-watch-${gameVersion}/${nameUrl}`);
-    }
-
-    handleResetFilter() {
-        this.setState({ tribe: [], rank: [], element: [] });
-    }
-
-    handleCheckbox(event) {
-        const checkboxtype = event.target.getAttribute('data-checkbox-type');
-        const type = event.target.name.toLowerCase();
-        const { checked } = event.target;
-        const filterType = this.state[checkboxtype];
-
-        if (checked) {
-            filterType.push(type);
-        } else {
-            filterType.splice(filterType.indexOf(type), 1);
-        }
-
-        this.setState({
-            [checkboxtype]: filterType
-        });
+        history.push(`/yokai-watch-${gameVersion}/yokais/${nameUrl}`);
     }
 
     handleText(event) {
         this.setState({ name: event.target.value.toLowerCase() });
     }
 
-    handleSort(event) {
-        const thtype = event.currentTarget.getAttribute('thtype');
-        const { sort, orderAsc } = this.state;
+    handleCollapse() {
+        const { isCollapsed } = this.state;
 
-        this.setState({
-            sort: thtype,
-            orderAsc: sort === thtype || sort === '' ? !orderAsc : true
-        });
+        this.setState({ isCollapsed: !isCollapsed });
     }
 
-    handleCollapse() {
-        this.setState({ isCollapsed: !this.state.isCollapsed });
+    handleOpenFilter(filterType) {
+        this.setState(state => ({
+            [filterType]: !state[filterType]
+        }));
     }
 
     // eslint-disable-next-line
@@ -108,92 +111,92 @@ class Main extends Component {
     }
 
     handleScroll() {
-        const scrollTopHalfSize = 3000;
         const { pageNumber } = this.state;
 
-        if (window.pageYOffset > scrollTopHalfSize * (pageNumber + 1)) {
+        if (
+            window.innerHeight + window.pageYOffset >
+            this.listref.current.clientHeight
+        ) {
             this.setState({ pageNumber: pageNumber + 1 });
         }
     }
 
     render() {
         const {
+            name,
+            isCollapsed,
+            pageNumber,
+            yokaisToShow,
+            isCollapsedFilterTribes,
+            isCollapsedFilterRanks,
+            isCollapsedFilterElements,
+            isCollapsedFilterMisc
+        } = this.state;
+        const {
+            yokais,
+            gameVersion,
+            handleResetFilter,
+            handleCheckbox,
             tribe,
             rank,
             element,
-            name,
-            sort,
-            orderAsc,
-            isCollapsed,
-            pageNumber,
-            yokaisToShow
-        } = this.state;
-        const { yokais } = this.props;
-        const tribesCheckbox = [
-            'Brave',
-            'Charming',
-            'Eerie',
-            'Heartful',
-            'Mysterious',
-            'Shady',
-            'Slippery',
-            'Tough',
-            'Wicked',
-            'Enma',
-            'Boss'
-        ];
-        const ranksCheckbox = ['A', 'B', 'C', 'D', 'E', 'S'];
-        const elementsCheckbox = [
-            'Drain',
-            'Earth',
-            'Fire',
-            'Ice',
-            'Lightning',
-            'Restoration',
-            'Water',
-            'Wind'
-        ];
+            misc
+        } = this.props;
 
         return (
-            <Container>
+            <Container ref={this.listref}>
+                <Helmet>
+                    <title>
+                        Yokaidex - Where you can find all the information from
+                        Yo-kai Watch games!
+                    </title>
+                    <meta
+                        name="description"
+                        content="Contains all yo-kais for Yo-kai Watch, their locations, stats, favorite foods, skills and evolutions."
+                    />
+                </Helmet>
                 <form onSubmit={this.handleFormSubmit}>
-                    <ContainerHeader>
-                        <SCInput
-                            id="name"
-                            name="name"
-                            value={this.state.name}
-                            onChange={this.handleText}
-                            placeholder="Find your yokai by name"
-                        >
-                            <FontAwesomeIcon icon="search" />
-                        </SCInput>
-                        <Collapsible isCollapsed={isCollapsed}>
-                            <FilterButtons>
-                                <Button
-                                    onClick={this.handleCollapse}
-                                    type="button"
-                                    label="Filters"
-                                    style={{ width: '160px' }}
+                    <Input
+                        id="name"
+                        name="name"
+                        value={name}
+                        onChange={this.handleText}
+                        placeholder="Find your yokai by name"
+                    >
+                        <FontAwesomeIcon icon="search" />
+                    </Input>
+                    <Collapsible isCollapsed={isCollapsed}>
+                        <FilterButtons>
+                            <Button
+                                onClick={this.handleCollapse}
+                                type="button"
+                                label="Filters"
+                                style={{ width: '160px' }}
+                            >
+                                <FontAwesomeIcon icon="filter" />
+                            </Button>
+                            <Button
+                                type="button"
+                                onClick={handleResetFilter}
+                                label="Reset Filters"
+                                style={{ width: '160px' }}
+                            >
+                                <FontAwesomeIcon icon="trash-alt" />
+                            </Button>
+                        </FilterButtons>
+                        <Filters>
+                            <Column>
+                                <SpecialHeader
+                                    onClick={this.handleOpenFilterTribes}
                                 >
-                                    <FontAwesomeIcon icon="filter" />
-                                </Button>
-
-                                <Button
-                                    type="button"
-                                    onClick={this.handleResetFilter}
-                                    label="
-                            Reset Filters"
-                                    style={{ width: '160px' }}
+                                    <h2>Tribes</h2>
+                                    <FontAwesomeIcon icon="plus" />
+                                </SpecialHeader>
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterTribes}
+                                    checkboxtype="tribe"
                                 >
-                                    <FontAwesomeIcon icon="trash-alt" />
-                                </Button>
-                            </FilterButtons>
-                            <Filters>
-                                <Column>
-                                    <SpecialHeader>
-                                        <h2>Tribes</h2>
-                                    </SpecialHeader>
-                                    {tribesCheckbox.map(type => (
+                                    {tribesFilters.map(type => (
                                         <InputContainer key={type}>
                                             <label>
                                                 <Checkbox
@@ -203,20 +206,26 @@ class Main extends Component {
                                                     )}
                                                     name={type}
                                                     checkboxtype="tribe"
-                                                    onChange={
-                                                        this.handleCheckbox
-                                                    }
+                                                    onChange={handleCheckbox}
                                                     label={type}
                                                 />
                                             </label>
                                         </InputContainer>
                                     ))}
-                                </Column>
-                                <Column>
-                                    <SpecialHeader>
-                                        <h2>Ranks</h2>
-                                    </SpecialHeader>
-                                    {ranksCheckbox.map(type => (
+                                </CollapsibleFilters>
+                            </Column>
+                            <Column>
+                                <SpecialHeader
+                                    onClick={this.handleOpenFilterRanks}
+                                >
+                                    <h2>Ranks</h2>
+                                    <FontAwesomeIcon icon="plus" />
+                                </SpecialHeader>
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterRanks}
+                                    isToWrap
+                                >
+                                    {ranksfilters.map(type => (
                                         <InputContainer key={type}>
                                             <label>
                                                 <Checkbox
@@ -226,20 +235,25 @@ class Main extends Component {
                                                     )}
                                                     name={type}
                                                     checkboxtype="rank"
-                                                    onChange={
-                                                        this.handleCheckbox
-                                                    }
+                                                    onChange={handleCheckbox}
                                                     label={type}
                                                 />
                                             </label>
                                         </InputContainer>
                                     ))}
-                                </Column>
-                                <Column>
-                                    <SpecialHeader>
-                                        <h2>Elements</h2>
-                                    </SpecialHeader>
-                                    {elementsCheckbox.map(type => (
+                                </CollapsibleFilters>
+                            </Column>
+                            <Column>
+                                <SpecialHeader
+                                    onClick={this.handleOpenFilterElements}
+                                >
+                                    <h2>Elements</h2>
+                                    <FontAwesomeIcon icon="plus" />
+                                </SpecialHeader>
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterElements}
+                                >
+                                    {elementsFilters.map(type => (
                                         <InputContainer key={type}>
                                             <label>
                                                 <Checkbox
@@ -249,135 +263,141 @@ class Main extends Component {
                                                     )}
                                                     name={type}
                                                     checkboxtype="element"
-                                                    onChange={
-                                                        this.handleCheckbox
-                                                    }
+                                                    onChange={handleCheckbox}
                                                     label={type}
                                                 />
                                             </label>
                                         </InputContainer>
                                     ))}
-                                </Column>
-                            </Filters>
-                        </Collapsible>
-                    </ContainerHeader>
-                    <Table>
-                        <thead>
-                            <tr>
-                                <th onClick={this.handleSort} thtype="name">
-                                    Name
-                                    {sort === 'name' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
+                                </CollapsibleFilters>
+                            </Column>
+                            <Column>
+                                <SpecialHeader
+                                    onClick={this.handleOpenFilterMisc}
+                                >
+                                    <h2>Misc</h2>
+                                    <FontAwesomeIcon icon="plus" />
+                                </SpecialHeader>
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterMisc}
+                                >
+                                    {miscFilters.map(type => (
+                                        <InputContainer key={type}>
+                                            <label>
+                                                <Checkbox
+                                                    type="checkbox"
+                                                    checked={misc.includes(
+                                                        type.toLowerCase()
+                                                    )}
+                                                    name={type}
+                                                    checkboxtype="misc"
+                                                    onChange={handleCheckbox}
+                                                    label={type}
+                                                />
+                                            </label>
+                                        </InputContainer>
+                                    ))}
+                                </CollapsibleFilters>
+                            </Column>
+                        </Filters>
+                    </Collapsible>
+                    {yokais
+                        .filter(yokai => {
+                            let aux = true;
 
-                                <th onClick={this.handleSort} thtype="tribe">
-                                    Tribe
-                                    {sort === 'tribe' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-                                <th onClick={this.handleSort} thtype="rank">
-                                    Rank
-                                    {sort === 'rank' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-                                <th onClick={this.handleSort} thtype="element">
-                                    Attribute
-                                    {sort === 'element' ? (
-                                        <FontAwesomeIcon
-                                            icon={
-                                                orderAsc
-                                                    ? 'arrow-down'
-                                                    : 'arrow-up'
-                                            }
-                                        />
-                                    ) : null}
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {yokais
-                                .sort((a, b) => {
-                                    if (sort === '') {
-                                        return 0;
-                                    }
+                            const filters = {
+                                tribe,
+                                rank,
+                                element
+                            };
 
-                                    const nameA = a[sort].toLowerCase();
-                                    const nameB = b[sort].toLowerCase();
+                            if (!yokai.name.toLowerCase().includes(name)) {
+                                return false;
+                            }
 
-                                    if (orderAsc) {
-                                        if (nameA < nameB) {
-                                            return -1;
-                                        }
-                                        if (nameA > nameB) {
-                                            return 1;
-                                        }
-                                    } else {
-                                        if (nameA > nameB) {
-                                            return -1;
-                                        }
-                                        if (nameA < nameB) {
-                                            return 1;
-                                        }
-                                    }
+                            Object.keys(filters).forEach(type => {
+                                if (
+                                    filters[type].length > 0 &&
+                                    !filters[type].includes(
+                                        yokai[type].toLowerCase()
+                                    )
+                                ) {
+                                    aux = false;
+                                }
+                            });
 
-                                    return 0;
-                                })
-                                .filter(yokai => {
-                                    let aux = true;
+                            if (
+                                misc.includes('has evolution') &&
+                                !yokai.evolutionIndexes
+                            ) {
+                                return false;
+                            }
 
-                                    const filters = {
-                                        tribe,
-                                        rank,
-                                        element
-                                    };
+                            if (
+                                misc.includes('legendary') &&
+                                yokai.seal === undefined
+                            ) {
+                                return false;
+                            }
 
-                                    if (
-                                        !yokai.name.toLowerCase().includes(name)
-                                    ) {
-                                        return false;
-                                    }
+                            if (
+                                misc.includes('rare') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('rare')))
+                            ) {
+                                return false;
+                            }
 
-                                    Object.keys(filters).forEach(type => {
-                                        if (
-                                            filters[type].length > 0 &&
-                                            !filters[type].includes(
-                                                yokai[type].toLowerCase()
-                                            )
-                                        ) {
-                                            aux = false;
-                                        }
-                                    });
+                            if (
+                                misc.includes('classic') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('classic')))
+                            ) {
+                                return false;
+                            }
 
-                                    return aux;
-                                })
-                                .slice(0, (pageNumber + 1) * yokaisToShow)
-                                .map(yokai => (
-                                    <tr
-                                        key={yokai.name + yokai.tribe}
-                                        onClick={() =>
-                                            this.goTo(yokai.name, yokai.tribe)
-                                        }
+                            if (
+                                misc.includes("'merican legendary") &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes(
+                                            "'merican legendary"
+                                        )))
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                misc.includes("'merican") &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes("'merican")))
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                misc.includes('deva') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('deva')))
+                            ) {
+                                return false;
+                            }
+
+                            return aux;
+                        })
+                        .slice(0, (pageNumber + 1) * yokaisToShow)
+                        .map(yokai => (
+                            <Section key={yokai.name + yokai.tribe}>
+                                <Link
+                                    to={`/yokai-watch-${gameVersion}/${
+                                        yokai.name
+                                    }`}
+                                >
+                                    <SectionWrapper
                                         style={{
                                             background: `linear-gradient(to bottom, ${utils.getGradientColor(
                                                 tribes,
@@ -385,19 +405,20 @@ class Main extends Component {
                                             )})`
                                         }}
                                     >
-                                        <td>
-                                            <div>
-                                                <Image
-                                                    imageUrl={yokai.image}
-                                                    altText={yokai.name}
-                                                    size="medium"
-                                                    isThumbnail
-                                                    isToLazyLoad
-                                                />
-                                                {yokai.name}
-                                            </div>
-                                        </td>
-                                        <td>
+                                        <SectionImageTitle>
+                                            <Image
+                                                imageUrl={yokai.image}
+                                                altText={yokai.name}
+                                                size="medium"
+                                                isThumbnail
+                                                isToLazyLoad
+                                            />
+                                            {yokai.name}
+                                        </SectionImageTitle>
+                                        <Row alignItems="center">
+                                            #{yokai.yokaiNumber}
+                                        </Row>
+                                        <Row alignItems="center">
                                             <Image
                                                 imageUrl={utils.getImage(
                                                     tribes,
@@ -406,18 +427,8 @@ class Main extends Component {
                                                 altText={yokai.tribe}
                                                 size="small"
                                             />
-                                        </td>
-                                        <td>
-                                            <Image
-                                                imageUrl={utils.getImage(
-                                                    ranks,
-                                                    yokai.rank
-                                                )}
-                                                altText={yokai.rank}
-                                                size="small"
-                                            />
-                                        </td>
-                                        <td>
+                                        </Row>
+                                        <Row alignItems="center">
                                             <Image
                                                 imageUrl={utils.getImage(
                                                     elements,
@@ -426,11 +437,21 @@ class Main extends Component {
                                                 altText={yokai.element}
                                                 size="small"
                                             />
-                                        </td>
-                                    </tr>
-                                ))}
-                        </tbody>
-                    </Table>
+                                        </Row>
+                                        <Row alignItems="center">
+                                            <Image
+                                                imageUrl={utils.getImage(
+                                                    ranks,
+                                                    yokai.rank
+                                                )}
+                                                altText={yokai.rank}
+                                                size="small"
+                                            />
+                                        </Row>
+                                    </SectionWrapper>
+                                </Link>
+                            </Section>
+                        ))}
                 </form>
             </Container>
         );

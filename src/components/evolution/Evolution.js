@@ -18,7 +18,7 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                     <Row>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${
                                     evo.yokais[0].name
                                 }`}
                             >
@@ -36,7 +36,7 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                         </Column>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${
                                     evo.yokais[1].name
                                 }`}
                             >
@@ -55,12 +55,12 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
         {utils
             .getEvolution(evolutions, evolutionIndexes)
             .filter(evo => evo.type === 'fusion' && !evo.withItems)
-            .map(evo => (
-                <ContainerEvolutions>
+            .map((evo, index) => (
+                <ContainerEvolutions key={index}>
                     <Row>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${
                                     evo.yokais[0].name
                                 }`}
                             >
@@ -77,7 +77,7 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                         </Column>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${
                                     evo.yokais[1].name
                                 }`}
                             >
@@ -94,7 +94,7 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                         </Column>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${
                                     evo.yokais[2].name
                                 }`}
                             >
@@ -113,12 +113,12 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
         {utils
             .getEvolution(evolutions, evolutionIndexes)
             .filter(evo => evo.type === 'fusion' && evo.withItems)
-            .map(evo => (
-                <ContainerEvolutions>
+            .map((evo, index) => (
+                <ContainerEvolutions key={index}>
                     <Row>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${
                                     evo.yokais[0].name
                                 }`}
                             >
@@ -134,19 +134,25 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                             <FontAwesomeIcon icon="plus" />
                         </Column>
                         <Column>
-                            <Image
-                                imageUrl={evo.item.image}
-                                altText=""
-                                size="medium"
-                            />
-                            {evo.item.name}
+                            <Link
+                                to={`/yokai-watch-${gameVersion}/items/${
+                                    evo.item.name
+                                }`}
+                            >
+                                <Image
+                                    imageUrl={evo.item.image}
+                                    altText=""
+                                    size="medium"
+                                />
+                                {evo.item.name}
+                            </Link>
                         </Column>
                         <Column>
                             <FontAwesomeIcon icon="equals" />
                         </Column>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${
                                     evo.yokais[1].name
                                 }`}
                             >

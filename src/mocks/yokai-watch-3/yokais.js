@@ -70,7 +70,7 @@ const yokais = [
         },
         soultime: {
             name: 'Pillow Whump',
-            description: 'Flips himself into the column in front, head first!"',
+            description: 'Flips himself into the column in front, head first!',
             power: '113 to 279',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -92,7 +92,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'e',
-        favouriteFood: 'Rice balls'
+        favouriteFood: 'Rice balls',
+        type: ['classic']
     },
     {
         name: 'Pandle',
@@ -173,7 +174,7 @@ const yokais = [
         inspirit: {
             name: 'Defenseless',
             description:
-                'Makes a foe defenseless, which... lowers their DEF, duh!"',
+                'Makes a foe defenseless, which... lowers their DEF, duh!',
             power: '0'
         },
         stats: {
@@ -220,7 +221,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Gutsiness',
-            description: 'Raises an ally\'s SPD by making it gutsy!"',
+            description: "Raises an ally's SPD by making it gutsy!",
             power: '0'
         },
         stats: {
@@ -234,7 +235,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Rice balls'
+        favouriteFood: 'Rice balls',
+        type: ['rare']
     },
     {
         name: 'Cutta-nah',
@@ -376,7 +378,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        type: ['rare']
     },
     {
         name: 'Brushido',
@@ -717,7 +720,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Meats',
-        evolutionIndexes: [6]
+        evolutionIndexes: [6],
+        type: ['rare']
     },
     {
         name: 'Brutle',
@@ -743,7 +747,7 @@ const yokais = [
         soultime: {
             name: 'Fearful Fiesta',
             description:
-                'Brutalizes the column in front, and turns tiles into red hot magma!"',
+                'Brutalizes the column in front, and turns tiles into red hot magma!',
             power: '95',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -766,7 +770,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Meats',
-        evolutionIndexes: [6]
+        evolutionIndexes: [6],
+        type: ['rare']
     },
     {
         name: 'Mochismo',
@@ -849,7 +854,7 @@ const yokais = [
         inspirit: {
             name: 'Jealousy',
             description:
-                'Makes a foe so jealous of its allies that it will sometimes attack them!"',
+                'Makes a foe so jealous of its allies that it will sometimes attack them!',
             power: '0'
         },
         stats: {
@@ -889,7 +894,7 @@ const yokais = [
         soultime: {
             name: 'Emotional Moment',
             description:
-                'In a flash he attacks the column in front, forcing back any enemies he hits!"',
+                'In a flash he attacks the column in front, forcing back any enemies he hits!',
             power: '93 to 279',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
@@ -911,7 +916,7 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'd',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Slumberhog',
@@ -960,7 +965,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Curries',
-        evolutionIndexes: [8]
+        evolutionIndexes: [8],
+        type: ['rare']
     },
     {
         name: 'Snortlehog',
@@ -1009,7 +1015,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Curries',
-        evolutionIndexes: [8]
+        evolutionIndexes: [8],
+        type: ['rare']
     },
     {
         name: 'Samureel',
@@ -1058,7 +1065,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Seafoods',
-        evolutionIndexes: [9]
+        evolutionIndexes: [9],
+        type: ['rare']
     },
     {
         name: 'Time Keeler',
@@ -1107,7 +1115,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Seafoods',
-        evolutionIndexes: [9]
+        evolutionIndexes: [9],
+        type: ['rare']
     },
     {
         name: 'Goofball',
@@ -1156,7 +1165,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Hot Dogs',
-        evolutionIndexes: [10]
+        evolutionIndexes: [10],
+        type: ["'merican"]
     },
     {
         name: 'Slugger',
@@ -1190,7 +1200,7 @@ const yokais = [
         inspirit: {
             name: 'Can-Do Champion',
             description:
-                'Makes an ally slug it out and hit the big leagues with a STR boost!"',
+                'Makes an ally slug it out and hit the big leagues with a STR boost!',
             power: '0'
         },
         stats: {
@@ -1205,7 +1215,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Hot Dogs',
-        evolutionIndexes: [10]
+        evolutionIndexes: [10],
+        type: ["'merican"]
     },
     {
         name: 'Helmsman',
@@ -1239,7 +1250,7 @@ const yokais = [
         inspirit: {
             name: 'Helmet Defense',
             description:
-                'Raises an ally\'s DEF... as if it were wearing a helmet!"',
+                "Raises an ally's DEF... as if it were wearing a helmet!",
             power: '0'
         },
         stats: {
@@ -1351,7 +1362,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ['rare']
     },
     {
         name: 'Slicenrice',
@@ -1498,7 +1510,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Odens',
-        evolutionIndexes: [13, 14]
+        evolutionIndexes: [13, 14],
+        type: ['classic']
     },
     {
         name: 'Lappinitup',
@@ -1628,7 +1641,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Grande Guts',
-            description: 'Power without peer! Raises an ally\'s STR!"',
+            description: "Power without peer! Raises an ally's STR!",
             power: '0'
         },
         stats: {
@@ -1692,7 +1705,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Odens',
-        evolutionIndexes: [15]
+        evolutionIndexes: [15],
+        type: ['classic']
     },
     {
         name: 'BBQvil',
@@ -1726,7 +1740,7 @@ const yokais = [
         inspirit: {
             name: 'Meat-a-mins',
             description:
-                'An ally\'s STR goes up thanks to eating plenty of meat, meat, MEAT!"',
+                "An ally's STR goes up thanks to eating plenty of meat, meat, MEAT!",
             power: '0'
         },
         stats: {
@@ -1740,7 +1754,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ["'merican"]
     },
     {
         name: 'Liarbird',
@@ -1765,7 +1780,7 @@ const yokais = [
         },
         soultime: {
             name: 'Feinted Slice',
-            description: 'Cuts out the lying and cuts foes in range instead!"',
+            description: 'Cuts out the lying and cuts foes in range instead!',
             power: '24x5 to 48x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -1867,7 +1882,7 @@ const yokais = [
         inspirit: {
             name: 'Cyborg Strength',
             description:
-                'Raises an ally\'s DEF by making part of their body mechanical!"',
+                "Raises an ally's DEF by making part of their body mechanical!",
             power: '0'
         },
         stats: {
@@ -1964,7 +1979,7 @@ const yokais = [
         inspirit: {
             name: "Lion's Pride",
             description:
-                'The Inspirited Yo-kai will be so moved its DEF rises!"',
+                'The Inspirited Yo-kai will be so moved its DEF rises!',
             power: '0'
         },
         stats: {
@@ -2011,7 +2026,7 @@ const yokais = [
         },
         inspirit: {
             name: "Heart's Roar",
-            description: 'Raises an ally\'s SPD with his roaring aura!"',
+            description: "Raises an ally's SPD with his roaring aura!",
             power: '0'
         },
         stats: {
@@ -2025,7 +2040,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Chansin',
@@ -2218,7 +2234,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Seafoods',
-        evolutionIndexes: [21]
+        evolutionIndexes: [21],
+        type: ['rare']
     },
     {
         name: 'Hovernyan',
@@ -2266,7 +2283,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare']
     },
     {
         name: 'Moximous N',
@@ -2292,7 +2310,7 @@ const yokais = [
         soultime: {
             name: 'Mighty Moxie',
             description:
-                'Strikes the Moxie Pose, recovering HP and getting even more powerful!"',
+                'Strikes the Moxie Pose, recovering HP and getting even more powerful!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -2314,7 +2332,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        type: ['rare']
     },
     {
         name: 'Moximous K',
@@ -2340,7 +2359,7 @@ const yokais = [
         soultime: {
             name: 'Mega Moxie',
             description:
-                'Strikes the Moxie Pose, recovering HP and getting even more powerful!"',
+                'Strikes the Moxie Pose, recovering HP and getting even more powerful!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -2362,7 +2381,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        type: ['rare']
     },
     {
         name: 'Hot Air Buffoon',
@@ -2410,7 +2430,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Sushiyama',
@@ -2506,7 +2527,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['rare']
     },
     {
         name: 'Beetler',
@@ -2636,7 +2658,7 @@ const yokais = [
         inspirit: {
             name: 'Legend Power',
             description:
-                'Raises an ally\'s STR to transform it into a great warrior!"',
+                "Raises an ally's STR to transform it into a great warrior!",
             power: '0'
         },
         stats: {
@@ -2650,7 +2672,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ['rare']
     },
     {
         name: 'Machonyan',
@@ -2698,7 +2721,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Momonyan',
@@ -2746,7 +2770,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare']
     },
     {
         name: 'Sir Nyansalot',
@@ -2780,7 +2805,7 @@ const yokais = [
         inspirit: {
             name: 'Oath of Fealty',
             description:
-                'Raises an ally\'s DEF to a level befitting of a guardian knight!"',
+                "Raises an ally's DEF to a level befitting of a guardian knight!",
             power: '0'
         },
         stats: {
@@ -2794,7 +2819,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        type: ['rare']
     },
     {
         name: 'Sgt. Burly',
@@ -2868,7 +2894,7 @@ const yokais = [
         soultime: {
             name: 'Top-Secret Orders!',
             description:
-                'The force of his outstanding leadership boosts all allies\' stats!"',
+                "The force of his outstanding leadership boosts all allies' stats!",
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -2890,7 +2916,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Demuncher',
@@ -2984,7 +3011,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ['rare']
     },
     {
         name: 'Illuminoct',
@@ -3032,7 +3060,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare']
     },
     {
         name: 'Arachnevil',
@@ -3080,7 +3109,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['rare']
     },
     {
         name: 'Shurikenny',
@@ -3128,7 +3158,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ["'merican"]
     },
     {
         name: 'Nunchucky',
@@ -3176,7 +3207,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Camellia',
@@ -3224,7 +3256,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['rare']
     },
     {
         name: 'Brokenbrella',
@@ -3321,7 +3354,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'e',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        type: ['classic']
     },
     {
         name: 'Zip Unlock',
@@ -3369,7 +3403,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'e',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Slippup',
@@ -3402,8 +3437,7 @@ const yokais = [
         },
         inspirit: {
             name: "Slip'n'slide",
-            description:
-                'Makes an ally slip and slide so fast that SPD rises!"',
+            description: 'Makes an ally slip and slide so fast that SPD rises!',
             power: '0'
         },
         stats: {
@@ -3450,7 +3484,7 @@ const yokais = [
         inspirit: {
             name: 'Runny Nose',
             description:
-                'Gives a foe a nose so runny that it can hardly do anything except blow it!"',
+                'Gives a foe a nose so runny that it can hardly do anything except blow it!',
             power: '0'
         },
         stats: {
@@ -3559,7 +3593,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 'e',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [23]
     },
     {
@@ -3608,7 +3642,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [23]
     },
     {
@@ -3657,7 +3691,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Wazzat',
@@ -3691,7 +3726,7 @@ const yokais = [
         inspirit: {
             name: 'Memory Eater',
             description:
-                'Makes a foe forgetful enough to start attacking their allies!"',
+                'Makes a foe forgetful enough to start attacking their allies!',
             power: '0'
         },
         stats: {
@@ -3740,7 +3775,7 @@ const yokais = [
         inspirit: {
             name: 'Memory Loss',
             description:
-                'Makes a foe forgetful enough to start attacking their allies!"',
+                'Makes a foe forgetful enough to start attacking their allies!',
             power: '0'
         },
         stats: {
@@ -3855,7 +3890,7 @@ const yokais = [
         evolutionIndexes: [25]
     },
     {
-        name: '2-Much-2-Take',
+        name: 'Too-Much-To-Take',
         yokaiNumber: '081',
         bossNumber: '000',
         image:
@@ -3927,7 +3962,7 @@ const yokais = [
         soultime: {
             name: "What's All the Fuss?",
             description:
-                'Confuses all foes with a mysterious aura. Whhhhhhhyyyy?"',
+                'Confuses all foes with a mysterious aura. Whhhhhhhyyyy?',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -4047,7 +4082,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['classic']
     },
     {
         name: 'Snottle',
@@ -4094,7 +4130,8 @@ const yokais = [
         element: 'Drain',
         weakness: '-',
         rank: 'd',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        type: ['rare']
     },
     {
         name: 'Legsit',
@@ -4189,7 +4226,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Cornfused',
@@ -4223,7 +4261,7 @@ const yokais = [
         inspirit: {
             name: 'Cornfuse',
             description:
-                'Makes a foe so confused about what\'s going on that their STR goes down!"',
+                "Makes a foe so confused about what's going on that their STR goes down!",
             power: '0'
         },
         stats: {
@@ -4237,7 +4275,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Unshelltered',
@@ -4285,7 +4324,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        type: ["'merican"]
     },
     {
         name: 'Lafalotta',
@@ -4523,7 +4563,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Ramens'
+        favouriteFood: 'Ramens',
+        type: ['rare']
     },
     {
         name: 'Cupistol',
@@ -4549,7 +4590,7 @@ const yokais = [
         soultime: {
             name: 'Kiss of Life',
             description:
-                'Restores the HP of all allies by blowing a very handsome kiss!"',
+                'Restores the HP of all allies by blowing a very handsome kiss!',
             power: '50 to 131',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -4598,7 +4639,7 @@ const yokais = [
         soultime: {
             name: 'Heavenly Heart',
             description:
-                'Restores the HP of all allies with his extremely handsome aura!"',
+                'Restores the HP of all allies with his extremely handsome aura!',
             power: '120 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -4647,7 +4688,7 @@ const yokais = [
         soultime: {
             name: 'Fiery Longing',
             description:
-                'Uses his bitterness about being unpopular to fry foes within range!"',
+                'Uses his bitterness about being unpopular to fry foes within range!',
             power: '130 to 195 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -4717,7 +4758,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Curries',
-        evolutionIndexes: [32]
+        evolutionIndexes: [32],
+        type: ['rare']
     },
     {
         name: 'Bowminos',
@@ -4766,7 +4808,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Curries',
-        evolutionIndexes: [32]
+        evolutionIndexes: [32],
+        type: ['rare']
     },
     {
         name: 'Smogling',
@@ -4792,7 +4835,7 @@ const yokais = [
         soultime: {
             name: 'Cloud Control',
             description:
-                'Attacks foes in range with a cute whirlwind that goes "Whooosh!""',
+                'Attacks foes in range with a cute whirlwind that goes "Whooosh!"',
             power: '60 to 157',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -4815,7 +4858,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [33]
+        evolutionIndexes: [33],
+        type: ['classic']
     },
     {
         name: 'Smogmella',
@@ -4864,7 +4908,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [33, 121]
+        evolutionIndexes: [33, 121],
+        type: ['classic']
     },
     {
         name: 'Signibble',
@@ -4898,7 +4943,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -4947,7 +4992,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -5010,7 +5055,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['rare']
     },
     {
         name: 'Statiking',
@@ -5058,7 +5104,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['rare']
     },
     {
         name: 'Failian',
@@ -5154,7 +5201,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Fuu 2',
@@ -5202,7 +5250,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        type: ['rare']
     },
     {
         name: 'Shrillington',
@@ -5236,7 +5285,7 @@ const yokais = [
         inspirit: {
             name: 'Snobbery',
             description:
-                'Makes a foe so outright hysterical that it attacks its own allies!"',
+                'Makes a foe so outright hysterical that it attacks its own allies!',
             power: '0'
         },
         stats: {
@@ -5276,7 +5325,7 @@ const yokais = [
         soultime: {
             name: 'Party Time',
             description:
-                'Raises the roof (and all allies\' stats) by throwing a PAR-TAAAAY!"',
+                "Raises the roof (and all allies' stats) by throwing a PAR-TAAAAY!",
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -5298,7 +5347,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Pizzas'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Skulleidoscope',
@@ -5332,8 +5382,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Rainbow Aura',
-            description:
-                'Raises an ally\'s SPR with a mysterious rainbow aura!"',
+            description: "Raises an ally's SPR with a mysterious rainbow aura!",
             power: '0'
         },
         stats: {
@@ -5347,7 +5396,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Lionguist',
@@ -5396,7 +5446,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [18]
+        evolutionIndexes: [18],
+        type: ["'merican"]
     },
     {
         name: 'Illoo',
@@ -5864,7 +5915,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -5912,7 +5963,7 @@ const yokais = [
         inspirit: {
             name: 'Perplex',
             description:
-                'What puzzles a foe so, they cannot strike a blow? Do you know?"',
+                'What puzzles a foe so, they cannot strike a blow? Do you know?',
             power: '0'
         },
         stats: {
@@ -5952,7 +6003,7 @@ const yokais = [
         soultime: {
             name: 'Wipe-a-Way',
             description:
-                'Wraps all foes in toilet paper, binding them in place!"',
+                'Wraps all foes in toilet paper, binding them in place!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -6023,7 +6074,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Miss Teri',
@@ -6071,7 +6123,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        type: ["'merican"]
     },
     {
         name: 'Maginyan',
@@ -6119,7 +6172,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ['rare']
     },
     {
         name: 'Squandeer',
@@ -6145,7 +6199,7 @@ const yokais = [
         soultime: {
             name: 'Bulk Bestowal',
             description:
-                'Tosses a battle item onto the tactics board. Don\'t squander it!"',
+                "Tosses a battle item onto the tactics board. Don't squander it!",
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -6167,7 +6221,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        type: ["'merican"]
     },
     {
         name: 'Tengu',
@@ -6263,7 +6318,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        type: ['rare']
     },
     {
         name: 'Kyubi',
@@ -6358,7 +6414,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['rare']
     },
     {
         name: 'Chymera',
@@ -6392,7 +6449,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -6406,7 +6463,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        type: ['classic']
     },
     {
         name: 'Kingmera',
@@ -6440,7 +6498,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -6454,7 +6512,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare', 'classic']
     },
     {
         name: 'Toadal Demon',
@@ -6502,7 +6561,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare']
     },
     {
         name: 'Thurston',
@@ -6550,7 +6610,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['classic']
     },
     {
         name: 'Spect-hare',
@@ -6599,10 +6660,11 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ["'merican"]
     },
     {
-        name: 'Sn. Spect-hare',
+        name: 'Snow Spect-hare',
         yokaiNumber: '138',
         bossNumber: '000',
         image:
@@ -6648,7 +6710,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Oh Wheel',
@@ -6674,7 +6737,7 @@ const yokais = [
         soultime: {
             name: 'Dangerous Driving',
             description:
-                'Without a care he rams the column in front, forcing back any enemies he hits!"',
+                'Without a care he rams the column in front, forcing back any enemies he hits!',
             power: '93 to 279 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -6696,7 +6759,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'e',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Dulluma',
@@ -7158,8 +7222,7 @@ const yokais = [
         },
         soultime: {
             name: 'No Way Through',
-            description:
-                'Rouses himself to stand guard. DEF goes way, way up!"',
+            description: 'Rouses himself to stand guard. DEF goes way, way up!',
             power: '42 to 0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/7.png'
@@ -7207,8 +7270,7 @@ const yokais = [
         },
         soultime: {
             name: 'Insurmountable',
-            description:
-                'Rouses himself to stand guard. DEF goes way, way up!"',
+            description: 'Rouses himself to stand guard. DEF goes way, way up!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/7.png'
@@ -7279,7 +7341,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Ramens'
+        favouriteFood: 'Ramens',
+        type: ['rare']
     },
     {
         name: 'Roughraff',
@@ -7403,7 +7466,7 @@ const yokais = [
         soultime: {
             name: 'Brutal Butt Bat',
             description:
-                'Charges at the column in front of him with his nail bat. OUCH!"',
+                'Charges at the column in front of him with his nail bat. OUCH!',
             power: '260 to 260',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -7424,7 +7487,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Ramens'
+        favouriteFood: 'Ramens',
+        type: ['rare']
     },
     {
         name: 'Roughgraff',
@@ -7473,7 +7537,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Hot Dogs',
-        evolutionIndexes: [41]
+        evolutionIndexes: [41],
+        type: ['rare', "'merican"]
     },
     {
         name: 'Chilled Cowcao',
@@ -7522,7 +7587,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Candies',
-        evolutionIndexes: [42]
+        evolutionIndexes: [42],
+        type: ["'merican"]
     },
     {
         name: 'Stircrazy Stu',
@@ -7556,7 +7622,7 @@ const yokais = [
         inspirit: {
             name: 'No Herd Instinct',
             description:
-                'Stews a foe till it\'s so stir-crazy it turns on allies sometimes!"',
+                "Stews a foe till it's so stir-crazy it turns on allies sometimes!",
             power: '0'
         },
         stats: {
@@ -7571,7 +7637,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Meats',
-        evolutionIndexes: [42]
+        evolutionIndexes: [42],
+        type: ["'merican"]
     },
     {
         name: 'Nummskull',
@@ -7605,7 +7672,7 @@ const yokais = [
         inspirit: {
             name: 'Nummskullery',
             description:
-                'Makes a foe such a numbskull they sometimes attack their own allies!"',
+                'Makes a foe such a numbskull they sometimes attack their own allies!',
             power: '0'
         },
         stats: {
@@ -7793,7 +7860,7 @@ const yokais = [
         soultime: {
             name: 'Oh My Gawd!',
             description:
-                'He vigorously tosses his patty at foes in range. Oh my!"',
+                'He vigorously tosses his patty at foes in range. Oh my!',
             power: '100 to 300',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -7814,10 +7881,11 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ["'merican"]
     },
     {
-        name: 'Sp mountain',
+        name: 'Speedemountain',
         yokaiNumber: '163',
         bossNumber: '000',
         image:
@@ -7840,7 +7908,7 @@ const yokais = [
         soultime: {
             name: 'Outta the Way!',
             description:
-                'He angrily drives into the column in front, forcing back any enemies he hits!"',
+                'He angrily drives into the column in front, forcing back any enemies he hits!',
             power: '93 to 279 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -7848,7 +7916,7 @@ const yokais = [
         inspirit: {
             name: 'Dreadful Driving',
             description:
-                'The enemy gets such a bad case of road rage, no ally is safe!"',
+                'The enemy gets such a bad case of road rage, no ally is safe!',
             power: '0'
         },
         stats: {
@@ -7862,7 +7930,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        type: ["'merican"]
     },
     {
         name: 'Blowkade',
@@ -8005,7 +8074,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sobas',
-        evolutionIndexes: [44]
+        evolutionIndexes: [44],
+        type: ['rare']
     },
     {
         name: 'Yokozudon',
@@ -8053,7 +8123,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Sobas',
-        evolutionIndexes: [44]
+        evolutionIndexes: [44],
+        type: ['rare']
     },
     {
         name: 'Whateverest',
@@ -8102,7 +8173,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Meats',
-        evolutionIndexes: [45]
+        evolutionIndexes: [45],
+        type: ['rare']
     },
     {
         name: 'Whatuption',
@@ -8151,7 +8223,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Meats',
-        evolutionIndexes: [45]
+        evolutionIndexes: [45],
+        type: ['rare']
     },
     {
         name: 'Fidgephant',
@@ -8443,7 +8516,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Donuts',
-        evolutionIndexes: [48]
+        evolutionIndexes: [48],
+        type: ["'merican"]
     },
     {
         name: 'Admirable Admiral',
@@ -8492,7 +8566,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Donuts',
-        evolutionIndexes: [48]
+        evolutionIndexes: [48],
+        type: ["'merican"]
     },
     {
         name: 'Swelton',
@@ -8573,7 +8648,7 @@ const yokais = [
         inspirit: {
             name: 'Burst into Song',
             description:
-                'All of an ally\'s stats rise slightly after hearing this passionate song!"',
+                "All of an ally's stats rise slightly after hearing this passionate song!",
             power: '0'
         },
         stats: {
@@ -8587,7 +8662,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Slippy',
@@ -9005,7 +9081,7 @@ const yokais = [
         inspirit: {
             name: 'Platinum Power',
             description:
-                'Covers an ally in shiny platinum and boosts all stats!"',
+                'Covers an ally in shiny platinum and boosts all stats!',
             power: '0'
         },
         stats: {
@@ -9020,7 +9096,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Milks',
-        evolutionIndexes: [52]
+        evolutionIndexes: [52],
+        type: ['rare']
     },
     {
         name: 'Puppynyan',
@@ -9054,7 +9131,7 @@ const yokais = [
         inspirit: {
             name: "Who's a good boy!",
             description:
-                'With dog-like obedience, the Inspirited Yo-kai\'s DEF rises up!"',
+                "With dog-like obedience, the Inspirited Yo-kai's DEF rises up!",
             power: '0'
         },
         stats: {
@@ -9068,7 +9145,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Rhinoggin',
@@ -9143,7 +9221,7 @@ const yokais = [
         soultime: {
             name: 'Horn Breaker',
             description:
-                'Smashes into the column in front like a dump truck with a horn!"',
+                'Smashes into the column in front like a dump truck with a horn!',
             power: '190 to 285 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -9191,7 +9269,7 @@ const yokais = [
         soultime: {
             name: 'Horn Explosion',
             description:
-                'Smashes into the column in front like a dump truck with a horn!"',
+                'Smashes into the column in front like a dump truck with a horn!',
             power: '210 to 315 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -9199,7 +9277,7 @@ const yokais = [
         inspirit: {
             name: 'Legend Power',
             description:
-                'Raises an ally\'s STR to transform it into a great warrior!"',
+                "Raises an ally's STR to transform it into a great warrior!",
             power: '0'
         },
         stats: {
@@ -9213,7 +9291,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ['rare']
     },
     {
         name: 'Kintaronyan',
@@ -9261,7 +9340,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Steaking',
@@ -9295,7 +9375,7 @@ const yokais = [
         inspirit: {
             name: 'Steak Sauce',
             description:
-                'An ally\'s STR rises thanks to delicious, rare steak juices!"',
+                "An ally's STR rises thanks to delicious, rare steak juices!",
             power: '0'
         },
         stats: {
@@ -9309,7 +9389,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ["'merican"]
     },
     {
         name: 'Robonyan',
@@ -9357,7 +9438,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        evolutionIndexes: [54]
+        evolutionIndexes: [54],
+        type: ['rare']
     },
     {
         name: 'Robonyan F',
@@ -9405,7 +9487,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Showbonyan',
@@ -9453,7 +9536,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        evolutionIndexes: [54]
+        evolutionIndexes: [54],
+        type: ['rare', "'merican"]
     },
     {
         name: 'Goldenyan',
@@ -9501,7 +9585,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Dromp',
@@ -9597,7 +9682,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ['rare']
     },
     {
         name: 'Toadal Dude',
@@ -9645,7 +9731,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['classic']
     },
     {
         name: 'Uber Geeko',
@@ -9693,7 +9780,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['rare', 'classic']
     },
     {
         name: 'Gargaros',
@@ -9740,7 +9828,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Ogralus',
@@ -9787,7 +9876,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Orcanos',
@@ -9834,7 +9924,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Kabuking',
@@ -9882,7 +9973,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['rare']
     },
     {
         name: 'Jawsome Kid',
@@ -9930,7 +10022,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'El Sharkador',
@@ -9978,7 +10071,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Silver Lining',
@@ -10012,7 +10106,7 @@ const yokais = [
         inspirit: {
             name: 'Silver Sheen',
             description:
-                'A power from the sky slightly raises all of an ally\'s stats!"',
+                "A power from the sky slightly raises all of an ally's stats!",
             power: '0'
         },
         stats: {
@@ -10026,7 +10120,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ["'merican"]
     },
     {
         name: 'Leggly',
@@ -10108,7 +10203,7 @@ const yokais = [
         inspirit: {
             name: 'Befuddle',
             description:
-                'Makes a foe\'s eyes twirl round in confusion, causing them to hit allies!"',
+                "Makes a foe's eyes twirl round in confusion, causing them to hit allies!",
             power: '0'
         },
         stats: {
@@ -10171,10 +10266,11 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'e',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ["'merican"]
     },
     {
-        name: 'Hoppy.',
+        name: 'Hoppy-go-Lucky',
         yokaiNumber: '212',
         bossNumber: '000',
         image:
@@ -10219,7 +10315,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'e',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ["'merican"]
     },
     {
         name: 'Dazzabel',
@@ -10364,7 +10461,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ['rare']
     },
     {
         name: 'Cadin',
@@ -10507,7 +10605,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        type: ['rare']
     },
     {
         name: 'Buttered Blue',
@@ -10556,7 +10655,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Milks',
-        evolutionIndexes: [56]
+        evolutionIndexes: [56],
+        type: ["'merican"]
     },
     {
         name: 'Punching Baguette',
@@ -10590,7 +10690,7 @@ const yokais = [
         inspirit: {
             name: 'Breadwinner',
             description:
-                'Fires up an ally and raises STR so they can toast opponents!"',
+                'Fires up an ally and raises STR so they can toast opponents!',
             power: '0'
         },
         stats: {
@@ -10605,7 +10705,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Milks',
-        evolutionIndexes: [56]
+        evolutionIndexes: [56],
+        type: ["'merican"]
     },
     {
         name: 'Pupsicle',
@@ -10747,7 +10848,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Ramens'
+        favouriteFood: 'Ramens',
+        type: ['rare']
     },
     {
         name: 'Unbelievaboy!',
@@ -10781,7 +10883,7 @@ const yokais = [
         inspirit: {
             name: 'Unbelievaboy Might',
             description:
-                'Slightly boosts all of an ally\'s stats by tapping into its hidden potential!"',
+                "Slightly boosts all of an ally's stats by tapping into its hidden potential!",
             power: '0'
         },
         stats: {
@@ -10796,7 +10898,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [58]
+        evolutionIndexes: [58],
+        type: ["'merican"]
     },
     {
         name: 'Unbearaboy!',
@@ -10822,7 +10925,7 @@ const yokais = [
         soultime: {
             name: 'Blazing Badness',
             description:
-                'His ground smash hits the column in front and makes the tiles magma!"',
+                'His ground smash hits the column in front and makes the tiles magma!',
             power: '95 to 95 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -10845,7 +10948,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [58]
+        evolutionIndexes: [58],
+        type: ["'merican"]
     },
     {
         name: 'Inflammaboy!',
@@ -10871,7 +10975,7 @@ const yokais = [
         soultime: {
             name: 'Inflammamewl',
             description:
-                'His ground punch hits the column in front and makes the tiles magma!"',
+                'His ground punch hits the column in front and makes the tiles magma!',
             power: '95 to 95 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -10879,7 +10983,7 @@ const yokais = [
         inspirit: {
             name: 'Hot Chilli Challenge',
             description:
-                'The foe slowly loses HP after burning its tongue on spicy hot sauce!"',
+                'The foe slowly loses HP after burning its tongue on spicy hot sauce!',
             power: '0'
         },
         stats: {
@@ -10893,7 +10997,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Jumbelina',
@@ -10988,7 +11093,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['classic']
     },
     {
         name: 'Krystal Fox',
@@ -11014,7 +11120,7 @@ const yokais = [
         soultime: {
             name: 'Openly Hidden Heal',
             description:
-                'Lookie here! All allies are healed by the sight of her cute mannerisms!"',
+                'Lookie here! All allies are healed by the sight of her cute mannerisms!',
             power: '60 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -11062,7 +11168,7 @@ const yokais = [
         soultime: {
             name: 'Runsure How I Stop!',
             description:
-                'Runsurely rushes into the column in front, forcing back any enemies he hits!"',
+                'Runsurely rushes into the column in front, forcing back any enemies he hits!',
             power: '93 to 279 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -11084,7 +11190,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'd',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Kittylumbus',
@@ -11132,7 +11239,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ["'merican"]
     },
     {
         name: 'Zest-a-Minute',
@@ -11181,7 +11289,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ["'merican"]
     },
     {
         name: 'Baku',
@@ -11376,7 +11485,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [60]
+        evolutionIndexes: [60],
+        type: ['rare']
     },
     {
         name: 'Panja Pro',
@@ -11425,7 +11535,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [60]
+        evolutionIndexes: [60],
+        type: ['rare']
     },
     {
         name: 'Cue-Tee',
@@ -11499,7 +11610,7 @@ const yokais = [
         soultime: {
             name: 'Do I Dare?',
             description:
-                'Takes an overblown swing at all enemies, forcing them to spill out cash!"',
+                'Takes an overblown swing at all enemies, forcing them to spill out cash!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -11507,7 +11618,7 @@ const yokais = [
         inspirit: {
             name: 'Dire Demands',
             description:
-                'Makes a foe demand so much of its allies that it sometimes turns on them!"',
+                'Makes a foe demand so much of its allies that it sometimes turns on them!',
             power: '0'
         },
         stats: {
@@ -11604,7 +11715,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Torrent Power',
-            description: 'Improves an ally\'s concentration as well as SPR!"',
+            description: "Improves an ally's concentration as well as SPR!",
             power: '0'
         },
         stats: {
@@ -11667,7 +11778,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare']
     },
     {
         name: 'Jibanyan',
@@ -11741,7 +11853,7 @@ const yokais = [
         soultime: {
             name: 'Meow Meow Blaster',
             description:
-                'Lays waste to the column in front with a savage Blasters beam!"',
+                'Lays waste to the column in front with a savage Blasters beam!',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -11763,7 +11875,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Jibanyan S',
@@ -11811,7 +11924,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Jibanyan Liu Bei',
@@ -11906,7 +12020,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Thornyan',
@@ -12052,7 +12167,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Komasan',
@@ -12099,8 +12215,9 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Soft creams',
-        evolutionIndexes: [129]
+        favouriteFood: 'Ice creams',
+        evolutionIndexes: [129],
+        type: ['rare']
     },
     {
         name: 'Komane',
@@ -12148,8 +12265,9 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Soft creams',
-        evolutionIndexes: [129]
+        favouriteFood: 'Ice creams',
+        evolutionIndexes: [129],
+        type: ['rare']
     },
     {
         name: 'Komasan B',
@@ -12175,7 +12293,7 @@ const yokais = [
         soultime: {
             name: 'Bow Wow Blaster',
             description:
-                'Lays waste to the column in front with a savage Blasters beam!"',
+                'Lays waste to the column in front with a savage Blasters beam!',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
@@ -12197,7 +12315,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare']
     },
     {
         name: 'Komasan S',
@@ -12244,7 +12363,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare']
     },
     {
         name: 'Koma. Sun Ce',
@@ -12291,8 +12411,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Soft creams',
-        evolutionIndexes: [66]
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Jibakoma',
@@ -12340,7 +12459,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Komajiro',
@@ -12481,7 +12601,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        type: ['rare']
     },
     {
         name: 'Drizzelda',
@@ -12625,7 +12746,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Slackoon',
@@ -12652,14 +12774,14 @@ const yokais = [
         soultime: {
             name: 'Slackoon Splash',
             description:
-                'Summons random, vacation resort style whirlpools that can hit anywhere!"',
+                'Summons random, vacation resort style whirlpools that can hit anywhere!',
             power: '115 to 230',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Slack Off',
-            description: 'Makes an ally so relaxed its SPR rises!"',
+            description: 'Makes an ally so relaxed its SPR rises!',
             power: '0'
         },
         stats: {
@@ -12673,7 +12795,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        type: ["'merican"]
     },
     {
         name: 'Puppiccino',
@@ -12721,7 +12844,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        type: ["'merican"]
     },
     {
         name: 'Ballin',
@@ -12817,7 +12941,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [67, 68]
     },
     {
@@ -12866,7 +12990,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [67]
     },
     {
@@ -12915,7 +13039,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Harry Barry',
@@ -13014,7 +13139,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Jetnyan',
@@ -13062,7 +13188,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Chimpanyan',
@@ -13096,7 +13223,7 @@ const yokais = [
         inspirit: {
             name: 'Monkeying Around',
             description:
-                'Lends an ally the dexterity of a tree-hopping monkey, boosting their SPD!"',
+                'Lends an ally the dexterity of a tree-hopping monkey, boosting their SPD!',
             power: '0'
         },
         stats: {
@@ -13110,7 +13237,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Tomnyan',
@@ -13158,7 +13286,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'delishstick'
+        favouriteFood: 'Mega Tasty Bar',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Koma Knomads',
@@ -13192,7 +13321,7 @@ const yokais = [
         inspirit: {
             name: "Swirlin' on Up",
             description:
-                'Fills an ally with such a fun feeling, they feel their SPD rising!"',
+                'Fills an ally with such a fun feeling, they feel their SPD rising!',
             power: '0'
         },
         stats: {
@@ -13206,7 +13335,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Frostina',
@@ -13349,7 +13479,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        type: ['rare']
     },
     {
         name: 'Melonyan',
@@ -13397,7 +13528,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Oranyan',
@@ -13444,7 +13576,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Kiwinyan',
@@ -13492,7 +13625,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Grapenyan',
@@ -13539,7 +13673,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Strawbnyan',
@@ -13566,7 +13701,7 @@ const yokais = [
         soultime: {
             name: 'Strawberry Roar',
             description:
-                'Damages foes in range with sweet, strawberry scented... FLAMES!"',
+                'Damages foes in range with sweet, strawberry scented... FLAMES!',
             power: '140 to 210',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -13587,7 +13722,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Watermelnyan',
@@ -13635,7 +13771,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Sapphinyan',
@@ -13684,7 +13821,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Emenyan',
@@ -13733,7 +13871,8 @@ const yokais = [
         element: 'Restoration',
         weakness: '-',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Rubinyan',
@@ -13780,7 +13919,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Topanyan',
@@ -13827,7 +13967,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Dianyan',
@@ -13876,7 +14017,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Robokapp',
@@ -13923,7 +14065,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare']
     },
     {
         name: 'Robokoma',
@@ -13949,7 +14092,7 @@ const yokais = [
         soultime: {
             name: 'Koma Kannon',
             description:
-                'Attacks the column in front with a beam of country power!"',
+                'Attacks the column in front with a beam of country power!',
             power: '260 to 260',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -13970,7 +14113,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare']
     },
     {
         name: 'Sailornyan',
@@ -14018,7 +14162,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Rubeus J',
@@ -14092,14 +14237,14 @@ const yokais = [
         soultime: {
             name: 'Explosive Strike',
             description:
-                'He\'s so hardcore he drops skull shaped BOMBS on those in range!"',
+                "He's so hardcore he drops skull shaped BOMBS on those in range!",
             power: '15x10 to 22x10',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Jittery Jinx',
-            description: 'The enemy becomes so terrified it just can\'t move!"',
+            description: "The enemy becomes so terrified it just can't move!",
             power: '0'
         },
         stats: {
@@ -14113,7 +14258,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare']
     },
     {
         name: 'Whirlweasel',
@@ -14162,7 +14308,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['classic']
     },
     {
         name: 'Chocobonyan',
@@ -14210,7 +14357,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ['rare']
     },
     {
         name: 'Mooglenyan',
@@ -14243,7 +14391,7 @@ const yokais = [
         inspirit: {
             name: 'Kupower Nyan!',
             description:
-                'Provides moogle support magic, greatly boosting an ally\'s SPR!"',
+                "Provides moogle support magic, greatly boosting an ally's SPR!",
             power: '0'
         },
         stats: {
@@ -14257,7 +14405,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare']
     },
     {
         name: 'Wobblenyan',
@@ -14291,7 +14440,7 @@ const yokais = [
         inspirit: {
             name: 'Wobble Nyans',
             description:
-                'The Inspirited Yo-kai starts to wobble, reducing their DEF!"',
+                'The Inspirited Yo-kai starts to wobble, reducing their DEF!',
             power: '0'
         },
         stats: {
@@ -14305,7 +14454,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Wibblekoma',
@@ -14339,7 +14489,7 @@ const yokais = [
         inspirit: {
             name: 'Wobble Nyans',
             description:
-                'The Inspirited Yo-kai starts to wobble, reducing their DEF!"',
+                'The Inspirited Yo-kai starts to wobble, reducing their DEF!',
             power: '0'
         },
         stats: {
@@ -14353,7 +14503,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare']
     },
     {
         name: 'Sushinyan',
@@ -14401,7 +14552,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare']
     },
     {
         name: 'Tempurasan',
@@ -14448,7 +14600,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['rare']
     },
     {
         name: 'Faux Kappa',
@@ -14474,7 +14627,7 @@ const yokais = [
         soultime: {
             name: 'Mega Wave',
             description:
-                'Unleashes a genuine, powerful water stream that can hit anywhere!"',
+                'Unleashes a genuine, powerful water stream that can hit anywhere!',
             power: '170 to 255 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -14497,7 +14650,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Vegetables',
-        evolutionIndexes: [70]
+        evolutionIndexes: [70],
+        type: ['classic']
     },
     {
         name: 'Tigappa',
@@ -14523,7 +14677,7 @@ const yokais = [
         soultime: {
             name: 'Raging River',
             description:
-                'Unleashes a genuine, powerful water stream that can hit anywhere!"',
+                'Unleashes a genuine, powerful water stream that can hit anywhere!',
             power: '200 to 300',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -14545,7 +14699,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        type: ['rare', 'classic']
     },
     {
         name: 'Master Nyada',
@@ -14641,7 +14796,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['classic']
     },
     {
         name: 'Tengulightened',
@@ -14667,7 +14823,7 @@ const yokais = [
         soultime: {
             name: 'Garuda Flame',
             description:
-                'Scorches foes in range with cleansing flames. That\'s hot!"',
+                "Scorches foes in range with cleansing flames. That's hot!",
             power: '148 to 222 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -14689,7 +14845,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['rare', 'classic']
     },
     {
         name: 'Pallysol',
@@ -14738,7 +14895,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Odens',
-        evolutionIndexes: [49, 71]
+        evolutionIndexes: [49, 71],
+        type: ['classic']
     },
     {
         name: 'Bumblejack',
@@ -14772,7 +14930,7 @@ const yokais = [
         inspirit: {
             name: "Get Lookin'",
             description:
-                'The foe acts less as it\'s bumbling around, trying to work out what to do!"',
+                "The foe acts less as it's bumbling around, trying to work out what to do!",
             power: '0'
         },
         stats: {
@@ -14833,7 +14991,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Fire',
         rank: 'e',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        type: ["'merican"]
     },
     {
         name: 'Wantston',
@@ -14955,7 +15114,7 @@ const yokais = [
         soultime: {
             name: 'Wiggling Wave',
             description:
-                'Raises the cheer and DEF of all allies with a crazy tune!"',
+                'Raises the cheer and DEF of all allies with a crazy tune!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -15052,7 +15211,7 @@ const yokais = [
         soultime: {
             name: 'Mambo Madness',
             description:
-                'Dances a mambo to get his allies moving much, much faster!"',
+                'Dances a mambo to get his allies moving much, much faster!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -15125,7 +15284,7 @@ const yokais = [
         favouriteFood: 'Ramens'
     },
     {
-        name: 'Seaweed Sns.',
+        name: 'Seaweed Sensei',
         yokaiNumber: '315',
         bossNumber: '000',
         image:
@@ -15170,7 +15329,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['rare']
     },
     {
         name: 'Hungramps',
@@ -15300,7 +15460,7 @@ const yokais = [
         inspirit: {
             name: "Rice's Kindness",
             description:
-                'Gradually restores an ally\'s HP with delicious, delectable rice!"',
+                "Gradually restores an ally's HP with delicious, delectable rice!",
             power: '0'
         },
         stats: {
@@ -15314,7 +15474,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Rice balls'
+        favouriteFood: 'Rice balls',
+        type: ['rare']
     },
     {
         name: 'Supersize Gramps',
@@ -15361,7 +15522,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Meats',
-        evolutionIndexes: [76]
+        evolutionIndexes: [76],
+        type: ['rare', "'merican"]
     },
     {
         name: 'Tongus',
@@ -15605,7 +15767,7 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'e',
-        favouriteFood: 'Soft creams',
+        favouriteFood: 'Ice creams',
         evolutionIndexes: [78]
     },
     {
@@ -15654,7 +15816,7 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Soft creams',
+        favouriteFood: 'Ice creams',
         evolutionIndexes: [78]
     },
     {
@@ -15703,7 +15865,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Cereal Spiller',
@@ -15776,7 +15939,7 @@ const yokais = [
         soultime: {
             name: 'Go! Go! Tomorrow!',
             description:
-                'Cheers all allies with a pep rally that boosts all stats!"',
+                'Cheers all allies with a pep rally that boosts all stats!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -15784,7 +15947,7 @@ const yokais = [
         inspirit: {
             name: 'Cheer On',
             description:
-                'All of an ally\'s stats go up slightly just by thinking about tomorrow!"',
+                "All of an ally's stats go up slightly just by thinking about tomorrow!",
             power: '0'
         },
         stats: {
@@ -15798,7 +15961,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Swaycorn',
@@ -15943,7 +16107,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [79]
+        evolutionIndexes: [79],
+        type: ['rare']
     },
     {
         name: 'Starrycane',
@@ -15992,7 +16157,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [79]
+        evolutionIndexes: [79],
+        type: ['rare']
     },
     {
         name: 'Lodo',
@@ -16236,7 +16402,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [81]
+        evolutionIndexes: [81],
+        type: ['classic']
     },
     {
         name: 'Enerfly',
@@ -16318,7 +16485,7 @@ const yokais = [
         inspirit: {
             name: 'Enemy Maker',
             description:
-                'Makes a foe cut ties with its friends and sometimes attack them!"',
+                'Makes a foe cut ties with its friends and sometimes attack them!',
             power: '0'
         },
         stats: {
@@ -16359,7 +16526,7 @@ const yokais = [
         soultime: {
             name: 'Bestacular',
             description:
-                'Restores HP to allies and gets them into tip-top shape!"',
+                'Restores HP to allies and gets them into tip-top shape!',
             power: '110 to 165 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -16408,7 +16575,7 @@ const yokais = [
         soultime: {
             name: 'Party Miracle',
             description:
-                'Blows a gust that restores HP and raises allies\' spirits!"',
+                "Blows a gust that restores HP and raises allies' spirits!",
             power: '180 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -16429,7 +16596,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        type: ['rare']
     },
     {
         name: 'Predictabull',
@@ -16478,7 +16646,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [84, 85]
+        evolutionIndexes: [84, 85],
+        type: ['classic']
     },
     {
         name: 'Smashibull',
@@ -16527,7 +16696,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [84]
+        evolutionIndexes: [84],
+        type: ['classic']
     },
     {
         name: 'DON-CHAN',
@@ -16649,7 +16819,7 @@ const yokais = [
         soultime: {
             name: 'Pick-a-Present',
             description:
-                'Pulls something out of a bag... What comes out is up to chance!"',
+                'Pulls something out of a bag... What comes out is up to chance!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -16767,7 +16937,7 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Tongue-Twister',
@@ -16801,7 +16971,7 @@ const yokais = [
         inspirit: {
             name: 'Tongue Tied',
             description:
-                'The foe gets its tongue in such a twist that HP slowly decreases!"',
+                'The foe gets its tongue in such a twist that HP slowly decreases!',
             power: '0'
         },
         stats: {
@@ -16864,7 +17034,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Got It Maid',
@@ -16912,7 +17083,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        type: ["'merican"]
     },
     {
         name: 'Greengramps',
@@ -17008,7 +17180,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Tattlecakes',
@@ -17034,7 +17207,7 @@ const yokais = [
         soultime: {
             name: 'Warm from the Oven',
             description:
-                'Restores all allies HP with yummy cakes baked with love!"',
+                'Restores all allies HP with yummy cakes baked with love!',
             power: '90 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -17057,7 +17230,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Milks',
-        evolutionIndexes: [29]
+        evolutionIndexes: [29],
+        type: ['rare', "'merican"]
     },
     {
         name: 'Happierre',
@@ -17203,7 +17377,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        type: ['rare']
     },
     {
         name: 'Pheasanyan',
@@ -17251,7 +17426,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Fundango',
@@ -17277,7 +17453,7 @@ const yokais = [
         soultime: {
             name: 'Energizing Exercise',
             description:
-                'Does a happy dance, recovering HP and getting even more powerful!"',
+                'Does a happy dance, recovering HP and getting even more powerful!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -17299,7 +17475,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas'
     },
     {
         name: 'Pearly White',
@@ -17347,7 +17523,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ["'merican"]
     },
     {
         name: 'Robogramps',
@@ -17364,23 +17541,24 @@ const yokais = [
         },
         attack: {
             name: 'Headsmack',
-            power: '15 to 67'
+            power: '30'
         },
         technique: {
             name: 'Restore',
-            power: '50 to 110'
+            power: '50'
         },
         soultime: {
             name: 'Eat This!',
             description:
                 'Attacks the column in front with a beam of advanced hunger.',
-            power: '230 to 230',
+            power: '140',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Steel Power',
-            description: "Makes an ally's skin as strong as steel. Raises DEF.",
+            description:
+                "The inspirited Yo-kai's DEF is boosted by metallic power of robots",
             power: '0'
         },
         stats: {
@@ -17394,7 +17572,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Rice balls'
+        favouriteFood: 'Rice balls',
+        type: ['rare']
     },
     {
         name: 'Rollen',
@@ -17536,7 +17715,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [49]
+        evolutionIndexes: [49],
+        type: ['classic']
     },
     {
         name: 'Odysseynyan',
@@ -17584,7 +17764,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare']
     },
     {
         name: 'Ghostess',
@@ -17705,7 +17886,7 @@ const yokais = [
         soultime: {
             name: 'Table Flip',
             description:
-                'Flips a table on a foe in an intense explosion of anger!"',
+                'Flips a table on a foe in an intense explosion of anger!',
             power: '250 to 250',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -17726,7 +17907,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare']
     },
     {
         name: 'Mama Aura',
@@ -17822,7 +18004,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ['rare']
     },
     {
         name: 'Kyryn',
@@ -17870,7 +18053,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        type: ['classic']
     },
     {
         name: 'Unikirin',
@@ -17918,7 +18102,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['rare', 'classic']
     },
     {
         name: 'Double Time',
@@ -17945,7 +18130,7 @@ const yokais = [
         soultime: {
             name: 'Too Fast LOL',
             description:
-                'He attacks foes in range so fast that they never see him coming!"',
+                'He attacks foes in range so fast that they never see him coming!',
             power: '160 to 240',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
@@ -17966,7 +18151,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Sonic Bam',
@@ -17993,14 +18179,14 @@ const yokais = [
         soultime: {
             name: 'Flying Dolphin',
             description:
-                'He gives foes in range the fastest kung fu chops they\'ve never seen!"',
+                "He gives foes in range the fastest kung fu chops they've never seen!",
             power: '160 to 240',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
         },
         inspirit: {
             name: 'Sonic Stance',
-            description: 'Powers up an ally with super sonic kung-fu moves!"',
+            description: 'Powers up an ally with super sonic kung-fu moves!',
             power: '0'
         },
         stats: {
@@ -18014,7 +18200,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Neggplant',
@@ -18048,7 +18235,7 @@ const yokais = [
         inspirit: {
             name: 'Stop Negging Me!',
             description:
-                'Mega negativity makes a foe take things out on its own allies!"',
+                'Mega negativity makes a foe take things out on its own allies!',
             power: '0'
         },
         stats: {
@@ -18079,17 +18266,17 @@ const yokais = [
         },
         attack: {
             name: 'Pointy Pokes',
-            power: '12x3 to 26x3'
+            power: '12x3'
         },
         technique: {
             name: 'Absorb',
-            power: '20 to 90'
+            power: '25'
         },
         soultime: {
             name: 'Finking Hard',
             description:
-                'Uses his pointy head to prick foes in range all over!"',
-            power: '15x5 to 45x5 ',
+                'Uses his pointy head to prick foes in range all over!',
+            power: '15x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
         },
@@ -18378,7 +18565,7 @@ const yokais = [
         soultime: {
             name: 'Backache Buster',
             description:
-                'Bashes a foe\'s back with a heavy-duty iron dumbbell. OUCH!"',
+                "Bashes a foe's back with a heavy-duty iron dumbbell. OUCH!",
             power: '180 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -18400,7 +18587,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        type: ['rare']
     },
     {
         name: 'Herbiboy',
@@ -18426,7 +18614,7 @@ const yokais = [
         soultime: {
             name: 'Sap',
             description:
-                'Wishy-washy Herbivaura blasts all enemies so their STR goes way down!"',
+                'Wishy-washy Herbivaura blasts all enemies so their STR goes way down!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -18524,7 +18712,7 @@ const yokais = [
         soultime: {
             name: 'Worn Out',
             description:
-                'All enemies are hit by a nasty all-nighter aura that greatly lowers DEF!"',
+                'All enemies are hit by a nasty all-nighter aura that greatly lowers DEF!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -18546,7 +18734,7 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'e',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [89, 90]
     },
     {
@@ -18573,7 +18761,7 @@ const yokais = [
         soultime: {
             name: 'Tuckered Out',
             description:
-                'The DEF of all foes is greatly weakened by too many all nighters!"',
+                'The DEF of all foes is greatly weakened by too many all nighters!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -18595,7 +18783,7 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [89]
     },
     {
@@ -18613,11 +18801,11 @@ const yokais = [
         },
         attack: {
             name: 'Body Bash',
-            power: '15 to 67'
+            power: '20'
         },
         technique: {
             name: 'Pebble',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
             name: '#soultimatemove',
@@ -18630,7 +18818,7 @@ const yokais = [
         inspirit: {
             name: 'Retreet',
             description:
-                'Makes the foe spend more time on social media than the battle!"',
+                'Makes the foe spend more time on social media than the battle!',
             power: '0'
         },
         stats: {
@@ -18645,7 +18833,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [91]
+        evolutionIndexes: [91],
+        type: ["'merican"]
     },
     {
         name: 'Retreeter',
@@ -18679,7 +18868,7 @@ const yokais = [
         inspirit: {
             name: 'Retreet',
             description:
-                'Makes the foe spend more time on social media than the battle!"',
+                'Makes the foe spend more time on social media than the battle!',
             power: '0'
         },
         stats: {
@@ -18694,7 +18883,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [91]
+        evolutionIndexes: [91],
+        type: ["'merican"]
     },
     {
         name: 'Negatibuzz',
@@ -18840,7 +19030,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        type: ['rare']
     },
     {
         name: 'Dimmy',
@@ -18914,7 +19105,7 @@ const yokais = [
         soultime: {
             name: 'Hazy Dance',
             description:
-                'Almost completely out of nowhere, a foe gets dealt a strong slap!"',
+                'Almost completely out of nowhere, a foe gets dealt a strong slap!',
             power: '180 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -18963,7 +19154,7 @@ const yokais = [
         soultime: {
             name: "Creep 'n' Cut",
             description:
-                'Almost completely out of nowhere, a foe gets dealt a strong slap!"',
+                'Almost completely out of nowhere, a foe gets dealt a strong slap!',
             power: '200 to 200',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -18995,7 +19186,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/salty_bacon.png',
         description:
             'This slice of bacon gets crispier the angrier he becomes, and crispy bacon is simply the tastiest!',
-        locations: ['East Pine - Flowers'],
+        locations: ['East Pine - Grass'],
         skill: {
             name: "Fryin' and Dandy",
             description: 'Absorbs Fire elemental damage and boosts STR.'
@@ -19011,14 +19202,14 @@ const yokais = [
         soultime: {
             name: 'Morning Frazzle',
             description:
-                'His temper gets so fiery it fries foes in range to a perfect crisp!"',
+                'His temper gets so fiery it fries foes in range to a perfect crisp!',
             power: '73 to 219 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Crisp and Tasty',
-            description: 'Makes a foe so salty, they attack their own allies!"',
+            description: 'Makes a foe so salty, they attack their own allies!',
             power: '0'
         },
         stats: {
@@ -19032,7 +19223,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Suspicioni',
@@ -19161,7 +19353,7 @@ const yokais = [
         inspirit: {
             name: 'Contrariness',
             description:
-                'Makes an enemy sometimes attack its allies. Because why not?"',
+                'Makes an enemy sometimes attack its allies. Because why not?',
             power: '0'
         },
         stats: {
@@ -19224,7 +19416,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Meats',
-        evolutionIndexes: [94]
+        evolutionIndexes: [94],
+        type: ['rare']
     },
     {
         name: 'Groupus Khan',
@@ -19273,7 +19466,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Meats',
-        evolutionIndexes: [94]
+        evolutionIndexes: [94],
+        type: ['rare']
     },
     {
         name: 'Hidabat',
@@ -19419,7 +19613,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Yoink',
@@ -19566,7 +19761,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [90]
+        evolutionIndexes: [90],
+        type: ["'merican"]
     },
     {
         name: 'Hack King',
@@ -19615,7 +19811,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Pizzas',
-        evolutionIndexes: [90]
+        evolutionIndexes: [90],
+        type: ["'merican"]
     },
     {
         name: 'Yoodooit',
@@ -19758,7 +19955,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        type: ['rare']
     },
     {
         name: 'DisliKing',
@@ -19840,7 +20038,7 @@ const yokais = [
         inspirit: {
             name: 'Crook-a-doodle-do',
             description:
-                'Catches the Yo-kai in a scam that greatly decreases their SPD!"',
+                'Catches the Yo-kai in a scam that greatly decreases their SPD!',
             power: '0'
         },
         stats: {
@@ -19854,7 +20052,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Rocky Badboya',
@@ -19901,7 +20100,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Injurnalist',
@@ -19949,7 +20149,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Misterr Typoo',
@@ -19982,7 +20183,7 @@ const yokais = [
         inspirit: {
             name: 'Butterfingers',
             description:
-                'Teh FoE losses conTrl off tHEre HaNds, atakking alLies!"',
+                'Teh FoE losses conTrl off tHEre HaNds, atakking alLies!',
             power: '0'
         },
         stats: {
@@ -20224,7 +20425,7 @@ const yokais = [
         inspirit: {
             name: 'Dracufang',
             description:
-                'The Inspirited Yo-kai gets chewed on, causing it to lose HP gradually"',
+                'The Inspirited Yo-kai gets chewed on, causing it to lose HP gradually',
             power: '0'
         },
         stats: {
@@ -20238,7 +20439,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Lil Kappa',
@@ -20263,7 +20465,7 @@ const yokais = [
         },
         soultime: {
             name: 'Bonkers Bash',
-            description: 'With his freaky flow, he confuses every foe! Yo!"',
+            description: 'With his freaky flow, he confuses every foe! Yo!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -20285,7 +20487,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ["'merican"]
     },
     {
         name: 'Horizontail',
@@ -20349,24 +20552,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20380,7 +20584,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon Football Gear',
@@ -20396,24 +20601,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20427,7 +20633,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon Scuba Gear',
@@ -20443,24 +20650,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20474,7 +20682,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon GI Gear',
@@ -20490,24 +20699,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20521,7 +20731,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon Racing Gear',
@@ -20537,24 +20748,25 @@ const yokais = [
             description: 'Enter Invader Mode at low HP.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Hail',
-            power: '20 to 90'
+            power: '30'
         },
         soultime: {
-            name: '#N/D',
-            description: '#N/D',
-            power: '120 to 0',
+            name: 'Bunny Beam',
+            description:
+                'Fires a mighty big beam, dealing damage to the column in front',
+            power: '28x5',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20568,7 +20780,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ["'merican"]
     },
     {
         name: 'Usapyon B',
@@ -20584,8 +20797,8 @@ const yokais = [
             description: 'Boosts own combo damage.'
         },
         attack: {
-            name: '-',
-            power: '50 to 110'
+            name: 'Shot',
+            power: '50'
         },
         technique: {
             name: 'Frost',
@@ -20594,7 +20807,7 @@ const yokais = [
         soultime: {
             name: 'Boing Blaster',
             description:
-                'Lays waste to the column in front with a savage Blasters beam!"',
+                'Lays waste to the column in front with a savage Blasters beam!',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -20613,10 +20826,11 @@ const yokais = [
             spd: '158'
         },
         tribe: 'Shady',
-        element: 'Water',
+        element: 'Ice',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Usa. Zhongda',
@@ -20650,7 +20864,7 @@ const yokais = [
         inspirit: {
             name: 'Enrage',
             description:
-                'Makes an enemy so cranky, they sometimes turn on their allies!"',
+                'Makes an enemy so cranky, they sometimes turn on their allies!',
             power: '0'
         },
         stats: {
@@ -20712,7 +20926,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['rare']
     },
     {
         name: 'Negasus',
@@ -20807,7 +21022,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ['rare']
     },
     {
         name: 'Gutsy Bones',
@@ -20841,7 +21057,7 @@ const yokais = [
         inspirit: {
             name: 'Crank-a-Kai Crazy',
             description:
-                'The Inspirited Yo-kai\'s urge to crank makes it scatter money all over!"',
+                "The Inspirited Yo-kai's urge to crank makes it scatter money all over!",
             power: '0'
         },
         stats: {
@@ -20855,7 +21071,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        type: ['rare']
     },
     {
         name: 'Timidevil',
@@ -21001,7 +21218,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Ramens'
+        favouriteFood: 'Ramens',
+        type: ['rare']
     },
     {
         name: 'Eyesoar',
@@ -21049,7 +21267,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['classic']
     },
     {
         name: 'Eyellure',
@@ -21097,7 +21316,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ['rare', 'classic']
     },
     {
         name: 'Greesel',
@@ -21142,7 +21362,7 @@ const yokais = [
             spd: '177'
         },
         tribe: 'Shady',
-        element: 'Wind',
+        element: 'Fire',
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Meats'
@@ -21189,10 +21409,11 @@ const yokais = [
             spd: '180'
         },
         tribe: 'Shady',
-        element: 'Wind',
+        element: 'Water',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Wobblewok',
@@ -21240,7 +21461,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['rare']
     },
     {
         name: 'Darkyubi',
@@ -21288,7 +21510,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['rare']
     },
     {
         name: 'Dr. E. Raser',
@@ -21336,7 +21559,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ["'merican"]
     },
     {
         name: 'Dr. Nocturne',
@@ -21384,7 +21608,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['rare', "'merican"]
     },
     {
         name: "Tut 'n' K'mon",
@@ -21480,7 +21705,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'e',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        type: ["'merican"]
     },
     {
         name: 'Love-Torn',
@@ -21513,7 +21739,7 @@ const yokais = [
         inspirit: {
             name: 'Love-Torn Tirade',
             description:
-                'Resentment borne from a love-letter torn drives a foe to attack its allies!"',
+                'Resentment borne from a love-letter torn drives a foe to attack its allies!',
             power: '0'
         },
         stats: {
@@ -21527,7 +21753,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'e',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ["'merican"]
     },
     {
         name: 'Shakey',
@@ -21560,7 +21787,7 @@ const yokais = [
         inspirit: {
             name: 'Slapped Silly',
             description:
-                'With the wave of a hand, a foe will attack its own allies!"',
+                'With the wave of a hand, a foe will attack its own allies!',
             power: '0'
         },
         stats: {
@@ -21600,7 +21827,7 @@ const yokais = [
         soultime: {
             name: 'Top Hit Stick',
             description:
-                'Makes a curse cling to all foes so they can\'t move anywhere!"',
+                "Makes a curse cling to all foes so they can't move anywhere!",
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -21621,7 +21848,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'e',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Coughkoff',
@@ -21958,7 +22185,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        type: ['rare']
     },
     {
         name: 'Peckpocket',
@@ -22006,7 +22234,7 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'e',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [99]
     },
     {
@@ -22055,7 +22283,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [99]
     },
     {
@@ -22179,7 +22407,7 @@ const yokais = [
         soultime: {
             name: 'Loud and Proud',
             description:
-                'All enemies gradually lose HP thanks to the blast of his speakers!"',
+                'All enemies gradually lose HP thanks to the blast of his speakers!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
@@ -22345,7 +22573,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        type: ['rare']
     },
     {
         name: 'Manjimutt',
@@ -22372,7 +22601,7 @@ const yokais = [
         soultime: {
             name: 'Creepy Superbite',
             description:
-                'Bites foes within range in a frenzy. Pretty creepy, actually...\u3000"',
+                'Bites foes within range in a frenzy. Pretty creepy, actually...\u3000',
             power: '19x5 to 19x5 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -22422,7 +22651,7 @@ const yokais = [
         soultime: {
             name: 'Superbite Twin',
             description:
-                'Bites foes within range with twice as many heads and twice as many teeth!\u3000"',
+                'Bites foes within range with twice as many heads and twice as many teeth!\u3000',
             power: '25 to 25 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -22494,7 +22723,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        type: ['rare']
     },
     {
         name: 'Furgus',
@@ -22543,7 +22773,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Rice balls',
-        evolutionIndexes: [103]
+        evolutionIndexes: [103],
+        type: ['classic']
     },
     {
         name: 'Furdinand',
@@ -22592,7 +22823,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Rice balls',
-        evolutionIndexes: [103]
+        evolutionIndexes: [103],
+        type: ['classic']
     },
     {
         name: 'Pergushin',
@@ -22785,7 +23017,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican"]
     },
     {
         name: 'Nervous Rex',
@@ -22819,7 +23052,7 @@ const yokais = [
         inspirit: {
             name: 'Creep Out',
             description:
-                'Makes a foe\'s nerves overwhelm them -they turn on their own allies!"',
+                "Makes a foe's nerves overwhelm them -they turn on their own allies!",
             power: '0'
         },
         stats: {
@@ -22833,7 +23066,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ["'merican"]
     },
     {
         name: 'Rinsin Repete',
@@ -23071,7 +23305,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ['rare']
     },
     {
         name: 'Danke Sand',
@@ -23120,7 +23355,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Odens',
-        evolutionIndexes: [106]
+        evolutionIndexes: [106],
+        type: ['rare']
     },
     {
         name: 'No Sandkyu',
@@ -23169,7 +23405,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Odens',
-        evolutionIndexes: [106]
+        evolutionIndexes: [106],
+        type: ['rare']
     },
     {
         name: 'Papa Windbag',
@@ -23505,7 +23742,7 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas'
     },
     {
         name: 'Cheeksqueek',
@@ -23611,7 +23848,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/toiletta.png',
         description:
             'This Yo-kai considers it her life goal to refine the art of scaring children at school. Extremely dedicated to the cause.',
-        locations: ['Springdale Elementary'],
+        locations: ['Springdale Elementary at night'],
         skill: {
             name: 'Curse Worsener',
             description: "Increases potency of allies' Jinxes."
@@ -23746,7 +23983,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        type: ['rare']
     },
     {
         name: 'Shedwin',
@@ -23772,7 +24010,7 @@ const yokais = [
         soultime: {
             name: 'Bristleblockle',
             description:
-                'Drops gigantic furballs over the enemy field, blocking some tiles!"',
+                'Drops gigantic furballs over the enemy field, blocking some tiles!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -23842,7 +24080,7 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas'
     },
     {
         name: 'Spewart',
@@ -24037,7 +24275,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        type: ['rare']
     },
     {
         name: 'Sproink',
@@ -24063,7 +24302,7 @@ const yokais = [
         soultime: {
             name: 'Squealing Boil',
             description:
-                'Sproink is so fired up by the bath, he snorts flames at foes in range!"',
+                'Sproink is so fired up by the bath, he snorts flames at foes in range!',
             power: '160 to 160',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -24085,7 +24324,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        type: ['rare']
     },
     {
         name: 'Darknyan',
@@ -24133,7 +24373,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare']
     },
     {
         name: 'Decidevible',
@@ -24166,7 +24407,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Decisive Action',
-            description: 'Makes up an ally\'s mind for them! STR rises!"',
+            description: "Makes up an ally's mind for them! STR rises!",
             power: '0'
         },
         stats: {
@@ -24206,7 +24447,7 @@ const yokais = [
         soultime: {
             name: 'Block-a-Rock',
             description:
-                'Drops gigantic boulders over the enemy field, blocking some tiles!"',
+                'Drops gigantic boulders over the enemy field, blocking some tiles!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -24228,7 +24469,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['classic']
     },
     {
         name: 'Insomni',
@@ -24322,7 +24564,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        type: ['rare']
     },
     {
         name: 'Arachnus',
@@ -24370,7 +24613,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['classic']
     },
     {
         name: 'Arachnia',
@@ -24418,7 +24662,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['rare', 'classic']
     },
     {
         name: 'Oridjinn',
@@ -24444,7 +24689,7 @@ const yokais = [
         soultime: {
             name: 'Atomicomet',
             description:
-                'Summons space meteorites that can land just about anywhere!"',
+                'Summons space meteorites that can land just about anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -24466,7 +24711,8 @@ const yokais = [
         element: 'Drain',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican"]
     },
     {
         name: 'Horridjinn',
@@ -24492,7 +24738,7 @@ const yokais = [
         soultime: {
             name: 'Phantasmal Shower',
             description:
-                'Summons space meteorites that can land just about anywhere!"',
+                'Summons space meteorites that can land just about anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -24514,7 +24760,8 @@ const yokais = [
         element: 'Drain',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Little Charrmer',
@@ -24562,7 +24809,8 @@ const yokais = [
         element: 'Fire',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Cricky',
@@ -24705,7 +24953,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'e',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ["'merican"]
     },
     {
         name: 'Putasockinit',
@@ -24753,7 +25002,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Pastas',
-        evolutionIndexes: [109]
+        evolutionIndexes: [109],
+        type: ["'merican"]
     },
     {
         name: 'Snidewinder',
@@ -24802,7 +25052,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Pastas',
-        evolutionIndexes: [109]
+        evolutionIndexes: [109],
+        type: ["'merican"]
     },
     {
         name: 'Noko',
@@ -24849,8 +25100,9 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'e',
-        favouriteFood: 'hamburgers',
-        evolutionIndexes: [111]
+        favouriteFood: 'Hamburgers',
+        evolutionIndexes: [111],
+        type: ['rare']
     },
     {
         name: 'Bloominoko',
@@ -24898,8 +25150,9 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'hamburgers',
-        evolutionIndexes: [111]
+        favouriteFood: 'Hamburgers',
+        evolutionIndexes: [111],
+        type: ['rare']
     },
     {
         name: 'Pandanoko',
@@ -24947,7 +25200,8 @@ const yokais = [
         element: 'Ice',
         weakness: '-',
         rank: 'a',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Starry Noko',
@@ -24981,7 +25235,7 @@ const yokais = [
         inspirit: {
             name: 'Astrally Augmented',
             description:
-                'Mysterious space powers make all of an ally\'s stats reach the stars!"',
+                "Mysterious space powers make all of an ally's stats reach the stars!",
             power: '0'
         },
         stats: {
@@ -24995,7 +25249,8 @@ const yokais = [
         element: 'Restoration',
         weakness: '-',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ['rare']
     },
     {
         name: 'Snaggly',
@@ -25125,8 +25380,7 @@ const yokais = [
         },
         inspirit: {
             name: 'FREAK OUT!',
-            description:
-                'Makes a foe so gosh, darn shocked its DEF goes down!"',
+            description: 'Makes a foe so gosh, darn shocked its DEF goes down!',
             power: '0'
         },
         stats: {
@@ -25140,7 +25394,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ["'merican"]
     },
     {
         name: 'Nautaloss',
@@ -25187,7 +25442,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ["'merican"]
     },
     {
         name: 'Shellebrity',
@@ -25213,7 +25469,7 @@ const yokais = [
         soultime: {
             name: 'Wonder Wet',
             description:
-                'Summons random, violent whirlpools that can hit anywhere!"',
+                'Summons random, violent whirlpools that can hit anywhere!',
             power: '76 to 228 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -25261,7 +25517,7 @@ const yokais = [
         soultime: {
             name: 'In da Funny Bone',
             description:
-                'Restores HP for allies. Laughter really is the best medicine!"',
+                'Restores HP for allies. Laughter really is the best medicine!',
             power: '85 to 85 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -25425,7 +25681,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Odens',
-        evolutionIndexes: [113]
+        evolutionIndexes: [113],
+        type: ['rare']
     },
     {
         name: 'Takoyaking',
@@ -25474,7 +25731,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Odens',
-        evolutionIndexes: [113]
+        evolutionIndexes: [113],
+        type: ['rare']
     },
     {
         name: 'Fishpicable',
@@ -25620,7 +25878,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Flushback',
@@ -25764,7 +26023,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [125]
     },
     {
@@ -25812,7 +26071,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'hamburgers',
+        favouriteFood: 'Hamburgers',
         evolutionIndexes: [125]
     },
     {
@@ -25887,7 +26146,7 @@ const yokais = [
         soultime: {
             name: 'Dragon Rock',
             description:
-                'Drops gigantic boulders over the enemy field, blocking some tiles!"',
+                'Drops gigantic boulders over the enemy field, blocking some tiles!',
             power: '190 to 190',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -25956,7 +26215,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        type: ['rare']
     },
     {
         name: 'Mermaidyn',
@@ -26005,7 +26265,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [116, 117]
+        evolutionIndexes: [116, 117],
+        type: ['classic']
     },
     {
         name: 'Mermadonna',
@@ -26054,7 +26315,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [116]
+        evolutionIndexes: [116],
+        type: ['classic']
     },
     {
         name: 'Mermother',
@@ -26088,7 +26350,7 @@ const yokais = [
         inspirit: {
             name: 'Legend Power',
             description:
-                'Raises an ally\'s STR to transform it into a great warrior!"',
+                "Raises an ally's STR to transform it into a great warrior!",
             power: '0'
         },
         stats: {
@@ -26102,7 +26364,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ['rare', 'classic']
     },
     {
         name: 'T-Wrecks',
@@ -26136,7 +26399,7 @@ const yokais = [
         inspirit: {
             name: 'Rampage',
             description:
-                'Makes a foe wreck its friendships by occasionally turning on its allies!"',
+                'Makes a foe wreck its friendships by occasionally turning on its allies!',
             power: '0'
         },
         stats: {
@@ -26151,7 +26414,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Hot Dogs',
-        evolutionIndexes: [118]
+        evolutionIndexes: [118],
+        type: ["'merican"]
     },
     {
         name: 'D-Stroy',
@@ -26200,7 +26464,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Hot Dogs',
-        evolutionIndexes: [118]
+        evolutionIndexes: [118],
+        type: ["'merican"]
     },
     {
         name: 'Clodzilla',
@@ -26248,7 +26513,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Lady Longnek',
@@ -26296,7 +26562,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [119]
+        evolutionIndexes: [119],
+        type: ['classic']
     },
     {
         name: 'Whisper',
@@ -26345,7 +26612,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare']
     },
     {
         name: 'Whispocrates',
@@ -26394,7 +26662,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare']
     },
     {
         name: 'Snippity Cricket',
@@ -26476,7 +26745,7 @@ const yokais = [
         inspirit: {
             name: 'Yank Off',
             description:
-                'Flocktopus locks the foe in such a tight embrace, they can\'t move!"',
+                "Flocktopus locks the foe in such a tight embrace, they can't move!",
             power: '0'
         },
         stats: {
@@ -26524,7 +26793,7 @@ const yokais = [
         inspirit: {
             name: 'Battered Bitterness',
             description:
-                'Makes a foe so bitter that it sometimes batters its own allies!"',
+                'Makes a foe so bitter that it sometimes batters its own allies!',
             power: '0'
         },
         stats: {
@@ -26752,7 +27021,7 @@ const yokais = [
         soultime: {
             name: 'Bank Breaker',
             description:
-                'Makes his foes forget the value of money as they toss it away!"',
+                'Makes his foes forget the value of money as they toss it away!',
             power: '130 to 130',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -26800,7 +27069,7 @@ const yokais = [
         soultime: {
             name: 'Eternal Debt',
             description:
-                'Sends foes into debt by scattering their money uncontrollably!"',
+                'Sends foes into debt by scattering their money uncontrollably!',
             power: '160 to 160',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -26822,7 +27091,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        type: ['rare']
     },
     {
         name: 'Babblong',
@@ -26904,7 +27174,7 @@ const yokais = [
         inspirit: {
             name: 'Banana Power',
             description:
-                'Boosts an ally\'s SPD with a great, healthy banana taste!"',
+                "Boosts an ally's SPD with a great, healthy banana taste!",
             power: '0'
         },
         stats: {
@@ -26919,7 +27189,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Candies',
-        evolutionIndexes: [120]
+        evolutionIndexes: [120],
+        type: ['rare']
     },
     {
         name: 'Cocobanana',
@@ -26968,7 +27239,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [120]
+        evolutionIndexes: [120],
+        type: ['rare', "'merican"]
     },
     {
         name: 'Draaagin',
@@ -27063,7 +27335,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'Hamburgers',
+        type: ['rare']
     },
     {
         name: 'Robodraggie',
@@ -27110,7 +27383,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        type: ['rare']
     },
     {
         name: 'Ooze Zat',
@@ -27157,7 +27431,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['classic']
     },
     {
         name: 'Copperled',
@@ -27349,7 +27624,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['rare']
     },
     {
         name: 'Mython',
@@ -27493,7 +27769,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare']
     },
     {
         name: 'Frogetmenot',
@@ -27541,7 +27818,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['classic']
     },
     {
         name: 'Originyan',
@@ -27685,7 +27963,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        type: ['rare']
     },
     {
         name: 'Unkaind',
@@ -27732,7 +28011,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare']
     },
     {
         name: 'Untidy',
@@ -27779,7 +28059,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Unpleasant',
@@ -27827,7 +28108,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['rare']
     },
     {
         name: 'Unkeen',
@@ -27875,7 +28157,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        type: ['rare']
     },
     {
         name: 'Grublappa',
@@ -28048,7 +28331,7 @@ const yokais = [
         soultime: {
             name: 'Mega Wave',
             description:
-                'Unleashes a genuine, powerful water stream that can hit anywhere!"',
+                'Unleashes a genuine, powerful water stream that can hit anywhere!',
             power: '170 to 255 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -28410,10 +28693,11 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare', "'merican"]
     },
     {
-        name: 'Qn. Usapyon',
+        name: 'Queen Usapyon',
         yokaiNumber: '591',
         bossNumber: '000',
         image:
@@ -28457,7 +28741,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Jackomasan',
@@ -28503,7 +28788,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Komajiro Ten',
@@ -28550,7 +28836,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Acenyan',
@@ -28596,7 +28883,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Josper',
@@ -28645,7 +28933,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Benzaiten',
@@ -28693,7 +28982,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        type: ['rare']
     },
     {
         name: 'Hotei',
@@ -28741,7 +29031,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['rare']
     },
     {
         name: 'Daikokuten',
@@ -28789,7 +29080,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['rare']
     },
     {
         name: 'Ebisu',
@@ -28837,7 +29129,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare']
     },
     {
         name: 'Bishamonten',
@@ -28885,7 +29178,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Columbakat',
@@ -28968,7 +29262,7 @@ const yokais = [
         inspirit: {
             name: 'Paralyze',
             description:
-                'Renders an enemy unable to move with an electric shock!"',
+                'Renders an enemy unable to move with an electric shock!',
             power: '0'
         },
         stats: {
@@ -29016,7 +29310,7 @@ const yokais = [
         inspirit: {
             name: 'Scientific Method',
             description:
-                'An ally\'s SPR is raised thanks to extensive scientific research!"',
+                "An ally's SPR is raised thanks to extensive scientific research!",
             power: '0'
         },
         stats: {
@@ -29030,7 +29324,7 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas'
     },
     {
         name: 'Last Nyanmurai',
@@ -29065,7 +29359,7 @@ const yokais = [
         inspirit: {
             name: 'Last Stand',
             description:
-                'Boosts an ally\'s STR in preparation for one last stand!"',
+                "Boosts an ally's STR in preparation for one last stand!",
             power: '0'
         },
         stats: {
@@ -29079,7 +29373,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ["'merican legendary"]
     },
     {
         name: 'Koma Star',
@@ -29105,14 +29400,14 @@ const yokais = [
         soultime: {
             name: 'Twinkling Star',
             description:
-                'Summons random, shooting stars that can hit anywhere!"',
+                'Summons random, shooting stars that can hit anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Sparkly Swirls',
-            description: 'Makes an ally shine like a star, raising SPD!"',
+            description: 'Makes an ally shine like a star, raising SPD!',
             power: '0'
         },
         stats: {
@@ -29126,7 +29421,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ["'merican legendary"]
     },
     {
         name: 'Platinos',
@@ -29160,7 +29456,7 @@ const yokais = [
         inspirit: {
             name: 'Platinum Plating',
             description:
-                'Raises an ally\'s DEF by making its body hard platinum!"',
+                "Raises an ally's DEF by making its body hard platinum!",
             power: '0'
         },
         stats: {
@@ -29174,7 +29470,8 @@ const yokais = [
         element: 'Lightning',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ["'merican legendary"]
     },
     {
         name: 'Flash T. Cash',
@@ -29222,7 +29519,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ["'merican legendary"]
     },
     {
         name: 'Shogunyan',
@@ -29270,7 +29568,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        seal: 0
     },
     {
         name: 'Komashura',
@@ -29317,7 +29616,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        seal: 1
     },
     {
         name: 'Gilgaros',
@@ -29364,7 +29664,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        seal: 4
     },
     {
         name: 'Spoilerina',
@@ -29412,7 +29713,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        seal: 5
     },
     {
         name: 'Elder Bloom',
@@ -29460,7 +29762,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Rice balls'
+        favouriteFood: 'Rice balls',
+        seal: 3
     },
     {
         name: 'Poofessor',
@@ -29508,7 +29811,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        seal: 6
     },
     {
         name: 'Dandoodle',
@@ -29542,7 +29846,7 @@ const yokais = [
         inspirit: {
             name: 'Healing Air',
             description:
-                'Gradually restores an ally\'s HP with the power of a dandy!"',
+                "Gradually restores an ally's HP with the power of a dandy!",
             power: '0'
         },
         stats: {
@@ -29556,7 +29860,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        seal: 2
     },
     {
         name: 'Slurpent',
@@ -29604,7 +29909,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        seal: 7
     },
     {
         name: 'Re-Q-Perate',
@@ -29651,7 +29957,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        seal: 11
     },
     {
         name: 'Princess Pearl',
@@ -29684,7 +29991,7 @@ const yokais = [
         },
         inspirit: {
             name: 'Marine Mysteries',
-            description: 'Raises an ally\'s SPR with deep sea mineral powers!"',
+            description: "Raises an ally's SPR with deep sea mineral powers!",
             power: '0'
         },
         stats: {
@@ -29698,7 +30005,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        seal: 8
     },
     {
         name: 'Asura',
@@ -29746,7 +30054,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        seal: 9
     },
     {
         name: 'Terminyanator',
@@ -29780,7 +30089,7 @@ const yokais = [
         inspirit: {
             name: 'Future Tech',
             description:
-                'All stats go up slightly thanks to technology from the future!"',
+                'All stats go up slightly thanks to technology from the future!',
             power: '0'
         },
         stats: {
@@ -29794,7 +30103,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Supernyan',
@@ -29841,7 +30151,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Hovernyan S',
@@ -29889,7 +30200,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare']
     },
     {
         name: 'Hover. Cao Cao',
@@ -30019,7 +30331,7 @@ const yokais = [
         inspirit: {
             name: 'Disbursement',
             description:
-                'Makes a foe ignore fund management and scatter money sometimes!"',
+                'Makes a foe ignore fund management and scatter money sometimes!',
             power: '0'
         },
         stats: {
@@ -30033,7 +30345,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Urnfulfilled',
@@ -30067,7 +30380,7 @@ const yokais = [
         inspirit: {
             name: 'Defenseless',
             description:
-                'Makes a foe defenseless, which... lowers their DEF, duh!"',
+                'Makes a foe defenseless, which... lowers their DEF, duh!',
             power: '0'
         },
         stats: {
@@ -30081,7 +30394,7 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Sad 2 the Bone',
@@ -30176,7 +30489,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Orcanos Lu Bu',
@@ -30210,7 +30524,7 @@ const yokais = [
         inspirit: {
             name: 'Indomitable Ire',
             description:
-                'Raises an ally\'s STR with a peerless display of power!"',
+                "Raises an ally's STR with a peerless display of power!",
             power: '0'
         },
         stats: {
@@ -30250,7 +30564,7 @@ const yokais = [
         soultime: {
             name: 'Cut of Nine Tails',
             description:
-                'Shoots off a series of tail beams that can hit anywhere!"',
+                'Shoots off a series of tail beams that can hit anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -30271,10 +30585,11 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['rare', "'merican"]
     },
     {
-        name: 'Ult. Robonyan',
+        name: 'Ultimate Robonyan',
         yokaiNumber: '630',
         bossNumber: '000',
         image:
@@ -30319,7 +30634,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Molar Petite',
@@ -30442,7 +30758,7 @@ const yokais = [
         soultime: {
             name: 'Sweetheart',
             description:
-                'Her girly charm wins the hearts of allies and restores their HP too!"',
+                'Her girly charm wins the hearts of allies and restores their HP too!',
             power: '90 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -30464,7 +30780,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ['rare']
     },
     {
         name: 'Koalanyan',
@@ -30490,7 +30807,7 @@ const yokais = [
         soultime: {
             name: 'Two World Beam',
             description:
-                'Damages foes in range with a beam that could change the world!"',
+                'Damages foes in range with a beam that could change the world!',
             power: '160 to 320',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -30498,7 +30815,7 @@ const yokais = [
         inspirit: {
             name: 'Dramatize',
             description:
-                'Messes with reality, raising all of an ally\'s stats a little!"',
+                "Messes with reality, raising all of an ally's stats a little!",
             power: '0'
         },
         stats: {
@@ -30512,7 +30829,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare']
     },
     {
         name: 'Jibanyan T',
@@ -30560,7 +30878,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Chocobars'
+        favouriteFood: 'Chocobars',
+        type: ['rare']
     },
     {
         name: 'Komasan T',
@@ -30608,7 +30927,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare']
     },
     {
         name: 'Eggcelency',
@@ -30634,7 +30954,7 @@ const yokais = [
         soultime: {
             name: "Yolk's on You",
             description:
-                'Egg is quite literally on the face of anyone these yolks randomly hit!"',
+                'Egg is quite literally on the face of anyone these yolks randomly hit!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -30656,7 +30976,8 @@ const yokais = [
         element: 'Restoration',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['rare']
     },
     {
         name: 'Deadcool',
@@ -30681,7 +31002,7 @@ const yokais = [
         },
         soultime: {
             name: 'Deadly Deadeye',
-            description: 'Slices foes in range faster than the eye can see!"',
+            description: 'Slices foes in range faster than the eye can see!',
             power: '190 to 285 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
@@ -30703,7 +31024,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ["'merican"]
     },
     {
         name: 'Sweattuce',
@@ -30737,7 +31059,7 @@ const yokais = [
         inspirit: {
             name: 'Lively Lettuce',
             description:
-                'All of an ally\'s stats are boosted by the power of fresh lettuce!"',
+                "All of an ally's stats are boosted by the power of fresh lettuce!",
             power: '0'
         },
         stats: {
@@ -30752,7 +31074,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Vegetables',
-        evolutionIndexes: [73]
+        evolutionIndexes: [73],
+        type: ['rare', "'merican"]
     },
     {
         name: 'Mr Blue-Shy',
@@ -30848,7 +31171,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [115]
+        evolutionIndexes: [115],
+        type: ['rare', "'merican"]
     },
     {
         name: 'Ulteria',
@@ -30943,7 +31267,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare', "'merican"]
     },
     {
         name: "Sunk'nsoul",
@@ -30990,7 +31315,7 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Crummy Mum.',
@@ -31024,7 +31349,7 @@ const yokais = [
         inspirit: {
             name: 'Crummy Curse',
             description:
-                'A mummy\'s curse confuses a foe into attacking their own allies!"',
+                "A mummy's curse confuses a foe into attacking their own allies!",
             power: '0'
         },
         stats: {
@@ -31041,7 +31366,7 @@ const yokais = [
         favouriteFood: 'Sobas'
     },
     {
-        name: 'Kaped Koma.',
+        name: 'Kaped Komander',
         yokaiNumber: '646',
         bossNumber: '000',
         image:
@@ -31086,7 +31411,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Tofupyon',
@@ -31120,7 +31446,7 @@ const yokais = [
         inspirit: {
             name: "Darn Tofootin'",
             description:
-                'The nutritious benefits of tofu boost all of an ally\'s stats a little!"',
+                "The nutritious benefits of tofu boost all of an ally's stats a little!",
             power: '0'
         },
         stats: {
@@ -31134,7 +31460,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Ed Zoff',
@@ -31182,10 +31509,11 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['classic']
     },
     {
-        name: 'Gorgeous Amb.',
+        name: 'Gorgeous Ambassador',
         yokaiNumber: '649',
         bossNumber: '000',
         image:
@@ -31230,7 +31558,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['rare', "'merican"]
     },
     {
         name: 'Hinozall',
@@ -31264,7 +31593,7 @@ const yokais = [
         inspirit: {
             name: 'That Eureka Moment',
             description:
-                'Makes an ally shine with such a brilliance that all its stats go up!"',
+                'Makes an ally shine with such a brilliance that all its stats go up!',
             power: '0'
         },
         stats: {
@@ -31278,7 +31607,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['rare']
     },
     {
         name: 'Zazel',
@@ -31312,7 +31642,7 @@ const yokais = [
         inspirit: {
             name: 'Arrest Momentum',
             description:
-                'Mighty magic powers bind the Yo-kai so badly it can\'t move!"',
+                "Mighty magic powers bind the Yo-kai so badly it can't move!",
             power: '0'
         },
         stats: {
@@ -31326,7 +31656,8 @@ const yokais = [
         element: 'Drain',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        type: ['rare']
     },
     {
         name: 'Procrastino.',
@@ -31425,7 +31756,7 @@ const yokais = [
         favouriteFood: 'Hot Dogs'
     },
     {
-        name: 'J. Ne-Sais-Quoi',
+        name: 'Jeanne Ne-Sais-Quoi',
         yokaiNumber: '654',
         bossNumber: '000',
         image:
@@ -31469,7 +31800,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        type: ['rare']
     },
     {
         name: 'Whi. Kongming',
@@ -31517,7 +31849,7 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Soft creams'
+        favouriteFood: 'Ice creams'
     },
     {
         name: 'Jurojin',
@@ -31551,7 +31883,7 @@ const yokais = [
         inspirit: {
             name: "Jurojin's Curse",
             description:
-                'Jurojin\'s curse strikes the foe, gradually decreasing their HP!"',
+                "Jurojin's curse strikes the foe, gradually decreasing their HP!",
             power: '0'
         },
         stats: {
@@ -31565,7 +31897,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Ramens'
+        favouriteFood: 'Ramens',
+        type: ['rare']
     },
     {
         name: 'Fukurokuju',
@@ -31599,7 +31932,7 @@ const yokais = [
         inspirit: {
             name: "Fukurokuju's Favor",
             description:
-                'Fukurokuju serenades an ally and gradually restores their HP!"',
+                'Fukurokuju serenades an ally and gradually restores their HP!',
             power: '0'
         },
         stats: {
@@ -31613,7 +31946,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['rare']
     },
     {
         name: 'Sarchopha.',
@@ -31757,7 +32091,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Comic Genieus',
@@ -31805,7 +32139,7 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Bastnetnyan',
@@ -31948,7 +32282,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ["'merican legendary"]
     },
     {
         name: 'Teducator',
@@ -31996,7 +32331,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        type: ["'merican legendary"]
     },
     {
         name: 'Gentlemutt',
@@ -32044,7 +32380,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ["'merican legendary"]
     },
     {
         name: 'City Licker',
@@ -32093,7 +32430,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ["'merican legendary"]
     },
     {
         name: 'Whyvern King',
@@ -32119,7 +32457,7 @@ const yokais = [
         soultime: {
             name: 'Frigid Fist',
             description:
-                'Why, what is this wonder of frosty power blasting foes in range?"',
+                'Why, what is this wonder of frosty power blasting foes in range?',
             power: '200 to 300',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -32141,7 +32479,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        seal: 10
     },
     {
         name: 'Lord Enma',
@@ -32175,7 +32514,7 @@ const yokais = [
         inspirit: {
             name: "Lord Enma's Favor",
             description:
-                'By the order of Lord Enma, the Inspirited Yo-kai\'s stats rise!"',
+                "By the order of Lord Enma, the Inspirited Yo-kai's stats rise!",
             power: '0'
         },
         stats: {
@@ -32189,10 +32528,11 @@ const yokais = [
         element: 'Fire',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        type: ['rare']
     },
     {
-        name: 'Rgt. Zazel',
+        name: 'Righteous Zazel',
         yokaiNumber: '670',
         bossNumber: '000',
         image:
@@ -32237,10 +32577,11 @@ const yokais = [
         element: 'Restoration',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['deva']
     },
     {
-        name: 'Hinozall Awk.',
+        name: 'Hinozall Awoken',
         yokaiNumber: '671',
         bossNumber: '000',
         image:
@@ -32271,7 +32612,7 @@ const yokais = [
         inspirit: {
             name: 'That Eureka Moment',
             description:
-                'Makes an ally shine with such a brilliance that all its stats go up!"',
+                'Makes an ally shine with such a brilliance that all its stats go up!',
             power: '0'
         },
         stats: {
@@ -32285,7 +32626,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['deva']
     },
     {
         name: 'Ancient Enma',
@@ -32311,7 +32653,7 @@ const yokais = [
         soultime: {
             name: 'Wrathful Judgment',
             description:
-                'His harsh fist descends upon those in range who dare defy him!"',
+                'His harsh fist descends upon those in range who dare defy him!',
             power: '190 to 190',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
@@ -32332,10 +32674,11 @@ const yokais = [
         element: 'Fire',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        type: ['deva']
     },
     {
-        name: 'Enma Awk.',
+        name: 'Enma Awoken',
         yokaiNumber: '673',
         bossNumber: '000',
         image:
@@ -32379,7 +32722,8 @@ const yokais = [
         element: 'Lightning',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['deva']
     },
     {
         name: 'The Boracle',
@@ -32473,7 +32817,7 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis'
     },
     {
         name: 'Cymbalina',
@@ -32520,7 +32864,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['classic']
     },
     {
         name: 'Mumbles',
@@ -32545,8 +32890,7 @@ const yokais = [
         },
         soultime: {
             name: 'Final Ferocity',
-            description:
-                'Rouses himself to stand guard. DEF goes way, way up!"',
+            description: 'Rouses himself to stand guard. DEF goes way, way up!',
             power: '0',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
@@ -32554,7 +32898,7 @@ const yokais = [
         inspirit: {
             name: 'Breathe In...',
             description:
-                'Enlightens an ally on the secret of defense. DEF of course rises!"',
+                'Enlightens an ally on the secret of defense. DEF of course rises!',
             power: '0'
         },
         stats: {
@@ -32568,7 +32912,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['classic']
     },
     {
         name: 'Roary',
@@ -32602,7 +32947,7 @@ const yokais = [
         inspirit: {
             name: 'Breathe Out!',
             description:
-                'Enlightens an ally on the secret of offense. STR rises!"',
+                'Enlightens an ally on the secret of offense. STR rises!',
             power: '0'
         },
         stats: {
@@ -32616,7 +32961,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['classic']
     },
     {
         name: 'Letsbifrenz',
@@ -32642,7 +32988,7 @@ const yokais = [
         soultime: {
             name: 'Caw-Cawpse Breath',
             description:
-                'Spits sinister flames at the column in front but burns foes in range too!"',
+                'Spits sinister flames at the column in front but burns foes in range too!',
             power: '60 to 60',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -32664,7 +33010,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['classic']
     },
     {
         name: "Wack o' Lantern",
@@ -32690,7 +33037,7 @@ const yokais = [
         soultime: {
             name: 'Lava Lamp',
             description:
-                'Casts malicious flames at the column in front but burns foes in range too!"',
+                'Casts malicious flames at the column in front but burns foes in range too!',
             power: '110 to 220',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -32711,7 +33058,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['classic']
     },
     {
         name: 'Moolinda',
@@ -32759,7 +33107,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        type: ['rare', 'classic']
     },
     {
         name: 'Neighthan',
@@ -32807,7 +33156,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['rare', 'classic']
     },
     {
         name: 'Big Fish',
@@ -32855,7 +33205,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['rare']
     },
     {
         name: 'Alpina',
@@ -32903,7 +33254,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ['rare']
     },
     {
         name: 'Lunie',
@@ -32929,7 +33281,7 @@ const yokais = [
         soultime: {
             name: 'Lunar Landings',
             description:
-                'Decides to summon random moon rocks that can hit anywhere and anyone!"',
+                'Decides to summon random moon rocks that can hit anywhere and anyone!',
             power: '155 to 232 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
@@ -32951,7 +33303,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'pizza'
+        favouriteFood: 'Pizzas',
+        type: ['rare']
     },
     {
         name: 'Blizzie',
@@ -33094,7 +33447,8 @@ const yokais = [
         element: 'Fire',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        type: ['deva']
     },
     {
         name: 'Infinite Enma',
@@ -33120,7 +33474,7 @@ const yokais = [
         soultime: {
             name: 'Space-Time Surge',
             description:
-                'Bends time and space to damage all foes and hold them in place!"',
+                'Bends time and space to damage all foes and hold them in place!',
             power: '30 to 45 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
@@ -33141,7 +33495,8 @@ const yokais = [
         element: 'Lightning',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        type: ['deva']
     },
     {
         name: 'Umbral Enma',
@@ -33168,7 +33523,7 @@ const yokais = [
         soultime: {
             name: 'Annihilator',
             description:
-                'Expels umbral energy that ANNIHILATES anyone in the column in front!"',
+                'Expels umbral energy that ANNIHILATES anyone in the column in front!',
             power: '190 to 285 ',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
@@ -33186,10 +33541,11 @@ const yokais = [
             spd: '210'
         },
         tribe: 'Enma',
-        element: 'Wind',
+        element: 'Drain',
         weakness: '-',
         rank: 's',
-        favouriteFood: 'sukiyaki'
+        favouriteFood: 'Sukiyakis',
+        type: ['deva']
     },
     {
         name: 'Indiana Jaws',
@@ -33358,7 +33714,7 @@ const yokais = [
         soultime: {
             name: 'Pacifier Power',
             description:
-                'Pacifier power doesn\'t suck! Instead it restores HP to all allies!"',
+                "Pacifier power doesn't suck! Instead it restores HP to all allies!",
             power: '90 to 180',
             soultimeRangeImage:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'

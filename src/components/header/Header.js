@@ -1,29 +1,51 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { withRouter } from 'react-router';
 import Container from './style';
 
-const getHeader = gameVersion => {
-    if (document.location.hash.match(`/yokai-watch-${gameVersion}/`))
-        return document.location.hash
-            .split('/')[2]
-            .replace('%20', ' ')
-            .replace('%20', ' ')
-            .replace('%20', ' ')
-            .replace('_boss', '');
-    return 'Yokaidex';
-};
+function Header({ onSetSidebarOpen, gameVersion, history }) {
+    const goBack = () => {
+        if (history.length > 2) {
+            history.goBack();
+        } else {
+            history.push(`/yokai-watch-${gameVersion}`);
+        }
+    };
 
-function Header(props) {
-    const { onSetSidebarOpen, gameVersion, history } = props;
+    const matchDeepLocations = () => {
+        return (
+            history.location.pathname.match(`/yokais/`) ||
+            history.location.pathname.match(`/items/`) ||
+            history.location.pathname.match(`/equipments/`)
+        );
+    };
+
+    const getHeaderText = () => {
+        if (matchDeepLocations()) {
+            return history.location.pathname
+                .split('/')[3]
+                .replace('%20', ' ')
+                .replace('%20', ' ')
+                .replace('%20', ' ')
+                .replace('_boss', '');
+        }
+
+        if (history.location.pathname.match(`/yokai-watch-${gameVersion}/`))
+            return history.location.pathname
+                .split('/')[2]
+                .replace('%20', ' ')
+                .replace('%20', ' ')
+                .replace('%20', ' ')
+                .replace('_boss', '');
+
+        return 'Yokaidex';
+    };
 
     return (
         <Container>
-            {document.location.hash.match(`/yokai-watch-${gameVersion}/`) ? (
+            {matchDeepLocations() ? (
                 <div>
-                    <div role="presentation" onClick={history.goBack}>
+                    <div role="presentation" onClick={goBack}>
                         <FontAwesomeIcon icon="arrow-left" />
                     </div>
                 </div>
@@ -33,7 +55,7 @@ function Header(props) {
                 </div>
             )}
             <div>
-                <h1>{getHeader(gameVersion)}</h1>
+                <h1>{getHeaderText(gameVersion)}</h1>
             </div>
         </Container>
     );

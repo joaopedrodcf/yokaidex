@@ -15,6 +15,14 @@ import yokaisGame3 from './mocks/yokai-watch-3/yokais';
 import baffleBoardYW2 from './mocks/yokai-watch-2/baffle-boards';
 import baffleBoardYW3 from './mocks/yokai-watch-3/baffle-boards';
 
+import items1 from './mocks/yokai-watch-1/items';
+import items2 from './mocks/yokai-watch-2/items';
+import items3 from './mocks/yokai-watch-3/items';
+
+import equipments1 from './mocks/yokai-watch-1/equipments';
+import equipments2 from './mocks/yokai-watch-2/equipments';
+import equipments3 from './mocks/yokai-watch-3/equipments';
+
 const getBaffleBoard = gameVersion => {
     switch (gameVersion) {
         case '2':
@@ -37,6 +45,28 @@ const getYokais = gameVersion => {
     }
 };
 
+const getItems = gameVersion => {
+    switch (gameVersion) {
+        case '1':
+            return items1;
+        case '2':
+            return items2;
+        default:
+            return items3;
+    }
+};
+
+const getEquipments = gameVersion => {
+    switch (gameVersion) {
+        case '1':
+            return equipments1;
+        case '2':
+            return equipments2;
+        default:
+            return equipments3;
+    }
+};
+
 class App extends Component {
     constructor(props) {
         super(props);
@@ -48,11 +78,19 @@ class App extends Component {
             sidebarOpen: false,
             gameVersion,
             yokais: getYokais(gameVersion),
-            baffleBoard: getBaffleBoard(gameVersion)
+            baffleBoard: getBaffleBoard(gameVersion),
+            items: getItems(gameVersion),
+            equipments: getEquipments(gameVersion),
+            tribe: [],
+            rank: [],
+            element: [],
+            misc: []
         };
 
         this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
         this.changeGameVersion = this.changeGameVersion.bind(this);
+        this.handleCheckbox = this.handleCheckbox.bind(this);
+        this.handleResetFilter = this.handleResetFilter.bind(this);
     }
 
     onSetSidebarOpen() {
@@ -66,14 +104,52 @@ class App extends Component {
 
         const yokais = getYokais(gameVersion);
         const baffleBoard = getBaffleBoard(gameVersion);
+        const items = getItems(gameVersion);
+        const equipments = getEquipments(gameVersion);
 
-        this.setState({ gameVersion, yokais, baffleBoard }, () => {
-            history.push(`/yokai-watch-${gameVersion}`);
-        });
+        this.setState(
+            { gameVersion, yokais, baffleBoard, items, equipments },
+            () => {
+                history.push(`/yokai-watch-${gameVersion}`);
+            }
+        );
+    }
+
+    handleResetFilter() {
+        this.setState({ tribe: [], rank: [], element: [], misc: [] });
+    }
+
+    handleCheckbox(event) {
+        const { checked } = event.target;
+        const checkboxtype = event.target.getAttribute('data-checkbox-type');
+        const nameLowerCase = event.target.name.toLowerCase();
+
+        if (checked) {
+            this.setState(state => ({
+                [checkboxtype]: [...state[checkboxtype], nameLowerCase]
+            }));
+        } else {
+            this.setState(state => ({
+                [checkboxtype]: state[checkboxtype].filter(
+                    element => element !== nameLowerCase
+                )
+            }));
+        }
     }
 
     render() {
-        const { sidebarOpen, gameVersion, yokais, baffleBoard } = this.state;
+        const {
+            sidebarOpen,
+            gameVersion,
+            yokais,
+            baffleBoard,
+            items,
+            equipments,
+            tribe,
+            rank,
+            element,
+            misc
+        } = this.state;
         const sidebar = (
             <SCSidebar
                 changeGameVersion={this.changeGameVersion}
@@ -106,6 +182,14 @@ class App extends Component {
                         gameVersion={gameVersion}
                         baffleBoard={baffleBoard}
                         yokais={yokais}
+                        items={items}
+                        equipments={equipments}
+                        handleResetFilter={this.handleResetFilter}
+                        handleCheckbox={this.handleCheckbox}
+                        tribe={tribe}
+                        rank={rank}
+                        element={element}
+                        misc={misc}
                     />
                 </Sidebar>
             </>

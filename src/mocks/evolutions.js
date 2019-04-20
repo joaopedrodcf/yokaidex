@@ -382,7 +382,7 @@ const evolutions = [
         type: 'fusion',
         withItems: true,
         item: {
-            name: 'Legendary blade',
+            name: 'Legendary Blade',
             image:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/legendary_blade.png'
         },
@@ -426,7 +426,7 @@ const evolutions = [
         type: 'fusion',
         withItems: true,
         item: {
-            name: 'Holy blade',
+            name: 'Holy Blade',
             image:
                 'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/holy_blade.png'
         },
@@ -512,7 +512,7 @@ const evolutions = [
             {
                 name: 'Too-Much-To-Take',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/too-much-to-take.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/2-much-2-take.png'
             }
         ]
     },
@@ -2165,7 +2165,7 @@ const evolutions = [
         item: {
             name: 'Cursed Journal',
             image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/cursed_journal.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1552171966/Yokai/items/cursed_journal.png'
         },
         yokais: [
             {
@@ -2398,7 +2398,7 @@ const evolutions = [
             {
                 name: 'T-Wrecks',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/t-wrecks.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/t-wrecks.png'
             },
             {
                 name: 'D-Stroy',
@@ -2420,7 +2420,7 @@ const evolutions = [
             {
                 name: 'Lady Longnek',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/lady_longnek.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lady_longnek.png'
             },
             {
                 name: 'Wrongnek',
