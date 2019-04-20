@@ -869,7 +869,8 @@ const items = [
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [0]
     },
     {
         name: 'Yellow Coin',
@@ -888,7 +889,8 @@ const items = [
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [1]
     },
     {
         name: 'Orange Coin',
@@ -907,7 +909,8 @@ const items = [
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [2]
     },
     {
         name: 'Pink Coin',
@@ -926,7 +929,8 @@ const items = [
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [3]
     },
     {
         name: 'Green Coin',
@@ -945,7 +949,8 @@ const items = [
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [4]
     },
     {
         name: 'Blue Coin',
@@ -964,7 +969,8 @@ const items = [
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [5]
     },
     {
         name: 'Purple Coin',
@@ -984,7 +990,8 @@ const items = [
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [6]
     },
     {
         name: 'Light Blue Coin',
@@ -1002,7 +1009,8 @@ const items = [
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [7]
     },
     {
         name: 'Sapphire Coin',
@@ -1068,7 +1076,8 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [8]
     },
     {
         name: 'Five-Star Coin',
@@ -1079,7 +1088,8 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [9]
     },
     {
         name: 'Special Coin',
@@ -1090,7 +1100,8 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [10]
     },
     {
         name: 'Dancing Star',

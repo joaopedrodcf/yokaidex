@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { withRouter } from 'react-router';
 import {
@@ -9,10 +9,18 @@ import {
     STableText,
     STableTitle,
     SLabel,
-    SLabelText
+    SLabelText,
+    ContainerSeal,
+    SealElements,
+    Label
 } from './style';
 import Image from '../../components/shared/image';
-import { withGameVersionContext, withItemsContext } from '../../store';
+import {
+    withGameVersionContext,
+    withItemsContext,
+    withCrankakaisContext
+} from '../../store';
+import utils from '../../components/utils';
 
 const hasStatsInfo = statsInfo =>
     Object.keys(statsInfo).some(key => statsInfo[key] !== '0');
@@ -155,6 +163,204 @@ class ItemCard extends Component {
                                 </STableText>
                             </STable>
                         </Sections>
+
+                        {item.crankakaiIndexes &&
+                            context.gameVersion !== '3' &&
+                            context
+                                .getCrankakai(item.crankakaiIndexes)
+                                .map(crankItem => (
+                                    <>
+                                        <Sections>
+                                            <Label color="#e1bee7">
+                                                Crank-a-kai{' '}
+                                                {crankItem.variation}
+                                            </Label>
+                                            <STable>
+                                                <STableTitle color="#e1bee7">
+                                                    Prize
+                                                </STableTitle>
+                                                <ContainerSeal>
+                                                    {crankItem.elements.map(
+                                                        (prize, index) => (
+                                                            <SealElements>
+                                                                <Link
+                                                                    key={index}
+                                                                    to={`/yokai-watch-${
+                                                                        context.gameVersion
+                                                                    }/${
+                                                                        prize.type
+                                                                    }/${utils.uniformizeNames(
+                                                                        prize.name
+                                                                    )}`}
+                                                                >
+                                                                    <Image
+                                                                        imageUrl={
+                                                                            prize.image
+                                                                        }
+                                                                        altText=""
+                                                                        size="medium"
+                                                                    />
+                                                                    {prize.name}
+                                                                </Link>
+                                                            </SealElements>
+                                                        )
+                                                    )}
+                                                </ContainerSeal>
+                                            </STable>
+                                        </Sections>
+                                    </>
+                                ))}
+
+                        {item.crankakaiIndexes &&
+                            context.gameVersion === '3' &&
+                            context
+                                .getCrankakai(item.crankakaiIndexes)
+                                .map(crankItem => (
+                                    <>
+                                        <Sections>
+                                            <Label color="#e1bee7">
+                                                Crank-a-kai
+                                                {crankItem.variation}
+                                            </Label>
+                                            <STable>
+                                                <STableTitle color="#e1bee7">
+                                                    First prize
+                                                </STableTitle>
+                                                <ContainerSeal>
+                                                    {crankItem.first_prize.map(
+                                                        (prize, index) => (
+                                                            <SealElements>
+                                                                <Link
+                                                                    key={index}
+                                                                    to={`/yokai-watch-${
+                                                                        context.gameVersion
+                                                                    }/${
+                                                                        prize.type
+                                                                    }/${utils.uniformizeNames(
+                                                                        prize.name
+                                                                    )}`}
+                                                                >
+                                                                    <Image
+                                                                        imageUrl={
+                                                                            prize.image
+                                                                        }
+                                                                        altText=""
+                                                                        size="medium"
+                                                                    />
+                                                                    {prize.name}
+                                                                </Link>
+                                                            </SealElements>
+                                                        )
+                                                    )}
+                                                </ContainerSeal>
+                                            </STable>
+                                        </Sections>
+                                        <Sections>
+                                            <STable>
+                                                <STableTitle color="#e1bee7">
+                                                    Second prize
+                                                </STableTitle>
+
+                                                <ContainerSeal>
+                                                    {crankItem.second_prize.map(
+                                                        (prize, index) => (
+                                                            <SealElements>
+                                                                <Link
+                                                                    key={index}
+                                                                    to={`/yokai-watch-${
+                                                                        context.gameVersion
+                                                                    }/${
+                                                                        prize.type
+                                                                    }/${utils.uniformizeNames(
+                                                                        prize.name
+                                                                    )}`}
+                                                                >
+                                                                    <Image
+                                                                        imageUrl={
+                                                                            prize.image
+                                                                        }
+                                                                        altText=""
+                                                                        size="medium"
+                                                                    />
+                                                                    {prize.name}
+                                                                </Link>
+                                                            </SealElements>
+                                                        )
+                                                    )}
+                                                </ContainerSeal>
+                                            </STable>
+                                        </Sections>
+                                        <Sections>
+                                            <STable>
+                                                <STableTitle color="#e1bee7">
+                                                    Third prize
+                                                </STableTitle>
+
+                                                <ContainerSeal>
+                                                    {crankItem.third_prize.map(
+                                                        (prize, index) => (
+                                                            <SealElements>
+                                                                <Link
+                                                                    key={index}
+                                                                    to={`/yokai-watch-${
+                                                                        context.gameVersion
+                                                                    }/${
+                                                                        prize.type
+                                                                    }/${utils.uniformizeNames(
+                                                                        prize.name
+                                                                    )}`}
+                                                                >
+                                                                    <Image
+                                                                        imageUrl={
+                                                                            prize.image
+                                                                        }
+                                                                        altText=""
+                                                                        size="medium"
+                                                                    />
+                                                                    {prize.name}
+                                                                </Link>
+                                                            </SealElements>
+                                                        )
+                                                    )}
+                                                </ContainerSeal>
+                                            </STable>
+                                        </Sections>
+                                        <Sections>
+                                            <STable>
+                                                <STableTitle color="#e1bee7">
+                                                    Default prize
+                                                </STableTitle>
+                                                <ContainerSeal>
+                                                    {crankItem.default_prize.map(
+                                                        (prize, index) => (
+                                                            <SealElements>
+                                                                <Link
+                                                                    key={index}
+                                                                    to={`/yokai-watch-${
+                                                                        context.gameVersion
+                                                                    }/${
+                                                                        prize.type
+                                                                    }/${utils.uniformizeNames(
+                                                                        prize.name
+                                                                    )}`}
+                                                                >
+                                                                    <Image
+                                                                        imageUrl={
+                                                                            prize.image
+                                                                        }
+                                                                        altText=""
+                                                                        size="medium"
+                                                                    />
+                                                                    {prize.name}
+                                                                </Link>
+                                                            </SealElements>
+                                                        )
+                                                    )}
+                                                </ContainerSeal>
+                                            </STable>
+                                        </Sections>
+                                    </>
+                                ))}
                     </Container>
                 )}
             </>
@@ -162,4 +368,6 @@ class ItemCard extends Component {
     }
 }
 
-export default withRouter(withGameVersionContext(withItemsContext(ItemCard)));
+export default withRouter(
+    withGameVersionContext(withItemsContext(withCrankakaisContext(ItemCard)))
+);

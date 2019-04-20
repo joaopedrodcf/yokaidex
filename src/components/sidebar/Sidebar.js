@@ -7,6 +7,7 @@ import Twitter from 'react-feather/dist/icons/twitter';
 import Bookmark from 'react-feather/dist/icons/bookmark';
 import Info from 'react-feather/dist/icons/info';
 import Briefcase from 'react-feather/dist/icons/briefcase';
+import Circle from 'react-feather/dist/icons/circle';
 import {
     Container,
     SCHeader,
@@ -22,7 +23,8 @@ import {
     withSidebarContext,
     withYokaisContext,
     withBaffleBoardContext,
-    withItemsContext
+    withItemsContext,
+    withCrankakaisContext
 } from '../../store';
 
 class Sidebar extends Component {
@@ -41,6 +43,7 @@ class Sidebar extends Component {
         context.setYokais(version);
         context.setBaffleBoard(version);
         context.setItems(version);
+        context.setCrankakais(version);
     }
 
     checkIfSelected(version) {
@@ -83,6 +86,13 @@ class Sidebar extends Component {
                             to={`/yokai-watch-${context.gameVersion}/items`}
                         >
                             <Briefcase /> Items
+                        </SCNavLink>
+                        <SCNavLink
+                            to={`/yokai-watch-${
+                                context.gameVersion
+                            }/crank-a-kai`}
+                        >
+                            <Circle /> Crank-a-kai
                         </SCNavLink>
 
                         <SCLink href="https://www.patreon.com/yokaidex">
@@ -134,6 +144,10 @@ class Sidebar extends Component {
 
 export default withGameVersionContext(
     withSidebarContext(
-        withYokaisContext(withBaffleBoardContext(withItemsContext(Sidebar)))
+        withYokaisContext(
+            withBaffleBoardContext(
+                withItemsContext(withCrankakaisContext(Sidebar))
+            )
+        )
     )
 );
