@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Redirect } from 'react-router-dom';
 import { Container, Field, Label, SCTextarea, ButtonArea } from './style';
 import Button from '../shared/button/Button';
 import endpoints from '../../Services/services';
@@ -9,35 +10,65 @@ export default class ContactUs extends Component {
         super();
         this.handleText = this.handleText.bind(this);
         this.state = {
-            name: '',
-            subject: '',
-            email: '',
-            message: ''
+            mail: {
+                name: '',
+                subject: '',
+                email: '',
+                message: ''
+            },
+            redirect: false
         };
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleText(event) {
         this.setState({
-            [event.target.name]: event.target.value
+            mail: {
+                [event.target.name]: event.target.value
+            }
         });
     }
 
     async handleSubmit() {
-        const mail = this.state;
-        const response = await fetch(endpoints.mailEndpoint, {
+        const { mail } = this.state;
+        const endpoint = endpoints.mailEndpoint;
+        await fetch(endpoint, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({ ...mail })
-        });
-
-        console.log(response);
+        })
+            .then(() => {
+                this.setState({
+                    mail: {
+                        name: '',
+                        subject: '',
+                        email: '',
+                        message: ''
+                    },
+                    redirect: true
+                });
+            })
+            .catch(() => {
+                this.setState({
+                    mail: {
+                        name: '',
+                        subject: '',
+                        email: '',
+                        message: ''
+                    },
+                    redirect: false
+                });
+            });
     }
 
     render() {
-        const { name, email, subject, message } = this.state;
+        const { mail, redirect } = this.state;
+        const { name, email, subject, message } = mail;
+        if (redirect) {
+            return <Redirect to="/yokai-watch-:version" />;
+        }
         return (
             <Container>
                 <Field>

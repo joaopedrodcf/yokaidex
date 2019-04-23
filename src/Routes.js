@@ -134,7 +134,7 @@ class Routes extends Component {
                 <Route
                     exact
                     path="/yokai-watch-:version/contact-us"
-                    render={() => <ContactUs />}
+                    render={() => <ContactUs gameVersion={gameVersion} />}
                 />
                 <Route
                     exact
