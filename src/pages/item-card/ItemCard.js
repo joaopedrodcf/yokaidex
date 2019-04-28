@@ -9,7 +9,7 @@ import {
     SLabel,
     SLabelText
 } from './style';
-import Image from '../shared/image';
+import Image from '../../components/shared/image';
 
 const hasStatsInfo = statsInfo =>
     Object.keys(statsInfo).some(key => statsInfo[key] !== '0');

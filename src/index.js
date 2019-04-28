@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-snapshot';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import {
@@ -30,7 +30,7 @@ import {
     faInfoCircle
 } from '@fortawesome/free-solid-svg-icons';
 
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import * as serviceWorker from './serviceWorker';
 import App from './App';
@@ -70,12 +70,12 @@ library.add(
 ReactGA.initialize('UA-134596491-1');
 ReactGA.set({ anonymizeIp: true });
 
-ReactDOM.render(
-    <HashRouter>
+render(
+    <BrowserRouter>
         <ScrollToTop>
             <App />
         </ScrollToTop>
-    </HashRouter>,
+    </BrowserRouter>,
     document.getElementById('root')
 );
 

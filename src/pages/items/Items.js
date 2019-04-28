@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Helmet } from 'react-helmet';
 import { Container, Section, SectionWrapper, SectionText } from './style';
-import Image from '../shared/image';
-import SCInput from '../shared/input';
+import Image from '../../components/shared/image';
+import SCInput from '../../components/shared/input';
 
 class Items extends Component {
     constructor(props) {
