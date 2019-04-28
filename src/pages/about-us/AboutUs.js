@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Container, Row } from './style';
-import GoogleAds from '../shared/google-ads';
+import GoogleAds from '../../components/shared/google-ads';
 
 const AboutUs = () => (
     <Container>

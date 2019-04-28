@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { Helmet } from 'react-helmet';
 import { Container, Table, Row } from './style';
-import Image from '../shared/image';
+import Image from '../../components/shared/image';
 
 class BaffleBoard extends Component {
     goTo(name, tribe = '') {
