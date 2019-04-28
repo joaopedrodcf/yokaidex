@@ -93,13 +93,6 @@ class App extends Component {
         this.handleResetFilter = this.handleResetFilter.bind(this);
     }
 
-    componentDidMount() {
-        (window.adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: 'ca-pub-1259678268318620',
-            enable_page_level_ads: true
-        });
-    }
-
     onSetSidebarOpen() {
         const { sidebarOpen } = this.state;
 
