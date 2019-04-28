@@ -72,7 +72,7 @@ class App extends Component {
         super(props);
 
         const gameVersion =
-            document.location.hash.split('/')[1].split('-')[2] || '3';
+            window.location.pathname.split('/')[1].split('-')[2] || '3';
 
         this.state = {
             sidebarOpen: false,
