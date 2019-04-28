@@ -17,12 +17,12 @@ import {
     CollapsibleFilters,
     SectionImageTitle
 } from './style';
-import Button from '../shared/button';
-import Image from '../shared/image';
-import utils from '../utils';
+import Button from '../../components/shared/button';
+import Image from '../../components/shared/image';
+import utils from '../../components/utils';
 import { elements, ranks, tribes } from '../../mocks';
-import Checkbox from '../shared/checkbox';
-import Input from '../shared/input';
+import Checkbox from '../../components/shared/checkbox';
+import Input from '../../components/shared/input';
 import {
     elements as elementsFilters,
     ranks as ranksfilters,
@@ -115,7 +115,7 @@ class Main extends Component {
 
         if (
             window.innerHeight + window.pageYOffset >
-            this.listref.current.clientHeight
+            this.listref.current.clientHeight - 400
         ) {
             this.setState({ pageNumber: pageNumber + 1 });
         }

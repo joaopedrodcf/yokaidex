@@ -20,9 +20,9 @@ import {
     SealElements
 } from './style';
 import { elements, foods, ranks, tribes, legendarys } from '../../mocks';
-import Image from '../shared/image';
-import utils from '../utils';
-import Evolution from '../evolution';
+import Image from '../../components/shared/image';
+import utils from '../../components/utils';
+import Evolution from '../../components/evolution';
 import maxStats from '../../mocks/max-stats';
 
 const calculatePercentage = (value, max) => {
