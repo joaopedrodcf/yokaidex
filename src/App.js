@@ -8,10 +8,6 @@ import GlobalStyle from './globalStyle';
 
 import SCSidebar from './components/sidebar';
 
-import yokaisGame1 from './mocks/yokai-watch-1/yokais';
-import yokaisGame2 from './mocks/yokai-watch-2/yokais';
-import yokaisGame3 from './mocks/yokai-watch-3/yokais';
-
 import baffleBoardYW2 from './mocks/yokai-watch-2/baffle-boards';
 import baffleBoardYW3 from './mocks/yokai-watch-3/baffle-boards';
 
@@ -34,14 +30,19 @@ const getBaffleBoard = gameVersion => {
     }
 };
 
-const getYokais = gameVersion => {
+const getYokais = async (
+    gameVersion,
+    yokaisGame1,
+    yokaisGame2,
+    yokaisGame3
+) => {
     switch (gameVersion) {
         case '1':
-            return yokaisGame1;
+            return yokaisGame1.default;
         case '2':
-            return yokaisGame2;
+            return yokaisGame2.default;
         default:
-            return yokaisGame3;
+            return yokaisGame3.default;
     }
 };
 
@@ -77,7 +78,7 @@ class App extends Component {
         this.state = {
             sidebarOpen: false,
             gameVersion,
-            yokais: getYokais(gameVersion),
+            yokais: [],
             baffleBoard: getBaffleBoard(gameVersion),
             items: getItems(gameVersion),
             equipments: getEquipments(gameVersion),
@@ -93,16 +94,44 @@ class App extends Component {
         this.handleResetFilter = this.handleResetFilter.bind(this);
     }
 
+    async componentDidMount() {
+        const gameVersion =
+            document.location.hash.split('/')[1].split('-')[2] || '3';
+
+        const yokaisGame1 = await import('./mocks/yokai-watch-1/yokais');
+
+        const yokaisGame2 = await import('./mocks/yokai-watch-2/yokais');
+
+        const yokaisGame3 = await import('./mocks/yokai-watch-3/yokais');
+        const yokais = await getYokais(
+            gameVersion,
+            yokaisGame1,
+            yokaisGame2,
+            yokaisGame3
+        );
+
+        this.setState({ yokais });
+    }
+
     onSetSidebarOpen() {
         const { sidebarOpen } = this.state;
 
         this.setState({ sidebarOpen: !sidebarOpen });
     }
 
-    changeGameVersion(gameVersion) {
+    async changeGameVersion(gameVersion) {
         const { history } = this.props;
+        const yokaisGame1 = await import('./mocks/yokai-watch-1/yokais');
 
-        const yokais = getYokais(gameVersion);
+        const yokaisGame2 = await import('./mocks/yokai-watch-2/yokais');
+
+        const yokaisGame3 = await import('./mocks/yokai-watch-3/yokais');
+        const yokais = getYokais(
+            gameVersion,
+            yokaisGame1,
+            yokaisGame2,
+            yokaisGame3
+        );
         const baffleBoard = getBaffleBoard(gameVersion);
         const items = getItems(gameVersion);
         const equipments = getEquipments(gameVersion);

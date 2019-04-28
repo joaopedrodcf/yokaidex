@@ -2,6 +2,7 @@
     "extends": [
         "joaopedrodcf"
     ],
+    "parser": "babel-eslint",
     "rules": {
         "react/prop-types": [
             0
