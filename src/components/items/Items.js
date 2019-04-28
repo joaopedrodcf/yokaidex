@@ -92,6 +92,7 @@ class Items extends Component {
                                         imageUrl={item.image}
                                         altText={item.name}
                                         size="medium"
+                                        isToLazyLoad
                                     />
                                     <SectionText>{item.name}</SectionText>
                                 </SectionWrapper>
