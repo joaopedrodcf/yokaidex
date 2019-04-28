@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Container, Row } from './style';
-import GoogleAds from '../shared/google-ads';
 
 const AboutUs = () => (
     <Container>
@@ -11,7 +10,6 @@ const AboutUs = () => (
                 from Yo-kai Watch games!
             </title>
         </Helmet>
-        <GoogleAds />
         <Row>
             Yokaidex is a website with information about the games from Level-5:
             Yo-kai watch. All the information gathered here is to be used as a
