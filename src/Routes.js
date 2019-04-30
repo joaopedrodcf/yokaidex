@@ -2,17 +2,17 @@ import React, { Component } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
-import Card from './components/card';
-import Main from './components/main';
-import BaffleBoard from './components/baffle-board';
-import AboutUs from './components/about-us';
-import ContactUs from './components/contact-us/ContactUs';
-import ItemCard from './components/item-card';
-import Items from './components/items';
+import Card from './pages/card';
+import Main from './pages/main';
+import BaffleBoard from './pages/baffle-board';
+import AboutUs from './pages/about-us';
+import ItemCard from './pages/item-card';
+import Items from './pages/items';
+import ContactUs from './components/contact-us';
 
 const history = createHistory();
 history.listen(location => {
-    const page = location.hash.replace('#', '');
+    const page = location.pathname;
 
     ReactGA.set({ page });
     ReactGA.pageview(page);
@@ -37,7 +37,7 @@ const getEquipment = (equipments, name) =>
 
 class Routes extends Component {
     componentDidMount() {
-        const page = window.location.hash.replace('#', '');
+        const page = window.location.pathname;
 
         ReactGA.pageview(page);
     }
