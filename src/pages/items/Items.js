@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import { Container, Section, SectionWrapper, SectionText } from './style';
 import Image from '../../components/shared/image';
 import SCInput from '../../components/shared/input';
+import utils from '../../components/utils';
 
 class Items extends Component {
     constructor(props) {
@@ -83,9 +84,9 @@ class Items extends Component {
                     .map((item, index) => (
                         <Section key={index}>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/${type}/${
+                                to={`/yokai-watch-${gameVersion}/${type}/${utils.uniformizeNames(
                                     item.name
-                                }`}
+                                )}`}
                             >
                                 <SectionWrapper>
                                     <Image

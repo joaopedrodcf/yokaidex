@@ -858,7 +858,7 @@ const items = [
     {
         name: "Bye, Li'l Angel",
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bye,_li_l_angel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bye__li_l_angel.png',
         description:
             'The last book in the "Li\'l Angel" series. So heartwarming!',
         effect: 'Makes a Yo-kai Tender.',

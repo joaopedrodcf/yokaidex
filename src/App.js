@@ -100,19 +100,12 @@ class App extends Component {
     }
 
     changeGameVersion(gameVersion) {
-        const { history } = this.props;
-
         const yokais = getYokais(gameVersion);
         const baffleBoard = getBaffleBoard(gameVersion);
         const items = getItems(gameVersion);
         const equipments = getEquipments(gameVersion);
 
-        this.setState(
-            { gameVersion, yokais, baffleBoard, items, equipments },
-            () => {
-                history.push(`/yokai-watch-${gameVersion}`);
-            }
-        );
+        this.setState({ gameVersion, yokais, baffleBoard, items, equipments });
     }
 
     handleResetFilter() {
