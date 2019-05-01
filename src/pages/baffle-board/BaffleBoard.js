@@ -3,14 +3,15 @@ import { withRouter } from 'react-router';
 import { Helmet } from 'react-helmet';
 import { Container, Table, Row } from './style';
 import Image from '../../components/shared/image';
+import utils from '../../components/utils';
 
 class BaffleBoard extends Component {
-    goTo(name, tribe = '') {
+    goTo(name) {
         const { gameVersion, history } = this.props;
-        let nameUrl = name;
-        if (tribe === 'boss') nameUrl += `_${tribe}`;
 
-        history.push(`/yokai-watch-${gameVersion}/yokais/${nameUrl}`);
+        history.push(
+            `/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(name)}`
+        );
     }
 
     render() {

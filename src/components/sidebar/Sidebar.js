@@ -3,7 +3,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
     Container,
     SCHeader,
-    SCLabel,
     SCSidebar,
     SCNavLink,
     SCLink,
@@ -81,30 +80,28 @@ class Sidebar extends Component {
                     </Sections>
                     <Sections showBorder>
                         <SectionsHeader>Game Version</SectionsHeader>
-                        <SCLabel
-                            selected={this.checkIfSelected(1)}
-                            role="presentation"
+                        <SCNavLink
+                            to="/yokai-watch-1"
                             version="1"
                             onClick={this.handleChangeGameVersion}
                         >
                             <FontAwesomeIcon icon="cat" /> Yo-kai watch 1
-                        </SCLabel>
-                        <SCLabel
-                            selected={this.checkIfSelected(2)}
-                            role="presentation"
+                        </SCNavLink>
+                        <SCNavLink
+                            to="/yokai-watch-2"
                             version="2"
                             onClick={this.handleChangeGameVersion}
                         >
                             <FontAwesomeIcon icon="dog" /> Yo-kai watch 2
-                        </SCLabel>
-                        <SCLabel
+                        </SCNavLink>
+                        <SCNavLink
+                            to="/yokai-watch-3"
                             selected={this.checkIfSelected(3)}
-                            role="presentation"
                             version="3"
                             onClick={this.handleChangeGameVersion}
                         >
                             <FontAwesomeIcon icon="dragon" /> Yo-kai watch 3
-                        </SCLabel>
+                        </SCNavLink>
                     </Sections>
                 </Container>
             </SCSidebar>

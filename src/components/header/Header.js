@@ -2,6 +2,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { withRouter } from 'react-router';
 import Container from './style';
+import utils from '../utils';
 
 function Header({ onSetSidebarOpen, gameVersion, history }) {
     const goBack = () => {
@@ -13,30 +14,21 @@ function Header({ onSetSidebarOpen, gameVersion, history }) {
     };
 
     const matchDeepLocations = () => {
-        return (
-            history.location.pathname.match(`/yokais/`) ||
-            history.location.pathname.match(`/items/`) ||
-            history.location.pathname.match(`/equipments/`)
-        );
+        return history.location.pathname.split('/').length === 4;
     };
 
     const getHeaderText = () => {
         if (matchDeepLocations()) {
-            return history.location.pathname
-                .split('/')[3]
-                .replace('%20', ' ')
-                .replace('%20', ' ')
-                .replace('%20', ' ')
-                .replace('_boss', '');
+            return utils.capitalize(
+                history.location.pathname
+                    .split('/')[3]
+                    .replace(/_/g, ' ')
+                    .replace(/boss/g, '')
+            );
         }
 
-        if (history.location.pathname.match(`/yokai-watch-${gameVersion}/`))
-            return history.location.pathname
-                .split('/')[2]
-                .replace('%20', ' ')
-                .replace('%20', ' ')
-                .replace('%20', ' ')
-                .replace('_boss', '');
+        if (history.location.pathname.split('/').length === 3)
+            return utils.capitalize(history.location.pathname.split('/')[2]);
 
         return 'Yokaidex';
     };

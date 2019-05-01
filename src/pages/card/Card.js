@@ -161,9 +161,9 @@ const Card = ({
                             {legendarys[seal].yokaisToUnlock.map(yokai => (
                                 <SealElements>
                                     <Link
-                                        to={`/yokai-watch-${gameVersion}/yokais/${
+                                        to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                             yokai.name
-                                        }`}
+                                        )}`}
                                     >
                                         <Image
                                             imageUrl={yokai.image}
