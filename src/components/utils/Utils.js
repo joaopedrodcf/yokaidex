@@ -58,6 +58,15 @@ const capitalize = text => {
     return text.charAt(0).toUpperCase() + text.slice(1);
 };
 
+const calculatePercentage = (value, max) => {
+    const percentage = (value / max) * 100;
+    return `${percentage}%`;
+};
+
+const getGameVersion = () => {
+    return window.location.pathname.split('/')[1].split('-')[2] || '3';
+};
+
 export default {
     getColor,
     getSecondaryColor,
@@ -65,5 +74,7 @@ export default {
     getImage,
     getEvolution,
     uniformizeNames,
-    capitalize
+    capitalize,
+    calculatePercentage,
+    getGameVersion
 };

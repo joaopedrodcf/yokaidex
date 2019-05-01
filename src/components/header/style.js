@@ -17,6 +17,7 @@ const Container = styled.div`
 
     div {
         padding: 12px;
+        display: flex;
     }
 
     h1 {

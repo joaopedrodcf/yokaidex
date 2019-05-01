@@ -7,9 +7,9 @@ const items = [
         effect: '',
         locations: [
             'Uptown Springdale',
-            'Uptown Springdale \u2013 Shady Back Alley',
+            'Uptown Springdale – Shady Back Alley',
             'Blossom Heights',
-            'Blossom Heights \u2013 Old Mansion House',
+            'Blossom Heights – Old Mansion House',
             'Whatta Find',
             'Dropped by Frostail',
             'Dropped by Lava Lord',
@@ -21,16 +21,9 @@ const items = [
             'Quest - Super Style!',
             'Quest - A Little Mixed Up'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '9',
-            buy: '30'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '9', buy: '30' },
+        type: 'items'
     },
     {
         name: 'Medium Exporb',
@@ -39,14 +32,14 @@ const items = [
         description: 'Those who touch this orb get the demeanor of a master.',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel West',
+            'Mt. Wildwood – Abandoned Tunnel West',
             'Downtown Springdale',
-            'Downtown Springdale \u2013 Construction Site',
-            "Downtown Springdale \u2013 Behind Frostia's place",
+            'Downtown Springdale – Construction Site',
+            "Downtown Springdale – Behind Frostia's place",
             "Shopper's Row",
-            "Shopper's Row \u2013 Tranquility Apts. \u2013 B\u2013301",
+            "Shopper's Row – Tranquility Apts. – B–301",
             'Whatta Find',
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            'Breezy Hills – Gourd Pond Museum',
             'Springdale Underground Waterway',
             'Dropped by Cutta-nah-nah',
             'Dropped by Blips',
@@ -59,16 +52,9 @@ const items = [
             'Quest - A Little Mixed Up',
             'Quest - Get the Ball Back!'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '150'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '150' },
+        type: 'items'
     },
     {
         name: 'Large Exporb',
@@ -78,11 +64,11 @@ const items = [
             "This orb bestows three lives' worth of EXP at a single touch.",
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Desolate Lane',
-            'Uptown Springdale \u2013 Elementary School',
-            'Yo\u2013kai World \u2013 Entry Hall',
-            'Downtown Springdale \u2013 Construction Site',
-            "Shopper's Row \u2013 Trees",
+            'Uptown Springdale – Desolate Lane',
+            'Uptown Springdale – Elementary School',
+            'Yo–kai World – Entry Hall',
+            'Downtown Springdale – Construction Site',
+            "Shopper's Row – Trees",
             'Whatta Find',
             'Breezy Hills',
             'Dropped by Benkei',
@@ -94,16 +80,9 @@ const items = [
             'Dropped by Venoct',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '81',
-            buy: '540'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '81', buy: '540' },
+        type: 'items'
     },
     {
         name: 'Mega Exporb',
@@ -113,24 +92,17 @@ const items = [
             'Some say you can get a science award just for touching this.',
         effect: '',
         locations: [
-            'Yo\u2013kai World \u2013 Hooligan Road',
-            'Downtown Springdale \u2013 Springdale Business Tower',
+            'Yo–kai World – Hooligan Road',
+            'Downtown Springdale – Springdale Business Tower',
             'Springdale Underground Waterway',
-            'Infinite Inferno \u2013 1st Circle',
+            'Infinite Inferno – 1st Circle',
             'Dropped by McKraken',
             'Dropped by Wobblewok',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '105',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '105', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Holy Exporb',
@@ -140,16 +112,9 @@ const items = [
             'A tiny lizard touched this orb. That tiny lizard is a dinosaur now.',
         effect: '',
         locations: ['Dropped by McKraken', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '140',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '140', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Staminum',
@@ -158,7 +123,7 @@ const items = [
         description: 'This drink lets humans run without getting tired at all!',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Lonely Waterway',
+            'Uptown Springdale – Lonely Waterway',
             'Fortune Hospital',
             'Dropped by Mochismo',
             'Dropped by Minochi',
@@ -169,16 +134,9 @@ const items = [
             'Quest - Mixed-Up Drinks',
             'Quest - Hide-and-Seek'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3,6',
-            buy: '12'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3,6', buy: '12' },
+        type: 'items'
     },
     {
         name: 'Staminum Alpha',
@@ -187,12 +145,12 @@ const items = [
         description: "Staminum Alpha lasts longer than regular ol' Staminum.",
         effect: '',
         locations: [
-            'Yo\u2013kai World \u2013 Entry Hall',
-            'Downtown Springdale \u2013 Springdale Business Tower',
-            'Downtown Springdale \u2013 Construction Site',
+            'Yo–kai World – Entry Hall',
+            'Downtown Springdale – Springdale Business Tower',
+            'Downtown Springdale – Construction Site',
             'Fortune Hospital',
-            'Breezy Hills \u2013 Gourd Pond Museum',
-            'Infinite Inferno \u2013 5th Circle',
+            'Breezy Hills – Gourd Pond Museum',
+            'Infinite Inferno – 5th Circle',
             'Dropped by Cruncha',
             'Dropped by Touphant',
             'Dropped by Goldenyan',
@@ -201,16 +159,9 @@ const items = [
             'Quest - Hide-and-Seek',
             'Quest - Working Hard...ly'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '9',
-            buy: '30'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '9', buy: '30' },
+        type: 'items'
     },
     {
         name: 'Hidden Hits',
@@ -220,12 +171,12 @@ const items = [
         effect: '',
         locations: [
             'Mt. Wildwood',
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            'Yo\u2013kai World \u2013 Liar Mountain',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            'Yo–kai World – Liar Mountain',
             "Shopper's Row",
             'Settle In Bookstore',
-            'Breezy Hills \u2013 Gourd Pond Museum',
-            'Infinite Inferno \u2013 1st Circle',
+            'Breezy Hills – Gourd Pond Museum',
+            'Infinite Inferno – 1st Circle',
             'Dropped by Undy',
             'Dropped by Helmsman',
             'Dropped by Reuknight',
@@ -238,16 +189,9 @@ const items = [
             'Dropped by Gargaros',
             'Quest - Crane-Game Mania'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '40',
-            buy: '200'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '40', buy: '200' },
+        type: 'items'
     },
     {
         name: 'Top Techniques',
@@ -257,13 +201,13 @@ const items = [
             'Give your techniques a boost with this instructional book.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School',
-            'Yo\u2013kai World \u2013 Entry Hall',
+            'Uptown Springdale – Elementary School',
+            'Yo–kai World – Entry Hall',
             'Blossom Heights',
-            'Blossom Heights \u2013 Old Mansion House',
+            'Blossom Heights – Old Mansion House',
             'Settle In Bookstore',
             'Springdale Underground Waterway',
-            'Infinite Inferno \u2013 3rd Circle',
+            'Infinite Inferno – 3rd Circle',
             'Dropped by Baddinyan',
             'Dropped by Enefly',
             'Dropped by Peppillon',
@@ -274,16 +218,9 @@ const items = [
             'Dropped by Hoggles',
             'Dropped by Ogralus'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '40',
-            buy: '200'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '40', buy: '200' },
+        type: 'items'
     },
     {
         name: 'Soul Secrets',
@@ -292,13 +229,13 @@ const items = [
         description: 'A book on the secrets of Soultimate Moves.',
         effect: '',
         locations: [
-            'Yo\u2013kai World \u2013 Hooligan Road',
-            'Downtown Springdale \u2013 Construction Site',
-            "Shopper's Row \u2013 Trees",
+            'Yo–kai World – Hooligan Road',
+            'Downtown Springdale – Construction Site',
+            "Shopper's Row – Trees",
             'Settle In Bookstore',
             'Breezy Hills',
             'Springdale Underground Waterway',
-            'Infinite Inferno \u2013 7-8th Circle',
+            'Infinite Inferno – 7-8th Circle',
             'Dropped by Corptain',
             'Dropped by Beetall',
             'Dropped by Moskevil',
@@ -311,16 +248,9 @@ const items = [
             'Dropped by Squisker',
             'Dropped by Orcanos'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '40',
-            buy: '200'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '40', buy: '200' },
+        type: 'items'
     },
     {
         name: 'A Serious Life',
@@ -330,16 +260,16 @@ const items = [
             'A book about giving life your all. Good for a lazy Yo-kai.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School',
-            'Mt. Wildwood \u2013 Abandoned Tunnel West',
-            'Yo\u2013kai World \u2013 Liar Mountain',
+            'Uptown Springdale – Elementary School',
+            'Mt. Wildwood – Abandoned Tunnel West',
+            'Yo–kai World – Liar Mountain',
             'Downtown Springdale',
-            'Downtown Springdale \u2013 Springdale Business Tower',
-            'Downtown Springdale \u2013 Construction Site',
-            "Shopper's Row \u2013 Trees",
+            'Downtown Springdale – Springdale Business Tower',
+            'Downtown Springdale – Construction Site',
+            "Shopper's Row – Trees",
             'Settle In Bookstore',
             'Springdale Underground Waterway',
-            'Infinite Inferno \u2013 6th Circle',
+            'Infinite Inferno – 6th Circle',
             'Dropped by Cutta-nah',
             'Dropped by Swelterrier',
             "Dropped by Ol' Saint Trick",
@@ -351,16 +281,9 @@ const items = [
             "Quest - The Peon's Poems",
             'Quest - The Test Fraud'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '250'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '250' },
+        type: 'items'
     },
     {
         name: 'Think Karate',
@@ -372,7 +295,7 @@ const items = [
         locations: [
             'Uptown Springdale',
             'Jungle Hunter',
-            'Downtown Springdale \u2013 Delivery Bay',
+            'Downtown Springdale – Delivery Bay',
             'Settle In Bookstore',
             'Springdale Underground Waterway',
             'Dropped by Mochismo',
@@ -381,16 +304,9 @@ const items = [
             'Quest - Officer Slacker',
             'Quest - Voice in the Darkness'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,94',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,94', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'Use Karate',
@@ -401,23 +317,16 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Yo\u2013kai World \u2013 Liar Mountain',
+            'Yo–kai World – Liar Mountain',
             'Settle In Bookstore',
             'Dropped by Pandle',
             'Dropped by Minochi',
             'Dropped by Thornyan',
             'Quest - Voice in the Darkness'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '15',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '15', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Skill Compendium',
@@ -427,23 +336,16 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Blossom Heights \u2013 Tucked Away Lot',
+            'Blossom Heights – Tucked Away Lot',
             'Settle In Bookstore',
             'Dropped by Snotsolong',
             'Dropped by Mircle',
             'Dropped by Swosh',
-            'Quest - Detective Quest \u2460'
+            'Quest - Detective Quest ①'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,94',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,94', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'Skill Encyclopedia',
@@ -454,24 +356,17 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Yo\u2013kai World \u2013 Liar Mountain',
-            'Downtown Springdale \u2013 Construction Site',
+            'Yo–kai World – Liar Mountain',
+            'Downtown Springdale – Construction Site',
             'Settle In Bookstore',
             "Dropped by N'more",
             'Dropped by Papa Bolt',
             'Dropped by Shogunyan',
             'Quest - Unlucky Family'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '15',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '15', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Get Guarding',
@@ -481,7 +376,7 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Downtown Springdale \u2013 Springdale Business Tower',
+            'Downtown Springdale – Springdale Business Tower',
             'Settle In Bookstore',
             'Dropped by Goruma',
             'Dropped by Fidgephant',
@@ -490,16 +385,9 @@ const items = [
             'Quest - Lock It Down',
             'Quest - Song Sung Long'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,94',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,94', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'Guard Gloriously',
@@ -510,8 +398,8 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            'Yo\u2013kai World \u2013 Liar Mountain',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            'Yo–kai World – Liar Mountain',
             'Settle In Bookstore',
             'Springdale Underground Waterway',
             'Dropped by Walldin',
@@ -519,16 +407,9 @@ const items = [
             'Dropped by Abodabat',
             'Quest - Song Sung Long'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '15',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '15', buy: '50' },
+        type: 'items'
     },
     {
         name: "Li'l Angel Heals",
@@ -548,44 +429,30 @@ const items = [
             'Quest - The Too-Visible Girl',
             "Quest - Nat's Pop-Star Mania"
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,94',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,94', buy: '9,8' },
+        type: 'items'
     },
     {
         name: "Bye, Li'l Angel",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bye__li_l_angel.png',
         description:
-            "The last book in the \u201cLi'l Angel\u201d series. So heartwarming!",
+            "The last book in the “Li'l Angel” series. So heartwarming!",
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Yo\u2013kai World \u2013 Liar Mountain',
-            "Shopper's Row \u2013 Trees",
+            'Yo–kai World – Liar Mountain',
+            "Shopper's Row – Trees",
             'Settle In Bookstore',
             'Dropped by Whapir',
             'Dropped by Pinkipoo',
             'Dropped by Happierre',
             'Dropped by Dandoodle'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '15',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '15', buy: '50' },
+        type: 'items'
     },
     {
         name: "The Pest's Quest",
@@ -601,18 +468,11 @@ const items = [
             'Dropped by Rockabelly',
             'Dropped by Nagatha',
             'Dropped by Cynake',
-            'Quest - Detective Quest \u2461'
+            'Quest - Detective Quest ②'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,94',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,94', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'The Perfect Pest',
@@ -623,24 +483,17 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Yo\u2013kai World \u2013 Liar Mountain',
-            'Downtown Springdale \u2013 Construction Site',
+            'Yo–kai World – Liar Mountain',
+            'Downtown Springdale – Construction Site',
             'Settle In Bookstore',
             'Dropped by Lafalotta',
             'Dropped by Negatibuzz',
             'Dropped by Compunzer',
             'Quest - Energyummy'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '15',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '15', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Support Life #7',
@@ -651,7 +504,7 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Downtown Springdale \u2013 Springdale Business Tower',
+            'Downtown Springdale – Springdale Business Tower',
             'Settle In Bookstore',
             'Springdale Underground Waterway',
             'Dropped by Cadable',
@@ -660,16 +513,9 @@ const items = [
             'Dropped by Noko',
             'Quest - School Pranks'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,94',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,94', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'Support Special',
@@ -678,25 +524,18 @@ const items = [
         description: "A digest containing the year's best articles.",
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School',
+            'Uptown Springdale – Elementary School',
             'Jungle Hunter',
-            'Yo\u2013kai World \u2013 Liar Mountain',
+            'Yo–kai World – Liar Mountain',
             'Settle In Bookstore',
             'Dropped by Cadable',
             "Dropped by Ol' Fortune",
             'Dropped by Nird',
             'Quest - Super Style!'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '15',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '15', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Strength Talisman',
@@ -706,7 +545,7 @@ const items = [
         effect: '',
         locations: [
             'Mt. Wildwood Shrine',
-            'Yo\u2013kai World \u2013 Entry Hall',
+            'Yo–kai World – Entry Hall',
             'Blossom Heights',
             'Dropped by Helmsman',
             'Dropped by Reuknight',
@@ -716,16 +555,9 @@ const items = [
             'Dropped by Elder Bloom',
             'Dropped by Gilgaros'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Spirit Talisman',
@@ -735,7 +567,7 @@ const items = [
         effect: '',
         locations: [
             'Mt. Wildwood Shrine',
-            "Shopper's Row \u2013 Tranquility Apts. \u2013 C\u2013303",
+            "Shopper's Row – Tranquility Apts. – C–303",
             'Dropped by Snee',
             'Dropped by Casanono',
             'Dropped by Elloo',
@@ -743,16 +575,9 @@ const items = [
             'Dropped by Cuttincheez',
             'Quest - Comic-Book Caper'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Defense Talisman',
@@ -769,16 +594,9 @@ const items = [
             'Dropped by Castelius I',
             'Quest - The Too-Visible Girl'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Speed Talisman',
@@ -788,7 +606,7 @@ const items = [
         effect: '',
         locations: [
             'Mt. Wildwood Shrine',
-            'Yo\u2013kai World \u2013 Entry Hall',
+            'Yo–kai World – Entry Hall',
             'Dropped by Gleam',
             'Dropped by Dummkap',
             'Dropped by Skelebella',
@@ -798,16 +616,9 @@ const items = [
             'Dropped by Komashura',
             'Quest - Hyper Hide-and-Seek'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Nasty Medicine',
@@ -817,7 +628,7 @@ const items = [
         effect: '',
         locations: [
             'Uptown Springdale',
-            'Uptown Springdale \u2013 Desolate Lane',
+            'Uptown Springdale – Desolate Lane',
             'Jungle Hunter',
             'Blossom Heights',
             'Fortune Hospital',
@@ -833,16 +644,9 @@ const items = [
             'Quest - Working Hard...ly',
             'Quest - Energyummy'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '9',
-            buy: '30'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '9', buy: '30' },
+        type: 'items'
     },
     {
         name: 'Bitter Medicine',
@@ -851,11 +655,11 @@ const items = [
         description: 'This bitter herbal mix will jolt a Yo-kai to its feet.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School',
+            'Uptown Springdale – Elementary School',
             'Jungle Hunter',
-            'Downtown Springdale \u2013 Construction Site',
+            'Downtown Springdale – Construction Site',
             'Fortune Hospital',
-            "Shopper's Row \u2013 Tranquility Apts. \u2013 B\u2013203",
+            "Shopper's Row – Tranquility Apts. – B–203",
             'Dropped by Wazzat',
             "Dropped by Q'wit",
             'Dropped by Kyubi',
@@ -863,16 +667,9 @@ const items = [
             'Dropped by Cheeksqueek',
             "Quest - Ms. Frost's Favor"
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '18',
-            buy: '60'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '18', buy: '60' },
+        type: 'items'
     },
     {
         name: 'Mighty Medicine',
@@ -882,11 +679,11 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            'Yo\u2013kai World \u2013 Hooligan Road',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            'Yo–kai World – Hooligan Road',
             'Fortune Hospital',
-            "Shopper's Row \u2013 Trees",
-            'Infinite Inferno \u2013 3rd Circle',
+            "Shopper's Row – Trees",
+            'Infinite Inferno – 3rd Circle',
             'Dropped by Frostina',
             'Dropped by Grumples',
             'Dropped by Everfore',
@@ -894,16 +691,9 @@ const items = [
             'Dropped by Dandoodle',
             'Dropped by McKraken'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '36',
-            buy: '120'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '36', buy: '120' },
+        type: 'items'
     },
     {
         name: 'Getaway Plush',
@@ -914,12 +704,12 @@ const items = [
         effect: '',
         locations: [
             'Uptown Springdale',
-            'Uptown Springdale \u2013 Lonely Waterway',
+            'Uptown Springdale – Lonely Waterway',
             'Everymart Uptown',
-            'Yo\u2013kai World \u2013 Entry Hall',
-            'Blossom Heights \u2013 Old Mansion House',
+            'Yo–kai World – Entry Hall',
+            'Blossom Heights – Old Mansion House',
             'Everymart Blossom Heights',
-            'Downtown Springdale \u2013 Construction Site',
+            'Downtown Springdale – Construction Site',
             'Everymart Downtown',
             "Everymart Shopper's Row",
             'Everymart Breezy Hills',
@@ -938,16 +728,9 @@ const items = [
             'Dropped by Lamedian',
             'Dropped by Bloominoko'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1,5',
-            buy: '5'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1,5', buy: '5' },
+        type: 'items'
     },
     {
         name: 'Bronze Doll',
@@ -956,9 +739,9 @@ const items = [
         description: 'A bronze doll. It sells for a decent amount of cash.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 The Catwalk',
+            'Uptown Springdale – The Catwalk',
             'Mt. Wildwood',
-            'Blossom Heights \u2013 Old Mansion House',
+            'Blossom Heights – Old Mansion House',
             'Dropped by Dummkap',
             'Dropped by Blowkade',
             'Dropped by Hornaplenty',
@@ -972,16 +755,9 @@ const items = [
             'Quest - Get the Ball Back!',
             'Quest - Shopping Spree'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '20',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '20', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Silver Doll',
@@ -990,10 +766,10 @@ const items = [
         description: 'A cool silver doll. This can be sold for quite a bit.',
         effect: '',
         locations: [
-            'Yo\u2013kai World \u2013 Liar Mountain',
-            "Shopper's Row \u2013 Trees",
+            'Yo–kai World – Liar Mountain',
+            "Shopper's Row – Trees",
             'Breezy Hills',
-            'Hills \u2013 Stone House',
+            'Hills – Stone House',
             'Dropped by Castelius III',
             'Dropped by Castelius Max',
             'Dropped by Baku',
@@ -1005,16 +781,9 @@ const items = [
             'Quest - Get a Rare Model Kit',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '200',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '200', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Golden Doll',
@@ -1023,23 +792,16 @@ const items = [
         description: 'A pure-gold doll that sells for a whole lot of cash.',
         effect: '',
         locations: [
-            'Infinite Inferno \u2013 1st Circle',
+            'Infinite Inferno – 1st Circle',
             'Dropped by Castelius II',
             'Dropped by Robonyan',
             'Dropped by Shrook',
             'Dropped by Chirpster',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '600',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '600', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Fish Bait',
@@ -1048,7 +810,7 @@ const items = [
         description: 'Bait made by Mr. Fischer. This makes it easier to fish.',
         effect: '',
         locations: [
-            'Uptown \u2013 Fish Place',
+            'Uptown – Fish Place',
             'Dropped by Damona',
             'Dropped by Wiglin',
             'Dropped by Coughkoff',
@@ -1060,16 +822,9 @@ const items = [
             'Dropped by Confuze',
             'Dropped by Chummer'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Black Syrup',
@@ -1093,16 +848,9 @@ const items = [
             'Dropped by Betterfly',
             'Dropped by Rollen'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Red Coin',
@@ -1111,24 +859,17 @@ const items = [
         description: 'A bold coin. Use it in the Crank-a-kai!',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School',
-            'Downtown Springdale \u2013 Construction Site',
+            'Uptown Springdale – Elementary School',
+            'Downtown Springdale – Construction Site',
             'Springdale Underground Waterway',
-            'Infinite Inferno \u2013 5th Circle',
-            'Row \u2013 Tranquility Apartments',
+            'Infinite Inferno – 5th Circle',
+            'Row – Tranquility Apartments',
             'Dropped by Eyedra',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Yellow Coin',
@@ -1137,24 +878,17 @@ const items = [
         description: 'A mysterious coin. Use it in the Crank-a-kai.',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            'Downtown Springdale \u2013 Construction Site',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            'Downtown Springdale – Construction Site',
             'Springdale Underground Waterway',
-            'Infinite Inferno \u2013 6th Circle',
-            'Row \u2013 Tranquility Apartments',
+            'Infinite Inferno – 6th Circle',
+            'Row – Tranquility Apartments',
             'Dropped by Hoggles',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Orange Coin',
@@ -1163,24 +897,17 @@ const items = [
         description: 'A hefty coin. Use it in the Crank-a-kai.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School',
+            'Uptown Springdale – Elementary School',
             'Blossom Heights',
-            'Downtown Springdale \u2013 Construction Site',
+            'Downtown Springdale – Construction Site',
             'Springdale Underground Waterway',
-            'Row \u2013 Tranquility Apartments',
+            'Row – Tranquility Apartments',
             'Dropped by Styx Mk.VI',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Pink Coin',
@@ -1189,24 +916,17 @@ const items = [
         description: 'A lovely coin. Use it in the Crank-a-kai.',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            'Downtown Springdale \u2013 Construction Site',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            'Downtown Springdale – Construction Site',
             'Springdale Underground Waterway',
-            'Infinite Inferno \u2013 3rd Circle',
-            'Row \u2013 Tranquility Apartments',
+            'Infinite Inferno – 3rd Circle',
+            'Row – Tranquility Apartments',
             'Dropped by Clipso',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Green Coin',
@@ -1215,24 +935,17 @@ const items = [
         description: 'A warm coin. Use it in the Crank-a-kai.',
         effect: '',
         locations: [
-            'Blossom Heights \u2013 Old Mansion House',
-            "Shopper's Row \u2013 Trees",
-            "Shopper's Row \u2013 Tranquility Apts. \u2013 C\u2013301",
+            'Blossom Heights – Old Mansion House',
+            "Shopper's Row – Trees",
+            "Shopper's Row – Tranquility Apts. – C–301",
             'Springdale Underground Waterway',
-            'Row \u2013 Tranquility Apartments',
+            'Row – Tranquility Apartments',
             'Dropped by Spooklunk',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Blue Coin',
@@ -1241,24 +954,17 @@ const items = [
         description: 'An unpleasant coin. Use it in the Crank-a-kai.',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel West',
-            'Nocturne Hospital \u2013 2F',
+            'Mt. Wildwood – Abandoned Tunnel West',
+            'Nocturne Hospital – 2F',
             'Springdale Underground Waterway',
-            'Infinite Inferno \u2013 1st Circle',
-            'Row \u2013 Tranquility Apartments',
+            'Infinite Inferno – 1st Circle',
+            'Row – Tranquility Apartments',
             'Dropped by Dr. Nogut',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Purple Coin',
@@ -1267,25 +973,18 @@ const items = [
         description: 'An eerie coin. Use it in the Crank-a-kai.',
         effect: '',
         locations: [
-            'Blossom Heights \u2013 Old Mansion Attic',
-            "Shopper's Row \u2013 Trees",
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            'Blossom Heights – Old Mansion Attic',
+            "Shopper's Row – Trees",
+            'Breezy Hills – Gourd Pond Museum',
             'Springdale Underground Waterway',
-            'Infinite Inferno \u2013 4th Circle',
-            'Row \u2013 Tranquility Apartments',
+            'Infinite Inferno – 4th Circle',
+            'Row – Tranquility Apartments',
             'Dropped by Squisker',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Light Blue Coin',
@@ -1294,23 +993,16 @@ const items = [
         description: 'A slippery coin. Use it in the Crank-a-kai.',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            'Breezy Hills – Gourd Pond Museum',
             'Springdale Underground Waterway',
-            'Row \u2013 Tranquility Apartments',
+            'Row – Tranquility Apartments',
             'Dropped by Wobblewok',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sapphire Coin',
@@ -1319,16 +1011,9 @@ const items = [
         description: 'A special sapphire coin for the Crank-a-kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Emerald Coin',
@@ -1337,16 +1022,9 @@ const items = [
         description: 'A special emerald coin for the Crank-a-kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ruby Coin',
@@ -1355,16 +1033,9 @@ const items = [
         description: 'A special ruby coin for the Crank-a-kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Topaz Coin',
@@ -1373,16 +1044,9 @@ const items = [
         description: 'A special topaz coin for the Crank-a-kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Diamond Coin',
@@ -1391,16 +1055,9 @@ const items = [
         description: 'A special diamond coin for the Crank-a-kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Excitement Coin',
@@ -1409,16 +1066,9 @@ const items = [
         description: 'An exciting coin just for the Crank-a-kai.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Five-Star Coin',
@@ -1427,16 +1077,9 @@ const items = [
         description: 'A special five-star coin for the Crank-a-kai.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Special Coin',
@@ -1445,16 +1088,9 @@ const items = [
         description: 'A special coin for the Crank-a-kai.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Dancing Star',
@@ -1465,11 +1101,11 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Yo\u2013kai World \u2013 Entry Hall',
-            'Blossom Heights \u2013 Hidden Side Street',
-            'Blossom Heights \u2013 Old Mansion Attic',
-            'Downtown Springdale \u2013 Construction Site',
-            "Shopper's Row \u2013 Trees",
+            'Yo–kai World – Entry Hall',
+            'Blossom Heights – Hidden Side Street',
+            'Blossom Heights – Old Mansion Attic',
+            'Downtown Springdale – Construction Site',
+            "Shopper's Row – Trees",
             'Quest - The Invisible Girl',
             'Quest - Out of Step',
             'Quest - Toy Nabber',
@@ -1478,16 +1114,9 @@ const items = [
             'Quest - Rank A Challenge!',
             'Quest - Rank S Challenge!'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Legendary Blade',
@@ -1496,16 +1125,9 @@ const items = [
         description: 'This sword was forged by a master to mete out justice.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Cursed Blade',
@@ -1515,16 +1137,9 @@ const items = [
             'A cursed sword that draws its owner towards a tragic future.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Holy Blade',
@@ -1534,16 +1149,9 @@ const items = [
             "Said to house holy power, this sword's over 10,000 years old!",
         effect: '',
         locations: ['Dropped by Orcanos'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: "General's Soul",
@@ -1553,16 +1161,9 @@ const items = [
             'The spirit of a legendary general. Linked to a particular Yo-kai.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Love Buster',
@@ -1572,16 +1173,9 @@ const items = [
             'This wackily strong weapon can only be used by popular folks.',
         effect: '',
         locations: ['Dropped by Casanuva'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'GHz Orb',
@@ -1590,16 +1184,9 @@ const items = [
         description: 'A ball encasing electric waves. A zap could fry you!',
         effect: '',
         locations: ['Dropped by Signibble'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Unbeatable Soul',
@@ -1609,16 +1196,9 @@ const items = [
             'The spirit of a great warrior. Related to a horned Yo-kai.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Platinum Bar',
@@ -1627,16 +1207,9 @@ const items = [
         description: "A bar of pure platinum. Itk's heavy!",
         effect: '',
         locations: ['Dropped by Castelius I'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Love Scepter',
@@ -1646,16 +1219,9 @@ const items = [
             "Itk's a scepter for a nobleman of love. NOT just a stick.",
         effect: '',
         locations: ['Dropped by Shmoopie'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Glacial Clip',
@@ -1665,16 +1231,9 @@ const items = [
             'A hair clip made of unmelting ice. It houses a lot of power.',
         effect: '',
         locations: ['Terror Time'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Buff Weight',
@@ -1683,16 +1242,9 @@ const items = [
         description: 'Training with this hefty dumbbell will buff you up!',
         effect: '',
         locations: ['Dropped by Ake'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Shard of Evil',
@@ -1702,16 +1254,9 @@ const items = [
             'A dangerous shard that awakens the evil in a timid devil.',
         effect: '',
         locations: ['Terror Time'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Snowstorm Cloak',
@@ -1720,16 +1265,9 @@ const items = [
         description: 'A silvery-white cape for the king of a snowy mountain.',
         effect: '',
         locations: ['Terror Time'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ageless Powder',
@@ -1739,16 +1277,9 @@ const items = [
             "A facial powder made of human souls. Itk'll make you younger.",
         effect: '',
         locations: ['Terror Time'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Drop of Joy',
@@ -1758,16 +1289,9 @@ const items = [
             'A lovely, glowing drop used to grow the flower of happiness.',
         effect: '',
         locations: ['Dropped by Sandi'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '60',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '60', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Dragon Orb',
@@ -1776,16 +1300,9 @@ const items = [
         description: 'An orb of unbelievable beauty and full of dragon energy.',
         effect: '',
         locations: ['Terror Time'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Holy Water',
@@ -1794,16 +1311,9 @@ const items = [
         description: 'Holy water that can make anything squeaky clean.',
         effect: '',
         locations: ['Dropped by Droplette', 'Quest - Talk Like the Wind'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Dingy Scale',
@@ -1813,16 +1323,9 @@ const items = [
             "Itk's too dirty to tell what it really is. Maybe a dragon's scale?",
         effect: '',
         locations: ['Dropped by Dragon Lord', 'Quest - Flower for the Shrine'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Venoct Aura',
@@ -1831,16 +1334,9 @@ const items = [
         description: "A small bottle that holds Venoctk's aura. Shiny!",
         effect: '',
         locations: ['Quest - Bird Collection 2'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Tattered Gauntlet',
@@ -1850,16 +1346,9 @@ const items = [
             'A beat-up gauntlet. It once housed the power of a dragon.',
         effect: '',
         locations: ['Quest - Start the Yo-kai Party!'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Cracked Crystal',
@@ -1868,16 +1357,9 @@ const items = [
         description: "A holy monk's crystal ball. Now shattered and powerless.",
         effect: '',
         locations: ['Dropped by Dragon Lord', 'Quest - Keep the Park Clean!'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Crystal Shard',
@@ -1887,16 +1369,9 @@ const items = [
             'Finding all the crystal ball pieces may restore its power.',
         effect: '',
         locations: ['Dropped by Signiton', 'Quest - The Floating Helmet'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Clenzall',
@@ -1904,17 +1379,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/clenzall.png',
         description: 'A rare detergent that can clean clothes with one drop.',
         effect: '',
-        locations: ['Dropped by Impass', 'Quest - Detective Quest \u2462'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '0'
-        }
+        locations: ['Dropped by Impass', 'Quest - Detective Quest ③'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Yellowed Sash',
@@ -1924,43 +1392,29 @@ const items = [
             'A sash that has yellowed with age. It has a strange power.',
         effect: '',
         locations: ['Dropped by Lamedian', 'Quest - Biggest. Crisis. EVER.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Plain Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/plain_ring.png',
         description:
-            'Just an ordinary ring. If you were to put a jewel in it, though\u2026',
+            'Just an ordinary ring. If you were to put a jewel in it, though…',
         effect: '',
         locations: [
             'Jungle Hunter',
             "Shopper's Row",
-            "Shopper's Row \u2013 Trees",
-            "Shopper's Row \u2013 Tranquility Apts. \u2013 B\u2013201",
+            "Shopper's Row – Trees",
+            "Shopper's Row – Tranquility Apts. – B–201",
             'Whatta Find',
             'Dropped by Mirapo',
             'Quest - Fusion Time!'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '20',
-            buy: '100'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '20', buy: '100' },
+        type: 'items'
     },
     {
         name: 'Blank Charm',
@@ -1971,23 +1425,16 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Blossom Heights \u2013 Old Mansion Attic',
-            "Shopper's Row \u2013 Trees",
+            'Blossom Heights – Old Mansion Attic',
+            "Shopper's Row – Trees",
             'Whatta Find',
             "Dropped by Q'wit",
             'Dropped by Count Cavity',
             'Quest - Fusion Time!'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '20',
-            buy: '100'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '20', buy: '100' },
+        type: 'items'
     },
     {
         name: 'Ruby',
@@ -2007,16 +1454,9 @@ const items = [
             'Dropped by Rubinyan',
             'Quest - Need Ingredients!'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Aquamarine',
@@ -2034,16 +1474,9 @@ const items = [
             'Dropped by Copperled',
             'Quest - Bird Collection 1'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Topaz',
@@ -2058,16 +1491,9 @@ const items = [
             'Dropped by Cynake',
             'Quest - The Lost Earring'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Tourmaline',
@@ -2083,16 +1509,9 @@ const items = [
             'Dropped by Croonger',
             'Quest - Inside Blues'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Opal',
@@ -2111,16 +1530,9 @@ const items = [
             'Dropped by Topanyan',
             'Quest - Fishy Business'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Emerald',
@@ -2139,16 +1551,9 @@ const items = [
             'Dropped by Emenyan',
             'Quest - Sweet Old Man'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     }
 ];
 

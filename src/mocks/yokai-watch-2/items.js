@@ -7,22 +7,15 @@ const items = [
             'A touch of this teeny orb is worth three hours of training.',
         effect: 'Gain 10 EXP.',
         locations: [
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Butterfly Mystery Coin',
+            'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
             'Dropped by Brushido',
             'Dropped by Wotchagot',
             'Dropped by No-Go Kart',
             'Dropped by Tongus'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,2',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,2', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Small Exporb',
@@ -32,26 +25,26 @@ const items = [
         effect: 'Gain 50 EXP.',
         locations: [
             'Uptown Springdale',
-            'Uptown Springdale \u2013 Elementary School 1F',
+            'Uptown Springdale – Elementary School 1F',
             'Breezy Hills',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Butterfly Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
+            'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -69,16 +62,9 @@ const items = [
             'Dropped by Unpleasant',
             'Dropped by Unkeen'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Medium Exporb',
@@ -87,37 +73,37 @@ const items = [
         description: 'Those who touch this orb get the demeanor of a master.',
         effect: 'Gain 500 EXP.',
         locations: [
-            'Mt. Wildwood \u2013 Jumbo Slider',
+            'Mt. Wildwood – Jumbo Slider',
             'Downtown Springdale',
-            'Downtown Springdale \u2013 Springdale Business Tower',
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            'Downtown Springdale – Springdale Business Tower',
+            'Breezy Hills – Gourd Pond Museum',
             'Springdale Underground Waterway',
             'San Fantastico',
             'Harrisville',
-            'Harrisville \u2013 Rice Paddy Path',
+            'Harrisville – Rice Paddy Path',
             'Old Springdale',
-            'Old Springdale \u2013 Well Road',
+            'Old Springdale – Well Road',
             'Old Harrisville',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Boar Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Deer Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Butterfly Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
+            'Mystery Way – Crank–a–kai – Boar Mystery Coin',
+            'Mystery Way – Crank–a–kai – Deer Mystery Coin',
+            'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -132,21 +118,14 @@ const items = [
             'Dropped by Slush',
             'Dropped by Flumpy',
             'Dropped by Gnomine',
-            'Quest \u2013 Go for Rank C!',
-            'Quest \u2013 Treasure Hunters Pt. 1',
+            'Quest – Go for Rank C!',
+            'Quest – Treasure Hunters Pt. 1',
             'Lottery',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8',
-            buy: '0,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8', buy: '0,8' },
+        type: 'items'
     },
     {
         name: 'Large Exporb',
@@ -156,48 +135,48 @@ const items = [
             "This orb bestows three lives' worth of EXP at a single touch.",
         effect: 'Gain 2,000 EXP.',
         locations: [
-            'Uptown Springdale \u2013 Lonely Waterway',
+            'Uptown Springdale – Lonely Waterway',
             'Mt. Wildwood',
-            'Mt. Wildwood \u2013 Abandoned Tunnel West',
-            'Downtown Springdale \u2013 Construction Site',
-            'Breezy Hills \u2013 Gate Room \u2013 Traffic\u2013Light Zone',
-            "Breezy Hills \u2013 Gate Room \u2013 Compunzer's Zone",
+            'Mt. Wildwood – Abandoned Tunnel West',
+            'Downtown Springdale – Construction Site',
+            'Breezy Hills – Gate Room – Traffic–Light Zone',
+            "Breezy Hills – Gate Room – Compunzer's Zone",
             'Excellent Tower',
-            'San Fantastico \u2013 Briny Grotto',
-            'San Fantastico \u2013 Seaside Cave',
+            'San Fantastico – Briny Grotto',
+            'San Fantastico – Seaside Cave',
             'Old Springdale',
-            'Old Springdale \u2013 Flatpot Plains',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin North",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Northeast",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin East",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Central",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin West",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Mountain",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin South",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Midwest",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Island",
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Boar Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Deer Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Butterfly Mystery Coin',
+            'Old Springdale – Flatpot Plains',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin North",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Northeast",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin East",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Central",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin West",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Mountain",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin South",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Midwest",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Island",
+            'Mystery Way – Crank–a–kai – Boar Mystery Coin',
+            'Mystery Way – Crank–a–kai – Deer Mystery Coin',
+            'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -213,16 +192,9 @@ const items = [
             'Dropped by Multimutt',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '26',
-            buy: '260'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '26', buy: '260' },
+        type: 'items'
     },
     {
         name: 'Mega Exporb',
@@ -232,54 +204,54 @@ const items = [
             "It contains the wisdom of some of the world's sharpest minds.",
         effect: 'Gain 8,000 EXP.',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            'Yo\u2013kai World \u2013 Hooligan Road',
-            'Downtown Springdale \u2013 Springdale Business Tower',
-            'Breezy Hills \u2013 Gate Room \u2013 Can\u2013Kicking Zone',
-            "Breezy Hills \u2013 Gate Room \u2013 Compunzer's Zone \u2013 Quiz Room 1F",
-            'Old Springdale \u2013 Flatpot Plains',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            'Yo–kai World – Hooligan Road',
+            'Downtown Springdale – Springdale Business Tower',
+            'Breezy Hills – Gate Room – Can–Kicking Zone',
+            "Breezy Hills – Gate Room – Compunzer's Zone – Quiz Room 1F",
+            'Old Springdale – Flatpot Plains',
             'Gera Gera Land',
-            'Sawayama-jo \u2013 Area 1',
+            'Sawayama-jo – Area 1',
             'Mystery Way',
-            'Gold\u2013Gleaming Hwy.',
-            'Infinite Inferno \u2013 1st Circle',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yo Mystery Coin',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Kai Mystery Coin',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Sum Mystery Coin',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Mon Mystery Coin',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Wind Excitement Coin',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Moon Excitement Coin',
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin North",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Northeast",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin East",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Central",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin West",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Mountain",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin South",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Midwest",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Island",
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Cheerful Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Boar Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Deer Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Butterfly Mystery Coin',
+            'Gold–Gleaming Hwy.',
+            'Infinite Inferno – 1st Circle',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yo Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Kai Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Sum Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Mon Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Wind Excitement Coin',
+            'Mt.Wildwood – Crank–a–kai – Moon Excitement Coin',
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin North",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Northeast",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin East",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Central",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin West",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Mountain",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin South",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Midwest",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Island",
+            'Mt.Wildwood – Crank–a–kai – Cheerful Coin',
+            'Mystery Way – Crank–a–kai – Boar Mystery Coin',
+            'Mystery Way – Crank–a–kai – Deer Mystery Coin',
+            'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
             'Memory Store',
             'Jungle Hunter',
             'Dropped by Demuncher',
@@ -291,16 +263,9 @@ const items = [
             'Lottery',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '92',
-            buy: '920'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '92', buy: '920' },
+        type: 'items'
     },
     {
         name: 'Holy Exporb',
@@ -310,48 +275,41 @@ const items = [
             'A tiny lizard touched this orb. That tiny lizard is a dinosaur now.',
         effect: 'Gain 20,000 EXP.',
         locations: [
-            'Yo\u2013kai World \u2013 Entry Hall',
+            'Yo–kai World – Entry Hall',
             'Gera Gera Land',
-            'Divine Paradise \u2013 5F',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yo Mystery Coin',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Kai Mystery Coin',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Sum Mystery Coin',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Mon Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Butterfly Mystery Coin',
+            'Divine Paradise – 5F',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yo Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Kai Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Sum Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Mon Mystery Coin',
+            'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
             'Dropped by Dame Demona',
             'Dropped by Kat Kraydel',
-            'Quest \u2013 Nightmare Revelation',
-            "Quest \u2013 Jibanyan's Own Home",
+            'Quest – Nightmare Revelation',
+            "Quest – Jibanyan's Own Home",
             'Brush your teeth at your place. Can be repeated.',
             'Dropped by Darkyubi.',
             'Dropped by Illuminoct.'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '150',
-            buy: '990'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '150', buy: '990' },
+        type: 'items'
     },
     {
         name: 'Staminum',
@@ -360,7 +318,7 @@ const items = [
         description: 'This drink lets humans run without getting tired at all!',
         effect: 'Temporary infinite stamina.',
         locations: [
-            'Chloro\u2013Phil Good',
+            'Chloro–Phil Good',
             'Dropped by Mochismo',
             'Dropped by Minochi',
             'Dropped by Blowkade',
@@ -369,16 +327,9 @@ const items = [
             'Dropped by Leggly',
             'Dropped by Wondernyan'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,4',
-            buy: '12'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,4', buy: '12' },
+        type: 'items'
     },
     {
         name: 'Staminum Alpha',
@@ -389,10 +340,10 @@ const items = [
         locations: [
             'Uptown Springdale',
             'Mt. Wildwood',
-            'Downtown Springdale \u2013 Springdale Business Tower',
-            'Harrisville \u2013 Cicada Canyon',
+            'Downtown Springdale – Springdale Business Tower',
+            'Harrisville – Cicada Canyon',
             'Jungle Hunter',
-            'Chloro\u2013Phil Good',
+            'Chloro–Phil Good',
             'Dropped by Nekidspeed',
             'Dropped by Master Nyada',
             'Dropped by Pallysol',
@@ -400,19 +351,12 @@ const items = [
             'Dropped by Squeeky',
             'Dropped by Furdinand',
             'Dropped by Shamasol',
-            'Quest \u2013 Super Hide-and-Seek',
-            'Quest \u2013 The Bear Boy Returns'
+            'Quest – Super Hide-and-Seek',
+            'Quest – The Bear Boy Returns'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '4,8',
-            buy: '24'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '4,8', buy: '24' },
+        type: 'items'
     },
     {
         name: 'Hidden Hits',
@@ -421,27 +365,27 @@ const items = [
         description: "A book of combat secrets. You'll be an attack master!",
         effect: 'Increases Attack skill.',
         locations: [
-            'Uptown Springdale \u2013 Elementary School 1F',
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            'Yo\u2013kai World \u2013 Entry Hall',
-            'Downtown Springdale \u2013 Construction Site',
-            "Breezy Hills \u2013 Gate Room \u2013 Compunzer's Zone",
+            'Uptown Springdale – Elementary School 1F',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            'Yo–kai World – Entry Hall',
+            'Downtown Springdale – Construction Site',
+            "Breezy Hills – Gate Room – Compunzer's Zone",
             'Springdale Underground Waterway',
-            'Old Springdale \u2013 Flatpot Plains',
+            'Old Springdale – Flatpot Plains',
             'Gera Gera Land',
-            'Sawayama-jo \u2013 Area 1 \u2013 Trees',
-            'Infinite Inferno \u2013 1st Circle',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Sawayama-jo – Area 1 – Trees',
+            'Infinite Inferno – 1st Circle',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Settle In Bookstore',
             'Dropped by Tanbo',
             'Dropped by Reuknight',
@@ -457,25 +401,18 @@ const items = [
             'Dropped by Eyedra',
             "Dropped by Cap'n Rex",
             'Dropped by Gargaros',
-            "Quest \u2013 Nyada's Trials II",
-            'Quest \u2013 Go for Rank B!',
-            'Quest \u2013 Slicenrice Under Fire',
-            'Quest \u2013 Legendary Legacy',
+            "Quest – Nyada's Trials II",
+            'Quest – Go for Rank B!',
+            'Quest – Slicenrice Under Fire',
+            'Quest – Legendary Legacy',
             'Lottery',
             'Dropped by Moximous N.',
             'Dropped by Illuminoct.',
             'Dropped by Gargaros.'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '40',
-            buy: '200'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '40', buy: '200' },
+        type: 'items'
     },
     {
         name: 'Top Techniques',
@@ -485,25 +422,25 @@ const items = [
             'Give your Techniques a boost with this instructional book.',
         effect: 'Increases Technique level.',
         locations: [
-            'Yo\u2013kai World \u2013 Hungry Pass',
-            'Downtown Springdale \u2013 Construction Site',
-            "Shopper's Row \u2013 Nocturne Hospital",
+            'Yo–kai World – Hungry Pass',
+            'Downtown Springdale – Construction Site',
+            "Shopper's Row – Nocturne Hospital",
             'Springdale Underground Waterway',
-            'Old Springdale \u2013 Flatpot Plains',
+            'Old Springdale – Flatpot Plains',
             'Gera Gera Land',
-            'Sawayama-jo \u2013 Area 1 \u2013 Trees',
-            'Infinite Inferno \u2013 3rd Circle',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Sawayama-jo – Area 1 – Trees',
+            'Infinite Inferno – 3rd Circle',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Settle In Bookstore',
             'Dropped by Snee',
             'Dropped by Flengu',
@@ -518,26 +455,19 @@ const items = [
             'Dropped by Styx Mk.VI',
             'Dropped by Duwheel',
             'Dropped by Flippa',
-            'Quest \u2013 Go for Rank B!',
-            'Quest \u2013 Train Lie-in with Pride',
-            'Quest \u2013 Train Lie-in with Pride',
-            "Quest \u2013 Cap'n Crash...'n' Burn",
+            'Quest – Go for Rank B!',
+            'Quest – Train Lie-in with Pride',
+            'Quest – Train Lie-in with Pride',
+            "Quest – Cap'n Crash...'n' Burn",
             'Lottery',
-            'Excellent Tower \u2013 Scratch-off',
+            'Excellent Tower – Scratch-off',
             'Dropped by Moximous K.',
             'Dropped by Darkyubi.',
             'Dropped by Ogralus.'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '40',
-            buy: '200'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '40', buy: '200' },
+        type: 'items'
     },
     {
         name: 'Soul Secrets',
@@ -546,33 +476,33 @@ const items = [
         description: 'A book on the secrets of Soultimate Moves.',
         effect: 'Increases Soultimate level.',
         locations: [
-            'Yo\u2013kai World \u2013 Hooligan Road',
-            'Downtown Springdale \u2013 Construction Site',
+            'Yo–kai World – Hooligan Road',
+            'Downtown Springdale – Construction Site',
             'San Fantastico',
-            'Old Springdale \u2013 Flatpot Plains',
+            'Old Springdale – Flatpot Plains',
             'Gera Gera Land',
-            'Sawayama-jo \u2013 Area 1 \u2013 Trees',
-            'Infinite Inferno \u2013 4th Circle',
-            'Divine Paradise \u2013 2F',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Sawayama-jo – Area 1 – Trees',
+            'Infinite Inferno – 4th Circle',
+            'Divine Paradise – 2F',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Dropped by Corptain',
             'Dropped by Gleam',
             'Dropped by Scritchy',
@@ -584,21 +514,14 @@ const items = [
             'Dropped by Slurpent',
             'Dropped by Squisker',
             'Dropped by Dame Dredful',
-            'Quest \u2013 Find Pallysol!',
-            'Quest \u2013 Independent Study, Pt. 3',
+            'Quest – Find Pallysol!',
+            'Quest – Independent Study, Pt. 3',
             'Lottery',
             'Dropped by Orcanos.'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '40',
-            buy: '200'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '40', buy: '200' },
+        type: 'items'
     },
     {
         name: 'A Serious Life',
@@ -608,34 +531,27 @@ const items = [
             'A book about giving life your all. Good for a lazy Yo-kai.',
         effect: 'Makes a Yo-kai Loaf less.',
         locations: [
-            'Yo\u2013kai World \u2013 Liar Mountain',
-            'Downtown Springdale \u2013 Springdale Business Tower',
+            'Yo–kai World – Liar Mountain',
+            'Downtown Springdale – Springdale Business Tower',
             'Springdale Underground Waterway',
             'Gera Gera Land',
-            'Infinite Inferno \u2013 3rd Circle',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Infinite Inferno – 3rd Circle',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Dropped by Slacka-slash',
             'Dropped by Awevil',
             'Dropped by Pandanoko',
             'Dropped by McKraken',
-            'Quest \u2013 Find Pallysol!',
-            'Quest \u2013 A Card-Carrying Liar',
-            'Quest \u2013 Independent Study, Pt. 1',
-            'Quest \u2013 Independent Study, Pt. 2',
+            'Quest – Find Pallysol!',
+            'Quest – A Card-Carrying Liar',
+            'Quest – Independent Study, Pt. 1',
+            'Quest – Independent Study, Pt. 2',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '250'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '250' },
+        type: 'items'
     },
     {
         name: 'Think Karate',
@@ -655,16 +571,9 @@ const items = [
             'Dropped by Firewig',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,5',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,5', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'Use Karate',
@@ -674,10 +583,10 @@ const items = [
             'A book on advanced karate. It makes you focus on attacking.',
         effect: 'Makes a Yo-kai Rough.',
         locations: [
-            'Blossom Heights \u2013 Old Mansion Attic',
-            "Shopper's Row \u2013 Shopping Street Narrows",
-            'Harrisville \u2013 Station Plaza',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Blossom Heights – Old Mansion Attic',
+            "Shopper's Row – Shopping Street Narrows",
+            'Harrisville – Station Plaza',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Settle In Bookstore',
             'Dropped by Minochi',
             'Dropped by Mudmunch',
@@ -687,20 +596,13 @@ const items = [
             'Dropped by Ben Tover',
             'Dropped by Shrook',
             'Dropped by Madmunch',
-            'Quest \u2013 Customer Attraction!',
-            'Quest \u2013 Your Local Mascot',
+            'Quest – Customer Attraction!',
+            'Quest – Your Local Mascot',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Skill Compendium',
@@ -709,7 +611,7 @@ const items = [
         description: 'An illustrated collection of Yo-kai Skills. Fascinating!',
         effect: 'Makes a Yo-kai Logical.',
         locations: [
-            'Uptown Springdale \u2013 The Catwalk',
+            'Uptown Springdale – The Catwalk',
             'Settle In Bookstore',
             'Dropped by Pittapatt',
             'Dropped by Snotsolong',
@@ -720,16 +622,9 @@ const items = [
             'Dropped by Elloo',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,5',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,5', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'Skill Encyclopedia',
@@ -739,9 +634,9 @@ const items = [
             'A book containing EVERY single Yo-kai Skill ever! A must-have!',
         effect: 'Makes a Yo-kai Brainy.',
         locations: [
-            'Blossom Heights \u2013 Old Mansion Attic',
-            'San Fantastico \u2013 Seaside Cave',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Blossom Heights – Old Mansion Attic',
+            'San Fantastico – Seaside Cave',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Settle In Bookstore',
             'Dropped by Duchoo',
             "Dropped by N'more",
@@ -750,19 +645,12 @@ const items = [
             'Dropped by Chymera',
             'Dropped by Kingmera',
             'Dropped by Komashura',
-            'Quest \u2013 Customer Attraction!',
+            'Quest – Customer Attraction!',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Get Guarding',
@@ -782,16 +670,9 @@ const items = [
             'Dropped by No Sandkyu',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,5',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,5', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'Guard Gloriously',
@@ -802,7 +683,7 @@ const items = [
         effect: 'Makes a Yo-kai Calm.',
         locations: [
             'Blossom Heights',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Settle In Bookstore',
             'Dropped by Darumacho',
             'Dropped by Noway',
@@ -814,16 +695,9 @@ const items = [
             'Dropped by Coughkoff',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '50' },
+        type: 'items'
     },
     {
         name: "Li'l Angel Heals",
@@ -834,7 +708,7 @@ const items = [
         effect: 'Makes a Yo-kai Gentle.',
         locations: [
             'Breezy Hills',
-            'Harrisville \u2013 Mt. Middleton \u2013 Summit',
+            'Harrisville – Mt. Middleton – Summit',
             'Settle In Bookstore',
             'Dropped by Shmoopie',
             'Dropped by Rhyth',
@@ -844,16 +718,9 @@ const items = [
             'Dropped by Wrongnek',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,5',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,5', buy: '9,8' },
+        type: 'items'
     },
     {
         name: "Bye, Li'l Angel",
@@ -864,7 +731,7 @@ const items = [
         effect: 'Makes a Yo-kai Tender.',
         locations: [
             'Mt. Wildwood',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Settle In Bookstore',
             'Dropped by Pinkipoo',
             'Dropped by Kelpacabana',
@@ -874,19 +741,12 @@ const items = [
             'Dropped by Heheheel',
             'Dropped by Lady Longnek',
             'Dropped by Wrongnek',
-            'Quest \u2013 Your Local Mascot',
+            'Quest – Your Local Mascot',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '50' },
+        type: 'items'
     },
     {
         name: "The Pest's Quest",
@@ -896,16 +756,9 @@ const items = [
             'A novel about two country boys intent on becoming real pains.',
         effect: 'Makes a Yo-kai Twisted.',
         locations: ["Shopper's Row", 'Settle In Bookstore', 'Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,5',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,5', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'The Perfect Pest',
@@ -915,10 +768,10 @@ const items = [
             'The epic sequel, in which our heroes earn ultimate pesthood.',
         effect: 'Makes a Yo-kai Cruel.',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel West',
-            "Shopper's Row \u2013 Nocturne Hospital",
+            'Mt. Wildwood – Abandoned Tunnel West',
+            "Shopper's Row – Nocturne Hospital",
             'San Fantastico',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Settle In Bookstore',
             'Dropped by Skranny',
             'Dropped by Enefly',
@@ -929,16 +782,9 @@ const items = [
             'Dropped by Hurchin',
             'Dropped by Compunzer'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Support Life #7',
@@ -959,16 +805,9 @@ const items = [
             'Dropped by Takoyaking',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2,5',
-            buy: '9,8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2,5', buy: '9,8' },
+        type: 'items'
     },
     {
         name: 'Support Special',
@@ -978,8 +817,8 @@ const items = [
         effect: 'Makes a Yo-kai Devoted.',
         locations: [
             'Excellent Tower',
-            'Harrisville \u2013 Cicada Canyon',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Harrisville – Cicada Canyon',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Settle In Bookstore',
             'Dropped by Brokenbrella',
             'Dropped by Happierre',
@@ -989,20 +828,13 @@ const items = [
             'Dropped by Bloominoko',
             'Dropped by Flushback',
             'Dropped by Spoilerina',
-            'Quest \u2013 Your Local Mascot',
-            'Quest \u2013 A Real Charmer',
+            'Quest – Your Local Mascot',
+            'Quest – A Real Charmer',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Str. Talisman',
@@ -1013,10 +845,10 @@ const items = [
         effect: 'Temporary STR boost.',
         locations: [
             'Mt. Wildwood Trail',
-            'Harrisville \u2013 Rice Paddy Path',
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Central",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin West",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin South",
+            'Harrisville – Rice Paddy Path',
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Central",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin West",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin South",
             'Everymart Uptown',
             'Mt. Wildwood Shrine',
             'Dropped by Helmsman',
@@ -1028,19 +860,12 @@ const items = [
             'Dropped by Dragon Lord',
             'Dropped by Gilgaros',
             'Dropped by Madmunch',
-            'Quest \u2013 Ghost Club at School',
+            'Quest – Ghost Club at School',
             'Dropped by Gargaros.'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Spirit Talisman',
@@ -1051,9 +876,9 @@ const items = [
         locations: [
             'Blossom Heights',
             'San Fantastico',
-            'Harrisville \u2013 Fullface Rock',
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Northeast",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin East",
+            'Harrisville – Fullface Rock',
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Northeast",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin East",
             'Everymart Uptown',
             'Mt. Wildwood Shrine',
             'Dropped by Snee',
@@ -1065,19 +890,12 @@ const items = [
             'Dropped by Kyryn',
             'Dropped by Compunzer',
             'Dropped by Mermother',
-            'Quest \u2013 Ghost Club at School',
+            'Quest – Ghost Club at School',
             'Dropped by Ogralus.'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Def. Talisman',
@@ -1086,10 +904,10 @@ const items = [
         description: 'A curious charm that boosts Defense. Sold at the shrine.',
         effect: 'Temporary DEF boost.',
         locations: [
-            'Uptown Springdale \u2013 Elementary School 1F',
-            'San Fantastico \u2013 Hidden Workshop',
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Mountain",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Midwest",
+            'Uptown Springdale – Elementary School 1F',
+            'San Fantastico – Hidden Workshop',
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Mountain",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Midwest",
             'Everymart Uptown',
             'Mt. Wildwood Shrine',
             'Dropped by Impass',
@@ -1101,16 +919,9 @@ const items = [
             'Dropped by Robodraggie',
             'Dropped by Orcanos.'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Speed Talisman',
@@ -1120,8 +931,8 @@ const items = [
         effect: 'Temporary SPD boost.',
         locations: [
             'Downtown Springdale',
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin North",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Island",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin North",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Island",
             'Everymart Uptown',
             'Mt. Wildwood Shrine',
             'Dropped by Gleam',
@@ -1134,16 +945,9 @@ const items = [
             'Dropped by Dandoodle',
             'Dropped by Robomutt'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Nasty Medicine',
@@ -1153,10 +957,10 @@ const items = [
         effect: 'Revive Yo-kai with 1/4 HP.',
         locations: [
             'Uptown Springdale',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Fusion.',
             'Memory Store',
-            'Chloro\u2013Phil Good',
+            'Chloro–Phil Good',
             "Dropped by D'wanna",
             "Dropped by Q'wit",
             'Dropped by Infour',
@@ -1165,18 +969,11 @@ const items = [
             'Dropped by Awevil',
             'Dropped by Furgus',
             'Dropped by Feargus',
-            'Quest \u2013 The Price of the World'
+            'Quest – The Price of the World'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '30'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '30' },
+        type: 'items'
     },
     {
         name: 'Bitter Medicine',
@@ -1185,18 +982,18 @@ const items = [
         description: 'This bitter herbal mix will jolt a Yo-kai to its feet.',
         effect: 'Revive Yo-kai with 1/2 HP.',
         locations: [
-            "Shopper's Row \u2013 Nocturne Hospital",
-            "Breezy Hills \u2013 Gate Room \u2013 Compunzer's Zone",
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            "Shopper's Row – Nocturne Hospital",
+            "Breezy Hills – Gate Room – Compunzer's Zone",
+            'Breezy Hills – Gourd Pond Museum',
             'Springdale Underground Waterway',
             'San Fantastico',
             'Harrisville',
             'Old Springdale',
-            'Old Springdale \u2013 Springdale Ironworks',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
+            'Old Springdale – Springdale Ironworks',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
             'Fusion.',
             'Memory Store',
-            'Chloro\u2013Phil Good',
+            'Chloro–Phil Good',
             'Dropped by Verygoodsir',
             'Dropped by Bakulia',
             'Dropped by Pookivil',
@@ -1206,20 +1003,13 @@ const items = [
             'Dropped by Dismarelda',
             'Dropped by Cuttincheez',
             'Dropped by Grumples',
-            'Quest \u2013 Long Lost Love',
-            'Quest \u2013 The Price of the World',
+            'Quest – Long Lost Love',
+            'Quest – The Price of the World',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '6',
-            buy: '60'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '6', buy: '60' },
+        type: 'items'
     },
     {
         name: 'Mighty Medicine',
@@ -1228,30 +1018,30 @@ const items = [
         description: 'This secret herbal blend will instantly revive a Yo-kai.',
         effect: 'Revive Yo-kai with full HP.',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            'Yo\u2013kai World \u2013 Liar Mountain',
-            'Old Springdale \u2013 Flatpot Plains',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            'Yo–kai World – Liar Mountain',
+            'Old Springdale – Flatpot Plains',
             'Gera Gera Land',
-            'Sawayama-jo \u2013 Area 1',
+            'Sawayama-jo – Area 1',
             'Mystery Way',
             'Bony Spirits Way',
             'Fleshy Souls',
-            'Gold\u2013Gleaming Hwy.',
-            'Infinite Inferno \u2013 3rd Circle',
-            'Infinite Inferno \u2013 7th Circle',
-            'Divine Paradise \u2013 3F',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin North",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Northeast",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin East",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Central",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin West",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Mountain",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin South",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Midwest",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Island",
+            'Gold–Gleaming Hwy.',
+            'Infinite Inferno – 3rd Circle',
+            'Infinite Inferno – 7th Circle',
+            'Divine Paradise – 3F',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin North",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Northeast",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin East",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Central",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin West",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Mountain",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin South",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Midwest",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Island",
             'Jungle Hunter',
             'Dropped by Foiletta',
             'Dropped by Everfore',
@@ -1260,21 +1050,14 @@ const items = [
             'Dropped by Dame Demona',
             'Dropped by Dr. Maddiman',
             'Dropped by Dr. Nogut',
-            'Quest \u2013 Back to Yo-kai World',
-            'Quest \u2013 The Price of the World',
-            'Quest \u2013 The Darknyan',
+            'Quest – Back to Yo-kai World',
+            'Quest – The Price of the World',
+            'Quest – The Darknyan',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '24',
-            buy: '120'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '24', buy: '120' },
+        type: 'items'
     },
     {
         name: 'Getaway Plush',
@@ -1285,16 +1068,16 @@ const items = [
         effect: 'Allows you to flee.',
         locations: [
             'Uptown Springdale',
-            'Uptown Springdale \u2013 Elementary School 1F',
-            'Mt. Wildwood \u2013 Abandoned Tunnel West',
-            "Shopper's Row \u2013 Nocturne Hospital",
-            'San Fantastico \u2013 Seaside Cave',
+            'Uptown Springdale – Elementary School 1F',
+            'Mt. Wildwood – Abandoned Tunnel West',
+            "Shopper's Row – Nocturne Hospital",
+            'San Fantastico – Seaside Cave',
             'Everymart Uptown',
             'Everymart Blossom Heights',
             'Everymart Downtown',
             "Everymart Shopper's Row",
             'Everymart Breezy Hills',
-            'Excellent Tower \u2013 Everymart',
+            'Excellent Tower – Everymart',
             'Dropped by Cutta-nah',
             'Dropped by Corptain',
             'Dropped by Brokenbrella',
@@ -1308,18 +1091,11 @@ const items = [
             'Dropped by Blandon',
             'Dropped by Nul',
             'Dropped by Pandanoko',
-            'Quest \u2013 Treasure Hunters Pt. 2'
+            'Quest – Treasure Hunters Pt. 2'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '5'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '5' },
+        type: 'items'
     },
     {
         name: 'Iron Doll',
@@ -1329,25 +1105,25 @@ const items = [
         effect: '',
         locations: [
             'Uptown Springdale',
-            'Uptown Springdale \u2013 Elementary School 1F',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Mystery Coin',
+            'Uptown Springdale – Elementary School 1F',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
+            'Mystery Way – Crank–a–kai – Mystery Coin',
             'Dropped by Mirapo',
             'Dropped by Pride Shrimp',
             'Dropped by Mistank',
@@ -1357,16 +1133,9 @@ const items = [
             'Dropped by Leadoni',
             'Dropped by Spenp'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '3'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '3' },
+        type: 'items'
     },
     {
         name: 'Bronze Doll',
@@ -1375,34 +1144,34 @@ const items = [
         description: 'A bronze doll. It sells for a decent amount of cash.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School 1F',
-            'Mt. Wildwood \u2013 Jumbo Slider',
-            'Blossom Heights \u2013 Tucked Away Lot',
+            'Uptown Springdale – Elementary School 1F',
+            'Mt. Wildwood – Jumbo Slider',
+            'Blossom Heights – Tucked Away Lot',
             'Breezy Hills',
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            'Breezy Hills – Gourd Pond Museum',
             'Springdale Underground Waterway',
             'Harrisville',
             'Old Springdale',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Boar Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Deer Mystery Coin',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
+            'Mystery Way – Crank–a–kai – Mystery Coin',
+            'Mystery Way – Crank–a–kai – Boar Mystery Coin',
+            'Mystery Way – Crank–a–kai – Deer Mystery Coin',
             'Dropped by Brushido',
             'Dropped by Houzzat',
             'Dropped by Castelius III',
@@ -1413,18 +1182,11 @@ const items = [
             'Dropped by Almi',
             'Dropped by Scaremaiden',
             'Lottery',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Silver Doll',
@@ -1433,49 +1195,49 @@ const items = [
         description: 'A cool silver doll. This can be sold for quite a bit.',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel West',
-            'Downtown Springdale \u2013 Springdale Business Tower',
-            'Downtown Springdale \u2013 Construction Site',
-            "Shopper's Row \u2013 Nocturne Hospital",
-            'Hills \u2013 Stone House',
-            "Breezy Hills \u2013 Gate Room \u2013 Compunzer's Zone",
+            'Mt. Wildwood – Abandoned Tunnel West',
+            'Downtown Springdale – Springdale Business Tower',
+            'Downtown Springdale – Construction Site',
+            "Shopper's Row – Nocturne Hospital",
+            'Hills – Stone House',
+            "Breezy Hills – Gate Room – Compunzer's Zone",
             'San Fantastico',
-            'San Fantastico \u2013 Seaside Cave',
-            'Harrisville \u2013 Cicada Canyon',
-            'Old Springdale \u2013 Springdale Ironworks',
-            'Old Springdale \u2013 Flatpot Plains',
-            'Old Springdale \u2013 Gourd Pond',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 3DS coin',
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin North",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Northeast",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin East",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Central",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin West",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Mountain",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin South",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Midwest",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Island",
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Boar Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Deer Mystery Coin',
+            'San Fantastico – Seaside Cave',
+            'Harrisville – Cicada Canyon',
+            'Old Springdale – Springdale Ironworks',
+            'Old Springdale – Flatpot Plains',
+            'Old Springdale – Gourd Pond',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 3DS coin',
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin North",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Northeast",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin East",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Central",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin West",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Mountain",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin South",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Midwest",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Island",
+            'Mystery Way – Crank–a–kai – Mystery Coin',
+            'Mystery Way – Crank–a–kai – Boar Mystery Coin',
+            'Mystery Way – Crank–a–kai – Deer Mystery Coin',
             'Dropped by Castelius II',
             'Dropped by Supoor Hero',
             'Dropped by Abodabat',
@@ -1485,21 +1247,14 @@ const items = [
             'Dropped by Spenp',
             'Dropped by Almi',
             'Dropped by Chirpster',
-            'Quest \u2013 Find Predictabull!',
-            'Quest \u2013 Go for Rank A!',
-            'Quest \u2013 The Price of Iron',
+            'Quest – Find Predictabull!',
+            'Quest – Go for Rank A!',
+            'Quest – The Price of Iron',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Golden Doll',
@@ -1508,63 +1263,56 @@ const items = [
         description: 'A pure-gold doll that sells for a whole lot of cash.',
         effect: '',
         locations: [
-            'Yo\u2013kai World \u2013 Entry Hall',
+            'Yo–kai World – Entry Hall',
             'Gera Gera Land',
-            'Sawayama-jo \u2013 Area 1',
+            'Sawayama-jo – Area 1',
             'Mystery Way',
-            'Gold\u2013Gleaming Hwy.',
-            'Infinite Inferno \u2013 5th Circle',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 5\u2013star Coin (Past)',
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin North",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Northeast",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin East",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Central",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin West",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Mountain",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin South",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Midwest",
-            "Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Traveler's Coin Island",
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Cheerful Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Boar Mystery Coin',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Deer Mystery Coin',
-            "Shopper's Row \u2013 Tranquility Apts. \u2013 B\u2013102",
+            'Gold–Gleaming Hwy.',
+            'Infinite Inferno – 5th Circle',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – 5–star Coin (Past)',
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin North",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Northeast",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin East",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Central",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin West",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Mountain",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin South",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Midwest",
+            "Mt.Wildwood – Crank–a–kai – Traveler's Coin Island",
+            'Mt.Wildwood – Crank–a–kai – Cheerful Coin',
+            'Mystery Way – Crank–a–kai – Mystery Coin',
+            'Mystery Way – Crank–a–kai – Boar Mystery Coin',
+            'Mystery Way – Crank–a–kai – Deer Mystery Coin',
+            "Shopper's Row – Tranquility Apts. – B–102",
             'Dropped by Castelius I',
             'Dropped by Goldenyan',
             'Dropped by Eyephoon',
-            "Quest \u2013 Nyada's Trials VI",
-            "Quest \u2013 Mr. Byrd's Tragic Tale",
-            'Quest \u2013 Whistory Lesson, Part 2',
+            "Quest – Nyada's Trials VI",
+            "Quest – Mr. Byrd's Tragic Tale",
+            'Quest – Whistory Lesson, Part 2',
             'Lottery',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '200',
-            buy: '200'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '200', buy: '200' },
+        type: 'items'
     },
     {
         name: 'Platinum Doll',
@@ -1574,21 +1322,14 @@ const items = [
         effect: '',
         locations: [
             'Gera Gera Land',
-            'Divine Paradise \u2013 3F',
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Mystery Coin',
+            'Divine Paradise – 3F',
+            'Mystery Way – Crank–a–kai – Mystery Coin',
             'Dropped by Castelius Max',
-            'Quest \u2013 Getting Gera Gera Going'
+            'Quest – Getting Gera Gera Going'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '600',
-            buy: '600'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '600', buy: '600' },
+        type: 'items'
     },
     {
         name: 'Fish Bait',
@@ -1596,17 +1337,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fish_bait.png',
         description: 'Bait made by Mr. Fischer. This makes it easier to fish.',
         effect: '',
-        locations: ['Uptown \u2013 Fish Place', "Rusty's Mart"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '1'
-        }
+        locations: ['Uptown – Fish Place', "Rusty's Mart"],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Black Syrup',
@@ -1616,7 +1350,7 @@ const items = [
         effect: '',
         locations: [
             'Mt. Wildwood',
-            'Harrisville \u2013 Fullface Rock',
+            'Harrisville – Fullface Rock',
             'Jungle Hunter',
             'Mountain Market',
             'Dropped by Beetler',
@@ -1632,16 +1366,9 @@ const items = [
             'Dropped by Betterfly',
             'Dropped by Peppillon'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,3',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,3', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Dancing Star',
@@ -1652,25 +1379,18 @@ const items = [
         effect: '',
         locations: [
             'Mt. Wildwood Summit',
-            'Yo\u2013kai World \u2013 Liar Mountain',
+            'Yo–kai World – Liar Mountain',
             'Breezy Hills',
             'Springdale Underground Waterway',
             'Harrisville',
             'Old Harrisville',
             'Gera Gera Land',
-            'Infinite Inferno \u2013 4th Circle',
-            'Quest \u2013 Trying Tangle Tango'
+            'Infinite Inferno – 4th Circle',
+            'Quest – Trying Tangle Tango'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Lottery Ticket',
@@ -1679,35 +1399,28 @@ const items = [
         description: 'Purchased from the Candy Stop. Will you win big?',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel West',
+            'Mt. Wildwood – Abandoned Tunnel West',
             'Blossom Heights',
-            'Blossom Heights \u2013 Old Mansion Attic',
-            'Blossom Heights \u2013 Old Mansion House',
+            'Blossom Heights – Old Mansion Attic',
+            'Blossom Heights – Old Mansion House',
             'Springdale Underground Waterway',
             'San Fantastico',
             'Gera Gera Land',
             'Mystery Way',
             'Bony Spirits Way',
             'Fleshy Souls',
-            'Gold\u2013Gleaming Hwy.',
-            'Infinite Inferno \u2013 3rd Circle',
+            'Gold–Gleaming Hwy.',
+            'Infinite Inferno – 3rd Circle',
             'Dropped by So-Sorree',
             'Dropped by Rollen',
             'Dropped by Dubbles',
             'Dropped by Yoink',
             'Dropped by Wondernyan',
-            'Quest \u2013 The Secret Base'
+            'Quest – The Secret Base'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Music Card',
@@ -1717,26 +1430,19 @@ const items = [
             'Add some music to your day by trading this card for tunes.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School 1F',
+            'Uptown Springdale – Elementary School 1F',
             "Shopper's Row",
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            'Breezy Hills – Gourd Pond Museum',
             'Excellent Tower',
             'Springdale Underground Waterway',
             'Gera Gera Land',
-            'Infinite Inferno \u2013 1st Circle',
-            'Quest \u2013 Hangout Havoc',
-            'Quest \u2013 Time and Toys'
+            'Infinite Inferno – 1st Circle',
+            'Quest – Hangout Havoc',
+            'Quest – Time and Toys'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Bronze Tag',
@@ -1745,16 +1451,9 @@ const items = [
         description: 'Lets you access bronze levels in Yo-kai Watch Blasters.',
         effect: '',
         locations: ['Blasters.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Silver Tag',
@@ -1763,16 +1462,9 @@ const items = [
         description: 'Lets you access silver levels in Yo-kai Watch Blasters.',
         effect: '',
         locations: ['Blasters.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3',
-            buy: '3'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3', buy: '3' },
+        type: 'items'
     },
     {
         name: 'Gold Tag',
@@ -1784,16 +1476,9 @@ const items = [
             'Blasters.',
             'Wash your hands at your place. Can be repeated.'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5',
-            buy: '5'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5', buy: '5' },
+        type: 'items'
     },
     {
         name: 'Essence of Evil',
@@ -1804,22 +1489,15 @@ const items = [
         effect: '',
         locations: [
             'Gera Gera Land',
-            'Quest \u2013 Unfairy: Origins',
-            'Quest \u2013 Unkaind: Origins',
-            'Quest \u2013 Untidy: Origins',
-            'Quest \u2013 Unpleasant: Origins',
-            'Quest \u2013 Unkeen: Origins'
+            'Quest – Unfairy: Origins',
+            'Quest – Unkaind: Origins',
+            'Quest – Untidy: Origins',
+            'Quest – Unpleasant: Origins',
+            'Quest – Unkeen: Origins'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Legendary Blade',
@@ -1828,16 +1506,9 @@ const items = [
         description: 'This sword was forged by a master to mete out justice. ',
         effect: '',
         locations: ['Fusion.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Cursed Blade',
@@ -1847,16 +1518,9 @@ const items = [
             'A cursed sword that draws its owner toward a tragic future.',
         effect: '',
         locations: ['Fusion.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Holy Blade',
@@ -1866,16 +1530,9 @@ const items = [
             'Said to house holy power, this sword is over 10,000 years old!',
         effect: '',
         locations: ['Fusion.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'items'
     },
     {
         name: "General's Soul",
@@ -1885,16 +1542,9 @@ const items = [
             'The spirit of a legendary general. Linked to a particular Yo-kai.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'items'
     },
     {
         name: 'Love Buster',
@@ -1904,16 +1554,9 @@ const items = [
             'This wackily strong weapon can only be used by popular folks. ',
         effect: '',
         locations: ['Dropped by Cupistol'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'GHz Orb',
@@ -1922,16 +1565,9 @@ const items = [
         description: 'A ball encasing electric waves. A zap could fry you! ',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Unbeatable Soul',
@@ -1941,16 +1577,9 @@ const items = [
             'The spirit of a great warrior. Related to a horned Yo-kai.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'items'
     },
     {
         name: 'Platinum Bar',
@@ -1959,16 +1588,9 @@ const items = [
         description: "A bar of pure platinum. It's heavy!",
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'items'
     },
     {
         name: 'Snowstorm Cloak',
@@ -1977,16 +1599,9 @@ const items = [
         description: 'A silvery-white cape for the king of a snowy mountain.',
         effect: '',
         locations: ['Blasters.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Love Scepter',
@@ -1994,17 +1609,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/love_scepter.png',
         description: "It's a scepter for a nobleman of love. NOT just a stick.",
         effect: '',
-        locations: ['Quest \u2013 Too Much Makeover'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '35',
-            buy: '35'
-        }
+        locations: ['Quest – Too Much Makeover'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '35', buy: '35' },
+        type: 'items'
     },
     {
         name: 'Glacial Clip',
@@ -2014,16 +1622,9 @@ const items = [
             'A hair clip made of unmelting ice. It houses a lot of power.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Buff Weight',
@@ -2032,16 +1633,9 @@ const items = [
         description: 'Training with this hefty dumbbell will buff you up!',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '22',
-            buy: '22'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '22', buy: '22' },
+        type: 'items'
     },
     {
         name: 'Shard of Evil',
@@ -2051,16 +1645,9 @@ const items = [
             'A dangerous shard that awakens the evil in a timid devil.',
         effect: '',
         locations: ['Blasters.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'items'
     },
     {
         name: 'Ageless Powder',
@@ -2070,16 +1657,9 @@ const items = [
             "A facial powder made of human souls. It'll make you younger.",
         effect: '',
         locations: ['Blasters.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'items'
     },
     {
         name: 'Dragon Orb',
@@ -2088,16 +1668,9 @@ const items = [
         description: 'An orb of unbelievable beauty. Full of dragon energy.',
         effect: '',
         locations: ['Memory Store'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'items'
     },
     {
         name: 'Raging Blade',
@@ -2107,21 +1680,14 @@ const items = [
             'This will turn anyone into a rambunctious, one-person riot.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Desolate Lane',
-            "Shopper's Row \u2013 Tranquility Apts. \u2013 C\u2013303",
-            "Shopper's Row \u2013 Nocturne Hospital",
+            'Uptown Springdale – Desolate Lane',
+            "Shopper's Row – Tranquility Apts. – C–303",
+            "Shopper's Row – Nocturne Hospital",
             'Whatta Find'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Sand Suit',
@@ -2129,17 +1695,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sand_suit.png',
         description: 'This unique suit gets especially heavy when it rains.',
         effect: '',
-        locations: ['Whatta Find', 'Excellent Tower \u2013 Scratch-off'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '35',
-            buy: '35'
-        }
+        locations: ['Whatta Find', 'Excellent Tower – Scratch-off'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '35', buy: '35' },
+        type: 'items'
     },
     {
         name: 'Ethereal Water',
@@ -2149,16 +1708,9 @@ const items = [
             'Drinking this bestows godlike powers, so handle it with care.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'items'
     },
     {
         name: 'Cursed Journal',
@@ -2168,16 +1720,9 @@ const items = [
             "A jinxed journal that you'll regret sneaking a peek into...",
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Horn',
@@ -2185,17 +1730,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/horn.png',
         description: 'A horn that emits a deafening blast, audible miles away.',
         effect: '',
-        locations: ['Jungle Hunter', 'Quest \u2013 C-1 Grand Prix Y'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '35',
-            buy: '35'
-        }
+        locations: ['Jungle Hunter', 'Quest – C-1 Grand Prix Y'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '35', buy: '35' },
+        type: 'items'
     },
     {
         name: 'Mem-o-Vac',
@@ -2208,16 +1746,9 @@ const items = [
             'Jungle Hunter',
             'Randomly given by a passerby in the train (Central Line).'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'items'
     },
     {
         name: 'Mermaid Pearl',
@@ -2226,16 +1757,9 @@ const items = [
         description: 'When a mermaid is reborn, this exquisite pearl appears.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'items'
     },
     {
         name: 'Love-Packed Rice Ball',
@@ -2244,17 +1768,10 @@ const items = [
         description:
             'Made with love and affection, this will satisfy a rumbling tummy.',
         effect: '',
-        locations: ['Meal mini-game at night at Grandma\u2019s house.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '35',
-            buy: '35'
-        }
+        locations: ['Meal mini-game at night at Grandma’s house.'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '35', buy: '35' },
+        type: 'items'
     },
     {
         name: 'Broken Bell',
@@ -2264,8 +1781,8 @@ const items = [
             'If restored to its former glory, it might make a cat happy.',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Jumbo Slider',
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            'Mt. Wildwood – Jumbo Slider',
+            'Breezy Hills – Gourd Pond Museum',
             'Old Springdale',
             'Jungle Hunter',
             'Dropped by Jibanyan',
@@ -2283,16 +1800,9 @@ const items = [
             'Dropped by Meganyan',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5',
-            buy: '5'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5', buy: '5' },
+        type: 'items'
     },
     {
         name: 'Battered Blade',
@@ -2302,16 +1812,9 @@ const items = [
             'This famed sword of old is now in a pretty sorry state...',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8',
-            buy: '8'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8', buy: '8' },
+        type: 'items'
     },
     {
         name: 'Rough Whetstone',
@@ -2319,17 +1822,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/rough_whetstone.png',
         description: 'A roughhewn volcanic rock worthy of a hallowed blade.',
         effect: '',
-        locations: ["Quest \u2013 Nyada's Trials IV", 'Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        locations: ["Quest – Nyada's Trials IV", 'Lottery'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Sinister Whetstone',
@@ -2338,17 +1834,10 @@ const items = [
         description:
             'An eerie rock that might be used to sharpen a magic blade.',
         effect: '',
-        locations: ["Quest \u2013 Nyada's Trials IV", 'Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        locations: ["Quest – Nyada's Trials IV", 'Lottery'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Sublime Whetstone',
@@ -2358,16 +1847,9 @@ const items = [
             'A glorious stone capable of sharpening a legendary blade.',
         effect: '',
         locations: ['Blasters.'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,2',
-            buy: '0,2'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,2', buy: '0,2' },
+        type: 'items'
     },
     {
         name: 'Carved Bear',
@@ -2376,16 +1858,9 @@ const items = [
         description: 'This wooden bear has been hewn by a master craftsman.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Goldfish Lantern',
@@ -2394,16 +1869,9 @@ const items = [
         description: 'Kids are sure to love this delightful paper lantern.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: "Master's Lantern",
@@ -2413,16 +1881,9 @@ const items = [
             'This lantern gives off a glow that will cheer up all who see it.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Gold Emblem',
@@ -2431,16 +1892,9 @@ const items = [
         description: 'This striking item is crafted from only the purest gold.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Takoyaki Tray',
@@ -2449,16 +1903,9 @@ const items = [
         description: 'Use this tray to make delicious takoyaki octopus balls.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Dune Sand',
@@ -2467,16 +1914,9 @@ const items = [
         description: 'A little bottle of joy scooped from a sand dune.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Vintage Parasol',
@@ -2486,16 +1926,9 @@ const items = [
             'A sunshade crafted from reeds. Often used in summer festivals.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Terracotta Figure',
@@ -2504,16 +1937,9 @@ const items = [
         description: 'An ancient artifact recently uncovered on Mt. Wildwood.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Red Hibiscus',
@@ -2522,16 +1948,9 @@ const items = [
         description: 'This bright-red flower makes the world a lot less drab.',
         effect: '',
         locations: ['Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10',
-            buy: '10'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10', buy: '10' },
+        type: 'items'
     },
     {
         name: 'Healing Herb',
@@ -2546,16 +1965,9 @@ const items = [
             'Dropped by Happycane',
             'Dropped by Starrycane'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,5',
-            buy: '0,5'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,5', buy: '0,5' },
+        type: 'items'
     },
     {
         name: 'Stinky Herb',
@@ -2570,16 +1982,9 @@ const items = [
             'Dropped by Chummer',
             'Dropped by Shrook'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0,5',
-            buy: '0,5'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0,5', buy: '0,5' },
+        type: 'items'
     },
     {
         name: 'Bitter Herb',
@@ -2589,16 +1994,9 @@ const items = [
             'No good to eat, but it could be combined with something...',
         effect: '',
         locations: ['Dropped by Dromp'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Red Coin',
@@ -2608,22 +2006,15 @@ const items = [
         effect: '',
         locations: [
             'Old Springdale',
-            'Infinite Inferno \u2013 2nd Circle',
+            'Infinite Inferno – 2nd Circle',
             'Dropped by Hoggles',
             'QR Code',
             'Password',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Yellow Coin',
@@ -2632,25 +2023,18 @@ const items = [
         description: 'A mysterious coin. Be sure to use it in the Crank-a-kai!',
         effect: '',
         locations: [
-            'Blossom Heights \u2013 Old Mansion House',
+            'Blossom Heights – Old Mansion House',
             "Shopper's Row",
             'Old Springdale',
             'Dropped by Eyedra',
-            'Quest \u2013 Foodie Feuds',
+            'Quest – Foodie Feuds',
             'QR Code',
             'Password',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Orange Coin',
@@ -2660,23 +2044,16 @@ const items = [
         effect: '',
         locations: [
             'Downtown Springdale',
-            'Infinite Inferno \u2013 3rd Circle',
+            'Infinite Inferno – 3rd Circle',
             'Dropped by Styx Mk.VI',
-            'Quest \u2013 The Haunted Hospital',
+            'Quest – The Haunted Hospital',
             'QR Code',
             'Password',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Pink Coin',
@@ -2685,25 +2062,18 @@ const items = [
         description: 'A lovely coin. Be sure to use it in the Crank-a-kai!',
         effect: '',
         locations: [
-            "Shopper's Row \u2013 Nocturne Hospital",
+            "Shopper's Row – Nocturne Hospital",
             'Springdale Underground Waterway',
             'Old Harrisville',
             'Dropped by Clipso',
-            'Quest \u2013 C-1 Grand Prix',
+            'Quest – C-1 Grand Prix',
             'QR Code',
             'Password',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Green Coin',
@@ -2712,26 +2082,19 @@ const items = [
         description: 'A warm coin. Be sure to use it in the Crank-a-kai!',
         effect: '',
         locations: [
-            'Blossom Heights \u2013 Secret Byway',
+            'Blossom Heights – Secret Byway',
             'Springdale Underground Waterway',
-            'Old Springdale \u2013 Mt.Wildwood Shrine',
+            'Old Springdale – Mt.Wildwood Shrine',
             'Old Harrisville',
             'Dropped by Spooklunk',
-            "Quest \u2013 Who's That Girl",
+            "Quest – Who's That Girl",
             'QR Code',
             'Password',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Blue Coin',
@@ -2743,23 +2106,16 @@ const items = [
         locations: [
             'Springdale Underground Waterway',
             'San Fantastico',
-            'Infinite Inferno \u2013 5th Circle',
+            'Infinite Inferno – 5th Circle',
             'Dropped by Dr. Nogut',
-            'Quest \u2013 C-1 Grand Prix A',
+            'Quest – C-1 Grand Prix A',
             'QR Code',
             'Password',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Purple Coin',
@@ -2768,25 +2124,18 @@ const items = [
         description: 'An eerie coin. Be sure to use it in the Crank-a-kai!',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
+            'Mt. Wildwood – Abandoned Tunnel East',
             'Springdale Underground Waterway',
             'Harrisville',
             'Dropped by Squisker',
-            'Quest \u2013 King of the Cicadas',
+            'Quest – King of the Cicadas',
             'QR Code',
             'Password',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Light-Blue Coin',
@@ -2796,23 +2145,16 @@ const items = [
         effect: '',
         locations: [
             'Blossom Heights',
-            'Infinite Inferno \u2013 6th Circle',
+            'Infinite Inferno – 6th Circle',
             'Dropped by Wobblewok',
-            "Quest \u2013 Nyada's Trials I",
+            "Quest – Nyada's Trials I",
             'QR Code',
             'Password',
-            'Excellent Tower \u2013 Scratch-off'
+            'Excellent Tower – Scratch-off'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Five-Star Coin',
@@ -2820,21 +2162,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/five-star_coin.png',
         description: 'A special five-star coin for the Crank-a-kai.',
         effect: '',
-        locations: [
-            'QR Code',
-            'Password',
-            'Excellent Tower \u2013 Scratch-off'
-        ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        locations: ['QR Code', 'Password', 'Excellent Tower – Scratch-off'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Special Coin',
@@ -2842,17 +2173,10 @@ const items = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png',
         description: 'A special coin for the Crank-a-kai.',
         effect: '',
-        locations: ['QR Code', 'Excellent Tower \u2013 Scratch-off'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        locations: ['QR Code', 'Excellent Tower – Scratch-off'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Yo Mystery Coin',
@@ -2861,16 +2185,9 @@ const items = [
         description: 'A special Crank-a-kai coin with "Yo" engraved on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Kai Mystery Coin',
@@ -2879,16 +2196,9 @@ const items = [
         description: 'A special Crank-a-kai coin with "Kai" engraved on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Sum Mystery Coin',
@@ -2897,16 +2207,9 @@ const items = [
         description: 'A special Crank-a-kai coin with "Sum" engraved on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Mon Mystery Coin',
@@ -2915,16 +2218,9 @@ const items = [
         description: 'A special Crank-a-kai coin with "Mon" engraved on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Flower Excitement Coin',
@@ -2933,16 +2229,9 @@ const items = [
         description: 'A special Crank-a-kai coin with a flower engraved on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Bird Excitement Coin',
@@ -2951,16 +2240,9 @@ const items = [
         description: 'A special Crank-a-kai coin with a bird engraved on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Wind Excitement Coin',
@@ -2969,16 +2251,9 @@ const items = [
         description: 'A special Crank-a-kai coin with a wind motif on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Moon Excitement Coin',
@@ -2987,16 +2262,9 @@ const items = [
         description: 'A special Crank-a-kai coin with a moon engraved on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Glitzy Coin',
@@ -3005,19 +2273,12 @@ const items = [
         description: 'A special Crank-a-kai coin that makes its owner glow.',
         effect: '',
         locations: [
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Flower Excitement Coin',
+            'Mt.Wildwood – Crank–a–kai – Flower Excitement Coin',
             'Password'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: "Traveler's Coin North",
@@ -3026,16 +2287,9 @@ const items = [
         description: 'A special Crank-a-kai coin related to a certain region.',
         effect: '',
         locations: ['QR Code', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: "Traveler's Coin Northeast",
@@ -3044,16 +2298,9 @@ const items = [
         description: 'A special Crank-a-kai coin related to a certain region.',
         effect: '',
         locations: ['QR Code', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: "Traveler's Coin East",
@@ -3062,16 +2309,9 @@ const items = [
         description: 'A special Crank-a-kai coin related to a certain region.',
         effect: '',
         locations: ['QR Code', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: "Traveler's Coin Central",
@@ -3080,16 +2320,9 @@ const items = [
         description: 'A special Crank-a-kai coin related to a certain region.',
         effect: '',
         locations: ['QR Code', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: "Traveler's Coin West",
@@ -3098,16 +2331,9 @@ const items = [
         description: 'A special Crank-a-kai coin related to a certain region.',
         effect: '',
         locations: ['QR Code', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: "Traveler's Coin Mountain",
@@ -3116,16 +2342,9 @@ const items = [
         description: 'A special Crank-a-kai coin related to a certain region.',
         effect: '',
         locations: ['QR Code', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: "Traveler's Coin South",
@@ -3134,16 +2353,9 @@ const items = [
         description: 'A special Crank-a-kai coin related to a certain region.',
         effect: '',
         locations: ['QR Code', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: "Traveler's Coin Midwest",
@@ -3152,16 +2364,9 @@ const items = [
         description: 'A special Crank-a-kai coin related to a certain region.',
         effect: '',
         locations: ['QR Code', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: "Traveler's Coin Island",
@@ -3170,16 +2375,9 @@ const items = [
         description: 'A special Crank-a-kai coin related to a certain region.',
         effect: '',
         locations: ['QR Code', 'Password'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Mystery Coin',
@@ -3188,16 +2386,9 @@ const items = [
         description: 'A special Crank-a-kai coin with an eerie vibe.',
         effect: '',
         locations: ['Dropped by Goldy Bones'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Boar Mystery Coin',
@@ -3206,16 +2397,9 @@ const items = [
         description: 'A special Crank-a-kai coin with a boar motif.',
         effect: '',
         locations: ['Dropped by Retinado'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Deer Mystery Coin',
@@ -3224,16 +2408,9 @@ const items = [
         description: 'A special Crank-a-kai coin with a deer motif.',
         effect: '',
         locations: ['Dropped by Hans Galore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Butterfly Mystery Coin',
@@ -3242,16 +2419,9 @@ const items = [
         description: 'A special Crank-a-kai coin with a butterfly motif.',
         effect: '',
         locations: ['Dropped by Glitzy Bones'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Cheerful Coin',
@@ -3260,16 +2430,9 @@ const items = [
         description: 'A special Crank-a-kai coin that makes its owner happy.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Red Coin Fragment',
@@ -3278,16 +2441,9 @@ const items = [
         description: 'Collect these and exchange them for Red Coins.',
         effect: '',
         locations: ['Uptown Springdale', 'QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Yellow Coin Fragment',
@@ -3296,16 +2452,9 @@ const items = [
         description: 'Collect these and exchange them for Yellow Coins.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Orange Coin Fragment',
@@ -3314,16 +2463,9 @@ const items = [
         description: 'Collect these and exchange them for Orange Coins.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Pink Coin Fragment',
@@ -3332,16 +2474,9 @@ const items = [
         description: 'Collect these and exchange them for Pink Coins.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Green Coin Fragment',
@@ -3350,16 +2485,9 @@ const items = [
         description: 'Collect these and exchange them for Green Coins.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Blue Coin Fragment',
@@ -3368,16 +2496,9 @@ const items = [
         description: 'Collect these and exchange them for Blue Coins.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Purple Coin Fragment',
@@ -3386,16 +2507,9 @@ const items = [
         description: 'Collect these and exchange them for Purple Coins.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Light-Blue Fragment',
@@ -3404,16 +2518,9 @@ const items = [
         description: 'Collect these and exchange them for Light-Blue Coins.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Red Box',
@@ -3423,16 +2530,9 @@ const items = [
             'A box given to strangers with a warning never to open it.',
         effect: "Who knows what's inside...",
         locations: ['Randomly given by a passerby'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Gate Globe',
@@ -3441,16 +2541,9 @@ const items = [
         description: 'A curiously glowing globe earned by conquering a gate.',
         effect: '',
         locations: ['Clear Gates of Whimsy challenges'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Noko Orb',
@@ -3460,16 +2553,9 @@ const items = [
             "A mysterious orb from Noko. It's said that only eight exist...",
         effect: '',
         locations: ['Mt. Wildwood'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     },
     {
         name: 'Kyubi Orb',
@@ -3478,17 +2564,10 @@ const items = [
         description:
             'A strange orb that Kyubi has taken human form to collect.',
         effect: '',
-        locations: ['Quest \u2013 A Real Charmer'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1',
-            buy: '1'
-        }
+        locations: ['Quest – A Real Charmer'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1', buy: '1' },
+        type: 'items'
     }
 ];
 

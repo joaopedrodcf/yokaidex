@@ -77,3 +77,18 @@ export const SectionText = styled.div`
         margin-right: 12px;
     }
 `;
+
+export const InputContainer = styled.div`
+    padding: 6px 0;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+`;
+
+export const InputContainerWrap = styled.div`
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 12px;
+`;
