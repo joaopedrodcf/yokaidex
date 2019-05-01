@@ -393,9 +393,10 @@ class Main extends Component {
                         .map(yokai => (
                             <Section key={yokai.name + yokai.tribe}>
                                 <Link
-                                    to={`/yokai-watch-${gameVersion}/yokais/${
-                                        yokai.name
-                                    }`}
+                                    to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
+                                        yokai.name,
+                                        yokai.tribe
+                                    )}`}
                                 >
                                     <SectionWrapper
                                         style={{

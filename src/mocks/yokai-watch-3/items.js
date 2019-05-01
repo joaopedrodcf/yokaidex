@@ -484,7 +484,7 @@ const items = [
     {
         name: "Bye, Li'l Angel",
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bye,_li_l_angel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bye__li_l_angel.png',
         description:
             'The last book in the "Li\'l Angel" series. So heartwarming!',
         effect: 'Makes a Yo-kai Tender.',
@@ -2483,7 +2483,7 @@ const items = [
     {
         name: 'Fancy That! Coin',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fancy_that!_coin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fancy_that__coin.png',
         description:
             'A special Crank-a-Kai coin that makes the pulse race for some reason.',
         effect: '',
@@ -3857,7 +3857,7 @@ const items = [
     {
         name: '\u221e S Stone Frag. 1',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_s_stone_frag._1.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_s_stone_frag._1.png',
         description:
             'Intensely beautiful fragment. Find its partner to complete the Stone.',
         effect: '',
@@ -3876,7 +3876,7 @@ const items = [
     {
         name: '\u221e S Stone Frag. 2',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_s_stone_frag._2.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_s_stone_frag._2.png',
         description:
             'Intensely beautiful fragment. It could be completed with the other fragment.',
         effect: '',
@@ -3895,7 +3895,7 @@ const items = [
     {
         name: '\u221e Hinixstone Fra. 1',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_hinixstone_fra._1.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_hinixstone_fra._1.png',
         description:
             'A flaming fragment. Find its partner to complete the Stone.',
         effect: '',
@@ -3914,7 +3914,7 @@ const items = [
     {
         name: '\u221e Hinixstone Fra. 2',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_hinixstone_fra._2.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_hinixstone_fra._2.png',
         description: 'A flaming fragment. Complete it with the other fragment.',
         effect: '',
         locations: [null],
@@ -3932,7 +3932,7 @@ const items = [
     {
         name: '\u221e Meopetra Fra. 1',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_meopetra_fra._1.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_meopetra_fra._1.png',
         description:
             'A kaleidoscopic fragment. Find its partner to complete the Stone.',
         effect: '',
@@ -3951,7 +3951,7 @@ const items = [
     {
         name: '\u221e Meopetra Fra. 2',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_meopetra_fra._2.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_meopetra_fra._2.png',
         description:
             'A kaleidoscopic fragment. It could be completed with the other fragment.',
         effect: '',
@@ -3970,7 +3970,7 @@ const items = [
     {
         name: '\u221e Silly Stone Fra. 1',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_silly_stone_fra._1.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_silly_stone_fra._1.png',
         description:
             'A fragment full of meaning. Find its partner to complete the Stone.',
         effect: '',
@@ -3989,7 +3989,7 @@ const items = [
     {
         name: '\u221e Silly Stone Fra. 2',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_silly_stone_fra._2.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_silly_stone_fra._2.png',
         description:
             'A fragment full of meaning. It could be completed with the other fragment.',
         effect: '',
@@ -4008,7 +4008,7 @@ const items = [
     {
         name: '\u221e Gild. Stone Fr. 1',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_gild._stone_fr._1.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_gild._stone_fr._1.png',
         description:
             'A fragment full of majesty. Find its partner to complete the Stone.',
         effect: '',
@@ -4027,7 +4027,7 @@ const items = [
     {
         name: '\u221e Gild. Stone Fr. 2',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/\u221e_gild._stone_fr._2.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_gild._stone_fr._2.png',
         description:
             'A fragment full of majesty. It could be completed with the other fragment.',
         effect: '',

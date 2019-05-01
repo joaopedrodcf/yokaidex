@@ -8,6 +8,7 @@ import BaffleBoard from './pages/baffle-board';
 import AboutUs from './pages/about-us';
 import ItemCard from './pages/item-card';
 import Items from './pages/items';
+import utils from './components/utils';
 
 const history = createHistory();
 history.listen(location => {
@@ -21,18 +22,27 @@ const getYokai = (yokais, name) => {
     if (name.includes('_boss')) {
         return yokais.find(
             yokai =>
-                yokai.name === name.replace('_boss', '') &&
-                yokai.tribe === 'boss'
+                yokai.tribe.toLowerCase() === 'boss' &&
+                utils.uniformizeNames(yokai.name, 'boss') ===
+                    utils.uniformizeNames(name)
         );
     }
 
-    return yokais.find(yokai => yokai.name === name);
+    return yokais.find(
+        yokai =>
+            utils.uniformizeNames(yokai.name) === utils.uniformizeNames(name)
+    );
 };
 
-const getItem = (items, name) => items.find(item => item.name === name);
+const getItem = (items, name) =>
+    items.find(
+        item => utils.uniformizeNames(item.name) === utils.uniformizeNames(name)
+    );
 
 const getEquipment = (equipments, name) =>
-    equipments.find(item => item.name === name);
+    equipments.find(
+        item => utils.uniformizeNames(item.name) === utils.uniformizeNames(name)
+    );
 
 class Routes extends Component {
     componentDidMount() {

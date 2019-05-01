@@ -23,29 +23,6 @@ export const Container = styled.div`
     flex-direction: column;
 `;
 
-export const SCLabel = styled.div`
-    text-decoration: none;
-    transition: all 250ms ease-in-out;
-    will-change: transform;
-    color: #000000;
-    padding: 12px;
-    text-align: start;
-    font-weight: 500;
-    background-color: ${props => (props.selected ? 'lightgray' : 'white')};
-
-    svg {
-        margin-right: 12px;
-    }
-
-    &:hover {
-        background-color: lightgray;
-    }
-
-    &:active {
-        background-color: lightgray;
-    }
-`;
-
 export const SCNavLink = styled(NavLink).attrs({
     activeClassName: 'active'
 })`
@@ -54,19 +31,19 @@ export const SCNavLink = styled(NavLink).attrs({
     will-change: transform;
     color: #000000;
     padding: 12px;
-    background-color: #ffffff;
     text-align: start;
     font-weight: 500;
+    background-color: ${props => (props.selected ? 'lightgray' : '#ffffff')};
 
     svg {
         margin-right: 12px;
     }
 
     &:hover {
-        background-color: #fdd835;
+        background-color: ${props => (props.version ? 'lightgray' : '#fdd835')};
     }
     &.active {
-        background-color: #fdd835;
+        background-color: ${props => (props.version ? 'lightgray' : '#fdd835')};
     }
 `;
 
