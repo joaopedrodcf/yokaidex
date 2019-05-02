@@ -1,15 +1,17 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { withRouter } from 'react-router';
+import Menu from 'react-feather/dist/icons/menu';
+import ArrowLeft from 'react-feather/dist/icons/arrow-left';
 import Container from './style';
+import { withGameVersionContext, withSidebarContext } from '../../store';
 import utils from '../utils';
 
-function Header({ onSetSidebarOpen, gameVersion, history }) {
+function Header({ context, history }) {
     const goBack = () => {
         if (history.length > 2) {
             history.goBack();
         } else {
-            history.push(`/yokai-watch-${gameVersion}`);
+            history.push(`/yokai-watch-${context.gameVersion}`);
         }
     };
 
@@ -33,17 +35,19 @@ function Header({ onSetSidebarOpen, gameVersion, history }) {
         return 'Yokaidex';
     };
 
+    const { handleSidebar, gameVersion } = context;
+
     return (
         <Container>
             {matchDeepLocations() ? (
                 <div>
                     <div role="presentation" onClick={goBack}>
-                        <FontAwesomeIcon icon="arrow-left" />
+                        <ArrowLeft />
                     </div>
                 </div>
             ) : (
-                <div role="presentation" onClick={onSetSidebarOpen}>
-                    <FontAwesomeIcon icon="bars" />
+                <div role="presentation" onClick={handleSidebar}>
+                    <Menu />
                 </div>
             )}
             <div>
@@ -53,4 +57,4 @@ function Header({ onSetSidebarOpen, gameVersion, history }) {
     );
 }
 
-export default withRouter(Header);
+export default withRouter(withGameVersionContext(withSidebarContext(Header)));

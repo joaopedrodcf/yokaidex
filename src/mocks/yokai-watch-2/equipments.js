@@ -7,7 +7,7 @@ const equipments = [
             "It's sort of cheap, but some Yo-kai say it's just right for them!",
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School 1F',
+            'Uptown Springdale – Elementary School 1F',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -15,16 +15,9 @@ const equipments = [
             'Dropped by Chansin',
             'Dropped by Mircle'
         ],
-        statsInfo: {
-            str: '+10',
-            spr: '0',
-            def: '0',
-            spd: '-5'
-        },
-        priceInfo: {
-            sell: '1,8',
-            buy: '18'
-        }
+        statsInfo: { str: '+10', spr: '0', def: '0', spd: '-5' },
+        priceInfo: { sell: '1,8', buy: '18' },
+        type: 'equipments'
     },
     {
         name: 'Cheap Bracelet',
@@ -33,7 +26,7 @@ const equipments = [
         description: "It's not the classiest accessory, but it does the job.",
         effect: '',
         locations: [
-            'Downtown Springdale \u2013 Delivery Bay',
+            'Downtown Springdale – Delivery Bay',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -41,16 +34,9 @@ const equipments = [
             "Dropped by N'more",
             'Dropped by Grublappa'
         ],
-        statsInfo: {
-            str: '+10',
-            spr: '0',
-            def: '-5',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1,8',
-            buy: '18'
-        }
+        statsInfo: { str: '+10', spr: '0', def: '-5', spd: '0' },
+        priceInfo: { sell: '1,8', buy: '18' },
+        type: 'equipments'
     },
     {
         name: 'Rocker Wrist',
@@ -60,7 +46,7 @@ const equipments = [
             "A rocker bracelet with spikes. It'd hurt to be on the receiving end.",
         effect: '',
         locations: [
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            'Breezy Hills – Gourd Pond Museum',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -70,19 +56,12 @@ const equipments = [
             'Dropped by Samureel',
             'Dropped by Takoyakid',
             'Dropped by Gutsy Bones',
-            'Quest \u2013 Officially Official!',
+            'Quest – Officially Official!',
             'Lottery'
         ],
-        statsInfo: {
-            str: '+18',
-            spr: '0',
-            def: '0',
-            spd: '-8'
-        },
-        priceInfo: {
-            sell: '6,5',
-            buy: '65'
-        }
+        statsInfo: { str: '+18', spr: '0', def: '0', spd: '-8' },
+        priceInfo: { sell: '6,5', buy: '65' },
+        type: 'equipments'
     },
     {
         name: 'Power Bracelet',
@@ -92,7 +71,7 @@ const equipments = [
             'Makes the wearer tough enough to crush apples bare-handed!',
         effect: '',
         locations: [
-            'Downtown Springdale \u2013 Springdale Business Tower',
+            'Downtown Springdale – Springdale Business Tower',
             'Old Springdale',
             'Memory Store',
             'Jungle Hunter',
@@ -103,20 +82,13 @@ const equipments = [
             'Dropped by Predictabull',
             'Dropped by Defectabull',
             'Dropped by Slumberhog',
-            'Quest \u2013 Officially Official!',
-            "Quest \u2013 Which Beetle's Better",
+            'Quest – Officially Official!',
+            "Quest – Which Beetle's Better",
             'Lottery'
         ],
-        statsInfo: {
-            str: '+18',
-            spr: '0',
-            def: '-8',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '6,5',
-            buy: '65'
-        }
+        statsInfo: { str: '+18', spr: '0', def: '-8', spd: '0' },
+        priceInfo: { sell: '6,5', buy: '65' },
+        type: 'equipments'
     },
     {
         name: 'Brute Bracer',
@@ -125,9 +97,9 @@ const equipments = [
         description: "Like solving problems with strength? This one's for you.",
         effect: '',
         locations: [
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
-            "Shopper's Row \u2013 Tranquility Apts. \u2013 A\u2013201",
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
+            "Shopper's Row – Tranquility Apts. – A–201",
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -138,19 +110,12 @@ const equipments = [
             'Dropped by Sproink',
             'Dropped by Time Keeler',
             'Dropped by Takoyaking',
-            'Quest \u2013 Eerie, Roving Armor',
+            'Quest – Eerie, Roving Armor',
             'Lottery'
         ],
-        statsInfo: {
-            str: '+25',
-            spr: '0',
-            def: '0',
-            spd: '-12'
-        },
-        priceInfo: {
-            sell: '11',
-            buy: '110'
-        }
+        statsInfo: { str: '+25', spr: '0', def: '0', spd: '-12' },
+        priceInfo: { sell: '11', buy: '110' },
+        type: 'equipments'
     },
     {
         name: 'Grand Bracelet',
@@ -160,11 +125,11 @@ const equipments = [
             'An elegant, strength-enhancing item that helps with heavy lifting.',
         effect: '',
         locations: [
-            'Blossom Heights \u2013 Old Mansion Attic',
-            'San Fantastico \u2013 Seaside Cave',
-            'Old Springdale \u2013 Flatpot Plains',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
+            'Blossom Heights – Old Mansion Attic',
+            'San Fantastico – Seaside Cave',
+            'Old Springdale – Flatpot Plains',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -179,16 +144,9 @@ const equipments = [
             'Dropped by Snortlehog',
             'Lottery'
         ],
-        statsInfo: {
-            str: '+25',
-            spr: '0',
-            def: '-12',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '11',
-            buy: '110'
-        }
+        statsInfo: { str: '+25', spr: '0', def: '-12', spd: '0' },
+        priceInfo: { sell: '11', buy: '110' },
+        type: 'equipments'
     },
     {
         name: 'Sun Bracelet',
@@ -198,29 +156,22 @@ const equipments = [
             'A heavy gold bracelet said to contain the power of the sun.',
         effect: '',
         locations: [
-            'Infinite Inferno \u2013 4th Circle',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Red Coin (Past)',
+            'Infinite Inferno – 4th Circle',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Red Coin (Past)',
             'Memory Store',
             'Dropped by Siro',
             'Dropped by Beetall',
             'Dropped by Swelterrier',
             'Dropped by Phantasmurai',
             'Dropped by Spooklunk',
-            'Quest \u2013 Find Gnomey!',
-            'Quest \u2013 C-1 Grand Prix S',
+            'Quest – Find Gnomey!',
+            'Quest – C-1 Grand Prix S',
             'Lottery'
         ],
-        statsInfo: {
-            str: '+35',
-            spr: '0',
-            def: '0',
-            spd: '-15'
-        },
-        priceInfo: {
-            sell: '28',
-            buy: '280'
-        }
+        statsInfo: { str: '+35', spr: '0', def: '0', spd: '-15' },
+        priceInfo: { sell: '28', buy: '280' },
+        type: 'equipments'
     },
     {
         name: 'Comet Bracelet',
@@ -230,32 +181,25 @@ const equipments = [
             'Unleashes the destructive force of a comet flying through space.',
         effect: '',
         locations: [
-            'Yo\u2013kai World \u2013 Hooligan Road',
-            "Breezy Hills \u2013 Gate Room \u2013 Compunzer's Zone",
+            'Yo–kai World – Hooligan Road',
+            "Breezy Hills – Gate Room – Compunzer's Zone",
             'Mystery Way',
-            'Gold\u2013Gleaming Hwy.',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Purple Coin (Past)',
+            'Gold–Gleaming Hwy.',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Purple Coin (Past)',
             'Memory Store',
             'Dropped by Zerberker',
             'Dropped by Cruncha',
             'Dropped by Venoct',
             'Dropped by Untidy',
             'Dropped by Massiface',
-            'Quest \u2013 Find Gnomey!',
-            'Quest \u2013 The Phantom Giant',
+            'Quest – Find Gnomey!',
+            'Quest – The Phantom Giant',
             'Lottery'
         ],
-        statsInfo: {
-            str: '+35',
-            spr: '0',
-            def: '-15',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '28',
-            buy: '280'
-        }
+        statsInfo: { str: '+35', spr: '0', def: '-15', spd: '0' },
+        priceInfo: { sell: '28', buy: '280' },
+        type: 'equipments'
     },
     {
         name: 'Fiend Band',
@@ -266,19 +210,12 @@ const equipments = [
         effect: '',
         locations: [
             'Dropped by Gargaros',
-            "Quest \u2013 Nyada's Trials V",
-            'Quest \u2013 The Bony General'
+            "Quest – Nyada's Trials V",
+            'Quest – The Bony General'
         ],
-        statsInfo: {
-            str: '+50',
-            spr: '0',
-            def: '0',
-            spd: '-25'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '800'
-        }
+        statsInfo: { str: '+50', spr: '0', def: '0', spd: '-25' },
+        priceInfo: { sell: '80', buy: '800' },
+        type: 'equipments'
     },
     {
         name: 'Legend Bracelet',
@@ -288,21 +225,14 @@ const equipments = [
         effect: '',
         locations: [
             'Gera Gera Land',
-            'Divine Paradise \u2013 5F',
+            'Divine Paradise – 5F',
             'Jungle Hunter',
             "Dropped by Cap'n Rex",
-            'Quest \u2013 Fleshy Souls General'
+            'Quest – Fleshy Souls General'
         ],
-        statsInfo: {
-            str: '+50',
-            spr: '0',
-            def: '-25',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '800'
-        }
+        statsInfo: { str: '+50', spr: '0', def: '-25', spd: '0' },
+        priceInfo: { sell: '80', buy: '800' },
+        type: 'equipments'
     },
     {
         name: 'Rusty Ring',
@@ -311,23 +241,16 @@ const equipments = [
         description: "A ring that's gotten old and rusty. It still has power.",
         effect: '',
         locations: [
-            "Shopper's Row \u2013 Tranquility Apts. \u2013 B\u2013201",
+            "Shopper's Row – Tranquility Apts. – B–201",
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
             'Dropped by Slacka-slash',
             'Dropped by Robonoko'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+10',
-            def: '-5',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1,8',
-            buy: '18'
-        }
+        statsInfo: { str: '0', spr: '+10', def: '-5', spd: '0' },
+        priceInfo: { sell: '1,8', buy: '18' },
+        type: 'equipments'
     },
     {
         name: 'Ugly Ring',
@@ -336,7 +259,7 @@ const equipments = [
         description: "It's not pretty, but it's pretty effective.",
         effect: '',
         locations: [
-            'Blossom Heights \u2013 Secret Byway',
+            'Blossom Heights – Secret Byway',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -344,16 +267,9 @@ const equipments = [
             'Dropped by Yoink',
             'Dropped by Chatalie'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+10',
-            def: '0',
-            spd: '-5'
-        },
-        priceInfo: {
-            sell: '1,8',
-            buy: '18'
-        }
+        statsInfo: { str: '0', spr: '+10', def: '0', spd: '-5' },
+        priceInfo: { sell: '1,8', buy: '18' },
+        type: 'equipments'
     },
     {
         name: 'Pretty Ring',
@@ -362,8 +278,8 @@ const equipments = [
         description: 'A cute ring of pink gold. Lady Yo-kai like it a lot.',
         effect: '',
         locations: [
-            'Harrisville \u2013 Old House by The Station',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Flower Excitement Coin',
+            'Harrisville – Old House by The Station',
+            'Mt.Wildwood – Crank–a–kai – Flower Excitement Coin',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -372,19 +288,12 @@ const equipments = [
             'Dropped by Nagatha',
             'Dropped by Toiletta',
             'Dropped by Happycane',
-            'Quest \u2013 Springdale Star Pt. 1',
+            'Quest – Springdale Star Pt. 1',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+18',
-            def: '-8',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '6,5',
-            buy: '65'
-        }
+        statsInfo: { str: '0', spr: '+18', def: '-8', spd: '0' },
+        priceInfo: { sell: '6,5', buy: '65' },
+        type: 'equipments'
     },
     {
         name: 'Rainbow Ring',
@@ -394,7 +303,7 @@ const equipments = [
             'A beautiful ring that sparkles with all the colors of the rainbow.',
         effect: '',
         locations: [
-            'Downtown Springdale \u2013 Springdale Business Tower',
+            'Downtown Springdale – Springdale Business Tower',
             'Old Harrisville',
             'Memory Store',
             'Jungle Hunter',
@@ -406,16 +315,9 @@ const equipments = [
             'Dropped by Droplette',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+18',
-            def: '0',
-            spd: '-8'
-        },
-        priceInfo: {
-            sell: '6,5',
-            buy: '65'
-        }
+        statsInfo: { str: '0', spr: '+18', def: '0', spd: '-8' },
+        priceInfo: { sell: '6,5', buy: '65' },
+        type: 'equipments'
     },
     {
         name: 'Illusion Ring',
@@ -426,9 +328,9 @@ const equipments = [
         effect: '',
         locations: [
             'Blossom Heights',
-            'Old Springdale \u2013 Flatpot Plains',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
+            'Old Springdale – Flatpot Plains',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -441,20 +343,13 @@ const equipments = [
             'Dropped by Groupus Khan',
             'Dropped by Starrycane',
             'Dropped by Kin',
-            "Quest \u2013 No Time For Fishin'!",
-            'Quest \u2013 I Just Wanna Grow Up',
+            "Quest – No Time For Fishin'!",
+            'Quest – I Just Wanna Grow Up',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+25',
-            def: '-12',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '11',
-            buy: '110'
-        }
+        statsInfo: { str: '0', spr: '+25', def: '-12', spd: '0' },
+        priceInfo: { sell: '11', buy: '110' },
+        type: 'equipments'
     },
     {
         name: 'Fairy Ring',
@@ -463,10 +358,10 @@ const equipments = [
         description: 'The spirit of a fairy dwells within this ring.',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel West',
+            'Mt. Wildwood – Abandoned Tunnel West',
             'San Fantastico',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -479,20 +374,13 @@ const equipments = [
             'Dropped by Cynake',
             'Dropped by Sailornyan',
             'Dropped by Badsmella',
-            "Quest \u2013 No Time For Fishin'!",
-            'Quest \u2013 A Real Charmer',
+            "Quest – No Time For Fishin'!",
+            'Quest – A Real Charmer',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+25',
-            def: '0',
-            spd: '-12'
-        },
-        priceInfo: {
-            sell: '11',
-            buy: '110'
-        }
+        statsInfo: { str: '0', spr: '+25', def: '0', spd: '-12' },
+        priceInfo: { sell: '11', buy: '110' },
+        type: 'equipments'
     },
     {
         name: 'Lunar Ring',
@@ -502,29 +390,22 @@ const equipments = [
             'A softly glowing ring said to contain the power of the moon.',
         effect: '',
         locations: [
-            'Infinite Inferno \u2013 7th Circle',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Yellow Coin (Past)',
+            'Infinite Inferno – 7th Circle',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Yellow Coin (Past)',
             'Memory Store',
             'Dropped by Kyubi',
             'Dropped by Peppillon',
             'Dropped by Darknyan',
             'Dropped by Unkeen',
             'Dropped by Clipso',
-            'Quest \u2013 Find Mermaidyn!',
-            'Quest \u2013 Springdale Star Pt. 2',
+            'Quest – Find Mermaidyn!',
+            'Quest – Springdale Star Pt. 2',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+35',
-            def: '-15',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '28',
-            buy: '280'
-        }
+        statsInfo: { str: '0', spr: '+35', def: '-15', spd: '0' },
+        priceInfo: { sell: '28', buy: '280' },
+        type: 'equipments'
     },
     {
         name: 'Ring of Fate',
@@ -533,29 +414,22 @@ const equipments = [
         description: "Imbued with the power to alter one's destiny.",
         effect: '',
         locations: [
-            'Yo\u2013kai World \u2013 Entry Hall',
+            'Yo–kai World – Entry Hall',
             'Mystery Way',
-            'Gold\u2013Gleaming Hwy.',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Green Coin (Past)',
+            'Gold–Gleaming Hwy.',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Green Coin (Past)',
             'Memory Store',
             'Dropped by Frostail',
             'Dropped by Dragon Lord',
             'Dropped by Mermadonna',
             'Dropped by Unpleasant',
-            'Quest \u2013 Find Mermaidyn!',
+            'Quest – Find Mermaidyn!',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+35',
-            def: '0',
-            spd: '-15'
-        },
-        priceInfo: {
-            sell: '28',
-            buy: '280'
-        }
+        statsInfo: { str: '0', spr: '+35', def: '0', spd: '-15' },
+        priceInfo: { sell: '28', buy: '280' },
+        type: 'equipments'
     },
     {
         name: 'Fiend Ring',
@@ -565,19 +439,12 @@ const equipments = [
         effect: '',
         locations: [
             'Dropped by Ogralus',
-            "Quest \u2013 Nyada's Trials V",
-            'Quest \u2013 The Old Fox Shrine'
+            "Quest – Nyada's Trials V",
+            'Quest – The Old Fox Shrine'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+50',
-            def: '-25',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '800'
-        }
+        statsInfo: { str: '0', spr: '+50', def: '-25', spd: '0' },
+        priceInfo: { sell: '80', buy: '800' },
+        type: 'equipments'
     },
     {
         name: 'Legend Ring',
@@ -587,21 +454,14 @@ const equipments = [
         effect: '',
         locations: [
             'Gera Gera Land',
-            'Divine Paradise \u2013 3F',
+            'Divine Paradise – 3F',
             'Jungle Hunter',
             'Dropped by Flippa',
-            'Quest \u2013 Enma and the Serpent'
+            'Quest – Enma and the Serpent'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+50',
-            def: '0',
-            spd: '-25'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '800'
-        }
+        statsInfo: { str: '0', spr: '+50', def: '0', spd: '-25' },
+        priceInfo: { sell: '80', buy: '800' },
+        type: 'equipments'
     },
     {
         name: 'Aged Charm',
@@ -618,16 +478,9 @@ const equipments = [
             'Dropped by Fidgephant',
             "Dropped by Ol' Fortune"
         ],
-        statsInfo: {
-            str: '0',
-            spr: '-5',
-            def: '+10',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1,8',
-            buy: '18'
-        }
+        statsInfo: { str: '0', spr: '-5', def: '+10', spd: '0' },
+        priceInfo: { sell: '1,8', buy: '18' },
+        type: 'equipments'
     },
     {
         name: 'Old Charm',
@@ -644,16 +497,9 @@ const equipments = [
             'Dropped by No-Go Kart',
             'Dropped by Touphant'
         ],
-        statsInfo: {
-            str: '-5',
-            spr: '0',
-            def: '+10',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1,8',
-            buy: '18'
-        }
+        statsInfo: { str: '-5', spr: '0', def: '+10', spd: '0' },
+        priceInfo: { sell: '1,8', buy: '18' },
+        type: 'equipments'
     },
     {
         name: 'Runic Charm',
@@ -662,7 +508,7 @@ const equipments = [
         description: 'A charm with a mysterious pattern upon it.',
         effect: '',
         locations: [
-            'Breezy Hills \u2013 Gourd Pond Museum',
+            'Breezy Hills – Gourd Pond Museum',
             'Old Harrisville',
             'Memory Store',
             'Jungle Hunter',
@@ -675,16 +521,9 @@ const equipments = [
             'Dropped by Sumodon',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '-8',
-            def: '+18',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '6,5',
-            buy: '65'
-        }
+        statsInfo: { str: '0', spr: '-8', def: '+18', spd: '0' },
+        priceInfo: { sell: '6,5', buy: '65' },
+        type: 'equipments'
     },
     {
         name: 'Protective Charm',
@@ -693,9 +532,9 @@ const equipments = [
         description: 'Offers divine protection to the wearer.',
         effect: '',
         locations: [
-            'Blossom Heights \u2013 Old Mansion House',
-            'Harrisville \u2013 Fullface Rock',
-            'Old Springdale \u2013 Fox Shrine Road',
+            'Blossom Heights – Old Mansion House',
+            'Harrisville – Fullface Rock',
+            'Old Springdale – Fox Shrine Road',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -707,16 +546,9 @@ const equipments = [
             'Dropped by Whateverest',
             'Lottery'
         ],
-        statsInfo: {
-            str: '-8',
-            spr: '0',
-            def: '+18',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '6,5',
-            buy: '65'
-        }
+        statsInfo: { str: '-8', spr: '0', def: '+18', spd: '0' },
+        priceInfo: { sell: '6,5', buy: '65' },
+        type: 'equipments'
     },
     {
         name: 'Armor Charm',
@@ -725,9 +557,9 @@ const equipments = [
         description: 'A charm said to provide impregnable defense.',
         effect: '',
         locations: [
-            'Blossom Heights \u2013 Hidden Side Street',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
+            'Blossom Heights – Hidden Side Street',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -740,20 +572,13 @@ const equipments = [
             'Dropped by Rageon',
             'Dropped by Yokozudon',
             "Dropped by Cap'n Crash",
-            'Quest \u2013 Secrets of Soulcery',
-            'Quest \u2013 The Heartthrobs',
+            'Quest – Secrets of Soulcery',
+            'Quest – The Heartthrobs',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '-12',
-            def: '+25',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '11',
-            buy: '110'
-        }
+        statsInfo: { str: '0', spr: '-12', def: '+25', spd: '0' },
+        priceInfo: { sell: '11', buy: '110' },
+        type: 'equipments'
     },
     {
         name: 'Lucky Charm',
@@ -762,9 +587,9 @@ const equipments = [
         description: 'Brings good fortune and offers powerful protection.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Lonely Waterway',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
+            'Uptown Springdale – Lonely Waterway',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -777,20 +602,13 @@ const equipments = [
             'Dropped by Jetnyan',
             'Dropped by No Sandkyu',
             'Dropped by Whatuption',
-            'Quest \u2013 Secrets of Soulcery',
-            'Quest \u2013 Gone Haunting',
+            'Quest – Secrets of Soulcery',
+            'Quest – Gone Haunting',
             'Lottery'
         ],
-        statsInfo: {
-            str: '-12',
-            spr: '0',
-            def: '+25',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '11',
-            buy: '110'
-        }
+        statsInfo: { str: '-12', spr: '0', def: '+25', spd: '0' },
+        priceInfo: { sell: '11', buy: '110' },
+        type: 'equipments'
     },
     {
         name: 'Galaxy Charm',
@@ -799,31 +617,24 @@ const equipments = [
         description: 'A powerful charm that sparkles like a nebula.',
         effect: '',
         locations: [
-            'Breezy Hills \u2013 Gate Room \u2013 Traffic\u2013Light Zone',
+            'Breezy Hills – Gate Room – Traffic–Light Zone',
             'Mystery Way',
-            'Gold\u2013Gleaming Hwy.',
-            'Infinite Inferno \u2013 6th Circle',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Orange Coin (Past)',
+            'Gold–Gleaming Hwy.',
+            'Infinite Inferno – 6th Circle',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Orange Coin (Past)',
             'Memory Store',
             'Dropped by Swosh',
             'Dropped by Uncle Infinite',
             'Dropped by Wobblewok',
             'Dropped by Unfairy',
-            "Quest \u2013 The Shrine's Part",
-            'Quest \u2013 Ultimate Bear Boy',
+            "Quest – The Shrine's Part",
+            'Quest – Ultimate Bear Boy',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '-15',
-            def: '+35',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '28',
-            buy: '280'
-        }
+        statsInfo: { str: '0', spr: '-15', def: '+35', spd: '0' },
+        priceInfo: { sell: '28', buy: '280' },
+        type: 'equipments'
     },
     {
         name: 'Earth Charm',
@@ -833,29 +644,22 @@ const equipments = [
             'This charm draws its power from the spirit of the earth itself.',
         effect: '',
         locations: [
-            'Infinite Inferno \u2013 1st Circle',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Blue Coin (Past)',
+            'Infinite Inferno – 1st Circle',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Blue Coin (Past)',
             'Memory Store',
             'Dropped by Walldin',
             'Dropped by Enduriphant',
             'Dropped by Dromp',
             'Dropped by Sproink',
             'Dropped by Hoggles',
-            "Quest \u2013 The Shrine's Part",
-            'Quest \u2013 Treasure Hunters Pt. 3',
+            "Quest – The Shrine's Part",
+            'Quest – Treasure Hunters Pt. 3',
             'Lottery'
         ],
-        statsInfo: {
-            str: '-15',
-            spr: '0',
-            def: '+35',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '28',
-            buy: '280'
-        }
+        statsInfo: { str: '-15', spr: '0', def: '+35', spd: '0' },
+        priceInfo: { sell: '28', buy: '280' },
+        type: 'equipments'
     },
     {
         name: 'Fiend Charm',
@@ -863,17 +667,10 @@ const equipments = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fiend_charm.png',
         description: "A charm bearing a demon's crest. It houses a dark power.",
         effect: '',
-        locations: ['Quest \u2013 Watch the Skies'],
-        statsInfo: {
-            str: '0',
-            spr: '-25',
-            def: '+50',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '800'
-        }
+        locations: ['Quest – Watch the Skies'],
+        statsInfo: { str: '0', spr: '-25', def: '+50', spd: '0' },
+        priceInfo: { sell: '80', buy: '800' },
+        type: 'equipments'
     },
     {
         name: 'Legend Charm',
@@ -884,21 +681,14 @@ const equipments = [
         effect: '',
         locations: [
             'Gera Gera Land',
-            'Divine Paradise \u2013 1F',
+            'Divine Paradise – 1F',
             'Jungle Hunter',
             'Dropped by Dame Dredful',
-            'Quest \u2013 The God of the Sea'
+            'Quest – The God of the Sea'
         ],
-        statsInfo: {
-            str: '-25',
-            spr: '0',
-            def: '+50',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '800'
-        }
+        statsInfo: { str: '-25', spr: '0', def: '+50', spd: '0' },
+        priceInfo: { sell: '80', buy: '800' },
+        type: 'equipments'
     },
     {
         name: 'Simple Badge',
@@ -908,22 +698,15 @@ const equipments = [
             'Sometimes simple is best. This badge bumps up your Speed.',
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School 1F',
+            'Uptown Springdale – Elementary School 1F',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
-            "Quest \u2013 Matt, Don't Give Up!"
+            "Quest – Matt, Don't Give Up!"
         ],
-        statsInfo: {
-            str: '-5',
-            spr: '0',
-            def: '0',
-            spd: '+8'
-        },
-        priceInfo: {
-            sell: '1,8',
-            buy: '18'
-        }
+        statsInfo: { str: '-5', spr: '0', def: '0', spd: '+8' },
+        priceInfo: { sell: '1,8', buy: '18' },
+        type: 'equipments'
     },
     {
         name: 'Black Badge',
@@ -939,18 +722,11 @@ const equipments = [
             'Dropped by Mirapo',
             'Dropped by Mircle',
             'Dropped by Dubbles',
-            "Quest \u2013 Matt, Don't Give Up!"
+            "Quest – Matt, Don't Give Up!"
         ],
-        statsInfo: {
-            str: '0',
-            spr: '-5',
-            def: '0',
-            spd: '+8'
-        },
-        priceInfo: {
-            sell: '1,8',
-            buy: '18'
-        }
+        statsInfo: { str: '0', spr: '-5', def: '0', spd: '+8' },
+        priceInfo: { sell: '1,8', buy: '18' },
+        type: 'equipments'
     },
     {
         name: 'Shiny Badge',
@@ -972,16 +748,9 @@ const equipments = [
             'Dropped by Panja Pupil',
             'Lottery'
         ],
-        statsInfo: {
-            str: '-8',
-            spr: '0',
-            def: '0',
-            spd: '+15'
-        },
-        priceInfo: {
-            sell: '6,5',
-            buy: '65'
-        }
+        statsInfo: { str: '-8', spr: '0', def: '0', spd: '+15' },
+        priceInfo: { sell: '6,5', buy: '65' },
+        type: 'equipments'
     },
     {
         name: 'Cute Badge',
@@ -991,9 +760,9 @@ const equipments = [
             "An adorable glittery badge. It's actually functional too!",
         effect: '',
         locations: [
-            'Uptown Springdale \u2013 Elementary School 1F',
+            'Uptown Springdale – Elementary School 1F',
             'Old Harrisville',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Flower Excitement Coin',
+            'Mt.Wildwood – Crank–a–kai – Flower Excitement Coin',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -1002,19 +771,12 @@ const equipments = [
             'Dropped by Whapir',
             'Dropped by Frostina',
             'Dropped by Chippa',
-            'Quest \u2013 Makeover Takeover',
+            'Quest – Makeover Takeover',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '-8',
-            def: '0',
-            spd: '+15'
-        },
-        priceInfo: {
-            sell: '6,5',
-            buy: '65'
-        }
+        statsInfo: { str: '0', spr: '-8', def: '0', spd: '+15' },
+        priceInfo: { sell: '6,5', buy: '65' },
+        type: 'equipments'
     },
     {
         name: 'Hermes Badge',
@@ -1023,10 +785,10 @@ const equipments = [
         description: 'A badge that lets you run like the wind.',
         effect: '',
         locations: [
-            'Mt. Wildwood \u2013 Abandoned Tunnel East',
-            "Shopper's Row \u2013 Nocturne Hospital",
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
+            'Mt. Wildwood – Abandoned Tunnel East',
+            "Shopper's Row – Nocturne Hospital",
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -1038,20 +800,13 @@ const equipments = [
             'Dropped by Draaagin',
             'Dropped by Panja Pro',
             'Dropped by Eyeclone',
-            'Quest \u2013 True Hide-and-Seek',
-            'Quest \u2013 Ultra Hide-and-Seek',
+            'Quest – True Hide-and-Seek',
+            'Quest – Ultra Hide-and-Seek',
             'Lottery'
         ],
-        statsInfo: {
-            str: '-12',
-            spr: '0',
-            def: '0',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '11',
-            buy: '110'
-        }
+        statsInfo: { str: '-12', spr: '0', def: '0', spd: '+20' },
+        priceInfo: { sell: '11', buy: '110' },
+        type: 'equipments'
     },
     {
         name: 'Aurora Badge',
@@ -1061,8 +816,8 @@ const equipments = [
         effect: '',
         locations: [
             'Mt. Wildwood',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
@@ -1076,19 +831,12 @@ const equipments = [
             'Dropped by Sandi',
             'Dropped by Slitheref',
             'Dropped by Jibakoma',
-            'Quest \u2013 True Hide-and-Seek',
+            'Quest – True Hide-and-Seek',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '-12',
-            def: '0',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '11',
-            buy: '110'
-        }
+        statsInfo: { str: '0', spr: '-12', def: '0', spd: '+20' },
+        priceInfo: { sell: '11', buy: '110' },
+        type: 'equipments'
     },
     {
         name: 'Meteor Badge',
@@ -1098,28 +846,21 @@ const equipments = [
             'A badge shaped like a shooting star, with power to match.',
         effect: '',
         locations: [
-            'Yo\u2013kai World \u2013 Liar Mountain',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Pink Coin (Past)',
+            'Yo–kai World – Liar Mountain',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Pink Coin (Past)',
             'Memory Store',
             'Dropped by Master Nyada',
             'Dropped by Smashibull',
             'Dropped by Eyellure',
             'Dropped by Unkaind',
             'Dropped by Hans Full',
-            "Quest \u2013 Retrace Dad's Steps",
+            "Quest – Retrace Dad's Steps",
             'Lottery'
         ],
-        statsInfo: {
-            str: '-15',
-            spr: '0',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '28',
-            buy: '280'
-        }
+        statsInfo: { str: '-15', spr: '0', def: '0', spd: '+30' },
+        priceInfo: { sell: '28', buy: '280' },
+        type: 'equipments'
     },
     {
         name: 'Lightning Badge',
@@ -1131,29 +872,22 @@ const equipments = [
             'Mystery Way',
             'Bony Spirits Way',
             'Fleshy Souls',
-            'Gold\u2013Gleaming Hwy.',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Present)',
-            'Mt.Wildwood \u2013 Crank\u2013a\u2013kai \u2013 Light Blue Coin (Past)',
+            'Gold–Gleaming Hwy.',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Present)',
+            'Mt.Wildwood – Crank–a–kai – Light Blue Coin (Past)',
             'Memory Store',
             'Dropped by Signiton',
             'Dropped by Statiking',
             'Dropped by Master Oden',
             'Dropped by Frazzel',
             'Dropped by Tarantutor',
-            "Quest \u2013 Retrace Dad's Steps",
-            'Quest \u2013 Expert Hide-and-Seek',
+            "Quest – Retrace Dad's Steps",
+            'Quest – Expert Hide-and-Seek',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '-15',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '28',
-            buy: '280'
-        }
+        statsInfo: { str: '0', spr: '-15', def: '0', spd: '+30' },
+        priceInfo: { sell: '28', buy: '280' },
+        type: 'equipments'
     },
     {
         name: 'Fiend Badge',
@@ -1161,17 +895,10 @@ const equipments = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fiend_badge.png',
         description: "A badge bearing a demon's crest. It houses unholy speed.",
         effect: '',
-        locations: ['Quest \u2013 C-1 Grand Prix X'],
-        statsInfo: {
-            str: '-25',
-            spr: '0',
-            def: '0',
-            spd: '40'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '800'
-        }
+        locations: ['Quest – C-1 Grand Prix X'],
+        statsInfo: { str: '-25', spr: '0', def: '0', spd: '40' },
+        priceInfo: { sell: '80', buy: '800' },
+        type: 'equipments'
     },
     {
         name: 'Legend Badge',
@@ -1182,20 +909,13 @@ const equipments = [
         effect: '',
         locations: [
             'Gera Gera Land',
-            'Divine Paradise \u2013 4F',
+            'Divine Paradise – 4F',
             'Jungle Hunter',
-            "Quest \u2013 Nyada's Trials III"
+            "Quest – Nyada's Trials III"
         ],
-        statsInfo: {
-            str: '0',
-            spr: '-25',
-            def: '0',
-            spd: '+40'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '800'
-        }
+        statsInfo: { str: '0', spr: '-25', def: '0', spd: '+40' },
+        priceInfo: { sell: '80', buy: '800' },
+        type: 'equipments'
     },
     {
         name: 'Cicada Sword',
@@ -1205,16 +925,9 @@ const equipments = [
             'The sword of the cicada-style ninja. Only for cicada Yo-kai.',
         effect: '',
         locations: ['Dropped by Cadable', 'Dropped by Singcada', 'Lottery'],
-        statsInfo: {
-            str: '+35',
-            spr: '0',
-            def: '0',
-            spd: '+35'
-        },
-        priceInfo: {
-            sell: '15',
-            buy: '15'
-        }
+        statsInfo: { str: '+35', spr: '0', def: '0', spd: '+35' },
+        priceInfo: { sell: '15', buy: '15' },
+        type: 'equipments'
     },
     {
         name: 'Beefy Bell',
@@ -1223,17 +936,10 @@ const equipments = [
         description:
             'Use this cat bell if you want to get beefy! For cat Yo-kai only.',
         effect: '',
-        locations: ['Fusion.', 'Quest \u2013 Bam-Boom! Fusing!'],
-        statsInfo: {
-            str: '+50',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '20',
-            buy: '20'
-        }
+        locations: ['Fusion.', 'Quest – Bam-Boom! Fusing!'],
+        statsInfo: { str: '+50', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '20', buy: '20' },
+        type: 'equipments'
     },
     {
         name: 'Spell Bell',
@@ -1242,17 +948,10 @@ const equipments = [
         description:
             'Use this cat bell if you want elegance! For cat Yo-kai only.',
         effect: '',
-        locations: ['Fusion.', 'Quest \u2013 Bam-Boom! Fusing!'],
-        statsInfo: {
-            str: '0',
-            spr: '+50',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '20',
-            buy: '20'
-        }
+        locations: ['Fusion.', 'Quest – Bam-Boom! Fusing!'],
+        statsInfo: { str: '0', spr: '+50', def: '0', spd: '0' },
+        priceInfo: { sell: '20', buy: '20' },
+        type: 'equipments'
     },
     {
         name: 'Tough Bell',
@@ -1261,17 +960,10 @@ const equipments = [
         description:
             'Use this cat bell if you want to be tough! For cat Yo-kai only.',
         effect: '',
-        locations: ['Fusion.', "Quest \u2013 The Ironworks' Part"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+50',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '20',
-            buy: '20'
-        }
+        locations: ['Fusion.', "Quest – The Ironworks' Part"],
+        statsInfo: { str: '0', spr: '0', def: '+50', spd: '0' },
+        priceInfo: { sell: '20', buy: '20' },
+        type: 'equipments'
     },
     {
         name: 'Speed Bell',
@@ -1280,17 +972,10 @@ const equipments = [
         description:
             'Use this cat bell if you want to be speedy! For cat Yo-kai only.',
         effect: '',
-        locations: ['Fusion.', "Quest \u2013 The Ironworks' Part"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '20',
-            buy: '20'
-        }
+        locations: ['Fusion.', "Quest – The Ironworks' Part"],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '+30' },
+        priceInfo: { sell: '20', buy: '20' },
+        type: 'equipments'
     },
     {
         name: 'Big Bottle',
@@ -1307,18 +992,11 @@ const equipments = [
             'Dropped by Faux Kappa',
             'Dropped by Tigappa',
             'Dropped by Mad Kappa',
-            'Quest \u2013 The Realest Kappa'
+            'Quest – The Realest Kappa'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '30'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '30' },
+        type: 'equipments'
     },
     {
         name: 'Tengu Fan',
@@ -1328,16 +1006,9 @@ const equipments = [
             'Tengu draw power from fans like these. For tengu Yo-kai only.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '+100',
-            def: '0',
-            spd: '+100'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '50'
-        }
+        statsInfo: { str: '0', spr: '+100', def: '0', spd: '+100' },
+        priceInfo: { sell: '50', buy: '50' },
+        type: 'equipments'
     },
     {
         name: 'Cheery Coat',
@@ -1346,17 +1017,10 @@ const equipments = [
         description:
             "This'll make you wanna dance! For Wiglin, Steppa, and Rhyth only.",
         effect: '',
-        locations: ['Quest \u2013 Trying Tangle Tango', 'Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '+50'
-        },
-        priceInfo: {
-            sell: '18',
-            buy: '18'
-        }
+        locations: ['Quest – Trying Tangle Tango', 'Lottery'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '+50' },
+        priceInfo: { sell: '18', buy: '18' },
+        type: 'equipments'
     },
     {
         name: 'Nail Bat',
@@ -1366,16 +1030,9 @@ const equipments = [
             'A bat with nails sticking out of it. Only for Badude and Bruff.',
         effect: '',
         locations: ['Jungle Hunter', 'Dropped by Badude'],
-        statsInfo: {
-            str: '+50',
-            spr: '0',
-            def: '-25',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '30'
-        }
+        statsInfo: { str: '+50', spr: '0', def: '-25', spd: '0' },
+        priceInfo: { sell: '30', buy: '30' },
+        type: 'equipments'
     },
     {
         name: 'Drumsticks',
@@ -1383,17 +1040,10 @@ const equipments = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/drumsticks.png',
         description: 'Don Chan uses these to thump out big, bold rhythms.',
         effect: '',
-        locations: ['Jungle Hunter', 'Quest \u2013 Inspirited Away'],
-        statsInfo: {
-            str: '0',
-            spr: '+40',
-            def: '+60',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '14',
-            buy: '14'
-        }
+        locations: ['Jungle Hunter', 'Quest – Inspirited Away'],
+        statsInfo: { str: '0', spr: '+40', def: '+60', spd: '0' },
+        priceInfo: { sell: '14', buy: '14' },
+        type: 'equipments'
     },
     {
         name: 'Robovitamin E',
@@ -1409,19 +1059,12 @@ const equipments = [
             'Dropped by Robomutt',
             'Dropped by Robonoko',
             'Dropped by Robodraggie',
-            'Quest \u2013 From the Future!',
+            'Quest – From the Future!',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+45',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '35',
-            buy: '35'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+45', spd: '+20' },
+        priceInfo: { sell: '35', buy: '35' },
+        type: 'equipments'
     },
     {
         name: "Burly's Wristband",
@@ -1432,18 +1075,11 @@ const equipments = [
         locations: [
             'Jungle Hunter',
             'Dropped by Sgt. Burly',
-            "Quest \u2013 Jibanyan's Secret"
+            "Quest – Jibanyan's Secret"
         ],
-        statsInfo: {
-            str: '+60',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '28',
-            buy: '28'
-        }
+        statsInfo: { str: '+60', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '28', buy: '28' },
+        type: 'equipments'
     },
     {
         name: 'Memory Chime',
@@ -1451,17 +1087,10 @@ const equipments = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/memory_chime.png',
         description: 'This treasured chime reminds Jibanyan of Amy.',
         effect: '',
-        locations: ["Quest \u2013 Jibanyan's Secret"],
-        statsInfo: {
-            str: '+40',
-            spr: '0',
-            def: '0',
-            spd: '+40'
-        },
-        priceInfo: {
-            sell: '80',
-            buy: '80'
-        }
+        locations: ["Quest – Jibanyan's Secret"],
+        statsInfo: { str: '+40', spr: '0', def: '0', spd: '+40' },
+        priceInfo: { sell: '80', buy: '80' },
+        type: 'equipments'
     },
     {
         name: 'Bony Band',
@@ -1471,26 +1100,19 @@ const equipments = [
             'Inspires Bony Spirits Yo-kai to outdo their Fleshy Souls rivals.',
         effect: '+ Damage to Fleshy Yo-kai.',
         locations: [
-            'Old Springdale \u2013 Flatpot Plains',
+            'Old Springdale – Flatpot Plains',
             'Dropped by Faysoff',
             'Dropped by Mad Mountain',
             'Dropped by Herbiboy',
             'Dropped by Carniboy',
             'Dropped by Irewig',
             'Dropped by Firewig',
-            'Quest \u2013 Find Faux Kappa!',
+            'Quest – Find Faux Kappa!',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '30'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '30' },
+        type: 'equipments'
     },
     {
         name: 'Fleshy Band',
@@ -1500,26 +1122,19 @@ const equipments = [
             'Inspires Fleshy Souls Yo-kai to outdo their Bony Spirits rivals.',
         effect: '+ Damage to Bony Yo-kai.',
         locations: [
-            'Old Springdale \u2013 Flatpot Plains',
+            'Old Springdale – Flatpot Plains',
             'Dropped by Impass',
             'Dropped by Lava Lord',
             'Dropped by Boyclops',
             'Dropped by Wydeawake',
             'Dropped by Allnyta',
             'Dropped by Count Zapaway',
-            'Quest \u2013 Find Faux Kappa!',
+            'Quest – Find Faux Kappa!',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '30'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '30' },
+        type: 'equipments'
     },
     {
         name: 'Reversword',
@@ -1529,20 +1144,13 @@ const equipments = [
             'This sword strengthens the weak. D- and E-Rank Yo-kai only.',
         effect: '',
         locations: [
-            "Quest \u2013 Timers & More's Part",
-            "Quest \u2013 Little Grandma's Helper",
+            "Quest – Timers & More's Part",
+            "Quest – Little Grandma's Helper",
             'Lottery'
         ],
-        statsInfo: {
-            str: '+30',
-            spr: '0',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '25',
-            buy: '25'
-        }
+        statsInfo: { str: '+30', spr: '0', def: '0', spd: '+30' },
+        priceInfo: { sell: '25', buy: '25' },
+        type: 'equipments'
     },
     {
         name: 'Turnabeads',
@@ -1552,16 +1160,9 @@ const equipments = [
             'A jewel that gives the weak power. D- and E-Rank Yo-kai only.',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '+30',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '25',
-            buy: '25'
-        }
+        statsInfo: { str: '0', spr: '+30', def: '0', spd: '+30' },
+        priceInfo: { sell: '25', buy: '25' },
+        type: 'equipments'
     },
     {
         name: 'Reflector',
@@ -1570,17 +1171,10 @@ const equipments = [
         description:
             'One of a wimpy trinity of items. D- and E-Rank Yo-kai only.',
         effect: '',
-        locations: ["Quest \u2013 Timers & More's Part", 'Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+30',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '25',
-            buy: '25'
-        }
+        locations: ["Quest – Timers & More's Part", 'Lottery'],
+        statsInfo: { str: '0', spr: '0', def: '+30', spd: '+30' },
+        priceInfo: { sell: '25', buy: '25' },
+        type: 'equipments'
     },
     {
         name: 'Paradise Ball',
@@ -1589,16 +1183,9 @@ const equipments = [
         description: 'A gem that can only be used by B-Rank or lower Yo-kai.',
         effect: '',
         locations: ['Dropped by Kat Kraydel'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+50',
-            spd: '+50'
-        },
-        priceInfo: {
-            sell: '100',
-            buy: '100'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+50', spd: '+50' },
+        priceInfo: { sell: '100', buy: '100' },
+        type: 'equipments'
     },
     {
         name: 'Sinister Screed',
@@ -1607,19 +1194,12 @@ const equipments = [
         description: 'Cures cursed Yo-kai and curses healthy ones.',
         effect: '+ Damage to Wicked Yo-kai. Dmg. to non-Wicked.',
         locations: [
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Butterfly Mystery Coin',
-            'Quest \u2013 Gera Gera Good-Byes'
+            'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
+            'Quest – Gera Gera Good-Byes'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '150',
-            buy: '150'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '150', buy: '150' },
+        type: 'equipments'
     },
     {
         name: 'Cursed Sword',
@@ -1627,19 +1207,10 @@ const equipments = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cursed_sword.png',
         description: 'Unknown effects. Use at your own risk...',
         effect: '',
-        locations: [
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Boar Mystery Coin'
-        ],
-        statsInfo: {
-            str: '+80',
-            spr: '0',
-            def: '0',
-            spd: '-40'
-        },
-        priceInfo: {
-            sell: '150',
-            buy: '150'
-        }
+        locations: ['Mystery Way – Crank–a–kai – Boar Mystery Coin'],
+        statsInfo: { str: '+80', spr: '0', def: '0', spd: '-40' },
+        priceInfo: { sell: '150', buy: '150' },
+        type: 'equipments'
     },
     {
         name: 'Cursed Staff',
@@ -1648,20 +1219,13 @@ const equipments = [
         description: 'Unknown effects. Use at your own risk...',
         effect: '',
         locations: [
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Deer Mystery Coin',
-            "Quest \u2013 A Legend's Loco Motive",
-            'Quest \u2013 Tamer of Time'
+            'Mystery Way – Crank–a–kai – Deer Mystery Coin',
+            "Quest – A Legend's Loco Motive",
+            'Quest – Tamer of Time'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '+80',
-            def: '0',
-            spd: '-40'
-        },
-        priceInfo: {
-            sell: '150',
-            buy: '150'
-        }
+        statsInfo: { str: '0', spr: '+80', def: '0', spd: '-40' },
+        priceInfo: { sell: '150', buy: '150' },
+        type: 'equipments'
     },
     {
         name: 'Cursed Shield',
@@ -1670,19 +1234,12 @@ const equipments = [
         description: 'Unknown effects. Use at your own risk...',
         effect: '',
         locations: [
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Butterfly Mystery Coin',
-            'Quest \u2013 Getting to Gera Gera'
+            'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
+            'Quest – Getting to Gera Gera'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+80',
-            spd: '-40'
-        },
-        priceInfo: {
-            sell: '150',
-            buy: '150'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+80', spd: '-40' },
+        priceInfo: { sell: '150', buy: '150' },
+        type: 'equipments'
     },
     {
         name: 'Cursed Robe',
@@ -1691,19 +1248,12 @@ const equipments = [
         description: 'Unknown effects. Use at your own risk...',
         effect: '',
         locations: [
-            'Mystery Way \u2013 Crank\u2013a\u2013kai \u2013 Butterfly Mystery Coin',
-            'Quest \u2013 Whistory Lesson, Part 3'
+            'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
+            'Quest – Whistory Lesson, Part 3'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '-40',
-            spd: '+80'
-        },
-        priceInfo: {
-            sell: '150',
-            buy: '150'
-        }
+        statsInfo: { str: '0', spr: '0', def: '-40', spd: '+80' },
+        priceInfo: { sell: '150', buy: '150' },
+        type: 'equipments'
     },
     {
         name: 'Restraint Belt',
@@ -1712,17 +1262,10 @@ const equipments = [
         description:
             'Wear this power-lowering belt when you want to hold back.',
         effect: 'Massively lowers all stats.',
-        locations: ['Quest \u2013 The Gates of Whimsy', 'Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '25',
-            buy: '25'
-        }
+        locations: ['Quest – The Gates of Whimsy', 'Lottery'],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '25', buy: '25' },
+        type: 'equipments'
     },
     {
         name: 'Monkey Circlet',
@@ -1733,20 +1276,13 @@ const equipments = [
         effect: 'Prevents Yo-kai evolving.',
         locations: [
             'Jungle Hunter',
-            'Quest \u2013 The Gates of Whimsy',
-            'Quest \u2013 Collection Correction',
+            'Quest – The Gates of Whimsy',
+            'Quest – Collection Correction',
             'Lottery'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '15',
-            buy: '15'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '15', buy: '15' },
+        type: 'equipments'
     },
     {
         name: "General's Medal",
@@ -1755,16 +1291,9 @@ const equipments = [
         description: 'Unlocked by reaching the equivalent level in battle.',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '800',
-            buy: '800'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '800', buy: '800' },
+        type: 'equipments'
     },
     {
         name: "Lt. Gen's Medal",
@@ -1773,16 +1302,9 @@ const equipments = [
         description: 'Unlocked by reaching the equivalent level in battle.',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '700',
-            buy: '700'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '700', buy: '700' },
+        type: 'equipments'
     },
     {
         name: 'Maj. Gen. Medal',
@@ -1791,16 +1313,9 @@ const equipments = [
         description: 'Unlocked by reaching the equivalent level in battle.',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '600',
-            buy: '600'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '600', buy: '600' },
+        type: 'equipments'
     },
     {
         name: "Colonel's Medal",
@@ -1809,16 +1324,9 @@ const equipments = [
         description: 'Unlocked by reaching the equivalent level in battle.',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '500',
-            buy: '500'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '500', buy: '500' },
+        type: 'equipments'
     },
     {
         name: "Major's Medal",
@@ -1827,16 +1335,9 @@ const equipments = [
         description: 'Unlocked by reaching the equivalent level in battle.',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '400',
-            buy: '400'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '400', buy: '400' },
+        type: 'equipments'
     },
     {
         name: "Captain's Medal",
@@ -1845,16 +1346,9 @@ const equipments = [
         description: 'Unlocked by reaching the equivalent level in battle.',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '300',
-            buy: '300'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '300', buy: '300' },
+        type: 'equipments'
     },
     {
         name: "CDR.'s Medal",
@@ -1863,16 +1357,9 @@ const equipments = [
         description: 'Unlocked by reaching the equivalent level in battle.',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '200',
-            buy: '200'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '200', buy: '200' },
+        type: 'equipments'
     },
     {
         name: "Lt.'s Medal",
@@ -1881,16 +1368,9 @@ const equipments = [
         description: 'Unlocked by reaching the equivalent level in battle.',
         effect: '',
         locations: ['Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '100',
-            buy: '100'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '100', buy: '100' },
+        type: 'equipments'
     }
 ];
 

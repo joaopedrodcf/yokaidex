@@ -5,7 +5,13 @@ export const SCSidebar = styled.div`
     width: 256px;
     height: 100%;
     background-color: #ffffff;
-    color: #000000;
+
+    * {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: start;
+    }
 `;
 
 export const SCHeader = styled.div`
@@ -29,14 +35,15 @@ export const SCNavLink = styled(NavLink).attrs({
     text-decoration: none;
     transition: all 250ms ease-in-out;
     will-change: transform;
-    color: #000000;
     padding: 12px;
-    text-align: start;
-    font-weight: 500;
     background-color: ${props => (props.selected ? 'lightgray' : '#ffffff')};
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
     svg {
         margin-right: 12px;
+        fill: ${props => (props.selected ? 'black' : '')};
     }
 
     &:hover {
@@ -51,11 +58,11 @@ export const SCLink = styled.a`
     text-decoration: none;
     transition: all 250ms ease-in-out;
     will-change: transform;
-    color: #000000;
     padding: 12px;
     background-color: #ffffff;
-    text-align: start;
-    font-weight: 500;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
     svg {
         margin-right: 12px;

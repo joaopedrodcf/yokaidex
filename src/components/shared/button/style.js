@@ -8,6 +8,9 @@ const SCButton = styled.button`
     outline: none;
     transition: all 0.3s ease;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     svg {
         margin-left: 10px;

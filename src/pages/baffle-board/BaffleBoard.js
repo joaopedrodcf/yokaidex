@@ -4,10 +4,11 @@ import { Helmet } from 'react-helmet';
 import { Container, Table, Row } from './style';
 import Image from '../../components/shared/image';
 import utils from '../../components/utils';
+import { withGameVersionContext, withBaffleBoardContext } from '../../store';
 
 class BaffleBoard extends Component {
-    goTo(name) {
-        const { gameVersion, history } = this.props;
+    goTo(name, gameVersion) {
+        const { history } = this.props;
 
         history.push(
             `/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(name)}`
@@ -15,7 +16,7 @@ class BaffleBoard extends Component {
     }
 
     render() {
-        const { baffleBoard, gameVersion } = this.props;
+        const { context } = this.props;
         return (
             <>
                 <Helmet>
@@ -25,46 +26,53 @@ class BaffleBoard extends Component {
                     </title>
                     <meta
                         name="description"
-                        content={`Baffle board is quiz that unlocks special features in Yo-kai Watch ${gameVersion}`}
+                        content={`Baffle board is quiz that unlocks special features in Yo-kai Watch ${
+                            context.gameVersion
+                        }`}
                     />
                 </Helmet>
-                {baffleBoard && (
-                    <Container>
-                        <Table>
-                            <thead>
-                                <tr>
-                                    <th>Location</th>
-                                    <th>Effect</th>
-                                    <th>Solution</th>
+                <Container>
+                    <Table>
+                        <thead>
+                            <tr>
+                                <th>Location</th>
+                                <th>Effect</th>
+                                <th>Solution</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {context.baffleBoard.map((row, index) => (
+                                <tr
+                                    key={index}
+                                    onClick={() =>
+                                        this.goTo(
+                                            row.solution,
+                                            context.gameVersion
+                                        )
+                                    }
+                                >
+                                    <td>{row.location}</td>
+                                    <td>{row.effect}</td>
+                                    <td>
+                                        <Row>
+                                            <Image
+                                                imageUrl={row.image}
+                                                altText=""
+                                                size="medium"
+                                            />
+                                        </Row>
+                                        {row.solution}
+                                    </td>
                                 </tr>
-                            </thead>
-                            <tbody>
-                                {baffleBoard.map((row, index) => (
-                                    <tr
-                                        key={index}
-                                        onClick={() => this.goTo(row.solution)}
-                                    >
-                                        <td>{row.location}</td>
-                                        <td>{row.effect}</td>
-                                        <td>
-                                            <Row>
-                                                <Image
-                                                    imageUrl={row.image}
-                                                    altText=""
-                                                    size="medium"
-                                                />
-                                            </Row>
-                                            {row.solution}
-                                        </td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </Table>
-                    </Container>
-                )}
+                            ))}
+                        </tbody>
+                    </Table>
+                </Container>
             </>
         );
     }
 }
 
-export default withRouter(BaffleBoard);
+export default withRouter(
+    withGameVersionContext(withBaffleBoardContext(BaffleBoard))
+);

@@ -6,16 +6,9 @@ const items = [
         description: "It's nasty, but it'll revive an unconscious Yo-kai.",
         effect: 'Revive Yo-kai with low HP.',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '300',
-            buy: '3000'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '300', buy: '3000' },
+        type: 'items'
     },
     {
         name: 'Bitter Medicine',
@@ -24,16 +17,9 @@ const items = [
         description: 'This bitter herbal mix will jolt a Yo-kai to its feet.',
         effect: 'Revive Yo-kai with half HP.',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '600',
-            buy: '6000'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '600', buy: '6000' },
+        type: 'items'
     },
     {
         name: 'Mighty Medicine',
@@ -42,16 +28,9 @@ const items = [
         description: 'This secret herbal blend will instantly revive a Yo-kai.',
         effect: 'Revive Yo-kai with full HP.',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2400',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2400', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Miracle Medicine',
@@ -61,16 +40,9 @@ const items = [
             'The light from these glittery balls will completely revive a whole party.',
         effect: 'Revive all Yo-kai with full HP.',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Mini Exporb',
@@ -80,16 +52,9 @@ const items = [
             'A touch of this teeny orb is worth three hours of training.',
         effect: 'Gain 10 EXP.',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '20',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '20', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Small Exporb',
@@ -98,16 +63,9 @@ const items = [
         description: 'Three days of training in one touch of this orb.',
         effect: 'Gain 50 EXP.',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '100',
-            buy: '1000'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '100', buy: '1000' },
+        type: 'items'
     },
     {
         name: 'Medium Exporb',
@@ -116,16 +74,9 @@ const items = [
         description: 'Those who touch this orb get the demeanor of a master.',
         effect: 'Gain 500 EXP.',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '800',
-            buy: '8000'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '800', buy: '8000' },
+        type: 'items'
     },
     {
         name: 'Large Exporb',
@@ -135,16 +86,9 @@ const items = [
             'This orb bestows three lives worth of EXP at a single touch.',
         effect: 'Gain 2000 EXP.',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2600',
-            buy: '26000'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2600', buy: '26000' },
+        type: 'items'
     },
     {
         name: 'Mega Exporb',
@@ -154,16 +98,9 @@ const items = [
             "It contains the wisdom of some of the world's sharpest minds.",
         effect: 'Gain 8000 EXP.',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '9200',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '9200', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Holy Exporb',
@@ -173,16 +110,9 @@ const items = [
             'A tiny lizard touched this orb. That tiny lizard is a dinosaur now.',
         effect: 'Gain 20000 EXP.',
         locations: ['Inspector '],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '15000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '15000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Staminum',
@@ -191,16 +121,9 @@ const items = [
         description: 'This drink lets humans run without getting tired at all!',
         effect: 'Infinite stamina.',
         locations: ['Phantomart'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '240',
-            buy: '1200'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '240', buy: '1200' },
+        type: 'items'
     },
     {
         name: 'Staminum Alpha',
@@ -209,16 +132,9 @@ const items = [
         description: "Staminum Alpha lasts longer than regular ol' Staminum.",
         effect: 'Infinite stamina.',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '480',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '480', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Hidden Hits',
@@ -227,16 +143,9 @@ const items = [
         description: "A book of combat secrets. You'll be an attack master!",
         effect: 'Increases Attack Rank.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Arcane Attacks',
@@ -246,16 +155,9 @@ const items = [
             'Fighting secrets of the masters. Read it to refine your Attack.',
         effect: 'Increases Attack Rank by 3.',
         locations: ['Inspector '],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Top Techniques',
@@ -265,16 +167,9 @@ const items = [
             'Give your Techniques a boost with this instructional book.',
         effect: 'Increases Technique Rank.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ancient Arts',
@@ -284,16 +179,9 @@ const items = [
             'Top tips to tailor your Techniques and master the ancient arts.',
         effect: 'Increase Technique Rank by 3.',
         locations: ['Inspector '],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Soul Secrets',
@@ -302,16 +190,9 @@ const items = [
         description: 'A book on the secrets of Soultimate Moves.',
         effect: 'Increases Soultimate Rank.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Mystic Mysteries',
@@ -321,16 +202,9 @@ const items = [
             'Master the Mystic Mysteries and make your Soultimates the ultimates.',
         effect: 'Increases Soultimate Rank by 3.',
         locations: ['Inspector '],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '10000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '10000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'A Serious Life',
@@ -340,16 +214,9 @@ const items = [
             'A book about giving your life your all. Good for a lazy Yo-kai.',
         effect: 'Makes a Yo-kai Loaf less.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Think Karate',
@@ -359,16 +226,9 @@ const items = [
             "A book on the karate mind-set. Change a Yo-kai's Attitude.",
         effect: 'Makes a Yo-kai Grouchy.',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '98',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '98', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Use Karate',
@@ -378,16 +238,9 @@ const items = [
             'A book on advanced karate. It makes you focus on attacking.',
         effect: 'Makes a Yo-kai Rough.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Skill Compendium',
@@ -396,16 +249,9 @@ const items = [
         description: 'An illustrated collection of Yo-kai Skills. Fascinating!',
         effect: 'Makes a Yo-kai Logical.',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '98',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '98', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Skill Encyclopedia',
@@ -414,16 +260,9 @@ const items = [
         description: 'A book containing EVERY Yo-kai Skill ever! A must-have!',
         effect: 'Makes a Yo-kai Brainy.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Get Guarding',
@@ -432,16 +271,9 @@ const items = [
         description: 'A book on the importance of defense, with handy images.',
         effect: 'Makes a Yo-kai Careful.',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '98',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '98', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Guard Gloriously',
@@ -451,16 +283,9 @@ const items = [
             'This book proves the greatness of defense. Who needs offense?',
         effect: 'Makes a Yo-kai Calm.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '500', buy: '0' },
+        type: 'items'
     },
     {
         name: "Li'l Angel Heals",
@@ -470,16 +295,9 @@ const items = [
             'A book about an angel healing people. Gives you a kind heart.',
         effect: 'Makes a Yo-kai Gentle.',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '98',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '98', buy: '0' },
+        type: 'items'
     },
     {
         name: "Bye, Li'l Angel",
@@ -489,16 +307,9 @@ const items = [
             'The last book in the "Li\'l Angel" series. So heartwarming!',
         effect: 'Makes a Yo-kai Tender.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '500', buy: '0' },
+        type: 'items'
     },
     {
         name: "The Pest's Quest",
@@ -508,16 +319,9 @@ const items = [
             'A novel about two country boys intent on becoming real pains.',
         effect: 'Makes a Yo-kai Twisted.',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '98',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '98', buy: '0' },
+        type: 'items'
     },
     {
         name: 'The Perfect Pest',
@@ -527,16 +331,9 @@ const items = [
             'The epic sequel, in which our heroes earn ultimate pesthood.',
         effect: 'Makes a Yo-kai Cruel.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Support Special',
@@ -545,16 +342,9 @@ const items = [
         description: "A digest containing the year's best articles.",
         effect: 'Makes a Yo-kai Devoted.',
         locations: ['Settle In Bookstore'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Getaway Plush',
@@ -564,16 +354,9 @@ const items = [
             "Nobody can look away from this odd doll. It's a fine distraction.",
         effect: 'Allows you to flee.',
         locations: ['Phantomart'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '100',
-            buy: '500'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '100', buy: '500' },
+        type: 'items'
     },
     {
         name: 'Iron Doll',
@@ -582,16 +365,9 @@ const items = [
         description: 'A metal doll. This can be sold for a little bit of cash.',
         effect: '',
         locations: ['Springdale Underground Area'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '300',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '300', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Bronze Doll',
@@ -601,16 +377,9 @@ const items = [
             'A bronze doll. This can be sold for a decent amount of cash.',
         effect: '',
         locations: ['Greengramps'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Silver Doll',
@@ -620,16 +389,9 @@ const items = [
             'A cool silver doll. This can be sold for quite a bit of cash.',
         effect: '',
         locations: ['Greengramps'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Golden Doll',
@@ -639,16 +401,9 @@ const items = [
             'A pure-gold doll. This can be sold for a whole lot of cash.',
         effect: '',
         locations: ['Greengramps'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '20000',
-            buy: '20000'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '20000', buy: '20000' },
+        type: 'items'
     },
     {
         name: 'Platinum Doll',
@@ -658,16 +413,9 @@ const items = [
             'A platinum doll. This can be sold for for a huge amount of cash.',
         effect: '',
         locations: ['Oh My Swirls! A Busted Watch!'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '60000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '60000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Black Doll',
@@ -676,16 +424,9 @@ const items = [
         description: 'The mother of all dolls. Sell it for a fortune.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Fish Bait',
@@ -694,16 +435,9 @@ const items = [
         description: 'Bait made by Mr. Fischer. This makes it easier to fish.',
         effect: '',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Black Syrup',
@@ -712,16 +446,9 @@ const items = [
         description: "Bugs love this stuff. It'll make bugs easier to catch.",
         effect: '',
         locations: ['Breezy Hills'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Originyan Essence',
@@ -731,16 +458,9 @@ const items = [
             'A miraculous brew that brings Train-a-Nyan sessions to a swift end.',
         effect: '',
         locations: ['Springdale Elementary - 2F'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Legendary Blade',
@@ -749,16 +469,9 @@ const items = [
         description: 'This sword was forged by a master to mete out justice.',
         effect: '',
         locations: ['Triangle Lottery', 'Blasters T (Enma Palace 5)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Cursed Blade',
@@ -768,16 +481,9 @@ const items = [
             'A cursed sword that draws its owner toward a tragic future.',
         effect: '',
         locations: ['Triangle Lottery', 'Blasters T (Enma Palace 5)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Holy Blade',
@@ -791,16 +497,9 @@ const items = [
             'Blasters T (Blazing aura)',
             'Super/Ultra Red Coin'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: "General's Soul",
@@ -810,16 +509,9 @@ const items = [
             'The spirit of a legendary general. Linked to a particular Yo-kai.',
         effect: '',
         locations: ['Jungle Hunter', 'Blasters T (Cluphinx Spade Mouth 2)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Love Buster',
@@ -832,16 +524,9 @@ const items = [
             'Scrapyard Crane mini game item',
             'Quest - Feminine Fracas!'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'GHz Orb',
@@ -850,16 +535,9 @@ const items = [
         description: 'A ball encasing electric waves. A zap could fry you!',
         effect: '',
         locations: ['Triangle Lottery', 'Blasters T (Cluvian Keyhole 1)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Unbeatable Soul',
@@ -869,16 +547,9 @@ const items = [
             'The spirit of a great warrior. Related to a horned Yo-kai.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Platinum Bar',
@@ -891,16 +562,9 @@ const items = [
             'Super/Ultra Orange Coin',
             'Quest - Oh My Swirls! A Busted Watch!'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Snowstorm Cloak',
@@ -910,16 +574,9 @@ const items = [
             'A white-chased blue cape for the king of a snowy mountain.',
         effect: '',
         locations: ['Clown Time reward', 'Blasters T (Blizzaria EX aura)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Love Scepter',
@@ -931,16 +588,9 @@ const items = [
             'Triangle Lottery',
             'San Fantastico - Sea Ring: Tattleterror (15%)'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Glacial Clip',
@@ -950,16 +600,9 @@ const items = [
             'A hair clip made of unmelting ice. It houses a lot of power.',
         effect: '',
         locations: ['Blasters T (Blizzaria Aura)', 'Super/Ultra/Pink Coin'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Buff Weight',
@@ -968,16 +611,9 @@ const items = [
         description: 'Training with this hefty dumbbell will buff you up!',
         effect: '',
         locations: ['Jungle Hunter', 'BBQ Southmond (Wanted Points)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2200',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2200', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Shard of Evil',
@@ -991,16 +627,9 @@ const items = [
             'Blasters T (Abyss aura)',
             'Super/Ultra Blue Coin'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ageless Powder',
@@ -1014,16 +643,9 @@ const items = [
             'Blasters T (Heavenly Aura)',
             'Super/Ultra/Purple Coin'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Dragon Orb',
@@ -1036,16 +658,9 @@ const items = [
             'Super/Ultra/Light-Blue Coin',
             'Quest - A Ghost Club Odyssey'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Raging Blade',
@@ -1055,16 +670,9 @@ const items = [
             'This will turn anyone into a rambunctious, one-person riot.',
         effect: '',
         locations: ['BBQ Southmond (Wanted Points)', 'Zombie/Endless Night'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sand Suit',
@@ -1073,16 +681,9 @@ const items = [
         description: 'This unique suit gets especially heavy when it rains.',
         effect: '',
         locations: ['Triangle Lottery'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ethereal Water',
@@ -1096,16 +697,9 @@ const items = [
             'Blasters T (Whirlpool aura)',
             'Super/Ultra/Green Coin'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Cursed Journal',
@@ -1115,16 +709,9 @@ const items = [
             "A jinxed journal that you'll regret sneaking a peek into...",
         effect: '',
         locations: ['Triangle Lottery', 'Blasters T (Darkness aura)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Horn',
@@ -1133,16 +720,9 @@ const items = [
         description: 'A horn that emits a deafening blast, audible miles away.',
         effect: '',
         locations: ['Wild Hunters (Dukesville)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Mem-o-Vac',
@@ -1155,16 +735,9 @@ const items = [
             'Blasters T (Whirlwind aura)',
             'Quest - The Sorrows of Old Zomboy'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Mermaid Pearl',
@@ -1173,16 +746,9 @@ const items = [
         description: 'When a mermaid is reborn, this exquisite pearl appears.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Love Rice Ball',
@@ -1192,16 +758,9 @@ const items = [
             'Made with love and affection, this will satisfy a rumbling tummy.',
         effect: '',
         locations: ['San Fantastico - Sea Ring: Tattleterror (6.5%)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Carved Bear',
@@ -1210,16 +769,9 @@ const items = [
         description: 'This wooden bear has been hewn by a master craftsman.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Goldfish Lantern',
@@ -1228,16 +780,9 @@ const items = [
         description: 'Kids are sure to love this delightful paper lantern.',
         effect: '',
         locations: ['BBQ Southmond (Wanted Points)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: "Master's Lantern",
@@ -1247,16 +792,9 @@ const items = [
             'This lantern gives off a glow that will cheer up all who see it.',
         effect: '',
         locations: ['Springdale Scratch-Off'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Gold Emblem',
@@ -1265,16 +803,9 @@ const items = [
         description: 'This striking item is crafted from only the purest gold.',
         effect: '',
         locations: ['Rub the Golden Egg'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Takoyaki Tray',
@@ -1283,16 +814,9 @@ const items = [
         description: 'Use this tray to make delicious takoyaki octopus balls.',
         effect: '',
         locations: ["Yellow chest near apartments in shopper's row"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Dune Sand',
@@ -1301,16 +825,9 @@ const items = [
         description: 'A little bottle of joy scooped from a sand dune.',
         effect: '',
         locations: ['Ultra BBQ Cross Walk Quiz', 'Springdale Scratch-Off'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Vintage Parasol',
@@ -1323,16 +840,9 @@ const items = [
             'Springdale Scratch-Off',
             'Blasters T (Tomb of King Clupharaon 2)'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Terracotta Figure',
@@ -1344,16 +854,9 @@ const items = [
             'Blasters T (Tomb of King Clupharaon 3)',
             "Quest - We're Super Comedy Heroes!"
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Red Hibiscus',
@@ -1362,16 +865,9 @@ const items = [
         description: 'This bright-red flower makes the world a lot less drab.',
         effect: '',
         locations: ['Blasters T (Tomb of King Clupharaon 1)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Swirly Soul',
@@ -1381,16 +877,9 @@ const items = [
             'The disembodied soul of somebody who was very pure-of-heart. Shiny.',
         effect: '',
         locations: ['Jungle Hunter', 'Blasters T (Temple of Clusis 3)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Keystone',
@@ -1400,35 +889,21 @@ const items = [
             "A once integral part of a castle's wall. Shines in its new role.",
         effect: '',
         locations: ['BBQ Southmond (Wanted Points)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Comfy Closet',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/comfy_closet.png',
         description:
-            'Finely crafted by a master of the furniture art. For indoor types.\u3000',
+            'Finely crafted by a master of the furniture art. For indoor types.　',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Perilous Pearl',
@@ -1438,16 +913,9 @@ const items = [
             'Perilously pretty, this pearl releases the beast in its beholder.',
         effect: '',
         locations: ['Ambrosia Pavillion - rare drop after beating Brutle'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Old Earthenware',
@@ -1457,16 +925,9 @@ const items = [
             'Over 5000 years old, it instills all the savagery of ancient times.',
         effect: '',
         locations: ['Triangle Lottery', 'Blasters T (Cluvian Keyhole 2)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ball of Badness',
@@ -1479,16 +940,9 @@ const items = [
             'Ambrosia Pavillion (Tempura Suk. Invite)',
             'Quest - The Rookie Hero! Unbearaboy!'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Scented Bath Oil',
@@ -1498,16 +952,9 @@ const items = [
             'Its fresh floral fragrance makes for the best bath time experience.',
         effect: '',
         locations: ['Wild Hunters (Dukesville)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Bad News',
@@ -1519,16 +966,9 @@ const items = [
             'Zombie/Endless Night',
             'Blasters T (Tomb of King Clupharaon 4)'
         ],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Dino DNA',
@@ -1538,16 +978,9 @@ const items = [
             'A dinosaur blood-sucking mosquito preserved in alluring amber.',
         effect: '',
         locations: ['Ambrosia Pavillion (Sushi Sukiyaki Invite)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'MVP Award',
@@ -1556,16 +989,9 @@ const items = [
         description: 'Trophy awarded to the most valuable Yo-kai of the year.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Essence of Evil',
@@ -1575,16 +1001,9 @@ const items = [
             'Produces terrifying results when combined with certain Yo-kai.',
         effect: '',
         locations: ['Zombie/Endless Night'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '4000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '4000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Starry Spangles',
@@ -1593,16 +1012,9 @@ const items = [
         description: 'A flour packed with substances unique to BBQ.',
         effect: '',
         locations: ['Scrapyard Trash Trade', 'BBQ Southmond (Wanted Points)'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '4000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '4000', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Red Coin',
@@ -1611,16 +1023,9 @@ const items = [
         description: 'A bold coin. Be sure to use it in the Crank-a-Kai!',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Yellow Coin',
@@ -1629,16 +1034,9 @@ const items = [
         description: 'A mysterious coin. Be sure to use it in the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Orange Coin',
@@ -1647,16 +1045,9 @@ const items = [
         description: 'A hefty coin. Be sure to use it in the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Pink Coin',
@@ -1665,16 +1056,9 @@ const items = [
         description: 'A lovely coin. Be sure to use it in the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Green Coin',
@@ -1683,16 +1067,9 @@ const items = [
         description: 'A warm coin. Be sure to use it in the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Blue Coin',
@@ -1702,16 +1079,9 @@ const items = [
             'An unpleasant coin. Be sure to use it in the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Purple Coin',
@@ -1720,16 +1090,9 @@ const items = [
         description: 'An eerie coin. Be sure to use it in the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Light-Blue Coin',
@@ -1738,16 +1101,9 @@ const items = [
         description: 'A slippery coin. Be sure to use it in the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'One-Star Coin',
@@ -1756,16 +1112,9 @@ const items = [
         description: 'A special-ish one-star coin for the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Five-Star Coin',
@@ -1774,16 +1123,9 @@ const items = [
         description: 'A special five-star coin for the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Special Coin',
@@ -1792,16 +1134,9 @@ const items = [
         description: 'A special coin for the Crank-a-Kai.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Yo Mystery Coin',
@@ -1811,16 +1146,9 @@ const items = [
             'A special Crank-a-Kai coin with "Yo" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Kai Mystery Coin',
@@ -1829,16 +1157,9 @@ const items = [
         description: 'A special Crank-a-Kai coin with "Kai" engraved on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Soul Mystery Coin',
@@ -1848,16 +1169,9 @@ const items = [
             'A special Crank-a-Kai coin with "Soul" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sushi Coin',
@@ -1867,16 +1181,9 @@ const items = [
             'A special Crank-a-Kai coin with "Sushi" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Tempura Coin',
@@ -1886,16 +1193,9 @@ const items = [
             'A special Crank-a-Kai coin with "Tempura" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Whirlwind Coin',
@@ -1905,16 +1205,9 @@ const items = [
             'A special Crank-a-Kai coin with a whirlwind motif engraved on it.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Wanderer Coin',
@@ -1924,16 +1217,9 @@ const items = [
             "A special Crank-a-Kai coin that's roamed around, around, around.",
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Rusted Coin',
@@ -1943,16 +1229,9 @@ const items = [
             "A special Crank-a-Kai coin that's old and worn, but still special.",
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Flower Excite. Coin',
@@ -1962,16 +1241,9 @@ const items = [
             'A special Crank-a-Kai coin with "Flower" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Bird Excite. Coin',
@@ -1981,16 +1253,9 @@ const items = [
             'A special Crank-a-Kai coin with "Bird" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Wind Excite. Coin',
@@ -2000,16 +1265,9 @@ const items = [
             'A special Crank-a-Kai coin with "Wind" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Moon Excite. Coin',
@@ -2019,16 +1277,9 @@ const items = [
             'A special Crank-a-Kai coin with "Moon" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Heaven Excit. Coin',
@@ -2038,16 +1289,9 @@ const items = [
             'A special Crank-a-Kai coin with "Heaven" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Mellow Coin',
@@ -2057,16 +1301,9 @@ const items = [
             'A special Crank-a-Kai coin that is surprisingly soothing in the hand.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Brave Dream Coin',
@@ -2076,16 +1313,9 @@ const items = [
             'A special Crank-a-Kai coin of inspiring courage and valor.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Light Dream Coin',
@@ -2095,16 +1325,9 @@ const items = [
             'A special Crank-a-Kai coin that twinkle twinkles like a little star.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Platin. Dream Coin',
@@ -2113,16 +1336,9 @@ const items = [
         description: 'A special Crank-a-Kai coin that is made of platinum.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Fortun. Dream Coin',
@@ -2131,16 +1347,9 @@ const items = [
         description: 'A special Crank-a-Kai coin that is oh-so-bourgeois.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Princess Dre. Coin',
@@ -2149,16 +1358,9 @@ const items = [
         description: 'A special Crank-a-Kai coin with a hint of loud princess.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Wisdom Dre. Coin',
@@ -2167,16 +1369,9 @@ const items = [
         description: 'A special Crank-a-Kai coin with an aura of great wisdom.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Pride Dream Coin',
@@ -2186,16 +1381,9 @@ const items = [
             'A special Crank-a-Kai coin with a touch of overweening pride.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Chivalry Dre. Coin',
@@ -2205,16 +1393,9 @@ const items = [
             'A special Crank-a-Kai coin with an aura of chivalric valor.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'G1 Dream Coin',
@@ -2224,16 +1405,9 @@ const items = [
             'A special Crank-a-Kai coin that combines courage and platinum.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'G2 Dream Coin',
@@ -2243,16 +1417,9 @@ const items = [
             'A special Crank-a-Kai coin combining star and bourgeois properties.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'G3 Dream Coin',
@@ -2262,16 +1429,9 @@ const items = [
             'A special Crank-a-Kai coin with a hint of princessly wisdom.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'G4 Dream Coin',
@@ -2281,16 +1441,9 @@ const items = [
             'A special Crank-a-Kai coin with a hint of pride and chivalry.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: '2nd Helping Coin',
@@ -2300,16 +1453,9 @@ const items = [
             "A special Crank-a-Kai coin for when you haven't had enough.",
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Belly Buster Coin',
@@ -2319,16 +1465,9 @@ const items = [
             'A special Crank-a-Kai coin that makes you feel really, really full.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'L Souvenir Coin',
@@ -2338,16 +1477,9 @@ const items = [
             'A special souvenir Crank-a-Kai coin with "L" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'F Souvenir Coin',
@@ -2357,16 +1489,9 @@ const items = [
             'A special souvenir Crank-a-Kai coin with "F" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'S Souvenir Coin',
@@ -2376,16 +1501,9 @@ const items = [
             'A special souvenir Crank-a-Kai coin with "S" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'K Souvenir Coin',
@@ -2395,16 +1513,9 @@ const items = [
             'A special souvenir Crank-a-Kai coin with "K" engraved on the back.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Joyful Coin',
@@ -2413,16 +1524,9 @@ const items = [
         description: 'A special Crank-a-Kai coin that is joyfully swirly.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Excellent Coin',
@@ -2432,16 +1536,9 @@ const items = [
             'A special Crank-a-Kai coin that makes excellent things happen.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Beaming Coin',
@@ -2450,16 +1547,9 @@ const items = [
         description: 'A special Crank-a-Kai coin that shines like a sunny day.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Iron Pot Coin',
@@ -2469,16 +1559,9 @@ const items = [
             'A special Crank-a-Kai coin that echoes with the sound of cooking.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Fancy That! Coin',
@@ -2488,16 +1571,9 @@ const items = [
             'A special Crank-a-Kai coin that makes the pulse race for some reason.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Black Coin',
@@ -2507,16 +1583,9 @@ const items = [
             "A special Crank-a-Kai coin that is black as a raven's wing.",
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Jet Black Coin',
@@ -2526,16 +1595,9 @@ const items = [
             'A special Crank-a-Kai coin with an otherworldly blackness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Demonic Coin',
@@ -2545,16 +1607,9 @@ const items = [
             'A special Crank-a-Kai coin with a forbiddingly powerful aura.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Underworld Coin',
@@ -2564,16 +1619,9 @@ const items = [
             'A special Crank-a-Kai coin engraved with swirls of infernal flame.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sealed Coin',
@@ -2583,16 +1631,9 @@ const items = [
             'A special Crank-a-Kai coin emanating a vague, indeterminate power.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Emblem Coin',
@@ -2601,16 +1642,9 @@ const items = [
         description: 'A special Crank-a-Kai coin which sparkles mysteriously.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Treasure Coin',
@@ -2620,16 +1654,9 @@ const items = [
             'A special Crank-a-Kai coin with an aura of bottomless depth.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Legend Coin',
@@ -2639,16 +1666,9 @@ const items = [
             'A special Crank-a-Kai coin that gives a sense of an imminent legend.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Feast Coin',
@@ -2657,16 +1677,9 @@ const items = [
         description: 'A special Crank-a-Kai Coin that offers a real treat.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Super Red Coin',
@@ -2675,16 +1688,9 @@ const items = [
         description: 'A Crank-a-Kai Red Coin with added boldness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Super Yellow Coin',
@@ -2693,16 +1699,9 @@ const items = [
         description: 'A Crank-a-Kai Yellow Coin with added mystery.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Super Orange Coin',
@@ -2711,16 +1710,9 @@ const items = [
         description: 'A Crank-a-Kai Orange Coin with added heft.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Super Pink Coin',
@@ -2729,16 +1721,9 @@ const items = [
         description: 'A Crank-a-Kai Pink Coin with added loveliness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Super Green Coin',
@@ -2747,16 +1732,9 @@ const items = [
         description: 'A Crank-a-Kai Green Coin with added warmth.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Super Blue Coin',
@@ -2765,16 +1743,9 @@ const items = [
         description: 'A Crank-a-Kai Blue Coin with added unpleasantness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Super Purple Coin',
@@ -2783,16 +1754,9 @@ const items = [
         description: 'A Crank-a-Kai Purple Coin with added eeriness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'S. Light-Blue Coin',
@@ -2801,16 +1765,9 @@ const items = [
         description: 'A Crank-a-Kai Light Blue Coin with added slipperiness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ultra Red Coin',
@@ -2819,16 +1776,9 @@ const items = [
         description: 'A Crank-a-Kai Red Coin of the ultimate boldness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ultra Yellow Coin',
@@ -2837,16 +1787,9 @@ const items = [
         description: 'A Crank-a-Kai Yellow Coin of the ultimate mystery.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ultra Orange Coin',
@@ -2855,16 +1798,9 @@ const items = [
         description: 'A Crank-a-Kai Orange Coin of the ultimate heft.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ultra Pink Coin',
@@ -2873,16 +1809,9 @@ const items = [
         description: 'A Crank-a-Kai Pink Coin of the ultimate loveliness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ultra Green Coin',
@@ -2891,16 +1820,9 @@ const items = [
         description: 'A Crank-a-Kai Green Coin of the ultimate warmth.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ultra Blue Coin',
@@ -2909,16 +1831,9 @@ const items = [
         description: 'A Crank-a-Kai Blue Coin of the ultimate unpleasantness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ultra Purple Coin',
@@ -2927,16 +1842,9 @@ const items = [
         description: 'A Crank-a-Kai Purple Coin of the ultimate eeriness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'U. Light-Blue Coin',
@@ -2946,16 +1854,9 @@ const items = [
             'A Crank-a-Kai Light Blue Coin of the ultimate slipperiness.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'One-Star C. Frag.',
@@ -2964,16 +1865,9 @@ const items = [
         description: 'Collect these and exchange them for One-Star Coins.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '30',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '30', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Five-Star C. Frag.',
@@ -2982,16 +1876,9 @@ const items = [
         description: 'Collect these and exchange them for Five-Star Coins.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '50',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '50', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Special Coin Frag.',
@@ -3000,16 +1887,9 @@ const items = [
         description: 'Collect these and exchange them for Special Coins.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Dancing Star',
@@ -3019,16 +1899,9 @@ const items = [
             'A sparkling star. Rumor has it someone is gathering these.',
         effect: '',
         locations: ["The Yo-kai Circus's One Last Hurrah"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Lottery Ticket',
@@ -3037,16 +1910,9 @@ const items = [
         description: 'Purchased from the Candy Stop. Will you win big?',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Music Card',
@@ -3055,16 +1921,9 @@ const items = [
         description: 'Change your mood. Trade this for tunes and listen along.',
         effect: '',
         locations: ['Perform! Dream Floor - Gold'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ghastly Fragment',
@@ -3074,16 +1933,9 @@ const items = [
             'Wisps of soul that have coalesced. Can potentially form any Aura.',
         effect: '',
         locations: ['QR Code'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Gate Globe',
@@ -3092,16 +1944,9 @@ const items = [
         description: 'A curiously glowing globe earned by conquering a gate.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Oddball Toadstool',
@@ -3110,16 +1955,9 @@ const items = [
         description: 'A fancy fungi that is a firm favorite with fans.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Pop Star Snapshot',
@@ -3129,16 +1967,9 @@ const items = [
             'Dropped by a young man somewhere in Sparkopolis. Find and return all 48!',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Trash',
@@ -3148,16 +1979,9 @@ const items = [
             "Apparently, there's a Yo-kai who actually wants this trash.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Fungi Fest Ticket',
@@ -3166,16 +1990,9 @@ const items = [
         description: 'Received from Madam Mushroom. Fans will be so jealous!',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Showdown Pass',
@@ -3185,16 +2002,9 @@ const items = [
             'A pass to fight The Last Nyanmurai on a Dukesville rooftop.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Platinum Pass',
@@ -3203,16 +2013,9 @@ const items = [
         description: 'A pass to fight Platinos on a rooftop in Southmond.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Radiant Pass',
@@ -3222,16 +2025,9 @@ const items = [
             "A pass to fight Koma Star near the Hopper's Gorge waterfall.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Gilded Pass',
@@ -3240,16 +2036,9 @@ const items = [
         description: 'A pass to fight Flash T. Cash on a Northbeech rooftop.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Gabby Pass',
@@ -3259,16 +2048,9 @@ const items = [
             'A pass to fight Gabby on the rooftop of the Southmond Hospital.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Teducation Pass',
@@ -3278,16 +2060,9 @@ const items = [
             'A pass to fight Teducator beyond the Meadowbrooke Farm fence.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Big City Pass',
@@ -3297,16 +2072,9 @@ const items = [
             'A pass to fight City Licker on a New Yo-Kai City rooftop.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sophisticated Pass',
@@ -3315,16 +2083,9 @@ const items = [
         description: 'A pass to fight Gentlemutt at the East Pine pool.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sushi Tempu. Invite',
@@ -3334,16 +2095,9 @@ const items = [
             'An invitation to a course of sushi and tempura at the Ambrosia Pavilion.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sushi Sukiya. Invite',
@@ -3353,16 +2107,9 @@ const items = [
             'An invitation to a course of sushi and sukiyaki at the Ambrosia Pavilion.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Tempura Suk. Invite',
@@ -3372,16 +2119,9 @@ const items = [
             'An invitation to a course of tempura and sukiyaki at the Ambrosia Pavilion.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Red Box',
@@ -3391,16 +2131,9 @@ const items = [
             'A box given to strangers with a warning never to open it.',
         effect: "Who knows what's inside...?-",
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Circus Ticket',
@@ -3409,16 +2142,9 @@ const items = [
         description: 'Received from a very grateful circus master.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Green Mango',
@@ -3428,16 +2154,9 @@ const items = [
             'Picked before fully ripe, its tang is perfect for pepping up a salad.',
         effect: '',
         locations: ['A Cry for Help and a Family in Need!'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sturdy Log',
@@ -3447,16 +2166,9 @@ const items = [
             'Stout, unyielding and yet buoyant. The perfect base for a raft!',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Firm Branch',
@@ -3465,16 +2177,9 @@ const items = [
         description: 'Long and slender. A marvelous mast for a raft!',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Rough Splinter',
@@ -3484,16 +2189,9 @@ const items = [
             'Flattening towards the end, it is ideally-shaped for an oar!',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Det. Ag. Poster',
@@ -3502,16 +2200,9 @@ const items = [
         description: 'A poster mainly taken up by a huge picture of Usapyon.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Hoary Tomb Stone',
@@ -3520,16 +2211,9 @@ const items = [
         description: 'Emanates dark power. Use to access the Masked Labyrinth.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sovereign Stone',
@@ -3539,16 +2223,9 @@ const items = [
             "A mysterious orange stone. Lets you access King Deadward's Labyrinth.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Pandora Stone',
@@ -3558,16 +2235,9 @@ const items = [
             "Emanates a sense of the forbidden. Lets you access Pandora's Labyrinth.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Funny Stone',
@@ -3577,16 +2247,9 @@ const items = [
             "Emanates pressure. Lets you access the Comic Genieus' Labyrinth.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Shelter Stone',
@@ -3596,16 +2259,9 @@ const items = [
             "Makes you love cats. Lets you access Bastnetnyan's Labyrinth.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Komanubis Stone',
@@ -3615,16 +2271,9 @@ const items = [
             "Is that a dog barking? Lets you access Komanubis' Labyrinth.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Prophecy Stone',
@@ -3634,16 +2283,9 @@ const items = [
             "See into the future with this. Lets you access The Boracle's Labyrinth.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Rampage Stone',
@@ -3653,16 +2295,9 @@ const items = [
             "Emanates destructive power. Lets you access Rampajah's Labyrinth.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'S Stone',
@@ -3672,16 +2307,9 @@ const items = [
             'Beautifully formed of fragments. Lets you access the S Rank Labyrinth.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Iron Ogre Stone',
@@ -3691,16 +2319,9 @@ const items = [
             'Cold and hard as steel. Lets you access the Demonic Labyrinth.',
         effect: '',
         locations: ["A Girl's Gotta Have Dreams"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Hinixstone',
@@ -3710,16 +2331,9 @@ const items = [
             'Shines eternally. Use to access the Sky Garden -The Hinix.',
         effect: '',
         locations: ['Oh My Swirls! A Busted Watch!'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Meopetra',
@@ -3729,16 +2343,9 @@ const items = [
             'Exudes a sweet fragrance. Use to access the Sky Garden -Meopatra.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Silly Stone',
@@ -3748,16 +2355,9 @@ const items = [
             'Has an air of antiquity. Use to access the Sky Garden -Fitwit.',
         effect: '',
         locations: ["We're Super Comedy Heroes!"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Gilded Stone',
@@ -3767,16 +2367,9 @@ const items = [
             'Glows with a golden light. Use to access the Sky Garden -El Dorago.',
         effect: '',
         locations: ['The Three Yo-kai Watches'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Sanguine Stone',
@@ -3786,16 +2379,9 @@ const items = [
             'An evil stone soaked in blood. Use to access the Labyrinth of Valor.',
         effect: '',
         locations: ["A Girl's Gotta Have Dreams"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Underworld Stone',
@@ -3805,16 +2391,9 @@ const items = [
             'Brimming with infernal flame. Lets you access the Labyrinth of Perdition.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Legendary Stone',
@@ -3824,16 +2403,9 @@ const items = [
             'Bathed in a rainbow of light. Lets you access the Labyrinth of Legend.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Hidden Gem Stone',
@@ -3843,205 +2415,128 @@ const items = [
             'Pulses with mysterious power. Lets you access the Labyrinth of Treasures.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e S Stone Frag. 1',
+        name: '∞ S Stone Frag. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_s_stone_frag._1.png',
         description:
             'Intensely beautiful fragment. Find its partner to complete the Stone.',
         effect: '',
         locations: ["The Yo-kai Council's Secret Order"],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e S Stone Frag. 2',
+        name: '∞ S Stone Frag. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_s_stone_frag._2.png',
         description:
             'Intensely beautiful fragment. It could be completed with the other fragment.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e Hinixstone Fra. 1',
+        name: '∞ Hinixstone Fra. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_hinixstone_fra._1.png',
         description:
             'A flaming fragment. Find its partner to complete the Stone.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e Hinixstone Fra. 2',
+        name: '∞ Hinixstone Fra. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_hinixstone_fra._2.png',
         description: 'A flaming fragment. Complete it with the other fragment.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e Meopetra Fra. 1',
+        name: '∞ Meopetra Fra. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_meopetra_fra._1.png',
         description:
             'A kaleidoscopic fragment. Find its partner to complete the Stone.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e Meopetra Fra. 2',
+        name: '∞ Meopetra Fra. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_meopetra_fra._2.png',
         description:
             'A kaleidoscopic fragment. It could be completed with the other fragment.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e Silly Stone Fra. 1',
+        name: '∞ Silly Stone Fra. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_silly_stone_fra._1.png',
         description:
             'A fragment full of meaning. Find its partner to complete the Stone.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e Silly Stone Fra. 2',
+        name: '∞ Silly Stone Fra. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_silly_stone_fra._2.png',
         description:
             'A fragment full of meaning. It could be completed with the other fragment.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e Gild. Stone Fr. 1',
+        name: '∞ Gild. Stone Fr. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_gild._stone_fr._1.png',
         description:
             'A fragment full of majesty. Find its partner to complete the Stone.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
-        name: '\u221e Gild. Stone Fr. 2',
+        name: '∞ Gild. Stone Fr. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_gild._stone_fr._2.png',
         description:
             'A fragment full of majesty. It could be completed with the other fragment.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Righteous Tag',
@@ -4051,16 +2546,9 @@ const items = [
             'Lets you undertake the pilgrimage to Righteous Zazel on Mt Cluvimpus.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Innovative Tag',
@@ -4070,16 +2558,9 @@ const items = [
             'Lets you undertake the pilgrimage to Hinozall Awoken on Mt Cluvimpus.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Ancient Tag',
@@ -4089,16 +2570,9 @@ const items = [
             'Lets you undertake the pilgrimage to Enma the Ancient on Mt Cluvimpus.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     },
     {
         name: 'Awoken Tag',
@@ -4108,16 +2582,9 @@ const items = [
             'Lets you make the pilgrimage to Lord Enma Awoken on Mt Cluvimpus.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items'
     }
 ];
 
