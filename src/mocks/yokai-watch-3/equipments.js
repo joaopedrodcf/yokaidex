@@ -7,16 +7,9 @@ const equipments = [
             "It's sort of cheap, but some Yo-kai say it's just right for them!",
         effect: '',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '+8',
-            spr: '0',
-            def: '0',
-            spd: '-5'
-        },
-        priceInfo: {
-            sell: '180',
-            buy: '1800'
-        }
+        statsInfo: { str: '+8', spr: '0', def: '0', spd: '-5' },
+        priceInfo: { sell: '180', buy: '1800' },
+        type: 'equipments'
     },
     {
         name: 'Cheap Bracelet',
@@ -25,16 +18,9 @@ const equipments = [
         description: "It's not the classiest accessory, but it does the job.",
         effect: '',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '+8',
-            spr: '0',
-            def: '-5',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '180',
-            buy: '1800'
-        }
+        statsInfo: { str: '+8', spr: '0', def: '-5', spd: '0' },
+        priceInfo: { sell: '180', buy: '1800' },
+        type: 'equipments'
     },
     {
         name: 'Rocker Wrist',
@@ -44,16 +30,9 @@ const equipments = [
             "A rocker bracelet with spikes. It'd hurt to be on the receiving end.",
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '+15',
-            spr: '0',
-            def: '0',
-            spd: '-8'
-        },
-        priceInfo: {
-            sell: '650',
-            buy: '6500'
-        }
+        statsInfo: { str: '+15', spr: '0', def: '0', spd: '-8' },
+        priceInfo: { sell: '650', buy: '6500' },
+        type: 'equipments'
     },
     {
         name: 'Power Bracelet',
@@ -63,16 +42,9 @@ const equipments = [
             'Makes the wearer tough enough to crush apples bare-handed!',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '+15',
-            spr: '0',
-            def: '-8',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '650',
-            buy: '6500'
-        }
+        statsInfo: { str: '+15', spr: '0', def: '-8', spd: '0' },
+        priceInfo: { sell: '650', buy: '6500' },
+        type: 'equipments'
     },
     {
         name: 'Brute Bracer',
@@ -81,16 +53,9 @@ const equipments = [
         description: "Like solving problems with strength? This one's for you.",
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '+22',
-            spr: '0',
-            def: '0',
-            spd: '-12'
-        },
-        priceInfo: {
-            sell: '1400',
-            buy: '14000'
-        }
+        statsInfo: { str: '+22', spr: '0', def: '0', spd: '-12' },
+        priceInfo: { sell: '1400', buy: '14000' },
+        type: 'equipments'
     },
     {
         name: 'Grand Bracelet',
@@ -100,16 +65,9 @@ const equipments = [
             'An elegant, strength-enhancing item that helps with heavy lifting.',
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '+22',
-            spr: '0',
-            def: '-12',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1400',
-            buy: '14000'
-        }
+        statsInfo: { str: '+22', spr: '0', def: '-12', spd: '0' },
+        priceInfo: { sell: '1400', buy: '14000' },
+        type: 'equipments'
     },
     {
         name: 'Sun Bracelet',
@@ -119,16 +77,9 @@ const equipments = [
             'A heavy gold bracelet said to contain the power of the sun.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '+30',
-            spr: '0',
-            def: '0',
-            spd: '-15'
-        },
-        priceInfo: {
-            sell: '3300',
-            buy: '33000'
-        }
+        statsInfo: { str: '+30', spr: '0', def: '0', spd: '-15' },
+        priceInfo: { sell: '3300', buy: '33000' },
+        type: 'equipments'
     },
     {
         name: 'Comet Bracelet',
@@ -138,16 +89,9 @@ const equipments = [
             'Unleashes the destructive force of a comet flying through space.',
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '+30',
-            spr: '0',
-            def: '-15',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3300',
-            buy: '33000'
-        }
+        statsInfo: { str: '+30', spr: '0', def: '-15', spd: '0' },
+        priceInfo: { sell: '3300', buy: '33000' },
+        type: 'equipments'
     },
     {
         name: 'Fiend Band',
@@ -157,16 +101,9 @@ const equipments = [
             "A bracelet bearing a demon's crest. It houses a dark power.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+40',
-            spr: '0',
-            def: '0',
-            spd: '-25'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '+40', spr: '0', def: '0', spd: '-25' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Legend Bracelet',
@@ -175,16 +112,9 @@ const equipments = [
         description: 'A fabled fashion accessory that crackles with power.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+40',
-            spr: '0',
-            def: '-25',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '+40', spr: '0', def: '-25', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Mythical Bangle',
@@ -194,16 +124,9 @@ const equipments = [
             'A bracelet straight out of myth that houses the ultimate in Strength.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+65',
-            spr: '0',
-            def: '0',
-            spd: '-40'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '+65', spr: '0', def: '0', spd: '-40' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Rusty Ring',
@@ -212,16 +135,9 @@ const equipments = [
         description: "A ring that's gotten old and rusty. It still has power.",
         effect: '',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '+8',
-            def: '-5',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '180',
-            buy: '1800'
-        }
+        statsInfo: { str: '0', spr: '+8', def: '-5', spd: '0' },
+        priceInfo: { sell: '180', buy: '1800' },
+        type: 'equipments'
     },
     {
         name: 'Ugly Ring',
@@ -230,16 +146,9 @@ const equipments = [
         description: "It's not pretty, but pretty effective.",
         effect: '',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '+8',
-            def: '0',
-            spd: '-5'
-        },
-        priceInfo: {
-            sell: '180',
-            buy: '1800'
-        }
+        statsInfo: { str: '0', spr: '+8', def: '0', spd: '-5' },
+        priceInfo: { sell: '180', buy: '1800' },
+        type: 'equipments'
     },
     {
         name: 'Pretty Ring',
@@ -248,16 +157,9 @@ const equipments = [
         description: 'A cute ring of pink gold. Lady Yo-kai like it a lot.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '+15',
-            def: '-8',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '650',
-            buy: '6500'
-        }
+        statsInfo: { str: '0', spr: '+15', def: '-8', spd: '0' },
+        priceInfo: { sell: '650', buy: '6500' },
+        type: 'equipments'
     },
     {
         name: 'Rainbow Ring',
@@ -267,16 +169,9 @@ const equipments = [
             'A beautiful ring that sparkles with all the colors of the rainbow.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '+15',
-            def: '0',
-            spd: '-8'
-        },
-        priceInfo: {
-            sell: '650',
-            buy: '6500'
-        }
+        statsInfo: { str: '0', spr: '+15', def: '0', spd: '-8' },
+        priceInfo: { sell: '650', buy: '6500' },
+        type: 'equipments'
     },
     {
         name: 'Illusion Ring',
@@ -286,16 +181,9 @@ const equipments = [
             'Anyone who wears this ring can easily use Yo-kai Techniques.',
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '0',
-            spr: '+22',
-            def: '-12',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1400',
-            buy: '14000'
-        }
+        statsInfo: { str: '0', spr: '+22', def: '-12', spd: '0' },
+        priceInfo: { sell: '1400', buy: '14000' },
+        type: 'equipments'
     },
     {
         name: 'Fairy Ring',
@@ -304,16 +192,9 @@ const equipments = [
         description: 'The spirit of a fairy dwells within this ring.',
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '0',
-            spr: '+22',
-            def: '0',
-            spd: '-12'
-        },
-        priceInfo: {
-            sell: '1400',
-            buy: '14000'
-        }
+        statsInfo: { str: '0', spr: '+22', def: '0', spd: '-12' },
+        priceInfo: { sell: '1400', buy: '14000' },
+        type: 'equipments'
     },
     {
         name: 'Lunar Ring',
@@ -323,16 +204,9 @@ const equipments = [
             'A softly glowing ring said to contain the power of the moon.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '+30',
-            def: '-15',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3300',
-            buy: '33000'
-        }
+        statsInfo: { str: '0', spr: '+30', def: '-15', spd: '0' },
+        priceInfo: { sell: '3300', buy: '33000' },
+        type: 'equipments'
     },
     {
         name: 'Ring of Fate',
@@ -341,16 +215,9 @@ const equipments = [
         description: "Imbued with the power to alter one's destiny.",
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '0',
-            spr: '+30',
-            def: '0',
-            spd: '-15'
-        },
-        priceInfo: {
-            sell: '3300',
-            buy: '33000'
-        }
+        statsInfo: { str: '0', spr: '+30', def: '0', spd: '-15' },
+        priceInfo: { sell: '3300', buy: '33000' },
+        type: 'equipments'
     },
     {
         name: 'Fiend Ring',
@@ -359,16 +226,9 @@ const equipments = [
         description: "A ring bearing a demon's crest. It houses a dark power.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '+40',
-            def: '-25',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+40', def: '-25', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Legend Ring',
@@ -377,16 +237,9 @@ const equipments = [
         description: 'A mythical fashion accessory with untold power.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '+40',
-            def: '0',
-            spd: '-25'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+40', def: '0', spd: '-25' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Mythical Ring',
@@ -396,16 +249,9 @@ const equipments = [
             'A ring straight out of myth that houses the ultimate in Spirit.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '+65',
-            def: '-40',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+65', def: '-40', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Aged Charm',
@@ -414,16 +260,9 @@ const equipments = [
         description: 'An old charm whose power has atrophied over the years.',
         effect: '',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '-5',
-            def: '+8',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '180',
-            buy: '1800'
-        }
+        statsInfo: { str: '0', spr: '-5', def: '+8', spd: '0' },
+        priceInfo: { sell: '180', buy: '1800' },
+        type: 'equipments'
     },
     {
         name: 'Old Charm',
@@ -433,16 +272,9 @@ const equipments = [
             "It's seen better days, but can still offer a little power.",
         effect: '',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '-5',
-            spr: '0',
-            def: '+8',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '180',
-            buy: '1800'
-        }
+        statsInfo: { str: '-5', spr: '0', def: '+8', spd: '0' },
+        priceInfo: { sell: '180', buy: '1800' },
+        type: 'equipments'
     },
     {
         name: 'Runic Charm',
@@ -451,16 +283,9 @@ const equipments = [
         description: 'A charm with a mysterious pattern upon it.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '-8',
-            def: '+15',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '650',
-            buy: '6500'
-        }
+        statsInfo: { str: '0', spr: '-8', def: '+15', spd: '0' },
+        priceInfo: { sell: '650', buy: '6500' },
+        type: 'equipments'
     },
     {
         name: 'Protective Charm',
@@ -469,16 +294,9 @@ const equipments = [
         description: 'Offers divine protection to the wearer.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '-8',
-            spr: '0',
-            def: '+15',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '650',
-            buy: '6500'
-        }
+        statsInfo: { str: '-8', spr: '0', def: '+15', spd: '0' },
+        priceInfo: { sell: '650', buy: '6500' },
+        type: 'equipments'
     },
     {
         name: 'Armor Charm',
@@ -487,16 +305,9 @@ const equipments = [
         description: 'A charm said to provide impregnable defense.',
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '0',
-            spr: '-12',
-            def: '+22',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1400',
-            buy: '14000'
-        }
+        statsInfo: { str: '0', spr: '-12', def: '+22', spd: '0' },
+        priceInfo: { sell: '1400', buy: '14000' },
+        type: 'equipments'
     },
     {
         name: 'Lucky Charm',
@@ -505,16 +316,9 @@ const equipments = [
         description: 'Brings good fortune and offers powerful protection.',
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '-12',
-            spr: '0',
-            def: '+22',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1400',
-            buy: '14000'
-        }
+        statsInfo: { str: '-12', spr: '0', def: '+22', spd: '0' },
+        priceInfo: { sell: '1400', buy: '14000' },
+        type: 'equipments'
     },
     {
         name: 'Galaxy Charm',
@@ -523,16 +327,9 @@ const equipments = [
         description: 'A powerful charm that sparkles like a nebula.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '-15',
-            def: '+30',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3300',
-            buy: '33000'
-        }
+        statsInfo: { str: '0', spr: '-15', def: '+30', spd: '0' },
+        priceInfo: { sell: '3300', buy: '33000' },
+        type: 'equipments'
     },
     {
         name: 'Earth Charm',
@@ -542,16 +339,9 @@ const equipments = [
             'This charm draws its power from the spirit of the earth itself.',
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '-15',
-            spr: '0',
-            def: '+30',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3300',
-            buy: '33000'
-        }
+        statsInfo: { str: '-15', spr: '0', def: '+30', spd: '0' },
+        priceInfo: { sell: '3300', buy: '33000' },
+        type: 'equipments'
     },
     {
         name: 'Fiend Charm',
@@ -560,16 +350,9 @@ const equipments = [
         description: "A charm bearing a demon's crest. It houses a dark power.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '-25',
-            def: '+40',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '-25', def: '+40', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Legend Charm',
@@ -579,16 +362,9 @@ const equipments = [
             'A famed charm that offers the wearer unmatched protection.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '-25',
-            spr: '0',
-            def: '+40',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '-25', spr: '0', def: '+40', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Mythical Charm',
@@ -598,16 +374,9 @@ const equipments = [
             'A charm straight out of myth that houses the ultimate in Defense.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '-40',
-            spr: '0',
-            def: '+65',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '-40', spr: '0', def: '+65', spd: '0' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Simple Badge',
@@ -617,16 +386,9 @@ const equipments = [
             'Sometimes simple is best. This badge bumps up your Speed.',
         effect: '',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '-5',
-            spr: '0',
-            def: '0',
-            spd: '+8'
-        },
-        priceInfo: {
-            sell: '180',
-            buy: '1800'
-        }
+        statsInfo: { str: '-5', spr: '0', def: '0', spd: '+8' },
+        priceInfo: { sell: '180', buy: '1800' },
+        type: 'equipments'
     },
     {
         name: 'Black Badge',
@@ -635,16 +397,9 @@ const equipments = [
         description: 'A mysterious dark badge that boosts your Speed.',
         effect: '',
         locations: ["Margarita's"],
-        statsInfo: {
-            str: '0',
-            spr: '-5',
-            def: '0',
-            spd: '+8'
-        },
-        priceInfo: {
-            sell: '180',
-            buy: '1800'
-        }
+        statsInfo: { str: '0', spr: '-5', def: '0', spd: '+8' },
+        priceInfo: { sell: '180', buy: '1800' },
+        type: 'equipments'
     },
     {
         name: 'Shiny Badge',
@@ -653,16 +408,9 @@ const equipments = [
         description: 'A cool badge that shines bright. Kids love this one!',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '-8',
-            spr: '0',
-            def: '0',
-            spd: '+15'
-        },
-        priceInfo: {
-            sell: '650',
-            buy: '6500'
-        }
+        statsInfo: { str: '-8', spr: '0', def: '0', spd: '+15' },
+        priceInfo: { sell: '650', buy: '6500' },
+        type: 'equipments'
     },
     {
         name: 'Cute Badge',
@@ -672,16 +420,9 @@ const equipments = [
             "An adorable glittery badge. It's actually functional too!",
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '0',
-            spr: '-8',
-            def: '0',
-            spd: '+15'
-        },
-        priceInfo: {
-            sell: '650',
-            buy: '6500'
-        }
+        statsInfo: { str: '0', spr: '-8', def: '0', spd: '+15' },
+        priceInfo: { sell: '650', buy: '6500' },
+        type: 'equipments'
     },
     {
         name: 'Hermes Badge',
@@ -690,16 +431,9 @@ const equipments = [
         description: 'A badge that lets you run like the wind.',
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '-12',
-            spr: '0',
-            def: '0',
-            spd: '+22'
-        },
-        priceInfo: {
-            sell: '1400',
-            buy: '14000'
-        }
+        statsInfo: { str: '-12', spr: '0', def: '0', spd: '+22' },
+        priceInfo: { sell: '1400', buy: '14000' },
+        type: 'equipments'
     },
     {
         name: 'Aurora Badge',
@@ -708,16 +442,9 @@ const equipments = [
         description: 'A badge that pulsates with scintillating starlight.',
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '0',
-            spr: '-12',
-            def: '0',
-            spd: '+22'
-        },
-        priceInfo: {
-            sell: '1400',
-            buy: '14000'
-        }
+        statsInfo: { str: '0', spr: '-12', def: '0', spd: '+22' },
+        priceInfo: { sell: '1400', buy: '14000' },
+        type: 'equipments'
     },
     {
         name: 'Meteor Badge',
@@ -727,16 +454,9 @@ const equipments = [
             'A badge shaped like a shooting star, with power to match.',
         effect: '',
         locations: ['Whatta Find'],
-        statsInfo: {
-            str: '-15',
-            spr: '0',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '3300',
-            buy: '33000'
-        }
+        statsInfo: { str: '-15', spr: '0', def: '0', spd: '+30' },
+        priceInfo: { sell: '3300', buy: '33000' },
+        type: 'equipments'
     },
     {
         name: 'Lightning Badge',
@@ -745,16 +465,9 @@ const equipments = [
         description: "A fast-moving accessory. Blink and you'll miss it!",
         effect: '',
         locations: ['Wild Hunters'],
-        statsInfo: {
-            str: '0',
-            spr: '-15',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '3300',
-            buy: '33000'
-        }
+        statsInfo: { str: '0', spr: '-15', def: '0', spd: '+30' },
+        priceInfo: { sell: '3300', buy: '33000' },
+        type: 'equipments'
     },
     {
         name: 'Fiend Badge',
@@ -763,16 +476,9 @@ const equipments = [
         description: "A badge bearing a demon's crest. It houses unholy speed.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '-25',
-            spr: '0',
-            def: '0',
-            spd: '+40'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '-25', spr: '0', def: '0', spd: '+40' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Legend Badge',
@@ -782,16 +488,9 @@ const equipments = [
             'A powerful accessory that gives an incredible boost to Speed.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '-25',
-            def: '0',
-            spd: '+40'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '-25', def: '0', spd: '+40' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Mythical Badge',
@@ -801,16 +500,9 @@ const equipments = [
             'A badge straight out of myth that houses the ultimate in Speed.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '-40',
-            def: '0',
-            spd: '+65'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '-40', def: '0', spd: '+65' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Fungi Fest Band',
@@ -820,16 +512,9 @@ const equipments = [
             'Only Fungi Fest-goers get given these, so worth a fortune secondhand.',
         effect: 'Causes attacked enemy to release a Mushroom.',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Monkey Circlet',
@@ -839,16 +524,9 @@ const equipments = [
             "Halfway through the wearer's evolution, it tightens and reverses the process.",
         effect: 'Prevents Yo-kai evolving.',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '1800',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '1800', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Cicada Sword',
@@ -858,16 +536,9 @@ const equipments = [
             'The sword of the cicada-style ninja. Only for cicada Yo-kai.',
         effect: '',
         locations: ['Run Through The Old Mansion'],
-        statsInfo: {
-            str: '+35',
-            spr: '0',
-            def: '0',
-            spd: '+35'
-        },
-        priceInfo: {
-            sell: '1800',
-            buy: '0'
-        }
+        statsInfo: { str: '+35', spr: '0', def: '0', spd: '+35' },
+        priceInfo: { sell: '1800', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Beefy Bell',
@@ -877,16 +548,9 @@ const equipments = [
             'Use this cat bell if you want to be beefy! For cat Yo-kai only.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+30',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2200',
-            buy: '0'
-        }
+        statsInfo: { str: '+30', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2200', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Spell Bell',
@@ -896,16 +560,9 @@ const equipments = [
             'Use this cat bell if you want elegance! For cat Yo-kai only.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '+30',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2200',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+30', def: '0', spd: '0' },
+        priceInfo: { sell: '2200', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Tough Bell',
@@ -915,16 +572,9 @@ const equipments = [
             'Use this cat bell if you want to be tough! For cat Yo-kai only.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+30',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2200',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+30', spd: '0' },
+        priceInfo: { sell: '2200', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Speed Bell',
@@ -934,16 +584,9 @@ const equipments = [
             'Use this cat bell if you want to be speedy! For cat Yo-kai only.',
         effect: '',
         locations: ['Help Out Some Guy from School!'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '2200',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '+30' },
+        priceInfo: { sell: '2200', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Bottomless Bottle',
@@ -953,16 +596,9 @@ const equipments = [
             'A water bottle that never runs dry. For kappa Yo-kai only.',
         effect: 'Increases the power of Water.Reduces Water damage.',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2200',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '2200', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Tengu Fan',
@@ -972,16 +608,9 @@ const equipments = [
             'Tengu draw power from fans like these. For Tengu Yo-kai only.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '+100',
-            def: '0',
-            spd: '+100'
-        },
-        priceInfo: {
-            sell: '5000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+100', def: '0', spd: '+100' },
+        priceInfo: { sell: '5000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Cheery Coat',
@@ -991,16 +620,9 @@ const equipments = [
             "This'll make you wanna dance! For Wiglin, Steppa, and Rhyth only.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '+50'
-        },
-        priceInfo: {
-            sell: '1800',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '+50' },
+        priceInfo: { sell: '1800', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Nail Bat',
@@ -1010,16 +632,9 @@ const equipments = [
             'A bat with nails sticking out of it. Only for Badude and Bruff.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '+60',
-            spr: '0',
-            def: '-30',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3000',
-            buy: '0'
-        }
+        statsInfo: { str: '+60', spr: '0', def: '-30', spd: '0' },
+        priceInfo: { sell: '3000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Drumsticks',
@@ -1028,16 +643,9 @@ const equipments = [
         description: 'Donchan uses these to thump out big, bold rhythms.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '+20',
-            def: '+40',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+20', def: '+40', spd: '0' },
+        priceInfo: { sell: '2500', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Robovitamin E',
@@ -1046,16 +654,9 @@ const equipments = [
         description: 'A drink that makes robotic Yo-kai run more smoothly.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+20',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+20', spd: '+20' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'equipments'
     },
     {
         name: "Burly's Wristband",
@@ -1065,16 +666,9 @@ const equipments = [
             'For Sgt. Burly only. Imbued with his thirst for bigger muscles.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+60',
-            spr: '0',
-            def: '0',
-            spd: '-30'
-        },
-        priceInfo: {
-            sell: '3300',
-            buy: '0'
-        }
+        statsInfo: { str: '+60', spr: '0', def: '0', spd: '-30' },
+        priceInfo: { sell: '3300', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Memory Chime',
@@ -1083,16 +677,9 @@ const equipments = [
         description: 'This treasured chime reminds Jibanyan of Amy.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+20',
-            spr: '0',
-            def: '0',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '+20', spr: '0', def: '0', spd: '+20' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Reversword',
@@ -1102,16 +689,9 @@ const equipments = [
             'This sword strengthens the weak. D and E-Rank Yo-kai only.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+30',
-            spr: '0',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '2700',
-            buy: '0'
-        }
+        statsInfo: { str: '+30', spr: '0', def: '0', spd: '+30' },
+        priceInfo: { sell: '2700', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Turnabeads',
@@ -1121,16 +701,9 @@ const equipments = [
             'A jewel that gives the weak power. D and E-Rank Yo-kai only.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '+30',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '2700',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+30', def: '0', spd: '+30' },
+        priceInfo: { sell: '2700', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Reflector',
@@ -1140,16 +713,9 @@ const equipments = [
             'One of a wimpy trinity of items. D and E-Rank Yo-kai only.',
         effect: '',
         locations: ['Team Up Time! Wonder Edition!'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+30',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '2700',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+30', spd: '+30' },
+        priceInfo: { sell: '2700', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Paradise Ball',
@@ -1158,16 +724,9 @@ const equipments = [
         description: 'A gem that can only be used by B-Rank or lower Yo-kai.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+30',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '10000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+30', spd: '+30' },
+        priceInfo: { sell: '10000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: "Daedalus' Wings",
@@ -1177,16 +736,9 @@ const equipments = [
             'Cool, protective iron wings, but only for use by Sighborg Y.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '+50'
-        },
-        priceInfo: {
-            sell: '2500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '+50' },
+        priceInfo: { sell: '2500', buy: '0' },
+        type: 'equipments'
     },
     {
         name: "Patriot's T-Shirt",
@@ -1196,16 +748,9 @@ const equipments = [
             "Popular with all patriots, but only for use by 'Merican Yo-kai.",
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '+25',
-            spr: '+25',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '2800',
-            buy: '0'
-        }
+        statsInfo: { str: '+25', spr: '+25', def: '0', spd: '0' },
+        priceInfo: { sell: '2800', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Ancestral Sash',
@@ -1215,16 +760,9 @@ const equipments = [
             'Woven according to venerable traditions. Only for Classic Yo-kai.',
         effect: '',
         locations: ['Pursuit! Dream Floor - Woods'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+20',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '2800',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+20', spd: '+20' },
+        priceInfo: { sell: '2800', buy: '0' },
+        type: 'equipments'
     },
     {
         name: "Emperor's Seal",
@@ -1234,16 +772,9 @@ const equipments = [
             'From an empire far, far away, only Commander Yo-kai can use this.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+25',
-            spr: '+25',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '4000',
-            buy: '0'
-        }
+        statsInfo: { str: '+25', spr: '+25', def: '0', spd: '0' },
+        priceInfo: { sell: '4000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Badge of Honor',
@@ -1253,16 +784,9 @@ const equipments = [
             'Awarded for a pioneering exploit, only Pioneer Yo-kai can use this.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+20',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '4000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+20', spd: '+20' },
+        priceInfo: { sell: '4000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Bunny Blaster',
@@ -1272,16 +796,9 @@ const equipments = [
             "A powerful blaster, effective in space battles, solely for Usapyon's use.",
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+20',
-            spr: '0',
-            def: '0',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '2500',
-            buy: '0'
-        }
+        statsInfo: { str: '+20', spr: '0', def: '0', spd: '+20' },
+        priceInfo: { sell: '2500', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Glamorous Straw',
@@ -1291,16 +808,9 @@ const equipments = [
             'Too glam by far for beginners, only Zest-a-Minute can use this.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '+40',
-            def: '0',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '2000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+40', def: '0', spd: '+20' },
+        priceInfo: { sell: '2000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Swirly Pack',
@@ -1310,16 +820,9 @@ const equipments = [
             'Oh my swirls, a wrap crammed with treasure. Komasan Brothers only.',
         effect: '',
         locations: ['Jungle Hunter'],
-        statsInfo: {
-            str: '0',
-            spr: '+20',
-            def: '0',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '3500',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+20', def: '0', spd: '+20' },
+        priceInfo: { sell: '3500', buy: '0' },
+        type: 'equipments'
     },
     {
         name: "Warlord's Banner",
@@ -1329,16 +832,9 @@ const equipments = [
             'Rallied many a routing army in the past, now only Whisper can use it.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '+20',
-            def: '0',
-            spd: '+40'
-        },
-        priceInfo: {
-            sell: '3000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+20', def: '0', spd: '+40' },
+        priceInfo: { sell: '3000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Dull Blade',
@@ -1348,16 +844,9 @@ const equipments = [
             'As dull and boring as blades get. Just as well, only Fuu 2 can use it.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+30',
-            spr: '0',
-            def: '0',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '2500',
-            buy: '0'
-        }
+        statsInfo: { str: '+30', spr: '0', def: '0', spd: '+30' },
+        priceInfo: { sell: '2500', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Imperial Chip',
@@ -1367,16 +856,9 @@ const equipments = [
             'This special chip activates Emperor Mode, but only for Usapyon.',
         effect: 'Enables Emperor Mode.',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '3000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '3000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Star-spangle Blade',
@@ -1386,16 +868,9 @@ const equipments = [
             "A sword full of vim and vigor in the BBQ style. For 'Merican Legend only.",
         effect: '',
         locations: ["Diana Gately & the Keeper's Old Man"],
-        statsInfo: {
-            str: '+35',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '+35', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Stars n Stripes Rod',
@@ -1405,16 +880,9 @@ const equipments = [
             "A high-spirited rod in the BBQ style. For 'Merican Legend only.",
         effect: '',
         locations: ['The Calamity that Lurks Below...'],
-        statsInfo: {
-            str: '0',
-            spr: '+35',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+35', def: '0', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Star-spangl. Shield',
@@ -1424,16 +892,9 @@ const equipments = [
             "A peace-preserving shield in the BBQ style. For 'Merican Legend only.",
         effect: '',
         locations: ['He Who Descended into Darkness'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+35',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '8000',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+35', spd: '0' },
+        priceInfo: { sell: '8000', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Enma Blade',
@@ -1443,16 +904,9 @@ const equipments = [
             'Burning with infernal intensity, this blade is an Enma exclusive!',
         effect: "Changes Enma's fighting style.",
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Illustrious Bead',
@@ -1462,16 +916,9 @@ const equipments = [
             'Lord Enma alone can use this charm, which is infused with infernal power.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+35',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+35', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'equipments'
     },
     {
         name: "Chairman's Staff",
@@ -1480,16 +927,9 @@ const equipments = [
         description: 'This powerful staff can only be wielded by Zazel.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '+35',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '+35', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Enchanted Flute',
@@ -1499,16 +939,9 @@ const equipments = [
             'Even creation dances to the tune of this flute. Lord Enma Awoken only.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+20',
-            spd: '+20'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+20', spd: '+20' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Maul Attachment',
@@ -1518,16 +951,9 @@ const equipments = [
             'The savagely powerful punch of this arm is only usable by Sighborg Y.',
         effect: '',
         locations: [null],
-        statsInfo: {
-            str: '+50',
-            spr: '0',
-            def: '0',
-            spd: '0'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '+50', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'equipments'
     },
     {
         name: 'Golden Ankh',
@@ -1537,16 +963,9 @@ const equipments = [
             'Symbol of life, this Ankh can only be used by Legendary Mystery Yo-kai.',
         effect: '',
         locations: ['The Three Yo-kai Watches'],
-        statsInfo: {
-            str: '0',
-            spr: '0',
-            def: '+30',
-            spd: '+30'
-        },
-        priceInfo: {
-            sell: '0',
-            buy: '0'
-        }
+        statsInfo: { str: '0', spr: '0', def: '+30', spd: '+30' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'equipments'
     }
 ];
 
