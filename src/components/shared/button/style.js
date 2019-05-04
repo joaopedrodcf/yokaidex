@@ -27,6 +27,8 @@ const SCButton = styled.button`
         if (props.size === 'large') return '20px';
         return '14px';
     }};
+
+    width: ${props => (props.width ? props.width : '12px 24px')};
 `;
 
 export default SCButton;

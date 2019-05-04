@@ -9,6 +9,7 @@ import AboutUs from './pages/about-us';
 import ItemCard from './pages/item-card';
 import Items from './pages/items';
 import Crankakai from './pages/crankakai';
+import ContactUs from './pages/contact-us';
 
 const history = createHistory();
 history.listen(location => {
@@ -59,6 +60,11 @@ class Routes extends Component {
                     exact
                     path="/yokai-watch-:version/items/:name"
                     component={ItemCard}
+                />
+                <Route
+                    exact
+                    path="/yokai-watch-:version/contact-us"
+                    component={ContactUs}
                 />
                 <Route component={Main} />
             </Switch>

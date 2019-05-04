@@ -8,6 +8,7 @@ import Bookmark from 'react-feather/dist/icons/bookmark';
 import Info from 'react-feather/dist/icons/info';
 import Briefcase from 'react-feather/dist/icons/briefcase';
 import Circle from 'react-feather/dist/icons/circle';
+import Mail from 'react-feather/dist/icons/mail';
 import {
     Container,
     SCHeader,
@@ -102,7 +103,13 @@ class Sidebar extends Component {
                         <SCLink href="https://twitter.com/yokaidex">
                             <Twitter /> Follow us
                         </SCLink>
-
+                        <SCNavLink
+                            to={`/yokai-watch-${
+                                context.gameVersion
+                            }/contact-us`}
+                        >
+                            <Mail /> Contact us
+                        </SCNavLink>
                         <SCNavLink
                             to={`/yokai-watch-${context.gameVersion}/about-us`}
                         >
