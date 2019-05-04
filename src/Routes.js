@@ -8,6 +8,7 @@ import BaffleBoard from './pages/baffle-board';
 import AboutUs from './pages/about-us';
 import ItemCard from './pages/item-card';
 import Items from './pages/items';
+import Crankakai from './pages/crankakai';
 
 const history = createHistory();
 history.listen(location => {
@@ -38,6 +39,11 @@ class Routes extends Component {
                     exact
                     path="/yokai-watch-:version/items"
                     component={Items}
+                />
+                <Route
+                    exact
+                    path="/yokai-watch-:version/crank-a-kai"
+                    component={Crankakai}
                 />
                 <Route
                     exact
