@@ -33,9 +33,9 @@ class BaffleBoardProvider extends Component {
 
         this.getBaffleBoard = gameVersion => {
             switch (gameVersion) {
-                case '1':
-                    return baffleBoardYW2;
                 case '2':
+                    return baffleBoardYW2;
+                case '3':
                     return baffleBoardYW3;
                 default:
                     return undefined;
