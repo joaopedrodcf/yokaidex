@@ -31,22 +31,19 @@ class ItemsProvider extends Component {
         super(props);
 
         this.setItems = gameVersion => {
+            this.setState({
+                items: this.getItems(gameVersion)
+            });
+        };
+
+        this.getItems = gameVersion => {
             switch (gameVersion) {
                 case '1':
-                    this.setState({
-                        items: [...items1, ...equipments1]
-                    });
-                    break;
+                    return [...items1, ...equipments1];
                 case '2':
-                    this.setState({
-                        items: [...items2, ...equipments2]
-                    });
-                    break;
+                    return [...items2, ...equipments2];
                 default:
-                    this.setState({
-                        items: [...items3, ...equipments3]
-                    });
-                    break;
+                    return [...items3, ...equipments3];
             }
         };
 
@@ -62,14 +59,10 @@ class ItemsProvider extends Component {
 
         this.state = {
             // this needs to be based on the state of gameVersion
-            items: items3,
+            items: this.getItems(utils.getGameVersion()),
             setItems: this.setItems,
             getItem: this.getItem
         };
-    }
-
-    componentDidMount() {
-        this.setItems(utils.getGameVersion());
     }
 
     render() {

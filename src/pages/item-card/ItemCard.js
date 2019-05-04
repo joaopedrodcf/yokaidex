@@ -26,8 +26,8 @@ const hasStatsInfo = statsInfo =>
     Object.keys(statsInfo).some(key => statsInfo[key] !== '0');
 
 class ItemCard extends Component {
-    constructor(props, context) {
-        super(props, context);
+    constructor(props) {
+        super(props);
 
         this.state = {
             item: undefined

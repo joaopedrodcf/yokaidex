@@ -27,22 +27,19 @@ class CrankakaisProvider extends Component {
         super(props);
 
         this.setCrankakais = gameVersion => {
+            this.setState({
+                crankakais: this.getCrankakais(gameVersion)
+            });
+        };
+
+        this.getCrankakais = gameVersion => {
             switch (gameVersion) {
                 case '1':
-                    this.setState({
-                        crankakais: crankakai1
-                    });
-                    break;
+                    return crankakai1;
                 case '2':
-                    this.setState({
-                        crankakais: crankakai2
-                    });
-                    break;
+                    return crankakai2;
                 default:
-                    this.setState({
-                        crankakais: crankakai3
-                    });
-                    break;
+                    return crankakai3;
             }
         };
 
@@ -64,14 +61,10 @@ class CrankakaisProvider extends Component {
 
         this.state = {
             // this needs to be based on the state of gameVersion
-            crankakais: crankakai3,
+            crankakais: this.getCrankakais(utils.getGameVersion()),
             setCrankakais: this.setCrankakais,
             getCrankakai: this.getCrankakai
         };
-    }
-
-    componentDidMount() {
-        this.setCrankakais(utils.getGameVersion());
     }
 
     render() {
