@@ -59,6 +59,7 @@ class Items extends Component {
         const { pageNumber, itemsToShow } = this.state;
         const { context } = this.props;
         // To improve add fiters by type of item
+
         return (
             <Container ref={this.listref}>
                 <Helmet>

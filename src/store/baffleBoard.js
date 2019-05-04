@@ -26,31 +26,27 @@ class BaffleBoardProvider extends Component {
         super(props);
 
         this.setBaffleBoard = gameVersion => {
+            this.setState({
+                baffleBoard: this.getBaffleBoard(gameVersion)
+            });
+        };
+
+        this.getBaffleBoard = gameVersion => {
             switch (gameVersion) {
+                case '1':
+                    return baffleBoardYW2;
                 case '2':
-                    this.setState({
-                        baffleBoard: baffleBoardYW2
-                    });
-                    break;
-                case '3':
-                    this.setState({
-                        baffleBoard: baffleBoardYW3
-                    });
-                    break;
+                    return baffleBoardYW3;
                 default:
-                    break;
+                    return undefined;
             }
         };
 
         this.state = {
             // this needs to be based on the state of gameVersion
-            baffleBoard: baffleBoardYW3,
+            baffleBoard: this.getBaffleBoard(utils.getGameVersion()),
             setBaffleBoard: this.setBaffleBoard
         };
-    }
-
-    componentDidMount() {
-        this.setBaffleBoard(utils.getGameVersion());
     }
 
     render() {
