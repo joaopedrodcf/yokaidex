@@ -27,22 +27,19 @@ class YokaisProvider extends Component {
         super(props);
 
         this.setYokais = gameVersion => {
+            this.setState({
+                yokais: this.getYokais(gameVersion)
+            });
+        };
+
+        this.getYokais = gameVersion => {
             switch (gameVersion) {
                 case '1':
-                    this.setState({
-                        yokais: yokaisGame1
-                    });
-                    break;
+                    return yokaisGame1;
                 case '2':
-                    this.setState({
-                        yokais: yokaisGame2
-                    });
-                    break;
+                    return yokaisGame2;
                 default:
-                    this.setState({
-                        yokais: yokaisGame3
-                    });
-                    break;
+                    return yokaisGame3;
             }
         };
 
@@ -67,14 +64,10 @@ class YokaisProvider extends Component {
 
         this.state = {
             // this needs to be based on the state of gameVersion
-            yokais: yokaisGame3,
+            yokais: this.getYokais(utils.getGameVersion()),
             setYokais: this.setYokais,
             getYokai: this.getYokai
         };
-    }
-
-    componentDidMount() {
-        this.setYokais(utils.getGameVersion());
     }
 
     render() {
