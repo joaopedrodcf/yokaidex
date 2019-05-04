@@ -6,22 +6,27 @@ export const Container = styled.div`
     padding: 12px;
     margin-top: 56px;
     font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     @media (min-width: 960px) {
         padding: 12px 125px;
     }
-
-    @media (min-width: 1280px) {
-        padding: 12px 250px;
-    }
-
-    @media (min-width: 1444px) {
-        padding: 12px 500px;
-    }
 `;
 
-export const ContainerHeader = styled.div`
-    padding: 12px 20px;
+export const Column = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
+
+export const Row = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 `;
 
 export const Section = styled.div`
@@ -39,9 +44,25 @@ export const Section = styled.div`
         return 'column';
     }};
 
-    width: 100%;
     align-items: flex-start;
-    margin: 0 0 12px 0;
+    margin: 6px;
+
+    width: 100%;
+    @media (min-width: 576px) {
+        width: 40%;
+    }
+
+    @media (min-width: 960px) {
+        width: 40%;
+    }
+
+    @media (min-width: 1280px) {
+        width: 20%;
+    }
+
+    @media (min-width: 1444px) {
+        width: 20%;
+    }
 
     a {
         width: 100%;
@@ -78,17 +99,45 @@ export const SectionText = styled.div`
     }
 `;
 
-export const InputContainer = styled.div`
-    padding: 6px 0;
+export const Title = styled.h1`
     display: flex;
-    flex-direction: row;
-    width: 50%;
+    align-items: center;
+    justify-content: center;
 `;
 
-export const InputContainerWrap = styled.div`
+export const Wrap = styled.div`
     display: flex;
-    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    justify-content: space-between;
+`;
+
+export const ContainerSeal = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    width: 100%;
+`;
+
+export const SealElements = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
     padding: 12px;
+    width: 50%;
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (min-width: 576px) {
+        width: 25%;
+    }
 `;

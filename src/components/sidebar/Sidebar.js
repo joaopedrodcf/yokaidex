@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import Book from 'react-feather/dist/icons/book';
+import List from 'react-feather/dist/icons/list';
+import DollarSign from 'react-feather/dist/icons/dollar-sign';
+import Twitter from 'react-feather/dist/icons/twitter';
+import Bookmark from 'react-feather/dist/icons/bookmark';
+import Info from 'react-feather/dist/icons/info';
+import Briefcase from 'react-feather/dist/icons/briefcase';
+import Circle from 'react-feather/dist/icons/circle';
+import Mail from 'react-feather/dist/icons/mail';
 import {
     Container,
     SCHeader,
-    SCLabel,
     SCSidebar,
     SCNavLink,
     SCLink,
@@ -11,29 +19,43 @@ import {
     Sections,
     SectionsHeader
 } from './style';
+import {
+    withGameVersionContext,
+    withSidebarContext,
+    withYokaisContext,
+    withBaffleBoardContext,
+    withItemsContext,
+    withCrankakaisContext
+} from '../../store';
 
 class Sidebar extends Component {
     constructor(props) {
         super(props);
 
         this.handleChangeGameVersion = this.handleChangeGameVersion.bind(this);
+        this.checkIfSelected = this.checkIfSelected.bind(this);
     }
 
     handleChangeGameVersion(event) {
         const version = event.currentTarget.getAttribute('version');
-        const { changeGameVersion } = this.props;
+        const { context } = this.props;
 
-        changeGameVersion(version);
+        context.changeGameVersion(version);
+        context.setYokais(version);
+        context.setBaffleBoard(version);
+        context.setItems(version);
+        context.setCrankakais(version);
     }
 
     checkIfSelected(version) {
-        const { gameVersion } = this.props;
+        const { context } = this.props;
 
-        return Number(gameVersion) === version;
+        return context.gameVersion === version;
     }
 
     render() {
-        const { gameVersion } = this.props;
+        const { context } = this.props;
+
         return (
             <SCSidebar>
                 <SCHeader>
@@ -44,73 +66,84 @@ class Sidebar extends Component {
                 </SCHeader>
                 <Container>
                     <Sections showMargin>
-                        <SCNavLink to={`/yokai-watch-${gameVersion}`} exact>
-                            <FontAwesomeIcon icon="home" /> Home
+                        <SCNavLink
+                            to={`/yokai-watch-${context.gameVersion}`}
+                            exact
+                        >
+                            <Book /> Medallium
                         </SCNavLink>
 
-                        {gameVersion !== '1' && (
+                        {context.gameVersion !== '1' && (
                             <SCNavLink
-                                to={`/yokai-watch-${gameVersion}/baffle-board`}
+                                to={`/yokai-watch-${
+                                    context.gameVersion
+                                }/baffle-board`}
                             >
-                                <FontAwesomeIcon icon="list-ul" /> Baffle board
+                                <List /> Baffle board
                             </SCNavLink>
                         )}
 
-                        <SCNavLink to={`/yokai-watch-${gameVersion}/items`}>
-                            <FontAwesomeIcon icon="list-ul" /> Items
-                        </SCNavLink>
-
                         <SCNavLink
-                            to={`/yokai-watch-${gameVersion}/equipments`}
+                            to={`/yokai-watch-${context.gameVersion}/items`}
                         >
-                            <FontAwesomeIcon icon="list-ul" /> Equipments
+                            <Briefcase /> Items
+                        </SCNavLink>
+                        <SCNavLink
+                            to={`/yokai-watch-${
+                                context.gameVersion
+                            }/crank-a-kai`}
+                        >
+                            <Circle /> Crank-a-kai
                         </SCNavLink>
 
                         <SCLink href="https://www.patreon.com/yokaidex">
-                            <FontAwesomeIcon icon="hands-helping" /> Help us
+                            <DollarSign /> Help us
                         </SCLink>
 
                         <SCLink href="https://twitter.com/yokaidex">
-                            <FontAwesomeIcon icon={['fab', 'twitter']} /> Follow
-                            us
+                            <Twitter /> Follow us
                         </SCLink>
 
-                        <SCNavLink to={`/yokai-watch-${gameVersion}/about-us`}>
-                            <FontAwesomeIcon icon="info-circle" /> About us
+                        <SCNavLink
+                            to={`/yokai-watch-${context.gameVersion}/about-us`}
+                        >
+                            <Info /> About us
                         </SCNavLink>
 
                         <SCNavLink
-                            to={`/yokai-watch-${gameVersion}/contact-us`}
+                            to={`/yokai-watch-${
+                                context.gameVersion
+                            }/contact-us`}
                         >
-                            <FontAwesomeIcon icon="envelope" /> Contact us
+                            <Mail /> Contact us
                         </SCNavLink>
                     </Sections>
                     <Sections showBorder>
                         <SectionsHeader>Game Version</SectionsHeader>
-                        <SCLabel
-                            selected={this.checkIfSelected(1)}
-                            role="presentation"
+                        <SCNavLink
+                            to="/yokai-watch-1"
                             version="1"
+                            selected={this.checkIfSelected('1')}
                             onClick={this.handleChangeGameVersion}
                         >
-                            <FontAwesomeIcon icon="cat" /> Yo-kai watch 1
-                        </SCLabel>
-                        <SCLabel
-                            selected={this.checkIfSelected(2)}
-                            role="presentation"
+                            <Bookmark /> Yo-kai watch 1
+                        </SCNavLink>
+                        <SCNavLink
+                            to="/yokai-watch-2"
                             version="2"
+                            selected={this.checkIfSelected('2')}
                             onClick={this.handleChangeGameVersion}
                         >
-                            <FontAwesomeIcon icon="dog" /> Yo-kai watch 2
-                        </SCLabel>
-                        <SCLabel
-                            selected={this.checkIfSelected(3)}
-                            role="presentation"
+                            <Bookmark /> Yo-kai watch 2
+                        </SCNavLink>
+                        <SCNavLink
+                            to="/yokai-watch-3"
+                            selected={this.checkIfSelected('3')}
                             version="3"
                             onClick={this.handleChangeGameVersion}
                         >
-                            <FontAwesomeIcon icon="dragon" /> Yo-kai watch 3
-                        </SCLabel>
+                            <Bookmark /> Yo-kai watch 3
+                        </SCNavLink>
                     </Sections>
                 </Container>
             </SCSidebar>
@@ -118,4 +151,12 @@ class Sidebar extends Component {
     }
 }
 
-export default Sidebar;
+export default withGameVersionContext(
+    withSidebarContext(
+        withYokaisContext(
+            withBaffleBoardContext(
+                withItemsContext(withCrankakaisContext(Sidebar))
+            )
+        )
+    )
+);

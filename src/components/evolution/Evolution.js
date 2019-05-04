@@ -1,9 +1,10 @@
 import React from 'react';
 
 import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { Row, Column, ContainerEvolutions } from './style';
+import ArrowRight from 'react-feather/dist/icons/arrow-right';
+import Plus from 'react-feather/dist/icons/plus';
 
+import { Row, Column, ContainerEvolutions } from './style';
 import utils from '../utils';
 import Image from '../shared/image';
 import { evolutions } from '../../mocks';
@@ -18,9 +19,9 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                     <Row>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/yokais/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                     evo.yokais[0].name
-                                }`}
+                                )}`}
                             >
                                 <Image
                                     imageUrl={evo.yokais[0].image}
@@ -31,14 +32,14 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                             </Link>
                         </Column>
                         <Column>
-                            <FontAwesomeIcon icon="arrow-right" />
+                            <ArrowRight />
                             Level {evo.level}
                         </Column>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/yokais/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                     evo.yokais[1].name
-                                }`}
+                                )}`}
                             >
                                 <Image
                                     imageUrl={evo.yokais[1].image}
@@ -60,9 +61,9 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                     <Row>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/yokais/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                     evo.yokais[0].name
-                                }`}
+                                )}`}
                             >
                                 <Image
                                     imageUrl={evo.yokais[0].image}
@@ -73,13 +74,13 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                             </Link>
                         </Column>
                         <Column>
-                            <FontAwesomeIcon icon="plus" />
+                            <Plus />
                         </Column>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/yokais/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                     evo.yokais[1].name
-                                }`}
+                                )}`}
                             >
                                 <Image
                                     imageUrl={evo.yokais[1].image}
@@ -90,13 +91,13 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                             </Link>
                         </Column>
                         <Column>
-                            <FontAwesomeIcon icon="equals" />
+                            <ArrowRight />
                         </Column>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/yokais/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                     evo.yokais[2].name
-                                }`}
+                                )}`}
                             >
                                 <Image
                                     imageUrl={evo.yokais[2].image}
@@ -118,9 +119,9 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                     <Row>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/yokais/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                     evo.yokais[0].name
-                                }`}
+                                )}`}
                             >
                                 <Image
                                     imageUrl={evo.yokais[0].image}
@@ -131,13 +132,13 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                             </Link>
                         </Column>
                         <Column>
-                            <FontAwesomeIcon icon="plus" />
+                            <Plus />
                         </Column>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/items/${
+                                to={`/yokai-watch-${gameVersion}/items/${utils.uniformizeNames(
                                     evo.item.name
-                                }`}
+                                )}`}
                             >
                                 <Image
                                     imageUrl={evo.item.image}
@@ -148,13 +149,13 @@ const Evolution = ({ evolutionIndexes, gameVersion }) => (
                             </Link>
                         </Column>
                         <Column>
-                            <FontAwesomeIcon icon="equals" />
+                            <ArrowRight />
                         </Column>
                         <Column>
                             <Link
-                                to={`/yokai-watch-${gameVersion}/yokais/${
+                                to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                     evo.yokais[1].name
-                                }`}
+                                )}`}
                             >
                                 <Image
                                     imageUrl={evo.yokais[1].image}

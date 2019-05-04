@@ -1,57 +1,53 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { withRouter } from 'react-router';
+import Menu from 'react-feather/dist/icons/menu';
+import ArrowLeft from 'react-feather/dist/icons/arrow-left';
 import Container from './style';
+import { withGameVersionContext, withSidebarContext } from '../../store';
+import utils from '../utils';
 
-function Header({ onSetSidebarOpen, gameVersion, history }) {
+function Header({ context, history }) {
     const goBack = () => {
         if (history.length > 2) {
             history.goBack();
         } else {
-            history.push(`/yokai-watch-${gameVersion}`);
+            history.push(`/yokai-watch-${context.gameVersion}`);
         }
     };
 
     const matchDeepLocations = () => {
-        return (
-            history.location.pathname.match(`/yokais/`) ||
-            history.location.pathname.match(`/items/`) ||
-            history.location.pathname.match(`/equipments/`)
-        );
+        return history.location.pathname.split('/').length === 4;
     };
 
     const getHeaderText = () => {
         if (matchDeepLocations()) {
-            return history.location.pathname
-                .split('/')[3]
-                .replace('%20', ' ')
-                .replace('%20', ' ')
-                .replace('%20', ' ')
-                .replace('_boss', '');
+            return utils.capitalize(
+                history.location.pathname
+                    .split('/')[3]
+                    .replace(/_/g, ' ')
+                    .replace(/boss/g, '')
+            );
         }
 
-        if (history.location.pathname.match(`/yokai-watch-${gameVersion}/`))
-            return history.location.pathname
-                .split('/')[2]
-                .replace('%20', ' ')
-                .replace('%20', ' ')
-                .replace('%20', ' ')
-                .replace('_boss', '');
+        if (history.location.pathname.split('/').length === 3)
+            return utils.capitalize(history.location.pathname.split('/')[2]);
 
         return 'Yokaidex';
     };
+
+    const { handleSidebar, gameVersion } = context;
 
     return (
         <Container>
             {matchDeepLocations() ? (
                 <div>
                     <div role="presentation" onClick={goBack}>
-                        <FontAwesomeIcon icon="arrow-left" />
+                        <ArrowLeft />
                     </div>
                 </div>
             ) : (
-                <div role="presentation" onClick={onSetSidebarOpen}>
-                    <FontAwesomeIcon icon="bars" />
+                <div role="presentation" onClick={handleSidebar}>
+                    <Menu />
                 </div>
             )}
             <div>
@@ -61,4 +57,4 @@ function Header({ onSetSidebarOpen, gameVersion, history }) {
     );
 }
 
-export default withRouter(Header);
+export default withRouter(withGameVersionContext(withSidebarContext(Header)));

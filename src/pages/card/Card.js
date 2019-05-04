@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { withRouter } from 'react-router';
 import {
     Container,
     SpecialDiv,
@@ -24,256 +25,389 @@ import Image from '../../components/shared/image';
 import utils from '../../components/utils';
 import Evolution from '../../components/evolution';
 import maxStats from '../../mocks/max-stats';
+import { withGameVersionContext, withYokaisContext } from '../../store';
 
-const calculatePercentage = (value, max) => {
-    const percentage = (value / max) * 100;
-    return `${percentage}%`;
-};
+class Card extends Component {
+    constructor(props) {
+        super(props);
 
-const Card = ({
-    name,
-    description,
-    tribe,
-    image,
-    element,
-    rank,
-    yokaiNumber,
-    favouriteFood,
-    stats,
-    locations,
-    skill,
-    attack,
-    technique,
-    soultime,
-    inspirit,
-    evolutionIndexes,
-    gameVersion,
-    seal
-}) => (
-    <Container>
-        <Helmet>
-            <title>{`${name} | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
-            <meta
-                name="description"
-                content={`${name} is a yo-kai from ${tribe} tribe, of the rank ${rank} and with the attribute ${element} in Yo-kai Watch ${gameVersion}`}
-            />
-            <meta name="og:image" content={image} />
-        </Helmet>
-        <Image imageUrl={image} altText={name} size="large" />
-        <SpecialDiv>
-            <h2>#{yokaiNumber}</h2>
-            <Image
-                imageUrl={utils.getImage(ranks, rank)}
-                altText={rank}
-                size="small"
-            />
-        </SpecialDiv>
+        this.state = {
+            yokai: undefined
+        };
 
-        <Sections isRow justifyContent="space-evenly">
-            <SLabel backgroundColor={utils.getColor(tribes, tribe)}>
-                <SLabelText>
-                    <Image
-                        imageUrl={utils.getImage(tribes, tribe)}
-                        altText={tribe}
-                        size="small"
-                    />
-                </SLabelText>
-                <SLabelText>{tribe}</SLabelText>
-            </SLabel>
+        this.fetchYokai = this.fetchYokai.bind(this);
+    }
 
-            {tribe !== 'Boss' && (
-                <SLabel
-                    backgroundColor={utils.getColor(elements, element)}
-                    color={utils.getSecondaryColor(elements, element)}
-                >
-                    <SLabelText>
-                        <Image
-                            imageUrl={utils.getImage(elements, element)}
-                            altText={element}
-                            size="small"
-                        />
-                    </SLabelText>
-                    <SLabelText>{element}</SLabelText>
-                </SLabel>
-            )}
-        </Sections>
+    componentDidMount() {
+        this.fetchYokai();
+    }
 
-        <Sections>
-            <STable>
-                <STableTitle color={utils.getColor(tribes, tribe)}>
-                    Bio
-                </STableTitle>
-                <STableText bold>{description}</STableText>
-            </STable>
-        </Sections>
+    componentDidUpdate(prevProps) {
+        // eslint-disable-next-line
+        if (prevProps.match.params.name !== this.props.match.params.name) {
+            this.fetchYokai();
+        }
+    }
 
-        {tribe !== 'Boss' && (
+    fetchYokai() {
+        const { context, match } = this.props;
+
+        this.setState({
+            yokai: context.getYokai(match.params.name)
+        });
+    }
+
+    render() {
+        const { context } = this.props;
+        const { yokai } = this.state;
+
+        return (
             <>
-                <Sections>
-                    <STable>
-                        <STableTitle color={utils.getColor(tribes, tribe)}>
-                            Favourite food
-                        </STableTitle>
-                        <STableText>
-                            <Image
-                                imageUrl={utils.getImage(foods, favouriteFood)}
-                                altText={favouriteFood}
-                                size="special"
+                {yokai && (
+                    <Container>
+                        <Helmet>
+                            <title>{`${
+                                yokai.name
+                            } | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
+                            <meta
+                                name="description"
+                                content={`${yokai.name} is a yo-kai from ${
+                                    yokai.tribe
+                                } tribe, of the rank ${
+                                    yokai.rank
+                                } and with the attribute ${
+                                    yokai.element
+                                } in Yo-kai Watch ${context.gameVersion}`}
                             />
-                            {favouriteFood}
-                        </STableText>
-                    </STable>
-                </Sections>
-
-                <Sections>
-                    <STable>
-                        <STableTitle color={utils.getColor(tribes, tribe)}>
-                            Locations
-                        </STableTitle>
-                        <STableText>
-                            {locations.map((location, index) => (
-                                <div key={index}>{location}</div>
-                            ))}
-                        </STableText>
-                    </STable>
-                </Sections>
-
-                {evolutionIndexes && (
-                    <Sections>
-                        <Label color={utils.getColor(tribes, tribe)}>
-                            Evolution
-                        </Label>
-                        <Evolution
-                            gameVersion={gameVersion}
-                            evolutionIndexes={evolutionIndexes}
-                            tribe={tribe}
+                            <meta name="og:image" content={yokai.image} />
+                        </Helmet>
+                        <Image
+                            imageUrl={yokai.image}
+                            altText={yokai.name}
+                            size="large"
                         />
-                    </Sections>
-                )}
+                        <SpecialDiv>
+                            <h2>#{yokai.yokaiNumber}</h2>
+                            <Image
+                                imageUrl={utils.getImage(ranks, yokai.rank)}
+                                altText={yokai.rank}
+                                size="small"
+                            />
+                        </SpecialDiv>
 
-                {seal !== undefined && (
-                    <Sections>
-                        <Label color={utils.getColor(tribes, tribe)}>
-                            Yokai seal
-                        </Label>
+                        <Sections isRow justifyContent="space-evenly">
+                            <SLabel
+                                backgroundColor={utils.getColor(
+                                    tribes,
+                                    yokai.tribe
+                                )}
+                            >
+                                <SLabelText>
+                                    <Image
+                                        imageUrl={utils.getImage(
+                                            tribes,
+                                            yokai.tribe
+                                        )}
+                                        altText={yokai.tribe}
+                                        size="small"
+                                    />
+                                </SLabelText>
+                                <SLabelText>{yokai.tribe}</SLabelText>
+                            </SLabel>
 
-                        <ContainerSeal>
-                            {legendarys[seal].yokaisToUnlock.map(yokai => (
-                                <SealElements>
-                                    <Link
-                                        to={`/yokai-watch-${gameVersion}/yokais/${
-                                            yokai.name
-                                        }`}
-                                    >
+                            {yokai.tribe !== 'Boss' && (
+                                <SLabel
+                                    backgroundColor={utils.getColor(
+                                        elements,
+                                        yokai.element
+                                    )}
+                                    color={utils.getSecondaryColor(
+                                        elements,
+                                        yokai.element
+                                    )}
+                                >
+                                    <SLabelText>
                                         <Image
-                                            imageUrl={yokai.image}
-                                            altText=""
-                                            size="medium"
+                                            imageUrl={utils.getImage(
+                                                elements,
+                                                yokai.element
+                                            )}
+                                            altText={yokai.element}
+                                            size="small"
                                         />
-                                        {yokai.name}
-                                    </Link>
-                                </SealElements>
-                            ))}
-                        </ContainerSeal>
-                    </Sections>
+                                    </SLabelText>
+                                    <SLabelText>{yokai.element}</SLabelText>
+                                </SLabel>
+                            )}
+                        </Sections>
+
+                        <Sections>
+                            <STable>
+                                <STableTitle
+                                    color={utils.getColor(tribes, yokai.tribe)}
+                                >
+                                    Bio
+                                </STableTitle>
+                                <STableText bold>
+                                    {yokai.description}
+                                </STableText>
+                            </STable>
+                        </Sections>
+
+                        {yokai.tribe !== 'Boss' && (
+                            <>
+                                <Sections>
+                                    <STable>
+                                        <STableTitle
+                                            color={utils.getColor(
+                                                tribes,
+                                                yokai.tribe
+                                            )}
+                                        >
+                                            Favourite food
+                                        </STableTitle>
+                                        <STableText>
+                                            <Image
+                                                imageUrl={utils.getImage(
+                                                    foods,
+                                                    yokai.favouriteFood
+                                                )}
+                                                altText={yokai.favouriteFood}
+                                                size="special"
+                                            />
+                                            {yokai.favouriteFood}
+                                        </STableText>
+                                    </STable>
+                                </Sections>
+
+                                <Sections>
+                                    <STable>
+                                        <STableTitle
+                                            color={utils.getColor(
+                                                tribes,
+                                                yokai.tribe
+                                            )}
+                                        >
+                                            Locations
+                                        </STableTitle>
+                                        <STableText>
+                                            {yokai.locations.map(
+                                                (location, index) => (
+                                                    <div key={index}>
+                                                        {location}
+                                                    </div>
+                                                )
+                                            )}
+                                        </STableText>
+                                    </STable>
+                                </Sections>
+
+                                {yokai.evolutionIndexes && (
+                                    <Sections>
+                                        <Label
+                                            color={utils.getColor(
+                                                tribes,
+                                                yokai.tribe
+                                            )}
+                                        >
+                                            Evolution
+                                        </Label>
+                                        <Evolution
+                                            gameVersion={context.gameVersion}
+                                            evolutionIndexes={
+                                                yokai.evolutionIndexes
+                                            }
+                                            tribe={yokai.tribe}
+                                        />
+                                    </Sections>
+                                )}
+
+                                {yokai.seal !== undefined && (
+                                    <Sections>
+                                        <Label
+                                            color={utils.getColor(
+                                                tribes,
+                                                yokai.tribe
+                                            )}
+                                        >
+                                            Yokai seal
+                                        </Label>
+
+                                        <ContainerSeal>
+                                            {legendarys[
+                                                yokai.seal
+                                            ].yokaisToUnlock.map(
+                                                yokaiToUnlock => (
+                                                    <SealElements>
+                                                        <Link
+                                                            to={`/yokai-watch-${
+                                                                context.gameVersion
+                                                            }/yokais/${utils.uniformizeNames(
+                                                                yokaiToUnlock.name
+                                                            )}`}
+                                                        >
+                                                            <Image
+                                                                imageUrl={
+                                                                    yokaiToUnlock.image
+                                                                }
+                                                                altText=""
+                                                                size="medium"
+                                                            />
+                                                            {yokaiToUnlock.name}
+                                                        </Link>
+                                                    </SealElements>
+                                                )
+                                            )}
+                                        </ContainerSeal>
+                                    </Sections>
+                                )}
+
+                                <Sections>
+                                    <Label
+                                        color={utils.getColor(
+                                            tribes,
+                                            yokai.tribe
+                                        )}
+                                    >
+                                        Moves
+                                    </Label>
+                                    <Moves color="#e1bee7">
+                                        <div>
+                                            <MovesTitle color="#7b1fa2">
+                                                Skill
+                                            </MovesTitle>
+                                            <MovesText bold>
+                                                {yokai.skill.name}
+                                            </MovesText>
+                                            <MovesText>
+                                                {yokai.skill.description}
+                                            </MovesText>
+                                        </div>
+                                    </Moves>
+                                    <Moves color="#fff176">
+                                        <div>
+                                            <MovesTitle color="#f57f17">
+                                                Attack
+                                            </MovesTitle>
+                                            <MovesText bold>
+                                                {yokai.attack.name}
+                                            </MovesText>
+                                        </div>
+                                        <MovesText>
+                                            <Image
+                                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/attack.png"
+                                                altText="attack"
+                                                size="small"
+                                            />
+                                            {yokai.attack.power}
+                                        </MovesText>
+                                    </Moves>
+                                    <Moves color="#b3e5fc">
+                                        <div>
+                                            <MovesTitle color="#0277bd">
+                                                Technique
+                                            </MovesTitle>
+                                            <MovesText bold>
+                                                {yokai.technique.name}
+                                            </MovesText>
+                                        </div>
+                                        <MovesText>
+                                            <Image
+                                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/technique.png"
+                                                altText="attack"
+                                                size="small"
+                                            />
+                                            {yokai.technique.power}
+                                        </MovesText>
+                                    </Moves>
+                                    <Moves color="#ef9a9a">
+                                        <div>
+                                            <MovesTitle color="#c62828">
+                                                Soultime
+                                            </MovesTitle>
+                                            <MovesText bold>
+                                                {yokai.soultime.name}
+                                            </MovesText>
+                                            <MovesText>
+                                                {yokai.soultime.description}
+                                            </MovesText>
+                                        </div>
+                                        <MovesText>
+                                            <Image
+                                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/soultime.png"
+                                                altText="attack"
+                                                size="small"
+                                            />
+                                            {yokai.soultime.power}
+                                        </MovesText>
+                                    </Moves>
+                                    <Moves color="#f8bbd0">
+                                        <div>
+                                            <MovesTitle color="#d81b60">
+                                                Inspirit
+                                            </MovesTitle>
+                                            <MovesText bold>
+                                                {yokai.inspirit.name}
+                                            </MovesText>
+                                            <MovesText>
+                                                {yokai.inspirit.description}
+                                            </MovesText>
+                                        </div>
+                                        <MovesText>
+                                            <Image
+                                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/inspirit.png"
+                                                altText="attack"
+                                                size="small"
+                                            />
+                                            {yokai.inspirit.power}
+                                        </MovesText>
+                                    </Moves>
+                                </Sections>
+
+                                <Sections>
+                                    <Label
+                                        color={utils.getColor(
+                                            tribes,
+                                            yokai.tribe
+                                        )}
+                                    >
+                                        Stats
+                                    </Label>
+                                    {Object.entries(yokai.stats).map(
+                                        ([stat, value]) => (
+                                            <ProgressBar key={stat}>
+                                                <div>{stat}</div>
+                                                <div>{value}</div>
+                                                <Bar>
+                                                    <div
+                                                        style={{
+                                                            width: utils.calculatePercentage(
+                                                                value,
+                                                                maxStats.find(
+                                                                    aux =>
+                                                                        aux.name ===
+                                                                        stat
+                                                                ).max
+                                                            ),
+                                                            backgroundColor: maxStats.find(
+                                                                aux =>
+                                                                    aux.name ===
+                                                                    stat
+                                                            ).color
+                                                        }}
+                                                    />
+                                                </Bar>
+                                            </ProgressBar>
+                                        )
+                                    )}
+                                </Sections>
+                            </>
+                        )}
+                    </Container>
                 )}
-
-                <Sections>
-                    <Label color={utils.getColor(tribes, tribe)}>Moves</Label>
-                    <Moves color="#e1bee7">
-                        <div>
-                            <MovesTitle color="#7b1fa2">Skill</MovesTitle>
-                            <MovesText bold>{skill.name}</MovesText>
-                            <MovesText>{skill.description}</MovesText>
-                        </div>
-                    </Moves>
-                    <Moves color="#fff176">
-                        <div>
-                            <MovesTitle color="#f57f17">Attack</MovesTitle>
-                            <MovesText bold>{attack.name}</MovesText>
-                        </div>
-                        <MovesText>
-                            <Image
-                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/attack.png"
-                                altText="attack"
-                                size="small"
-                            />
-                            {attack.power}
-                        </MovesText>
-                    </Moves>
-                    <Moves color="#b3e5fc">
-                        <div>
-                            <MovesTitle color="#0277bd">Technique</MovesTitle>
-                            <MovesText bold>{technique.name}</MovesText>
-                        </div>
-                        <MovesText>
-                            <Image
-                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/technique.png"
-                                altText="attack"
-                                size="small"
-                            />
-                            {technique.power}
-                        </MovesText>
-                    </Moves>
-                    <Moves color="#ef9a9a">
-                        <div>
-                            <MovesTitle color="#c62828">Soultime</MovesTitle>
-                            <MovesText bold>{soultime.name}</MovesText>
-                            <MovesText>{soultime.description}</MovesText>
-                        </div>
-                        <MovesText>
-                            <Image
-                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/soultime.png"
-                                altText="attack"
-                                size="small"
-                            />
-                            {soultime.power}
-                        </MovesText>
-                    </Moves>
-                    <Moves color="#f8bbd0">
-                        <div>
-                            <MovesTitle color="#d81b60">Inspirit</MovesTitle>
-                            <MovesText bold>{inspirit.name}</MovesText>
-                            <MovesText>{inspirit.description}</MovesText>
-                        </div>
-                        <MovesText>
-                            <Image
-                                imageUrl="https://res.cloudinary.com/dcrcweea8/image/upload/v1549121429/Yokai/info/inspirit.png"
-                                altText="attack"
-                                size="small"
-                            />
-                            {inspirit.power}
-                        </MovesText>
-                    </Moves>
-                </Sections>
-
-                <Sections>
-                    <Label color={utils.getColor(tribes, tribe)}>Stats</Label>
-                    {Object.entries(stats).map(([stat, value]) => (
-                        <ProgressBar key={stat}>
-                            <div>{stat}</div>
-                            <div>{value}</div>
-                            <Bar>
-                                <div
-                                    style={{
-                                        width: calculatePercentage(
-                                            value,
-                                            maxStats.find(
-                                                aux => aux.name === stat
-                                            ).max
-                                        ),
-                                        backgroundColor: maxStats.find(
-                                            aux => aux.name === stat
-                                        ).color
-                                    }}
-                                />
-                            </Bar>
-                        </ProgressBar>
-                    ))}
-                </Sections>
             </>
-        )}
-    </Container>
-);
+        );
+    }
+}
 
-export default Card;
+export default withRouter(withGameVersionContext(withYokaisContext(Card)));

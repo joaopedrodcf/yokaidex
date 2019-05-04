@@ -12,21 +12,15 @@
     "main": "src/index.js",
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build",
+        "build": "react-scripts build --stats && webpack-bundle-analyzer build/bundle-stats.json -m static -r build/bundle-stats.html -O",
         "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "predeploy": "npm run build",
-        "deploy": "gh-pages -t -d build"
+        "eject": "react-scripts eject"
     },
     "dependencies": {
-        "@fortawesome/fontawesome-svg-core": "^1.2.17",
-        "@fortawesome/free-brands-svg-icons": "^5.8.1",
-        "@fortawesome/free-solid-svg-icons": "^5.8.1",
-        "@fortawesome/react-fontawesome": "^0.1.4",
-        "gh-pages": "^2.0.1",
         "history": "^4.7.2",
-        "react": "^16.6.3",
-        "react-dom": "^16.6.3",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-feather": "^1.1.6",
         "react-ga": "^2.5.7",
         "react-helmet": "^5.2.0",
         "react-lazy-load": "^3.0.13",
@@ -55,7 +49,8 @@
         "stylelint": "^9.10.1",
         "stylelint-config-recommended": "^2.1.0",
         "stylelint-config-styled-components": "^0.1.1",
-        "stylelint-processor-styled-components": "^1.6.0"
+        "stylelint-processor-styled-components": "^1.6.0",
+        "webpack-bundle-analyzer": "^3.3.2"
     },
     "browserslist": [
         ">0.2%",

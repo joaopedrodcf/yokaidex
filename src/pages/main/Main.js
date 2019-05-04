@@ -1,8 +1,12 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
+
+import Search from 'react-feather/dist/icons/search';
+import Filter from 'react-feather/dist/icons/filter';
+import Trash2 from 'react-feather/dist/icons/trash-2';
+import Plus from 'react-feather/dist/icons/plus';
 import {
     Container,
     Filters,
@@ -29,17 +33,17 @@ import {
     tribes as tribesFilters,
     misc as miscFilters
 } from '../../mocks/filters';
+import {
+    withGameVersionContext,
+    withYokaisContext,
+    withFilterMainContext
+} from '../../store';
 
 class Main extends Component {
     constructor(props) {
         super(props);
 
         this.state = {
-            tribe: [],
-            rank: [],
-            element: [],
-            misc: [],
-            name: '',
             isCollapsed: true,
             pageNumber: 0,
             yokaisToShow: 15,
@@ -49,9 +53,7 @@ class Main extends Component {
             isCollapsedFilterMisc: true
         };
 
-        this.handleText = this.handleText.bind(this);
         this.handleCollapse = this.handleCollapse.bind(this);
-        this.handleFormSubmit = this.handleFormSubmit.bind(this);
         this.handleScroll = this.handleScroll.bind(this);
         this.handleOpenFilterTribes = this.handleOpenFilter.bind(
             this,
@@ -81,18 +83,6 @@ class Main extends Component {
         window.removeEventListener('scroll', this.handleScroll);
     }
 
-    goTo(name, tribe = '') {
-        const { gameVersion, history } = this.props;
-        let nameUrl = name;
-        if (tribe === 'boss') nameUrl += `_${tribe}`;
-
-        history.push(`/yokai-watch-${gameVersion}/yokais/${nameUrl}`);
-    }
-
-    handleText(event) {
-        this.setState({ name: event.target.value.toLowerCase() });
-    }
-
     handleCollapse() {
         const { isCollapsed } = this.state;
 
@@ -103,11 +93,6 @@ class Main extends Component {
         this.setState(state => ({
             [filterType]: !state[filterType]
         }));
-    }
-
-    // eslint-disable-next-line
-    handleFormSubmit(event) {
-        event.preventDefault();
     }
 
     handleScroll() {
@@ -123,7 +108,6 @@ class Main extends Component {
 
     render() {
         const {
-            name,
             isCollapsed,
             pageNumber,
             yokaisToShow,
@@ -132,16 +116,7 @@ class Main extends Component {
             isCollapsedFilterElements,
             isCollapsedFilterMisc
         } = this.state;
-        const {
-            yokais,
-            gameVersion,
-            handleResetFilter,
-            handleCheckbox,
-            tribe,
-            rank,
-            element,
-            misc
-        } = this.props;
+        const { context } = this.props;
 
         return (
             <Container ref={this.listref}>
@@ -155,15 +130,19 @@ class Main extends Component {
                         content="Contains all yo-kais for Yo-kai Watch, their locations, stats, favorite foods, skills and evolutions."
                     />
                 </Helmet>
-                <form onSubmit={this.handleFormSubmit}>
+                <form
+                    onSubmit={event => {
+                        event.preventDefault();
+                    }}
+                >
                     <Input
                         id="name"
                         name="name"
-                        value={name}
-                        onChange={this.handleText}
+                        value={context.name}
+                        onChange={context.handleText}
                         placeholder="Find your yokai by name"
                     >
-                        <FontAwesomeIcon icon="search" />
+                        <Search />
                     </Input>
                     <Collapsible isCollapsed={isCollapsed}>
                         <FilterButtons>
@@ -173,15 +152,15 @@ class Main extends Component {
                                 label="Filters"
                                 style={{ width: '160px' }}
                             >
-                                <FontAwesomeIcon icon="filter" />
+                                <Filter size={18} />
                             </Button>
                             <Button
                                 type="button"
-                                onClick={handleResetFilter}
+                                onClick={context.handleResetFilter}
                                 label="Reset Filters"
                                 style={{ width: '160px' }}
                             >
-                                <FontAwesomeIcon icon="trash-alt" />
+                                <Trash2 size={18} />
                             </Button>
                         </FilterButtons>
                         <Filters>
@@ -190,7 +169,7 @@ class Main extends Component {
                                     onClick={this.handleOpenFilterTribes}
                                 >
                                     <h2>Tribes</h2>
-                                    <FontAwesomeIcon icon="plus" />
+                                    <Plus />
                                 </SpecialHeader>
                                 <CollapsibleFilters
                                     isCollapsed={isCollapsedFilterTribes}
@@ -201,12 +180,14 @@ class Main extends Component {
                                             <label>
                                                 <Checkbox
                                                     type="checkbox"
-                                                    checked={tribe.includes(
+                                                    checked={context.tribe.includes(
                                                         type.toLowerCase()
                                                     )}
                                                     name={type}
                                                     checkboxtype="tribe"
-                                                    onChange={handleCheckbox}
+                                                    onChange={
+                                                        context.handleCheckbox
+                                                    }
                                                     label={type}
                                                 />
                                             </label>
@@ -219,7 +200,7 @@ class Main extends Component {
                                     onClick={this.handleOpenFilterRanks}
                                 >
                                     <h2>Ranks</h2>
-                                    <FontAwesomeIcon icon="plus" />
+                                    <Plus />
                                 </SpecialHeader>
                                 <CollapsibleFilters
                                     isCollapsed={isCollapsedFilterRanks}
@@ -230,12 +211,14 @@ class Main extends Component {
                                             <label>
                                                 <Checkbox
                                                     type="checkbox"
-                                                    checked={rank.includes(
+                                                    checked={context.rank.includes(
                                                         type.toLowerCase()
                                                     )}
                                                     name={type}
                                                     checkboxtype="rank"
-                                                    onChange={handleCheckbox}
+                                                    onChange={
+                                                        context.handleCheckbox
+                                                    }
                                                     label={type}
                                                 />
                                             </label>
@@ -248,7 +231,7 @@ class Main extends Component {
                                     onClick={this.handleOpenFilterElements}
                                 >
                                     <h2>Elements</h2>
-                                    <FontAwesomeIcon icon="plus" />
+                                    <Plus />
                                 </SpecialHeader>
                                 <CollapsibleFilters
                                     isCollapsed={isCollapsedFilterElements}
@@ -258,12 +241,14 @@ class Main extends Component {
                                             <label>
                                                 <Checkbox
                                                     type="checkbox"
-                                                    checked={element.includes(
+                                                    checked={context.element.includes(
                                                         type.toLowerCase()
                                                     )}
                                                     name={type}
                                                     checkboxtype="element"
-                                                    onChange={handleCheckbox}
+                                                    onChange={
+                                                        context.handleCheckbox
+                                                    }
                                                     label={type}
                                                 />
                                             </label>
@@ -276,7 +261,7 @@ class Main extends Component {
                                     onClick={this.handleOpenFilterMisc}
                                 >
                                     <h2>Misc</h2>
-                                    <FontAwesomeIcon icon="plus" />
+                                    <Plus />
                                 </SpecialHeader>
                                 <CollapsibleFilters
                                     isCollapsed={isCollapsedFilterMisc}
@@ -286,12 +271,14 @@ class Main extends Component {
                                             <label>
                                                 <Checkbox
                                                     type="checkbox"
-                                                    checked={misc.includes(
+                                                    checked={context.misc.includes(
                                                         type.toLowerCase()
                                                     )}
                                                     name={type}
                                                     checkboxtype="misc"
-                                                    onChange={handleCheckbox}
+                                                    onChange={
+                                                        context.handleCheckbox
+                                                    }
                                                     label={type}
                                                 />
                                             </label>
@@ -301,17 +288,19 @@ class Main extends Component {
                             </Column>
                         </Filters>
                     </Collapsible>
-                    {yokais
+                    {context.yokais
                         .filter(yokai => {
                             let aux = true;
 
                             const filters = {
-                                tribe,
-                                rank,
-                                element
+                                tribe: context.tribe,
+                                rank: context.rank,
+                                element: context.element
                             };
 
-                            if (!yokai.name.toLowerCase().includes(name)) {
+                            if (
+                                !yokai.name.toLowerCase().includes(context.name)
+                            ) {
                                 return false;
                             }
 
@@ -327,21 +316,21 @@ class Main extends Component {
                             });
 
                             if (
-                                misc.includes('has evolution') &&
+                                context.misc.includes('has evolution') &&
                                 !yokai.evolutionIndexes
                             ) {
                                 return false;
                             }
 
                             if (
-                                misc.includes('legendary') &&
+                                context.misc.includes('legendary') &&
                                 yokai.seal === undefined
                             ) {
                                 return false;
                             }
 
                             if (
-                                misc.includes('rare') &&
+                                context.misc.includes('rare') &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
                                         !yokai.type.includes('rare')))
@@ -350,7 +339,7 @@ class Main extends Component {
                             }
 
                             if (
-                                misc.includes('classic') &&
+                                context.misc.includes('classic') &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
                                         !yokai.type.includes('classic')))
@@ -359,7 +348,7 @@ class Main extends Component {
                             }
 
                             if (
-                                misc.includes("'merican legendary") &&
+                                context.misc.includes("'merican legendary") &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
                                         !yokai.type.includes(
@@ -370,7 +359,7 @@ class Main extends Component {
                             }
 
                             if (
-                                misc.includes("'merican") &&
+                                context.misc.includes("'merican") &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
                                         !yokai.type.includes("'merican")))
@@ -379,7 +368,7 @@ class Main extends Component {
                             }
 
                             if (
-                                misc.includes('deva') &&
+                                context.misc.includes('deva') &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
                                         !yokai.type.includes('deva')))
@@ -393,9 +382,12 @@ class Main extends Component {
                         .map(yokai => (
                             <Section key={yokai.name + yokai.tribe}>
                                 <Link
-                                    to={`/yokai-watch-${gameVersion}/yokais/${
-                                        yokai.name
-                                    }`}
+                                    to={`/yokai-watch-${
+                                        context.gameVersion
+                                    }/yokais/${utils.uniformizeNames(
+                                        yokai.name,
+                                        yokai.tribe
+                                    )}`}
                                 >
                                     <SectionWrapper
                                         style={{
@@ -458,4 +450,6 @@ class Main extends Component {
     }
 }
 
-export default withRouter(Main);
+export default withRouter(
+    withGameVersionContext(withYokaisContext(withFilterMainContext(Main)))
+);

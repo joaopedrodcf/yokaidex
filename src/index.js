@@ -1,34 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab } from '@fortawesome/free-brands-svg-icons';
-import {
-    faWindowClose,
-    faBars,
-    faHeart,
-    faShareAlt,
-    faUserCircle,
-    faHome,
-    faEnvelope,
-    faPen,
-    faArrowUp,
-    faArrowDown,
-    faArrowRight,
-    faChevronDown,
-    faChevronUp,
-    faTrashAlt,
-    faArrowLeft,
-    faFilter,
-    faSearch,
-    faPlus,
-    faEquals,
-    faListUl,
-    faHandsHelping,
-    faDragon,
-    faCat,
-    faDog,
-    faInfoCircle
-} from '@fortawesome/free-solid-svg-icons';
 
 import { BrowserRouter } from 'react-router-dom';
 import ReactGA from 'react-ga';
@@ -36,36 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import App from './App';
 
 import ScrollToTop from './components/shared/scroll-to-top';
-
-library.add(
-    fab,
-    faBars,
-    faWindowClose,
-    faHeart,
-    faShareAlt,
-    faUserCircle,
-    faHome,
-    faEnvelope,
-    faPen,
-    faArrowUp,
-    faArrowDown,
-    faArrowRight,
-    faArrowLeft,
-    faChevronDown,
-    faChevronUp,
-    faTrashAlt,
-    faFilter,
-    faSearch,
-    faPlus,
-    faEquals,
-    faListUl,
-    faHandsHelping,
-    faDragon,
-    faCat,
-    faDragon,
-    faDog,
-    faInfoCircle
-);
+import { ContextProvider } from './store';
 
 ReactGA.initialize('UA-134596491-1');
 ReactGA.set({ anonymizeIp: true });
@@ -73,7 +15,9 @@ ReactGA.set({ anonymizeIp: true });
 ReactDOM.render(
     <BrowserRouter>
         <ScrollToTop>
-            <App />
+            <ContextProvider>
+                <App />
+            </ContextProvider>
         </ScrollToTop>
     </BrowserRouter>,
     document.getElementById('root')

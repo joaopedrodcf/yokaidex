@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Redirect } from 'react-router-dom';
 import { Container, Field, Label, SCTextarea, ButtonArea } from './style';
-import Button from '../shared/button/Button';
+import Button from '../../components/shared/button';
 import endpoints from '../../Services/services';
-import SCInput from '../shared/input';
+import SCInput from '../../components/shared/input';
 
 export default class ContactUs extends Component {
     constructor() {

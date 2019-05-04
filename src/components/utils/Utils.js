@@ -45,10 +45,36 @@ const getEvolution = (evolutions, evolutionIndexes) => {
     return evolutionsArray;
 };
 
+const uniformizeNames = (name, tribe = '') => {
+    let uniformizeName = name.replace(/ /g, '_').toLowerCase();
+    if (tribe.toLowerCase() === 'boss') {
+        uniformizeName += '_boss';
+    }
+
+    return uniformizeName;
+};
+
+const capitalize = text => {
+    return text.charAt(0).toUpperCase() + text.slice(1);
+};
+
+const calculatePercentage = (value, max) => {
+    const percentage = (value / max) * 100;
+    return `${percentage}%`;
+};
+
+const getGameVersion = () => {
+    return window.location.pathname.split('/')[1].split('-')[2] || '3';
+};
+
 export default {
     getColor,
     getSecondaryColor,
     getGradientColor,
     getImage,
-    getEvolution
+    getEvolution,
+    uniformizeNames,
+    capitalize,
+    calculatePercentage,
+    getGameVersion
 };
