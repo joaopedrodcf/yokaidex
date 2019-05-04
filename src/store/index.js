@@ -6,6 +6,7 @@ import { withItemsContext } from './items';
 import { withFilterMainContext } from './filterMain';
 import { withSidebarContext } from './sidebar';
 import { withFilterItemsContext } from './filterItems';
+import { withCrankakaisContext } from './crankakai';
 
 export {
     ContextProvider,
@@ -15,5 +16,6 @@ export {
     withItemsContext,
     withFilterMainContext,
     withSidebarContext,
-    withFilterItemsContext
+    withFilterItemsContext,
+    withCrankakaisContext
 };

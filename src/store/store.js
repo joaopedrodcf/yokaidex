@@ -6,6 +6,7 @@ import ItemsProvider from './items';
 import FilterMainProvider from './filterMain';
 import SidebarProvider from './sidebar';
 import FilterItemsProvider from './filterItems';
+import CrankakaisProvider from './crankakai';
 
 function ProviderComposer({ contexts, children }) {
     return contexts.reduceRight(
@@ -27,7 +28,8 @@ function ContextProvider({ children }) {
                 <ItemsProvider />,
                 <FilterMainProvider />,
                 <SidebarProvider />,
-                <FilterItemsProvider />
+                <FilterItemsProvider />,
+                <CrankakaisProvider />
             ]}
         >
             {children}
