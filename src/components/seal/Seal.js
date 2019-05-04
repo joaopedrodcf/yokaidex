@@ -21,7 +21,7 @@ const Seal = ({ yokai, color, gameVersion }) => {
                                 <Link
                                     to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                         yokaiToUnlock.name
-                                    )}`}
+                                    )}/`}
                                 >
                                     <Image
                                         imageUrl={yokaiToUnlock.image}

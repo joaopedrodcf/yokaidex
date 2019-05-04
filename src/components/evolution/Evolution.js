@@ -27,7 +27,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
                                     <Link
                                         to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                             evo.yokais[0].name
-                                        )}`}
+                                        )}/`}
                                     >
                                         <Image
                                             imageUrl={evo.yokais[0].image}
@@ -45,7 +45,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
                                     <Link
                                         to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                             evo.yokais[1].name
-                                        )}`}
+                                        )}/`}
                                     >
                                         <Image
                                             imageUrl={evo.yokais[1].image}
@@ -69,7 +69,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
                                     <Link
                                         to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                             evo.yokais[0].name
-                                        )}`}
+                                        )}/`}
                                     >
                                         <Image
                                             imageUrl={evo.yokais[0].image}
@@ -86,7 +86,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
                                     <Link
                                         to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                             evo.yokais[1].name
-                                        )}`}
+                                        )}/`}
                                     >
                                         <Image
                                             imageUrl={evo.yokais[1].image}
@@ -127,7 +127,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
                                     <Link
                                         to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                             evo.yokais[0].name
-                                        )}`}
+                                        )}/`}
                                     >
                                         <Image
                                             imageUrl={evo.yokais[0].image}
@@ -144,7 +144,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
                                     <Link
                                         to={`/yokai-watch-${gameVersion}/items/${utils.uniformizeNames(
                                             evo.item.name
-                                        )}`}
+                                        )}/`}
                                     >
                                         <Image
                                             imageUrl={evo.item.image}
@@ -161,7 +161,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
                                     <Link
                                         to={`/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(
                                             evo.yokais[1].name
-                                        )}`}
+                                        )}/`}
                                     >
                                         <Image
                                             imageUrl={evo.yokais[1].image}

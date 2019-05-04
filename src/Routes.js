@@ -30,40 +30,40 @@ class Routes extends Component {
         return (
             <Switch>
                 <Route exact path="/" component={Main} />
-                <Route exact path="/yokai-watch-:version" component={Main} />
+                <Route exact path="/yokai-watch-:version/" component={Main} />
                 <Route
                     exact
-                    path="/yokai-watch-:version/baffle-board"
+                    path="/yokai-watch-:version/baffle-board/"
                     component={BaffleBoard}
                 />
                 <Route
                     exact
-                    path="/yokai-watch-:version/items"
+                    path="/yokai-watch-:version/items/"
                     component={Items}
                 />
                 <Route
                     exact
-                    path="/yokai-watch-:version/crank-a-kai"
+                    path="/yokai-watch-:version/crank-a-kai/"
                     component={Crankakai}
                 />
                 <Route
                     exact
-                    path="/yokai-watch-:version/about-us"
+                    path="/yokai-watch-:version/about-us/"
                     component={AboutUs}
                 />
                 <Route
                     exact
-                    path="/yokai-watch-:version/yokais/:name"
+                    path="/yokai-watch-:version/yokais/:name/"
                     component={Card}
                 />
                 <Route
                     exact
-                    path="/yokai-watch-:version/items/:name"
+                    path="/yokai-watch-:version/items/:name/"
                     component={ItemCard}
                 />
                 <Route
                     exact
-                    path="/yokai-watch-:version/contact-us"
+                    path="/yokai-watch-:version/contact-us/"
                     component={ContactUs}
                 />
                 <Route component={Main} />

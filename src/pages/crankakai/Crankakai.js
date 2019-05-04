@@ -23,7 +23,7 @@ const Crankakai = ({ context }) => {
                         <Link
                             to={`/yokai-watch-${
                                 context.gameVersion
-                            }/items/${utils.uniformizeNames(item.type)}`}
+                            }/items/${utils.uniformizeNames(item.type)}/`}
                         >
                             <Image
                                 imageUrl={item.image}

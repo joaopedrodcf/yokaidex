@@ -388,7 +388,7 @@ class Main extends Component {
                                     }/yokais/${utils.uniformizeNames(
                                         yokai.name,
                                         yokai.tribe
-                                    )}`}
+                                    )}/`}
                                 >
                                     <SectionWrapper
                                         style={{

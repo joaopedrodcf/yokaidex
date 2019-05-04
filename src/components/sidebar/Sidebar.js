@@ -67,7 +67,7 @@ class Sidebar extends Component {
                 <Container>
                     <Sections showMargin>
                         <SCNavLink
-                            to={`/yokai-watch-${context.gameVersion}`}
+                            to={`/yokai-watch-${context.gameVersion}/`}
                             exact
                         >
                             <Book /> Medallium
@@ -84,7 +84,7 @@ class Sidebar extends Component {
                         )}
 
                         <SCNavLink
-                            to={`/yokai-watch-${context.gameVersion}/items`}
+                            to={`/yokai-watch-${context.gameVersion}/items/`}
                         >
                             <Briefcase /> Items
                         </SCNavLink>
@@ -111,7 +111,7 @@ class Sidebar extends Component {
                             <Mail /> Contact us
                         </SCNavLink>
                         <SCNavLink
-                            to={`/yokai-watch-${context.gameVersion}/about-us`}
+                            to={`/yokai-watch-${context.gameVersion}/about-us/`}
                         >
                             <Info /> About us
                         </SCNavLink>
@@ -119,7 +119,7 @@ class Sidebar extends Component {
                     <Sections showBorder>
                         <SectionsHeader>Game Version</SectionsHeader>
                         <SCNavLink
-                            to="/yokai-watch-1"
+                            to="/yokai-watch-1/"
                             version="1"
                             selected={this.checkIfSelected('1')}
                             onClick={this.handleChangeGameVersion}
@@ -127,7 +127,7 @@ class Sidebar extends Component {
                             <Bookmark /> Yo-kai watch 1
                         </SCNavLink>
                         <SCNavLink
-                            to="/yokai-watch-2"
+                            to="/yokai-watch-2/"
                             version="2"
                             selected={this.checkIfSelected('2')}
                             onClick={this.handleChangeGameVersion}
@@ -135,7 +135,7 @@ class Sidebar extends Component {
                             <Bookmark /> Yo-kai watch 2
                         </SCNavLink>
                         <SCNavLink
-                            to="/yokai-watch-3"
+                            to="/yokai-watch-3/"
                             selected={this.checkIfSelected('3')}
                             version="3"
                             onClick={this.handleChangeGameVersion}

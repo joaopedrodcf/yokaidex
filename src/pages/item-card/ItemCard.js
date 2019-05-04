@@ -162,7 +162,7 @@ const ItemCard = ({ context, match }) => {
                                                                 prize.type
                                                             }/${utils.uniformizeNames(
                                                                 prize.name
-                                                            )}`}
+                                                            )}/`}
                                                         >
                                                             <Image
                                                                 imageUrl={
@@ -207,7 +207,7 @@ const ItemCard = ({ context, match }) => {
                                                                     prize.type
                                                                 }/${utils.uniformizeNames(
                                                                     prize.name
-                                                                )}`}
+                                                                )}/`}
                                                             >
                                                                 <Image
                                                                     imageUrl={
@@ -242,7 +242,7 @@ const ItemCard = ({ context, match }) => {
                                                                     prize.type
                                                                 }/${utils.uniformizeNames(
                                                                     prize.name
-                                                                )}`}
+                                                                )}/`}
                                                             >
                                                                 <Image
                                                                     imageUrl={
@@ -277,7 +277,7 @@ const ItemCard = ({ context, match }) => {
                                                                     prize.type
                                                                 }/${utils.uniformizeNames(
                                                                     prize.name
-                                                                )}`}
+                                                                )}/`}
                                                             >
                                                                 <Image
                                                                     imageUrl={
@@ -311,7 +311,7 @@ const ItemCard = ({ context, match }) => {
                                                                     prize.type
                                                                 }/${utils.uniformizeNames(
                                                                     prize.name
-                                                                )}`}
+                                                                )}/`}
                                                             >
                                                                 <Image
                                                                     imageUrl={
