@@ -1,74 +1,70 @@
 import React, { Component } from 'react';
-import { Redirect } from 'react-router-dom';
+import { withRouter } from 'react-router';
+import Send from 'react-feather/dist/icons/send';
 import { Container, Field, Label, SCTextarea, ButtonArea } from './style';
 import Button from '../../components/shared/button';
 import endpoints from '../../Services/services';
 import SCInput from '../../components/shared/input';
+import { withGameVersionContext } from '../../store';
 
-export default class ContactUs extends Component {
+class ContactUs extends Component {
     constructor() {
         super();
-        this.handleText = this.handleText.bind(this);
-        this.state = {
-            mail: {
-                name: '',
-                subject: '',
-                email: '',
-                message: ''
-            },
-            redirect: false
+
+        this.initialState = {
+            name: '',
+            subject: '',
+            email: '',
+            message: ''
         };
+
+        this.state = this.initialState;
+
+        this.handleText = this.handleText.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
     handleText(event) {
         this.setState({
-            mail: {
-                [event.target.name]: event.target.value
-            }
+            [event.target.name]: event.target.value
         });
     }
 
     async handleSubmit() {
-        const { mail } = this.state;
+        const { name, email, subject, message } = this.state;
+        const { context } = this.props;
         const endpoint = endpoints.mailEndpoint;
+
         await fetch(endpoint, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ ...mail })
+            body: JSON.stringify({ name, email, subject, message })
         })
             .then(() => {
-                this.setState({
-                    mail: {
-                        name: '',
-                        subject: '',
-                        email: '',
-                        message: ''
-                    },
-                    redirect: true
+                this.setState(this.initialState, () => {
+                    setTimeout(() => {
+                        const { history } = this.props;
+
+                        history.push(`/yokai-watch-${context.gameVersion}`);
+                    }, 500);
                 });
             })
             .catch(() => {
-                this.setState({
-                    mail: {
-                        name: '',
-                        subject: '',
-                        email: '',
-                        message: ''
-                    },
-                    redirect: false
+                this.setState(this.initialState, () => {
+                    setTimeout(() => {
+                        const { history } = this.props;
+
+                        history.push(`/yokai-watch-${context.gameVersion}`);
+                    }, 500);
                 });
             });
     }
 
     render() {
-        const { mail, redirect } = this.state;
-        const { name, email, subject, message } = mail;
-        if (redirect) {
-            return <Redirect to="/yokai-watch-:version" />;
-        }
+        const { name, email, subject, message } = this.state;
+
         return (
             <Container>
                 <Field>
@@ -79,6 +75,8 @@ export default class ContactUs extends Component {
                         value={name}
                         onChange={this.handleText}
                         placeholder="Enter your name:"
+                        isFullWidth
+                        customPadding="12px"
                     />
                 </Field>
                 <Field>
@@ -89,6 +87,8 @@ export default class ContactUs extends Component {
                         value={email}
                         onChange={this.handleText}
                         placeholder="Enter your mail:"
+                        isFullWidth
+                        customPadding="12px"
                     />
                 </Field>
                 <Field>
@@ -99,6 +99,8 @@ export default class ContactUs extends Component {
                         value={subject}
                         onChange={this.handleText}
                         placeholder="Enter your subject:"
+                        isFullWidth
+                        customPadding="12px"
                     />
                 </Field>
                 <Field>
@@ -118,10 +120,14 @@ export default class ContactUs extends Component {
                         onClick={this.handleSubmit}
                         type="button"
                         label="Send"
-                        style={{ width: '100%' }}
-                    />
+                        width="100%"
+                    >
+                        <Send size={18} />
+                    </Button>
                 </ButtonArea>
             </Container>
         );
     }
 }
+
+export default withRouter(withGameVersionContext(ContactUs));

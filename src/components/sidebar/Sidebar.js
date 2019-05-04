@@ -103,19 +103,17 @@ class Sidebar extends Component {
                         <SCLink href="https://twitter.com/yokaidex">
                             <Twitter /> Follow us
                         </SCLink>
-
-                        <SCNavLink
-                            to={`/yokai-watch-${context.gameVersion}/about-us`}
-                        >
-                            <Info /> About us
-                        </SCNavLink>
-
                         <SCNavLink
                             to={`/yokai-watch-${
                                 context.gameVersion
                             }/contact-us`}
                         >
                             <Mail /> Contact us
+                        </SCNavLink>
+                        <SCNavLink
+                            to={`/yokai-watch-${context.gameVersion}/about-us`}
+                        >
+                            <Info /> About us
                         </SCNavLink>
                     </Sections>
                     <Sections showBorder>

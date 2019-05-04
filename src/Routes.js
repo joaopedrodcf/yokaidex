@@ -61,12 +61,12 @@ class Routes extends Component {
                     path="/yokai-watch-:version/items/:name"
                     component={ItemCard}
                 />
-                <Route component={Main} />
                 <Route
                     exact
                     path="/yokai-watch-:version/contact-us"
                     component={ContactUs}
                 />
+                <Route component={Main} />
             </Switch>
         );
     }

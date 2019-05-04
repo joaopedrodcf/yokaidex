@@ -1,9 +1,15 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    background-color: #ffffff;
+    color: #000000;
+    padding: 12px;
+    margin-top: 56px;
+    font-size: 16px;
     display: flex;
     flex-direction: column;
-    margin-top: 5rem;
+    align-items: center;
+
     @media (min-width: 960px) {
         padding: 12px 125px;
     }
@@ -19,39 +25,37 @@ export const Container = styled.div`
 
 export const Field = styled.div`
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: baseline;
-    padding: 1rem;
-`;
-export const TextAreaField = styled.div`
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: baseline;
+    flex-direction: column;
+    width: 100%;
 `;
 
 export const Label = styled.div`
-    margin-right: 1rem;
-    width: 65px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 6px;
 `;
 
 export const SCTextarea = styled.textarea`
-    border: 0.1rem solid #000000;
+    border: 2px solid #000000;
     border-radius: 4px;
     outline: none;
     color: #000000;
-    padding: 1rem;
+    padding: 12px;
+    width: 100%;
     font-size: 14px;
 
     :focus {
-        border: 0.1rem solid #fdd835;
+        border: 2px solid #fdd835;
     }
 `;
 
 export const ButtonArea = styled.div`
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    padding: 1rem;
+    margin: 32px 0;
+    width: 100%;
+
+    @media (min-width: 576px) {
+        width: 576px;
+    }
 `;

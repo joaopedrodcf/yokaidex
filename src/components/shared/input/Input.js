@@ -1,8 +1,17 @@
 import React from 'react';
 import { SCInput, Container } from './style';
 
-const Input = ({ id, name, value, onChange, placeholder, children }) => (
-    <Container>
+const Input = ({
+    id,
+    name,
+    value,
+    onChange,
+    placeholder,
+    children,
+    isFullWidth,
+    ...rest
+}) => (
+    <Container isFullWidth={isFullWidth}>
         <SCInput
             type="text"
             placeholder={placeholder}
@@ -10,6 +19,7 @@ const Input = ({ id, name, value, onChange, placeholder, children }) => (
             name={name}
             value={value}
             onChange={onChange}
+            {...rest}
         />
         {children}
     </Container>
