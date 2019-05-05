@@ -686,7 +686,7 @@ const crankakai = [
         ],
         first_prize: [
             {
-                name: 'Sn. Spect-hare',
+                name: 'Snow spect-hare',
                 type: 'yokais',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sn._spect-hare.png'
@@ -945,7 +945,7 @@ const crankakai = [
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/oh_bah_gah!.png'
             },
             {
-                name: 'Sp mountain',
+                name: 'Speedemountain',
                 type: 'yokais',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sp_mountain.png'

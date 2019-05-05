@@ -2587,7 +2587,7 @@ const crankakai = [
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/eterna.png'
             },
             {
-                name: 'Shad. Venoct',
+                name: 'Shadow Venoct',
                 type: 'yokais',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shad._venoct.png'
@@ -2809,7 +2809,7 @@ const crankakai = [
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/eterna.png'
             },
             {
-                name: 'Shad. Venoct',
+                name: 'Shadow Venoct',
                 type: 'yokais',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shad._venoct.png'
@@ -3316,7 +3316,7 @@ const crankakai = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/glitzy_coin.png',
         elements: [
             {
-                name: 'Shad. Venoct',
+                name: 'Shadow Venoct',
                 type: 'yokais',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shad._venoct.png'
@@ -4272,7 +4272,7 @@ const crankakai = [
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/arachnia.png'
             },
             {
-                name: 'Shad. Venoct',
+                name: 'Shadow Venoct',
                 type: 'yokais',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shad._venoct.png'
