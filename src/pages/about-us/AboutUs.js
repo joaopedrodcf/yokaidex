@@ -1,9 +1,10 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { Container, Row } from './style';
+import { Row } from './style';
+import Global from '../../styles';
 
 const AboutUs = () => (
-    <Container>
+    <Global.Container>
         <Helmet>
             <title>
                 About us | Yokaidex - Where you can find all the information
@@ -21,7 +22,7 @@ const AboutUs = () => (
             use — the use is inherently educational, and the software would be
             severely impaired without the copyrighted material.
         </Row>
-    </Container>
+    </Global.Container>
 );
 
 export default AboutUs;

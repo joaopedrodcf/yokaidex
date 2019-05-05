@@ -1,35 +1,12 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    background-color: #ffffff;
-    color: #000000;
-    padding: 12px;
-    margin-top: 56px;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    @media (min-width: 960px) {
-        padding: 12px 125px;
-    }
-
-    @media (min-width: 1280px) {
-        padding: 12px 250px;
-    }
-
-    @media (min-width: 1444px) {
-        padding: 12px 500px;
-    }
-`;
-
 export const Field = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
 `;
 
-export const Label = styled.div`
+export const Label = styled.label`
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 6px;

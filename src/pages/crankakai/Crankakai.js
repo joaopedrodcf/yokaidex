@@ -2,21 +2,21 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
-import { Container, ContainerSeal, SealElements } from './style';
+import { ContainerSeal, SealElements } from './style';
 import Image from '../../components/shared/image';
 import { withGameVersionContext, withCrankakaisContext } from '../../store';
 import utils from '../../components/utils';
+import Global from '../../styles';
 
 const Crankakai = ({ context }) => {
     return (
-        <Container>
+        <Global.Container>
             <Helmet>
                 <title>
                     Crankakai | Yokaidex - Where you can find all the
                     information from Yo-kai Watch games!
                 </title>
             </Helmet>
-
             <ContainerSeal>
                 {context.crankakais.map((item, index) => (
                     <SealElements key={index}>
@@ -36,7 +36,7 @@ const Crankakai = ({ context }) => {
                     </SealElements>
                 ))}
             </ContainerSeal>
-        </Container>
+        </Global.Container>
     );
 };
 
