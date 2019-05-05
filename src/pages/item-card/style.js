@@ -1,32 +1,5 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    background-color: #ffffff;
-    color: #000000;
-    padding: 12px;
-    margin-top: 56px;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    img {
-        margin-bottom: 24px;
-    }
-
-    @media (min-width: 960px) {
-        padding: 12px 125px;
-    }
-
-    @media (min-width: 1280px) {
-        padding: 12px 250px;
-    }
-
-    @media (min-width: 1444px) {
-        padding: 12px 500px;
-    }
-`;
-
 export const Sections = styled.div`
     display: flex;
 
@@ -78,43 +51,6 @@ export const STableText = styled.div`
     img {
         margin-right: 12px;
     }
-`;
-
-export const SLabel = styled.div`
-    background-color: ${props => {
-        if (props.backgroundColor) return props.backgroundColor;
-
-        return '';
-    }};
-
-    color: ${props => {
-        if (props.color) return props.color;
-
-        return '';
-    }};
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 45%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    text-align: center;
-    border-radius: 18px;
-    padding: 4px 12px;
-`;
-
-export const SLabelText = styled.div`
-    font-size: 20px;
-    font-weight: 600;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    text-transform: ${props => {
-        if (props.uppercase) return 'uppercase';
-
-        return '';
-    }};
 `;
 
 export const ContainerSeal = styled.div`

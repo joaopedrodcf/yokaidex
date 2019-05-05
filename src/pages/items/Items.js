@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import Search from 'react-feather/dist/icons/search';
 import { Helmet } from 'react-helmet';
 import {
-    Container,
     Section,
     SectionWrapper,
     SectionText,
@@ -19,8 +18,8 @@ import {
     withFilterItemsContext
 } from '../../store';
 import { items as itemsFilters } from '../../mocks/filters';
-
 import Checkbox from '../../components/shared/checkbox';
+import Global from '../../styles';
 
 class Items extends Component {
     constructor(props) {
@@ -61,7 +60,7 @@ class Items extends Component {
         // To improve add fiters by type of item
 
         return (
-            <Container ref={this.listref}>
+            <Global.Container ref={this.listref}>
                 <Helmet>
                     <title>
                         Items | Yokaidex - Where you can find all the
@@ -144,7 +143,7 @@ class Items extends Component {
                             </Link>
                         </Section>
                     ))}
-            </Container>
+            </Global.Container>
         );
     }
 }

@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import Send from 'react-feather/dist/icons/send';
-import { Container, Field, Label, SCTextarea, ButtonArea } from './style';
+import { Helmet } from 'react-helmet';
+import { Field, Label, SCTextarea, ButtonArea } from './style';
 import Button from '../../components/shared/button';
 import endpoints from '../../Services/services';
-import SCInput from '../../components/shared/input';
+import Input from '../../components/shared/input';
 import { withGameVersionContext } from '../../store';
+import Global from '../../styles';
 
 class ContactUs extends Component {
     constructor() {
@@ -66,10 +68,16 @@ class ContactUs extends Component {
         const { name, email, subject, message } = this.state;
 
         return (
-            <Container>
+            <Global.Container>
+                <Helmet>
+                    <title>
+                        ContactUs | Yokaidex - Where you can find all the
+                        information from Yo-kai Watch games!
+                    </title>
+                </Helmet>
                 <Field>
-                    <Label>Name:</Label>
-                    <SCInput
+                    <Label for="name">Name:</Label>
+                    <Input
                         id="name"
                         name="name"
                         value={name}
@@ -80,8 +88,8 @@ class ContactUs extends Component {
                     />
                 </Field>
                 <Field>
-                    <Label>Email:</Label>
-                    <SCInput
+                    <Label for="email">Email:</Label>
+                    <Input
                         id="email"
                         name="email"
                         value={email}
@@ -92,8 +100,8 @@ class ContactUs extends Component {
                     />
                 </Field>
                 <Field>
-                    <Label>Subject:</Label>
-                    <SCInput
+                    <Label for="subject">Subject:</Label>
+                    <Input
                         id="subject"
                         name="subject"
                         value={subject}
@@ -104,7 +112,7 @@ class ContactUs extends Component {
                     />
                 </Field>
                 <Field>
-                    <Label>Message:</Label>
+                    <Label for="message">Message:</Label>
                     <SCTextarea
                         cols="40"
                         rows="15"
@@ -125,7 +133,7 @@ class ContactUs extends Component {
                         <Send size={18} />
                     </Button>
                 </ButtonArea>
-            </Container>
+            </Global.Container>
         );
     }
 }
