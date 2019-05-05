@@ -12,10 +12,11 @@
     "main": "src/index.js",
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build && react-snap",
+        "build": "react-scripts build && react-snap && npm run build-sw",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "build-dev": "react-scripts build --stats && webpack-bundle-analyzer build/bundle-stats.json -m static -r build/bundle-stats.html -O"
+        "build-dev": "react-scripts build --stats && webpack-bundle-analyzer build/bundle-stats.json -m static -r build/bundle-stats.html -O",
+        "build-sw": "node ./src/sw-build.js"
     },
     "dependencies": {
         "history": "^4.7.2",
@@ -29,8 +30,9 @@
         "react-router-dom": "^4.3.1",
         "react-scripts": "2.1.8",
         "react-sidebar": "^3.0.2",
+        "react-snap": "^1.23.0",
         "styled-components": "^4.2.0",
-        "react-snap": "^1.23.0"
+        "workbox-build": "^4.3.1"
     },
     "devDependencies": {
         "eslint": "5.15.3",

@@ -77,7 +77,7 @@ class Sidebar extends Component {
                             <SCNavLink
                                 to={`/yokai-watch-${
                                     context.gameVersion
-                                }/baffle-board`}
+                                }/baffle-board/`}
                             >
                                 <List /> Baffle board
                             </SCNavLink>
@@ -91,7 +91,7 @@ class Sidebar extends Component {
                         <SCNavLink
                             to={`/yokai-watch-${
                                 context.gameVersion
-                            }/crank-a-kai`}
+                            }/crank-a-kai/`}
                         >
                             <Circle /> Crank-a-kai
                         </SCNavLink>
@@ -106,7 +106,7 @@ class Sidebar extends Component {
                         <SCNavLink
                             to={`/yokai-watch-${
                                 context.gameVersion
-                            }/contact-us`}
+                            }/contact-us/`}
                         >
                             <Mail /> Contact us
                         </SCNavLink>
