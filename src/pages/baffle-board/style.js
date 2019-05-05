@@ -1,28 +1,5 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
-    background-color: #ffffff;
-    color: #000000;
-    padding: 12px;
-    margin-top: 56px;
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    @media (min-width: 960px) {
-        padding: 12px 125px;
-    }
-
-    @media (min-width: 1280px) {
-        padding: 12px 250px;
-    }
-
-    @media (min-width: 1444px) {
-        padding: 12px 500px;
-    }
-`;
-
 export const Table = styled.table`
     width: 100%;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),

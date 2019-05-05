@@ -8,7 +8,7 @@ import Filter from 'react-feather/dist/icons/filter';
 import Trash2 from 'react-feather/dist/icons/trash-2';
 import Plus from 'react-feather/dist/icons/plus';
 import {
-    Container,
+    Form,
     Filters,
     InputContainer,
     Collapsible,
@@ -38,6 +38,7 @@ import {
     withYokaisContext,
     withFilterMainContext
 } from '../../store';
+import Global from '../../styles';
 
 class Main extends Component {
     constructor(props) {
@@ -119,7 +120,7 @@ class Main extends Component {
         const { context } = this.props;
 
         return (
-            <Container ref={this.listref}>
+            <Global.Container ref={this.listref}>
                 <Helmet>
                     <title>
                         Yokaidex - Where you can find all the information from
@@ -130,7 +131,7 @@ class Main extends Component {
                         content="Contains all yo-kais for Yo-kai Watch, their locations, stats, favorite foods, skills and evolutions."
                     />
                 </Helmet>
-                <form
+                <Form
                     onSubmit={event => {
                         event.preventDefault();
                     }}
@@ -444,8 +445,8 @@ class Main extends Component {
                                 </Link>
                             </Section>
                         ))}
-                </form>
-            </Container>
+                </Form>
+            </Global.Container>
         );
     }
 }
