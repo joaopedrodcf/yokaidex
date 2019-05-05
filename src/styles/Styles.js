@@ -93,10 +93,46 @@ export const SectionHeader = styled.div`
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 `;
 
+export const Card = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    border-radius: 12px;
+`;
+
+export const CardTitle = styled.div`
+    background-color: ${props => {
+        if (props.color) return props.color;
+
+        return '';
+    }};
+
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 12px 12px 0 0;
+    padding: 6px;
+`;
+
+export const CardText = styled.div`
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 0 0 12px 12px;
+
+    img {
+        margin-right: 12px;
+    }
+`;
+
 export default {
     Container,
     Section,
     BigLabel,
     BigLabelContent,
-    SectionHeader
+    SectionHeader,
+    Card,
+    CardTitle,
+    CardText
 };

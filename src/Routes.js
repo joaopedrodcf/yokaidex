@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
-import Card from './pages/card';
+import YokaiCard from './pages/yokai-card';
 import Main from './pages/main';
 import BaffleBoard from './pages/baffle-board';
 import AboutUs from './pages/about-us';
@@ -54,7 +54,7 @@ class Routes extends Component {
                 <Route
                     exact
                     path="/yokai-watch-:version/yokais/:name"
-                    component={Card}
+                    component={YokaiCard}
                 />
                 <Route
                     exact
