@@ -3,14 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
 import { withRouter } from 'react-router';
-import {
-    STable,
-    STableText,
-    STableTitle,
-    ContainerSeal,
-    SealElements,
-    Label
-} from './style';
+import { ContainerSeal, SealElements, Label } from './style';
 import Image from '../../components/shared/image';
 import {
     withGameVersionContext,
@@ -19,6 +12,8 @@ import {
 } from '../../store';
 import utils from '../../components/utils';
 import Global from '../../styles';
+import Card from '../../components/card';
+import BigLabel from '../../components/big-label';
 
 const hasStatsInfo = statsInfo =>
     Object.keys(statsInfo).some(key => statsInfo[key] !== '0');
@@ -50,39 +45,32 @@ const ItemCard = ({ context, match }) => {
                         size="medium"
                     />
                     <Global.Section isRow justifyContent="space-evenly">
-                        <Global.BigLabel backgroundColor="#e1bee7">
-                            <Global.BigLabelContent>
-                                Sell
-                            </Global.BigLabelContent>
-                            <Global.BigLabelContent>
-                                {item.priceInfo.sell}
-                            </Global.BigLabelContent>
-                        </Global.BigLabel>
+                        <BigLabel
+                            backgroundColor="#e1bee7"
+                            text1="Sell"
+                            text2={item.priceInfo.sell}
+                        />
 
-                        <Global.BigLabel backgroundColor="#e1bee7">
-                            <Global.BigLabelContent>Buy</Global.BigLabelContent>
-                            <Global.BigLabelContent>
-                                {item.priceInfo.buy}
-                            </Global.BigLabelContent>
-                        </Global.BigLabel>
+                        <BigLabel
+                            backgroundColor="#e1bee7"
+                            text1="Buy"
+                            text2={item.priceInfo.buy}
+                        />
                     </Global.Section>
+
                     {hasStatsInfo(item.statsInfo) && (
                         <Global.Section isRow justifyContent="space-evenly">
                             {Object.keys(item.statsInfo).map(
                                 key =>
                                     item.statsInfo[key] !== '0' &&
                                     !item.statsInfo[key].match('-') && (
-                                        <Global.BigLabel
+                                        <BigLabel
                                             key={key}
                                             backgroundColor="#a5d6a7"
-                                        >
-                                            <Global.BigLabelContent uppercase>
-                                                {key}
-                                            </Global.BigLabelContent>
-                                            <Global.BigLabelContent>
-                                                {item.statsInfo[key]}
-                                            </Global.BigLabelContent>
-                                        </Global.BigLabel>
+                                            text1={key}
+                                            text1Uppercase
+                                            text2={item.statsInfo[key]}
+                                        />
                                     )
                             )}
 
@@ -90,52 +78,33 @@ const ItemCard = ({ context, match }) => {
                                 key =>
                                     item.statsInfo[key] !== '0' &&
                                     item.statsInfo[key].match('-') && (
-                                        <Global.BigLabel
+                                        <BigLabel
                                             key={key}
                                             backgroundColor="#ef9a9a"
-                                        >
-                                            <Global.BigLabelContent uppercase>
-                                                {key}
-                                            </Global.BigLabelContent>
-                                            <Global.BigLabelContent>
-                                                {item.statsInfo[key]}
-                                            </Global.BigLabelContent>
-                                        </Global.BigLabel>
+                                            text1={key}
+                                            text1Uppercase
+                                            text2={item.statsInfo[key]}
+                                        />
                                     )
                             )}
                         </Global.Section>
                     )}
 
-                    <Global.Section>
-                        <STable>
-                            <STableTitle color="#e1bee7">
-                                Description
-                            </STableTitle>
-                            <STableText bold>{item.description}</STableText>
-                        </STable>
-                    </Global.Section>
+                    <Card title="Description" color="#e1bee7">
+                        {item.description}
+                    </Card>
 
                     {item.effect !== '' && (
-                        <Global.Section>
-                            <STable>
-                                <STableTitle color="#e1bee7">
-                                    Effect
-                                </STableTitle>
-                                <STableText>{item.effect}</STableText>
-                            </STable>
-                        </Global.Section>
+                        <Card title="Effect" color="#e1bee7">
+                            {item.effect}
+                        </Card>
                     )}
 
-                    <Global.Section>
-                        <STable>
-                            <STableTitle color="#e1bee7">Locations</STableTitle>
-                            <STableText>
-                                {item.locations.map((location, index) => (
-                                    <div key={index}>{location}</div>
-                                ))}
-                            </STableText>
-                        </STable>
-                    </Global.Section>
+                    <Card title="Locations" color="#e1bee7">
+                        {item.locations.map((location, index) => (
+                            <div key={index}>{location}</div>
+                        ))}
+                    </Card>
 
                     {item.crankakaiIndexes &&
                         context.gameVersion !== '3' &&
@@ -146,10 +115,10 @@ const ItemCard = ({ context, match }) => {
                                     <Label color="#e1bee7">
                                         Crank-a-kai {crankItem.variation}
                                     </Label>
-                                    <STable>
-                                        <STableTitle color="#e1bee7">
+                                    <Global.Card>
+                                        <Global.CardTitle color="#e1bee7">
                                             Prize
-                                        </STableTitle>
+                                        </Global.CardTitle>
                                         <ContainerSeal>
                                             {crankItem.elements.map(
                                                 (prize, index) => (
@@ -177,7 +146,7 @@ const ItemCard = ({ context, match }) => {
                                                 )
                                             )}
                                         </ContainerSeal>
-                                    </STable>
+                                    </Global.Card>
                                 </Global.Section>
                             ))}
 
@@ -191,10 +160,10 @@ const ItemCard = ({ context, match }) => {
                                         <Label color="#e1bee7">
                                             Crank-a-kai {crankItem.variation}
                                         </Label>
-                                        <STable>
-                                            <STableTitle color="#e1bee7">
+                                        <Global.Card>
+                                            <Global.CardTitle color="#e1bee7">
                                                 First prize
-                                            </STableTitle>
+                                            </Global.CardTitle>
                                             <ContainerSeal>
                                                 {crankItem.first_prize.map(
                                                     (prize, index) => (
@@ -222,13 +191,13 @@ const ItemCard = ({ context, match }) => {
                                                     )
                                                 )}
                                             </ContainerSeal>
-                                        </STable>
+                                        </Global.Card>
                                     </Global.Section>
                                     <Global.Section>
-                                        <STable>
-                                            <STableTitle color="#e1bee7">
+                                        <Global.Card>
+                                            <Global.CardTitle color="#e1bee7">
                                                 Second prize
-                                            </STableTitle>
+                                            </Global.CardTitle>
 
                                             <ContainerSeal>
                                                 {crankItem.second_prize.map(
@@ -257,13 +226,13 @@ const ItemCard = ({ context, match }) => {
                                                     )
                                                 )}
                                             </ContainerSeal>
-                                        </STable>
+                                        </Global.Card>
                                     </Global.Section>
                                     <Global.Section>
-                                        <STable>
-                                            <STableTitle color="#e1bee7">
+                                        <Global.Card>
+                                            <Global.CardTitle color="#e1bee7">
                                                 Third prize
-                                            </STableTitle>
+                                            </Global.CardTitle>
 
                                             <ContainerSeal>
                                                 {crankItem.third_prize.map(
@@ -292,13 +261,13 @@ const ItemCard = ({ context, match }) => {
                                                     )
                                                 )}
                                             </ContainerSeal>
-                                        </STable>
+                                        </Global.Card>
                                     </Global.Section>
                                     <Global.Section>
-                                        <STable>
-                                            <STableTitle color="#e1bee7">
+                                        <Global.Card>
+                                            <Global.CardTitle color="#e1bee7">
                                                 Default prize
-                                            </STableTitle>
+                                            </Global.CardTitle>
                                             <ContainerSeal>
                                                 {crankItem.default_prize.map(
                                                     (prize, index) => (
@@ -326,7 +295,7 @@ const ItemCard = ({ context, match }) => {
                                                     )
                                                 )}
                                             </ContainerSeal>
-                                        </STable>
+                                        </Global.Card>
                                     </Global.Section>
                                 </>
                             ))}
