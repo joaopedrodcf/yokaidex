@@ -105,14 +105,6 @@ const YokaiCard = ({ context, match }) => {
                             </Card>
 
                             <Card title="Locations" color={color}>
-                                <Image
-                                    imageUrl={utils.getImage(
-                                        foods,
-                                        yokai.favouriteFood
-                                    )}
-                                    altText={yokai.favouriteFood}
-                                    size="special"
-                                />
                                 {yokai.locations.map((location, index) => (
                                     <div key={index}>{location}</div>
                                 ))}
