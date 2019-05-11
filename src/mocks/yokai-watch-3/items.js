@@ -1122,7 +1122,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [16, 17]
     },
     {
         name: 'Five-Star Coin',
@@ -1133,7 +1134,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [18, 19]
     },
     {
         name: 'Special Coin',
@@ -1144,7 +1146,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [20, 21]
     },
     {
         name: 'Yo Mystery Coin',
@@ -1156,7 +1159,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [22]
     },
     {
         name: 'Kai Mystery Coin',
@@ -1167,7 +1171,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [23]
     },
     {
         name: 'Soul Mystery Coin',
@@ -1179,7 +1184,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [24]
     },
     {
         name: 'Sushi Coin',
@@ -1191,7 +1197,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [25]
     },
     {
         name: 'Tempura Coin',
@@ -1203,7 +1210,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [26]
     },
     {
         name: 'Whirlwind Coin',
@@ -1215,7 +1223,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [27]
     },
     {
         name: 'Wanderer Coin',
