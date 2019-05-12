@@ -1236,7 +1236,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [28]
     },
     {
         name: 'Rusted Coin',
@@ -1248,7 +1249,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [29]
     },
     {
         name: 'Flower Excite. Coin',
@@ -1260,7 +1262,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [30]
     },
     {
         name: 'Bird Excite. Coin',
@@ -1272,7 +1275,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [31]
     },
     {
         name: 'Wind Excite. Coin',
@@ -1284,7 +1288,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [32]
     },
     {
         name: 'Moon Excite. Coin',
@@ -1296,7 +1301,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [33]
     },
     {
         name: 'Heaven Excit. Coin',
@@ -1308,7 +1314,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [34]
     },
     {
         name: 'Mellow Coin',
