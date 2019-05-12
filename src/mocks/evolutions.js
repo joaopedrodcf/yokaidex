@@ -2346,15 +2346,15 @@ const evolutions = [
         type: 'fusion',
         withItems: true,
         item: {
-            name: "Mermaid's Jewel",
+            name: 'Mermaid Pearl',
             image:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/mermaid_s_jewel.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/mermaid_pearl.png'
         },
         yokais: [
             {
                 name: 'Mermaidyn',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/mermaidyn.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermaidyn.png'
             },
             {
                 name: 'Mermadonna',
@@ -2376,7 +2376,7 @@ const evolutions = [
             {
                 name: 'Mermaidyn',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/items/mermaidyn.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1548119036/Yokai/yokais/mermaidyn.png'
             },
             {
                 name: 'Scaremaiden',
