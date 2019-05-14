@@ -1389,7 +1389,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [40]
     },
     {
         name: 'Wisdom Dre. Coin',
@@ -1400,7 +1401,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [41]
     },
     {
         name: 'Pride Dream Coin',
@@ -1412,7 +1414,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [42]
     },
     {
         name: 'Chivalry Dre. Coin',
@@ -1424,7 +1427,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [43]
     },
     {
         name: 'G1 Dream Coin',
@@ -1436,7 +1440,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [44]
     },
     {
         name: 'G2 Dream Coin',
@@ -1448,7 +1453,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [45]
     },
     {
         name: 'G3 Dream Coin',
@@ -1460,7 +1466,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [46]
     },
     {
         name: 'G4 Dream Coin',
@@ -1472,7 +1479,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [47]
     },
     {
         name: '2nd Helping Coin',
