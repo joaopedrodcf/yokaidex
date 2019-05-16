@@ -7,10 +7,19 @@ const BigLabel = ({
     text1,
     text1Uppercase,
     text2,
+    width,
+    justifyContent,
+    withoutWith,
     children
 }) => {
     return (
-        <Global.BigLabel backgroundColor={backgroundColor} color={color}>
+        <Global.BigLabel
+            backgroundColor={backgroundColor}
+            color={color}
+            width={width}
+            justifyContent={justifyContent}
+            withoutWith={withoutWith}
+        >
             <Global.BigLabelContent uppercase={text1Uppercase}>
                 {text1}
                 {children}

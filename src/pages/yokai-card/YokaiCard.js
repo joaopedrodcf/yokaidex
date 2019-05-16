@@ -2,7 +2,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { withRouter } from 'react-router';
-import { SideInformation } from './style';
+import { SideInformation, RightSideInformation } from './style';
 import { elements, foods, ranks, tribes } from '../../mocks';
 import Image from '../../components/shared/image';
 import utils from '../../components/utils';
@@ -58,6 +58,19 @@ const YokaiCard = ({ context, match }) => {
                             size="small"
                         />
                     </SideInformation>
+
+                    <RightSideInformation>
+                        {yokai.type &&
+                            yokai.type.map(tp => (
+                                <BigLabel
+                                    backgroundColor="#000000"
+                                    color="#ffee58"
+                                    text2={utils.capitalize(tp)}
+                                    withoutWith
+                                    justifyContent="center"
+                                />
+                            ))}
+                    </RightSideInformation>
 
                     <Global.Section isRow justifyContent="space-evenly">
                         <BigLabel backgroundColor={color} text2={yokai.tribe}>
