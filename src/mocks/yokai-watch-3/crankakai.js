@@ -7236,6 +7236,771 @@ const crankakai = [
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sophisticated_pass.png'
             }
         ]
+    },
+    {
+        index: 48,
+        type: '2nd Helping Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/2nd_helping_coin.png',
+        default_prize: [],
+        third_prize: [
+            {
+                name: 'Confuze',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/confuze.png'
+            },
+            {
+                name: 'Daiz',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/daiz.png'
+            }
+        ],
+        second_prize: [
+            {
+                name: 'Tyrat',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tyrat.png'
+            },
+            {
+                name: 'So-Sorree',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/so-sorree.png'
+            },
+            {
+                name: 'Apelican',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/apelican.png'
+            },
+            {
+                name: 'Neighfarious',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/neighfarious.png'
+            },
+            {
+                name: 'Negasus',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/negasus.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'El Sharkador',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/el_sharkador.png'
+            }
+        ]
+    },
+    {
+        index: 49,
+        type: 'Belly Buster Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/belly_buster_coin.png',
+        default_prize: [],
+        third_prize: [
+            {
+                name: 'Confuze',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/confuze.png'
+            },
+            {
+                name: 'Daiz',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/daiz.png'
+            }
+        ],
+        second_prize: [
+            {
+                name: 'Tyrat',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tyrat.png'
+            },
+            {
+                name: 'So-Sorree',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/so-sorree.png'
+            },
+            {
+                name: 'Apelican',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/apelican.png'
+            },
+            {
+                name: 'Neighfarious',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/neighfarious.png'
+            },
+            {
+                name: 'Negasus',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/negasus.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'Dr. Nocturne',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dr._nocturne.png'
+            }
+        ]
+    },
+    {
+        index: 50,
+        type: 'L Souvenir Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/l_souvenir_coin.png',
+        default_prize: [],
+        third_prize: [
+            {
+                name: 'Mython',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mython.png'
+            },
+            {
+                name: 'Statikid',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/statikid.png'
+            }
+        ],
+        second_prize: [
+            {
+                name: 'Sapphinyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sapphinyan.png'
+            },
+            {
+                name: 'Sailornyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sailornyan.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'Clodzilla',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/clodzilla.png'
+            }
+        ]
+    },
+    {
+        index: 51,
+        type: 'F Souvenir Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/f_souvenir_coin.png',
+        default_prize: [],
+        third_prize: [
+            {
+                name: 'Hairum Scarum',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hairum_scarum.png'
+            },
+            {
+                name: 'Lil Kappa',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/lil_kappa.png'
+            }
+        ],
+        second_prize: [
+            {
+                name: 'Emenyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/emenyan.png'
+            },
+            {
+                name: 'Sir Nyansalot',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sir_nyansalot.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'El Sharkador',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/el_sharkador.png'
+            }
+        ]
+    },
+    {
+        index: 52,
+        type: 'S Souvenir Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/s_souvenir_coin.png',
+        default_prize: [],
+        third_prize: [
+            {
+                name: 'Steaking',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/steaking.png'
+            },
+            {
+                name: 'Shedwin',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shedwin.png'
+            }
+        ],
+        second_prize: [
+            {
+                name: 'Rubinyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rubinyan.png'
+            },
+            {
+                name: 'Maginyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/maginyan.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'Snow spect-hare',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sn._spect-hare.png'
+            }
+        ]
+    },
+    {
+        index: 53,
+        type: 'K Souvenir Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/k_souvenir_coin.png',
+        default_prize: [],
+        third_prize: [
+            {
+                name: 'Whirlweasel',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/whirlweasel.png'
+            },
+            {
+                name: 'Throne Wiper',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/throne_wiper.png'
+            }
+        ],
+        second_prize: [
+            {
+                name: 'Topanyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/topanyan.png'
+            },
+            {
+                name: 'Machonyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/machonyan.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'Nunchucky',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/nunchucky.png'
+            }
+        ]
+    },
+    {
+        index: 54,
+        type: 'Joyful Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/joyful_coin.png',
+        default_prize: [],
+        third_prize: [
+            {
+                name: 'Repossessor',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/repossessor.png'
+            },
+            {
+                name: 'Stinkeye',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/stinkeye.png'
+            },
+            {
+                name: 'Greengramps',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/greengramps.png'
+            },
+            {
+                name: 'Injurnalist',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/injurnalist.png'
+            },
+            {
+                name: 'BBQvil',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/bbqvil.png'
+            },
+            {
+                name: 'Soloman',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/soloman.png'
+            },
+            {
+                name: 'Mega Exporb',
+                type: 'items',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mega_exporb.png'
+            },
+            {
+                name: 'Golden Doll',
+                type: 'items',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/golden_doll.png'
+            },
+            {
+                name: 'Arcane Attacks',
+                type: 'items',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/arcane_attacks.png'
+            },
+            {
+                name: 'Ancient Arts',
+                type: 'items',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ancient_arts.png'
+            },
+            {
+                name: 'Mystic Mysteries',
+                type: 'items',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystic_mysteries.png'
+            },
+            {
+                name: 'A Serious Life',
+                type: 'items',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/a_serious_life.png'
+            }
+        ],
+        second_prize: [
+            {
+                name: 'Whirlweasel',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/whirlweasel.png'
+            },
+            {
+                name: 'Steaking',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/steaking.png'
+            },
+            {
+                name: 'Hairum Scarum',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hairum_scarum.png'
+            },
+            {
+                name: 'Ghostess',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/ghostess.png'
+            },
+            {
+                name: 'Mython',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mython.png'
+            },
+            {
+                name: 'Mama Aura',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mama_aura.png'
+            },
+            {
+                name: 'Mircle',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mircle.png'
+            },
+            {
+                name: 'Dubbles',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dubbles.png'
+            },
+            {
+                name: 'Ooze Zat',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/ooze_zat.png'
+            },
+            {
+                name: 'Imagenius',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/imagenius.png'
+            },
+            {
+                name: 'Pearly White',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pearly_white.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'Nunchucky',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/nunchucky.png'
+            },
+            {
+                name: 'Frostail',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/frostail.png'
+            },
+            {
+                name: 'Goldenyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/goldenyan.png'
+            },
+            {
+                name: 'Inflammaboy!',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/inflammaboy.png'
+            },
+            {
+                name: 'Auntie Heart',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/auntie_heart.png'
+            },
+            {
+                name: 'Count Cavity',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/count_cavity.png'
+            },
+            {
+                name: 'Horridjinn',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/horridjinn.png'
+            },
+            {
+                name: 'Clodzilla',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/clodzilla.png'
+            }
+        ]
+    },
+    {
+        index: 55,
+        type: 'Excellent Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/excellent_coin.png',
+        default_prize: [],
+        third_prize: [
+            {
+                name: 'Sir Nyansalot',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sir_nyansalot.png'
+            },
+            {
+                name: 'Maginyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/maginyan.png'
+            },
+            {
+                name: 'Wondernyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/wondernyan.png'
+            }
+        ],
+        second_prize: [
+            {
+                name: 'Paradise Ball',
+                type: 'items',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/paradise_ball.png'
+            },
+            {
+                name: 'Machonyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/machonyan.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'Hornaplenty',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hornaplenty.png'
+            }
+        ]
+    },
+    {
+        index: 56,
+        type: 'Beaming Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/beaming_coin.png',
+        default_prize: [],
+        third_prize: [
+            {
+                name: 'Sing Kong',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sing_kong.png'
+            },
+            {
+                name: 'Injurnalist',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/injurnalist.png'
+            },
+            {
+                name: 'BBQvil',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/bbqvil.png'
+            },
+            {
+                name: 'Rhumbastiltskin',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/rhumbastiltskin.png'
+            },
+            {
+                name: 'Right Brothers',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/right_brothers.png'
+            },
+            {
+                name: 'Soloman',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/soloman.png'
+            },
+            {
+                name: 'Push Pup',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/push_pup.png'
+            },
+            {
+                name: 'Tomorrow Gal',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tomorrow_gal.png'
+            },
+            {
+                name: 'OMGator',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/omgator.png'
+            },
+            {
+                name: 'Oh Bah Gah!',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/oh_bah_gah!.png'
+            },
+            {
+                name: 'Minimoto',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/minimoto.png'
+            }
+        ],
+        second_prize: [
+            {
+                name: 'Ghostess',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/ghostess.png'
+            },
+            {
+                name: 'Hairum Scarum',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hairum_scarum.png'
+            },
+            {
+                name: 'Steaking',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/steaking.png'
+            },
+            {
+                name: 'Mython',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/mython.png'
+            },
+            {
+                name: 'Lil Kappa',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/lil_kappa.png'
+            },
+            {
+                name: 'Imagenius',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/imagenius.png'
+            },
+            {
+                name: 'Pearly White',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/pearly_white.png'
+            },
+            {
+                name: 'Statikid',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/statikid.png'
+            },
+            {
+                name: 'Hot Air Buffoon',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/hot_air_buffoon.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'Nunchucky',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/nunchucky.png'
+            },
+            {
+                name: 'Snow spect-hare',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sn._spect-hare.png'
+            },
+            {
+                name: 'El Sharkador',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/el_sharkador.png'
+            },
+            {
+                name: 'Inflammaboy!',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/inflammaboy.png'
+            },
+            {
+                name: 'Sonic Bam',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sonic_bam.png'
+            },
+            {
+                name: 'Dr. Nocturne',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dr._nocturne.png'
+            },
+            {
+                name: 'Horridjinn',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/horridjinn.png'
+            },
+            {
+                name: 'Clodzilla',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/clodzilla.png'
+            }
+        ]
+    },
+    {
+        index: 57,
+        type: 'Iron Pot Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/iron_pot_coin.png',
+        default_prize: [],
+        third_prize: [],
+        second_prize: [
+            {
+                name: 'Goldenyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/goldenyan.png'
+            },
+            {
+                name: 'Dianyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/dianyan.png'
+            },
+            {
+                name: 'Melonyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/melonyan.png'
+            },
+            {
+                name: 'Watermelnyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/watermelnyan.png'
+            }
+        ],
+        first_prize: [
+            {
+                name: 'Gorgeous Ambassador',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/gorgeous_amb..png'
+            }
+        ]
     }
 ];
 
