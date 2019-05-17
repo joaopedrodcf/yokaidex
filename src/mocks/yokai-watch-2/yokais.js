@@ -15977,7 +15977,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Seafoods',
-        seal: 13
+        seal: 13,
+        type: ['legendary']
     },
     {
         name: 'Komashura',
@@ -16022,7 +16023,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Milks',
-        seal: 15
+        seal: 15,
+        type: ['legendary']
     },
     {
         name: 'Gilgaros',
@@ -16067,7 +16069,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Meats',
-        seal: 4
+        seal: 4,
+        type: ['legendary']
     },
     {
         name: 'Spoilerina',
@@ -16113,7 +16116,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sweets',
-        seal: 20
+        seal: 20,
+        type: ['legendary']
     },
     {
         name: 'Elder Bloom',
@@ -16158,7 +16162,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Rice Balls',
-        seal: 19
+        seal: 19,
+        type: ['legendary']
     },
     {
         name: 'Poofessor',
@@ -16204,7 +16209,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Curries',
-        seal: 21
+        seal: 21,
+        type: ['legendary']
     },
     {
         name: 'Dandoodle',
@@ -16250,7 +16256,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Chinese foods',
-        seal: 17
+        seal: 17,
+        type: ['legendary']
     },
     {
         name: 'Slurpent',
@@ -16296,7 +16303,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats',
-        seal: 7
+        seal: 7,
+        type: ['legendary']
     },
     {
         name: 'Sapphinyan',
