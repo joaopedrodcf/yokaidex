@@ -56,12 +56,22 @@ export const BigLabel = styled.div`
         return '';
     }};
 
+    width: ${props => {
+        if (props.width) return props.width;
+        if (props.withoutWith) return '';
+
+        return '45%';
+    }};
+
+    justify-content: ${props => {
+        if (props.justifyContent) return props.justifyContent;
+
+        return 'space-between';
+    }};
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 45%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    text-align: center;
     border-radius: 18px;
     padding: 4px 12px;
 `;

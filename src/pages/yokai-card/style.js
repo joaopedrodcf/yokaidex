@@ -22,9 +22,34 @@ export const SideInformation = styled.div`
     flex-direction: column;
     align-items: center;
 
-    div,
-    img {
-        margin-top: 12px;
+    > div,
+    > img {
+        margin-top: 6px;
+    }
+
+    @media (min-width: 960px) {
+        padding: 12px 125px;
+    }
+
+    @media (min-width: 1280px) {
+        padding: 12px 250px;
+    }
+
+    @media (min-width: 1444px) {
+        padding: 12px 500px;
+    }
+`;
+
+export const RightSideInformation = styled.div`
+    position: absolute;
+    top: 68px;
+    left: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > div {
+        margin-bottom: 6px;
     }
 
     @media (min-width: 960px) {
