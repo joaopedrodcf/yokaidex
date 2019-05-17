@@ -1,11 +1,3 @@
-const misc = [
-    'has evolution',
-    'legendary',
-    'rare',
-    'classic',
-    'deva',
-    "'merican legendary",
-    "'merican"
-];
+const misc = ['has evolution'];
 
 export default misc;

@@ -1620,7 +1620,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [58]
     },
     {
         name: 'Black Coin',
@@ -1632,7 +1633,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [59]
     },
     {
         name: 'Jet Black Coin',
@@ -1656,7 +1658,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [60]
     },
     {
         name: 'Underworld Coin',
@@ -1668,7 +1671,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [61]
     },
     {
         name: 'Sealed Coin',
@@ -1680,7 +1684,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [62]
     },
     {
         name: 'Emblem Coin',
@@ -1691,7 +1696,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [63]
     },
     {
         name: 'Treasure Coin',
