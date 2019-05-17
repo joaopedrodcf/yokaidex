@@ -29227,7 +29227,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        type: ['pioneer']
     },
     {
         name: 'T. Energison',
@@ -29276,7 +29277,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'hamburgers',
+        type: ['pioneer']
     },
     {
         name: 'Starwin',
@@ -29324,7 +29326,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Lightning',
         rank: 's',
-        favouriteFood: 'Pizzas'
+        favouriteFood: 'Pizzas',
+        type: ['pioneer']
     },
     {
         name: 'Last Nyanmurai',
@@ -31671,7 +31674,7 @@ const yokais = [
         type: ['rare']
     },
     {
-        name: 'Procrastino.',
+        name: 'Procrastinocchio',
         yokaiNumber: '652',
         bossNumber: '000',
         image:
@@ -32006,7 +32009,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        type: ['legendary mystery']
     },
     {
         name: 'King Deadward',
@@ -32054,7 +32058,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['legendary mystery']
     },
     {
         name: 'Pandora',
@@ -32102,7 +32107,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Sukiyakis'
+        favouriteFood: 'Sukiyakis',
+        type: ['legendary mystery']
     },
     {
         name: 'Comic Genieus',
@@ -32150,7 +32156,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Sukiyakis'
+        favouriteFood: 'Sukiyakis',
+        type: ['legendary mystery']
     },
     {
         name: 'Bastnetnyan',
@@ -32198,7 +32205,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        type: ['legendary mystery']
     },
     {
         name: 'Komanubis',
@@ -32246,7 +32254,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        type: ['legendary mystery']
     },
     {
         name: 'Gabby',
@@ -32782,7 +32791,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 's',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        type: ['legendary mystery']
     },
     {
         name: 'Rampajah',
@@ -32829,7 +32839,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Sukiyakis'
+        favouriteFood: 'Sukiyakis',
+        type: ['legendary mystery']
     },
     {
         name: 'Cymbalina',
@@ -33796,7 +33807,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        type: ['treasure']
     },
     {
         name: 'Fitwit',
@@ -33844,7 +33856,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Rice balls'
+        favouriteFood: 'Rice balls',
+        type: ['treasure']
     },
     {
         name: 'El Dorago',
@@ -33891,7 +33904,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        type: ['treasure']
     },
     {
         name: 'The Hinix',
@@ -33939,7 +33953,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        type: ['treasure']
     },
     {
         name: 'Junkernaut',

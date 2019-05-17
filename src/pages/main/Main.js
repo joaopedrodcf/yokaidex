@@ -31,7 +31,8 @@ import {
     elements as elementsFilters,
     ranks as ranksfilters,
     tribes as tribesFilters,
-    misc as miscFilters
+    misc as miscFilters,
+    types as typesFilters
 } from '../../mocks/filters';
 import {
     withGameVersionContext,
@@ -51,7 +52,8 @@ class Main extends Component {
             isCollapsedFilterTribes: true,
             isCollapsedFilterRanks: true,
             isCollapsedFilterElements: true,
-            isCollapsedFilterMisc: true
+            isCollapsedFilterMisc: true,
+            isCollapsedFilterTypes: true
         };
 
         this.handleCollapse = this.handleCollapse.bind(this);
@@ -71,6 +73,10 @@ class Main extends Component {
         this.handleOpenFilterMisc = this.handleOpenFilter.bind(
             this,
             'isCollapsedFilterMisc'
+        );
+        this.handleOpenFilterTypes = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterTypes'
         );
 
         this.listref = React.createRef();
@@ -115,7 +121,8 @@ class Main extends Component {
             isCollapsedFilterTribes,
             isCollapsedFilterRanks,
             isCollapsedFilterElements,
-            isCollapsedFilterMisc
+            isCollapsedFilterMisc,
+            isCollapsedFilterTypes
         } = this.state;
         const { context } = this.props;
 
@@ -123,7 +130,7 @@ class Main extends Component {
             <Global.Container ref={this.listref}>
                 <Helmet>
                     <title>
-                        Yokaidex - Where you can find all the information from
+                        Yokaidex Where you can find all the information from
                         Yo-kai Watch games!
                     </title>
                     <meta
@@ -259,6 +266,36 @@ class Main extends Component {
                             </Column>
                             <Column>
                                 <SpecialHeader
+                                    onClick={this.handleOpenFilterTypes}
+                                >
+                                    <h2>Types</h2>
+                                    <Plus />
+                                </SpecialHeader>
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterTypes}
+                                >
+                                    {typesFilters.map(el => (
+                                        <InputContainer key={el}>
+                                            <label>
+                                                <Checkbox
+                                                    type="checkbox"
+                                                    checked={context.types.includes(
+                                                        el.toLowerCase()
+                                                    )}
+                                                    name={el}
+                                                    checkboxtype="types"
+                                                    onChange={
+                                                        context.handleCheckbox
+                                                    }
+                                                    label={el}
+                                                />
+                                            </label>
+                                        </InputContainer>
+                                    ))}
+                                </CollapsibleFilters>
+                            </Column>
+                            <Column>
+                                <SpecialHeader
                                     onClick={this.handleOpenFilterMisc}
                                 >
                                     <h2>Misc</h2>
@@ -305,11 +342,11 @@ class Main extends Component {
                                 return false;
                             }
 
-                            Object.keys(filters).forEach(type => {
+                            Object.keys(filters).forEach(el => {
                                 if (
-                                    filters[type].length > 0 &&
-                                    !filters[type].includes(
-                                        yokai[type].toLowerCase()
+                                    filters[el].length > 0 &&
+                                    !filters[el].includes(
+                                        yokai[el].toLowerCase()
                                     )
                                 ) {
                                     aux = false;
@@ -324,14 +361,16 @@ class Main extends Component {
                             }
 
                             if (
-                                context.misc.includes('legendary') &&
-                                yokai.seal === undefined
+                                context.types.includes('legendary') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('legendary')))
                             ) {
                                 return false;
                             }
 
                             if (
-                                context.misc.includes('rare') &&
+                                context.types.includes('rare') &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
                                         !yokai.type.includes('rare')))
@@ -340,7 +379,7 @@ class Main extends Component {
                             }
 
                             if (
-                                context.misc.includes('classic') &&
+                                context.types.includes('classic') &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
                                         !yokai.type.includes('classic')))
@@ -349,7 +388,16 @@ class Main extends Component {
                             }
 
                             if (
-                                context.misc.includes("'merican legendary") &&
+                                context.types.includes('deva') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('deva')))
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                context.types.includes("'merican legendary") &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
                                         !yokai.type.includes(
@@ -360,7 +408,7 @@ class Main extends Component {
                             }
 
                             if (
-                                context.misc.includes("'merican") &&
+                                context.types.includes("'merican") &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
                                         !yokai.type.includes("'merican")))
@@ -369,10 +417,30 @@ class Main extends Component {
                             }
 
                             if (
-                                context.misc.includes('deva') &&
+                                context.types.includes('legendary mystery') &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
-                                        !yokai.type.includes('deva')))
+                                        !yokai.type.includes(
+                                            'legendary mystery'
+                                        )))
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                context.types.includes('treasure') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('treasure')))
+                            ) {
+                                return false;
+                            }
+
+                            if (
+                                context.types.includes('pioneer') &&
+                                (yokai.type === undefined ||
+                                    (yokai.type &&
+                                        !yokai.type.includes('pioneer')))
                             ) {
                                 return false;
                             }
