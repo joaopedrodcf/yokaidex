@@ -1,13 +1,13 @@
 const types = [
-    'legendary',
-    'rare',
-    'classic',
-    'deva',
-    "'merican legendary",
-    "'merican",
-    'legendary mystery',
-    'treasure',
-    'pioneer'
+    'Legendary',
+    'Rare',
+    'Classic',
+    'Deva',
+    "'Merican legendary",
+    "'Merican",
+    'Legendary mystery',
+    'Treasure',
+    'Pioneer'
 ];
 
 export default types;

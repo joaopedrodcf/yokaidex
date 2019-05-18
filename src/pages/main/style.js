@@ -202,6 +202,6 @@ export const SectionImageTitle = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 20%;
     text-align: center;
 `;

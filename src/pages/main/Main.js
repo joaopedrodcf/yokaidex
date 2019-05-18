@@ -361,6 +361,13 @@ class Main extends Component {
                             }
 
                             if (
+                                context.misc.includes('crank-a-kai') &&
+                                !yokai.crankakai
+                            ) {
+                                return false;
+                            }
+
+                            if (
                                 context.types.includes('legendary') &&
                                 (yokai.type === undefined ||
                                     (yokai.type &&
