@@ -7,10 +7,11 @@ import {
     SectionWrapper,
     SectionText,
     InputContainer,
-    InputContainerWrap
+    InputContainerWrap,
+    Form
 } from './style';
 import Image from '../../components/shared/image';
-import SCInput from '../../components/shared/input';
+import Input from '../../components/shared/input';
 import utils from '../../components/utils';
 import {
     withGameVersionContext,
@@ -73,76 +74,87 @@ class Items extends Component {
                         }`}
                     />
                 </Helmet>
-                <SCInput
-                    id="name"
-                    name="name"
-                    value={context.name}
-                    onChange={context.handleText}
-                    placeholder="Find by name"
+                <Form
+                    onSubmit={event => {
+                        event.preventDefault();
+                    }}
                 >
-                    <Search />
-                </SCInput>
-                <InputContainerWrap>
-                    {itemsFilters.map(item => (
-                        <InputContainer key={item}>
-                            <label>
-                                <Checkbox
-                                    type="checkbox"
-                                    checked={context.item.includes(
-                                        item.toLowerCase()
-                                    )}
-                                    name={item}
-                                    onChange={context.handleCheckbox}
-                                    label={item}
-                                />
-                            </label>
-                        </InputContainer>
-                    ))}
-                </InputContainerWrap>
-
-                {context.items
-                    .filter(item => {
-                        let aux = true;
-
-                        const filters = {
-                            item: context.item
-                        };
-
-                        if (!item.name.toLowerCase().includes(context.name)) {
-                            return false;
-                        }
-
-                        Object.keys(filters).forEach(type => {
-                            if (
-                                filters[type].length > 0 &&
-                                !filters[type].includes(item.type.toLowerCase())
-                            ) {
-                                aux = false;
-                            }
-                        });
-
-                        return aux;
-                    })
-                    .slice(0, (pageNumber + 1) * itemsToShow)
-                    .map((item, index) => (
-                        <Section key={index}>
-                            <Link
-                                to={`/yokai-watch-${
-                                    context.gameVersion
-                                }/items/${utils.uniformizeNames(item.name)}`}
-                            >
-                                <SectionWrapper>
-                                    <Image
-                                        imageUrl={item.image}
-                                        altText={item.name}
-                                        size="medium"
-                                        isToLazyLoad
+                    <Input
+                        id="name"
+                        name="name"
+                        value={context.name}
+                        onChange={context.handleText}
+                        placeholder="Find your item by name"
+                    >
+                        <Search />
+                    </Input>
+                    <InputContainerWrap>
+                        {itemsFilters.map((item, index) => (
+                            <InputContainer key={index}>
+                                <label>
+                                    <Checkbox
+                                        type="checkbox"
+                                        checked={context.item.includes(
+                                            item.toLowerCase()
+                                        )}
+                                        name={item}
+                                        onChange={context.handleCheckbox}
+                                        label={item}
                                     />
-                                    <SectionText>{item.name}</SectionText>
-                                </SectionWrapper>
-                            </Link>
-                        </Section>
-                    ))}
+                                </label>
+                            </InputContainer>
+                        ))}
+                    </InputContainerWrap>
+                    {context.items
+                        .filter(item => {
+                            let aux = true;
+
+                            const filters = {
+                                item: context.item
+                            };
+
+                            if (
+                                !item.name.toLowerCase().includes(context.name)
+                            ) {
+                                return false;
+                            }
+
+                            Object.keys(filters).forEach(type => {
+                                if (
+                                    filters[type].length > 0 &&
+                                    !filters[type].includes(
+                                        item.type.toLowerCase()
+                                    )
+                                ) {
+                                    aux = false;
+                                }
+                            });
+
+                            return aux;
+                        })
+                        .slice(0, (pageNumber + 1) * itemsToShow)
+                        .map((item, index) => (
+                            <Section key={index}>
+                                <Link
+                                    to={`/yokai-watch-${
+                                        context.gameVersion
+                                    }/items/${utils.uniformizeNames(
+                                        item.name
+                                    )}`}
+                                >
+                                    <SectionWrapper>
+                                        <Image
+                                            imageUrl={item.image}
+                                            altText={item.name}
+                                            size="medium"
+                                            isToLazyLoad
+                                        />
+                                        <SectionText>{item.name}</SectionText>
+                                    </SectionWrapper>
+                                </Link>
+                            </Section>
+                        ))}
+                </Form>
             </Global.Container>
         );
     }

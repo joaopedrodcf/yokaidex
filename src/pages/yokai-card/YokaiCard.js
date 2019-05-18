@@ -2,7 +2,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { withRouter } from 'react-router';
-import { SideInformation, RightSideInformation } from './style';
+import { Link } from 'react-router-dom';
+import { SideInformation, Requirements, Requirement } from './style';
 import { elements, foods, ranks, tribes } from '../../mocks';
 import Image from '../../components/shared/image';
 import utils from '../../components/utils';
@@ -25,118 +26,142 @@ const YokaiCard = ({ context, match }) => {
         yokai.element
     );
 
+    if (!yokai) {
+        return (
+            <Global.Container>Page not found please go back</Global.Container>
+        );
+    }
+
     return (
         <Global.Container>
-            {yokai && (
-                <>
-                    <Helmet>
-                        <title>{`${
-                            yokai.name
-                        } | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
-                        <meta
-                            name="description"
-                            content={`${yokai.name} is a yo-kai from ${
-                                yokai.tribe
-                            } tribe, of the rank ${
-                                yokai.rank
-                            } and with the attribute ${
-                                yokai.element
-                            } in Yo-kai Watch ${context.gameVersion}`}
+            <Helmet>
+                <title>{`${
+                    yokai.name
+                } | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
+                <meta
+                    name="description"
+                    content={`${yokai.name} is a yo-kai from ${
+                        yokai.tribe
+                    } tribe, of the rank ${yokai.rank} and with the attribute ${
+                        yokai.element
+                    } in Yo-kai Watch ${context.gameVersion}`}
+                />
+                <meta name="og:image" content={yokai.image} />
+            </Helmet>
+            <Image imageUrl={yokai.image} altText={yokai.name} size="large" />
+            <SideInformation>
+                <h2>#{yokai.yokaiNumber}</h2>
+                <Image
+                    imageUrl={utils.getImage(ranks, yokai.rank)}
+                    altText={yokai.rank}
+                    size="small"
+                />
+            </SideInformation>
+
+            <Global.Section isRow justifyContent="space-evenly">
+                {yokai.type &&
+                    yokai.type.map((tp, index) => (
+                        <BigLabel
+                            key={index}
+                            backgroundColor="#000000"
+                            color="#ffee58"
+                            text2={utils.capitalize(tp)}
+                            withoutWith
+                            justifyContent="center"
                         />
-                        <meta name="og:image" content={yokai.image} />
-                    </Helmet>
+                    ))}
+            </Global.Section>
+
+            <Global.Section isRow justifyContent="space-evenly">
+                <BigLabel backgroundColor={color} text2={yokai.tribe}>
                     <Image
-                        imageUrl={yokai.image}
-                        altText={yokai.name}
-                        size="large"
+                        imageUrl={utils.getImage(tribes, yokai.tribe)}
+                        altText={yokai.tribe}
+                        size="small"
                     />
-                    <SideInformation>
-                        <h2>#{yokai.yokaiNumber}</h2>
+                </BigLabel>
+
+                {yokai.tribe !== 'Boss' && (
+                    <BigLabel
+                        backgroundColor={elementColor}
+                        color={elementSecondaryColor}
+                        text2={yokai.element}
+                    >
                         <Image
-                            imageUrl={utils.getImage(ranks, yokai.rank)}
-                            altText={yokai.rank}
+                            imageUrl={utils.getImage(elements, yokai.element)}
+                            altText={yokai.element}
                             size="small"
                         />
-                    </SideInformation>
+                    </BigLabel>
+                )}
+            </Global.Section>
 
-                    <RightSideInformation>
-                        {yokai.type &&
-                            yokai.type.map(tp => (
-                                <BigLabel
-                                    backgroundColor="#000000"
-                                    color="#ffee58"
-                                    text2={utils.capitalize(tp)}
-                                    withoutWith
-                                    justifyContent="center"
-                                />
-                            ))}
-                    </RightSideInformation>
+            <Card title="Bio" color={color}>
+                {yokai.description}
+            </Card>
 
-                    <Global.Section isRow justifyContent="space-evenly">
-                        <BigLabel backgroundColor={color} text2={yokai.tribe}>
-                            <Image
-                                imageUrl={utils.getImage(tribes, yokai.tribe)}
-                                altText={yokai.tribe}
-                                size="small"
-                            />
-                        </BigLabel>
-
-                        {yokai.tribe !== 'Boss' && (
-                            <BigLabel
-                                backgroundColor={elementColor}
-                                color={elementSecondaryColor}
-                                text2={yokai.element}
-                            >
-                                <Image
-                                    imageUrl={utils.getImage(
-                                        elements,
-                                        yokai.element
-                                    )}
-                                    altText={yokai.element}
-                                    size="small"
-                                />
-                            </BigLabel>
-                        )}
-                    </Global.Section>
-
-                    <Card title="Bio" color={color}>
-                        {yokai.description}
+            {yokai.tribe !== 'Boss' && (
+                <>
+                    <Card title="Favourite food" color={color}>
+                        <Image
+                            imageUrl={utils.getImage(
+                                foods,
+                                yokai.favouriteFood
+                            )}
+                            altText={yokai.favouriteFood}
+                            size="special"
+                        />
+                        {yokai.favouriteFood}
                     </Card>
 
-                    {yokai.tribe !== 'Boss' && (
-                        <>
-                            <Card title="Favourite food" color={color}>
-                                <Image
-                                    imageUrl={utils.getImage(
-                                        foods,
-                                        yokai.favouriteFood
-                                    )}
-                                    altText={yokai.favouriteFood}
-                                    size="special"
-                                />
-                                {yokai.favouriteFood}
-                            </Card>
+                    <Card title="Locations" color={color}>
+                        {yokai.locations.map((location, index) => (
+                            <div key={index}>{location}</div>
+                        ))}
+                    </Card>
 
-                            <Card title="Locations" color={color}>
-                                {yokai.locations.map((location, index) => (
-                                    <div key={index}>{location}</div>
+                    <Evolution
+                        yokai={yokai}
+                        color={color}
+                        gameVersion={context.gameVersion}
+                    />
+                    <Seal
+                        yokai={yokai}
+                        color={color}
+                        gameVersion={context.gameVersion}
+                    />
+
+                    {yokai.crankakai && (
+                        <Global.Section>
+                            <Global.SectionHeader color={color}>
+                                Crank-a-kai
+                            </Global.SectionHeader>
+
+                            <Requirements>
+                                {yokai.crankakai.map((coin, index) => (
+                                    <Requirement key={index}>
+                                        <Link
+                                            to={`/yokai-watch-${
+                                                context.gameVersion
+                                            }/items/${utils.uniformizeNames(
+                                                coin.name
+                                            )}`}
+                                        >
+                                            <Image
+                                                imageUrl={coin.image}
+                                                altText=""
+                                                size="medium"
+                                            />
+                                            {coin.name}
+                                        </Link>
+                                    </Requirement>
                                 ))}
-                            </Card>
-
-                            <Evolution
-                                yokai={yokai}
-                                color={color}
-                                gameVersion={context.gameVersion}
-                            />
-                            <Seal
-                                yokai={yokai}
-                                color={color}
-                                gameVersion={context.gameVersion}
-                            />
-                            <Moves yokai={yokai} color={color} />
-                            <Stats yokai={yokai} color={color} />
-                        </>
+                            </Requirements>
+                        </Global.Section>
                     )}
+
+                    <Moves yokai={yokai} color={color} />
+                    <Stats yokai={yokai} color={color} />
                 </>
             )}
         </Global.Container>
