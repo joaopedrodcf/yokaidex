@@ -20,6 +20,7 @@ export const ContainerEvolutions = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    color: ${props => props.theme.theme().fg};
 
     ${Column} {
         margin: 0 12px;

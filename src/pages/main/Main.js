@@ -118,7 +118,6 @@ class Main extends Component {
             isCollapsedFilterMisc
         } = this.state;
         const { context } = this.props;
-
         return (
             <Global.Container ref={this.listref}>
                 <Helmet>

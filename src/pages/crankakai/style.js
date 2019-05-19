@@ -112,6 +112,7 @@ export const SealElements = styled.div`
     font-weight: 600;
     padding: 12px;
     width: 50%;
+    color: ${props => props.theme.theme().fg};
 
     a {
         color: inherit;

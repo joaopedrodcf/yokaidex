@@ -20,8 +20,8 @@ export const Table = styled.table`
     }
 
     th {
-        background-color: #1b1919;
-        color: #fffafa;
+        background-color: ${props => props.theme.theme().fg};
+        color: ${props => props.theme.theme().bg};
         padding: 16px;
         text-align: center;
     }
@@ -29,6 +29,8 @@ export const Table = styled.table`
     td {
         padding: 8px;
         text-align: start;
+        background-color: ${props => props.theme.theme().bg};
+        color: ${props => props.theme.theme().fg};
     }
 
     tr {

@@ -12,6 +12,7 @@ export const Filters = styled.div`
     display: flex;
     flex-direction: column;
     padding: 12px;
+    color: ${props => props.theme.theme().fg};
 
     @media (min-width: 576px) {
         flex-direction: row;
@@ -149,6 +150,10 @@ export const FilterButtons = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    > button {
+        background-color: ${props => props.theme.theme().fg};
+        color: ${props => props.theme.theme().bg};
+    }
 
     > button:nth-child(1) {
         margin-right: 12px;

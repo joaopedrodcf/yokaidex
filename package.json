@@ -28,7 +28,8 @@
         "react-router-dom": "^4.3.1",
         "react-scripts": "2.1.8",
         "react-sidebar": "^3.0.2",
-        "styled-components": "^4.2.0"
+        "styled-components": "^4.2.0",
+        "styled-theming": "^2.2.0"
     },
     "devDependencies": {
         "eslint": "5.15.3",

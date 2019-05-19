@@ -47,7 +47,7 @@ export const STableText = styled.div`
     font-size: 18px;
     padding: 12px;
     border-radius: 0 0 12px 12px;
-
+    color: ${props => props.theme.theme().fg};
     img {
         margin-right: 12px;
     }
@@ -68,6 +68,7 @@ export const SealElements = styled.div`
     font-weight: 600;
     padding: 12px;
     width: 50%;
+    color: ${props => props.theme.theme().fg};
 
     a {
         color: inherit;

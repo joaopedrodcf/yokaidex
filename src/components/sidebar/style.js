@@ -1,13 +1,14 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
+// background-color: #ffffff;
 export const SCSidebar = styled.div`
     width: 256px;
     height: 100%;
-    background-color: #ffffff;
+    background-color: ${props => props.theme.theme().bg};
 
     * {
-        color: #000000;
+        color: ${props => props.theme.theme().fg};
         font-size: 18px;
         font-weight: 500;
         text-align: start;
@@ -36,7 +37,8 @@ export const SCNavLink = styled(NavLink).attrs({
     transition: all 250ms ease-in-out;
     will-change: transform;
     padding: 12px;
-    background-color: ${props => (props.selected ? 'lightgray' : '#ffffff')};
+    background-color: ${props =>
+        props.selected ? 'lightgray' : props.theme.theme().bg};
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -59,7 +61,7 @@ export const SCLink = styled.a`
     transition: all 250ms ease-in-out;
     will-change: transform;
     padding: 12px;
-    background-color: #ffffff;
+    background-color: ${props => props.theme.theme().bg};
     display: flex;
     justify-content: flex-start;
     align-items: center;

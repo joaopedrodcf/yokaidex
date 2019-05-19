@@ -9,4 +9,5 @@ export const Row = styled.div`
     margin-bottom: 12px;
     font-size: 18px;
     text-align: justify;
+    color: ${props => props.theme.theme().fg};
 `;

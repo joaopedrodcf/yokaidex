@@ -25,7 +25,8 @@ import {
     withYokaisContext,
     withBaffleBoardContext,
     withItemsContext,
-    withCrankakaisContext
+    withCrankakaisContext,
+    withThemeContext
 } from '../../store';
 
 class Sidebar extends Component {
@@ -34,6 +35,7 @@ class Sidebar extends Component {
 
         this.handleChangeGameVersion = this.handleChangeGameVersion.bind(this);
         this.checkIfSelected = this.checkIfSelected.bind(this);
+        this.handleChangeTheme = this.handleChangeTheme.bind(this);
     }
 
     handleChangeGameVersion(event) {
@@ -53,9 +55,13 @@ class Sidebar extends Component {
         return context.gameVersion === version;
     }
 
+    handleChangeTheme() {
+        const { context } = this.props;
+        context.toggleTheme();
+    }
+
     render() {
         const { context } = this.props;
-
         return (
             <SCSidebar>
                 <SCHeader>
@@ -143,17 +149,24 @@ class Sidebar extends Component {
                             <Bookmark /> Yo-kai watch 3
                         </SCNavLink>
                     </Sections>
+                    <Sections>
+                        <button type="button" onClick={this.handleChangeTheme}>
+                            toggle theme
+                        </button>
+                    </Sections>
                 </Container>
             </SCSidebar>
         );
     }
 }
 
-export default withGameVersionContext(
-    withSidebarContext(
-        withYokaisContext(
-            withBaffleBoardContext(
-                withItemsContext(withCrankakaisContext(Sidebar))
+export default withThemeContext(
+    withGameVersionContext(
+        withSidebarContext(
+            withYokaisContext(
+                withBaffleBoardContext(
+                    withItemsContext(withCrankakaisContext(Sidebar))
+                )
             )
         )
     )

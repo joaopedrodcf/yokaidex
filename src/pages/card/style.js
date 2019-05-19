@@ -21,6 +21,7 @@ export const SideInformation = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: ${props => props.theme.theme().fg};
 
     div,
     img {
@@ -81,7 +82,7 @@ export const STableText = styled.div`
     font-size: 18px;
     padding: 12px;
     border-radius: 0 0 12px 12px;
-
+    color: ${props => props.theme.theme().fg};
     img {
         margin-right: 12px;
     }

@@ -10,6 +10,7 @@ export const Label = styled.label`
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 6px;
+    color: ${props => props.theme.theme().fg};
 `;
 
 export const SCTextarea = styled.textarea`
@@ -31,6 +32,11 @@ export const ButtonArea = styled.div`
     justify-content: center;
     margin: 32px 0;
     width: 100%;
+
+    > button {
+        background-color: ${props => props.theme.theme().fg};
+        color: ${props => props.theme.theme().bg};
+    }
 
     @media (min-width: 576px) {
         width: 576px;
