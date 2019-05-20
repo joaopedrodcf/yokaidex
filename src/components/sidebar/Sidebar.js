@@ -17,8 +17,11 @@ import {
     SCLink,
     Image,
     Sections,
-    SectionsHeader
+    SectionsHeader,
+    ToggleSection,
+    ToggleText
 } from './style';
+import ToggleSwitch from '../shared/toggle-switch/ToggleSwitch';
 import {
     withGameVersionContext,
     withSidebarContext,
@@ -32,6 +35,11 @@ import {
 class Sidebar extends Component {
     constructor(props) {
         super(props);
+        const { context } = this.props;
+
+        this.state = {
+            toggleEnabled: context.theme
+        };
 
         this.handleChangeGameVersion = this.handleChangeGameVersion.bind(this);
         this.checkIfSelected = this.checkIfSelected.bind(this);
@@ -57,11 +65,17 @@ class Sidebar extends Component {
 
     handleChangeTheme() {
         const { context } = this.props;
+
+        this.setState(state => ({
+            toggleEnabled: !state.toggleEnabled
+        }));
+
         context.toggleTheme();
     }
 
     render() {
         const { context } = this.props;
+        const { toggleEnabled } = this.state;
         return (
             <SCSidebar>
                 <SCHeader>
@@ -149,10 +163,17 @@ class Sidebar extends Component {
                             <Bookmark /> Yo-kai watch 3
                         </SCNavLink>
                     </Sections>
-                    <Sections>
-                        <button type="button" onClick={this.handleChangeTheme}>
-                            toggle theme
-                        </button>
+                    <Sections showBorder>
+                        <SectionsHeader>Theme</SectionsHeader>
+                        <ToggleSection>
+                            <ToggleSwitch
+                                onChange={this.handleChangeTheme}
+                                checked={toggleEnabled}
+                            />
+                            <ToggleText>
+                                {toggleEnabled ? 'Default theme' : 'Dark Theme'}
+                            </ToggleText>
+                        </ToggleSection>
                     </Sections>
                 </Container>
             </SCSidebar>

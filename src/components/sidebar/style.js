@@ -90,4 +90,21 @@ export const SectionsHeader = styled.div`
     text-transform: uppercase;
     font-size: 14px;
     padding: 6px 12px 12px 12px;
+    background-color: ${props => props.theme.theme().bg};
+`;
+
+export const ToggleSection = styled.div`
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+    will-change: transform;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: ${props => props.theme.theme().bg};
+`;
+
+export const ToggleText = styled.div`
+    margin-left: 12px;
+    color: ${props => props.theme.theme().fg};
 `;

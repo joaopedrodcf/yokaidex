@@ -25,6 +25,8 @@ class ThemeProvider extends Component {
             this.setState(state => ({
                 theme: !state.theme
             }));
+            const { theme } = this.state;
+            localStorage.setItem('theme', theme);
         };
 
         this.getTheme = () => {
@@ -33,8 +35,11 @@ class ThemeProvider extends Component {
                 ? { bg: '#1b1919', fg: 'white' }
                 : { bg: 'white', fg: '#1b1919' };
         };
+
         this.state = {
-            theme: false,
+            theme: localStorage.getItem('theme')
+                ? localStorage.getItem('theme')
+                : false,
             toggleTheme: this.toggleTheme,
             getTheme: this.getTheme
         };
