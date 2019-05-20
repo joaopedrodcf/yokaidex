@@ -37,9 +37,7 @@ class ThemeProvider extends Component {
         };
 
         this.state = {
-            theme: localStorage.getItem('theme')
-                ? localStorage.getItem('theme')
-                : false,
+            theme: !!localStorage.getItem('theme'),
             toggleTheme: this.toggleTheme,
             getTheme: this.getTheme
         };
