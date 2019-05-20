@@ -1080,7 +1080,7 @@ const items = [
         crankakaiIndexes: [8]
     },
     {
-        name: 'Five-Star Coin',
+        name: '5-Star Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/five-star_coin.png',
         description: 'A special five-star coin for the Crank-a-kai.',

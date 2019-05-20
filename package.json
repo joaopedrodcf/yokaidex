@@ -24,8 +24,8 @@
         "react-ga": "^2.5.7",
         "react-helmet": "^5.2.0",
         "react-lazy-load": "^3.0.13",
-        "react-router": "^4.3.1",
-        "react-router-dom": "^4.3.1",
+        "react-router": "^5.0.0",
+        "react-router-dom": "^5.0.0",
         "react-scripts": "2.1.8",
         "react-sidebar": "^3.0.2",
         "react-switch": "^5.0.0",
@@ -33,9 +33,10 @@
         "styled-theming": "^2.2.0"
     },
     "devDependencies": {
+        "babel-eslint": "10.0.1",
         "eslint": "5.15.3",
         "eslint-config-airbnb": "17.1.0",
-        "eslint-config-joaopedrodcf": "1.0.13",
+        "eslint-config-joaopedrodcf": "1.2.0",
         "eslint-config-prettier": "4.1.0",
         "eslint-plugin-import": "2.16.0",
         "eslint-plugin-jest": "22.4.1",

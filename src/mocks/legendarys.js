@@ -466,7 +466,7 @@ const legendary = [
             {
                 name: 'Ultimate Robonyan',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ultimate_robonyan.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ult._robonyan.png'
             },
             {
                 name: "Sunk'nsoul",
@@ -496,7 +496,7 @@ const legendary = [
             {
                 name: 'Procrastinocchio',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/procrastinocchio.png'
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/procrastino..png'
             },
             {
                 name: 'Koalanyan',

@@ -23,9 +23,9 @@ export const SideInformation = styled.div`
     align-items: center;
     color: ${props => props.theme.theme().fg};
 
-    div,
-    img {
-        margin-top: 12px;
+    > div,
+    > img {
+        margin-top: 6px;
     }
 
     @media (min-width: 960px) {
@@ -55,35 +55,37 @@ export const Label = styled.div`
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 `;
 
-export const STable = styled.div`
+export const Requirements = styled.div`
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    text-align: center;
-    border-radius: 12px;
 `;
 
-export const STableTitle = styled.div`
-    background-color: ${props => {
-        if (props.color) return props.color;
-
-        return '';
-    }};
-
+export const Requirement = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
     font-weight: 600;
-    font-size: 18px;
-    border-radius: 12px 12px 0 0;
-    padding: 6px;
-`;
-
-export const STableText = styled.div`
-    font-size: 18px;
     padding: 12px;
     border-radius: 0 0 12px 12px;
     color: ${props => props.theme.theme().fg};
     img {
         margin-right: 12px;
+        width: 50%;
+    }
+
+    a {
+        color: inherit;
+        text-decoration: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media (min-width: 576px) {
+        width: 25%;
     }
 `;

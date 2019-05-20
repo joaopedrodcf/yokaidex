@@ -56,12 +56,22 @@ export const BigLabel = styled.div`
         return '';
     }};
 
+    width: ${props => {
+        if (props.width) return props.width;
+        if (props.withoutWith) return '';
+
+        return '45%';
+    }};
+
+    justify-content: ${props => {
+        if (props.justifyContent) return props.justifyContent;
+
+        return 'space-between';
+    }};
+
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 45%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-    text-align: center;
     border-radius: 18px;
     padding: 4px 12px;
 `;
@@ -93,10 +103,47 @@ export const SectionHeader = styled.div`
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 `;
 
+export const Card = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    text-align: center;
+    border-radius: 12px;
+`;
+
+export const CardTitle = styled.div`
+    background-color: ${props => {
+        if (props.color) return props.color;
+
+        return '';
+    }};
+
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 12px 12px 0 0;
+    padding: 6px;
+`;
+
+export const CardText = styled.div`
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 0 0 12px 12px;
+    color: ${props => props.theme.theme().fg};
+
+    img {
+        margin-right: 12px;
+    }
+`;
+
 export default {
     Container,
     Section,
     BigLabel,
     BigLabelContent,
-    SectionHeader
+    SectionHeader,
+    Card,
+    CardTitle,
+    CardText
 };

@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense, lazy } from 'react';
 import { Switch, Route } from 'react-router-dom';
 import createHistory from 'history/createBrowserHistory';
 import ReactGA from 'react-ga';
-import Card from './pages/card';
-import Main from './pages/main';
-import BaffleBoard from './pages/baffle-board';
-import AboutUs from './pages/about-us';
-import ItemCard from './pages/item-card';
-import Items from './pages/items';
-import Crankakai from './pages/crankakai';
-import ContactUs from './pages/contact-us';
+
+const YokaiCard = lazy(() => import('./pages/yokai-card'));
+const Main = lazy(() => import('./pages/main'));
+const BaffleBoard = lazy(() => import('./pages/baffle-board'));
+const AboutUs = lazy(() => import('./pages/about-us'));
+const ItemCard = lazy(() => import('./pages/item-card'));
+const Items = lazy(() => import('./pages/items'));
+const Crankakai = lazy(() => import('./pages/crankakai'));
+const ContactUs = lazy(() => import('./pages/contact-us'));
 
 const history = createHistory();
 history.listen(location => {
@@ -28,46 +29,52 @@ class Routes extends Component {
 
     render() {
         return (
-            <Switch>
-                <Route exact path="/" component={Main} />
-                <Route exact path="/yokai-watch-:version" component={Main} />
-                <Route
-                    exact
-                    path="/yokai-watch-:version/baffle-board"
-                    component={BaffleBoard}
-                />
-                <Route
-                    exact
-                    path="/yokai-watch-:version/items"
-                    component={Items}
-                />
-                <Route
-                    exact
-                    path="/yokai-watch-:version/crank-a-kai"
-                    component={Crankakai}
-                />
-                <Route
-                    exact
-                    path="/yokai-watch-:version/about-us"
-                    component={AboutUs}
-                />
-                <Route
-                    exact
-                    path="/yokai-watch-:version/yokais/:name"
-                    component={Card}
-                />
-                <Route
-                    exact
-                    path="/yokai-watch-:version/items/:name"
-                    component={ItemCard}
-                />
-                <Route
-                    exact
-                    path="/yokai-watch-:version/contact-us"
-                    component={ContactUs}
-                />
-                <Route component={Main} />
-            </Switch>
+            <Suspense fallback={<div>Loading...</div>}>
+                <Switch>
+                    <Route exact path="/" component={Main} />
+                    <Route
+                        exact
+                        path="/yokai-watch-:version"
+                        component={Main}
+                    />
+                    <Route
+                        exact
+                        path="/yokai-watch-:version/baffle-board"
+                        component={BaffleBoard}
+                    />
+                    <Route
+                        exact
+                        path="/yokai-watch-:version/items"
+                        component={Items}
+                    />
+                    <Route
+                        exact
+                        path="/yokai-watch-:version/crank-a-kai"
+                        component={Crankakai}
+                    />
+                    <Route
+                        exact
+                        path="/yokai-watch-:version/about-us"
+                        component={AboutUs}
+                    />
+                    <Route
+                        exact
+                        path="/yokai-watch-:version/yokais/:name"
+                        component={YokaiCard}
+                    />
+                    <Route
+                        exact
+                        path="/yokai-watch-:version/items/:name"
+                        component={ItemCard}
+                    />
+                    <Route
+                        exact
+                        path="/yokai-watch-:version/contact-us"
+                        component={ContactUs}
+                    />
+                    <Route component={Main} />
+                </Switch>
+            </Suspense>
         );
     }
 }

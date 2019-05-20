@@ -27,7 +27,8 @@ class FilterMainProvider extends Component {
                 tribe: [],
                 rank: [],
                 element: [],
-                misc: []
+                misc: [],
+                types: []
             });
         };
 
@@ -56,11 +57,12 @@ class FilterMainProvider extends Component {
         };
 
         this.state = {
+            name: '',
             tribe: [],
             rank: [],
             element: [],
             misc: [],
-            name: '',
+            types: [],
             handleResetFilter: this.handleResetFilter,
             handleCheckbox: this.handleCheckbox,
             handleText: this.handleText
@@ -74,6 +76,7 @@ class FilterMainProvider extends Component {
             rank,
             element,
             misc,
+            types,
             name,
             handleResetFilter,
             handleCheckbox,
@@ -87,6 +90,7 @@ class FilterMainProvider extends Component {
                     rank,
                     element,
                     misc,
+                    types,
                     name,
                     handleResetFilter,
                     handleCheckbox,

@@ -4,6 +4,10 @@ export const ContainerHeader = styled.div`
     padding: 12px 20px;
 `;
 
+export const Form = styled.form`
+    width: 100%;
+`;
+
 export const Section = styled.div`
     display: flex;
 
