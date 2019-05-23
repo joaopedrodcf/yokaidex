@@ -9,8 +9,7 @@ const yokais = [
         locations: [
             'Blossom Heights - Secret Byway',
             'Blossom Heights - Old Mansion Attic',
-            'Blossom Heights - Objects',
-            'Mt.Wildwood - Crank-a-kai - Red Coin'
+            'Blossom Heights - Objects'
         ],
         skill: {
             name: 'Careless',
@@ -249,10 +248,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slacka-slash.png',
         description:
             'More dangerous than he looks, Slacka-slash can beat his foes with only a single slice.',
-        locations: [
-            'Downtown Springdale - Construction Site',
-            'Mt.Wildwood - Crank-a-kai - Red Coin'
-        ],
+        locations: ['Downtown Springdale - Construction Site'],
         skill: {
             name: 'Bladed Body',
             description: 'Body deals damage toall foes who attack it.'
@@ -306,8 +302,7 @@ const yokais = [
             "He's cute most of the time, but when he's mad, his body cracks and his manly face pops out.",
         locations: [
             'Uptown Springdale - Objects',
-            'Blossom Heights - Secret Byway',
-            'Mt.Wildwood - Crank-a-kai - Red Coin'
+            'Blossom Heights - Secret Byway'
         ],
         skill: {
             name: 'Soft Skin',
@@ -638,10 +633,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/siro.png',
         description:
             'Siro brings out the best in those he Inspirits. They become shining lights for the future.',
-        locations: [
-            'Uptown Springdale - Bushes',
-            'Mt.Wildwood - Crank-a-kai - Red Coin'
-        ],
+        locations: ['Uptown Springdale - Bushes'],
         skill: {
             name: 'Shining Spirit',
             description: 'Power increases whenan ally is defeated.'
@@ -694,12 +686,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chansin.png',
         description:
             'Once a proud warrior, Chansin threw it all away by gambling... Now his best odds are to retreat.',
-        locations: [
-            "Shopper's Row - Bushes",
-            "Shopper's Row - Empty flats",
-            'Mt.Wildwood - Crank-a-kai - Red Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: ["Shopper's Row - Bushes", "Shopper's Row - Empty flats"],
         skill: {
             name: 'Gambler',
             description: 'High chance to giveand take critical strikes.'
@@ -900,10 +887,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/benkei.png',
         description:
             'Hiding 999 weapons from fallen foes in his stomach, Benkei can call any one of them out in a moment of need.',
-        locations: [
-            'Breezy Hills - Objects',
-            'Mt.Wildwood - Crank-a-kai - Red Coin'
-        ],
+        locations: ['Breezy Hills - Objects'],
         skill: {
             name: 'Sword Hunting',
             description: 'Power increases eachtime a foe is defeated.'
@@ -1002,8 +986,7 @@ const yokais = [
             'Uptown Springdale - Elementary School',
             "Shopper's Row - Objects",
             'Infinite Inferno - 5th Circle',
-            'Infinite Inferno - 6th Circle',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
+            'Infinite Inferno - 6th Circle'
         ],
         skill: {
             name: 'Guard Break',
@@ -1062,10 +1045,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kapunki.png',
         description:
             'A punk Yo-kai who wears kabuki-style makeup. He dreams of rocking the socks and faces off his fans all across the globe.',
-        locations: [
-            'Uptown Springdale - Elementary School',
-            'Mt.Wildwood - Crank-a-kai - Red Coin'
-        ],
+        locations: ['Uptown Springdale - Elementary School'],
         skill: {
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
@@ -1207,11 +1187,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cruncha.png',
         description:
             'A stag-beetle Yo-kai that represents the apex of the thorax. He can grant you incredible strength.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Red Coin',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Intimidation',
             description: 'No Yo-kai will Loafaround.'
@@ -1366,8 +1342,7 @@ const yokais = [
         locations: [
             'Uptown Springdale - Water',
             'Blossom Heights - Old Mansion Attic',
-            'Blossom Heights - Water',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin'
+            'Blossom Heights - Water'
         ],
         skill: {
             name: 'Water Play',
@@ -1649,10 +1624,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/q_wit.png',
         description:
             "He gives up on everything he tries and won't do the same thing twice. He has a lot of experience at doing things once.",
-        locations: [
-            "Shopper's Row - Tranquility Apts. - B-301",
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin'
-        ],
+        locations: ["Shopper's Row - Tranquility Apts. - B-301"],
         skill: {
             name: 'Soothing Rhythm',
             description: 'All foes will be prone toLoafing around.'
@@ -2030,10 +2002,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/casanono.png',
         description:
             "Casanuva's opposite. He just can't get a date no matter what! He'll make you unpopular too. Best to give him some space.",
-        locations: [
-            'Downtown Springdale - Objects',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin'
-        ],
+        locations: ['Downtown Springdale - Objects'],
         skill: {
             name: 'Unpopularity',
             description: 'Makes foes less likelyto become your friend.'
@@ -2090,9 +2059,7 @@ const yokais = [
             'Downtown Springdale - Academy Shortcut',
             'Downtown Springdale - Delivery Bay',
             "Downtown Springdale - Behind Frostia's place",
-            "Shopper's Row - Telephone poles",
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
+            "Shopper's Row - Telephone poles"
         ],
         skill: {
             name: 'Lightning Play',
@@ -2153,7 +2120,6 @@ const yokais = [
         locations: [
             'Infinite Inferno - 1st Circle',
             'Infinite Inferno - 2nd Circle',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin',
             'Fusion.'
         ],
         skill: {
@@ -2433,10 +2399,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/alloo.png',
         description:
             "He wanders the world without a goal. It's an absolute miracle if the three brothers Illoo, Elloo, and Alloo all meet up. ",
-        locations: [
-            "Shopper's Row - Trees",
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin'
-        ],
+        locations: ["Shopper's Row - Trees"],
         skill: {
             name: "Brother's Vow",
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
@@ -2488,11 +2451,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/espy.png',
         description:
             "Espy gets a kick out of reading people's minds. It's totally not fair that no one can read hers...and now she knows that too.",
-        locations: [
-            'Breezy Hills - Gourd Pond Museum',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: ['Breezy Hills - Gourd Pond Museum'],
         skill: {
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
@@ -2732,11 +2691,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frostail.png',
         description:
             "Even a single hair of this rare Yo-kai's silvery coat can bring generations of good luck!",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Sense of Smell',
             description: 'Never misses attacks.'
@@ -2848,11 +2803,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/darumacho.png',
         description:
             'Now a truly macho Yo-kai, this one worked tirelessly in a mountain retreat to train away his dullness.',
-        locations: [
-            'Blossom Heights - Objects',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin',
-            'Fusion.'
-        ],
+        locations: ['Blossom Heights - Objects', 'Fusion.'],
         skill: {
             name: 'Glossy Skin',
             description: 'Does not get dealtcritical damage.'
@@ -2949,10 +2900,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/noway.png',
         description:
             'He rejects everything with a "no way!" Becoming a brain-surgeon astronaut is easier than getting past him.',
-        locations: [
-            'Uptown Springdale - Bushes',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin'
-        ],
+        locations: ['Uptown Springdale - Bushes'],
         skill: {
             name: 'Blocker',
             description: 'Will be guarding whenmoving to the front.'
@@ -3053,10 +3001,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/walldin.png',
         description:
             'Formerly a sturdy castle wall, the fall of the family he once protected turned him into a Yo-kai.',
-        locations: [
-            'Yo-kai World - Hooligan Road',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin'
-        ],
+        locations: ['Yo-kai World - Hooligan Road'],
         skill: {
             name: 'Blocker',
             description: 'Will be guarding whenmoving to the front.'
@@ -3287,10 +3232,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ledballoon.png',
         description:
             "A dump truck couldn't move Ledballoon's heavy body...which is bad news if it gets in your way.",
-        locations: [
-            'Springdale Underground Waterway',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin'
-        ],
+        locations: ['Springdale Underground Waterway'],
         skill: {
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
@@ -3343,8 +3285,7 @@ const yokais = [
             "Hailing from the land of frost, it's the wrestler with legs as thick as glaciers and a heart of ice: MAD MOUNTAIN!",
         locations: [
             'Mt. Wildwood - Abandoned Tunnel West',
-            'Mt. Wildwood - Abandoned Tunnel East',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin'
+            'Mt. Wildwood - Abandoned Tunnel East'
         ],
         skill: {
             name: 'The Stand',
@@ -3544,7 +3485,6 @@ const yokais = [
             'Said to have taken down an entire Yo-kai gang by himself, many rebel Yo-kai revere him as a big brother.',
         locations: [
             'Yo-kai World - Hooligan Road',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin',
             'Yo-kai Spot - Oar-Powered Dates'
         ],
         skill: {
@@ -3599,10 +3539,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhinoggin.png',
         description:
             'The hyperaggressive Rhinoggin is always  battling Beetler for the title of Bug Yo-kai King.',
-        locations: [
-            'Mt. Wildwood - Trees',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: ['Mt. Wildwood - Trees'],
         skill: {
             name: 'Guard Break',
             description: "Ignore foe's guardeffect when attacking."
@@ -3925,10 +3862,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan.png',
         description:
             "A robot that thinks it's actually Jibanyan. Stiff movement aside, the resemblance is uncatty! Meow meow.",
-        locations: [
-            'Downtown Springdale - Construction Site',
-            'Mt.Wildwood - Crank-a-kai - 3DS coin'
-        ],
+        locations: ['Downtown Springdale - Construction Site'],
         skill: {
             name: 'Blocker',
             description: 'Will be guarding whenmoving to the front.'
@@ -3979,11 +3913,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/goldenyan.png',
         description:
             'Goldenyan glistens with purrfection. Meow meow. Truly priceless.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Orange Coin',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Gold Guard',
             description: 'Takes less Lightningand Water damage.'
@@ -4233,11 +4163,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skelebella.png',
         description:
             "She's so confident in the unparalleled beauty of her bones that she doesn't even need her skin.",
-        locations: [
-            'Breezy Hills - Gourd Pond Museum',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin',
-            'Mt.Wildwood - Crank-a-kai - Excitement Coin'
-        ],
+        locations: ['Breezy Hills - Gourd Pond Museum'],
         skill: {
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
@@ -4338,11 +4264,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cadable.png',
         description:
             'Cadin has trained his "cicada ninjutsu" to its peak. Now Cadable claims it\'s a worthy martial art! *crickets* *cicadas*',
-        locations: [
-            'Breezy Hills - Trees',
-            'Evolve Cadin at Level 21.',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin'
-        ],
+        locations: ['Breezy Hills - Trees', 'Evolve Cadin at Level 21.'],
         skill: {
             name: 'Modest',
             description: 'Low chance of gettingattacked by foes.'
@@ -4394,10 +4316,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/singcada.png',
         description:
             'His advanced style of "cicada ninjutsu" makes him sing while he fights! His battles even draw music fans sometimes!',
-        locations: [
-            'Breezy Hills - Trees',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin'
-        ],
+        locations: ['Breezy Hills - Trees'],
         skill: {
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
@@ -4454,8 +4373,7 @@ const yokais = [
             'Mt. Wildwood - Water',
             'Blossom Heights - Tucked Away Lot',
             'Blossom Heights - Hidden Side Street',
-            'Infinite Inferno - 7-8th Circle',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin'
+            'Infinite Inferno - 7-8th Circle'
         ],
         skill: {
             name: 'Penetrate',
@@ -4598,7 +4516,6 @@ const yokais = [
         locations: [
             'Infinite Inferno - 5th Circle',
             'Infinite Inferno - 6th Circle',
-            'Mt.Wildwood - Crank-a-kai - Excitement Coin',
             'During the story.'
         ],
         skill: {
@@ -4841,10 +4758,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/supyo.png',
         description:
             "Whereas most kappas stick to rivers, this one likes to surf...and pick up girls while he's at it.",
-        locations: [
-            'Downtown Springdale - Water',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin'
-        ],
+        locations: ['Downtown Springdale - Water'],
         skill: {
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
@@ -4991,11 +4905,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komajiro.png',
         description:
             "Komasan's younger twin, he looks for his runaway bro. But he can't find him anywhere, poor guy.",
-        locations: [
-            'Blossom Heights - Old Mansion Attic',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin',
-            'During the story.'
-        ],
+        locations: ['Blossom Heights - Old Mansion Attic', 'During the story.'],
         skill: {
             name: 'Omega',
             description: 'With an adjacent AlphaYo-kai, STR increases.'
@@ -5181,11 +5091,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shmoopie.png',
         description:
             "This Yo-kai is cute enough to melt anyone's heart...and he knows it!  He can be quite the schemer, so look out!",
-        locations: [
-            'Mt. Wildwood - Bushes',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: ['Mt. Wildwood - Bushes'],
         skill: {
             name: 'Popularity',
             description: 'Makes more foesbefriend you.'
@@ -5296,10 +5202,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pookivil.png',
         description:
             "This Yo-kai will make even nice people into scheming manipulators. An embodiment of Pinkipoo's bad side.",
-        locations: [
-            'Yo-kai World - Entry Hall',
-            'Mt.Wildwood - Crank-a-kai - 3DS coin'
-        ],
+        locations: ['Yo-kai World - Entry Hall'],
         skill: {
             name: 'Unpopularity',
             description: 'Makes foes less likelyto become your friend.'
@@ -5353,7 +5256,6 @@ const yokais = [
             'Frostina has the power to freeze anything, but that keeps her pretty chilly\u2014 that and bad circulation.',
         locations: [
             'Uptown Springdale - Elementary School',
-            'Mt.Wildwood - Crank-a-kai - Special Coin',
             'Yo-kai Spot - Oar-Powered Dates'
         ],
         skill: {
@@ -5457,11 +5359,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/damona.png',
         description:
             'The princess of a small netherworld region. Her power is immense, but she lacks the power to feel any emotion.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Pink Coin',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Cursed Skin',
             description: 'All stats will increasewhen Inspirited by foe.'
@@ -5750,8 +5648,7 @@ const yokais = [
         description:
             "A Yo-kai who is always hungry and can make other tummies rumble. ...That's really about the only thing he can do. ",
         locations: [
-            'Uptown Springdale - Lonely Waterway, Shady Back Alley, The Catwalk & Desolate Lane',
-            'Mt.Wildwood - Crank-a-kai - Green Coin'
+            'Uptown Springdale - Lonely Waterway, Shady Back Alley, The Catwalk & Desolate Lane'
         ],
         skill: {
             name: 'Starver',
@@ -5807,7 +5704,6 @@ const yokais = [
         locations: [
             'Uptown Springdale - Elementary School',
             'Uptown Springdale - Lonely Waterway, Shady Back Alley, The Catwalk & Desolate Lane',
-            'Mt.Wildwood - Crank-a-kai - Green Coin',
             'Evolve Hungramps at Level 22.'
         ],
         skill: {
@@ -5910,8 +5806,7 @@ const yokais = [
             "You know when you just keep losing change or getting the wrong change back? Lodo's fault.",
         locations: [
             'Downtown Springdale - Behind Frostina, Delivery Bay & Academy Shortcut - Garbages & Dumps',
-            "Shopper's Row - Shopping Street Narrows",
-            'Mt.Wildwood - Crank-a-kai - Green Coin'
+            "Shopper's Row - Shopping Street Narrows"
         ],
         skill: {
             name: 'Stealing',
@@ -6194,10 +6089,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/happierre.png',
         description:
             'This heartwarming  Yo-kai removes the  tension in the air. He can cheer up even the angriest of people.',
-        locations: [
-            'Downtown Springdale - Trees',
-            'Mt.Wildwood - Crank-a-kai - Green Coin'
-        ],
+        locations: ['Downtown Springdale - Trees'],
         skill: {
             name: 'Caring',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
@@ -6300,10 +6192,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reversette.png',
         description:
             'She resembles Reversa, but her reversed pattern is a rare sight. Her depression\u2014not so rare.',
-        locations: [
-            'Yo-kai World - Liar Mountain',
-            'Mt.Wildwood - Crank-a-kai - Green Coin'
-        ],
+        locations: ['Yo-kai World - Liar Mountain'],
         skill: {
             name: 'Insecure',
             description: 'High chance to giveand take critical strikes.'
@@ -6400,10 +6289,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__fortune.png',
         description:
             "Another old man with bags full of gifts. Unlike Ol' Saint Trick, all of his presents are good!",
-        locations: [
-            'Uptown Springdale - Elementary School',
-            'Mt.Wildwood - Crank-a-kai - Green Coin'
-        ],
+        locations: ['Uptown Springdale - Elementary School'],
         skill: {
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
@@ -6498,10 +6384,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dubbles.png',
         description:
             "Dubbles will Inspirit you and point you toward an unknown fate. Even he doesn't know if it'll be a good or bad one.",
-        locations: [
-            'Breezy Hills - Objects',
-            'Mt.Wildwood - Crank-a-kai - Green Coin'
-        ],
+        locations: ['Breezy Hills - Objects'],
         skill: {
             name: 'Gambler',
             description: 'High chance to giveand take critical strikes.'
@@ -6690,11 +6573,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/auntie_heart.png',
         description:
             "Regardless of how bad a Yo-kai is, Auntie Heart's healing hug will make it pure again. That is some true kindness!",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Green Coin',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Prayer',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
@@ -6808,8 +6687,7 @@ const yokais = [
         locations: [
             'Downtown Springdale - Academy Shortcut',
             'Downtown Springdale - Delivery Bay',
-            "Downtown Springdale - Behind Frostia's place",
-            'Mt.Wildwood - Crank-a-kai - Blue Coin'
+            "Downtown Springdale - Behind Frostia's place"
         ],
         skill: {
             name: 'Windshield',
@@ -6959,10 +6837,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/agon.png',
         description:
             "A horrible Yo-kai that gives people a slipped disc in their backs! You're more susceptible the older you are.",
-        locations: [
-            'Mt. Wildwood - Abandoned Tunnel West',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin'
-        ],
+        locations: ['Mt. Wildwood - Abandoned Tunnel West'],
         skill: {
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
@@ -7019,8 +6894,7 @@ const yokais = [
             'Uptown Springdale - Shady Back Alley',
             'Uptown Springdale - Trees',
             'Infinite Inferno - 1st Circle',
-            'Infinite Inferno - 2nd Circle',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin'
+            'Infinite Inferno - 2nd Circle'
         ],
         skill: {
             name: 'Vampiric',
@@ -7121,10 +6995,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/scritchy.png',
         description:
             'The mere presence of Scritchy will make your body itch. No amount of scratching can make it stop.',
-        locations: [
-            'Uptown Springdale - Trees',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin'
-        ],
+        locations: ['Uptown Springdale - Trees'],
         skill: {
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
@@ -7274,11 +7145,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/null.png',
         description:
             "You can't sense Nul even if you're really close to him. He's really good at entertaining himself.",
-        locations: [
-            "Shopper's Row - Trees",
-            'Mt.Wildwood - Crank-a-kai - Blue Coin',
-            'Mt.Wildwood - Crank-a-kai - Excitement Coin'
-        ],
+        locations: ["Shopper's Row - Trees"],
         skill: {
             name: 'Secrecy',
             description: 'Will not become targetof attacks.'
@@ -7339,8 +7206,7 @@ const yokais = [
             'Mt. Wildwood - Abandoned Tunnel West',
             'Mt. Wildwood - Abandoned Tunnel East',
             'Infinite Inferno - 5th Circle',
-            'Infinite Inferno - 6th Circle',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
+            'Infinite Inferno - 6th Circle'
         ],
         skill: {
             name: 'Vampiric',
@@ -7587,10 +7453,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/contrarioni.png',
         description:
             "Get ready to say no a lot if Contrarioni Inspirits you. You'll disagree with anything people say. Always fun at parties.",
-        locations: [
-            'Breezy Hills - Gourd Pond Museum',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin'
-        ],
+        locations: ['Breezy Hills - Gourd Pond Museum'],
         skill: {
             name: 'Suspicion',
             description: 'May attack an ally.'
@@ -7646,8 +7509,7 @@ const yokais = [
             "Shopper's Row - Trees",
             "Shopper's Row - Empty flats",
             'Infinite Inferno - 3rd Circle',
-            'Infinite Inferno - 4th Circle',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin'
+            'Infinite Inferno - 4th Circle'
         ],
         skill: {
             name: 'Windshield',
@@ -7743,11 +7605,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/negasus.png',
         description:
             "Negasus will make you  want to do things that'll get you in trouble. The more trouble the better!",
-        locations: [
-            "Shopper's Row - Trees",
-            "Shopper's Row - Empty flats",
-            'Mt.Wildwood - Crank-a-kai - Excitement Coin'
-        ],
+        locations: ["Shopper's Row - Trees", "Shopper's Row - Empty flats"],
         skill: {
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
@@ -7798,11 +7656,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/neighfarious.png',
         description:
             'Shining mysteriously in the night sky, Neighfarious is a bit of an enigma. What kind of evil Yo-kai is he?',
-        locations: [
-            "Shopper's Row - Trees",
-            "Shopper's Row - Empty flats",
-            'Mt.Wildwood - Crank-a-kai - Excitement Coin'
-        ],
+        locations: ["Shopper's Row - Trees", "Shopper's Row - Empty flats"],
         skill: {
             name: 'Cursed Skin',
             description: 'All stats will increasewhen Inspirited by foe.'
@@ -7951,11 +7805,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/count_cavity.png',
         description:
             'A terrifying Yo-kai who can dissolve your teeth. He loves the sound of kids crying over aching teeth. What a jerk.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Blue Coin',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
@@ -8204,10 +8054,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/peckpocket.png',
         description:
             "When Peckpocket has its eye on you, you'll start wanting other people's stuff. I'll take that!",
-        locations: [
-            'Mt. Wildwood - Bushes',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin'
-        ],
+        locations: ['Mt. Wildwood - Bushes'],
         skill: {
             name: 'Glossy Skin',
             description: 'Does not get dealtcritical damage.'
@@ -8443,8 +8290,7 @@ const yokais = [
             'Blossom Heights - Secret Byway',
             'Blossom Heights - Tucked Away Lot, Secret Byway & Hidden Side Street',
             'Infinite Inferno - 1st Circle',
-            'Infinite Inferno - 2nd Circle',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin'
+            'Infinite Inferno - 2nd Circle'
         ],
         skill: {
             name: 'Moist Skin',
@@ -8500,7 +8346,6 @@ const yokais = [
         locations: [
             'Uptown Springdale - Elementary School',
             'Infinite Inferno - 7-8th Circle',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin',
             'Fusion.'
         ],
         skill: {
@@ -8554,11 +8399,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sir_berus.png',
         description:
             "An elite guard dog born and raised in the netherworld. He doesn't let a single soul escape his grasp.",
-        locations: [
-            'Uptown Springdale - Elementary School',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin',
-            'Mt.Wildwood - Crank-a-kai - 3DS coin'
-        ],
+        locations: ['Uptown Springdale - Elementary School'],
         skill: {
             name: 'Moist Skin',
             description: 'Takes less damagefrom Water attacks.'
@@ -8892,10 +8733,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nagatha.png',
         description:
             "Nagatha will make you into the kind of person that'll nag people over the smallest mistake.",
-        locations: [
-            'Downtown Springdale - Objects',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin'
-        ],
+        locations: ['Downtown Springdale - Objects'],
         skill: {
             name: 'Skilled Loafer',
             description: 'Will recover a little HPwhen Loafing around.'
@@ -9041,10 +8879,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cuttincheez.png',
         description:
             'A god of flatulence. Brace yourself for agony if you get stuck in a windowless room with Cuttincheez.',
-        locations: [
-            "Shopper's Row - Trees",
-            'Mt.Wildwood - Crank-a-kai - Purple Coin'
-        ],
+        locations: ["Shopper's Row - Trees"],
         skill: {
             name: 'Sense of Smell',
             description: 'Never misses attacks.'
@@ -9194,8 +9029,7 @@ const yokais = [
             'Breezy Hills - Gourd Pond Museum',
             'Breezy Hills - Bushes',
             'Infinite Inferno - 5th Circle',
-            'Infinite Inferno - 6th Circle',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin'
+            'Infinite Inferno - 6th Circle'
         ],
         skill: {
             name: 'Oldness Zone',
@@ -9294,11 +9128,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eterna.png',
         description:
             "They say this Yo-kai's immortality stems from her staff and that she'll age instantly without it.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Purple Coin',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Oldness Zone',
             description: 'No Yo-kai will be ableto dodge.'
@@ -9600,8 +9430,7 @@ const yokais = [
             'Mt. Wildwood - Water',
             'Springdale Underground Waterway',
             'Infinite Inferno - 3rd Circle',
-            'Infinite Inferno - 4th Circle',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin'
+            'Infinite Inferno - 4th Circle'
         ],
         skill: {
             name: 'Jar Guard',
@@ -9749,8 +9578,7 @@ const yokais = [
         locations: [
             'Downtown Springdale - Water',
             "Shopper's Row - Water",
-            'Springdale Underground Waterway',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin'
+            'Springdale Underground Waterway'
         ],
         skill: {
             name: 'Waterproof',
@@ -9807,7 +9635,6 @@ const yokais = [
             'Downtown Springdale - Water',
             "Shopper's Row - Water",
             'Springdale Underground Waterway',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin',
             'Evolve Fishpicable at Level 27.'
         ],
         skill: {
@@ -9860,11 +9687,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tunatic.png',
         description:
             "Tunatic will go on a rampage if he's criticized at all. He makes kids angry when they get guidance from adults.",
-        locations: [
-            "Shopper's Row - Water",
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin',
-            'Mt.Wildwood - Crank-a-kai - 3DS coin'
-        ],
+        locations: ["Shopper's Row - Water"],
         skill: {
             name: 'Fire Play',
             description: 'Increases damage ofown Fire attacks.'
@@ -10061,11 +9884,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/daiz.png',
         description:
             "Daiz just stares off into space, sometimes not moving for three whole days. What's it thinking about all that time...?",
-        locations: [
-            "Shopper's Row - Bushes",
-            "Shopper's Row - Empty flats",
-            'Mt.Wildwood - Crank-a-kai - Excitement Coin'
-        ],
+        locations: ["Shopper's Row - Bushes", "Shopper's Row - Empty flats"],
         skill: {
             name: 'Dodge',
             description: 'All Soultimate Moveswill be dodged.'
@@ -10116,11 +9935,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/confuze.png',
         description:
             "Confuze will make you  babble and mumble. It's the worst when you have to read aloud in class!",
-        locations: [
-            "Shopper's Row - Bushes",
-            "Shopper's Row - Empty flats",
-            'Mt.Wildwood - Crank-a-kai - Excitement Coin'
-        ],
+        locations: ["Shopper's Row - Bushes", "Shopper's Row - Empty flats"],
         skill: {
             name: 'Dodge',
             description: 'All Soultimate Moveswill be dodged.'
@@ -10170,11 +9985,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chummer.png',
         description:
             "Chummer loves eating kids. He'll make them loiter after school before devouring them. He likes asparagus too.",
-        locations: [
-            'Springdale Underground Waterway',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: ['Springdale Underground Waterway'],
         skill: {
             name: 'Loiterer',
             description: 'Will recover a little HPwhen Loafing around.'
@@ -10503,10 +10314,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cynake.png',
         description:
             'This sulky snake Yo-kai will make you sulk at the slightest problem. Hmph!',
-        locations: [
-            'Downtown Springdale - Bushes',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin'
-        ],
+        locations: ['Downtown Springdale - Bushes'],
         skill: {
             name: 'Greed',
             description: 'Foe will be more proneto drop items.'
@@ -10560,8 +10368,7 @@ const yokais = [
         locations: [
             'Yo-kai World - Hooligan Road',
             'Yo-kai World - Liar Mountain',
-            'Yo-kai World - Entry Hall',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin'
+            'Yo-kai World - Entry Hall'
         ],
         skill: {
             name: 'Equipment Forbidden!',
@@ -10658,11 +10465,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shad._venoct.png',
         description:
             "Venoct's shadow, skilled in the deadly arts. Few who learn that he exists live long after that.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin',
-            'Mt.Wildwood - Crank-a-kai - Special Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Secrecy',
             description: 'Will not become targetof attacks.'

@@ -54,6 +54,13 @@ const uniformizeNames = (name, tribe = '') => {
     return uniformizeName;
 };
 
+const removeLocation = name => {
+    return name
+        .replace(' (Past)', '')
+        .replace(' (Present)', '')
+        .replace(' (USA)', '');
+};
+
 const capitalize = text => {
     return text.charAt(0).toUpperCase() + text.slice(1);
 };
@@ -76,5 +83,6 @@ export default {
     uniformizeNames,
     capitalize,
     calculatePercentage,
-    getGameVersion
+    getGameVersion,
+    removeLocation
 };

@@ -107,11 +107,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tanbo.png',
         description:
             'A Yo-kai that is always first to the battle! With no clothes to slow him down, he shows up early and always has a nice tan.',
-        locations: [
-            'Uptown Springdale - Elementary School 3F',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
-            'Mystery Way - Crank-a-kai - Boar Mystery Coin'
-        ],
+        locations: ['Uptown Springdale - Elementary School 3F'],
         skill: {
             name: 'Careless',
             description: 'Prone to be dealtcritical attacks.'
@@ -147,7 +143,19 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice Balls',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Boar Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/boar_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Cutta-nah',
@@ -217,7 +225,6 @@ const yokais = [
             'Too lazy to get a haircut, but not too lazy to slash enemies with his untidy strands.',
         locations: [
             'Mystery Way - Gogo Junction',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
             'Evolve Cuttah-nah at Level 20.'
         ],
         skill: {
@@ -255,7 +262,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Juices',
-        evolutionIndexes: [1]
+        evolutionIndexes: [1],
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Slacka-slash',
@@ -264,10 +278,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slacka-slash.png',
         description:
             'More dangerous than he looks, Slacka-slash can beat his foes with only a single slice.',
-        locations: [
-            'Breezy Hills - Gourd Pond Museum 2F',
-            'Mystery Way - Crank-a-kai - Deer Mystery Coin'
-        ],
+        locations: ['Breezy Hills - Gourd Pond Museum 2F'],
         skill: {
             name: 'Bladed Body',
             description: 'Body deals damage toall foes who attack it.'
@@ -303,7 +314,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Juices',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Deer Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/deer_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Brushido',
@@ -409,7 +427,6 @@ const yokais = [
         locations: [
             'Blossom Heights - Tucked Away Lot',
             'Mystery Way - Back Road',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
             'Quest - "Train Lie-in with Pride".'
         ],
         skill: {
@@ -448,7 +465,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Chinese foods',
-        evolutionIndexes: [3]
+        evolutionIndexes: [3],
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Lie-in Heart',
@@ -457,14 +481,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lie-in_heart.png',
         description:
             "A lion who's realized his full potential. He always waits for the perfect moment before striking.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Sum Mystery Coin',
-            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
-            'Evolve Lie-in at Level 28.'
-        ],
+        locations: ['Evolve Lie-in at Level 28.'],
         skill: {
             name: 'Lie-in Wait',
             description: "Doesn't take an actionfor one to two turns."
@@ -501,7 +518,29 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chinese foods',
-        evolutionIndexes: [3]
+        evolutionIndexes: [3],
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Sum Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sum_mystery_coin.png'
+            },
+            {
+                name: 'Glitzy Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/glitzy_coin.png'
+            }
+        ]
     },
     {
         name: 'Hissfit',
@@ -513,8 +552,7 @@ const yokais = [
         locations: [
             'Uptown Springdale - The Catwalk',
             'Gera Gera Land',
-            'Mystery Way - Route 2',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)'
+            'Mystery Way - Route 2'
         ],
         skill: {
             name: 'Annoyance',
@@ -552,7 +590,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Meats',
-        evolutionIndexes: [5]
+        evolutionIndexes: [5],
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Zerberker',
@@ -561,12 +606,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zerberker.png',
         description:
             "Legend has it that this Yo-kai leveled an entire village with one tantrum. You'll explode with rage if he's around.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Annoyance',
             description: 'May attack an ally.'
@@ -602,7 +642,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats',
-        evolutionIndexes: [5]
+        evolutionIndexes: [5],
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Snartle',
@@ -660,8 +707,7 @@ const yokais = [
         locations: [
             'Uptown Springdale - Elementary School 3F',
             'Uptown Springdale - Elementary School 2F',
-            'Uptown Springdale - Elementary School 1F',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)'
+            'Uptown Springdale - Elementary School 1F'
         ],
         skill: {
             name: 'Soft Skin',
@@ -697,7 +743,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Rice Balls',
-        evolutionIndexes: [7]
+        evolutionIndexes: [7],
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Minochi',
@@ -712,7 +765,6 @@ const yokais = [
             "Shopper's Row - Brushwoods & flowers",
             'Breezy Hills - Gourd Pond Museum 1F',
             'Breezy Hills - Gourd Pond Museum 2F',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -749,7 +801,14 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Rice Balls'
+        favouriteFood: 'Rice Balls',
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Tublappa',
@@ -766,8 +825,6 @@ const yokais = [
             'Old Springdale - Well Road - Under porches',
             'Old Springdale - Gourd Pond - Brushwoods',
             'Fleshy Souls - Gogo Junction',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -807,7 +864,19 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [13],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Slicenrice',
@@ -916,8 +985,7 @@ const yokais = [
         locations: [
             'Blossom Heights - Old Mansion House',
             'Sawayama-jo - Area 2',
-            'Mystery Way - Route 1',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)'
+            'Mystery Way - Route 1'
         ],
         skill: {
             name: 'Spirit Guard',
@@ -954,7 +1022,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Vegetables',
-        evolutionIndexes: [11]
+        evolutionIndexes: [11],
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Reuknight',
@@ -963,11 +1038,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reuknight.png',
         description:
             "Helmsman and Armsman reunited. He now aspires to do what he couldn't do when he was alive\u2014 unify the country.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Spirit Guard',
             description: 'No elemental-weaknessdamage if guarding.'
@@ -1004,7 +1075,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Vegetables',
-        evolutionIndexes: [11]
+        evolutionIndexes: [11],
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Corptain',
@@ -1061,9 +1139,7 @@ const yokais = [
             'This Yo-kai embodies the pain of farmers who have lost their fields. He\'s easy to identify thanks to his moan, "Get off my land!"',
         locations: [
             'Old Harrisville - Paddy fields',
-            'Old Harrisville - Rice Paddy, Fullface Rock & Cicada Canyon - Paddy fields',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)'
+            'Old Harrisville - Rice Paddy, Fullface Rock & Cicada Canyon - Paddy fields'
         ],
         skill: {
             name: 'Sludge Grudge',
@@ -1102,7 +1178,19 @@ const yokais = [
         rank: 'c',
         favouriteFood: 'Odens',
         evolutionIndexes: [15],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Sgt. Burly',
@@ -1208,12 +1296,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/quaken.png',
         description:
             'Every step Quaken takes shakes the place...and some of those vibrations can even move your heart. Awwwwww!',
-        locations: [
-            'Mt. Wildwood Trail',
-            'Bony Spirits Way - Exit',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
-        ],
+        locations: ['Mt. Wildwood Trail', 'Bony Spirits Way - Exit'],
         skill: {
             name: 'Courageous Spirit',
             description: 'Power increases whenan ally is defeated.'
@@ -1249,7 +1332,19 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Siro',
@@ -1258,15 +1353,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/siro.png',
         description:
             'Siro brings out the best in those he Inspirits. They become shining lights for the future.',
-        locations: [
-            'Mt. Wildwood Trail',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Mon Mystery Coin',
-            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
-            'Terror Time - Crank-a-kai - Red Oni Orb',
-            'Blasters - Crank-a-kai - Silver mission - Red Orb',
-            'Blasters - Crank-a-kai - Gold mission - Red Orb'
-        ],
+        locations: ['Mt. Wildwood Trail'],
         skill: {
             name: 'Shining Spirit',
             description: 'Power increases whenan ally is defeated.'
@@ -1302,7 +1389,24 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Mon Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mon_mystery_coin.png'
+            },
+            {
+                name: 'Butterfly Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/butterfly_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Chansin',
@@ -1311,12 +1415,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chansin.png',
         description:
             'Once a proud warrior, Chansin threw it all away by gambling... Now his best odds are to retreat.',
-        locations: [
-            'San Fantastico - Seaside Cave',
-            'Sawayama-jo - Area 2',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
-        ],
+        locations: ['San Fantastico - Seaside Cave', 'Sawayama-jo - Area 2'],
         skill: {
             name: 'Gambler',
             description: 'High chance to giveand take critical strikes.'
@@ -1353,7 +1452,19 @@ const yokais = [
         weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Seafoods',
-        evolutionIndexes: [19, 20, 21]
+        evolutionIndexes: [19, 20, 21],
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Sheen',
@@ -1362,12 +1473,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sheen.png',
         description:
             'A Yo-kai swordsman who returned to the way of the sword when a legendary blade reignited his spirit.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
-            'Blasters - Crank-a-kai - Gold mission - Red Orb',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Light Speed',
             description: 'High chance to dealcritical attacks.'
@@ -1403,7 +1509,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Seafoods',
-        evolutionIndexes: [19]
+        evolutionIndexes: [19],
+        crankakai: [
+            {
+                name: 'Glitzy Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/glitzy_coin.png'
+            }
+        ]
     },
     {
         name: 'Snee',
@@ -1457,14 +1570,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gleam.png',
         description:
             'A holy swordsman with a divine blade that cuts through evil like cheddar cheese. Could he bring about tasty world peace?',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Cheerful Coin',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Light Speed',
             description: 'High chance to dealcritical attacks.'
@@ -1501,7 +1607,14 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [21],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Cheerful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cheerful_coin.png'
+            }
+        ]
     },
     {
         name: 'Benkei',
@@ -1514,8 +1627,7 @@ const yokais = [
             'Breezy Hills - Gourd Pond Museum 1F',
             'Breezy Hills - Gourd Pond Museum 2F',
             'Sawayama-jo - Area 2',
-            'Mystery Way - Route 1',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)'
+            'Mystery Way - Route 1'
         ],
         skill: {
             name: 'Sword Hunting',
@@ -1550,7 +1662,14 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'B3-NK1',
@@ -1559,11 +1678,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/b3-nk1.png',
         description:
             "A Yo-kai whose body is half machine. He could  very well be the world's  first cyborg Yo-kai.",
-        locations: [
-            'Breezy Hills - Gate Room - Traffic-Light Zone',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
-            'Blasters - Crank-a-kai - Brown mission - Gold Orb'
-        ],
+        locations: ['Breezy Hills - Gate Room - Traffic-Light Zone'],
         skill: {
             name: 'Sword Hunting',
             description: 'Power increases eachtime a foe is defeated.'
@@ -1599,7 +1714,14 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Sushiyama',
@@ -1616,8 +1738,6 @@ const yokais = [
             'Sawayama-jo - Area 2',
             'Mystery Way - Route 3',
             'Bony Spirits Way - Entrance',
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -1655,7 +1775,19 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Kapunki',
@@ -1664,11 +1796,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kapunki.png',
         description:
             'A punk Yo-kai who wears kabuki-style makeup. He dreams of rocking the socks and faces off his fans all across the globe.',
-        locations: [
-            'Harrisville - Under porches',
-            'Mt.Wildwood - Crank-a-kai - 3DS coin',
-            'Mystery Way - Crank-a-kai - Mystery Coin'
-        ],
+        locations: ['Harrisville - Under porches'],
         skill: {
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
@@ -1705,7 +1833,19 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sobas',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: '3DS coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png'
+            },
+            {
+                name: 'Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Beetler',
@@ -1809,13 +1949,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cruncha.png',
         description:
             'A stag beetle Yo-kai that represents the apex of the thorax. He can grant you incredible strength.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Kai Mystery Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Intimidation',
             description: 'No Yo-kai will Loafaround.'
@@ -1851,7 +1985,29 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Red Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Kai Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/kai_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Demuncher',
@@ -1904,13 +2060,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/devourer.png',
         description:
             "He sucks the energy out of his victims but leaves their bodies intact so that they look like they've simply fallen asleep.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Red Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Soul Snacker',
             description: 'Recovers HP after anenemy is defeated.'
@@ -1946,7 +2096,24 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Red Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Brokenbrella',
@@ -2015,7 +2182,6 @@ const yokais = [
             'Old Springdale - Mt.Wildwood Shrine - Bamboo groves',
             'Sawayama-jo - Area 2 - Under porches',
             'Fleshy Souls - Gogo Junction',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -2054,7 +2220,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Snacks',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Snotsolong',
@@ -2108,11 +2281,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/duchoo.png',
         description:
             "Ever felt like you might be sick, but you're not totally sure if you really are? Blame Duchoo.",
-        locations: [
-            'Springdale Underground Waterway',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
-            'Infinite Tunnel'
-        ],
+        locations: ['Springdale Underground Waterway', 'Infinite Tunnel'],
         skill: {
             name: 'Snow Play',
             description: 'Increases damage ofown Ice attacks.'
@@ -2148,7 +2317,14 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: "D'wanna",
@@ -2157,10 +2333,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/d_wanna.png',
         description:
             "D'wanna's chants will weaken your resolve! This can make you give up on...y'know, stuff and whatever.",
-        locations: [
-            "Shopper's Row - Empty flats",
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)'
-        ],
+        locations: ["Shopper's Row - Empty flats"],
         skill: {
             name: 'Soothing Rhythm',
             description: 'All foes will be prone toLoafing around.'
@@ -2196,7 +2369,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Hamburgers',
-        evolutionIndexes: [23]
+        evolutionIndexes: [23],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: "N'more",
@@ -2250,11 +2430,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/q_wit.png',
         description:
             "He gives up on everything he tries and won't do the same thing twice. He has a lot of experience in doing things once.",
-        locations: [
-            'Blossom Heights - Old Mansion Attic',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
-            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin'
-        ],
+        locations: ['Blossom Heights - Old Mansion Attic'],
         skill: {
             name: 'Soothing Rhythm',
             description: 'All foes will be prone toLoafing around.'
@@ -2291,7 +2467,19 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Hamburgers',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Butterfly Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/Butterfly_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Wazzat',
@@ -2359,7 +2547,6 @@ const yokais = [
             "A Wazzat who has grown to the size of a house and can wolf down someone's entire memory in one gigantic gulp.",
         locations: [
             'Mystery Way - Gogo Junction',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
             'Evolve Wazzat at Level 21.'
         ],
         skill: {
@@ -2398,7 +2585,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Candies',
-        evolutionIndexes: [24]
+        evolutionIndexes: [24],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Dummkap',
@@ -2518,8 +2712,7 @@ const yokais = [
             'Breezy Hills - Under cars & Garbages',
             'Breezy Hills - Distributors',
             'Breezy Hills - Empty flats',
-            'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)'
+            'Gera Gera Land'
         ],
         skill: {
             name: 'Hanging In',
@@ -2557,7 +2750,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Hamburgers',
-        evolutionIndexes: [28]
+        evolutionIndexes: [28],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Blips',
@@ -2568,8 +2768,7 @@ const yokais = [
             'If you see someone get out of a pool with blue lips, they might just be Inspirited by Blips...',
         locations: [
             'Blossom Heights - Brushwoods & Flowers',
-            'Sawayama-jo - Area 2 - Under Cars',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)'
+            'Sawayama-jo - Area 2 - Under Cars'
         ],
         skill: {
             name: 'Hanging In',
@@ -2605,7 +2804,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'Hamburgers'
+        favouriteFood: 'Hamburgers',
+        crankakai: [
+            {
+                name: 'Yellow Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Tattletell',
@@ -2614,7 +2820,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tattletell.png',
         description:
             "When Tattletell Inspirits you, you'll feel inspired to TELL, TELL, TELL all of your secrets. ",
-        locations: ['Mt.Wildwood - Crank-a-kai - Select-A-Coin'],
+        locations: [],
         skill: {
             name: 'Caring',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
@@ -2651,7 +2857,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Ramens',
-        evolutionIndexes: [28]
+        evolutionIndexes: [28],
+        crankakai: [
+            {
+                name: 'Select-A-Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png'
+            }
+        ]
     },
     {
         name: 'Tattlecast',
@@ -2803,11 +3016,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/casanuva.png',
         description:
             'This narcissist makes every lady he sees fall in love with him, regardless of appearance.',
-        locations: [
-            'Gold-Gleaming Hwy. - Entrance',
-            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
-            'Fusion.'
-        ],
+        locations: ['Gold-Gleaming Hwy. - Entrance', 'Fusion.'],
         skill: {
             name: 'Popularity',
             description: 'Makes more foesbefriend you.'
@@ -2844,7 +3053,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [30]
+        evolutionIndexes: [30],
+        crankakai: [
+            {
+                name: 'Glitzy Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/glitzy_coin.png'
+            }
+        ]
     },
     {
         name: 'Casanono',
@@ -2853,11 +3069,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/casanono.png',
         description:
             "Casanuva's opposite. He just can't get a date no matter what! He'll make you unpopular too. Best to give him some space.",
-        locations: [
-            'Breezy Hills - Brushwoods & flowers',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
-            'Infinite Tunnel'
-        ],
+        locations: ['Breezy Hills - Brushwoods & flowers', 'Infinite Tunnel'],
         skill: {
             name: 'Unpopularity',
             description: 'Makes foes less likelyto become your friend.'
@@ -2893,7 +3105,14 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'So-Sorree',
@@ -2902,12 +3121,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/so-sorree.png',
         description:
             "He may apologize for everything, but the truth is he doesn't mean a word of it and cheerfully avoids any real responsibility.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Bird Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Make Amends',
             description: 'Restores HP to allieswhile Yo-kai Loafs.'
@@ -2945,7 +3159,29 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Curries',
         evolutionIndexes: [32],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Bird Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bird_excitement_coin.png'
+            },
+            {
+                name: 'Wind Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wind_excitement_coin.png'
+            },
+            {
+                name: 'Moon Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/moon_excitement_coin.png'
+            },
+            {
+                name: 'Flower Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/flower_excitement_coin.png'
+            }
+        ]
     },
     {
         name: 'Bowminos',
@@ -3005,8 +3241,6 @@ const yokais = [
             'Old Harrisville - Rice Paddy',
             'Old Harrisville - Rice Paddy, Fullface Rock & Cicada Canyon - Trees',
             'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -3046,7 +3280,19 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Sweets',
         evolutionIndexes: [33],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Smogmella',
@@ -3055,11 +3301,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/smogmella.png',
         description:
             'Her vaporous nature means she can take on any form she chooses,  but this shape is by far  her current favorite.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
-            'Blasters - Crank-a-kai - Brown mission - Gold Orb',
-            'Evolve Smogling at Level 27.'
-        ],
+        locations: ['Evolve Smogling at Level 27.'],
         skill: {
             name: 'Magic Mist',
             description: "Helps recover adjacentYo-kai's Soul Meters."
@@ -3097,7 +3339,14 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Sweets',
         evolutionIndexes: [33, 121],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Signibble',
@@ -3115,7 +3364,6 @@ const yokais = [
             'Harrisville - Station Plaza - Telephone poles',
             'Gera Gera Land',
             'Fleshy Souls Way - Exit',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -3153,7 +3401,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [34]
+        evolutionIndexes: [34],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Signiton',
@@ -3162,10 +3417,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/signiton.png',
         description:
             'Signiton is almost a deity for those in desperate need of a wireless signal. He can boost your reception if you ask.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Lightning Play',
             description: 'Increases damage of own Lightning attacks.'
@@ -3201,7 +3453,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Odens',
-        evolutionIndexes: [34]
+        evolutionIndexes: [34],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Statiking',
@@ -3210,17 +3469,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/statiking.png',
         description:
             "He's pretty lazy, but if he got motivated, his power would fix a ton of the world's energy problems.",
-        locations: [
-            'Terror Time - Crank-a-kai - Gold Oni Orb',
-            'Terror Time - Crank-a-kai - Stone Oni Orb',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel - 5000m or more'],
         skill: {
             name: 'Long Lasting',
             description: 'Good Inspirits will lastlonger.'
@@ -3357,12 +3606,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/apelican.png',
         description:
             "He studied in Texas and loves all things American, but his Southern accent still isn't great.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Bird Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Apelican Is No.1',
             description: 'SPD increases when front and center.'
@@ -3399,7 +3643,29 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Hamburgers',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Bird Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bird_excitement_coin.png'
+            },
+            {
+                name: 'Wind Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wind_excitement_coin.png'
+            },
+            {
+                name: 'Moon Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/moon_excitement_coin.png'
+            },
+            {
+                name: 'Flower Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/flower_excitement_coin.png'
+            }
+        ]
     },
     {
         name: 'Mirapo',
@@ -3502,8 +3768,7 @@ const yokais = [
             'Mircle fills the space behind mirrors with evil by renting it out to bad Yo-kai...at a wickedly high rate, naturally.',
         locations: [
             "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 3F",
-            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)'
+            "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F"
         ],
         skill: {
             name: 'Mirror Body',
@@ -3539,7 +3804,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        crankakai: [
+            {
+                name: 'Yellow Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Illoo',
@@ -3557,7 +3829,6 @@ const yokais = [
             'Gera Gera Land',
             'Mystery Way - Route 3',
             'Gold-Gleaming Hwy. - Inner Lane',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -3594,7 +3865,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Elloo',
@@ -3603,10 +3881,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/elloo.png',
         description:
             "A friendly, old Yo-kai who can dissipate into a haze. He's Illoo's brother.",
-        locations: [
-            'Breezy Hills - Gate Room - Can-Kicking Zone',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)'
-        ],
+        locations: ['Breezy Hills - Gate Room - Can-Kicking Zone'],
         skill: {
             name: "Brother's Vow",
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
@@ -3641,7 +3916,14 @@ const yokais = [
         element: 'Ice',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: [
+            {
+                name: 'Yellow Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Alloo',
@@ -3655,8 +3937,7 @@ const yokais = [
             "Shopper's Row - Nocturne Hospital",
             'Sawayama-jo - Area 1 - Trees',
             'Divine Paradise - 3F',
-            'Divine Paradise - 4F',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)'
+            'Divine Paradise - 4F'
         ],
         skill: {
             name: "Brother's Vow",
@@ -3705,7 +3986,6 @@ const yokais = [
         locations: [
             "Shopper's Row - Nocturne Hospital",
             'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -3742,7 +4022,14 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: [
+            {
+                name: 'Yellow Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Infour',
@@ -3760,8 +4047,7 @@ const yokais = [
             'San Fantastico - Empty flats',
             'San Fantastico - Telephone poles',
             'Divine Paradise - 3F',
-            'Divine Paradise - 4F',
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)'
+            'Divine Paradise - 4F'
         ],
         skill: {
             name: 'Hanging In',
@@ -3798,7 +4084,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Verygoodsir',
@@ -3907,7 +4200,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flengu.png',
         description:
             'A tengu with hair the color of fire. Legend says he causes a drought when humanity needs to be taught a lesson.',
-        locations: ['Mystery Way - Crank-a-kai - Mystery Coin'],
+        locations: [],
         skill: {
             name: 'Fire Play',
             description: 'Increases damage ofown Fire attacks.'
@@ -3944,7 +4237,14 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Candies',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Kyubi',
@@ -3998,13 +4298,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frostail.png',
         description:
             "Even a single hair of this rare Yo-kai's silvery coat can bring generations of good luck!",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Yo Mystery Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Sense of Smell',
             description: 'Never misses attacks.'
@@ -4040,7 +4334,29 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Odens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Yo Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yo_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Chymera',
@@ -4099,14 +4415,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kingmera.png',
         description:
             'A regal Yo-kai who was once a legendary ninja. Supremely stealthy, he can steal any treasure.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Yellow Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Cheerful Coin',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'In a Flash',
             description: 'Gets one preemptiveattack.'
@@ -4143,7 +4452,29 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Yellow Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Cheerful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cheerful_coin.png'
+            }
+        ]
     },
     {
         name: 'Terrorpotta',
@@ -4158,7 +4489,6 @@ const yokais = [
             'Mt. Wildwood - Bamboo Groves',
             'Mt. Wildwood - Brushwoods',
             'Bony Spirits Way - Exit',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -4196,7 +4526,14 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'e',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Dulluma',
@@ -4208,8 +4545,7 @@ const yokais = [
         locations: [
             'Downtown Springdale - Academy Shortcut',
             'Gera Gera Land',
-            'Gold-Gleaming Hwy. - Westbound',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)'
+            'Gold-Gleaming Hwy. - Westbound'
         ],
         skill: {
             name: 'Glossy Skin',
@@ -4247,7 +4583,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Curries',
-        evolutionIndexes: [7]
+        evolutionIndexes: [7],
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Darumacho',
@@ -4256,10 +4599,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/darumacho.png',
         description:
             'Now a truly macho Yo-kai, this one worked tirelessly in a mountain retreat to train away his dullness.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Glossy Skin',
             description: 'Does not get dealtcritical damage.'
@@ -4295,7 +4635,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Curries',
-        evolutionIndexes: [7]
+        evolutionIndexes: [7],
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Goruma',
@@ -4308,8 +4655,6 @@ const yokais = [
             "Shopper's Row - Nocturne Hospital",
             "Shopper's Row - Distributors",
             "Shopper's Row - Garbages & Dumps",
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
             'Infinite Tunnel'
         ],
         skill: {
@@ -4347,7 +4692,14 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Wotchagot',
@@ -4633,14 +4985,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/walldin.png',
         description:
             'Formerly a sturdy castle wall, the fall of the family he once protected turned him into a Yo-kai.',
-        locations: [
-            'Breezy Hills - Empty flats',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
-            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
-            'Terror Time - Crank-a-kai - Gold Oni Orb',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb'
-        ],
+        locations: ['Breezy Hills - Empty flats'],
         skill: {
             name: 'Blocker',
             description: 'Will be guarding whenmoving to the front.'
@@ -4677,7 +5022,19 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Ramens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Butterfly Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/butterfly_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Roughraff',
@@ -4686,7 +5043,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/roughraff.png',
         description:
             'A Yo-kai whose only cause is rebellion, he Inspirits good kids into badness and delinquency.',
-        locations: ['Mt.Wildwood - Crank-a-kai - Select-A-Coin'],
+        locations: [],
         skill: {
             name: 'Revenge',
             description: 'Reflects some damageback to foe.'
@@ -4722,7 +5079,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Ramens',
-        evolutionIndexes: [40, 63]
+        evolutionIndexes: [40, 63],
+        crankakai: [
+            {
+                name: 'Select-A-Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png'
+            }
+        ]
     },
     {
         name: 'Badude',
@@ -4777,12 +5141,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bruff.png',
         description:
             'Said to have taken down an entire Yo-kai gang by himself. Many rebel Yo-kai revere him as a big brother.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Yo Mystery Coin',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb'
-        ],
+        locations: [],
         skill: {
             name: 'Revenge',
             description: 'Reflects some damageback to foe.'
@@ -4819,7 +5178,19 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Ramens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Yo Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yo_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Armsman',
@@ -4831,8 +5202,7 @@ const yokais = [
         locations: [
             'Breezy Hills - Gourd Pond Museum 1F',
             'Breezy Hills - Gourd Pond Museum 2F',
-            'Sawayama-jo - Area 2',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)'
+            'Sawayama-jo - Area 2'
         ],
         skill: {
             name: 'Spirit Guard',
@@ -4869,7 +5239,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Vegetables',
-        evolutionIndexes: [11]
+        evolutionIndexes: [11],
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Mimikin',
@@ -4883,9 +5260,7 @@ const yokais = [
             'Uptown Springdale - Elementary School 2F',
             'Uptown Springdale - Elementary School 1F',
             'Breezy Hills - Gate Room - Traffic-Light Zone',
-            'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
+            'Gera Gera Land'
         ],
         skill: {
             name: 'Me Too!',
@@ -4922,7 +5297,19 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Blowkade',
@@ -4935,8 +5322,6 @@ const yokais = [
             'Uptown Springdale - Elementary School 3F',
             'Downtown Springdale - Construction Site',
             "Breezy Hills - Gate Room - Compunzer's Zone",
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
-            'Blasters - Crank-a-kai - Brown mission - Red Orb',
             'Infinite Tunnel'
         ],
         skill: {
@@ -4974,7 +5359,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Ledballoon',
@@ -4983,11 +5375,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ledballoon.png',
         description:
             "A dump truck couldn't move Ledballoon's heavy body...which is bad news if he gets in your way.",
-        locations: [
-            "Breezy Hills - Gate Room - Compunzer's Zone",
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
-            'Blasters - Crank-a-kai - Silver mission - Red Orb'
-        ],
+        locations: ["Breezy Hills - Gate Room - Compunzer's Zone"],
         skill: {
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
@@ -5023,7 +5411,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Milks',
-        evolutionIndexes: [37]
+        evolutionIndexes: [37],
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Fidgephant',
@@ -5041,8 +5436,6 @@ const yokais = [
             'Old Harrisville - Rivers',
             'Old Harrisville - Rice Paddy, Fullface Rock & Cicada Canyon - Rivers',
             'Bony Spirits Way - Entrance',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
-            'Blasters - Crank-a-kai - Brown mission - Red Orb',
             'Infinite Tunnel'
         ],
         skill: {
@@ -5080,7 +5473,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Rice Balls',
-        evolutionIndexes: [46]
+        evolutionIndexes: [46],
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Touphant',
@@ -5091,8 +5491,7 @@ const yokais = [
             'Touphant can endure anything...with a certain amount of body-shaking effort. He can help you persevere as well.',
         locations: [
             'San Fantastico - Trees',
-            'San Fantastico - Telephone poles',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)'
+            'San Fantastico - Telephone poles'
         ],
         skill: {
             name: 'Endurance',
@@ -5129,7 +5528,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Rice Balls',
-        evolutionIndexes: [46]
+        evolutionIndexes: [46],
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Enduriphant',
@@ -5138,11 +5544,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/enduriphant.png',
         description:
             'Heroically resists the urge to go to the bathroom for reasons that remain obscure.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Going Nowhere',
             description: 'Retains 1 HP after aknockout blow twice.'
@@ -5178,7 +5580,19 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Rice Balls',
-        evolutionIndexes: [46]
+        evolutionIndexes: [46],
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Zappary',
@@ -5282,11 +5696,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/swelton.png',
         description:
             "Those he's Inspirited sweat up a storm. When several of these Yo-kai get together, they make for a very sticky situation!",
-        locations: [
-            'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
-            'Story recruit.'
-        ],
+        locations: ['Gera Gera Land', 'Story recruit.'],
         skill: {
             name: 'Oily Mess',
             description: 'Extends time allowedto spin Yo-kai Wheel.'
@@ -5322,7 +5732,14 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Mad Mountain',
@@ -5334,9 +5751,7 @@ const yokais = [
         locations: [
             'Harrisville - Cicada Canyon',
             'Sawayama-jo - Area 2',
-            'Bony Spirits Way - Entrance',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
-            'Blasters - Crank-a-kai - Brown mission - Red Orb'
+            'Bony Spirits Way - Entrance'
         ],
         skill: {
             name: 'The Stand',
@@ -5374,7 +5789,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [49]
+        evolutionIndexes: [49],
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Lava Lord',
@@ -5386,11 +5808,7 @@ const yokais = [
         locations: [
             'Excellent Tower - Brushwoods & Flowers',
             'Excellent Tower - Garbages',
-            'Excellent Tower - Under cars & Distributors',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
-            'Terror Time - Crank-a-kai - Red Oni Orb',
-            'Blasters - Crank-a-kai - Brown mission - Red Orb',
-            'Blasters - Crank-a-kai - Silver mission - Red Orb'
+            'Excellent Tower - Under cars & Distributors'
         ],
         skill: {
             name: 'The Stand',
@@ -5427,7 +5845,14 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Castelius III',
@@ -5442,7 +5867,6 @@ const yokais = [
             'Breezy Hills - Empty flats',
             'Sawayama-jo - Area 2',
             'Mystery Way - Service Road',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -5480,7 +5904,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Milks',
-        evolutionIndexes: [50]
+        evolutionIndexes: [50],
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Castelius II',
@@ -5489,13 +5920,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_ii.png',
         description:
             'Castelius II will always lock you in second place. Not bad, but could you have done a bit better...?',
-        locations: [
-            'Mystery Way - Gogo Junction',
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
-            'Terror Time - Crank-a-kai - Red Oni Orb',
-            'Blasters - Crank-a-kai - Silver mission - Red Orb',
-            'Fusion.'
-        ],
+        locations: ['Mystery Way - Gogo Junction', 'Fusion.'],
         skill: {
             name: 'Silver Guard',
             description: 'Takes less Fire and Icedamage.'
@@ -5531,7 +5956,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Milks',
-        evolutionIndexes: [50, 51]
+        evolutionIndexes: [50, 51],
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Castelius I',
@@ -5726,16 +6158,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hornaplenty.png',
         description:
             'When Rhinormous achieves power far beyond his peers, he can earn the rare title of Hornaplenty.',
-        locations: [
-            'Terror Time - Crank-a-kai - Gold Oni Orb',
-            'Terror Time - Crank-a-kai - Stone Oni Orb',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel - 5000m or more'],
         skill: {
             name: 'Guard Break',
             description: "Ignore foe's guardeffect when attacking."
@@ -5779,14 +6202,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan.png',
         description:
             "A robot that thinks he's actually Jibanyan. Stiff movement aside, the resemblance is uncatty! Meow meow.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - 3DS coin',
-            'Terror Time - Crank-a-kai - Stone Oni Orb',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
-            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
-            'Quest - From the Future!',
-            'Quest - Watch the Skies'
-        ],
+        locations: ['Quest - From the Future!', 'Quest - Watch the Skies'],
         skill: {
             name: 'Blocker',
             description: 'Will be guarding whenmoving to the front.'
@@ -5821,7 +6237,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Goldenyan',
@@ -5830,13 +6253,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/goldenyan.png',
         description:
             'Goldenyan glistens with purrfection. Meow meow. Truly priceless.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'Mystery Way - Crank-a-kai - Mystery Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Gold Guard',
             description: 'Takes less Lightningand Water damage.'
@@ -5872,7 +6289,29 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Orange Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Dromp',
@@ -5881,10 +6320,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dromp.png',
         description:
             'Fairy tales tell of the monstrous Dromp building mountains and digging ponds.',
-        locations: [
-            'Mystery Way - Crank-a-kai - Butterfly Mystery Coin',
-            'Quest - Treasure Hunters'
-        ],
+        locations: ['Quest - Treasure Hunters'],
         skill: {
             name: 'Insulator',
             description: 'Takes less damagefrom Lightning attacks.'
@@ -5920,7 +6356,14 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: [
+            {
+                name: 'Butterfly Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/butterfly_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Swosh',
@@ -6020,14 +6463,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/uber_geeko.png',
         description:
             'This gecko-turned-guy prefers staying in to living the high life, unlike his outgoing cousin Toadal Dude.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Orange Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
-            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Geckstra Safe',
             description: 'Protects allies on theverge of defeat.'
@@ -6064,7 +6500,34 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Orange Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Glitzy Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/glitzy_coin.png'
+            },
+            {
+                name: 'Deer Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/deer_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Leggly',
@@ -6080,8 +6543,7 @@ const yokais = [
             'Blossom Heights - Under cars & Distributors',
             'Blossom Heights - Tucked Away Lot, Secret Byway & Hidden Side Street - Garbages & Dumps',
             'Breezy Hills - Gate Room - Can-Kicking Zone',
-            'Mystery Way - Route 6',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)'
+            'Mystery Way - Route 6'
         ],
         skill: {
             name: 'Great Legs',
@@ -6117,7 +6579,14 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'e',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Dazzabel',
@@ -6133,7 +6602,6 @@ const yokais = [
             'Breezy Hills - Brushwoods & flowers',
             'Gera Gera Land',
             'Mystery Way - Service Road',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -6172,7 +6640,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [31]
+        evolutionIndexes: [31],
+        crankakai: [
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Rattelle',
@@ -6181,10 +6656,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rattelle.png',
         description:
             "While she looks calm in her gothic wear, she'll fly into a rage if you insult her style.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
@@ -6219,7 +6691,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [31]
+        evolutionIndexes: [31],
+        crankakai: [
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Skelebella',
@@ -6228,14 +6707,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skelebella.png',
         description:
             "She's so confident in the unparalleled beauty of her bones that she doesn't even need her skin.",
-        locations: [
-            'Mt. Wildwood - Brushwoods',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
-            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
-            'Terror Time - Crank-a-kai - Gold Oni Orb',
-            'Blasters - Crank-a-kai - Brown mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb'
-        ],
+        locations: ['Mt. Wildwood - Brushwoods'],
         skill: {
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
@@ -6271,7 +6743,19 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Sweets',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            },
+            {
+                name: 'Boar Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/boar_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Cadin',
@@ -6296,8 +6780,6 @@ const yokais = [
             'Old Harrisville - Trees',
             'Sawayama-jo - Area 1 - Trees',
             'Gold-Gleaming Hwy. - Eastbound',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
-            'Blasters - Crank-a-kai - Normal mission - Red Orb',
             'Infinite Tunnel'
         ],
         skill: {
@@ -6334,7 +6816,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Juices',
-        evolutionIndexes: [55]
+        evolutionIndexes: [55],
+        crankakai: [
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Cadable',
@@ -6343,11 +6832,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cadable.png',
         description:
             'Cadin has trained his "cicada ninjutsu" to its peak. Now Cadable claims it\'s a worthy martial art! *crickets* *cicadas*',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
-            'Blasters - Crank-a-kai - Gold mission - Red Orb',
-            'Evolve Cadin at Level 21.'
-        ],
+        locations: ['Evolve Cadin at Level 21.'],
         skill: {
             name: 'Modest',
             description: 'Low chance of gettingattacked by foes.'
@@ -6383,7 +6868,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Juices',
-        evolutionIndexes: [55]
+        evolutionIndexes: [55],
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Singcada',
@@ -6392,13 +6884,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/singcada.png',
         description:
             'His advanced style of "cicada ninjutsu" involves singing as you swing! His battles even attract the occasional music fan!',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
-            'Mystery Way - Crank-a-kai - Mystery Coin',
-            'Blasters - Crank-a-kai - Normal mission - Stone Orb',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
-            'Quest - A Cicada Professional'
-        ],
+        locations: ['Quest - A Cicada Professional'],
         skill: {
             name: 'Eyesight A',
             description: 'Never misses attacks.'
@@ -6435,7 +6921,19 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Juices',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            },
+            {
+                name: 'Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Pupsicle',
@@ -6535,17 +7033,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/swelterrier.png',
         description:
             'His fiery heart and body always make him feel too hot. Being near him is like being near a space heater.',
-        locations: [
-            'Terror Time - Crank-a-kai - Gold Oni Orb',
-            'Terror Time - Crank-a-kai - Stone Oni Orb',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel - 10000m or more'],
         skill: {
             name: 'Fire Watchout',
             description: 'Takes less damagefrom Fire attacks.'
@@ -6596,9 +7084,7 @@ const yokais = [
             'Harrisville - Under porches',
             'Harrisville - Gravestones',
             'Harrisville - Under cars',
-            'Sawayama-jo - Area 1 - Brushwoods',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)'
+            'Sawayama-jo - Area 1 - Brushwoods'
         ],
         skill: {
             name: 'Shuffle',
@@ -6635,7 +7121,19 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            },
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Boyclops',
@@ -6826,7 +7324,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/buchinyan.png',
         description:
             'A combination of Jibanyan and Whisper. Despite their obvious differences, it actually works pretty well.',
-        locations: ['Mt.Wildwood - Crank-a-kai - Select-A-Coin +'],
+        locations: [],
         skill: {
             name: 'Soft Skin',
             description: 'Increases own DEF ifdealt critical damage.'
@@ -6863,7 +7361,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Select-A-Coin +',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png'
+            }
+        ]
     },
     {
         name: 'Walkappa',
@@ -6967,13 +7472,6 @@ const yokais = [
             "Whereas most kappas stick to rivers, this one likes to surf...and pick up girls while he's at it.",
         locations: [
             'San Fantastico - Sea',
-            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
-            'Terror Time - Crank-a-kai - Gold Oni Orb',
-            'Terror Time - Crank-a-kai - Stone Oni Orb',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Stone Orb',
             'Evolve D\u2019wanna at Level 15.',
             'Quest - The Realest Kappa'
         ],
@@ -7013,7 +7511,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Sushis',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Boar Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/boar_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Komasan',
@@ -7022,7 +7527,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komasan.png',
         description:
             "Komasan is a guardian lion-dog who got bored with guarding his shrine. Now he's looking for a new one.",
-        locations: ['Mt.Wildwood - Crank-a-kai - Select-A-Coin +'],
+        locations: [],
         skill: {
             name: 'Alpha',
             description: 'With an adjacent OmegaYo-kai, SPR increases.'
@@ -7059,7 +7564,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Milks',
         evolutionIndexes: [65],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Select-A-Coin +',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png'
+            }
+        ]
     },
     {
         name: 'Komane',
@@ -7214,7 +7726,6 @@ const yokais = [
         locations: [
             'Yo-kai World - Liar Mountain',
             'Sawayama-jo - Area 2',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
             'Story recruit.'
         ],
         skill: {
@@ -7253,7 +7764,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Juices',
-        evolutionIndexes: [59]
+        evolutionIndexes: [59],
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Bakulia',
@@ -7262,10 +7780,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bakulia.png',
         description:
             "Has the ability to enter people's dreams and find out what they're feeling\u2014 and can take others along for the ride.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
-            'Evolve Baku at Level 29.'
-        ],
+        locations: ['Evolve Baku at Level 29.'],
         skill: {
             name: 'Grip on You',
             description: 'Amount of absorbed HPincreased.'
@@ -7302,7 +7817,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Juices',
-        evolutionIndexes: [59]
+        evolutionIndexes: [59],
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Whapir',
@@ -7361,11 +7883,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzelda.png',
         description:
             "This Yo-kai is a serious downer. Don't invite her to outdoor events, as she's bound to make it rain.",
-        locations: [
-            'Mt. Wildwood - Brushwoods',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)'
-        ],
+        locations: ['Mt. Wildwood - Brushwoods'],
         skill: {
             name: 'Downpour',
             description: 'All Yo-kai receive moreWater damage.'
@@ -7401,7 +7919,19 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Nekidspeed',
@@ -7413,8 +7943,6 @@ const yokais = [
         locations: [
             'Breezy Hills - Under cars & Garbages',
             'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
-            'Blasters - Crank-a-kai - Silver mission - Red Orb',
             ' Yo-kai Spot - Nuisance Vehicle Complaints'
         ],
         skill: {
@@ -7452,7 +7980,14 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: [
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Shmoopie',
@@ -7464,8 +7999,7 @@ const yokais = [
         locations: [
             'Downtown Springdale - Under cars, Distributors, Garbages & Dumps',
             'Gera Gera Land',
-            'Divine Paradise - 5F',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)'
+            'Divine Paradise - 5F'
         ],
         skill: {
             name: 'Popularity',
@@ -7503,7 +8037,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Hamburgers',
-        evolutionIndexes: [67, 68]
+        evolutionIndexes: [67, 68],
+        crankakai: [
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Pinkipoo',
@@ -7512,12 +8053,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pinkipoo.png',
         description:
             'Known as the Aristocrat of Love, Pinkipoo uses his overpowering cuteness to win over new followers.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
-            'Terror Time - Crank-a-kai - Red Oni Orb',
-            'Blasters - Crank-a-kai - Silver mission - Red Orb',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Popularity',
             description: 'Makes more foesbefriend you.'
@@ -7554,7 +8090,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Hamburgers',
-        evolutionIndexes: [67]
+        evolutionIndexes: [67],
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            }
+        ]
     },
     {
         name: 'Pookivil',
@@ -7563,14 +8106,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pookivil.png',
         description:
             "This Yo-kai will make even nice people into scheming manipulators. An embodiment of Pinkipoo's bad side.",
-        locations: [
-            'Divine Paradise - 5F',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Kai Mystery Coin',
-            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
-            'Terror Time - Crank-a-kai - Gold Oni Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb'
-        ],
+        locations: ['Divine Paradise - 5F'],
         skill: {
             name: 'Unpopularity',
             description: 'Makes foes less likelyto become your friend.'
@@ -7607,7 +8143,24 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Hamburgers',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            },
+            {
+                name: 'Kai Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/kai_mystery_coin.png'
+            },
+            {
+                name: 'Deer Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/deer_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Harry Barry',
@@ -7661,12 +8214,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frostina.png',
         description:
             'Frostina has the power to freeze anything, but that keeps her pretty chilly\u2014 that and bad circulation.',
-        locations: [
-            'Uptown Springdale - Trees',
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'Blasters - Crank-a-kai - Normal mission - Stone Orb'
-        ],
+        locations: ['Uptown Springdale - Trees'],
         skill: {
             name: 'Snow Play',
             description: 'Increases damage ofown Ice attacks.'
@@ -7702,7 +8250,19 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Candies',
-        evolutionIndexes: [69]
+        evolutionIndexes: [69],
+        crankakai: [
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Blizzaria',
@@ -7755,13 +8315,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/damona.png',
         description:
             'The princess of a small netherworld region. Her power is immense, but she lacks the power to feel any emotion.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Cursed Skin',
             description: 'All stats will increasewhen Inspirited by foe.'
@@ -7798,7 +8352,24 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Candies',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Pink Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Faux Kappa',
@@ -7858,13 +8429,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tigappa.png',
         description:
             "Although he's well  respected in Springdale, this exotic kappa can't help getting homesick sometimes.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Pink Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Sum Mystery Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Intimidation',
             description: 'No Yo-kai will Loafaround.'
@@ -7901,7 +8466,29 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Chinese foods',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Sum Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sum_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Master Nyada',
@@ -8063,8 +8650,6 @@ const yokais = [
             'San Fantastico - Seaside Cave',
             'San Fantastico - Hidden Workshop',
             'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
-            'Blasters - Crank-a-kai - Normal mission - Red Orb',
             'Infinite Tunnel'
         ],
         skill: {
@@ -8102,7 +8687,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Ramens',
-        evolutionIndexes: [72]
+        evolutionIndexes: [72],
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Kelpacabana',
@@ -8111,10 +8703,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kelpacabana.png',
         description:
             'The biggest star the world of seaweed has ever seen! He dances for screaming fans wherever he goes.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
-            'Evolve Wiglin at Level 17.'
-        ],
+        locations: ['Evolve Wiglin at Level 17.'],
         skill: {
             name: 'Seaweed Samba',
             description: "Boosts all adjacentYo-kai's STR."
@@ -8150,7 +8739,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Ramens',
-        evolutionIndexes: [72]
+        evolutionIndexes: [72],
+        crankakai: [
+            {
+                name: 'Green Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Steppa',
@@ -8213,9 +8809,7 @@ const yokais = [
             "Shopper's Row - Rivers",
             'San Fantastico - Seaside Cave',
             'San Fantastico - Hidden Workshop',
-            'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
-            'Blasters - Crank-a-kai - Normal mission - Red Orb'
+            'Gera Gera Land'
         ],
         skill: {
             name: 'Wavy Body',
@@ -8252,7 +8846,14 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'Ramens'
+        favouriteFood: 'Ramens',
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Hungramps',
@@ -8357,14 +8958,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grainpa.png',
         description:
             "A rare Hungramps with a body made of rice. He's so kind, he'll let a hungry person eat part of his body if necessary. ",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
-            'Terror Time - Crank-a-kai - Gold Oni Orb',
-            'Terror Time - Crank-a-kai - Stone Oni Orb',
-            'Blasters - Crank-a-kai - Gold mission - Red Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Stone Orb'
-        ],
+        locations: [],
         skill: {
             name: 'Blessed Body',
             description: 'When defeated, Yo-kaiin the front recover HP.'
@@ -8401,7 +8995,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice Balls',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Green Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Tongus',
@@ -8606,7 +9207,6 @@ const yokais = [
         locations: [
             'Old Springdale - Well Road',
             'Sawayama-jo - Area 2',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
             'Story recruit.'
         ],
         skill: {
@@ -8646,7 +9246,14 @@ const yokais = [
         rank: 'e',
         favouriteFood: 'Odens',
         evolutionIndexes: [49, 71],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Green Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Scarasol',
@@ -8655,11 +9262,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/scarasol.png',
         description:
             'He uses a Pallysol as a weapon, blocking attacks by opening him and then striking by jabbing him at opponents.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Cheerful Coin',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Sun Shield',
             description: 'Returns all attackswhen guarding.'
@@ -8697,7 +9300,14 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Sushis',
         evolutionIndexes: [49],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Cheerful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cheerful_coin.png'
+            }
+        ]
     },
     {
         name: 'Lodo',
@@ -8709,9 +9319,7 @@ const yokais = [
         locations: [
             'Harrisville - Cicada Canyon',
             'Harrisville - Rice Paddy Path',
-            'Gold-Gleaming Hwy. - Inner Lane',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
-            'Blasters - Crank-a-kai - Brown mission - Red Orb'
+            'Gold-Gleaming Hwy. - Inner Lane'
         ],
         skill: {
             name: 'Stealing',
@@ -8749,7 +9357,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Milks',
-        evolutionIndexes: [80]
+        evolutionIndexes: [80],
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Supoor Hero',
@@ -8809,8 +9424,7 @@ const yokais = [
         locations: [
             'Harrisville - Under porches',
             'Harrisville - Under cars',
-            'Sawayama-jo - Area 2 - Under Cars',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)'
+            'Sawayama-jo - Area 2 - Under Cars'
         ],
         skill: {
             name: 'Optimism Power',
@@ -8847,7 +9461,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        crankakai: [
+            {
+                name: 'Green Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Gnomey',
@@ -8862,8 +9483,6 @@ const yokais = [
             'Old Harrisville - Brushwoods',
             'Old Harrisville - Gravestones & Under porches',
             'Old Harrisville - Station - Brushwoods & Under porches',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Kai Mystery Coin',
             'Story recruit.'
         ],
         skill: {
@@ -8903,7 +9522,19 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Snacks',
         evolutionIndexes: [81, 82],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Green Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            },
+            {
+                name: 'Kai Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/kai_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'High Gnomey',
@@ -8914,8 +9545,6 @@ const yokais = [
             "It's said that if you get hold of a single hair from this deity Yo-kai's head, you'll enjoy an eternity of good fortune.",
         locations: [
             'Gold-Gleaming Hwy. - Interchange',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
             'Evolve Gnomey at Level 28.'
         ],
         skill: {
@@ -8955,7 +9584,14 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Snacks',
         evolutionIndexes: [81],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Green Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Enerfly',
@@ -9160,8 +9796,7 @@ const yokais = [
             'Half-man, half-bull, all- trainee fortune-teller. His powers so far are limited to weather forecasting.',
         locations: [
             'Old Harrisville - Cicada Canyon',
-            'Old Harrisville - Fullface Rock',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)'
+            'Old Harrisville - Fullface Rock'
         ],
         skill: {
             name: 'Clairvoidance',
@@ -9199,7 +9834,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Sushis',
         evolutionIndexes: [84, 85],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Green Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Smashibull',
@@ -9255,10 +9897,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/don_chan.png',
         description:
             'The spirit of a well-used Japanese drum. His big ambition is to bring his unique rhythms to the world.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Mon Mystery Coin',
-            'Quest - Inspirited Away'
-        ],
+        locations: ['Quest - Inspirited Away'],
         skill: {
             name: 'Feel the Beat',
             description: 'Boosts all stats.'
@@ -9294,7 +9933,14 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        crankakai: [
+            {
+                name: 'Mon Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mon_ystery_coin.png'
+            }
+        ]
     },
     {
         name: "Ray O'Light",
@@ -9303,12 +9949,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ray_o_light.png',
         description:
             "A sunny fellow who brings fine weather wherever he goes. He's been trying to brighten up Drizzelda's view on life.",
-        locations: [
-            'Harrisville - Brushwoods',
-            'Harrisville - Gravestones',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
-        ],
+        locations: ['Harrisville - Brushwoods', 'Harrisville - Gravestones'],
         skill: {
             name: 'Sunburn',
             description: 'All Yo-kai receive moreFire damage.'
@@ -9343,7 +9984,19 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Happierre',
@@ -9360,7 +10013,6 @@ const yokais = [
             'Old Springdale - Telephone poles',
             'Divine Paradise - 1F',
             'Divine Paradise - 2F',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -9399,7 +10051,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Breads',
-        evolutionIndexes: [86]
+        evolutionIndexes: [86],
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Reversa',
@@ -9455,11 +10114,7 @@ const yokais = [
         description:
             'She resembles Reversa, but her reversed pattern is a rare sight. Her depression\u2014not so rare.',
         locations: [
-            'Downtown Springdale - Under cars, Distributors, Garbages & Dumps',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
-            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
-            'Blasters - Crank-a-kai - Brown mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Red Orb'
+            'Downtown Springdale - Under cars, Distributors, Garbages & Dumps'
         ],
         skill: {
             name: 'Insecure',
@@ -9497,7 +10152,19 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Breads',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            },
+            {
+                name: 'Deer Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/deer_mystery_coin.png'
+            }
+        ]
     },
     {
         name: "Ol' Saint Trick",
@@ -9509,8 +10176,7 @@ const yokais = [
         locations: [
             "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 2F",
             'Excellent Tower - Trees',
-            'Excellent Tower - Observation Deck',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)'
+            'Excellent Tower - Observation Deck'
         ],
         skill: {
             name: 'Caring',
@@ -9546,7 +10212,14 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: [
+            {
+                name: 'Green Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: "Ol' Fortune",
@@ -9555,10 +10228,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__fortune.png',
         description:
             "Another old man with bags full of gifts. Unlike Ol' Saint Trick, all of his presents are good!",
-        locations: [
-            'Harrisville - Mt. Middleton',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)'
-        ],
+        locations: ['Harrisville - Mt. Middleton'],
         skill: {
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
@@ -9593,7 +10263,14 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Rollen',
@@ -9605,8 +10282,7 @@ const yokais = [
         locations: [
             'Breezy Hills - Under cars & Garbages',
             'Breezy Hills - Distributors',
-            'Breezy Hills - Empty flats',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)'
+            'Breezy Hills - Empty flats'
         ],
         skill: {
             name: 'Gambler',
@@ -9642,7 +10318,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Dubbles',
@@ -9651,11 +10334,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dubbles.png',
         description:
             "Dubbles will Inspirit you and point you toward an unknown fate. Even he doesn't know if it'll be a good or bad one.",
-        locations: [
-            "Shopper's Row - Brushwoods & flowers",
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
-            'Infinite Tunnel'
-        ],
+        locations: ["Shopper's Row - Brushwoods & flowers", 'Infinite Tunnel'],
         skill: {
             name: 'Gambler',
             description: 'High chance to giveand take critical strikes.'
@@ -9690,7 +10369,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Papa Bolt',
@@ -9699,13 +10385,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/papa_bolt.png',
         description:
             "No matter how lazy you are, you'll work fast when Papa Bolt's watching. His anger is SCAAAAARY!",
-        locations: [
-            'Mt. Wildwood - Abandoned Tunnel',
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb',
-            'Blasters - Crank-a-kai - Gold mission - Red Orb',
-            'Infinite Tunnel'
-        ],
+        locations: ['Mt. Wildwood - Abandoned Tunnel', 'Infinite Tunnel'],
         skill: {
             name: 'Strict',
             description: 'All allies will Loafaround less.'
@@ -9740,7 +10420,14 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: [
+            {
+                name: 'Green Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            }
+        ]
     },
     {
         name: 'Uncle Infinite',
@@ -9845,13 +10532,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/auntie_heart.png',
         description:
             "Regardless of how bad a Yo-kai is, Auntie Heart's healing hug will make it pure again. That is some true kindness!",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Prayer',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
@@ -9888,7 +10569,24 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Green Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Kyryn',
@@ -9947,13 +10645,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/unikirin.png',
         description:
             'A legendary creature with a horn that countless figures throughout history have tried to steal.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Green Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Kai Mystery Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Second Wind',
             description: 'Restores a chunk of HPto allies in need.'
@@ -9990,7 +10682,29 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Pink Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Kai Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/kai_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Leadoni',
@@ -10061,7 +10775,6 @@ const yokais = [
             'Infinite Inferno - 1st Circle',
             'Infinite Inferno - 2nd Circle',
             'Infinite Inferno - 3rd Circle',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -10099,7 +10812,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Ake',
@@ -10116,7 +10836,6 @@ const yokais = [
             'Blossom Heights - Tucked Away Lot, Secret Byway & Hidden Side Street - Garbages & Dumps',
             'Breezy Hills - Brushwoods & flowers',
             'Mystery Way - Route 6',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -10155,7 +10874,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Candies',
-        evolutionIndexes: [87]
+        evolutionIndexes: [87],
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Payn',
@@ -10164,10 +10890,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/payn.png',
         description:
             'Payn will show your shoulders the meaning of pain using his massive strength. Payn is really into working out.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
@@ -10204,7 +10927,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Candies',
-        evolutionIndexes: [87]
+        evolutionIndexes: [87],
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Agon',
@@ -10213,12 +10943,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/agon.png',
         description:
             "A horrible Yo-kai that gives people a slipped disk in their backs! You're more susceptible the older you are.",
-        locations: [
-            'Mt. Wildwood - Abandoned Tunnel East',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
-            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
-            'Blasters - Crank-a-kai - Normal mission - Gold Orb'
-        ],
+        locations: ['Mt. Wildwood - Abandoned Tunnel East'],
         skill: {
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
@@ -10254,7 +10979,19 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Candies',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            },
+            {
+                name: 'Deer Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/deer_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Wydeawake',
@@ -10446,10 +11183,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/negatibuzz.png',
         description:
             'A Yo-kai that nurtures negativity and sucks it up with its needlelike nose.',
-        locations: [
-            'Uptown Springdale - Shady Back Alley',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)'
-        ],
+        locations: ['Uptown Springdale - Shady Back Alley'],
         skill: {
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
@@ -10484,7 +11218,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Juices',
-        evolutionIndexes: [92]
+        evolutionIndexes: [92],
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Moskevil',
@@ -10538,13 +11279,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/scritchy.png',
         description:
             'The mere presence of Scritchy will make your body itch. No amount of scratching can make it stop.',
-        locations: [
-            'Excellent Tower - Trees',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
-            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
-            'Terror Time - Crank-a-kai - Red Oni Orb',
-            'Blasters - Crank-a-kai - Silver mission - Red Orb'
-        ],
+        locations: ['Excellent Tower - Trees'],
         skill: {
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
@@ -10580,7 +11315,19 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Juices',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            },
+            {
+                name: 'Boar Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/boar_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Dimmy',
@@ -10684,11 +11431,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/null.png',
         description:
             "You can't sense Nul even if you're really close to him. He's really good at entertaining himself.",
-        locations: [
-            'San Fantastico - Under cars',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
-            'Infinite Tunnel'
-        ],
+        locations: ['San Fantastico - Under cars', 'Infinite Tunnel'],
         skill: {
             name: 'Secrecy',
             description: 'Will not become targetof attacks.'
@@ -10724,7 +11467,14 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Rice Balls'
+        favouriteFood: 'Rice Balls',
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Suspicioni',
@@ -10793,7 +11543,6 @@ const yokais = [
             'Gold-Gleaming Hwy. - Inner Lane',
             'Infinite Inferno - 6th Circle',
             'Infinite Inferno - 7th Circle',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -10831,7 +11580,14 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Contrarioni',
@@ -10846,7 +11602,6 @@ const yokais = [
             'Excellent Tower - Empty flats',
             'Excellent Tower - Under cars & Distributors',
             'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -10883,7 +11638,14 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Hidabat',
@@ -10895,8 +11657,6 @@ const yokais = [
         locations: [
             'Mt. Wildwood - Abandoned Tunnel West',
             'Yo-kai World - Hooligan Road',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
-            'Blasters - Crank-a-kai - Normal mission - Red Orb',
             'Infinite Tunnel'
         ],
         skill: {
@@ -10933,7 +11693,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Meats',
-        evolutionIndexes: [88]
+        evolutionIndexes: [88],
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Abodabat',
@@ -10986,13 +11753,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/belfree.png',
         description:
             "A rare Abodabat in  temporary housing. Once a year, if you're lucky, you can see him change  houses.",
-        locations: [
-            'Springdale Underground Waterway',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - 3DS coin',
-            'Mt.Wildwood - Crank-a-kai - Sum Mystery Coin',
-            'Mystery Way - Crank-a-kai - Boar Mystery Coin'
-        ],
+        locations: ['Springdale Underground Waterway'],
         skill: {
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
@@ -11027,7 +11788,29 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            },
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png'
+            },
+            {
+                name: 'Sum Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sum_mystery_coin.png'
+            },
+            {
+                name: 'Deer Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/deer_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Yoink',
@@ -11047,7 +11830,6 @@ const yokais = [
             'Old Harrisville - Station - Paddy fields',
             'Gera Gera Land',
             'Mystery Way - Route 3',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -11086,7 +11868,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [96]
+        evolutionIndexes: [96],
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Gimme',
@@ -11144,7 +11933,6 @@ const yokais = [
         locations: [
             'Blossom Heights - Bamboo groves',
             "Shopper's Row - Nocturne Hospital",
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -11182,7 +11970,14 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Yoodooit',
@@ -11194,8 +11989,7 @@ const yokais = [
         locations: [
             'Blossom Heights - Old Mansion House',
             'Sawayama-jo - Area 1 - Trees',
-            'Mystery Way - Route 1',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)'
+            'Mystery Way - Route 1'
         ],
         skill: {
             name: 'You First',
@@ -11231,7 +12025,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Count Zapaway',
@@ -11284,7 +12085,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tyrat.png',
         description:
             "He's spent so much time hiding alone in his hole, he thinks the universe revolves around him.",
-        locations: ['Mt.Wildwood - Crank-a-kai - Flower Excitement Coin'],
+        locations: [],
         skill: {
             name: 'Dirty Rat',
             description: 'May attack an ally.'
@@ -11320,7 +12121,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Milks',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Flower Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/flower_excitement_coin.png'
+            }
+        ]
     },
     {
         name: 'Tengloom',
@@ -11329,10 +12137,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tengloom.png',
         description:
             "A gloomy tengu who's always reading. He's somehow amassed a Yo-kai fan base that likes his pessimism.",
-        locations: [
-            'Excellent Tower - Observation Deck',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)'
-        ],
+        locations: ['Excellent Tower - Observation Deck'],
         skill: {
             name: 'Windshield',
             description: 'Takes less damagefrom Wind attacks.'
@@ -11367,7 +12172,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Breads',
-        evolutionIndexes: [95]
+        evolutionIndexes: [95],
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Nird',
@@ -11376,11 +12188,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nird.png',
         description:
             'This Yo-kai became a bookworm upon arrival in the human world. Noisiness will be severely punished! Shhhh!',
-        locations: [
-            "Shopper's Row - Nocturne Hospital",
-            'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)'
-        ],
+        locations: ["Shopper's Row - Nocturne Hospital", 'Gera Gera Land'],
         skill: {
             name: 'Death Sphere',
             description: 'All healing Techniqueswill be weaker.'
@@ -11415,7 +12223,14 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Snobetty',
@@ -11427,8 +12242,6 @@ const yokais = [
         locations: [
             "Shopper's Row - Nocturne Hospital",
             'Breezy Hills - Brushwoods & flowers',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
-            'Blasters - Crank-a-kai - Brown mission - Gold Orb',
             'Infinite Tunnel'
         ],
         skill: {
@@ -11466,7 +12279,14 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Slimamander',
@@ -11520,11 +12340,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dracunyan.png',
         description:
             "Jibanyan has taken the form of a vampire, but his victims really don't need to worry\u2014they'll feel a bit dizzy at worst.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Flower Excitement Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Bloodsucker',
             description: 'Steals HP from adjacentYo-kai when attacking.'
@@ -11561,7 +12377,24 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Wind Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wind_excitement_coin.png'
+            },
+            {
+                name: 'Moon Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/moon_excitement_coin.png'
+            },
+            {
+                name: 'Flower Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/flower_excitement_coin.png'
+            }
+        ]
     },
     {
         name: 'Negasus',
@@ -11573,10 +12406,6 @@ const yokais = [
         locations: [
             'Divine Paradise - 1F',
             'Divine Paradise - 2F',
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Bird Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin',
             'Infinite Tunnel'
         ],
         skill: {
@@ -11613,7 +12442,29 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            },
+            {
+                name: 'Bird Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bird_excitement_coin.png'
+            },
+            {
+                name: 'Wind Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wind_excitement_coin.png'
+            },
+            {
+                name: 'Moon Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/moon_excitement_coin.png'
+            }
+        ]
     },
     {
         name: 'Neighfarious',
@@ -11759,13 +12610,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/count_cavity.png',
         description:
             'A terrifying Yo-kai who can dissolve your teeth. He loves the sound of kids crying over aching teeth. What a jerk.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Sum Mystery Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
@@ -11802,7 +12647,29 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Ramens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Sum Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sum_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Eyesoar',
@@ -11811,11 +12678,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eyesoar.png',
         description:
             "One of his many eyes is connected to his heart. You'll have to find out which one if you want to beat him.",
-        locations: [
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Red Orb',
-            "Quest - Nyada's Trials"
-        ],
+        locations: ["Quest - Nyada's Trials"],
         skill: {
             name: 'Eye See You',
             description: 'Never misses attacks.'
@@ -11861,13 +12724,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eyellure.png',
         description:
             'The eyes that cover his body are made of jewels and give off a light so bright that he sometimes blinds even himself.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Blue Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Yo Mystery Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Eye See You',
             description: 'Never misses attacks.'
@@ -11904,7 +12761,29 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Yo Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yo_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Greesel',
@@ -11916,7 +12795,6 @@ const yokais = [
         locations: [
             'Infinite Inferno - 4th Circle',
             'Infinite Inferno - 5th Circle',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
             'Infinite Tunnel'
         ],
         skill: {
@@ -12112,8 +12990,7 @@ const yokais = [
             'San Fantastico - Seaside Cave',
             'San Fantastico - Hidden Workshop',
             'San Fantastico - Sea',
-            'Mystery Way - Main Line',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)'
+            'Mystery Way - Main Line'
         ],
         skill: {
             name: 'Spiky Guard',
@@ -12150,7 +13027,14 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Droplette',
@@ -12211,10 +13095,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzle.png',
         description:
             'Drizzle creates rain clouds wherever he goes. You can find him in places that are thoroughly wet.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
-            'Evolve Droplette at Level 25.'
-        ],
+        locations: ['Evolve Droplette at Level 25.'],
         skill: {
             name: 'Moist Skin',
             description: 'Takes less damagefrom Water attacks.'
@@ -12250,7 +13131,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Juices',
-        evolutionIndexes: [98]
+        evolutionIndexes: [98],
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Slush',
@@ -12270,9 +13158,7 @@ const yokais = [
             'Old Springdale - Gourd Pond - Pond',
             'Sawayama-jo - Area 2 - Rivers',
             'Mystery Way - Back Road',
-            'Gold-Gleaming Hwy. - Outer Lane',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
-            'Blasters - Crank-a-kai - Normal mission - Red Orb'
+            'Gold-Gleaming Hwy. - Outer Lane'
         ],
         skill: {
             name: 'Stiff Skin',
@@ -12309,7 +13195,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Juices',
-        evolutionIndexes: [123]
+        evolutionIndexes: [123],
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Alhail',
@@ -12318,10 +13211,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/alhail.png',
         description:
             'This Yo-kai has strong ice power by himself. Ice will gradually encase whatever he touches.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
-            'Evolve Slush at Level 25.'
-        ],
+        locations: ['Evolve Slush at Level 25.'],
         skill: {
             name: 'Stiff Skin',
             description: 'Takes less damagefrom Ice attacks.'
@@ -12357,7 +13247,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Juices',
-        evolutionIndexes: [123]
+        evolutionIndexes: [123],
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Gush',
@@ -12366,13 +13263,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gush.png',
         description:
             "If he Inspirits you, your nose won't stop bleeding. This Yo-kai can be much scarier than he looks.",
-        locations: [
-            'Blossom Heights - Rivers',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
-            'Mystery Way - Crank-a-kai - Mystery Coin',
-            'Blasters - Crank-a-kai - Normal mission - Stone Orb',
-            'Blasters - Crank-a-kai - Gold mission - Red Orb'
-        ],
+        locations: ['Blossom Heights - Rivers'],
         skill: {
             name: 'Good Fortune',
             description: 'Will increase money atthe end of a battle.'
@@ -12408,7 +13299,19 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Juices',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            },
+            {
+                name: 'Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Peckpocket',
@@ -12475,11 +13378,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robbinyu.png',
         description:
             'A bird who uses a lasso to steal whatever he wants. He even lassoed his ex on her wedding day!',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Evolve Peckpocket at Level 23.'
-        ],
+        locations: ['Evolve Peckpocket at Level 23.'],
         skill: {
             name: 'Glossy Skin',
             description: 'Does not get dealtcritical damage.'
@@ -12516,7 +13415,19 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Hamburgers',
-        evolutionIndexes: [99]
+        evolutionIndexes: [99],
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Rockabelly',
@@ -12585,7 +13496,6 @@ const yokais = [
             'Harrisville - Station Plaza - Distributors & Under porches',
             'Gera Gera Land',
             'Gold-Gleaming Hwy. - Westbound',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -12624,7 +13534,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Curries',
-        evolutionIndexes: [100]
+        evolutionIndexes: [100],
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Rawry',
@@ -12633,10 +13550,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rawry.png',
         description:
             'He loves nothing more than revving the engine on his stolen bike and thoroughly annoying everyone.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Noise Pollution',
             description: 'All Yo-kai receive moredamage from Inspirits.'
@@ -12673,7 +13587,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Curries',
-        evolutionIndexes: [100]
+        evolutionIndexes: [100],
+        crankakai: [
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Buhu',
@@ -12734,9 +13655,7 @@ const yokais = [
             'Flumpy can make even the coolest person unfashionable and awkward. She hates being so unstylish.',
         locations: [
             'Uptown Springdale - Lonely Waterway',
-            'Gold-Gleaming Hwy. - Outer Lane',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
-            'Blasters - Crank-a-kai - Normal mission - Gold Orb'
+            'Gold-Gleaming Hwy. - Outer Lane'
         ],
         skill: {
             name: 'Wind Play',
@@ -12772,7 +13691,14 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Skreek',
@@ -12781,10 +13707,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skreek.png',
         description:
             'If you catch a glimpse of Skreek, just run. He can throw you into the deepest pits of despair.',
-        locations: [
-            'Mystery Way - Crank-a-kai - Mystery Coin',
-            "Quest - Mr. Byrd's Tragic Tale"
-        ],
+        locations: ["Quest - Mr. Byrd's Tragic Tale"],
         skill: {
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
@@ -12821,7 +13744,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Breads',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Manjimutt',
@@ -12830,7 +13760,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/manjimutt.png',
         description:
             "A man-faced poodle who enjoys scaring people frightened by a poodle with a man's face. Hopes to one day be a CEO.",
-        locations: ['Mt.Wildwood - Crank-a-kai - Select-A-Coin'],
+        locations: [],
         skill: {
             name: "Mutt's Paradise",
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
@@ -12866,7 +13796,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Curries',
-        evolutionIndexes: [101]
+        evolutionIndexes: [101],
+        crankakai: [
+            {
+                name: 'Select-A-Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png'
+            }
+        ]
     },
     {
         name: 'Multimutt',
@@ -13023,12 +13960,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/furdinand.png',
         description:
             'A Yo-kai who makes thick, luxuriant hair sprout in the most...surprising places.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Yo Mystery Coin',
-            'Blasters - Crank-a-kai - Normal mission - Stone Orb',
-            'Evolve Furgus at Level 28.'
-        ],
+        locations: ['Evolve Furgus at Level 28.'],
         skill: {
             name: 'Haiwax',
             description: 'Returns all negativeInspiriting attacks.'
@@ -13066,7 +13998,19 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Rice Balls',
         evolutionIndexes: [103],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            },
+            {
+                name: 'Yo Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yo_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Nosirs',
@@ -13138,7 +14082,6 @@ const yokais = [
         locations: [
             'Blossom Heights - Old Mansion Attic',
             'Blossom Heights - Under cars & Distributors',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -13177,7 +14120,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Breads',
-        evolutionIndexes: [86]
+        evolutionIndexes: [86],
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Chatalie',
@@ -13188,8 +14138,7 @@ const yokais = [
             "All talk and no action. If she Inspirits you, you'll be the same and lose the trust of others.",
         locations: [
             'Downtown Springdale - Springdale Business Tower',
-            'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)'
+            'Gera Gera Land'
         ],
         skill: {
             name: 'Skilled Loafer',
@@ -13224,7 +14173,14 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Nagatha',
@@ -13287,7 +14243,6 @@ const yokais = [
             'Gera Gera Land',
             'Mystery Way - Route 5',
             'Divine Paradise - 5F',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -13326,7 +14281,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Sobas',
-        evolutionIndexes: [36]
+        evolutionIndexes: [36],
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Ben Tover',
@@ -13347,7 +14309,6 @@ const yokais = [
             'Sawayama-jo - Area 2',
             'Infinite Inferno - 4th Circle',
             'Infinite Inferno - 5th Circle',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -13384,7 +14345,14 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Cheeksqueek',
@@ -13486,11 +14454,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/toiletta.png',
         description:
             "Toiletta really wants to make new friends, but she's too shy to leave the bathroom.",
-        locations: [
-            'Uptown Springdale - Elementary School 3F',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)'
-        ],
+        locations: ['Uptown Springdale - Elementary School 3F'],
         skill: {
             name: 'Curse Worsener',
             description: 'Intensifies negativeInspirits on allies.'
@@ -13527,7 +14491,19 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [107]
+        evolutionIndexes: [107],
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Foiletta',
@@ -13536,13 +14512,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/foiletta.png',
         description:
             "Toiletta's now in high school, where her love of curses and disruptive behavior has earned her a new nickname.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Cheerful Coin',
-            'Blasters - Crank-a-kai - Normal mission - Stone Orb',
-            'Blasters - Crank-a-kai - Silver mission - Stone Orb',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Curse Worsener',
             description: 'Intensifies negativeInspirits on allies.'
@@ -13579,7 +14549,19 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [107]
+        evolutionIndexes: [107],
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            },
+            {
+                name: 'Cheerful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cheerful_coin.png'
+            }
+        ]
     },
     {
         name: 'Sproink',
@@ -13681,7 +14663,6 @@ const yokais = [
             "Recycles jokes like they're made out of plastic. He'll be here all week, folks.",
         locations: [
             'Downtown Springdale - Under cars, Distributors, Garbages & Dumps',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -13719,7 +14700,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Grumples',
@@ -13730,9 +14718,7 @@ const yokais = [
             'Bitter toward youth and beauty, Grumples makes people wrinkly. She was quite the beauty when she was young, though.',
         locations: [
             'Blossom Heights - Bamboo groves',
-            'Sawayama-jo - Area 1 - Brushwoods',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
-            'Blasters - Crank-a-kai - Gold mission - Red Orb'
+            'Sawayama-jo - Area 1 - Brushwoods'
         ],
         skill: {
             name: 'Oldness Zone',
@@ -13770,7 +14756,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Milks',
-        evolutionIndexes: [108]
+        evolutionIndexes: [108],
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Everfore',
@@ -13824,13 +14817,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eterna.png',
         description:
             "They say this Yo-kai's immortality stems from her staff and that she'll age instantly without it.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Mon Mystery Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Oldness Zone',
             description: 'No Yo-kai will be ableto dodge.'
@@ -13867,7 +14854,29 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Milks',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Mon Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mon_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Insomni',
@@ -13878,7 +14887,6 @@ const yokais = [
             "If you catch Insomni's eye, she won't let you fall asleep until she's bored with you...or you're almost dead.",
         locations: [
             'Blossom Heights - Trees',
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Present)',
             ' Yo-kai Spot - The Light Pursuing Drivers'
         ],
         skill: {
@@ -13915,7 +14923,14 @@ const yokais = [
         element: 'Ice',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: [
+            {
+                name: 'Purple Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            }
+        ]
     },
     {
         name: 'Sandi',
@@ -13924,7 +14939,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sandi.png',
         description:
             "When Sandi Inspirits you, the two of you will play in your dreams. It's too fun to ever wake up from.",
-        locations: ['Mystery Way - Crank-a-kai - Mystery Coin'],
+        locations: [],
         skill: {
             name: 'Grip on You',
             description: 'Amount of absorbed HPincreased.'
@@ -13961,7 +14976,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Candies',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Arachnus',
@@ -14016,14 +15038,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/arachnia.png',
         description:
             'An expert in poisons, this Yo-kai is often called a femme fatale, despite being very much a man.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Purple Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
-            'Mystery Way - Crank-a-kai - Boar Mystery Coin',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin'
-        ],
+        locations: [],
         skill: {
             name: 'Highlander',
             description: 'Attack power increasesafter beating enemies.'
@@ -14060,7 +15075,34 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Purple Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Glitzy Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/glitzy_coin.png'
+            },
+            {
+                name: 'Boar Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/boar_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Cricky',
@@ -14074,7 +15116,6 @@ const yokais = [
             'Downtown Springdale - Garbages & Dumps',
             "Breezy Hills - Gate Room - Compunzer's Zone - Quiz Room 1F",
             'Gold-Gleaming Hwy. - Eastbound',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -14112,7 +15153,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'e',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Noko',
@@ -14121,7 +15169,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/noko.png',
         description:
             "This Yo-kai is one lucky snake! He's really scared of being seen by humans, which happens a lot since he's terrible at hiding.",
-        locations: ['Mt.Wildwood - Crank-a-kai - Select-A-Coin +'],
+        locations: [],
         skill: {
             name: 'Good Fortune',
             description: 'Will increase money atthe end of a battle.'
@@ -14159,7 +15207,14 @@ const yokais = [
         rank: 'e',
         favouriteFood: 'Hamburgers',
         evolutionIndexes: [111],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Select-A-Coin +',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png'
+            }
+        ]
     },
     {
         name: 'Bloominoko',
@@ -14275,7 +15330,6 @@ const yokais = [
             'Mystery Way - Route 5',
             'Divine Paradise - 1F',
             'Divine Paradise - 2F',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -14313,7 +15367,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [112]
+        evolutionIndexes: [112],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Whinona',
@@ -14377,7 +15438,6 @@ const yokais = [
             'San Fantastico - Under cars',
             'San Fantastico - Hidden Workshop - Empty Flats',
             'San Fantastico - Hidden Workshop - Under cars',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -14414,7 +15474,14 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Croonger',
@@ -14517,8 +15584,7 @@ const yokais = [
         locations: [
             'Springdale Underground Waterway',
             'Springdale Underground Waterway - Water',
-            'Mystery Way - Route 4',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)'
+            'Mystery Way - Route 4'
         ],
         skill: {
             name: 'Waterproof',
@@ -14555,7 +15621,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Meats',
-        evolutionIndexes: [114]
+        evolutionIndexes: [114],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Rageon',
@@ -14608,15 +15681,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tunatic.png',
         description:
             "Tunatic will go on a rampage if he's criticized at all. He makes kids angry when they get guidance from adults.",
-        locations: [
-            'San Fantastico - Seaside Cave',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - 3DS coin',
-            'Mystery Way - Crank-a-kai - Deer Mystery Coin',
-            'Terror Time - Crank-a-kai - Gold Oni Orb',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb',
-            'Blasters - Crank-a-kai - Gold mission - Gold Orb'
-        ],
+        locations: ['San Fantastico - Seaside Cave'],
         skill: {
             name: 'Fire Play',
             description: 'Increases damage ofown Fire attacks.'
@@ -14653,7 +15718,24 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            },
+            {
+                name: '3DS coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png'
+            },
+            {
+                name: 'Deer Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/deer_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Flushback',
@@ -14673,7 +15755,6 @@ const yokais = [
             'San Fantastico - Hidden Workshop - Under cars',
             'Gera Gera Land',
             'Mystery Way - Main Line',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -14712,7 +15793,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Sobas',
-        evolutionIndexes: [124]
+        evolutionIndexes: [124],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Vacuumory',
@@ -14721,10 +15809,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/vacuumory.png',
         description:
             'This god of recollection can use his odd suction device to recover memories once thought lost.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
-            'Fusion.'
-        ],
+        locations: ['Fusion.'],
         skill: {
             name: 'Windbreaker',
             description: 'Blocks damage from allWind skill attacks.'
@@ -14761,7 +15846,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Sobas',
-        evolutionIndexes: [124]
+        evolutionIndexes: [124],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Irewig',
@@ -14863,7 +15955,6 @@ const yokais = [
             'A dragon kid who wants attention. He can see the hidden strengths of others with the ball on his head.',
         locations: [
             'Mt. Wildwood - Abandoned Tunnel East',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
             ' Yo-kai Spot - Miracle! A Living Fossil!',
             ' Yo-kai Spot - Miracle! A Living Fossil!'
         ],
@@ -14902,7 +15993,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Chinese foods',
-        evolutionIndexes: [126]
+        evolutionIndexes: [126],
+        crankakai: [
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'Dragon Lord',
@@ -15001,13 +16099,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mermaidyn.png',
         description:
             'Half girl, half fish, this Yo-kai has a lovely voice and is ever so curious about life on land.',
-        locations: [
-            'Old Springdale - Gourd Pond - Pond',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
-            'Blasters - Crank-a-kai - Brown mission - Red Orb',
-            'Blasters - Crank-a-kai - Silver mission - Red Orb',
-            'Story recruit.'
-        ],
+        locations: ['Old Springdale - Gourd Pond - Pond', 'Story recruit.'],
         skill: {
             name: 'Saintly Scales',
             description: 'Does not get Inspiritedby enemies.'
@@ -15044,7 +16136,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [116, 117]
+        evolutionIndexes: [116, 117],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Mermadonna',
@@ -15099,13 +16198,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mermother.png',
         description:
             'This special Yo-kai is the source of all life and claims to have given birth to the gods.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Mon Mystery Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Saintly Scales',
             description: 'Does not get Inspiritedby enemies.'
@@ -15141,7 +16234,29 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Mon Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mon_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Lady Longnek',
@@ -15152,10 +16267,7 @@ const yokais = [
             'She could pass for human if she were able to resist the urge to stretch out her superlong neck.',
         locations: [
             'Old Springdale - Gravestones',
-            'Old Springdale - Bamboo Groves',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)',
-            'Blasters - Crank-a-kai - Normal mission - Gold Orb'
+            'Old Springdale - Bamboo Groves'
         ],
         skill: {
             name: 'Rubberneck',
@@ -15193,7 +16305,19 @@ const yokais = [
         rank: 'c',
         favouriteFood: 'Sweets',
         evolutionIndexes: [119],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            }
+        ]
     },
     {
         name: 'Daiz',
@@ -15204,10 +16328,7 @@ const yokais = [
             "Daiz just stares off into space, sometimes not moving for three whole days. What's he thinking about all that time...?",
         locations: [
             'Mt. Wildwood - Jumbo Slider',
-            'Yo-kai World - Liar Mountain',
-            'Mt.Wildwood - Crank-a-kai - Bird Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Wind Excitement Coin',
-            'Mt.Wildwood - Crank-a-kai - Moon Excitement Coin'
+            'Yo-kai World - Liar Mountain'
         ],
         skill: {
             name: 'Dodge',
@@ -15243,7 +16364,24 @@ const yokais = [
         element: 'Drain',
         weakness: 'nothing',
         rank: 'c',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: [
+            {
+                name: 'Bird Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bird_excitement_coin.png'
+            },
+            {
+                name: 'Wind Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wind_excitement_coin.png'
+            },
+            {
+                name: 'Moon Excitement Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/moon_excitement_coin.png'
+            }
+        ]
     },
     {
         name: 'Confuze',
@@ -15254,9 +16392,7 @@ const yokais = [
             "Confuze will make you  babble and mumble. He's the worst when you have to read aloud in class!",
         locations: [
             'Springdale Underground Waterway - Water',
-            'Mystery Way - Route 4',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
-            'Blasters - Crank-a-kai - Silver mission - Gold Orb'
+            'Mystery Way - Route 4'
         ],
         skill: {
             name: 'Dodge',
@@ -15291,7 +16427,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'nothing',
         rank: 'b',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Chummer',
@@ -15302,10 +16445,7 @@ const yokais = [
             "Chummer loves eating kids. He'll make them loiter after school before devouring them. He likes asparagus too.",
         locations: [
             'San Fantastico - Hidden Workshop',
-            'Mystery Way - Main Line',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
-            'Terror Time - Crank-a-kai - Red Oni Orb',
-            'Blasters - Crank-a-kai - Silver mission - Red Orb'
+            'Mystery Way - Main Line'
         ],
         skill: {
             name: 'Loiterer',
@@ -15340,7 +16480,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Shrook',
@@ -15398,8 +16545,6 @@ const yokais = [
             "Shopper's Row - Distributors",
             "Shopper's Row - Garbages & Dumps",
             'Gold-Gleaming Hwy. - Entrance',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
-            'Blasters - Crank-a-kai - Normal mission - Red Orb',
             'Infinite Tunnel'
         ],
         skill: {
@@ -15437,7 +16582,14 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Almi',
@@ -15446,10 +16598,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/almi.png',
         description:
             "When Almi Inspirits you, you'll want to treat others all the time. Your wallet will be empty before you know it.",
-        locations: [
-            "Shopper's Row - Distributors",
-            'Mystery Way - Crank-a-kai - Mystery Coin'
-        ],
+        locations: ["Shopper's Row - Distributors"],
         skill: {
             name: 'Matchless Shell',
             description: 'Does not get Inspiritedby enemies.'
@@ -15485,7 +16634,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Breads',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Babblong',
@@ -15500,7 +16656,6 @@ const yokais = [
             'Excellent Tower - Garbages',
             'Excellent Tower - Empty flats',
             'Fleshy Souls Way - Exit',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -15537,7 +16692,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Bananose',
@@ -15546,10 +16708,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bananose.png',
         description:
             'This Yo-kai is made of banana and is often bothered by circling flies. No relation to Babblong.',
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)',
-            'Blasters - Crank-a-kai - Normal mission - Gold Orb'
-        ],
+        locations: [],
         skill: {
             name: 'Skilled Loafer',
             description: 'Will recover a little HPwhen Loafing around.'
@@ -15586,7 +16745,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Candies',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Draaagin',
@@ -15597,9 +16763,7 @@ const yokais = [
             "A desperately indecisive dragon. Don't expect that anything at all will get done when he's around.",
         locations: [
             'Downtown Springdale - Brushwoods & Flowers',
-            'Gera Gera Land',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Past)'
+            'Gera Gera Land'
         ],
         skill: {
             name: 'Just a Minute',
@@ -15636,7 +16800,19 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Ramens'
+        favouriteFood: 'Ramens',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            },
+            {
+                name: 'Special Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            }
+        ]
     },
     {
         name: 'SV Snaggerjag',
@@ -15696,8 +16872,7 @@ const yokais = [
             'Mt. Wildwood - Brushwoods',
             'Gera Gera Land',
             'Infinite Inferno - 6th Circle',
-            'Infinite Inferno - 7th Circle',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Past)'
+            'Infinite Inferno - 7th Circle'
         ],
         skill: {
             name: 'Fire Watchout',
@@ -15734,7 +16909,14 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Past)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Cynake',
@@ -15745,9 +16927,7 @@ const yokais = [
             'This sulky snake Yo-kai will make you sulk at the slightest problem. Hmph!',
         locations: [
             'San Fantastico - Garbages',
-            'San Fantastico - Empty flats',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
-            'Blasters - Crank-a-kai - Brown mission - Stone Orb'
+            'San Fantastico - Empty flats'
         ],
         skill: {
             name: 'Greed',
@@ -15783,7 +16963,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Slitheref',
@@ -15796,7 +16983,6 @@ const yokais = [
             'Harrisville - Brushwoods',
             'Harrisville - Gravestones',
             'Sawayama-jo - Area 1 - Brushwoods',
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
             'Infinite Tunnel'
         ],
         skill: {
@@ -15833,7 +17019,14 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            }
+        ]
     },
     {
         name: 'Venoct',
@@ -15887,14 +17080,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shad._venoct.png',
         description:
             "Venoct's shadow, skilled in the deadly arts. Few who learn that he exists live long after that.",
-        locations: [
-            'Mt.Wildwood - Crank-a-kai - Light Blue Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - 5-star Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Special Coin (Present)',
-            'Mt.Wildwood - Crank-a-kai - Glitzy Coin',
-            'GeraGe Land - Crank-a-kai - Lucky Crank-a-Coin',
-            'Infinite Tunnel'
-        ],
+        locations: ['Infinite Tunnel'],
         skill: {
             name: 'Secrecy',
             description: 'Will not become targetof attacks.'
@@ -15931,7 +17117,29 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Light-Blue Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png'
+            },
+            {
+                name: 'Five-star Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/5-star_coin.png'
+            },
+            {
+                name: 'Special Coin (Present)',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Glitzy Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/glitzy_coin.png'
+            }
+        ]
     },
     {
         name: 'Shogunyan',
@@ -16313,7 +17521,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sapphinyan.png',
         description:
             'Jibanyan made of sapphire. His body is the color of a clear ocean on a beautiful summer day.',
-        locations: ['Mystery Way - Crank-a-kai - Butterfly Mystery Coin'],
+        locations: [],
         skill: {
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
@@ -16350,7 +17558,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Butterfly Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/butterfly_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Emenyan',
@@ -16359,7 +17574,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/emenyan.png',
         description:
             "Jibanyan made of emerald. If you could sell him, he'd be worth more  than 100 million dollars.",
-        locations: ['Mystery Way - Crank-a-kai - Butterfly Mystery Coin'],
+        locations: [],
         skill: {
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
@@ -16396,7 +17611,14 @@ const yokais = [
         weakness: 'nothing',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Butterfly Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/butterfly_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Rubinyan',
@@ -16405,7 +17627,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rubinyan.png',
         description:
             'Jibanyan made of ruby. Fire-like light reflects off of him as he fights.',
-        locations: ['Mystery Way - Crank-a-kai - Boar Mystery Coin'],
+        locations: [],
         skill: {
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
@@ -16440,7 +17662,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Boar Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/boar_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Topanyan',
@@ -16449,7 +17678,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/topanyan.png',
         description:
             'Jibanyan made of topaz. Making friends with him means you have inherently good luck.',
-        locations: ['Mystery Way - Crank-a-kai - Deer Mystery Coin'],
+        locations: [],
         skill: {
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
@@ -16484,7 +17713,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Deer Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/deer_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Dianyan',
@@ -16493,7 +17729,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dianyan.png',
         description:
             "Jibanyan made of diamonds. He's said to be the most lavish, timeless, and romantic Yo-kai. Do you think so? I do!",
-        locations: ['Mystery Way - Crank-a-kai - Butterfly Mystery Coin'],
+        locations: [],
         skill: {
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
@@ -16530,7 +17766,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Butterfly Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/butterfly_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Melonyan',
@@ -18140,7 +19383,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grumpus_khan.png',
         description:
             'Those possessed by this morose Yo-kai end up hated by everyone for their negative attitude.',
-        locations: ["Mt.Wildwood - Crank-a-kai - Traveler's Coin North"],
+        locations: [],
         skill: {
             name: 'Breaking Baaad',
             description: 'May attack an ally.'
@@ -18177,7 +19420,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: "Traveler's Coin North",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/traveler_s_coin_north.png'
+            }
+        ]
     },
     {
         name: 'Groupus Khan',
@@ -18232,7 +19482,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slumberhog.png',
         description:
             'With this Yo-kai, it is best to follow a slight twist on an old saying: "Let sleeping hogs lie."',
-        locations: ["Mt.Wildwood - Crank-a-kai - Traveler's Coin Northeast"],
+        locations: [],
         skill: {
             name: 'Fast Asleep',
             description: "Doesn't take an actionfor one to two turns."
@@ -18268,7 +19518,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Chinese foods',
         evolutionIndexes: [8],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: "Traveler's Coin Northeast",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_northeast.png'
+            }
+        ]
     },
     {
         name: 'Snortlehog',
@@ -18324,7 +19581,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/panja_pupil.png',
         description:
             'This urban Yo-kai provides those he Inspirits with a dash of charm and big-city sophistication.',
-        locations: ["Mt.Wildwood - Crank-a-kai - Traveler's Coin East"],
+        locations: [],
         skill: {
             name: 'Secrecy',
             description: 'Will not become targetof attacks.'
@@ -18361,7 +19618,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Sushis',
-        evolutionIndexes: [60]
+        evolutionIndexes: [60],
+        crankakai: [
+            {
+                name: "Traveler's Coin East",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_east.png'
+            }
+        ]
     },
     {
         name: 'Panja Pro',
@@ -18417,7 +19681,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/samureel.png',
         description:
             'A warrior who aims to be the best in the world, he excels at giving enemies the slip.',
-        locations: ["Mt.Wildwood - Crank-a-kai - Traveler's Coin Central"],
+        locations: [],
         skill: {
             name: 'Skilled Loafer',
             description: 'Will recover a little HPwhen Loafing around.'
@@ -18455,7 +19719,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Seafoods',
         evolutionIndexes: [9],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: "Traveler's Coin Central",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_central.png'
+            }
+        ]
     },
     {
         name: 'Time Keeler',
@@ -18511,7 +19782,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/takoyakid.png',
         description:
             "A demon born from a tasty takoyaki octopus ball. Don't even think of underestimating that crispy, grilled exterior.",
-        locations: ["Mt.Wildwood - Crank-a-kai - Traveler's Coin West"],
+        locations: [],
         skill: {
             name: 'Killer Comeback',
             description: 'Can immediatelycounterattack.'
@@ -18548,7 +19819,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [113],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: "Traveler's Coin West",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_west.png'
+            }
+        ]
     },
     {
         name: 'Takoyaking',
@@ -18603,7 +19881,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/danke_sand.png',
         description:
             'A sand dune with a mouth so big he can swallow almost any opponent. But he never forgets to say thanks!',
-        locations: ["Mt.Wildwood - Crank-a-kai - Traveler's Coin Mountain"],
+        locations: [],
         skill: {
             name: 'Sandbag',
             description: 'Takes less damagefrom Earth attacks.'
@@ -18641,7 +19919,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [106],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: "Traveler's Coin Mountain",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_mountain.png'
+            }
+        ]
     },
     {
         name: 'No Sandkyu',
@@ -18697,7 +19982,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sumodon.png',
         description:
             'A proud sumo wrestler whose thick, noodly arms and piping-hot broth make him a real handful.',
-        locations: ["Mt.Wildwood - Crank-a-kai - Traveler's Coin South"],
+        locations: [],
         skill: {
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
@@ -18735,7 +20020,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Sobas',
         evolutionIndexes: [44],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: "Traveler's Coin South",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_south.png'
+            }
+        ]
     },
     {
         name: 'Yokozudon',
@@ -18791,7 +20083,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whateverest.png',
         description:
             "A Yo-kai who doesn't seem to have the slightest interest in anything. Not on the surface, at least...",
-        locations: ["Mt.Wildwood - Crank-a-kai - Traveler's Coin Midwest"],
+        locations: [],
         skill: {
             name: 'Eruption',
             description: 'Normal attacks becomeFire attacks.'
@@ -18829,7 +20121,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Meats',
         evolutionIndexes: [45],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: "Traveler's Coin Midwest",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_midwest.png'
+            }
+        ]
     },
     {
         name: 'Whatuption',
@@ -18885,7 +20184,7 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/happycane.png',
         description:
             'This Yo-kai is sweet in every way and loves to help people overcome their troubles with a kind word or two.',
-        locations: ["Mt.Wildwood - Crank-a-kai - Traveler's Coin Island"],
+        locations: [],
         skill: {
             name: 'How Sweet',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
@@ -18923,7 +20222,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Candies',
         evolutionIndexes: [79],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: "Traveler's Coin Island",
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_island.png'
+            }
+        ]
     },
     {
         name: 'Starrycane',

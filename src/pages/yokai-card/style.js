@@ -69,6 +69,7 @@ export const Requirement = styled.div`
     font-weight: 600;
     padding: 12px;
     width: 50%;
+    text-align: center;
 
     a {
         color: inherit;
