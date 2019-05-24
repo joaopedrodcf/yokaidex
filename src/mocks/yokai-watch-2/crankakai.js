@@ -3070,7 +3070,7 @@ const crankakai = [
         ]
     },
     {
-        index: 21,
+        index: 22,
         type: 'Sum Mystery Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/sum_mystery_coin.png',
@@ -3114,7 +3114,7 @@ const crankakai = [
         ]
     },
     {
-        index: 22,
+        index: 23,
         type: 'Mon Mystery Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/mon_mystery_coin.png',
@@ -3158,7 +3158,7 @@ const crankakai = [
         ]
     },
     {
-        index: 23,
+        index: 24,
         type: 'Bird Excitement Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/bird_excitement_coin.png',
@@ -3190,7 +3190,7 @@ const crankakai = [
         ]
     },
     {
-        index: 24,
+        index: 25,
         type: 'Wind Excitement Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wind_excitement_coin.png',
@@ -3234,7 +3234,7 @@ const crankakai = [
         ]
     },
     {
-        index: 25,
+        index: 26,
         type: 'Moon Excitement Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/moon_excitement_coin.png',
@@ -3278,7 +3278,7 @@ const crankakai = [
         ]
     },
     {
-        index: 26,
+        index: 27,
         type: 'Flower Excitement Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/flower_excitement_coin.png',
@@ -3310,7 +3310,7 @@ const crankakai = [
         ]
     },
     {
-        index: 27,
+        index: 28,
         type: 'Glitzy Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/glitzy_coin.png',
@@ -3366,7 +3366,7 @@ const crankakai = [
         ]
     },
     {
-        index: 28,
+        index: 29,
         type: "Traveler's Coin North",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_north.png',
@@ -3416,7 +3416,7 @@ const crankakai = [
         ]
     },
     {
-        index: 29,
+        index: 30,
         type: "Traveler's Coin Northeast",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_northeast.png',
@@ -3466,7 +3466,7 @@ const crankakai = [
         ]
     },
     {
-        index: 30,
+        index: 31,
         type: "Traveler's Coin East",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_east.png',
@@ -3516,7 +3516,7 @@ const crankakai = [
         ]
     },
     {
-        index: 31,
+        index: 32,
         type: "Traveler's Coin Central",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_central.png',
@@ -3566,7 +3566,7 @@ const crankakai = [
         ]
     },
     {
-        index: 32,
+        index: 33,
         type: "Traveler's Coin West",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_west.png',
@@ -3616,7 +3616,7 @@ const crankakai = [
         ]
     },
     {
-        index: 33,
+        index: 34,
         type: "Traveler's Coin Mountain",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_mountain.png',
@@ -3666,7 +3666,7 @@ const crankakai = [
         ]
     },
     {
-        index: 34,
+        index: 35,
         type: "Traveler's Coin South",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_south.png',
@@ -3716,7 +3716,7 @@ const crankakai = [
         ]
     },
     {
-        index: 35,
+        index: 36,
         type: "Traveler's Coin Midwest",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_midwest.png',
@@ -3766,7 +3766,7 @@ const crankakai = [
         ]
     },
     {
-        index: 36,
+        index: 37,
         type: "Traveler's Coin Island",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/traveler_s_coin_island.png',
@@ -3816,7 +3816,7 @@ const crankakai = [
         ]
     },
     {
-        index: 37,
+        index: 38,
         type: 'Cheerful Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/cheerful_coin.png',
@@ -3860,7 +3860,7 @@ const crankakai = [
         ]
     },
     {
-        index: 38,
+        index: 39,
         type: '3ds coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/3ds_coin.png',
@@ -4006,7 +4006,7 @@ const crankakai = [
         ]
     },
     {
-        index: 39,
+        index: 40,
         type: 'Mystery Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/mystery_coin.png',
@@ -4062,7 +4062,7 @@ const crankakai = [
         ]
     },
     {
-        index: 40,
+        index: 41,
         type: 'Deer Mystery Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/deer_mystery_coin.png',
@@ -4112,7 +4112,7 @@ const crankakai = [
         ]
     },
     {
-        index: 41,
+        index: 42,
         type: 'Boar Mystery Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/boar_mystery_coin.png',
@@ -4162,7 +4162,7 @@ const crankakai = [
         ]
     },
     {
-        index: 42,
+        index: 43,
         type: 'Butterfly Mystery Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/butterfly_mystery_coin.png',
@@ -4212,7 +4212,7 @@ const crankakai = [
         ]
     },
     {
-        index: 43,
+        index: 44,
         type: 'Happy-Go-Lucky Pass',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/happy-go-lucky_pass.png',
@@ -4276,6 +4276,58 @@ const crankakai = [
                 type: 'yokais',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/shad._venoct.png'
+            }
+        ]
+    },
+    {
+        index: 45,
+        type: 'Select-A-Coin +',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png',
+        elements: [
+            {
+                name: 'Buchinyan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/buchinyan.png'
+            },
+            {
+                name: 'Komasan',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/komasan.png'
+            },
+            {
+                name: 'Noko',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/noko.png'
+            }
+        ]
+    },
+    {
+        index: 46,
+        type: 'Select-A-Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png',
+        elements: [
+            {
+                name: 'Tattletell',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/tattletell.png'
+            },
+            {
+                name: 'Roughraff',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/roughraff.png'
+            },
+            {
+                name: 'Manjimutt',
+                type: 'yokais',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/manjimutt.png'
             }
         ]
     }

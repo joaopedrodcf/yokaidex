@@ -14,16 +14,6 @@ export const SCSidebar = styled.div`
     }
 `;
 
-export const SCHeader = styled.div`
-    background-color: #fdd835;
-    height: 189px;
-`;
-
-export const Image = styled.img`
-    height: 100%;
-    width: 100%;
-`;
-
 export const Container = styled.div`
     display: flex;
     flex-direction: column;
