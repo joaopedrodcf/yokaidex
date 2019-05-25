@@ -1709,7 +1709,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [64]
     },
     {
         name: 'Legend Coin',
@@ -1721,7 +1722,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [65]
     },
     {
         name: 'Feast Coin',
@@ -1743,7 +1745,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [66]
     },
     {
         name: 'Super Yellow Coin',
@@ -1754,7 +1757,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [67]
     },
     {
         name: 'Super Orange Coin',
@@ -1765,7 +1769,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [68]
     },
     {
         name: 'Super Pink Coin',
@@ -1776,7 +1781,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [69]
     },
     {
         name: 'Super Green Coin',
@@ -1787,7 +1793,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [70]
     },
     {
         name: 'Super Blue Coin',
@@ -1798,7 +1805,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [71]
     },
     {
         name: 'Super Purple Coin',
@@ -1809,7 +1817,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [72]
     },
     {
         name: 'S. Light-Blue Coin',
@@ -1820,7 +1829,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [73]
     },
     {
         name: 'Ultra Red Coin',
@@ -1831,7 +1841,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [74]
     },
     {
         name: 'Ultra Yellow Coin',
@@ -1842,7 +1853,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [75]
     },
     {
         name: 'Ultra Orange Coin',
@@ -1853,7 +1865,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [76]
     },
     {
         name: 'Ultra Pink Coin',
@@ -1864,7 +1877,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [77]
     },
     {
         name: 'Ultra Green Coin',
@@ -1875,7 +1889,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [78]
     },
     {
         name: 'Ultra Blue Coin',
@@ -1886,7 +1901,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [79]
     },
     {
         name: 'Ultra Purple Coin',
@@ -1897,7 +1913,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [80]
     },
     {
         name: 'U. Light-Blue Coin',
@@ -1909,7 +1926,8 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
+        crankakaiIndexes: [81]
     },
     {
         name: 'One-Star C. Frag.',
@@ -2638,6 +2656,18 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items'
+    },
+    {
+        name: '3DS Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png',
+        description: '',
+        effect: '',
+        locations: [null],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items',
+        crankakaiIndexes: [82, 83]
     }
 ];
 

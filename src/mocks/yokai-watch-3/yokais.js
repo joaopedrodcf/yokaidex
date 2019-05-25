@@ -916,7 +916,24 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'd',
-        favouriteFood: 'Ice creams'
+        favouriteFood: 'Ice creams',
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Wind Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wind_excite._coin.png'
+            },
+            {
+                name: 'Beaming Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/beaming_coin.png'
+            }
+        ]
     },
     {
         name: 'Slumberhog',
@@ -966,7 +983,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Curries',
         evolutionIndexes: [8],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png'
+            }
+        ]
     },
     {
         name: 'Snortlehog',
