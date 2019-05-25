@@ -147,136 +147,152 @@ const ItemCard = ({ context, match }) => {
                 context.gameVersion === '3' &&
                 context.getCrankakai(item.crankakaiIndexes).map(crankItem => (
                     <>
-                        <Global.Section>
-                            <Label color="#e1bee7">
-                                Crank-a-kai {crankItem.variation}
-                            </Label>
-                            <Global.Card>
-                                <Global.CardTitle color="#e1bee7">
-                                    First prize
-                                </Global.CardTitle>
-                                <ContainerSeal>
-                                    {crankItem.first_prize.map(
-                                        (prize, index) => (
-                                            <SealElements>
-                                                <Link
-                                                    key={index}
-                                                    to={`/yokai-watch-${
-                                                        context.gameVersion
-                                                    }/${
-                                                        prize.type
-                                                    }/${utils.uniformizeNames(
-                                                        prize.name
-                                                    )}`}
-                                                >
-                                                    <Image
-                                                        imageUrl={prize.image}
-                                                        altText=""
-                                                        size="medium"
-                                                    />
-                                                    {prize.name}
-                                                </Link>
-                                            </SealElements>
-                                        )
-                                    )}
-                                </ContainerSeal>
-                            </Global.Card>
-                        </Global.Section>
-                        <Global.Section>
-                            <Global.Card>
-                                <Global.CardTitle color="#e1bee7">
-                                    Second prize
-                                </Global.CardTitle>
+                        {crankItem.first_prize.length > 0 && (
+                            <Global.Section>
+                                <Label color="#e1bee7">
+                                    Crank-a-kai {crankItem.variation}
+                                </Label>
+                                <Global.Card>
+                                    <Global.CardTitle color="#e1bee7">
+                                        First prize
+                                    </Global.CardTitle>
+                                    <ContainerSeal>
+                                        {crankItem.first_prize.map(
+                                            (prize, index) => (
+                                                <SealElements>
+                                                    <Link
+                                                        key={index}
+                                                        to={`/yokai-watch-${
+                                                            context.gameVersion
+                                                        }/${
+                                                            prize.type
+                                                        }/${utils.uniformizeNames(
+                                                            prize.name
+                                                        )}`}
+                                                    >
+                                                        <Image
+                                                            imageUrl={
+                                                                prize.image
+                                                            }
+                                                            altText=""
+                                                            size="medium"
+                                                        />
+                                                        {prize.name}
+                                                    </Link>
+                                                </SealElements>
+                                            )
+                                        )}
+                                    </ContainerSeal>
+                                </Global.Card>
+                            </Global.Section>
+                        )}
+                        {crankItem.second_prize.length > 0 && (
+                            <Global.Section>
+                                <Global.Card>
+                                    <Global.CardTitle color="#e1bee7">
+                                        Second prize
+                                    </Global.CardTitle>
 
-                                <ContainerSeal>
-                                    {crankItem.second_prize.map(
-                                        (prize, index) => (
-                                            <SealElements key={index}>
-                                                <Link
-                                                    to={`/yokai-watch-${
-                                                        context.gameVersion
-                                                    }/${
-                                                        prize.type
-                                                    }/${utils.uniformizeNames(
-                                                        prize.name
-                                                    )}`}
-                                                >
-                                                    <Image
-                                                        imageUrl={prize.image}
-                                                        altText=""
-                                                        size="medium"
-                                                    />
-                                                    {prize.name}
-                                                </Link>
-                                            </SealElements>
-                                        )
-                                    )}
-                                </ContainerSeal>
-                            </Global.Card>
-                        </Global.Section>
-                        <Global.Section>
-                            <Global.Card>
-                                <Global.CardTitle color="#e1bee7">
-                                    Third prize
-                                </Global.CardTitle>
+                                    <ContainerSeal>
+                                        {crankItem.second_prize.map(
+                                            (prize, index) => (
+                                                <SealElements key={index}>
+                                                    <Link
+                                                        to={`/yokai-watch-${
+                                                            context.gameVersion
+                                                        }/${
+                                                            prize.type
+                                                        }/${utils.uniformizeNames(
+                                                            prize.name
+                                                        )}`}
+                                                    >
+                                                        <Image
+                                                            imageUrl={
+                                                                prize.image
+                                                            }
+                                                            altText=""
+                                                            size="medium"
+                                                        />
+                                                        {prize.name}
+                                                    </Link>
+                                                </SealElements>
+                                            )
+                                        )}
+                                    </ContainerSeal>
+                                </Global.Card>
+                            </Global.Section>
+                        )}
+                        {crankItem.third_prize.length > 0 && (
+                            <Global.Section>
+                                <Global.Card>
+                                    <Global.CardTitle color="#e1bee7">
+                                        Third prize
+                                    </Global.CardTitle>
 
-                                <ContainerSeal>
-                                    {crankItem.third_prize.map(
-                                        (prize, index) => (
-                                            <SealElements key={index}>
-                                                <Link
-                                                    to={`/yokai-watch-${
-                                                        context.gameVersion
-                                                    }/${
-                                                        prize.type
-                                                    }/${utils.uniformizeNames(
-                                                        prize.name
-                                                    )}`}
-                                                >
-                                                    <Image
-                                                        imageUrl={prize.image}
-                                                        altText=""
-                                                        size="medium"
-                                                    />
-                                                    {prize.name}
-                                                </Link>
-                                            </SealElements>
-                                        )
-                                    )}
-                                </ContainerSeal>
-                            </Global.Card>
-                        </Global.Section>
-                        <Global.Section>
-                            <Global.Card>
-                                <Global.CardTitle color="#e1bee7">
-                                    Default prize
-                                </Global.CardTitle>
-                                <ContainerSeal>
-                                    {crankItem.default_prize.map(
-                                        (prize, index) => (
-                                            <SealElements key={index}>
-                                                <Link
-                                                    to={`/yokai-watch-${
-                                                        context.gameVersion
-                                                    }/${
-                                                        prize.type
-                                                    }/${utils.uniformizeNames(
-                                                        prize.name
-                                                    )}`}
-                                                >
-                                                    <Image
-                                                        imageUrl={prize.image}
-                                                        altText=""
-                                                        size="medium"
-                                                    />
-                                                    {prize.name}
-                                                </Link>
-                                            </SealElements>
-                                        )
-                                    )}
-                                </ContainerSeal>
-                            </Global.Card>
-                        </Global.Section>
+                                    <ContainerSeal>
+                                        {crankItem.third_prize.map(
+                                            (prize, index) => (
+                                                <SealElements key={index}>
+                                                    <Link
+                                                        to={`/yokai-watch-${
+                                                            context.gameVersion
+                                                        }/${
+                                                            prize.type
+                                                        }/${utils.uniformizeNames(
+                                                            prize.name
+                                                        )}`}
+                                                    >
+                                                        <Image
+                                                            imageUrl={
+                                                                prize.image
+                                                            }
+                                                            altText=""
+                                                            size="medium"
+                                                        />
+                                                        {prize.name}
+                                                    </Link>
+                                                </SealElements>
+                                            )
+                                        )}
+                                    </ContainerSeal>
+                                </Global.Card>
+                            </Global.Section>
+                        )}
+                        {crankItem.default_prize.length > 0 && (
+                            <Global.Section>
+                                <Global.Card>
+                                    <Global.CardTitle color="#e1bee7">
+                                        Default prize
+                                    </Global.CardTitle>
+                                    <ContainerSeal>
+                                        {crankItem.default_prize.map(
+                                            (prize, index) => (
+                                                <SealElements key={index}>
+                                                    <Link
+                                                        to={`/yokai-watch-${
+                                                            context.gameVersion
+                                                        }/${
+                                                            prize.type
+                                                        }/${utils.uniformizeNames(
+                                                            prize.name
+                                                        )}`}
+                                                    >
+                                                        <Image
+                                                            imageUrl={
+                                                                prize.image
+                                                            }
+                                                            altText=""
+                                                            size="medium"
+                                                        />
+                                                        {prize.name}
+                                                    </Link>
+                                                </SealElements>
+                                            )
+                                        )}
+                                    </ContainerSeal>
+                                </Global.Card>
+                            </Global.Section>
+                        )}
                     </>
                 ))}
         </Global.Container>

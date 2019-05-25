@@ -21,7 +21,7 @@ const Container = styled.div`
     }
 
     h1 {
-        font-size: 28px;
+        font-size: 20px;
         letter-spacing: 4px;
         font-weight: 700;
     }

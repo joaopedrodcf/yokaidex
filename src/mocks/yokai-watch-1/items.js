@@ -1565,6 +1565,18 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '30', buy: '0' },
         type: 'items'
+    },
+    {
+        name: '3DS Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png',
+        description: '',
+        effect: '',
+        locations: [null],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items',
+        crankakaiIndexes: [11]
     }
 ];
 
