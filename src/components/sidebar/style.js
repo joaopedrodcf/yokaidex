@@ -4,10 +4,10 @@ import { NavLink } from 'react-router-dom';
 export const SCSidebar = styled.div`
     width: 256px;
     height: 100%;
-    background-color: #ffffff;
+    background-color: ${props => props.theme.theme().bg};
 
     * {
-        color: #000000;
+        color: ${props => props.theme.theme().fg};
         font-size: 18px;
         font-weight: 500;
         text-align: start;
@@ -26,7 +26,8 @@ export const SCNavLink = styled(NavLink).attrs({
     transition: all 250ms ease-in-out;
     will-change: transform;
     padding: 12px;
-    background-color: ${props => (props.selected ? 'lightgray' : '#ffffff')};
+    background-color: ${props =>
+        props.selected ? 'lightgray' : props.theme.theme().bg};
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -49,7 +50,7 @@ export const SCLink = styled.a`
     transition: all 250ms ease-in-out;
     will-change: transform;
     padding: 12px;
-    background-color: #ffffff;
+    background-color: ${props => props.theme.theme().bg};
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -78,4 +79,21 @@ export const SectionsHeader = styled.div`
     text-transform: uppercase;
     font-size: 14px;
     padding: 6px 12px 12px 12px;
+    background-color: ${props => props.theme.theme().bg};
+`;
+
+export const ToggleSection = styled.div`
+    text-decoration: none;
+    transition: all 250ms ease-in-out;
+    will-change: transform;
+    padding: 12px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: ${props => props.theme.theme().bg};
+`;
+
+export const ToggleText = styled.div`
+    margin-left: 12px;
+    color: ${props => props.theme.theme().fg};
 `;

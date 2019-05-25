@@ -75,4 +75,5 @@ export const InputContainerWrap = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 12px;
+    color: ${props => props.theme.theme().fg};
 `;

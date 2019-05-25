@@ -9,6 +9,7 @@ export const ProgressBar = styled.div`
     font-weight: 600;
     text-transform: uppercase;
     padding: 0 12px;
+    color: ${props => props.theme.theme().fg};
 
     div:nth-child(1) {
         width: 12.5%;

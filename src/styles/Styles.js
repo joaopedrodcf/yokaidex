@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-    background-color: #ffffff;
+    background-color: ${props => props.theme.theme().bg};
     color: #000000;
     padding: 12px;
     margin-top: 56px;
@@ -130,6 +130,7 @@ export const CardText = styled.div`
     font-size: 18px;
     padding: 12px;
     border-radius: 0 0 12px 12px;
+    color: ${props => props.theme.theme().fg};
 
     img {
         margin-right: 12px;

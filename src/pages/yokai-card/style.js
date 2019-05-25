@@ -21,6 +21,7 @@ export const SideInformation = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: ${props => props.theme.theme().fg};
 
     > div,
     > img {
@@ -68,6 +69,8 @@ export const Requirement = styled.div`
     font-size: 16px;
     font-weight: 600;
     padding: 12px;
+    border-radius: 0 0 12px 12px;
+    color: ${props => props.theme.theme().fg};
     width: 50%;
     text-align: center;
 

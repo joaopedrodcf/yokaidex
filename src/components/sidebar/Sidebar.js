@@ -15,23 +15,33 @@ import {
     SCNavLink,
     SCLink,
     Sections,
-    SectionsHeader
+    SectionsHeader,
+    ToggleSection,
+    ToggleText
 } from './style';
+import ToggleSwitch from '../shared/toggle-switch/ToggleSwitch';
 import {
     withGameVersionContext,
     withSidebarContext,
     withYokaisContext,
     withBaffleBoardContext,
     withItemsContext,
-    withCrankakaisContext
+    withCrankakaisContext,
+    withThemeContext
 } from '../../store';
 
 class Sidebar extends Component {
     constructor(props) {
         super(props);
+        const { context } = this.props;
+
+        this.state = {
+            toggleEnabled: context.theme
+        };
 
         this.handleChangeGameVersion = this.handleChangeGameVersion.bind(this);
         this.checkIfSelected = this.checkIfSelected.bind(this);
+        this.handleChangeTheme = this.handleChangeTheme.bind(this);
     }
 
     handleChangeGameVersion(event) {
@@ -51,9 +61,19 @@ class Sidebar extends Component {
         return context.gameVersion === version;
     }
 
-    render() {
+    handleChangeTheme() {
         const { context } = this.props;
 
+        this.setState(state => ({
+            toggleEnabled: !state.toggleEnabled
+        }));
+
+        context.toggleTheme();
+    }
+
+    render() {
+        const { context } = this.props;
+        const { toggleEnabled } = this.state;
         return (
             <SCSidebar>
                 <Container>
@@ -136,17 +156,31 @@ class Sidebar extends Component {
                             <Bookmark /> Yo-kai watch 3
                         </SCNavLink>
                     </Sections>
+                    <Sections showBorder>
+                        <SectionsHeader>Theme</SectionsHeader>
+                        <ToggleSection>
+                            <ToggleSwitch
+                                onChange={context.toggleTheme}
+                                checked={context.isDefaultTheme}
+                            />
+                            <ToggleText>
+                                {toggleEnabled ? 'Default theme' : 'Dark Theme'}
+                            </ToggleText>
+                        </ToggleSection>
+                    </Sections>
                 </Container>
             </SCSidebar>
         );
     }
 }
 
-export default withGameVersionContext(
-    withSidebarContext(
-        withYokaisContext(
-            withBaffleBoardContext(
-                withItemsContext(withCrankakaisContext(Sidebar))
+export default withThemeContext(
+    withGameVersionContext(
+        withSidebarContext(
+            withYokaisContext(
+                withBaffleBoardContext(
+                    withItemsContext(withCrankakaisContext(Sidebar))
+                )
             )
         )
     )

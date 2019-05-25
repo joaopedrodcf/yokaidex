@@ -7,6 +7,7 @@ import FilterMainProvider from './filterMain';
 import SidebarProvider from './sidebar';
 import FilterItemsProvider from './filterItems';
 import CrankakaisProvider from './crankakai';
+import ThemeProvider from './theme';
 
 function ProviderComposer({ contexts, children }) {
     return contexts.reduceRight(
@@ -29,7 +30,8 @@ function ContextProvider({ children }) {
                 <FilterMainProvider />,
                 <SidebarProvider />,
                 <FilterItemsProvider />,
-                <CrankakaisProvider />
+                <CrankakaisProvider />,
+                <ThemeProvider />
             ]}
         >
             {children}

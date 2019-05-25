@@ -7,18 +7,20 @@ html * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+    }
 
 body,
 html,
 #root {
     height: 100%;
     width: 100%;
+    background-color: ${props => props.theme.theme().bg}
 }
 
 body {
     display: flex;
     flex-direction: column;
+    
 }
 
 *,
