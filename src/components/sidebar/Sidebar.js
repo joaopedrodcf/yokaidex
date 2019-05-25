@@ -11,11 +11,9 @@ import Circle from 'react-feather/dist/icons/circle';
 import Mail from 'react-feather/dist/icons/mail';
 import {
     Container,
-    SCHeader,
     SCSidebar,
     SCNavLink,
     SCLink,
-    Image,
     Sections,
     SectionsHeader,
     ToggleSection,
@@ -78,14 +76,9 @@ class Sidebar extends Component {
         const { toggleEnabled } = this.state;
         return (
             <SCSidebar>
-                <SCHeader>
-                    <Image
-                        src="https://res.cloudinary.com/dcrcweea8/image/upload/v1551482504/Yokai/misc/icon-256x256.png"
-                        alt=""
-                    />
-                </SCHeader>
                 <Container>
-                    <Sections showMargin>
+                    <Sections>
+                        <SectionsHeader>Pages</SectionsHeader>
                         <SCNavLink
                             to={`/yokai-watch-${context.gameVersion}`}
                             exact

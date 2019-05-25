@@ -114,11 +114,13 @@ const YokaiCard = ({ context, match }) => {
                         {yokai.favouriteFood}
                     </Card>
 
-                    <Card title="Locations" color={color}>
-                        {yokai.locations.map((location, index) => (
-                            <div key={index}>{location}</div>
-                        ))}
-                    </Card>
+                    {yokai.locations.length > 0 && (
+                        <Card title="Locations" color={color}>
+                            {yokai.locations.map((location, index) => (
+                                <div key={index}>{location}</div>
+                            ))}
+                        </Card>
+                    )}
 
                     <Evolution
                         yokai={yokai}
@@ -144,7 +146,7 @@ const YokaiCard = ({ context, match }) => {
                                             to={`/yokai-watch-${
                                                 context.gameVersion
                                             }/items/${utils.uniformizeNames(
-                                                coin.name
+                                                utils.removeLocation(coin.name)
                                             )}`}
                                         >
                                             <Image

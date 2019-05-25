@@ -2258,7 +2258,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [23]
+        crankakaiIndexes: [24]
     },
     {
         name: 'Wind Excitement Coin',
@@ -2270,7 +2270,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [24]
+        crankakaiIndexes: [25]
     },
     {
         name: 'Moon Excitement Coin',
@@ -2282,7 +2282,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [25]
+        crankakaiIndexes: [26]
     },
     {
         name: 'Glitzy Coin',
@@ -2297,7 +2297,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [27]
+        crankakaiIndexes: [28]
     },
     {
         name: "Traveler's Coin North",
@@ -2309,7 +2309,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [28]
+        crankakaiIndexes: [29]
     },
     {
         name: "Traveler's Coin Northeast",
@@ -2321,7 +2321,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [29]
+        crankakaiIndexes: [30]
     },
     {
         name: "Traveler's Coin East",
@@ -2333,7 +2333,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [30]
+        crankakaiIndexes: [31]
     },
     {
         name: "Traveler's Coin Central",
@@ -2345,7 +2345,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [31]
+        crankakaiIndexes: [32]
     },
     {
         name: "Traveler's Coin West",
@@ -2369,7 +2369,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [33]
+        crankakaiIndexes: [34]
     },
     {
         name: "Traveler's Coin South",
@@ -2381,7 +2381,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [34]
+        crankakaiIndexes: [35]
     },
     {
         name: "Traveler's Coin Midwest",
@@ -2393,7 +2393,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [35]
+        crankakaiIndexes: [36]
     },
     {
         name: "Traveler's Coin Island",
@@ -2417,7 +2417,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [39]
+        crankakaiIndexes: [40]
     },
     {
         name: 'Boar Mystery Coin',
@@ -2429,7 +2429,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [41]
+        crankakaiIndexes: [42]
     },
     {
         name: 'Deer Mystery Coin',
@@ -2441,7 +2441,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [40]
+        crankakaiIndexes: [41]
     },
     {
         name: 'Butterfly Mystery Coin',
@@ -2453,7 +2453,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [42]
+        crankakaiIndexes: [43]
     },
     {
         name: 'Cheerful Coin',
@@ -2465,7 +2465,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [37]
+        crankakaiIndexes: [38]
     },
     {
         name: 'Red Coin Fragment',
@@ -2601,6 +2601,30 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items'
+    },
+    {
+        name: 'Select-A-Coin',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png',
+        description: 'A special Crank-a-kai coin that lets you pick a Yo-kai.',
+        effect: '',
+        locations: [],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items',
+        crankakaiIndexes: [46]
+    },
+    {
+        name: 'Select-A-Coin +',
+        image:
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/select-a-coin.png',
+        description: 'A special Crank-a-kai coin that lets you pick a Yo-kai.',
+        effect: '',
+        locations: [],
+        statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
+        priceInfo: { sell: '0', buy: '0' },
+        type: 'items',
+        crankakaiIndexes: [45]
     }
 ];
 

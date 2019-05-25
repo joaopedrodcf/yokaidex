@@ -71,10 +71,8 @@ export const Requirement = styled.div`
     padding: 12px;
     border-radius: 0 0 12px 12px;
     color: ${props => props.theme.theme().fg};
-    img {
-        margin-right: 12px;
-        width: 50%;
-    }
+    width: 50%;
+    text-align: center;
 
     a {
         color: inherit;
