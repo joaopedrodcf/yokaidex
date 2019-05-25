@@ -167,8 +167,8 @@ class Sidebar extends Component {
                         <SectionsHeader>Theme</SectionsHeader>
                         <ToggleSection>
                             <ToggleSwitch
-                                onChange={this.handleChangeTheme}
-                                checked={toggleEnabled}
+                                onChange={context.toggleTheme}
+                                checked={context.isDefaultTheme}
                             />
                             <ToggleText>
                                 {toggleEnabled ? 'Default theme' : 'Dark Theme'}

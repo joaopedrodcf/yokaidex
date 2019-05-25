@@ -23,21 +23,21 @@ class ThemeProvider extends Component {
 
         this.toggleTheme = () => {
             this.setState(state => ({
-                theme: !state.theme
+                isDefaultTheme: !state.isDefaultTheme
             }));
-            const { theme } = this.state;
-            localStorage.setItem('theme', theme);
+            const { isDefaultTheme } = this.state;
+            localStorage.setItem('isDefaultTheme ', isDefaultTheme);
         };
 
         this.getTheme = () => {
-            const { theme } = this.state;
-            return theme
+            const { isDefaultTheme } = this.state;
+            return isDefaultTheme
                 ? { bg: '#1b1919', fg: 'white' }
                 : { bg: 'white', fg: '#1b1919' };
         };
 
         this.state = {
-            theme: !!localStorage.getItem('theme'),
+            isDefaultTheme: !!localStorage.getItem('isDefaultTheme '),
             toggleTheme: this.toggleTheme,
             getTheme: this.getTheme
         };
@@ -45,9 +45,11 @@ class ThemeProvider extends Component {
 
     render() {
         const { children } = this.props;
-        const { theme, toggleTheme, getTheme } = this.state;
+        const { isDefaultTheme, toggleTheme, getTheme } = this.state;
         return (
-            <ThemeContext.Provider value={{ theme, toggleTheme, getTheme }}>
+            <ThemeContext.Provider
+                value={{ isDefaultTheme, toggleTheme, getTheme }}
+            >
                 {children}
             </ThemeContext.Provider>
         );

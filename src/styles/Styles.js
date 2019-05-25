@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 const Container = styled.div`
-    background-color: ${props => props.theme};
+    background-color: ${props => props.theme.theme().bg};
     color: #000000;
     padding: 12px;
     margin-top: 56px;

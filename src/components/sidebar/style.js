@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
-// background-color: #ffffff;
 export const SCSidebar = styled.div`
     width: 256px;
     height: 100%;
