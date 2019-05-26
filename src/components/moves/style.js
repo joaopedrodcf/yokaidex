@@ -1,14 +1,16 @@
 import styled from 'styled-components';
 
 export const Move = styled.div`
+    position: relative;
     display: flex;
     flex-direction: row;
-    width: 100%;
-    padding: 12px 12px;
-    justify-content: space-between;
-    border-radius: 12px;
     align-items: flex-end;
-    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 12px 12px;
+    background-color: ${props => props.color};
+    border-radius: 12px;
 
     > div:nth-child(1) {
         width: 75%;
@@ -19,33 +21,17 @@ export const Move = styled.div`
         width: 25%;
         text-align: end;
     }
-
-    background-color: ${props => {
-        if (props.color) return props.color;
-
-        return '';
-    }};
-
-    margin-bottom: 8px;
 `;
 
 export const MoveTitle = styled.div`
-    color: ${props => {
-        if (props.color) return props.color;
-
-        return '';
-    }};
+    margin-bottom: 12px;
+    color: ${props => props.color};
     font-weight: 600;
     font-size: 18px;
-    margin-bottom: 12px;
 `;
 
 export const MoveText = styled.div`
-    font-weight: ${props => {
-        if (props.bold) return 600;
-
-        return '';
-    }};
+    font-weight: ${props => (props.bold ? 600 : '')};
 
     img {
         position: absolute;

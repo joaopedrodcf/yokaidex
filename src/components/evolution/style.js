@@ -15,11 +15,11 @@ export const Row = styled.div`
 `;
 
 export const ContainerEvolutions = styled.div`
-    padding: 12px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    padding: 12px;
     color: ${props => props.theme.theme().fg};
 
     ${Column} {
@@ -28,11 +28,11 @@ export const ContainerEvolutions = styled.div`
     }
 
     a {
-        color: inherit;
-        text-decoration: inherit;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        color: inherit;
+        text-decoration: inherit;
     }
 `;
