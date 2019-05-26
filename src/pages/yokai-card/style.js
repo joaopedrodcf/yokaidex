@@ -1,19 +1,5 @@
 import styled from 'styled-components';
 
-export const Column = styled.div`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-`;
-
-export const Row = styled.div`
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-`;
-
 export const SideInformation = styled.div`
     position: absolute;
     top: 68px;
@@ -41,20 +27,6 @@ export const SideInformation = styled.div`
     }
 `;
 
-export const Label = styled.div`
-    background-color: ${props => {
-        if (props.color) return props.color;
-
-        return '';
-    }};
-
-    border-radius: 18px;
-    padding: 8px 25px;
-    font-weight: 600;
-    margin-bottom: 12px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-`;
-
 export const Requirements = styled.div`
     display: flex;
     flex-wrap: wrap;
@@ -66,21 +38,21 @@ export const Requirement = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 12px;
-    border-radius: 0 0 12px 12px;
-    color: ${props => props.theme.theme().fg};
     width: 50%;
+    padding: 12px;
+    color: ${props => props.theme.theme().fg};
+    font-weight: 600;
+    font-size: 16px;
     text-align: center;
+    border-radius: 0 0 12px 12px;
 
     a {
-        color: inherit;
-        text-decoration: inherit;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        color: inherit;
+        text-decoration: inherit;
     }
 
     @media (min-width: 576px) {

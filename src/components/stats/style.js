@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const ProgressBar = styled.div`
     display: flex;
     flex-direction: row;
-    width: 100%;
     align-items: center;
     justify-content: center;
-    font-weight: 600;
-    text-transform: uppercase;
+    width: 100%;
     padding: 0 12px;
     color: ${props => props.theme.theme().fg};
+    font-weight: 600;
+    text-transform: uppercase;
 
     div:nth-child(1) {
         width: 12.5%;
@@ -21,13 +21,13 @@ export const ProgressBar = styled.div`
 `;
 
 export const Bar = styled.div`
-    height: 10px;
     width: 100%;
-    background-color: lightgrey;
+    height: 10px;
+    background-color: #bdbdbd;
     border-radius: 12px;
 
     div {
-        border-radius: 12px;
         height: 10px;
+        border-radius: 12px;
     }
 `;

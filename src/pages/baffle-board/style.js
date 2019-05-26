@@ -2,16 +2,16 @@ import styled from 'styled-components';
 
 export const Table = styled.table`
     width: 100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-        0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    table-layout: fixed;
     border-radius: 12px;
     border-collapse: collapse;
-    table-layout: fixed;
-    font-weight: 600;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+        0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 
     tr a {
-        width: 100%;
         display: block;
+        width: 100%;
     }
 
     td div {
@@ -20,21 +20,21 @@ export const Table = styled.table`
     }
 
     th {
-        background-color: ${props => props.theme.theme().fg};
-        color: ${props => props.theme.theme().bg};
         padding: 16px;
+        color: ${props => props.theme.theme().bg};
         text-align: center;
+        background-color: ${props => props.theme.theme().fg};
     }
 
     td {
         padding: 8px;
+        color: ${props => props.theme.theme().fg};
         text-align: start;
         background-color: ${props => props.theme.theme().bg};
-        color: ${props => props.theme.theme().fg};
     }
 
     tr {
-        border-bottom: 1px solid lightgray;
+        border-bottom: 1px solid #bdbdbd;
     }
 
     tr:last-child th:first-child {

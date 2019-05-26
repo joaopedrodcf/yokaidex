@@ -8,8 +8,8 @@ export const SCSidebar = styled.div`
 
     * {
         color: ${props => props.theme.theme().fg};
-        font-size: 18px;
         font-weight: 500;
+        font-size: 18px;
         text-align: start;
     }
 `;
@@ -22,15 +22,15 @@ export const Container = styled.div`
 export const SCNavLink = styled(NavLink).attrs({
     activeClassName: 'active'
 })`
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
     text-decoration: none;
+    background-color: ${props =>
+        props.selected ? '#bdbdbd' : props.theme.theme().bg};
     transition: all 250ms ease-in-out;
     will-change: transform;
-    padding: 12px;
-    background-color: ${props =>
-        props.selected ? 'lightgray' : props.theme.theme().bg};
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 
     svg {
         margin-right: 12px;
@@ -38,22 +38,23 @@ export const SCNavLink = styled(NavLink).attrs({
     }
 
     &:hover {
-        background-color: ${props => (props.version ? 'lightgray' : '#fdd835')};
+        background-color: ${props => (props.version ? '#bdbdbd' : '#fdd835')};
     }
+
     &.active {
-        background-color: ${props => (props.version ? 'lightgray' : '#fdd835')};
+        background-color: ${props => (props.version ? '#bdbdbd' : '#fdd835')};
     }
 `;
 
 export const SCLink = styled.a`
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
     text-decoration: none;
+    background-color: ${props => props.theme.theme().bg};
     transition: all 250ms ease-in-out;
     will-change: transform;
-    padding: 12px;
-    background-color: ${props => props.theme.theme().bg};
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
 
     svg {
         margin-right: 12px;
@@ -62,6 +63,7 @@ export const SCLink = styled.a`
     &:hover {
         background-color: #fdd835;
     }
+
     &.active {
         background-color: #fdd835;
     }
@@ -70,27 +72,27 @@ export const SCLink = styled.a`
 export const Sections = styled.div`
     display: flex;
     flex-direction: column;
-    border-top: ${props => (props.showBorder ? '2px solid gray' : '')};
     margin: ${props => (props.showMargin ? '12px 0' : '')};
+    border-top: ${props => (props.showBorder ? '2px solid #bdbdbd' : '')};
 `;
 
 export const SectionsHeader = styled.div`
-    font-weight: 600;
-    text-transform: uppercase;
-    font-size: 14px;
     padding: 6px 12px 12px 12px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
     background-color: ${props => props.theme.theme().bg};
 `;
 
 export const ToggleSection = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
     text-decoration: none;
+    background-color: ${props => props.theme.theme().bg};
     transition: all 250ms ease-in-out;
     will-change: transform;
-    padding: 12px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background-color: ${props => props.theme.theme().bg};
 `;
 
 export const ToggleText = styled.div`

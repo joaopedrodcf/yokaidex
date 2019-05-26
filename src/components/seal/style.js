@@ -11,18 +11,18 @@ export const Requirement = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 12px;
     width: 50%;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 16px;
 
     a {
-        color: inherit;
-        text-decoration: inherit;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        justify-content: center;
+        color: inherit;
+        text-decoration: inherit;
     }
 
     @media (min-width: 576px) {

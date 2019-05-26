@@ -1,39 +1,32 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-
-html * {
-    font-family: 'Quicksand', BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+    html * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Quicksand', BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     }
 
-body,
-html,
-#root {
-    height: 100%;
-    width: 100%;
-    background-color: ${props => props.theme.theme().bg}
-}
+    body,
+    html,
+    #root {
+        width: 100%;
+        height: 100%;
+        background-color: ${props => props.theme.theme().bg}
+    }
 
-body {
-    display: flex;
-    flex-direction: column;
-    
-}
+    body {
+        display: flex;
+        flex-direction: column;
+        
+    }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit;
-}
-
-
-/*
-    font-size: 62.5%;
-*/
-
+    *,
+    *::before,
+    *::after {
+        box-sizing: inherit;
+    }
 `;
 
 export default GlobalStyle;
