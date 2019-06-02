@@ -44,13 +44,13 @@ const ItemCard = ({ context, match }) => {
             <Image imageUrl={item.image} altText={item.name} size="medium" />
             <Global.Section isRow justifyContent="space-evenly">
                 <BigLabel
-                    backgroundColor="#e1bee7"
+                    backgroundColor="#ce93d8"
                     text1="Sell"
                     text2={item.priceInfo.sell}
                 />
 
                 <BigLabel
-                    backgroundColor="#e1bee7"
+                    backgroundColor="#ce93d8"
                     text1="Buy"
                     text2={item.priceInfo.buy}
                 />
@@ -88,17 +88,17 @@ const ItemCard = ({ context, match }) => {
                 </Global.Section>
             )}
 
-            <Card title="Description" color="#e1bee7">
+            <Card title="Description" color="#ce93d8">
                 {item.description}
             </Card>
 
             {item.effect !== '' && (
-                <Card title="Effect" color="#e1bee7">
+                <Card title="Effect" color="#ce93d8">
                     {item.effect}
                 </Card>
             )}
 
-            <Card title="Locations" color="#e1bee7">
+            <Card title="Locations" color="#ce93d8">
                 {item.locations.map((location, index) => (
                     <div key={index}>{location}</div>
                 ))}
@@ -110,11 +110,11 @@ const ItemCard = ({ context, match }) => {
                     .getCrankakai(item.crankakaiIndexes)
                     .map((crankItem, index) => (
                         <Global.Section key={index}>
-                            <Label color="#e1bee7">
+                            <Label color="#ce93d8">
                                 Crank-a-kai {crankItem.variation}
                             </Label>
                             <Global.Card>
-                                <Global.CardTitle color="#e1bee7">
+                                <Global.CardTitle color="#ce93d8">
                                     Prize
                                 </Global.CardTitle>
                                 <ContainerSeal>
@@ -149,11 +149,11 @@ const ItemCard = ({ context, match }) => {
                     <>
                         {crankItem.first_prize.length > 0 && (
                             <Global.Section>
-                                <Label color="#e1bee7">
+                                <Label color="#ce93d8">
                                     Crank-a-kai {crankItem.variation}
                                 </Label>
                                 <Global.Card>
-                                    <Global.CardTitle color="#e1bee7">
+                                    <Global.CardTitle color="#ce93d8">
                                         First prize
                                     </Global.CardTitle>
                                     <ContainerSeal>
@@ -189,7 +189,7 @@ const ItemCard = ({ context, match }) => {
                         {crankItem.second_prize.length > 0 && (
                             <Global.Section>
                                 <Global.Card>
-                                    <Global.CardTitle color="#e1bee7">
+                                    <Global.CardTitle color="#ce93d8">
                                         Second prize
                                     </Global.CardTitle>
 
@@ -225,7 +225,7 @@ const ItemCard = ({ context, match }) => {
                         {crankItem.third_prize.length > 0 && (
                             <Global.Section>
                                 <Global.Card>
-                                    <Global.CardTitle color="#e1bee7">
+                                    <Global.CardTitle color="#ce93d8">
                                         Third prize
                                     </Global.CardTitle>
 
@@ -261,7 +261,7 @@ const ItemCard = ({ context, match }) => {
                         {crankItem.default_prize.length > 0 && (
                             <Global.Section>
                                 <Global.Card>
-                                    <Global.CardTitle color="#e1bee7">
+                                    <Global.CardTitle color="#ce93d8">
                                         Default prize
                                     </Global.CardTitle>
                                     <ContainerSeal>

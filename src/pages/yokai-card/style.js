@@ -7,7 +7,7 @@ export const SideInformation = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: ${props => props.theme.theme().fg};
+    color: ${props => props.theme.theme().color};
 
     > div,
     > img {
@@ -40,7 +40,7 @@ export const Requirement = styled.div`
     align-items: center;
     width: 50%;
     padding: 12px;
-    color: ${props => props.theme.theme().fg};
+    color: ${props => props.theme.theme().color};
     font-weight: 600;
     font-size: 16px;
     text-align: center;

@@ -1,13 +1,15 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
+import styles from '../../styles';
 
 export const SCSidebar = styled.div`
     width: 256px;
     height: 100%;
-    background-color: ${props => props.theme.theme().bg};
+    padding-top: 56px;
+    color: ${props => props.theme.theme().color};
+    background-color: ${props => props.theme.theme().backgroundColor};
 
     * {
-        color: ${props => props.theme.theme().fg};
         font-weight: 500;
         font-size: 18px;
         text-align: start;
@@ -26,23 +28,38 @@ export const SCNavLink = styled(NavLink).attrs({
     align-items: center;
     justify-content: flex-start;
     padding: 12px;
+    color: ${props => props.theme.theme().color};
     text-decoration: none;
     background-color: ${props =>
-        props.selected ? '#bdbdbd' : props.theme.theme().bg};
+        props.selected && props.theme.theme().selectedVersion};
     transition: all 250ms ease-in-out;
     will-change: transform;
 
     svg {
         margin-right: 12px;
-        fill: ${props => (props.selected ? 'black' : '')};
+        fill: ${props => props.selected && props.theme.theme().selected.color};
     }
 
     &:hover {
-        background-color: ${props => (props.version ? '#bdbdbd' : '#fdd835')};
+        color: ${props =>
+            props.version
+                ? props.theme.theme().selected.color
+                : styles.color.black};
+        background-color: ${props =>
+            props.version
+                ? props.theme.theme().selected.backgroundColor
+                : styles.color.primary};
     }
 
     &.active {
-        background-color: ${props => (props.version ? '#bdbdbd' : '#fdd835')};
+        color: ${props =>
+            props.version
+                ? props.theme.theme().selected.color
+                : styles.color.black};
+        background-color: ${props =>
+            props.version
+                ? props.theme.theme().selected.backgroundColor
+                : styles.color.primary};
     }
 `;
 
@@ -51,8 +68,9 @@ export const SCLink = styled.a`
     align-items: center;
     justify-content: flex-start;
     padding: 12px;
+    color: ${props => props.theme.theme().color};
     text-decoration: none;
-    background-color: ${props => props.theme.theme().bg};
+    background-color: ${props => props.theme.theme().backgroundColor};
     transition: all 250ms ease-in-out;
     will-change: transform;
 
@@ -61,10 +79,12 @@ export const SCLink = styled.a`
     }
 
     &:hover {
+        color: ${styles.color.black};
         background-color: #fdd835;
     }
 
     &.active {
+        color: ${styles.color.black};
         background-color: #fdd835;
     }
 `;
@@ -81,7 +101,7 @@ export const SectionsHeader = styled.div`
     font-weight: 600;
     font-size: 14px;
     text-transform: uppercase;
-    background-color: ${props => props.theme.theme().bg};
+    background-color: ${props => props.theme.theme().backgroundColor};
 `;
 
 export const ToggleSection = styled.div`
@@ -90,12 +110,12 @@ export const ToggleSection = styled.div`
     justify-content: flex-start;
     padding: 12px;
     text-decoration: none;
-    background-color: ${props => props.theme.theme().bg};
+    background-color: ${props => props.theme.theme().backgroundColor};
     transition: all 250ms ease-in-out;
     will-change: transform;
 `;
 
 export const ToggleText = styled.div`
     margin-left: 12px;
-    color: ${props => props.theme.theme().fg};
+    color: ${props => props.theme.theme().color};
 `;
