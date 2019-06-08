@@ -3,7 +3,7 @@ import Styles from '../../styles';
 
 const Container = styled.div`
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     display: flex;
     align-items: center;
     width: 100%;

@@ -33,15 +33,9 @@ import {
 class Sidebar extends Component {
     constructor(props) {
         super(props);
-        const { context } = this.props;
-
-        this.state = {
-            toggleEnabled: context.theme
-        };
 
         this.handleChangeGameVersion = this.handleChangeGameVersion.bind(this);
         this.checkIfSelected = this.checkIfSelected.bind(this);
-        this.handleChangeTheme = this.handleChangeTheme.bind(this);
     }
 
     handleChangeGameVersion(event) {
@@ -61,19 +55,9 @@ class Sidebar extends Component {
         return context.gameVersion === version;
     }
 
-    handleChangeTheme() {
-        const { context } = this.props;
-
-        this.setState(state => ({
-            toggleEnabled: !state.toggleEnabled
-        }));
-
-        context.toggleTheme();
-    }
-
     render() {
         const { context } = this.props;
-        const { toggleEnabled } = this.state;
+
         return (
             <SCSidebar>
                 <Container>
@@ -163,9 +147,7 @@ class Sidebar extends Component {
                                 onChange={context.toggleTheme}
                                 checked={context.isDefaultTheme}
                             />
-                            <ToggleText>
-                                {toggleEnabled ? 'Default theme' : 'Dark Theme'}
-                            </ToggleText>
+                            <ToggleText>Dark Theme</ToggleText>
                         </ToggleSection>
                     </Sections>
                 </Container>

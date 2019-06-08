@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import styles from '../styles';
 
 export const ThemeContext = React.createContext();
 
@@ -22,22 +23,76 @@ class ThemeProvider extends Component {
         super(props);
 
         this.toggleTheme = () => {
-            this.setState(state => ({
-                isDefaultTheme: !state.isDefaultTheme
-            }));
             const { isDefaultTheme } = this.state;
-            localStorage.setItem('isDefaultTheme ', isDefaultTheme);
+
+            this.setState(
+                state => ({
+                    isDefaultTheme: !state.isDefaultTheme
+                }),
+                () => {
+                    localStorage.setItem('isDefaultTheme', isDefaultTheme);
+                }
+            );
         };
 
         this.getTheme = () => {
             const { isDefaultTheme } = this.state;
+
             return isDefaultTheme
-                ? { bg: '#1b1919', fg: 'white' }
-                : { bg: 'white', fg: '#1b1919' };
+                ? {
+                      backgroundColor: styles.color.black,
+                      color: styles.color.white,
+                      selected: {
+                          backgroundColor: '#424242',
+                          color: styles.color.white
+                      },
+                      button: {
+                          backgroundColor: styles.color.white,
+                          color: styles.color.black
+                      },
+                      card: {
+                          backgroundColor: '#212121'
+                      },
+                      table: {
+                          th: {
+                              color: styles.color.black,
+                              backgroundColor: styles.color.white
+                          },
+                          tr: {
+                              color: styles.color.white,
+                              backgroundColor: '#212121'
+                          }
+                      }
+                  }
+                : {
+                      backgroundColor: styles.color.white,
+                      color: styles.color.black,
+                      selected: {
+                          backgroundColor: '#bdbdbd',
+                          color: styles.color.black
+                      },
+                      button: {
+                          backgroundColor: styles.color.black,
+                          color: styles.color.white
+                      },
+                      card: {
+                          backgroundColor: styles.color.white
+                      },
+                      table: {
+                          th: {
+                              color: styles.color.white,
+                              backgroundColor: styles.color.black
+                          },
+                          tr: {
+                              color: styles.color.black,
+                              backgroundColor: '#e0e0e0'
+                          }
+                      }
+                  };
         };
 
         this.state = {
-            isDefaultTheme: !!localStorage.getItem('isDefaultTheme '),
+            isDefaultTheme: !!localStorage.getItem('isDefaultTheme'),
             toggleTheme: this.toggleTheme,
             getTheme: this.getTheme
         };

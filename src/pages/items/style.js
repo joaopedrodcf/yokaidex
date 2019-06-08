@@ -37,7 +37,7 @@ export const SectionWrapper = styled.div`
     font-weight: 600;
     font-size: 18px;
     text-align: start;
-    background-color: #e1bee7;
+    background-color: #ce93d8;
     border-radius: 12px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 `;
@@ -65,5 +65,5 @@ export const InputContainerWrap = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 12px;
-    color: ${props => props.theme.theme().fg};
+    color: ${props => props.theme.theme().color};
 `;

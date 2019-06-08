@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import styles from '../../styles';
 
 export const Form = styled.form`
     width: 100%;
@@ -12,7 +13,7 @@ export const Filters = styled.div`
     display: flex;
     flex-direction: column;
     padding: 12px;
-    color: ${props => props.theme.theme().fg};
+    color: ${props => props.theme.theme().color};
 
     @media (min-width: 576px) {
         flex-direction: row;
@@ -135,8 +136,9 @@ export const FilterButtons = styled.div`
     flex-direction: row;
     justify-content: space-between;
     > button {
-        color: ${props => props.theme.theme().bg};
-        background-color: ${props => props.theme.theme().fg};
+        color: ${props => props.theme.theme().button.color};
+        background-color: ${props =>
+            props.theme.theme().button.backgroundColor};
     }
 
     > button:nth-child(1) {
@@ -169,6 +171,7 @@ export const SectionWrapper = styled.div`
     justify-content: space-between;
     width: 100%;
     padding: 12px;
+    color: ${styles.color.black};
     font-weight: 600;
     font-size: 18px;
     text-align: start;
