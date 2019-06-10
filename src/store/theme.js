@@ -23,22 +23,22 @@ class ThemeProvider extends Component {
         super(props);
 
         this.toggleTheme = () => {
-            const { isDefaultTheme } = this.state;
+            const { isDarkTheme } = this.state;
 
             this.setState(
                 state => ({
-                    isDefaultTheme: !state.isDefaultTheme
+                    isDarkTheme: !state.isDarkTheme
                 }),
                 () => {
-                    localStorage.setItem('isDefaultTheme', isDefaultTheme);
+                    localStorage.setItem('isDarkTheme', !isDarkTheme);
                 }
             );
         };
 
         this.getTheme = () => {
-            const { isDefaultTheme } = this.state;
+            const { isDarkTheme } = this.state;
 
-            return isDefaultTheme
+            return isDarkTheme
                 ? {
                       backgroundColor: styles.color.black,
                       color: styles.color.white,
@@ -92,7 +92,7 @@ class ThemeProvider extends Component {
         };
 
         this.state = {
-            isDefaultTheme: !!localStorage.getItem('isDefaultTheme'),
+            isDarkTheme: localStorage.getItem('isDarkTheme') === 'true',
             toggleTheme: this.toggleTheme,
             getTheme: this.getTheme
         };
@@ -100,7 +100,11 @@ class ThemeProvider extends Component {
 
     render() {
         const { children } = this.props;
-        const { isDefaultTheme, toggleTheme, getTheme } = this.state;
+        const {
+            isDarkTheme: isDefaultTheme,
+            toggleTheme,
+            getTheme
+        } = this.state;
         return (
             <ThemeContext.Provider
                 value={{ isDefaultTheme, toggleTheme, getTheme }}
