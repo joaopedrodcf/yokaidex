@@ -25,4 +25,4 @@ const AboutUs = () => (
     </Global.Container>
 );
 
-export default AboutUs;
+export default React.memo(AboutUs);

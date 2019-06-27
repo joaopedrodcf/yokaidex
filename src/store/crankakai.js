@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
 
+import memoize from 'fast-memoize';
+import genericWrapperComponent from './genericWrapperComponent';
 import crankakai1 from '../mocks/yokai-watch-1/crankakai';
 import crankakai2 from '../mocks/yokai-watch-2/crankakai';
 import crankakai3 from '../mocks/yokai-watch-3/crankakai';
 import utils from '../components/utils';
 
+// eslint-disable-next-line func-names
+const getState = function(crankakais, setCrankakais, getCrankakai) {
+    return { crankakais, setCrankakais, getCrankakai };
+};
+
+const memoizedGetState = memoize(getState);
+
 export const CrankakaisContext = React.createContext();
 
 export function withCrankakaisContext(Element) {
-    return function WrapperComponent(props) {
-        return (
-            <CrankakaisContext.Consumer>
-                {state => (
-                    <Element
-                        {...props}
-                        context={{ ...state, ...props.context }}
-                    />
-                )}
-            </CrankakaisContext.Consumer>
-        );
-    };
+    return genericWrapperComponent(CrankakaisContext, Element);
 }
 
 class CrankakaisProvider extends Component {
@@ -73,7 +71,11 @@ class CrankakaisProvider extends Component {
 
         return (
             <CrankakaisContext.Provider
-                value={{ crankakais, setCrankakais, getCrankakai }}
+                value={memoizedGetState(
+                    crankakais,
+                    setCrankakais,
+                    getCrankakai
+                )}
             >
                 {children}
             </CrankakaisContext.Provider>

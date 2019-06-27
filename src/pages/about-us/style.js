@@ -7,7 +7,7 @@ export const Row = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: 12px;
-    color: ${props => props.theme.theme().color};
+    color: ${props => props.theme.color};
     font-size: 18px;
     text-align: justify;
 `;

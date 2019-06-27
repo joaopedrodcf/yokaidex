@@ -13,7 +13,7 @@ export const SealElements = styled.div`
     align-items: center;
     width: 50%;
     padding: 12px;
-    color: ${props => props.theme.theme().color};
+    color: ${props => props.theme.color};
     font-weight: 600;
     font-size: 16px;
 

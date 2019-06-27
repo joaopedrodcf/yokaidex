@@ -1,20 +1,19 @@
 import React, { Component } from 'react';
 
+import memoize from 'fast-memoize';
+import genericWrapperComponent from './genericWrapperComponent';
+
+// eslint-disable-next-line func-names
+const getState = function(name, item, handleText, handleCheckbox) {
+    return { name, item, handleText, handleCheckbox };
+};
+
+const memoizedGetState = memoize(getState);
+
 export const FilterItemsContext = React.createContext();
 
 export function withFilterItemsContext(Element) {
-    return function WrapperComponent(props) {
-        return (
-            <FilterItemsContext.Consumer>
-                {state => (
-                    <Element
-                        {...props}
-                        context={{ ...state, ...props.context }}
-                    />
-                )}
-            </FilterItemsContext.Consumer>
-        );
-    };
+    return genericWrapperComponent(FilterItemsContext, Element);
 }
 
 class FilterItemsProvider extends Component {
@@ -56,12 +55,7 @@ class FilterItemsProvider extends Component {
 
         return (
             <FilterItemsContext.Provider
-                value={{
-                    name,
-                    item,
-                    handleText,
-                    handleCheckbox
-                }}
+                value={memoizedGetState(name, item, handleText, handleCheckbox)}
             >
                 {children}
             </FilterItemsContext.Provider>

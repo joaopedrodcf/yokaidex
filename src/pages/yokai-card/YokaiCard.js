@@ -170,4 +170,12 @@ const YokaiCard = ({ context, match }) => {
     );
 };
 
-export default withRouter(withGameVersionContext(withYokaisContext(YokaiCard)));
+function areEqual(prevProps, nextProps) {
+    if (prevProps.match.url === nextProps.match.url) return true;
+
+    return false;
+}
+
+export default withRouter(
+    withGameVersionContext(withYokaisContext(React.memo(YokaiCard, areEqual)))
+);

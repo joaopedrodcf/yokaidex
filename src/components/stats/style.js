@@ -7,7 +7,7 @@ export const ProgressBar = styled.div`
     justify-content: center;
     width: 100%;
     padding: 0 12px;
-    color: ${props => props.theme.theme().color};
+    color: ${props => props.theme.color};
     font-weight: 600;
     text-transform: uppercase;
 

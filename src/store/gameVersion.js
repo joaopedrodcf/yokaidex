@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
+import memoize from 'fast-memoize';
+import genericWrapperComponent from './genericWrapperComponent';
 import utils from '../components/utils';
+
+// eslint-disable-next-line func-names
+const getState = function(gameVersion, changeGameVersion) {
+    return { gameVersion, changeGameVersion };
+};
+
+const memoizedGetState = memoize(getState);
 
 export const GameVersionContext = React.createContext();
 
 export function withGameVersionContext(Element) {
-    return function WrapperComponent(props) {
-        return (
-            <GameVersionContext.Consumer>
-                {state => (
-                    <Element
-                        {...props}
-                        context={{ ...state, ...props.context }}
-                    />
-                )}
-            </GameVersionContext.Consumer>
-        );
-    };
+    return genericWrapperComponent(GameVersionContext, Element);
 }
 
 class GameVersionProvider extends Component {
@@ -38,7 +36,7 @@ class GameVersionProvider extends Component {
 
         return (
             <GameVersionContext.Provider
-                value={{ gameVersion, changeGameVersion }}
+                value={memoizedGetState(gameVersion, changeGameVersion)}
             >
                 {children}
             </GameVersionContext.Provider>

@@ -145,7 +145,7 @@ class Sidebar extends Component {
                         <ToggleSection>
                             <ToggleSwitch
                                 onChange={context.toggleTheme}
-                                checked={context.isDefaultTheme}
+                                checked={context.isDarkTheme}
                             />
                             <ToggleText>Dark Theme</ToggleText>
                         </ToggleSection>

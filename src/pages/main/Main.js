@@ -41,6 +41,8 @@ import {
 } from '../../store';
 import Global from '../../styles';
 
+const buttonStyle = { width: '160px' };
+
 class Main extends Component {
     constructor(props) {
         super(props);
@@ -56,8 +58,6 @@ class Main extends Component {
             isCollapsedFilterTypes: true
         };
 
-        this.handleCollapse = this.handleCollapse.bind(this);
-        this.handleScroll = this.handleScroll.bind(this);
         this.handleOpenFilterTribes = this.handleOpenFilter.bind(
             this,
             'isCollapsedFilterTribes'
@@ -90,19 +90,26 @@ class Main extends Component {
         window.removeEventListener('scroll', this.handleScroll);
     }
 
-    handleCollapse() {
+    handleSubmit = event => {
+        event.preventDefault();
+    };
+
+    getGradientTribe = tribe => {
+        return {
+            background: `linear-gradient(to bottom, ${utils.getGradientColor(
+                tribes,
+                tribe
+            )})`
+        };
+    };
+
+    handleCollapse = () => {
         const { isCollapsed } = this.state;
 
         this.setState({ isCollapsed: !isCollapsed });
-    }
+    };
 
-    handleOpenFilter(filterType) {
-        this.setState(state => ({
-            [filterType]: !state[filterType]
-        }));
-    }
-
-    handleScroll() {
+    handleScroll = () => {
         const { pageNumber } = this.state;
 
         if (
@@ -111,6 +118,12 @@ class Main extends Component {
         ) {
             this.setState({ pageNumber: pageNumber + 1 });
         }
+    };
+
+    handleOpenFilter(filterType) {
+        this.setState(state => ({
+            [filterType]: !state[filterType]
+        }));
     }
 
     render() {
@@ -137,11 +150,7 @@ class Main extends Component {
                         content="Contains all yo-kais for Yo-kai Watch, their locations, stats, favorite foods, skills and evolutions."
                     />
                 </Helmet>
-                <Form
-                    onSubmit={event => {
-                        event.preventDefault();
-                    }}
-                >
+                <Form onSubmit={this.handleSubmit}>
                     <Input
                         id="name"
                         name="name"
@@ -157,7 +166,7 @@ class Main extends Component {
                                 onClick={this.handleCollapse}
                                 type="button"
                                 label="Filters"
-                                style={{ width: '160px' }}
+                                style={buttonStyle}
                             >
                                 <Filter size={18} />
                             </Button>
@@ -165,7 +174,7 @@ class Main extends Component {
                                 type="button"
                                 onClick={context.handleResetFilter}
                                 label="Reset Filters"
-                                style={{ width: '160px' }}
+                                style={buttonStyle}
                             >
                                 <Trash2 size={18} />
                             </Button>
@@ -465,12 +474,9 @@ class Main extends Component {
                                     )}`}
                                 >
                                     <SectionWrapper
-                                        style={{
-                                            background: `linear-gradient(to bottom, ${utils.getGradientColor(
-                                                tribes,
-                                                yokai.tribe
-                                            )})`
-                                        }}
+                                        style={this.getGradientTribe(
+                                            yokai.tribe
+                                        )}
                                     >
                                         <SectionImageTitle>
                                             <Image

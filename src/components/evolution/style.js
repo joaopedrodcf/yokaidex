@@ -13,14 +13,13 @@ export const Row = styled.div`
     align-items: center;
     justify-content: center;
 `;
-
 export const ContainerEvolutions = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     padding: 12px;
-    color: ${props => props.theme.theme().color};
+    color: ${props => props.theme.color};
 
     ${Column} {
         margin: 0 12px;

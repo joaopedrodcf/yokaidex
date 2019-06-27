@@ -1,20 +1,18 @@
 import React, { Component } from 'react';
+import memoize from 'fast-memoize';
+import genericWrapperComponent from './genericWrapperComponent';
+
+// eslint-disable-next-line func-names
+const getState = function(isSidebarOpen, handleSidebar) {
+    return { isSidebarOpen, handleSidebar };
+};
+
+const memoizedGetState = memoize(getState);
 
 export const SidebarContext = React.createContext();
 
 export function withSidebarContext(Element) {
-    return function WrapperComponent(props) {
-        return (
-            <SidebarContext.Consumer>
-                {state => (
-                    <Element
-                        {...props}
-                        context={{ ...state, ...props.context }}
-                    />
-                )}
-            </SidebarContext.Consumer>
-        );
-    };
+    return genericWrapperComponent(SidebarContext, Element);
 }
 
 class SidebarProvider extends Component {
@@ -39,10 +37,7 @@ class SidebarProvider extends Component {
 
         return (
             <SidebarContext.Provider
-                value={{
-                    isSidebarOpen,
-                    handleSidebar
-                }}
+                value={memoizedGetState(isSidebarOpen, handleSidebar)}
             >
                 {children}
             </SidebarContext.Provider>

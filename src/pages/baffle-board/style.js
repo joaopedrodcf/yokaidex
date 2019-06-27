@@ -21,18 +21,16 @@ export const Table = styled.table`
 
     th {
         padding: 16px;
-        color: ${props => props.theme.theme().table.th.color};
+        color: ${props => props.theme.table.th.color};
         text-align: center;
-        background-color: ${props =>
-            props.theme.theme().table.th.backgroundColor};
+        background-color: ${props => props.theme.table.th.backgroundColor};
     }
 
     td {
         padding: 8px;
-        color: ${props => props.theme.theme().table.tr.color};
+        color: ${props => props.theme.table.tr.color};
         text-align: start;
-        background-color: ${props =>
-            props.theme.theme().table.tr.backgroundColor};
+        background-color: ${props => props.theme.table.tr.backgroundColor};
     }
 
     tr {

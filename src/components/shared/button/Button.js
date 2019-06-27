@@ -7,4 +7,4 @@ const Button = ({ label, type, children, onClick, ...rest }) => (
     </SCButton>
 );
 
-export default Button;
+export default React.memo(Button);

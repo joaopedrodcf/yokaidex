@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
+import memoize from 'fast-memoize';
+import genericWrapperComponent from './genericWrapperComponent';
 import styles from '../styles';
+
+// eslint-disable-next-line func-names
+const getState = function(isDarkTheme, toggleTheme, getTheme) {
+    return { isDarkTheme, toggleTheme, getTheme };
+};
+
+const memoizedGetState = memoize(getState);
 
 export const ThemeContext = React.createContext();
 
 export function withThemeContext(Element) {
-    return function WrapperComponent(props) {
-        return (
-            <ThemeContext.Consumer>
-                {state => (
-                    <Element
-                        {...props}
-                        context={{ ...state, ...props.context }}
-                    />
-                )}
-            </ThemeContext.Consumer>
-        );
-    };
+    return genericWrapperComponent(ThemeContext, Element);
 }
 
 class ThemeProvider extends Component {
@@ -100,14 +98,10 @@ class ThemeProvider extends Component {
 
     render() {
         const { children } = this.props;
-        const {
-            isDarkTheme: isDefaultTheme,
-            toggleTheme,
-            getTheme
-        } = this.state;
+        const { isDarkTheme, toggleTheme, getTheme } = this.state;
         return (
             <ThemeContext.Provider
-                value={{ isDefaultTheme, toggleTheme, getTheme }}
+                value={memoizedGetState(isDarkTheme, toggleTheme, getTheme)}
             >
                 {children}
             </ThemeContext.Provider>

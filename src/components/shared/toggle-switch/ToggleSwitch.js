@@ -2,8 +2,7 @@ import React from 'react';
 import Switch from 'react-switch';
 import styles from '../../../styles';
 
-export default function ToggleSwitch(props) {
-    const { onChange, checked } = props;
+export default function ToggleSwitch({ onChange, checked }) {
     return (
         <Switch
             onColor={styles.color.primary}
