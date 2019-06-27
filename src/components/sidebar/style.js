@@ -31,9 +31,7 @@ export const SCNavLink = styled(NavLink).attrs({
     color: ${props => props.theme.theme().color};
     text-decoration: none;
     background-color: ${props =>
-        props.selected && props.theme.theme().selectedVersion};
-    transition: all 250ms ease-in-out;
-    will-change: transform;
+        props.selected && props.theme.theme().selected.backgroundColor};
 
     svg {
         margin-right: 12px;
@@ -71,8 +69,6 @@ export const SCLink = styled.a`
     color: ${props => props.theme.theme().color};
     text-decoration: none;
     background-color: ${props => props.theme.theme().backgroundColor};
-    transition: all 250ms ease-in-out;
-    will-change: transform;
 
     svg {
         margin-right: 12px;
