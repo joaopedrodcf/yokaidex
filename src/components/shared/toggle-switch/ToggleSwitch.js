@@ -10,6 +10,8 @@ export default function ToggleSwitch({ onChange, checked }) {
             checked={checked}
             checkedIcon={false}
             uncheckedIcon={false}
+            aria-checked={checked}
+            aria-label="Toogle the background color"
         />
     );
 }

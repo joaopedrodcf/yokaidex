@@ -157,6 +157,7 @@ class Main extends Component {
                         value={context.name}
                         onChange={context.handleText}
                         placeholder="Find your yokai by name"
+                        aria-label="Find your yokai by name"
                     >
                         <Search />
                     </Input>
