@@ -44,6 +44,10 @@ class Items extends Component {
         window.removeEventListener('scroll', this.handleScroll);
     }
 
+    handleSubmit = event => {
+        event.preventDefault();
+    };
+
     handleScroll() {
         const { pageNumber } = this.state;
 
@@ -74,11 +78,7 @@ class Items extends Component {
                         }`}
                     />
                 </Helmet>
-                <Form
-                    onSubmit={event => {
-                        event.preventDefault();
-                    }}
-                >
+                <Form onSubmit={this.handleSubmit}>
                     <Input
                         id="name"
                         name="name"

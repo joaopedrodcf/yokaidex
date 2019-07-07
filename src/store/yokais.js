@@ -1,25 +1,23 @@
 import React, { Component } from 'react';
 
+import memoize from 'fast-memoize';
+import genericWrapperComponent from './genericWrapperComponent';
 import yokaisGame1 from '../mocks/yokai-watch-1/yokais';
 import yokaisGame2 from '../mocks/yokai-watch-2/yokais';
 import yokaisGame3 from '../mocks/yokai-watch-3/yokais';
 import utils from '../components/utils';
 
+// eslint-disable-next-line func-names
+const getState = function(yokais, setYokais, getYokai) {
+    return { yokais, setYokais, getYokai };
+};
+
+const memoizedGetState = memoize(getState);
+
 export const YokaisContext = React.createContext();
 
 export function withYokaisContext(Element) {
-    return function WrapperComponent(props) {
-        return (
-            <YokaisContext.Consumer>
-                {state => (
-                    <Element
-                        {...props}
-                        context={{ ...state, ...props.context }}
-                    />
-                )}
-            </YokaisContext.Consumer>
-        );
-    };
+    return genericWrapperComponent(YokaisContext, Element);
 }
 
 class YokaisProvider extends Component {
@@ -75,7 +73,9 @@ class YokaisProvider extends Component {
         const { yokais, setYokais, getYokai } = this.state;
 
         return (
-            <YokaisContext.Provider value={{ yokais, setYokais, getYokai }}>
+            <YokaisContext.Provider
+                value={memoizedGetState(yokais, setYokais, getYokai)}
+            >
                 {children}
             </YokaisContext.Provider>
         );

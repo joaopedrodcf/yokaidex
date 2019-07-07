@@ -12,11 +12,13 @@
     "main": "src/index.js",
     "scripts": {
         "start": "react-scripts start",
-        "build": "react-scripts build --stats && webpack-bundle-analyzer build/bundle-stats.json -m static -r build/bundle-stats.html -O",
+        "build": "react-scripts build",
+        "build-dev": "react-scripts build --stats && webpack-bundle-analyzer build/bundle-stats.json -m static -r build/bundle-stats.html -O",
         "test": "react-scripts test",
         "eject": "react-scripts eject"
     },
     "dependencies": {
+        "fast-memoize": "^2.5.1",
         "history": "^4.9.0",
         "react": "^16.8.6",
         "react-dom": "^16.8.6",
@@ -29,7 +31,7 @@
         "react-scripts": "2.1.8",
         "react-sidebar": "^3.0.2",
         "react-switch": "^5.0.0",
-        "styled-components": "^4.2.0"
+        "styled-components": "^5.0.0-beta.6"
     },
     "devDependencies": {
         "babel-eslint": "10.0.1",
@@ -45,17 +47,17 @@
         "eslint-plugin-markdown": "1.0.0",
         "eslint-plugin-prettier": "3.1.0",
         "eslint-plugin-react": "7.13.0",
+        "eslint-plugin-react-perf": "^3.2.0",
         "husky": "^2.3.0",
         "lint-staged": "^8.1.7",
         "prettier": "1.17.1",
         "prettier-config-joaopedrodcf": "1.0.5",
         "stylelint": "^10.0.1",
-        "stylelint-order": "^3.0.0",
         "stylelint-config-rational-order": "^0.1.2",
         "stylelint-config-recommended": "^2.2.0",
         "stylelint-config-styled-components": "^0.1.1",
-        "stylelint-processor-styled-components": "^1.7.0",
-        "webpack-bundle-analyzer": "^3.3.2"
+        "stylelint-order": "^3.0.0",
+        "stylelint-processor-styled-components": "^1.7.0"
     },
     "browserslist": [
         ">0.2%",

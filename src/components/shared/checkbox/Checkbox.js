@@ -24,4 +24,4 @@ const Checkbox = ({ checked, name, checkboxtype, onChange, label }) => (
     </CheckboxContainer>
 );
 
-export default Checkbox;
+export default React.memo(Checkbox);

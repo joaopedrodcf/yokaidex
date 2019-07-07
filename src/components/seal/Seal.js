@@ -39,4 +39,4 @@ const Seal = ({ yokai, color, gameVersion }) => {
     );
 };
 
-export default Seal;
+export default React.memo(Seal);

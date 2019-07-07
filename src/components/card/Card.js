@@ -12,4 +12,4 @@ const Card = ({ title, color, children }) => {
     );
 };
 
-export default Card;
+export default React.memo(Card);

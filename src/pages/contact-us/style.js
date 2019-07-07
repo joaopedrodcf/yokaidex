@@ -9,7 +9,7 @@ export const Field = styled.div`
 
 export const Label = styled.label`
     margin-bottom: 6px;
-    color: ${props => props.theme.theme().color};
+    color: ${props => props.theme.color};
     font-weight: 600;
     font-size: 18px;
 `;
@@ -35,9 +35,8 @@ export const ButtonArea = styled.div`
     margin: 32px 0;
 
     > button {
-        color: ${props => props.theme.theme().button.color};
-        background-color: ${props =>
-            props.theme.theme().button.backgroundColor};
+        color: ${props => props.theme.button.color};
+        background-color: ${props => props.theme.button.backgroundColor};
     }
 
     @media (min-width: 576px) {

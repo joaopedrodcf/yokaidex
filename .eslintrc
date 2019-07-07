@@ -1,6 +1,10 @@
 {
     "extends": [
-        "joaopedrodcf"
+        "joaopedrodcf",
+        "plugin:react-perf/all"
+    ],
+    "plugins": [
+        "react-perf"
     ],
     "rules": {
         "react/prop-types": [

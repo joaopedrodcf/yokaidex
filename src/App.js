@@ -8,10 +8,11 @@ import { withThemeContext } from './store';
 
 const App = ({ context }) => {
     const { getTheme } = context;
+
     return (
         <>
-            <GlobalStyle theme={{ theme: getTheme }} />
-            <ThemeProvider theme={{ theme: getTheme }}>
+            <GlobalStyle theme={getTheme()} />
+            <ThemeProvider theme={getTheme()}>
                 <Sidebar>
                     <Header />
                     <Routes />

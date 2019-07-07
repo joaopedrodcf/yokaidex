@@ -57,4 +57,10 @@ function Header({ context, history }) {
     );
 }
 
-export default withRouter(withGameVersionContext(withSidebarContext(Header)));
+function areEqual(prevProps, nextProps) {
+    return prevProps.location.pathname === nextProps.location.pathname;
+}
+
+export default withRouter(
+    withGameVersionContext(withSidebarContext(React.memo(Header, areEqual)))
+);

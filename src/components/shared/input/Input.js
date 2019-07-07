@@ -25,4 +25,4 @@ const Input = ({
     </Container>
 );
 
-export default Input;
+export default React.memo(Input);

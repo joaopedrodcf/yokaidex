@@ -180,4 +180,4 @@ const Evolution = ({ yokai, color, gameVersion }) => (
     </>
 );
 
-export default Evolution;
+export default React.memo(Evolution);

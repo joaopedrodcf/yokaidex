@@ -28,4 +28,4 @@ const Image = ({ imageUrl, altText, size, isThumbnail, isToLazyLoad }) => (
     </>
 );
 
-export default Image;
+export default React.memo(Image);

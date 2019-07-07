@@ -1,20 +1,40 @@
 import React, { Component } from 'react';
 
+import memoize from 'fast-memoize';
+
+import genericWrapperComponent from './genericWrapperComponent';
+
+// eslint-disable-next-line func-names
+const getState = function(
+    tribe,
+    rank,
+    element,
+    misc,
+    types,
+    name,
+    handleResetFilter,
+    handleCheckbox,
+    handleText
+) {
+    return {
+        tribe,
+        rank,
+        element,
+        misc,
+        types,
+        name,
+        handleResetFilter,
+        handleCheckbox,
+        handleText
+    };
+};
+
+const memoizedGetState = memoize(getState);
+
 export const FilterMainContext = React.createContext();
 
 export function withFilterMainContext(Element) {
-    return function WrapperComponent(props) {
-        return (
-            <FilterMainContext.Consumer>
-                {state => (
-                    <Element
-                        {...props}
-                        context={{ ...state, ...props.context }}
-                    />
-                )}
-            </FilterMainContext.Consumer>
-        );
-    };
+    return genericWrapperComponent(FilterMainContext, Element);
 }
 
 class FilterMainProvider extends Component {
@@ -85,7 +105,7 @@ class FilterMainProvider extends Component {
 
         return (
             <FilterMainContext.Provider
-                value={{
+                value={memoizedGetState(
                     tribe,
                     rank,
                     element,
@@ -95,7 +115,7 @@ class FilterMainProvider extends Component {
                     handleResetFilter,
                     handleCheckbox,
                     handleText
-                }}
+                )}
             >
                 {children}
             </FilterMainContext.Provider>

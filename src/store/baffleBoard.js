@@ -1,24 +1,22 @@
 import React, { Component } from 'react';
 
+import memoize from 'fast-memoize';
+import genericWrapperComponent from './genericWrapperComponent';
 import baffleBoardYW2 from '../mocks/yokai-watch-2/baffle-boards';
 import baffleBoardYW3 from '../mocks/yokai-watch-3/baffle-boards';
 import utils from '../components/utils';
 
+// eslint-disable-next-line func-names
+const getState = function(baffleBoard, setBaffleBoard) {
+    return { baffleBoard, setBaffleBoard };
+};
+
+const memoizedGetState = memoize(getState);
+
 export const BaffleBoardContext = React.createContext();
 
 export function withBaffleBoardContext(Element) {
-    return function WrapperComponent(props) {
-        return (
-            <BaffleBoardContext.Consumer>
-                {state => (
-                    <Element
-                        {...props}
-                        context={{ ...state, ...props.context }}
-                    />
-                )}
-            </BaffleBoardContext.Consumer>
-        );
-    };
+    return genericWrapperComponent(BaffleBoardContext, Element);
 }
 
 class BaffleBoardProvider extends Component {
@@ -55,7 +53,7 @@ class BaffleBoardProvider extends Component {
 
         return (
             <BaffleBoardContext.Provider
-                value={{ baffleBoard, setBaffleBoard }}
+                value={memoizedGetState(baffleBoard, setBaffleBoard)}
             >
                 {children}
             </BaffleBoardContext.Provider>

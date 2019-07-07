@@ -76,4 +76,4 @@ const Moves = ({ yokai, color }) => {
     );
 };
 
-export default Moves;
+export default React.memo(Moves);

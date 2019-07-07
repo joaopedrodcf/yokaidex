@@ -29,4 +29,4 @@ const BigLabel = ({
     );
 };
 
-export default BigLabel;
+export default React.memo(BigLabel);

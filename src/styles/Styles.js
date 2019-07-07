@@ -16,9 +16,9 @@ const Container = styled.div`
     align-items: center;
     margin-top: 56px;
     padding: 12px;
-    color: ${props => props.theme.theme().color};
+    color: ${props => props.theme.color};
     font-size: 16px;
-    background-color: ${props => props.theme.theme().backgroundColor};
+    background-color: ${props => props.theme.backgroundColor};
 
     @media (min-width: 960px) {
         padding: 12px 125px;
@@ -111,7 +111,7 @@ export const Card = styled.div`
     justify-content: center;
     width: 100%;
     text-align: center;
-    background-color: ${props => props.theme.theme().card.backgroundColor};
+    background-color: ${props => props.theme.card.backgroundColor};
     border-radius: 12px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 `;
@@ -130,7 +130,7 @@ export const CardTitle = styled.div`
 
 export const CardText = styled.div`
     padding: 12px;
-    color: ${props => props.theme.theme().color};
+    color: ${props => props.theme.color};
     font-size: 18px;
     border-radius: 0 0 12px 12px;
     img {

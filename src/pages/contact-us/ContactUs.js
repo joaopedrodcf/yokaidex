@@ -21,18 +21,15 @@ class ContactUs extends Component {
         };
 
         this.state = this.initialState;
-
-        this.handleText = this.handleText.bind(this);
-        this.handleSubmit = this.handleSubmit.bind(this);
     }
 
-    handleText(event) {
+    handleText = event => {
         this.setState({
             [event.target.name]: event.target.value
         });
-    }
+    };
 
-    async handleSubmit() {
+    handleSubmit = async () => {
         const { name, email, subject, message } = this.state;
         const { context } = this.props;
         const endpoint = endpoints.mailEndpoint;
@@ -62,7 +59,7 @@ class ContactUs extends Component {
                     }, 500);
                 });
             });
-    }
+    };
 
     render() {
         const { name, email, subject, message } = this.state;
