@@ -20,7 +20,7 @@ const memoizedGetState = memoize(getState);
 export const ItemsContext = React.createContext();
 
 export function withItemsContext(Element) {
-    return genericWrapperComponent(ItemsContext, Element);
+    return genericWrapperComponent('withItemsContext', ItemsContext, Element);
 }
 
 class ItemsProvider extends Component {

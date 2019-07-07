@@ -34,7 +34,11 @@ const memoizedGetState = memoize(getState);
 export const FilterMainContext = React.createContext();
 
 export function withFilterMainContext(Element) {
-    return genericWrapperComponent(FilterMainContext, Element);
+    return genericWrapperComponent(
+        'withFilterMainContext',
+        FilterMainContext,
+        Element
+    );
 }
 
 class FilterMainProvider extends Component {

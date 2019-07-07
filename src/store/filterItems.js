@@ -13,7 +13,11 @@ const memoizedGetState = memoize(getState);
 export const FilterItemsContext = React.createContext();
 
 export function withFilterItemsContext(Element) {
-    return genericWrapperComponent(FilterItemsContext, Element);
+    return genericWrapperComponent(
+        'withFilterItemsContext',
+        FilterItemsContext,
+        Element
+    );
 }
 
 class FilterItemsProvider extends Component {

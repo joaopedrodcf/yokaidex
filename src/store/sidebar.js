@@ -12,7 +12,11 @@ const memoizedGetState = memoize(getState);
 export const SidebarContext = React.createContext();
 
 export function withSidebarContext(Element) {
-    return genericWrapperComponent(SidebarContext, Element);
+    return genericWrapperComponent(
+        'withSidebarContext',
+        SidebarContext,
+        Element
+    );
 }
 
 class SidebarProvider extends Component {

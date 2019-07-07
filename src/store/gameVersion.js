@@ -13,7 +13,11 @@ const memoizedGetState = memoize(getState);
 export const GameVersionContext = React.createContext();
 
 export function withGameVersionContext(Element) {
-    return genericWrapperComponent(GameVersionContext, Element);
+    return genericWrapperComponent(
+        'withGameVersionContext',
+        GameVersionContext,
+        Element
+    );
 }
 
 class GameVersionProvider extends Component {

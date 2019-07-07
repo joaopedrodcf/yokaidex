@@ -17,7 +17,11 @@ const memoizedGetState = memoize(getState);
 export const CrankakaisContext = React.createContext();
 
 export function withCrankakaisContext(Element) {
-    return genericWrapperComponent(CrankakaisContext, Element);
+    return genericWrapperComponent(
+        'withCrankakaisContext',
+        CrankakaisContext,
+        Element
+    );
 }
 
 class CrankakaisProvider extends Component {

@@ -17,7 +17,7 @@ const memoizedGetState = memoize(getState);
 export const YokaisContext = React.createContext();
 
 export function withYokaisContext(Element) {
-    return genericWrapperComponent(YokaisContext, Element);
+    return genericWrapperComponent('withYokaisContext', YokaisContext, Element);
 }
 
 class YokaisProvider extends Component {

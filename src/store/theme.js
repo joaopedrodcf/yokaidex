@@ -13,7 +13,7 @@ const memoizedGetState = memoize(getState);
 export const ThemeContext = React.createContext();
 
 export function withThemeContext(Element) {
-    return genericWrapperComponent(ThemeContext, Element);
+    return genericWrapperComponent('withThemeContext', ThemeContext, Element);
 }
 
 class ThemeProvider extends Component {

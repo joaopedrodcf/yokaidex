@@ -16,7 +16,11 @@ const memoizedGetState = memoize(getState);
 export const BaffleBoardContext = React.createContext();
 
 export function withBaffleBoardContext(Element) {
-    return genericWrapperComponent(BaffleBoardContext, Element);
+    return genericWrapperComponent(
+        'withBaffleBoardContext',
+        BaffleBoardContext,
+        Element
+    );
 }
 
 class BaffleBoardProvider extends Component {

@@ -8,7 +8,7 @@ const getProps = function(state, context) {
 
 const memoizedGetProps = memoize(getProps);
 
-const genericWrapperComponent = (ComponentContext, Element) => {
+const genericWrapperComponent = (name, ComponentContext, Element) => {
     function WrapperComponent(props) {
         return (
             <ComponentContext.Consumer>
@@ -22,8 +22,7 @@ const genericWrapperComponent = (ComponentContext, Element) => {
         );
     }
 
-    WrapperComponent.displayName = `withBaffleBoardContext(${Element.displayName ||
-        Element.name}`;
+    WrapperComponent.displayName = name;
     return WrapperComponent;
 };
 
