@@ -1,6 +1,6 @@
 import React, { Component, Suspense, lazy } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import createHistory from 'history/createBrowserHistory';
+import { createBrowserHistory } from 'history';
 import ReactGA from 'react-ga';
 
 const YokaiCard = lazy(() => import('./pages/yokai-card'));
@@ -12,7 +12,7 @@ const Items = lazy(() => import('./pages/items'));
 const Crankakai = lazy(() => import('./pages/crankakai'));
 const ContactUs = lazy(() => import('./pages/contact-us'));
 
-const history = createHistory();
+const history = createBrowserHistory();
 history.listen(location => {
     const page = location.pathname;
 
@@ -29,6 +29,7 @@ class Routes extends Component {
 
     render() {
         return (
+            // eslint-disable-next-line react-perf/jsx-no-jsx-as-prop
             <Suspense fallback={<div>Loading...</div>}>
                 <Switch>
                     <Route exact path="/" component={Main} />

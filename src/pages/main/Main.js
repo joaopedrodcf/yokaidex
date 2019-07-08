@@ -50,7 +50,6 @@ class Main extends Component {
         this.state = {
             isCollapsed: true,
             pageNumber: 0,
-            yokaisToShow: 15,
             isCollapsedFilterTribes: true,
             isCollapsedFilterRanks: true,
             isCollapsedFilterElements: true,
@@ -80,6 +79,7 @@ class Main extends Component {
         );
 
         this.listref = React.createRef();
+        this.yokaisToShow = 15;
     }
 
     componentDidMount() {
@@ -130,7 +130,6 @@ class Main extends Component {
         const {
             isCollapsed,
             pageNumber,
-            yokaisToShow,
             isCollapsedFilterTribes,
             isCollapsedFilterRanks,
             isCollapsedFilterElements,
@@ -463,7 +462,7 @@ class Main extends Component {
 
                             return aux;
                         })
-                        .slice(0, (pageNumber + 1) * yokaisToShow)
+                        .slice(0, (pageNumber + 1) * this.yokaisToShow)
                         .map(yokai => (
                             <Section key={yokai.name + yokai.tribe}>
                                 <Link
