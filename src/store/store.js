@@ -19,24 +19,20 @@ function ProviderComposer({ contexts, children }) {
     );
 }
 
+const contexts = [
+    <GameVersionProvider />,
+    <YokaisProvider />,
+    <BaffleBoardProvider />,
+    <ItemsProvider />,
+    <FilterMainProvider />,
+    <SidebarProvider />,
+    <FilterItemsProvider />,
+    <CrankakaisProvider />,
+    <ThemeProvider />
+];
+
 function ContextProvider({ children }) {
-    return (
-        <ProviderComposer
-            contexts={[
-                <GameVersionProvider />,
-                <YokaisProvider />,
-                <BaffleBoardProvider />,
-                <ItemsProvider />,
-                <FilterMainProvider />,
-                <SidebarProvider />,
-                <FilterItemsProvider />,
-                <CrankakaisProvider />,
-                <ThemeProvider />
-            ]}
-        >
-            {children}
-        </ProviderComposer>
-    );
+    return <ProviderComposer contexts={contexts}>{children}</ProviderComposer>;
 }
 
 export default ContextProvider;
