@@ -8,6 +8,7 @@ import endpoints from '../../Services/services';
 import Input from '../../components/shared/input';
 import { withGameVersionContext } from '../../store';
 import Global from '../../styles';
+import withTracker from '../../components/shared/with-tracker';
 
 class ContactUs extends Component {
     constructor() {
@@ -135,4 +136,4 @@ class ContactUs extends Component {
     }
 }
 
-export default withRouter(withGameVersionContext(ContactUs));
+export default withRouter(withGameVersionContext(withTracker(ContactUs)));

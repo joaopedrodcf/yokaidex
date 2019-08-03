@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet';
 import { Row } from './style';
 import Global from '../../styles';
+import withTracker from '../../components/shared/with-tracker';
 
 const AboutUs = () => (
     <Global.Container>
@@ -25,4 +26,4 @@ const AboutUs = () => (
     </Global.Container>
 );
 
-export default React.memo(AboutUs);
+export default React.memo(withTracker(AboutUs));

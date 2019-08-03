@@ -7,6 +7,7 @@ import Image from '../../components/shared/image';
 import utils from '../../components/utils';
 import { withGameVersionContext, withBaffleBoardContext } from '../../store';
 import Global from '../../styles';
+import withTracker from '../../components/shared/with-tracker';
 
 const BaffleBoard = ({ context, history }) => {
     const goTo = (name, gameVersion) => {
@@ -24,9 +25,7 @@ const BaffleBoard = ({ context, history }) => {
                 </title>
                 <meta
                     name="description"
-                    content={`Baffle board is quiz that unlocks special features in Yo-kai Watch ${
-                        context.gameVersion
-                    }`}
+                    content={`Baffle board is quiz that unlocks special features in Yo-kai Watch ${context.gameVersion}`}
                 />
             </Helmet>
             <Table>
@@ -66,5 +65,5 @@ const BaffleBoard = ({ context, history }) => {
 };
 
 export default withRouter(
-    withGameVersionContext(withBaffleBoardContext(BaffleBoard))
+    withGameVersionContext(withBaffleBoardContext(withTracker(BaffleBoard)))
 );

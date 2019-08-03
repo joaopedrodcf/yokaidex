@@ -40,6 +40,7 @@ import {
     withFilterMainContext
 } from '../../store';
 import Global from '../../styles';
+import withTracker from '../../components/shared/with-tracker';
 
 const buttonStyle = { width: '160px' };
 
@@ -532,5 +533,7 @@ class Main extends Component {
 }
 
 export default withRouter(
-    withGameVersionContext(withYokaisContext(withFilterMainContext(Main)))
+    withGameVersionContext(
+        withYokaisContext(withFilterMainContext(withTracker(Main)))
+    )
 );

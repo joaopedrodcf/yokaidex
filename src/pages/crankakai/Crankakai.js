@@ -7,6 +7,7 @@ import Image from '../../components/shared/image';
 import { withGameVersionContext, withCrankakaisContext } from '../../store';
 import utils from '../../components/utils';
 import Global from '../../styles';
+import withTracker from '../../components/shared/with-tracker';
 
 const Crankakai = ({ context }) => {
     return (
@@ -40,4 +41,6 @@ const Crankakai = ({ context }) => {
     );
 };
 
-export default withGameVersionContext(withCrankakaisContext(Crankakai));
+export default withGameVersionContext(
+    withCrankakaisContext(withTracker(Crankakai))
+);

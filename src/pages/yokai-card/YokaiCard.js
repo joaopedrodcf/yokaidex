@@ -15,6 +15,7 @@ import Moves from '../../components/moves';
 import Seal from '../../components/seal';
 import Card from '../../components/card';
 import BigLabel from '../../components/big-label';
+import withTracker from '../../components/shared/with-tracker';
 
 const YokaiCard = ({ context, match }) => {
     const yokai = context.getYokai(match.params.name);
@@ -35,16 +36,10 @@ const YokaiCard = ({ context, match }) => {
     return (
         <Global.Container>
             <Helmet>
-                <title>{`${
-                    yokai.name
-                } | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
+                <title>{`${yokai.name} | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
                 <meta
                     name="description"
-                    content={`${yokai.name} is a yo-kai from ${
-                        yokai.tribe
-                    } tribe, of the rank ${yokai.rank} and with the attribute ${
-                        yokai.element
-                    } in Yo-kai Watch ${context.gameVersion}`}
+                    content={`${yokai.name} is a yo-kai from ${yokai.tribe} tribe, of the rank ${yokai.rank} and with the attribute ${yokai.element} in Yo-kai Watch ${context.gameVersion}`}
                 />
                 <meta name="og:image" content={yokai.image} />
             </Helmet>
@@ -177,5 +172,7 @@ function areEqual(prevProps, nextProps) {
 }
 
 export default withRouter(
-    withGameVersionContext(withYokaisContext(React.memo(YokaiCard, areEqual)))
+    withGameVersionContext(
+        withYokaisContext(React.memo(withTracker(YokaiCard), areEqual))
+    )
 );

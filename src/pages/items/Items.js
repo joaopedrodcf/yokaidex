@@ -21,6 +21,7 @@ import {
 import { items as itemsFilters } from '../../mocks/filters';
 import Checkbox from '../../components/shared/checkbox';
 import Global from '../../styles';
+import withTracker from '../../components/shared/with-tracker';
 
 class Items extends Component {
     constructor(props) {
@@ -73,9 +74,7 @@ class Items extends Component {
                     </title>
                     <meta
                         name="description"
-                        content={`Items that can be collected in Yo-kai Watch ${
-                            context.gameVersion
-                        }`}
+                        content={`Items that can be collected in Yo-kai Watch ${context.gameVersion}`}
                     />
                 </Helmet>
                 <Form onSubmit={this.handleSubmit}>
@@ -138,9 +137,9 @@ class Items extends Component {
                                 <Link
                                     to={`/yokai-watch-${
                                         context.gameVersion
-                                    }/items/${utils.uniformizeNames(
-                                        item.name
-                                    )}`}
+                                        }/items/${utils.uniformizeNames(
+                                            item.name
+                                        )}`}
                                 >
                                     <SectionWrapper>
                                         <Image
@@ -161,5 +160,5 @@ class Items extends Component {
 }
 
 export default withGameVersionContext(
-    withItemsContext(withFilterItemsContext(Items))
+    withItemsContext(withFilterItemsContext(withTracker(Items)))
 );

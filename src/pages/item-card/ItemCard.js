@@ -14,6 +14,7 @@ import utils from '../../components/utils';
 import Global from '../../styles';
 import Card from '../../components/card';
 import BigLabel from '../../components/big-label';
+import withTracker from '../../components/shared/with-tracker';
 
 const hasStatsInfo = statsInfo =>
     Object.keys(statsInfo).some(key => statsInfo[key] !== '0');
@@ -30,14 +31,10 @@ const ItemCard = ({ context, match }) => {
     return (
         <Global.Container>
             <Helmet>
-                <title>{`${
-                    item.name
-                } | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
+                <title>{`${item.name} | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}</title>
                 <meta
                     name="description"
-                    content={`${item.name} is an item from Yo-kai Watch ${
-                        context.gameVersion
-                    }`}
+                    content={`${item.name} is an item from Yo-kai Watch ${context.gameVersion}`}
                 />
                 <meta name="og:image" content={item.image} />
             </Helmet>
@@ -300,5 +297,7 @@ const ItemCard = ({ context, match }) => {
 };
 
 export default withRouter(
-    withGameVersionContext(withItemsContext(withCrankakaisContext(ItemCard)))
+    withGameVersionContext(
+        withItemsContext(withCrankakaisContext(withTracker(ItemCard)))
+    )
 );
