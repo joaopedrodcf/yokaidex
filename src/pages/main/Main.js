@@ -171,14 +171,20 @@ class Main extends Component {
                             >
                                 <Filter size={18} />
                             </Button>
-                            <Button
-                                type="button"
-                                onClick={context.handleResetFilter}
-                                label="Reset Filters"
-                                style={buttonStyle}
-                            >
-                                <Trash2 size={18} />
-                            </Button>
+                            {(context.tribe.length > 0 ||
+                                context.rank.length > 0 ||
+                                context.element.length > 0 ||
+                                context.types.length > 0 ||
+                                context.misc.length > 0) && (
+                                <Button
+                                    type="button"
+                                    onClick={context.handleResetFilter}
+                                    label="Reset Filters"
+                                    style={buttonStyle}
+                                >
+                                    <Trash2 size={18} />
+                                </Button>
+                            )}
                         </FilterButtons>
                         <Filters>
                             <Column>

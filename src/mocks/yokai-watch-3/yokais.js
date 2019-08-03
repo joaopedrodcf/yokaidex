@@ -45,7 +45,24 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'e',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'Flippit',
@@ -93,7 +110,24 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Rice balls',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'Pandle',
@@ -140,7 +174,24 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Rice balls',
-        evolutionIndexes: [0]
+        evolutionIndexes: [0],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'Undy',
@@ -427,7 +478,24 @@ const yokais = [
         weakness: 'Fire',
         rank: 'e',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [2]
+        evolutionIndexes: [2],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'Washogun',
@@ -573,7 +641,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chinese foods',
-        evolutionIndexes: [4]
+        evolutionIndexes: [4],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Hissfit',
@@ -1190,7 +1265,44 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Hot Dogs',
         evolutionIndexes: [10],
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            },
+            {
+                name: 'Brave Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/brave_dream_coin.png'
+            },
+            {
+                name: 'Princess Dre. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/princess_dre._coin.png'
+            },
+            {
+                name: 'G1 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g1_dream_coin.png'
+            },
+            {
+                name: 'G3 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g3_dream_coin.png'
+            }
+        ]
     },
     {
         name: 'Slugger',
@@ -1289,7 +1401,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Vegetables',
-        evolutionIndexes: [11]
+        evolutionIndexes: [11],
+        crankakai: [
+            {
+                name: 'Sealed Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/sealed_coin.png'
+            }
+        ]
     },
     {
         name: 'Reuknight',
@@ -1584,7 +1703,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Odens',
-        evolutionIndexes: [14]
+        evolutionIndexes: [14],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'El Gutso',
@@ -1632,7 +1758,24 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Meats',
-        evolutionIndexes: [16]
+        evolutionIndexes: [16],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'El Gutso Grande',
@@ -1730,7 +1873,24 @@ const yokais = [
         rank: 'c',
         favouriteFood: 'Odens',
         evolutionIndexes: [15],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'BBQvil',
@@ -1779,7 +1939,69 @@ const yokais = [
         weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Meats',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            },
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/one-star_coin.png'
+            },
+            {
+                name: 'Brave Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/brave_dream_coin.png'
+            },
+            {
+                name: 'Princess Dre. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/princess_dre._coin.png'
+            },
+            {
+                name: 'G1 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g1_dream_coin.png'
+            },
+            {
+                name: 'G3 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g3_dream_coin.png'
+            },
+            {
+                name: 'Joyful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/joyful_coin.png'
+            },
+            {
+                name: 'Beaming Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/beaming_coin.png'
+            },
+            {
+                name: 'Demonic Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/demonic_coin.png'
+            },
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Liarbird',
@@ -1873,7 +2095,24 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'B3-NK1',
@@ -1969,7 +2208,29 @@ const yokais = [
         weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Meats',
-        evolutionIndexes: [17, 18]
+        evolutionIndexes: [17, 18],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            },
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Quaken',
@@ -2017,7 +2278,24 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'Siro',
@@ -2065,7 +2343,34 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            },
+            {
+                name: 'Five-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/five-star_coin.png'
+            },
+            {
+                name: 'Yo Mystery Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yo_mystery_coin.png'
+            }
+        ]
     },
     {
         name: 'Chansin',
@@ -2308,7 +2613,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Seafoods',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Moximous N',
@@ -2455,7 +2767,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Hot Dogs',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Sushiyama',
@@ -2552,7 +2865,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sobas',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Beetler',
@@ -2600,7 +2914,24 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Vegetables',
-        evolutionIndexes: [22]
+        evolutionIndexes: [22],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'Beetall',
@@ -2697,7 +3028,44 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            },
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/one-star_coin.png'
+            },
+            {
+                name: 'Five-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/five-star_coin.png'
+            },
+            {
+                name: 'Special Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Machonyan',
@@ -2746,7 +3114,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Momonyan',
@@ -2844,7 +3213,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Snacks',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Sgt. Burly',
@@ -2892,7 +3262,14 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'hamburgers',
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Bison Burly',
@@ -2988,7 +3365,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        crankakai: []
     },
     {
         name: 'Devourer',
@@ -3036,7 +3414,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Illuminoct',
@@ -3134,7 +3519,19 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Demonic Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/demonic_coin.png'
+            },
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Shurikenny',
@@ -3232,7 +3629,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: []
     },
     {
         name: 'Camellia',
@@ -3281,7 +3679,14 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Five-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/five-star_coin.png'
+            }
+        ]
     },
     {
         name: 'Brokenbrella',
@@ -3329,7 +3734,14 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'e',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        crankakai: [
+            {
+                name: 'Wanderer Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wanderer_coin.png'
+            }
+        ]
     },
     {
         name: 'Pittapatt',
@@ -3428,7 +3840,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Donuts',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Slippup',
@@ -3716,7 +4129,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Hamburgers',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Wazzat',
@@ -3765,7 +4185,24 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Candies',
-        evolutionIndexes: [24]
+        evolutionIndexes: [24],
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Houzzat',
@@ -3911,7 +4348,24 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Pastas',
-        evolutionIndexes: [25]
+        evolutionIndexes: [25],
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Too-Much-To-Take',
@@ -3960,7 +4414,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Pastas',
-        evolutionIndexes: [25]
+        evolutionIndexes: [25],
+        crankakai: [
+            {
+                name: 'Underworld Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/underworld_coin.png'
+            }
+        ]
     },
     {
         name: 'Why Naant',
@@ -4009,7 +4470,24 @@ const yokais = [
         weakness: 'Earth',
         rank: 'e',
         favouriteFood: 'Curries',
-        evolutionIndexes: [26]
+        evolutionIndexes: [26],
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Naandhi',
@@ -4058,7 +4536,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Curries',
-        evolutionIndexes: [26]
+        evolutionIndexes: [26],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Faysoff',
@@ -4107,7 +4592,24 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Odens',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Snottle',
@@ -4155,7 +4657,14 @@ const yokais = [
         weakness: '-',
         rank: 'd',
         favouriteFood: 'Snacks',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Legsit',
@@ -4251,7 +4760,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Ice creams',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Cornfused',
@@ -4300,7 +4810,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Donuts',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Unshelltered',
@@ -4349,7 +4860,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Breads',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Lafalotta',
@@ -4444,7 +4956,24 @@ const yokais = [
         element: 'Drain',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'hamburgers',
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Tattletell',
@@ -4588,7 +5117,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Ramens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/one-star_coin.png'
+            }
+        ]
     },
     {
         name: 'Cupistol',
@@ -4686,7 +5222,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [30]
+        evolutionIndexes: [30],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Casanono',
@@ -4734,7 +5277,29 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'a',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            },
+            {
+                name: 'Five-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/five-star_coin.png'
+            } 
+        ]
     },
     {
         name: 'So-Sorree',
@@ -4783,7 +5348,8 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Curries',
         evolutionIndexes: [32],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Bowminos',
@@ -4933,7 +5499,14 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Sweets',
         evolutionIndexes: [33, 121],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Signibble',
@@ -5177,7 +5750,14 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Apelican',
@@ -5226,7 +5806,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Hamburgers',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Fuu 2',
@@ -5569,7 +6150,29 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            },
+            {
+                name: 'Wanderer Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wanderer_coin.png'
+            }
+        ]
     },
     {
         name: 'Alloo',
@@ -5811,7 +6414,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Chinese foods',
-        evolutionIndexes: [35]
+        evolutionIndexes: [35],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Mircle',
@@ -5858,7 +6468,19 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        crankakai: [
+            {
+                name: 'Joyful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/joyful_coin.png'
+            },
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Verygoodsir',
@@ -5905,7 +6527,14 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        crankakai: [
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Statikid',
@@ -5953,7 +6582,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        crankakai: []
     },
     {
         name: 'Prof. Plumage',
@@ -6049,7 +6679,29 @@ const yokais = [
         element: 'Drain',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            },
+            {
+                name: 'S Souvenir Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/s_souvenir_coin.png'
+            }
+        ]
     },
     {
         name: 'Imagenius',
@@ -6099,7 +6751,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Ice creams',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Miss Teri',
@@ -6197,7 +6850,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Sweets',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Squandeer',
@@ -6343,7 +6997,14 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Candies',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Kyubi',
@@ -6391,7 +7052,14 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 's',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Frostail',
@@ -6439,7 +7107,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Odens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Chymera',
@@ -6537,7 +7206,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Toadal Demon',
@@ -6586,7 +7262,19 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Demonic Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/demonic_coin.png'
+            },
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Thurston',
@@ -6635,7 +7323,29 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Special Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Sushi Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/sushi_coin.png'
+            },
+            {
+                name: 'Underworld Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/underworld_coin.png'
+            },
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Spect-hare',
@@ -6735,7 +7445,34 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: [
+            {
+                name: 'Special Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Sushi Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/sushi_coin.png'
+            },
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Oh Wheel',
@@ -6784,7 +7521,24 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Donuts',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: [
+            {
+                name: 'Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Super Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_orange_coin.png'
+            },
+            {
+                name: 'Ultra Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Dulluma',
@@ -6832,7 +7586,24 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Curries',
-        evolutionIndexes: [7]
+        evolutionIndexes: [7],
+        crankakai: [
+            {
+                name: 'Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Super Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_orange_coin.png'
+            },
+            {
+                name: 'Ultra Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Darumacho',
@@ -6928,7 +7699,24 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: [
+            {
+                name: 'Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Super Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_orange_coin.png'
+            },
+            {
+                name: 'Ultra Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_orange_coin.png'
+            }
+        ]
     },
     {
         name: 'Wotchagot',
@@ -7172,7 +7960,34 @@ const yokais = [
         weakness: 'Wind',
         rank: 'e',
         favouriteFood: 'Snacks',
-        evolutionIndexes: [38]
+        evolutionIndexes: [38],
+        crankakai: [
+            {
+                name: 'Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Super Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_orange_coin.png'
+            },
+            {
+                name: 'Ultra Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_orange_coin.png'
+            },
+            {
+                name: 'Wanderer Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wanderer_coin.png'
+            },
+            {
+                name: 'Sealed Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/sealed_coin.png'
+            }
+        ]
     },
     {
         name: 'Blownhistoppa',
@@ -7366,7 +8181,29 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Ramens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Super Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_orange_coin.png'
+            },
+            {
+                name: 'Ultra Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_orange_coin.png'
+            },
+            {
+                name: 'Five-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/five-star_coin.png'
+            }
+        ]
     },
     {
         name: 'Roughraff',
@@ -7612,7 +8449,39 @@ const yokais = [
         rank: 'e',
         favouriteFood: 'Candies',
         evolutionIndexes: [42],
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: [
+            {
+                name: 'Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/orange_coin.png'
+            },
+            {
+                name: 'Super Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_orange_coin.png'
+            },
+            {
+                name: 'Ultra Orange Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_orange_coin.png'
+            },
+            {
+                name: 'Platin. Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/platin._dream_coin.png'
+            },
+            {
+                name: 'Princess Dre. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/princess_dre._coin.png'
+            },
+            {
+                name: 'G2 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g2_dream_coin.png'
+            }
+        ]
     },
     {
         name: 'Stircrazy Stu',
@@ -7810,7 +8679,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'd',
         favouriteFood: 'Vegetables',
-        evolutionIndexes: [11]
+        evolutionIndexes: [11],
+        crankakai: [
+            {
+                name: 'Sealed Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/sealed_coin.png'
+            }
+        ]
     },
     {
         name: 'Mimikin',
@@ -7858,7 +8734,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: []
     },
     {
         name: 'Oh Bah Gah!',
@@ -7906,7 +8783,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Hamburgers',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Speedemountain',
@@ -7955,7 +8833,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Curries',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Blowkade',
@@ -8099,7 +8978,8 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Sobas',
         evolutionIndexes: [44],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Yokozudon',
@@ -8638,7 +9518,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: []
     },
     {
         name: 'Sing Kong',
@@ -8687,7 +9568,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Hot Dogs',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Slippy',
@@ -8733,7 +9615,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: []
     },
     {
         name: 'Repossessor',
@@ -8782,7 +9665,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        crankakai: []
     },
     {
         name: 'Mr. Blockhead',
@@ -8830,7 +9714,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: []
     },
     {
         name: 'Mad Mountain',
@@ -8927,7 +9812,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'b',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: []
     },
     {
         name: 'Castelius III',
@@ -9170,7 +10056,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Rhinoggin',
@@ -9316,7 +10203,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Kintaronyan',
@@ -9414,7 +10302,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Robonyan',
@@ -9463,7 +10352,8 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Chocobars',
         evolutionIndexes: [54],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Robonyan F',
@@ -9512,7 +10402,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Showbonyan',
@@ -9610,7 +10501,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Dromp',
@@ -9756,7 +10648,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Uber Geeko',
@@ -9805,7 +10704,14 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Gargaros',
@@ -9853,7 +10759,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Ogralus',
@@ -9901,7 +10808,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Orcanos',
@@ -9949,7 +10857,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Kabuking',
@@ -9998,7 +10907,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Jawsome Kid',
@@ -10096,7 +11006,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Hot Dogs',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: []
     },
     {
         name: 'Silver Lining',
@@ -10145,7 +11056,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Leggly',
@@ -10193,7 +11111,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Water',
         rank: 'e',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        crankakai: []
     },
     {
         name: 'Twirly Pie',
@@ -10241,7 +11160,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'e',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        crankakai: []
     },
     {
         name: 'Petty-Cake',
@@ -10291,7 +11211,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Sweets',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Hoppy-go-Lucky',
@@ -10340,7 +11261,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Vegetables',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Dazzabel',
@@ -10389,7 +11311,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Sweets',
-        evolutionIndexes: [31]
+        evolutionIndexes: [31],
+        crankakai: []
     },
     {
         name: 'Rattelle',
@@ -10486,7 +11409,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Sweets',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Cadin',
@@ -10680,7 +11604,8 @@ const yokais = [
         rank: 'e',
         favouriteFood: 'Milks',
         evolutionIndexes: [56],
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Punching Baguette',
@@ -10873,7 +11798,14 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Ramens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Unbelievaboy!',
@@ -10923,7 +11855,8 @@ const yokais = [
         rank: 'e',
         favouriteFood: 'Snacks',
         evolutionIndexes: [58],
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Unbearaboy!',
@@ -11022,7 +11955,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Snacks',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: []
     },
     {
         name: 'Jumbelina',
@@ -11069,7 +12003,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        crankakai: []
     },
     {
         name: 'Boyclops',
@@ -11215,7 +12150,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'd',
         favouriteFood: 'Hot Dogs',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Kittylumbus',
@@ -11264,7 +12200,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Seafoods',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Zest-a-Minute',
@@ -11314,7 +12251,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Sweets',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Baku',
@@ -11363,7 +12301,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Juices',
-        evolutionIndexes: [59]
+        evolutionIndexes: [59],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Whapir',
@@ -11411,7 +12356,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Bakulia',
@@ -11510,7 +12462,8 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Sushis',
         evolutionIndexes: [60],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Panja Pro',
@@ -11608,7 +12561,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Pastas',
-        evolutionIndexes: [61]
+        evolutionIndexes: [61],
+        crankakai: []
     },
     {
         name: 'Demandi',
@@ -11851,7 +12805,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Chocobars',
-        evolutionIndexes: [63, 64]
+        evolutionIndexes: [63, 64],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Jibanyan B',
@@ -12094,7 +13055,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        evolutionIndexes: [64]
+        evolutionIndexes: [64],
+        crankakai: []
     },
     {
         name: 'Baddinyan',
@@ -12143,7 +13105,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        evolutionIndexes: [63]
+        evolutionIndexes: [63],
+        crankakai: []
     },
     {
         name: 'Buchinyan',
@@ -12241,7 +13204,14 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Ice creams',
         evolutionIndexes: [129],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Komane',
@@ -12291,7 +13261,14 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Ice creams',
         evolutionIndexes: [129],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Komasan B',
@@ -12531,7 +13508,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Milks',
-        evolutionIndexes: [130]
+        evolutionIndexes: [130],
+        crankakai: []
     },
     {
         name: 'Komiger',
@@ -12674,7 +13652,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        crankakai: []
     },
     {
         name: 'Nekidspeed',
@@ -12722,7 +13701,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: []
     },
     {
         name: 'Stinkeye',
@@ -12771,7 +13751,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Pizzas',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Slackoon',
@@ -12869,7 +13850,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Juices',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Ballin',
@@ -12966,7 +13954,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Hamburgers',
-        evolutionIndexes: [67, 68]
+        evolutionIndexes: [67, 68],
+        crankakai: []
     },
     {
         name: 'Pinkipoo',
@@ -13015,7 +14004,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Hamburgers',
-        evolutionIndexes: [67]
+        evolutionIndexes: [67],
+        crankakai: []
     },
     {
         name: 'Pookivil',
@@ -13064,7 +14054,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Hamburgers',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Harry Barry',
@@ -13112,7 +14103,8 @@ const yokais = [
         element: 'Restoration',
         weakness: '-',
         rank: 'b',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        crankakai: []
     },
     {
         name: 'Wondernyan',
@@ -13164,7 +14156,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Excellent Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/excellent_coin.png'
+            }
+        ]
     },
     {
         name: 'Jetnyan',
@@ -13262,7 +14261,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Wanderer Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wanderer_coin.png'
+            }
+        ]
     },
     {
         name: 'Tomnyan',
@@ -13408,7 +14414,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Candies',
-        evolutionIndexes: [69]
+        evolutionIndexes: [69],
+        crankakai: []
     },
     {
         name: 'Blizzaria',
@@ -13504,7 +14511,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Candies',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Melonyan',
@@ -13553,7 +14561,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Oranyan',
@@ -13601,7 +14610,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Kiwinyan',
@@ -13650,7 +14660,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Grapenyan',
@@ -13698,7 +14709,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Tempura Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/tempura_coin.png'
+            }
+        ]
     },
     {
         name: 'Strawbnyan',
@@ -13747,7 +14765,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Sushi Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sushi_coin.png'
+            }
+        ]
     },
     {
         name: 'Watermelnyan',
@@ -13796,7 +14821,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Iron Pot Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/iron_pot_coin.png'
+            }
+        ]
     },
     {
         name: 'Sapphinyan',
@@ -13846,7 +14878,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'a',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Emenyan',
@@ -14675,7 +15708,14 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Vegetables',
         evolutionIndexes: [70],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Tigappa',
@@ -14724,7 +15764,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Chinese foods',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Master Nyada',
@@ -15450,7 +16497,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice balls',
-        evolutionIndexes: [75]
+        evolutionIndexes: [75],
+        crankakai: [
+            {
+                name: 'Underworld Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/underworld_coin.png'
+            }
+        ]
     },
     {
         name: 'Grainpa',
@@ -15499,7 +16553,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Rice balls',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Supersize Gramps',
@@ -15986,7 +17047,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Ice creams',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Swaycorn',
@@ -16034,7 +17096,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: []
     },
     {
         name: 'Push Pup',
@@ -16082,7 +17145,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        crankakai: []
     },
     {
         name: 'Happycane',
@@ -16132,7 +17196,8 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Snacks',
         evolutionIndexes: [79],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Starrycane',
@@ -16817,7 +17882,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Sweets'
+        favouriteFood: 'Sweets',
+        crankakai: []
     },
     {
         name: "Ol' Saint Trick",
@@ -16865,7 +17931,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: []
     },
     {
         name: "Ol' Fortune",
@@ -16913,7 +17980,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: []
     },
     {
         name: 'Ponderoo',
@@ -17009,7 +18077,14 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Curries'
+        favouriteFood: 'Curries',
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Lazy Sundae',
@@ -17059,7 +18134,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'c',
         favouriteFood: 'Ice creams',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Got It Maid',
@@ -17108,7 +18184,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Pastas',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Greengramps',
@@ -17156,7 +18233,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 'c',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: []
     },
     {
         name: 'Right Brothers',
@@ -17205,7 +18283,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Hot Dogs',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Tattlecakes',
@@ -17304,7 +18383,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Breads',
-        evolutionIndexes: [86]
+        evolutionIndexes: [86],
+        crankakai: []
     },
     {
         name: 'Reversa',
@@ -17451,7 +18531,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Wanderer Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wanderer_coin.png'
+            }
+        ]
     },
     {
         name: 'Fundango',
@@ -17548,7 +18635,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Tempuras',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Robogramps',
@@ -17597,7 +18685,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Rice balls',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Rollen',
@@ -17691,7 +18780,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: [
+            {
+                name: 'Joyful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/joyful_coin.png'
+            }
+        ]
     },
     {
         name: 'Scarasol',
@@ -17837,7 +18933,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        crankakai: []
     },
     {
         name: 'Papa Bolt',
@@ -17884,7 +18981,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: []
     },
     {
         name: 'Uncle Infinite',
@@ -17980,7 +19078,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: []
     },
     {
         name: 'Auntie Heart',
@@ -18029,7 +19128,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Kyryn',
@@ -18127,7 +19227,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Double Time',
@@ -18225,7 +19332,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Pizzas',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: []
     },
     {
         name: 'Neggplant',
@@ -18369,7 +19477,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'e',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        crankakai: []
     },
     {
         name: 'Leadoni',
@@ -18417,7 +19526,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'e',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: []
     },
     {
         name: 'Mynimo',
@@ -18465,7 +19575,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'd',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: []
     },
     {
         name: 'Ake',
@@ -18710,7 +19821,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Meats',
-        evolutionIndexes: [17]
+        evolutionIndexes: [17],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Wydeawake',
@@ -18858,7 +19976,8 @@ const yokais = [
         rank: 'e',
         favouriteFood: 'Pizzas',
         evolutionIndexes: [91],
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Retreeter',
@@ -18957,7 +20076,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Juices',
-        evolutionIndexes: [92]
+        evolutionIndexes: [92],
+        crankakai: []
     },
     {
         name: 'Moskevil',
@@ -19006,7 +20126,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Juices',
-        evolutionIndexes: [92]
+        evolutionIndexes: [92],
+        crankakai: []
     },
     {
         name: 'Scritchy',
@@ -19055,7 +20176,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'a',
         favouriteFood: 'Juices',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Dimmy',
@@ -19103,7 +20225,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Rice balls',
-        evolutionIndexes: [93]
+        evolutionIndexes: [93],
+        crankakai: []
     },
     {
         name: 'Blandon',
@@ -19248,7 +20371,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'd',
         favouriteFood: 'Hot Dogs',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Suspicioni',
@@ -19295,7 +20419,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'd',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        crankakai: []
     },
     {
         name: 'Tantroni',
@@ -19343,7 +20468,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'd',
-        favouriteFood: 'Chinese foods'
+        favouriteFood: 'Chinese foods',
+        crankakai: []
     },
     {
         name: 'Contrarioni',
@@ -19441,7 +20567,8 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Meats',
         evolutionIndexes: [94],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Groupus Khan',
@@ -19638,7 +20765,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Yoink',
@@ -19786,7 +20914,8 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Pizzas',
         evolutionIndexes: [90],
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Hack King',
@@ -19932,7 +21061,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'hamburgers',
+        crankakai: []
     },
     {
         name: 'Tyrat',
@@ -19980,7 +21110,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Milks',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'DisliKing',
@@ -20028,7 +21159,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: []
     },
     {
         name: 'Crook-a-doodle',
@@ -20077,7 +21209,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'c',
         favouriteFood: 'Pizzas',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Rocky Badboya',
@@ -20125,7 +21258,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'c',
         favouriteFood: 'Hot Dogs',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Injurnalist',
@@ -20174,7 +21308,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Ice creams',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Misterr Typoo',
@@ -20221,7 +21356,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Water',
         rank: 'c',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        crankakai: [
+            {
+                name: 'Wind Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wind_excite._coin.png'
+            }
+        ]
     },
     {
         name: 'Tengloom',
@@ -20270,7 +21412,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Breads',
-        evolutionIndexes: [89, 95]
+        evolutionIndexes: [89, 95],
+        crankakai: []
     },
     {
         name: 'Nird',
@@ -20318,7 +21461,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'b',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: []
     },
     {
         name: "K'mon-K'mon",
@@ -20367,7 +21511,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'c',
         favouriteFood: 'Curries',
-        evolutionIndexes: [97]
+        evolutionIndexes: [97],
+        crankakai: []
     },
     {
         name: 'Snobetty',
@@ -20415,7 +21560,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: []
     },
     {
         name: 'Dracunyan',
@@ -20464,7 +21610,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chocobars',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Lil Kappa',
@@ -20512,7 +21659,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Hamburgers',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Horizontail',
@@ -20560,7 +21708,8 @@ const yokais = [
         element: 'Fire',
         weakness: 'Water',
         rank: 'b',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        crankakai: []
     },
     {
         name: 'Usapyon',
@@ -20609,7 +21758,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Donuts',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Usapyon Football Gear',
@@ -20658,7 +21808,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Donuts',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: [
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Usapyon Scuba Gear',
@@ -20707,7 +21864,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Donuts',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: [
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Usapyon GI Gear',
@@ -20805,7 +21969,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'b',
         favouriteFood: 'Donuts',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: [
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Usapyon B',
@@ -20951,7 +22122,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Odens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Underworld Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/underworld_coin.png'
+            }
+        ]
     },
     {
         name: 'Negasus',
@@ -20999,7 +22177,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: []
     },
     {
         name: 'Neighfarious',
@@ -21047,7 +22226,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'a',
         favouriteFood: 'Vegetables',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Gutsy Bones',
@@ -21096,7 +22276,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Milks',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Timidevil',
@@ -21145,7 +22326,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Ramens',
-        evolutionIndexes: [122]
+        evolutionIndexes: [122],
+        crankakai: []
     },
     {
         name: 'Beelzebold',
@@ -21243,7 +22425,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Ramens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Eyesoar',
@@ -21292,7 +22475,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'a',
         favouriteFood: 'Meats',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: []
     },
     {
         name: 'Eyellure',
@@ -21341,7 +22525,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: []
     },
     {
         name: 'Greesel',
@@ -21389,7 +22574,14 @@ const yokais = [
         element: 'Fire',
         weakness: 'Ice',
         rank: 's',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        crankakai: [
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/one-star_coin.png'
+            }
+        ]
     },
     {
         name: 'Awevil',
@@ -21486,7 +22678,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Darkyubi',
@@ -21633,7 +22826,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: []
     },
     {
         name: "Tut 'n' K'mon",
@@ -21730,7 +22924,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Milks',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Love-Torn',
@@ -21778,7 +22973,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 'e',
         favouriteFood: 'Hamburgers',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Shakey',
@@ -21825,7 +23021,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'e',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        crankakai: []
     },
     {
         name: 'Quagmira',
@@ -22356,7 +23553,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'hamburgers',
+        crankakai: [
+            {
+                name: 'Wanderer Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wanderer_coin.png'
+            }
+        ]
     },
     {
         name: 'Squeeky',
@@ -22502,7 +23706,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'e',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: []
     },
     {
         name: 'Flumpy',
@@ -22549,7 +23754,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: []
     },
     {
         name: 'Skreek',
@@ -22748,7 +23954,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Curries',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Furgus',
@@ -22848,7 +24055,8 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Rice balls',
         evolutionIndexes: [103],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: []
     },
     {
         name: 'Pergushin',
@@ -22897,7 +24105,8 @@ const yokais = [
         weakness: 'Water',
         rank: 'e',
         favouriteFood: 'Rice balls',
-        evolutionIndexes: [105]
+        evolutionIndexes: [105],
+        crankakai: []
     },
     {
         name: 'Percrushionists',
@@ -22994,7 +24203,8 @@ const yokais = [
         element: 'Restoration',
         weakness: '-',
         rank: 'd',
-        favouriteFood: 'hamburgers'
+        favouriteFood: 'hamburgers',
+        crankakai: []
     },
     {
         name: 'Grubbles',
@@ -23042,7 +24252,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'd',
         favouriteFood: 'Ice creams',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Nervous Rex',
@@ -23139,7 +24350,8 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Tempuras'
+        favouriteFood: 'Tempuras',
+        crankakai: []
     },
     {
         name: 'Chatalie',
@@ -23185,7 +24397,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'd',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: []
     },
     {
         name: 'Nagatha',
@@ -23233,7 +24446,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: []
     },
     {
         name: 'Dismarelda',
@@ -23282,7 +24496,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'd',
         favouriteFood: 'Breads',
-        evolutionIndexes: [86]
+        evolutionIndexes: [86],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Drenchetta',
@@ -23380,7 +24601,8 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [106],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'No Sandkyu',
@@ -23623,7 +24845,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'a',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        crankakai: []
     },
     {
         name: 'Soloman',
@@ -23671,7 +24894,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Odens'
+        favouriteFood: 'Odens',
+        crankakai: []
     },
     {
         name: 'Rhumbastiltskin',
@@ -23719,7 +24943,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Earth',
         rank: 'c',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        crankakai: []
     },
     {
         name: 'Slax',
@@ -23862,7 +25087,14 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Toiletta',
@@ -24008,7 +25240,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Curries',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Shedwin',
@@ -24056,7 +25289,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'b',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: []
     },
     {
         name: 'Glumdango',
@@ -24154,7 +25388,14 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Pastas'
+        favouriteFood: 'Pastas',
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Grumples',
@@ -24203,7 +25444,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Milks',
-        evolutionIndexes: [108]
+        evolutionIndexes: [108],
+        crankakai: [
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/one-star_coin.png'
+            }
+        ]
     },
     {
         name: 'Everfore',
@@ -24300,7 +25548,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Milks',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Sproink',
@@ -24494,7 +25743,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 'a',
         favouriteFood: 'Tempuras',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: []
     },
     {
         name: 'Insomni',
@@ -24638,7 +25888,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Arachnia',
@@ -24687,7 +25944,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Oridjinn',
@@ -24785,7 +26049,8 @@ const yokais = [
         weakness: '-',
         rank: 's',
         favouriteFood: 'Pizzas',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: []
     },
     {
         name: 'Little Charrmer',
@@ -24834,7 +26099,14 @@ const yokais = [
         weakness: '-',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Cricky',
@@ -24882,7 +26154,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'e',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: []
     },
     {
         name: 'Humtea Jumtea',
@@ -24930,7 +26203,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'e',
-        favouriteFood: 'Juices'
+        favouriteFood: 'Juices',
+        crankakai: []
     },
     {
         name: 'Snailspace',
@@ -24978,7 +26252,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'e',
         favouriteFood: 'Seafoods',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Putasockinit',
@@ -25027,7 +26302,8 @@ const yokais = [
         rank: 'e',
         favouriteFood: 'Pastas',
         evolutionIndexes: [109],
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Snidewinder',
@@ -25419,7 +26695,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Meats',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Nautaloss',
@@ -25467,7 +26744,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'd',
         favouriteFood: 'Seafoods',
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'Shellebrity',
@@ -25563,7 +26841,8 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Wind',
         rank: 'd',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        crankakai: []
     },
     {
         name: 'Croonger',
@@ -25609,7 +26888,8 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Meats'
+        favouriteFood: 'Meats',
+        crankakai: []
     },
     {
         name: 'Urnaconda',
@@ -25706,7 +26986,8 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Odens',
         evolutionIndexes: [113],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Takoyaking',
@@ -26000,7 +27281,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 'a',
         favouriteFood: 'Sobas',
-        evolutionIndexes: [124]
+        evolutionIndexes: [124],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Irewig',
@@ -26192,7 +27480,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Chinese foods',
-        evolutionIndexes: [126]
+        evolutionIndexes: [126],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Azure Dragon',
@@ -26389,7 +27684,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'T-Wrecks',
@@ -26439,7 +27741,8 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Hot Dogs',
         evolutionIndexes: [118],
-        type: ["'merican"]
+        type: ["'merican"],
+        crankakai: []
     },
     {
         name: 'D-Stroy',
@@ -26538,7 +27841,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Hot Dogs',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: []
     },
     {
         name: 'Lady Longnek',
@@ -26587,7 +27891,8 @@ const yokais = [
         rank: 'c',
         favouriteFood: 'Sweets',
         evolutionIndexes: [119],
-        type: ['classic']
+        type: ['classic'],
+        crankakai: []
     },
     {
         name: 'Whisper',
@@ -26687,7 +27992,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 'c',
         favouriteFood: 'Ice creams',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Snippity Cricket',
@@ -26878,7 +28190,8 @@ const yokais = [
         element: 'Drain',
         weakness: '-',
         rank: 'c',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: []
     },
     {
         name: 'Confuze',
@@ -26925,7 +28238,8 @@ const yokais = [
         element: 'Drain',
         weakness: '-',
         rank: 'b',
-        favouriteFood: 'Candies'
+        favouriteFood: 'Candies',
+        crankakai: []
     },
     {
         name: 'Chummer',
@@ -27019,7 +28333,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'b',
-        favouriteFood: 'Vegetables'
+        favouriteFood: 'Vegetables',
+        crankakai: [
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Spenp',
@@ -27067,7 +28388,8 @@ const yokais = [
         element: 'Wind',
         weakness: 'Ice',
         rank: 'c',
-        favouriteFood: 'Breads'
+        favouriteFood: 'Breads',
+        crankakai: []
     },
     {
         name: 'Almi',
@@ -27116,7 +28438,14 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'b',
         favouriteFood: 'Breads',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Babblong',
@@ -27165,7 +28494,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 'c',
         favouriteFood: 'Candies',
-        evolutionIndexes: [109]
+        evolutionIndexes: [109],
+        crankakai: []
     },
     {
         name: 'Bananose',
@@ -27214,7 +28544,8 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Candies',
         evolutionIndexes: [120],
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Cocobanana',
@@ -27312,7 +28643,8 @@ const yokais = [
         element: 'Ice',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Ramens'
+        favouriteFood: 'Ramens',
+        crankakai: []
     },
     {
         name: 'Robonoko',
@@ -27360,7 +28692,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 'b',
         favouriteFood: 'Hamburgers',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Rusted Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/rusted_coin.png'
+            }
+        ]
     },
     {
         name: 'Robodraggie',
@@ -27408,7 +28747,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Chinese foods',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: [
+            {
+                name: 'Rusted Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/rusted_coin.png'
+            }
+        ]
     },
     {
         name: 'Ooze Zat',
@@ -27456,7 +28802,8 @@ const yokais = [
         weakness: 'Fire',
         rank: 'b',
         favouriteFood: 'Tempuras',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: []
     },
     {
         name: 'Copperled',
@@ -27600,7 +28947,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 'a',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        crankakai: []
     },
     {
         name: 'SV Snaggerjag',
@@ -27697,7 +29045,8 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'a',
-        favouriteFood: 'Sushis'
+        favouriteFood: 'Sushis',
+        crankakai: []
     },
     {
         name: 'Venoct',
@@ -27745,7 +29094,8 @@ const yokais = [
         element: 'Lightning',
         weakness: 'Earth',
         rank: 's',
-        favouriteFood: 'Seafoods'
+        favouriteFood: 'Seafoods',
+        crankakai: []
     },
     {
         name: 'Shadow Venoct',
@@ -27794,7 +29144,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Frogetmenot',
@@ -27843,7 +29194,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Sushis',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: []
     },
     {
         name: 'Originyan',
@@ -27988,7 +29340,8 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Snacks',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Unkaind',
@@ -28036,7 +29389,8 @@ const yokais = [
         weakness: 'Lightning',
         rank: 's',
         favouriteFood: 'Seafoods',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Untidy',
@@ -28084,7 +29438,8 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Meats',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Unpleasant',
@@ -28133,7 +29488,8 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Odens',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Unkeen',
@@ -28182,7 +29538,8 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Curries',
-        type: ['rare']
+        type: ['rare'],
+        crankakai: []
     },
     {
         name: 'Grublappa',
@@ -30480,7 +31837,18 @@ const yokais = [
         element: 'Earth',
         weakness: 'Wind',
         rank: 'a',
-        favouriteFood: 'Milks'
+        favouriteFood: 'Milks',
+        crankakai: [
+            {
+                name: 'Sealed Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sealed_coin.png'
+            },{
+                name: 'Underworld Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/underworld_coin.png'
+            }
+        ]
     },
     {
         name: 'Venoctobot',
@@ -30624,7 +31992,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Odens',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: [
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Ultimate Robonyan',
@@ -31161,7 +32536,14 @@ const yokais = [
         element: 'Water',
         weakness: 'Lightning',
         rank: 'c',
-        favouriteFood: 'Snacks'
+        favouriteFood: 'Snacks',
+        crankakai: [
+            {
+                name: 'Heaven Excit. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/heaven_excit._coin.png',
+            }
+        ]
     },
     {
         name: 'Amplifly',
@@ -31258,7 +32640,14 @@ const yokais = [
         element: 'Restoration',
         weakness: 'Fire',
         rank: 'a',
-        favouriteFood: 'Donuts'
+        favouriteFood: 'Donuts',
+        crankakai: [
+            {
+                name: 'Heaven Excit. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/heaven_excit._coin.png',
+            }
+        ]
     },
     {
         name: 'My-Baaad',
@@ -31401,7 +32790,19 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'b',
-        favouriteFood: 'Sobas'
+        favouriteFood: 'Sobas',
+        crankakai: [
+            {
+                name: 'Sealed Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sealed_coin.png'
+            },
+            {
+                name: 'Emblem Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/emblem_coin.png'
+            }
+        ]
     },
     {
         name: 'Kaped Komander',
@@ -31597,7 +32998,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Tempuras',
-        type: ['rare', "'merican"]
+        type: ['rare', "'merican"],
+        crankakai: [
+            {
+                name: 'Iron Pot Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/iron_pot_coin.png'
+            }
+        ]
     },
     {
         name: 'Hinozall',
@@ -31791,7 +33199,19 @@ const yokais = [
         element: 'Drain',
         weakness: 'Fire',
         rank: 'c',
-        favouriteFood: 'Hot Dogs'
+        favouriteFood: 'Hot Dogs',
+        crankakai: [
+            {
+                name: 'Sealed Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sealed_coin.png'
+            },
+            {
+                name: 'Emblem Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/emblem_coin.png'
+            }
+        ]
     },
     {
         name: 'Jeanne Ne-Sais-Quoi',
@@ -32327,7 +33747,19 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ["'merican legendary"]
+        type: ["'merican legendary"],
+        crankakai: [
+            {
+                name: 'Princess Dre. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/princess_dre._coin.png'
+            },
+            {
+                name: 'G3 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g3_dream_coin.png'
+            }
+        ]
     },
     {
         name: 'Teducator',
@@ -33106,7 +34538,14 @@ const yokais = [
         weakness: 'Water',
         rank: 'b',
         favouriteFood: 'Sukiyakis',
-        type: ['classic']
+        type: ['classic'],
+        crankakai: [
+            {
+                name: 'Underworld Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/underworld_coin.png'
+            }
+        ]
     },
     {
         name: 'Moolinda',
@@ -33155,7 +34594,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Underworld Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/underworld_coin.png'
+            }
+        ]
     },
     {
         name: 'Neighthan',
@@ -33204,7 +34650,14 @@ const yokais = [
         weakness: 'Fire',
         rank: 's',
         favouriteFood: 'Sobas',
-        type: ['rare', 'classic']
+        type: ['rare', 'classic'],
+        crankakai: [
+            {
+                name: 'Underworld Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/underworld_coin.png'
+            }
+        ]
     },
     {
         name: 'Big Fish',
@@ -33832,7 +35285,14 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Vegetables',
-        type: ['treasure']
+        type: ['treasure'],
+        crankakai: [
+            {
+                name: 'Treasure Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/treasure_coin.png'
+            }
+        ]
     },
     {
         name: 'Fitwit',
@@ -33881,7 +35341,14 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Rice balls',
-        type: ['treasure']
+        type: ['treasure'],
+        crankakai: [
+            {
+                name: 'Treasure Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/treasure_coin.png'
+            }
+        ]
     },
     {
         name: 'El Dorago',
@@ -33929,7 +35396,14 @@ const yokais = [
         weakness: 'Earth',
         rank: 's',
         favouriteFood: 'Curries',
-        type: ['treasure']
+        type: ['treasure'],
+        crankakai: [
+            {
+                name: 'Treasure Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/treasure_coin.png'
+            }
+        ]
     },
     {
         name: 'The Hinix',
@@ -33978,7 +35452,14 @@ const yokais = [
         weakness: 'Water',
         rank: 's',
         favouriteFood: 'Meats',
-        type: ['treasure']
+        type: ['treasure'],
+        crankakai: [
+            {
+                name: 'Treasure Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/treasure_coin.png'
+            }
+        ]
     },
     {
         name: 'Junkernaut',
@@ -34027,7 +35508,7 @@ const yokais = [
         yokaiNumber: '701',
         bossNumber: '003',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hoaxy-coaxy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1566164216/Yokai/yokais/hoaxy-coaxy.png',
         description:
             "This Yo-kai drags humans he's taken a liking to into an imaginary world, where they're the hero in a story of their own making. That's a pretty tough one to walk away from...",
         locations: [],
@@ -34468,7 +35949,7 @@ const yokais = [
         yokaiNumber: '722',
         bossNumber: '024',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hollow_guard.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1566164250/Yokai/yokais/hollow_guard.png',
         description:
             'This imposing zombie guards the bell at City Hall. Although no spark of life remains in its eyes, the intensity of its gaze causes people to freeze in their tracks.',
         locations: [],

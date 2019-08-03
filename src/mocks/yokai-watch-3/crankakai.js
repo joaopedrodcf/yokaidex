@@ -9364,7 +9364,7 @@ const crankakai = [
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/thurston.png'
             },
             {
-                name: 'Sn. Spect-hare',
+                name: 'Snow Spect-hare',
                 type: 'yokais',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/yokais/sn._spect-hare.png'
