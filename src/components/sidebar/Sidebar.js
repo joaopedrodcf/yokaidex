@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import Book from 'react-feather/dist/icons/book';
 import List from 'react-feather/dist/icons/list';
-import DollarSign from 'react-feather/dist/icons/dollar-sign';
 import Twitter from 'react-feather/dist/icons/twitter';
 import Bookmark from 'react-feather/dist/icons/bookmark';
 import Info from 'react-feather/dist/icons/info';
@@ -72,9 +71,7 @@ class Sidebar extends Component {
 
                         {context.gameVersion !== '1' && (
                             <SCNavLink
-                                to={`/yokai-watch-${
-                                    context.gameVersion
-                                }/baffle-board`}
+                                to={`/yokai-watch-${context.gameVersion}/baffle-board`}
                             >
                                 <List /> Baffle board
                             </SCNavLink>
@@ -86,24 +83,15 @@ class Sidebar extends Component {
                             <Briefcase /> Items
                         </SCNavLink>
                         <SCNavLink
-                            to={`/yokai-watch-${
-                                context.gameVersion
-                            }/crank-a-kai`}
+                            to={`/yokai-watch-${context.gameVersion}/crank-a-kai`}
                         >
                             <Circle /> Crank-a-kai
                         </SCNavLink>
-
-                        <SCLink href="https://www.patreon.com/yokaidex">
-                            <DollarSign /> Help us
-                        </SCLink>
-
                         <SCLink href="https://twitter.com/yokaidex">
                             <Twitter /> Follow us
                         </SCLink>
                         <SCNavLink
-                            to={`/yokai-watch-${
-                                context.gameVersion
-                            }/contact-us`}
+                            to={`/yokai-watch-${context.gameVersion}/contact-us`}
                         >
                             <Mail /> Contact us
                         </SCNavLink>
