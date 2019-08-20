@@ -21,6 +21,7 @@
         "fast-memoize": "^2.5.1",
         "history": "^4.9.0",
         "react": "^16.8.6",
+        "react-adsense": "^0.1.0",
         "react-dom": "^16.8.6",
         "react-feather": "^2.0.3",
         "react-ga": "^2.6.0",
