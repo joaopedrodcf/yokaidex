@@ -1,9 +1,11 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import AdSense from 'react-adsense';
 import { Row } from './style';
 import Global from '../../styles';
 import withTracker from '../../components/shared/with-tracker';
 
+const style = { display: 'inline-block', width: 600, height: 60 };
 const AboutUs = () => (
     <Global.Container>
         <Helmet>
@@ -12,6 +14,12 @@ const AboutUs = () => (
                 from Yo-kai Watch games!
             </title>
         </Helmet>
+        <AdSense.Google
+            client="ca-pub-1259678268318620"
+            slot="7826324004"
+            style={style}
+        />
+
         <Row>
             Yokaidex is a website with information about the games from Level-5:
             Yo-kai watch. All the information gathered here is to be used as a
