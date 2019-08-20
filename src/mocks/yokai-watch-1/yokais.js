@@ -9469,7 +9469,7 @@ const yokais = [
         favouriteFood: 'Meats',
         crankakai: [
             {
-                name: 'Light Blue Coin',
+                name: 'Light-Blue Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light_blue_coin.png'
             }
@@ -9618,7 +9618,7 @@ const yokais = [
         evolutionIndexes: [114],
         crankakai: [
             {
-                name: 'Light Blue Coin',
+                name: 'Light-Blue Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light_blue_coin.png'
             }
@@ -9674,7 +9674,7 @@ const yokais = [
         evolutionIndexes: [114],
         crankakai: [
             {
-                name: 'Light Blue Coin',
+                name: 'Light-Blue Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light_blue_coin.png'
             }
@@ -9727,7 +9727,7 @@ const yokais = [
         type: ['rare'],
         crankakai: [
             {
-                name: 'Light Blue Coin',
+                name: 'Light-Blue Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light_blue_coin.png'
             },
@@ -10022,7 +10022,7 @@ const yokais = [
         favouriteFood: 'Vegetables',
         crankakai: [
             {
-                name: 'Light Blue Coin',
+                name: 'Light-Blue Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light_blue_coin.png'
             },
@@ -10352,7 +10352,7 @@ const yokais = [
         favouriteFood: 'Seafoods',
         crankakai: [
             {
-                name: 'Light Blue Coin',
+                name: 'Light-Blue Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light_blue_coin.png'
             }
@@ -10407,7 +10407,7 @@ const yokais = [
         favouriteFood: 'Seafoods',
         crankakai: [
             {
-                name: 'Light Blue Coin',
+                name: 'Light-Blue Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light_blue_coin.png'
             }
@@ -10505,7 +10505,7 @@ const yokais = [
         type: ['rare'],
         crankakai: [
             {
-                name: 'Light Blue Coin',
+                name: 'Light-Blue Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light_blue_coin.png'
             },

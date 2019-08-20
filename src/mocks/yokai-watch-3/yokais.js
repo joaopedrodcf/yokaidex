@@ -2768,7 +2768,38 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Hot Dogs',
         type: ["'merican"],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/one-star_coin.png'
+            },
+            {
+                name: 'Platin. Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/platin._dream_coin.png'
+            },
+            {
+                name: 'Princess Dre. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/princess_dre._coin.png'
+            },
+            {
+                name: 'G2 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g2_dream_coin.png'
+            },
+            {
+                name: 'G3 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g3_dream_coin.png'
+            },
+            {
+                name: 'Beaming Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/beaming_coin.png'
+            }
+        ]
     },
     {
         name: 'Sushiyama',
@@ -2866,7 +2897,33 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Sobas',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Five-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/five-star_coin.png'
+            },
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/kai_mystery_coin.png'
+            },
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'Beetler',
@@ -3115,7 +3172,28 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Chocobars',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'K Souvenir Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/k_souvenir_coin.png'
+            },
+            {
+                name: 'Five-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/five-star_coin.png'
+            },
+            {
+                name: 'S Souvenir Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/s_souvenir_coin.png'
+            },
+            {
+                name: 'Excellent Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/excellent_coin.png'
+            }
+        ]
     },
     {
         name: 'Momonyan',
@@ -3214,7 +3292,18 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Snacks',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'F Souvenir Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/f_souvenir_coin.png'
+            },
+            {
+                name: 'Excellent Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/excellent_coin.png'
+            }
+        ]
     },
     {
         name: 'Sgt. Burly',
@@ -3366,7 +3455,18 @@ const yokais = [
         weakness: 'Wind',
         rank: 's',
         favouriteFood: 'Meats',
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Demonic Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/demonic_coin.png'
+            },
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Devourer',
@@ -3630,7 +3730,58 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Sushis',
         type: ['rare', "'merican"],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/red_coin.png'
+            },
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/one-star_coin.png'
+            },
+            {
+                name: 'Special Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Tempura Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/tempura_coin.png'
+            },
+            {
+                name: 'K Souvenir Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/k_souvenir_coin.png'
+            },
+            {
+                name: 'Joyful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/joyful_coin.png'
+            },
+            {
+                name: 'Beaming Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/beaming_coin.png'
+            },
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            },
+            {
+                name: 'Super Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_red_coin.png'
+            },
+            {
+                name: 'Ultra Red Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_red_coin.png'
+            }
+        ]
     },
     {
         name: 'Camellia',
@@ -3841,7 +3992,43 @@ const yokais = [
         rank: 'e',
         favouriteFood: 'Donuts',
         type: ["'merican"],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Light Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/light_dream_coin.png'
+            },
+            {
+                name: 'Pride Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/pride_dream_coin.png'
+            },
+            {
+                name: 'G1 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g1_dream_coin.png'
+            },
+            {
+                name: 'G4 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g4_dream_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            }
+        ]
     },
     {
         name: 'Slippup',
@@ -4761,7 +4948,43 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Ice creams',
         type: ["'merican"],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            },
+            {
+                name: 'Light Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/light_dream_coin.png'
+            },
+            {
+                name: 'Pride Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/pride_dream_coin.png'
+            },
+            {
+                name: 'G1 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g1_dream_coin.png'
+            },
+            {
+                name: 'G4 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g4_dream_coin.png'
+            }
+        ]
     },
     {
         name: 'Cornfused',
@@ -4811,7 +5034,48 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Donuts',
         type: ["'merican"],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            },
+            {
+                name: 'Bird Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/bird_excite._coin.png'
+            },
+            {
+                name: 'Light Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/light_dream_coin.png'
+            },
+            {
+                name: 'Wisdom Dre. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wisdom_dre._coin.png'
+            },
+            {
+                name: 'G1 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g1_dream_coin.png'
+            },
+            {
+                name: 'G3 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g3_dream_coin.png'
+            }
+        ]
     },
     {
         name: 'Unshelltered',
@@ -4861,7 +5125,28 @@ const yokais = [
         rank: 'd',
         favouriteFood: 'Breads',
         type: ["'merican"],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Light Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/light_dream_coin.png'
+            },
+            {
+                name: 'Wisdom Dre. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wisdom_dre._coin.png'
+            },
+            {
+                name: 'G1 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g1_dream_coin.png'
+            },
+            {
+                name: 'G3 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g3_dream_coin.png'
+            }
+        ]
     },
     {
         name: 'Lafalotta',
@@ -5298,7 +5583,7 @@ const yokais = [
                 name: 'Five-Star Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/five-star_coin.png'
-            } 
+            }
         ]
     },
     {
@@ -5349,7 +5634,63 @@ const yokais = [
         favouriteFood: 'Curries',
         evolutionIndexes: [32],
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            },
+            {
+                name: 'Flower Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/flower_excite._coin.png'
+            },
+            {
+                name: 'Bird Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/bird_excite._coin.png'
+            },
+            {
+                name: 'Wind Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wind_excite._coin.png'
+            },
+            {
+                name: 'Moon Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/moon_excite._coin.png'
+            },
+            {
+                name: 'Heaven Excit. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/heaven_excit._coin.png'
+            },
+            {
+                name: 'Mellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/mellow_coin.png'
+            },
+            {
+                name: '2nd Helping Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/2nd_helping_coin.png'
+            },
+            {
+                name: 'Belly Buster Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/belly_buster_coin.png'
+            }
+        ]
     },
     {
         name: 'Bowminos',
@@ -5807,7 +6148,58 @@ const yokais = [
         rank: 'c',
         favouriteFood: 'Hamburgers',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/one-star_coin.png'
+            },
+            {
+                name: 'Flower Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/flower_excite._coin.png'
+            },
+            {
+                name: 'Bird Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/bird_excite._coin.png'
+            },
+            {
+                name: 'Wind Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wind_excite._coin.png'
+            },
+            {
+                name: 'Moon Excite. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/moon_excite._coin.png'
+            },
+            {
+                name: 'Heaven Excit. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/heaven_excit._coin.png'
+            },
+            {
+                name: 'Mellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/mellow_coin.png'
+            },
+            {
+                name: '2nd Helping Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/2nd_helping_coin.png'
+            },
+            {
+                name: 'Belly Buster Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/belly_buster_coin.png'
+            }
+        ]
     },
     {
         name: 'Fuu 2',
@@ -6583,7 +6975,38 @@ const yokais = [
         weakness: 'Earth',
         rank: 'b',
         favouriteFood: 'Snacks',
-        crankakai: []
+        crankakai: [
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/one-star_coin.png'
+            },
+            {
+                name: 'Wanderer Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wanderer_coin.png'
+            },
+            {
+                name: 'L Souvenir Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/l_souvenir_coin.png'
+            },
+            {
+                name: 'Beaming Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/beaming_coin.png'
+            },
+            {
+                name: 'Demonic Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/demonic_coin.png'
+            },
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Prof. Plumage',
@@ -6752,7 +7175,63 @@ const yokais = [
         rank: 'b',
         favouriteFood: 'Ice creams',
         type: ["'merican"],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            },
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/one-star_coin.png'
+            },
+            {
+                name: 'Light Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/light_dream_coin.png'
+            },
+            {
+                name: 'Wisdom Dre. Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/wisdom_dre._coin.png'
+            },
+            {
+                name: 'G1 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g1_dream_coin.png'
+            },
+            {
+                name: 'G3 Dream Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g3_dream_coin.png'
+            },
+            {
+                name: 'Joyful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/joyful_coin.png'
+            },
+            {
+                name: 'Beaming Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/beaming_coin.png'
+            },
+            {
+                name: '3DS Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/3ds_coin.png'
+            }
+        ]
     },
     {
         name: 'Miss Teri',
@@ -6851,7 +7330,18 @@ const yokais = [
         rank: 'a',
         favouriteFood: 'Sweets',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'S Souvenir Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/s_souvenir_coin.png'
+            },
+            {
+                name: 'Excellent Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/excellent_coin.png'
+            }
+        ]
     },
     {
         name: 'Squandeer',
@@ -7108,7 +7598,48 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Odens',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/yellow_coin.png'
+            },
+            {
+                name: 'Super Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/super_yellow_coin.png'
+            },
+            {
+                name: 'Ultra Yellow Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/ultra_yellow_coin.png'
+            },
+            {
+                name: 'One-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/one-star_coin.png'
+            },
+            {
+                name: 'Five-Star Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/five-star_coin.png'
+            },
+            {
+                name: 'Special Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/special_coin.png'
+            },
+            {
+                name: 'Joyful Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/joyful_coin.png'
+            },
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Chymera',
@@ -29195,7 +29726,18 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Sushis',
         type: ['classic'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Whirlwind Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/whirlwind_coin.png'
+            },
+            {
+                name: 'Legend Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/legend_coin.png'
+            }
+        ]
     },
     {
         name: 'Originyan',
@@ -29341,7 +29883,18 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Snacks',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Fancy That! Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/fancy_that__coin.png'
+            },
+            {
+                name: 'Black Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/black_coin.png'
+            }
+        ]
     },
     {
         name: 'Unkaind',
@@ -29390,7 +29943,18 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Seafoods',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Fancy That! Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/fancy_that__coin.png'
+            },
+            {
+                name: 'Black Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/black_coin.png'
+            }
+        ]
     },
     {
         name: 'Untidy',
@@ -29439,7 +30003,18 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Meats',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Fancy That! Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/fancy_that__coin.png'
+            },
+            {
+                name: 'Black Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/black_coin.png'
+            }
+        ]
     },
     {
         name: 'Unpleasant',
@@ -29489,7 +30064,18 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Odens',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Fancy That! Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/fancy_that__coin.png'
+            },
+            {
+                name: 'Black Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/black_coin.png'
+            }
+        ]
     },
     {
         name: 'Unkeen',
@@ -29539,7 +30125,18 @@ const yokais = [
         rank: 's',
         favouriteFood: 'Curries',
         type: ['rare'],
-        crankakai: []
+        crankakai: [
+            {
+                name: 'Fancy That! Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/fancy_that__coin.png'
+            },
+            {
+                name: 'Black Coin',
+                image:
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/black_coin.png'
+            }
+        ]
     },
     {
         name: 'Grublappa',
@@ -31843,7 +32440,8 @@ const yokais = [
                 name: 'Sealed Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sealed_coin.png'
-            },{
+            },
+            {
                 name: 'Underworld Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/underworld_coin.png'
@@ -32541,7 +33139,7 @@ const yokais = [
             {
                 name: 'Heaven Excit. Coin',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/heaven_excit._coin.png',
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/heaven_excit._coin.png'
             }
         ]
     },
@@ -32645,7 +33243,7 @@ const yokais = [
             {
                 name: 'Heaven Excit. Coin',
                 image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/heaven_excit._coin.png',
+                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/heaven_excit._coin.png'
             }
         ]
     },
