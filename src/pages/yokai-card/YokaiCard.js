@@ -1,9 +1,10 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable react/destructuring-assignment */
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { withRouter } from 'react-router';
 import { Link } from 'react-router-dom';
-import { SideInformation, Requirements, Requirement } from './style';
+import { SideInformation, Requirements, Requirement, Location } from './style';
 import { elements, foods, ranks, tribes } from '../../mocks';
 import Image from '../../components/shared/image';
 import utils from '../../components/utils';
@@ -112,7 +113,7 @@ const YokaiCard = ({ context, match }) => {
                     {yokai.locations.length > 0 && (
                         <Card title="Locations" color={color}>
                             {yokai.locations.map((location, index) => (
-                                <div key={index}>{location}</div>
+                                <Location key={index}>{location}</Location>
                             ))}
                         </Card>
                     )}

@@ -59,3 +59,7 @@ export const Requirement = styled.div`
         width: 25%;
     }
 `;
+
+export const Location = styled.div`
+    white-space: pre-line;
+`;

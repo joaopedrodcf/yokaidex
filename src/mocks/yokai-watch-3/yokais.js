@@ -31315,7 +31315,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/last_nyanmurai.png',
         description:
             "Bravely endures through any challenge, but he's also disturbingly ready to declare his honor lost over the slightest mistakes...",
-        locations: ['QR Code'],
+        locations: [
+            'First Way:\n\n 1. You need to get a Showdown Pass, you can get it through Brave Dream Coin and G1 Dream Coin.\n2. Forbidden fruit can be useful you can get them in Blasters T.\n3. Go into Dukesville, and go into the Helicoper and ride until left of General Store and you will find it there.\n\nSecond Way:\n\n1. Go into Cluviant Continent-Blasters Camp go the camp and talk with Sgt. Burly.\n2. Select Forbideen and look for Labyrinth of Valor and you can obtain it as a reward'
+        ],
         skill: {
             name: 'Last Nyan Standing',
             description:
@@ -31365,7 +31367,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/koma_star.png',
         description:
             'With a glistening smile, this Yo-kai instills others with the confidence they need to speak in front of a crowd.',
-        locations: ['QR Code'],
+        locations: [
+            'First Way:\n\n 1. You need to get a Radiant Pass, you can get it through Light Dream Coin and G2 Dream Coin.\n2. Forbidden fruit can be useful you can get them in Blasters T.\n3. Go into Tower of Zenlightenment, and go into the Helicoper and ride south until you see a stop and you will find it there.\n\nSecond Way:\n\n1. Go into Cluviant Continent-Blasters Camp go the camp and talk with Sgt. Burly.\n2. Select Forbideen and look for Labyrinth of Valor and you can obtain it as a reward.'
+        ],
         skill: {
             name: 'Lightning Play',
             description: 'Boosts Lightning elemental damage for all Yo-kai.'
@@ -31413,7 +31417,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/platinos.png',
         description:
             'This Oni has taken his training and self-improvement to the next level, and has now gone platinum.',
-        locations: ['QR Code'],
+        locations: [
+            'First Way:\n\n 1. You need to get a Showdown Pass, you can get it through Platinum Dream Coin and G1 Dream Coin.\n2. Forbidden fruit can be useful you can get them in Blasters T.\n3. Go into Southmond-Police Station, and go into the Helicoper and ride until Store near Bank and you will find it there.\n\nSecond Way:\n\n1. Go into Cluviant Continent-Blasters Camp go the camp and talk with Sgt. Burly.\n2. Select Forbideen and look for Labyrinth of Valor and you can obtain it as a reward'
+        ],
         skill: {
             name: 'Platinum Guard',
             description: 'Lowers Water, Ice and Wind elemental damage taken.'
@@ -31462,7 +31468,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flash_t._cash.png',
         description:
             'A billionaire that regretted not sharing his wealth. Now nothing can stop him flashing the cash.',
-        locations: ['QR Code'],
+        locations: [
+            'First Way:\n\n 1. You need to get a Gilded Pass, you can get it through Fortune Dream Coin and G2 Dream Coin.\n2. Forbidden fruit can be useful you can get them in Blasters T.\n3. Go into City Hall, and go into the Helicoper and ride north near the Park and you will find it there.\n\nSecond Way:\n\n1. Go into Cluviant Continent-Blasters Camp go the camp and talk with Sgt. Burly.\n2. Select Forbideen and look for Labyrinth of Valor and you can obtain it as a reward.'
+        ],
         skill: {
             name: 'Healthy Balance',
             description: 'Boosts SPR based on how high HP is.'
@@ -34307,7 +34315,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gabby.png',
         description:
             "Gabby will give you the gift of the gab! No matter the topic, you'll sound like you're giving the most moving speech.",
-        locations: ['QR Code'],
+        locations: [
+            'First Way:\n\n 1. You need to get a Gabby Pass, you can get it through Princess Dream Coin and G3 Dream Coin.\n2. Forbidden fruit can be useful you can get them in Blasters T.\n3. Go into Southmond-Police Station, and go into the Helicoper and ride until the left side of Cafeteria and you will find it there.\n\nSecond Way:\n\n1. Go into Cluviant Continent-Blasters Camp go the camp and talk with Sgt. Burly.\n2. Select Forbideen and look for Labyrinth of Valor and you can obtain it as a reward'
+        ],
         skill: {
             name: 'Gift of the Gab',
             description: 'User and linked Yo-kai get a slight DEF boost.'
@@ -34345,19 +34355,7 @@ const yokais = [
         weakness: 'Ice',
         rank: 's',
         favouriteFood: 'Sweets',
-        type: ["'merican legendary"],
-        crankakai: [
-            {
-                name: 'Princess Dre. Coin',
-                image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/princess_dre._coin.png'
-            },
-            {
-                name: 'G3 Dream Coin',
-                image:
-                    'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/g3_dream_coin.png'
-            }
-        ]
+        type: ["'merican legendary"]
     },
     {
         name: 'Teducator',
@@ -34367,7 +34365,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/teducator.png',
         description:
             'A fountain of knowledge for obscure bits of trivia. Loves it when people are surprised by his explanations.',
-        locations: ['QR Code'],
+        locations: [
+            'First Way:\n\n 1. You need to get a Teducation Pass, you can get it through Wisdom Dream Coin and G3 Dream Coin.\n2. Forbidden fruit can be useful you can get them in Blasters T.\n3. Go into Meadowbrooke Farm, and go into the Helicoper and ride north just a bit and you will find it there.\n\nSecond Way:\n\n1. Go into Cluviant Continent-Blasters Camp go the camp and talk with Sgt. Burly.\n2. Select Forbideen and look for Labyrinth of Valor and you can obtain it as a reward.'
+        ],
         skill: {
             name: 'Bored Stiff',
             description: 'Inspirits two enemies at once.'
@@ -34416,7 +34416,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gentlemutt.png',
         description:
             'A nobleman fused with a pedigree dog. Incomparably more dignified than that mangy Manjimutt.',
-        locations: ['QR Code'],
+        locations: [
+            'First Way:\n\n 1. You need to get a Sophisticated Pass, you can get it through Chivalry Dream Coin and G4 Dream Coin.\n2. Forbidden fruit can be useful you can get them in Blasters T.\n3. Go into East Pine - Wayfarer Manor, and go into the Helicoper and ride east until near a pool and you will find it there.\n\nSecond Way:\n\n1. Go into Cluviant Continent-Blasters Camp go the camp and talk with Sgt. Burly.\n2. Select Forbideen and look for Labyrinth of Valor and you can obtain it as a reward.'
+        ],
         skill: {
             name: 'Tip-Top-Up',
             description: 'Gradually recovers the HP of subbed allies.'
@@ -34465,7 +34467,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/city_licker.png',
         description:
             'This Yo-kai has fallen so in love with city life that he does nothing but sing its praises. Who needs countryside?!',
-        locations: ['QR Code'],
+        locations: [
+            'First Way:\n\n 1. You need to get a Big City Pass, you can get it through Pride Dream Coin and G4 Dream Coin.\n2. Forbidden fruit can be useful you can get them in Blasters T.\n3. Go into New Yo-kai City, and go into the Helicoper and ride east until near Tempura and Sushi and you will find it there.\n\nSecond Way:\n\n1. Go into Cluviant Continent-Blasters Camp go the camp and talk with Sgt. Burly.\n2. Select Forbideen and look for Labyrinth of Valor and you can obtain it as a reward.'
+        ],
         skill: {
             name: 'Make it Big',
             description:
@@ -34614,7 +34618,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rgt._zazel.png',
         description:
             'Now following the path of righteousness, Zazel will punish any who stray from the light.',
-        locations: ['QR Code'],
+        locations: [
+            '1. Go into Cluviant Continent-Blasters Camp, ride until Cluhara desert next to Enma Palace and there will be Mister E.\n2. Talk to him each day to get a Deva Tag, you need an Righteous Tag.\n3. Go to Camp and talk with Sgt. Burly and you can go in Mt Cluvimpus - Righteous Zazel'
+        ],
         skill: {
             name: 'Godspeed',
             description: 'Allows one preemptive, guaranteed critical attack.'
@@ -34663,7 +34669,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hinozall_awk..png',
         description:
             'No longer bound by the limits of the mind, his original ideas are enough to rattle the fabric of the universe.',
-        locations: ['QR Code'],
+        locations: [
+            '1. Go into Cluviant Continent-Blasters Camp, ride until Cluhara desert next to Enma Palace and there will be Mister E.\n2. Talk to him each day to get a Deva Tag, you need an Innovative Tag.\n3. Go to Camp and talk with Sgt. Burly and you can go in Mt Cluvimpus - Hinozall Awoken'
+        ],
         skill: {
             name: 'Pop Up Blocker',
             description: 'Nullifies a single Soultimate Move or attack.'
@@ -34712,7 +34720,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ancient_enma.png',
         description:
             'Grandfather to Lord Enma and former king of the Yo-kai. Distrusts the negative influence of humans.',
-        locations: ['QR Code'],
+        locations: [
+            '1. Go into Cluviant Continent-Blasters Camp, ride until Cluhara desert next to Enma Palace and there will be Mister E.\n2. Talk to him each day to get a Deva Tag, you need an Ancient Tag.\n3. Go to Camp and talk with Sgt. Burly and you can go in Mt Cluvimpus - Ancient Enma'
+        ],
         skill: {
             name: 'Final Judgment',
             description: 'Knocks out an enemy on very low health.'
@@ -34760,7 +34770,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/enma_awk..png',
         description:
             "Now in full command of his true powers, the might of the forces at Lord Enma's disposal are overwhelming.",
-        locations: ['QR Code'],
+        locations: [
+            '1. Go into Cluviant Continent-Blasters Camp, ride until Cluhara desert next to Enma Palace and there will be Mister E.\n2. Talk to him each day to get a Deva Tag, you need an Aworken Tag.\n3. Go to Camp and talk with Sgt. Burly and you can go in Mt Cluvimpus - Enma Aworken'
+        ],
         skill: {
             name: 'Awakening',
             description: '"Awaken" after taking 5 actions. Huge stats boost.'
@@ -35508,7 +35520,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/solar_enma.png',
         description:
             'With mastery over the sun, Enma now has the power to smite evildoers from the face of the earth.',
-        locations: ['Enma Palace'],
+        locations: [
+            '1. Go into Cluviant Continent-Blasters Camp and in Camp talk with Sgt. Burly and do every single Ruin.\n2. You will unlock Enma Palace as a new Ruin and you need to beat every one of them.\n3. Sunshine Labyrinth will appear as a new dungeon in Enma Palace where you can unlock this yokai.'
+        ],
         skill: {
             name: 'Blaze Of Glory',
             description: 'Sets the target tile ablaze when using Techniques.'
@@ -35556,7 +35570,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/infinite_enma.png',
         description:
             'With mastery over space and time, Enma now has the power to control past and future, to create a world free of errors.',
-        locations: ['Enma Palace'],
+        locations: [
+            '1. Go into Cluviant Continent-Blasters Camp and in Camp talk with Sgt. Burly and do every single Ruin.\n2. You will unlock Enma Palace as a new Ruin and you need to beat every one of them.\n3. Space-Time Labyrinth will appear as a new dungeon in Enma Palace where you can unlock this yokai.'
+        ],
         skill: {
             name: 'Infinite Undoing',
             description: "Resets enemy's move timer when attacking them."
@@ -35604,7 +35620,9 @@ const yokais = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/umbral_enma.png',
         description:
             'With mastery over the darkness, Enma now has the power to snuff out any sparks of life, ruling the void.',
-        locations: ['Enma Palace'],
+        locations: [
+            '1. Go into Cluviant Continent-Blasters Camp and in Camp talk with Sgt. Burly and do every single Ruin.\n2. You will unlock Enma Palace as a new Ruin and you need to beat every one of them.\n3. Dark Labyrinth will appear as a new dungeon in Enma Palace where you can unlock this yokai.'
+        ],
         skill: {
             name: 'Umbral Aura',
             description:
