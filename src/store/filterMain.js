@@ -11,6 +11,7 @@ const getState = function(
     element,
     misc,
     types,
+    crankakais,
     name,
     handleResetFilter,
     handleCheckbox,
@@ -22,6 +23,7 @@ const getState = function(
         element,
         misc,
         types,
+        crankakais,
         name,
         handleResetFilter,
         handleCheckbox,
@@ -52,7 +54,8 @@ class FilterMainProvider extends Component {
                 rank: [],
                 element: [],
                 misc: [],
-                types: []
+                types: [],
+                crankakais: []
             });
         };
 
@@ -87,6 +90,7 @@ class FilterMainProvider extends Component {
             element: [],
             misc: [],
             types: [],
+            crankakais: [],
             handleResetFilter: this.handleResetFilter,
             handleCheckbox: this.handleCheckbox,
             handleText: this.handleText
@@ -101,6 +105,7 @@ class FilterMainProvider extends Component {
             element,
             misc,
             types,
+            crankakais,
             name,
             handleResetFilter,
             handleCheckbox,
@@ -115,6 +120,7 @@ class FilterMainProvider extends Component {
                     element,
                     misc,
                     types,
+                    crankakais,
                     name,
                     handleResetFilter,
                     handleCheckbox,

@@ -1,3 +1,4 @@
+/* eslint-disable no-restricted-syntax */
 import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { Helmet } from 'react-helmet';
@@ -32,7 +33,8 @@ import {
     ranks as ranksfilters,
     tribes as tribesFilters,
     misc as miscFilters,
-    types as typesFilters
+    types as typesFilters,
+    crankakais as crankakaisFilters
 } from '../../mocks/filters';
 import {
     withGameVersionContext,
@@ -55,7 +57,8 @@ class Main extends Component {
             isCollapsedFilterRanks: true,
             isCollapsedFilterElements: true,
             isCollapsedFilterMisc: true,
-            isCollapsedFilterTypes: true
+            isCollapsedFilterTypes: true,
+            isCollapsedFilterCrankakais: true
         };
 
         this.handleOpenFilterTribes = this.handleOpenFilter.bind(
@@ -77,6 +80,10 @@ class Main extends Component {
         this.handleOpenFilterTypes = this.handleOpenFilter.bind(
             this,
             'isCollapsedFilterTypes'
+        );
+        this.handleOpenFilterCrankakais = this.handleOpenFilter.bind(
+            this,
+            'isCollapsedFilterCrankakais'
         );
 
         this.listref = React.createRef();
@@ -135,7 +142,8 @@ class Main extends Component {
             isCollapsedFilterRanks,
             isCollapsedFilterElements,
             isCollapsedFilterMisc,
-            isCollapsedFilterTypes
+            isCollapsedFilterTypes,
+            isCollapsedFilterCrankakais
         } = this.state;
         const { context } = this.props;
         return (
@@ -171,11 +179,13 @@ class Main extends Component {
                             >
                                 <Filter size={18} />
                             </Button>
-                            {(context.tribe.length > 0 ||
+                            {(context.name.length > 0 ||
+                                context.tribe.length > 0 ||
                                 context.rank.length > 0 ||
                                 context.element.length > 0 ||
                                 context.types.length > 0 ||
-                                context.misc.length > 0) && (
+                                context.misc.length > 0 ||
+                                context.crankakais.length > 0) && (
                                 <Button
                                     type="button"
                                     onClick={context.handleResetFilter}
@@ -299,6 +309,36 @@ class Main extends Component {
                                                     )}
                                                     name={el}
                                                     checkboxtype="types"
+                                                    onChange={
+                                                        context.handleCheckbox
+                                                    }
+                                                    label={el}
+                                                />
+                                            </label>
+                                        </InputContainer>
+                                    ))}
+                                </CollapsibleFilters>
+                            </Column>
+                            <Column>
+                                <SpecialHeader
+                                    onClick={this.handleOpenFilterCrankakais}
+                                >
+                                    <h2>Crank-a-kais</h2>
+                                    <Plus />
+                                </SpecialHeader>
+                                <CollapsibleFilters
+                                    isCollapsed={isCollapsedFilterCrankakais}
+                                >
+                                    {crankakaisFilters.map(el => (
+                                        <InputContainer key={el}>
+                                            <label>
+                                                <Checkbox
+                                                    type="checkbox"
+                                                    checked={context.crankakais.includes(
+                                                        el.toLowerCase()
+                                                    )}
+                                                    name={el}
+                                                    checkboxtype="crankakais"
                                                     onChange={
                                                         context.handleCheckbox
                                                     }
@@ -465,6 +505,22 @@ class Main extends Component {
                                         !yokai.type.includes('pioneer')))
                             ) {
                                 return false;
+                            }
+
+                            for (const el of crankakaisFilters) {
+                                if (
+                                    context.crankakais.includes(
+                                        el.toLocaleLowerCase()
+                                    ) &&
+                                    (yokai.crankakai === undefined ||
+                                        (yokai.crankakai &&
+                                            !yokai.crankakai.some(crank =>
+                                                crank.name.includes(el)
+                                            )))
+                                ) {
+                                    aux = false;
+                                    break;
+                                }
                             }
 
                             return aux;
