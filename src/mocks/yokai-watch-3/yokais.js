@@ -4,7 +4,7 @@ const yokais = [
         yokaiNumber: '001',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sigh-durr.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sigh-durr.png',
         description:
             'After a lifetime of having apples shot off the top of his head, any arrow he shoots seems to find its way back to his forehead.',
         locations: ['Gloombell Forest'],
@@ -26,7 +26,7 @@ const yokais = [
                 'He AIMS at the column in front but *sigh* may fail and hit himself...',
             power: '93',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Butter Fingers',
@@ -69,7 +69,7 @@ const yokais = [
         yokaiNumber: '002',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flippit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/flippit.png',
         description:
             "Appears besides those fast asleep and flips over their pillows. If you've ever had a restless night, he's probably paid you a visit.",
         locations: ['Blossom Heights - Bushes'],
@@ -90,7 +90,7 @@ const yokais = [
             description: 'Flips himself into the column in front, head first!',
             power: '113 to 279',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Disturb Sleep',
@@ -134,7 +134,7 @@ const yokais = [
         yokaiNumber: '003',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pandle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pandle.png',
         description:
             'A careless Yo-kai who enters battle wearing only a loincloth...and a pan on his head. Try not to take after him so much.',
         locations: ['Blossom Heights - Tucked Away Lot'],
@@ -155,7 +155,7 @@ const yokais = [
             description: 'Pokes foes in range with his beloved toothpick.',
             power: '18x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Careless',
@@ -198,7 +198,7 @@ const yokais = [
         yokaiNumber: '004',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/undy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/undy.png',
         description:
             "Having abandoned the pan, Undy is pretty much bare to the world. That aside, you won't ever see him wince or bruise.",
         locations: ['Evolution'],
@@ -220,7 +220,7 @@ const yokais = [
                 'Pokes foes in range very hard with his trusty toothpick.',
             power: '20x7',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Defenseless',
@@ -247,7 +247,7 @@ const yokais = [
         yokaiNumber: '005',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tanbo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tanbo.png',
         description:
             'A Yo-kai that is always first to the battle! With no clothes to slow him down, he shows up early and always has a nice tan.',
         locations: ['Harrisville - Old House by The Station'],
@@ -268,7 +268,7 @@ const yokais = [
             description: 'Cuts the column in front confidently and incisively.',
             power: '155 to 232',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Gutsiness',
@@ -294,7 +294,7 @@ const yokais = [
         yokaiNumber: '006',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cutta-nah.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cutta-nah.png',
         description:
             "A lazy katana Yo-kai who can drain all of your motivation. He's strangely sharp for being so lazy.",
         locations: ['Breezy Hills - flowers'],
@@ -315,7 +315,7 @@ const yokais = [
             description: 'Slices nearby opponents while lolling around.',
             power: '20x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Aimless',
@@ -341,7 +341,7 @@ const yokais = [
         yokaiNumber: '007',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cutta-nah-nah.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cutta-nah-nah.png',
         description:
             'Too lazy to get a haircut, but not too lazy to slash enemies with his untidy strands.',
         locations: ['Evolution'],
@@ -363,7 +363,7 @@ const yokais = [
                 'Rushes into the fray, spinning around and slicing up foes in range.',
             power: '20x7',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Laziness',
@@ -389,7 +389,7 @@ const yokais = [
         yokaiNumber: '008',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slacka-slash.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slacka-slash.png',
         description:
             'More dangerous than he looks, Slacka-slash can beat his foes with only a single slice.',
         locations: ['Breezy Hills - Garbages'],
@@ -411,7 +411,7 @@ const yokais = [
                 'Somehow manages to slice the column in front whilst lolling around.',
             power: '155 to 232',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Laziness',
@@ -437,7 +437,7 @@ const yokais = [
         yokaiNumber: '009',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/brushido.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/brushido.png',
         description:
             "A foot soldier who loves cleaning. His spotless reputation means he's sure to be a shogun someday.",
         locations: ['Uptown Springdale - Under cars'],
@@ -459,7 +459,7 @@ const yokais = [
                 'Purifies all allies with a thorough scrubbing from his deck brush.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Freshen Up',
@@ -502,7 +502,7 @@ const yokais = [
         yokaiNumber: '010',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/washogun.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/washogun.png',
         description:
             'A neat-freak shogun who has been known to make heads roll if an underling so much as smudges his helmet.',
         locations: ['Evolution'],
@@ -524,7 +524,7 @@ const yokais = [
                 'Restores HP and purifies all allies with strong disinfectant spray.',
             power: '70',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Spruce Up',
@@ -550,7 +550,7 @@ const yokais = [
         yokaiNumber: '011',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lie-in.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lie-in.png',
         description:
             'A laid-back lion who wants to be a mighty warrior but tends to prioritize nap time over sword practice.',
         locations: ['Jumbo Slider'],
@@ -572,7 +572,7 @@ const yokais = [
                 'Serves up a serious beating to foes in range with his bare hands.',
             power: '16x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Lionize',
@@ -599,7 +599,7 @@ const yokais = [
         yokaiNumber: '012',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lie-in_heart.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lie-in_heart.png',
         description:
             "A lion who's realized his full potential. He always waits for the perfect moment before striking.",
         locations: ['Evolution'],
@@ -621,7 +621,7 @@ const yokais = [
                 'Waits for the perfect moment before cutting foes with his sword.',
             power: '28x8',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Lionize',
@@ -655,7 +655,7 @@ const yokais = [
         yokaiNumber: '013',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hissfit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hissfit.png',
         description:
             'This foul-tempered fellow stamps his feet constantly, making it hard to take him seriously.',
         locations: ['Mt. Wildwood - Abandoned Tunnel'],
@@ -677,7 +677,7 @@ const yokais = [
                 'In a rage, he waves his sword around and strikes foes within range.',
             power: '18x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Meltdown',
@@ -704,7 +704,7 @@ const yokais = [
         yokaiNumber: '014',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zerberker.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/zerberker.png',
         description:
             "Legend has it that this Yo-kai leveled an entire village with one tantrum. You'll explode with rage if he's around.",
         locations: ['Fusion.'],
@@ -726,7 +726,7 @@ const yokais = [
                 'Goes nuts with his cutters and slashes foes within range.',
             power: '20x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Berserk',
@@ -753,7 +753,7 @@ const yokais = [
         yokaiNumber: '015',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snartle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snartle.png',
         description:
             'This Yo-kai visits homes asking, "Any brats here?" It\'s a way of scaring kids into behaving well. Kind of like a reverse Santa.',
         locations: ['Jaywalk'],
@@ -775,7 +775,7 @@ const yokais = [
                 'Goes nuts with his cutters and slashes foes within range.',
             power: '22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Frighten',
@@ -803,7 +803,7 @@ const yokais = [
         yokaiNumber: '016',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/brutle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/brutle.png',
         description:
             "Snartle's mask has slipped to reveal his true nature! Now he attacks all kids, regardless of whether they've been good or bad.",
         locations: ['Fusion.'],
@@ -825,7 +825,7 @@ const yokais = [
                 'Brutalizes the column in front, and turns tiles into red hot magma!',
             power: '95',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Expose Weakness',
@@ -853,7 +853,7 @@ const yokais = [
         yokaiNumber: '017',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mochismo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mochismo.png',
         description:
             "He's cute most of the time, but when he's mad, his body cracks and his manly face pops out.",
         locations: ['Springdale Elementary'],
@@ -875,7 +875,7 @@ const yokais = [
                 'Puffs up and decks the column in front with one mean punch.',
             power: '105 to 157',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Mochi Power',
@@ -902,7 +902,7 @@ const yokais = [
         yokaiNumber: '018',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/minochi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/minochi.png',
         description:
             "When he's in love, he gets overly protective of his partner. He can make you a very jealous person.",
         locations: ["Shopper's Row - Shopping Street Narrows"],
@@ -924,7 +924,7 @@ const yokais = [
                 'Puffs up and decks the column in front with one mean punch.',
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Jealousy',
@@ -950,7 +950,7 @@ const yokais = [
         yokaiNumber: '019',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/minimoto.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/minimoto.png',
         description:
             "A lightning fast, 1 inch tall Yo-kai. Even if you're lucky enough to spot him, he'll be gone again in an instant.",
         locations: ['Sparkopolis - Distributors'],
@@ -972,7 +972,7 @@ const yokais = [
                 'In a flash he attacks the column in front, forcing back any enemies he hits!',
             power: '93 to 279',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/1.png'
         },
         inspirit: {
             name: 'Step it Up!',
@@ -1015,7 +1015,7 @@ const yokais = [
         yokaiNumber: '020',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slumberhog.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slumberhog.png',
         description:
             'With this Yo-kai, it is best to follow a slight twist on an old saying: "Let sleeping hogs lie.","20',
         locations: ['Breezy Hills - Brushwoods'],
@@ -1037,7 +1037,7 @@ const yokais = [
                 'Slams hard into the column in front without ever waking up.',
             power: '110 to 242',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Bedtime',
@@ -1072,7 +1072,7 @@ const yokais = [
         yokaiNumber: '021',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snortlehog.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snortlehog.png',
         description:
             "Someone made the mistake of wakin' the bacon, and he's absolutely furious about it!",
         locations: ['Fusion.'],
@@ -1094,7 +1094,7 @@ const yokais = [
                 'A battle hardened blaze of blows that strikes foes within range.',
             power: '30x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Festival Fun',
@@ -1122,7 +1122,7 @@ const yokais = [
         yokaiNumber: '022',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/samureel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/samureel.png',
         description:
             'A warrior who aims to be the best in the world, he excels at giving enemies the slip.',
         locations: ['Old Mansion - Main House'],
@@ -1144,7 +1144,7 @@ const yokais = [
                 "Employs nutritious eeliness that greatly increases all allies' STR.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Eelectrify',
@@ -1172,7 +1172,7 @@ const yokais = [
         yokaiNumber: '023',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/time_keeler.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/time_keeler.png',
         description:
             'This evolved Samureel is so powerful that no one is willing to take him on in battle.',
         locations: ['Fusion.'],
@@ -1194,7 +1194,7 @@ const yokais = [
                 'Strikes foes in range with his swords just because he can.',
             power: '31x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Eelectrify',
@@ -1222,7 +1222,7 @@ const yokais = [
         yokaiNumber: '024',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/goofball.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/goofball.png',
         description:
             "Somehow this Yo-kai has found his way on to a pro baseball team, despite the fact that he can't even handle a game of catch.",
         locations: ['Meadowbrooke Farm'],
@@ -1244,7 +1244,7 @@ const yokais = [
                 'He swings his bat at foes in range and cries about what a goof he is.',
             power: '100 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Goof Up',
@@ -1309,7 +1309,7 @@ const yokais = [
         yokaiNumber: '025',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slugger.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slugger.png',
         description:
             'Through intensive training, Goofball has realized his true potential! His shelf is full of the MVP awards he has received.',
         locations: ['Evolution'],
@@ -1331,7 +1331,7 @@ const yokais = [
                 'Comes up to bat and pulls a big hitter on foes in range.',
             power: '150 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Can-Do Champion',
@@ -1359,7 +1359,7 @@ const yokais = [
         yokaiNumber: '026',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/helmsman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/helmsman.png',
         description:
             'A floating helmet that was worn by a famous military commander. He spends his days searching for his body\u2014a good use of time.',
         locations: ['Old Mansion - Main House'],
@@ -1381,7 +1381,7 @@ const yokais = [
                 'All allies receive a morale boosting order that greatly raises DEF.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Helmet Defense',
@@ -1415,7 +1415,7 @@ const yokais = [
         yokaiNumber: '027',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reuknight.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/reuknight.png',
         description:
             "Helmsman and Armsman reunited. He now aspires to do what he couldn't do when he was alive\u2014 unify the country.",
         locations: ['Fusion.'],
@@ -1437,7 +1437,7 @@ const yokais = [
                 'Draws a sword from his hip and strikes foes in range with one blow.',
             power: '130 to 195',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: "Knight's Curse",
@@ -1464,7 +1464,7 @@ const yokais = [
         yokaiNumber: '028',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/corptain.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/corptain.png',
         description:
             "A popular leader when he was alive, Corptain leads an army of souls even after death. Now that's charisma!",
         locations: ['Bada-Bing Tower'],
@@ -1486,7 +1486,7 @@ const yokais = [
                 'Draws a sword from his hip and strikes foes in range with one blow.',
             power: '135 to 202 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Stygian Curse',
@@ -1513,7 +1513,7 @@ const yokais = [
         yokaiNumber: '029',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slicenrice.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slicenrice.png',
         description:
             'Strength: defeating Oni in battle. Weakness: being eaten by Hungramps.',
         locations: ['Greenfields Station - Brushwoods'],
@@ -1535,7 +1535,7 @@ const yokais = [
                 'Leaps into the air and delivers a sword blow to the column in front.',
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Power Snack',
@@ -1562,7 +1562,7 @@ const yokais = [
         yokaiNumber: '030',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flamurice.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/flamurice.png',
         description:
             "A smokin'-hot, next-level rice warrior. His tough, crispy skin makes him pretty unappealing to Hungramps.",
         locations: ['Evolution'],
@@ -1584,7 +1584,7 @@ const yokais = [
                 'Deals a flaming sword slash to the column in front. Sets the floor alight.',
             power: '180 to 270',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Power Lunch',
@@ -1611,7 +1611,7 @@ const yokais = [
         yokaiNumber: '031',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tublappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tublappa.png',
         description:
             "There's nothing he won't lick\u2014the ickier the better! Don't get Inspirited by Tublappa if you value a clean tongue.",
         locations: ['Blossom Heights - Hidden Side Street'],
@@ -1633,7 +1633,7 @@ const yokais = [
                 'Unfurls his lengthy tongue and damages foes in range.',
             power: '40x3 to 40x3 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Sick Lick',
@@ -1661,7 +1661,7 @@ const yokais = [
         yokaiNumber: '032',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lappinitup.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lappinitup.png',
         description:
             "Unsatisfied with cleaning bathrooms, Tublappa decided to make a name for himself in BBQ. Now he's cleaning up at award shows!",
         locations: ['Fusion.'],
@@ -1683,7 +1683,7 @@ const yokais = [
                 'Laps up attention on the red carpet, wounding envious foes in range.',
             power: '200 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Lap it Up!',
@@ -1717,7 +1717,7 @@ const yokais = [
         yokaiNumber: '033',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/el_gutso.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/el_gutso.png',
         description:
             'Always in search of his next real fight. That means bare knuckles and no time limit. You know, a REAL fight.',
         locations: ["Grumbler's Grotto"],
@@ -1739,7 +1739,7 @@ const yokais = [
                 'Goes all out with a jumping kick to the column in front.',
             power: '93 to 279',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Gutsy Gambler',
@@ -1782,7 +1782,7 @@ const yokais = [
         yokaiNumber: '034',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gutso_grande.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gutso_grande.png',
         description:
             'After finding unparalleled power by overcoming a thousand fights, this Yo-kai can now single-handedly take on an entire army.',
         locations: ['Evolution'],
@@ -1804,7 +1804,7 @@ const yokais = [
                 'Delivers a punch worthy of the grand champ to the column in front.',
             power: '190 to 285',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Grande Guts',
@@ -1830,7 +1830,7 @@ const yokais = [
         yokaiNumber: '035',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mudmunch.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mudmunch.png',
         description:
             'This Yo-kai embodies the pain of farmers who have lost their fields. He\'s easy to identify thanks to his moan, "Get off my land!","35',
         locations: ['Greenfields Station - Rice Paddy Path'],
@@ -1852,7 +1852,7 @@ const yokais = [
                 'Furious over his field, he curses his foes, greatly reducing their STR.',
             power: '100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Sucking Mud',
@@ -1897,7 +1897,7 @@ const yokais = [
         yokaiNumber: '036',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bbqvil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bbqvil.png',
         description:
             "This Yo-kai firmly believes that there's nothing better than a barbecue\u2014one with plenty of meat!",
         locations: ['East Pine - Flowers'],
@@ -1919,7 +1919,7 @@ const yokais = [
                 'Restores HP and powers up by chowing on highly nutritious meat.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Meat-a-mins',
@@ -2008,7 +2008,7 @@ const yokais = [
         yokaiNumber: '037',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/liarbird.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/liarbird.png',
         description:
             'A sparrow Yo-kai that will habitually deny having sliced and diced anything that looks suspiciously sliced and diced.',
         locations: ['Old Mansion - Main House'],
@@ -2029,7 +2029,7 @@ const yokais = [
             description: 'Cuts out the lying and cuts foes in range instead!',
             power: '24x5 to 48x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Me Know Nothing...',
@@ -2055,7 +2055,7 @@ const yokais = [
         yokaiNumber: '038',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/benkei.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/benkei.png',
         description:
             'Hiding 999 weapons from fallen foes in his stomach, Benkei can call any one of them out in a moment of need.',
         locations: ['Breezy Hills - Construction Materials'],
@@ -2077,7 +2077,7 @@ const yokais = [
                 'Unleashes 999 blades and attacks all foes within range.',
             power: '17x9',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Clumsiness',
@@ -2119,7 +2119,7 @@ const yokais = [
         yokaiNumber: '039',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/b3-nk1.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/b3-nk1.png',
         description:
             "A Yo-kai whose body is half machine. He could very well be the world's first cyborg Yo-kai.",
         locations: ['Breezy Hills - Under cars'],
@@ -2140,7 +2140,7 @@ const yokais = [
             description: 'Rapidly fires blades at all foes within range.',
             power: '20x9',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Cyborg Strength',
@@ -2166,7 +2166,7 @@ const yokais = [
         yokaiNumber: '040',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blazion.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/blazion.png',
         description:
             'The king of beasts with a mane of fire! This hot-blooded Yo-kai fills folks with fiery enthusiasm.',
         locations: ['Springdale Elementary'],
@@ -2188,7 +2188,7 @@ const yokais = [
                 'Burns foes in range with the flaming power of his fighting spirit.',
             power: '60 to 132',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Emblaze',
@@ -2237,7 +2237,7 @@ const yokais = [
         yokaiNumber: '041',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/quaken.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/quaken.png',
         description:
             'Every step Quaken takes shakes the place...and some of those vibrations can even move your heart. Awwwwww!',
         locations: ['Blossom Heights - Distributors'],
@@ -2259,7 +2259,7 @@ const yokais = [
                 'Shakes the earth and batters foes in range with massive rocks.',
             power: '75 to 165',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Lion's Pride",
@@ -2302,7 +2302,7 @@ const yokais = [
         yokaiNumber: '042',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/siro.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/siro.png',
         description:
             'Siro brings out the best in those he Inspirits. They become shining lights for the future.',
         locations: ['Northbeech - Under cars'],
@@ -2324,7 +2324,7 @@ const yokais = [
                 'Gives an ultra boost to the STR of all allies with his fierce aura.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Heart's Roar",
@@ -2377,7 +2377,7 @@ const yokais = [
         yokaiNumber: '043',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chansin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chansin.png',
         description:
             'Once a proud warrior, Chansin threw it all away by gambling... Now his best odds are to retreat.',
         locations: ['Tranquility Apts.'],
@@ -2399,7 +2399,7 @@ const yokais = [
                 'Makes all allies tingle with competitive spirit. STR greatly rises.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Bad Bet',
@@ -2426,7 +2426,7 @@ const yokais = [
         yokaiNumber: '044',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sheen.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sheen.png',
         description:
             'A Yo-kai swordsman who returned to the way of the sword when a legendary blade reignited his spirit.',
         locations: ['Fusion.'],
@@ -2447,7 +2447,7 @@ const yokais = [
             description: 'Cuts the column before him with a righteous blade.',
             power: '155 to 232',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Fine Weapon',
@@ -2473,7 +2473,7 @@ const yokais = [
         yokaiNumber: '045',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snee.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snee.png',
         description:
             'Cursed by his demon blade, Snee searches the world for blood. He excels at silently sneaking up on his enemies.\u3000\u3000',
         locations: ['Fusion.'],
@@ -2495,7 +2495,7 @@ const yokais = [
                 'Ruthlessly slices foes in range with a despicably sharp cursed sword.',
             power: '20x7 to 30x7',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Cursed Sword',
@@ -2522,7 +2522,7 @@ const yokais = [
         yokaiNumber: '046',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gleam.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gleam.png',
         description:
             'A holy swordsman with a divine blade that cuts through evil like cheddar cheese. Could he bring about tasty world peace?',
         locations: ['Fusion.'],
@@ -2544,7 +2544,7 @@ const yokais = [
                 'Slices the column in front of him with his sacred sword.',
             power: '165 to 247',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Holy Sword',
@@ -2571,7 +2571,7 @@ const yokais = [
         yokaiNumber: '047',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hovernyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hovernyan.png',
         description:
             "Despite being able to float, Hovernyan's very down to earth. His forehead scar reminds him of his fallibility.",
         locations: ['Blasters Boot Camp!'],
@@ -2593,7 +2593,7 @@ const yokais = [
                 'Builds up and then hits a single foe with a stunning tackle.',
             power: '180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Pal Power',
@@ -2627,7 +2627,7 @@ const yokais = [
         yokaiNumber: '048',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/moximous_n.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/moximous_n.png',
         description:
             'This champion of justice has crushed countless evils via the purity of his heart. He used to be a normal boy who just loved superheroes a lot.',
         locations: ['Yo-kai Ring 10'],
@@ -2649,7 +2649,7 @@ const yokais = [
                 'Strikes the Moxie Pose, recovering HP and getting even more powerful!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Moximous',
@@ -2676,7 +2676,7 @@ const yokais = [
         yokaiNumber: '049',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/moximous_k.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/moximous_k.png',
         description:
             'He was a boy who loved Yo-kai so much that he became one himself. That love still spreads through hundreds of Yo-kai friends.',
         locations: ['Yo-kai Ring 28'],
@@ -2698,7 +2698,7 @@ const yokais = [
                 'Strikes the Moxie Pose, recovering HP and getting even more powerful!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Moximous',
@@ -2725,7 +2725,7 @@ const yokais = [
         yokaiNumber: '050',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hot_air_buffoon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hot_air_buffoon.png',
         description:
             "For all his huffing and puffing, he's actually a little bit scared of heights, so he tends to hover at low altitudes.",
         locations: ['Dukesville - Trees'],
@@ -2747,7 +2747,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '200 to 400',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Inflated Ego',
@@ -2806,7 +2806,7 @@ const yokais = [
         yokaiNumber: '051',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sushiyama.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sushiyama.png',
         description:
             'A Yo-kai who desperately wants to be Japanese. He sleeps on a futon and eats only sushi. I think he might be doing it wrong...',
         locations: ['Uptown Springdale - Lonely Waterway'],
@@ -2828,7 +2828,7 @@ const yokais = [
                 'Smashes his pole onto foes in the column in front of him.',
             power: '210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Samurai Spirit',
@@ -2854,7 +2854,7 @@ const yokais = [
         yokaiNumber: '052',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kapunki.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kapunki.png',
         description:
             'A punk Yo-kai who wears kabuki-style makeup. He dreams of rocking the socks and faces off his fans all across the globe.',
         locations: ['Sunset Mall'],
@@ -2876,7 +2876,7 @@ const yokais = [
                 'Boldly bashes foes in the column in front with his pole.',
             power: '260',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Kabuki Fun',
@@ -2930,7 +2930,7 @@ const yokais = [
         yokaiNumber: '053',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/beetler.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/beetler.png',
         description:
             'Beetler is a young battler who fights with his horns and his fists. He trains with his rival, Rhinoggin.',
         locations: ['Mt. Wildwood - Trees'],
@@ -2951,7 +2951,7 @@ const yokais = [
             description: 'Pinches foes in range with... well, his pincers.',
             power: '110 to 242',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Stag Power',
@@ -2995,7 +2995,7 @@ const yokais = [
         yokaiNumber: '054',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/beetall.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/beetall.png',
         description:
             'If Beetler bashes baddies in a bevy of brutal battles, the result will be a big-bodied Beetall.',
         locations: ['Fusion.'],
@@ -3017,7 +3017,7 @@ const yokais = [
                 'Crushes foes in range with the huge pincers atop his head.',
             power: '195 to 292',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Fighter Power',
@@ -3043,7 +3043,7 @@ const yokais = [
         yokaiNumber: '055',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cruncha.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cruncha.png',
         description:
             'A stag beetle Yo-kai that represents the apex of the thorax. He can grant you incredible strength.',
         locations: ['Crank-a-Kai (Springdale)'],
@@ -3065,7 +3065,7 @@ const yokais = [
                 'Crushes foes in range with the huge pincers atop his head.',
             power: '210 to 315',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Legend Power',
@@ -3129,7 +3129,7 @@ const yokais = [
         yokaiNumber: '056',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/machonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/machonyan.png',
         description:
             "Machonyan's mask hides the scars he suffered during his time as a wrestler-in-training.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -3151,7 +3151,7 @@ const yokais = [
                 'Dives off the ropes and cross chops the column in front.',
             power: '210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Tiger Power',
@@ -3200,7 +3200,7 @@ const yokais = [
         yokaiNumber: '057',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/momonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/momonyan.png',
         description:
             'A cat Yo-kai born out of a peach. Raised by his grandparents, he is now on a quest to defeat Oni everywhere.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -3222,7 +3222,7 @@ const yokais = [
                 'Slashes foes in range with the power of tasty millet dumplings.',
             power: '16x10 to 24x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Delicious Dumpling',
@@ -3249,7 +3249,7 @@ const yokais = [
         yokaiNumber: '058',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sir_nyansalot.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sir_nyansalot.png',
         description:
             'An armored cat Yo-kai who once defended a king, and he will put his life on the line for his master.',
         locations: ['Yo-kai Ring 29'],
@@ -3271,7 +3271,7 @@ const yokais = [
                 'With his knightly blade, he courageously cuts down foes in range.',
             power: '25x10 to 0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Oath of Fealty',
@@ -3310,7 +3310,7 @@ const yokais = [
         yokaiNumber: '059',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sgt._burly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sgt._burly.png',
         description:
             "The much-loved boss of Burly's Beat Camp doesn't go easy on folks he trains. He's there to pump you up, after all!",
         locations: ['Story recruit.'],
@@ -3332,7 +3332,7 @@ const yokais = [
                 'Raises the stats of all allies with a vicious workout rhythm.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Fighting Fit',
@@ -3365,7 +3365,7 @@ const yokais = [
         yokaiNumber: '060',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bison_burly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bison_burly.png',
         description:
             "Sgt. Burly is now in charge of overall strategy, but still can't resist the lure of the front line.",
         locations: ['Yo-kai Ring 22'],
@@ -3387,7 +3387,7 @@ const yokais = [
                 "The force of his outstanding leadership boosts all allies' stats!",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Morale Boost',
@@ -3414,7 +3414,7 @@ const yokais = [
         yokaiNumber: '061',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/demuncher.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/demuncher.png',
         description:
             'A terrifying Yo-kai who can open his huge mouth and swallow monsters whole. He has very bad indigestion.',
         locations: ['Oni Crank-a-kai'],
@@ -3435,7 +3435,7 @@ const yokais = [
             description: 'Opens his massive mouth and chomps on a single foe.',
             power: '195 to 292',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Fightamins',
@@ -3473,7 +3473,7 @@ const yokais = [
         yokaiNumber: '062',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/devourer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/devourer.png',
         description:
             "He sucks the energy out of his victims but leaves their bodies intact so that they look like they've simply fallen asleep.",
         locations: ["Shopper's Row - Nocturne Hospital"],
@@ -3494,7 +3494,7 @@ const yokais = [
             description: 'Opens his massive mouth and chomps on a single foe.',
             power: '205 to 307',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Maulnutrition',
@@ -3528,7 +3528,7 @@ const yokais = [
         yokaiNumber: '063',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/illuminoct.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/illuminoct.png',
         description:
             'Illuminoct has a heart full of pure, golden justice that shines as brightly as the sun. That light shines on and obliterates all evil.',
         locations: ['He Who Ascended to the Light'],
@@ -3550,7 +3550,7 @@ const yokais = [
                 'Repeatedly bites foes in range with his aura-filled dragon scarf.',
             power: '24x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Light of Life',
@@ -3577,7 +3577,7 @@ const yokais = [
         yokaiNumber: '064',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/arachnevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/arachnevil.png',
         description:
             'Arachnevil is a direct Oni descendant who has sacrificed his life in the name of strength and power.',
         locations: ['Oni Crank-a-kai'],
@@ -3599,7 +3599,7 @@ const yokais = [
                 'Strikes the column in front with the power of a legendary demon.',
             power: '190 to 285',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Curse of the Oni',
@@ -3638,7 +3638,7 @@ const yokais = [
         yokaiNumber: '065',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shurikenny.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shurikenny.png',
         description:
             'This heroic Yo-kai just wants to have his actions recognized, but his ninja nature keeps him living in the shadows.',
         locations: ['The Shadowy Hero! Shurikenny!'],
@@ -3660,7 +3660,7 @@ const yokais = [
                 'Strikes from the shadows to randomly throw kunai across the field.',
             power: '155 to 232',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Taunt',
@@ -3687,7 +3687,7 @@ const yokais = [
         yokaiNumber: '066',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nunchucky.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nunchucky.png',
         description:
             'The successor to an ancient style of deadly ninjitsu. Quietly brings a graceful death to his enemies.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -3709,7 +3709,7 @@ const yokais = [
                 'Strikes from the shadows to randomly throw kunai across the field.',
             power: '155 to 232',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Taunt',
@@ -3788,7 +3788,7 @@ const yokais = [
         yokaiNumber: '067',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/camellia.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/camellia.png',
         description:
             "Born from a flower, this Yo-kai's beauty has captured the hearts of the people, who have made her their princess.",
         locations: ['Crank-a-Kai (Springdale)'],
@@ -3810,7 +3810,7 @@ const yokais = [
                 "A camellia beam blasts the column in front while restoring all allies' HP.",
             power: '60',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Florescent Flourish',
@@ -3844,7 +3844,7 @@ const yokais = [
         yokaiNumber: '068',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/brokenbrella.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/brokenbrella.png',
         description:
             'A Yo-kai born from the pain of a flimsy plastic umbrella who desperately wished he was a sturdier model.',
         locations: ['Uptown Springdale - Flower Beds'],
@@ -3866,7 +3866,7 @@ const yokais = [
                 'Whips up a whirlwind that turns him inside out and strikes foes in range.',
             power: '80',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Tailwind',
@@ -3899,7 +3899,7 @@ const yokais = [
         yokaiNumber: '069',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pittapatt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pittapatt.png',
         description:
             "The spirit of a pair of well-worn straw sandals. If you ever find yourself hearing mysterious footsteps, it's probably this little guy.",
         locations: ['Harrisville Station Plaza - Brushwoods'],
@@ -3922,7 +3922,7 @@ const yokais = [
                 'Attacks foes in range with the earth power he gained step by step.',
             power: '75',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Bless My Sole',
@@ -3949,7 +3949,7 @@ const yokais = [
         yokaiNumber: '070',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zip_unlock.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/zip_unlock.png',
         description:
             "This Yo-kai unfastens zippers when you're not looking! That's never going to end well...",
         locations: ['East Pine - Fire hydrants'],
@@ -3971,7 +3971,7 @@ const yokais = [
                 'Unzips to expose a creepy aura. The shocked enemy becomes unwilling to act.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Unzip Defenses',
@@ -4035,7 +4035,7 @@ const yokais = [
         yokaiNumber: '071',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slippup.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slippup.png',
         description:
             'Ever said something out of place that had bad consequences? This is the Yo-kai to blame! Watch out!',
         locations: ['Sparkopolis - Garbages'],
@@ -4057,7 +4057,7 @@ const yokais = [
                 'Creates slippery ice tiles that, if crossed, damage and reduce STR.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: "Slip'n'slide",
@@ -4082,7 +4082,7 @@ const yokais = [
         yokaiNumber: '072',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snotsolong.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snotsolong.png',
         description:
             "A crane Yo-kai with an insanely runny nose. He's scared his drippings will make him too heavy to fly. ...I'd be scared too.",
         locations: ['Blossom Heights - Rivers'],
@@ -4103,7 +4103,7 @@ const yokais = [
             description: 'Vigorously slaps an opponent with his trailing snot.',
             power: '100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Runny Nose',
@@ -4129,7 +4129,7 @@ const yokais = [
         yokaiNumber: '073',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/duchoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/duchoo.png',
         description:
             "Ever felt like you might be sick, but you're not totally sure if you really are? Blame Duchoo.\u3000",
         locations: ["Shopper's Row - Under cars"],
@@ -4150,7 +4150,7 @@ const yokais = [
             description: 'Vigorously slaps an opponent with his trailing snot.',
             power: '130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Catch Cold',
@@ -4176,7 +4176,7 @@ const yokais = [
         yokaiNumber: '074',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/d_wanna.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/d_wanna.png',
         description:
             "D'wanna's chants will weaken your resolve! This can make you give up on...y'know, stuff and whatever.",
         locations: ['Blossom Heights - Construction Materials'],
@@ -4198,7 +4198,7 @@ const yokais = [
                 'Chants a curse at all foes. Those hit become reluctant to act.',
             power: '30',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Full of Sighs',
@@ -4225,7 +4225,7 @@ const yokais = [
         yokaiNumber: '075',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/n_more.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/n_more.png',
         description:
             "N'more gets bored of things quickly. Some say his cool brows and beard grew from his boredom with shaving.",
         locations: ['Evolution'],
@@ -4247,7 +4247,7 @@ const yokais = [
                 'Directs a curse at all foes. Those hit become reluctant to act.',
             power: '100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Full of Sighs',
@@ -4274,7 +4274,7 @@ const yokais = [
         yokaiNumber: '076',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/q_wit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/q_wit.png',
         description:
             "He gives up on everything he tries and won't do the same thing twice. He has a lot of experience in doing things once.",
         locations: ['Blossom Heights - Brushwoods'],
@@ -4296,7 +4296,7 @@ const yokais = [
                 'Hits all foes with a supremely powerful curse. DEF goes way down.',
             power: '130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Demotivator',
@@ -4330,7 +4330,7 @@ const yokais = [
         yokaiNumber: '077',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wazzat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wazzat.png',
         description:
             'He fits snugly on your head then devours your memories. It can be nice to forget the bad ones... or to just wear a hat.',
         locations: ['Downtown Springdale - Brushwoods'],
@@ -4352,7 +4352,7 @@ const yokais = [
                 'Removes the good status effects of all foes by eating up their memories.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Memory Eater',
@@ -4396,7 +4396,7 @@ const yokais = [
         yokaiNumber: '078',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/houzzat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/houzzat.png',
         description:
             "A Wazzat who has grown to the size of a house and can wolf down someone's entire memory in one gigantic gulp.",
         locations: ['Evolution'],
@@ -4418,7 +4418,7 @@ const yokais = [
                 'Foes are drawn into the odd space in his mouth. They come out totally confused.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Memory Loss',
@@ -4445,7 +4445,7 @@ const yokais = [
         yokaiNumber: '079',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dummkap.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dummkap.png',
         description:
             'This hat Yo-kai can make geniuses into dreamy fools. A foolish life can be more fun...but would you even realize if it were?!',
         locations: ['East Pine - Trees'],
@@ -4467,7 +4467,7 @@ const yokais = [
                 "Unleashes an ally's heart, bestowing an ultra boost to SPD.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Playfulness',
@@ -4493,7 +4493,7 @@ const yokais = [
         yokaiNumber: '080',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/who-me.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/who-me.png',
         description:
             "Did you ever wonder who was responsible for all those times you hear your name when no-one's around? Look no further!",
         locations: ['Northbeech - Trees'],
@@ -4515,7 +4515,7 @@ const yokais = [
                 'Flaps so much that a whirlwind is generated, damaging those in range.',
             power: '86 to 258',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Mishear',
@@ -4559,7 +4559,7 @@ const yokais = [
         yokaiNumber: '081',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/2-much-2-take.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/2-much-2-take.png',
         description:
             "Mishearing is no longer a problem for this Yo-kai, but now it can't stop hearing unsolicited rumors about itself.",
         locations: ['Evolution'],
@@ -4581,7 +4581,7 @@ const yokais = [
                 "Confuses all foes with an earache that's just too much to take.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Hear-Too-Much',
@@ -4615,7 +4615,7 @@ const yokais = [
         yokaiNumber: '082',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/why_naant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/why_naant.png',
         description:
             "What's this? Huh? Wha...? Wait, we're supposed to explain this Yo-kai here? But...why? Woah, hey there. Just tell me, why?",
         locations: ['Springdale Underground Parking'],
@@ -4637,7 +4637,7 @@ const yokais = [
                 'Confuses all foes with a mysterious aura. Whhhhhhhyyyy?',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'But Whhhyyy?!',
@@ -4681,7 +4681,7 @@ const yokais = [
         yokaiNumber: '083',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/naandhi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/naandhi.png',
         description:
             'Naandhi has overcome his awkward inquisitive phase and has now reached an enlightened state of acceptance.',
         locations: ['Fusion.'],
@@ -4703,7 +4703,7 @@ const yokais = [
                 'Opens his gentle heart to all allies and restores their HP.',
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'A-meh-zing',
@@ -4737,7 +4737,7 @@ const yokais = [
         yokaiNumber: '084',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/faysoff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/faysoff.png',
         description:
             'This most classic of Classic Yo-kai can give anyone he Inspirits a completely blank expression.',
         locations: ['Uptown Springdale - Under Porches'],
@@ -4759,7 +4759,7 @@ const yokais = [
                 'Calls spirits with no elemental attribute to foes in range.',
             power: '65 to 170',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Losing Face',
@@ -4803,7 +4803,7 @@ const yokais = [
         yokaiNumber: '085',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snottle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snottle.png',
         description:
             "Snottle doesn't need a reason to pick his nose. He's got two nostrils, and he wants to know what's up there.",
         locations: ['Meadowbrooke Farm - Flowers'],
@@ -4824,7 +4824,7 @@ const yokais = [
             description: 'Confuses all enemies with his peculiar pose.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Dig Deep',
@@ -4858,7 +4858,7 @@ const yokais = [
         yokaiNumber: '086',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/legsit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/legsit.png',
         description:
             'Unable to shake the habit of a lifetime, this Yo-kai bolts straight for the exit whenever it enters a building.',
         locations: ['East Pine - Hotel - Rear Byway'],
@@ -4879,7 +4879,7 @@ const yokais = [
             description: "It's time to leg it! The SPD of one ally soars.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Leg it!',
@@ -4905,7 +4905,7 @@ const yokais = [
         yokaiNumber: '087',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chukket.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chukket.png',
         description:
             'Those Inspirited by Chicken Chukket are entirely passive, letting others make all their decisions.',
         locations: ['East Pine - Hotel - Rear Byway'],
@@ -4927,7 +4927,7 @@ const yokais = [
                 "Chucks a baseball--no--wait, it's a bomb--at foes within range.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Pass the Chuk',
@@ -4991,7 +4991,7 @@ const yokais = [
         yokaiNumber: '088',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cornfused.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cornfused.png',
         description:
             "You won't understand anything when this guy's around, no matter how well it's explained.",
         locations: ['Meadowbrooke Farm'],
@@ -5013,7 +5013,7 @@ const yokais = [
                 'Casts an a-maize-ing curse that corn-fuses all enemies.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Cornfuse',
@@ -5082,7 +5082,7 @@ const yokais = [
         yokaiNumber: '089',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/unshelltered.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/unshelltered.png',
         description:
             'This Yo-kai helps those he Inspirits to grow out of their shell...but his own shell is all empty!',
         locations: ['East Pine - Fire hydrants'],
@@ -5104,7 +5104,7 @@ const yokais = [
                 'Colors crack out of his shell, powering him up and restoring HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Shell Shatter',
@@ -5153,7 +5153,7 @@ const yokais = [
         yokaiNumber: '090',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lafalotta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lafalotta.png',
         description:
             'This Yo-kai sucks the laughter and fun out of a situation and keeps all the laughs for herself.',
         locations: ['Excellent Tower - Flowers'],
@@ -5175,7 +5175,7 @@ const yokais = [
                 'Absorbs HP from foes within range and divides it among allies.',
             power: '50 to 131',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Side Splitter',
@@ -5201,7 +5201,7 @@ const yokais = [
         yokaiNumber: '091',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blips.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/blips.png',
         description:
             'If you see someone get out of a pool with blue lips, they might just be Inspirited by Blips...',
         locations: ['Excellent Tower - Distributors'],
@@ -5223,7 +5223,7 @@ const yokais = [
                 'Absorbs HP from foes within range and divides it among allies.',
             power: '50 to 131',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Shivers',
@@ -5265,7 +5265,7 @@ const yokais = [
         yokaiNumber: '092',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tattletell.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tattletell.png',
         description:
             "When Tattletell Inspirits you, you'll feel inspired to TELL, TELL, TELL all of your secrets.",
         locations: ['Uptown Springdale - Under cars'],
@@ -5286,7 +5286,7 @@ const yokais = [
             description: 'Slaps a foe...with love.',
             power: '120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Disclose',
@@ -5313,7 +5313,7 @@ const yokais = [
         yokaiNumber: '093',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tattlecast.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tattlecast.png',
         description:
             "She uses her massive speakers to broadcast scandalous secrets to the whole city. Hope they aren't yours!",
         locations: ['Evolution'],
@@ -5335,7 +5335,7 @@ const yokais = [
                 'For some reason she tosses her speakers and slaps a foe.',
             power: '160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Disclose',
@@ -5362,7 +5362,7 @@ const yokais = [
         yokaiNumber: '094',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skranny.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/skranny.png',
         description:
             'Only Tattletells who discover their love of heavy metal music can don the skull makeup and become a Skranny.',
         locations: ['Uptown Springdale - Distributors'],
@@ -5383,7 +5383,7 @@ const yokais = [
             description: 'Kindly gives a foe... a bony-handed slap.',
             power: '130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Face Paint',
@@ -5416,7 +5416,7 @@ const yokais = [
         yokaiNumber: '095',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cupistol.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cupistol.png',
         description:
             "This debonair Yo-kai is quite a hit with the ladies. Anyone he shoots will love you. He's just the greatest! *swoon*",
         locations: ['Southmond - Under cars'],
@@ -5438,7 +5438,7 @@ const yokais = [
                 'Restores the HP of all allies by blowing a very handsome kiss!',
             power: '50 to 131',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Popularize',
@@ -5465,7 +5465,7 @@ const yokais = [
         yokaiNumber: '096',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/casanuva.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/casanuva.png',
         description:
             'This narcissist makes every lady he sees fall in love with him, regardless of appearance.',
         locations: ['Fusion.'],
@@ -5487,7 +5487,7 @@ const yokais = [
                 'Restores the HP of all allies with his extremely handsome aura!',
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Popularize',
@@ -5521,7 +5521,7 @@ const yokais = [
         yokaiNumber: '097',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/casanono.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/casanono.png',
         description:
             "Casanuva's opposite. He just can't get a date no matter what! He'll make you unpopular too. Best to give him some space.",
         locations: ['Sparkopolis - Under cars'],
@@ -5543,7 +5543,7 @@ const yokais = [
                 'Uses his bitterness about being unpopular to fry foes within range!',
             power: '130 to 195 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Unpopularize',
@@ -5591,7 +5591,7 @@ const yokais = [
         yokaiNumber: '098',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/so-sorree.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/so-sorree.png',
         description:
             "He may apologize for everything, but the truth is he doesn't mean a word of it and cheerfully avoids any real responsibility.",
         locations: ['Downtown Springdale - Trees'],
@@ -5612,7 +5612,7 @@ const yokais = [
             description: 'Apologetically heals all allies and purifies them.',
             power: '40',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Not So Sorry',
@@ -5697,7 +5697,7 @@ const yokais = [
         yokaiNumber: '099',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bowminos.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bowminos.png',
         description:
             'These domino Yo-kai are forever falling over themselves to apologize for every little thing.',
         locations: ['Evolution'],
@@ -5719,7 +5719,7 @@ const yokais = [
                 'Flattens the column in front with a kowtow. Foes hit become unwilling to act.',
             power: '150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Not So Sorry',
@@ -5747,7 +5747,7 @@ const yokais = [
         yokaiNumber: '100',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/smogling.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/smogling.png',
         description:
             'A wispy spirit who appears in smoky places but often blows away before she develops into something more substantial.',
         locations: ['Blossom Heights - Trees'],
@@ -5769,7 +5769,7 @@ const yokais = [
                 'Attacks foes in range with a cute whirlwind that goes "Whooosh!"',
             power: '60 to 157',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Amazing Haze',
@@ -5797,7 +5797,7 @@ const yokais = [
         yokaiNumber: '101',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/smogmella.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/smogmella.png',
         description:
             'Her vaporous nature means she can take on any form she chooses, but this shape is by far her current favorite.',
         locations: ['Evolution'],
@@ -5819,7 +5819,7 @@ const yokais = [
                 'Attacks foes in range with a powerful tornado that flips skirts.',
             power: '220',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Amazing Haze',
@@ -5854,7 +5854,7 @@ const yokais = [
         yokaiNumber: '102',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/signibble.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/signibble.png',
         description:
             "A mischievous Yo-kai that snacks on radio waves in the air. You'll lose a few bars on your phone when he's around.",
         locations: ['Blossom Heights - Telephone poles'],
@@ -5876,7 +5876,7 @@ const yokais = [
                 'Releases its stored electric waves onto foes in range.',
             power: '55 to 144',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Paralyze',
@@ -5903,7 +5903,7 @@ const yokais = [
         yokaiNumber: '103',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/signiton.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/signiton.png',
         description:
             'Signiton is almost a deity for those in desperate need of a wireless signal. He can boost your reception if you ask.',
         locations: ['Fusion.'],
@@ -5925,7 +5925,7 @@ const yokais = [
                 'Beats his stomach to call lightning down on foes in range.',
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Paralyze',
@@ -5952,7 +5952,7 @@ const yokais = [
         yokaiNumber: '104',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/master_oden.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/master_oden.png',
         description:
             'A cheerful Yo-kai who runs an oden stall. He dishes up hot food and loves nothing more than a good chat.',
         locations: ['Rice Paddy Path'],
@@ -5974,7 +5974,7 @@ const yokais = [
                 'Revives a single ally with a bowl of hot, soothing broth.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Hot Pot',
@@ -6001,7 +6001,7 @@ const yokais = [
         yokaiNumber: '105',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/statiking.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/statiking.png',
         description:
             "He's pretty lazy, but if he got motivated, his power would fix a ton of the world's energy problems.\u3000",
         locations: ['Train'],
@@ -6023,7 +6023,7 @@ const yokais = [
                 'Absorbs HP from foes within range and divides it among his allies.',
             power: '190',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Electrocute',
@@ -6050,7 +6050,7 @@ const yokais = [
         yokaiNumber: '106',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/failian.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/failian.png',
         description:
             'This fake flying saucer causes anyone he Inspirits to turn into a massive liar.',
         locations: ['Dukesville - Trees'],
@@ -6072,7 +6072,7 @@ const yokais = [
                 'Blasts foes in range a beam he claims is the ultimate in the universe.',
             power: '95 to 209',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Lying Saucer',
@@ -6105,7 +6105,7 @@ const yokais = [
         yokaiNumber: '107',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/apelican.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/apelican.png',
         description:
             'He studied in BBQ and tries to pretend that he grew up there. His terrible accent makes it very obvious that he did not.',
         locations: ['Hazeltine Mansion - Flowers'],
@@ -6127,7 +6127,7 @@ const yokais = [
                 "Leads a rousing line dance that boosts all of his allies' stats.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Stats n' Stripes",
@@ -6206,7 +6206,7 @@ const yokais = [
         yokaiNumber: '108',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/fuu_2.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/fuu_2.png',
         description:
             'Nate Adams was just a normal kid who died a normal death. Now he makes those he Inspirits normal too!',
         locations: ['Yo-kai Ring 6'],
@@ -6228,7 +6228,7 @@ const yokais = [
                 'Unleashes a middling, mediocre beam that hurts foes in range.',
             power: '140 to 280',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Normalize',
@@ -6255,7 +6255,7 @@ const yokais = [
         yokaiNumber: '109',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shrillington.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shrillington.png',
         description:
             "A noble Yo-kai who doesn't appear to notice how shocking his odd mannerisms are to others.",
         locations: ['Hazeltine Mansion - Archive'],
@@ -6277,7 +6277,7 @@ const yokais = [
                 'Gives all enemies a look so strange, it ends up confusing them.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Snobbery',
@@ -6303,7 +6303,7 @@ const yokais = [
         yokaiNumber: '110',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/house_partay.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/house_partay.png',
         description:
             "A cheerful Yo-kai who's always up for a party. Seems to instantly attract party-lovers wherever he goes.",
         locations: ['Southmond - Fire hydrants'],
@@ -6325,7 +6325,7 @@ const yokais = [
                 "Raises the roof (and all allies' stats) by throwing a PAR-TAAAAY!",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Paaaaaartay!',
@@ -6352,7 +6352,7 @@ const yokais = [
         yokaiNumber: '111',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skulleidoscope.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/skulleidoscope.png',
         description:
             "This Yo-kai turns dull things colorful! Visit your local sweet shop to see this guy's handiwork.",
         locations: ['Hazeltine Mansion - 1F Hallway'],
@@ -6375,7 +6375,7 @@ const yokais = [
                 'Boosts all allies stats with a sparkling rainbow aura.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Rainbow Aura',
@@ -6401,7 +6401,7 @@ const yokais = [
         yokaiNumber: '112',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lionguist.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lionguist.png',
         description:
             "Blazion's studies of the intricacies of diction and grammar have turned him into quite the polyglot.",
         locations: ['Fusion.'],
@@ -6423,7 +6423,7 @@ const yokais = [
                 'His linguistics are on FIRE! Literally! Scorches foes in range.',
             power: '110 to 220',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Loquaciousness',
@@ -6451,7 +6451,7 @@ const yokais = [
         yokaiNumber: '113',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/illoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/illoo.png',
         description:
             'A caring teacher who uses illusions to simplify his lessons. He can make complex topics seem pretty accessible.',
         locations: ['Excellent Tower - Trees'],
@@ -6474,7 +6474,7 @@ const yokais = [
                 'Summons will-o-the-wisps to damage foes within range.',
             power: '110',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Illusion Power',
@@ -6500,7 +6500,7 @@ const yokais = [
         yokaiNumber: '114',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/elloo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/elloo.png',
         description:
             "A friendly, old Yo-kai who can dissipate into a haze. He's Illoo's brother.",
         locations: ['Mt. Wildwood - Trees'],
@@ -6523,7 +6523,7 @@ const yokais = [
                 'Summons will-o-the-wisps to damage foes within range.',
             power: '120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Haze Power',
@@ -6571,7 +6571,7 @@ const yokais = [
         yokaiNumber: '115',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/alloo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/alloo.png',
         description:
             "He wanders the world without a goal. It's an absolute miracle if the three brothers Illoo, Elloo, and Alloo all meet up.",
         locations: ['Mt. Wildwood - Abandoned Tunnel'],
@@ -6594,7 +6594,7 @@ const yokais = [
                 'Curses his enemies with strong magic. Confuses foes that are hit.',
             power: '80',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Wanderlust',
@@ -6620,7 +6620,7 @@ const yokais = [
         yokaiNumber: '116',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/espy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/espy.png',
         description:
             "Espy gets a kick out of reading people's minds. It's totally not fair that no one can read hers...and now she knows that too.",
         locations: ["Shopper's Row - Nocturne Hospital"],
@@ -6642,7 +6642,7 @@ const yokais = [
                 'Absorbs HP from foes within range and divides it among allies.',
             power: '55 to 144',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Expose Weakness',
@@ -6668,7 +6668,7 @@ const yokais = [
         yokaiNumber: '117',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/infour.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/infour.png',
         description:
             "Her four eyes can see a person's age, name, gender, and birthday, but she can't read minds. It's still kinda creepy, though.",
         locations: ['Mt. Wildwood - Abandoned Tunnel'],
@@ -6690,7 +6690,7 @@ const yokais = [
                 'Absorbs HP from foes within range and divides it among allies.',
             power: '65 to 170',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Mysterious Power',
@@ -6715,7 +6715,7 @@ const yokais = [
         yokaiNumber: '118',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mirapo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mirapo.png',
         description:
             'An ancient mirror that embodied a soul and became a Yo-kai. It can make a portal between two mirrors.',
         locations: ['Excellent Tower - Flowers'],
@@ -6737,7 +6737,7 @@ const yokais = [
                 'Calls forth a random spirit from the mirror world to attack.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Mirror Power',
@@ -6764,7 +6764,7 @@ const yokais = [
         yokaiNumber: '119',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/miradox.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/miradox.png',
         description:
             'Triple the size and triple the power of Mirapo. Miradox makes it possible to travel through time as well as space.',
         locations: ['Fusion.'],
@@ -6786,7 +6786,7 @@ const yokais = [
                 'Calls forth a random spirit from the mirror world to attack.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Mirror Power',
@@ -6820,7 +6820,7 @@ const yokais = [
         yokaiNumber: '120',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mircle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mircle.png',
         description:
             'Mircle fills the space behind mirrors with evil by renting it out to bad Yo-kai...at a wickedly high rate, naturally.',
         locations: ['Hazeltine Mansion - Undergr. Passage'],
@@ -6842,7 +6842,7 @@ const yokais = [
                 'Calls forth a random spirit from the mirror world to attack.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Cursed Mirror',
@@ -6879,7 +6879,7 @@ const yokais = [
         yokaiNumber: '121',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/verygoodsir.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/verygoodsir.png',
         description:
             'An excellent but fussy manservant officially certified by the Yo-kai Council of Applied Butlering.',
         locations: ['Hazeltine Mansion - 2F Hallway'],
@@ -6900,7 +6900,7 @@ const yokais = [
             description: 'Top class butler skills serve to heal all allies.',
             power: '120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'At Your Service',
@@ -6933,7 +6933,7 @@ const yokais = [
         yokaiNumber: '122',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/statikid.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/statikid.png',
         description:
             "Ever feel a slight tingle when touching someone else's hand? That's not love. It's static electricity!",
         locations: ['Bada-Bing Tower'],
@@ -6955,7 +6955,7 @@ const yokais = [
                 'Creates a spiky floor. Those on it receive damage and lose SPD.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Paralyze',
@@ -7013,7 +7013,7 @@ const yokais = [
         yokaiNumber: '123',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/prof._plumage.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/prof._plumage.png',
         description:
             'Wherever there is a mystery to be solved, this Yo-kai follows. The mystery of the lost sock continues to vex him.',
         locations: ['Sparkopolis - Junk Alley'],
@@ -7035,7 +7035,7 @@ const yokais = [
                 'Sophisticatedly tricks the foe into switching their subs with their main Yo-kai.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Perplex',
@@ -7061,7 +7061,7 @@ const yokais = [
         yokaiNumber: '124',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/throne_wiper.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/throne_wiper.png',
         description:
             "Can't find any toilet paper when you need it most? This is the Yo-kai to blame!",
         locations: ['Downtown Springdale - Trees'],
@@ -7083,7 +7083,7 @@ const yokais = [
                 'Wraps all foes in toilet paper, binding them in place!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'No Toilet Paper!',
@@ -7131,7 +7131,7 @@ const yokais = [
         yokaiNumber: '125',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/imagenius.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/imagenius.png',
         description:
             "Imagine a world where humans and Yo-kai rallied under a banner of pure relaxation. Let's all just take it easy.",
         locations: ['Bada-Bing Tower'],
@@ -7154,7 +7154,7 @@ const yokais = [
                 'Imagines away all the negative status effects that allies are suffering from.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Just Chill Out',
@@ -7238,7 +7238,7 @@ const yokais = [
         yokaiNumber: '126',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/miss_teri.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/miss_teri.png',
         description:
             'This Yo-kai loves a good mystery novel. Those Inspirited by it start seeing material for grand thrillers in their daily life.',
         locations: ['The Appearance of Mystery Circles!'],
@@ -7260,7 +7260,7 @@ const yokais = [
             description: 'Confuses all enemies with her Miss-Teri-ious aura.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Cloaked in Miss Teri',
@@ -7287,7 +7287,7 @@ const yokais = [
         yokaiNumber: '127',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/maginyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/maginyan.png',
         description:
             "A cat Yo-kai who's actually a witch, Maginyan dreams of casting spells no one has seen before.",
         locations: ['Yo-kai Ring 27'],
@@ -7309,7 +7309,7 @@ const yokais = [
                 'Casts a magic spell that summons flames to scorch foes in range.',
             power: '250 to 0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Witching Hour',
@@ -7348,7 +7348,7 @@ const yokais = [
         yokaiNumber: '128',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/squandeer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/squandeer.png',
         description:
             'This Yo-kai is constantly trying to reclaim his lost childhood, spending all of his money on whatever catches his fancy.',
         locations: ['Bada-Bing Tower'],
@@ -7370,7 +7370,7 @@ const yokais = [
                 "Tosses a battle item onto the tactics board. Don't squander it!",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Frivolous Frittering',
@@ -7397,7 +7397,7 @@ const yokais = [
         yokaiNumber: '129',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tengu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tengu.png',
         description:
             'A popular tengu who controls the power of wind. Apparently all that power comes from his number-one fan.',
         locations: ['Old Mansion - Main House'],
@@ -7419,7 +7419,7 @@ const yokais = [
                 'Uses its favorite fan to create a whirlwind that hits foes within range.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Tengu Tailwind',
@@ -7445,7 +7445,7 @@ const yokais = [
         yokaiNumber: '130',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flengu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/flengu.png',
         description:
             'A tengu with hair the color of fire. Legend says he causes a drought when humanity needs to be taught a lesson.',
         locations: ['Crank-a-Kai (Springdale)'],
@@ -7467,7 +7467,7 @@ const yokais = [
                 'Uses its favorite fan to create a whirlwind that hits foes within range.',
             power: '200 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Burn',
@@ -7501,7 +7501,7 @@ const yokais = [
         yokaiNumber: '131',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kyubi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kyubi.png',
         description:
             'An elite nine-tailed-fox Yo-kai. He can easily produce power greater than a volcanic eruption.',
         locations: ['The Tall Tail of the Fox Curse!'],
@@ -7523,7 +7523,7 @@ const yokais = [
                 'Creates a massive fireball and burns foes within range to ashes.',
             power: '250 to 250',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Burn',
@@ -7556,7 +7556,7 @@ const yokais = [
         yokaiNumber: '132',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frostail.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/frostail.png',
         description:
             "Even a single hair of this rare Yo-kai's silvery coat can bring generations of good luck!",
         locations: ['Crank-a-Kai (Springdale)'],
@@ -7577,7 +7577,7 @@ const yokais = [
             description: 'Freezes foes in range with his powerful, icy spirit.',
             power: '250 to 250',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Divine Protection',
@@ -7646,7 +7646,7 @@ const yokais = [
         yokaiNumber: '133',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chymera.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chymera.png',
         description:
             "This Yo-kai has a monkey's head, a tiger's body, a snake's tail, and a cry that creeps people out\u2014much to his dismay.",
         locations: ['Illusory Sparkopolis'],
@@ -7668,7 +7668,7 @@ const yokais = [
                 'Summons a lightning strike, dealing great damage to foes in range.',
             power: '185 to 277 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Paralyze',
@@ -7695,7 +7695,7 @@ const yokais = [
         yokaiNumber: '134',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kingmera.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kingmera.png',
         description:
             'A regal Yo-kai who was once a legendary ninja. Supremely stealthy, he can steal any treasure.',
         locations: ['Tower of Zenlightenment'],
@@ -7717,7 +7717,7 @@ const yokais = [
                 'Summons a lightning strike, dealing great damage to foes in range.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Paralyze',
@@ -7751,7 +7751,7 @@ const yokais = [
         yokaiNumber: '135',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/toadal_demon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/toadal_demon.png',
         description:
             'A Yo-kai with Oni ancestors, but whose single horn is now used to defeat them in battle.',
         locations: ['Oni Crank-a-kai'],
@@ -7773,7 +7773,7 @@ const yokais = [
                 'A waterfall powered by a legendary demon, damages all foes in range.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Curse of the Oni',
@@ -7812,7 +7812,7 @@ const yokais = [
         yokaiNumber: '136',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/thurston.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/thurston.png',
         description:
             'A demon lord once bested by humans. Now his strict training regimen keeps him on a steady diet of healthy foods and drinks.',
         locations: ['Crank-a-kai'],
@@ -7834,7 +7834,7 @@ const yokais = [
                 'Cuts foes in range with a sword so flaming, it creates a burning floor.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Curse of the Oni',
@@ -7883,7 +7883,7 @@ const yokais = [
         yokaiNumber: '137',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/spect-hare.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/spect-hare.png',
         description:
             'This master uses her natural beauty and smarts to dig up all sorts of information. Nothing gets by those cute ears!',
         locations: ['The Lovely Hero! Agent Spect-hare!'],
@@ -7906,7 +7906,7 @@ const yokais = [
                 'Damages foes in range by giving them her aura-kissed card.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Elegance',
@@ -7933,7 +7933,7 @@ const yokais = [
         yokaiNumber: '138',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sn._spect-hare.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sn._spect-hare.png',
         description:
             'A Yo-kai that houses the feelings of a child crying over the fading snow. Restores innocence to the hearts of those she meets.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -7956,7 +7956,7 @@ const yokais = [
                 'Damages foes in range by giving them her aura-kissed card.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Elegance',
@@ -8010,7 +8010,7 @@ const yokais = [
         yokaiNumber: '139',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/oh_wheel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/oh_wheel.png',
         description:
             'A car once belonging to a carefree driver, turned into a Yo-kai. Surprisingly, the now Yo-kai car drives very safely.',
         locations: ["Southmond - Denton's Repairs"],
@@ -8032,7 +8032,7 @@ const yokais = [
                 'Without a care he rams the column in front, forcing back any enemies he hits!',
             power: '93 to 279 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Unfazed',
@@ -8076,7 +8076,7 @@ const yokais = [
         yokaiNumber: '140',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dulluma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dulluma.png',
         description:
             'He looks like a lucky daruma, but his real body is inside the shell. Dull and sluggish, he can really slow you down.',
         locations: ['Downtown Springdale - Academy Shortcut'],
@@ -8098,7 +8098,7 @@ const yokais = [
                 'Leaps high into the air and powerfully headbutts the column in front.',
             power: '60 to 157 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Dullness',
@@ -8141,7 +8141,7 @@ const yokais = [
         yokaiNumber: '141',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/darumacho.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/darumacho.png',
         description:
             'Now a truly macho Yo-kai, this one worked tirelessly in a mountain retreat to train away his dullness.',
         locations: ['Fusion.'],
@@ -8163,7 +8163,7 @@ const yokais = [
                 'Jumps and charges the column in front with a powerful headbutt.',
             power: '170 to 255 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Machismo',
@@ -8189,7 +8189,7 @@ const yokais = [
         yokaiNumber: '142',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/goruma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/goruma.png',
         description:
             "Darumacho wasn't happy until he had the body and strength of a gorilla. Goruma can crush cars like marshmallows.",
         locations: ['Northbeech - Warehouse No. 2'],
@@ -8211,7 +8211,7 @@ const yokais = [
                 'Unleashes a punch to the column in front with the strength of a gorilla.',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Musclehead',
@@ -8254,7 +8254,7 @@ const yokais = [
         yokaiNumber: '143',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wotchagot.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wotchagot.png',
         description:
             "A plain bowl of rice who can't help looking at the tasty treats others are eating and turning green with envy.",
         locations: ['Greenfields Station - Brushwoods'],
@@ -8276,7 +8276,7 @@ const yokais = [
                 'Strikes the column in front with jealousy-fueled abandon.',
             power: '60 to 157 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Envy',
@@ -8303,7 +8303,7 @@ const yokais = [
         yokaiNumber: '144',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pride_shrimp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pride_shrimp.png',
         description:
             "He's the priciest dish in the shop, and he knows it. Inspirits people to be insufferably self-satisfied.",
         locations: ['Fusion.'],
@@ -8325,7 +8325,7 @@ const yokais = [
                 'Dramatically strikes the column in front with a perfectly cooked prawn.',
             power: '165 to 247 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Shrimpervious',
@@ -8352,7 +8352,7 @@ const yokais = [
         yokaiNumber: '145',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/no-go_kart.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/no-go_kart.png',
         description:
             'Unsuspecting folks who accept a ride from this Yo-kai find themselves terribly lost because he has no sense of direction.',
         locations: ['Downtown Springdale - Delivery Bay'],
@@ -8373,7 +8373,7 @@ const yokais = [
             description: 'Unsettles the column in front, confusing them.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Get Lost',
@@ -8400,7 +8400,7 @@ const yokais = [
         yokaiNumber: '146',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mistank.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mistank.png',
         description:
             "A tank who trundled off toward the enemy but got badly lost. At least his heart's in the right place.",
         locations: ['Fusion.'],
@@ -8422,7 +8422,7 @@ const yokais = [
                 'Blasts the column in front with a powerful cannon while meandering about.',
             power: '170 to 255 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Loose Cannon',
@@ -8449,7 +8449,7 @@ const yokais = [
         yokaiNumber: '147',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/terrorpotta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/terrorpotta.png',
         description:
             "Loves scaring people by making them think that he's about to fall onto the floor and be smashed to smithereens.",
         locations: ['Mt. Wildwood - Bamboo Groves'],
@@ -8471,7 +8471,7 @@ const yokais = [
                 'Causes confusion in foes by teetering on the brink of tripping.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Crack Up',
@@ -8525,7 +8525,7 @@ const yokais = [
         yokaiNumber: '148',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blownhistoppa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/blownhistoppa.png',
         description:
             "Terrorpotta has well and truly blown his top! Blinded by his rage, we're worried that he's only going to hurt himself.",
         locations: ['Fusion.'],
@@ -8547,7 +8547,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '200 to 400',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Blow Your Top',
@@ -8574,7 +8574,7 @@ const yokais = [
         yokaiNumber: '149',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/noway.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/noway.png',
         description:
             'He rejects everything with a "no way!" Becoming a brain-surgeon astronaut is easier than getting past him.',
         locations: ['Uptown Springdale - Shady Back Alley'],
@@ -8595,7 +8595,7 @@ const yokais = [
             description: 'Rouses himself to stand guard. DEF goes way, way up!',
             power: '42 to 0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/7.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/7.png'
         },
         inspirit: {
             name: 'Refusal',
@@ -8622,7 +8622,7 @@ const yokais = [
         yokaiNumber: '150',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/impass.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/impass.png',
         description:
             "You...you just can't get by Impass. Why?! What's his motivation?! What's the story behind him?! Nobody knows...",
         locations: ['Fusion.'],
@@ -8643,7 +8643,7 @@ const yokais = [
             description: 'Rouses himself to stand guard. DEF goes way, way up!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/7.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/7.png'
         },
         inspirit: {
             name: 'Refusal',
@@ -8670,7 +8670,7 @@ const yokais = [
         yokaiNumber: '151',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/walldin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/walldin.png',
         description:
             'Formerly a sturdy castle wall, the fall of the family he once protected turned him into a Yo-kai.',
         locations: ['Uptown Springdale - Construction Materials'],
@@ -8692,7 +8692,7 @@ const yokais = [
                 'Drops stones from his former castle onto nearby foes.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/7.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/7.png'
         },
         inspirit: {
             name: 'Castle Power',
@@ -8741,7 +8741,7 @@ const yokais = [
         yokaiNumber: '152',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/roughraff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/roughraff.png',
         description:
             'A Yo-kai whose only cause is rebellion, he Inspirits good kids into badness and delinquency.',
         locations: ['Blossom Heights - Tucked Away Lot'],
@@ -8763,7 +8763,7 @@ const yokais = [
                 'Stares down the column in front of him, greatly lowering their SPD.',
             power: '30 to 30',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Rebel Soul',
@@ -8790,7 +8790,7 @@ const yokais = [
         yokaiNumber: '153',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/badude.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/badude.png',
         description:
             "This gang leader runs into enemy territory wielding his brutal nail bat. That's his way of taking care of his gang.",
         locations: ['Evolution'],
@@ -8812,7 +8812,7 @@ const yokais = [
                 'Stares down the column in front of him, greatly lowering their SPD.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Rebel Soul',
@@ -8839,7 +8839,7 @@ const yokais = [
         yokaiNumber: '154',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bruff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bruff.png',
         description:
             'Said to have taken down an entire Yo-kai gang by himself. Many rebel Yo-kai revere him as a big brother.',
         locations: ['Southmond'],
@@ -8861,7 +8861,7 @@ const yokais = [
                 'Charges at the column in front of him with his nail bat. OUCH!',
             power: '260 to 260',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Blood Boil',
@@ -8887,7 +8887,7 @@ const yokais = [
         yokaiNumber: '155',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/roughgraff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/roughgraff.png',
         description:
             "Loves tagging the walls around his city. He's won over a fair few fans thanks to the subtlety of his art.",
         locations: ['Fusion.'],
@@ -8909,7 +8909,7 @@ const yokais = [
                 "His graffiti isn't just BAD, it also lowers all foes' stats!\"",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Delinquency',
@@ -8937,7 +8937,7 @@ const yokais = [
         yokaiNumber: '156',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chilled_cowcao.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chilled_cowcao.png',
         description:
             "To love the pudding, is to become one with the pudding. This Yo-kai doesn't seem particularly bothered by this change.",
         locations: ['Northbeech - Fire hydrants'],
@@ -8959,7 +8959,7 @@ const yokais = [
                 "Yummy cocoa restores all allies' HP, then keeps slowly restoring it.",
             power: '30 to 30',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Drown in Delight',
@@ -9019,7 +9019,7 @@ const yokais = [
         yokaiNumber: '157',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/stircrazy_stu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/stircrazy_stu.png',
         description:
             "This Yo-kai is determined to take the culinary world by storm. Stewed to perfection, you've never tasted anything like it!",
         locations: ['Evolution'],
@@ -9041,7 +9041,7 @@ const yokais = [
                 'Cooks up some original recipe damage to foes in range.',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'No Herd Instinct',
@@ -9069,7 +9069,7 @@ const yokais = [
         yokaiNumber: '158',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nummskull.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nummskull.png',
         description:
             'Those Inspirited by Nummskull become totally hapless, and everything they do ends in failure.',
         locations: ['Secret Forest Base - Flowers'],
@@ -9091,7 +9091,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '130 to 390',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Nummskullery',
@@ -9118,7 +9118,7 @@ const yokais = [
         yokaiNumber: '159',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skillskull.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/skillskull.png',
         description:
             'Learning from his many failures, Numskull is now skilled in repairs. He likes to stick a ribbon on his completed projects.',
         locations: ['Evolution'],
@@ -9141,7 +9141,7 @@ const yokais = [
                 'Leaps into the air and bashes foes in range with his double hammers.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Hammer into Shape',
@@ -9168,7 +9168,7 @@ const yokais = [
         yokaiNumber: '160',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/armsman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/armsman.png',
         description:
             'Even headless, he gives 110 percent. He dreams of reuniting with his head someday... Not sure how he dreams\u2014he just does.',
         locations: ['Sunset Mall'],
@@ -9190,7 +9190,7 @@ const yokais = [
                 'All allies receive a morale boosting order that greatly raises DEF.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Armor Defense',
@@ -9224,7 +9224,7 @@ const yokais = [
         yokaiNumber: '161',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mimikin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mimikin.png',
         description:
             'A store mannequin and very gifted mimic. Anyone he Inspirits starts doing impressions of others whenever possible.',
         locations: ['Breezy Hills - Under cars'],
@@ -9246,7 +9246,7 @@ const yokais = [
                 'Smugly poses as a guardian. His DEF soars accordingly.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Copycat',
@@ -9273,7 +9273,7 @@ const yokais = [
         yokaiNumber: '162',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/oh_bah_gah.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/oh_bah_gah.png',
         description:
             "A burger built by a rather excitable chef and who's prone to regular overreactions.",
         locations: ['Northbeech - Hip & Hopping Alley'],
@@ -9295,7 +9295,7 @@ const yokais = [
                 'He vigorously tosses his patty at foes in range. Oh my!',
             power: '100 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Overreact',
@@ -9322,7 +9322,7 @@ const yokais = [
         yokaiNumber: '163',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sp_mountain.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sp_mountain.png',
         description:
             'Speed first, safety second! This Yo-kai is to blame if you have a sudden shift in your mood!',
         locations: ['Meadowbrooke Farm - Flowers'],
@@ -9344,7 +9344,7 @@ const yokais = [
                 'He angrily drives into the column in front, forcing back any enemies he hits!',
             power: '93 to 279 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Dreadful Driving',
@@ -9372,7 +9372,7 @@ const yokais = [
         yokaiNumber: '164',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blowkade.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/blowkade.png',
         description:
             "Blowkade is one weird Yo-kai. Nobody knows why he puts his all into blocking people's paths.",
         locations: ['Uptown Springdale - The Catwalk'],
@@ -9394,7 +9394,7 @@ const yokais = [
                 'Gets an ultra boost to DEF and provides a blockade against enemies.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Inflated Impediment',
@@ -9419,7 +9419,7 @@ const yokais = [
         yokaiNumber: '165',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ledballoon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ledballoon.png',
         description:
             "A dump truck couldn't move Ledballoon's heavy body...which is bad news if he gets in your way.",
         locations: ['Hazeltine Mansion - Undergr. Passage'],
@@ -9440,7 +9440,7 @@ const yokais = [
             description: 'Vigorously slaps a foe with an arm as hard as lead.',
             power: '130 to 130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Big Needle Poke',
@@ -9467,7 +9467,7 @@ const yokais = [
         yokaiNumber: '166',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sumodon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sumodon.png',
         description:
             'A proud sumo wrestler whose thick, noodly arms and piping-hot broth make him a real handful.',
         locations: ['Springdale Underground Area'],
@@ -9488,7 +9488,7 @@ const yokais = [
             description: 'Delivers a strong, stunning slap to one opponent.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Suck It Up',
@@ -9517,7 +9517,7 @@ const yokais = [
         yokaiNumber: '167',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/yokozudon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/yokozudon.png',
         description:
             'An evolved Sumodon who has reached the rank of yokozuna. His firm grip is the stuff of legend.',
         locations: ['Fusion.'],
@@ -9538,7 +9538,7 @@ const yokais = [
             description: 'Delivers a strong, stunning slap to one opponent.',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Suck It Up',
@@ -9566,7 +9566,7 @@ const yokais = [
         yokaiNumber: '168',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whateverest.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whateverest.png',
         description:
             "A Yo-kai who doesn't seem to have the slightest interest in anything. Not on the surface, at least...",
         locations: ['Mt. Wildwood - Mountain Path'],
@@ -9588,7 +9588,7 @@ const yokais = [
                 'Damages foes in range with the earthy power of an immovable mountain.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Could Care Less',
@@ -9616,7 +9616,7 @@ const yokais = [
         yokaiNumber: '169',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whatuption.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whatuption.png',
         description:
             "Whateverest has blown his top, and now he's overflowing with curiosity about everything!",
         locations: ['Fusion.'],
@@ -9638,7 +9638,7 @@ const yokais = [
                 'A volcanic eruption of menacing magma damages foes in range.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Could Care More',
@@ -9666,7 +9666,7 @@ const yokais = [
         yokaiNumber: '170',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/fidgephant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/fidgephant.png',
         description:
             'Fidgephant always feels like his nose is going to leak. He attacks with a water stream when he has to release it all!',
         locations: ['Breezy Hills - Rivers'],
@@ -9688,7 +9688,7 @@ const yokais = [
                 'Slaps a foe with his long nose whilst squirming a lot.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Fidgeting',
@@ -9714,7 +9714,7 @@ const yokais = [
         yokaiNumber: '171',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/touphant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/touphant.png',
         description:
             'Touphant can endure anything...with a certain amount of body-shaking effort. He can help you persevere as well.',
         locations: ['East Pine - Trees'],
@@ -9736,7 +9736,7 @@ const yokais = [
                 'Slaps a foe with his long nose whilst trembling a lot.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Shaking',
@@ -9763,7 +9763,7 @@ const yokais = [
         yokaiNumber: '172',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/enduriphant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/enduriphant.png',
         description:
             'Heroically resists the urge to go to the bathroom for reasons that remain obscure.',
         locations: ['Fusion.'],
@@ -9784,7 +9784,7 @@ const yokais = [
             description: 'Endures to the absolute limit. DEF soars.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Thick Skin',
@@ -9811,7 +9811,7 @@ const yokais = [
         yokaiNumber: '173',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zappary.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/zappary.png',
         description:
             'His mother made him a nice knapsack in which he stores the mighty powers of thunder and lightning.',
         locations: ["Shopper's Row - Telephone poles"],
@@ -9833,7 +9833,7 @@ const yokais = [
                 'Pierces the column in front with an impressive bolt of lightning.',
             power: '65 to 170',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Lightning Speed',
@@ -9860,7 +9860,7 @@ const yokais = [
         yokaiNumber: '174',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frazzel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/frazzel.png',
         description:
             "He's like a lightning rod for danger and attracts trouble wherever he goes. Not the most relaxing way to live...",
         locations: ['Evolution'],
@@ -9882,7 +9882,7 @@ const yokais = [
                 'Strikes nearby enemies with all of his stored lightning power.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Lightning Speed',
@@ -9909,7 +9909,7 @@ const yokais = [
         yokaiNumber: '175',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ship._sailor.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ship._sailor.png',
         description:
             'A battleship Yo-kai that has survived numerous battles through sheer luck. Incredibly nonchalant in the face of danger.',
         locations: ['Northbeech - Rivers'],
@@ -9931,7 +9931,7 @@ const yokais = [
                 "Nonchalantly cancels out enemies' good status effects.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Heedlessness',
@@ -9959,7 +9959,7 @@ const yokais = [
         yokaiNumber: '176',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/adm._admiral.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/adm._admiral.png',
         description:
             'A continued lucky streak has lead to a promotion for Shipshape Sailor. Now you can really rely on him.',
         locations: ['Evolution'],
@@ -9981,7 +9981,7 @@ const yokais = [
                 "Gives an order that greatly raises allies' morale and STR.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Defensive Posture!',
@@ -10009,7 +10009,7 @@ const yokais = [
         yokaiNumber: '177',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/swelton.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/swelton.png',
         description:
             "Those he's Inspirited sweat up a storm. When several of these Yo-kai get together, they make for a very sticky situation!",
         locations: ['Dukesville - Under cars'],
@@ -10030,7 +10030,7 @@ const yokais = [
             description: 'Takes a sweaty, imposing stance. DEF soars.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Sweat it Out',
@@ -10057,7 +10057,7 @@ const yokais = [
         yokaiNumber: '178',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sing_kong.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sing_kong.png',
         description:
             "A gorilla Yo-kai who lives the rock 'n' roll dream. His booming voice makes the earth tremble.",
         locations: ['Sunset Mall'],
@@ -10079,7 +10079,7 @@ const yokais = [
                 'His soulful screechi--err, SINGING, damages foes within range.',
             power: '110 to 220',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Burst into Song',
@@ -10107,7 +10107,7 @@ const yokais = [
         yokaiNumber: '179',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slippy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slippy.png',
         description:
             "This Yo-kai loves mixing up shoes, but he won't mess with shoes that are taken care of by their owners.",
         locations: ['Southmond - Garden Grill'],
@@ -10128,7 +10128,7 @@ const yokais = [
             description: 'Slips into the air and SLAPS an enemy with his head.',
             power: '100 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Shell Shield',
@@ -10154,7 +10154,7 @@ const yokais = [
         yokaiNumber: '180',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/repossessor.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/repossessor.png',
         description:
             'A Yo-kai born from the woes of products that were designed but never quite completed.',
         locations: ['Uptown Springdale - Desolate Lane'],
@@ -10177,7 +10177,7 @@ const yokais = [
                 'Just thinking about his assigned warehouse lends his STR an ultra boost.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Repossess',
@@ -10204,7 +10204,7 @@ const yokais = [
         yokaiNumber: '181',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mr._blockhead.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mr._blockhead.png',
         description:
             "This Yo-kai spreads rumors and secrets using his megaphone. Watch what you say when he's about!",
         locations: ['Downtown Springdale - Behind Frostia\u2019s place'],
@@ -10226,7 +10226,7 @@ const yokais = [
                 'Confuses all enemies by yelling out way too much information at them.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Listen Up!',
@@ -10253,7 +10253,7 @@ const yokais = [
         yokaiNumber: '182',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mad_mountain.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mad_mountain.png',
         description:
             "Hailing from the land of frost, he's the wrestler with legs as thick as glaciers and a heart of ice: MAD MOUNTAIN!",
         locations: ["Shopper's Row - Nocturne Hospital"],
@@ -10275,7 +10275,7 @@ const yokais = [
                 'Puts his all into a ritual stomp that bestows an ultra boost to DEF.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Perseverance',
@@ -10302,7 +10302,7 @@ const yokais = [
         yokaiNumber: '183',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lava_lord.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lava_lord.png',
         description:
             "And in red, we have the only wrestler to rival Mad Mountain! It's the violent volcano himself\u2014 LAAAVA LOOOOOOORD!",
         locations: ['Excellent Tower - Under cars'],
@@ -10324,7 +10324,7 @@ const yokais = [
                 'Puts his all into a ritual stomp that bestows an ultra boost to DEF.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Volcanic Blessing',
@@ -10351,7 +10351,7 @@ const yokais = [
         yokaiNumber: '184',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_iii.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/castelius_iii.png',
         description:
             "Castelius III will make you always come in third. There's not much of a future in that...unless you're a bronze tycoon.",
         locations: ["Shopper's Row - Nocturne Hospital"],
@@ -10373,7 +10373,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '220 to 220',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Bronze Power',
@@ -10399,7 +10399,7 @@ const yokais = [
         yokaiNumber: '185',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_ii.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/castelius_ii.png',
         description:
             'Castelius II will always lock you in second place. Not bad, but could you have done a bit better...?',
         locations: ['Fusion.'],
@@ -10421,7 +10421,7 @@ const yokais = [
                 'Takes a silver class stance. DEF receives an ultra boost.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Silver Power',
@@ -10447,7 +10447,7 @@ const yokais = [
         yokaiNumber: '186',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_i.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/castelius_i.png',
         description:
             "First place. Gold medals. Big trophies. That's your life if Castelius I Inspirits you. But with great power comes great...ness!",
         locations: ['Fusion.'],
@@ -10469,7 +10469,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '250 to 250',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Gold Power',
@@ -10495,7 +10495,7 @@ const yokais = [
         yokaiNumber: '187',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/castelius_max.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/castelius_max.png',
         description:
             'Being Inspirited by this extremely rare Yo-kai will let you transcend mere winning and losing.',
         locations: ['Fusion.'],
@@ -10517,7 +10517,7 @@ const yokais = [
                 'Takes a platinum class stance. DEF receives an ultra boost.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Platinum Power',
@@ -10545,7 +10545,7 @@ const yokais = [
         yokaiNumber: '188',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/puppynyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/puppynyan.png',
         description:
             "One of Momonyan's servants. He is very loyal, and isn't just in it for the millet dumplings.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -10567,7 +10567,7 @@ const yokais = [
                 'Strikes foes in range with the power of tasty millet dumplings.',
             power: '22x5 to 44x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "Who's a good boy!",
@@ -10595,7 +10595,7 @@ const yokais = [
         yokaiNumber: '189',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhinoggin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rhinoggin.png',
         description:
             'The hyperaggressive Rhinoggin is always battling Beetler for the title of Bug Yo-kai King.',
         locations: ['Harrisville Station Plaza - Trees'],
@@ -10617,7 +10617,7 @@ const yokais = [
                 'Crashes into the column in front with his prized horn. Does huge damage.',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Rhino Power',
@@ -10644,7 +10644,7 @@ const yokais = [
         yokaiNumber: '190',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhinormous.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rhinormous.png',
         description:
             'Only the select few Rhinoggin who have proven their might in battle can hold the name of Rhinormous.',
         locations: ['Fusion.'],
@@ -10666,7 +10666,7 @@ const yokais = [
                 'Smashes into the column in front like a dump truck with a horn!',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Peerless Power',
@@ -10692,7 +10692,7 @@ const yokais = [
         yokaiNumber: '191',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hornaplenty.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hornaplenty.png',
         description:
             'When Rhinormous achieves power far beyond his peers, he can earn the rare title of Hornaplenty.',
         locations: ['Breezy Hills - Trees'],
@@ -10714,7 +10714,7 @@ const yokais = [
                 'Smashes into the column in front like a dump truck with a horn!',
             power: '210 to 315 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Legend Power',
@@ -10742,7 +10742,7 @@ const yokais = [
         yokaiNumber: '192',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kintaronyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kintaronyan.png',
         description:
             'An adventurous Yo-kai who enjoys wrestling with bears. Prefers clothes that are easy to move in.',
         locations: ['Train'],
@@ -10764,7 +10764,7 @@ const yokais = [
                 'Violently swings his axe and charges at the column in front.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Grant Strength',
@@ -10791,7 +10791,7 @@ const yokais = [
         yokaiNumber: '193',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/steaking.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/steaking.png',
         description:
             'The ruler of the steak kingdom insists on having a new medium-rare body served up every day.',
         locations: ['East Pine - Hotel - Rear Byway'],
@@ -10813,7 +10813,7 @@ const yokais = [
                 'Strikes the column in front with a thick, meaty steak.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Steak Sauce',
@@ -10841,7 +10841,7 @@ const yokais = [
         yokaiNumber: '194',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robonyan.png',
         description:
             "A robot that thinks he's actually Jibanyan. Stiff movement aside, the resemblance is uncatty! Meow meow.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -10863,7 +10863,7 @@ const yokais = [
                 'Guard Meowde erects a forcefield that lends an ultra boost to DEF.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Steel Power',
@@ -10891,7 +10891,7 @@ const yokais = [
         yokaiNumber: '195',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan_f.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robonyan_f.png',
         description:
             "Robonyan's latest model is leaner and meaner than ever now that all the unnecessary extras are gone.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -10913,7 +10913,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '300 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'System Upgrade',
@@ -10941,7 +10941,7 @@ const yokais = [
         yokaiNumber: '196',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/showbonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/showbonyan.png',
         description:
             'This top of the line entertainment robot has been fitted out with all the latest gadgets.\u3000',
         locations: ['Fusion.'],
@@ -10963,7 +10963,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '270 to 405 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Merican Mechanics',
@@ -10990,7 +10990,7 @@ const yokais = [
         yokaiNumber: '197',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/goldenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/goldenyan.png',
         description:
             'Goldenyan glistens with purrfection. Meow meow. Truly priceless.',
         locations: ['Crank-a-Kai (Springdale)'],
@@ -11012,7 +11012,7 @@ const yokais = [
                 'Boosts the stats of all allies with its mystic, golden powers.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Golden Power',
@@ -11040,7 +11040,7 @@ const yokais = [
         yokaiNumber: '198',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dromp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dromp.png',
         description:
             'Fairy tales tell of the monstrous Dromp building mountains and digging ponds.',
         locations: ['Climb the flagpole every day.'],
@@ -11062,7 +11062,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '300 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Earth Healing',
@@ -11088,7 +11088,7 @@ const yokais = [
         yokaiNumber: '199',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/swosh.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/swosh.png',
         description:
             'A Yo-kai with a heart as big as the ocean. Some say that Swosh embodies the sea itself.',
         locations: ['Northbeech - Rivers'],
@@ -11110,7 +11110,7 @@ const yokais = [
                 'Feeling the mighty tide, he braces himself. DEF goes way, way up.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Ocean Power',
@@ -11137,7 +11137,7 @@ const yokais = [
         yokaiNumber: '200',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/toadal_dude.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/toadal_dude.png',
         description:
             'A toad who lived for so long that he turned into a Yo-kai. He says the secret to his long life lies in his slick sense of style.',
         locations: ['The Search for General Toadal Dude'],
@@ -11159,7 +11159,7 @@ const yokais = [
                 'Attacks nearby foes with a blast of pent-up toad power.',
             power: '46x5 to 46x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Big Shot',
@@ -11193,7 +11193,7 @@ const yokais = [
         yokaiNumber: '201',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/uber_geeko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/uber_geeko.png',
         description:
             'This gecko-turned-guy prefers staying in to living the high life, unlike his outgoing cousin Toadal Dude.',
         locations: ['Ambrosia Pavilion'],
@@ -11215,7 +11215,7 @@ const yokais = [
                 'Attacks nearby foes with a blast of pent-up gecko power.',
             power: '42x5 to 42x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Stay-at-Home',
@@ -11249,7 +11249,7 @@ const yokais = [
         yokaiNumber: '202',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gargaros.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gargaros.png',
         description:
             'Gargaros, a symbol of fear itself, swoops in from Terror Time swinging his powerful club and smashing weak Yo-kai who get in his way.',
         locations: ['Oni Crank-a-kai'],
@@ -11271,7 +11271,7 @@ const yokais = [
                 'Crushes the column in front, fully displaying all of his awesome power.',
             power: '350 to 350',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Power of Terror',
@@ -11298,7 +11298,7 @@ const yokais = [
         yokaiNumber: '203',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ogralus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ogralus.png',
         description:
             'He prowls Terror Time, bashing his enemies. He befriends those with the strength and purity of heart to escape Terror Time.',
         locations: ['Oni Crank-a-kai'],
@@ -11320,7 +11320,7 @@ const yokais = [
                 'Crushes the column in front, fully displaying all of his tremendous power.',
             power: '350 to 350',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Power of Terror',
@@ -11347,7 +11347,7 @@ const yokais = [
         yokaiNumber: '204',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/orcanos.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/orcanos.png',
         description:
             "The giant horns mean he's an Oni of supreme rank. The characteristic Oni pattern stands out when his blood is up in battle.",
         locations: ['Oni Crank-a-kai'],
@@ -11369,7 +11369,7 @@ const yokais = [
                 'Crushes the column in front, fully displaying all of his unreal power.',
             power: '300 to 0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Power of Terror',
@@ -11396,7 +11396,7 @@ const yokais = [
         yokaiNumber: '205',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kabuking.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kabuking.png',
         description:
             "A superstar in the world of Kaibuki theater. He's friendly in person, but watch out for his stage persona. It's fierce!",
         locations: ['Crank-a-Kai (Springdale)'],
@@ -11418,7 +11418,7 @@ const yokais = [
                 "Batters foes in range by whipping his hair in the 'traditional' style.\"",
             power: '30x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Machine Power',
@@ -11446,7 +11446,7 @@ const yokais = [
         yokaiNumber: '206',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jawsome_kid.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jawsome_kid.png',
         description:
             'A popular pro wrestler who takes up hero work during his downtime. He seems to have a famous father...',
         locations: ['The Mighty Hero! The Jawsome Kid!'],
@@ -11468,7 +11468,7 @@ const yokais = [
                 'Leaps up and delivers a heavy body slam to the column in front.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Sharp Skin',
@@ -11495,7 +11495,7 @@ const yokais = [
         yokaiNumber: '207',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/el_sharkador.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/el_sharkador.png',
         description:
             "This pro wrestler's intense deep sea training has given birth to incredible strength. They need a new weight class for this guy!",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -11517,7 +11517,7 @@ const yokais = [
                 'Powers up his body to a steel-like level of toughness. DEF soars.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Sharp Skin',
@@ -11545,7 +11545,7 @@ const yokais = [
         yokaiNumber: '208',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/silver_lining.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/silver_lining.png',
         description:
             'A natural born leader with impressive musculature and an unwavering sense of justice. Protects people (and sushi) from the sky.',
         locations: ['The Sky Hero! Silver Lining!'],
@@ -11567,7 +11567,7 @@ const yokais = [
                 'Unleashes a jet of whirling water from his fist, soaking the column in front.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Silver Sheen',
@@ -11601,7 +11601,7 @@ const yokais = [
         yokaiNumber: '209',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/leggly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/leggly.png',
         description:
             'A pair of perfect limbs that gives whomever he Inspirits the loveliest legs in town!',
         locations: ['Blossom Heights - Secret Byway'],
@@ -11623,7 +11623,7 @@ const yokais = [
                 "The sight of his supple legs greatly raises allies' SPD and morale.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Leg Up',
@@ -11650,7 +11650,7 @@ const yokais = [
         yokaiNumber: '210',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/twirly_pie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/twirly_pie.png',
         description:
             "This Yo-kai always seems to be around when you've taken a hit to the noggin. It'll join you in twirling around uncontrollably.",
         locations: ['Southmond - Flowers'],
@@ -11672,7 +11672,7 @@ const yokais = [
                 'His twirling eyes emit a twirling aura that confuses all foes.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Befuddle',
@@ -11699,7 +11699,7 @@ const yokais = [
         yokaiNumber: '211',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/petty-cake.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/petty-cake.png',
         description:
             'This Yo-kai really wants to be left alone. Or does she? She keeps saying she wants to be left alone, but it seems like...',
         locations: ['Southmond - Garden Grill'],
@@ -11722,7 +11722,7 @@ const yokais = [
                 "She may seem petty about it, but she'll gradually restore all allies' HP.\"",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "Don't Dessert Me",
@@ -11750,7 +11750,7 @@ const yokais = [
         yokaiNumber: '212',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hoppy..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hoppy..png',
         description:
             'Wanders aimlessly through life, scraping by on his pantomime skills. Snippity Cricket keeps telling him to get a real job.',
         locations: ['Meadowbrooke Farm - Flowers'],
@@ -11772,7 +11772,7 @@ const yokais = [
                 'Uses his mime skills to create a wall that lends him an ultra boost to DEF.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "That'll Do!",
@@ -11800,7 +11800,7 @@ const yokais = [
         yokaiNumber: '213',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dazzabel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dazzabel.png',
         description:
             "Dazzabel loves wearing anything gaudy. If she Inspirits you, you'll start liking that style too!",
         locations: ['Breezy Hills - Distributors'],
@@ -11822,7 +11822,7 @@ const yokais = [
                 'Repeatedly stabs foes in range with her stylish umbrella.',
             power: '17x5 to 17x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Maniac Makeover',
@@ -11850,7 +11850,7 @@ const yokais = [
         yokaiNumber: '214',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rattelle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rattelle.png',
         description:
             "While she looks calm in her gothic wear, she'll fly into a rage if you insult her style.",
         locations: ['Fusion.'],
@@ -11871,7 +11871,7 @@ const yokais = [
             description: 'Pokes foes in range with her sassy umbrella.',
             power: '22x7 to 22x7 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'So Generous',
@@ -11898,7 +11898,7 @@ const yokais = [
         yokaiNumber: '215',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skelebella.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/skelebella.png',
         description:
             "She's so confident in the unparalleled beauty of her bones that she doesn't even need her skin.",
         locations: ['Southmond - Telephone poles'],
@@ -11920,7 +11920,7 @@ const yokais = [
                 'Damages foes in range by a rainstorm as trendy as her umbrella.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'So Generous',
@@ -11948,7 +11948,7 @@ const yokais = [
         yokaiNumber: '216',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cadin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cadin.png',
         description:
             'He claims to practice "cicada ninjutsu"...but that\'s not really a thing. Unless it\'s a mastery of running away.',
         locations: ['Breezy Hills - Trees'],
@@ -11969,7 +11969,7 @@ const yokais = [
             description: 'Nervously slices foes within range.',
             power: '18x5 to 18x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Cicada Ninjutsu',
@@ -11995,7 +11995,7 @@ const yokais = [
         yokaiNumber: '217',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cadable.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cadable.png',
         description:
             'Cadin has trained his "cicada ninjutsu" to its peak. Now Cadable claims it\'s a worthy martial art! *crickets* *cicadas*',
         locations: ['Evolution'],
@@ -12017,7 +12017,7 @@ const yokais = [
                 "Cicada Ninjutsu's ultimate move! Bestows a big boost to allies' SPD.\"",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Cicada Ninjutsu',
@@ -12043,7 +12043,7 @@ const yokais = [
         yokaiNumber: '218',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/singcada.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/singcada.png',
         description:
             'His advanced style of "cicada ninjutsu" involves singing as you swing! His battles even attract the occasional music fan!',
         locations: ['Mt. Wildwood - Summit'],
@@ -12065,7 +12065,7 @@ const yokais = [
                 "Cicada Ninjutsu's ultimate technique! Gives a big boost to allies' SPD.\"",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Radical Ninjutsu',
@@ -12092,7 +12092,7 @@ const yokais = [
         yokaiNumber: '219',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/buttered_blue.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/buttered_blue.png',
         description:
             "A boxer who always gets beaten black and blue. He's nice and chewy, but that won't help him in the ring.",
         locations: ['Northbeech - Fire hydrants'],
@@ -12114,7 +12114,7 @@ const yokais = [
                 'He frantically throws all the punches he can at foes in range.',
             power: '15x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Butter Blue',
@@ -12143,7 +12143,7 @@ const yokais = [
         yokaiNumber: '220',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pch._baguette.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pch._baguette.png',
         description:
             'After countless defeats, Buttered Blue has somehow become a hardened boxer. Brings out the hidden potential in the weak.',
         locations: ['Evolution'],
@@ -12165,7 +12165,7 @@ const yokais = [
                 'Unleashes a violent rush of punches on foes in range.',
             power: '30x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Breadwinner',
@@ -12193,7 +12193,7 @@ const yokais = [
         yokaiNumber: '221',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pupsicle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pupsicle.png',
         description:
             'Pupsicle is always cold. He may be Inspiriting those who wear layers of clothes in summer.',
         locations: ['Downtown Springdale - Under cars'],
@@ -12215,7 +12215,7 @@ const yokais = [
                 'Drops sharp icicles over the heads of foes within range.',
             power: '55 to 144 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Chills',
@@ -12241,7 +12241,7 @@ const yokais = [
         yokaiNumber: '222',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chilhuahua.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chilhuahua.png',
         description:
             'Legends tell of Chilhuahua saving people lost in the snowy mountains. Some consider him a deity.',
         locations: ['Fusion.'],
@@ -12262,7 +12262,7 @@ const yokais = [
             description: 'Crushes foes in range with a ferociously icy blast.',
             power: '125 to 187 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Freeze',
@@ -12288,7 +12288,7 @@ const yokais = [
         yokaiNumber: '223',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/swelterrier.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/swelterrier.png',
         description:
             'His fiery heart and body always make him feel too hot. Being near him is like being near a space heater.',
         locations: ['Springdale Business Tower'],
@@ -12310,7 +12310,7 @@ const yokais = [
                 'Overwhelms foes in range with a stifling, sizzling heatwave.',
             power: '140 to 210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Blazing Heart',
@@ -12343,7 +12343,7 @@ const yokais = [
         yokaiNumber: '224',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/unbelievaboy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/unbelievaboy.png',
         description:
             'This Yo-kai will perform all sorts of pranks just to hear people saying the word "unbelievable!","224',
         locations: ['Gloombell Forest'],
@@ -12365,7 +12365,7 @@ const yokais = [
                 'Delivers a punch with unbelievable potential to the column in front.',
             power: '93 to 279 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Unbelievaboy Might',
@@ -12394,7 +12394,7 @@ const yokais = [
         yokaiNumber: '225',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/unbearaboy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/unbearaboy.png',
         description:
             "Unbelievaboy! has become an unbelievably rebellious brat! He's completely ruined his pants!",
         locations: ['Crank-a-kai'],
@@ -12416,7 +12416,7 @@ const yokais = [
                 'His ground smash hits the column in front and makes the tiles magma!',
             power: '95 to 95 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Punkification',
@@ -12444,7 +12444,7 @@ const yokais = [
         yokaiNumber: '226',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/inflammaboy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/inflammaboy.png',
         description:
             "Raised on chili peppers rather than pacifiers, this Yo-kai's pockets are stuffed with the hottest spices.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -12466,7 +12466,7 @@ const yokais = [
                 'His ground punch hits the column in front and makes the tiles magma!',
             power: '95 to 95 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Hot Chilli Challenge',
@@ -12494,7 +12494,7 @@ const yokais = [
         yokaiNumber: '227',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jumbelina.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jumbelina.png',
         description:
             'Those she Inspirits wind up with their faces rearranged. For some reason, her victims are usually female...',
         locations: ["Shopper's Row - flowers"],
@@ -12515,7 +12515,7 @@ const yokais = [
             description: 'Rapidly shuffles enemy faces to confuse them.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Freaky Face',
@@ -12542,7 +12542,7 @@ const yokais = [
         yokaiNumber: '228',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/boyclops.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/boyclops.png',
         description:
             "Not the most intimidating of Yo-kai, but he saves so much on contact lenses that he doesn't really care.",
         locations: ['Harrisville Station Plaza - Garbages'],
@@ -12564,7 +12564,7 @@ const yokais = [
                 'Confuses all enemies by staring at them with his huge eye.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Eye-Eye',
@@ -12591,7 +12591,7 @@ const yokais = [
         yokaiNumber: '229',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/krystal_fox.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/krystal_fox.png',
         description:
             'A rising star in the celebrity Yo-kai World. Her sharp insight helps her navigate the harsh realities of show business.\u3000',
         locations: ['Sparkopolis - Distributors'],
@@ -12613,7 +12613,7 @@ const yokais = [
                 'Lookie here! All allies are healed by the sight of her cute mannerisms!',
             power: '60 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Heart-a-Flutter',
@@ -12639,7 +12639,7 @@ const yokais = [
         yokaiNumber: '230',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/runsure.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/runsure.png',
         description:
             "A clueless Yo-kai who is always on the run. He's forgotten why he started running, but can't find a good reason to stop.",
         locations: ['Northbeech - Warehouse No. 2'],
@@ -12661,7 +12661,7 @@ const yokais = [
                 'Runsurely rushes into the column in front, forcing back any enemies he hits!',
             power: '93 to 279 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'But Whhhyyy?!',
@@ -12689,7 +12689,7 @@ const yokais = [
         yokaiNumber: '231',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kittylumbus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kittylumbus.png',
         description:
             "A Yo-kai who's always looking for new lands to loll around in. He's never satisfied and soon heads out again.",
         locations: ['Northbeech - Under cars'],
@@ -12711,7 +12711,7 @@ const yokais = [
                 'Orders allies to urgently discover a new continent. Their SPD goes way up.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Languid Lolling',
@@ -12739,7 +12739,7 @@ const yokais = [
         yokaiNumber: '232',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zest-a-minute.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/zest-a-minute.png',
         description:
             'Her indecisive behavior might fit the bittersweet nature of youth, but her attitude only serves to sour the situation.',
         locations: ['East Pine - Hotel - Rear Byway'],
@@ -12762,7 +12762,7 @@ const yokais = [
                 'Bitter carbonic acid purifies all allies and restores their HP.',
             power: '30 to 30',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Languid Lemon',
@@ -12790,7 +12790,7 @@ const yokais = [
         yokaiNumber: '233',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/baku.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/baku.png',
         description:
             'A Yo-kai that eats only human dreams. It puts people to sleep before digging in. Beaux r\u00eaves!',
         locations: ['Blossom Heights - Gravestones'],
@@ -12812,7 +12812,7 @@ const yokais = [
                 'Sprays sleep-inducing smoke from its nose. Foes hit act much less.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Bedtime',
@@ -12846,7 +12846,7 @@ const yokais = [
         yokaiNumber: '234',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whapir.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whapir.png',
         description:
             "A rare white Baku. Legends say that if a Whapir Inspirits you, you're guaranteed to have good dreams.",
         locations: ['Blossom Heights - Bamboo groves'],
@@ -12868,7 +12868,7 @@ const yokais = [
                 'Heals the heart and HP of its allies with happy dreams.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Sweet Dreams',
@@ -12901,7 +12901,7 @@ const yokais = [
         yokaiNumber: '235',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bakulia.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bakulia.png',
         description:
             "Has the ability to enter people's dreams and find out what they're feeling\u2014 and can take others along for the ride.",
         locations: ['Evolution'],
@@ -12923,7 +12923,7 @@ const yokais = [
                 'Sprays sleep-inducing smoke from its nose. Foes hit act much less.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Bedtime',
@@ -12950,7 +12950,7 @@ const yokais = [
         yokaiNumber: '236',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/panja_pupil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/panja_pupil.png',
         description:
             'This urban Yo-kai provides those he Inspirits with a dash of charm and big-city sophistication.',
         locations: ['Downtown Springdale - Delivery Bay'],
@@ -12972,7 +12972,7 @@ const yokais = [
                 'Attacks the column in front with the full power of the Panja.',
             power: '90 to 198 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Panja Power',
@@ -13001,7 +13001,7 @@ const yokais = [
         yokaiNumber: '237',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/panja_pro.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/panja_pro.png',
         description:
             'This evolved Panja can vanish into thin air! Sadly, his big mouth keeps giving away his position.',
         locations: ['Fusion.'],
@@ -13023,7 +13023,7 @@ const yokais = [
                 'Attacks the column in front with the full power of the Panja.',
             power: '170 to 255 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Panja Power',
@@ -13051,7 +13051,7 @@ const yokais = [
         yokaiNumber: '238',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cue-tee.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cue-tee.png',
         description:
             "Cue-Tee's cue cards make you do whatever is written on them! She might look shy, but her orders can be pretty harsh!",
         locations: ['Southmond - Fire hydrants'],
@@ -13073,7 +13073,7 @@ const yokais = [
                 "The command of her cue cards forces all of the enemy's stats to lower.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "Cue-Tee's Choice",
@@ -13100,7 +13100,7 @@ const yokais = [
         yokaiNumber: '239',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/demandi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/demandi.png',
         description:
             'Uses her unbelievable cuteness to get others to listen to her impossible demands. Enjoys watching the resulting panic.',
         locations: ['Fusion.'],
@@ -13122,7 +13122,7 @@ const yokais = [
                 'Takes an overblown swing at all enemies, forcing them to spill out cash!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Dire Demands',
@@ -13149,7 +13149,7 @@ const yokais = [
         yokaiNumber: '240',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/walkappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/walkappa.png',
         description:
             'Most kappas stay in the water, but this one likes to walk around. He pours water on his head to make up for this.',
         locations: ['Uptown Springdale - Rivers'],
@@ -13171,7 +13171,7 @@ const yokais = [
                 'Summons a huge waterfall that drenches foes within range.',
             power: '80 to 80',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Nap Time',
@@ -13198,7 +13198,7 @@ const yokais = [
         yokaiNumber: '241',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/appak.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/appak.png',
         description:
             'Appak can cut just about anything with his water sword. He wanders the world in order to heighten his skills.',
         locations: ['Evolution'],
@@ -13220,7 +13220,7 @@ const yokais = [
                 'Puts all his spirit into his water blade to cut foes in range.',
             power: '130 to 195 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Torrent Power',
@@ -13246,7 +13246,7 @@ const yokais = [
         yokaiNumber: '242',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/supyo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/supyo.png',
         description:
             "Whereas most kappas stick to rivers, this one likes to surf...and pick up girls while he's at it.",
         locations: ["Raft - Hopper's Gorge course"],
@@ -13268,7 +13268,7 @@ const yokais = [
                 'Puts all his spirit into his water blade to cut foes in range.',
             power: '135 to 202 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Surf Power',
@@ -13295,7 +13295,7 @@ const yokais = [
         yokaiNumber: '243',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jibanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jibanyan.png',
         description:
             'After being run over by a truck, he Inspirits an intersection and seeks to get his revenge on passing trucks.',
         locations: ['Story recruit.'],
@@ -13317,7 +13317,7 @@ const yokais = [
                 'Punches foes in range with paws trained on moving vehicles.',
             power: '20x5 to 20x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Slow Down',
@@ -13350,7 +13350,7 @@ const yokais = [
         yokaiNumber: '244',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jibanyan_b.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jibanyan_b.png',
         description:
             'Jibanyan in a special suit for Terror Time! He soon forgets his lazy ways once he puts on this gear!',
         locations: ['Link (YWB: Red Cat Corps)'],
@@ -13372,7 +13372,7 @@ const yokais = [
                 'Lays waste to the column in front with a savage Blasters beam!',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Nyancelerator Tech',
@@ -13399,7 +13399,7 @@ const yokais = [
         yokaiNumber: '245',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jibanyan_s.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jibanyan_s.png',
         description:
             "Finally Jibanyan is S-Rank! He's stronger and confident that he'll beat the truck, but...",
         locations: ['Link (YO-KAI WATCH 2: Bony Spirits)'],
@@ -13421,7 +13421,7 @@ const yokais = [
                 'Punches foes in range with paws trained on moving vehicles.',
             power: '20x5 to 20x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Paralyzing Seal S',
@@ -13448,7 +13448,7 @@ const yokais = [
         yokaiNumber: '246',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jiban._liu_bei.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jiban._liu_bei.png',
         description:
             'Along with his fellow commanders, Jibanyan Liu Bei swore an oath as solid as the Chocobar they made it on...',
         locations: ['QR Code'],
@@ -13470,7 +13470,7 @@ const yokais = [
                 'Punches foes in range with paws trained on moving vehicles.',
             power: '20x5 to 20x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Slow Down',
@@ -13495,7 +13495,7 @@ const yokais = [
         yokaiNumber: '247',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rudy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rudy.png',
         description:
             'Before he was hit by a car and turned into a Yo-kai, Jibanyan lived a happy life at home with Amy.',
         locations: ['Yo-kai Ring 12'],
@@ -13517,7 +13517,7 @@ const yokais = [
                 'Pummels foes in range with paws from innocent, pre-Yo-kai days.',
             power: '25x5 to 44x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Loosen Up',
@@ -13544,7 +13544,7 @@ const yokais = [
         yokaiNumber: '248',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/thornyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/thornyan.png',
         description:
             "Jibanyan's proud of his new spiky body. Just don't walk behind him while you're barefoot.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -13566,7 +13566,7 @@ const yokais = [
                 'Grows spikes on his paws and punches foes within range.',
             power: '23x7 to 23x7 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Needle Poke',
@@ -13594,7 +13594,7 @@ const yokais = [
         yokaiNumber: '249',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/baddinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/baddinyan.png',
         description:
             "Jibanyan gone bad. REAL BAD. With an impressive pompadour haircut and classy tails, he's a delinquent with no cause.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -13616,7 +13616,7 @@ const yokais = [
                 'Confuses enemies with a wave of evil that makes them attack each other.',
             power: '130 to 130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Delinquency',
@@ -13644,7 +13644,7 @@ const yokais = [
         yokaiNumber: '250',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/buchinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/buchinyan.png',
         description:
             'A combination of Jibanyan and Whisper. Despite their obvious differences, it actually works pretty well.',
         locations: ['Yo-kai Ring 25'],
@@ -13666,7 +13666,7 @@ const yokais = [
                 'Bashes up foes in range with a furious pawsome barrage.',
             power: '13x10 to 13x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Power of Friendship',
@@ -13693,7 +13693,7 @@ const yokais = [
         yokaiNumber: '251',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komasan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komasan.png',
         description:
             "Komasan is a guardian lion-dog who got bored with guarding his shrine. Now he's looking for a new one.",
         locations: ['Story recruit.'],
@@ -13714,7 +13714,7 @@ const yokais = [
             description: 'Summons will-o-the-wisps to damage foes in range.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Burn',
@@ -13749,7 +13749,7 @@ const yokais = [
         yokaiNumber: '252',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komane.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komane.png',
         description:
             "Komasan's travels made him grow up into a brave and dependable Yo-kai. He's strong too!",
         locations: ['Fusion.'],
@@ -13771,7 +13771,7 @@ const yokais = [
                 'Will-o-the-wisps fly from his body and burn foes in range.',
             power: '140 to 210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Burn',
@@ -13806,7 +13806,7 @@ const yokais = [
         yokaiNumber: '253',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komasan_b.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komasan_b.png',
         description:
             'Komasan in a special suit for Terror Time! He feels a bit more at home in the city in this outfit.',
         locations: ['Link (YWB: White Dog Squad)'],
@@ -13828,7 +13828,7 @@ const yokais = [
                 'Lays waste to the column in front with a savage Blasters beam!',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Nyancelerator Tech',
@@ -13855,7 +13855,7 @@ const yokais = [
         yokaiNumber: '254',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komasan_s.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komasan_s.png',
         description:
             "Somehow, Komasan became S-Rank. He's rather bewildered and wants to go back to his previous rank if possible.",
         locations: ['Link (YO-KAI WATCH 2: Fleshy Souls)'],
@@ -13876,7 +13876,7 @@ const yokais = [
             description: 'Summons will-o-the-wisps to damage foes in range.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Burn S',
@@ -13903,7 +13903,7 @@ const yokais = [
         yokaiNumber: '255',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/koma._sun_ce.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/koma._sun_ce.png',
         description:
             'While famously close to Venoct Zhou Yu, he also cares deeply for his younger brother Komajiro Sun Quan.',
         locations: ['QR Code'],
@@ -13924,7 +13924,7 @@ const yokais = [
             description: 'Summons will-o-the-wisps to damage foes in range.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Burn',
@@ -13950,7 +13950,7 @@ const yokais = [
         yokaiNumber: '256',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jibakoma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jibakoma.png',
         description:
             'Someone messed up and blended Jibanyan and Komasan together. City smarts meet rustic charm!',
         locations: ['Yo-kai Ring 11'],
@@ -13972,7 +13972,7 @@ const yokais = [
                 'Will-o-the-wisps fly from his body and burn foes in range.',
             power: '230 to 230',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Power of Friendship',
@@ -13999,7 +13999,7 @@ const yokais = [
         yokaiNumber: '257',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komajiro.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komajiro.png',
         description:
             "Komajiro is Komasan's younger, more streetwise twin. But he'll always look up to his bumpkin big bro.",
         locations: ['Story recruit.'],
@@ -14020,7 +14020,7 @@ const yokais = [
             description: 'Calls down numbing lightning bolts on foes in range.',
             power: '85 to 85 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Tiger Power',
@@ -14047,7 +14047,7 @@ const yokais = [
         yokaiNumber: '258',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komiger.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komiger.png',
         description:
             "Komajiro's pursuit of his brother brought out his ferocious tiger spirit. He even has stripes!",
         locations: ['Fusion.'],
@@ -14068,7 +14068,7 @@ const yokais = [
             description: 'Calls down numbing lightning bolts on foes in range.',
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Tiger Power',
@@ -14094,7 +14094,7 @@ const yokais = [
         yokaiNumber: '259',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komajiro_s.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komajiro_s.png',
         description:
             "Komajiro noticed one day that he had become S-Rank. He's taking his new rank in stride. If anything, it's made him even more optimistic.",
         locations: ['Link (YW2: Psychic Specters)'],
@@ -14115,7 +14115,7 @@ const yokais = [
             description: 'Calls down numbing lightning bolts on foes in range.',
             power: '85 to 85 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Tiger Power S',
@@ -14142,7 +14142,7 @@ const yokais = [
         yokaiNumber: '260',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzelda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/drizzelda.png',
         description:
             "This Yo-kai is a serious downer. Don't invite her to outdoor events, as she's bound to make it rain.",
         locations: ['Mt. Wildwood - Brushwoods'],
@@ -14164,7 +14164,7 @@ const yokais = [
                 'Calls forth a downpour of melancholic rain, damaging foes in range.',
             power: '80 to 176 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Storm Drain',
@@ -14191,7 +14191,7 @@ const yokais = [
         yokaiNumber: '261',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nekidspeed.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nekidspeed.png',
         description:
             'Anyone Inspirited by this Yo-kai will race around at top speed. Useful for that big track meet.',
         locations: ['Breezy Hills - Brushwoods'],
@@ -14213,7 +14213,7 @@ const yokais = [
                 'Makes a starting dash full of fighting spirit. SPD goes through the roof.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/1.png'
         },
         inspirit: {
             name: 'Hot Stepper',
@@ -14240,7 +14240,7 @@ const yokais = [
         yokaiNumber: '262',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/stinkeye.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/stinkeye.png',
         description:
             'This skunk Yo-kai is too cool for school! He puts on as many airs as he puts out. Really smelly airs.',
         locations: ['Secret Forest Base - Flowers'],
@@ -14262,7 +14262,7 @@ const yokais = [
                 'Releases a cheeky aura that greatly reduces the SPR of all foes.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Make a Stink',
@@ -14290,7 +14290,7 @@ const yokais = [
         yokaiNumber: '263',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slackoon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slackoon.png',
         description:
             "This happy-go-lucky raccoon Yo-kai is always in holiday mode. Ruin his chill and he's got a pretty nasty side to him though.",
         locations: ['Northbeech - Rivers'],
@@ -14313,7 +14313,7 @@ const yokais = [
                 'Summons random, vacation resort style whirlpools that can hit anywhere!',
             power: '115 to 230',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Slack Off',
@@ -14339,7 +14339,7 @@ const yokais = [
         yokaiNumber: '264',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/puppiccino.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/puppiccino.png',
         description:
             'This bulldog puppy likes to act all grown up, drinking coffee when really he prefers juice.',
         locations: ['East Pine - Flowers'],
@@ -14361,7 +14361,7 @@ const yokais = [
                 'Plays it cool only to ultimately snap at foes in range.',
             power: '22x5 to 44x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Big Spender',
@@ -14395,7 +14395,7 @@ const yokais = [
         yokaiNumber: '265',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ballin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ballin.png',
         description:
             'Those lucky enough to be Inspirited by this Yo-kai can look forward to rolling into a life of luxury.',
         locations: ['Whimsical Work - 2nd Room'],
@@ -14417,7 +14417,7 @@ const yokais = [
                 "Spins and sprinkles a healing aura that restores all allies' HP.",
             power: '90 to 90',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Fortune's Fool",
@@ -14443,7 +14443,7 @@ const yokais = [
         yokaiNumber: '266',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shmoopie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shmoopie.png',
         description:
             "This Yo-kai is cute enough to melt anyone's heart...and he knows it! He can be quite the schemer, so look out!",
         locations: ["Shopper's Row - Trees"],
@@ -14465,7 +14465,7 @@ const yokais = [
                 "He's oh-so-cute! The hearts of allies skip a beat and recover HP.",
             power: '90 to 90',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Skip a Beat',
@@ -14493,7 +14493,7 @@ const yokais = [
         yokaiNumber: '267',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pinkipoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pinkipoo.png',
         description:
             'Known as the Aristocrat of Love, Pinkipoo uses his overpowering cuteness to win over new followers.',
         locations: ['Fusion.'],
@@ -14515,7 +14515,7 @@ const yokais = [
                 "He's so adorable! The hearts of allies skip a beat and they recover HP.",
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Skip a Beat',
@@ -14543,7 +14543,7 @@ const yokais = [
         yokaiNumber: '268',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pookivil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pookivil.png',
         description:
             "This Yo-kai will make even nice people into scheming manipulators. An embodiment of Pinkipoo's bad side.",
         locations: ['Northbeech - Trees'],
@@ -14565,7 +14565,7 @@ const yokais = [
                 'Heals the hearts of its allies (and restores HP) by acting adorably.',
             power: '140 to 210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Trickery',
@@ -14593,7 +14593,7 @@ const yokais = [
         yokaiNumber: '269',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/harry_barry.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/harry_barry.png',
         description:
             'This village mascot works night and day to come up with ways of making his hometown more popular.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -14615,7 +14615,7 @@ const yokais = [
                 'Bolstered by hearty Harrisville vegetables, he hits the column in front.',
             power: '170 to 255 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Rustic Charm',
@@ -14642,7 +14642,7 @@ const yokais = [
         yokaiNumber: '270',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wondernyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wondernyan.png',
         description:
             'Never without his bandanna and sword, this wandering cat Yo-kai has visited many distant lands.',
         locations: [
@@ -14667,7 +14667,7 @@ const yokais = [
                 "Slices foes in his range with his beloved wanderer's sword.",
             power: '15x10 to 22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Wanderlust',
@@ -14701,7 +14701,7 @@ const yokais = [
         yokaiNumber: '271',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jetnyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jetnyan.png',
         description:
             "Jetnyan dreams of soaring through the skies, but that model plane on his head isn't going to help!",
         locations: ['Yo-kai Ring 5'],
@@ -14723,7 +14723,7 @@ const yokais = [
                 'Attacks foes in range with paws powered by jumbo-jet engines.',
             power: '15x10 to 22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Jet Propulsion',
@@ -14750,7 +14750,7 @@ const yokais = [
         yokaiNumber: '272',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chimpanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chimpanyan.png',
         description:
             "One of Momonyan's servants. He's not used to teamwork, but can't resist a millet dumpling.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -14772,7 +14772,7 @@ const yokais = [
                 'Strikes foes in range with the power of tasty millet dumplings.',
             power: '22x5 to 44x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Monkeying Around',
@@ -14806,7 +14806,7 @@ const yokais = [
         yokaiNumber: '273',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tomnyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tomnyan.png',
         description:
             'Torn from a comfortable life with his owner Emily when he was run over... Hang on, this seems awfully familiar!',
         locations: ['Agency Request! Showing Springdale!'],
@@ -14828,7 +14828,7 @@ const yokais = [
                 'Punches foes in range 100 times with paws NOT trained on moving vehicles.',
             power: '15x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Hyperactive Hijinks',
@@ -14855,7 +14855,7 @@ const yokais = [
         yokaiNumber: '274',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/koma_knomads.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/koma_knomads.png',
         description:
             'Twin brothers hitchhiking across BBQ. Whoever picks these guys up will find themselves feeling very lucky.',
         locations: ['Knowhere to Go! Knomads Tour BBQ!'],
@@ -14877,7 +14877,7 @@ const yokais = [
                 'Fighting as one, they fire a powerful beam at the column in front.',
             power: '280 to 280',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "Swirlin' on Up",
@@ -14904,7 +14904,7 @@ const yokais = [
         yokaiNumber: '275',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frostina.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/frostina.png',
         description:
             'Frostina has the power to freeze anything, but that keeps her pretty chilly\u2014 that and bad circulation.',
         locations: ['Downtown Springdale - Behind Frostia\u2019s place'],
@@ -14926,7 +14926,7 @@ const yokais = [
                 'Bombards foes in range with a barrage of freezing icicles.',
             power: '65 to 170',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Numbify',
@@ -14953,7 +14953,7 @@ const yokais = [
         yokaiNumber: '276',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blizzaria.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/blizzaria.png',
         description:
             'Now she can fully control her chilling power. Blizzaria can make snow fall in summer and freeze volcanoes.',
         locations: ['Fusion.'],
@@ -14974,7 +14974,7 @@ const yokais = [
             description: 'Blasts foes in range with a sparkling ice formation.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Numbify',
@@ -15000,7 +15000,7 @@ const yokais = [
         yokaiNumber: '277',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/damona.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/damona.png',
         description:
             'The princess of a small netherworld region. Her power is immense, but she lacks the power to feel any emotion.',
         locations: ['Crank-a-Kai (Springdale)'],
@@ -15022,7 +15022,7 @@ const yokais = [
                 'Damages foes in range and reduces all their stats with a dark power.',
             power: '140 to 140',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Curse of Darkness',
@@ -15050,7 +15050,7 @@ const yokais = [
         yokaiNumber: '278',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/melonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/melonyan.png',
         description:
             "A juicy Yo-kai who's been known to fetch a high price, he thinks less of other fruit as a result.",
         locations: ['Ambrosia Pavilion'],
@@ -15073,7 +15073,7 @@ const yokais = [
                 'Pummels foes in range with paws powered by pure melon juice.',
             power: '22x10 to 22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Melon Juice',
@@ -15100,7 +15100,7 @@ const yokais = [
         yokaiNumber: '279',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/oranyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/oranyan.png',
         description:
             'More orange than cat, this Yo-kai would rather sleep in a bowl than knock it off the table.',
         locations: ['Ambrosia Pavilion'],
@@ -15122,7 +15122,7 @@ const yokais = [
             description: 'Heals all allies with a burst of vitamin C.',
             power: '150 to 150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Juiced Up',
@@ -15149,7 +15149,7 @@ const yokais = [
         yokaiNumber: '280',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kiwinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kiwinyan.png',
         description:
             'This kiwi-kitty combo has a charming furry coat that can soften the blows of attacking foes.',
         locations: ['Ambrosia Pavilion'],
@@ -15172,7 +15172,7 @@ const yokais = [
                 'His tiny hairs all rise up in unison, giving his DEF an ultra boost.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Fur Coat',
@@ -15199,7 +15199,7 @@ const yokais = [
         yokaiNumber: '281',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grapenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/grapenyan.png',
         description:
             "Grapenyan's aroma drives the ladies crazy, and boy does this narcissistic Yo-kai know it!",
         locations: ['Ambrosia Pavilion'],
@@ -15221,7 +15221,7 @@ const yokais = [
             description: 'Confuses all foes with a waft of fruity goodness.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Feeling Grape',
@@ -15254,7 +15254,7 @@ const yokais = [
         yokaiNumber: '282',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/strawbnyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/strawbnyan.png',
         description:
             "This Yo-kai knows that there's no honor greater than being placed on top of a shortcake!",
         locations: ['Ambrosia Pavilion'],
@@ -15277,7 +15277,7 @@ const yokais = [
                 'Damages foes in range with sweet, strawberry scented... FLAMES!',
             power: '140 to 210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Strawburst',
@@ -15310,7 +15310,7 @@ const yokais = [
         yokaiNumber: '283',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/watermelnyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/watermelnyan.png',
         description:
             "This juicy Yo-kai lives in fear of being sliced up and served for dessert on a hot summer's day.",
         locations: ['Ambrosia Pavilion'],
@@ -15333,7 +15333,7 @@ const yokais = [
                 'Spits a string of stinging seeds at foes within range.',
             power: '32x7 to 32x7 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Watermaulin'",
@@ -15366,7 +15366,7 @@ const yokais = [
         yokaiNumber: '284',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sapphinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sapphinyan.png',
         description:
             'A Yo-kai made of sapphire. His body is the color of a clear ocean on a beautiful summer day.',
         locations: ['Ambrosia Pavilion'],
@@ -15389,7 +15389,7 @@ const yokais = [
                 'Attacks foes in range with his beautiful sapphire paws.',
             power: '15x10 to 22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Sapphire Power',
@@ -15417,7 +15417,7 @@ const yokais = [
         yokaiNumber: '285',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/emenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/emenyan.png',
         description:
             "A Yo-kai made of emerald. If you could sell him, he'd be worth more than 100 million dollars.",
         locations: ['Ambrosia Pavilion'],
@@ -15440,7 +15440,7 @@ const yokais = [
                 'Attacks foes in range with his adorable emerald paws.',
             power: '15x10 to 22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Emerald Power',
@@ -15467,7 +15467,7 @@ const yokais = [
         yokaiNumber: '286',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rubinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rubinyan.png',
         description:
             'A Yo-kai made of ruby. Fire-like light reflects off of him as he fights.',
         locations: ['Ambrosia Pavilion'],
@@ -15489,7 +15489,7 @@ const yokais = [
             description: 'Attacks foes in range with his shiny ruby paws.',
             power: '15x10 to 22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Ruby Power',
@@ -15515,7 +15515,7 @@ const yokais = [
         yokaiNumber: '287',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/topanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/topanyan.png',
         description:
             'A Yo-kai made of topaz. Making friends with him means you have inherently good luck.',
         locations: ['Ambrosia Pavilion'],
@@ -15537,7 +15537,7 @@ const yokais = [
             description: 'Attacks foes in range with his rich topaz paws.',
             power: '15x10 to 22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Topaz Power',
@@ -15563,7 +15563,7 @@ const yokais = [
         yokaiNumber: '288',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dianyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dianyan.png',
         description:
             "A Yo-kai made of diamonds. He's said to be the most lavish, timeless, and romantic Yo-kai. Do you think so? I do!",
         locations: ['Ambrosia Pavilion'],
@@ -15586,7 +15586,7 @@ const yokais = [
                 'Attacks foes in range with his unbreakable diamond paws.',
             power: '15x10 to 22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Diamond Power',
@@ -15613,7 +15613,7 @@ const yokais = [
         yokaiNumber: '289',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robokapp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robokapp.png',
         description:
             'A robotic Walkappa from the future. A ring of unbreakable titanium protects his cranium.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -15635,7 +15635,7 @@ const yokais = [
                 'Attacks foes in range with a razor blade sprouting from his head.',
             power: '30x7 to 30x7 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Steel Power',
@@ -15661,7 +15661,7 @@ const yokais = [
         yokaiNumber: '290',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robokoma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robokoma.png',
         description:
             'A robotic Komasan from the future. Not only does he still find city life hard, but now he has to worry about his battery too...',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -15683,7 +15683,7 @@ const yokais = [
                 'Attacks the column in front with a beam of country power!',
             power: '260 to 260',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Steel Power',
@@ -15709,7 +15709,7 @@ const yokais = [
         yokaiNumber: '291',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sailornyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sailornyan.png',
         description:
             "Sailornyan makes the most of her charms and is a much-loved member of her ship's crew.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -15731,7 +15731,7 @@ const yokais = [
                 'The potent power of feline femininity heals all allies.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Girl Power',
@@ -15758,7 +15758,7 @@ const yokais = [
         yokaiNumber: '292',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rubeus_j.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rubeus_j.png',
         description:
             'Feared throughout the Yo-kai World as the perpetrator of countless atrocities. Feasts on the souls of his fellow Yo-kai.',
         locations: ['Crank-a-Kai (Springdale)'],
@@ -15780,7 +15780,7 @@ const yokais = [
                 'Pours his hatred into a projectile fired towards the column in front.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Become Violent',
@@ -15806,7 +15806,7 @@ const yokais = [
         yokaiNumber: '293',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hardy_hound.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hardy_hound.png',
         description:
             'The majestic white body hides a savage soul. His backpack is said to contain the bones of generations of his ancestors.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -15828,7 +15828,7 @@ const yokais = [
                 "He's so hardcore he drops skull shaped BOMBS on those in range!",
             power: '15x10 to 22x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Jittery Jinx',
@@ -15854,7 +15854,7 @@ const yokais = [
         yokaiNumber: '294',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whirlweasel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whirlweasel.png',
         description:
             'This Yo-kai likes to ride whirlwinds, cutting everything in its path with its huge scythe. Carries spare plasters.',
         locations: ['Mt. Wildwood - Abandoned Tunnel'],
@@ -15877,7 +15877,7 @@ const yokais = [
                 'Swiftly slices the column in front with a giant scythe.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'So Sharp Cyclone',
@@ -15904,7 +15904,7 @@ const yokais = [
         yokaiNumber: '295',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chocobonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chocobonyan.png',
         description:
             "Jibanyan managed to become friends with a legendary Chocobo. They're ready for a fantastical adventure.",
         locations: ['Go for Gold! Chocobonyan Race!'],
@@ -15926,7 +15926,7 @@ const yokais = [
                 'With fantastic speed, he launches a series of kicks to foes in range.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Mount Up!',
@@ -15953,7 +15953,7 @@ const yokais = [
         yokaiNumber: '296',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mooglenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mooglenyan.png',
         description:
             "Wait, that's a Moogle, right? How is there a Moogle here?! Is it lost, kupo?",
         locations: ['A Peace Protecting Pizza'],
@@ -15974,7 +15974,7 @@ const yokais = [
             description: 'Hits foes in range with a FANTAStical magic blast.',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Kupower Nyan!',
@@ -16001,7 +16001,7 @@ const yokais = [
         yokaiNumber: '297',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wobblenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wobblenyan.png',
         description:
             "Inspirits the smartphones of tired adults. Once they pick up their phones, they'll find themselves unable to put it down.",
         locations: ['QR Code'],
@@ -16023,7 +16023,7 @@ const yokais = [
                 'Fuses his own wobs into a giant exploding wob, damaging foes in range.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Wobble Nyans',
@@ -16050,7 +16050,7 @@ const yokais = [
         yokaiNumber: '298',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wibblekoma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wibblekoma.png',
         description:
             "Inspirits the smartphones of busy adults. Once they pick up their phones, they'll find themselves taking really long breaks.",
         locations: ['QR Code'],
@@ -16072,7 +16072,7 @@ const yokais = [
                 'Fuses his own wibs into a giant exploding wib, damaging foes in range.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Wobble Nyans',
@@ -16099,7 +16099,7 @@ const yokais = [
         yokaiNumber: '299',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sushinyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sushinyan.png',
         description:
             "The tuna sushi is attached to his head so firmly that it's not actually possible to eat it...",
         locations: ['QR Code'],
@@ -16121,7 +16121,7 @@ const yokais = [
                 'Pummels foes in range with paws trained on many sushi rolls.',
             power: '30x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Wonder Wasabi',
@@ -16148,7 +16148,7 @@ const yokais = [
         yokaiNumber: '300',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/Tempurasan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/Tempurasan.png',
         description:
             'Komasan nearly became part of the meal when he became a little too fascinated with a tempura chef at work.',
         locations: ['QR Code'],
@@ -16169,7 +16169,7 @@ const yokais = [
             description: 'Summons will-o-the-wisps to damage foes in range.',
             power: '200 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Battered Boon',
@@ -16196,7 +16196,7 @@ const yokais = [
         yokaiNumber: '301',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/faux_kappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/faux_kappa.png',
         description:
             "Now THIS is a Yo-kai! There's a possibility that he's related to Walkappa!",
         locations: ['Blossom Heights - Rivers'],
@@ -16218,7 +16218,7 @@ const yokais = [
                 'Unleashes a genuine, powerful water stream that can hit anywhere!',
             power: '170 to 255 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Kappa Quick',
@@ -16253,7 +16253,7 @@ const yokais = [
         yokaiNumber: '302',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tigappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tigappa.png',
         description:
             "Although he's well respected in Springdale, this exotic kappa can't help getting homesick sometimes.",
         locations: ["Raft - Hopper's Gorge course"],
@@ -16275,7 +16275,7 @@ const yokais = [
                 'Unleashes a genuine, powerful water stream that can hit anywhere!',
             power: '200 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Kappa Quick',
@@ -16309,7 +16309,7 @@ const yokais = [
         yokaiNumber: '303',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/master_nyada.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/master_nyada.png',
         description:
             'A battle-hardened Yo-kai who channels an energy known as "The Hose" via his mastery of a mystical conduit. No pushover.',
         locations: ['Two Photos Short of Fifty!'],
@@ -16331,7 +16331,7 @@ const yokais = [
                 'Infinite hose energy flows from his palms, damaging foes in range.',
             power: '210 to 210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Hose Be with You',
@@ -16357,7 +16357,7 @@ const yokais = [
         yokaiNumber: '304',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tenguriginal.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tenguriginal.png',
         description:
             "A flying Classic Yo-kai who'd love nothing better than to cut off his rival Tengu's big nose.",
         locations: ['Springdale Elementary'],
@@ -16379,7 +16379,7 @@ const yokais = [
                 'Brings forth a powerful tornado that buffets foes within range.',
             power: '175 to 262 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Tengurious Tailwind',
@@ -16406,7 +16406,7 @@ const yokais = [
         yokaiNumber: '305',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tengulightened.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tengulightened.png',
         description:
             'Worshiped for warding off evil, this Yo-kai secretly loves eating snakes, but is worried others would be revolted if they found out.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -16428,7 +16428,7 @@ const yokais = [
                 "Scorches foes in range with cleansing flames. That's hot!",
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Seal',
@@ -16455,7 +16455,7 @@ const yokais = [
         yokaiNumber: '306',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pallysol.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pallysol.png',
         description:
             'The sprightly spirit of a well-loved parasol. Just thinking about his old owner makes him jump up and down with joy.',
         locations: ['Harrisville - Old House by The Station'],
@@ -16477,7 +16477,7 @@ const yokais = [
                 'Calls forth a wind with Classic Yo-kai style, damaging foes in range.',
             power: '90 to 90',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Undercover',
@@ -16505,7 +16505,7 @@ const yokais = [
         yokaiNumber: '307',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bumblejack.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bumblejack.png',
         description:
             'This lumberjack Yo-kai is on a mission to perfect the art of chopping down trees while keeping his eyes closed.',
         locations: ['Mt. Wildwood - Mountain Path'],
@@ -16527,7 +16527,7 @@ const yokais = [
                 "A healing drop restores all allies' HP, then keeps slowly restoring it.",
             power: '30 to 30',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: "Get Lookin'",
@@ -16553,7 +16553,7 @@ const yokais = [
         yokaiNumber: '308',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/in-tune.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/in-tune.png',
         description:
             'These sisters sing in perfect harmony. Their habit of keeping it up in conversations can be a little irritating.',
         locations: ["Southmond - Denton's Repairs"],
@@ -16575,7 +16575,7 @@ const yokais = [
                 "Melodic singing cures all allies' fatigue and restores their HP.",
             power: '60 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Harmonic Healing',
@@ -16601,7 +16601,7 @@ const yokais = [
         yokaiNumber: '309',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wantston.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wantston.png',
         description:
             "Wantston wants everything others have, but he won't even try to acquire what he envies. So no worries.\u3000",
         locations: ['Greenfields Station - Under cars'],
@@ -16623,7 +16623,7 @@ const yokais = [
                 "Grows a hand from his mouth to grab foe's HP and pass it to allies.",
             power: '45 to 117 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Envy',
@@ -16649,7 +16649,7 @@ const yokais = [
         yokaiNumber: '310',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grubsnitch.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/grubsnitch.png',
         description:
             "If you can't stop snacking before dinner, Grubsnitch is probably nearby.",
         locations: ["Shopper's Row - flowers"],
@@ -16671,7 +16671,7 @@ const yokais = [
                 "Grows a hand from his mouth to grab foe's HP and pass it to allies.",
             power: '50 to 131 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Gluttony',
@@ -16697,7 +16697,7 @@ const yokais = [
         yokaiNumber: '311',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wiglin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wiglin.png',
         description:
             "A seaweed Yo-kai who wants to spread his hometown dance to the world. And he's very healthy too!",
         locations: ['Downtown Springdale - Sea'],
@@ -16719,7 +16719,7 @@ const yokais = [
                 'Raises the cheer and DEF of all allies with a crazy tune!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Healthy Wakame',
@@ -16745,7 +16745,7 @@ const yokais = [
         yokaiNumber: '312',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kelpacabana.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kelpacabana.png',
         description:
             'The biggest star the world of seaweed has ever seen! He dances for screaming fans wherever he goes.',
         locations: ['Evolution'],
@@ -16767,7 +16767,7 @@ const yokais = [
                 'Motivates allies with his professional dancing, gradually restoring HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Dance Party',
@@ -16794,7 +16794,7 @@ const yokais = [
         yokaiNumber: '313',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/steppa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/steppa.png',
         description:
             "Steppa is one of Wiglin's rivals. He believes that kombu is the best kind of seaweed...if there is such a thing.",
         locations: ['Downtown Springdale - Sea'],
@@ -16816,7 +16816,7 @@ const yokais = [
                 'Dances a mambo to get his allies moving much, much faster!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Kombu Energy',
@@ -16842,7 +16842,7 @@ const yokais = [
         yokaiNumber: '314',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhyth.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rhyth.png',
         description:
             "The one female of the seaweed trio. Wiglin and Steppa both really like her, but she doesn't seem to notice.",
         locations: ['Downtown Springdale - Sea'],
@@ -16864,7 +16864,7 @@ const yokais = [
                 'Dances a samba that gradually restores HP to all allies.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Slippery Mekabu',
@@ -16890,7 +16890,7 @@ const yokais = [
         yokaiNumber: '315',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/seaweed_sns..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/seaweed_sns..png',
         description:
             'Seaweed Sensei taught Wiglin and co how to dance, and is still a very smooth mover himself.',
         locations: ["Raft - Grumbler's Grotto course"],
@@ -16912,7 +16912,7 @@ const yokais = [
                 'Drains the vitality (and HP) of foes in range and divides it among allies.',
             power: '100 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Shielding Slime',
@@ -16939,7 +16939,7 @@ const yokais = [
         yokaiNumber: '316',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hungramps.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hungramps.png',
         description:
             "A Yo-kai who is always hungry and can make others' tummies rumble. ...That's really about the only thing he can do.",
         locations: ['Uptown Springdale - The Catwalk'],
@@ -16961,7 +16961,7 @@ const yokais = [
                 "Restores allies' HP with a feast of heavenly rice balls.",
             power: '50 to 131 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Starve',
@@ -16987,7 +16987,7 @@ const yokais = [
         yokaiNumber: '317',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hungorge.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hungorge.png',
         description:
             "A terribly gluttonous Yo-kai that'll eat anything in front of him. His mouth is like a black hole\u2014even rice can't escape it.",
         locations: ['Fusion.'],
@@ -17009,7 +17009,7 @@ const yokais = [
                 'Heals allies with rice balls summoned by the power of gluttony.',
             power: '90 to 198 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Starve',
@@ -17042,7 +17042,7 @@ const yokais = [
         yokaiNumber: '318',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grainpa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/grainpa.png',
         description:
             "A rare Hungramps with a body made of rice. He's so kind, he'll let a hungry person eat part of his body if necessary.",
         locations: ['Rice Paddy Path'],
@@ -17064,7 +17064,7 @@ const yokais = [
                 "Restores allies' HP with a banquet of fresh rice balls.",
             power: '150 to 150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "Rice's Kindness",
@@ -17098,7 +17098,7 @@ const yokais = [
         yokaiNumber: '319',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/supersize_gramps.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/supersize_gramps.png',
         description:
             "This gluttonous Yo-kai has twice the appetite of Hungramps! He's been known to eat restaurants out of business!\u3000",
         locations: ['Fusion.'],
@@ -17119,7 +17119,7 @@ const yokais = [
             description: 'Powers up and recovers HP by gorging on meat.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Feelin' Famished",
@@ -17146,7 +17146,7 @@ const yokais = [
         yokaiNumber: '320',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tongus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tongus.png',
         description:
             'Her healing tongue can cure any wound and even serve to strengthen the bonds between people!',
         locations: ['Mt. Wildwood - Brushwoods'],
@@ -17168,7 +17168,7 @@ const yokais = [
                 'Licks allies all over with her cute tongue, restoring their HP.',
             power: '50 to 131 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Lick Your Wounds',
@@ -17195,7 +17195,7 @@ const yokais = [
         yokaiNumber: '321',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nurse_tongus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nurse_tongus.png',
         description:
             'A hugely popular nurse with a long waiting list of patients who want their wounds licked better.',
         locations: ['Fusion.'],
@@ -17217,7 +17217,7 @@ const yokais = [
                 'Licks allies all over with her cute tongue, restoring their HP.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Lick Your Wounds',
@@ -17244,7 +17244,7 @@ const yokais = [
         yokaiNumber: '322',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sandmeh.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sandmeh.png',
         description:
             'A simple, serene Yo-kai whose calming aura is so effective, he can get even Roughraff to chill out.',
         locations: ['Mt. Wildwood - Brushwoods'],
@@ -17266,7 +17266,7 @@ const yokais = [
                 'Calls up a flow of sand as smooth as his heart, damaging foes in range.',
             power: '80 to 80',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'A-meh-zing',
@@ -17293,7 +17293,7 @@ const yokais = [
         yokaiNumber: '323',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mr._sandmeh.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mr._sandmeh.png',
         description:
             "His responsible attitude and respectable-salary-man's air of humility are so intense that others can't help but notice.",
         locations: ['Fusion.'],
@@ -17315,7 +17315,7 @@ const yokais = [
                 'All foes are struck by the force of a steady lifestyle.',
             power: '130 to 130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'A-meh-zing',
@@ -17342,7 +17342,7 @@ const yokais = [
         yokaiNumber: '324',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lil_blue_hood.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lil_blue_hood.png',
         description:
             "Loves baths so much that she's fused with one! Doesn't want the hassle of drying her hair though, so always wears a cap.",
         locations: ['Southmond - Garden Grill'],
@@ -17364,7 +17364,7 @@ const yokais = [
             description: 'Dunks a torrent of bathwater over foes in range.',
             power: '73 to 219 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Beatific Bathtime',
@@ -17391,7 +17391,7 @@ const yokais = [
         yokaiNumber: '325',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bubble_beth.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bubble_beth.png',
         description:
             'Her continued bathing has caused her to start radiating a beautiful fragrance. Makes even the smelliest of stenches smell like roses.',
         locations: ['Fusion.'],
@@ -17413,7 +17413,7 @@ const yokais = [
             description: 'Dunks a torrent of bathwater over foes in range.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Balmy Bathtime',
@@ -17440,7 +17440,7 @@ const yokais = [
         yokaiNumber: '326',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/afronaut.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/afronaut.png',
         description:
             "This Yo-kai's dream of exploring space is being ruined by his inability to fit his magnificent afro within a helmet.",
         locations: ['Hazeltine Mansion - Flowers'],
@@ -17462,7 +17462,7 @@ const yokais = [
                 'Makes all allies feel weightless, giving their SPD a big boost.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Weightlessness',
@@ -17489,7 +17489,7 @@ const yokais = [
         yokaiNumber: '327',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cereal_spiller.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cereal_spiller.png',
         description:
             "Leaves a trail of spilled rice in his wake. Don't try to get him to clean it up! That's a quick way to end up with more spilled rice.",
         locations: ["Shopper's Row - Shopping Street Narrows"],
@@ -17510,7 +17510,7 @@ const yokais = [
             description: 'Spills the contents of his head over foes in range.',
             power: '80 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Spill Over',
@@ -17536,7 +17536,7 @@ const yokais = [
         yokaiNumber: '328',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tomorrow_gal.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tomorrow_gal.png',
         description:
             "This Yo-kai perks you up by reminding you that even if today is terrible, there's always tomorrow!",
         locations: ['Southmond - Fire hydrants'],
@@ -17558,7 +17558,7 @@ const yokais = [
                 'Cheers all allies with a pep rally that boosts all stats!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Cheer On',
@@ -17586,7 +17586,7 @@ const yokais = [
         yokaiNumber: '329',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/swaycorn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/swaycorn.png',
         description:
             'Changes its mind every time it sways in the wind. Those Inspirited by this Yo-kai become unable to make any decisions.',
         locations: ['Mt. Wildwood - Brushwoods'],
@@ -17608,7 +17608,7 @@ const yokais = [
                 'A powerful indecisiveness robs enemies of their good status effects.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Swayed Intentions',
@@ -17635,7 +17635,7 @@ const yokais = [
         yokaiNumber: '330',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/push_pup.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/push_pup.png',
         description:
             'This puppy Yo-kai really likes to push buttons. Especially the big, red, dangerous looking ones...',
         locations: ['Southmond - Flowers'],
@@ -17657,7 +17657,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '130 to 390',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Puppy Press',
@@ -17684,7 +17684,7 @@ const yokais = [
         yokaiNumber: '331',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/happycane.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/happycane.png',
         description:
             'This Yo-kai is sweet in every way and loves to help people overcome their troubles with a kind word or two.',
         locations: ['Greenfields Station - Brushwoods'],
@@ -17706,7 +17706,7 @@ const yokais = [
                 'Cheers everyone up with her cute moves, healing HP all around.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Sweet Relief',
@@ -17735,7 +17735,7 @@ const yokais = [
         yokaiNumber: '332',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/starrycane.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/starrycane.png',
         description:
             'This Yo-kai is simply bursting with excitement! No wonder she makes people see stars!',
         locations: ['Fusion.'],
@@ -17757,7 +17757,7 @@ const yokais = [
                 'Cheers everyone up with her cute moves, healing HP all around.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Sweet Relief',
@@ -17785,7 +17785,7 @@ const yokais = [
         yokaiNumber: '333',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lodo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lodo.png',
         description:
             "You know when you keep losing change or keep getting the wrong change back? Lodo's fault.",
         locations: ['Tranquility Apts.'],
@@ -17807,7 +17807,7 @@ const yokais = [
                 'Without thinking, sucks HP from foes in range. Gives it to allies.',
             power: '50 to 131 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Poverty',
@@ -17834,7 +17834,7 @@ const yokais = [
         yokaiNumber: '334',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/supoor_hero.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/supoor_hero.png',
         description:
             'Fights for the poor. Unfortunately, the fact that he can rarely afford bus fare sorely limits the reach of his efforts.',
         locations: ['Evolution'],
@@ -17856,7 +17856,7 @@ const yokais = [
                 'Tosses all his coins at foes in range with great force.',
             power: '36x5 to 36x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Supoor Squanderer',
@@ -17883,7 +17883,7 @@ const yokais = [
         yokaiNumber: '335',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chippa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chippa.png',
         description:
             'An eternal optimist that never worries about anything. Being Inspirited by him can be worse than you think.',
         locations: ['Mt. Wildwood - Brushwoods'],
@@ -17905,7 +17905,7 @@ const yokais = [
                 'Confuses his enemies with his strange pose and mysterious aura.',
             power: '90 to 90',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Optimism',
@@ -17931,7 +17931,7 @@ const yokais = [
         yokaiNumber: '336',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gnomey.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gnomey.png',
         description:
             'A playful Yo-kai who takes up residence in old houses and gives them a nice, homey atmosphere.',
         locations: ['Mt. Wildwood - Bamboo Groves'],
@@ -17953,7 +17953,7 @@ const yokais = [
                 'Fills allies with mirth at his innocent antics, gradually restoring HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Chin Up',
@@ -17980,7 +17980,7 @@ const yokais = [
         yokaiNumber: '337',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/high_gnomey.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/high_gnomey.png',
         description:
             "It's said that if you get hold of a single hair from this deity Yo-kai's head, you'll enjoy an eternity of good fortune.",
         locations: ['Evolution'],
@@ -18002,7 +18002,7 @@ const yokais = [
                 'Heals all allies with an auspicious dance. HP restores gradually.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Chin Up',
@@ -18030,7 +18030,7 @@ const yokais = [
         yokaiNumber: '338',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/enerfly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/enerfly.png',
         description:
             'A butterfly Yo-kai who brings those he Inspirits to their peak condition. Often mistaken for Enefly.',
         locations: ['Mt. Wildwood - Trees'],
@@ -18052,7 +18052,7 @@ const yokais = [
                 'Creates an energizing breeze that restores HP to allies.',
             power: '60 to 157 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Energize',
@@ -18078,7 +18078,7 @@ const yokais = [
         yokaiNumber: '339',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/enefly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/enefly.png',
         description:
             'A butterfly Yo-kai who makes those he Inspirits cut ties with their best friends. Often mistaken for Enerfly.',
         locations: ['Secret Forest Base - Trees'],
@@ -18100,7 +18100,7 @@ const yokais = [
                 'Uses his evil spirit to strip enemies of their good status effects.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Enemy Maker',
@@ -18127,7 +18127,7 @@ const yokais = [
         yokaiNumber: '340',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/betterfly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/betterfly.png',
         description:
             "People will fulfill their potential in ways they've never imagined with Betterfly. Everyone wants this Yo-kai!",
         locations: ['Fusion.'],
@@ -18149,7 +18149,7 @@ const yokais = [
                 'Restores HP to allies and gets them into tip-top shape!',
             power: '110 to 165 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Feeling Fine',
@@ -18176,7 +18176,7 @@ const yokais = [
         yokaiNumber: '341',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/peppillon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/peppillon.png',
         description:
             'A butterfly Yo-kai with otherworldly wings. Breathing in her scales will boost your level of excitement to its max.',
         locations: ['Mt. Wildwood - Summit'],
@@ -18198,7 +18198,7 @@ const yokais = [
                 "Blows a gust that restores HP and raises allies' spirits!",
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Life Is Good',
@@ -18224,7 +18224,7 @@ const yokais = [
         yokaiNumber: '342',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/predictabull.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/predictabull.png',
         description:
             'Half-man, half-bull, all-trainee fortune-teller. His powers so far are limited to weather forecasting.',
         locations: ['Uptown Springdale - Shady Back Alley'],
@@ -18246,7 +18246,7 @@ const yokais = [
                 "Divines a good fortune, lifting allies' spirits and restoring their HP.",
             power: '70 to 183 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Raging Bull',
@@ -18274,7 +18274,7 @@ const yokais = [
         yokaiNumber: '343',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/smashibull.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/smashibull.png',
         description:
             "He's completed his training as a fortune-teller and now knows exactly what's going to happen next.",
         locations: ['Fusion.'],
@@ -18296,7 +18296,7 @@ const yokais = [
                 'Slams the column before him with the force of a raging bull.',
             power: '180 to 270',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Raging Bull',
@@ -18324,7 +18324,7 @@ const yokais = [
         yokaiNumber: '344',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/don-chan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/don-chan.png',
         description:
             'The spirit of a well-used Japanese drum. His big ambition is to bring his unique rhythms to the world.',
         locations: ["You're Invited to DON-CHAN's Bash!"],
@@ -18346,7 +18346,7 @@ const yokais = [
                 'Beats the drum as flashy fireworks rain down on foes in range.',
             power: '100 to 220',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Battle Beat',
@@ -18372,7 +18372,7 @@ const yokais = [
         yokaiNumber: '345',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ray_o_light.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ray_o_light.png',
         description:
             "A sunny fellow who brings fine weather wherever he goes. He's been trying to brighten up Drizzelda's view on life.",
         locations: ['Dukesville - Under cars'],
@@ -18394,7 +18394,7 @@ const yokais = [
                 'Strikes foes in range with a powerful flame that burns like the sun.',
             power: '80 to 176 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Solar Power',
@@ -18421,7 +18421,7 @@ const yokais = [
         yokaiNumber: '346',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__saint_trick.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ol__saint_trick.png',
         description:
             "Appears during the holidays to distribute presents. For some reason he won't give you one until you correctly answer a quiz, though...",
         locations: ['Southmond - Trees'],
@@ -18443,7 +18443,7 @@ const yokais = [
                 'Pulls something out of a bag... What comes out is up to chance!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'So Generous',
@@ -18470,7 +18470,7 @@ const yokais = [
         yokaiNumber: '347',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__fortune.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ol__fortune.png',
         description:
             "Another old man with bags full of gifts. Unlike Ol' Saint Trick, all of his presents are good!",
         locations: ['Sparkopolis - Trees'],
@@ -18492,7 +18492,7 @@ const yokais = [
                 'Opens a bag full of presents that restore the HP of allies.',
             power: '130 to 130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'So Generous',
@@ -18519,7 +18519,7 @@ const yokais = [
         yokaiNumber: '348',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ponderoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ponderoo.png',
         description:
             'A kangaroo Yo-kai who is constantly lost in thought over some inconsequential foible or another.',
         locations: ['Meadowbrooke Farm - Flowers'],
@@ -18541,7 +18541,7 @@ const yokais = [
                 "Ponders, then remembers he's a kangaroo and kicks foes in range.",
             power: '22x5 to 44x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Pause for Thought',
@@ -18567,7 +18567,7 @@ const yokais = [
         yokaiNumber: '349',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tongue-twister.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tongue-twister.png',
         description:
             "Ever tripped over your own words while speaking in front of other people? It's probably this guy's fault.",
         locations: ['Northbeech - Trees'],
@@ -18589,7 +18589,7 @@ const yokais = [
                 "His tongue-tied chant rapidly restores all allies' HP.",
             power: '110 to 220',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Tongue Tied',
@@ -18622,7 +18622,7 @@ const yokais = [
         yokaiNumber: '350',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lazy_sundae.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lazy_sundae.png',
         description:
             'This is the Yo-kai who makes dads stay in bed on Sundays instead of playing with their kids!',
         locations: ['Southmond - Under cars'],
@@ -18645,7 +18645,7 @@ const yokais = [
                 "Makes all foes feel it's Sunday so they shouldn't do anything.\"",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Such a Parfait Day',
@@ -18673,7 +18673,7 @@ const yokais = [
         yokaiNumber: '351',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/got_it_maid.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/got_it_maid.png',
         description:
             'An expert maid who can complete any task she is set. She never takes it easy on her students though.',
         locations: ['Hazeltine Mansion - Archive'],
@@ -18695,7 +18695,7 @@ const yokais = [
                 "Utilizes her many years of expertise to restore all allies' HP.",
             power: '90 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Got it!',
@@ -18723,7 +18723,7 @@ const yokais = [
         yokaiNumber: '352',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/greengramps.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/greengramps.png',
         description:
             'Greatly concerned about the environment, this Yo-kai will reuse everything. Even going as far as drying used tissues.',
         locations: ['Mt. Wildwood - Brushwoods'],
@@ -18745,7 +18745,7 @@ const yokais = [
                 "An earthy droplet restores all allies' HP, then keeps slowly restoring it.",
             power: '45 to 45 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'One with the Earth',
@@ -18772,7 +18772,7 @@ const yokais = [
         yokaiNumber: '353',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/right_brothers.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/right_brothers.png',
         description:
             'Remember that moment where you finally get the knack of doing something? These guys have got your back!',
         locations: ['Pecan Port - Rivers'],
@@ -18794,7 +18794,7 @@ const yokais = [
                 "That's right! Gets all allies' stats boosted with a good pep talk.\"",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "That's the Way!",
@@ -18822,7 +18822,7 @@ const yokais = [
         yokaiNumber: '354',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tattlecakes.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tattlecakes.png',
         description:
             'Tattlecakes loves baking up delicious treats for others. Just try not to blab secrets to her recipes...',
         locations: ['Fusion.'],
@@ -18844,7 +18844,7 @@ const yokais = [
                 'Restores all allies HP with yummy cakes baked with love!',
             power: '90 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Healing Hot-cakes',
@@ -18872,7 +18872,7 @@ const yokais = [
         yokaiNumber: '355',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/happierre.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/happierre.png',
         description:
             'This heartwarming Yo-kai removes the tension in the air. He can cheer up even the angriest of people.',
         locations: ['Uptown Springdale - Trees'],
@@ -18894,7 +18894,7 @@ const yokais = [
                 'Gradually restores the HP of all allies with a blissful aura.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Cheerfulness',
@@ -18922,7 +18922,7 @@ const yokais = [
         yokaiNumber: '356',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reversa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/reversa.png',
         description:
             "One moment she's happy, and the next, she's sad. She can be more difficult to deal with than Dismarelda sometimes.",
         locations: ['Fusion.'],
@@ -18944,7 +18944,7 @@ const yokais = [
                 'Gradually restores the HP of all allies with his exciting aura.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Insecurity',
@@ -18971,7 +18971,7 @@ const yokais = [
         yokaiNumber: '357',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reversette.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/reversette.png',
         description:
             'She resembles Reversa, but her reversed pattern is a rare sight. Her depression\u2014not so rare.',
         locations: ['Northbeech - Pearly Chamber of Whimsy'],
@@ -18993,7 +18993,7 @@ const yokais = [
                 'Gradually restores the HP of all allies with her exciting aura.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Insecurity',
@@ -19020,7 +19020,7 @@ const yokais = [
         yokaiNumber: '358',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pheasanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pheasanyan.png',
         description:
             "One of Momonyan's servants. He's the healer on the team, but he often forgets to perform this duty.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -19042,7 +19042,7 @@ const yokais = [
                 'Kicks foes in range with the power of tasty millet dumplings.',
             power: '22x5 to 44x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'A Peck Above',
@@ -19076,7 +19076,7 @@ const yokais = [
         yokaiNumber: '359',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/fundango.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/fundango.png',
         description:
             "This guy's happy dance spreads joy wherever he goes. Wait a second. Doesn't he seem kind of familiar...",
         locations: ["The Yo-kai Circus's One Last Hurrah"],
@@ -19098,7 +19098,7 @@ const yokais = [
                 'Does a happy dance, recovering HP and getting even more powerful!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Fun Times',
@@ -19124,7 +19124,7 @@ const yokais = [
         yokaiNumber: '360',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pearly_white.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pearly_white.png',
         description:
             "The noble lady protects the dazzling smiles of others from the fiendish Count Cavity. You're very welcome!",
         locations: ['Hazeltine Mansion - Archive'],
@@ -19146,7 +19146,7 @@ const yokais = [
                 'Her dazzling smile purifies all allies and restores their HP.',
             power: '45 to 45 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Dental Defence',
@@ -19174,7 +19174,7 @@ const yokais = [
         yokaiNumber: '361',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robogramps.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robogramps.png',
         description:
             'A robotic Hungramps from the future. Even in robotic form, his appetite is as insatiable as ever.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -19196,7 +19196,7 @@ const yokais = [
                 'Attacks the column in front with a beam of advanced hunger.',
             power: '140',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Steel Power',
@@ -19224,7 +19224,7 @@ const yokais = [
         yokaiNumber: '362',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rollen.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rollen.png',
         description:
             'Everything he does is decided by a roll of his dice eyes. Their outcome changes his personality!',
         locations: ['Sparkopolis - Under cars'],
@@ -19246,7 +19246,7 @@ const yokais = [
                 'Rolls his dicey eyes. What happens next is up to Lady Luck.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "Luck's Smile",
@@ -19271,7 +19271,7 @@ const yokais = [
         yokaiNumber: '363',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dubbles.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dubbles.png',
         description:
             "Dubbles will Inspirit you and point you toward an unknown fate. Even he doesn't know if it'll be a good or bad one.",
         locations: ['Tranquility Apts.'],
@@ -19293,7 +19293,7 @@ const yokais = [
                 'Tries to roll doubles and succeeds. Emboldened, he attacks an enemy.',
             power: '140 to 210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Lucky Streak',
@@ -19325,7 +19325,7 @@ const yokais = [
         yokaiNumber: '364',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/scarasol.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/scarasol.png',
         description:
             'He uses a Pallysol as a weapon, blocking attacks by opening him and then striking by jabbing him at opponents.',
         locations: ['Fusion.'],
@@ -19346,7 +19346,7 @@ const yokais = [
             description: 'Unfurls his umbrella. His DEF soars as a result.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Deep Cover',
@@ -19374,7 +19374,7 @@ const yokais = [
         yokaiNumber: '365',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/odysseynyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/odysseynyan.png',
         description:
             'This cat was taken to the Palace of the Dragon King...but forgot his treasure on the way back home!',
         locations: ["Raft - Hopper's Gorge course"],
@@ -19396,7 +19396,7 @@ const yokais = [
                 'Opens a chest full of medicinal smoke, restoring all allies.',
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Palatial Power',
@@ -19423,7 +19423,7 @@ const yokais = [
         yokaiNumber: '366',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ghostess.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ghostess.png',
         description:
             'The proprietress of a famous Yo-kai inn. She provides such a good service, she has trouble getting customers to leave!',
         locations: ['Breezy Hills - flowers'],
@@ -19445,7 +19445,7 @@ const yokais = [
                 "Provides a service so splendid it restores all allies' HP.",
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'In Good Hands',
@@ -19472,7 +19472,7 @@ const yokais = [
         yokaiNumber: '367',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/papa_bolt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/papa_bolt.png',
         description:
             "No matter how lazy you are, you'll work fast when Papa Bolt's watching. His anger is SCAAAAARY!",
         locations: ['Pecan Port - Trees'],
@@ -19494,7 +19494,7 @@ const yokais = [
                 'Zaps foes in range with the lightning of fatherly discontent.',
             power: '125 to 187 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Dad's Support",
@@ -19520,7 +19520,7 @@ const yokais = [
         yokaiNumber: '368',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/uncle_infinite.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/uncle_infinite.png',
         description:
             "Even Papa Bolt is scared of Uncle Infinite's power. He can throw a table an entire mile!",
         locations: ['Dukesville - Trees'],
@@ -19542,7 +19542,7 @@ const yokais = [
                 'Flips a table on a foe in an intense explosion of anger!',
             power: '250 to 250',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: "Uncle's Shout",
@@ -19568,7 +19568,7 @@ const yokais = [
         yokaiNumber: '369',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mama_aura.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mama_aura.png',
         description:
             'Sometimes strict and sometimes nice, she embraces Yo-kai with her warm aura. No Yo-kai can defy her.',
         locations: ['Excellent Tower - Observation Deck'],
@@ -19590,7 +19590,7 @@ const yokais = [
                 'Gradually restores HP for allies with her motherly warmth.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Mama's Warmth",
@@ -19617,7 +19617,7 @@ const yokais = [
         yokaiNumber: '370',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/auntie_heart.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/auntie_heart.png',
         description:
             "Regardless of how bad a Yo-kai is, Auntie Heart's healing hug will make it pure again. That is some true kindness!",
         locations: ['Crank-a-Kai (Springdale)'],
@@ -19639,7 +19639,7 @@ const yokais = [
                 'Revives and heals her allies with all the love of a favorite aunt.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Auntie's Love",
@@ -19667,7 +19667,7 @@ const yokais = [
         yokaiNumber: '371',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kyryn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kyryn.png',
         description:
             'A sacred being who protects all living things. His divine cry tops the Yo-kai download chart.',
         locations: ['Excellent Tower - Observation Deck'],
@@ -19689,7 +19689,7 @@ const yokais = [
                 'Fully restores HP of all allies with a divine cry towards the sky.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Rest Aura',
@@ -19716,7 +19716,7 @@ const yokais = [
         yokaiNumber: '372',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/unikirin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/unikirin.png',
         description:
             'A legendary creature with a horn that countless figures throughout history have tried to steal.',
         locations: ['Tower of Zenlightenment - 4th Trial'],
@@ -19738,7 +19738,7 @@ const yokais = [
                 "A holy horn is blown toward heaven, fully restoring allies' HP.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Healing Horn',
@@ -19772,7 +19772,7 @@ const yokais = [
         yokaiNumber: '373',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/double_time.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/double_time.png',
         description:
             'This Yo-kai lives at twice the speed of your run-of-the-mill spirit. The only time he slows down is to read his comic books.',
         locations: ['The Wonder Hero! Double Time!'],
@@ -19795,7 +19795,7 @@ const yokais = [
                 'He attacks foes in range so fast that they never see him coming!',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/1.png'
         },
         inspirit: {
             name: 'Speed Up!',
@@ -19821,7 +19821,7 @@ const yokais = [
         yokaiNumber: '374',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sonic_bam.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sonic_bam.png',
         description:
             "With a new mastery over super sonic kung-fu, this Yo-kai can fell his opponents before they've even seen him!",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -19844,7 +19844,7 @@ const yokais = [
                 "He gives foes in range the fastest kung fu chops they've never seen!",
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/1.png'
         },
         inspirit: {
             name: 'Sonic Stance',
@@ -19871,7 +19871,7 @@ const yokais = [
         yokaiNumber: '375',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/neggplant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/neggplant.png',
         description:
             "This Yo-kai is constantly frustrated by the fact that children don't like eggplants, despite the fact that they're so tasty!",
         locations: ['Sparkopolis - Construction Materials'],
@@ -19893,7 +19893,7 @@ const yokais = [
                 'A negative aura makes all foes drop their cash and just not care.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Stop Negging Me!',
@@ -19919,7 +19919,7 @@ const yokais = [
         yokaiNumber: '376',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snitchin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snitchin.png',
         description:
             'Causes kids to break one of the fundamental rules of the playground, turning them into snitches!',
         locations: ['Sparkopolis - Shady Parking Lot'],
@@ -19941,7 +19941,7 @@ const yokais = [
                 'Uses his pointy head to prick foes in range all over!',
             power: '15x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Prickly Prickle',
@@ -19967,7 +19967,7 @@ const yokais = [
         yokaiNumber: '377',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/messyrai.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/messyrai.png',
         description:
             "Messyrai are to blame for the mess in kids' bedrooms. Lucky the Brushido are there to tidy things up!",
         locations: ['Uptown Springdale - Desolate Lane'],
@@ -19989,7 +19989,7 @@ const yokais = [
                 'Tosses trash over all enemies, greatly reducing their SPD.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Big Mess Up',
@@ -20016,7 +20016,7 @@ const yokais = [
         yokaiNumber: '378',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/leadoni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/leadoni.png',
         description:
             "A Yo-kai that beckons to people with a huge hand and gets them confused. It's his fault when a child gets lost!",
         locations: ['Blossom Heights - Under cars'],
@@ -20038,7 +20038,7 @@ const yokais = [
                 'Tries to mislead foes into attacking their own allies.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Guide',
@@ -20065,7 +20065,7 @@ const yokais = [
         yokaiNumber: '379',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mynimo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mynimo.png',
         description:
             "People Inspirited by Mynimo get much better treatment than those around them. Hey! That's not fair!",
         locations: ['Breezy Hills - Brushwoods'],
@@ -20087,7 +20087,7 @@ const yokais = [
                 'Unleashes a favoritism aura on all foes, greatly reducing STR.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Bias',
@@ -20114,7 +20114,7 @@ const yokais = [
         yokaiNumber: '380',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ake.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ake.png',
         description:
             "A bratty Yo-kai who's always kicking people's shoulders. The kicks just make your shoulders stiff.",
         locations: ['Breezy Hills - Under cars'],
@@ -20136,7 +20136,7 @@ const yokais = [
                 'Ferociously charges at the column in front to wreck their shoulders.',
             power: '135 to 135 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Shoulder Pain',
@@ -20163,7 +20163,7 @@ const yokais = [
         yokaiNumber: '381',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/payn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/payn.png',
         description:
             'Payn will show your shoulders the meaning of pain using his massive strength. Payn is really into working out.',
         locations: ['Fusion.'],
@@ -20185,7 +20185,7 @@ const yokais = [
                 'Ferociously charges at the column in front to wreck their shoulders.',
             power: '145 to 217 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Shoulder Pain',
@@ -20212,7 +20212,7 @@ const yokais = [
         yokaiNumber: '382',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/agon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/agon.png',
         description:
             "A horrible Yo-kai that gives people a slipped disk in their backs! You're more susceptible the older you are.",
         locations: ['Train'],
@@ -20234,7 +20234,7 @@ const yokais = [
                 "Bashes a foe's back with a heavy-duty iron dumbbell. OUCH!",
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Back Pain',
@@ -20261,7 +20261,7 @@ const yokais = [
         yokaiNumber: '383',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/herbiboy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/herbiboy.png',
         description:
             'A weakling with no real ambitions to speak of. Anyone Inspirited by him is bound to lose their spark.',
         locations: ['Breezy Hills - Brushwoods'],
@@ -20283,7 +20283,7 @@ const yokais = [
                 'Wishy-washy Herbivaura blasts all enemies so their STR goes way down!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Wilt',
@@ -20310,7 +20310,7 @@ const yokais = [
         yokaiNumber: '384',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/carniboy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/carniboy.png',
         description:
             'A red-blooded Yo-kai who uses a gorgeous tan, luscious golden locks, and robust supply of one-liners to wow the ladies.',
         locations: ['Fusion.'],
@@ -20332,7 +20332,7 @@ const yokais = [
                 "An aura of vim and vigor greatly boosts allies' attacking prowess.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Beef Up',
@@ -20366,7 +20366,7 @@ const yokais = [
         yokaiNumber: '385',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wydeawake.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wydeawake.png',
         description:
             "This nighttime nuisance loves staying up late. Have a friend who won't go to bed? It's probably this Yo-kai's fault.",
         locations: ['Sparkopolis - Junk Alley'],
@@ -20388,7 +20388,7 @@ const yokais = [
                 'All enemies are hit by a nasty all-nighter aura that greatly lowers DEF!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Restless Night',
@@ -20415,7 +20415,7 @@ const yokais = [
         yokaiNumber: '386',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/allnyta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/allnyta.png',
         description:
             "The bags under his eyes from playing video games all night are enough to make anyone worry for this Yo-kai's health.",
         locations: ['Fusion.'],
@@ -20437,7 +20437,7 @@ const yokais = [
                 'The DEF of all foes is greatly weakened by too many all nighters!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Sleepless Night',
@@ -20464,7 +20464,7 @@ const yokais = [
         yokaiNumber: '387',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/treetter.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/treetter.png',
         description:
             'Though quiet in real life, Treetter talks a lot online, and every word makes the tree on his head grow.',
         locations: ['Sparkopolis - Construction Materials'],
@@ -20486,7 +20486,7 @@ const yokais = [
                 'Social media madness makes all foes unable to take action.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Retreet',
@@ -20515,7 +20515,7 @@ const yokais = [
         yokaiNumber: '388',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/retreeter.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/retreeter.png',
         description:
             "Treetter's incessant online posting has caused his tree to grow to such a size that he now hosts an entire flock of birds!",
         locations: ['Evolution'],
@@ -20537,7 +20537,7 @@ const yokais = [
                 "A trendy droplet restores all allies' HP, then keeps slowly restoring it.",
             power: '45 to 45 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Retreet',
@@ -20565,7 +20565,7 @@ const yokais = [
         yokaiNumber: '389',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/negatibuzz.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/negatibuzz.png',
         description:
             'A Yo-kai that nurtures negativity and sucks it up with its needlelike nose.',
         locations: ['Uptown Springdale - Trees'],
@@ -20587,7 +20587,7 @@ const yokais = [
                 "Spreads negativity germs that greatly lower all foes' DEF.",
             power: '20 to 20',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Negativize',
@@ -20615,7 +20615,7 @@ const yokais = [
         yokaiNumber: '390',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/moskevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/moskevil.png',
         description:
             "This nasty Yo-kai can drop you into the depths of despair. You cannot cheer up if he's nearby.",
         locations: ['Evolution'],
@@ -20637,7 +20637,7 @@ const yokais = [
                 "Sends evil soundwaves that greatly lower all foes' DEF.",
             power: '80 to 80',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Negativize',
@@ -20665,7 +20665,7 @@ const yokais = [
         yokaiNumber: '391',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/scritchy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/scritchy.png',
         description:
             'The mere presence of Scritchy will make your body itch. No amount of scratching can make it stop.',
         locations: ['Secret Forest Base - Trees'],
@@ -20687,7 +20687,7 @@ const yokais = [
                 'Makes all enemies itch constantly, greatly lowering their STR.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Itchy',
@@ -20715,7 +20715,7 @@ const yokais = [
         yokaiNumber: '392',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dimmy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dimmy.png',
         description:
             'Being Inspirited by Dimmy will tone down your presence. Dimmy uses this for his job as a ninja.',
         locations: ['Breezy Hills - Brushwoods'],
@@ -20736,7 +20736,7 @@ const yokais = [
             description: 'Simply gives a foe a strong but dull slap.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Fade Away',
@@ -20764,7 +20764,7 @@ const yokais = [
         yokaiNumber: '393',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blandon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/blandon.png',
         description:
             "Blandon's lack of presence makes him a really great spy, but he's sad that no one recognizes him for that.",
         locations: ['Evolution'],
@@ -20786,7 +20786,7 @@ const yokais = [
                 'Almost completely out of nowhere, a foe gets dealt a strong slap!',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Fade Away',
@@ -20813,7 +20813,7 @@ const yokais = [
         yokaiNumber: '394',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/null.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/null.png',
         description:
             "You can't sense Nul even if you're really close to him. He's really good at entertaining himself.",
         locations: ['Rice Paddy Path'],
@@ -20835,7 +20835,7 @@ const yokais = [
                 'Almost completely out of nowhere, a foe gets dealt a strong slap!',
             power: '200 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Fade Away',
@@ -20861,7 +20861,7 @@ const yokais = [
         yokaiNumber: '395',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/salty_bacon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/salty_bacon.png',
         description:
             'This slice of bacon gets crispier the angrier he becomes, and crispy bacon is simply the tastiest!',
         locations: ['East Pine - Grass'],
@@ -20883,7 +20883,7 @@ const yokais = [
                 'His temper gets so fiery it fries foes in range to a perfect crisp!',
             power: '73 to 219 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Crisp and Tasty',
@@ -20910,7 +20910,7 @@ const yokais = [
         yokaiNumber: '396',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/suspicioni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/suspicioni.png',
         description:
             "An Oni who doubts everything. He hangs out with his fellow Oni but doesn't trust them at all.",
         locations: ['Excellent Tower - Garbages'],
@@ -20932,7 +20932,7 @@ const yokais = [
                 'Gives foes the evil eye, making them unwilling to act.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Distrust',
@@ -20958,7 +20958,7 @@ const yokais = [
         yokaiNumber: '397',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tantroni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tantroni.png',
         description:
             "This Yo-kai will throw a fit whenever he doesn't get his way... It's probably time to grow out of that.",
         locations: ["Shopper's Row - Nocturne Hospital"],
@@ -20980,7 +20980,7 @@ const yokais = [
                 'Gives foes the evil eye, making them unwilling to act.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Bratty',
@@ -21007,7 +21007,7 @@ const yokais = [
         yokaiNumber: '398',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/contrarioni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/contrarioni.png',
         description:
             'Get ready to say "no" a lot if Contrarioni Inspirits you. You\'ll disagree with anything people say. Always fun at parties.\u3000',
         locations: ['East Pine - Fire hydrants'],
@@ -21029,7 +21029,7 @@ const yokais = [
                 'Emits an evil gas that disagrees with his foes and confuses them.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Contrariness',
@@ -21055,7 +21055,7 @@ const yokais = [
         yokaiNumber: '399',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grumpus_khan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/grumpus_khan.png',
         description:
             'Those possessed by this morose Yo-kai end up hated by everyone for their negative attitude.',
         locations: ['Uptown Springdale - Distributors'],
@@ -21077,7 +21077,7 @@ const yokais = [
                 'Makes the enemy so awkward that they all get confused.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Get Your Goat',
@@ -21106,7 +21106,7 @@ const yokais = [
         yokaiNumber: '400',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/groupus_khan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/groupus_khan.png',
         description:
             'The leader of the Woolly Grumpers. His constant griping makes him monumentally unpopular.',
         locations: ['Fusion.'],
@@ -21128,7 +21128,7 @@ const yokais = [
                 'Makes the enemy so awkward that they end up utterly confused.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Get Your Goat',
@@ -21156,7 +21156,7 @@ const yokais = [
         yokaiNumber: '401',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hidabat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hidabat.png',
         description:
             "Hidabat will make you a shut-in who fears going outside. He's better at Inspiriting modern city dwellers.",
         locations: ['Mt. Wildwood - Abandoned Tunnel'],
@@ -21178,7 +21178,7 @@ const yokais = [
                 'Sings enemies a cursed lullaby, rendering them much less likely to act.',
             power: '60 to 60',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Shut Away',
@@ -21205,7 +21205,7 @@ const yokais = [
         yokaiNumber: '402',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/abodabat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/abodabat.png',
         description:
             "After being inside the house for so long, Hidabat fused with it. Now he really can't ever leave!",
         locations: ['Fusion.'],
@@ -21227,7 +21227,7 @@ const yokais = [
                 'Sings enemies a cursed ballad, rendering them incapable of action.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Shut Away',
@@ -21254,7 +21254,7 @@ const yokais = [
         yokaiNumber: '403',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/belfree.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/belfree.png',
         description:
             "A rare Abodabat in temporary housing. Once a year, if you're lucky, you can see him change houses.",
         locations: ['Sparkopolis - Trees'],
@@ -21276,7 +21276,7 @@ const yokais = [
                 'Chants a curse at all foes. Those hit become incapable of action.',
             power: '150 to 150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Shut Away',
@@ -21304,7 +21304,7 @@ const yokais = [
         yokaiNumber: '404',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/yoink.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/yoink.png',
         description:
             "A Yo-kai who says he's borrowing people's stuff but actually just swallows it and never gives it back.",
         locations: ['Excellent Tower - Construction Materials'],
@@ -21326,7 +21326,7 @@ const yokais = [
                 "Innocently 'borrows' HP from foes in range. Shares it with allies.\"",
             power: '50 to 50',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Bad Influence',
@@ -21353,7 +21353,7 @@ const yokais = [
         yokaiNumber: '405',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gimme.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gimme.png',
         description:
             "Why borrow people's stuff when you can just steal it? Stores his loot in the bag on his head.",
         locations: ['Evolution'],
@@ -21375,7 +21375,7 @@ const yokais = [
                 'Steals the HP of foes in range and gives it to his allies.',
             power: '130 to 130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Shakedown',
@@ -21402,7 +21402,7 @@ const yokais = [
         yokaiNumber: '406',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/indexter.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/indexter.png',
         description:
             "This Yo-kai travels the information highway freely, randomly appearing on people's computers to reel off obscure IT facts.",
         locations: ['Northbeech - Warehouse No. 2'],
@@ -21424,7 +21424,7 @@ const yokais = [
                 "Hacks into all enemies' systems, recalibrating them into confusion.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Geekify',
@@ -21453,7 +21453,7 @@ const yokais = [
         yokaiNumber: '407',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hack_king.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hack_king.png',
         description:
             'Indexter has fallen off the grid and become the King of Hackers! Now no electronic device is safe!',
         locations: ['Fusion.'],
@@ -21475,7 +21475,7 @@ const yokais = [
                 "Hacks into all enemies' systems, recalibrating them into confusion.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'H4xx0red, n00b!',
@@ -21503,7 +21503,7 @@ const yokais = [
         yokaiNumber: '408',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/yoodooit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/yoodooit.png',
         description:
             'A wise old man who never lifts a finger if he can help it and always gets others to do his dirty work.',
         locations: ['Old Mansion - Main House'],
@@ -21525,7 +21525,7 @@ const yokais = [
                 'Uses his cane to drain HP from foes in range and distribute it to allies.',
             power: '70 to 70',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Helpless',
@@ -21551,7 +21551,7 @@ const yokais = [
         yokaiNumber: '409',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/count_zapaway.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/count_zapaway.png',
         description:
             'A Yo-kai who takes an absurd amount of pleasure in hiding TV remotes in the most unlikely of locations.',
         locations: ["Southmond - Denton's Repairs"],
@@ -21573,7 +21573,7 @@ const yokais = [
                 'Confuses enemies in the column in front with the wicked LED on his head.',
             power: '80 to 80',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Spirit Zapper',
@@ -21600,7 +21600,7 @@ const yokais = [
         yokaiNumber: '410',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tyrat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tyrat.png',
         description:
             "He's spent so much time hiding alone in his hole, he thinks the universe revolves around him.",
         locations: ['Secret Forest Base - Flowers'],
@@ -21622,7 +21622,7 @@ const yokais = [
                 'Instills foes with selfishness. They may turn on each other.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Rat Fink',
@@ -21649,7 +21649,7 @@ const yokais = [
         yokaiNumber: '411',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/disliking.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/disliking.png',
         description:
             'A Yo-kai who blames himself for all his failings...but is cheered when things go wrong for others.',
         locations: ['Hazeltine Mansion - 2F Hallway'],
@@ -21671,7 +21671,7 @@ const yokais = [
                 'Swamps all foes with a dislikable aura that reduces all their stats.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Self Loathing',
@@ -21698,7 +21698,7 @@ const yokais = [
         yokaiNumber: '412',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/crook-a-doodle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/crook-a-doodle.png',
         description:
             'Crook-a-doodle loves nothing more than cheating people, and is always looking out for his next scam.',
         locations: ['Meadowbrooke Farm'],
@@ -21720,7 +21720,7 @@ const yokais = [
                 'Crookedly tricks the enemy into switching their subs with their main Yo-kai.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Crook-a-doodle-do',
@@ -21748,7 +21748,7 @@ const yokais = [
         yokaiNumber: '413',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rocky_badboya.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rocky_badboya.png',
         description:
             "Ever since Rocky lost his big fight, he's made sure that everyone's worst fears come to pass...",
         locations: ['East Pine - Under cars'],
@@ -21770,7 +21770,7 @@ const yokais = [
                 'Gives all allies the guts to stick it out, greatly raising STR.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Off Guard',
@@ -21797,7 +21797,7 @@ const yokais = [
         yokaiNumber: '414',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/injurnalist.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/injurnalist.png',
         description:
             "An intrepid reporter who rushes to the scene when someone's in pain, and is quick to pen a lurid story.",
         locations: ['Hazeltine Mansion - Flowers'],
@@ -21819,7 +21819,7 @@ const yokais = [
                 'Publishes distressing stories on all foes. Greatly reduces SPD.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Painful Memories',
@@ -21847,7 +21847,7 @@ const yokais = [
         yokaiNumber: '415',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/misterr_typoo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/misterr_typoo.png',
         description:
             "Tihs Yo-kai rdidles txets wtih tpyos galroe. Kepe an eye uot for tihs guy... Yuo wno't wnt him arnoud dirung a tset.",
         locations: ['Tranquility Apts.'],
@@ -21868,7 +21868,7 @@ const yokais = [
             description: 'hiTs teh coLuMn inn FronTT wiv hiss beloVED sTaFf.',
             power: '140 to 280',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Butterfingers',
@@ -21901,7 +21901,7 @@ const yokais = [
         yokaiNumber: '416',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tengloom.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tengloom.png',
         description:
             "A gloomy tengu who's always reading. He's somehow amassed a Yo-kai fan base that likes his pessimism.",
         locations: ['Mt. Wildwood - Bamboo Groves'],
@@ -21923,7 +21923,7 @@ const yokais = [
                 'A fierce tornado blows, battering all foes within its range.',
             power: '90 to 135 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Pessimism',
@@ -21951,7 +21951,7 @@ const yokais = [
         yokaiNumber: '417',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nird.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nird.png',
         description:
             'This Yo-kai became a bookworm upon arrival in the human world. Noisiness will be severely punished! Shhhh!',
         locations: ["Shopper's Row - Garbages & Dumps"],
@@ -21973,7 +21973,7 @@ const yokais = [
                 'Viscous winds from the underworld buffet all foes within range.',
             power: '100 to 150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Stygian Curse',
@@ -22000,7 +22000,7 @@ const yokais = [
         yokaiNumber: '418',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/k_mon-k_mon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/k_mon-k_mon.png',
         description:
             "An impatient Yo-kai who's always antsy. You'll find him first in line whenever anything new is released.",
         locations: ['Excellent Tower - Garbages'],
@@ -22022,7 +22022,7 @@ const yokais = [
                 'Punches the column in front into a state of utter confusion.',
             power: '80 to 80',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Hate to Wait',
@@ -22050,7 +22050,7 @@ const yokais = [
         yokaiNumber: '419',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snobetty.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snobetty.png',
         description:
             'This stuck-up, high-and-mighty Yo-kai married into money and loves to boss around those she sees as "commoners.","419',
         locations: ['Breezy Hills - Rivers'],
@@ -22072,7 +22072,7 @@ const yokais = [
                 'Slaps a foe with unforgiving force. The foe hit will act much less.',
             power: '20x5 to 20x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Prima Donna',
@@ -22099,7 +22099,7 @@ const yokais = [
         yokaiNumber: '420',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dracunyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dracunyan.png',
         description:
             "A cat Yo-kai has taken the form of a vampire, but his victims really don't need to worry\u2014they'll feel a bit dizzy at worst.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -22121,7 +22121,7 @@ const yokais = [
                 'Sucks HP out of foes in range and shares it with his allies.',
             power: '150 to 150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Dracufang',
@@ -22149,7 +22149,7 @@ const yokais = [
         yokaiNumber: '421',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lil_kappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lil_kappa.png',
         description:
             'This kappa has taken the BBQ hip-hop scene by storm, and is now the best Yo-kai rapper in the world.',
         locations: ['Bada-Bing Tower'],
@@ -22170,7 +22170,7 @@ const yokais = [
             description: 'With his freaky flow, he confuses every foe! Yo!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Hip Hop Hold Up',
@@ -22198,7 +22198,7 @@ const yokais = [
         yokaiNumber: '422',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/horizontail.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/horizontail.png',
         description:
             "This Yo-kai quickly gets tired and fed up of doing anything. He'd rather just kick back and lounge around on his tail.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -22220,7 +22220,7 @@ const yokais = [
                 'The influence of his leisurely aura makes all foes unwilling to act.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Lethargy',
@@ -22247,7 +22247,7 @@ const yokais = [
         yokaiNumber: '423',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/usapyon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/usapyon.png',
         description:
             "This 'Merican Yo-kai dreams of becoming a space cowboy. Anger him and he'll go into Invader Mode.",
         locations: ['Story recruit.'],
@@ -22269,7 +22269,7 @@ const yokais = [
                 'Fires a mighty big beam, dealing damage to the column in front',
             power: '28x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
@@ -22297,7 +22297,7 @@ const yokais = [
         yokaiNumber: '424',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/usapyon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/usapyon.png',
         description:
             "This 'Merican Yo-kai dreams of becoming a space cowboy. Anger him and he'll go into Invader Mode.",
         locations: ['Story recruit.'],
@@ -22319,7 +22319,7 @@ const yokais = [
                 'Fires a mighty big beam, dealing damage to the column in front',
             power: '28x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
@@ -22353,7 +22353,7 @@ const yokais = [
         yokaiNumber: '425',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/usapyon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/usapyon.png',
         description:
             "This 'Merican Yo-kai dreams of becoming a space cowboy. Anger him and he'll go into Invader Mode.",
         locations: ['Story recruit.'],
@@ -22375,7 +22375,7 @@ const yokais = [
                 'Fires a mighty big beam, dealing damage to the column in front',
             power: '28x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
@@ -22409,7 +22409,7 @@ const yokais = [
         yokaiNumber: '426',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/usapyon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/usapyon.png',
         description:
             "This 'Merican Yo-kai dreams of becoming a space cowboy. Anger him and he'll go into Invader Mode.",
         locations: ['Story recruit.'],
@@ -22431,7 +22431,7 @@ const yokais = [
                 'Fires a mighty big beam, dealing damage to the column in front',
             power: '28x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
@@ -22458,7 +22458,7 @@ const yokais = [
         yokaiNumber: '427',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/usapyon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/usapyon.png',
         description:
             "This 'Merican Yo-kai dreams of becoming a space cowboy. Anger him and he'll go into Invader Mode.",
         locations: ['Story recruit.'],
@@ -22480,7 +22480,7 @@ const yokais = [
                 'Fires a mighty big beam, dealing damage to the column in front',
             power: '28x5',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
@@ -22514,7 +22514,7 @@ const yokais = [
         yokaiNumber: '428',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/usapyon_b.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/usapyon_b.png',
         description:
             'Usapyon in a special suit for Terror Time! Capable of activating Emperor Mode with the power of the hose.',
         locations: ['Springdale Trading - St. Peanutsburg'],
@@ -22536,7 +22536,7 @@ const yokais = [
                 'Lays waste to the column in front with a savage Blasters beam!',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Nyancelerator Tech',
@@ -22563,7 +22563,7 @@ const yokais = [
         yokaiNumber: '429',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/usa._zhongda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/usa._zhongda.png',
         description:
             'Shares a long and entangled history with the great strategist Whisper Kongming.',
         locations: ['QR Code'],
@@ -22585,7 +22585,7 @@ const yokais = [
                 'Fires a mighty big beam, dealing damage to the column in front.',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enrage',
@@ -22611,7 +22611,7 @@ const yokais = [
         yokaiNumber: '430',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slimamander.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slimamander.png',
         description:
             'Slimamander hides his eye in one of his three mouths so that enemies have a hard time targeting that sensitive spot.',
         locations: ['Rice Paddy Path'],
@@ -22633,7 +22633,7 @@ const yokais = [
                 'Powerfully slams foes within range using his three heads.',
             power: '25x6 to 25x6 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Burn',
@@ -22667,7 +22667,7 @@ const yokais = [
         yokaiNumber: '431',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/negasus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/negasus.png',
         description:
             "Negasus will make you want to do things that'll get you in trouble. The more trouble the better!",
         locations: ['Meadowbrooke Farm - Trees'],
@@ -22689,7 +22689,7 @@ const yokais = [
                 'Casts an evil aura over the column in front. Greatly reduces STR.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Negasus Waves',
@@ -22716,7 +22716,7 @@ const yokais = [
         yokaiNumber: '432',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/neighfarious.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/neighfarious.png',
         description:
             'Shining mysteriously in the night sky, Neighfarious is a bit of an enigma. What kind of evil Yo-kai is he?',
         locations: ["Hopper's Gorge"],
@@ -22738,7 +22738,7 @@ const yokais = [
                 'Casts an evil aura at the column in front, greatly reducing DEF.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Neighing Curse',
@@ -22765,7 +22765,7 @@ const yokais = [
         yokaiNumber: '433',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gutsy_bones.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gutsy_bones.png',
         description:
             "A skeleton Yo-kai who spends nights playing with his beloved Crank-a-Kai. Don't play with it, it's worth more than you know",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -22787,7 +22787,7 @@ const yokais = [
                 'A bone jackpot pours from the sky, hitting foes in range.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Crank-a-Kai Crazy',
@@ -22815,7 +22815,7 @@ const yokais = [
         yokaiNumber: '434',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/timidevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/timidevil.png',
         description:
             "A nervous devil who's too scared to even use his own powers. If he'd just relax, he could be unstoppable.",
         locations: ['East Pine - Under cars'],
@@ -22837,7 +22837,7 @@ const yokais = [
                 'Curses foes in range with a spell that gradually decreases HP.',
             power: '110 to 110',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Frighten',
@@ -22865,7 +22865,7 @@ const yokais = [
         yokaiNumber: '435',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/beelzebold.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/beelzebold.png',
         description:
             'Timidevil at full power! He still gets nervous every so often, though.',
         locations: ['Fusion.'],
@@ -22887,7 +22887,7 @@ const yokais = [
                 'Curses foes in range with a spell that gradually decreases HP.',
             power: '140 to 140',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Frighten',
@@ -22914,7 +22914,7 @@ const yokais = [
         yokaiNumber: '436',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/count_cavity.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/count_cavity.png',
         description:
             'A terrifying Yo-kai who can dissolve your teeth. He loves the sound of kids crying over aching teeth. What a jerk.',
         locations: ['Crank-a-Kai (Springdale)'],
@@ -22936,7 +22936,7 @@ const yokais = [
                 "Damages, then gradually reduces foe's HP by gifting them jet-black cavities.",
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Cavity',
@@ -22964,7 +22964,7 @@ const yokais = [
         yokaiNumber: '437',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eyesoar.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/eyesoar.png',
         description:
             "One of his many eyes is connected to his heart. You'll have to find out which one if you want to beat him.",
         locations: ['Greenfields Station - Rice Paddy Path'],
@@ -22986,7 +22986,7 @@ const yokais = [
                 'Beams of light fire from his eyes, damaging foes within range.',
             power: '37x5 to 37x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Evil Eyes',
@@ -23014,7 +23014,7 @@ const yokais = [
         yokaiNumber: '438',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eyellure.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/eyellure.png',
         description:
             'The eyes that cover his body are made of jewels and give off a light so bright that he sometimes blinds even himself.',
         locations: ['Oni Crank-a-kai'],
@@ -23036,7 +23036,7 @@ const yokais = [
                 'Beams of light fire from his eyes, damaging foes within range.',
             power: '43x5 to 43x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Evil Eyes',
@@ -23064,7 +23064,7 @@ const yokais = [
         yokaiNumber: '439',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/greesel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/greesel.png',
         description:
             "A powerful, greedy Yo-kai who wants to control the world's wealth. He'll do anything for money.",
         locations: ['Bada-Bing Tower'],
@@ -23086,7 +23086,7 @@ const yokais = [
                 'Gradually decreases enemy HP with a very sinister curse.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Stinginess',
@@ -23119,7 +23119,7 @@ const yokais = [
         yokaiNumber: '440',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/awevil.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/awevil.png',
         description:
             "An aristocrat of evil. Pure depravity. A Yo-kai that will do anything just because it's bad. He's earned his name.",
         locations: ['The Calamity that Lurks Below...'],
@@ -23141,7 +23141,7 @@ const yokais = [
                 'Pulls foes into pure darkness and severely limits their actions.',
             power: '140 to 140',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Darkness Power',
@@ -23167,7 +23167,7 @@ const yokais = [
         yokaiNumber: '441',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wobblewok.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wobblewok.png',
         description:
             "A Yo-kai formed from spirits who've fallen in battle. He struggles to keep a lid on all of his incredible power.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -23189,7 +23189,7 @@ const yokais = [
                 'Creates a giant ball of darkness that crashes on foes within range.',
             power: '200 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Boil Away',
@@ -23217,7 +23217,7 @@ const yokais = [
         yokaiNumber: '442',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/darkyubi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/darkyubi.png',
         description:
             'Entranced by evil power, Darkyubi has a dark soul. He wants to crush all hope and send the world into despair...or does he?',
         locations: ['He Who Descended into Darkness'],
@@ -23239,7 +23239,7 @@ const yokais = [
                 'Fires a blast of pure darkness at nearby foes. Also gradually cuts HP.',
             power: '200 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Dark Descent',
@@ -23266,7 +23266,7 @@ const yokais = [
         yokaiNumber: '443',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dr._e._raser.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dr._e._raser.png',
         description:
             "So absorbed in his research, this professor became a Yo-kai! He's developing a chemical to reduce matter into nothing.",
         locations: ['The Mad Hero! Dr. E. Raser!'],
@@ -23288,7 +23288,7 @@ const yokais = [
                 'Spills chemicals to make a toxic floor that hurts those who touch it.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Cruel Concoction',
@@ -23315,7 +23315,7 @@ const yokais = [
         yokaiNumber: '444',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dr._nocturne.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dr._nocturne.png',
         description:
             'This gifted doctor has a rather complicated relationship with his father, who is also a doctor of some renown.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -23337,7 +23337,7 @@ const yokais = [
                 'Tosses chemicals to make a toxic floor that hurts those who touch it.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Crazy Concoction',
@@ -23365,7 +23365,7 @@ const yokais = [
         yokaiNumber: '445',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tut__n__k_mon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tut__n__k_mon.png',
         description:
             'His staff work flat-out to make sure this impatient Yo-kai is never kept waiting, not even for a second.',
         locations: ['Fusion.'],
@@ -23386,7 +23386,7 @@ const yokais = [
             description: 'Charges into the column in front with intense vigor.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Hate to Wait',
@@ -23413,7 +23413,7 @@ const yokais = [
         yokaiNumber: '446',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tie-red.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tie-red.png',
         description:
             'Inspirits the ties of those hard at work, filling them with the irrepressible urge to head home for the day.',
         locations: ['Northbeech - Under cars'],
@@ -23435,7 +23435,7 @@ const yokais = [
                 'Spreads a homesickness aura on foes that makes them unwilling to act.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Tie-m to go Home',
@@ -23463,7 +23463,7 @@ const yokais = [
         yokaiNumber: '447',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/love-torn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/love-torn.png',
         description:
             'A torn love letter whose rage turned it into a Yo-kai. Finds joy in ripping up important documents.\u3000',
         locations: ['Southmond - Telephone poles'],
@@ -23484,7 +23484,7 @@ const yokais = [
             description: 'Casts an angry curse that gradually drains enemy HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Love-Torn Tirade',
@@ -23512,7 +23512,7 @@ const yokais = [
         yokaiNumber: '448',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shakey.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shakey.png',
         description:
             "This Yo-kai changes his mind as often as he washes his hand. His handshake is about as flimsy as you'd expect, too!",
         locations: ['East Pine - Flowers'],
@@ -23533,7 +23533,7 @@ const yokais = [
             description: 'Turns on a foe and deals them a nasty backhand.',
             power: '67 to 201 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Slapped Silly',
@@ -23560,7 +23560,7 @@ const yokais = [
         yokaiNumber: '449',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/quagmira.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/quagmira.png',
         description:
             "Take care not to accidentally compliment this Yo-kai. It'll bind itself to you, making you unable to move.",
         locations: ['East Pine - Hotel - Rear Byway'],
@@ -23582,7 +23582,7 @@ const yokais = [
                 "Makes a curse cling to all foes so they can't move anywhere!",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Mired Down',
@@ -23607,7 +23607,7 @@ const yokais = [
         yokaiNumber: '450',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/coughkoff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/coughkoff.png',
         description:
             'Coughkoff can cause your throat to feel tingly and make you sick. Try to stay healthy!',
         locations: ['Downtown Springdale - Rivers'],
@@ -23629,7 +23629,7 @@ const yokais = [
                 'His prickly nature strips all enemies of their good status effects.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Sore Throat',
@@ -23656,7 +23656,7 @@ const yokais = [
         yokaiNumber: '451',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hurchin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hurchin.png',
         description:
             "He looks just like Coughkoff, but don't say that! He hates that guy.",
         locations: ['Downtown Springdale - Rivers'],
@@ -23678,7 +23678,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '100 to 262 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Headache',
@@ -23703,7 +23703,7 @@ const yokais = [
         yokaiNumber: '452',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/droplette.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/droplette.png',
         description:
             "Droplette makes his way to places that don't get much sun and makes them damp and moldy... Gross.",
         locations: ['Breezy Hills - Rivers'],
@@ -23725,7 +23725,7 @@ const yokais = [
                 'Builds up moisture and dumps rain on foes within range.',
             power: '50 to 131 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Pruned',
@@ -23752,7 +23752,7 @@ const yokais = [
         yokaiNumber: '453',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/drizzle.png',
         description:
             'Drizzle creates rain clouds wherever he goes. You can find him in places that are thoroughly wet.',
         locations: ['Evolution'],
@@ -23774,7 +23774,7 @@ const yokais = [
                 'Builds moisture and dumps a squall on foes within range.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Pruned',
@@ -23801,7 +23801,7 @@ const yokais = [
         yokaiNumber: '454',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slush.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slush.png',
         description:
             'A large gathering of these frosty Yo-kai could frost anything. Just one can freeze a cup of water.',
         locations: ['Pecan Port - Trees'],
@@ -23823,7 +23823,7 @@ const yokais = [
                 'Uses frosty power to drop icicles on foes within range.',
             power: '50 to 131 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Numbify',
@@ -23849,7 +23849,7 @@ const yokais = [
         yokaiNumber: '455',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/alhail.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/alhail.png',
         description:
             'This Yo-kai has strong ice power by himself. Ice will gradually encase whatever he touches.',
         locations: ['Evolution'],
@@ -23871,7 +23871,7 @@ const yokais = [
                 'Drops a hailstorm like a meteor shower on foes within range.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Frozen Solid',
@@ -23897,7 +23897,7 @@ const yokais = [
         yokaiNumber: '456',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gush.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gush.png',
         description:
             'Gush can cause all kinds of things to start dripping. Ink from paper, water from a tap, blood from your nose... Much scarier than he looks.',
         locations: ['Secret Forest Base - Rivers'],
@@ -23919,7 +23919,7 @@ const yokais = [
                 'Blasts foes in range with enough power to give them nosebleeds.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Nosebleed',
@@ -23945,7 +23945,7 @@ const yokais = [
         yokaiNumber: '457',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/peckpocket.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/peckpocket.png',
         description:
             "When Peckpocket has his eye on you, you'll start wanting other people's stuff. I'll take that!\u3000",
         locations: ['Northbeech - Flowers'],
@@ -23967,7 +23967,7 @@ const yokais = [
                 'Snags HP from foes in range and divides it among his allies.',
             power: '45 to 117 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Snatch',
@@ -23994,7 +23994,7 @@ const yokais = [
         yokaiNumber: '458',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robbinyu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robbinyu.png',
         description:
             'A bird who uses a lasso to steal whatever he wants. He even lassoed his ex on her wedding day!',
         locations: ['Evolution'],
@@ -24016,7 +24016,7 @@ const yokais = [
                 "Attacks an enemy with his rope -they'll act much less if hit.",
             power: '110 to 110',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Tie Down',
@@ -24043,7 +24043,7 @@ const yokais = [
         yokaiNumber: '459',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rockabelly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rockabelly.png',
         description:
             "A weird Yo-kai who's quite the belly dancer. His stomach feathers look like an old man's face.\u3000",
         locations: ['Downtown Springdale - Construction Materials'],
@@ -24065,7 +24065,7 @@ const yokais = [
                 'Soars into the sky then slams his belly into the column in front.',
             power: '130 to 130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Funky Dance',
@@ -24098,7 +24098,7 @@ const yokais = [
         yokaiNumber: '460',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/squeeky.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/squeeky.png',
         description:
             "If you hear annoying tunes leaking from someone's headphones, you can bet this busy little Yo-kai's behind it.",
         locations: ['Northbeech - Hip & Hopping Alley'],
@@ -24120,7 +24120,7 @@ const yokais = [
                 'Gives all foes a huge earache with his maracas, gradually lowering their HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Ba-Dum-Diss',
@@ -24147,7 +24147,7 @@ const yokais = [
         yokaiNumber: '461',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rawry.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rawry.png',
         description:
             'He loves nothing more than revving the engine on his stolen bike and thoroughly annoying everyone.',
         locations: ['Fusion.'],
@@ -24169,7 +24169,7 @@ const yokais = [
                 'All enemies gradually lose HP thanks to the blast of his speakers!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Vroom Vroom',
@@ -24196,7 +24196,7 @@ const yokais = [
         yokaiNumber: '462',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/buhu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/buhu.png',
         description:
             'This bird Yo-kai is always sad. People she Inspirits get depressed and distracted a lot.',
         locations: ['Breezy Hills - Trees'],
@@ -24218,7 +24218,7 @@ const yokais = [
                 'Blasts foes in range with unpleasant energy. Also greatly lowers SPD.',
             power: '30 to 30',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Depression',
@@ -24245,7 +24245,7 @@ const yokais = [
         yokaiNumber: '463',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flumpy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/flumpy.png',
         description:
             'Flumpy can make even the coolest person unfashionable and awkward. She hates being so unstylish.',
         locations: ['Dukesville - Trees'],
@@ -24267,7 +24267,7 @@ const yokais = [
                 'Blasts foes in range with unpleasant energy. Also greatly lowers SPD.',
             power: '70 to 70',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Awkwardness',
@@ -24293,7 +24293,7 @@ const yokais = [
         yokaiNumber: '464',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skreek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/skreek.png',
         description:
             'If you catch a glimpse of Skreek, just run. He can throw you into the deepest pits of despair.',
         locations: ['Rice Paddy Path'],
@@ -24315,7 +24315,7 @@ const yokais = [
                 'Sends foes in range (and their stats) into the depths of despair.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Despair',
@@ -24342,7 +24342,7 @@ const yokais = [
         yokaiNumber: '465',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/manjimutt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/manjimutt.png',
         description:
             "A man-faced poodle who enjoys scaring people frightened by a poodle with a man's face. Hopes to one day be a CEO.",
         locations: ['Breezy Hills - Under cars'],
@@ -24365,7 +24365,7 @@ const yokais = [
                 'Bites foes within range in a frenzy. Pretty creepy, actually...\u3000',
             power: '19x5 to 19x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Confusion',
@@ -24392,7 +24392,7 @@ const yokais = [
         yokaiNumber: '466',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/multimutt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/multimutt.png',
         description:
             "Nobody wants to get close to Multimutt because both of his faces look mean. He's a perfect guard dog.",
         locations: ['Evolution'],
@@ -24415,7 +24415,7 @@ const yokais = [
                 'Bites foes within range with twice as many heads and twice as many teeth!\u3000',
             power: '25 to 25 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Confusion',
@@ -24442,7 +24442,7 @@ const yokais = [
         yokaiNumber: '467',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sir_berus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sir_berus.png',
         description:
             "An elite guard dog born and raised in the netherworld. He doesn't let a single soul escape his grasp.",
         locations: ["Shopper's Row - Brushwoods"],
@@ -24465,7 +24465,7 @@ const yokais = [
                 'Shoots rocks from the underworld at foes within range.',
             power: '130 to 195 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: "Styx's Curse",
@@ -24493,7 +24493,7 @@ const yokais = [
         yokaiNumber: '468',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/furgus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/furgus.png',
         description:
             'A furry fellow who lurks in dark places and has the distinctly unimpressive ability to encourage mild hair growth.',
         locations: ['Jumbo Slider'],
@@ -24515,7 +24515,7 @@ const yokais = [
                 'Enemies are gently relieved of all their good status effects.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Thatch',
@@ -24543,7 +24543,7 @@ const yokais = [
         yokaiNumber: '469',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/furdinand.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/furdinand.png',
         description:
             'A Yo-kai who makes thick, luxuriant hair sprout in the most...surprising places.',
         locations: ['Evolution'],
@@ -24565,7 +24565,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '270 to 270',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Thicket',
@@ -24594,7 +24594,7 @@ const yokais = [
         yokaiNumber: '470',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pergushin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pergushin.png',
         description:
             "Wow! You even read these tiny little details?! That's just one of the many things that makes you the bestest ever!",
         locations: ['Breezy Hills - Under cars'],
@@ -24616,7 +24616,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '130 to 390',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Polite to a Fault',
@@ -24644,7 +24644,7 @@ const yokais = [
         yokaiNumber: '471',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/percrushionists.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/percrushionists.png',
         description:
             "There's so much brown on these brown-nosers, they're sticking together! Their obsequiousness is now somehow endearing...",
         locations: ['Evolution'],
@@ -24666,7 +24666,7 @@ const yokais = [
                 'Makes all foes want to go easy on opponents. STR greatly lowers.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Polite to a Fault',
@@ -24693,7 +24693,7 @@ const yokais = [
         yokaiNumber: '472',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nosirs.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nosirs.png',
         description:
             'This big-nosed trio always insists on its innocence and feigns ignorance when things go awry.',
         locations: ['East Pine - Under cars'],
@@ -24715,7 +24715,7 @@ const yokais = [
                 "The trio's endless denials manage to confuse the enemy.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Doubt It',
@@ -24742,7 +24742,7 @@ const yokais = [
         yokaiNumber: '473',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grubbles.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/grubbles.png',
         description:
             'Envious of dazzling white things, this Yo-kai is to blame for turning your favorite white shirt yellow.',
         locations: ["Southmond - Denton's Repairs"],
@@ -24764,7 +24764,7 @@ const yokais = [
                 'Sprays the enemy with a grubby aura, greatly lowering their DEF.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Indentured Service',
@@ -24791,7 +24791,7 @@ const yokais = [
         yokaiNumber: '474',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nervous_rex.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nervous_rex.png',
         description:
             "Despite the fact that there's never been any trouble in his town, this sheriff Yo-kai is constantly wracked with anxiety.",
         locations: ['Secret Forest Base - Trees'],
@@ -24813,7 +24813,7 @@ const yokais = [
                 "He's so nervous he can't shoot straight so hits are completely random!\"",
             power: '76 to 228 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Creep Out',
@@ -24840,7 +24840,7 @@ const yokais = [
         yokaiNumber: '475',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rinsin_repete.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rinsin_repete.png',
         description:
             "Stuck in the endless cycle of asking one parent for something, only to be told to go and ask the other? Well, here's your problem.\u3000",
         locations: ['Blossom Heights - Hidden Side Street'],
@@ -24862,7 +24862,7 @@ const yokais = [
                 'Goes round and round in his tub until it charges into the column in front.',
             power: '93 to 279 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Foist Off',
@@ -24889,7 +24889,7 @@ const yokais = [
         yokaiNumber: '476',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chatalie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chatalie.png',
         description:
             "All talk and no action. If she Inspirits you, you'll be the same and lose the trust of others.",
         locations: ['Springdale Underground Parking'],
@@ -24910,7 +24910,7 @@ const yokais = [
             description: 'Bites foes in range with a big-toothed grin.',
             power: '18x5 to 27x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'All Talk',
@@ -24936,7 +24936,7 @@ const yokais = [
         yokaiNumber: '477',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nagatha.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nagatha.png',
         description:
             "Nagatha will make you into the kind of person that'll nag people over the smallest mistake.",
         locations: ['Downtown Springdale - Distributors'],
@@ -24958,7 +24958,7 @@ const yokais = [
                 'Bites foes within range while mouthing off complaints.',
             power: '21x5 to 31x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Complaints',
@@ -24985,7 +24985,7 @@ const yokais = [
         yokaiNumber: '478',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dismarelda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dismarelda.png',
         description:
             "Her gloomy aura can darken the mood in any environment. It's even worse when she's in a bad mood.",
         locations: ['Secret Forest Base - Flowers'],
@@ -25007,7 +25007,7 @@ const yokais = [
                 'Covers foes within range in gloomy fumes that greatly lower STR.',
             power: '40 to 40',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Overcast',
@@ -25041,7 +25041,7 @@ const yokais = [
         yokaiNumber: '479',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drenchetta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/drenchetta.png',
         description:
             "Drenchetta dampens any mood. When she's with her sister Dismarelda, it feels like the end of days.",
         locations: ["Raft - Grumbler's Grotto course"],
@@ -25063,7 +25063,7 @@ const yokais = [
                 'Drenches all foes with a gloomy curse that gradually cuts HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Drench',
@@ -25089,7 +25089,7 @@ const yokais = [
         yokaiNumber: '480',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/danke_sand.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/danke_sand.png',
         description:
             'A sand dune with a mouth so big he can swallow almost any opponent. But he never forgets to say thanks!',
         locations: ['Harrisville Station Plaza - Under Porches'],
@@ -25111,7 +25111,7 @@ const yokais = [
                 'Attacks foes in range with sandbags and energy from under the earth.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Sanks So Much',
@@ -25140,7 +25140,7 @@ const yokais = [
         yokaiNumber: '481',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/no_sandkyu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/no_sandkyu.png',
         description:
             'This evolved Yo-kai is a very fussy eater, refusing most things with a firm "No, thanks!","481',
         locations: ['Fusion.'],
@@ -25162,7 +25162,7 @@ const yokais = [
                 'Attacks foes in range with sandbags and energy from under the earth.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Refusal',
@@ -25190,7 +25190,7 @@ const yokais = [
         yokaiNumber: '482',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/papa_windbag.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/papa_windbag.png',
         description:
             "This Yo-kai's constant insistence on his own greatness never fails to rub people the wrong way.",
         locations: ['Mt. Wildwood - Abandoned Tunnel'],
@@ -25212,7 +25212,7 @@ const yokais = [
                 'Papa Windbag sings his own praises. He powers up and recovers HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Big Up',
@@ -25239,7 +25239,7 @@ const yokais = [
         yokaiNumber: '483',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ben_tover.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ben_tover.png',
         description:
             'A supple and slippery character whose pathetic excuses make it utterly impossible to pin blame on him.',
         locations: ["Shopper's Row - Under cars"],
@@ -25261,7 +25261,7 @@ const yokais = [
                 'Makes all foes feel sick with his slippery moves, lowering their stats.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Shirkster',
@@ -25287,7 +25287,7 @@ const yokais = [
         yokaiNumber: '484',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/compunzer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/compunzer.png',
         description:
             "Even though he wants to make people laugh, Compunzer's jokes fall flat and just lead to awkward silences.",
         locations: ['Downtown Springdale - Trees'],
@@ -25309,7 +25309,7 @@ const yokais = [
                 'Makes all foes as lame as his jokes, greatly reducing their SPD.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Fall Flat',
@@ -25335,7 +25335,7 @@ const yokais = [
         yokaiNumber: '485',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lamedian.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lamedian.png',
         description:
             "Recycles jokes like they're made out of plastic. He'll be here all week, folks.",
         locations: ["Shopper's Row - Rivers"],
@@ -25357,7 +25357,7 @@ const yokais = [
                 'Makes all foes as lame as his jokes, greatly reducing their SPD.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Fall Flat',
@@ -25384,7 +25384,7 @@ const yokais = [
         yokaiNumber: '486',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/soloman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/soloman.png',
         description:
             "This solitary Yo-kai takes great pride in doing things alone. What's wrong with being alone, anyway?",
         locations: ['Sparkopolis - Junk Alley'],
@@ -25406,7 +25406,7 @@ const yokais = [
                 "Drains foe's HP all by himself, but nonetheless shares it among allies.",
             power: '100 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Lonely World',
@@ -25433,7 +25433,7 @@ const yokais = [
         yokaiNumber: '487',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhumbastiltskin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rhumbastiltskin.png',
         description:
             'Breaks out in song and dance whenever he gets overwhelmed. This appears to happen very frequently.',
         locations: ['Northbeech - Hip & Hopping Alley'],
@@ -25455,7 +25455,7 @@ const yokais = [
                 'Gives all foes curly perms, making them angry and confused.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: "Can't Keep This Up",
@@ -25482,7 +25482,7 @@ const yokais = [
         yokaiNumber: '488',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slax.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slax.png',
         description:
             "This slovenly panda Yo-kai insists he's only following the latest fashion trends. It's not just because he's lazy...",
         locations: ['Meadowbrooke Farm - Flowers'],
@@ -25503,7 +25503,7 @@ const yokais = [
             description: 'Greatly lowers the SPD (and pants) of all opponents.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Baggy Britches',
@@ -25529,7 +25529,7 @@ const yokais = [
         yokaiNumber: '489',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cheeksqueek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cheeksqueek.png',
         description:
             "A Yo-kai that can't stop farting. There's a rumor that he just has really bad breath...but I'm not going to clear the air here.",
         locations: ['Breezy Hills - Distributors'],
@@ -25551,7 +25551,7 @@ const yokais = [
                 'Emits an evil stink that greatly lowers the SPD of all foes.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Stink Up',
@@ -25577,7 +25577,7 @@ const yokais = [
         yokaiNumber: '490',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cuttincheez.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cuttincheez.png',
         description:
             'A god of flatulence. Brace yourself for agony if you get stuck in a windowless room with Cuttincheez.',
         locations: ['Southmond - Scrapyard'],
@@ -25599,7 +25599,7 @@ const yokais = [
                 'Emits an evil stink that greatly lowers the SPD of all foes.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Stink Up',
@@ -25632,7 +25632,7 @@ const yokais = [
         yokaiNumber: '491',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/toiletta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/toiletta.png',
         description:
             'This Yo-kai considers it her life goal to refine the art of scaring children at school. Extremely dedicated to the cause.',
         locations: ['Springdale Elementary at night'],
@@ -25654,7 +25654,7 @@ const yokais = [
                 'Curses the column before her, gradually lowering their HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Elementary Curse',
@@ -25681,7 +25681,7 @@ const yokais = [
         yokaiNumber: '492',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/foiletta.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/foiletta.png',
         description:
             "Toiletta's now in high school, where her love of curses and disruptive behavior has earned her a new nickname.",
         locations: ['Fusion.'],
@@ -25703,7 +25703,7 @@ const yokais = [
                 'Curses foes within range so that their HP gradually lowers.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'High School Hex',
@@ -25730,7 +25730,7 @@ const yokais = [
         yokaiNumber: '493',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robomutt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robomutt.png',
         description:
             "A robotic Manjimutt from the future. There's nothing even faintly human about him anymore.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -25752,7 +25752,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '250 to 250',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Steel Power',
@@ -25779,7 +25779,7 @@ const yokais = [
         yokaiNumber: '494',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shedwin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shedwin.png',
         description:
             'This Yo-kai takes great pleasure in shedding hair in the most unexpected of places, baffling those that he Inspirits.',
         locations: ['Southmond - Under cars'],
@@ -25801,7 +25801,7 @@ const yokais = [
                 'Drops gigantic furballs over the enemy field, blocking some tiles!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Hairy Happenings',
@@ -25828,7 +25828,7 @@ const yokais = [
         yokaiNumber: '495',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/glumdango.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/glumdango.png',
         description:
             "This Yo-kai's legendary dance will bring misfortune to anyone who gets taken in by his fancy moves.",
         locations: ["The Yo-kai Circus's One Last Hurrah"],
@@ -25851,7 +25851,7 @@ const yokais = [
                 'Performs a dance so glum it gradually drains the HP of all foes...',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Hard Luck',
@@ -25876,7 +25876,7 @@ const yokais = [
         yokaiNumber: '496',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/spewart.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/spewart.png',
         description:
             'This guy Inspirits vehicles, making them swerve from side to side and causing the passengers to get horribly queasy. Gulp...',
         locations: [
@@ -25900,7 +25900,7 @@ const yokais = [
                 'Spews a sickly aura that greatly lowers DEF for foes in range.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Sick Inducing',
@@ -25933,7 +25933,7 @@ const yokais = [
         yokaiNumber: '497',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grumples.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/grumples.png',
         description:
             'Bitter toward youth and beauty, Grumples makes people wrinkly. She was quite the beauty when she was young, though.',
         locations: ['Uptown Springdale - Under cars'],
@@ -25955,7 +25955,7 @@ const yokais = [
                 'Steals HP from the column in front and gives it to her allies.',
             power: '100 to 150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Wrinkles',
@@ -25989,7 +25989,7 @@ const yokais = [
         yokaiNumber: '498',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/everfore.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/everfore.png',
         description:
             'Sustaining her own youth and beauty by absorbing it from others, Everfore is always out looking to meet beautiful women.',
         locations: ['Fusion.'],
@@ -26011,7 +26011,7 @@ const yokais = [
                 'Steals HP from the column in front and gives it to her allies.',
             power: '130 to 195 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Youth Drain',
@@ -26037,7 +26037,7 @@ const yokais = [
         yokaiNumber: '499',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eterna.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/eterna.png',
         description:
             "They say this Yo-kai's immortality stems from her staff and that she'll age instantly without it.",
         locations: ['Crank-a-Kai (Springdale)'],
@@ -26059,7 +26059,7 @@ const yokais = [
                 'Steals HP from the column in front and gives it to her allies.',
             power: '140 to 140',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Immortal Power',
@@ -26087,7 +26087,7 @@ const yokais = [
         yokaiNumber: '500',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sproink.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sproink.png',
         description:
             'Loves to bathe in super-hot water. Dip a toe before jumping in with him\u2014you might be making a HUGE mistake!',
         locations: ['Rice Paddy Path'],
@@ -26109,7 +26109,7 @@ const yokais = [
                 'Sproink is so fired up by the bath, he snorts flames at foes in range!',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Sweaty Swine',
@@ -26136,7 +26136,7 @@ const yokais = [
         yokaiNumber: '501',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/darknyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/darknyan.png',
         description:
             'Hoping to gain new powers, Hovernyan has been rebooted as a dark, gritty version of his former self.',
         locations: ['Yo-kai Ring 24'],
@@ -26158,7 +26158,7 @@ const yokais = [
                 'Flies from the shadows and violently claws foes in range to shreds.',
             power: '180 to 270',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Curse of Darkness',
@@ -26185,7 +26185,7 @@ const yokais = [
         yokaiNumber: '502',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/decidevible.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/decidevible.png',
         description:
             'This despot makes big decisions without any concern for others! He might work well with indecisive people.',
         locations: ['Bada-Bing Tower'],
@@ -26207,7 +26207,7 @@ const yokais = [
                 "Puts his decisiveness to good use by greatly raising all allies' STR.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Decisive Action',
@@ -26232,7 +26232,7 @@ const yokais = [
         yokaiNumber: '503',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hairum_scarum.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hairum_scarum.png',
         description:
             "Looks terrifying, but he's actually a really nice guy. Wouldn't even take candy from a baby.",
         locations: ['Bada-Bing Tower'],
@@ -26254,7 +26254,7 @@ const yokais = [
                 'Drops gigantic boulders over the enemy field, blocking some tiles!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Haired to Death',
@@ -26282,7 +26282,7 @@ const yokais = [
         yokaiNumber: '504',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/insomni.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/insomni.png',
         description:
             "If you catch Insomni's eye, she won't let you fall asleep until she's bored with you...or you're almost dead.",
         locations: ['Southmond - Trees'],
@@ -26303,7 +26303,7 @@ const yokais = [
             description: "Lowers all of her enemies' stats with just one look.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Sleeplessness',
@@ -26328,7 +26328,7 @@ const yokais = [
         yokaiNumber: '505',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sandi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sandi.png',
         description:
             "When Sandi Inspirits you, the two of you will play in your dreams. It's too fun to ever wake up from.",
         locations: ['Downtown Springdale - Flowers'],
@@ -26350,7 +26350,7 @@ const yokais = [
                 'Sends a wave of evil at her foes and lowers all of their stats.',
             power: '140 to 140',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Bedtime',
@@ -26377,7 +26377,7 @@ const yokais = [
         yokaiNumber: '506',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/arachnus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/arachnus.png',
         description:
             'A Yo-kai from ancient Japan who sometimes confuses his prey by revealing his spidery true form.',
         locations: ['The Persuasion of General Arachnus'],
@@ -26399,7 +26399,7 @@ const yokais = [
                 'Legendary spider power summons a boulder that can fall anywhere.',
             power: '300 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Entrap',
@@ -26433,7 +26433,7 @@ const yokais = [
         yokaiNumber: '507',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/arachnia.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/arachnia.png',
         description:
             'An expert in poisons, this Yo-kai is often called a femme fatale, despite being very much a man.',
         locations: ['Rice Paddy Path'],
@@ -26455,7 +26455,7 @@ const yokais = [
                 'Wields the strength of a spider to crash down a boulder onto a random tile.',
             power: '290 to 290',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Entrap',
@@ -26489,7 +26489,7 @@ const yokais = [
         yokaiNumber: '508',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/oridjinn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/oridjinn.png',
         description:
             'Said to be the source of all Yo-kai. Wholly believes in the power of simplicity, insisting on being naked at all times.',
         locations: ['The Strongest Hero! Oridjinn!'],
@@ -26511,7 +26511,7 @@ const yokais = [
                 'Summons space meteorites that can land just about anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Hidden Potential',
@@ -26538,7 +26538,7 @@ const yokais = [
         yokaiNumber: '509',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/horridjinn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/horridjinn.png',
         description:
             'The evil buried deep within Oridjinn has broken free, taking the forms of a shadowy phantom doppelg\u00e4nger.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -26560,7 +26560,7 @@ const yokais = [
                 'Summons space meteorites that can land just about anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Phantasmal Power',
@@ -26588,7 +26588,7 @@ const yokais = [
         yokaiNumber: '510',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/little_charrmer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/little_charrmer.png',
         description:
             'Charms evil-doers while doling out her own fiery brand of justice. Loathes those who eat tempura with other fried food.',
         locations: ['The Fiery Hero! Little Charrmer!'],
@@ -26610,7 +26610,7 @@ const yokais = [
                 'Fires herself up and chars foes in range with a blazing inferno.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Scarlet Secrets',
@@ -26644,7 +26644,7 @@ const yokais = [
         yokaiNumber: '511',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cricky.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cricky.png',
         description:
             'Poor Cricky is sure to wake up with a pain in his neck no matter how fluffy his pillows are.',
         locations: ['Uptown Springdale - Rivers'],
@@ -26666,7 +26666,7 @@ const yokais = [
                 'A fresh morning shower causes damage to all foes within range.',
             power: '60 to 157 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Pain in the Neck',
@@ -26693,7 +26693,7 @@ const yokais = [
         yokaiNumber: '512',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/humtea_jumtea.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/humtea_jumtea.png',
         description:
             "A teapot who's been waiting a 100 years to pluck up the courage to take the bungee plunge...",
         locations: ['Breezy Hills - Trees'],
@@ -26715,7 +26715,7 @@ const yokais = [
                 'Plucks up the nerve to boldly bungee right onto the column in front.',
             power: '93 to 279 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Impending Doom',
@@ -26742,7 +26742,7 @@ const yokais = [
         yokaiNumber: '513',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snailspace.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snailspace.png',
         description:
             "This Yo-kai just wants to live his life to the fullest. Even if it's at a really, really, REALLY slow pace.",
         locations: ['Southmond - Flowers'],
@@ -26764,7 +26764,7 @@ const yokais = [
                 "Casts a snail's pace curse on all foes. Greatly reduces SPD.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Slow and Steady',
@@ -26791,7 +26791,7 @@ const yokais = [
         yokaiNumber: '514',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/putasockinit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/putasockinit.png',
         description:
             'Those inspirited by Putasockinit will always push things too far, upsetting all their friends.',
         locations: ['Northbeech - Flowers'],
@@ -26812,7 +26812,7 @@ const yokais = [
             description: 'Goes full swing and SOCKS foes in range.',
             power: '100 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Jibber Jabbering',
@@ -26841,7 +26841,7 @@ const yokais = [
         yokaiNumber: '515',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snidewinder.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snidewinder.png',
         description:
             'Putasockinit has taken a turn for the malicious! Now he spouts nothing but venom and vitriol.',
         locations: ['Fusion.'],
@@ -26863,7 +26863,7 @@ const yokais = [
                 'Snidely slaps foes in range full swing with his long neck.',
             power: '150 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Grumble and Gripe',
@@ -26891,7 +26891,7 @@ const yokais = [
         yokaiNumber: '516',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/noko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/noko.png',
         description:
             "This Yo-kai is one lucky snake! He's really scared of being seen by humans, which happens a lot since he's terrible at hiding.",
         locations: ['Mt. Wildwood - Brushwoods'],
@@ -26912,7 +26912,7 @@ const yokais = [
             description: 'Restores HP to allies with a soothing Noko smile.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Fortunate',
@@ -26940,7 +26940,7 @@ const yokais = [
         yokaiNumber: '517',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bloominoko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bloominoko.png',
         description:
             "The flower on top of Bloominoko's head brings people luck and happiness. Some folks even worship it.",
         locations: ['Evolution'],
@@ -26962,7 +26962,7 @@ const yokais = [
                 'Restores HP to allies with a smile that brings good fortune.',
             power: '150 to 150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Fortunate',
@@ -26990,7 +26990,7 @@ const yokais = [
         yokaiNumber: '518',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pandanoko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pandanoko.png',
         description:
             "A wandering Yo-kai from a faraway land. He's tough to find and a miracle to actually befriend.",
         locations: ['Wayfarer Manor'],
@@ -27012,7 +27012,7 @@ const yokais = [
                 'Restores HP to allies with a rare black-and-white smile.',
             power: '170 to 170',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Panda Cuteness',
@@ -27039,7 +27039,7 @@ const yokais = [
         yokaiNumber: '519',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/starry_noko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/starry_noko.png',
         description:
             'A Noko who has come from outer space in order to spice things up for those who dwell on Earth.',
         locations: ['Wayfarer Manor'],
@@ -27061,7 +27061,7 @@ const yokais = [
                 'Outer space powers purify all allies and restore their HP.',
             power: '45 to 45 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Astrally Augmented',
@@ -27088,7 +27088,7 @@ const yokais = [
         yokaiNumber: '520',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snaggly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snaggly.png',
         description:
             "Delights in making people difficult to deal with. If someone's being awkward, you can bet she's nearby.",
         locations: ['Southmond - Garden Grill'],
@@ -27110,7 +27110,7 @@ const yokais = [
                 'Winds up his foes to the point they attack each other.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Two to Tangle',
@@ -27137,7 +27137,7 @@ const yokais = [
         yokaiNumber: '521',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whinona.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whinona.png',
         description:
             "She's never EVER happy, and her constant moaning has ruined more than a few friendships.",
         locations: ['Evolution'],
@@ -27158,7 +27158,7 @@ const yokais = [
             description: 'Endless griping and groaning confuses all enemies.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'What a Drag',
@@ -27185,7 +27185,7 @@ const yokais = [
         yokaiNumber: '522',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/omgator.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/omgator.png',
         description:
             'People are usually shocked when they see this Yo-kai...but not as shocked as he is to see them! OMG!',
         locations: ['Dukesville - Under cars'],
@@ -27207,7 +27207,7 @@ const yokais = [
                 'Gets so hysterical he bites foes in range in an absolute frenzy.',
             power: '15x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'FREAK OUT!',
@@ -27234,7 +27234,7 @@ const yokais = [
         yokaiNumber: '523',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nautaloss.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nautaloss.png',
         description:
             "An ancient Yo-kai who's got nothing left to lose\u2014apart from his shell, of course...",
         locations: ['Northbeech - Hip & Hopping Alley'],
@@ -27256,7 +27256,7 @@ const yokais = [
                 "It's not a loss when it's the enemy that loses their good status effects!\"",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Reckless Optimism',
@@ -27283,7 +27283,7 @@ const yokais = [
         yokaiNumber: '524',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shellebrity.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shellebrity.png',
         description:
             'An energetic producer that is incredibly difficult to understand due to its excessive use of industry buzzwords.',
         locations: ['Secret Forest Base - Rivers'],
@@ -27305,7 +27305,7 @@ const yokais = [
                 'Summons random, violent whirlpools that can hit anywhere!',
             power: '76 to 228 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Starstruck!',
@@ -27331,7 +27331,7 @@ const yokais = [
         yokaiNumber: '525',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/heheheel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/heheheel.png',
         description:
             "This eel just can't stop laughing, and nobody knows why. Maybe his sense of humor is broken.",
         locations: ['Downtown Springdale - Sea'],
@@ -27353,7 +27353,7 @@ const yokais = [
                 'Restores HP for allies. Laughter really is the best medicine!',
             power: '85 to 85 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Playfulness',
@@ -27380,7 +27380,7 @@ const yokais = [
         yokaiNumber: '526',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/croonger.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/croonger.png',
         description:
             "A pot Yo-kai who sings a strange tune. If you hear singing coming from a pot, don't look into it!",
         locations: ['Pecan Port - Rivers'],
@@ -27401,7 +27401,7 @@ const yokais = [
             description: 'Bites foes within range as he sings classic tunes.',
             power: '21x5 to 31x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Power of Song',
@@ -27427,7 +27427,7 @@ const yokais = [
         yokaiNumber: '527',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/urnaconda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/urnaconda.png',
         description:
             "That's no regular pot\u2014 there's a huge snake inside! Some say this inspired the creation of the jack-in-the-box.",
         locations: ['Downtown Springdale - Sea'],
@@ -27449,7 +27449,7 @@ const yokais = [
                 'Emits a poison mist that gradually cuts HP from his enemies.',
             power: '80 to 80',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Serpent's Power",
@@ -27474,7 +27474,7 @@ const yokais = [
         yokaiNumber: '528',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/takoyakid.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/takoyakid.png',
         description:
             "A demon born from a tasty takoyaki octopus ball. Don't even think of underestimating that crispy, grilled exterior.",
         locations: ["Shopper's Row - Shopping Street Narrows"],
@@ -27496,7 +27496,7 @@ const yokais = [
                 'Pokes foes in range repeatedly with his little stick.',
             power: '25x5 to 25x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Octoplus',
@@ -27525,7 +27525,7 @@ const yokais = [
         yokaiNumber: '529',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/takoyaking.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/takoyaking.png',
         description:
             'This spouter of squid ink is the king of the kitchen and a keen advocate for takoyaki culture.',
         locations: ['Fusion.'],
@@ -27547,7 +27547,7 @@ const yokais = [
                 'Pokes foes in range repeatedly with his little stick.',
             power: '23x7 to 23x7 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Octoplus',
@@ -27575,7 +27575,7 @@ const yokais = [
         yokaiNumber: '530',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/fishpicable.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/fishpicable.png',
         description:
             'Fishpicable sees only the bad in people and slaps things he hates with his tail. His tail is very busy.',
         locations: ['Northbeech - Rivers'],
@@ -27597,7 +27597,7 @@ const yokais = [
                 'Absorbs HP from foes within range and divides it among his allies.',
             power: '55 to 144 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Spiteful Suggestion',
@@ -27624,7 +27624,7 @@ const yokais = [
         yokaiNumber: '531',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rageon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rageon.png',
         description:
             'Rageon holds grudges for no reason. If you wake up to see him standing next to your bed...RUN!',
         locations: ['Evolution'],
@@ -27646,7 +27646,7 @@ const yokais = [
                 'Charges right into the column in front with a barge of intense malice.',
             power: '110 to 242 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Harbor Resentment',
@@ -27673,7 +27673,7 @@ const yokais = [
         yokaiNumber: '532',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tunatic.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tunatic.png',
         description:
             "Tunatic will go on a rampage if he's criticized at all. He makes kids angry when they get guidance from adults.",
         locations: ["Raft - Hopper's Gorge course"],
@@ -27695,7 +27695,7 @@ const yokais = [
                 'Calls forth his fiery rage to burn foes in range to a crisp.',
             power: '125 to 187 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Frenzy',
@@ -27722,7 +27722,7 @@ const yokais = [
         yokaiNumber: '533',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flushback.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/flushback.png',
         description:
             "Uses a plunger to unblock people's memories and bring clarity to muddled minds.",
         locations: ['Mt. Wildwood - Ponds & Rivers'],
@@ -27744,7 +27744,7 @@ const yokais = [
                 'Uses his turtle shell to flush out bad spirits and purify all allies.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Happy Daze',
@@ -27771,7 +27771,7 @@ const yokais = [
         yokaiNumber: '534',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/vacuumory.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/vacuumory.png',
         description:
             'This god of recollection can use his odd suction device to recover memories once thought lost.',
         locations: ['Fusion.'],
@@ -27792,7 +27792,7 @@ const yokais = [
             description: 'Vacuums out evil spirits and purifies all allies.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Happy Daze',
@@ -27826,7 +27826,7 @@ const yokais = [
         yokaiNumber: '535',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/irewig.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/irewig.png',
         description:
             "This bug makes people get grumpy\u2014and asking them what's wrong will only make things worse!",
         locations: ['Mt. Wildwood - Abandoned Tunnel'],
@@ -27847,7 +27847,7 @@ const yokais = [
             description: 'An angry tail swipe that damages one foe.',
             power: '75 to 165 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Bugged Out',
@@ -27874,7 +27874,7 @@ const yokais = [
         yokaiNumber: '536',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/firewig.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/firewig.png',
         description:
             "He has SUCH a terrible temper. He's even been known to make people smash every plate they own!",
         locations: ['Evolution'],
@@ -27895,7 +27895,7 @@ const yokais = [
             description: 'An angry tail swipe that damages one foe.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Wigged Out',
@@ -27922,7 +27922,7 @@ const yokais = [
         yokaiNumber: '537',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/draggie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/draggie.png',
         description:
             'A dragon kid who wants attention. He can see the hidden strengths of others with the ball on his head.',
         locations: ['Breezy Hills - Construction Materials'],
@@ -27944,7 +27944,7 @@ const yokais = [
                 'Shakes the earth beneath foes in range using the power of a sacred crystal.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Dragon Power',
@@ -27970,7 +27970,7 @@ const yokais = [
         yokaiNumber: '538',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dragon_lord.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dragon_lord.png',
         description:
             'Draggie has come into his own with dignity and might worthy of the title "dragon.","538',
         locations: ['Fusion.'],
@@ -27992,7 +27992,7 @@ const yokais = [
                 'Drops gigantic boulders over the enemy field, blocking some tiles!',
             power: '190 to 190',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Dragon Power',
@@ -28025,7 +28025,7 @@ const yokais = [
         yokaiNumber: '539',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/azure_dragon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/azure_dragon.png',
         description:
             'A legendary, divine beast. He holds domain over water, surpassing even the power of Dragon Lord.',
         locations: ["Raft - Hopper's Gorge course"],
@@ -28047,7 +28047,7 @@ const yokais = [
                 'Creates a massive waterfall that overwhelms foes within its range.',
             power: '200 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Cobalt Power',
@@ -28073,7 +28073,7 @@ const yokais = [
         yokaiNumber: '540',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mermaidyn.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mermaidyn.png',
         description:
             'Half girl, half fish, this Yo-kai has a lovely voice and is ever so curious about life on land.',
         locations: ["Shopper's Row - Rivers"],
@@ -28095,7 +28095,7 @@ const yokais = [
                 'Summons waves and sends them crashing into foes within range.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Rejuvenate',
@@ -28123,7 +28123,7 @@ const yokais = [
         yokaiNumber: '541',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mermadonna.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mermadonna.png',
         description:
             'This ancient Yo-kai is known for her beautiful, lustrous skin and is said to have the ability to grant immortality.',
         locations: ['Fusion.'],
@@ -28145,7 +28145,7 @@ const yokais = [
                 'Sends foaming white waves smashing into all foes in range.',
             power: '190 to 190',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Rejuvenate',
@@ -28173,7 +28173,7 @@ const yokais = [
         yokaiNumber: '542',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mermother.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mermother.png',
         description:
             'This special Yo-kai is the source of all life and claims to have given birth to the gods.',
         locations: ['Ambrosia Pavilion'],
@@ -28195,7 +28195,7 @@ const yokais = [
                 'Sends stunning, violent waves crashing into all foes in range.',
             power: '200 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Legend Power',
@@ -28229,7 +28229,7 @@ const yokais = [
         yokaiNumber: '543',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/t-wrecks.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/t-wrecks.png',
         description:
             "A sweet and curious baby dinosaur who just doesn't know his own strength, with awful results...",
         locations: ['Illusory Sparkopolis'],
@@ -28251,7 +28251,7 @@ const yokais = [
                 'Stomps the ground, damaging all foes and shifting them out of place.',
             power: '20 to 40',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Rampage',
@@ -28280,7 +28280,7 @@ const yokais = [
         yokaiNumber: '544',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/d-stroy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/d-stroy.png',
         description:
             'T-Wrecks is all grown up and now uses his incredible strength to completely demolish things in his path.',
         locations: ['Fusion.'],
@@ -28302,7 +28302,7 @@ const yokais = [
                 'Stomps the ground, damaging all foes and shifting them out of place.',
             power: '30 to 45 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Demolition',
@@ -28330,7 +28330,7 @@ const yokais = [
         yokaiNumber: '545',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/clodzilla.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/clodzilla.png',
         description:
             'This clumsy dinosaur tries to protect his town from evil, but usually winds up doing more harm than good.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -28352,7 +28352,7 @@ const yokais = [
                 'Stomps the ground, damaging all foes and shifting them out of place.',
             power: '30 to 45 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Squandasaurus Rex',
@@ -28380,7 +28380,7 @@ const yokais = [
         yokaiNumber: '546',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lady_longnek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lady_longnek.png',
         description:
             'She could pass for human if she were able to resist the urge to stretch out her superlong neck.',
         locations: ['Old Mansion - Main House'],
@@ -28401,7 +28401,7 @@ const yokais = [
             description: 'Smacks one foe with her neck stretched to the limit.',
             power: '140 to 210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Neck Tie',
@@ -28430,7 +28430,7 @@ const yokais = [
         yokaiNumber: '547',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whisper.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whisper.png',
         description:
             "Self-proclaimed 'Yo-kai butler'. Appears to know everything about Yo-kai, but most of his knowledge comes from his Yo-kai Pad.",
         locations: ['The Man You Can Never See'],
@@ -28453,7 +28453,7 @@ const yokais = [
                 'Spews noxious green gas on foes in range, greatly lowering their DEF.',
             power: '80 to 0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Slimed',
@@ -28480,7 +28480,7 @@ const yokais = [
         yokaiNumber: '548',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whispocrates.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whispocrates.png',
         description:
             "A soldier who served in Waitington's army. He turns those he inspirits into awful know-it-alls.",
         locations: ['Yo-kai Ring 20'],
@@ -28503,7 +28503,7 @@ const yokais = [
                 'Spews noxious green gas on foes in range, greatly lowering their DEF.',
             power: '60 to 60',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Slimed',
@@ -28537,7 +28537,7 @@ const yokais = [
         yokaiNumber: '549',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snippity_cricket.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/snippity_cricket.png',
         description:
             'Considers his own haircut incredibly stylish and tries to enforce it on everybody that he can.',
         locations: ["Shopper's Row - Brushwoods"],
@@ -28559,7 +28559,7 @@ const yokais = [
                 'Snips away at foes in range without a care if he goes too far.',
             power: '22x5 to 44x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "What's the Snip-Up?",
@@ -28585,7 +28585,7 @@ const yokais = [
         yokaiNumber: '550',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flocktopus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/flocktopus.png',
         description:
             'This Yo-kai makes the people it Inspirits incredibly popular, attracting attention from all directions.',
         locations: ['Northbeech - Rivers'],
@@ -28607,7 +28607,7 @@ const yokais = [
                 'Pulls all foes close, causing damage and shifting them forward.',
             power: '20 to 40',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Yank Off',
@@ -28633,7 +28633,7 @@ const yokais = [
         yokaiNumber: '551',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bitter_batter.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bitter_batter.png',
         description:
             'This batter sure is bitter at having been dropped on the floor by a chef. It was so angry that it turned into a Yo-kai!',
         locations: ["Shopper's Row - Shopping Street Narrows"],
@@ -28655,7 +28655,7 @@ const yokais = [
                 'Creates a burning floor. Those on it take damage and a cut to DEF.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Battered Bitterness',
@@ -28681,7 +28681,7 @@ const yokais = [
         yokaiNumber: '552',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/daiz.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/daiz.png',
         description:
             "Daiz just stares off into space, sometimes not moving for three whole days. What's he thinking about all that time...?",
         locations: ['Crank-a-kai'],
@@ -28703,7 +28703,7 @@ const yokais = [
                 'Sends a dazzling evil aura at foes. Those hit act much less.',
             power: '80 to 80',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Generous Heart',
@@ -28729,7 +28729,7 @@ const yokais = [
         yokaiNumber: '553',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/confuze.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/confuze.png',
         description:
             "Confuze will make you babble and mumble. He's the worst when you have to read aloud in class!",
         locations: ['Pecan Port - Trees'],
@@ -28751,7 +28751,7 @@ const yokais = [
                 'Showers foes with a confounding aura. Those hit act much less.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Faltering Heart',
@@ -28777,7 +28777,7 @@ const yokais = [
         yokaiNumber: '554',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chummer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chummer.png',
         description:
             "Chummer loves eating kids. He'll make them loiter after school before devouring them. He likes asparagus too.",
         locations: ['Downtown Springdale - Academy Shortcut'],
@@ -28798,7 +28798,7 @@ const yokais = [
             description: 'Strikes a mighty pose. DEF soars.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Loitering',
@@ -28824,7 +28824,7 @@ const yokais = [
         yokaiNumber: '555',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shrook.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shrook.png',
         description:
             "Shrook will make you bad at whatever you're usually good at. He can make a master into a novice pretty quickly.",
         locations: ["Grumbler's Grotto"],
@@ -28846,7 +28846,7 @@ const yokais = [
                 'Voraciously devours the HP of foes in range and divides it among allies.',
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Amateur',
@@ -28878,7 +28878,7 @@ const yokais = [
         yokaiNumber: '556',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/spenp.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/spenp.png',
         description:
             "Being Inspirited by Spenp will make you buy things you don't even want. Wave bye to your cash!",
         locations: ['Sparkopolis - Shady Parking Lot'],
@@ -28900,7 +28900,7 @@ const yokais = [
                 'Makes his foes forget the value of money as they toss it away!',
             power: '130 to 130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Wastefulness',
@@ -28927,7 +28927,7 @@ const yokais = [
         yokaiNumber: '557',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/almi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/almi.png',
         description:
             "When Almi Inspirits you, you'll want to treat others all the time. Your wallet will be empty before you know it.",
         locations: ['Northbeech - Under cars'],
@@ -28949,7 +28949,7 @@ const yokais = [
                 'Sends foes into debt by scattering their money uncontrollably!',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'So Generous',
@@ -28983,7 +28983,7 @@ const yokais = [
         yokaiNumber: '558',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/babblong.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/babblong.png',
         description:
             "Don't agree to listen to Babblong or else he'll talk and talk and talk and talk and talk and talk. He's a terrible listener.",
         locations: ['Excellent Tower - Brushwoods'],
@@ -29005,7 +29005,7 @@ const yokais = [
                 'Slaps a foe full swing with his long, long, incredibly LONG nose.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Keep Chatting',
@@ -29033,7 +29033,7 @@ const yokais = [
         yokaiNumber: '559',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bananose.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bananose.png',
         description:
             'This Yo-kai is made of banana and is often bothered by circling flies. No relation to Babblong.',
         locations: ['East Pine - Flowers'],
@@ -29054,7 +29054,7 @@ const yokais = [
             description: 'Slaps a foe full swing with his long banana nose.',
             power: '200 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Banana Power',
@@ -29083,7 +29083,7 @@ const yokais = [
         yokaiNumber: '560',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cocobanana.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cocobanana.png',
         description:
             'Now sporting a sweet chocolate topping, Bananose has never been more popular!',
         locations: ['Fusion.'],
@@ -29105,7 +29105,7 @@ const yokais = [
             description: 'Slaps a foe with his chocolate covered banana nose.',
             power: '135 to 202 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Yum Choco-Banana',
@@ -29133,7 +29133,7 @@ const yokais = [
         yokaiNumber: '561',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/draaagin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/draaagin.png',
         description:
             "A desperately indecisive dragon. Don't expect that anything at all will get done when he's around.",
         locations: ['Meadowbrooke Farm'],
@@ -29155,7 +29155,7 @@ const yokais = [
                 'Pours his destructive icy breath onto foes for a protracted period of time.',
             power: '230 to 230',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Maybe Later',
@@ -29182,7 +29182,7 @@ const yokais = [
         yokaiNumber: '562',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonoko.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robonoko.png',
         description:
             'This robotic Noko from the future has the ability to blend into the background, avoiding detection.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -29204,7 +29204,7 @@ const yokais = [
                 'An awkward, robotic smile restores the HP of all allies.',
             power: '150 to 150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Steel Power',
@@ -29237,7 +29237,7 @@ const yokais = [
         yokaiNumber: '563',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robodraggie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robodraggie.png',
         description:
             "A steel-bodied robot Draggie. Becoming Dragon Lord is beyond him now, but he's still quite powerful.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -29259,7 +29259,7 @@ const yokais = [
                 'Blasts the column in front with beams of futuristic dragon energy.',
             power: '230 to 230',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Steel Power',
@@ -29292,7 +29292,7 @@ const yokais = [
         yokaiNumber: '564',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ooze_zat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ooze_zat.png',
         description:
             '"Speak of the devil and he shall appear." Ooze Zat really took a liking to that saying, and now he\'s trying to make it his own.',
         locations: ['Blossom Heights - Under cars'],
@@ -29313,7 +29313,7 @@ const yokais = [
             description: 'Lathers himself all over with oil. DEF soars.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Mysterious Ooze',
@@ -29341,7 +29341,7 @@ const yokais = [
         yokaiNumber: '565',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/copperled.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/copperled.png',
         description:
             "You just can't refuse orders from the fan on this old Yo-kai's tail. And he loves to micromanage everything he can!",
         locations: ['Uptown Springdale - Brushwoods'],
@@ -29363,7 +29363,7 @@ const yokais = [
                 "Gives an order that greatly heightens allies' morale and STR.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Bossiness',
@@ -29389,7 +29389,7 @@ const yokais = [
         yokaiNumber: '566',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cynake.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cynake.png',
         description:
             'This sulky snake Yo-kai will make you sulk at the slightest problem. Hmph!',
         locations: ['Blossom Heights - Secret Byway'],
@@ -29411,7 +29411,7 @@ const yokais = [
                 "Removes all foes' good status effects by making overly cynical.",
             power: '130 to 130',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Sulky',
@@ -29437,7 +29437,7 @@ const yokais = [
         yokaiNumber: '567',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slitheref.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slitheref.png',
         description:
             'When a battle starts, Slitheref will appear out of nowhere and make sure the fight stays fair and square.',
         locations: ['Downtown Springdale - Brushwoods'],
@@ -29459,7 +29459,7 @@ const yokais = [
                 'Casts a venomous wave that greatly decreases enemy STR.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Pit Viper Venom',
@@ -29486,7 +29486,7 @@ const yokais = [
         yokaiNumber: '568',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sv_snaggerjag.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sv_snaggerjag.png',
         description:
             'Fish of all species have nothing but love and respect for this Yo-kai, who brings bad luck to anglers.',
         locations: ['Rice Paddy Path'],
@@ -29508,7 +29508,7 @@ const yokais = [
                 'Hooks a huge fish that blasts its watery breath at the column in front.',
             power: '160 to 160',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Coast Guard',
@@ -29535,7 +29535,7 @@ const yokais = [
         yokaiNumber: '569',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mython.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mython.png',
         description:
             'A Yo-kai who insists on doing things his own way, even if it means making life hard for himself.',
         locations: ['Bada-Bing Tower'],
@@ -29557,7 +29557,7 @@ const yokais = [
                 'Attacks foes in range HIS way, by summoning a flying water dragon.',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'I Did it Myyyy Way!',
@@ -29584,7 +29584,7 @@ const yokais = [
         yokaiNumber: '570',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/venoct.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/venoct.png',
         description:
             'An elite Yo-kai who fights with his dragon scarf. All of his abilities are truly first class.',
         locations: ['Seeking the Strongest Opponents!'],
@@ -29606,7 +29606,7 @@ const yokais = [
                 'Repeatedly bites foes in range with his aura-filled dragon scarf.',
             power: '25x10 to 25x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: "Venoct's Blessing",
@@ -29633,7 +29633,7 @@ const yokais = [
         yokaiNumber: '571',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shadow_venoct.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shadow_venoct.png',
         description:
             "Venoct's shadow, skilled in the deadly arts. Few who learn that he exists live long after that.",
         locations: ['Crank-a-Kai (Springdale)'],
@@ -29655,7 +29655,7 @@ const yokais = [
                 'Repeatedly bites foes in range with his aura-filled dragon scarf.',
             power: '24x10 to 24x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Enshroud',
@@ -29683,7 +29683,7 @@ const yokais = [
         yokaiNumber: '572',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frogetmenot.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/frogetmenot.png',
         description:
             'This gentle Yo-kai acts as a spirit guide for the souls of those that have passed away.',
         locations: ['Crank-a-kai'],
@@ -29705,7 +29705,7 @@ const yokais = [
                 'Revives allies and restores their HP with a hidden smile.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Lingering Smile',
@@ -29744,7 +29744,7 @@ const yokais = [
         yokaiNumber: '573',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/originyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/originyan.png',
         description:
             'A pure white, newborn cat Yo-kai. Now you get to take responsibility for turning it into a respectable Yo-kai!',
         locations: ["Detective Agency's Debut"],
@@ -29766,7 +29766,7 @@ const yokais = [
                 'Punches foes in range with paws that have yet to be trained.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Back to Basics',
@@ -29792,7 +29792,7 @@ const yokais = [
         yokaiNumber: '574',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sighborg_y.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sighborg_y.png',
         description:
             'Through a freak accident during an experiment, an android researcher has become an android himself!',
         locations: ['QR Code'],
@@ -29814,7 +29814,7 @@ const yokais = [
                 'Fires a beam full of individuality at the column in front.',
             power: '140 to 140',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Kai-borgization',
@@ -29840,7 +29840,7 @@ const yokais = [
         yokaiNumber: '575',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/unfairy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/unfairy.png',
         description:
             'A Wicked boss who takes pleasure in being a pain. No wonder no one likes him!',
         locations: ['Northbeech - Pearly Chamber of Whimsy'],
@@ -29862,7 +29862,7 @@ const yokais = [
                 'Casts an unfair curse on foes in range, gradually lowering their HP.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Unfairy Power',
@@ -29901,7 +29901,7 @@ const yokais = [
         yokaiNumber: '576',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/unkaind.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/unkaind.png',
         description:
             'A Wicked boss. She may be beautiful, but she enjoys nothing more than causing misery.',
         locations: ['Northbeech - Pearly Chamber of Whimsy'],
@@ -29922,7 +29922,7 @@ const yokais = [
             description: 'Restores HP to all allies with her alluring aura.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Unkaind Power',
@@ -29961,7 +29961,7 @@ const yokais = [
         yokaiNumber: '577',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/untidy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/untidy.png',
         description:
             'A Wicked boss who is always all in. No Yo-kai can match Untidy for pure power.',
         locations: ['Northbeech - Pearly Chamber of Whimsy'],
@@ -29982,7 +29982,7 @@ const yokais = [
             description: 'Performs an exciting pose that makes DEF soar.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Untidy Power',
@@ -30021,7 +30021,7 @@ const yokais = [
         yokaiNumber: '578',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/unpleasant.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/unpleasant.png',
         description:
             'A Wicked boss who loves confusing people with long words and obscure nuggets of knowledge.',
         locations: ['Northbeech - Pearly Chamber of Whimsy'],
@@ -30043,7 +30043,7 @@ const yokais = [
                 'Fires an unpleasant curse at the column in front. Foes become confused if hit.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Unpleasant Power',
@@ -30082,7 +30082,7 @@ const yokais = [
         yokaiNumber: '579',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/unkeen.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/unkeen.png',
         description:
             "A Wicked boss who wields great power, he believes it's his duty to destroy all that he sees.",
         locations: ['Northbeech - Pearly Chamber of Whimsy'],
@@ -30104,7 +30104,7 @@ const yokais = [
                 'A punch capable of destroying all. Hits the column in front.',
             power: '265 to 397 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Unkeen Power',
@@ -30143,7 +30143,7 @@ const yokais = [
         yokaiNumber: '580',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/grublappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/grublappa.png',
         description:
             'Tublappa turned Wicked! His long tongue sticks to surfaces and leaves them looking all grubby.',
         locations: ['Crank-a-Kai (Springdale)'],
@@ -30165,7 +30165,7 @@ const yokais = [
                 'Unfurls his lengthy tongue and damages foes in range.',
             power: '40x3 to 40x3 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Sick Lick',
@@ -30192,7 +30192,7 @@ const yokais = [
         yokaiNumber: '581',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/madmunch.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/madmunch.png',
         description:
             "Mudmunch turned Wicked! Now even more resentful than ever, he's started lashing out at hapless passersby.",
         locations: ['Crank-a-Kai (Springdale)'],
@@ -30214,7 +30214,7 @@ const yokais = [
                 'Furious over his field, he curses his foes, greatly reducing their STR.',
             power: '100 to 100',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Sucking Mud',
@@ -30241,7 +30241,7 @@ const yokais = [
         yokaiNumber: '582',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/badsmella.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/badsmella.png',
         description:
             'Smogmella turned Wicked! Shrouded in a cloud of poisonous gas, she can never stop coughing.',
         locations: ['Fusion.'],
@@ -30263,7 +30263,7 @@ const yokais = [
                 'Attacks foes in range with a powerful tornado that flips skirts.',
             power: '220 to 220',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Awful Haze',
@@ -30290,7 +30290,7 @@ const yokais = [
         yokaiNumber: '583',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mad_kappa.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mad_kappa.png',
         description:
             "Faux Kappa turned Wicked! He's always trying to drag people down the river to their doom.",
         locations: ['Fusion.'],
@@ -30312,7 +30312,7 @@ const yokais = [
                 'Unleashes a genuine, powerful water stream that can hit anywhere!',
             power: '170 to 255 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Wicked Tale',
@@ -30338,7 +30338,7 @@ const yokais = [
         yokaiNumber: '584',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shamasol.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shamasol.png',
         description:
             'Pallysol turned Wicked! The regrets of a discarded umbrella brought to life...',
         locations: ['Fusion.'],
@@ -30360,7 +30360,7 @@ const yokais = [
                 'Calls forth a wind with Classic Yo-kai style, damaging foes in range.',
             power: '90 to 90',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Ruin',
@@ -30387,7 +30387,7 @@ const yokais = [
         yokaiNumber: '585',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gnomine.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gnomine.png',
         description:
             'Gnomey turned Wicked! He brings bad luck into a home, eventually ruining its owners.',
         locations: ['Fusion.'],
@@ -30409,7 +30409,7 @@ const yokais = [
                 'Fills allies with mirth at his innocent antics, gradually restoring HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Chin Down',
@@ -30436,7 +30436,7 @@ const yokais = [
         yokaiNumber: '586',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/defectabull.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/defectabull.png',
         description:
             'Predictabull turned Wicked! He only predicts bad things...and smiles when people get scared.',
         locations: ['Fusion.'],
@@ -30458,7 +30458,7 @@ const yokais = [
                 "Divines a good fortune, lifting allies' spirits and restoring their HP.",
             power: '70 to 183 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Bad Fortune',
@@ -30485,7 +30485,7 @@ const yokais = [
         yokaiNumber: '587',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/feargus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/feargus.png',
         description:
             'Furgus turned Wicked! This menace leaves only evil deeds in his wake and causes incurable cooties!',
         locations: ['Fusion.'],
@@ -30507,7 +30507,7 @@ const yokais = [
                 'Enemies are gently relieved of all their good status effects.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Thatch',
@@ -30534,7 +30534,7 @@ const yokais = [
         yokaiNumber: '588',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/scaremaiden.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/scaremaiden.png',
         description:
             'Mermaidyn turned Wicked! She uses her lovely voice to lure ships into storms, causing them to sink.',
         locations: ['Fusion.'],
@@ -30556,7 +30556,7 @@ const yokais = [
                 'Summons waves and sends them crashing into foes within range.',
             power: '120 to 120',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Gouge',
@@ -30583,7 +30583,7 @@ const yokais = [
         yokaiNumber: '589',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wrongnek.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wrongnek.png',
         description:
             'Lady Longnek turned Wicked! She now uses her neck to ensnare hapless victims.',
         locations: ['Fusion.'],
@@ -30604,7 +30604,7 @@ const yokais = [
             description: 'Smacks one foe with her neck stretched to the limit.',
             power: '140 to 210',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Neck Tie',
@@ -30631,7 +30631,7 @@ const yokais = [
         yokaiNumber: '590',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/king_jibanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/king_jibanyan.png',
         description:
             "Yay! It looks like I'm the King. Finally, no-one can scold me for lazing about all day! Let's break out the Chocobars!",
         locations: ['QR Code'],
@@ -30652,7 +30652,7 @@ const yokais = [
             description: 'Slices at foes in range with a sword fit for a king.',
             power: '32x5 to 48x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'King of Nyans',
@@ -30679,7 +30679,7 @@ const yokais = [
         yokaiNumber: '591',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/qn._usapyon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/qn._usapyon.png',
         description:
             "Hey! Why am I the Queen?! I don't care if it suits me! Although, now that you mention it, I do look kinda neat.",
         locations: ['QR Code'],
@@ -30700,7 +30700,7 @@ const yokais = [
             description: 'Queenly compassion restores HP to all allies.',
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Darn Queenin'",
@@ -30727,7 +30727,7 @@ const yokais = [
         yokaiNumber: '592',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jackomasan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jackomasan.png',
         description:
             'Oh my swirls, I get to be the Jack?! I think this calls for a celebratory bowl of ice cream!',
         locations: ['QR Code'],
@@ -30748,7 +30748,7 @@ const yokais = [
             description: 'Summons will-o-the-wisps to damage foes in range.',
             power: '200 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Jack of all Swirls',
@@ -30774,7 +30774,7 @@ const yokais = [
         yokaiNumber: '593',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komajiro_ten.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komajiro_ten.png',
         description:
             'Footsoldier No. 10 reporting for duty! I will do my best to uphold my sworn duty to protect you all!',
         locations: ['QR Code'],
@@ -30795,7 +30795,7 @@ const yokais = [
             description: 'Pokes foes in range ten times with his prized lance.',
             power: '30x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Tenfold Triumph',
@@ -30822,7 +30822,7 @@ const yokais = [
         yokaiNumber: '594',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/acenyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/acenyan.png',
         description:
             "Looks like I'm the ace. Well then, I'll just have to be the most moximous ace to have ever donned a cavalier hat and rapier!",
         locations: ['QR Code'],
@@ -30843,7 +30843,7 @@ const yokais = [
             description: 'Beautifully thrusts his ace sword at foes in range.',
             power: '30x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Ace of Nyans',
@@ -30869,7 +30869,7 @@ const yokais = [
         yokaiNumber: '595',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/josper.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/josper.png',
         description:
             'Of course the role of the joker would fall to the most intelligent Yo-kai! Wait... No, I can be useful! Hold on!\u3000',
         locations: ['QR Code'],
@@ -30892,7 +30892,7 @@ const yokais = [
                 'Delivers a merciless swing of his scythe to the column in front.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Joker of the Pack',
@@ -30919,7 +30919,7 @@ const yokais = [
         yokaiNumber: '596',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/benzaiten.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/benzaiten.png',
         description:
             "One of the Seven Gods of Fortune. She's trying to master the electric guitar to bring fortune with a fresh brand of hard rock.",
         locations: ['Trade Ghastly Fragment'],
@@ -30941,7 +30941,7 @@ const yokais = [
                 'Lighting bolts rain down on foes in range as she strums her dear guitar.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: "Benzaiten's Wrath",
@@ -30968,7 +30968,7 @@ const yokais = [
         yokaiNumber: '597',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hotei.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hotei.png',
         description:
             "One of the Seven Gods of Fortune. He's said to bring about household harmony and luck, taking bad luck away.",
         locations: ['Trade Ghastly Fragment'],
@@ -30990,7 +30990,7 @@ const yokais = [
                 'Creates a huge whirlwind intended to mow down those in range.',
             power: '175 to 262 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "Hotei's Favor",
@@ -31017,7 +31017,7 @@ const yokais = [
         yokaiNumber: '598',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/daikokuten.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/daikokuten.png',
         description:
             'One of the Seven Gods of Fortune, said to bring about wealth and abundant crops. He can make any field fertile.',
         locations: ['Trade Ghastly Fragment'],
@@ -31039,7 +31039,7 @@ const yokais = [
                 'Brutally beats the column in front with his beloved mallet.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Daikokuten's Ward",
@@ -31066,7 +31066,7 @@ const yokais = [
         yokaiNumber: '599',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ebisu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ebisu.png',
         description:
             'One of the Seven Gods of Fortune, said to bring prosperity to businesses and a bountiful catch to fisherman.',
         locations: ['Trade Ghastly Fragment'],
@@ -31088,7 +31088,7 @@ const yokais = [
                 "A luxury droplet restores all allies' HP, then keeps slowly restoring it.",
             power: '60 to 60',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Ebisu's Fortune",
@@ -31115,7 +31115,7 @@ const yokais = [
         yokaiNumber: '600',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bishamonten.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bishamonten.png',
         description:
             'One of the Seven Gods of Fortune. A patron of warriors, he is said to ward off disasters and evil with his fierce scowl.',
         locations: ['Trade Ghastly Fragment'],
@@ -31137,7 +31137,7 @@ const yokais = [
                 'Unleashes his legendary powers to lay waste to foes in range.',
             power: '30x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Bishamonten Boon',
@@ -31164,10 +31164,12 @@ const yokais = [
         yokaiNumber: '601',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/columbakat.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/columbakat.png',
         description:
             'A legendary Yo-kai from the Age of Discovery, always looking for lands beyond the horizon.',
-        locations: ['Southmond School - West Building'],
+        locations: [
+            '1. Go into Southmond School look for the library in right and then go into the books on the right side of some boxes and talk and Nate will read a book, you can only read a book each day! You have to do this 5 times.\n2. It will appear, and know you need to go into Pecan Port, go south and you will find it there for a daily battle.\n3. Forbidden fruit can be useful you can get them in Blasters T.'
+        ],
         skill: {
             name: 'Wind in the Sails',
             description: 'Boosts SPD slightly for linked Yo-kai.'
@@ -31186,7 +31188,7 @@ const yokais = [
                 'Gets the eggsellent idea to drop a giant egg on enemies within range.',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Land Ahoy!',
@@ -31213,10 +31215,12 @@ const yokais = [
         yokaiNumber: '602',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/t._energison.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/t._energison.png',
         description:
             'A legendary inventor who devoted himself to the supernatural and became a Legendary Yo-kai!',
-        locations: ['Southmond School - West Building'],
+        locations: [
+            '1. Go into Southmond School look for the library in right and then go into the books on the left side of the desk and talk and Nate will read a book, you can only read a book each day! You have to do this 5 times.\n2. It will appear, and know you need to go into Yopple HQ - Garden, enter the building, go into the elevator that is on the left side and now go into left until enter the lab and you will find it there for a daily battle.\n3. Forbidden fruit can be useful you can get them in Blasters T.'
+        ],
         skill: {
             name: 'Flash of Inspiration',
             description:
@@ -31236,7 +31240,7 @@ const yokais = [
                 'Creates a spiky floor. Those on it receive damage and lose SPD.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Paralyze',
@@ -31263,10 +31267,12 @@ const yokais = [
         yokaiNumber: '603',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/starwin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/starwin.png',
         description:
             'A legendary scholar absorbed in researching Yo-kai. Could he be on to some kind of theory about the origin of the species?!',
-        locations: ['Southmond School - West Building'],
+        locations: [
+            '1. Go into Southmond School look for the library in the left, and go into the books and talk and Nate will read a book, you can only read a book each day! You have to do this 5 times.\n2. It will appear, and know you need to go into Secret Forest Base, enter the Rafting Adventure and start\n3. Through the course go always left, until you finnaly be in Remote Relic and you will find it there for a daily battle.\n4. Forbidden fruit can be useful you can get them in Blasters T.'
+        ],
         skill: {
             name: 'Deep Thinker',
             description: 'Boosts stats slightly when waiting to move.'
@@ -31285,7 +31291,7 @@ const yokais = [
                 "Utilizes his pioneering theory of healing to restore all allies' HP.",
             power: '120 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Scientific Method',
@@ -31312,7 +31318,7 @@ const yokais = [
         yokaiNumber: '604',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/last_nyanmurai.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/last_nyanmurai.png',
         description:
             "Bravely endures through any challenge, but he's also disturbingly ready to declare his honor lost over the slightest mistakes...",
         locations: [
@@ -31337,7 +31343,7 @@ const yokais = [
                 'Draws the Harikiri Sword and slashes the column in front with it.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Last Stand',
@@ -31364,7 +31370,7 @@ const yokais = [
         yokaiNumber: '605',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/koma_star.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/koma_star.png',
         description:
             'With a glistening smile, this Yo-kai instills others with the confidence they need to speak in front of a crowd.',
         locations: [
@@ -31388,7 +31394,7 @@ const yokais = [
                 'Summons random, shooting stars that can hit anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Sparkly Swirls',
@@ -31414,7 +31420,7 @@ const yokais = [
         yokaiNumber: '606',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/platinos.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/platinos.png',
         description:
             'This Oni has taken his training and self-improvement to the next level, and has now gone platinum.',
         locations: [
@@ -31438,7 +31444,7 @@ const yokais = [
                 'Strikes a pose to show off his platinum body. DEF soars.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Platinum Plating',
@@ -31465,7 +31471,7 @@ const yokais = [
         yokaiNumber: '607',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/flash_t._cash.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/flash_t._cash.png',
         description:
             'A billionaire that regretted not sharing his wealth. Now nothing can stop him flashing the cash.',
         locations: [
@@ -31489,7 +31495,7 @@ const yokais = [
                 "Flashing his cash boosts all allies' morale and all of their stats.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Millionaire Misbelief',
@@ -31516,7 +31522,7 @@ const yokais = [
         yokaiNumber: '608',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shogunyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shogunyan.png',
         description:
             'This ancestor of Jibanyan owns a sword so sharp it ------------------------------can even slice this description in two!',
         locations: ['Medallium'],
@@ -31538,7 +31544,7 @@ const yokais = [
                 'Cuts foes in range--not with his clawed paws, but with his trusty sword.',
             power: '25x10 to 25x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Heart of a Warrior',
@@ -31566,7 +31572,7 @@ const yokais = [
         yokaiNumber: '609',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komashura.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komashura.png',
         description:
             'A legendary Komasan with the heart of a greater demon. He scorches his foes with infernal flame.',
         locations: ['Medallium'],
@@ -31587,7 +31593,7 @@ const yokais = [
             description: 'Broils foes in range with fearsome flames.',
             power: '170 to 255 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Burly Power',
@@ -31615,7 +31621,7 @@ const yokais = [
         yokaiNumber: '610',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gilgaros.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gilgaros.png',
         description:
             'The strongest Oni ever born. His power is so great that it needs no explanation. None. At all. Even this is too much...',
         locations: ['Medallium'],
@@ -31637,7 +31643,7 @@ const yokais = [
                 'Crushes the column in front with all the might of a legendary Oni.',
             power: '350 to 350',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Power of Terror',
@@ -31664,7 +31670,7 @@ const yokais = [
         yokaiNumber: '611',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/spoilerina.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/spoilerina.png',
         description:
             "There's nothing worse than a spoiler, but that doesn't stop Spoilerina from spilling the beans at the first opportunity.",
         locations: ['Medallium'],
@@ -31686,7 +31692,7 @@ const yokais = [
                 'A divine dance that heals HP and maxes out all stats.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Join the Dance',
@@ -31714,7 +31720,7 @@ const yokais = [
         yokaiNumber: '612',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/elder_bloom.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/elder_bloom.png',
         description:
             'This legendary Hungramps supposedly once filled a city with spirit-invigorating cherry blossoms.',
         locations: ['Medallium'],
@@ -31736,7 +31742,7 @@ const yokais = [
                 'Revives all allies and restores their HP with cherry blossom power.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Miracle Blossom',
@@ -31764,7 +31770,7 @@ const yokais = [
         yokaiNumber: '613',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/poofessor.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/poofessor.png',
         description:
             'He insists on "sharing" his trivial knowledge, much to the annoyance of anyone who\'s forced to listen.',
         locations: ['Medallium'],
@@ -31786,7 +31792,7 @@ const yokais = [
                 'Damages all enemies with cursed undulation. It also confuses them.',
             power: '150 to 150',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Info Dump',
@@ -31814,7 +31820,7 @@ const yokais = [
         yokaiNumber: '614',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dandoodle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dandoodle.png',
         description:
             "A legendary Manjimutt that, through some sort of mistake, got handsome. His smile's so soothing!",
         locations: ['Medallium'],
@@ -31836,7 +31842,7 @@ const yokais = [
                 "Fully restores his allies' HP with a truly handsome smile.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Healing Air',
@@ -31864,7 +31870,7 @@ const yokais = [
         yokaiNumber: '615',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slurpent.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slurpent.png',
         description:
             'Slurpent is formed from eight dragons, each with a different personality.',
         locations: ['Medallium'],
@@ -31886,7 +31892,7 @@ const yokais = [
                 'Licks foes in range with eight tongues and then chews them up.',
             power: '32x8 to 32x8 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Slurperpowers',
@@ -31914,7 +31920,7 @@ const yokais = [
         yokaiNumber: '616',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/re-q-perate.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/re-q-perate.png',
         description:
             "This Yo-kai helps people recover when they're completely exhausted. Of course, there is a price to pay...",
         locations: ['Medallium'],
@@ -31935,7 +31941,7 @@ const yokais = [
             description: 'Draws a mysterious Q that confuses all foes.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Curse of Q',
@@ -31963,7 +31969,7 @@ const yokais = [
         yokaiNumber: '617',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/princess_pearl.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/princess_pearl.png',
         description:
             'This beautiful princess whiles away her days in the Dragon Palace at the bottom of the ocean.',
         locations: ['Medallium'],
@@ -31985,7 +31991,7 @@ const yokais = [
                 "An ocean beam blasts the column in front and restores all allies' HP.",
             power: '60 to 60',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Marine Mysteries',
@@ -32012,7 +32018,7 @@ const yokais = [
         yokaiNumber: '618',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/asura.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/asura.png',
         description:
             "Carnage follows this warmongering Yo-kai wherever he goes. He's always angry, and always up for a fight.",
         locations: ['Medallium'],
@@ -32034,7 +32040,7 @@ const yokais = [
                 'In the blink of an eye, he pummels foes in range with all four arms.',
             power: '30x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Asura's Rage",
@@ -32062,7 +32068,7 @@ const yokais = [
         yokaiNumber: '619',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/terminyanator.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/terminyanator.png',
         description:
             "This cat Yo-kai is under the impression that he's a cyborg sent from the future to save humanity.",
         locations: ["I'll Make a Nyan Out of You!"],
@@ -32084,7 +32090,7 @@ const yokais = [
                 'Self-destructs in an explosion that damages all within range.',
             power: '200 to 400',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Future Tech',
@@ -32111,7 +32117,7 @@ const yokais = [
         yokaiNumber: '620',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/supernyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/supernyan.png',
         description:
             "A true hero, gallantly charging in to save the day. He's terrified that his true identity will one day be discovered.",
         locations: ['QR Code'],
@@ -32133,7 +32139,7 @@ const yokais = [
                 'Pummels foes in range with paws trained through protecting the people.',
             power: '15x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Nyan of Steel',
@@ -32159,7 +32165,7 @@ const yokais = [
         yokaiNumber: '621',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hovernyan_s.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hovernyan_s.png',
         description:
             'Through friendship, moxie, and hard work, Hovernyan has become an S Rank Yo-kai! Moximous to the max!',
         locations: ['QR Code'],
@@ -32181,7 +32187,7 @@ const yokais = [
                 'Builds up and then hits a single foe with a stunning tackle.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Pal Power S',
@@ -32208,7 +32214,7 @@ const yokais = [
         yokaiNumber: '622',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hover._cao_cao.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hover._cao_cao.png',
         description:
             'Gifted with a natural talent for leadership, this Yo-kai\'s overbearing demeanor has earned him the nickname "Mad Moxie."\u3000',
         locations: ['QR Code'],
@@ -32230,7 +32236,7 @@ const yokais = [
                 'Builds up and then hits a single foe with a stunning tackle.',
             power: '180 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'On the Warpath',
@@ -32256,7 +32262,7 @@ const yokais = [
         yokaiNumber: '623',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/yoganalisten.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/yoganalisten.png',
         description:
             "This Yo-kai has mastered all yoga poses without help from anyone else. It's hard to argue with this yogi!",
         locations: ['Cluphinx'],
@@ -32278,7 +32284,7 @@ const yokais = [
                 'Hits foes in range with energy emanating from a nature-inspired yoga pose.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Self-important Spirit',
@@ -32304,7 +32310,7 @@ const yokais = [
         yokaiNumber: '624',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/judgebrick.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/judgebrick.png',
         description:
             'An elite brick broker determined to clamp down on the shady dealings in the financial world.\u3000\u3000',
         locations: ['Fusion.'],
@@ -32326,7 +32332,7 @@ const yokais = [
                 'Takes a firm stance against shady dealings. His DEF soars.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Disbursement',
@@ -32353,7 +32359,7 @@ const yokais = [
         yokaiNumber: '625',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/urnfulfilled.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/urnfulfilled.png',
         description:
             'A Yo-kai that sucks up everything and anything to try to fill the overwhelming emptiness inside him.',
         locations: ['Cluphinx'],
@@ -32375,7 +32381,7 @@ const yokais = [
                 'Tries to suck all foes in, causing damage and shifting them forward.',
             power: '20 to 40',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Defenseless',
@@ -32401,7 +32407,7 @@ const yokais = [
         yokaiNumber: '626',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sad_2_the_bone.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sad_2_the_bone.png',
         description:
             'This Yo-kai is somewhat troubled by his continued existence, and would really just like to rest in peace.',
         locations: ['Pyramid of Clu'],
@@ -32423,7 +32429,7 @@ const yokais = [
                 'Throws a strong punch at the column in front with his big-boned fist.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Brittle Bones',
@@ -32461,7 +32467,7 @@ const yokais = [
         yokaiNumber: '627',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/venoctobot.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/venoctobot.png',
         description:
             'This robotic replica has been rendered with such perfect accuracy that it may even surpass the original!',
         locations: ['QR Code'],
@@ -32483,7 +32489,7 @@ const yokais = [
                 'His two dragobots fire devastating beams at the column in front.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Steel Chassis',
@@ -32509,7 +32515,7 @@ const yokais = [
         yokaiNumber: '628',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/orcanos_lu_bu.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/orcanos_lu_bu.png',
         description:
             'As renowned for his military prowess as he is for betraying his comrades to serve his own ambitions.',
         locations: ['QR Code'],
@@ -32531,7 +32537,7 @@ const yokais = [
                 'Crushes the column in front, fully displaying all of his unreal power.',
             power: '300 to 0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Indomitable Ire',
@@ -32557,7 +32563,7 @@ const yokais = [
         yokaiNumber: '629',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kyubot.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kyubot.png',
         description:
             'A dangerously unstable power source had to be used to try and replicate the power of Kyubi in robot form.',
         locations: ['QR Code'],
@@ -32579,7 +32585,7 @@ const yokais = [
                 'Shoots off a series of tail beams that can hit anywhere!',
             power: '155 to 232 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Steel Chassis',
@@ -32612,7 +32618,7 @@ const yokais = [
         yokaiNumber: '630',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ult._robonyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ult._robonyan.png',
         description:
             'Incorporating all fields of knowledge, this newer and slimmer Robonyan is more powerful than ever.',
         locations: ['QR Code'],
@@ -32634,7 +32640,7 @@ const yokais = [
                 'Blasts foes in range with missiles that look a lot like his companions...',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Ultimate Power',
@@ -32661,7 +32667,7 @@ const yokais = [
         yokaiNumber: '631',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/molar_petite.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/molar_petite.png',
         description:
             "Hello, I'm Molar Petite. \u2606 My hobbies are dressing up and going into the city. Nice to meet you! \u266a",
         locations: ['Cluvian Continent'],
@@ -32683,7 +32689,7 @@ const yokais = [
                 'Gentle healing powers from deep underground restore HP to all allies.',
             power: '90 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Complete Exposure',
@@ -32709,7 +32715,7 @@ const yokais = [
         yokaiNumber: '632',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/life-is-parfait.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/life-is-parfait.png',
         description:
             "It turns out that ignoring everything you find unpleasant is the secret to soft and bouncy skin. Wait, don't eat her!",
         locations: ['Cluphinx'],
@@ -32731,7 +32737,7 @@ const yokais = [
                 'Restores HP to all allies with a bittersweet caramel taste.',
             power: '90 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Pudding Positivity',
@@ -32757,7 +32763,7 @@ const yokais = [
         yokaiNumber: '633',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mee_2.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mee_2.png',
         description:
             'This irrepressibly optimistic Yo-kai is capable of bringing a smile out of even the glummest person.',
         locations: ['That Other World...Somewhere!'],
@@ -32780,7 +32786,7 @@ const yokais = [
                 'Her girly charm wins the hearts of allies and restores their HP too!',
             power: '90 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Believe in Yourself!',
@@ -32807,7 +32813,7 @@ const yokais = [
         yokaiNumber: '634',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/koalanyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/koalanyan.png',
         description:
             "Don't you just want to push his cute nose? Who would've thought it would make THAT happen?!",
         locations: ['Is this Real? Or Just a Fantasy?'],
@@ -32829,7 +32835,7 @@ const yokais = [
                 'Damages foes in range with a beam that could change the world!',
             power: '160 to 320',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Dramatize',
@@ -32856,7 +32862,7 @@ const yokais = [
         yokaiNumber: '635',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jibanyan_t.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jibanyan_t.png',
         description:
             'A treasure hunter who lives solely for the thrill of seeking out rare hidden treasures in strange lands.',
         locations: ['E-shop'],
@@ -32878,7 +32884,7 @@ const yokais = [
                 'Punches foes in range with paws that have seen him through many a tight spot.',
             power: '15x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Loosen Up',
@@ -32905,7 +32911,7 @@ const yokais = [
         yokaiNumber: '636',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komasan_t.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komasan_t.png',
         description:
             'After luckily stumbling across some priceless artifacts, Komasan has gained a reputation for finding treasure.',
         locations: ['E-shop'],
@@ -32927,7 +32933,7 @@ const yokais = [
                 'Summons will-o-the-wisps found in a dungeon to strike foes in range.',
             power: '100 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Toughen Up',
@@ -32954,7 +32960,7 @@ const yokais = [
         yokaiNumber: '637',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/eggcelency.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/eggcelency.png',
         description:
             'Born with the golden yolk in the palm of her hands, this Yo-kai is prophesized to become a great princess.',
         locations: ['QR Code'],
@@ -32976,7 +32982,7 @@ const yokais = [
                 'Egg is quite literally on the face of anyone these yolks randomly hit!',
             power: '155 to 232 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Yummy Yolk',
@@ -33003,7 +33009,7 @@ const yokais = [
         yokaiNumber: '638',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/deadcool.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/deadcool.png',
         description:
             "The superest and most awesome Yo-kai ever. He's super handsome, too! Oh, and... HEY! Gimme back the pen!",
         locations: ['I am a Super Legendary Hero!'],
@@ -33024,7 +33030,7 @@ const yokais = [
             description: 'Slices foes in range faster than the eye can see!',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Stress Out',
@@ -33051,7 +33057,7 @@ const yokais = [
         yokaiNumber: '639',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sweattuce.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sweattuce.png',
         description:
             'This vibrant lettuce Yo-kai sometimes splashes his fans with his sweat when busting out funky aerobic dance moves.',
         locations: ['Fusion.'],
@@ -33073,7 +33079,7 @@ const yokais = [
                 'His fresh dance moves get all allies fit, boosting their stats.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Lively Lettuce',
@@ -33101,7 +33107,7 @@ const yokais = [
         yokaiNumber: '640',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mr_blue-shy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mr_blue-shy.png',
         description:
             "Ask this guy nicely and he'll grant you clear skies! Just be careful not to look straight at him, he's easily embarrassed.",
         locations: ['Crank-a-Kai (BBQ)'],
@@ -33123,7 +33129,7 @@ const yokais = [
                 'Gives all allies a good feeling about themselves, raising their stats.',
             power: '90 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Blue Shy Thinking',
@@ -33156,7 +33162,7 @@ const yokais = [
         yokaiNumber: '641',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/amplifly.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/amplifly.png',
         description:
             'Those Inspirited by this excessively gaudy Yo-kai go over the top and exaggerate everything they do.',
         locations: ['Fusion.'],
@@ -33177,7 +33183,7 @@ const yokais = [
             description: "Amps up everyone's mood, restoring HP to all allies.",
             power: '90 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "Buzzin'",
@@ -33205,7 +33211,7 @@ const yokais = [
         yokaiNumber: '642',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ulteria.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ulteria.png',
         description:
             'Those who mistake this Yo-kai for an angel who makes all their dreams come true are in for a very rude awakening.',
         locations: ['Crank-a-Kai (BBQ)'],
@@ -33227,7 +33233,7 @@ const yokais = [
                 'Revives allies and restores their HP with a heavenly wish.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Rapturous Redress',
@@ -33260,7 +33266,7 @@ const yokais = [
         yokaiNumber: '643',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/my-baaad.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/my-baaad.png',
         description:
             "Thinks all will be forgiven as long as it apologizes quickly. There's not a shred of remorse behind its hollow words.",
         locations: ['Fusion.'],
@@ -33282,7 +33288,7 @@ const yokais = [
                 'Casually cuts off from apologizing and purifies all allies instead.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Forced Apology',
@@ -33308,7 +33314,7 @@ const yokais = [
         yokaiNumber: '644',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sunk_nsoul.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sunk_nsoul.png',
         description:
             "Breathing this guy's gas makes it feel like you're sinking to the bottom of a river. His only weakness is fresh air!",
         locations: ['Cluphinx'],
@@ -33330,7 +33336,7 @@ const yokais = [
                 'A dark miasma overwhelms all foes, making them unwilling to act.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Sink'n Feelin'",
@@ -33355,7 +33361,7 @@ const yokais = [
         yokaiNumber: '645',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/crummy_mum..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/crummy_mum..png',
         description:
             "He doesn't appear to be entirely sure himself whether he's actually a Yo-kai or just a mummy still.",
         locations: ['Tomb of King Clupharaon - Entr.'],
@@ -33377,7 +33383,7 @@ const yokais = [
                 'This mummy makes a dummy out of all foes by confusing them.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Crummy Curse',
@@ -33415,7 +33421,7 @@ const yokais = [
         yokaiNumber: '646',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kaped_koma..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kaped_koma..png',
         description:
             'A dark hero, dealing justice to the wicked. Mostly deals justice to the wicked rubbish left on the streets.',
         locations: ['QR Code'],
@@ -33437,7 +33443,7 @@ const yokais = [
                 'Summons wicked will-o-the-wisps to damage foes in range.',
             power: '100 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Midnight Malady',
@@ -33464,7 +33470,7 @@ const yokais = [
         yokaiNumber: '647',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tofupyon.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tofupyon.png',
         description:
             'Usapyon has finally got his turn at the table, and is determined to get himself a piece of grilled tofu.',
         locations: ['QR Code'],
@@ -33486,7 +33492,7 @@ const yokais = [
                 'Fires a mighty soy beam, dealing damage to the column in front.',
             power: '28x5 to 56x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Darn Tofootin'",
@@ -33513,7 +33519,7 @@ const yokais = [
         yokaiNumber: '648',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ed_zoff.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ed_zoff.png',
         description:
             'Enjoys evening walks. People are often troubled by the fact that he tends to leave his body behind.',
         locations: ['Cluphinx'],
@@ -33535,7 +33541,7 @@ const yokais = [
                 'Fixes foes in range with a creepy gaze, and slashes them to bits.',
             power: '16x10 to 24x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Pincushion',
@@ -33562,7 +33568,7 @@ const yokais = [
         yokaiNumber: '649',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gorgeous_amb..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gorgeous_amb..png',
         description:
             'This Yo-kai hates average, everyday things, and makes everything around him as luxurious as he can.',
         locations: ['Crank-a-kai'],
@@ -33584,7 +33590,7 @@ const yokais = [
                 'His FABULOUS, luxurious aura raises the stats of all allies.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Simply Gorgeous',
@@ -33618,7 +33624,7 @@ const yokais = [
         yokaiNumber: '650',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hinozall.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hinozall.png',
         description:
             'Capable of realizing anything he dreams up, his imagination and creative skills know no bounds.',
         locations: ['In Your Dreams! Hinozall vs Jaws!'],
@@ -33640,7 +33646,7 @@ const yokais = [
                 'Rains down beams from space to blast foes within range.',
             power: '155 to 232 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'That Eureka Moment',
@@ -33667,7 +33673,7 @@ const yokais = [
         yokaiNumber: '651',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zazel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/zazel.png',
         description:
             'Zazel is a top Yo-kai politician. He was turned against humans by the previous Lord Enma, his old master.',
         locations: ["The Yo-kai Council's Secret Order"],
@@ -33689,7 +33695,7 @@ const yokais = [
                 'Unleashes a fierce wave of callous energy upon the column in front.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Arrest Momentum',
@@ -33716,7 +33722,7 @@ const yokais = [
         yokaiNumber: '652',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/procrastino..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/procrastino..png',
         description:
             "The tip at the top of this Yo-kai's head grows a little bit each time it procrastinates. It's going for some kind of record.",
         locations: ['Cluphinx'],
@@ -33738,7 +33744,7 @@ const yokais = [
                 'Splatters venom, creating a toxic floor that damages those who pass over it.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Procrastination',
@@ -33764,7 +33770,7 @@ const yokais = [
         yokaiNumber: '653',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/treasure_pest.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/treasure_pest.png',
         description:
             'Thoroughly enjoys hanging around in dungeons and scaring unwitting adventurers in search of treasure.',
         locations: ['Cluvian Keyhole'],
@@ -33786,7 +33792,7 @@ const yokais = [
                 'Foes look inside the chest. Their disappointment makes them unwilling to act.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Treasure Trapped!',
@@ -33824,7 +33830,7 @@ const yokais = [
         yokaiNumber: '654',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/j._ne-sais-quoi.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/j._ne-sais-quoi.png',
         description:
             'A charismatic designer. Whatever she draws up instantly becomes popular, even if it does look a bit strange...',
         locations: ["A Girl's Gotta Have Dreams"],
@@ -33846,7 +33852,7 @@ const yokais = [
                 "Foes just don't know what it is but for some reason they're confused.\"",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Chic Compulsion',
@@ -33872,7 +33878,7 @@ const yokais = [
         yokaiNumber: '655',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whi._kongming.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whi._kongming.png',
         description:
             "This tactician's novel tactics often confuse his enemies, unexpectedly leading to a favorable outcome.",
         locations: ['QR Code'],
@@ -33894,7 +33900,7 @@ const yokais = [
                 'Spews noxious green gas on foes in range, greatly lowering their DEF.',
             power: '80 to 0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Kongming Whisdom',
@@ -33920,7 +33926,7 @@ const yokais = [
         yokaiNumber: '656',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/jurojin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/jurojin.png',
         description:
             'One of the Seven Gods of Fortune, said to bring longevity and wealth. His scroll is filled with otherworldly incantations.',
         locations: ['Trade Ghastly Fragment'],
@@ -33942,7 +33948,7 @@ const yokais = [
                 'Sucks the lifespan (and HP) of foes in range to share with allies.',
             power: '100 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Jurojin's Curse",
@@ -33969,7 +33975,7 @@ const yokais = [
         yokaiNumber: '657',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/fukurokuju.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/fukurokuju.png',
         description:
             'One of the Seven Gods of Fortune, said to bring longevity and happiness. Bestows the power of the light to all.',
         locations: ['Trade Ghastly Fragment'],
@@ -33991,7 +33997,7 @@ const yokais = [
                 'Brings good fortune to all allies, resurrecting them and restoring their HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: "Fukurokuju's Favor",
@@ -34018,7 +34024,7 @@ const yokais = [
         yokaiNumber: '658',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sarchopha..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sarchopha..png',
         description:
             'This 3,000 year old mummy occasionally gets tired of his solitary life, and pops out to unleash a wicked curse.',
         locations: ['QR Code'],
@@ -34040,7 +34046,7 @@ const yokais = [
                 'The pharaoh inside casts a curse on all foes, lowering their stats.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/7.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/7.png'
         },
         inspirit: {
             name: 'Gilded Guard',
@@ -34067,7 +34073,7 @@ const yokais = [
         yokaiNumber: '659',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/king_deadward.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/king_deadward.png',
         description:
             'This kingly Yo-kai is adored by all of his fellow zombies. His tenacity remains, even as his body decays.',
         locations: ['QR Code'],
@@ -34089,7 +34095,7 @@ const yokais = [
                 'Slashes foes in range with a giant sword made from a peculiar alloy.',
             power: '16x10 to 24x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Alloyed Powers',
@@ -34116,7 +34122,7 @@ const yokais = [
         yokaiNumber: '660',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pandora.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/pandora.png',
         description:
             'In an attempt to overcome an enduring trauma, this Yo-kai opens every box she can get her hands on.',
         locations: ['QR Code'],
@@ -34138,7 +34144,7 @@ const yokais = [
                 'Opens the box to unleash will-o-the-wisps on foes within range.',
             power: '148 to 222 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Forbidden Power',
@@ -34165,7 +34171,7 @@ const yokais = [
         yokaiNumber: '661',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/comic_genieus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/comic_genieus.png',
         description:
             "This genie isn't so hot on answering wishes, but his gag comedy is always on point.",
         locations: ['QR Code'],
@@ -34187,7 +34193,7 @@ const yokais = [
                 'Raises the mood and stats of all allies with his genius comedy routines.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Catlike Reflexes',
@@ -34214,7 +34220,7 @@ const yokais = [
         yokaiNumber: '662',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/bastnetnyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/bastnetnyan.png',
         description:
             'Those Inspirited by this Yo-kai are warded against misfortune, and gain a body impervious to injuries or illness.',
         locations: ['QR Code'],
@@ -34236,7 +34242,7 @@ const yokais = [
                 'Summons revenants from the afterlife to pummel foes within range.',
             power: '15x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Divine Defense',
@@ -34263,7 +34269,7 @@ const yokais = [
         yokaiNumber: '663',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/komanubis.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/komanubis.png',
         description:
             "He's quietly proud of the work he does in creating mummies. It's an intricate process, but he's mastered it!",
         locations: ['QR Code'],
@@ -34285,7 +34291,7 @@ const yokais = [
                 'An ancient magic robs HP from foes in range and gives it to allies.',
             power: '100 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Swirly Scourge',
@@ -34312,7 +34318,7 @@ const yokais = [
         yokaiNumber: '664',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gabby.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gabby.png',
         description:
             "Gabby will give you the gift of the gab! No matter the topic, you'll sound like you're giving the most moving speech.",
         locations: [
@@ -34335,7 +34341,7 @@ const yokais = [
             description: 'Gabs her way into powering up and restoring HP.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Rousing Rally',
@@ -34362,7 +34368,7 @@ const yokais = [
         yokaiNumber: '665',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/teducator.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/teducator.png',
         description:
             'A fountain of knowledge for obscure bits of trivia. Loves it when people are surprised by his explanations.',
         locations: [
@@ -34386,7 +34392,7 @@ const yokais = [
                 'Confuses all foes by endlessly firing off useless facts at them.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Trivialize',
@@ -34413,7 +34419,7 @@ const yokais = [
         yokaiNumber: '666',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gentlemutt.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gentlemutt.png',
         description:
             'A nobleman fused with a pedigree dog. Incomparably more dignified than that mangy Manjimutt.',
         locations: [
@@ -34437,7 +34443,7 @@ const yokais = [
                 'Restores HP to all allies with his charming, gentlemanly smile.',
             power: '90 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Dandify',
@@ -34464,7 +34470,7 @@ const yokais = [
         yokaiNumber: '667',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/city_licker.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/city_licker.png',
         description:
             'This Yo-kai has fallen so in love with city life that he does nothing but sing its praises. Who needs countryside?!',
         locations: [
@@ -34489,7 +34495,7 @@ const yokais = [
                 'Proudly displays his fangs then bites all foes within range.',
             power: '19x8 to 28x8 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'City Snobbery',
@@ -34516,7 +34522,7 @@ const yokais = [
         yokaiNumber: '668',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whyvern_king.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whyvern_king.png',
         description:
             "This Yo-kai's thirst for knowledge and dedication to self-improvement are the secrets to his strength.",
         locations: ['Medallium'],
@@ -34538,7 +34544,7 @@ const yokais = [
                 'Why, what is this wonder of frosty power blasting foes in range?',
             power: '200 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Whyvern Wind',
@@ -34566,7 +34572,7 @@ const yokais = [
         yokaiNumber: '669',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lord_enma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lord_enma.png',
         description:
             'The young king of the Yo-kai. He is curious and positive about the human world, and often visits.',
         locations: ['The Enma Note'],
@@ -34588,7 +34594,7 @@ const yokais = [
                 'Blasts the column in front with a devastating shot of spirit energy.',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: "Lord Enma's Favor",
@@ -34615,7 +34621,7 @@ const yokais = [
         yokaiNumber: '670',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rgt._zazel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rgt._zazel.png',
         description:
             'Now following the path of righteousness, Zazel will punish any who stray from the light.',
         locations: [
@@ -34639,7 +34645,7 @@ const yokais = [
                 'Deals a single strike to foes in range with a blade of pure righteousness.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Dashingly Divine',
@@ -34666,7 +34672,7 @@ const yokais = [
         yokaiNumber: '671',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hinozall_awk..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hinozall_awk..png',
         description:
             'No longer bound by the limits of the mind, his original ideas are enough to rattle the fabric of the universe.',
         locations: [
@@ -34690,7 +34696,7 @@ const yokais = [
                 'Rains down beams from space to blast foes within range.',
             power: '155 to 232 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'That Eureka Moment',
@@ -34717,7 +34723,7 @@ const yokais = [
         yokaiNumber: '672',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ancient_enma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ancient_enma.png',
         description:
             'Grandfather to Lord Enma and former king of the Yo-kai. Distrusts the negative influence of humans.',
         locations: [
@@ -34741,7 +34747,7 @@ const yokais = [
                 'His harsh fist descends upon those in range who dare defy him!',
             power: '190 to 190',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/6.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/6.png'
         },
         inspirit: {
             name: 'Power of Enma',
@@ -34767,7 +34773,7 @@ const yokais = [
         yokaiNumber: '673',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/enma_awk..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/enma_awk..png',
         description:
             "Now in full command of his true powers, the might of the forces at Lord Enma's disposal are overwhelming.",
         locations: [
@@ -34791,7 +34797,7 @@ const yokais = [
                 'With the full might of a deva, he unleashes a blast onto the unfortunates in range.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Awaken',
@@ -34817,7 +34823,7 @@ const yokais = [
         yokaiNumber: '674',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/the_boracle.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/the_boracle.png',
         description:
             "This Yo-kai's ability to see the future is hampered by the fact that he can only see really trivial things.",
         locations: ['QR Code'],
@@ -34838,7 +34844,7 @@ const yokais = [
             description: 'Accurately predicts the apocalypse of foes in range.',
             power: '155 to 232 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'False Fortunes',
@@ -34865,7 +34871,7 @@ const yokais = [
         yokaiNumber: '675',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rampajah.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rampajah.png',
         description:
             'This Yo-kai lives for a good rampage. Nothing is quite as liberating as running completely wild.',
         locations: ['QR Code'],
@@ -34887,7 +34893,7 @@ const yokais = [
                 'Anger takes hold and he goes on a rampage, striking foes in range.',
             power: '30x5 to 45x5 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Focused Rage',
@@ -34913,7 +34919,7 @@ const yokais = [
         yokaiNumber: '676',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cymbalina.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cymbalina.png',
         description:
             'Her habit of chanting obscure songs has occasionally led to her accidentally exorcising her fellow Yo-kai.',
         locations: ['Harrisville - Gravestones'],
@@ -34935,7 +34941,7 @@ const yokais = [
                 'Allies are energized by the cute clash of her cymbals. Their SPD goes way up.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Resonant Rhythm',
@@ -34961,7 +34967,7 @@ const yokais = [
         yokaiNumber: '677',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mumbles.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mumbles.png',
         description:
             "This guy's not a big talker. When he does manage to get a word out, everyone stops to listen.",
         locations: ['San Fantastico - Construction Materials'],
@@ -34982,7 +34988,7 @@ const yokais = [
             description: 'Rouses himself to stand guard. DEF goes way, way up!',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Breathe In...',
@@ -35009,7 +35015,7 @@ const yokais = [
         yokaiNumber: '678',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/roary.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/roary.png',
         description:
             "This guy's big voice is great at setting things into motion. Mostly because it's difficult to ignore...",
         locations: ['Harrisville - Under cars'],
@@ -35031,7 +35037,7 @@ const yokais = [
                 'Puts his body and soul into a punch aimed at the column in front.',
             power: '93 to 279 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Breathe Out!',
@@ -35058,7 +35064,7 @@ const yokais = [
         yokaiNumber: '679',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/letsbifrenz.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/letsbifrenz.png',
         description:
             "He really just wants to be your friend. That's why he turns up next to your bed at night and whispers into your ear!",
         locations: ['San Fantastico - Trees'],
@@ -35080,7 +35086,7 @@ const yokais = [
                 'Spits sinister flames at the column in front but burns foes in range too!',
             power: '60 to 60',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Just Gotta Shout!',
@@ -35107,7 +35113,7 @@ const yokais = [
         yokaiNumber: '680',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wack_o__lantern.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/wack_o__lantern.png',
         description:
             "This poor guy has become so stereotyped that he doesn't scare people the way he used to.",
         locations: ['Enma Palace'],
@@ -35129,7 +35135,7 @@ const yokais = [
                 'Casts malicious flames at the column in front but burns foes in range too!',
             power: '110 to 220',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Frightful Flash',
@@ -35162,7 +35168,7 @@ const yokais = [
         yokaiNumber: '681',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/moolinda.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/moolinda.png',
         description:
             'Her chosen method of torture is barraging her prisoners with questions about their love life. Truly awful stuff.',
         locations: ['The Lonely Lord'],
@@ -35184,7 +35190,7 @@ const yokais = [
                 'With explosive rage, she ferociously charges into the column in front.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Abyssal Addle',
@@ -35218,7 +35224,7 @@ const yokais = [
         yokaiNumber: '682',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/neighthan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/neighthan.png',
         description:
             'His habit of endlessly droning on has caused more than one person to lose the will to live.',
         locations: ['The Lonely Lord'],
@@ -35240,7 +35246,7 @@ const yokais = [
                 'With terrific horsepower, he ferociously charges into the column in front.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Infernal Immobility',
@@ -35274,7 +35280,7 @@ const yokais = [
         yokaiNumber: '683',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/big_fish.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/big_fish.png',
         description:
             'This trustworthy Yo-kai comes down like a wave on any quarrels or disputes, bringing them to a quick end.',
         locations: ['San Fantastico - Seaside Cave'],
@@ -35296,7 +35302,7 @@ const yokais = [
                 'Performs a ceremonial pose that summons big waves to crash onto foes in range.',
             power: '110 to 220',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Ocean Guard',
@@ -35323,7 +35329,7 @@ const yokais = [
         yokaiNumber: '684',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/alpina.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/alpina.png',
         description:
             'Pours her heart and soul into dancing to bless new growth in the forest, and mourn the passing of old plants.',
         locations: ['Harrisville - Mt. Middleton'],
@@ -35345,7 +35351,7 @@ const yokais = [
                 'Life begins anew as all allies are revived and healed.',
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Alpine Guard',
@@ -35372,7 +35378,7 @@ const yokais = [
         yokaiNumber: '685',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lunie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lunie.png',
         description:
             'Just like the moon, this seemingly sweet and innocent Yo-kai has a terrifying dark side.',
         locations: ['Bada-Bing Tower'],
@@ -35394,7 +35400,7 @@ const yokais = [
                 'Decides to summon random moon rocks that can hit anywhere and anyone!',
             power: '155 to 232 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/2.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/2.png'
         },
         inspirit: {
             name: 'Lunar Guard',
@@ -35421,7 +35427,7 @@ const yokais = [
         yokaiNumber: '686',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blizzie.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/blizzie.png',
         description:
             'She might come across as a hard-nosed taskmistress, but really she just wants the best for her team.',
         locations: ['A Hankering for Heroines'],
@@ -35443,7 +35449,7 @@ const yokais = [
             description: 'Punishes a foe by giving them a severe slap.',
             power: '67 to 201 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: "I'm Too Blizzy!",
@@ -35469,7 +35475,7 @@ const yokais = [
         yokaiNumber: '687',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kj.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/kj.png',
         description:
             'One of the hottest acts in the Yo-kai World right now! Make sure to check him out if you can get some tickets.',
         locations: ['The Provincial Publicity Project'],
@@ -35491,7 +35497,7 @@ const yokais = [
                 "Turns the tables, raising all allies' stats with his hip DJ skills.",
             power: '0',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Feel da Beat!',
@@ -35517,7 +35523,7 @@ const yokais = [
         yokaiNumber: '688',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/solar_enma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/solar_enma.png',
         description:
             'With mastery over the sun, Enma now has the power to smite evildoers from the face of the earth.',
         locations: [
@@ -35541,7 +35547,7 @@ const yokais = [
                 'Produces a giant sun and drops it on the heads of foes in range.',
             power: '160 to 240',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Radiant Rapture',
@@ -35567,7 +35573,7 @@ const yokais = [
         yokaiNumber: '689',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/infinite_enma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/infinite_enma.png',
         description:
             'With mastery over space and time, Enma now has the power to control past and future, to create a world free of errors.',
         locations: [
@@ -35591,7 +35597,7 @@ const yokais = [
                 'Bends time and space to damage all foes and hold them in place!',
             power: '30 to 45 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/1.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/1.png'
         },
         inspirit: {
             name: 'Stitch in Time',
@@ -35617,7 +35623,7 @@ const yokais = [
         yokaiNumber: '690',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/umbral_enma.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/umbral_enma.png',
         description:
             'With mastery over the darkness, Enma now has the power to snuff out any sparks of life, ruling the void.',
         locations: [
@@ -35642,7 +35648,7 @@ const yokais = [
                 'Expels umbral energy that ANNIHILATES anyone in the column in front!',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Penumbral Power',
@@ -35668,7 +35674,7 @@ const yokais = [
         yokaiNumber: '691',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/indiana_jaws.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/indiana_jaws.png',
         description:
             "This Yo-kai might look the part, but really he just bought the outfit in an auction. He has no idea what he's doing.",
         locations: ['The Truth About the Cursed Mansion'],
@@ -35690,7 +35696,7 @@ const yokais = [
                 'Quickly unleashes an intense beam directed at the column in front.',
             power: '210 to 315 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Spirit of Adventure',
@@ -35715,7 +35721,7 @@ const yokais = [
         yokaiNumber: '692',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shovulcan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shovulcan.png',
         description:
             "While this Yo-kai loves digging things up, he's got his own buried secrets that are better left untouched.",
         locations: ['Sky Garden'],
@@ -35737,7 +35743,7 @@ const yokais = [
                 'Gives the column in front a good, strong whack with his beloved shovel.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Dig Long & Prosper',
@@ -35763,7 +35769,7 @@ const yokais = [
         yokaiNumber: '693',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zomboy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/zomboy.png',
         description:
             "A normal human that somehow turned half-zombie. Zombies seem pretty popular right now, so he doesn't really mind.",
         locations: ['The Sorrows of Old Zomboy'],
@@ -35785,7 +35791,7 @@ const yokais = [
                 'Violently slices away at foes in range with an oversized sword.',
             power: '16x10 to 24x10',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Zombify',
@@ -35811,7 +35817,7 @@ const yokais = [
         yokaiNumber: '694',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nyanses_ii.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/nyanses_ii.png',
         description:
             "Don't ask about the pacifier. That's a really bad idea. You should see what happened to the last guy...",
         locations: ['Jessica & the Mysterious Blue Cat'],
@@ -35833,7 +35839,7 @@ const yokais = [
                 "Pacifier power doesn't suck! Instead it restores HP to all allies!",
             power: '90 to 180',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/3.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/3.png'
         },
         inspirit: {
             name: 'Infantilize',
@@ -35859,7 +35865,7 @@ const yokais = [
         yokaiNumber: '695',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/meopatra.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/meopatra.png',
         description:
             "Those who fall for this beautiful Yo-kai's charms are willing to do anything in her service.",
         locations: ['QR Code'],
@@ -35881,7 +35887,7 @@ const yokais = [
                 'Coerces in range foes to give their HP to her. Shares it with allies.',
             power: '100 to 200',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/4.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/4.png'
         },
         inspirit: {
             name: 'Spiteful Sphinx',
@@ -35915,7 +35921,7 @@ const yokais = [
         yokaiNumber: '696',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/fitwit.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/fitwit.png',
         description:
             "Try to grin and bear with this Yo-kai's horrendous sense of humor. He gets angry if you call him out on it.",
         locations: ['QR Code'],
@@ -35937,7 +35943,7 @@ const yokais = [
                 'Ceases the silliness and ruptures the ground, hitting foes in range.',
             power: '190 to 285 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Clown Around',
@@ -35971,7 +35977,7 @@ const yokais = [
         yokaiNumber: '697',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/el_dorago.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/el_dorago.png',
         description:
             "This Yo-kai's breath can turn pebbles into gold. Needless to say, it's difficult to purchase real estate where he lives.",
         locations: ['QR Code'],
@@ -35992,7 +35998,7 @@ const yokais = [
             description: 'Dazzling gold breath blasts the column in front.',
             power: '230 to 345 ',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Treasure Transfixion',
@@ -36026,7 +36032,7 @@ const yokais = [
         yokaiNumber: '698',
         bossNumber: '000',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/the_hinix.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/the_hinix.png',
         description:
             'Hinozall has burnt out after coming up with new ideas, only to be reborn from the ashes, ready to go again.',
         locations: ['QR Code'],
@@ -36048,7 +36054,7 @@ const yokais = [
                 'Scorches foes in range with his personalized brand of ever-so-luxurious flames.',
             power: '200 to 300',
             soultimeRangeImage:
-                'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/soultime_range/5.png'
+                'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/soultime_range/5.png'
         },
         inspirit: {
             name: 'Hinix Flame',
@@ -36082,7 +36088,7 @@ const yokais = [
         yokaiNumber: '699',
         bossNumber: '001',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/junkernaut.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/junkernaut.png',
         description:
             'The minor grievances of various items sent to be scrapped have come together to form a rampaging Yo-kai, intent on wreaking havoc on the wasteful society that led to its creation.',
         locations: [],
@@ -36103,7 +36109,7 @@ const yokais = [
         yokaiNumber: '700',
         bossNumber: '002',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/supermanager.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/supermanager.png',
         description:
             'This zombie has gone straight and is running a supermarket in the human realm. The compensation payouts to shoppers attacked by his zombie staff is killing profits, though...',
         locations: [],
@@ -36145,7 +36151,7 @@ const yokais = [
         yokaiNumber: '702',
         bossNumber: '004',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/agent_x.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/agent_x.png',
         description:
             'The dapper suit serves as camouflage for this man of mystery. Nobody seems to know anything about him, and those that try to look into his history have a bad habit of vanishing into thin air.',
         locations: [],
@@ -36166,7 +36172,7 @@ const yokais = [
         yokaiNumber: '703',
         bossNumber: '005',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/the_executor.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/the_executor.png',
         description:
             "Now that his true form has been exposed, Agent X will not allow anyone who has seen him return alive! Seems a bit EX-cessive, don't you think?!",
         locations: [],
@@ -36187,7 +36193,7 @@ const yokais = [
         yokaiNumber: '704',
         bossNumber: '006',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slackerjack.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slackerjack.png',
         description:
             "That flute sure does make it sound like it would be fun to go out and play. Go on. You didn't really need to do that homework. It's way too difficult anyway...",
         locations: [],
@@ -36208,7 +36214,7 @@ const yokais = [
         yokaiNumber: '705',
         bossNumber: '007',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/meganyan.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/meganyan.png',
         description:
             'Years of constant eating have made Hovernyan MASSIVE...and have given him the power to make others huge too!',
         locations: [],
@@ -36229,7 +36235,7 @@ const yokais = [
         yokaiNumber: '706',
         bossNumber: '008',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/dr._maddiman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/dr._maddiman.png',
         description:
             'This madman used to perform experiments on humans at his hospital. Even as a Yo-kai, his search for new test subjects continues...',
         locations: [],
@@ -36250,7 +36256,7 @@ const yokais = [
         yokaiNumber: '707',
         bossNumber: '009',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/yo-kaiju.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/yo-kaiju.png',
         description:
             "Standing at 82 meters tall, and weighing in at 165 tons, those three little turtles sure do seem to have gone through a bit of a growth spurt. What's in the water out there?!",
         locations: [],
@@ -36271,7 +36277,7 @@ const yokais = [
         yokaiNumber: '708',
         bossNumber: '010',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/yopple-bot.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/yopple-bot.png',
         description:
             "A fully autonomous and extremely polite robot developed by Yopple, capable of responding to any command. It's been known to go on the odd rampage, but that's all part of the charm!",
         locations: [],
@@ -36292,7 +36298,7 @@ const yokais = [
         yokaiNumber: '709',
         bossNumber: '011',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/no-bot.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/no-bot.png',
         description:
             "Something has gone extremely wrong with Yopple-Bot's circuitry and now he's determined to cause as much destruction as he can. He's being very polite about it though!",
         locations: [],
@@ -36313,7 +36319,7 @@ const yokais = [
         yokaiNumber: '710',
         bossNumber: '012',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/beddy-byes.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/beddy-byes.png',
         description:
             "The strong feelings Buck and Dorothy's mother has for them has overcome the distance that separates them. Now she's materialized as a Yo-kai to watch over her children!",
         locations: [],
@@ -36334,7 +36340,7 @@ const yokais = [
         yokaiNumber: '711',
         bossNumber: '013',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rongo_swirll.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rongo_swirll.png',
         description:
             "A jazz spot hasn't made it to the big time until it's been visited at least once by this guy. It has nothing to do with the fact that he has a side job working for a pretty shady organization...",
         locations: [],
@@ -36355,7 +36361,7 @@ const yokais = [
         yokaiNumber: '712',
         bossNumber: '014',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ghoulfather.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ghoulfather.png',
         description:
             'As head of the mafia in the Yo-kai World, the Ghoulfather was banished into space by Enma the Ancient. After a miraculous meeting with an alien spaceship, he has returned to seek his vengeance.',
         locations: [],
@@ -36376,7 +36382,7 @@ const yokais = [
         yokaiNumber: '713',
         bossNumber: '015',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/don_spiracy.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/don_spiracy.png',
         description:
             'The Ghoulfather has transformed after absorbing all the energy from the alien spaceship! Now all of his words are turned into reality, attacking his enemies with their harsh truths.',
         locations: [],
@@ -36397,7 +36403,7 @@ const yokais = [
         yokaiNumber: '714',
         bossNumber: '016',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/slackolyte.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/slackolyte.png',
         description:
             'This master thief once attempted to steal something beyond even his legendary abilities. Upon meeting the owner of this mysterious treasure, he became his acolyte.',
         locations: [],
@@ -36418,7 +36424,7 @@ const yokais = [
         yokaiNumber: '715',
         bossNumber: '017',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/duwheel.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/duwheel.png',
         description:
             "The blue, cheery side of Duwheel is always smiling. Don't upset it, though, or it'll flip upside down and turn an angry shade of red!",
         locations: [],
@@ -36439,7 +36445,7 @@ const yokais = [
         yokaiNumber: '716',
         bossNumber: '018',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/duolyte.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/duolyte.png',
         description:
             'After being stopped while on a rampage by The Zenlightener, who used just one finger, Duwheel begged to be made his acolyte. Now Duwheel seeks unity through meditation.',
         locations: [],
@@ -36460,7 +36466,7 @@ const yokais = [
         yokaiNumber: '717',
         bossNumber: '019',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chirpster.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chirpster.png',
         description:
             "If you hear music coming from an old, abandoned mansion, this Yo-kai is probably partying there\u2014 and if you venture inside, you might just wind up dancing 'til dawn!",
         locations: [],
@@ -36481,7 +36487,7 @@ const yokais = [
         yokaiNumber: '718',
         bossNumber: '020',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chirpolyte.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/chirpolyte.png',
         description:
             'After becoming disenchanted with living the life of a lord, Chirpster ran into The Zenlightener. Impressed with his dignity, Chirpster has now vowed to follow him to the ends of the earth.',
         locations: [],
@@ -36502,7 +36508,7 @@ const yokais = [
         yokaiNumber: '719',
         bossNumber: '021',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/torneyedo.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/torneyedo.png',
         description:
             "That boy of mine sure is getting all high and mighty just 'cos he can mess around with portals a bit. But what's this about a holiday in BBQ? Doesn't he know he's supposed to be looking after his Pa!",
         locations: [],
@@ -36523,7 +36529,7 @@ const yokais = [
         yokaiNumber: '720',
         bossNumber: '022',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mass_mutterer.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mass_mutterer.png',
         description:
             "Having successfully escaped from a supposedly inescapable prison four times, it's safe to say that this guy is the king of prison breaks.",
         locations: [],
@@ -36544,7 +36550,7 @@ const yokais = [
         yokaiNumber: '721',
         bossNumber: '023',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hinozall.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hinozall.png',
         description:
             'Capable of realizing anything he dreams up, his imagination and creative skills know no bounds.',
         locations: [],
@@ -36586,7 +36592,7 @@ const yokais = [
         yokaiNumber: '723',
         bossNumber: '025',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/skulk.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/skulk.png',
         description:
             "I'm sure you know the feeling, when you're heading down a dark and lonely road, all by yourself. All of a sudden, you just know, from the bottom of your soul...don't turn around!",
         locations: [],
@@ -36607,7 +36613,7 @@ const yokais = [
         yokaiNumber: '724',
         bossNumber: '026',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/gargaros.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/gargaros.png',
         description:
             'Gargaros, a symbol of fear itself, swoops in from Terror Time swinging his powerful club and smashing weak Yo-kai who get in his way.',
         locations: [],
@@ -36628,7 +36634,7 @@ const yokais = [
         yokaiNumber: '725',
         bossNumber: '027',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ogralus.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/ogralus.png',
         description:
             'He prowls Terror Time, bashing his enemies. He befriends those with the strength and purity of heart to escape Terror Time.',
         locations: [],
@@ -36649,7 +36655,7 @@ const yokais = [
         yokaiNumber: '726',
         bossNumber: '028',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/orcanos.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/orcanos.png',
         description:
             "The giant horns mean he's an Oni of supreme rank. The characteristic Oni pattern stands out when his blood is up in battle.",
         locations: [],
@@ -36670,7 +36676,7 @@ const yokais = [
         yokaiNumber: '727',
         bossNumber: '029',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/orcalyte.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/orcalyte.png',
         description:
             'In a fated meeting, Orcanos acknowledged The Zenlightener as his one and true master. He has sworn to not remove his makeup until he has surpassed his master.',
         locations: [],
@@ -36691,7 +36697,7 @@ const yokais = [
         yokaiNumber: '728',
         bossNumber: '030',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/zenlightener.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/zenlightener.png',
         description:
             "This Yo-kai's dedication to the arts of the warrior has left him with a multitude of disciples, all willing to lay their lives down in his honor. His ability to inspire others is legendary.",
         locations: [],
@@ -36712,7 +36718,7 @@ const yokais = [
         yokaiNumber: '729',
         bossNumber: '031',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/plundros.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/plundros.png',
         description:
             'The revered leader of a band of Oni pirates. It was said that he kept his most valuable treasure behind his eyepatch, not trusting that it would be kept safe anywhere else.',
         locations: [],
@@ -36733,7 +36739,7 @@ const yokais = [
         yokaiNumber: '730',
         bossNumber: '032',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sproink.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/sproink.png',
         description:
             'Loves to bathe in super-hot water. Dip a toe before jumping in with him\u2014you might be making a HUGE mistake!',
         locations: [],
@@ -36754,7 +36760,7 @@ const yokais = [
         yokaiNumber: '731',
         bossNumber: '033',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hoggles.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hoggles.png',
         description:
             'Hoggles used to be a little piglet of a guy until he drank a broth made of other Yo-kai\u2014 then he got huge!',
         locations: [],
@@ -36775,7 +36781,7 @@ const yokais = [
         yokaiNumber: '732',
         bossNumber: '034',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tattleterror.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/tattleterror.png',
         description:
             'During her down time, this Yo-kai loves having the girls over for afternoon tea. They talk about shoes, hair, and how she single-handedly took over the Yo-kai martial arts scene in just two days!',
         locations: [],
@@ -36796,7 +36802,7 @@ const yokais = [
         yokaiNumber: '733',
         bossNumber: '035',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hans_full.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hans_full.png',
         description:
             'An experimental Yo-kai sewn together in secret by a desperate doctor. He really would have preferred one or two legs, but all he got was more and more arms.',
         locations: [],
@@ -36817,7 +36823,7 @@ const yokais = [
         yokaiNumber: '734',
         bossNumber: '036',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hans_galore.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hans_galore.png',
         description:
             "This friendly fellow is the designated meet and greeter down on Mystery Way. Don't get on his bad side though, or the only thing he'll give you is a deadly handshake or five.",
         locations: [],
@@ -36838,7 +36844,7 @@ const yokais = [
         yokaiNumber: '735',
         bossNumber: '037',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mckraken.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/mckraken.png',
         description:
             'McKraken in the form he took after absorbing the Aura pervading Springdale. The Aura gave him the monstrous power to control the elements and wreak havoc.',
         locations: [],
@@ -36859,7 +36865,7 @@ const yokais = [
         yokaiNumber: '736',
         bossNumber: '038',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hardy_hound.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hardy_hound.png',
         description:
             'The majestic white body hides a savage soul. His backpack is said to contain the bones of generations of his ancestors.',
         locations: [],
@@ -36880,7 +36886,7 @@ const yokais = [
         yokaiNumber: '737',
         bossNumber: '039',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rubeus_j.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/rubeus_j.png',
         description:
             'Feared throughout the Yo-kai World as the perpetrator of countless atrocities. Feasts on the souls of his fellow Yo-kai.',
         locations: [],
@@ -36901,7 +36907,7 @@ const yokais = [
         yokaiNumber: '738',
         bossNumber: '040',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hinozall_awk..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/hinozall_awk..png',
         description:
             'No longer bound by the limits of the mind, his original ideas are enough to rattle the fabric of the universe.',
         locations: [],
@@ -36922,7 +36928,7 @@ const yokais = [
         yokaiNumber: '739',
         bossNumber: '041',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan_28.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/robonyan_28.png',
         description:
             'In a bid to reach even greater extremes of power, Robonyan F went through multiple modifications. After 28 iterations, this enormous form is the result.',
         locations: [],
@@ -36943,7 +36949,7 @@ const yokais = [
         yokaiNumber: '740',
         bossNumber: '042',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/yellskitchen.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/yellskitchen.png',
         description:
             'This former Yo-kai chef takes the preparation of his ingredients very seriously. Particularly when it comes to using his knife and cleaver to properly slice the meat.',
         locations: [],
@@ -36964,7 +36970,7 @@ const yokais = [
         yokaiNumber: '741',
         bossNumber: '043',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/maiden_ruin.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/maiden_ruin.png',
         description:
             'As the guardian deity of an ancient ruin, this beautiful war goddess has spent an eternity in solitude. She will steal away anyone she takes a liking to, looking to fill the void in her heart.',
         locations: [],
@@ -36985,7 +36991,7 @@ const yokais = [
         yokaiNumber: '742',
         bossNumber: '044',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/the_woebra.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/the_woebra.png',
         description:
             "Gifted with the power to curse and destroy his enemies, this shaman's powers began turning against him. He hides his unsightly and pained face behind a terrifying mask.",
         locations: [],
@@ -37006,7 +37012,7 @@ const yokais = [
         yokaiNumber: '743',
         bossNumber: '045',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/the_goldfather.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/the_goldfather.png',
         description:
             "The Ghoulfather's eyes once glistened with his hopes and dreams, but now they reflect nothing but his greed and obsession with hidden treasures.",
         locations: [],
@@ -37027,7 +37033,7 @@ const yokais = [
         yokaiNumber: '744',
         bossNumber: '046',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/icaros.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/icaros.png',
         description:
             'Mankind, in their unending quest for knowledge and power, have crossed a line in an attempt to create their own Yo-kai. But will the resulting demon turn against its own creators?',
         locations: [],
@@ -37048,7 +37054,7 @@ const yokais = [
         yokaiNumber: '745',
         bossNumber: '047',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/narwail.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/narwail.png',
         description:
             'A whale of giant dimensions that can literally take you to another dimension! His roar shakes the very fabric of reality, bending even the laws of physics.',
         locations: [],
@@ -37069,7 +37075,7 @@ const yokais = [
         yokaiNumber: '746',
         bossNumber: '048',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/whaleman.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/whaleman.png',
         description:
             'The devastating power of Narwail has been transformed into a slimmer body. Now capable of moving at blinding speeds, he has no weak points at all!',
         locations: [],
@@ -37090,7 +37096,7 @@ const yokais = [
         yokaiNumber: '747',
         bossNumber: '049',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/soulcleaver.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/soulcleaver.png',
         description:
             'After perpetrating the tragedy at Headhunter Mountain, this Yo-kai was imprisoned for a millennia. This year his sentence is up, and he has been sharpening his knives...',
         locations: [],
@@ -37111,7 +37117,7 @@ const yokais = [
         yokaiNumber: '748',
         bossNumber: '050',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cpt._thunder.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cpt._thunder.png',
         description:
             'Determined to become a hero, Captain Thunder ordered a fitted suit designed to best show off his impressive musculature. The jet engines were an added extra.',
         locations: [],
@@ -37132,7 +37138,7 @@ const yokais = [
         yokaiNumber: '749',
         bossNumber: '051',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cpt._thunder.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/cpt._thunder_sm.png',
         description:
             'Determined to become a hero, Captain Thunder ordered a fitted suit designed to best show off his impressive musculature. The jet engines were an added extra.',
         locations: [],
@@ -37153,7 +37159,7 @@ const yokais = [
         yokaiNumber: '750',
         bossNumber: '052',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/shogun_king.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/shogun_king.png',
         description:
             'After wandering countless battlefields, this Yo-kai has gained such a large band of vengeful spirits following him, that even humans can see it with the naked eye under the moonlight.',
         locations: [],
@@ -37174,7 +37180,7 @@ const yokais = [
         yokaiNumber: '751',
         bossNumber: '053',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/holey_moley.png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/holey_moley.png',
         description:
             'This legendary leader is responsible for digging most of the underground network on the Cluvian Continent. Anyone found getting in the way of his operations will be pelted by his infamous fast ball.',
         locations: [],
@@ -37195,7 +37201,7 @@ const yokais = [
         yokaiNumber: '752',
         bossNumber: '054',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lastest_nyan..png',
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1567268287/Yokai/yokais/lastest_nyan..png',
         description:
             'Wanders the world in search of his greatest rival, Shogun King. The souls of those he has slain follow him, all wishing to bear witness to this fated decisive battle.',
         locations: [],
