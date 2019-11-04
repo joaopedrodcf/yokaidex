@@ -12,7 +12,6 @@ const ContactUs = lazy(() => import('./pages/contact-us'));
 
 const Routes = () => {
     return (
-        // eslint-disable-next-line react-perf/jsx-no-jsx-as-prop
         <Suspense fallback={<div>Loading...</div>}>
             <Switch>
                 <Route exact path="/" component={Main} />

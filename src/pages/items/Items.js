@@ -137,9 +137,9 @@ class Items extends Component {
                                 <Link
                                     to={`/yokai-watch-${
                                         context.gameVersion
-                                        }/items/${utils.uniformizeNames(
-                                            item.name
-                                        )}`}
+                                    }/items/${utils.uniformizeNames(
+                                        item.name
+                                    )}`}
                                 >
                                     <SectionWrapper>
                                         <Image
