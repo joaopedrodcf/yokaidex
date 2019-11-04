@@ -1,4 +1,6 @@
-import React, { Component } from 'react';
+/* eslint-disable react/destructuring-assignment */
+/* eslint-disable react/jsx-props-no-spreading */
+import React, { useEffect } from 'react';
 import GoogleAnalytics from 'react-ga';
 
 GoogleAnalytics.initialize('UA-134596491-1');
@@ -12,28 +14,12 @@ const withTracker = (WrappedComponent, options = { anonymizeIp: true }) => {
         GoogleAnalytics.pageview(page);
     };
 
-    // eslint-disable-next-line
-    const HOC = class extends Component {
-        componentDidMount() {
-            // eslint-disable-next-line
-            const page = this.props.location.pathname + this.props.location.search;
-            trackPage(page);
-        }
+    const HOC = props => {
+        useEffect(() => trackPage(props.location.pathname), [
+            props.location.pathname
+        ]);
 
-        componentDidUpdate(prevProps) {
-            const currentPage =
-                prevProps.location.pathname + prevProps.location.search;
-            const nextPage =
-                this.props.location.pathname + this.props.location.search;
-
-            if (currentPage !== nextPage) {
-                trackPage(nextPage);
-            }
-        }
-
-        render() {
-            return <WrappedComponent {...this.props} />;
-        }
+        return <WrappedComponent {...props} />;
     };
 
     return HOC;
