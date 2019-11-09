@@ -1,5 +1,6 @@
 const yokais = [
     {
+        index: 0,
         name: 'Pandle',
         yokaiNumber: '001',
         image:
@@ -15,14 +16,8 @@ const yokais = [
             name: 'Careless',
             description: 'Prone to be dealtcritical attacks.'
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Pointy Toothpick',
             description: 'Pokes his foes with his beloved toothpick.',
@@ -33,13 +28,7 @@ const yokais = [
             description: 'Makes a foe careless and decreases its DEF.',
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '27',
-            spr: '19',
-            def: '17',
-            spd: '26'
-        },
+        stats: { hp: '29', str: '27', spr: '19', def: '17', spd: '26' },
         tribe: 'Brave',
         element: 'Fire',
         weakness: 'Water',
@@ -55,6 +44,7 @@ const yokais = [
         ]
     },
     {
+        index: 1,
         name: 'Undy',
         yokaiNumber: '002',
         image:
@@ -70,14 +60,8 @@ const yokais = [
             name: 'Careless',
             description: 'Prone to be dealtcritical attacks.'
         },
-        attack: {
-            name: 'Pointy Pokes',
-            power: '12x3 to 26x3'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        attack: { name: 'Pointy Pokes', power: '12x3 to 26x3' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Toothpick Rainfall',
             description: 'Pokes his foes very hard with his beloved toothpick.',
@@ -89,13 +73,7 @@ const yokais = [
                 'Makes a foe defenseless, which... lowers its DEF. Duh!',
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '33',
-            spr: '21',
-            def: '18',
-            spd: '30'
-        },
+        stats: { hp: '36', str: '33', spr: '21', def: '18', spd: '30' },
         tribe: 'Brave',
         element: 'Fire',
         weakness: 'Water',
@@ -104,6 +82,7 @@ const yokais = [
         evolutionIndexes: [0]
     },
     {
+        index: 2,
         name: 'Tanbo',
         yokaiNumber: '003',
         image:
@@ -115,14 +94,8 @@ const yokais = [
             name: 'Careless',
             description: 'Prone to be dealtcritical attacks.'
         },
-        attack: {
-            name: 'Pointy Pokes',
-            power: '12x3 to 26x3'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Pointy Pokes', power: '12x3 to 26x3' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Gutsy Cut',
             description:
@@ -134,13 +107,7 @@ const yokais = [
             description: "Raises an ally's SPD by making it gutsy!",
             power: '0'
         },
-        stats: {
-            hp: '43',
-            str: '36',
-            spr: '24',
-            def: '18',
-            spd: '30'
-        },
+        stats: { hp: '43', str: '36', spr: '24', def: '18', spd: '30' },
         tribe: 'Brave',
         element: 'Earth',
         weakness: 'Wind',
@@ -149,6 +116,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 3,
         name: 'Cutta-nah',
         yokaiNumber: '004',
         image:
@@ -160,14 +128,8 @@ const yokais = [
             name: 'Bladed Body',
             description: 'Body deals damage toall foes who attack it.'
         },
-        attack: {
-            name: 'Double Slice',
-            power: '18x2 to 39x2'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Double Slice', power: '18x2 to 39x2' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'Halfhearted Chop',
             description: 'Slices his opponents while lolling around. ',
@@ -179,13 +141,7 @@ const yokais = [
                 'Makes Yo-kai lose their motivation and Loaf around more.',
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '26',
-            spr: '20',
-            def: '23',
-            spd: '21'
-        },
+        stats: { hp: '27', str: '26', spr: '20', def: '23', spd: '21' },
         tribe: 'Brave',
         element: 'Wind',
         weakness: 'Ice',
@@ -194,6 +150,7 @@ const yokais = [
         evolutionIndexes: [1]
     },
     {
+        index: 4,
         name: 'Cutta-nah-nah',
         yokaiNumber: '005',
         image:
@@ -208,14 +165,8 @@ const yokais = [
             name: 'Bladed Body',
             description: 'Body deals damage toall foes who attack it.'
         },
-        attack: {
-            name: 'Double Slice',
-            power: '18x2 to 39x2'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Double Slice', power: '18x2 to 39x2' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'Resigned Rush',
             description:
@@ -227,13 +178,7 @@ const yokais = [
             description: 'Makes enemies so lazy that it saps their STR.',
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '28',
-            spr: '22',
-            def: '28',
-            spd: '26'
-        },
+        stats: { hp: '34', str: '28', spr: '22', def: '28', spd: '26' },
         tribe: 'Brave',
         element: 'Wind',
         weakness: 'Ice',
@@ -242,6 +187,7 @@ const yokais = [
         evolutionIndexes: [1]
     },
     {
+        index: 5,
         name: 'Slacka-slash',
         yokaiNumber: '006',
         image:
@@ -253,14 +199,8 @@ const yokais = [
             name: 'Bladed Body',
             description: 'Body deals damage toall foes who attack it.'
         },
-        attack: {
-            name: 'Double Slice',
-            power: '18x2 to 39x2'
-        },
-        technique: {
-            name: 'Hail',
-            power: '20 to 90'
-        },
+        attack: { name: 'Double Slice', power: '18x2 to 39x2' },
+        technique: { name: 'Hail', power: '20 to 90' },
         soultime: {
             name: 'Resigned Rush',
             description:
@@ -272,13 +212,7 @@ const yokais = [
             description: 'Makes enemies so lazy that it saps their STR.',
             power: '0'
         },
-        stats: {
-            hp: '38',
-            str: '31',
-            spr: '24',
-            def: '29',
-            spd: '30'
-        },
+        stats: { hp: '38', str: '31', spr: '24', def: '29', spd: '30' },
         tribe: 'Brave',
         element: 'Ice',
         weakness: 'Fire',
@@ -294,6 +228,7 @@ const yokais = [
         ]
     },
     {
+        index: 6,
         name: 'Mochismo',
         yokaiNumber: '007',
         image:
@@ -308,14 +243,8 @@ const yokais = [
             name: 'Soft Skin',
             description: 'Increases own DEF ifdealt critical damage.'
         },
-        attack: {
-            name: 'Power Punch',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Power Punch', power: '50 to 110' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Mochi Punch',
             description: 'Puffs up and decks an opponent with one mean punch.',
@@ -326,13 +255,7 @@ const yokais = [
             description: "Boosts an ally's STR with tasty mochi power.",
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '30',
-            spr: '17',
-            def: '25',
-            spd: '21'
-        },
+        stats: { hp: '34', str: '30', spr: '17', def: '25', spd: '21' },
         tribe: 'Brave',
         element: 'Earth',
         weakness: 'Wind',
@@ -348,6 +271,7 @@ const yokais = [
         ]
     },
     {
+        index: 7,
         name: 'Minochi',
         yokaiNumber: '008',
         image:
@@ -359,14 +283,8 @@ const yokais = [
             name: 'Soft Skin',
             description: 'Increases own DEF ifdealt critical damage.'
         },
-        attack: {
-            name: 'Power Punch',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        attack: { name: 'Power Punch', power: '50 to 110' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Minochi Punch',
             description: 'Puffs up and decks an opponent with one mean punch.',
@@ -378,13 +296,7 @@ const yokais = [
                 'Makes a foe so jealous of its allies that it will attack them!',
             power: '0'
         },
-        stats: {
-            hp: '37',
-            str: '32',
-            spr: '13',
-            def: '28',
-            spd: '17'
-        },
+        stats: { hp: '37', str: '32', spr: '13', def: '28', spd: '17' },
         tribe: 'Brave',
         element: 'Fire',
         weakness: 'Water',
@@ -392,12 +304,13 @@ const yokais = [
         favouriteFood: 'Rice Balls'
     },
     {
+        index: 8,
         name: 'Helmsman',
         yokaiNumber: '009',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/helmsman.png',
         description:
-            'A floating helmet that was worn by a famous military commander. It spends its days searching for its body\u2014a good use of time.',
+            'A floating helmet that was worn by a famous military commander. It spends its days searching for its body—a good use of time.',
         locations: [
             'Blossom Heights - Old Mansion Attic',
             'Blossom Heights - Trees',
@@ -408,14 +321,8 @@ const yokais = [
             name: 'Spirit Guard',
             description: 'No elemental-weaknessdamage if guarding.'
         },
-        attack: {
-            name: 'Headbutt',
-            power: '55 to 121'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        attack: { name: 'Headbutt', power: '55 to 121' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: 'Helmsman Helm',
             description: "Gives an order that raises allies' morale and DEF.",
@@ -427,13 +334,7 @@ const yokais = [
                 "Raises an ally's DEF... as if it were wearing a helmet!",
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '29',
-            spr: '17',
-            def: '30',
-            spd: '19'
-        },
+        stats: { hp: '33', str: '29', spr: '17', def: '30', spd: '19' },
         tribe: 'Brave',
         element: 'Lightning',
         weakness: 'Earth',
@@ -442,25 +343,20 @@ const yokais = [
         evolutionIndexes: [11]
     },
     {
+        index: 9,
         name: 'Reuknight',
         yokaiNumber: '010',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reuknight.png',
         description:
-            "Helmsman and Armsman reunited. He now aspires to do what he couldn't do when he was alive\u2014 unify the country.",
+            "Helmsman and Armsman reunited. He now aspires to do what he couldn't do when he was alive— unify the country.",
         locations: ['Yo-kai World - Hooligan Road', 'Fusion.'],
         skill: {
             name: 'Spirit Guard',
             description: 'No elemental-weaknessdamage if guarding.'
         },
-        attack: {
-            name: 'Stab Storm',
-            power: '10x5 to 22x5'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        attack: { name: 'Stab Storm', power: '10x5 to 22x5' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: "Knight's Slash",
             description:
@@ -473,13 +369,7 @@ const yokais = [
                 "Lowers a foe's SPR with the power of an undead knight.",
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '35',
-            spr: '23',
-            def: '30',
-            spd: '33'
-        },
+        stats: { hp: '36', str: '35', spr: '23', def: '30', spd: '33' },
         tribe: 'Brave',
         element: 'Lightning',
         weakness: 'Earth',
@@ -488,6 +378,7 @@ const yokais = [
         evolutionIndexes: [11]
     },
     {
+        index: 10,
         name: 'Corptain',
         yokaiNumber: '011',
         image:
@@ -499,14 +390,8 @@ const yokais = [
             name: 'Spirit Guard',
             description: 'No elemental-weaknessdamage if guarding.'
         },
-        attack: {
-            name: 'Stab Storm',
-            power: '10x5 to 22x5'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Stab Storm', power: '10x5 to 22x5' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Ticket to Hades',
             description:
@@ -519,13 +404,7 @@ const yokais = [
                 "Drops a foe's SPR with a strange power from the underworld.",
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '38',
-            spr: '27',
-            def: '32',
-            spd: '38'
-        },
+        stats: { hp: '36', str: '38', spr: '27', def: '32', spd: '38' },
         tribe: 'Brave',
         element: 'Drain',
         weakness: 'x',
@@ -534,6 +413,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 11,
         name: 'Blazion',
         yokaiNumber: '012',
         image:
@@ -549,14 +429,8 @@ const yokais = [
             name: 'Blazing Spirit',
             description: 'Power increases whenan ally is defeated.'
         },
-        attack: {
-            name: 'Practiced Punch',
-            power: '90 to 135'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        attack: { name: 'Practiced Punch', power: '90 to 135' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
             name: 'Blazing Fist',
             description:
@@ -569,13 +443,7 @@ const yokais = [
                 "Sets an ally's heart ablaze. This also raises its STR.",
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '28',
-            spr: '27',
-            def: '20',
-            spd: '29'
-        },
+        stats: { hp: '30', str: '28', spr: '27', def: '20', spd: '29' },
         tribe: 'Brave',
         element: 'Fire',
         weakness: 'Water',
@@ -583,6 +451,7 @@ const yokais = [
         favouriteFood: 'Meats'
     },
     {
+        index: 12,
         name: 'Quaken',
         yokaiNumber: '013',
         image:
@@ -594,14 +463,8 @@ const yokais = [
             name: 'Courageous Spirit',
             description: 'Power increases whenan ally is defeated.'
         },
-        attack: {
-            name: 'Practiced Punch',
-            power: '90 to 135'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Practiced Punch', power: '90 to 135' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Earthshaker',
             description:
@@ -613,13 +476,7 @@ const yokais = [
             description: 'Makes a foe clumsy. This decreases its SPR.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '32',
-            spr: '28',
-            def: '23',
-            spd: '29'
-        },
+        stats: { hp: '30', str: '32', spr: '28', def: '23', spd: '29' },
         tribe: 'Brave',
         element: 'Earth',
         weakness: 'Wind',
@@ -627,6 +484,7 @@ const yokais = [
         favouriteFood: 'Meats'
     },
     {
+        index: 13,
         name: 'Siro',
         yokaiNumber: '014',
         image:
@@ -638,14 +496,8 @@ const yokais = [
             name: 'Shining Spirit',
             description: 'Power increases whenan ally is defeated.'
         },
-        attack: {
-            name: 'Practiced Punch',
-            power: '90 to 135'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'Practiced Punch', power: '90 to 135' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'Roaring Stance',
             description:
@@ -658,13 +510,7 @@ const yokais = [
                 'The Inspirited Yo-kai will really cheer up, and DEF will increase.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '35',
-            spr: '31',
-            def: '29',
-            spd: '38'
-        },
+        stats: { hp: '31', str: '35', spr: '31', def: '29', spd: '38' },
         tribe: 'Brave',
         element: 'Lightning',
         weakness: 'Earth',
@@ -680,6 +526,7 @@ const yokais = [
         ]
     },
     {
+        index: 14,
         name: 'Chansin',
         yokaiNumber: '015',
         image:
@@ -691,14 +538,8 @@ const yokais = [
             name: 'Gambler',
             description: 'High chance to giveand take critical strikes.'
         },
-        attack: {
-            name: 'One-Two Punch',
-            power: '15x2 to 33x2'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        attack: { name: 'One-Two Punch', power: '15x2 to 33x2' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Go for Broke',
             description:
@@ -710,13 +551,7 @@ const yokais = [
             description: "Raises an ally's SPD with his roaring aura!",
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '29',
-            spr: '24',
-            def: '21',
-            spd: '27'
-        },
+        stats: { hp: '31', str: '29', spr: '24', def: '21', spd: '27' },
         tribe: 'Brave',
         element: 'Fire',
         weakness: 'Water',
@@ -737,6 +572,7 @@ const yokais = [
         ]
     },
     {
+        index: 15,
         name: 'Sheen',
         yokaiNumber: '016',
         image:
@@ -748,14 +584,8 @@ const yokais = [
             name: 'Light Speed',
             description: 'High chance to dealcritical attacks.'
         },
-        attack: {
-            name: 'Lightning Slash',
-            power: '20x3 to 44x3'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Lightning Slash', power: '20x3 to 44x3' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'Legendary Slash',
             description:
@@ -768,13 +598,7 @@ const yokais = [
                 'Makes a foe stop worrying about losing and lowers its DEF.',
             power: '0'
         },
-        stats: {
-            hp: '37',
-            str: '38',
-            spr: '23',
-            def: '22',
-            spd: '37'
-        },
+        stats: { hp: '37', str: '38', spr: '23', def: '22', spd: '37' },
         tribe: 'Brave',
         element: 'Wind',
         weakness: 'Ice',
@@ -790,6 +614,7 @@ const yokais = [
         ]
     },
     {
+        index: 16,
         name: 'Snee',
         yokaiNumber: '017',
         image:
@@ -801,14 +626,8 @@ const yokais = [
             name: 'Cursed Skin',
             description: 'All stats will increasewhen Inspirited by foe.'
         },
-        attack: {
-            name: 'Lightning Slash',
-            power: '20x3 to 44x3'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Lightning Slash', power: '20x3 to 44x3' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Demonic Slash',
             description: 'Dices all opponents with his cursed blade.',
@@ -819,13 +638,7 @@ const yokais = [
             description: "The masterwork blade Masamune boosts an ally's STR.",
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '36',
-            spr: '29',
-            def: '23',
-            spd: '36'
-        },
+        stats: { hp: '33', str: '36', spr: '29', def: '23', spd: '36' },
         tribe: 'Brave',
         element: 'Drain',
         weakness: 'x',
@@ -834,6 +647,7 @@ const yokais = [
         evolutionIndexes: [20]
     },
     {
+        index: 17,
         name: 'Gleam',
         yokaiNumber: '018',
         image:
@@ -845,14 +659,8 @@ const yokais = [
             name: 'Light Speed',
             description: 'High chance to dealcritical attacks.'
         },
-        attack: {
-            name: 'Lightning Slash',
-            power: '20x3 to 44x3'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        attack: { name: 'Lightning Slash', power: '20x3 to 44x3' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: 'Holy Slash',
             description:
@@ -865,13 +673,7 @@ const yokais = [
                 "Curses a foe with the blade Muramasa and drops the foe's SPD.",
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '44',
-            spr: '25',
-            def: '27',
-            spd: '42'
-        },
+        stats: { hp: '33', str: '44', spr: '25', def: '27', spd: '42' },
         tribe: 'Brave',
         element: 'Lightning',
         weakness: 'Earth',
@@ -881,6 +683,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 18,
         name: 'Benkei',
         yokaiNumber: '019',
         image:
@@ -892,14 +695,8 @@ const yokais = [
             name: 'Sword Hunting',
             description: 'Power increases eachtime a foe is defeated.'
         },
-        attack: {
-            name: 'Lightning Slash',
-            power: '20x3 to 44x3'
-        },
-        technique: {
-            name: 'Hail',
-            power: '20 to 90'
-        },
+        attack: { name: 'Lightning Slash', power: '20x3 to 44x3' },
+        technique: { name: 'Hail', power: '20 to 90' },
         soultime: {
             name: '999 Blades',
             description: 'Unleashes 999 blades and attacks all foes.',
@@ -910,13 +707,7 @@ const yokais = [
             description: "The holy sword Kusanagi boosts an ally's STR.",
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '39',
-            spr: '18',
-            def: '26',
-            spd: '30'
-        },
+        stats: { hp: '35', str: '39', spr: '18', def: '26', spd: '30' },
         tribe: 'Brave',
         element: 'Ice',
         weakness: 'Fire',
@@ -931,6 +722,7 @@ const yokais = [
         ]
     },
     {
+        index: 19,
         name: 'B3-NK1',
         yokaiNumber: '020',
         image:
@@ -942,14 +734,8 @@ const yokais = [
             name: 'Sword Hunting',
             description: 'Power increases eachtime a foe is defeated.'
         },
-        attack: {
-            name: 'Lightning Slash',
-            power: '20x3 to 44x3'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        attack: { name: 'Lightning Slash', power: '20x3 to 44x3' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: 'B3-NK1 GUN',
             description:
@@ -962,13 +748,7 @@ const yokais = [
                 "Raises an ally's DEF by making part of its body mechanical!",
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '36',
-            spr: '22',
-            def: '23',
-            spd: '34'
-        },
+        stats: { hp: '33', str: '36', spr: '22', def: '23', spd: '34' },
         tribe: 'Brave',
         element: 'Lightning',
         weakness: 'Earth',
@@ -976,6 +756,7 @@ const yokais = [
         favouriteFood: 'Chinese foods'
     },
     {
+        index: 20,
         name: 'Sushiyama',
         yokaiNumber: '021',
         image:
@@ -992,14 +773,8 @@ const yokais = [
             name: 'Guard Break',
             description: "Ignore foe's guardeffect when attacking."
         },
-        attack: {
-            name: 'Headbuster',
-            power: '130 to 195'
-        },
-        technique: {
-            name: 'Hail',
-            power: '20 to 90'
-        },
+        attack: { name: 'Headbuster', power: '130 to 195' },
+        technique: { name: 'Hail', power: '20 to 90' },
         soultime: {
             name: 'Sushiyama Strike',
             description:
@@ -1012,13 +787,7 @@ const yokais = [
                 "Raises an ally's STR with the spirit of an ancient samurai.",
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '33',
-            spr: '22',
-            def: '25',
-            spd: '30'
-        },
+        stats: { hp: '34', str: '33', spr: '22', def: '25', spd: '30' },
         tribe: 'Brave',
         element: 'Ice',
         weakness: 'Fire',
@@ -1039,6 +808,7 @@ const yokais = [
         ]
     },
     {
+        index: 21,
         name: 'Kapunki',
         yokaiNumber: '022',
         image:
@@ -1050,14 +820,8 @@ const yokais = [
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
         },
-        attack: {
-            name: 'Headbuster',
-            power: '130 to 195'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        attack: { name: 'Headbuster', power: '130 to 195' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Boastful Bomber',
             description:
@@ -1070,13 +834,7 @@ const yokais = [
                 'Injects an ally with the soul of kabuki to raise its STR.',
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '33',
-            spr: '23',
-            def: '25',
-            spd: '37'
-        },
+        stats: { hp: '34', str: '33', spr: '23', def: '25', spd: '37' },
         tribe: 'Brave',
         element: 'Fire',
         weakness: 'Water',
@@ -1091,6 +849,7 @@ const yokais = [
         ]
     },
     {
+        index: 22,
         name: 'Beetler',
         yokaiNumber: '023',
         image:
@@ -1098,18 +857,9 @@ const yokais = [
         description:
             'Beetler is a young battler who fights with his horns and his fists. He trains with his rival, Rhinoggin.',
         locations: ['Mt. Wildwood - Trees'],
-        skill: {
-            name: 'Too Serious',
-            description: 'Will never Loaf.'
-        },
-        attack: {
-            name: 'One-Two Punch',
-            power: '15x2 to 33x2'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        skill: { name: 'Too Serious', description: 'Will never Loaf.' },
+        attack: { name: 'One-Two Punch', power: '15x2 to 33x2' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Big Pincers',
             description: 'Pinches a foe with... well, his pincers.',
@@ -1121,13 +871,7 @@ const yokais = [
                 "Boosts an ally's STR with the power of a stag beetle.",
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '30',
-            spr: '23',
-            def: '29',
-            spd: '32'
-        },
+        stats: { hp: '33', str: '30', spr: '23', def: '29', spd: '32' },
         tribe: 'Brave',
         element: 'Earth',
         weakness: 'Wind',
@@ -1136,6 +880,7 @@ const yokais = [
         evolutionIndexes: [22]
     },
     {
+        index: 23,
         name: 'Beetall',
         yokaiNumber: '024',
         image:
@@ -1147,14 +892,8 @@ const yokais = [
             name: 'Intimidation',
             description: 'No Yo-kai will Loafaround.'
         },
-        attack: {
-            name: 'Meteor Punch',
-            power: '20x3 to 30x3'
-        },
-        technique: {
-            name: 'Hail',
-            power: '20 to 90'
-        },
+        attack: { name: 'Meteor Punch', power: '20x3 to 30x3' },
+        technique: { name: 'Hail', power: '20 to 90' },
         soultime: {
             name: 'Infernal Pincers',
             description:
@@ -1166,13 +905,7 @@ const yokais = [
             description: "Boosts an ally's STR to make it a worthier fighter.",
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '39',
-            spr: '24',
-            def: '28',
-            spd: '32'
-        },
+        stats: { hp: '39', str: '39', spr: '24', def: '28', spd: '32' },
         tribe: 'Brave',
         element: 'Ice',
         weakness: 'Fire',
@@ -1181,6 +914,7 @@ const yokais = [
         evolutionIndexes: [22]
     },
     {
+        index: 24,
         name: 'Cruncha',
         yokaiNumber: '025',
         image:
@@ -1192,14 +926,8 @@ const yokais = [
             name: 'Intimidation',
             description: 'No Yo-kai will Loafaround.'
         },
-        attack: {
-            name: 'Meteor Punch',
-            power: '20x3 to 30x3'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'Meteor Punch', power: '20x3 to 30x3' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'The Guillotine',
             description: 'Cuts an enemy with the massive pincers on his head.',
@@ -1211,13 +939,7 @@ const yokais = [
                 "Raises an ally's STR to transform it into a great warrior!",
             power: '0'
         },
-        stats: {
-            hp: '43',
-            str: '40',
-            spr: '25',
-            def: '31',
-            spd: '35'
-        },
+        stats: { hp: '43', str: '40', spr: '25', def: '31', spd: '35' },
         tribe: 'Brave',
         element: 'Lightning',
         weakness: 'Earth',
@@ -1243,6 +965,7 @@ const yokais = [
         ]
     },
     {
+        index: 25,
         name: 'Zerberker',
         yokaiNumber: '026',
         image:
@@ -1250,18 +973,9 @@ const yokais = [
         description:
             "Legend has it that this Yo-kai leveled an entire village with one tantrum. You'll explode with rage if he's around.",
         locations: ['Infinite Inferno - 7-8th Circle'],
-        skill: {
-            name: 'Annoyance',
-            description: 'May attack an ally.'
-        },
-        attack: {
-            name: 'Lightning Slash',
-            power: '20x3 to 44x3'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        skill: { name: 'Annoyance', description: 'May attack an ally.' },
+        attack: { name: 'Lightning Slash', power: '20x3 to 44x3' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Zerberker Slash',
             description:
@@ -1273,13 +987,7 @@ const yokais = [
             description: 'Irritates a foe and makes it attack its allies.',
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '38',
-            spr: '21',
-            def: '31',
-            spd: '40'
-        },
+        stats: { hp: '36', str: '38', spr: '21', def: '31', spd: '40' },
         tribe: 'Brave',
         element: 'Fire',
         weakness: 'Water',
@@ -1287,6 +995,7 @@ const yokais = [
         favouriteFood: 'Meats'
     },
     {
+        index: 26,
         name: 'Snartle',
         yokaiNumber: '027',
         image:
@@ -1298,14 +1007,8 @@ const yokais = [
             name: 'Sword Hunting',
             description: 'Power increases eachtime a foe is defeated.'
         },
-        attack: {
-            name: 'Lightning Slash',
-            power: '20x3 to 44x3'
-        },
-        technique: {
-            name: 'Hail',
-            power: '20 to 90'
-        },
+        attack: { name: 'Lightning Slash', power: '20x3 to 44x3' },
+        technique: { name: 'Hail', power: '20 to 90' },
         soultime: {
             name: 'For Naughty Brats',
             description:
@@ -1318,13 +1021,7 @@ const yokais = [
                 'Makes an enemy so scared of Snartle that it can hardly move.',
             power: '0'
         },
-        stats: {
-            hp: '37',
-            str: '41',
-            spr: '24',
-            def: '33',
-            spd: '39'
-        },
+        stats: { hp: '37', str: '41', spr: '24', def: '33', spd: '39' },
         tribe: 'Brave',
         element: 'Ice',
         weakness: 'Fire',
@@ -1333,6 +1030,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 27,
         name: 'Snotsolong',
         yokaiNumber: '028',
         image:
@@ -1348,14 +1046,8 @@ const yokais = [
             name: 'Water Play',
             description: 'Increases damage ofown Water attacks.'
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Torrent',
-            power: '20 to 90'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Torrent', power: '20 to 90' },
         soultime: {
             name: 'Stretchy Slap',
             description:
@@ -1368,13 +1060,7 @@ const yokais = [
                 "Gives a foe a nose so runny that it can't do anything but blow it!",
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '18',
-            spr: '26',
-            def: '24',
-            spd: '27'
-        },
+        stats: { hp: '24', str: '18', spr: '26', def: '24', spd: '27' },
         tribe: 'Mysterious',
         element: 'Water',
         weakness: 'Lightning',
@@ -1389,6 +1075,7 @@ const yokais = [
         ]
     },
     {
+        index: 28,
         name: 'Duchoo',
         yokaiNumber: '029',
         image:
@@ -1400,14 +1087,8 @@ const yokais = [
             name: 'Snow Play',
             description: 'Increases damage ofown Ice attacks.'
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Sneezy Spike',
             description:
@@ -1420,13 +1101,7 @@ const yokais = [
                 'Makes an enemy Yo-kai catch a cold. This will lower its STR.',
             power: '0'
         },
-        stats: {
-            hp: '25',
-            str: '19',
-            spr: '27',
-            def: '24',
-            spd: '27'
-        },
+        stats: { hp: '25', str: '19', spr: '27', def: '24', spd: '27' },
         tribe: 'Mysterious',
         element: 'Ice',
         weakness: 'Fire',
@@ -1434,6 +1109,7 @@ const yokais = [
         favouriteFood: 'Seafoods'
     },
     {
+        index: 29,
         name: 'Wazzat',
         yokaiNumber: '030',
         image:
@@ -1445,14 +1121,8 @@ const yokais = [
             name: 'Fire Watchout',
             description: 'Takes less damagefrom Fire attacks.'
         },
-        attack: {
-            name: 'Bite',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Bite', power: '15 to 67' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'Wuwuzzat?',
             description:
@@ -1465,13 +1135,7 @@ const yokais = [
                 'Makes a foe forgetful enough to start attacking its allies!',
             power: '0'
         },
-        stats: {
-            hp: '23',
-            str: '15',
-            spr: '28',
-            def: '16',
-            spd: '37'
-        },
+        stats: { hp: '23', str: '15', spr: '28', def: '16', spd: '37' },
         tribe: 'Mysterious',
         element: 'Wind',
         weakness: 'Ice',
@@ -1479,6 +1143,7 @@ const yokais = [
         favouriteFood: 'Candies'
     },
     {
+        index: 30,
         name: 'Dummkap',
         yokaiNumber: '031',
         image:
@@ -1486,18 +1151,9 @@ const yokais = [
         description:
             'This hat Yo-kai can make geniuses into dreamy fools. A foolish life can be more fun...but would you even realize if it were?!',
         locations: ['Downtown Springdale - Trees'],
-        skill: {
-            name: 'Prediction',
-            description: "Decreases foe'saccuracy."
-        },
-        attack: {
-            name: 'Bite',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        skill: { name: 'Prediction', description: "Decreases foe'saccuracy." },
+        attack: { name: 'Bite', power: '15 to 67' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: 'Ignorance Is Bliss',
             description:
@@ -1510,13 +1166,7 @@ const yokais = [
                 'The Inspirited Yo-kai gets into a groove and gets a big SPR boost.',
             power: '0'
         },
-        stats: {
-            hp: '22',
-            str: '19',
-            spr: '21',
-            def: '20',
-            spd: '35'
-        },
+        stats: { hp: '22', str: '19', spr: '21', def: '20', spd: '35' },
         tribe: 'Mysterious',
         element: 'Lightning',
         weakness: 'Earth',
@@ -1524,6 +1174,7 @@ const yokais = [
         favouriteFood: 'Candies'
     },
     {
+        index: 31,
         name: "D'wanna",
         yokaiNumber: '032',
         image:
@@ -1535,14 +1186,8 @@ const yokais = [
             name: 'Soothing Rhythm',
             description: 'All foes will be prone toLoafing around.'
         },
-        attack: {
-            name: 'Hit',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Heal',
-            power: '20 to 90'
-        },
+        attack: { name: 'Hit', power: '10 to 45' },
+        technique: { name: 'Heal', power: '20 to 90' },
         soultime: {
             name: 'Croaking Prayer',
             description: 'Hinders foes with a chanted curse.',
@@ -1554,13 +1199,7 @@ const yokais = [
                 "Lowers an opponent's STR and makes it sigh constantly.",
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '18',
-            spr: '27',
-            def: '20',
-            spd: '25'
-        },
+        stats: { hp: '26', str: '18', spr: '27', def: '20', spd: '25' },
         tribe: 'Mysterious',
         element: 'Restoration',
         weakness: 'x',
@@ -1569,6 +1208,7 @@ const yokais = [
         evolutionIndexes: [23]
     },
     {
+        index: 32,
         name: "N'more",
         yokaiNumber: '033',
         image:
@@ -1578,20 +1218,14 @@ const yokais = [
         locations: [
             'Blossom Heights - Bushes',
             "Shopper's Row - Tranquility Apts. - B-301",
-            'Evolve D\u2019wanna at Level 15.'
+            'Evolve D’wanna at Level 15.'
         ],
         skill: {
             name: 'Soothing Rhythm',
             description: 'All foes will be prone toLoafing around.'
         },
-        attack: {
-            name: 'Beat',
-            power: '40 to 88'
-        },
-        technique: {
-            name: 'Restore',
-            power: '50 to 110'
-        },
+        attack: { name: 'Beat', power: '40 to 88' },
+        technique: { name: 'Restore', power: '50 to 110' },
         soultime: {
             name: 'Croaking Prayer',
             description: 'Hinders foes with a chanted curse.',
@@ -1603,13 +1237,7 @@ const yokais = [
                 "Lowers an opponent's STR significantly and makes it sigh constantly.",
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '22',
-            spr: '34',
-            def: '20',
-            spd: '29'
-        },
+        stats: { hp: '32', str: '22', spr: '34', def: '20', spd: '29' },
         tribe: 'Mysterious',
         element: 'Restoration',
         weakness: 'x',
@@ -1618,6 +1246,7 @@ const yokais = [
         evolutionIndexes: [23]
     },
     {
+        index: 33,
         name: "Q'wit",
         yokaiNumber: '034',
         image:
@@ -1629,14 +1258,8 @@ const yokais = [
             name: 'Soothing Rhythm',
             description: 'All foes will be prone toLoafing around.'
         },
-        attack: {
-            name: 'Beat',
-            power: '40 to 88'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Beat', power: '40 to 88' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Yawnehameha X',
             description:
@@ -1649,13 +1272,7 @@ const yokais = [
                 'Lowers all stats of an opponent by taking away its motivation.',
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '23',
-            spr: '36',
-            def: '22',
-            spd: '29'
-        },
+        stats: { hp: '34', str: '23', spr: '36', def: '22', spd: '29' },
         tribe: 'Mysterious',
         element: 'Earth',
         weakness: 'Wind',
@@ -1671,6 +1288,7 @@ const yokais = [
         ]
     },
     {
+        index: 34,
         name: 'Lafalotta',
         yokaiNumber: '035',
         image:
@@ -1682,14 +1300,8 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Headsmack',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Headsmack', power: '15 to 67' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Mwabsorption',
             description:
@@ -1702,13 +1314,7 @@ const yokais = [
                 "Makes a foe laugh so much during a battle that it can't move.",
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '20',
-            spr: '29',
-            def: '24',
-            spd: '28'
-        },
+        stats: { hp: '26', str: '20', spr: '29', def: '24', spd: '28' },
         tribe: 'Mysterious',
         element: 'Drain',
         weakness: 'x',
@@ -1716,6 +1322,7 @@ const yokais = [
         favouriteFood: 'Hamburgers'
     },
     {
+        index: 35,
         name: 'Blips',
         yokaiNumber: '036',
         image:
@@ -1727,14 +1334,8 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Headsmack',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Headsmack', power: '15 to 67' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Blue Kiss',
             description:
@@ -1746,13 +1347,7 @@ const yokais = [
             description: 'Chills a foe so much that its SPR drops.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '22',
-            spr: '31',
-            def: '25',
-            spd: '30'
-        },
+        stats: { hp: '31', str: '22', spr: '31', def: '25', spd: '30' },
         tribe: 'Mysterious',
         element: 'Drain',
         weakness: 'x',
@@ -1760,6 +1355,7 @@ const yokais = [
         favouriteFood: 'Hamburgers'
     },
     {
+        index: 36,
         name: 'Tattletell',
         yokaiNumber: '037',
         image:
@@ -1775,14 +1371,8 @@ const yokais = [
             name: 'Caring',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Heal',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Heal', power: '20 to 90' },
         soultime: {
             name: 'Loving Slap',
             description:
@@ -1795,13 +1385,7 @@ const yokais = [
                 'Makes a foe reveal its weakness, thus lowering its DEF.',
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '21',
-            spr: '31',
-            def: '22',
-            spd: '28'
-        },
+        stats: { hp: '27', str: '21', spr: '31', def: '22', spd: '28' },
         tribe: 'Mysterious',
         element: 'Restoration',
         weakness: 'x',
@@ -1810,6 +1394,7 @@ const yokais = [
         evolutionIndexes: [28]
     },
     {
+        index: 37,
         name: 'Tattlecast',
         yokaiNumber: '038',
         image:
@@ -1821,14 +1406,8 @@ const yokais = [
             name: 'Caring',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
         },
-        attack: {
-            name: 'Beat',
-            power: '40 to 88'
-        },
-        technique: {
-            name: 'Restore',
-            power: '50 to 110'
-        },
+        attack: { name: 'Beat', power: '40 to 88' },
+        technique: { name: 'Restore', power: '50 to 110' },
         soultime: {
             name: 'Max Volume 11!',
             description:
@@ -1841,13 +1420,7 @@ const yokais = [
                 'Makes a foe reveal its weakness, thus lowering its DEF.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '22',
-            spr: '39',
-            def: '24',
-            spd: '34'
-        },
+        stats: { hp: '30', str: '22', spr: '39', def: '24', spd: '34' },
         tribe: 'Mysterious',
         element: 'Restoration',
         weakness: 'x',
@@ -1856,6 +1429,7 @@ const yokais = [
         evolutionIndexes: [28]
     },
     {
+        index: 38,
         name: 'Skranny',
         yokaiNumber: '039',
         image:
@@ -1867,14 +1441,8 @@ const yokais = [
             name: 'Caring',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Heal',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Heal', power: '20 to 90' },
         soultime: {
             name: 'Skeleton Smack',
             description:
@@ -1886,13 +1454,7 @@ const yokais = [
             description: "Lowers an enemy's DEF with a shady skeletal curse.",
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '22',
-            spr: '32',
-            def: '25',
-            spd: '33'
-        },
+        stats: { hp: '30', str: '22', spr: '32', def: '25', spd: '33' },
         tribe: 'Mysterious',
         element: 'Restoration',
         weakness: 'x',
@@ -1901,6 +1463,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 39,
         name: 'Cupistol',
         yokaiNumber: '040',
         image:
@@ -1915,14 +1478,8 @@ const yokais = [
             name: 'Popularity',
             description: 'Makes more foesbefriend you.'
         },
-        attack: {
-            name: 'Shoot',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Shoot', power: '10 to 45' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'Kiss of Life',
             description:
@@ -1935,13 +1492,7 @@ const yokais = [
                 'Makes an ally so popular that all foes will target it.',
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '20',
-            spr: '30',
-            def: '22',
-            spd: '31'
-        },
+        stats: { hp: '26', str: '20', spr: '30', def: '22', spd: '31' },
         tribe: 'Mysterious',
         element: 'Wind',
         weakness: 'Ice',
@@ -1950,6 +1501,7 @@ const yokais = [
         evolutionIndexes: [30, 31]
     },
     {
+        index: 40,
         name: 'Casanuva',
         yokaiNumber: '041',
         image:
@@ -1961,14 +1513,8 @@ const yokais = [
             name: 'Popularity',
             description: 'Makes more foesbefriend you.'
         },
-        attack: {
-            name: 'Guns Blazing',
-            power: '15x3 to 33x3'
-        },
-        technique: {
-            name: 'Storm',
-            power: '80 to 120'
-        },
+        attack: { name: 'Guns Blazing', power: '15x3 to 33x3' },
+        technique: { name: 'Storm', power: '80 to 120' },
         soultime: {
             name: 'Heavenly Heart',
             description:
@@ -1981,13 +1527,7 @@ const yokais = [
                 'Makes an ally so popular that all foes will target it.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '25',
-            spr: '39',
-            def: '26',
-            spd: '35'
-        },
+        stats: { hp: '33', str: '25', spr: '39', def: '26', spd: '35' },
         tribe: 'Mysterious',
         element: 'Wind',
         weakness: 'Ice',
@@ -1996,6 +1536,7 @@ const yokais = [
         evolutionIndexes: [30]
     },
     {
+        index: 41,
         name: 'Casanono',
         yokaiNumber: '042',
         image:
@@ -2007,14 +1548,8 @@ const yokais = [
             name: 'Unpopularity',
             description: 'Makes foes less likelyto become your friend.'
         },
-        attack: {
-            name: 'Guns Blazing',
-            power: '15x3 to 33x3'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        attack: { name: 'Guns Blazing', power: '15x3 to 33x3' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
             name: 'Fiery Longing',
             description:
@@ -2027,13 +1562,7 @@ const yokais = [
                 'Makes an ally so unpopular that all foes will ignore it.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '23',
-            spr: '43',
-            def: '24',
-            spd: '37'
-        },
+        stats: { hp: '31', str: '23', spr: '43', def: '24', spd: '37' },
         tribe: 'Mysterious',
         element: 'Fire',
         weakness: 'Water',
@@ -2048,6 +1577,7 @@ const yokais = [
         ]
     },
     {
+        index: 42,
         name: 'Signibble',
         yokaiNumber: '043',
         image:
@@ -2065,14 +1595,8 @@ const yokais = [
             name: 'Lightning Play',
             description: 'Increases damage of own Lightning attacks.'
         },
-        attack: {
-            name: 'One-Two Punch',
-            power: '15x2 to 33x2'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'One-Two Punch', power: '15x2 to 33x2' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'Signal Shock',
             description:
@@ -2084,13 +1608,7 @@ const yokais = [
             description: 'Slows an enemy down with an electric shock.',
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '24',
-            spr: '28',
-            def: '22',
-            spd: '26'
-        },
+        stats: { hp: '24', str: '24', spr: '28', def: '22', spd: '26' },
         tribe: 'Mysterious',
         element: 'Lightning',
         weakness: 'Earth',
@@ -2111,6 +1629,7 @@ const yokais = [
         ]
     },
     {
+        index: 43,
         name: 'Signiton',
         yokaiNumber: '044',
         image:
@@ -2126,14 +1645,8 @@ const yokais = [
             name: 'Lightning Play',
             description: 'Increases damage of own Lightning attacks.'
         },
-        attack: {
-            name: 'One-Two Punch',
-            power: '15x2 to 33x2'
-        },
-        technique: {
-            name: 'Voltage',
-            power: '80 to 120'
-        },
+        attack: { name: 'One-Two Punch', power: '15x2 to 33x2' },
+        technique: { name: 'Voltage', power: '80 to 120' },
         soultime: {
             name: "Ton o' Thunder",
             description:
@@ -2145,13 +1658,7 @@ const yokais = [
             description: 'Slows an enemy down with an electric shock.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '29',
-            spr: '36',
-            def: '29',
-            spd: '28'
-        },
+        stats: { hp: '30', str: '29', spr: '36', def: '29', spd: '28' },
         tribe: 'Mysterious',
         element: 'Lightning',
         weakness: 'Earth',
@@ -2167,6 +1674,7 @@ const yokais = [
         ]
     },
     {
+        index: 44,
         name: 'Statiking',
         yokaiNumber: '045',
         image:
@@ -2178,14 +1686,8 @@ const yokais = [
             name: 'Long Lasting',
             description: 'Good Inspirits will lastlonger.'
         },
-        attack: {
-            name: 'One-Two Punch',
-            power: '15x2 to 33x2'
-        },
-        technique: {
-            name: 'Voltage',
-            power: '80 to 120'
-        },
+        attack: { name: 'One-Two Punch', power: '15x2 to 33x2' },
+        technique: { name: 'Voltage', power: '80 to 120' },
         soultime: {
             name: 'Giga Turbocharge',
             description:
@@ -2198,13 +1700,7 @@ const yokais = [
                 "Gradually decreases an enemy's HP through electric shock.",
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '34',
-            spr: '41',
-            def: '32',
-            spd: '34'
-        },
+        stats: { hp: '33', str: '34', spr: '41', def: '32', spd: '34' },
         tribe: 'Mysterious',
         element: 'Lightning',
         weakness: 'Earth',
@@ -2213,6 +1709,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 45,
         name: 'Mirapo',
         yokaiNumber: '046',
         image:
@@ -2224,14 +1721,8 @@ const yokais = [
             name: 'Mirror Body',
             description: 'Sends 1/2 of Techniquedamage back at foe.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Mirror to Mirror',
             description:
@@ -2244,13 +1735,7 @@ const yokais = [
                 "Raises an ally's SPR with the power of a mysterious mirror.",
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '20',
-            spr: '34',
-            def: '30',
-            spd: '25'
-        },
+        stats: { hp: '30', str: '20', spr: '34', def: '30', spd: '25' },
         tribe: 'Mysterious',
         element: 'Drain',
         weakness: 'x',
@@ -2258,6 +1743,7 @@ const yokais = [
         favouriteFood: 'Chinese foods'
     },
     {
+        index: 46,
         name: 'Mircle',
         yokaiNumber: '047',
         image:
@@ -2269,14 +1755,8 @@ const yokais = [
             name: 'Mirror Body',
             description: 'Sends 1/2 of Techniquedamage back at foe.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Reaper',
-            power: '80 to 120'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Reaper', power: '80 to 120' },
         soultime: {
             name: 'Dark World',
             description:
@@ -2288,13 +1768,7 @@ const yokais = [
             description: 'Curses foes and makes their SPR drop significantly.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '23',
-            spr: '38',
-            def: '38',
-            spd: '24'
-        },
+        stats: { hp: '31', str: '23', spr: '38', def: '38', spd: '24' },
         tribe: 'Mysterious',
         element: 'Drain',
         weakness: 'x',
@@ -2302,6 +1776,7 @@ const yokais = [
         favouriteFood: 'Chinese foods'
     },
     {
+        index: 47,
         name: 'Illoo',
         yokaiNumber: '048',
         image:
@@ -2313,14 +1788,8 @@ const yokais = [
             name: "Brother's Vow",
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
         },
-        attack: {
-            name: 'Hit',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Hit', power: '10 to 45' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Spirit Illusion',
             description: "Summons will-o'-the- wisps to damage his enemies.",
@@ -2332,13 +1801,7 @@ const yokais = [
                 'Envelops an ally in an illusion, which will raise its SPR significantly.',
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '19',
-            spr: '36',
-            def: '23',
-            spd: '29'
-        },
+        stats: { hp: '27', str: '19', spr: '36', def: '23', spd: '29' },
         tribe: 'Mysterious',
         element: 'Water',
         weakness: 'Lightning',
@@ -2346,6 +1809,7 @@ const yokais = [
         favouriteFood: 'Chinese foods'
     },
     {
+        index: 48,
         name: 'Elloo',
         yokaiNumber: '049',
         image:
@@ -2360,14 +1824,8 @@ const yokais = [
             name: "Brother's Vow",
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
         },
-        attack: {
-            name: 'Hit',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        attack: { name: 'Hit', power: '10 to 45' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Spirit Daze',
             description: "Summons will-o'-the- wisps to damage his enemies.",
@@ -2379,13 +1837,7 @@ const yokais = [
                 'Makes an ally move fast enough to look like a thin haze.',
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '17',
-            spr: '41',
-            def: '20',
-            spd: '32'
-        },
+        stats: { hp: '24', str: '17', spr: '41', def: '20', spd: '32' },
         tribe: 'Mysterious',
         element: 'Ice',
         weakness: 'Fire',
@@ -2393,6 +1845,7 @@ const yokais = [
         favouriteFood: 'Chinese foods'
     },
     {
+        index: 49,
         name: 'Alloo',
         yokaiNumber: '050',
         image:
@@ -2404,14 +1857,8 @@ const yokais = [
             name: "Brother's Vow",
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
         },
-        attack: {
-            name: 'Hit',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'Hit', power: '10 to 45' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'Wandering World',
             description:
@@ -2424,13 +1871,7 @@ const yokais = [
                 "Drops an enemy's DEF by filling it with the desire to wander.",
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '21',
-            spr: '38',
-            def: '26',
-            spd: '34'
-        },
+        stats: { hp: '29', str: '21', spr: '38', def: '26', spd: '34' },
         tribe: 'Mysterious',
         element: 'Lightning',
         weakness: 'Earth',
@@ -2445,6 +1886,7 @@ const yokais = [
         ]
     },
     {
+        index: 50,
         name: 'Espy',
         yokaiNumber: '051',
         image:
@@ -2456,14 +1898,8 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Headsmack',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Headsmack', power: '15 to 67' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Third Eye',
             description:
@@ -2475,13 +1911,7 @@ const yokais = [
             description: "Reads a foe's weakness and drops its DEF.",
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '25',
-            spr: '32',
-            def: '24',
-            spd: '32'
-        },
+        stats: { hp: '31', str: '25', spr: '32', def: '24', spd: '32' },
         tribe: 'Mysterious',
         element: 'Earth',
         weakness: 'Wind',
@@ -2501,6 +1931,7 @@ const yokais = [
         ]
     },
     {
+        index: 51,
         name: 'Infour',
         yokaiNumber: '052',
         image:
@@ -2515,14 +1946,8 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Headsmack',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Headsmack', power: '15 to 67' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Foursight',
             description:
@@ -2535,13 +1960,7 @@ const yokais = [
                 "Mysterious power significantly lowers an enemy's SPR. ",
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '22',
-            spr: '36',
-            def: '21',
-            spd: '33'
-        },
+        stats: { hp: '30', str: '22', spr: '36', def: '21', spd: '33' },
         tribe: 'Mysterious',
         element: 'Drain',
         weakness: 'x',
@@ -2549,6 +1968,7 @@ const yokais = [
         favouriteFood: 'Vegetables'
     },
     {
+        index: 52,
         name: 'Tengu',
         yokaiNumber: '053',
         image:
@@ -2560,14 +1980,8 @@ const yokais = [
             name: 'Wind Play',
             description: 'Increases damage ofown Wind attacks.'
         },
-        attack: {
-            name: 'Nasty Kick',
-            power: '100 to 150'
-        },
-        technique: {
-            name: 'Storm',
-            power: '80 to 120'
-        },
+        attack: { name: 'Nasty Kick', power: '100 to 150' },
+        technique: { name: 'Storm', power: '80 to 120' },
         soultime: {
             name: 'Typhoon Fan',
             description:
@@ -2580,13 +1994,7 @@ const yokais = [
                 'Makes a Yo-kai into a hated tengu, drawing attacks to it.',
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '27',
-            spr: '27',
-            def: '26',
-            spd: '22'
-        },
+        stats: { hp: '29', str: '27', spr: '27', def: '26', spd: '22' },
         tribe: 'Mysterious',
         element: 'Wind',
         weakness: 'Ice',
@@ -2594,6 +2002,7 @@ const yokais = [
         favouriteFood: 'Candies'
     },
     {
+        index: 53,
         name: 'Flengu',
         yokaiNumber: '054',
         image:
@@ -2605,14 +2014,8 @@ const yokais = [
             name: 'Fire Play',
             description: 'Increases damage ofown Fire attacks.'
         },
-        attack: {
-            name: 'Nasty Kick',
-            power: '100 to 150'
-        },
-        technique: {
-            name: 'Incinerate',
-            power: '80 to 120'
-        },
+        attack: { name: 'Nasty Kick', power: '100 to 150' },
+        technique: { name: 'Incinerate', power: '80 to 120' },
         soultime: {
             name: 'Blazing Typhoon',
             description:
@@ -2625,13 +2028,7 @@ const yokais = [
                 'Burns a foe with raging fire and steadily lowers its HP.',
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '30',
-            spr: '33',
-            def: '26',
-            spd: '19'
-        },
+        stats: { hp: '34', str: '30', spr: '33', def: '26', spd: '19' },
         tribe: 'Mysterious',
         element: 'Fire',
         weakness: 'Water',
@@ -2640,6 +2037,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 54,
         name: 'Kyubi',
         yokaiNumber: '055',
         image:
@@ -2647,18 +2045,9 @@ const yokais = [
         description:
             'An elite nine-tailed-fox Yo-kai. He can easily produce power greater than a volcanic eruption.',
         locations: ['Quest - The Legendary Kyubi'],
-        skill: {
-            name: 'Sense of Smell',
-            description: 'Never misses attacks.'
-        },
-        attack: {
-            name: 'Tail Slap',
-            power: '100 to 150'
-        },
-        technique: {
-            name: 'Incinerate',
-            power: '80 to 120'
-        },
+        skill: { name: 'Sense of Smell', description: 'Never misses attacks.' },
+        attack: { name: 'Tail Slap', power: '100 to 150' },
+        technique: { name: 'Incinerate', power: '80 to 120' },
         soultime: {
             name: 'Inferno',
             description:
@@ -2671,13 +2060,7 @@ const yokais = [
                 'Burns a foe with raging fire and steadily lowers its HP.',
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '24',
-            spr: '44',
-            def: '31',
-            spd: '38'
-        },
+        stats: { hp: '32', str: '24', spr: '44', def: '31', spd: '38' },
         tribe: 'Mysterious',
         element: 'Fire',
         weakness: 'Water',
@@ -2685,6 +2068,7 @@ const yokais = [
         favouriteFood: 'Seafoods'
     },
     {
+        index: 55,
         name: 'Frostail',
         yokaiNumber: '056',
         image:
@@ -2692,18 +2076,9 @@ const yokais = [
         description:
             "Even a single hair of this rare Yo-kai's silvery coat can bring generations of good luck!",
         locations: [],
-        skill: {
-            name: 'Sense of Smell',
-            description: 'Never misses attacks.'
-        },
-        attack: {
-            name: 'Tail Slap',
-            power: '100 to 150'
-        },
-        technique: {
-            name: 'Blizzard',
-            power: '80 to 120'
-        },
+        skill: { name: 'Sense of Smell', description: 'Never misses attacks.' },
+        attack: { name: 'Tail Slap', power: '100 to 150' },
+        technique: { name: 'Blizzard', power: '80 to 120' },
         soultime: {
             name: 'Arctic Abyss',
             description: 'Freezes his foes with his powerful, icy spirit.',
@@ -2715,13 +2090,7 @@ const yokais = [
                 "Boosts an ally's SPR under the watchful eye of Frostail.",
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '26',
-            spr: '47',
-            def: '30',
-            spd: '37'
-        },
+        stats: { hp: '34', str: '26', spr: '47', def: '30', spd: '37' },
         tribe: 'Mysterious',
         element: 'Ice',
         weakness: 'Fire',
@@ -2747,6 +2116,7 @@ const yokais = [
         ]
     },
     {
+        index: 56,
         name: 'Dulluma',
         yokaiNumber: '057',
         image:
@@ -2762,14 +2132,8 @@ const yokais = [
             name: 'Glossy Skin',
             description: 'Does not get dealtcritical damage.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Headbutt HEY-O!',
             description:
@@ -2782,13 +2146,7 @@ const yokais = [
                 'Makes an enemy very lazy, with absolutely no desire to move.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '26',
-            spr: '18',
-            def: '26',
-            spd: '17'
-        },
+        stats: { hp: '30', str: '26', spr: '18', def: '26', spd: '17' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -2797,6 +2155,7 @@ const yokais = [
         evolutionIndexes: [7]
     },
     {
+        index: 57,
         name: 'Darumacho',
         yokaiNumber: '058',
         image:
@@ -2808,14 +2167,8 @@ const yokais = [
             name: 'Glossy Skin',
             description: 'Does not get dealtcritical damage.'
         },
-        attack: {
-            name: 'Power Punch',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Power Punch', power: '50 to 110' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Burning Buster',
             description:
@@ -2827,13 +2180,7 @@ const yokais = [
             description: 'Fills an ally with machismo and boosts its STR.',
             power: '0'
         },
-        stats: {
-            hp: '41',
-            str: '30',
-            spr: '20',
-            def: '35',
-            spd: '23'
-        },
+        stats: { hp: '41', str: '30', spr: '20', def: '35', spd: '23' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -2849,6 +2196,7 @@ const yokais = [
         ]
     },
     {
+        index: 58,
         name: 'Goruma',
         yokaiNumber: '059',
         image:
@@ -2860,14 +2208,8 @@ const yokais = [
             name: 'Glossy Skin',
             description: 'Does not get dealtcritical damage.'
         },
-        attack: {
-            name: 'Power Punch',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Power Punch', power: '50 to 110' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'Gorilla Straight',
             description:
@@ -2880,13 +2222,7 @@ const yokais = [
                 'Makes an enemy such a knucklehead that it forgets its friends.',
             power: '0'
         },
-        stats: {
-            hp: '41',
-            str: '37',
-            spr: '19',
-            def: '33',
-            spd: '19'
-        },
+        stats: { hp: '41', str: '37', spr: '19', def: '33', spd: '19' },
         tribe: 'Tough',
         element: 'Wind',
         weakness: 'Ice',
@@ -2894,6 +2230,7 @@ const yokais = [
         favouriteFood: 'Breads'
     },
     {
+        index: 59,
         name: 'Noway',
         yokaiNumber: '060',
         image:
@@ -2905,14 +2242,8 @@ const yokais = [
             name: 'Blocker',
             description: 'Will be guarding whenmoving to the front.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'No Way Through',
             description:
@@ -2925,13 +2256,7 @@ const yokais = [
                 'Uses the power of "no way!" to make a Yo-kai refuse to fight.',
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '24',
-            spr: '18',
-            def: '28',
-            spd: '20'
-        },
+        stats: { hp: '27', str: '24', spr: '18', def: '28', spd: '20' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -2947,6 +2272,7 @@ const yokais = [
         ]
     },
     {
+        index: 60,
         name: 'Impass',
         yokaiNumber: '061',
         image:
@@ -2961,14 +2287,8 @@ const yokais = [
             name: 'Blocker',
             description: 'Will be guarding whenmoving to the front.'
         },
-        attack: {
-            name: 'Tackle',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Tackle', power: '60 to 90' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Insurmountable',
             description:
@@ -2980,13 +2300,7 @@ const yokais = [
             description: 'Makes a foe refuse everything...including fighting.',
             power: '0'
         },
-        stats: {
-            hp: '38',
-            str: '29',
-            spr: '21',
-            def: '44',
-            spd: '27'
-        },
+        stats: { hp: '38', str: '29', spr: '21', def: '44', spd: '27' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -2995,6 +2309,7 @@ const yokais = [
         evolutionIndexes: [39]
     },
     {
+        index: 61,
         name: 'Walldin',
         yokaiNumber: '062',
         image:
@@ -3006,14 +2321,8 @@ const yokais = [
             name: 'Blocker',
             description: 'Will be guarding whenmoving to the front.'
         },
-        attack: {
-            name: 'Tackle',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Tackle', power: '60 to 90' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Stonewall Drop',
             description:
@@ -3026,13 +2335,7 @@ const yokais = [
                 "Increases an ally's DEF to the level of a castle wall.",
             power: '0'
         },
-        stats: {
-            hp: '40',
-            str: '32',
-            spr: '17',
-            def: '45',
-            spd: '30'
-        },
+        stats: { hp: '40', str: '32', spr: '17', def: '45', spd: '30' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -3048,25 +2351,20 @@ const yokais = [
         ]
     },
     {
+        index: 62,
         name: 'Armsman',
         yokaiNumber: '063',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/armsman.png',
         description:
-            'Even headless he gives 110 percent. He dreams of reuniting with his head someday... Not sure how he dreams\u2014he just does.',
+            'Even headless he gives 110 percent. He dreams of reuniting with his head someday... Not sure how he dreams—he just does.',
         locations: ['Blossom Heights - Old Mansion Attic'],
         skill: {
             name: 'Spirit Guard',
             description: 'No elemental-weaknessdamage if guarding.'
         },
-        attack: {
-            name: 'Power Punch',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Hail',
-            power: '20 to 90'
-        },
+        attack: { name: 'Power Punch', power: '50 to 110' },
+        technique: { name: 'Hail', power: '20 to 90' },
         soultime: {
             name: 'Lock of Steel',
             description: "Gives an order that raises allies' morale and DEF.",
@@ -3078,13 +2376,7 @@ const yokais = [
                 "Raises an ally's DEF with Armsman's divine protection.",
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '26',
-            spr: '20',
-            def: '27',
-            spd: '21'
-        },
+        stats: { hp: '35', str: '26', spr: '20', def: '27', spd: '21' },
         tribe: 'Tough',
         element: 'Ice',
         weakness: 'Fire',
@@ -3093,6 +2385,7 @@ const yokais = [
         evolutionIndexes: [11]
     },
     {
+        index: 63,
         name: 'Fidgephant',
         yokaiNumber: '064',
         image:
@@ -3104,14 +2397,8 @@ const yokais = [
             name: 'Endurance',
             description: 'Will keep 1 HP after aknockout blow once.'
         },
-        attack: {
-            name: 'Fullswing',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Torrent',
-            power: '20 to 90'
-        },
+        attack: { name: 'Fullswing', power: '80 to 120' },
+        technique: { name: 'Torrent', power: '20 to 90' },
         soultime: {
             name: 'Fidgeting Smack',
             description:
@@ -3123,13 +2410,7 @@ const yokais = [
             description: 'Makes a foe fidget too much to fight.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '29',
-            spr: '22',
-            def: '29',
-            spd: '26'
-        },
+        stats: { hp: '33', str: '29', spr: '22', def: '29', spd: '26' },
         tribe: 'Tough',
         element: 'Water',
         weakness: 'Lightning',
@@ -3137,6 +2418,7 @@ const yokais = [
         favouriteFood: 'Rice Balls'
     },
     {
+        index: 64,
         name: 'Touphant',
         yokaiNumber: '065',
         image:
@@ -3148,14 +2430,8 @@ const yokais = [
             name: 'Endurance',
             description: 'Will keep 1 HP after aknockout blow once.'
         },
-        attack: {
-            name: 'Fullswing',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Fullswing', power: '80 to 120' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Trembling Smack',
             description:
@@ -3167,13 +2443,7 @@ const yokais = [
             description: 'Makes an enemy shake like a newborn fawn.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '26',
-            spr: '29',
-            def: '31',
-            spd: '23'
-        },
+        stats: { hp: '30', str: '26', spr: '29', def: '31', spd: '23' },
         tribe: 'Tough',
         element: 'Water',
         weakness: 'Lightning',
@@ -3181,6 +2451,7 @@ const yokais = [
         favouriteFood: 'Rice Balls'
     },
     {
+        index: 65,
         name: 'Blowkade',
         yokaiNumber: '066',
         image:
@@ -3192,14 +2463,8 @@ const yokais = [
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
         },
-        attack: {
-            name: 'Palm Strike',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Torrent',
-            power: '20 to 90'
-        },
+        attack: { name: 'Palm Strike', power: '60 to 90' },
+        technique: { name: 'Torrent', power: '20 to 90' },
         soultime: {
             name: 'Barricade Block',
             description:
@@ -3212,13 +2477,7 @@ const yokais = [
                 'Pierces a foe with a needle and gradually lowers its HP.',
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '25',
-            spr: '18',
-            def: '30',
-            spd: '20'
-        },
+        stats: { hp: '34', str: '25', spr: '18', def: '30', spd: '20' },
         tribe: 'Tough',
         element: 'Water',
         weakness: 'Lightning',
@@ -3226,6 +2485,7 @@ const yokais = [
         favouriteFood: 'Milks'
     },
     {
+        index: 66,
         name: 'Ledballoon',
         yokaiNumber: '067',
         image:
@@ -3237,14 +2497,8 @@ const yokais = [
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
         },
-        attack: {
-            name: 'Palm Strike',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Torrent',
-            power: '20 to 90'
-        },
+        attack: { name: 'Palm Strike', power: '60 to 90' },
+        technique: { name: 'Torrent', power: '20 to 90' },
         soultime: {
             name: 'Iron Cloutain',
             description: 'Slaps an enemy. Can cancel enemy Soultimate Moves.',
@@ -3256,13 +2510,7 @@ const yokais = [
                 'Pierces a foe with a needle and gradually lowers its HP.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '28',
-            spr: '15',
-            def: '28',
-            spd: '20'
-        },
+        stats: { hp: '31', str: '28', spr: '15', def: '28', spd: '20' },
         tribe: 'Tough',
         element: 'Water',
         weakness: 'Lightning',
@@ -3277,6 +2525,7 @@ const yokais = [
         ]
     },
     {
+        index: 67,
         name: 'Mad Mountain',
         yokaiNumber: '068',
         image:
@@ -3291,14 +2540,8 @@ const yokais = [
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
         },
-        attack: {
-            name: 'Palm Strike',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Hail',
-            power: '20 to 90'
-        },
+        attack: { name: 'Palm Strike', power: '60 to 90' },
+        technique: { name: 'Hail', power: '20 to 90' },
         soultime: {
             name: 'Ultra Sumo Stomp',
             description:
@@ -3311,13 +2554,7 @@ const yokais = [
                 "Boosts an ally's DEF with an extra jolt of directed tenacity.",
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '28',
-            spr: '21',
-            def: '29',
-            spd: '25'
-        },
+        stats: { hp: '36', str: '28', spr: '21', def: '29', spd: '25' },
         tribe: 'Tough',
         element: 'Ice',
         weakness: 'Fire',
@@ -3332,25 +2569,20 @@ const yokais = [
         ]
     },
     {
+        index: 68,
         name: 'Lava Lord',
         yokaiNumber: '069',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/lava_lord.png',
         description:
-            "And in red, we have the only wrestler to rival Mad Mountain! It's the violent volcano himself\u2014 LAAAVA LOOOOOOORD!",
+            "And in red, we have the only wrestler to rival Mad Mountain! It's the violent volcano himself— LAAAVA LOOOOOOORD!",
         locations: ['Breezy Hills - Gourd Pond Museum'],
         skill: {
             name: 'The Stand',
             description: 'Will keep 1 HP after aknockout blow once.'
         },
-        attack: {
-            name: 'Palm Strike',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        attack: { name: 'Palm Strike', power: '60 to 90' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: 'Midnight Stomp',
             description:
@@ -3363,13 +2595,7 @@ const yokais = [
                 'Warms an ally like a volcanic hot spring and gradually restores HP.',
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '32',
-            spr: '20',
-            def: '30',
-            spd: '28'
-        },
+        stats: { hp: '39', str: '32', spr: '20', def: '30', spd: '28' },
         tribe: 'Tough',
         element: 'Lightning',
         weakness: 'Earth',
@@ -3377,6 +2603,7 @@ const yokais = [
         favouriteFood: 'Rice Balls'
     },
     {
+        index: 69,
         name: 'Roughraff',
         yokaiNumber: '070',
         image:
@@ -3393,14 +2620,8 @@ const yokais = [
             name: 'Revenge',
             description: 'Reflects some damageback to foe.'
         },
-        attack: {
-            name: 'Headbutt',
-            power: '55 to 121'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Headbutt', power: '55 to 121' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Stare Down',
             description: 'Glares at his foes and lowers their SPD.',
@@ -3412,13 +2633,7 @@ const yokais = [
                 "Fails to fill a foe with a rebel's soul and lowers its DEF.",
             power: '0'
         },
-        stats: {
-            hp: '25',
-            str: '25',
-            spr: '18',
-            def: '21',
-            spd: '26'
-        },
+        stats: { hp: '25', str: '25', spr: '18', def: '21', spd: '26' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -3427,6 +2642,7 @@ const yokais = [
         evolutionIndexes: [40, 63]
     },
     {
+        index: 70,
         name: 'Badude',
         yokaiNumber: '071',
         image:
@@ -3442,14 +2658,8 @@ const yokais = [
             name: 'Revenge',
             description: 'Reflects some damageback to foe.'
         },
-        attack: {
-            name: 'Headbuster',
-            power: '130 to 195'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Headbuster', power: '130 to 195' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Gangster Glare',
             description:
@@ -3462,13 +2672,7 @@ const yokais = [
                 "Inspirited Yo-kai's DEF decreases when it works against itself.",
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '37',
-            spr: '16',
-            def: '27',
-            spd: '30'
-        },
+        stats: { hp: '34', str: '37', spr: '16', def: '27', spd: '30' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -3477,6 +2681,7 @@ const yokais = [
         evolutionIndexes: [40]
     },
     {
+        index: 71,
         name: 'Bruff',
         yokaiNumber: '072',
         image:
@@ -3491,14 +2696,8 @@ const yokais = [
             name: 'Revenge',
             description: 'Reflects some damageback to foe.'
         },
-        attack: {
-            name: 'Headbuster',
-            power: '130 to 195'
-        },
-        technique: {
-            name: 'Meteor',
-            power: '80 to 120'
-        },
+        attack: { name: 'Headbuster', power: '130 to 195' },
+        technique: { name: 'Meteor', power: '80 to 120' },
         soultime: {
             name: 'Brutal Butt Bat',
             description:
@@ -3511,13 +2710,7 @@ const yokais = [
                 'Enrages an enemy and makes it attack anyone who may be nearby.',
             power: '0'
         },
-        stats: {
-            hp: '38',
-            str: '40',
-            spr: '20',
-            def: '30',
-            spd: '33'
-        },
+        stats: { hp: '38', str: '40', spr: '20', def: '30', spd: '33' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -3533,6 +2726,7 @@ const yokais = [
         ]
     },
     {
+        index: 72,
         name: 'Rhinoggin',
         yokaiNumber: '073',
         image:
@@ -3544,14 +2738,8 @@ const yokais = [
             name: 'Guard Break',
             description: "Ignore foe's guardeffect when attacking."
         },
-        attack: {
-            name: 'Fullswing',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Fullswing', power: '80 to 120' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Super Horn Crash',
             description:
@@ -3564,13 +2752,7 @@ const yokais = [
                 'Gives an ally all the proportionate STR of a Rhino Beetle.',
             power: '0'
         },
-        stats: {
-            hp: '38',
-            str: '32',
-            spr: '18',
-            def: '33',
-            spd: '21'
-        },
+        stats: { hp: '38', str: '32', spr: '18', def: '33', spd: '21' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -3586,6 +2768,7 @@ const yokais = [
         ]
     },
     {
+        index: 73,
         name: 'Rhinormous',
         yokaiNumber: '074',
         image:
@@ -3597,14 +2780,8 @@ const yokais = [
             name: 'Guard Break',
             description: "Ignore foe's guardeffect when attacking."
         },
-        attack: {
-            name: 'Headbuster',
-            power: '130 to 195'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Headbuster', power: '130 to 195' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Horn Breaker',
             description: 'Smashes into an enemy like a dump truck with a horn!',
@@ -3615,13 +2792,7 @@ const yokais = [
             description: "Raises an ally's STR to peerless levels.",
             power: '0'
         },
-        stats: {
-            hp: '38',
-            str: '37',
-            spr: '21',
-            def: '36',
-            spd: '30'
-        },
+        stats: { hp: '38', str: '37', spr: '21', def: '36', spd: '30' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -3630,6 +2801,7 @@ const yokais = [
         evolutionIndexes: [53]
     },
     {
+        index: 74,
         name: 'Hornaplenty',
         yokaiNumber: '075',
         image:
@@ -3641,14 +2813,8 @@ const yokais = [
             name: 'Guard Break',
             description: "Ignore foe's guardeffect when attacking."
         },
-        attack: {
-            name: 'Headbuster',
-            power: '130 to 195'
-        },
-        technique: {
-            name: 'Meteor',
-            power: '80 to 120'
-        },
+        attack: { name: 'Headbuster', power: '130 to 195' },
+        technique: { name: 'Meteor', power: '80 to 120' },
         soultime: {
             name: 'Horn Explosion',
             description: 'Smashes into an enemy like a dump truck with a horn!',
@@ -3659,13 +2825,7 @@ const yokais = [
             description: "Boosts an ally's DEF with divine combat abilities.",
             power: '0'
         },
-        stats: {
-            hp: '43',
-            str: '40',
-            spr: '17',
-            def: '40',
-            spd: '34'
-        },
+        stats: { hp: '43', str: '40', spr: '17', def: '40', spd: '34' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -3674,6 +2834,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 75,
         name: 'Castelius III',
         yokaiNumber: '076',
         image:
@@ -3685,14 +2846,8 @@ const yokais = [
             name: 'Bronze Guard',
             description: 'Takes less Earth andWind damage.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Self-Destruct',
             description:
@@ -3704,13 +2859,7 @@ const yokais = [
             description: 'Wraps an ally in bronze and raises DEF.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '26',
-            spr: '21',
-            def: '30',
-            spd: '24'
-        },
+        stats: { hp: '33', str: '26', spr: '21', def: '30', spd: '24' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -3719,6 +2868,7 @@ const yokais = [
         evolutionIndexes: [50]
     },
     {
+        index: 76,
         name: 'Castelius II',
         yokaiNumber: '077',
         image:
@@ -3730,14 +2880,8 @@ const yokais = [
             name: 'Silver Guard',
             description: 'Takes less Fire and Icedamage.'
         },
-        attack: {
-            name: 'Tackle',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        attack: { name: 'Tackle', power: '60 to 90' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Refined Guard',
             description:
@@ -3749,13 +2893,7 @@ const yokais = [
             description: 'Covers an ally in silver and raises DEF.',
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '27',
-            spr: '19',
-            def: '32',
-            spd: '27'
-        },
+        stats: { hp: '35', str: '27', spr: '19', def: '32', spd: '27' },
         tribe: 'Tough',
         element: 'Ice',
         weakness: 'Fire',
@@ -3764,6 +2902,7 @@ const yokais = [
         evolutionIndexes: [50, 51]
     },
     {
+        index: 77,
         name: 'Castelius I',
         yokaiNumber: '078',
         image:
@@ -3775,14 +2914,8 @@ const yokais = [
             name: 'Gold Guard',
             description: 'Takes less Lightningand Water damage.'
         },
-        attack: {
-            name: 'Bone Crusher',
-            power: '100 to 150'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'Bone Crusher', power: '100 to 150' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'Glorious Buh-Bye',
             description:
@@ -3794,13 +2927,7 @@ const yokais = [
             description: 'Covers an ally in gold and raises DEF.',
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '27',
-            spr: '20',
-            def: '36',
-            spd: '30'
-        },
+        stats: { hp: '39', str: '27', spr: '20', def: '36', spd: '30' },
         tribe: 'Tough',
         element: 'Lightning',
         weakness: 'Earth',
@@ -3809,6 +2936,7 @@ const yokais = [
         evolutionIndexes: [51, 52]
     },
     {
+        index: 78,
         name: 'Castelius Max',
         yokaiNumber: '079',
         image:
@@ -3820,14 +2948,8 @@ const yokais = [
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
         },
-        attack: {
-            name: 'Bone Crusher',
-            power: '100 to 150'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Bone Crusher', power: '100 to 150' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Platinum Guard',
             description:
@@ -3840,13 +2962,7 @@ const yokais = [
                 'Covers an ally in shiny platinum and boosts all stats!',
             power: '0'
         },
-        stats: {
-            hp: '45',
-            str: '34',
-            spr: '23',
-            def: '37',
-            spd: '33'
-        },
+        stats: { hp: '45', str: '34', spr: '23', def: '37', spd: '33' },
         tribe: 'Tough',
         element: 'Wind',
         weakness: 'Ice',
@@ -3856,6 +2972,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 79,
         name: 'Robonyan',
         yokaiNumber: '080',
         image:
@@ -3867,14 +2984,8 @@ const yokais = [
             name: 'Blocker',
             description: 'Will be guarding whenmoving to the front.'
         },
-        attack: {
-            name: 'Rocket Punch',
-            power: '100 to 150'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        attack: { name: 'Rocket Punch', power: '100 to 150' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Guard Meowde',
             description: 'Increases DEF and draws enemy attacks.',
@@ -3885,13 +2996,7 @@ const yokais = [
             description: "Makes an ally's skin as strong as steel. Raises DEF.",
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '32',
-            spr: '24',
-            def: '35',
-            spd: '34'
-        },
+        stats: { hp: '39', str: '32', spr: '24', def: '35', spd: '34' },
         tribe: 'Tough',
         element: 'Ice',
         weakness: 'Fire',
@@ -3907,6 +3012,7 @@ const yokais = [
         ]
     },
     {
+        index: 80,
         name: 'Goldenyan',
         yokaiNumber: '081',
         image:
@@ -3918,14 +3024,8 @@ const yokais = [
             name: 'Gold Guard',
             description: 'Takes less Lightningand Water damage.'
         },
-        attack: {
-            name: 'Rocket Punch',
-            power: '100 to 150'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        attack: { name: 'Rocket Punch', power: '100 to 150' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: 'Gold Thundpurr',
             description:
@@ -3937,13 +3037,7 @@ const yokais = [
             description: "Makes an ally's skin shiny as gold. Raises DEF.",
             power: '0'
         },
-        stats: {
-            hp: '44',
-            str: '33',
-            spr: '21',
-            def: '37',
-            spd: '39'
-        },
+        stats: { hp: '44', str: '33', spr: '21', def: '37', spd: '39' },
         tribe: 'Tough',
         element: 'Lightning',
         weakness: 'Earth',
@@ -3969,6 +3063,7 @@ const yokais = [
         ]
     },
     {
+        index: 81,
         name: 'Dromp',
         yokaiNumber: '082',
         image:
@@ -3980,14 +3075,8 @@ const yokais = [
             name: 'Insulator',
             description: 'Takes less damagefrom Lightning attacks.'
         },
-        attack: {
-            name: 'Steamroll',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Steamroll', power: '60 to 90' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Total Collapse',
             description:
@@ -4000,13 +3089,7 @@ const yokais = [
                 "Gradually restores an ally's HP using the power of earth.",
             power: '0'
         },
-        stats: {
-            hp: '44',
-            str: '31',
-            spr: '22',
-            def: '48',
-            spd: '27'
-        },
+        stats: { hp: '44', str: '31', spr: '22', def: '48', spd: '27' },
         tribe: 'Tough',
         element: 'Earth',
         weakness: 'Wind',
@@ -4014,6 +3097,7 @@ const yokais = [
         favouriteFood: 'Vegetables'
     },
     {
+        index: 82,
         name: 'Swosh',
         yokaiNumber: '083',
         image:
@@ -4025,14 +3109,8 @@ const yokais = [
             name: 'Blessed Body',
             description: 'When defeated, Yo-kaiin the front recover HP.'
         },
-        attack: {
-            name: 'Steamroll',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Torrent',
-            power: '20 to 90'
-        },
+        attack: { name: 'Steamroll', power: '60 to 90' },
+        technique: { name: 'Torrent', power: '20 to 90' },
         soultime: {
             name: 'Tidal Guard',
             description:
@@ -4045,13 +3123,7 @@ const yokais = [
                 "Boosts an ally's stats with the vast power of the sea.",
             power: '0'
         },
-        stats: {
-            hp: '45',
-            str: '18',
-            spr: '34',
-            def: '47',
-            spd: '30'
-        },
+        stats: { hp: '45', str: '18', spr: '34', def: '47', spd: '30' },
         tribe: 'Tough',
         element: 'Water',
         weakness: 'Lightning',
@@ -4060,6 +3132,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 83,
         name: 'Dazzabel',
         yokaiNumber: '084',
         image:
@@ -4074,16 +3147,10 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
-            name: '\u2606Stylish Stab',
+            name: '☆Stylish Stab',
             description:
                 'Repeatedly stabs her opponents with her stylish umbrella.',
             power: '17x5'
@@ -4094,13 +3161,7 @@ const yokais = [
                 'Turns a Yo-kai into a gaudy fashionista who draws a lot of anger.',
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '24',
-            spr: '16',
-            def: '25',
-            spd: '26'
-        },
+        stats: { hp: '26', str: '24', spr: '16', def: '25', spd: '26' },
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
@@ -4109,6 +3170,7 @@ const yokais = [
         evolutionIndexes: [31]
     },
     {
+        index: 84,
         name: 'Rattelle',
         yokaiNumber: '085',
         image:
@@ -4124,16 +3186,10 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Stab Storm',
-            power: '10x5 to 22x5'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        attack: { name: 'Stab Storm', power: '10x5 to 22x5' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
-            name: '\u2606Prism Parasol',
+            name: '☆Prism Parasol',
             description: 'Pokes all foes with her sassy umbrella.',
             power: '22x7'
         },
@@ -4142,13 +3198,7 @@ const yokais = [
             description: 'Makes a Yo-kai generous enough to scatter money.',
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '27',
-            spr: '23',
-            def: '29',
-            spd: '28'
-        },
+        stats: { hp: '32', str: '27', spr: '23', def: '29', spd: '28' },
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
@@ -4157,6 +3207,7 @@ const yokais = [
         evolutionIndexes: [31]
     },
     {
+        index: 85,
         name: 'Skelebella',
         yokaiNumber: '086',
         image:
@@ -4168,16 +3219,10 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Pointy Pokes',
-            power: '12x3 to 26x3'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Pointy Pokes', power: '12x3 to 26x3' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
-            name: '\u2606Radiant Rain',
+            name: '☆Radiant Rain',
             description:
                 'Damages opponents by calling down rain to match her umbrella.',
             power: '160'
@@ -4187,13 +3232,7 @@ const yokais = [
             description: 'Makes a Yo-kai generous enough to scatter money.',
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '29',
-            spr: '26',
-            def: '32',
-            spd: '32'
-        },
+        stats: { hp: '35', str: '29', spr: '26', def: '32', spd: '32' },
         tribe: 'Charming',
         element: 'Water',
         weakness: 'Lightning',
@@ -4214,6 +3253,7 @@ const yokais = [
         ]
     },
     {
+        index: 86,
         name: 'Cadin',
         yokaiNumber: '087',
         image:
@@ -4225,14 +3265,8 @@ const yokais = [
             name: 'Modest',
             description: 'Low chance of gettingattacked by foes.'
         },
-        attack: {
-            name: 'Stepping Slice',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Stepping Slice', power: '15 to 67' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'Cicada Cut',
             description: 'Nervously slices all of his foes.',
@@ -4243,13 +3277,7 @@ const yokais = [
             description: "Raises a Yo-kai's SPD with cicada-style ninjutsu.",
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '25',
-            spr: '21',
-            def: '19',
-            spd: '26'
-        },
+        stats: { hp: '24', str: '25', spr: '21', def: '19', spd: '26' },
         tribe: 'Charming',
         element: 'Wind',
         weakness: 'Ice',
@@ -4258,6 +3286,7 @@ const yokais = [
         evolutionIndexes: [55]
     },
     {
+        index: 87,
         name: 'Cadable',
         yokaiNumber: '088',
         image:
@@ -4269,14 +3298,8 @@ const yokais = [
             name: 'Modest',
             description: 'Low chance of gettingattacked by foes.'
         },
-        attack: {
-            name: 'Double Slice',
-            power: '18x2 to 39x2'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Double Slice', power: '18x2 to 39x2' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Shadow Speed',
             description:
@@ -4288,13 +3311,7 @@ const yokais = [
             description: "Raises a Yo-kai's SPD with cicada-style ninjutsu.",
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '33',
-            spr: '27',
-            def: '21',
-            spd: '31'
-        },
+        stats: { hp: '32', str: '33', spr: '27', def: '21', spd: '31' },
         tribe: 'Charming',
         element: 'Wind',
         weakness: 'Ice',
@@ -4310,6 +3327,7 @@ const yokais = [
         ]
     },
     {
+        index: 88,
         name: 'Singcada',
         yokaiNumber: '089',
         image:
@@ -4321,14 +3339,8 @@ const yokais = [
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
         },
-        attack: {
-            name: 'Double Slice',
-            power: '18x2 to 39x2'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        attack: { name: 'Double Slice', power: '18x2 to 39x2' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
             name: 'Wind Run',
             description:
@@ -4341,13 +3353,7 @@ const yokais = [
                 "Raises a Yo-kai's SPD with a branch style of cicada ninjutsu.",
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '34',
-            spr: '29',
-            def: '20',
-            spd: '36'
-        },
+        stats: { hp: '35', str: '34', spr: '29', def: '20', spd: '36' },
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
@@ -4363,6 +3369,7 @@ const yokais = [
         ]
     },
     {
+        index: 89,
         name: 'Pupsicle',
         yokaiNumber: '090',
         image:
@@ -4379,14 +3386,8 @@ const yokais = [
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
         },
-        attack: {
-            name: 'Bite',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        attack: { name: 'Bite', power: '15 to 67' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Icicle Crack',
             description: 'Drops a number of sharp icicles on his opponents.',
@@ -4397,13 +3398,7 @@ const yokais = [
             description: 'Makes a foe too cold to fight and lowers its STR.',
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '23',
-            spr: '25',
-            def: '19',
-            spd: '24'
-        },
+        stats: { hp: '24', str: '23', spr: '25', def: '19', spd: '24' },
         tribe: 'Charming',
         element: 'Ice',
         weakness: 'Fire',
@@ -4419,6 +3414,7 @@ const yokais = [
         ]
     },
     {
+        index: 90,
         name: 'Chilhuahua',
         yokaiNumber: '091',
         image:
@@ -4430,14 +3426,8 @@ const yokais = [
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
         },
-        attack: {
-            name: 'Ventilator',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Blizzard',
-            power: '80 to 120'
-        },
+        attack: { name: 'Ventilator', power: '50 to 110' },
+        technique: { name: 'Blizzard', power: '80 to 120' },
         soultime: {
             name: 'Subzero',
             description: 'Crushes his foes with an icy blast.',
@@ -4448,13 +3438,7 @@ const yokais = [
             description: 'Makes a foe shiver and drops its SPD.',
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '37',
-            spr: '34',
-            def: '26',
-            spd: '33'
-        },
+        stats: { hp: '32', str: '37', spr: '34', def: '26', spd: '33' },
         tribe: 'Charming',
         element: 'Ice',
         weakness: 'Fire',
@@ -4463,6 +3447,7 @@ const yokais = [
         evolutionIndexes: [57]
     },
     {
+        index: 91,
         name: 'Swelterrier',
         yokaiNumber: '092',
         image:
@@ -4474,14 +3459,8 @@ const yokais = [
             name: 'Fire Watchout',
             description: 'Takes less damagefrom Fire attacks.'
         },
-        attack: {
-            name: 'Ventilator',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Incinerate',
-            power: '80 to 120'
-        },
+        attack: { name: 'Ventilator', power: '50 to 110' },
+        technique: { name: 'Incinerate', power: '80 to 120' },
         soultime: {
             name: 'Heat Wave',
             description: 'Overwhelms his foes with a stifling heat.',
@@ -4492,13 +3471,7 @@ const yokais = [
             description: "Sets an ally's heart ablaze and boosts STR.",
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '35',
-            spr: '38',
-            def: '30',
-            spd: '35'
-        },
+        stats: { hp: '36', str: '35', spr: '38', def: '30', spd: '35' },
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
@@ -4507,6 +3480,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 92,
         name: 'Jibanyan',
         yokaiNumber: '093',
         image:
@@ -4522,14 +3496,8 @@ const yokais = [
             name: 'Adrenaline',
             description: 'Power increases eachtime a foe is defeated.'
         },
-        attack: {
-            name: 'Sharp Claws',
-            power: '10x2 to 45x2'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        attack: { name: 'Sharp Claws', power: '10x2 to 45x2' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Paws of Fury',
             description:
@@ -4541,13 +3509,7 @@ const yokais = [
             description: 'Lowers enemy SPD with a paralyzing seal.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '20',
-            spr: '19',
-            def: '24',
-            spd: '35'
-        },
+        stats: { hp: '30', str: '20', spr: '19', def: '24', spd: '35' },
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
@@ -4563,6 +3525,7 @@ const yokais = [
         ]
     },
     {
+        index: 93,
         name: 'Thornyan',
         yokaiNumber: '094',
         image:
@@ -4574,14 +3537,8 @@ const yokais = [
             name: 'Soothing Rhythm',
             description: 'All foes will be prone toLoafing around.'
         },
-        attack: {
-            name: 'Ventilator',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Ventilator', power: '50 to 110' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Thorny Thwacks',
             description: 'Grows spikes on his paws and punches all opponents.',
@@ -4593,13 +3550,7 @@ const yokais = [
                 'Stabs a foe with tons of needles and steadily lowers its HP.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '24',
-            spr: '20',
-            def: '27',
-            spd: '38'
-        },
+        stats: { hp: '33', str: '24', spr: '20', def: '27', spd: '38' },
         tribe: 'Charming',
         element: 'Wind',
         weakness: 'Ice',
@@ -4608,6 +3559,7 @@ const yokais = [
         evolutionIndexes: [64]
     },
     {
+        index: 94,
         name: 'Baddinyan',
         yokaiNumber: '095',
         image:
@@ -4619,14 +3571,8 @@ const yokais = [
             name: 'Pompadour',
             description: 'Will dodge enemyheadbutt attacks.'
         },
-        attack: {
-            name: 'Nasty Kick',
-            power: '100 to 150'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        attack: { name: 'Nasty Kick', power: '100 to 150' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Nyice ta Beatcha',
             description:
@@ -4639,13 +3585,7 @@ const yokais = [
                 "Makes a foe such a delinquent that it'll attack its allies.",
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '33',
-            spr: '15',
-            def: '30',
-            spd: '36'
-        },
+        stats: { hp: '35', str: '33', spr: '15', def: '30', spd: '36' },
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
@@ -4654,6 +3594,7 @@ const yokais = [
         evolutionIndexes: [63]
     },
     {
+        index: 95,
         name: 'Walkappa',
         yokaiNumber: '096',
         image:
@@ -4669,14 +3610,8 @@ const yokais = [
             name: 'Skilled Loafer',
             description: 'Will recover a little HPwhen Loafing around.'
         },
-        attack: {
-            name: 'Punch',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Punch', power: '15 to 67' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Mega Waterfall',
             description: 'Summons a huge waterfall directly above his enemies.',
@@ -4688,13 +3623,7 @@ const yokais = [
                 'Walkappa makes an enemy quick to nap... just like him!',
             power: '0'
         },
-        stats: {
-            hp: '28',
-            str: '22',
-            spr: '29',
-            def: '22',
-            spd: '28'
-        },
+        stats: { hp: '28', str: '22', spr: '29', def: '22', spd: '28' },
         tribe: 'Charming',
         element: 'Water',
         weakness: 'Lightning',
@@ -4703,6 +3632,7 @@ const yokais = [
         evolutionIndexes: [62]
     },
     {
+        index: 96,
         name: 'Appak',
         yokaiNumber: '097',
         image:
@@ -4718,14 +3648,8 @@ const yokais = [
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
         },
-        attack: {
-            name: 'Double Slice',
-            power: '18x2 to 39x2'
-        },
-        technique: {
-            name: 'Waterfall',
-            power: '80 to 120'
-        },
+        attack: { name: 'Double Slice', power: '18x2 to 39x2' },
+        technique: { name: 'Waterfall', power: '80 to 120' },
         soultime: {
             name: 'Torrent Slash',
             description:
@@ -4737,13 +3661,7 @@ const yokais = [
             description: "Improves an ally's concentration as well as SPR!",
             power: '0'
         },
-        stats: {
-            hp: '38',
-            str: '37',
-            spr: '29',
-            def: '24',
-            spd: '31'
-        },
+        stats: { hp: '38', str: '37', spr: '29', def: '24', spd: '31' },
         tribe: 'Charming',
         element: 'Water',
         weakness: 'Lightning',
@@ -4752,6 +3670,7 @@ const yokais = [
         evolutionIndexes: [62]
     },
     {
+        index: 97,
         name: 'Supyo',
         yokaiNumber: '098',
         image:
@@ -4763,14 +3682,8 @@ const yokais = [
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
         },
-        attack: {
-            name: 'Double Slice',
-            power: '18x2 to 39x2'
-        },
-        technique: {
-            name: 'Waterfall',
-            power: '80 to 120'
-        },
+        attack: { name: 'Double Slice', power: '18x2 to 39x2' },
+        technique: { name: 'Waterfall', power: '80 to 120' },
         soultime: {
             name: 'Bodacious Slash',
             description:
@@ -4783,13 +3696,7 @@ const yokais = [
                 "Makes an ally move so fast, you'd think it was surfing.",
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '34',
-            spr: '34',
-            def: '25',
-            spd: '32'
-        },
+        stats: { hp: '39', str: '34', spr: '34', def: '25', spd: '32' },
         tribe: 'Charming',
         element: 'Water',
         weakness: 'Lightning',
@@ -4805,6 +3712,7 @@ const yokais = [
         ]
     },
     {
+        index: 98,
         name: 'Komasan',
         yokaiNumber: '099',
         image:
@@ -4819,14 +3727,8 @@ const yokais = [
             name: 'Alpha',
             description: 'With an adjacent OmegaYo-kai, SPR increases.'
         },
-        attack: {
-            name: 'Punch',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        attack: { name: 'Punch', power: '15 to 67' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
             name: 'Spirit Dance',
             description: "Summons will-o'-the- wisps to damage his enemies.",
@@ -4838,13 +3740,7 @@ const yokais = [
                 'Burns a foe with raging fire and steadily drains its HP.',
             power: '0'
         },
-        stats: {
-            hp: '25',
-            str: '22',
-            spr: '30',
-            def: '23',
-            spd: '27'
-        },
+        stats: { hp: '25', str: '22', spr: '30', def: '23', spd: '27' },
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
@@ -4853,6 +3749,7 @@ const yokais = [
         evolutionIndexes: [127]
     },
     {
+        index: 99,
         name: 'Komane',
         yokaiNumber: '100',
         image:
@@ -4864,14 +3761,8 @@ const yokais = [
             name: 'Alpha',
             description: 'With an adjacent OmegaYo-kai, SPR increases.'
         },
-        attack: {
-            name: 'Power Punch',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Incinerate',
-            power: '80 to 120'
-        },
+        attack: { name: 'Power Punch', power: '50 to 110' },
+        technique: { name: 'Incinerate', power: '80 to 120' },
         soultime: {
             name: 'Spirit Burst',
             description:
@@ -4884,13 +3775,7 @@ const yokais = [
                 'Burns a foe with raging fire and steadily decreases its HP.',
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '26',
-            spr: '39',
-            def: '23',
-            spd: '36'
-        },
+        stats: { hp: '35', str: '26', spr: '39', def: '23', spd: '36' },
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
@@ -4899,6 +3784,7 @@ const yokais = [
         evolutionIndexes: [127]
     },
     {
+        index: 100,
         name: 'Komajiro',
         yokaiNumber: '101',
         image:
@@ -4910,14 +3796,8 @@ const yokais = [
             name: 'Omega',
             description: 'With an adjacent AlphaYo-kai, STR increases.'
         },
-        attack: {
-            name: 'Punch',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'Punch', power: '15 to 67' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'Wild Zaps',
             description: 'Calls down lightning upon his opponents.',
@@ -4928,13 +3808,7 @@ const yokais = [
             description: "Raises an ally's SPD to match that of a tiger.",
             power: '0'
         },
-        stats: {
-            hp: '25',
-            str: '26',
-            spr: '27',
-            def: '24',
-            spd: '25'
-        },
+        stats: { hp: '25', str: '26', spr: '27', def: '24', spd: '25' },
         tribe: 'Charming',
         element: 'Lightning',
         weakness: 'Earth',
@@ -4950,6 +3824,7 @@ const yokais = [
         ]
     },
     {
+        index: 101,
         name: 'Komiger',
         yokaiNumber: '102',
         image:
@@ -4961,14 +3836,8 @@ const yokais = [
             name: 'Omega',
             description: 'With an adjacent AlphaYo-kai, STR increases.'
         },
-        attack: {
-            name: 'Practiced Punch',
-            power: '90 to 135'
-        },
-        technique: {
-            name: 'Voltage',
-            power: '80 to 120'
-        },
+        attack: { name: 'Practiced Punch', power: '90 to 135' },
+        technique: { name: 'Voltage', power: '80 to 120' },
         soultime: {
             name: 'Crazy Lightning',
             description:
@@ -4981,13 +3850,7 @@ const yokais = [
                 "Raises an ally's SPD significantly to match that of a tiger.",
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '30',
-            spr: '34',
-            def: '24',
-            spd: '33'
-        },
+        stats: { hp: '31', str: '30', spr: '34', def: '24', spd: '33' },
         tribe: 'Charming',
         element: 'Lightning',
         weakness: 'Earth',
@@ -4996,25 +3859,20 @@ const yokais = [
         evolutionIndexes: [128]
     },
     {
+        index: 102,
         name: 'Baku',
         yokaiNumber: '103',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/baku.png',
         description:
-            'A Yo-kai that eats only human dreams. It puts people to sleep before digging in. Beaux r\u00eaves!',
+            'A Yo-kai that eats only human dreams. It puts people to sleep before digging in. Beaux rêves!',
         locations: ['Blossom Heights - Bushes', 'During the story.'],
         skill: {
             name: 'Hard Worker',
             description: 'Receives moreexperience points.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Sleepy Smoke',
             description:
@@ -5027,13 +3885,7 @@ const yokais = [
                 'Hits Yo-kai with a heavy drowsiness...and makes them very...sleepy...',
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '22',
-            spr: '28',
-            def: '23',
-            spd: '27'
-        },
+        stats: { hp: '24', str: '22', spr: '28', def: '23', spd: '27' },
         tribe: 'Charming',
         element: 'Drain',
         weakness: 'x',
@@ -5041,6 +3893,7 @@ const yokais = [
         favouriteFood: 'Juices'
     },
     {
+        index: 103,
         name: 'Whapir',
         yokaiNumber: '104',
         image:
@@ -5052,14 +3905,8 @@ const yokais = [
             name: 'Good Fortune',
             description: 'Will increase money atthe end of a battle.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Daydream',
             description: 'Heals the heart and HP of allies with happy dreams.',
@@ -5071,13 +3918,7 @@ const yokais = [
                 "Gradually restores an ally's HP with the power of dreams.",
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '25',
-            spr: '31',
-            def: '26',
-            spd: '29'
-        },
+        stats: { hp: '26', str: '25', spr: '31', def: '26', spd: '29' },
         tribe: 'Charming',
         element: 'Drain',
         weakness: 'x',
@@ -5085,6 +3926,7 @@ const yokais = [
         favouriteFood: 'Juices'
     },
     {
+        index: 104,
         name: 'Shmoopie',
         yokaiNumber: '105',
         image:
@@ -5096,14 +3938,8 @@ const yokais = [
             name: 'Popularity',
             description: 'Makes more foesbefriend you.'
         },
-        attack: {
-            name: 'Bite',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Restore',
-            power: '50 to 110'
-        },
+        attack: { name: 'Bite', power: '15 to 67' },
+        technique: { name: 'Restore', power: '50 to 110' },
         soultime: {
             name: 'Heartstring Tug',
             description:
@@ -5116,13 +3952,7 @@ const yokais = [
                 "Makes an ally's heart skip a beat. Steadily recovers HP.",
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '22',
-            spr: '31',
-            def: '24',
-            spd: '29'
-        },
+        stats: { hp: '26', str: '22', spr: '31', def: '24', spd: '29' },
         tribe: 'Charming',
         element: 'Restoration',
         weakness: 'x',
@@ -5143,6 +3973,7 @@ const yokais = [
         ]
     },
     {
+        index: 105,
         name: 'Pinkipoo',
         yokaiNumber: '106',
         image:
@@ -5154,14 +3985,8 @@ const yokais = [
             name: 'Popularity',
             description: 'Makes more foesbefriend you.'
         },
-        attack: {
-            name: 'Beat',
-            power: '40 to 88'
-        },
-        technique: {
-            name: 'Paradise',
-            power: '80 to 120'
-        },
+        attack: { name: 'Beat', power: '40 to 88' },
+        technique: { name: 'Paradise', power: '80 to 120' },
         soultime: {
             name: 'Heartmelt Love',
             description:
@@ -5174,13 +3999,7 @@ const yokais = [
                 "Makes an ally's heart skip a beat. Steadily recovers HP.",
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '22',
-            spr: '39',
-            def: '26',
-            spd: '36'
-        },
+        stats: { hp: '31', str: '22', spr: '39', def: '26', spd: '36' },
         tribe: 'Charming',
         element: 'Restoration',
         weakness: 'x',
@@ -5196,6 +4015,7 @@ const yokais = [
         ]
     },
     {
+        index: 106,
         name: 'Pookivil',
         yokaiNumber: '107',
         image:
@@ -5207,14 +4027,8 @@ const yokais = [
             name: 'Unpopularity',
             description: 'Makes foes less likelyto become your friend.'
         },
-        attack: {
-            name: 'Beat',
-            power: '40 to 88'
-        },
-        technique: {
-            name: 'Reaper',
-            power: '80 to 120'
-        },
+        attack: { name: 'Beat', power: '40 to 88' },
+        technique: { name: 'Reaper', power: '80 to 120' },
         soultime: {
             name: 'Twisted Love',
             description:
@@ -5226,13 +4040,7 @@ const yokais = [
             description: 'Numbs a foe with sheer cold and lowers its STR.',
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '28',
-            spr: '34',
-            def: '29',
-            spd: '38'
-        },
+        stats: { hp: '35', str: '28', spr: '34', def: '29', spd: '38' },
         tribe: 'Charming',
         element: 'Drain',
         weakness: 'x',
@@ -5248,12 +4056,13 @@ const yokais = [
         ]
     },
     {
+        index: 107,
         name: 'Frostina',
         yokaiNumber: '108',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/frostina.png',
         description:
-            'Frostina has the power to freeze anything, but that keeps her pretty chilly\u2014 that and bad circulation.',
+            'Frostina has the power to freeze anything, but that keeps her pretty chilly— that and bad circulation.',
         locations: [
             'Uptown Springdale - Elementary School',
             'Yo-kai Spot - Oar-Powered Dates'
@@ -5262,14 +4071,8 @@ const yokais = [
             name: 'Snow Play',
             description: 'Increases damage ofown Ice attacks.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Blizzard',
-            power: '80 to 120'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Blizzard', power: '80 to 120' },
         soultime: {
             name: 'Snow Sherbet',
             description:
@@ -5282,13 +4085,7 @@ const yokais = [
                 'Passes his wickedness on to a foe, who will attack its allies.',
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '22',
-            spr: '37',
-            def: '25',
-            spd: '33'
-        },
+        stats: { hp: '32', str: '22', spr: '37', def: '25', spd: '33' },
         tribe: 'Charming',
         element: 'Ice',
         weakness: 'Fire',
@@ -5309,6 +4106,7 @@ const yokais = [
         ]
     },
     {
+        index: 108,
         name: 'Blizzaria',
         yokaiNumber: '109',
         image:
@@ -5320,14 +4118,8 @@ const yokais = [
             name: 'Snow Play',
             description: 'Increases damage ofown Ice attacks.'
         },
-        attack: {
-            name: 'Smackdown',
-            power: '20x2 to 44x2'
-        },
-        technique: {
-            name: 'Blizzard',
-            power: '80 to 120'
-        },
+        attack: { name: 'Smackdown', power: '20x2 to 44x2' },
+        technique: { name: 'Blizzard', power: '80 to 120' },
         soultime: {
             name: 'Shiny Snowdrifts',
             description: 'Blasts her opponents with a sparkling ice formation.',
@@ -5338,13 +4130,7 @@ const yokais = [
             description: 'Numbs a foe with sheer cold and lowers its STR.',
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '27',
-            spr: '43',
-            def: '29',
-            spd: '34'
-        },
+        stats: { hp: '36', str: '27', spr: '43', def: '29', spd: '34' },
         tribe: 'Charming',
         element: 'Ice',
         weakness: 'Fire',
@@ -5353,6 +4139,7 @@ const yokais = [
         evolutionIndexes: [69]
     },
     {
+        index: 109,
         name: 'Damona',
         yokaiNumber: '110',
         image:
@@ -5364,16 +4151,10 @@ const yokais = [
             name: 'Cursed Skin',
             description: 'All stats will increasewhen Inspirited by foe.'
         },
-        attack: {
-            name: 'Smackdown',
-            power: '20x2 to 44x2'
-        },
-        technique: {
-            name: 'Blizzard',
-            power: '80 to 120'
-        },
+        attack: { name: 'Smackdown', power: '20x2 to 44x2' },
+        technique: { name: 'Blizzard', power: '80 to 120' },
         soultime: {
-            name: '\u2606Shiny Chaos',
+            name: '☆Shiny Chaos',
             description:
                 'Damages her foes and lowers their stats with a dark power.',
             power: '140'
@@ -5384,13 +4165,7 @@ const yokais = [
                 "Drops a foe's SPR with the terrifying curse of darkness.",
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '33',
-            spr: '41',
-            def: '31',
-            spd: '30'
-        },
+        stats: { hp: '39', str: '33', spr: '41', def: '31', spd: '30' },
         tribe: 'Charming',
         element: 'Ice',
         weakness: 'Fire',
@@ -5416,6 +4191,7 @@ const yokais = [
         ]
     },
     {
+        index: 110,
         name: 'Wiglin',
         yokaiNumber: '111',
         image:
@@ -5427,14 +4203,8 @@ const yokais = [
             name: 'Wavy Body',
             description: "Dodges attacks likeyou wouldn't believe!"
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Heal',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Heal', power: '20 to 90' },
         soultime: {
             name: 'Wiggling Wave',
             description:
@@ -5446,13 +4216,7 @@ const yokais = [
             description: "Uses seaweed to raise an ally's STR.",
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '22',
-            spr: '26',
-            def: '20',
-            spd: '27'
-        },
+        stats: { hp: '24', str: '22', spr: '26', def: '20', spd: '27' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -5460,6 +4224,7 @@ const yokais = [
         favouriteFood: 'Ramens'
     },
     {
+        index: 111,
         name: 'Steppa',
         yokaiNumber: '112',
         image:
@@ -5471,14 +4236,8 @@ const yokais = [
             name: 'Wavy Body',
             description: "Dodges attacks likeyou wouldn't believe!"
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Heal',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Heal', power: '20 to 90' },
         soultime: {
             name: 'Mambo Madness',
             description: 'Dances a mambo to get his allies moving faster.',
@@ -5489,13 +4248,7 @@ const yokais = [
             description: "Uses the power of seaweed to raise an ally's DEF.",
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '20',
-            spr: '24',
-            def: '24',
-            spd: '25'
-        },
+        stats: { hp: '26', str: '20', spr: '24', def: '24', spd: '25' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -5503,6 +4256,7 @@ const yokais = [
         favouriteFood: 'Ramens'
     },
     {
+        index: 112,
         name: 'Rhyth',
         yokaiNumber: '113',
         image:
@@ -5514,14 +4268,8 @@ const yokais = [
             name: 'Wavy Body',
             description: "Dodges attacks likeyou wouldn't believe!"
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Restore',
-            power: '50 to 110'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Restore', power: '50 to 110' },
         soultime: {
             name: 'Seaweed Samba',
             description:
@@ -5534,13 +4282,7 @@ const yokais = [
                 "The Inspirited Yo-kai's SPD increases thanks to a gooey additive.",
             power: '0'
         },
-        stats: {
-            hp: '28',
-            str: '19',
-            spr: '28',
-            def: '23',
-            spd: '31'
-        },
+        stats: { hp: '28', str: '19', spr: '28', def: '23', spd: '31' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -5548,6 +4290,7 @@ const yokais = [
         favouriteFood: 'Ramens'
     },
     {
+        index: 113,
         name: 'Wantston',
         yokaiNumber: '114',
         image:
@@ -5562,14 +4305,8 @@ const yokais = [
             name: 'Greed',
             description: 'Foe will be more proneto drop items.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: 'Envious Hand',
             description:
@@ -5582,13 +4319,7 @@ const yokais = [
                 'The Inspirited Yo-kai attacks allies out of jealousy.',
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '25',
-            spr: '23',
-            def: '20',
-            spd: '26'
-        },
+        stats: { hp: '26', str: '25', spr: '23', def: '20', spd: '26' },
         tribe: 'Heartful',
         element: 'Lightning',
         weakness: 'Earth',
@@ -5596,6 +4327,7 @@ const yokais = [
         favouriteFood: 'Ramens'
     },
     {
+        index: 114,
         name: 'Grubsnitch',
         yokaiNumber: '115',
         image:
@@ -5607,14 +4339,8 @@ const yokais = [
             name: 'Snitch',
             description: "Absorbs foe's HP withregular attacks."
         },
-        attack: {
-            name: 'Smackdown',
-            power: '20x2 to 44x2'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Smackdown', power: '20x2 to 44x2' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Grub Stealer',
             description:
@@ -5627,13 +4353,7 @@ const yokais = [
                 "Gradually decreases a foe's HP with a strong stomachache. ",
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '28',
-            spr: '23',
-            def: '21',
-            spd: '28'
-        },
+        stats: { hp: '29', str: '28', spr: '23', def: '21', spd: '28' },
         tribe: 'Heartful',
         element: 'Earth',
         weakness: 'Wind',
@@ -5641,6 +4361,7 @@ const yokais = [
         favouriteFood: 'Ramens'
     },
     {
+        index: 115,
         name: 'Hungramps',
         yokaiNumber: '116',
         image:
@@ -5654,14 +4375,8 @@ const yokais = [
             name: 'Starver',
             description: 'Increases the effect offood on allies.'
         },
-        attack: {
-            name: 'Headsmack',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Heal',
-            power: '20 to 90'
-        },
+        attack: { name: 'Headsmack', power: '15 to 67' },
+        technique: { name: 'Heal', power: '20 to 90' },
         soultime: {
             name: 'Hungry Impact',
             description:
@@ -5673,13 +4388,7 @@ const yokais = [
             description: 'Makes a foe hungry and decreases its STR.',
             power: '0'
         },
-        stats: {
-            hp: '25',
-            str: '22',
-            spr: '26',
-            def: '20',
-            spd: '24'
-        },
+        stats: { hp: '25', str: '22', spr: '26', def: '20', spd: '24' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -5695,12 +4404,13 @@ const yokais = [
         ]
     },
     {
+        index: 116,
         name: 'Hungorge',
         yokaiNumber: '117',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hungorge.png',
         description:
-            "A terribly gluttonous Yo-kai that'll eat anything in front of him. His mouth is like a black hole\u2014even rice can't escape it.",
+            "A terribly gluttonous Yo-kai that'll eat anything in front of him. His mouth is like a black hole—even rice can't escape it.",
         locations: [
             'Uptown Springdale - Elementary School',
             'Uptown Springdale - Lonely Waterway, Shady Back Alley, The Catwalk & Desolate Lane',
@@ -5710,14 +4420,8 @@ const yokais = [
             name: 'Starver',
             description: 'Increases the effect offood on allies.'
         },
-        attack: {
-            name: 'Bite',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Bite', power: '15 to 67' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Gleeful Gluttony',
             description:
@@ -5730,13 +4434,7 @@ const yokais = [
                 "Makes a foe's food unfilling and lowers its STR significantly.",
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '35',
-            spr: '30',
-            def: '26',
-            spd: '26'
-        },
+        stats: { hp: '32', str: '35', spr: '30', def: '26', spd: '26' },
         tribe: 'Heartful',
         element: 'Drain',
         weakness: 'x',
@@ -5752,6 +4450,7 @@ const yokais = [
         ]
     },
     {
+        index: 117,
         name: 'Grainpa',
         yokaiNumber: '118',
         image:
@@ -5763,14 +4462,8 @@ const yokais = [
             name: 'Blessed Body',
             description: 'When defeated, Yo-kaiin the front recover HP.'
         },
-        attack: {
-            name: 'Headsmack',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Heal',
-            power: '20 to 90'
-        },
+        attack: { name: 'Headsmack', power: '15 to 67' },
+        technique: { name: 'Heal', power: '20 to 90' },
         soultime: {
             name: 'Fresh Impact',
             description:
@@ -5783,13 +4476,7 @@ const yokais = [
                 "Gradually restores an ally's HP with delicious, delectable rice!",
             power: '0'
         },
-        stats: {
-            hp: '34',
-            str: '28',
-            spr: '37',
-            def: '26',
-            spd: '29'
-        },
+        stats: { hp: '34', str: '28', spr: '37', def: '26', spd: '29' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -5798,6 +4485,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 118,
         name: 'Lodo',
         yokaiNumber: '119',
         image:
@@ -5812,14 +4500,8 @@ const yokais = [
             name: 'Stealing',
             description: 'Will increase money atthe end of a battle.'
         },
-        attack: {
-            name: 'Kick',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Kick', power: '15 to 67' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'I Want It All!',
             description:
@@ -5832,13 +4514,7 @@ const yokais = [
                 "Makes a foe drop cash uncontrollably until it's poor.",
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '22',
-            spr: '29',
-            def: '24',
-            spd: '27'
-        },
+        stats: { hp: '27', str: '22', spr: '29', def: '24', spd: '27' },
         tribe: 'Heartful',
         element: 'Wind',
         weakness: 'Ice',
@@ -5853,6 +4529,7 @@ const yokais = [
         ]
     },
     {
+        index: 119,
         name: 'Chippa',
         yokaiNumber: '120',
         image:
@@ -5867,14 +4544,8 @@ const yokais = [
             name: 'Optimism Power',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
         },
-        attack: {
-            name: 'Flip Kick',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Torrent',
-            power: '20 to 90'
-        },
+        attack: { name: 'Flip Kick', power: '60 to 90' },
+        technique: { name: 'Torrent', power: '20 to 90' },
         soultime: {
             name: 'Carefree Hero',
             description:
@@ -5887,13 +4558,7 @@ const yokais = [
                 'Turns an ally into an optimist and gradually restores HP.',
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '25',
-            spr: '27',
-            def: '27',
-            spd: '29'
-        },
+        stats: { hp: '29', str: '25', spr: '27', def: '27', spd: '29' },
         tribe: 'Heartful',
         element: 'Water',
         weakness: 'Lightning',
@@ -5901,6 +4566,7 @@ const yokais = [
         favouriteFood: 'Milks'
     },
     {
+        index: 120,
         name: 'Enerfly',
         yokaiNumber: '121',
         image:
@@ -5912,14 +4578,8 @@ const yokais = [
             name: 'Miraculous Scales',
             description: 'Does not get Inspiritedby enemies.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Heal',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Heal', power: '20 to 90' },
         soultime: {
             name: 'Energy Heaven',
             description:
@@ -5931,13 +4591,7 @@ const yokais = [
             description: 'Makes an ally feel energized and boosts its stats.',
             power: '0'
         },
-        stats: {
-            hp: '25',
-            str: '24',
-            spr: '28',
-            def: '21',
-            spd: '29'
-        },
+        stats: { hp: '25', str: '24', spr: '28', def: '21', spd: '29' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -5946,6 +4600,7 @@ const yokais = [
         evolutionIndexes: [83]
     },
     {
+        index: 121,
         name: 'Enefly',
         yokaiNumber: '122',
         image:
@@ -5957,14 +4612,8 @@ const yokais = [
             name: 'Miraculous Scales',
             description: 'Does not get Inspiritedby enemies.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Enemy Aura',
             description:
@@ -5977,13 +4626,7 @@ const yokais = [
                 'Makes a foe cut ties with its friends and attack them!',
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '20',
-            spr: '30',
-            def: '22',
-            spd: '26'
-        },
+        stats: { hp: '26', str: '20', spr: '30', def: '22', spd: '26' },
         tribe: 'Heartful',
         element: 'Drain',
         weakness: 'x',
@@ -5992,6 +4635,7 @@ const yokais = [
         evolutionIndexes: [83]
     },
     {
+        index: 122,
         name: 'Betterfly',
         yokaiNumber: '123',
         image:
@@ -6003,14 +4647,8 @@ const yokais = [
             name: 'Miraculous Scales',
             description: 'Does not get Inspiritedby enemies.'
         },
-        attack: {
-            name: 'Smackdown',
-            power: '20x2 to 44x2'
-        },
-        technique: {
-            name: 'Paradise',
-            power: '80 to 120'
-        },
+        attack: { name: 'Smackdown', power: '20x2 to 44x2' },
+        technique: { name: 'Paradise', power: '80 to 120' },
         soultime: {
             name: 'Bestacular',
             description:
@@ -6023,13 +4661,7 @@ const yokais = [
                 'Puts an ally into top shape and raises all of its stats.',
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '25',
-            spr: '39',
-            def: '25',
-            spd: '35'
-        },
+        stats: { hp: '35', str: '25', spr: '39', def: '25', spd: '35' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -6038,6 +4670,7 @@ const yokais = [
         evolutionIndexes: [83]
     },
     {
+        index: 123,
         name: 'Peppillon',
         yokaiNumber: '124',
         image:
@@ -6049,14 +4682,8 @@ const yokais = [
             name: 'Miraculous Scales',
             description: 'Does not get Inspiritedby enemies.'
         },
-        attack: {
-            name: 'Smackdown',
-            power: '20x2 to 44x2'
-        },
-        technique: {
-            name: 'Paradise',
-            power: '80 to 120'
-        },
+        attack: { name: 'Smackdown', power: '20x2 to 44x2' },
+        technique: { name: 'Paradise', power: '80 to 120' },
         soultime: {
             name: 'Party Miracle',
             description:
@@ -6068,13 +4695,7 @@ const yokais = [
             description: 'Takes an ally to paradise and steadily restores HP.',
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '27',
-            spr: '42',
-            def: '27',
-            spd: '39'
-        },
+        stats: { hp: '39', str: '27', spr: '42', def: '27', spd: '39' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -6083,6 +4704,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 124,
         name: 'Happierre',
         yokaiNumber: '125',
         image:
@@ -6094,14 +4716,8 @@ const yokais = [
             name: 'Caring',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Restore',
-            power: '50 to 110'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Restore', power: '50 to 110' },
         soultime: {
             name: 'Air of Happiness',
             description:
@@ -6114,13 +4730,7 @@ const yokais = [
                 "Fills an ally's heart with cheer and steadily recovers HP.",
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '23',
-            spr: '29',
-            def: '25',
-            spd: '28'
-        },
+        stats: { hp: '27', str: '23', spr: '29', def: '25', spd: '28' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -6136,6 +4746,7 @@ const yokais = [
         ]
     },
     {
+        index: 125,
         name: 'Reversa',
         yokaiNumber: '126',
         image:
@@ -6151,14 +4762,8 @@ const yokais = [
             name: 'Insecure',
             description: 'High chance to giveand take critical strikes.'
         },
-        attack: {
-            name: 'Tackle',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Paradise',
-            power: '80 to 120'
-        },
+        attack: { name: 'Tackle', power: '60 to 90' },
+        technique: { name: 'Paradise', power: '80 to 120' },
         soultime: {
             name: 'Fun Field',
             description:
@@ -6171,13 +4776,7 @@ const yokais = [
                 'Makes an enemy so insecure that it takes it out on its allies.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '29',
-            spr: '36',
-            def: '29',
-            spd: '32'
-        },
+        stats: { hp: '31', str: '29', spr: '36', def: '29', spd: '32' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -6186,25 +4785,20 @@ const yokais = [
         evolutionIndexes: [86]
     },
     {
+        index: 126,
         name: 'Reversette',
         yokaiNumber: '127',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/reversette.png',
         description:
-            'She resembles Reversa, but her reversed pattern is a rare sight. Her depression\u2014not so rare.',
+            'She resembles Reversa, but her reversed pattern is a rare sight. Her depression—not so rare.',
         locations: ['Yo-kai World - Liar Mountain'],
         skill: {
             name: 'Insecure',
             description: 'High chance to giveand take critical strikes.'
         },
-        attack: {
-            name: 'Tackle',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Storm',
-            power: '80 to 120'
-        },
+        attack: { name: 'Tackle', power: '60 to 90' },
+        technique: { name: 'Storm', power: '80 to 120' },
         soultime: {
             name: 'Zany Zone',
             description:
@@ -6217,13 +4811,7 @@ const yokais = [
                 'Makes an enemy so insecure that it takes it out on its allies.',
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '32',
-            spr: '37',
-            def: '26',
-            spd: '34'
-        },
+        stats: { hp: '35', str: '32', spr: '37', def: '26', spd: '34' },
         tribe: 'Heartful',
         element: 'Wind',
         weakness: 'Ice',
@@ -6239,6 +4827,7 @@ const yokais = [
         ]
     },
     {
+        index: 127,
         name: "Ol' Saint Trick",
         yokaiNumber: '128',
         image:
@@ -6250,14 +4839,8 @@ const yokais = [
             name: 'Caring',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
         },
-        attack: {
-            name: 'Fullswing',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Restore',
-            power: '50 to 110'
-        },
+        attack: { name: 'Fullswing', power: '80 to 120' },
+        technique: { name: 'Restore', power: '50 to 110' },
         soultime: {
             name: 'Pick-a-Present',
             description:
@@ -6269,13 +4852,7 @@ const yokais = [
             description: 'Makes a Yo-kai scatter money everywhere.',
             power: '0'
         },
-        stats: {
-            hp: '28',
-            str: '27',
-            spr: '30',
-            def: '26',
-            spd: '31'
-        },
+        stats: { hp: '28', str: '27', spr: '30', def: '26', spd: '31' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -6283,6 +4860,7 @@ const yokais = [
         favouriteFood: 'Milks'
     },
     {
+        index: 128,
         name: "Ol' Fortune",
         yokaiNumber: '129',
         image:
@@ -6294,14 +4872,8 @@ const yokais = [
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
         },
-        attack: {
-            name: 'Fullswing',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'Fullswing', power: '80 to 120' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'Get-a-Present',
             description:
@@ -6313,13 +4885,7 @@ const yokais = [
             description: 'Makes a Yo-kai scatter money everywhere.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '26',
-            spr: '30',
-            def: '28',
-            spd: '27'
-        },
+        stats: { hp: '31', str: '26', spr: '30', def: '28', spd: '27' },
         tribe: 'Heartful',
         element: 'Lightning',
         weakness: 'Earth',
@@ -6334,6 +4900,7 @@ const yokais = [
         ]
     },
     {
+        index: 129,
         name: 'Rollen',
         yokaiNumber: '130',
         image:
@@ -6345,14 +4912,8 @@ const yokais = [
             name: 'Gambler',
             description: 'High chance to giveand take critical strikes.'
         },
-        attack: {
-            name: 'Earthsplitter',
-            power: '95 to 142'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Earthsplitter', power: '95 to 142' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Roll of Fate',
             description:
@@ -6364,13 +4925,7 @@ const yokais = [
             description: 'Gradually heals an ally with divine protection.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '31',
-            spr: '31',
-            def: '31',
-            spd: '31'
-        },
+        stats: { hp: '33', str: '31', spr: '31', def: '31', spd: '31' },
         tribe: 'Heartful',
         element: 'Water',
         weakness: 'Lightning',
@@ -6378,6 +4933,7 @@ const yokais = [
         favouriteFood: 'Candies'
     },
     {
+        index: 130,
         name: 'Dubbles',
         yokaiNumber: '131',
         image:
@@ -6389,14 +4945,8 @@ const yokais = [
             name: 'Gambler',
             description: 'High chance to giveand take critical strikes.'
         },
-        attack: {
-            name: 'Earthsplitter',
-            power: '95 to 142'
-        },
-        technique: {
-            name: 'Waterfall',
-            power: '80 to 120'
-        },
+        attack: { name: 'Earthsplitter', power: '95 to 142' },
+        technique: { name: 'Waterfall', power: '80 to 120' },
         soultime: {
             name: 'Hit It Big!',
             description:
@@ -6408,13 +4958,7 @@ const yokais = [
             description: 'Steadily heals an ally with divine protection.',
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '28',
-            spr: '28',
-            def: '32',
-            spd: '33'
-        },
+        stats: { hp: '36', str: '28', spr: '28', def: '32', spd: '33' },
         tribe: 'Heartful',
         element: 'Water',
         weakness: 'Lightning',
@@ -6429,6 +4973,7 @@ const yokais = [
         ]
     },
     {
+        index: 131,
         name: 'Papa Bolt',
         yokaiNumber: '132',
         image:
@@ -6440,14 +4985,8 @@ const yokais = [
             name: 'Strict',
             description: 'All allies will Loafaround less.'
         },
-        attack: {
-            name: 'Practiced Punch',
-            power: '90 to 135'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'Practiced Punch', power: '90 to 135' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: "A Father's Scorn",
             description:
@@ -6459,13 +4998,7 @@ const yokais = [
             description: "Papa's encouragement will raise an ally's STR.",
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '32',
-            spr: '29',
-            def: '30',
-            spd: '35'
-        },
+        stats: { hp: '33', str: '32', spr: '29', def: '30', spd: '35' },
         tribe: 'Heartful',
         element: 'Lightning',
         weakness: 'Earth',
@@ -6473,6 +5006,7 @@ const yokais = [
         favouriteFood: 'Meats'
     },
     {
+        index: 132,
         name: 'Uncle Infinite',
         yokaiNumber: '133',
         image:
@@ -6484,14 +5018,8 @@ const yokais = [
             name: 'Intimidation',
             description: 'No Yo-kai will Loafaround.'
         },
-        attack: {
-            name: 'Practiced Punch',
-            power: '90 to 135'
-        },
-        technique: {
-            name: 'Voltage',
-            power: '80 to 120'
-        },
+        attack: { name: 'Practiced Punch', power: '90 to 135' },
+        technique: { name: 'Voltage', power: '80 to 120' },
         soultime: {
             name: 'Table Flip',
             description:
@@ -6504,13 +5032,7 @@ const yokais = [
                 "Uncle's words will significantly raise an ally's STR. ",
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '37',
-            spr: '31',
-            def: '31',
-            spd: '36'
-        },
+        stats: { hp: '39', str: '37', spr: '31', def: '31', spd: '36' },
         tribe: 'Heartful',
         element: 'Lightning',
         weakness: 'Earth',
@@ -6519,6 +5041,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 133,
         name: 'Mama Aura',
         yokaiNumber: '134',
         image:
@@ -6533,14 +5056,8 @@ const yokais = [
             name: 'Prayer',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
         },
-        attack: {
-            name: 'Smackdown',
-            power: '20x2 to 44x2'
-        },
-        technique: {
-            name: 'Paradise',
-            power: '80 to 120'
-        },
+        attack: { name: 'Smackdown', power: '20x2 to 44x2' },
+        technique: { name: 'Paradise', power: '80 to 120' },
         soultime: {
             name: "A Mother's Love",
             description:
@@ -6553,13 +5070,7 @@ const yokais = [
                 "Gradually restores an ally's HP by wrapping it in Mama's warmth.",
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '29',
-            spr: '36',
-            def: '28',
-            spd: '38'
-        },
+        stats: { hp: '36', str: '29', spr: '36', def: '28', spd: '38' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -6567,6 +5078,7 @@ const yokais = [
         favouriteFood: 'Vegetables'
     },
     {
+        index: 134,
         name: 'Auntie Heart',
         yokaiNumber: '135',
         image:
@@ -6578,14 +5090,8 @@ const yokais = [
             name: 'Prayer',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
         },
-        attack: {
-            name: 'Smackdown',
-            power: '20x2 to 44x2'
-        },
-        technique: {
-            name: 'Paradise',
-            power: '80 to 120'
-        },
+        attack: { name: 'Smackdown', power: '20x2 to 44x2' },
+        technique: { name: 'Paradise', power: '80 to 120' },
         soultime: {
             name: 'Loving Auntie',
             description:
@@ -6598,13 +5104,7 @@ const yokais = [
                 "Envelops an ally in Auntie's kindness, which raises DEF.",
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '31',
-            spr: '38',
-            def: '27',
-            spd: '39'
-        },
+        stats: { hp: '39', str: '31', spr: '38', def: '27', spd: '39' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -6630,6 +5130,7 @@ const yokais = [
         ]
     },
     {
+        index: 135,
         name: 'Leadoni',
         yokaiNumber: '136',
         image:
@@ -6644,14 +5145,8 @@ const yokais = [
             name: 'Windshield',
             description: 'Takes less damagefrom Wind attacks.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Hail',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Hail', power: '20 to 90' },
         soultime: {
             name: "C'mon, This Way!",
             description:
@@ -6664,13 +5159,7 @@ const yokais = [
                 'Makes one Yo-kai bring all incoming attacks onto itself.',
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '26',
-            spr: '18',
-            def: '25',
-            spd: '24'
-        },
+        stats: { hp: '26', str: '26', spr: '18', def: '25', spd: '24' },
         tribe: 'Shady',
         element: 'Ice',
         weakness: 'Fire',
@@ -6678,6 +5167,7 @@ const yokais = [
         favouriteFood: 'Candies'
     },
     {
+        index: 136,
         name: 'Mynimo',
         yokaiNumber: '137',
         image:
@@ -6693,14 +5183,8 @@ const yokais = [
             name: 'Windshield',
             description: 'Takes less damagefrom Wind attacks.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Just for You',
             description:
@@ -6713,13 +5197,7 @@ const yokais = [
                 "The Inspirited ally won't be targeted. Very special treatment.",
             power: '0'
         },
-        stats: {
-            hp: '28',
-            str: '29',
-            spr: '19',
-            def: '27',
-            spd: '26'
-        },
+        stats: { hp: '28', str: '29', spr: '19', def: '27', spd: '26' },
         tribe: 'Shady',
         element: 'Drain',
         weakness: 'x',
@@ -6734,6 +5212,7 @@ const yokais = [
         ]
     },
     {
+        index: 137,
         name: 'Ake',
         yokaiNumber: '138',
         image:
@@ -6745,14 +5224,8 @@ const yokais = [
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
         },
-        attack: {
-            name: 'Kick',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Kick', power: '15 to 67' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Shoulder Crunch',
             description:
@@ -6765,13 +5238,7 @@ const yokais = [
                 'Gives a foe an aching shoulder, which will steadily decrease HP.',
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '25',
-            spr: '22',
-            def: '20',
-            spd: '26'
-        },
+        stats: { hp: '24', str: '25', spr: '22', def: '20', spd: '26' },
         tribe: 'Shady',
         element: 'Earth',
         weakness: 'Wind',
@@ -6780,6 +5247,7 @@ const yokais = [
         evolutionIndexes: [87]
     },
     {
+        index: 138,
         name: 'Payn',
         yokaiNumber: '139',
         image:
@@ -6796,14 +5264,8 @@ const yokais = [
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
         },
-        attack: {
-            name: 'Power Punch',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Power Punch', power: '50 to 110' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Shoulder Lock',
             description:
@@ -6816,13 +5278,7 @@ const yokais = [
                 'Gives a foe an aching shoulder, which will steadily decrease HP.',
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '32',
-            spr: '23',
-            def: '25',
-            spd: '27'
-        },
+        stats: { hp: '32', str: '32', spr: '23', def: '25', spd: '27' },
         tribe: 'Shady',
         element: 'Earth',
         weakness: 'Wind',
@@ -6831,6 +5287,7 @@ const yokais = [
         evolutionIndexes: [87]
     },
     {
+        index: 139,
         name: 'Agon',
         yokaiNumber: '140',
         image:
@@ -6842,14 +5299,8 @@ const yokais = [
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
         },
-        attack: {
-            name: 'Power Punch',
-            power: '50 to 110'
-        },
-        technique: {
-            name: 'Meteor',
-            power: '80 to 120'
-        },
+        attack: { name: 'Power Punch', power: '50 to 110' },
+        technique: { name: 'Meteor', power: '80 to 120' },
         soultime: {
             name: 'Backache Buster',
             description: "Bashes a foe's hips. May cancel Soultimate Moves.",
@@ -6861,13 +5312,7 @@ const yokais = [
                 "Messes up a foe's back and makes it completely immobile.",
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '36',
-            spr: '23',
-            def: '27',
-            spd: '33'
-        },
+        stats: { hp: '35', str: '36', spr: '23', def: '27', spd: '33' },
         tribe: 'Shady',
         element: 'Earth',
         weakness: 'Wind',
@@ -6883,6 +5328,7 @@ const yokais = [
         ]
     },
     {
+        index: 140,
         name: 'Negatibuzz',
         yokaiNumber: '141',
         image:
@@ -6900,14 +5346,8 @@ const yokais = [
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Negativity Germs',
             description: 'Spreads negativity germs that lower enemy DEF.',
@@ -6918,13 +5358,7 @@ const yokais = [
             description: 'Makes an enemy very pessimistic and lowers its SPD.',
             power: '0'
         },
-        stats: {
-            hp: '23',
-            str: '26',
-            spr: '20',
-            def: '22',
-            spd: '25'
-        },
+        stats: { hp: '23', str: '26', spr: '20', def: '22', spd: '25' },
         tribe: 'Shady',
         element: 'Drain',
         weakness: 'x',
@@ -6940,6 +5374,7 @@ const yokais = [
         ]
     },
     {
+        index: 141,
         name: 'Moskevil',
         yokaiNumber: '142',
         image:
@@ -6955,14 +5390,8 @@ const yokais = [
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
         },
-        attack: {
-            name: 'Pinpoint Pierce',
-            power: '30 to 66'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Pinpoint Pierce', power: '30 to 66' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Think Evil',
             description:
@@ -6974,13 +5403,7 @@ const yokais = [
             description: 'Makes an enemy very pessimistic and lowers its SPD.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '29',
-            spr: '22',
-            def: '24',
-            spd: '33'
-        },
+        stats: { hp: '31', str: '29', spr: '22', def: '24', spd: '33' },
         tribe: 'Shady',
         element: 'Drain',
         weakness: 'x',
@@ -6989,6 +5412,7 @@ const yokais = [
         evolutionIndexes: [92]
     },
     {
+        index: 142,
         name: 'Scritchy',
         yokaiNumber: '143',
         image:
@@ -7000,14 +5424,8 @@ const yokais = [
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
         },
-        attack: {
-            name: 'Pinpoint Pierce',
-            power: '30 to 66'
-        },
-        technique: {
-            name: 'Voltage',
-            power: '80 to 120'
-        },
+        attack: { name: 'Pinpoint Pierce', power: '30 to 66' },
+        technique: { name: 'Voltage', power: '80 to 120' },
         soultime: {
             name: 'Itchpocalypse',
             description: 'Makes enemies itchy and lowers their STR.',
@@ -7019,13 +5437,7 @@ const yokais = [
                 'Makes an enemy itch constantly, which will decrease its HP.',
             power: '0'
         },
-        stats: {
-            hp: '37',
-            str: '34',
-            spr: '27',
-            def: '29',
-            spd: '37'
-        },
+        stats: { hp: '37', str: '34', spr: '27', def: '29', spd: '37' },
         tribe: 'Shady',
         element: 'Lightning',
         weakness: 'Earth',
@@ -7041,6 +5453,7 @@ const yokais = [
         ]
     },
     {
+        index: 143,
         name: 'Dimmy',
         yokaiNumber: '144',
         image:
@@ -7056,14 +5469,8 @@ const yokais = [
             name: 'Secrecy',
             description: 'Will not become targetof attacks.'
         },
-        attack: {
-            name: 'Stepping Slice',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Stepping Slice', power: '15 to 67' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'Did You See Me?',
             description:
@@ -7075,13 +5482,7 @@ const yokais = [
             description: 'Makes a Yo-kai so plain that its foes ignore it.',
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '24',
-            spr: '23',
-            def: '18',
-            spd: '28'
-        },
+        stats: { hp: '24', str: '24', spr: '23', def: '18', spd: '28' },
         tribe: 'Shady',
         element: 'Wind',
         weakness: 'Ice',
@@ -7090,6 +5491,7 @@ const yokais = [
         evolutionIndexes: [93]
     },
     {
+        index: 144,
         name: 'Blandon',
         yokaiNumber: '145',
         image:
@@ -7105,14 +5507,8 @@ const yokais = [
             name: 'Secrecy',
             description: 'Will not become targetof attacks.'
         },
-        attack: {
-            name: 'Ninja Star',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Ninja Star', power: '60 to 90' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Hazy Dance',
             description:
@@ -7124,13 +5520,7 @@ const yokais = [
             description: 'Makes a Yo-kai so plain that its foes ignore it.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '32',
-            spr: '31',
-            def: '20',
-            spd: '35'
-        },
+        stats: { hp: '31', str: '32', spr: '31', def: '20', spd: '35' },
         tribe: 'Shady',
         element: 'Wind',
         weakness: 'Ice',
@@ -7139,6 +5529,7 @@ const yokais = [
         evolutionIndexes: [93]
     },
     {
+        index: 145,
         name: 'Nul',
         yokaiNumber: '146',
         image:
@@ -7150,14 +5541,8 @@ const yokais = [
             name: 'Secrecy',
             description: 'Will not become targetof attacks.'
         },
-        attack: {
-            name: 'Ninja Star',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Storm',
-            power: '80 to 120'
-        },
+        attack: { name: 'Ninja Star', power: '60 to 90' },
+        technique: { name: 'Storm', power: '80 to 120' },
         soultime: {
             name: "Creep 'n' Cut",
             description:
@@ -7170,13 +5555,7 @@ const yokais = [
                 'Makes foes ignore an ally by reducing its presence to nothing.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '35',
-            spr: '34',
-            def: '20',
-            spd: '37'
-        },
+        stats: { hp: '33', str: '35', spr: '34', def: '20', spd: '37' },
         tribe: 'Shady',
         element: 'Wind',
         weakness: 'Ice',
@@ -7196,6 +5575,7 @@ const yokais = [
         ]
     },
     {
+        index: 146,
         name: 'Hidabat',
         yokaiNumber: '147',
         image:
@@ -7212,14 +5592,8 @@ const yokais = [
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Hidabat Harmony',
             description: 'Hinders enemies with a cursed lullaby.',
@@ -7230,13 +5604,7 @@ const yokais = [
             description: "Takes away a foe's motivation.",
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '22',
-            spr: '26',
-            def: '29',
-            spd: '25'
-        },
+        stats: { hp: '27', str: '22', spr: '26', def: '29', spd: '25' },
         tribe: 'Shady',
         element: 'Wind',
         weakness: 'Ice',
@@ -7252,6 +5620,7 @@ const yokais = [
         ]
     },
     {
+        index: 147,
         name: 'Abodabat',
         yokaiNumber: '148',
         image:
@@ -7268,14 +5637,8 @@ const yokais = [
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
         },
-        attack: {
-            name: 'Tackle',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Tackle', power: '60 to 90' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Abodaballad',
             description: 'Hinders enemies with a baleful ballad.',
@@ -7286,13 +5649,7 @@ const yokais = [
             description: "Takes away a foe's motivation.",
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '30',
-            spr: '31',
-            def: '37',
-            spd: '30'
-        },
+        stats: { hp: '29', str: '30', spr: '31', def: '37', spd: '30' },
         tribe: 'Shady',
         element: 'Wind',
         weakness: 'Ice',
@@ -7301,6 +5658,7 @@ const yokais = [
         evolutionIndexes: [95]
     },
     {
+        index: 148,
         name: 'Belfree',
         yokaiNumber: '149',
         image:
@@ -7312,14 +5670,8 @@ const yokais = [
             name: 'Vampiric',
             description: "Absorbs foe's HP withregular attacks."
         },
-        attack: {
-            name: 'Tackle',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Storm',
-            power: '80 to 120'
-        },
+        attack: { name: 'Tackle', power: '60 to 90' },
+        technique: { name: 'Storm', power: '80 to 120' },
         soultime: {
             name: 'Belfree Blues',
             description: 'Hinders enemies with some bad-luck blues.',
@@ -7330,13 +5682,7 @@ const yokais = [
             description: "Takes away a foe's motivation.",
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '31',
-            spr: '32',
-            def: '40',
-            spd: '31'
-        },
+        stats: { hp: '30', str: '31', spr: '32', def: '40', spd: '31' },
         tribe: 'Shady',
         element: 'Wind',
         weakness: 'Ice',
@@ -7345,6 +5691,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 149,
         name: 'Suspicioni',
         yokaiNumber: '150',
         image:
@@ -7359,18 +5706,9 @@ const yokais = [
             'Infinite Inferno - 3rd Circle',
             'Infinite Inferno - 4th Circle'
         ],
-        skill: {
-            name: 'Suspicion',
-            description: 'May attack an ally.'
-        },
-        attack: {
-            name: 'Pinpoint Pierce',
-            power: '30 to 66'
-        },
-        technique: {
-            name: 'Torrent',
-            power: '20 to 90'
-        },
+        skill: { name: 'Suspicion', description: 'May attack an ally.' },
+        attack: { name: 'Pinpoint Pierce', power: '30 to 66' },
+        technique: { name: 'Torrent', power: '20 to 90' },
         soultime: {
             name: 'Suspicious Eyes',
             description:
@@ -7382,13 +5720,7 @@ const yokais = [
             description: 'Makes a foe distrust its allies and attack them.',
             power: '0'
         },
-        stats: {
-            hp: '20',
-            str: '25',
-            spr: '26',
-            def: '26',
-            spd: '27'
-        },
+        stats: { hp: '20', str: '25', spr: '26', def: '26', spd: '27' },
         tribe: 'Shady',
         element: 'Water',
         weakness: 'Lightning',
@@ -7396,6 +5728,7 @@ const yokais = [
         favouriteFood: 'Chinese foods'
     },
     {
+        index: 150,
         name: 'Tantroni',
         yokaiNumber: '151',
         image:
@@ -7409,18 +5742,9 @@ const yokais = [
             'Infinite Inferno - 1st Circle',
             'Infinite Inferno - 2nd Circle'
         ],
-        skill: {
-            name: 'Suspicion',
-            description: 'May attack an ally.'
-        },
-        attack: {
-            name: 'Pinpoint Pierce',
-            power: '30 to 66'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        skill: { name: 'Suspicion', description: 'May attack an ally.' },
+        attack: { name: 'Pinpoint Pierce', power: '30 to 66' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Temper Tantrum',
             description:
@@ -7433,13 +5757,7 @@ const yokais = [
                 'Makes a Yo-kai have a temper tantrum and attack its allies.',
             power: '0'
         },
-        stats: {
-            hp: '22',
-            str: '29',
-            spr: '19',
-            def: '29',
-            spd: '25'
-        },
+        stats: { hp: '22', str: '29', spr: '19', def: '29', spd: '25' },
         tribe: 'Shady',
         element: 'Fire',
         weakness: 'Water',
@@ -7447,6 +5765,7 @@ const yokais = [
         favouriteFood: 'Chinese foods'
     },
     {
+        index: 151,
         name: 'Contrarioni',
         yokaiNumber: '152',
         image:
@@ -7454,18 +5773,9 @@ const yokais = [
         description:
             "Get ready to say no a lot if Contrarioni Inspirits you. You'll disagree with anything people say. Always fun at parties.",
         locations: ['Breezy Hills - Gourd Pond Museum'],
-        skill: {
-            name: 'Suspicion',
-            description: 'May attack an ally.'
-        },
-        attack: {
-            name: 'Pinpoint Pierce',
-            power: '30 to 66'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        skill: { name: 'Suspicion', description: 'May attack an ally.' },
+        attack: { name: 'Pinpoint Pierce', power: '30 to 66' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'Contrary Gas',
             description:
@@ -7477,13 +5787,7 @@ const yokais = [
             description: 'Makes an enemy attack its allies...just because.',
             power: '0'
         },
-        stats: {
-            hp: '25',
-            str: '28',
-            spr: '33',
-            def: '31',
-            spd: '29'
-        },
+        stats: { hp: '25', str: '28', spr: '33', def: '31', spd: '29' },
         tribe: 'Shady',
         element: 'Lightning',
         weakness: 'Earth',
@@ -7498,6 +5802,7 @@ const yokais = [
         ]
     },
     {
+        index: 152,
         name: 'Tengloom',
         yokaiNumber: '153',
         image:
@@ -7515,14 +5820,8 @@ const yokais = [
             name: 'Windshield',
             description: 'Takes less damagefrom Wind attacks.'
         },
-        attack: {
-            name: 'Flip Kick',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Flip Kick', power: '60 to 90' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Gloomy Storm',
             description: 'Batters enemies with a powerful tornado.',
@@ -7533,13 +5832,7 @@ const yokais = [
             description: 'Makes an enemy a pessimist and lowers its SPD.',
             power: '0'
         },
-        stats: {
-            hp: '28',
-            str: '21',
-            spr: '32',
-            def: '23',
-            spd: '30'
-        },
+        stats: { hp: '28', str: '21', spr: '32', def: '23', spd: '30' },
         tribe: 'Shady',
         element: 'Wind',
         weakness: 'Ice',
@@ -7555,6 +5848,7 @@ const yokais = [
         ]
     },
     {
+        index: 153,
         name: 'Nird',
         yokaiNumber: '154',
         image:
@@ -7566,14 +5860,8 @@ const yokais = [
             name: 'Death Sphere',
             description: 'All healing Techniqueswill be weaker.'
         },
-        attack: {
-            name: 'Flip Kick',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Storm',
-            power: '80 to 120'
-        },
+        attack: { name: 'Flip Kick', power: '60 to 90' },
+        technique: { name: 'Storm', power: '80 to 120' },
         soultime: {
             name: 'Demonic Storm',
             description:
@@ -7585,13 +5873,7 @@ const yokais = [
             description: "Drops a foe's SPR significantly with a dark power.",
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '23',
-            spr: '34',
-            def: '25',
-            spd: '32'
-        },
+        stats: { hp: '30', str: '23', spr: '34', def: '25', spd: '32' },
         tribe: 'Shady',
         element: 'Wind',
         weakness: 'Ice',
@@ -7599,6 +5881,7 @@ const yokais = [
         favouriteFood: 'Vegetables'
     },
     {
+        index: 154,
         name: 'Negasus',
         yokaiNumber: '155',
         image:
@@ -7610,14 +5893,8 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Negasus Curse',
             description: 'Creates an evil aura that lowers STR of all enemies.',
@@ -7629,13 +5906,7 @@ const yokais = [
                 'Makes enemies give in to the urge to hit their own allies.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '23',
-            spr: '39',
-            def: '28',
-            spd: '39'
-        },
+        stats: { hp: '30', str: '23', spr: '39', def: '28', spd: '39' },
         tribe: 'Shady',
         element: 'Wind',
         weakness: 'Ice',
@@ -7650,6 +5921,7 @@ const yokais = [
         ]
     },
     {
+        index: 155,
         name: 'Neighfarious',
         yokaiNumber: '156',
         image:
@@ -7661,14 +5933,8 @@ const yokais = [
             name: 'Cursed Skin',
             description: 'All stats will increasewhen Inspirited by foe.'
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Dark Horse',
             description: 'Creates an evil aura that lowers DEF of all enemies.',
@@ -7680,13 +5946,7 @@ const yokais = [
                 "Significantly lowers all of an enemy's stats with an unknown evil.",
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '31',
-            spr: '28',
-            def: '33',
-            spd: '36'
-        },
+        stats: { hp: '36', str: '31', spr: '28', def: '33', spd: '36' },
         tribe: 'Shady',
         element: 'Drain',
         weakness: 'x',
@@ -7702,6 +5962,7 @@ const yokais = [
         ]
     },
     {
+        index: 156,
         name: 'Timidevil',
         yokaiNumber: '157',
         image:
@@ -7714,18 +5975,9 @@ const yokais = [
             'Yo-kai World - Entry Hall',
             'Infinite Inferno - 7-8th Circle'
         ],
-        skill: {
-            name: 'Too Afraid',
-            description: 'Loafs around a lot.'
-        },
-        attack: {
-            name: 'Stab Storm',
-            power: '10x5 to 22x5'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        skill: { name: 'Too Afraid', description: 'Loafs around a lot.' },
+        attack: { name: 'Stab Storm', power: '10x5 to 22x5' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
             name: 'Timid Boo',
             description:
@@ -7738,13 +5990,7 @@ const yokais = [
                 "Makes a foe a super scaredy-cat who's even afraid to fight.",
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '37',
-            spr: '29',
-            def: '33',
-            spd: '32'
-        },
+        stats: { hp: '26', str: '37', spr: '29', def: '33', spd: '32' },
         tribe: 'Shady',
         element: 'Fire',
         weakness: 'Water',
@@ -7753,6 +5999,7 @@ const yokais = [
         evolutionIndexes: [122]
     },
     {
+        index: 157,
         name: 'Beelzebold',
         yokaiNumber: '158',
         image:
@@ -7764,14 +6011,8 @@ const yokais = [
             name: 'Intimidation',
             description: 'No Yo-kai will Loafaround.'
         },
-        attack: {
-            name: 'Stab Storm',
-            power: '10x5 to 22x5'
-        },
-        technique: {
-            name: 'Incinerate',
-            power: '80 to 120'
-        },
+        attack: { name: 'Stab Storm', power: '10x5 to 22x5' },
+        technique: { name: 'Incinerate', power: '80 to 120' },
         soultime: {
             name: 'Boldakazam',
             description:
@@ -7784,13 +6025,7 @@ const yokais = [
                 "Makes a foe a super scaredy-cat who's even afraid to fight.",
             power: '0'
         },
-        stats: {
-            hp: '28',
-            str: '33',
-            spr: '31',
-            def: '35',
-            spd: '35'
-        },
+        stats: { hp: '28', str: '33', spr: '31', def: '35', spd: '35' },
         tribe: 'Shady',
         element: 'Fire',
         weakness: 'Water',
@@ -7799,6 +6034,7 @@ const yokais = [
         evolutionIndexes: [122]
     },
     {
+        index: 158,
         name: 'Count Cavity',
         yokaiNumber: '159',
         image:
@@ -7810,14 +6046,8 @@ const yokais = [
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
         },
-        attack: {
-            name: 'Stab Storm',
-            power: '10x5 to 22x5'
-        },
-        technique: {
-            name: 'Incinerate',
-            power: '80 to 120'
-        },
+        attack: { name: 'Stab Storm', power: '10x5 to 22x5' },
+        technique: { name: 'Incinerate', power: '80 to 120' },
         soultime: {
             name: 'Bacteria Barrage',
             description:
@@ -7830,13 +6060,7 @@ const yokais = [
                 'Gives a foe a nasty cavity and gradually decreases HP.',
             power: '0'
         },
-        stats: {
-            hp: '44',
-            str: '35',
-            spr: '33',
-            def: '23',
-            spd: '39'
-        },
+        stats: { hp: '44', str: '35', spr: '33', def: '23', spd: '39' },
         tribe: 'Shady',
         element: 'Fire',
         weakness: 'Water',
@@ -7862,6 +6086,7 @@ const yokais = [
         ]
     },
     {
+        index: 159,
         name: 'Greesel',
         yokaiNumber: '160',
         image:
@@ -7876,14 +6101,8 @@ const yokais = [
             name: 'Mine',
             description: 'Will take good Inspiritson allies for itself.'
         },
-        attack: {
-            name: 'Clobber',
-            power: '75 to 112'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        attack: { name: 'Clobber', power: '75 to 112' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
             name: 'Stingy Curse',
             description:
@@ -7896,13 +6115,7 @@ const yokais = [
                 'Makes an enemy extra greedy and hateful toward its allies.',
             power: '0'
         },
-        stats: {
-            hp: '37',
-            str: '27',
-            spr: '41',
-            def: '32',
-            spd: '35'
-        },
+        stats: { hp: '37', str: '27', spr: '41', def: '32', spd: '35' },
         tribe: 'Shady',
         element: 'Fire',
         weakness: 'Water',
@@ -7910,6 +6123,7 @@ const yokais = [
         favouriteFood: 'Meats'
     },
     {
+        index: 160,
         name: 'Awevil',
         yokaiNumber: '161',
         image:
@@ -7921,14 +6135,8 @@ const yokais = [
             name: 'Ultimate Dark',
             description: 'Inspirit will alwayssucceed.'
         },
-        attack: {
-            name: 'Clobber',
-            power: '75 to 112'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Clobber', power: '75 to 112' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Pitch-Black Curse',
             description: 'The dark power of eternity hinders enemy actions.',
@@ -7939,13 +6147,7 @@ const yokais = [
             description: 'Steadily damages a foe with the powers of darkness.',
             power: '0'
         },
-        stats: {
-            hp: '40',
-            str: '29',
-            spr: '39',
-            def: '34',
-            spd: '32'
-        },
+        stats: { hp: '40', str: '29', spr: '39', def: '34', spd: '32' },
         tribe: 'Shady',
         element: 'Ice',
         weakness: 'Fire',
@@ -7954,6 +6156,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 161,
         name: 'Coughkoff',
         yokaiNumber: '162',
         image:
@@ -7968,14 +6171,8 @@ const yokais = [
             name: 'Soothing Rhythm',
             description: 'All foes will be prone toLoafing around.'
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Torrent',
-            power: '20 to 90'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Torrent', power: '20 to 90' },
         soultime: {
             name: 'Koff Dropper',
             description:
@@ -7988,13 +6185,7 @@ const yokais = [
                 'Gives a Yo-kai a sore throat and steadily decreases its HP.',
             power: '0'
         },
-        stats: {
-            hp: '28',
-            str: '23',
-            spr: '17',
-            def: '25',
-            spd: '26'
-        },
+        stats: { hp: '28', str: '23', spr: '17', def: '25', spd: '26' },
         tribe: 'Eerie',
         element: 'Water',
         weakness: 'Lightning',
@@ -8003,6 +6194,7 @@ const yokais = [
         evolutionIndexes: [64]
     },
     {
+        index: 162,
         name: 'Hurchin',
         yokaiNumber: '163',
         image:
@@ -8014,14 +6206,8 @@ const yokais = [
             name: 'Soothing Rhythm',
             description: 'All foes will be prone toLoafing around.'
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Sting Bomb',
             description:
@@ -8034,13 +6220,7 @@ const yokais = [
                 "Makes a foe so jealous of its allies' things that it will attack them.",
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '25',
-            spr: '16',
-            def: '26',
-            spd: '25'
-        },
+        stats: { hp: '30', str: '25', spr: '16', def: '26', spd: '25' },
         tribe: 'Eerie',
         element: 'Ice',
         weakness: 'Fire',
@@ -8048,6 +6228,7 @@ const yokais = [
         favouriteFood: 'Breads'
     },
     {
+        index: 163,
         name: 'Peckpocket',
         yokaiNumber: '164',
         image:
@@ -8059,14 +6240,8 @@ const yokais = [
             name: 'Glossy Skin',
             description: 'Does not get dealtcritical damage.'
         },
-        attack: {
-            name: 'Squish',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Squish', power: '10 to 45' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Life Snag',
             description:
@@ -8079,13 +6254,7 @@ const yokais = [
                 'Gives a foe a headache and steadily decreases its HP.',
             power: '0'
         },
-        stats: {
-            hp: '25',
-            str: '18',
-            spr: '26',
-            def: '28',
-            spd: '22'
-        },
+        stats: { hp: '25', str: '18', spr: '26', def: '28', spd: '22' },
         tribe: 'Eerie',
         element: 'Drain',
         weakness: 'x',
@@ -8093,6 +6262,7 @@ const yokais = [
         favouriteFood: 'Hamburgers'
     },
     {
+        index: 164,
         name: 'Rockabelly',
         yokaiNumber: '165',
         image:
@@ -8104,14 +6274,8 @@ const yokais = [
             name: 'Glossy Skin',
             description: 'Does not get dealtcritical damage.'
         },
-        attack: {
-            name: 'Squish',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Squish', power: '10 to 45' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Face Flop',
             description:
@@ -8124,13 +6288,7 @@ const yokais = [
                 'Makes a foe dance with its belly out, which lowers its DEF.',
             power: '0'
         },
-        stats: {
-            hp: '28',
-            str: '20',
-            spr: '27',
-            def: '30',
-            spd: '24'
-        },
+        stats: { hp: '28', str: '20', spr: '27', def: '30', spd: '24' },
         tribe: 'Eerie',
         element: 'Drain',
         weakness: 'x',
@@ -8138,6 +6296,7 @@ const yokais = [
         favouriteFood: 'Hamburgers'
     },
     {
+        index: 165,
         name: 'Buhu',
         yokaiNumber: '166',
         image:
@@ -8152,14 +6311,8 @@ const yokais = [
             name: 'Wind Play',
             description: 'Increases damage ofown Wind attacks.'
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Whirlwind',
-            power: '20 to 90'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Whirlwind', power: '20 to 90' },
         soultime: {
             name: 'Boohoo Blast',
             description:
@@ -8172,13 +6325,7 @@ const yokais = [
                 'Depresses foes and makes them unwilling to take action.',
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '19',
-            spr: '27',
-            def: '22',
-            spd: '25'
-        },
+        stats: { hp: '26', str: '19', spr: '27', def: '22', spd: '25' },
         tribe: 'Eerie',
         element: 'Wind',
         weakness: 'Ice',
@@ -8186,6 +6333,7 @@ const yokais = [
         favouriteFood: 'Breads'
     },
     {
+        index: 166,
         name: 'Flumpy',
         yokaiNumber: '167',
         image:
@@ -8201,14 +6349,8 @@ const yokais = [
             name: 'Wind Play',
             description: 'Increases damage ofown Wind attacks.'
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Awfully Awkward',
             description:
@@ -8220,13 +6362,7 @@ const yokais = [
             description: 'Makes foes awkward and lowers their DEF.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '22',
-            spr: '32',
-            def: '24',
-            spd: '31'
-        },
+        stats: { hp: '30', str: '22', spr: '32', def: '24', spd: '31' },
         tribe: 'Eerie',
         element: 'Wind',
         weakness: 'Ice',
@@ -8234,6 +6370,7 @@ const yokais = [
         favouriteFood: 'Breads'
     },
     {
+        index: 167,
         name: 'Skreek',
         yokaiNumber: '168',
         image:
@@ -8245,14 +6382,8 @@ const yokais = [
             name: 'Penetrate',
             description: 'Always deals elementaldamage.'
         },
-        attack: {
-            name: 'Pesky Poke',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Pesky Poke', power: '15 to 67' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Meet the Reaper',
             description:
@@ -8265,13 +6396,7 @@ const yokais = [
                 'Stops foes from acting by filling them with a sense of despair.',
             power: '0'
         },
-        stats: {
-            hp: '38',
-            str: '32',
-            spr: '32',
-            def: '28',
-            spd: '34'
-        },
+        stats: { hp: '38', str: '32', spr: '32', def: '28', spd: '34' },
         tribe: 'Eerie',
         element: 'Wind',
         weakness: 'Ice',
@@ -8280,6 +6405,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 168,
         name: 'Manjimutt',
         yokaiNumber: '169',
         image:
@@ -8296,14 +6422,8 @@ const yokais = [
             name: 'Moist Skin',
             description: 'Takes less damagefrom Water attacks.'
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Fire',
-            power: '20 to 90'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Fire', power: '20 to 90' },
         soultime: {
             name: 'Creepy Superbite',
             description:
@@ -8315,13 +6435,7 @@ const yokais = [
             description: 'Startles foes into attacking their own allies.',
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '25',
-            spr: '23',
-            def: '20',
-            spd: '25'
-        },
+        stats: { hp: '24', str: '25', spr: '23', def: '20', spd: '25' },
         tribe: 'Eerie',
         element: 'Fire',
         weakness: 'Water',
@@ -8337,6 +6451,7 @@ const yokais = [
         ]
     },
     {
+        index: 169,
         name: 'Multimutt',
         yokaiNumber: '170',
         image:
@@ -8352,14 +6467,8 @@ const yokais = [
             name: 'Moist Skin',
             description: 'Takes less damagefrom Water attacks.'
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
             name: 'Superbite Twin',
             description:
@@ -8371,13 +6480,7 @@ const yokais = [
             description: 'Startles foes into attacking their own allies.',
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '34',
-            spr: '26',
-            def: '25',
-            spd: '30'
-        },
+        stats: { hp: '32', str: '34', spr: '26', def: '25', spd: '30' },
         tribe: 'Eerie',
         element: 'Fire',
         weakness: 'Water',
@@ -8393,6 +6496,7 @@ const yokais = [
         ]
     },
     {
+        index: 170,
         name: 'Sir Berus',
         yokaiNumber: '171',
         image:
@@ -8404,14 +6508,8 @@ const yokais = [
             name: 'Moist Skin',
             description: 'Takes less damagefrom Water attacks.'
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Meteor',
-            power: '80 to 120'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Meteor', power: '80 to 120' },
         soultime: {
             name: 'Stygian Slingshot',
             description:
@@ -8424,13 +6522,7 @@ const yokais = [
                 "Decreases a foe's SPR significantly using an underworld curse.",
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '38',
-            spr: '28',
-            def: '30',
-            spd: '33'
-        },
+        stats: { hp: '35', str: '38', spr: '28', def: '30', spd: '33' },
         tribe: 'Eerie',
         element: 'Earth',
         weakness: 'Wind',
@@ -8446,6 +6538,7 @@ const yokais = [
         ]
     },
     {
+        index: 171,
         name: 'Droplette',
         yokaiNumber: '172',
         image:
@@ -8460,14 +6553,8 @@ const yokais = [
             name: 'Moist Skin',
             description: 'Takes less damagefrom Water attacks.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Torrent',
-            power: '20 to 90'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Torrent', power: '20 to 90' },
         soultime: {
             name: 'Drizzling Shower',
             description: 'Builds up moisture and dumps rain on his foes.',
@@ -8479,13 +6566,7 @@ const yokais = [
                 "The Inspirited Yo-kai's skin gets clammy and DEF decreases.",
             power: '0'
         },
-        stats: {
-            hp: '22',
-            str: '23',
-            spr: '26',
-            def: '24',
-            spd: '22'
-        },
+        stats: { hp: '22', str: '23', spr: '26', def: '24', spd: '22' },
         tribe: 'Eerie',
         element: 'Water',
         weakness: 'Lightning',
@@ -8494,6 +6575,7 @@ const yokais = [
         evolutionIndexes: [98]
     },
     {
+        index: 172,
         name: 'Drizzle',
         yokaiNumber: '173',
         image:
@@ -8509,14 +6591,8 @@ const yokais = [
             name: 'Moist Skin',
             description: 'Takes less damagefrom Water attacks.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Heavy Squall',
             description: 'Builds moisture and dumps a squall on his opponents.',
@@ -8528,13 +6604,7 @@ const yokais = [
                 "The Inspirited Yo-kai's skin gets clammy and DEF decreases.",
             power: '0'
         },
-        stats: {
-            hp: '28',
-            str: '25',
-            spr: '30',
-            def: '28',
-            spd: '31'
-        },
+        stats: { hp: '28', str: '25', spr: '30', def: '28', spd: '31' },
         tribe: 'Eerie',
         element: 'Water',
         weakness: 'Lightning',
@@ -8543,6 +6613,7 @@ const yokais = [
         evolutionIndexes: [98]
     },
     {
+        index: 173,
         name: 'Slush',
         yokaiNumber: '174',
         image:
@@ -8557,14 +6628,8 @@ const yokais = [
             name: 'Stiff Skin',
             description: 'Takes less damagefrom Ice attacks.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Hail',
-            power: '20 to 90'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Hail', power: '20 to 90' },
         soultime: {
             name: 'Shivering Sigh',
             description:
@@ -8576,13 +6641,7 @@ const yokais = [
             description: 'Numbs a foe with cold and lowers STR.',
             power: '0'
         },
-        stats: {
-            hp: '24',
-            str: '22',
-            spr: '24',
-            def: '26',
-            spd: '21'
-        },
+        stats: { hp: '24', str: '22', spr: '24', def: '26', spd: '21' },
         tribe: 'Eerie',
         element: 'Ice',
         weakness: 'Fire',
@@ -8591,6 +6650,7 @@ const yokais = [
         evolutionIndexes: [123]
     },
     {
+        index: 174,
         name: 'Alhail',
         yokaiNumber: '175',
         image:
@@ -8605,14 +6665,8 @@ const yokais = [
             name: 'Stiff Skin',
             description: 'Takes less damagefrom Ice attacks.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Heavenly Hail',
             description:
@@ -8624,13 +6678,7 @@ const yokais = [
             description: 'Thoroughly freezes a foe and lowers STR.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '20',
-            spr: '31',
-            def: '34',
-            spd: '27'
-        },
+        stats: { hp: '30', str: '20', spr: '31', def: '34', spd: '27' },
         tribe: 'Eerie',
         element: 'Ice',
         weakness: 'Fire',
@@ -8639,6 +6687,7 @@ const yokais = [
         evolutionIndexes: [123]
     },
     {
+        index: 175,
         name: 'Gush',
         yokaiNumber: '176',
         image:
@@ -8650,14 +6699,8 @@ const yokais = [
             name: 'Good Fortune',
             description: 'Will increase money atthe end of a battle.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
             name: 'Nosebleed Bomb',
             description:
@@ -8669,13 +6712,7 @@ const yokais = [
             description: 'Slows down a foe with a bloody nose.',
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '24',
-            spr: '29',
-            def: '23',
-            spd: '31'
-        },
+        stats: { hp: '27', str: '24', spr: '29', def: '23', spd: '31' },
         tribe: 'Eerie',
         element: 'Fire',
         weakness: 'Water',
@@ -8684,6 +6721,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 176,
         name: 'Chatalie',
         yokaiNumber: '177',
         image:
@@ -8695,14 +6733,8 @@ const yokais = [
             name: 'Skilled Loafer',
             description: 'Will recover a little HPwhen Loafing around.'
         },
-        attack: {
-            name: 'Bite',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        attack: { name: 'Bite', power: '15 to 67' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: 'Bigmouth',
             description: 'Bites her opponents with a big-toothed grin.',
@@ -8713,13 +6745,7 @@ const yokais = [
             description: 'Makes Yo-kai talk big... but do little.',
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '23',
-            spr: '29',
-            def: '21',
-            spd: '27'
-        },
+        stats: { hp: '29', str: '23', spr: '29', def: '21', spd: '27' },
         tribe: 'Eerie',
         element: 'Lightning',
         weakness: 'Earth',
@@ -8727,6 +6753,7 @@ const yokais = [
         favouriteFood: 'Breads'
     },
     {
+        index: 177,
         name: 'Nagatha',
         yokaiNumber: '178',
         image:
@@ -8738,14 +6765,8 @@ const yokais = [
             name: 'Skilled Loafer',
             description: 'Will recover a little HPwhen Loafing around.'
         },
-        attack: {
-            name: 'Bite',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Bite', power: '15 to 67' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Badger Bite',
             description: 'Bites her opponents while complaining.',
@@ -8757,13 +6778,7 @@ const yokais = [
                 'Makes foes complain a lot while they actually do very little.',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '34',
-            spr: '20',
-            def: '25',
-            spd: '29'
-        },
+        stats: { hp: '31', str: '34', spr: '20', def: '25', spd: '29' },
         tribe: 'Eerie',
         element: 'Drain',
         weakness: 'x',
@@ -8778,6 +6793,7 @@ const yokais = [
         ]
     },
     {
+        index: 178,
         name: 'Dismarelda',
         yokaiNumber: '179',
         image:
@@ -8793,14 +6809,8 @@ const yokais = [
             name: 'Cursed Skin',
             description: 'All stats will increasewhen Inspirited by foe.'
         },
-        attack: {
-            name: 'Squish',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Pebble',
-            power: '20 to 90'
-        },
+        attack: { name: 'Squish', power: '10 to 45' },
+        technique: { name: 'Pebble', power: '20 to 90' },
         soultime: {
             name: 'Dismartillery',
             description:
@@ -8813,13 +6823,7 @@ const yokais = [
                 'Surrounds a foe with overcast weather and lowers STR significantly.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '22',
-            spr: '26',
-            def: '28',
-            spd: '23'
-        },
+        stats: { hp: '30', str: '22', spr: '26', def: '28', spd: '23' },
         tribe: 'Eerie',
         element: 'Earth',
         weakness: 'Wind',
@@ -8828,6 +6832,7 @@ const yokais = [
         evolutionIndexes: [86]
     },
     {
+        index: 179,
         name: 'Cheeksqueek',
         yokaiNumber: '180',
         image:
@@ -8839,14 +6844,8 @@ const yokais = [
             name: 'Gassy Sphere',
             description: 'Decreases accuracyof enemies.'
         },
-        attack: {
-            name: 'Headbutt',
-            power: '55 to 121'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        attack: { name: 'Headbutt', power: '55 to 121' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Stinky Smog',
             description:
@@ -8859,13 +6858,7 @@ const yokais = [
                 "Confuses a foe with a stench so strong that it can't think straight.",
             power: '0'
         },
-        stats: {
-            hp: '26',
-            str: '27',
-            spr: '26',
-            def: '23',
-            spd: '30'
-        },
+        stats: { hp: '26', str: '27', spr: '26', def: '23', spd: '30' },
         tribe: 'Eerie',
         element: 'Ice',
         weakness: 'Fire',
@@ -8873,6 +6866,7 @@ const yokais = [
         favouriteFood: 'Milks'
     },
     {
+        index: 180,
         name: 'Cuttincheez',
         yokaiNumber: '181',
         image:
@@ -8880,18 +6874,9 @@ const yokais = [
         description:
             'A god of flatulence. Brace yourself for agony if you get stuck in a windowless room with Cuttincheez.',
         locations: ["Shopper's Row - Trees"],
-        skill: {
-            name: 'Sense of Smell',
-            description: 'Never misses attacks.'
-        },
-        attack: {
-            name: 'Headbutt',
-            power: '55 to 121'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        skill: { name: 'Sense of Smell', description: 'Never misses attacks.' },
+        attack: { name: 'Headbutt', power: '55 to 121' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Toxic Gas',
             description:
@@ -8904,13 +6889,7 @@ const yokais = [
                 "Confuses a foe with a stench so strong that it can't think straight.",
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '33',
-            spr: '30',
-            def: '28',
-            spd: '36'
-        },
+        stats: { hp: '32', str: '33', spr: '30', def: '28', spd: '36' },
         tribe: 'Eerie',
         element: 'Ice',
         weakness: 'Fire',
@@ -8925,6 +6904,7 @@ const yokais = [
         ]
     },
     {
+        index: 181,
         name: 'Compunzer',
         yokaiNumber: '182',
         image:
@@ -8936,14 +6916,8 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Beat',
-            power: '40 to 88'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Beat', power: '40 to 88' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Lamest Joke',
             description:
@@ -8956,13 +6930,7 @@ const yokais = [
                 "Makes a foe's jokes fall so flat that it hurts both pride and HP.",
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '27',
-            spr: '32',
-            def: '29',
-            spd: '37'
-        },
+        stats: { hp: '32', str: '27', spr: '32', def: '29', spd: '37' },
         tribe: 'Eerie',
         element: 'Drain',
         weakness: 'x',
@@ -8970,6 +6938,7 @@ const yokais = [
         favouriteFood: 'Chinese foods'
     },
     {
+        index: 182,
         name: 'Lamedian',
         yokaiNumber: '183',
         image:
@@ -8985,14 +6954,8 @@ const yokais = [
             name: 'Hanging In',
             description: "Won't get bad effectsof enemy Inspirits."
         },
-        attack: {
-            name: 'Beat',
-            power: '40 to 88'
-        },
-        technique: {
-            name: 'Reaper',
-            power: '80 to 120'
-        },
+        attack: { name: 'Beat', power: '40 to 88' },
+        technique: { name: 'Reaper', power: '80 to 120' },
         soultime: {
             name: 'Millennium of Lame',
             description:
@@ -9005,13 +6968,7 @@ const yokais = [
                 "Makes a foe's jokes fall so flat that it hurts both pride and HP.",
             power: '0'
         },
-        stats: {
-            hp: '37',
-            str: '26',
-            spr: '28',
-            def: '26',
-            spd: '35'
-        },
+        stats: { hp: '37', str: '26', spr: '28', def: '26', spd: '35' },
         tribe: 'Eerie',
         element: 'Drain',
         weakness: 'x',
@@ -9019,6 +6976,7 @@ const yokais = [
         favouriteFood: 'Chinese foods'
     },
     {
+        index: 183,
         name: 'Grumples',
         yokaiNumber: '184',
         image:
@@ -9035,14 +6993,8 @@ const yokais = [
             name: 'Oldness Zone',
             description: 'No Yo-kai will be ableto dodge.'
         },
-        attack: {
-            name: 'Hit',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Hit', power: '10 to 45' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Scary Wrinkles',
             description:
@@ -9055,13 +7007,7 @@ const yokais = [
                 'Makes a foe wrinkled and decrepit, which will lower its DEF.',
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '25',
-            spr: '35',
-            def: '24',
-            spd: '33'
-        },
+        stats: { hp: '32', str: '25', spr: '35', def: '24', spd: '33' },
         tribe: 'Eerie',
         element: 'Drain',
         weakness: 'x',
@@ -9077,6 +7023,7 @@ const yokais = [
         ]
     },
     {
+        index: 184,
         name: 'Everfore',
         yokaiNumber: '185',
         image:
@@ -9088,14 +7035,8 @@ const yokais = [
             name: 'Oldness Zone',
             description: 'No Yo-kai will be ableto dodge.'
         },
-        attack: {
-            name: 'Beat',
-            power: '40 to 88'
-        },
-        technique: {
-            name: 'Reaper',
-            power: '80 to 120'
-        },
+        attack: { name: 'Beat', power: '40 to 88' },
+        technique: { name: 'Reaper', power: '80 to 120' },
         soultime: {
             name: 'Beauty Beam',
             description:
@@ -9107,13 +7048,7 @@ const yokais = [
             description: "Saps an enemy's youth and lowers all stats.",
             power: '0'
         },
-        stats: {
-            hp: '40',
-            str: '27',
-            spr: '40',
-            def: '29',
-            spd: '36'
-        },
+        stats: { hp: '40', str: '27', spr: '40', def: '29', spd: '36' },
         tribe: 'Eerie',
         element: 'Drain',
         weakness: 'x',
@@ -9122,6 +7057,7 @@ const yokais = [
         evolutionIndexes: [108]
     },
     {
+        index: 185,
         name: 'Eterna',
         yokaiNumber: '186',
         image:
@@ -9133,14 +7069,8 @@ const yokais = [
             name: 'Oldness Zone',
             description: 'No Yo-kai will be ableto dodge.'
         },
-        attack: {
-            name: 'Beat',
-            power: '40 to 88'
-        },
-        technique: {
-            name: 'Reaper',
-            power: '80 to 120'
-        },
+        attack: { name: 'Beat', power: '40 to 88' },
+        technique: { name: 'Reaper', power: '80 to 120' },
         soultime: {
             name: 'Undying Drain',
             description:
@@ -9153,13 +7083,7 @@ const yokais = [
                 "Regenerates an ally's HP with the power of immortality.",
             power: '0'
         },
-        stats: {
-            hp: '43',
-            str: '26',
-            spr: '40',
-            def: '27',
-            spd: '38'
-        },
+        stats: { hp: '43', str: '26', spr: '40', def: '27', spd: '38' },
         tribe: 'Eerie',
         element: 'Drain',
         weakness: 'x',
@@ -9185,6 +7109,7 @@ const yokais = [
         ]
     },
     {
+        index: 186,
         name: 'Insomni',
         yokaiNumber: '187',
         image:
@@ -9199,14 +7124,8 @@ const yokais = [
             name: 'Insecure',
             description: 'High chance to giveand take critical strikes.'
         },
-        attack: {
-            name: 'Smackdown',
-            power: '20x2 to 44x2'
-        },
-        technique: {
-            name: 'Blizzard',
-            power: '80 to 120'
-        },
+        attack: { name: 'Smackdown', power: '20x2 to 44x2' },
+        technique: { name: 'Blizzard', power: '80 to 120' },
         soultime: {
             name: 'Never Sleep Ever',
             description: "Lowers all her enemies' stats with just one look.",
@@ -9218,13 +7137,7 @@ const yokais = [
                 'Makes an enemy unable to sleep and lowers stats significantly.',
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '26',
-            spr: '36',
-            def: '27',
-            spd: '38'
-        },
+        stats: { hp: '35', str: '26', spr: '36', def: '27', spd: '38' },
         tribe: 'Eerie',
         element: 'Ice',
         weakness: 'Fire',
@@ -9232,6 +7145,7 @@ const yokais = [
         favouriteFood: 'Candies'
     },
     {
+        index: 187,
         name: 'Sandi',
         yokaiNumber: '188',
         image:
@@ -9243,14 +7157,8 @@ const yokais = [
             name: 'Hard Worker',
             description: 'Receives moreexperience points.'
         },
-        attack: {
-            name: 'Smackdown',
-            power: '20x2 to 44x2'
-        },
-        technique: {
-            name: 'Reaper',
-            power: '80 to 120'
-        },
+        attack: { name: 'Smackdown', power: '20x2 to 44x2' },
+        technique: { name: 'Reaper', power: '80 to 120' },
         soultime: {
             name: 'Unwaking Dream',
             description:
@@ -9263,13 +7171,7 @@ const yokais = [
                 'The Inspirited Yo-kai falls so deeply asleep it is unable to act.',
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '28',
-            spr: '38',
-            def: '29',
-            spd: '40'
-        },
+        stats: { hp: '39', str: '28', spr: '38', def: '29', spd: '40' },
         tribe: 'Eerie',
         element: 'Drain',
         weakness: 'x',
@@ -9278,6 +7180,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 188,
         name: 'Noko',
         yokaiNumber: '189',
         image:
@@ -9293,14 +7196,8 @@ const yokais = [
             name: 'Good Fortune',
             description: 'Will increase money atthe end of a battle.'
         },
-        attack: {
-            name: 'Bite',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Bite', power: '15 to 67' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Noko Smile',
             description:
@@ -9313,13 +7210,7 @@ const yokais = [
                 "Noko's luck provides an ally with a little stat boost.",
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '15',
-            spr: '25',
-            def: '16',
-            spd: '39'
-        },
+        stats: { hp: '29', str: '15', spr: '25', def: '16', spd: '39' },
         tribe: 'Slippery',
         element: 'Earth',
         weakness: 'Wind',
@@ -9328,6 +7219,7 @@ const yokais = [
         evolutionIndexes: [110]
     },
     {
+        index: 189,
         name: 'Bloominoko',
         yokaiNumber: '190',
         image:
@@ -9339,14 +7231,8 @@ const yokais = [
             name: 'Good Fortune',
             description: 'Will increase money atthe end of a battle.'
         },
-        attack: {
-            name: 'Maul',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Meteor',
-            power: '80 to 120'
-        },
+        attack: { name: 'Maul', power: '80 to 120' },
+        technique: { name: 'Meteor', power: '80 to 120' },
         soultime: {
             name: 'Lucky Smile',
             description:
@@ -9359,13 +7245,7 @@ const yokais = [
                 "Bloominoko's luck provides an ally with a little stat boost.",
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '26',
-            spr: '31',
-            def: '29',
-            spd: '46'
-        },
+        stats: { hp: '33', str: '26', spr: '31', def: '29', spd: '46' },
         tribe: 'Slippery',
         element: 'Earth',
         weakness: 'Wind',
@@ -9374,6 +7254,7 @@ const yokais = [
         evolutionIndexes: [110]
     },
     {
+        index: 190,
         name: 'Pandanoko',
         yokaiNumber: '191',
         image:
@@ -9385,14 +7266,8 @@ const yokais = [
             name: 'Summon',
             description: 'Will make Wisps appearmore often.'
         },
-        attack: {
-            name: 'Maul',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Frost',
-            power: '50 to 110'
-        },
+        attack: { name: 'Maul', power: '80 to 120' },
+        technique: { name: 'Frost', power: '50 to 110' },
         soultime: {
             name: 'Panda Smile',
             description:
@@ -9405,13 +7280,7 @@ const yokais = [
                 'Heals an ally bit by bit with the cuteness of a panda bear.',
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '28',
-            spr: '31',
-            def: '31',
-            spd: '41'
-        },
+        stats: { hp: '35', str: '28', spr: '31', def: '31', spd: '41' },
         tribe: 'Slippery',
         element: 'Ice',
         weakness: 'Fire',
@@ -9420,6 +7289,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 191,
         name: 'Heheheel',
         yokaiNumber: '192',
         image:
@@ -9436,14 +7306,8 @@ const yokais = [
             name: 'Jar Guard',
             description: 'Has extremely highchances to guard.'
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Heal',
-            power: '20 to 90'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Heal', power: '20 to 90' },
         soultime: {
             name: 'In da Funny Bone',
             description:
@@ -9455,13 +7319,7 @@ const yokais = [
             description: 'Cheers up allies and increases their STR.',
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '30',
-            spr: '21',
-            def: '25',
-            spd: '24'
-        },
+        stats: { hp: '27', str: '30', spr: '21', def: '25', spd: '24' },
         tribe: 'Slippery',
         element: 'Restoration',
         weakness: 'x',
@@ -9476,6 +7334,7 @@ const yokais = [
         ]
     },
     {
+        index: 192,
         name: 'Croonger',
         yokaiNumber: '193',
         image:
@@ -9490,14 +7349,8 @@ const yokais = [
             name: 'Jar Guard',
             description: 'Has extremely highchances to guard.'
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Eel Life',
             description: 'Bites his enemies as he sings classic tunes.',
@@ -9508,13 +7361,7 @@ const yokais = [
             description: 'Cheers up allies and increases their SPR.',
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '31',
-            spr: '24',
-            def: '26',
-            spd: '27'
-        },
+        stats: { hp: '29', str: '31', spr: '24', def: '26', spd: '27' },
         tribe: 'Slippery',
         element: 'Drain',
         weakness: 'x',
@@ -9522,12 +7369,13 @@ const yokais = [
         favouriteFood: 'Meats'
     },
     {
+        index: 193,
         name: 'Urnaconda',
         yokaiNumber: '194',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/urnaconda.png',
         description:
-            "That's no regular pot\u2014 there's a huge snake inside! Some say this inspired the creation of the jack-in-the-box.",
+            "That's no regular pot— there's a huge snake inside! Some say this inspired the creation of the jack-in-the-box.",
         locations: [
             'Blossom Heights - Tucked Away Lot, Secret Byway & Hidden Side Street',
             'Downtown Springdale - Construction Site'
@@ -9536,14 +7384,8 @@ const yokais = [
             name: 'Jar Guard',
             description: 'Has extremely highchances to guard.'
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Restore',
-            power: '50 to 110'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Restore', power: '50 to 110' },
         soultime: {
             name: 'Venoconda',
             description:
@@ -9555,13 +7397,7 @@ const yokais = [
             description: 'Gives a Yo-kai snakelike speed.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '34',
-            spr: '21',
-            def: '28',
-            spd: '24'
-        },
+        stats: { hp: '30', str: '34', spr: '21', def: '28', spd: '24' },
         tribe: 'Slippery',
         element: 'Restoration',
         weakness: 'x',
@@ -9569,6 +7405,7 @@ const yokais = [
         favouriteFood: 'Meats'
     },
     {
+        index: 194,
         name: 'Fishpicable',
         yokaiNumber: '195',
         image:
@@ -9584,14 +7421,8 @@ const yokais = [
             name: 'Waterproof',
             description: 'Takes less damagefrom Water attacks.'
         },
-        attack: {
-            name: 'Slap',
-            power: '10 to 45'
-        },
-        technique: {
-            name: 'Shock',
-            power: '20 to 90'
-        },
+        attack: { name: 'Slap', power: '10 to 45' },
+        technique: { name: 'Shock', power: '20 to 90' },
         soultime: {
             name: 'Hateful Charge',
             description:
@@ -9603,13 +7434,7 @@ const yokais = [
             description: 'Makes an enemy hate everything. Even allies.',
             power: '0'
         },
-        stats: {
-            hp: '27',
-            str: '23',
-            spr: '26',
-            def: '25',
-            spd: '21'
-        },
+        stats: { hp: '27', str: '23', spr: '26', def: '25', spd: '21' },
         tribe: 'Slippery',
         element: 'Lightning',
         weakness: 'Earth',
@@ -9625,6 +7450,7 @@ const yokais = [
         ]
     },
     {
+        index: 195,
         name: 'Rageon',
         yokaiNumber: '196',
         image:
@@ -9641,14 +7467,8 @@ const yokais = [
             name: 'Waterproof',
             description: 'Takes less damagefrom Water attacks.'
         },
-        attack: {
-            name: 'Double Slice',
-            power: '18x2 to 39x2'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'Double Slice', power: '18x2 to 39x2' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'Vengeance',
             description: 'Charges into an enemy. Deals huge damage.',
@@ -9659,13 +7479,7 @@ const yokais = [
             description: 'Makes an enemy hate everything. Even allies.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '29',
-            spr: '36',
-            def: '31',
-            spd: '20'
-        },
+        stats: { hp: '33', str: '29', spr: '36', def: '31', spd: '20' },
         tribe: 'Slippery',
         element: 'Lightning',
         weakness: 'Earth',
@@ -9681,6 +7495,7 @@ const yokais = [
         ]
     },
     {
+        index: 196,
         name: 'Tunatic',
         yokaiNumber: '197',
         image:
@@ -9692,14 +7507,8 @@ const yokais = [
             name: 'Fire Play',
             description: 'Increases damage ofown Fire attacks.'
         },
-        attack: {
-            name: 'Double Slice',
-            power: '18x2 to 39x2'
-        },
-        technique: {
-            name: 'Incinerate',
-            power: '80 to 120'
-        },
+        attack: { name: 'Double Slice', power: '18x2 to 39x2' },
+        technique: { name: 'Incinerate', power: '80 to 120' },
         soultime: {
             name: 'Frenzied Rage',
             description:
@@ -9712,13 +7521,7 @@ const yokais = [
                 'Sends an enemy into a frenzy where it will attack anything.',
             power: '0'
         },
-        stats: {
-            hp: '37',
-            str: '36',
-            spr: '31',
-            def: '35',
-            spd: '25'
-        },
+        stats: { hp: '37', str: '36', spr: '31', def: '35', spd: '25' },
         tribe: 'Slippery',
         element: 'Fire',
         weakness: 'Water',
@@ -9739,6 +7542,7 @@ const yokais = [
         ]
     },
     {
+        index: 197,
         name: 'Draggie',
         yokaiNumber: '198',
         image:
@@ -9754,14 +7558,8 @@ const yokais = [
             name: 'Hard Worker',
             description: 'Receives moreexperience points.'
         },
-        attack: {
-            name: 'Headsmack',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Rockslide',
-            power: '50 to 110'
-        },
+        attack: { name: 'Headsmack', power: '15 to 67' },
+        technique: { name: 'Rockslide', power: '50 to 110' },
         soultime: {
             name: 'Draggie Stone',
             description:
@@ -9773,13 +7571,7 @@ const yokais = [
             description: "Boosts an ally's STR with a dragon's might.",
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '22',
-            spr: '28',
-            def: '23',
-            spd: '26'
-        },
+        stats: { hp: '30', str: '22', spr: '28', def: '23', spd: '26' },
         tribe: 'Slippery',
         element: 'Earth',
         weakness: 'Wind',
@@ -9788,6 +7580,7 @@ const yokais = [
         evolutionIndexes: [126]
     },
     {
+        index: 198,
         name: 'Dragon Lord',
         yokaiNumber: '199',
         image:
@@ -9799,14 +7592,8 @@ const yokais = [
             name: 'Dragon Force',
             description: 'Power will increasewhen in trouble.'
         },
-        attack: {
-            name: 'Maul',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Meteor',
-            power: '80 to 120'
-        },
+        attack: { name: 'Maul', power: '80 to 120' },
+        technique: { name: 'Meteor', power: '80 to 120' },
         soultime: {
             name: 'Dragon Rock',
             description:
@@ -9818,13 +7605,7 @@ const yokais = [
             description: "Boosts an ally's STR with a dragon's might.",
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '30',
-            spr: '32',
-            def: '29',
-            spd: '36'
-        },
+        stats: { hp: '35', str: '30', spr: '32', def: '29', spd: '36' },
         tribe: 'Slippery',
         element: 'Earth',
         weakness: 'Wind',
@@ -9833,6 +7614,7 @@ const yokais = [
         evolutionIndexes: [126]
     },
     {
+        index: 199,
         name: 'Azure Dragon',
         yokaiNumber: '200',
         image:
@@ -9844,14 +7626,8 @@ const yokais = [
             name: 'Dragon Force',
             description: 'Power will increasewhen in trouble.'
         },
-        attack: {
-            name: 'Maul',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Waterfall',
-            power: '80 to 120'
-        },
+        attack: { name: 'Maul', power: '80 to 120' },
+        technique: { name: 'Waterfall', power: '80 to 120' },
         soultime: {
             name: 'Dragon Falls',
             description:
@@ -9863,13 +7639,7 @@ const yokais = [
             description: "Boosts an ally's SPR with a dragon's might.",
             power: '0'
         },
-        stats: {
-            hp: '40',
-            str: '38',
-            spr: '32',
-            def: '31',
-            spd: '33'
-        },
+        stats: { hp: '40', str: '38', spr: '32', def: '31', spd: '33' },
         tribe: 'Slippery',
         element: 'Water',
         weakness: 'Lightning',
@@ -9878,6 +7648,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 200,
         name: 'Daiz',
         yokaiNumber: '201',
         image:
@@ -9889,14 +7660,8 @@ const yokais = [
             name: 'Dodge',
             description: 'All Soultimate Moveswill be dodged.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Absorb',
-            power: '20 to 90'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Absorb', power: '20 to 90' },
         soultime: {
             name: 'Spacing Out',
             description:
@@ -9908,13 +7673,7 @@ const yokais = [
             description: 'Makes an ally big- hearted and increases all stats.',
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '15',
-            spr: '33',
-            def: '27',
-            spd: '36'
-        },
+        stats: { hp: '32', str: '15', spr: '33', def: '27', spd: '36' },
         tribe: 'Slippery',
         element: 'Drain',
         weakness: 'x',
@@ -9929,6 +7688,7 @@ const yokais = [
         ]
     },
     {
+        index: 201,
         name: 'Confuze',
         yokaiNumber: '202',
         image:
@@ -9940,14 +7700,8 @@ const yokais = [
             name: 'Dodge',
             description: 'All Soultimate Moveswill be dodged.'
         },
-        attack: {
-            name: 'Body Bash',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Drain',
-            power: '50 to 110'
-        },
+        attack: { name: 'Body Bash', power: '15 to 67' },
+        technique: { name: 'Drain', power: '50 to 110' },
         soultime: {
             name: 'Uh, Er... Hold On.',
             description: 'Sends a dark aura at foes and puts them into a daze.',
@@ -9958,13 +7712,7 @@ const yokais = [
             description: 'Makes an enemy falter and lowers its stats.',
             power: '0'
         },
-        stats: {
-            hp: '29',
-            str: '26',
-            spr: '35',
-            def: '30',
-            spd: '27'
-        },
+        stats: { hp: '29', str: '26', spr: '35', def: '30', spd: '27' },
         tribe: 'Slippery',
         element: 'Drain',
         weakness: 'x',
@@ -9979,6 +7727,7 @@ const yokais = [
         ]
     },
     {
+        index: 202,
         name: 'Chummer',
         yokaiNumber: '203',
         image:
@@ -9990,14 +7739,8 @@ const yokais = [
             name: 'Loiterer',
             description: 'Will recover a little HPwhen Loafing around.'
         },
-        attack: {
-            name: 'Maul',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Maul', power: '80 to 120' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Sharkskin Shield',
             description: 'Draws attacks to himself and raises DEF.',
@@ -10008,13 +7751,7 @@ const yokais = [
             description: 'Makes a foe want to loiter instead of fight.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '32',
-            spr: '20',
-            def: '26',
-            spd: '28'
-        },
+        stats: { hp: '33', str: '32', spr: '20', def: '26', spd: '28' },
         tribe: 'Slippery',
         element: 'Water',
         weakness: 'Lightning',
@@ -10034,6 +7771,7 @@ const yokais = [
         ]
     },
     {
+        index: 203,
         name: 'Shrook',
         yokaiNumber: '204',
         image:
@@ -10045,14 +7783,8 @@ const yokais = [
             name: 'Shark Skin',
             description: 'Skin deals damage toattacking foes.'
         },
-        attack: {
-            name: 'Maul',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Waterfall',
-            power: '80 to 120'
-        },
+        attack: { name: 'Maul', power: '80 to 120' },
+        technique: { name: 'Waterfall', power: '80 to 120' },
         soultime: {
             name: 'Feeding Frenzy',
             description:
@@ -10065,13 +7797,7 @@ const yokais = [
                 'Turns a foe into an amateur and drops STR significantly.',
             power: '0'
         },
-        stats: {
-            hp: '37',
-            str: '35',
-            spr: '18',
-            def: '31',
-            spd: '25'
-        },
+        stats: { hp: '37', str: '35', spr: '18', def: '31', spd: '25' },
         tribe: 'Slippery',
         element: 'Water',
         weakness: 'Lightning',
@@ -10079,6 +7805,7 @@ const yokais = [
         favouriteFood: 'Vegetables'
     },
     {
+        index: 204,
         name: 'Spenp',
         yokaiNumber: '205',
         image:
@@ -10090,14 +7817,8 @@ const yokais = [
             name: 'Matchless Shell',
             description: 'Does not get Inspiritedby enemies.'
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Tornado',
-            power: '50 to 110'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Tornado', power: '50 to 110' },
         soultime: {
             name: 'Bank Breaker',
             description:
@@ -10110,13 +7831,7 @@ const yokais = [
                 'Makes an enemy waste its money by tossing it everywhere.',
             power: '0'
         },
-        stats: {
-            hp: '30',
-            str: '22',
-            spr: '25',
-            def: '34',
-            spd: '23'
-        },
+        stats: { hp: '30', str: '22', spr: '25', def: '34', spd: '23' },
         tribe: 'Slippery',
         element: 'Wind',
         weakness: 'Ice',
@@ -10124,6 +7839,7 @@ const yokais = [
         favouriteFood: 'Breads'
     },
     {
+        index: 205,
         name: 'Almi',
         yokaiNumber: '206',
         image:
@@ -10135,14 +7851,8 @@ const yokais = [
             name: 'Matchless Shell',
             description: 'Does not get Inspiritedby enemies.'
         },
-        attack: {
-            name: 'Chomp',
-            power: '45 to 99'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Chomp', power: '45 to 99' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Eternal Debt',
             description:
@@ -10154,13 +7864,7 @@ const yokais = [
             description: 'Makes a Yo-kai scatter money everywhere.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '24',
-            spr: '28',
-            def: '43',
-            spd: '26'
-        },
+        stats: { hp: '33', str: '24', spr: '28', def: '43', spd: '26' },
         tribe: 'Slippery',
         element: 'Water',
         weakness: 'Lightning',
@@ -10169,6 +7873,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 206,
         name: 'Babblong',
         yokaiNumber: '207',
         image:
@@ -10184,14 +7889,8 @@ const yokais = [
             name: 'Skilled Loafer',
             description: 'Will recover a little HPwhen Loafing around.'
         },
-        attack: {
-            name: 'Fullswing',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Fullswing', power: '80 to 120' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Babbleblast',
             description:
@@ -10203,13 +7902,7 @@ const yokais = [
             description: 'Makes an enemy chitchat so much that it slows down.',
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '31',
-            spr: '19',
-            def: '27',
-            spd: '30'
-        },
+        stats: { hp: '32', str: '31', spr: '19', def: '27', spd: '30' },
         tribe: 'Slippery',
         element: 'Water',
         weakness: 'Lightning',
@@ -10217,6 +7910,7 @@ const yokais = [
         favouriteFood: 'Candies'
     },
     {
+        index: 207,
         name: 'Bananose',
         yokaiNumber: '208',
         image:
@@ -10228,14 +7922,8 @@ const yokais = [
             name: 'Skilled Loafer',
             description: 'Will recover a little HPwhen Loafing around.'
         },
-        attack: {
-            name: 'Fullswing',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Waterfall',
-            power: '80 to 120'
-        },
+        attack: { name: 'Fullswing', power: '80 to 120' },
+        technique: { name: 'Waterfall', power: '80 to 120' },
         soultime: {
             name: 'Banana Splat',
             description:
@@ -10248,13 +7936,7 @@ const yokais = [
                 "Boosts an ally's SPD with a great, healthy banana taste!",
             power: '0'
         },
-        stats: {
-            hp: '39',
-            str: '41',
-            spr: '21',
-            def: '32',
-            spd: '31'
-        },
+        stats: { hp: '39', str: '41', spr: '21', def: '32', spd: '31' },
         tribe: 'Slippery',
         element: 'Water',
         weakness: 'Lightning',
@@ -10263,6 +7945,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 208,
         name: 'Copperled',
         yokaiNumber: '209',
         image:
@@ -10274,14 +7957,8 @@ const yokais = [
             name: 'Fire Watchout',
             description: 'Takes less damagefrom Fire attacks.'
         },
-        attack: {
-            name: 'Batter',
-            power: '15x3 to 33x3'
-        },
-        technique: {
-            name: 'Blaze',
-            power: '50 to 110'
-        },
+        attack: { name: 'Batter', power: '15x3 to 33x3' },
+        technique: { name: 'Blaze', power: '50 to 110' },
         soultime: {
             name: "I'll Take the Lead!",
             description:
@@ -10294,13 +7971,7 @@ const yokais = [
                 'Makes a Yo-kai so bossy that everyone wants to attack it.',
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '28',
-            spr: '24',
-            def: '27',
-            spd: '35'
-        },
+        stats: { hp: '35', str: '28', spr: '24', def: '27', spd: '35' },
         tribe: 'Slippery',
         element: 'Fire',
         weakness: 'Water',
@@ -10308,6 +7979,7 @@ const yokais = [
         favouriteFood: 'Seafoods'
     },
     {
+        index: 209,
         name: 'Cynake',
         yokaiNumber: '210',
         image:
@@ -10319,14 +7991,8 @@ const yokais = [
             name: 'Greed',
             description: 'Foe will be more proneto drop items.'
         },
-        attack: {
-            name: 'Batter',
-            power: '15x3 to 33x3'
-        },
-        technique: {
-            name: 'Rapids',
-            power: '50 to 110'
-        },
+        attack: { name: 'Batter', power: '15x3 to 33x3' },
+        technique: { name: 'Rapids', power: '50 to 110' },
         soultime: {
             name: 'Sulky Soul',
             description:
@@ -10338,13 +8004,7 @@ const yokais = [
             description: 'Makes an enemy sulk and start attacking its friends.',
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '20',
-            spr: '33',
-            def: '30',
-            spd: '28'
-        },
+        stats: { hp: '33', str: '20', spr: '33', def: '30', spd: '28' },
         tribe: 'Slippery',
         element: 'Water',
         weakness: 'Lightning',
@@ -10359,6 +8019,7 @@ const yokais = [
         ]
     },
     {
+        index: 210,
         name: 'Slitheref',
         yokaiNumber: '211',
         image:
@@ -10374,14 +8035,8 @@ const yokais = [
             name: 'Equipment Forbidden!',
             description: 'Equipment effects onall Yo-kai are negated.'
         },
-        attack: {
-            name: 'Batter',
-            power: '15x3 to 33x3'
-        },
-        technique: {
-            name: 'Voltage',
-            power: '80 to 120'
-        },
+        attack: { name: 'Batter', power: '15x3 to 33x3' },
+        technique: { name: 'Voltage', power: '80 to 120' },
         soultime: {
             name: 'Venomous Feint',
             description: 'Sprays a venomous wave that decreases enemy STR.',
@@ -10393,13 +8048,7 @@ const yokais = [
                 "Viper's venom Inspirits Yo-kai and its SPD decreases significantly.",
             power: '0'
         },
-        stats: {
-            hp: '36',
-            str: '32',
-            spr: '22',
-            def: '33',
-            spd: '29'
-        },
+        stats: { hp: '36', str: '32', spr: '22', def: '33', spd: '29' },
         tribe: 'Slippery',
         element: 'Lightning',
         weakness: 'Earth',
@@ -10414,6 +8063,7 @@ const yokais = [
         ]
     },
     {
+        index: 211,
         name: 'Venoct',
         yokaiNumber: '212',
         image:
@@ -10421,18 +8071,9 @@ const yokais = [
         description:
             'An elite Yo-kai who fights with his dragon scarf. All of his abilities are truly first class.',
         locations: ['During the story.'],
-        skill: {
-            name: 'Venocharge',
-            description: 'Soul Meter chargesfaster.'
-        },
-        attack: {
-            name: 'Maul',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Voltage',
-            power: '80 to 120'
-        },
+        skill: { name: 'Venocharge', description: 'Soul Meter chargesfaster.' },
+        attack: { name: 'Maul', power: '80 to 120' },
+        technique: { name: 'Voltage', power: '80 to 120' },
         soultime: {
             name: 'Octo Snake',
             description:
@@ -10445,13 +8086,7 @@ const yokais = [
                 "Increases an ally's SPD under Venoct's careful watch.",
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '32',
-            spr: '38',
-            def: '25',
-            spd: '42'
-        },
+        stats: { hp: '35', str: '32', spr: '38', def: '25', spd: '42' },
         tribe: 'Slippery',
         element: 'Lightning',
         weakness: 'Earth',
@@ -10459,6 +8094,7 @@ const yokais = [
         favouriteFood: 'Seafoods'
     },
     {
+        index: 212,
         name: 'Shadow Venoct',
         yokaiNumber: '213',
         image:
@@ -10470,14 +8106,8 @@ const yokais = [
             name: 'Secrecy',
             description: 'Will not become targetof attacks.'
         },
-        attack: {
-            name: 'Maul',
-            power: '80 to 120'
-        },
-        technique: {
-            name: 'Restore',
-            power: '50 to 110'
-        },
+        attack: { name: 'Maul', power: '80 to 120' },
+        technique: { name: 'Restore', power: '50 to 110' },
         soultime: {
             name: 'Shadow Dragon',
             description:
@@ -10490,13 +8120,7 @@ const yokais = [
                 'Makes enemies ignore an ally by making it shadowlike.',
             power: '0'
         },
-        stats: {
-            hp: '38',
-            str: '39',
-            spr: '33',
-            def: '29',
-            spd: '35'
-        },
+        stats: { hp: '38', str: '39', spr: '33', def: '29', spd: '35' },
         tribe: 'Slippery',
         element: 'Restoration',
         weakness: 'x',
@@ -10522,6 +8146,7 @@ const yokais = [
         ]
     },
     {
+        index: 213,
         name: 'Shogunyan',
         yokaiNumber: '214',
         image:
@@ -10533,18 +8158,12 @@ const yokais = [
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
         },
-        attack: {
-            name: 'Lightning Slash',
-            power: '20x3 to 44x3'
-        },
-        technique: {
-            name: 'Storm',
-            power: '80 to 120'
-        },
+        attack: { name: 'Lightning Slash', power: '20x3 to 44x3' },
+        technique: { name: 'Storm', power: '80 to 120' },
         soultime: {
             name: 'Bonito Blade',
             description:
-                'Cuts his opponents\u2014 not with his claws, but with his trusty sword.',
+                'Cuts his opponents— not with his claws, but with his trusty sword.',
             power: '25x10'
         },
         inspirit: {
@@ -10553,13 +8172,7 @@ const yokais = [
                 'Gives an ally the heart of a warrior and raises its STR. ',
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '39',
-            spr: '27',
-            def: '23',
-            spd: '50'
-        },
+        stats: { hp: '31', str: '39', spr: '27', def: '23', spd: '50' },
         tribe: 'Brave',
         element: 'Wind',
         weakness: 'Ice',
@@ -10569,6 +8182,7 @@ const yokais = [
         type: ['legendary']
     },
     {
+        index: 214,
         name: 'Komashura',
         yokaiNumber: '215',
         image:
@@ -10580,14 +8194,8 @@ const yokais = [
             name: 'Bladed Body',
             description: 'Body deals damage toall foes who attack it.'
         },
-        attack: {
-            name: 'Practiced Punch',
-            power: '90 to 135'
-        },
-        technique: {
-            name: 'Incinerate',
-            power: '80 to 120'
-        },
+        attack: { name: 'Practiced Punch', power: '90 to 135' },
+        technique: { name: 'Incinerate', power: '80 to 120' },
         soultime: {
             name: 'Shura Shower',
             description: 'Broils all of his foes with fearsome flames.',
@@ -10599,13 +8207,7 @@ const yokais = [
                 'Fills an ally with a legendary burliness that raises its SPR.',
             power: '0'
         },
-        stats: {
-            hp: '37',
-            str: '25',
-            spr: '50',
-            def: '27',
-            spd: '39'
-        },
+        stats: { hp: '37', str: '25', spr: '50', def: '27', spd: '39' },
         tribe: 'Mysterious',
         element: 'Fire',
         weakness: 'Water',
@@ -10615,6 +8217,7 @@ const yokais = [
         type: ['legendary']
     },
     {
+        index: 215,
         name: 'Dandoodle',
         yokaiNumber: '216',
         image:
@@ -10626,14 +8229,8 @@ const yokais = [
             name: 'Popularity',
             description: 'Makes more foesbefriend you.'
         },
-        attack: {
-            name: 'Tackle',
-            power: '60 to 90'
-        },
-        technique: {
-            name: 'Paradise',
-            power: '80 to 120'
-        },
+        attack: { name: 'Tackle', power: '60 to 90' },
+        technique: { name: 'Paradise', power: '80 to 120' },
         soultime: {
             name: 'Handsome Grin',
             description:
@@ -10646,13 +8243,7 @@ const yokais = [
                 "Steadily recovers an ally's HP with the power of a dandy!",
             power: '0'
         },
-        stats: {
-            hp: '43',
-            str: '20',
-            spr: '40',
-            def: '26',
-            spd: '47'
-        },
+        stats: { hp: '43', str: '20', spr: '40', def: '26', spd: '47' },
         tribe: 'Eerie',
         element: 'Restoration',
         weakness: 'x',
@@ -10662,6 +8253,7 @@ const yokais = [
         type: ['legendary']
     },
     {
+        index: 216,
         name: 'Elder Bloom',
         yokaiNumber: '217',
         image:
@@ -10673,14 +8265,8 @@ const yokais = [
             name: 'Caring',
             description: 'Gradually recovers HPof adjacent Yo-kai.'
         },
-        attack: {
-            name: 'Headsmack',
-            power: '15 to 67'
-        },
-        technique: {
-            name: 'Paradise',
-            power: '80 to 120'
-        },
+        attack: { name: 'Headsmack', power: '15 to 67' },
+        technique: { name: 'Paradise', power: '80 to 120' },
         soultime: {
             name: 'Full Bloom',
             description:
@@ -10692,13 +8278,7 @@ const yokais = [
             description: "Greatly improves an ally's SPD with cherry blossoms!",
             power: '0'
         },
-        stats: {
-            hp: '32',
-            str: '29',
-            spr: '41',
-            def: '31',
-            spd: '45'
-        },
+        stats: { hp: '32', str: '29', spr: '41', def: '31', spd: '45' },
         tribe: 'Heartful',
         element: 'Restoration',
         weakness: 'x',
@@ -10708,6 +8288,7 @@ const yokais = [
         type: ['legendary']
     },
     {
+        index: 217,
         name: 'Gilgaros',
         yokaiNumber: '218',
         image:
@@ -10719,14 +8300,8 @@ const yokais = [
             name: 'Extreme Critical',
             description: 'Power of criticalattacks is high.'
         },
-        attack: {
-            name: 'Clobber',
-            power: '75 to 112'
-        },
-        technique: {
-            name: 'Lightning',
-            power: '50 to 110'
-        },
+        attack: { name: 'Clobber', power: '75 to 112' },
+        technique: { name: 'Lightning', power: '50 to 110' },
         soultime: {
             name: 'Golden Beatdown',
             description:
@@ -10738,13 +8313,7 @@ const yokais = [
             description: 'Gives an ally the insane DEF of an Oni.',
             power: '0'
         },
-        stats: {
-            hp: '45',
-            str: '50',
-            spr: '18',
-            def: '35',
-            spd: '40'
-        },
+        stats: { hp: '45', str: '50', spr: '18', def: '35', spd: '40' },
         tribe: 'Tough',
         element: 'Lightning',
         weakness: 'Earth',
@@ -10754,6 +8323,7 @@ const yokais = [
         type: ['legendary']
     },
     {
+        index: 218,
         name: 'Sapphinyan',
         yokaiNumber: '219',
         image:
@@ -10765,14 +8335,8 @@ const yokais = [
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
         },
-        attack: {
-            name: 'Sharp Claws',
-            power: '10x2 to 45x2'
-        },
-        technique: {
-            name: 'Waterfall',
-            power: '80 to 120'
-        },
+        attack: { name: 'Sharp Claws', power: '10x2 to 45x2' },
+        technique: { name: 'Waterfall', power: '80 to 120' },
         soultime: {
             name: 'Pure-Blue Paws',
             description:
@@ -10785,13 +8349,7 @@ const yokais = [
                 "Makes all of an ally's stats shine like a glowing sapphire.",
             power: '0'
         },
-        stats: {
-            hp: '33',
-            str: '28',
-            spr: '38',
-            def: '28',
-            spd: '36'
-        },
+        stats: { hp: '33', str: '28', spr: '38', def: '28', spd: '36' },
         tribe: 'Charming',
         element: 'Water',
         weakness: 'Lightning',
@@ -10800,6 +8358,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 219,
         name: 'Emenyan',
         yokaiNumber: '220',
         image:
@@ -10811,14 +8370,8 @@ const yokais = [
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
         },
-        attack: {
-            name: 'Sharp Claws',
-            power: '10x2 to 45x2'
-        },
-        technique: {
-            name: 'Paradise',
-            power: '80 to 120'
-        },
+        attack: { name: 'Sharp Claws', power: '10x2 to 45x2' },
+        technique: { name: 'Paradise', power: '80 to 120' },
         soultime: {
             name: 'Cutie Paws',
             description:
@@ -10831,13 +8384,7 @@ const yokais = [
                 "Makes all of an ally's stats shine like a beautiful emerald.",
             power: '0'
         },
-        stats: {
-            hp: '31',
-            str: '30',
-            spr: '34',
-            def: '30',
-            spd: '38'
-        },
+        stats: { hp: '31', str: '30', spr: '34', def: '30', spd: '38' },
         tribe: 'Charming',
         element: 'Restoration',
         weakness: 'x',
@@ -10846,6 +8393,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 220,
         name: 'Rubinyan',
         yokaiNumber: '221',
         image:
@@ -10857,14 +8405,8 @@ const yokais = [
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
         },
-        attack: {
-            name: 'Sharp Claws',
-            power: '10x2 to 45x2'
-        },
-        technique: {
-            name: 'Incinerate',
-            power: '80 to 120'
-        },
+        attack: { name: 'Sharp Claws', power: '10x2 to 45x2' },
+        technique: { name: 'Incinerate', power: '80 to 120' },
         soultime: {
             name: 'Ruby Boogie',
             description: 'Attacks all opponents with shiny ruby paws.',
@@ -10875,13 +8417,7 @@ const yokais = [
             description: "Makes all of an ally's stats shine like a ruby.",
             power: '0'
         },
-        stats: {
-            hp: '38',
-            str: '39',
-            spr: '27',
-            def: '27',
-            spd: '32'
-        },
+        stats: { hp: '38', str: '39', spr: '27', def: '27', spd: '32' },
         tribe: 'Charming',
         element: 'Fire',
         weakness: 'Water',
@@ -10890,6 +8426,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 221,
         name: 'Topanyan',
         yokaiNumber: '222',
         image:
@@ -10901,14 +8438,8 @@ const yokais = [
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
         },
-        attack: {
-            name: 'Sharp Claws',
-            power: '10x2 to 45x2'
-        },
-        technique: {
-            name: 'Voltage',
-            power: '80 to 120'
-        },
+        attack: { name: 'Sharp Claws', power: '10x2 to 45x2' },
+        technique: { name: 'Voltage', power: '80 to 120' },
         soultime: {
             name: 'Glittering Paws',
             description: 'Attacks all opponents with rich topaz paws.',
@@ -10919,13 +8450,7 @@ const yokais = [
             description: "Makes all of an ally's stats shine like topaz.",
             power: '0'
         },
-        stats: {
-            hp: '41',
-            str: '31',
-            spr: '28',
-            def: '35',
-            spd: '28'
-        },
+        stats: { hp: '41', str: '31', spr: '28', def: '35', spd: '28' },
         tribe: 'Charming',
         element: 'Lightning',
         weakness: 'Earth',
@@ -10934,6 +8459,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 222,
         name: 'Dianyan',
         yokaiNumber: '223',
         image:
@@ -10945,14 +8471,8 @@ const yokais = [
             name: 'Linked Together',
             description: 'Stat boosts for adjacentYo-kai with same Skill.'
         },
-        attack: {
-            name: 'Sharp Claws',
-            power: '10x2 to 45x2'
-        },
-        technique: {
-            name: 'Blizzard',
-            power: '80 to 120'
-        },
+        attack: { name: 'Sharp Claws', power: '10x2 to 45x2' },
+        technique: { name: 'Blizzard', power: '80 to 120' },
         soultime: {
             name: 'Perfect Paws',
             description:
@@ -10965,13 +8485,7 @@ const yokais = [
                 "Makes all of an ally's stats shine like a pure diamond.",
             power: '0'
         },
-        stats: {
-            hp: '35',
-            str: '33',
-            spr: '30',
-            def: '31',
-            spd: '34'
-        },
+        stats: { hp: '35', str: '33', spr: '30', def: '31', spd: '34' },
         tribe: 'Charming',
         element: 'Ice',
         weakness: 'Fire',
@@ -10980,6 +8494,7 @@ const yokais = [
         type: ['rare']
     },
     {
+        index: 223,
         name: 'Slimamander',
         yokaiNumber: '224',
         image:
@@ -11000,6 +8515,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 224,
         name: 'Sproink',
         yokaiNumber: '225',
         image:
@@ -11020,6 +8536,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 225,
         name: 'SV Snaggerjag',
         yokaiNumber: '226',
         image:
@@ -11040,6 +8557,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 226,
         name: 'Massiface',
         yokaiNumber: '227',
         image:
@@ -11060,6 +8578,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 227,
         name: 'Phantasmurai',
         yokaiNumber: '228',
         image:
@@ -11080,6 +8599,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 228,
         name: 'Tarantutor',
         yokaiNumber: '229',
         image:
@@ -11100,6 +8620,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 229,
         name: 'Dr. Maddiman',
         yokaiNumber: '230',
         image:
@@ -11120,6 +8641,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 230,
         name: 'McKraken',
         yokaiNumber: '231',
         image:
@@ -11140,6 +8662,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 231,
         name: 'McKraken 2',
         yokaiNumber: '232',
         image:
@@ -11160,6 +8683,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 232,
         name: 'Duwheel',
         yokaiNumber: '233',
         image:
@@ -11180,6 +8704,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 233,
         name: 'Chirpster',
         yokaiNumber: '234',
         image:
@@ -11200,6 +8725,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 234,
         name: 'Eyedra',
         yokaiNumber: '235',
         image:
@@ -11220,6 +8746,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 235,
         name: 'Hoggles',
         yokaiNumber: '236',
         image:
@@ -11240,6 +8767,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 236,
         name: 'Styx Mk.VI',
         yokaiNumber: '237',
         image:
@@ -11260,6 +8788,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 237,
         name: 'Clipso',
         yokaiNumber: '238',
         image:
@@ -11280,6 +8809,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 238,
         name: 'Dr. Nogut',
         yokaiNumber: '239',
         image:
@@ -11300,6 +8830,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 239,
         name: 'Spooklunk',
         yokaiNumber: '240',
         image:
@@ -11320,6 +8851,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 240,
         name: 'Squisker',
         yokaiNumber: '241',
         image:
@@ -11340,6 +8872,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 241,
         name: 'Wobblewok',
         yokaiNumber: '242',
         image:
@@ -11360,6 +8893,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 242,
         name: 'Gargaros',
         yokaiNumber: '243',
         image:
@@ -11380,6 +8914,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 243,
         name: 'Ogralus',
         yokaiNumber: '244',
         image:
@@ -11400,6 +8935,7 @@ const yokais = [
         favouriteFood: ''
     },
     {
+        index: 244,
         name: 'Orcanos',
         yokaiNumber: '245',
         image:

@@ -37,9 +37,9 @@ const BaffleBoard = ({ context, history }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {context.baffleBoard.map((row, index) => (
+                    {context.baffleBoard.map(row => (
                         <tr
-                            key={index}
+                            key={row.index}
                             onClick={() =>
                                 goTo(row.solution, context.gameVersion)
                             }

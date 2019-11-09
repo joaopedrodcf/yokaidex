@@ -1,5 +1,6 @@
 const equipments = [
     {
+        index: 0,
         name: 'Worn Bangle',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/worn_bangle.png',
@@ -12,6 +13,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 1,
         name: 'Cheap Bracelet',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cheap_bracelet.png',
@@ -23,6 +25,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 2,
         name: 'Rocker Wrist',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/rocker_wrist.png',
@@ -35,6 +38,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 3,
         name: 'Power Bracelet',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/power_bracelet.png',
@@ -47,6 +51,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 4,
         name: 'Brute Bracer',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/brute_bracer.png',
@@ -58,6 +63,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 5,
         name: 'Grand Bracelet',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/grand_bracelet.png',
@@ -70,6 +76,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 6,
         name: 'Sun Bracelet',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sun_bracelet.png',
@@ -82,6 +89,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 7,
         name: 'Comet Bracelet',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/comet_bracelet.png',
@@ -94,6 +102,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 8,
         name: 'Fiend Band',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fiend_band.png',
@@ -106,6 +115,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 9,
         name: 'Legend Bracelet',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_bracelet.png',
@@ -117,6 +127,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 10,
         name: 'Mythical Bangle',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mythical_bangle.png',
@@ -129,6 +140,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 11,
         name: 'Rusty Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/rusty_ring.png',
@@ -140,6 +152,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 12,
         name: 'Ugly Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ugly_ring.png',
@@ -151,6 +164,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 13,
         name: 'Pretty Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pretty_ring.png',
@@ -162,6 +176,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 14,
         name: 'Rainbow Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/rainbow_ring.png',
@@ -174,6 +189,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 15,
         name: 'Illusion Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/illusion_ring.png',
@@ -186,6 +202,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 16,
         name: 'Fairy Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fairy_ring.png',
@@ -197,6 +214,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 17,
         name: 'Lunar Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/lunar_ring.png',
@@ -209,6 +227,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 18,
         name: 'Ring of Fate',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ring_of_fate.png',
@@ -220,6 +239,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 19,
         name: 'Fiend Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fiend_ring.png',
@@ -231,6 +251,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 20,
         name: 'Legend Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_ring.png',
@@ -242,6 +263,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 21,
         name: 'Mythical Ring',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mythical_ring.png',
@@ -254,6 +276,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 22,
         name: 'Aged Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/aged_charm.png',
@@ -265,6 +288,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 23,
         name: 'Old Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/old_charm.png',
@@ -277,6 +301,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 24,
         name: 'Runic Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/runic_charm.png',
@@ -288,6 +313,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 25,
         name: 'Protective Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/protective_charm.png',
@@ -299,6 +325,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 26,
         name: 'Armor Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/armor_charm.png',
@@ -310,6 +337,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 27,
         name: 'Lucky Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/lucky_charm.png',
@@ -321,6 +349,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 28,
         name: 'Galaxy Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/galaxy_charm.png',
@@ -332,6 +361,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 29,
         name: 'Earth Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/earth_charm.png',
@@ -344,6 +374,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 30,
         name: 'Fiend Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fiend_charm.png',
@@ -355,6 +386,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 31,
         name: 'Legend Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_charm.png',
@@ -367,6 +399,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 32,
         name: 'Mythical Charm',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mythical_charm.png',
@@ -379,6 +412,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 33,
         name: 'Simple Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/simple_badge.png',
@@ -391,6 +425,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 34,
         name: 'Black Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/black_badge.png',
@@ -402,6 +437,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 35,
         name: 'Shiny Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/shiny_badge.png',
@@ -413,6 +449,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 36,
         name: 'Cute Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cute_badge.png',
@@ -425,6 +462,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 37,
         name: 'Hermes Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/hermes_badge.png',
@@ -436,6 +474,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 38,
         name: 'Aurora Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/aurora_badge.png',
@@ -447,6 +486,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 39,
         name: 'Meteor Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/meteor_badge.png',
@@ -459,6 +499,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 40,
         name: 'Lightning Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/lightning_badge.png',
@@ -470,6 +511,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 41,
         name: 'Fiend Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fiend_badge.png',
@@ -481,6 +523,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 42,
         name: 'Legend Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_badge.png',
@@ -493,6 +536,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 43,
         name: 'Mythical Badge',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mythical_badge.png',
@@ -505,6 +549,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 44,
         name: 'Fungi Fest Band',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fungi_fest_band.png',
@@ -517,6 +562,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 45,
         name: 'Monkey Circlet',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/monkey_circlet.png',
@@ -529,6 +575,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 46,
         name: 'Cicada Sword',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cicada_sword.png',
@@ -541,6 +588,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 47,
         name: 'Beefy Bell',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/beefy_bell.png',
@@ -553,6 +601,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 48,
         name: 'Spell Bell',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/spell_bell.png',
@@ -565,6 +614,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 49,
         name: 'Tough Bell',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/tough_bell.png',
@@ -577,6 +627,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 50,
         name: 'Speed Bell',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/speed_bell.png',
@@ -589,6 +640,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 51,
         name: 'Bottomless Bottle',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bottomless_bottle.png',
@@ -601,6 +653,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 52,
         name: 'Tengu Fan',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/tengu_fan.png',
@@ -613,6 +666,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 53,
         name: 'Cheery Coat',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cheery_coat.png',
@@ -625,6 +679,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 54,
         name: 'Nail Bat',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/nail_bat.png',
@@ -637,6 +692,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 55,
         name: 'Drumsticks',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/drumsticks.png',
@@ -648,6 +704,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 56,
         name: 'Robovitamin E',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/robovitamin_e.png',
@@ -659,6 +716,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 57,
         name: "Burly's Wristband",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/burly_s_wristband.png',
@@ -671,6 +729,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 58,
         name: 'Memory Chime',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/memory_chime.png',
@@ -682,6 +741,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 59,
         name: 'Reversword',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/reversword.png',
@@ -694,6 +754,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 60,
         name: 'Turnabeads',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/turnabeads.png',
@@ -706,6 +767,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 61,
         name: 'Reflector',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/reflector.png',
@@ -718,6 +780,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 62,
         name: 'Paradise Ball',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/paradise_ball.png',
@@ -729,6 +792,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 63,
         name: "Daedalus' Wings",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/daedalus__wings.png',
@@ -741,6 +805,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 64,
         name: "Patriot's T-Shirt",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/patriot_s_t-shirt.png',
@@ -753,6 +818,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 65,
         name: 'Ancestral Sash',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ancestral_sash.png',
@@ -765,6 +831,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 66,
         name: "Emperor's Seal",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/emperor_s_seal.png',
@@ -777,6 +844,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 67,
         name: 'Badge of Honor',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/badge_of_honor.png',
@@ -789,6 +857,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 68,
         name: 'Bunny Blaster',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bunny_blaster.png',
@@ -801,6 +870,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 69,
         name: 'Glamorous Straw',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/glamorous_straw.png',
@@ -813,6 +883,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 70,
         name: 'Swirly Pack',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/swirly_pack.png',
@@ -825,6 +896,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 71,
         name: "Warlord's Banner",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/warlord_s_banner.png',
@@ -837,6 +909,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 72,
         name: 'Dull Blade',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/dull_blade.png',
@@ -849,6 +922,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 73,
         name: 'Imperial Chip',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/imperial_chip.png',
@@ -861,6 +935,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 74,
         name: 'Star-spangle Blade',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/star-spangle_blade.png',
@@ -873,6 +948,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 75,
         name: 'Stars n Stripes Rod',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/stars_n_stripes_rod.png',
@@ -885,6 +961,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 76,
         name: 'Star-spangl. Shield',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/star-spangl._shield.png',
@@ -897,6 +974,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 77,
         name: 'Enma Blade',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/enma_blade.png',
@@ -909,6 +987,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 78,
         name: 'Illustrious Bead',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/illustrious_bead.png',
@@ -921,6 +1000,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 79,
         name: "Chairman's Staff",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/chairman_s_staff.png',
@@ -932,6 +1012,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 80,
         name: 'Enchanted Flute',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/enchanted_flute.png',
@@ -944,6 +1025,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 81,
         name: 'Maul Attachment',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/maul_attachment.png',
@@ -956,6 +1038,7 @@ const equipments = [
         type: 'equipments'
     },
     {
+        index: 82,
         name: 'Golden Ankh',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/golden_ankh.png',

@@ -7,6 +7,7 @@ import Search from 'react-feather/dist/icons/search';
 import Filter from 'react-feather/dist/icons/filter';
 import Trash2 from 'react-feather/dist/icons/trash-2';
 import Plus from 'react-feather/dist/icons/plus';
+import { List, AutoSizer } from 'react-virtualized';
 import {
     Form,
     Filters,
@@ -34,15 +35,12 @@ import {
     misc as miscFilters,
     types as typesFilters
 } from '../../mocks/filters';
-import {
-    withGameVersionContext,
-    withYokaisContext,
-    withFilterMainContext
-} from '../../store';
+import { withGameVersionContext, withYokaisContext } from '../../store';
 import Global from '../../styles';
 import withTracker from '../../components/shared/with-tracker';
 
 const buttonStyle = { width: '160px' };
+const rowHeight = 109 + 12;
 
 class Main extends Component {
     constructor(props) {
@@ -50,7 +48,6 @@ class Main extends Component {
 
         this.state = {
             isCollapsed: true,
-            pageNumber: 0,
             isCollapsedFilterTribes: true,
             isCollapsedFilterRanks: true,
             isCollapsedFilterElements: true,
@@ -78,17 +75,7 @@ class Main extends Component {
             this,
             'isCollapsedFilterTypes'
         );
-
-        this.listref = React.createRef();
-        this.yokaisToShow = 15;
-    }
-
-    componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
+        this.renderRow = this.renderRow.bind(this);
     }
 
     handleSubmit = event => {
@@ -110,27 +97,81 @@ class Main extends Component {
         this.setState({ isCollapsed: !isCollapsed });
     };
 
-    handleScroll = () => {
-        const { pageNumber } = this.state;
-
-        if (
-            window.innerHeight + window.pageYOffset >
-            this.listref.current.clientHeight - 400
-        ) {
-            this.setState({ pageNumber: pageNumber + 1 });
-        }
-    };
-
     handleOpenFilter(filterType) {
         this.setState(state => ({
             [filterType]: !state[filterType]
         }));
     }
 
+    renderRow({ index, key, style }) {
+        const { context } = this.props;
+        return (
+            <Section key={key} style={style}>
+                <Link
+                    to={`/yokai-watch-${
+                        context.gameVersion
+                    }/yokais/${utils.uniformizeNames(
+                        context.yokais[index].name,
+                        context.yokais[index].tribe
+                    )}`}
+                >
+                    <SectionWrapper
+                        style={this.getGradientTribe(
+                            context.yokais[index].tribe
+                        )}
+                    >
+                        <SectionImageTitle>
+                            <Image
+                                imageUrl={context.yokais[index].image}
+                                altText={context.yokais[index].name}
+                                size="medium"
+                                isThumbnail
+                                isToLazyLoad
+                            />
+                            {context.yokais[index].name}
+                        </SectionImageTitle>
+                        <Row alignItems="center">
+                            #{context.yokais[index].yokaiNumber}
+                        </Row>
+                        <Row alignItems="center">
+                            <Image
+                                imageUrl={utils.getImage(
+                                    tribes,
+                                    context.yokais[index].tribe
+                                )}
+                                altText={context.yokais[index].tribe}
+                                size="small"
+                            />
+                        </Row>
+                        <Row alignItems="center">
+                            <Image
+                                imageUrl={utils.getImage(
+                                    elements,
+                                    context.yokais[index].element
+                                )}
+                                altText={context.yokais[index].element}
+                                size="small"
+                            />
+                        </Row>
+                        <Row alignItems="center">
+                            <Image
+                                imageUrl={utils.getImage(
+                                    ranks,
+                                    context.yokais[index].rank
+                                )}
+                                altText={context.yokais[index].rank}
+                                size="small"
+                            />
+                        </Row>
+                    </SectionWrapper>
+                </Link>
+            </Section>
+        );
+    }
+
     render() {
         const {
             isCollapsed,
-            pageNumber,
             isCollapsedFilterTribes,
             isCollapsedFilterRanks,
             isCollapsedFilterElements,
@@ -139,7 +180,7 @@ class Main extends Component {
         } = this.state;
         const { context } = this.props;
         return (
-            <Global.Container ref={this.listref}>
+            <Global.Container>
                 <Helmet>
                     <title>
                         Yokaidex Where you can find all the information from
@@ -341,197 +382,21 @@ class Main extends Component {
                             </Column>
                         </Filters>
                     </Collapsible>
-                    {context.yokais
-                        .filter(yokai => {
-                            let aux = true;
 
-                            const filters = {
-                                tribe: context.tribe,
-                                rank: context.rank,
-                                element: context.element
-                            };
-
-                            if (
-                                !yokai.name.toLowerCase().includes(context.name)
-                            ) {
-                                return false;
-                            }
-
-                            Object.keys(filters).forEach(el => {
-                                if (
-                                    filters[el].length > 0 &&
-                                    !filters[el].includes(
-                                        yokai[el].toLowerCase()
-                                    )
-                                ) {
-                                    aux = false;
-                                }
-                            });
-
-                            if (
-                                context.misc.includes('has evolution') &&
-                                !yokai.evolutionIndexes
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.misc.includes('crank-a-kai') &&
-                                !yokai.crankakai
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.types.includes('legendary') &&
-                                (yokai.type === undefined ||
-                                    (yokai.type &&
-                                        !yokai.type.includes('legendary')))
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.types.includes('rare') &&
-                                (yokai.type === undefined ||
-                                    (yokai.type &&
-                                        !yokai.type.includes('rare')))
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.types.includes('classic') &&
-                                (yokai.type === undefined ||
-                                    (yokai.type &&
-                                        !yokai.type.includes('classic')))
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.types.includes('deva') &&
-                                (yokai.type === undefined ||
-                                    (yokai.type &&
-                                        !yokai.type.includes('deva')))
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.types.includes("'merican legendary") &&
-                                (yokai.type === undefined ||
-                                    (yokai.type &&
-                                        !yokai.type.includes(
-                                            "'merican legendary"
-                                        )))
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.types.includes("'merican") &&
-                                (yokai.type === undefined ||
-                                    (yokai.type &&
-                                        !yokai.type.includes("'merican")))
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.types.includes('legendary mystery') &&
-                                (yokai.type === undefined ||
-                                    (yokai.type &&
-                                        !yokai.type.includes(
-                                            'legendary mystery'
-                                        )))
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.types.includes('treasure') &&
-                                (yokai.type === undefined ||
-                                    (yokai.type &&
-                                        !yokai.type.includes('treasure')))
-                            ) {
-                                return false;
-                            }
-
-                            if (
-                                context.types.includes('pioneer') &&
-                                (yokai.type === undefined ||
-                                    (yokai.type &&
-                                        !yokai.type.includes('pioneer')))
-                            ) {
-                                return false;
-                            }
-
-                            return aux;
-                        })
-                        .slice(0, (pageNumber + 1) * this.yokaisToShow)
-                        .map(yokai => (
-                            <Section key={yokai.name + yokai.tribe}>
-                                <Link
-                                    to={`/yokai-watch-${
-                                        context.gameVersion
-                                    }/yokais/${utils.uniformizeNames(
-                                        yokai.name,
-                                        yokai.tribe
-                                    )}`}
-                                >
-                                    <SectionWrapper
-                                        style={this.getGradientTribe(
-                                            yokai.tribe
-                                        )}
-                                    >
-                                        <SectionImageTitle>
-                                            <Image
-                                                imageUrl={yokai.image}
-                                                altText={yokai.name}
-                                                size="medium"
-                                                isThumbnail
-                                                isToLazyLoad
-                                            />
-                                            {yokai.name}
-                                        </SectionImageTitle>
-                                        <Row alignItems="center">
-                                            #{yokai.yokaiNumber}
-                                        </Row>
-                                        <Row alignItems="center">
-                                            <Image
-                                                imageUrl={utils.getImage(
-                                                    tribes,
-                                                    yokai.tribe
-                                                )}
-                                                altText={yokai.tribe}
-                                                size="small"
-                                            />
-                                        </Row>
-                                        <Row alignItems="center">
-                                            <Image
-                                                imageUrl={utils.getImage(
-                                                    elements,
-                                                    yokai.element
-                                                )}
-                                                altText={yokai.element}
-                                                size="small"
-                                            />
-                                        </Row>
-                                        <Row alignItems="center">
-                                            <Image
-                                                imageUrl={utils.getImage(
-                                                    ranks,
-                                                    yokai.rank
-                                                )}
-                                                altText={yokai.rank}
-                                                size="small"
-                                            />
-                                        </Row>
-                                    </SectionWrapper>
-                                </Link>
-                            </Section>
-                        ))}
+                    <AutoSizer>
+                        {({ width, height }) => {
+                            return (
+                                <List
+                                    width={width}
+                                    height={height}
+                                    rowHeight={rowHeight}
+                                    rowRenderer={this.renderRow}
+                                    rowCount={context.yokais.length}
+                                    overscanRowCount={12}
+                                />
+                            );
+                        }}
+                    </AutoSizer>
                 </Form>
             </Global.Container>
         );
@@ -539,7 +404,5 @@ class Main extends Component {
 }
 
 export default withRouter(
-    withGameVersionContext(
-        withYokaisContext(withFilterMainContext(withTracker(Main)))
-    )
+    withGameVersionContext(withYokaisContext(withTracker(Main)))
 );

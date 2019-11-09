@@ -19,8 +19,8 @@ const Crankakai = ({ context }) => {
                 </title>
             </Helmet>
             <ContainerSeal>
-                {context.crankakais.map((item, index) => (
-                    <SealElements key={index}>
+                {context.crankakais.map(item => (
+                    <SealElements key={item.index}>
                         <Link
                             to={`/yokai-watch-${
                                 context.gameVersion

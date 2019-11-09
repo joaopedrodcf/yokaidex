@@ -4,7 +4,7 @@ import Send from 'react-feather/dist/icons/send';
 import { Helmet } from 'react-helmet';
 import { Field, Label, SCTextarea, ButtonArea } from './style';
 import Button from '../../components/shared/button';
-import endpoints from '../../Services/services';
+import endpoints from '../../services/services';
 import Input from '../../components/shared/input';
 import { withGameVersionContext } from '../../store';
 import Global from '../../styles';

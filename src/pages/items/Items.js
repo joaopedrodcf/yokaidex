@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Search from 'react-feather/dist/icons/search';
 import { Helmet } from 'react-helmet';
+import { List, AutoSizer } from 'react-virtualized';
 import {
     Section,
     SectionWrapper,
@@ -13,60 +14,56 @@ import {
 import Image from '../../components/shared/image';
 import Input from '../../components/shared/input';
 import utils from '../../components/utils';
-import {
-    withGameVersionContext,
-    withItemsContext,
-    withFilterItemsContext
-} from '../../store';
+import { withGameVersionContext, withItemsContext } from '../../store';
 import { items as itemsFilters } from '../../mocks/filters';
 import Checkbox from '../../components/shared/checkbox';
 import Global from '../../styles';
 import withTracker from '../../components/shared/with-tracker';
 
+const rowHeight = 74 + 12;
+
 class Items extends Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            pageNumber: 0,
-            itemsToShow: 15
-        };
-
-        this.handleScroll = this.handleScroll.bind(this);
-
-        this.listref = React.createRef();
-    }
-
-    componentDidMount() {
-        window.addEventListener('scroll', this.handleScroll);
-    }
-
-    componentWillUnmount() {
-        window.removeEventListener('scroll', this.handleScroll);
+        this.renderRow = this.renderRow.bind(this);
     }
 
     handleSubmit = event => {
         event.preventDefault();
     };
 
-    handleScroll() {
-        const { pageNumber } = this.state;
-
-        if (
-            window.innerHeight + window.pageYOffset >
-            this.listref.current.clientHeight - 400
-        ) {
-            this.setState({ pageNumber: pageNumber + 1 });
-        }
+    renderRow({ index, key, style }) {
+        const { context } = this.props;
+        return (
+            <Section key={key} style={style}>
+                <Link
+                    to={`/yokai-watch-${
+                        context.gameVersion
+                    }/items/${utils.uniformizeNames(
+                        context.items[index].name
+                    )}`}
+                >
+                    <SectionWrapper>
+                        <Image
+                            imageUrl={context.items[index].image}
+                            altText={context.items[index].name}
+                            size="medium"
+                            isToLazyLoad
+                        />
+                        <SectionText>{context.items[index].name}</SectionText>
+                    </SectionWrapper>
+                </Link>
+            </Section>
+        );
     }
 
     render() {
-        const { pageNumber, itemsToShow } = this.state;
         const { context } = this.props;
         // To improve add fiters by type of item
 
         return (
-            <Global.Container ref={this.listref}>
+            <Global.Container>
                 <Helmet>
                     <title>
                         Items | Yokaidex - Where you can find all the
@@ -93,7 +90,7 @@ class Items extends Component {
                                 <label>
                                     <Checkbox
                                         type="checkbox"
-                                        checked={context.item.includes(
+                                        checked={context.selectedFilterItems.includes(
                                             item.toLowerCase()
                                         )}
                                         name={item}
@@ -104,61 +101,25 @@ class Items extends Component {
                             </InputContainer>
                         ))}
                     </InputContainerWrap>
-                    {context.items
-                        .filter(item => {
-                            let aux = true;
 
-                            const filters = {
-                                item: context.item
-                            };
-
-                            if (
-                                !item.name.toLowerCase().includes(context.name)
-                            ) {
-                                return false;
-                            }
-
-                            Object.keys(filters).forEach(type => {
-                                if (
-                                    filters[type].length > 0 &&
-                                    !filters[type].includes(
-                                        item.type.toLowerCase()
-                                    )
-                                ) {
-                                    aux = false;
-                                }
-                            });
-
-                            return aux;
-                        })
-                        .slice(0, (pageNumber + 1) * itemsToShow)
-                        .map((item, index) => (
-                            <Section key={index}>
-                                <Link
-                                    to={`/yokai-watch-${
-                                        context.gameVersion
-                                    }/items/${utils.uniformizeNames(
-                                        item.name
-                                    )}`}
-                                >
-                                    <SectionWrapper>
-                                        <Image
-                                            imageUrl={item.image}
-                                            altText={item.name}
-                                            size="medium"
-                                            isToLazyLoad
-                                        />
-                                        <SectionText>{item.name}</SectionText>
-                                    </SectionWrapper>
-                                </Link>
-                            </Section>
-                        ))}
+                    <AutoSizer>
+                        {({ width, height }) => {
+                            return (
+                                <List
+                                    width={width}
+                                    height={height}
+                                    rowHeight={rowHeight}
+                                    rowRenderer={this.renderRow}
+                                    rowCount={context.items.length}
+                                    overscanRowCount={12}
+                                />
+                            );
+                        }}
+                    </AutoSizer>
                 </Form>
             </Global.Container>
         );
     }
 }
 
-export default withGameVersionContext(
-    withItemsContext(withFilterItemsContext(withTracker(Items)))
-);
+export default withGameVersionContext(withItemsContext(withTracker(Items)));

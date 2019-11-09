@@ -10,9 +10,50 @@ import equipments2 from '../mocks/yokai-watch-2/equipments';
 import equipments3 from '../mocks/yokai-watch-3/equipments';
 import utils from '../components/utils';
 
+const filterItems = (items, filterName, selectedFilterItems) => {
+    return items.filter(item => {
+        let aux = true;
+
+        const filters = {
+            item: selectedFilterItems
+        };
+
+        if (!item.name.toLowerCase().includes(filterName)) {
+            return false;
+        }
+
+        Object.keys(filters).forEach(type => {
+            if (
+                filters[type].length > 0 &&
+                !filters[type].includes(item.type.toLowerCase())
+            ) {
+                aux = false;
+            }
+        });
+
+        return aux;
+    });
+};
+
 // eslint-disable-next-line func-names
-const getState = function(items, setItems, getItem) {
-    return { items, setItems, getItem };
+const getState = function(
+    items,
+    setItems,
+    getItem,
+    name,
+    selectedFilterItems,
+    handleText,
+    handleCheckbox
+) {
+    return {
+        items,
+        setItems,
+        getItem,
+        name,
+        selectedFilterItems,
+        handleText,
+        handleCheckbox
+    };
 };
 
 const memoizedGetState = memoize(getState);
@@ -29,7 +70,8 @@ class ItemsProvider extends Component {
 
         this.setItems = gameVersion => {
             this.setState({
-                items: this.getItems(gameVersion)
+                items: this.getItems(gameVersion),
+                initialItems: this.getItems(gameVersion)
             });
         };
 
@@ -45,30 +87,93 @@ class ItemsProvider extends Component {
         };
 
         this.getItem = name => {
-            const { items } = this.state;
+            const { initialItems } = this.state;
 
-            return items.find(
+            return initialItems.find(
                 item =>
                     utils.uniformizeNames(item.name) ===
                     utils.uniformizeNames(name)
             );
         };
 
+        this.handleText = event => {
+            const { selectedFilterItems, initialItems } = this.state;
+            const newName = event.target.value.toLowerCase();
+
+            const filteredItems = filterItems(
+                initialItems,
+                newName,
+                selectedFilterItems
+            );
+
+            this.setState({ name: newName, items: filteredItems });
+        };
+
+        this.handleCheckbox = event => {
+            const { checked } = event.target;
+            const nameLowerCase = event.target.name.toLowerCase();
+            const { selectedFilterItems, initialItems, name } = this.state;
+
+            let newSelectedFilterItems;
+            if (checked) {
+                newSelectedFilterItems = [
+                    ...selectedFilterItems,
+                    nameLowerCase
+                ];
+            } else {
+                newSelectedFilterItems = selectedFilterItems.filter(
+                    element => element !== nameLowerCase
+                );
+            }
+
+            const filteredItems = filterItems(
+                initialItems,
+                name,
+                newSelectedFilterItems
+            );
+
+            this.setState({
+                selectedFilterItems: newSelectedFilterItems,
+                items: filteredItems
+            });
+        };
+
         this.state = {
             // this needs to be based on the state of gameVersion
             items: this.getItems(utils.getGameVersion()),
+            initialItems: this.getItems(utils.getGameVersion()),
             setItems: this.setItems,
-            getItem: this.getItem
+            getItem: this.getItem,
+            name: '',
+            selectedFilterItems: [],
+            handleText: this.handleText,
+            handleCheckbox: this.handleCheckbox
         };
     }
 
     render() {
         const { children } = this.props;
-        const { items, setItems, getItem } = this.state;
+        const {
+            items,
+            setItems,
+            getItem,
+            name,
+            selectedFilterItems,
+            handleText,
+            handleCheckbox
+        } = this.state;
 
         return (
             <ItemsContext.Provider
-                value={memoizedGetState(items, setItems, getItem)}
+                value={memoizedGetState(
+                    items,
+                    setItems,
+                    getItem,
+                    name,
+                    selectedFilterItems,
+                    handleText,
+                    handleCheckbox
+                )}
             >
                 {children}
             </ItemsContext.Provider>
