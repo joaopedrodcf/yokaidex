@@ -1,5 +1,6 @@
 const items = [
     {
+        index: 0,
         name: 'Nasty Medicine',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/nasty_medicine.png',
@@ -11,6 +12,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 1,
         name: 'Bitter Medicine',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bitter_medicine.png',
@@ -22,6 +24,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 2,
         name: 'Mighty Medicine',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mighty_medicine.png',
@@ -33,6 +36,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 3,
         name: 'Miracle Medicine',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/miracle_medicine.png',
@@ -45,6 +49,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 4,
         name: 'Mini Exporb',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mini_exporb.png',
@@ -57,6 +62,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 5,
         name: 'Small Exporb',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/small_exporb.png',
@@ -68,6 +74,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 6,
         name: 'Medium Exporb',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/medium_exporb.png',
@@ -79,6 +86,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 7,
         name: 'Large Exporb',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/large_exporb.png',
@@ -91,6 +99,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 8,
         name: 'Mega Exporb',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mega_exporb.png',
@@ -103,6 +112,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 9,
         name: 'Holy Exporb',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/holy_exporb.png',
@@ -115,6 +125,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 10,
         name: 'Staminum',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/staminum.png',
@@ -126,6 +137,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 11,
         name: 'Staminum Alpha',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/staminum_alpha.png',
@@ -137,6 +149,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 12,
         name: 'Hidden Hits',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/hidden_hits.png',
@@ -148,6 +161,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 13,
         name: 'Arcane Attacks',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/arcane_attacks.png',
@@ -160,6 +174,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 14,
         name: 'Top Techniques',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/top_techniques.png',
@@ -172,6 +187,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 15,
         name: 'Ancient Arts',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ancient_arts.png',
@@ -184,6 +200,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 16,
         name: 'Soul Secrets',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/soul_secrets.png',
@@ -195,6 +212,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 17,
         name: 'Mystic Mysteries',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mystic_mysteries.png',
@@ -207,6 +225,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 18,
         name: 'A Serious Life',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/a_serious_life.png',
@@ -219,6 +238,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 19,
         name: 'Think Karate',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/think_karate.png',
@@ -231,6 +251,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 20,
         name: 'Use Karate',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/use_karate.png',
@@ -243,6 +264,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 21,
         name: 'Skill Compendium',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/skill_compendium.png',
@@ -254,6 +276,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 22,
         name: 'Skill Encyclopedia',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/skill_encyclopedia.png',
@@ -265,6 +288,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 23,
         name: 'Get Guarding',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/get_guarding.png',
@@ -276,6 +300,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 24,
         name: 'Guard Gloriously',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/guard_gloriously.png',
@@ -288,6 +313,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 25,
         name: "Li'l Angel Heals",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/li_l_angel_heals.png',
@@ -300,6 +326,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 26,
         name: "Bye, Li'l Angel",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bye__li_l_angel.png',
@@ -312,6 +339,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 27,
         name: "The Pest's Quest",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/the_pest_s_quest.png',
@@ -324,6 +352,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 28,
         name: 'The Perfect Pest',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/the_perfect_pest.png',
@@ -336,6 +365,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 29,
         name: 'Support Special',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/support_special.png',
@@ -347,6 +377,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 30,
         name: 'Getaway Plush',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/getaway_plush.png',
@@ -359,6 +390,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 31,
         name: 'Iron Doll',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/iron_doll.png',
@@ -370,6 +402,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 32,
         name: 'Bronze Doll',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bronze_doll.png',
@@ -382,6 +415,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 33,
         name: 'Silver Doll',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/silver_doll.png',
@@ -394,6 +428,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 34,
         name: 'Golden Doll',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/golden_doll.png',
@@ -406,6 +441,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 35,
         name: 'Platinum Doll',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/platinum_doll.png',
@@ -418,6 +454,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 36,
         name: 'Black Doll',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/black_doll.png',
@@ -429,6 +466,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 37,
         name: 'Fish Bait',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fish_bait.png',
@@ -440,6 +478,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 38,
         name: 'Black Syrup',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/black_syrup.png',
@@ -451,6 +490,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 39,
         name: 'Originyan Essence',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/originyan_essence.png',
@@ -463,6 +503,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 40,
         name: 'Legendary Blade',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legendary_blade.png',
@@ -474,6 +515,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 41,
         name: 'Cursed Blade',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cursed_blade.png',
@@ -486,6 +528,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 42,
         name: 'Holy Blade',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/holy_blade.png',
@@ -502,6 +545,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 43,
         name: "General's Soul",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/general_s_soul.png',
@@ -514,6 +558,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 44,
         name: 'Love Buster',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/love_buster.png',
@@ -529,6 +574,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 45,
         name: 'GHz Orb',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ghz_orb.png',
@@ -540,6 +586,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 46,
         name: 'Unbeatable Soul',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/unbeatable_soul.png',
@@ -552,6 +599,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 47,
         name: 'Platinum Bar',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/platinum_bar.png',
@@ -567,6 +615,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 48,
         name: 'Snowstorm Cloak',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/snowstorm_cloak.png',
@@ -579,6 +628,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 49,
         name: 'Love Scepter',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/love_scepter.png',
@@ -593,6 +643,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 50,
         name: 'Glacial Clip',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/glacial_clip.png',
@@ -605,6 +656,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 51,
         name: 'Buff Weight',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/buff_weight.png',
@@ -616,6 +668,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 52,
         name: 'Shard of Evil',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/shard_of_evil.png',
@@ -632,6 +685,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 53,
         name: 'Ageless Powder',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ageless_powder.png',
@@ -648,6 +702,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 54,
         name: 'Dragon Orb',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/dragon_orb.png',
@@ -663,6 +718,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 55,
         name: 'Raging Blade',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/raging_blade.png',
@@ -675,6 +731,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 56,
         name: 'Sand Suit',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sand_suit.png',
@@ -686,6 +743,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 57,
         name: 'Ethereal Water',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ethereal_water.png',
@@ -702,6 +760,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 58,
         name: 'Cursed Journal',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/cursed_journal.png',
@@ -714,6 +773,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 59,
         name: 'Horn',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/horn.png',
@@ -725,6 +785,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 60,
         name: 'Mem-o-Vac',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mem-o-vac.png',
@@ -740,6 +801,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 61,
         name: 'Mermaid Pearl',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mermaid_pearl.png',
@@ -751,6 +813,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 62,
         name: 'Love Rice Ball',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/love_rice_ball.png',
@@ -763,6 +826,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 63,
         name: 'Carved Bear',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/carved_bear.png',
@@ -774,6 +838,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 64,
         name: 'Goldfish Lantern',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/goldfish_lantern.png',
@@ -785,6 +850,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 65,
         name: "Master's Lantern",
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/master_s_lantern.png',
@@ -797,6 +863,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 66,
         name: 'Gold Emblem',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/gold_emblem.png',
@@ -808,6 +875,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 67,
         name: 'Takoyaki Tray',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/takoyaki_tray.png',
@@ -819,6 +887,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 68,
         name: 'Dune Sand',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/dune_sand.png',
@@ -830,6 +899,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 69,
         name: 'Vintage Parasol',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/vintage_parasol.png',
@@ -845,6 +915,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 70,
         name: 'Terracotta Figure',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/terracotta_figure.png',
@@ -859,6 +930,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 71,
         name: 'Red Hibiscus',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_hibiscus.png',
@@ -870,6 +942,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 72,
         name: 'Swirly Soul',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/swirly_soul.png',
@@ -882,6 +955,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 73,
         name: 'Keystone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/keystone.png',
@@ -894,6 +968,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 74,
         name: 'Comfy Closet',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/comfy_closet.png',
@@ -906,6 +981,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 75,
         name: 'Perilous Pearl',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/perilous_pearl.png',
@@ -918,6 +994,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 76,
         name: 'Old Earthenware',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/old_earthenware.png',
@@ -930,6 +1007,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 77,
         name: 'Ball of Badness',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ball_of_badness.png',
@@ -945,6 +1023,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 78,
         name: 'Scented Bath Oil',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/scented_bath_oil.png',
@@ -957,6 +1036,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 79,
         name: 'Bad News',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bad_news.png',
@@ -971,6 +1051,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 80,
         name: 'Dino DNA',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/dino_dna.png',
@@ -983,6 +1064,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 81,
         name: 'MVP Award',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mvp_award.png',
@@ -994,6 +1076,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 82,
         name: 'Essence of Evil',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/essence_of_evil.png',
@@ -1006,6 +1089,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 83,
         name: 'Starry Spangles',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/starry_spangles.png',
@@ -1017,6 +1101,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 84,
         name: 'Red Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_coin.png',
@@ -1029,6 +1114,7 @@ const items = [
         crankakaiIndexes: [0, 1]
     },
     {
+        index: 85,
         name: 'Yellow Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yellow_coin.png',
@@ -1041,6 +1127,7 @@ const items = [
         crankakaiIndexes: [2, 3]
     },
     {
+        index: 86,
         name: 'Orange Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/orange_coin.png',
@@ -1053,6 +1140,7 @@ const items = [
         crankakaiIndexes: [4, 5]
     },
     {
+        index: 87,
         name: 'Pink Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pink_coin.png',
@@ -1065,6 +1153,7 @@ const items = [
         crankakaiIndexes: [6, 7]
     },
     {
+        index: 88,
         name: 'Green Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_coin.png',
@@ -1077,6 +1166,7 @@ const items = [
         crankakaiIndexes: [8, 9]
     },
     {
+        index: 89,
         name: 'Blue Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/blue_coin.png',
@@ -1090,6 +1180,7 @@ const items = [
         crankakaiIndexes: [10, 11]
     },
     {
+        index: 90,
         name: 'Purple Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/purple_coin.png',
@@ -1102,6 +1193,7 @@ const items = [
         crankakaiIndexes: [12, 13]
     },
     {
+        index: 91,
         name: 'Light-Blue Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light-blue_coin.png',
@@ -1114,6 +1206,7 @@ const items = [
         crankakaiIndexes: [14, 15]
     },
     {
+        index: 92,
         name: 'One-Star Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/one-star_coin.png',
@@ -1126,6 +1219,7 @@ const items = [
         crankakaiIndexes: [16, 17]
     },
     {
+        index: 93,
         name: 'Five-Star Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/five-star_coin.png',
@@ -1138,6 +1232,7 @@ const items = [
         crankakaiIndexes: [18, 19]
     },
     {
+        index: 94,
         name: 'Special Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin.png',
@@ -1150,6 +1245,7 @@ const items = [
         crankakaiIndexes: [20, 21]
     },
     {
+        index: 95,
         name: 'Yo Mystery Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/yo_mystery_coin.png',
@@ -1163,6 +1259,7 @@ const items = [
         crankakaiIndexes: [22]
     },
     {
+        index: 96,
         name: 'Kai Mystery Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/kai_mystery_coin.png',
@@ -1175,6 +1272,7 @@ const items = [
         crankakaiIndexes: [23]
     },
     {
+        index: 97,
         name: 'Soul Mystery Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/soul_mystery_coin.png',
@@ -1188,6 +1286,7 @@ const items = [
         crankakaiIndexes: [24]
     },
     {
+        index: 98,
         name: 'Sushi Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sushi_coin.png',
@@ -1201,6 +1300,7 @@ const items = [
         crankakaiIndexes: [25]
     },
     {
+        index: 99,
         name: 'Tempura Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/tempura_coin.png',
@@ -1214,6 +1314,7 @@ const items = [
         crankakaiIndexes: [26]
     },
     {
+        index: 100,
         name: 'Whirlwind Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/whirlwind_coin.png',
@@ -1227,6 +1328,7 @@ const items = [
         crankakaiIndexes: [27]
     },
     {
+        index: 101,
         name: 'Wanderer Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wanderer_coin.png',
@@ -1240,6 +1342,7 @@ const items = [
         crankakaiIndexes: [28]
     },
     {
+        index: 102,
         name: 'Rusted Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/rusted_coin.png',
@@ -1253,6 +1356,7 @@ const items = [
         crankakaiIndexes: [29]
     },
     {
+        index: 103,
         name: 'Flower Excite. Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/flower_excite._coin.png',
@@ -1266,6 +1370,7 @@ const items = [
         crankakaiIndexes: [30]
     },
     {
+        index: 104,
         name: 'Bird Excite. Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/bird_excite._coin.png',
@@ -1279,6 +1384,7 @@ const items = [
         crankakaiIndexes: [31]
     },
     {
+        index: 105,
         name: 'Wind Excite. Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wind_excite._coin.png',
@@ -1292,6 +1398,7 @@ const items = [
         crankakaiIndexes: [32]
     },
     {
+        index: 106,
         name: 'Moon Excite. Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/moon_excite._coin.png',
@@ -1305,6 +1412,7 @@ const items = [
         crankakaiIndexes: [33]
     },
     {
+        index: 107,
         name: 'Heaven Excit. Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/heaven_excit._coin.png',
@@ -1318,6 +1426,7 @@ const items = [
         crankakaiIndexes: [34]
     },
     {
+        index: 108,
         name: 'Mellow Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/mellow_coin.png',
@@ -1331,6 +1440,7 @@ const items = [
         crankakaiIndexes: [35]
     },
     {
+        index: 109,
         name: 'Brave Dream Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/brave_dream_coin.png',
@@ -1344,6 +1454,7 @@ const items = [
         crankakaiIndexes: [36]
     },
     {
+        index: 110,
         name: 'Light Dream Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/light_dream_coin.png',
@@ -1357,6 +1468,7 @@ const items = [
         crankakaiIndexes: [37]
     },
     {
+        index: 111,
         name: 'Platin. Dream Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/platin._dream_coin.png',
@@ -1369,6 +1481,7 @@ const items = [
         crankakaiIndexes: [38]
     },
     {
+        index: 112,
         name: 'Fortun. Dream Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fortun._dream_coin.png',
@@ -1381,6 +1494,7 @@ const items = [
         crankakaiIndexes: [39]
     },
     {
+        index: 113,
         name: 'Princess Dre. Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/princess_dre._coin.png',
@@ -1393,6 +1507,7 @@ const items = [
         crankakaiIndexes: [40]
     },
     {
+        index: 114,
         name: 'Wisdom Dre. Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/wisdom_dre._coin.png',
@@ -1405,6 +1520,7 @@ const items = [
         crankakaiIndexes: [41]
     },
     {
+        index: 115,
         name: 'Pride Dream Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pride_dream_coin.png',
@@ -1418,6 +1534,7 @@ const items = [
         crankakaiIndexes: [42]
     },
     {
+        index: 116,
         name: 'Chivalry Dre. Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/chivalry_dre._coin.png',
@@ -1431,6 +1548,7 @@ const items = [
         crankakaiIndexes: [43]
     },
     {
+        index: 117,
         name: 'G1 Dream Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/g1_dream_coin.png',
@@ -1444,6 +1562,7 @@ const items = [
         crankakaiIndexes: [44]
     },
     {
+        index: 118,
         name: 'G2 Dream Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/g2_dream_coin.png',
@@ -1457,6 +1576,7 @@ const items = [
         crankakaiIndexes: [45]
     },
     {
+        index: 119,
         name: 'G3 Dream Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/g3_dream_coin.png',
@@ -1470,6 +1590,7 @@ const items = [
         crankakaiIndexes: [46]
     },
     {
+        index: 120,
         name: 'G4 Dream Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/g4_dream_coin.png',
@@ -1483,6 +1604,7 @@ const items = [
         crankakaiIndexes: [47]
     },
     {
+        index: 121,
         name: '2nd Helping Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/2nd_helping_coin.png',
@@ -1496,6 +1618,7 @@ const items = [
         crankakaiIndexes: [48]
     },
     {
+        index: 122,
         name: 'Belly Buster Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/belly_buster_coin.png',
@@ -1509,6 +1632,7 @@ const items = [
         crankakaiIndexes: [49]
     },
     {
+        index: 123,
         name: 'L Souvenir Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/l_souvenir_coin.png',
@@ -1522,6 +1646,7 @@ const items = [
         crankakaiIndexes: [50]
     },
     {
+        index: 124,
         name: 'F Souvenir Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/f_souvenir_coin.png',
@@ -1535,6 +1660,7 @@ const items = [
         crankakaiIndexes: [51]
     },
     {
+        index: 125,
         name: 'S Souvenir Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/s_souvenir_coin.png',
@@ -1548,6 +1674,7 @@ const items = [
         crankakaiIndexes: [52]
     },
     {
+        index: 126,
         name: 'K Souvenir Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/k_souvenir_coin.png',
@@ -1561,6 +1688,7 @@ const items = [
         crankakaiIndexes: [53]
     },
     {
+        index: 127,
         name: 'Joyful Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/joyful_coin.png',
@@ -1573,6 +1701,7 @@ const items = [
         crankakaiIndexes: [54]
     },
     {
+        index: 128,
         name: 'Excellent Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/excellent_coin.png',
@@ -1586,6 +1715,7 @@ const items = [
         crankakaiIndexes: [55]
     },
     {
+        index: 129,
         name: 'Beaming Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/beaming_coin.png',
@@ -1598,6 +1728,7 @@ const items = [
         crankakaiIndexes: [56]
     },
     {
+        index: 130,
         name: 'Iron Pot Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/iron_pot_coin.png',
@@ -1611,6 +1742,7 @@ const items = [
         crankakaiIndexes: [57]
     },
     {
+        index: 131,
         name: 'Fancy That! Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fancy_that__coin.png',
@@ -1624,6 +1756,7 @@ const items = [
         crankakaiIndexes: [58]
     },
     {
+        index: 132,
         name: 'Black Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/black_coin.png',
@@ -1637,6 +1770,7 @@ const items = [
         crankakaiIndexes: [59]
     },
     {
+        index: 133,
         name: 'Jet Black Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/jet_black_coin.png',
@@ -1649,6 +1783,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 134,
         name: 'Demonic Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/demonic_coin.png',
@@ -1662,6 +1797,7 @@ const items = [
         crankakaiIndexes: [60]
     },
     {
+        index: 135,
         name: 'Underworld Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/underworld_coin.png',
@@ -1675,6 +1811,7 @@ const items = [
         crankakaiIndexes: [61]
     },
     {
+        index: 136,
         name: 'Sealed Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sealed_coin.png',
@@ -1688,6 +1825,7 @@ const items = [
         crankakaiIndexes: [62]
     },
     {
+        index: 137,
         name: 'Emblem Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/emblem_coin.png',
@@ -1700,6 +1838,7 @@ const items = [
         crankakaiIndexes: [63]
     },
     {
+        index: 138,
         name: 'Treasure Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/treasure_coin.png',
@@ -1713,6 +1852,7 @@ const items = [
         crankakaiIndexes: [64]
     },
     {
+        index: 139,
         name: 'Legend Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legend_coin.png',
@@ -1726,6 +1866,7 @@ const items = [
         crankakaiIndexes: [65]
     },
     {
+        index: 140,
         name: 'Feast Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/feast_coin.png',
@@ -1737,6 +1878,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 141,
         name: 'Super Red Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/super_red_coin.png',
@@ -1749,6 +1891,7 @@ const items = [
         crankakaiIndexes: [66]
     },
     {
+        index: 142,
         name: 'Super Yellow Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/super_yellow_coin.png',
@@ -1761,6 +1904,7 @@ const items = [
         crankakaiIndexes: [67]
     },
     {
+        index: 143,
         name: 'Super Orange Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/super_orange_coin.png',
@@ -1773,6 +1917,7 @@ const items = [
         crankakaiIndexes: [68]
     },
     {
+        index: 144,
         name: 'Super Pink Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/super_pink_coin.png',
@@ -1785,6 +1930,7 @@ const items = [
         crankakaiIndexes: [69]
     },
     {
+        index: 145,
         name: 'Super Green Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/super_green_coin.png',
@@ -1797,6 +1943,7 @@ const items = [
         crankakaiIndexes: [70]
     },
     {
+        index: 146,
         name: 'Super Blue Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/super_blue_coin.png',
@@ -1809,6 +1956,7 @@ const items = [
         crankakaiIndexes: [71]
     },
     {
+        index: 147,
         name: 'Super Purple Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/super_purple_coin.png',
@@ -1821,6 +1969,7 @@ const items = [
         crankakaiIndexes: [72]
     },
     {
+        index: 148,
         name: 'S. Light-Blue Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/s._light-blue_coin.png',
@@ -1833,6 +1982,7 @@ const items = [
         crankakaiIndexes: [73]
     },
     {
+        index: 149,
         name: 'Ultra Red Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ultra_red_coin.png',
@@ -1845,6 +1995,7 @@ const items = [
         crankakaiIndexes: [74]
     },
     {
+        index: 150,
         name: 'Ultra Yellow Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ultra_yellow_coin.png',
@@ -1857,6 +2008,7 @@ const items = [
         crankakaiIndexes: [75]
     },
     {
+        index: 151,
         name: 'Ultra Orange Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ultra_orange_coin.png',
@@ -1869,6 +2021,7 @@ const items = [
         crankakaiIndexes: [76]
     },
     {
+        index: 152,
         name: 'Ultra Pink Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ultra_pink_coin.png',
@@ -1881,6 +2034,7 @@ const items = [
         crankakaiIndexes: [77]
     },
     {
+        index: 153,
         name: 'Ultra Green Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ultra_green_coin.png',
@@ -1893,6 +2047,7 @@ const items = [
         crankakaiIndexes: [78]
     },
     {
+        index: 154,
         name: 'Ultra Blue Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ultra_blue_coin.png',
@@ -1905,6 +2060,7 @@ const items = [
         crankakaiIndexes: [79]
     },
     {
+        index: 155,
         name: 'Ultra Purple Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ultra_purple_coin.png',
@@ -1917,6 +2073,7 @@ const items = [
         crankakaiIndexes: [80]
     },
     {
+        index: 156,
         name: 'U. Light-Blue Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/u._light-blue_coin.png',
@@ -1930,6 +2087,7 @@ const items = [
         crankakaiIndexes: [81]
     },
     {
+        index: 157,
         name: 'One-Star C. Frag.',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/one-star_c._frag..png',
@@ -1941,6 +2099,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 158,
         name: 'Five-Star C. Frag.',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/five-star_c._frag..png',
@@ -1952,6 +2111,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 159,
         name: 'Special Coin Frag.',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/special_coin_frag..png',
@@ -1963,6 +2123,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 160,
         name: 'Dancing Star',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/dancing_star.png',
@@ -1975,6 +2136,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 161,
         name: 'Lottery Ticket',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/lottery_ticket.png',
@@ -1986,6 +2148,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 162,
         name: 'Music Card',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/music_card.png',
@@ -1997,6 +2160,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 163,
         name: 'Ghastly Fragment',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ghastly_fragment.png',
@@ -2009,6 +2173,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 164,
         name: 'Gate Globe',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/gate_globe.png',
@@ -2020,6 +2185,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 165,
         name: 'Oddball Toadstool',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/oddball_toadstool.png',
@@ -2031,6 +2197,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 166,
         name: 'Pop Star Snapshot',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pop_star_snapshot.png',
@@ -2043,6 +2210,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 167,
         name: 'Trash',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/trash.png',
@@ -2055,6 +2223,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 168,
         name: 'Fungi Fest Ticket',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/fungi_fest_ticket.png',
@@ -2066,6 +2235,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 169,
         name: 'Showdown Pass',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/showdown_pass.png',
@@ -2078,6 +2248,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 170,
         name: 'Platinum Pass',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/platinum_pass.png',
@@ -2089,6 +2260,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 171,
         name: 'Radiant Pass',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/radiant_pass.png',
@@ -2101,6 +2273,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 172,
         name: 'Gilded Pass',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/gilded_pass.png',
@@ -2112,6 +2285,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 173,
         name: 'Gabby Pass',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/gabby_pass.png',
@@ -2124,6 +2298,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 174,
         name: 'Teducation Pass',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/teducation_pass.png',
@@ -2136,6 +2311,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 175,
         name: 'Big City Pass',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/big_city_pass.png',
@@ -2148,6 +2324,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 176,
         name: 'Sophisticated Pass',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sophisticated_pass.png',
@@ -2159,6 +2336,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 177,
         name: 'Sushi Tempu. Invite',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sushi_tempu._invite.png',
@@ -2171,6 +2349,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 178,
         name: 'Sushi Sukiya. Invite',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sushi_sukiya._invite.png',
@@ -2183,6 +2362,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 179,
         name: 'Tempura Suk. Invite',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/tempura_suk._invite.png',
@@ -2195,6 +2375,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 180,
         name: 'Red Box',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/red_box.png',
@@ -2207,6 +2388,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 181,
         name: 'Circus Ticket',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/circus_ticket.png',
@@ -2218,6 +2400,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 182,
         name: 'Green Mango',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/green_mango.png',
@@ -2230,6 +2413,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 183,
         name: 'Sturdy Log',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sturdy_log.png',
@@ -2242,6 +2426,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 184,
         name: 'Firm Branch',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/firm_branch.png',
@@ -2253,6 +2438,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 185,
         name: 'Rough Splinter',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/rough_splinter.png',
@@ -2265,6 +2451,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 186,
         name: 'Det. Ag. Poster',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/det._ag._poster.png',
@@ -2276,6 +2463,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 187,
         name: 'Hoary Tomb Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/hoary_tomb_stone.png',
@@ -2287,6 +2475,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 188,
         name: 'Sovereign Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sovereign_stone.png',
@@ -2299,6 +2488,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 189,
         name: 'Pandora Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/pandora_stone.png',
@@ -2311,6 +2501,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 190,
         name: 'Funny Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/funny_stone.png',
@@ -2323,6 +2514,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 191,
         name: 'Shelter Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/shelter_stone.png',
@@ -2335,6 +2527,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 192,
         name: 'Komanubis Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/komanubis_stone.png',
@@ -2347,6 +2540,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 193,
         name: 'Prophecy Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/prophecy_stone.png',
@@ -2359,6 +2553,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 194,
         name: 'Rampage Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/rampage_stone.png',
@@ -2371,6 +2566,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 195,
         name: 'S Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/s_stone.png',
@@ -2383,6 +2579,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 196,
         name: 'Iron Ogre Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/iron_ogre_stone.png',
@@ -2395,6 +2592,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 197,
         name: 'Hinixstone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/hinixstone.png',
@@ -2407,6 +2605,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 198,
         name: 'Meopetra',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/meopetra.png',
@@ -2419,6 +2618,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 199,
         name: 'Silly Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/silly_stone.png',
@@ -2431,6 +2631,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 200,
         name: 'Gilded Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/gilded_stone.png',
@@ -2443,6 +2644,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 201,
         name: 'Sanguine Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/sanguine_stone.png',
@@ -2455,6 +2657,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 202,
         name: 'Underworld Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/underworld_stone.png',
@@ -2467,6 +2670,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 203,
         name: 'Legendary Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/legendary_stone.png',
@@ -2479,6 +2683,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 204,
         name: 'Hidden Gem Stone',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/hidden_gem_stone.png',
@@ -2491,6 +2696,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 205,
         name: '∞ S Stone Frag. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_s_stone_frag._1.png',
@@ -2503,6 +2709,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 206,
         name: '∞ S Stone Frag. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_s_stone_frag._2.png',
@@ -2515,6 +2722,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 207,
         name: '∞ Hinixstone Fra. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_hinixstone_fra._1.png',
@@ -2527,6 +2735,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 208,
         name: '∞ Hinixstone Fra. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_hinixstone_fra._2.png',
@@ -2538,6 +2747,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 209,
         name: '∞ Meopetra Fra. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_meopetra_fra._1.png',
@@ -2550,6 +2760,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 210,
         name: '∞ Meopetra Fra. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_meopetra_fra._2.png',
@@ -2562,6 +2773,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 211,
         name: '∞ Silly Stone Fra. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_silly_stone_fra._1.png',
@@ -2574,6 +2786,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 212,
         name: '∞ Silly Stone Fra. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_silly_stone_fra._2.png',
@@ -2586,6 +2799,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 213,
         name: '∞ Gild. Stone Fr. 1',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_gild._stone_fr._1.png',
@@ -2598,6 +2812,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 214,
         name: '∞ Gild. Stone Fr. 2',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/_gild._stone_fr._2.png',
@@ -2610,6 +2825,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 215,
         name: 'Righteous Tag',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/righteous_tag.png',
@@ -2622,6 +2838,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 216,
         name: 'Innovative Tag',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/innovative_tag.png',
@@ -2634,6 +2851,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 217,
         name: 'Ancient Tag',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/ancient_tag.png',
@@ -2646,6 +2864,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 218,
         name: 'Awoken Tag',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/awoken_tag.png',
@@ -2658,6 +2877,7 @@ const items = [
         type: 'items'
     },
     {
+        index: 219,
         name: '3DS Coin',
         image:
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/3ds_coin.png',

@@ -6,6 +6,7 @@ export const ContainerHeader = styled.div`
 
 export const Form = styled.form`
     width: 100%;
+    height: calc(100vh - 215px); /*TODO: this is hammer */
 `;
 
 export const Section = styled.div`

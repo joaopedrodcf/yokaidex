@@ -19,19 +19,19 @@ import withTracker from '../../components/shared/with-tracker';
 
 const YokaiCard = ({ context, match }) => {
     const yokai = context.getYokai(match.params.name);
-    const color = utils.getColor(tribes, yokai.tribe);
-
-    const elementColor = utils.getColor(elements, yokai.element);
-    const elementSecondaryColor = utils.getSecondaryColor(
-        elements,
-        yokai.element
-    );
 
     if (!yokai) {
         return (
             <Global.Container>Page not found please go back</Global.Container>
         );
     }
+
+    const color = utils.getColor(tribes, yokai.tribe);
+    const elementColor = utils.getColor(elements, yokai.element);
+    const elementSecondaryColor = utils.getSecondaryColor(
+        elements,
+        yokai.element
+    );
 
     return (
         <Global.Container>

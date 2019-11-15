@@ -1,6 +1,7 @@
 // YW2 Baffleboards
 const baffleboards = [
     {
+        index: 0,
         location: 'Uptown Springdale: Outside Everymart (Story Mode)',
         clues: [
             'Wears traditional clothing',
@@ -13,6 +14,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hungramps.png'
     },
     {
+        index: 1,
         location: 'Uptown Springdale: Outside Jungle Hunter',
         clues: ['Has a flaming mane', 'Likes meat', 'A fiery tough guy'],
         solution: 'Blazion',
@@ -22,6 +24,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blazion.png'
     },
     {
+        index: 2,
         location: 'Uptown Springdale: Outside Community Center (Story Mode)',
         clues: [
             'Three-paneled mirror',
@@ -34,6 +37,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/miradox.png'
     },
     {
+        index: 3,
         location: 'Mount Wildwood: Abandoned Tunnel East',
         clues: [
             'Emissary from the future',
@@ -46,6 +50,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan.png'
     },
     {
+        index: 4,
         location: 'Mount Wildwood: Abandoned Tunnel West',
         clues: [
             'Dragon Yo-kai',
@@ -59,6 +64,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/draaagin.png'
     },
     {
+        index: 5,
         location: 'Mount Wildwood: Summit',
         clues: ['White tuxedo', 'Heartful Tribe', 'My darling sweet pea'],
         solution: "Ray O'Light",
@@ -67,6 +73,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ray_o_light.png'
     },
     {
+        index: 6,
         location: 'Mount Wildwood: Summit',
         clues: [
             'Drizzly drizzle...',
@@ -79,6 +86,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzelda.png'
     },
     {
+        index: 7,
         location: "Breezy Hills: East of Eddie's house",
         clues: [
             'Holds bells in his right hand',
@@ -91,6 +99,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/high_gnomey.png'
     },
     {
+        index: 8,
         location: 'Blossom Heights: Outside the bath house',
         clues: [
             'Neat-freak shogun',
@@ -103,6 +112,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/washogun.png'
     },
     {
+        index: 9,
         location: "Shopper's Row: East of Everymart (In Night Time)",
         clues: ['First-rate food stall', 'Dashi stock', 'Well den'],
         solution: 'Master Oden',
@@ -111,6 +121,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/master_oden.png'
     },
     {
+        index: 10,
         location: 'Downtown Springdale: East of the Springdale Business Tower',
         clues: [
             'Holds a small staff in one hand.',
@@ -123,6 +134,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/illoo.png'
     },
     {
+        index: 11,
         location: 'Downtown Springdale: Around the Construction Site',
         clues: [
             'Proud of soft skin',
@@ -136,6 +148,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mochismo.png'
     },
     {
+        index: 12,
         location: 'Downtown Springdale: Sports Club 2F',
         clues: [
             'Yo-kai workout leader',
@@ -148,6 +161,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sgt._burly.png'
     },
     {
+        index: 13,
         location: 'Excellent Tower: Bottom left of the entrance',
         clues: ['Eats memories', 'Mysterious Tribe', 'Shaped like a hat'],
         solution: 'Wazzat',
@@ -156,6 +170,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wazzat.png'
     },
     {
+        index: 14,
         location: 'San Fantastico: Seaside Cave (Story Mode)',
         clues: [
             'Healthy, thanks to seaweed',
@@ -168,6 +183,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wiglin.png'
     },
     {
+        index: 15,
         location: 'San Fantastico: Seaside Cave (Story Mode)',
         clues: [
             'Healthy, groovy seaweed',
@@ -180,6 +196,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/steppa.png'
     },
     {
+        index: 16,
         location: 'San Fantastico: Seaside Cave (Story Mode)',
         clues: [
             'Loved by Wiglin',
@@ -192,6 +209,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhyth.png'
     },
     {
+        index: 17,
         location: 'San Fantastico: Parking lot outside station',
         clues: [
             'Likes taking detours',
@@ -204,6 +222,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chummer.png'
     },
     {
+        index: 18,
         location:
             'San Fantastico: Briny Grotto (Entrance from beach underneath abandoned house)',
         clues: ['Green clothes', 'Heartful Tribe', 'Hoards things in bags'],
@@ -213,6 +232,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__fortune.png'
     },
     {
+        index: 19,
         location: 'Old Springdale: Outside the station',
         clues: [
             'Travels atop a cloud',
@@ -225,6 +245,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/vacuumory.png'
     },
     {
+        index: 20,
         location: "Yo-kai World: Lord's Gate",
         clues: [
             'Reflective',
@@ -237,6 +258,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mircle.png'
     },
     {
+        index: 21,
         location: 'Old Springdale: The Burbs (Next to the school)',
         clues: ['Won', '...der...', '...nyan!'],
         solution: 'Wondernyan',
@@ -245,6 +267,7 @@ const baffleboards = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wondernyan.png'
     },
     {
+        index: 22,
         location: 'Cherry Hill station',
         clues: [
             'Traditional Japanese clothes',

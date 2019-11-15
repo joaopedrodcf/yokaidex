@@ -1,5 +1,6 @@
 const baffleBoard = [
     {
+        index: 0,
         location: 'Northbeech Pizzeria (Story Mode)',
         clues: ['In the Shady tribe', 'Always angry', 'Looks like bacon'],
         solution: 'Salty Bacon',
@@ -8,6 +9,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/salty_bacon.png'
     },
     {
+        index: 1,
         location: "Hazeltine Mansion Bathroom - Hailey's Side (Story Mode)",
         clues: ['Charming Tribe', 'Always cold', 'Try asking Zest-a-Minute'],
         solution: 'Pupsicle',
@@ -16,6 +18,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pupsicle.png'
     },
     {
+        index: 2,
         location: "Hazeltine Mansion Bathroom - Nate's Side (Story Mode)",
         clues: [
             'Serious fighter',
@@ -28,6 +31,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/el_gutso.png'
     },
     {
+        index: 3,
         location: 'Coconut Residential Area',
         clues: [
             'Lean and mean',
@@ -40,6 +44,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan_f.png'
     },
     {
+        index: 4,
         location: 'Miracle Circus',
         clues: [
             'Wears a loincloth',
@@ -52,6 +57,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pandle.png'
     },
     {
+        index: 5,
         location: 'Banter Bakery',
         clues: ['Looks like a tree', 'Shady Tribe', 'Has four arms'],
         solution: 'Retreeter',
@@ -61,6 +67,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/retreeter.png'
     },
     {
+        index: 6,
         location: "Shopper's Row - Riverbank",
         clues: [
             'Visits during the holidays',
@@ -74,6 +81,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__saint_trick.png'
     },
     {
+        index: 7,
         location: 'East Pines District',
         clues: [
             'Has a chocolate nose',
@@ -87,6 +95,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cocobanana.png'
     },
     {
+        index: 8,
         location: 'Northbeech - Pier Area',
         clues: ['Uses a red umbrella', 'Seems a bit down', '...And wet'],
         solution: 'Drizzelda',
@@ -95,6 +104,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzelda.png'
     },
     {
+        index: 9,
         location: 'Northbeech - Pier Area',
         clues: [
             'Brightens up the day',
@@ -107,6 +117,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ray_o_light.png'
     },
     {
+        index: 10,
         location: 'Southmond Scrap Yard',
         clues: [
             'Heartful Tribe',
@@ -120,6 +131,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/greengramps.png'
     },
     {
+        index: 11,
         location: 'Springdale Sports Club - 3F',
         clues: ['Feel the burn!', 'Pump some iron!', 'Victoryyyyyy!'],
         solution: 'Sgt. Burly',
@@ -128,6 +140,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sgt._burly.png'
     },
     {
+        index: 12,
         location: 'Breezy Hills - Everymart',
         clues: [
             'Incredibly stuck-up',
@@ -141,6 +154,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snobetty.png'
     },
     {
+        index: 13,
         location: 'Blossom Heights - Hot Springs',
         clues: ['Heartful Tribe', 'Runs an inn', 'Incredibly dexterous hair'],
         solution: 'Ghostess',
@@ -150,6 +164,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ghostess.png'
     },
     {
+        index: 14,
         location: 'Sunset Mall B1',
         clues: [
             'Heartful Tribe',
@@ -162,6 +177,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kelpacabana.png'
     },
     {
+        index: 15,
         location: 'Downtown Springdale Business Tower',
         clues: [
             'Wears a dashing Sand Suit',
@@ -174,6 +190,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mr._sandmeh.png'
     },
     {
+        index: 16,
         location: 'Sparkopolis',
         clues: ['Magnificent eyebrows', 'Holds a small staff', 'Great teacher'],
         solution: 'Illoo',
@@ -182,6 +199,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/illoo.png'
     },
     {
+        index: 17,
         location: 'Bada-Bing Tower - Lobby',
         clues: [
             'Governs recollections',
@@ -194,6 +212,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/vacuumory.png'
     },
     {
+        index: 18,
         location: 'Greenfields Station',
         clues: ['Mysterious Tribe', 'Looks like a hat', 'Eats memories'],
         solution: 'Wazzat',
@@ -202,6 +221,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wazzat.png'
     },
     {
+        index: 19,
         location: 'Yopple Headquarters - Yo-kai Watch Factory',
         clues: [
             'Inspirits those hard at work',
@@ -214,6 +234,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tie-red.png'
     },
     {
+        index: 20,
         location: 'Uptown Springdale -The Catwalk',
         clues: [
             'Heartful Tribe',
@@ -226,6 +247,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/push_pup.png'
     },
     {
+        index: 21,
         location: 'Downtown Springdale - Rolling Waves Park',
         clues: [
             'Lolls around over here',
@@ -238,6 +260,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kittylumbus.png'
     },
     {
+        index: 22,
         location: 'Fortune Hospital - 2F',
         clues: [
             'Works at a hospital',
@@ -250,6 +273,7 @@ const baffleBoard = [
             'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nurse_tongus.png'
     },
     {
+        index: 23,
         location: 'Tranquility Apts. - B-301',
         clues: [
             'Mysterious Tribe',

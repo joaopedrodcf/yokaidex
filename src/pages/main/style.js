@@ -3,6 +3,7 @@ import styles from '../../styles';
 
 export const Form = styled.form`
     width: 100%;
+    height: calc(100vh - 180px); /*TODO: this is hammer */
 `;
 
 export const ContainerHeader = styled.div`
@@ -182,6 +183,5 @@ export const SectionImageTitle = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
     text-align: center;
 `;
