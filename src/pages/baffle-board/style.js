@@ -1,13 +1,13 @@
 import styled from 'styled-components';
+import variables from '../../styles/variables';
 
 export const Table = styled.table`
     width: 100%;
-    font-weight: 600;
     table-layout: fixed;
-    border-radius: 12px;
+    border-radius: ${variables.spacers.s};
     border-collapse: collapse;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
-        0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: ${variables.shadows.s};
+    ${variables.typographys.mBold};
 
     tr a {
         display: block;
@@ -20,14 +20,15 @@ export const Table = styled.table`
     }
 
     th {
-        padding: 16px;
+        padding: ${variables.spacers.s};
         color: ${props => props.theme.table.th.color};
         text-align: center;
         background-color: ${props => props.theme.table.th.backgroundColor};
+        ${variables.typographys.l};
     }
 
     td {
-        padding: 8px;
+        padding: ${variables.spacers.xs};
         color: ${props => props.theme.table.tr.color};
         text-align: start;
         background-color: ${props => props.theme.table.tr.backgroundColor};
@@ -38,27 +39,23 @@ export const Table = styled.table`
     }
 
     tr:last-child th:first-child {
-        border-top-left-radius: 12px;
+        border-top-left-radius: ${variables.spacers.s};
     }
 
     tr:last-child th:last-child {
-        border-top-right-radius: 12px;
+        border-top-right-radius: ${variables.spacers.s};
     }
 
     tr:last-child td:first-child {
-        border-bottom-left-radius: 12px;
+        border-bottom-left-radius: ${variables.spacers.s};
     }
 
     tr:last-child td:last-child {
-        border-bottom-right-radius: 12px;
+        border-bottom-right-radius: ${variables.spacers.s};
     }
 
     td:last-child {
         text-align: center;
-    }
-
-    tr:nth-child(even) {
-        background-color: #f2f2f2;
     }
 `;
 

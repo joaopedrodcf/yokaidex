@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import memoize from 'fast-memoize';
 import genericWrapperComponent from './genericWrapperComponent';
-import styles from '../styles';
+import variables from '../styles/variables';
 
 // eslint-disable-next-line func-names
 const getState = function(isDarkTheme, toggleTheme, getTheme) {
@@ -38,51 +38,51 @@ class ThemeProvider extends Component {
 
             return isDarkTheme
                 ? {
-                      backgroundColor: styles.color.black,
-                      color: styles.color.white,
+                      backgroundColor: variables.colors.black,
+                      color: variables.colors.white,
                       selected: {
                           backgroundColor: '#424242',
-                          color: styles.color.white
+                          color: variables.colors.white
                       },
                       button: {
-                          backgroundColor: styles.color.white,
-                          color: styles.color.black
+                          backgroundColor: variables.colors.white,
+                          color: variables.colors.black
                       },
                       card: {
                           backgroundColor: '#212121'
                       },
                       table: {
                           th: {
-                              color: styles.color.black,
-                              backgroundColor: styles.color.white
+                              color: variables.colors.black,
+                              backgroundColor: variables.colors.white
                           },
                           tr: {
-                              color: styles.color.white,
+                              color: variables.colors.white,
                               backgroundColor: '#212121'
                           }
                       }
                   }
                 : {
-                      backgroundColor: styles.color.white,
-                      color: styles.color.black,
+                      backgroundColor: variables.colors.white,
+                      color: variables.colors.black,
                       selected: {
                           backgroundColor: '#bdbdbd',
-                          color: styles.color.black
+                          color: variables.colors.black
                       },
                       button: {
-                          backgroundColor: styles.color.black,
-                          color: styles.color.white
+                          backgroundColor: variables.colors.black,
+                          color: variables.colors.white
                       },
                       card: {
-                          backgroundColor: styles.color.white
+                          backgroundColor: variables.colors.white
                       },
                       table: {
                           th: {
-                              color: styles.color.white,
-                              backgroundColor: styles.color.black
+                              color: variables.colors.white,
+                              backgroundColor: variables.colors.black
                           },
                           tr: {
-                              color: styles.color.black,
+                              color: variables.colors.black,
                               backgroundColor: '#e0e0e0'
                           }
                       }

@@ -1,24 +1,25 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import { NavLink } from 'react-router-dom';
-import styles from '../../styles';
+import variables from '../../styles/variables';
 
-export const SCSidebar = styled.div`
-    width: 256px;
-    height: 100%;
-    padding-top: 56px;
-    color: ${props => props.theme.color};
-    background-color: ${props => props.theme.backgroundColor};
-
-    * {
-        font-weight: 500;
-        font-size: 18px;
-        text-align: start;
-    }
-`;
-
-export const Container = styled.div`
+export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
+    width: 256px;
+    height: 100%;
+    padding-top: ${variables.generic.headerHeight};
+
+    ${({ theme }) => {
+        return css`
+            color: ${theme.color};
+            background-color: ${theme.backgroundColor};
+        `;
+    }}
+
+    * {
+        ${variables.typographys.l};
+        text-align: start;
+    }
 `;
 
 export const SCNavLink = styled(NavLink).attrs({
@@ -27,56 +28,65 @@ export const SCNavLink = styled(NavLink).attrs({
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 12px;
-    color: ${props => props.theme.color};
+    padding: ${variables.spacers.s};
     text-decoration: none;
-    background-color: ${props =>
-        props.selected && props.theme.selected.backgroundColor};
 
-    svg {
-        margin-right: 12px;
-        fill: ${props => props.selected && props.theme.selected.color};
-    }
+    ${({ theme, selected, version }) => {
+        return css`
+            color: ${theme.color};
+            background-color: ${selected && theme.backgroundColor};
 
-    &:hover {
-        color: ${props =>
-            props.version ? props.theme.selected.color : styles.color.black};
-        background-color: ${props =>
-            props.version
-                ? props.theme.selected.backgroundColor
-                : styles.color.primary};
-    }
+            svg {
+                margin-right: ${variables.spacers.s};
+                fill: ${selected && theme.selected.color};
+            }
 
-    &.active {
-        color: ${props =>
-            props.version ? props.theme.selected.color : styles.color.black};
-        background-color: ${props =>
-            props.version
-                ? props.theme.selected.backgroundColor
-                : styles.color.primary};
-    }
+            &:hover {
+                color: ${version
+                    ? theme.selected.color
+                    : variables.colors.black};
+                background-color: ${version
+                    ? theme.selected.backgroundColor
+                    : variables.colors.primary};
+            }
+
+            &.active {
+                color: ${version
+                    ? theme.selected.color
+                    : variables.colors.black};
+                background-color: ${version
+                    ? theme.selected.backgroundColor
+                    : variables.colors.primary};
+            }
+        `;
+    }}
 `;
 
 export const SCLink = styled.a`
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 12px;
-    color: ${props => props.theme.color};
+    padding: ${variables.spacers.s};
     text-decoration: none;
-    background-color: ${props => props.theme.backgroundColor};
+
+    ${({ theme }) => {
+        return css`
+            color: ${theme.color};
+            background-color: ${theme.backgroundColor};
+        `;
+    }}
 
     svg {
-        margin-right: 12px;
+        margin-right: ${variables.spacers.s};
     }
 
     &:hover {
-        color: ${styles.color.black};
+        color: ${variables.colors.black};
         background-color: #fdd835;
     }
 
     &.active {
-        color: ${styles.color.black};
+        color: ${variables.colors.black};
         background-color: #fdd835;
     }
 `;
@@ -84,15 +94,15 @@ export const SCLink = styled.a`
 export const Sections = styled.div`
     display: flex;
     flex-direction: column;
-    margin: ${props => (props.showMargin ? '12px 0' : '')};
-    border-top: ${props => (props.showBorder ? '2px solid #bdbdbd' : '')};
+    border-top: ${props => props.showBorder && '2px solid #bdbdbd'};
 `;
 
 export const SectionsHeader = styled.div`
-    padding: 6px 12px 12px 12px;
+    padding: ${variables.spacers.xs} ${variables.spacers.s}
+        ${variables.spacers.s} ${variables.spacers.s};
+
+    ${variables.typographys.mTitle};
     font-weight: 600;
-    font-size: 14px;
-    text-transform: uppercase;
     background-color: ${props => props.theme.backgroundColor};
 `;
 
@@ -100,7 +110,7 @@ export const ToggleSection = styled.div`
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    padding: 12px;
+    padding: ${variables.spacers.s};
     text-decoration: none;
     background-color: ${props => props.theme.backgroundColor};
     transition: all 250ms ease-in-out;
@@ -108,6 +118,6 @@ export const ToggleSection = styled.div`
 `;
 
 export const ToggleText = styled.div`
-    margin-left: 12px;
+    margin-left: ${variables.spacers.s};
     color: ${props => props.theme.color};
 `;

@@ -3010,6 +3010,7 @@ const yokais = [
                 name: 'Special Coin',
                 image:
                     'https://res.cloudinary.com/dcrcweea8/image/upload/v1552172137/Yokai/items/special_coin.png'
+
             },
             {
                 name: 'Tempura Coin',

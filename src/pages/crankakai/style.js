@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import variables from '../../styles/variables';
 
 export const ContainerSeal = styled.div`
     display: flex;
@@ -12,10 +13,9 @@ export const SealElements = styled.div`
     flex-direction: column;
     align-items: center;
     width: 50%;
-    padding: 12px;
+    padding: ${variables.spacers.s};
     color: ${props => props.theme.color};
-    font-weight: 600;
-    font-size: 16px;
+    ${variables.typographys.m}
 
     a {
         display: flex;
@@ -26,7 +26,7 @@ export const SealElements = styled.div`
         text-decoration: inherit;
     }
 
-    @media (min-width: 576px) {
+    @media (min-width: ${variables.breakpoints.sm}) {
         width: 25%;
     }
 `;

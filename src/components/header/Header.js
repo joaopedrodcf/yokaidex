@@ -2,7 +2,7 @@ import React from 'react';
 import { withRouter } from 'react-router';
 import Menu from 'react-feather/dist/icons/menu';
 import ArrowLeft from 'react-feather/dist/icons/arrow-left';
-import Container from './style';
+import { Wrapper } from './style';
 import { withGameVersionContext, withSidebarContext } from '../../store';
 import utils from '../utils';
 
@@ -38,12 +38,10 @@ const Header = ({ context, history }) => {
     const { handleSidebar, gameVersion } = context;
 
     return (
-        <Container>
+        <Wrapper>
             {matchDeepLocations() ? (
-                <div>
-                    <div role="presentation" onClick={goBack}>
-                        <ArrowLeft />
-                    </div>
+                <div role="presentation" onClick={goBack}>
+                    <ArrowLeft />
                 </div>
             ) : (
                 <div role="presentation" onClick={handleSidebar}>
@@ -53,7 +51,7 @@ const Header = ({ context, history }) => {
             <div>
                 <h1>{getHeaderText(gameVersion)}</h1>
             </div>
-        </Container>
+        </Wrapper>
     );
 };
 
