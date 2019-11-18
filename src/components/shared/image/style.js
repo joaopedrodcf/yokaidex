@@ -1,44 +1,29 @@
-import styled from 'styled-components';
 import LazyLoad from 'react-lazy-load';
+import styled, { css } from 'styled-components';
+
+const sizeTable = {
+    small: '35px',
+    medium: '62px',
+    large: '150px',
+    special: '25px'
+};
 
 export const SCImage = styled.img`
-    width: ${props => {
-        if (props.size === 'small') return '35px';
-        if (props.size === 'medium') return '62px';
-        if (props.size === 'large') return '150px';
-        if (props.size === 'special') return '100px';
-
-        return '35px';
-    }};
-    height: ${props => {
-        if (props.size === 'small') return '35px';
-        if (props.size === 'medium') return '62px';
-        if (props.size === 'large') return '150px';
-        if (props.size === 'special') return '25px';
-
-        return '35px';
-    }};
-    background-color: ${props => {
-        if (props.isThumbnail) return 'white';
-
-        return 'none';
-    }};
-    border-radius: ${props => {
-        if (props.isThumbnail) return '50%';
-
-        return '0%';
-    }};
+    ${({ size, isThumbnail }) => {
+        return css`
+            height: ${sizeTable[size]};
+            background-color: ${isThumbnail && 'white'};
+            border-radius: ${isThumbnail && '50%'};
+        `;
+    }}
 `;
 
 export const SCLazyLoad = styled(LazyLoad)`
     display: flex;
     align-items: center;
-    height: ${props => {
-        if (props.size === 'small') return '35px';
-        if (props.size === 'medium') return '62px';
-        if (props.size === 'large') return '150px';
-        if (props.size === 'special') return '25px';
-
-        return '35px';
-    }};
+    ${({ size }) => {
+        return css`
+            height: ${sizeTable[size]};
+        `;
+    }}
 `;

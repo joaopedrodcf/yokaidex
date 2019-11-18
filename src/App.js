@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { ThemeProvider } from 'styled-components';
 import Header from './components/header';
 import Sidebar from './components/sidebar';
 import GlobalStyle from './globalStyle';
 import Routes from './Routes';
-import { withThemeContext } from './store';
+import { ThemeContext } from './store';
 
-const App = ({ context }) => {
-    const { getTheme } = context;
+const App = () => {
+    const { getTheme } = useContext(ThemeContext);
 
     return (
         <>
@@ -22,4 +22,4 @@ const App = ({ context }) => {
     );
 };
 
-export default withThemeContext(App);
+export default App;

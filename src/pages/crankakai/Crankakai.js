@@ -1,15 +1,18 @@
 /* eslint-disable react/destructuring-assignment */
-import React from 'react';
+import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { ContainerSeal, SealElements } from './style';
 import Image from '../../components/shared/image';
-import { withGameVersionContext, withCrankakaisContext } from '../../store';
+import { CrankakaisContext, GameVersionContext } from '../../store';
 import utils from '../../components/utils';
 import Global from '../../styles';
 import withTracker from '../../components/shared/with-tracker';
 
-const Crankakai = ({ context }) => {
+const Crankakai = () => {
+    const { crankakais } = useContext(CrankakaisContext);
+    const { gameVersion } = useContext(GameVersionContext);
+
     return (
         <Global.Container>
             <Helmet>
@@ -19,12 +22,12 @@ const Crankakai = ({ context }) => {
                 </title>
             </Helmet>
             <ContainerSeal>
-                {context.crankakais.map(item => (
+                {crankakais.map(item => (
                     <SealElements key={item.index}>
                         <Link
-                            to={`/yokai-watch-${
-                                context.gameVersion
-                            }/items/${utils.uniformizeNames(item.type)}`}
+                            to={`/yokai-watch-${gameVersion}/items/${utils.uniformizeNames(
+                                item.type
+                            )}`}
                         >
                             <Image
                                 imageUrl={item.image}
@@ -41,6 +44,4 @@ const Crankakai = ({ context }) => {
     );
 };
 
-export default withGameVersionContext(
-    withCrankakaisContext(withTracker(Crankakai))
-);
+export default withTracker(Crankakai);

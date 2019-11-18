@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import ReactSidebar from 'react-sidebar';
 import SCSidebar from './Sidebar';
-import { withSidebarContext } from '../../store';
+import { SidebarContext } from '../../store';
 
 const styles = {
     sidebar: { background: 'white', position: 'fixed' },
@@ -15,14 +15,15 @@ const styles = {
 
 const sidebar = <SCSidebar />;
 
-const Sidebar = ({ context, children }) => {
-    const { isSidebarOpen, handleSidebar } = context;
+// TODO: Can't be memo cause it receives children
+const Sidebar = ({ children }) => {
+    const { isSidebarOpen, handleSidebarOpen } = useContext(SidebarContext);
 
     return (
         <ReactSidebar
             sidebar={sidebar}
             open={isSidebarOpen}
-            onSetOpen={handleSidebar}
+            onSetOpen={handleSidebarOpen}
             styles={styles}
         >
             {children}
@@ -30,4 +31,4 @@ const Sidebar = ({ context, children }) => {
     );
 };
 
-export default withSidebarContext(Sidebar);
+export default Sidebar;

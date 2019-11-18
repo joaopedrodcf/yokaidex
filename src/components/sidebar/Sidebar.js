@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-
+/* eslint-disable react/destructuring-assignment */
+import React, { useContext } from 'react';
 import Book from 'react-feather/dist/icons/book';
 import List from 'react-feather/dist/icons/list';
 import Twitter from 'react-feather/dist/icons/twitter';
@@ -9,8 +9,7 @@ import Briefcase from 'react-feather/dist/icons/briefcase';
 import Circle from 'react-feather/dist/icons/circle';
 import Mail from 'react-feather/dist/icons/mail';
 import {
-    Container,
-    SCSidebar,
+    Wrapper,
     SCNavLink,
     SCLink,
     Sections,
@@ -20,138 +19,105 @@ import {
 } from './style';
 import ToggleSwitch from '../shared/toggle-switch/ToggleSwitch';
 import {
-    withGameVersionContext,
-    withSidebarContext,
-    withYokaisContext,
-    withBaffleBoardContext,
-    withItemsContext,
-    withCrankakaisContext,
-    withThemeContext
+    GameVersionContext,
+    YokaisContext,
+    BaffleBoardContext,
+    ItemsContext,
+    CrankakaisContext,
+    ThemeContext
 } from '../../store';
 
-class Sidebar extends Component {
-    constructor(props) {
-        super(props);
+const Sidebar = () => {
+    const { changeCrankakais } = useContext(CrankakaisContext);
+    const { gameVersion, changeGameVersion } = useContext(GameVersionContext);
+    const { changeBaffleBoard } = useContext(BaffleBoardContext);
+    const { toggleTheme, isDarkTheme } = useContext(ThemeContext);
+    const { changeItems } = useContext(ItemsContext);
+    const { changeYokais } = useContext(YokaisContext);
 
-        this.handleChangeGameVersion = this.handleChangeGameVersion.bind(this);
-        this.checkIfSelected = this.checkIfSelected.bind(this);
-    }
-
-    handleChangeGameVersion(event) {
+    const handleChangeGameVersion = event => {
         const version = event.currentTarget.getAttribute('version');
-        const { context } = this.props;
 
-        context.changeGameVersion(version);
-        context.setYokais(version);
-        context.setBaffleBoard(version);
-        context.setItems(version);
-        context.setCrankakais(version);
-    }
+        changeGameVersion(version);
+        changeYokais(version);
+        changeBaffleBoard(version);
+        changeItems(version);
+        changeCrankakais(version);
+    };
 
-    checkIfSelected(version) {
-        const { context } = this.props;
+    const checkIfSelected = version => {
+        return gameVersion === version;
+    };
 
-        return context.gameVersion === version;
-    }
+    return (
+        <Wrapper>
+            <Sections>
+                <SectionsHeader>Pages</SectionsHeader>
+                <SCNavLink to={`/yokai-watch-${gameVersion}`} exact>
+                    <Book /> Medallium
+                </SCNavLink>
 
-    render() {
-        const { context } = this.props;
+                {gameVersion !== '1' && (
+                    <SCNavLink to={`/yokai-watch-${gameVersion}/baffle-board`}>
+                        <List /> Baffle board
+                    </SCNavLink>
+                )}
 
-        return (
-            <SCSidebar>
-                <Container>
-                    <Sections>
-                        <SectionsHeader>Pages</SectionsHeader>
-                        <SCNavLink
-                            to={`/yokai-watch-${context.gameVersion}`}
-                            exact
-                        >
-                            <Book /> Medallium
-                        </SCNavLink>
+                <SCNavLink to={`/yokai-watch-${gameVersion}/items`}>
+                    <Briefcase /> Items
+                </SCNavLink>
+                <SCNavLink to={`/yokai-watch-${gameVersion}/crank-a-kai`}>
+                    <Circle /> Crank-a-kai
+                </SCNavLink>
+                <SCLink href="https://twitter.com/yokaidex">
+                    <Twitter /> Follow us
+                </SCLink>
+                <SCNavLink to={`/yokai-watch-${gameVersion}/contact-us`}>
+                    <Mail /> Contact us
+                </SCNavLink>
+                <SCNavLink to={`/yokai-watch-${gameVersion}/about-us`}>
+                    <Info /> About us
+                </SCNavLink>
+            </Sections>
+            <Sections showBorder>
+                <SectionsHeader>Game Version</SectionsHeader>
+                <SCNavLink
+                    to="/yokai-watch-1"
+                    version="1"
+                    selected={checkIfSelected('1')}
+                    onClick={handleChangeGameVersion}
+                >
+                    <Bookmark /> Yo-kai watch 1
+                </SCNavLink>
+                <SCNavLink
+                    to="/yokai-watch-2"
+                    version="2"
+                    selected={checkIfSelected('2')}
+                    onClick={handleChangeGameVersion}
+                >
+                    <Bookmark /> Yo-kai watch 2
+                </SCNavLink>
+                <SCNavLink
+                    to="/yokai-watch-3"
+                    selected={checkIfSelected('3')}
+                    version="3"
+                    onClick={handleChangeGameVersion}
+                >
+                    <Bookmark /> Yo-kai watch 3
+                </SCNavLink>
+            </Sections>
+            <Sections showBorder>
+                <SectionsHeader>Theme</SectionsHeader>
+                <ToggleSection>
+                    <ToggleSwitch
+                        onChange={toggleTheme}
+                        checked={isDarkTheme}
+                    />
+                    <ToggleText>Dark Theme</ToggleText>
+                </ToggleSection>
+            </Sections>
+        </Wrapper>
+    );
+};
 
-                        {context.gameVersion !== '1' && (
-                            <SCNavLink
-                                to={`/yokai-watch-${context.gameVersion}/baffle-board`}
-                            >
-                                <List /> Baffle board
-                            </SCNavLink>
-                        )}
-
-                        <SCNavLink
-                            to={`/yokai-watch-${context.gameVersion}/items`}
-                        >
-                            <Briefcase /> Items
-                        </SCNavLink>
-                        <SCNavLink
-                            to={`/yokai-watch-${context.gameVersion}/crank-a-kai`}
-                        >
-                            <Circle /> Crank-a-kai
-                        </SCNavLink>
-                        <SCLink href="https://twitter.com/yokaidex">
-                            <Twitter /> Follow us
-                        </SCLink>
-                        <SCNavLink
-                            to={`/yokai-watch-${context.gameVersion}/contact-us`}
-                        >
-                            <Mail /> Contact us
-                        </SCNavLink>
-                        <SCNavLink
-                            to={`/yokai-watch-${context.gameVersion}/about-us`}
-                        >
-                            <Info /> About us
-                        </SCNavLink>
-                    </Sections>
-                    <Sections showBorder>
-                        <SectionsHeader>Game Version</SectionsHeader>
-                        <SCNavLink
-                            to="/yokai-watch-1"
-                            version="1"
-                            selected={this.checkIfSelected('1')}
-                            onClick={this.handleChangeGameVersion}
-                        >
-                            <Bookmark /> Yo-kai watch 1
-                        </SCNavLink>
-                        <SCNavLink
-                            to="/yokai-watch-2"
-                            version="2"
-                            selected={this.checkIfSelected('2')}
-                            onClick={this.handleChangeGameVersion}
-                        >
-                            <Bookmark /> Yo-kai watch 2
-                        </SCNavLink>
-                        <SCNavLink
-                            to="/yokai-watch-3"
-                            selected={this.checkIfSelected('3')}
-                            version="3"
-                            onClick={this.handleChangeGameVersion}
-                        >
-                            <Bookmark /> Yo-kai watch 3
-                        </SCNavLink>
-                    </Sections>
-                    <Sections showBorder>
-                        <SectionsHeader>Theme</SectionsHeader>
-                        <ToggleSection>
-                            <ToggleSwitch
-                                onChange={context.toggleTheme}
-                                checked={context.isDarkTheme}
-                            />
-                            <ToggleText>Dark Theme</ToggleText>
-                        </ToggleSection>
-                    </Sections>
-                </Container>
-            </SCSidebar>
-        );
-    }
-}
-
-export default withThemeContext(
-    withGameVersionContext(
-        withSidebarContext(
-            withYokaisContext(
-                withBaffleBoardContext(
-                    withItemsContext(withCrankakaisContext(Sidebar))
-                )
-            )
-        )
-    )
-);
+export default Sidebar;

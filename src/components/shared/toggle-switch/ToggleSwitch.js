@@ -1,11 +1,11 @@
 import React from 'react';
 import Switch from 'react-switch';
-import styles from '../../../styles';
+import variables from '../../../styles/variables';
 
-export default function ToggleSwitch({ onChange, checked }) {
+const ToggleSwitch = ({ onChange, checked }) => {
     return (
         <Switch
-            onColor={styles.color.primary}
+            onColor={variables.colors.primary}
             onChange={onChange}
             checked={checked}
             checkedIcon={false}
@@ -14,4 +14,6 @@ export default function ToggleSwitch({ onChange, checked }) {
             aria-label="Toogle the background color"
         />
     );
-}
+};
+
+export default React.memo(ToggleSwitch);

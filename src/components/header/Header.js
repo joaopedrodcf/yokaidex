@@ -1,17 +1,22 @@
-import React from 'react';
-import { withRouter } from 'react-router';
+import React, { useContext } from 'react';
+import { useHistory } from 'react-router';
 import Menu from 'react-feather/dist/icons/menu';
 import ArrowLeft from 'react-feather/dist/icons/arrow-left';
-import Container from './style';
-import { withGameVersionContext, withSidebarContext } from '../../store';
+import { Wrapper } from './style';
+import { GameVersionContext, SidebarContext } from '../../store';
 import utils from '../utils';
 
-const Header = ({ context, history }) => {
+// TODO: Can't be memo cause of useHistory
+const Header = () => {
+    const { handleSidebarOpen } = useContext(SidebarContext);
+    const { gameVersion } = useContext(GameVersionContext);
+    const history = useHistory();
+
     function goBack() {
         if (history.length > 2) {
             history.goBack();
         } else {
-            history.push(`/yokai-watch-${context.gameVersion}`);
+            history.push(`/yokai-watch-${gameVersion}`);
         }
     }
 
@@ -35,32 +40,22 @@ const Header = ({ context, history }) => {
         return 'Yokaidex';
     };
 
-    const { handleSidebar, gameVersion } = context;
-
     return (
-        <Container>
+        <Wrapper>
             {matchDeepLocations() ? (
-                <div>
-                    <div role="presentation" onClick={goBack}>
-                        <ArrowLeft />
-                    </div>
+                <div role="presentation" onClick={goBack}>
+                    <ArrowLeft />
                 </div>
             ) : (
-                <div role="presentation" onClick={handleSidebar}>
+                <div role="presentation" onClick={handleSidebarOpen}>
                     <Menu />
                 </div>
             )}
             <div>
                 <h1>{getHeaderText(gameVersion)}</h1>
             </div>
-        </Container>
+        </Wrapper>
     );
 };
 
-function areEqual(prevProps, nextProps) {
-    return prevProps.location.pathname === nextProps.location.pathname;
-}
-
-export default withRouter(
-    withGameVersionContext(withSidebarContext(React.memo(Header, areEqual)))
-);
+export default Header;

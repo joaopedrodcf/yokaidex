@@ -1,12 +1,11 @@
 /* eslint-disable react/destructuring-assignment */
-import React, { Component } from 'react';
-
-import memoize from 'fast-memoize';
-import genericWrapperComponent from './genericWrapperComponent';
+import React, { useState, useReducer } from 'react';
 import yokaisGame1 from '../mocks/yokai-watch-1/yokais';
 import yokaisGame2 from '../mocks/yokai-watch-2/yokais';
 import yokaisGame3 from '../mocks/yokai-watch-3/yokais';
 import utils from '../components/utils';
+
+export const YokaisContext = React.createContext();
 
 const filterYokais = (yokais, filterName, filterFilters) => {
     return yokais.filter(yokai => {
@@ -118,226 +117,146 @@ const filterYokais = (yokais, filterName, filterFilters) => {
     });
 };
 
-// eslint-disable-next-line func-names
-const getState = function(
-    yokais,
-    setYokais,
-    getYokai,
-    tribe,
-    rank,
-    element,
-    misc,
-    types,
-    name,
-    handleResetFilter,
-    handleCheckbox,
-    handleText
-) {
+const getYokais = gameVersion => {
+    switch (gameVersion) {
+        case '1':
+            return yokaisGame1;
+        case '2':
+            return yokaisGame2;
+        default:
+            return yokaisGame3;
+    }
+};
+
+const initialStateCheckboxes = {
+    tribe: [],
+    rank: [],
+    element: [],
+    misc: [],
+    types: []
+};
+
+const reducerCheckboxes = (state, { name, value }) => {
     return {
-        yokais,
-        setYokais,
-        getYokai,
-        tribe,
-        rank,
-        element,
-        misc,
-        types,
-        name,
-        handleResetFilter,
-        handleCheckbox,
-        handleText
+        ...state,
+        [name]: value
     };
 };
 
-const memoizedGetState = memoize(getState);
+const YokaisProvider = ({ children }) => {
+    const [yokais, setYokais] = useState(getYokais(utils.getGameVersion()));
+    const [initialYokais, setInitialYokais] = useState(
+        getYokais(utils.getGameVersion())
+    );
+    const [name, setName] = useState('');
 
-export const YokaisContext = React.createContext();
+    const [checkboxes, dispatchCheckboxes] = useReducer(
+        reducerCheckboxes,
+        initialStateCheckboxes
+    );
 
-export function withYokaisContext(Element) {
-    return genericWrapperComponent('withYokaisContext', YokaisContext, Element);
-}
+    const { tribe, rank, element, misc, types } = checkboxes;
 
-class YokaisProvider extends Component {
-    constructor(props) {
-        super(props);
+    const changeYokais = gameVersion => {
+        setYokais(getYokais(gameVersion));
+        setInitialYokais(getYokais(gameVersion));
+    };
 
-        this.setYokais = gameVersion => {
-            this.setState({
-                yokais: this.getYokais(gameVersion),
-                initialYokais: this.getYokais(gameVersion)
-            });
-        };
-
-        this.getYokais = gameVersion => {
-            switch (gameVersion) {
-                case '1':
-                    return yokaisGame1;
-                case '2':
-                    return yokaisGame2;
-                default:
-                    return yokaisGame3;
-            }
-        };
-
-        this.getYokai = name => {
-            const { initialYokais } = this.state;
-
-            if (name.includes('_boss')) {
-                return initialYokais.find(
-                    yokai =>
-                        yokai.tribe.toLowerCase() === 'boss' &&
-                        utils.uniformizeNames(yokai.name, 'boss') ===
-                            utils.uniformizeNames(name)
-                );
-            }
-
+    const getYokai = yokaiName => {
+        if (yokaiName.includes('_boss')) {
             return initialYokais.find(
                 yokai =>
-                    utils.uniformizeNames(yokai.name) ===
-                    utils.uniformizeNames(name)
+                    yokai.tribe.toLowerCase() === 'boss' &&
+                    utils.uniformizeNames(yokai.name, 'boss') ===
+                        utils.uniformizeNames(name)
             );
-        };
+        }
 
-        this.handleResetFilter = () => {
-            const { initialYokais } = this.state;
-            this.setState({
-                name: '',
-                tribe: [],
-                rank: [],
-                element: [],
-                misc: [],
-                types: [],
-                yokais: initialYokais
-            });
-        };
+        return initialYokais.find(
+            yokai =>
+                utils.uniformizeNames(yokai.name) ===
+                utils.uniformizeNames(yokaiName)
+        );
+    };
 
-        this.handleCheckbox = event => {
-            const { checked } = event.target;
-            const checkboxtype = event.target.getAttribute(
-                'data-checkbox-type'
+    const handleResetFilter = () => {
+        setName('');
+
+        dispatchCheckboxes({ name: 'tribe', value: [] });
+        dispatchCheckboxes({ name: 'rank', value: [] });
+        dispatchCheckboxes({ name: 'element', value: [] });
+        dispatchCheckboxes({ name: 'misc', value: [] });
+        dispatchCheckboxes({ name: 'types', value: [] });
+        setYokais(initialYokais);
+    };
+
+    const handleCheckbox = event => {
+        const { checked } = event.target;
+        const checkboxtype = event.target.getAttribute('data-checkbox-type');
+        const nameLowerCase = event.target.name.toLowerCase();
+
+        let newCheckboxType;
+
+        if (checked) {
+            newCheckboxType = [...checkboxes[checkboxtype], nameLowerCase];
+        } else {
+            newCheckboxType = checkboxes[checkboxtype].filter(
+                x => x !== nameLowerCase
             );
-            const nameLowerCase = event.target.name.toLowerCase();
-            const {
-                initialYokais,
-                name,
-                tribe,
-                rank,
-                element,
-                misc,
-                types
-            } = this.state;
+        }
 
-            let newCheckboxType;
-
-            if (checked) {
-                newCheckboxType = [...this.state[checkboxtype], nameLowerCase];
-            } else {
-                newCheckboxType = this.state[checkboxtype].filter(
-                    x => x !== nameLowerCase
-                );
-            }
-
-            const filters = {
-                tribe,
-                rank,
-                element,
-                misc,
-                types,
-                [checkboxtype]: newCheckboxType
-            };
-
-            const filteredYokais = filterYokais(initialYokais, name, filters);
-
-            this.setState({
-                [checkboxtype]: newCheckboxType,
-                yokais: filteredYokais
-            });
-        };
-
-        this.handleText = event => {
-            const {
-                initialYokais,
-                tribe,
-                rank,
-                element,
-                misc,
-                types
-            } = this.state;
-            const newName = event.target.value.toLowerCase();
-
-            const filters = {
-                tribe,
-                rank,
-                element,
-                misc,
-                types
-            };
-
-            const filteredYokais = filterYokais(
-                initialYokais,
-                newName,
-                filters
-            );
-
-            this.setState({ name: newName, yokais: filteredYokais });
-        };
-
-        this.state = {
-            // this needs to be based on the state of gameVersion
-            yokais: this.getYokais(utils.getGameVersion()),
-            initialYokais: this.getYokais(utils.getGameVersion()),
-            setYokais: this.setYokais,
-            getYokai: this.getYokai,
-            name: '',
-            tribe: [],
-            rank: [],
-            element: [],
-            misc: [],
-            types: [],
-            handleResetFilter: this.handleResetFilter,
-            handleCheckbox: this.handleCheckbox,
-            handleText: this.handleText
-        };
-    }
-
-    render() {
-        const { children } = this.props;
-        const {
-            yokais,
-            setYokais,
-            getYokai,
+        const filters = {
             tribe,
             rank,
             element,
             misc,
             types,
-            name,
-            handleResetFilter,
-            handleCheckbox,
-            handleText
-        } = this.state;
+            [checkboxtype]: newCheckboxType
+        };
 
-        return (
-            <YokaisContext.Provider
-                value={memoizedGetState(
-                    yokais,
-                    setYokais,
-                    getYokai,
-                    tribe,
-                    rank,
-                    element,
-                    misc,
-                    types,
-                    name,
-                    handleResetFilter,
-                    handleCheckbox,
-                    handleText
-                )}
-            >
-                {children}
-            </YokaisContext.Provider>
-        );
-    }
-}
+        const filteredYokais = filterYokais(initialYokais, name, filters);
+
+        dispatchCheckboxes({ name: checkboxtype, value: newCheckboxType });
+        setYokais(filteredYokais);
+    };
+
+    const handleText = event => {
+        const newName = event.target.value.toLowerCase();
+
+        const filters = {
+            tribe,
+            rank,
+            element,
+            misc,
+            types
+        };
+
+        const filteredYokais = filterYokais(initialYokais, newName, filters);
+
+        setName(newName);
+        setYokais(filteredYokais);
+    };
+
+    return (
+        <YokaisContext.Provider
+            value={{
+                yokais,
+                changeYokais,
+                getYokai,
+                tribe,
+                rank,
+                element,
+                misc,
+                types,
+                name,
+                handleResetFilter,
+                handleCheckbox,
+                handleText
+            }}
+        >
+            {children}
+        </YokaisContext.Provider>
+    );
+};
 
 export default YokaisProvider;

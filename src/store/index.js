@@ -1,19 +1,19 @@
 import ContextProvider from './store';
-import { withGameVersionContext } from './gameVersion';
-import { withYokaisContext } from './yokais';
-import { withBaffleBoardContext } from './baffleBoard';
-import { withItemsContext } from './items';
-import { withSidebarContext } from './sidebar';
-import { withCrankakaisContext } from './crankakai';
-import { withThemeContext } from './theme';
+import { GameVersionContext } from './gameVersion';
+import { BaffleBoardContext } from './baffleBoard';
+import { CrankakaisContext } from './crankakai';
+import { ThemeContext } from './theme';
+import { SidebarContext } from './sidebar';
+import { ItemsContext } from './items';
+import { YokaisContext } from './yokais';
 
 export {
     ContextProvider,
-    withGameVersionContext,
-    withYokaisContext,
-    withBaffleBoardContext,
-    withItemsContext,
-    withSidebarContext,
-    withCrankakaisContext,
-    withThemeContext
+    SidebarContext,
+    CrankakaisContext,
+    GameVersionContext,
+    YokaisContext,
+    BaffleBoardContext,
+    ItemsContext,
+    ThemeContext
 };

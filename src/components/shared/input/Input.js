@@ -1,6 +1,6 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import React from 'react';
-import { SCInput, Container } from './style';
+import { SCInput, Wrapper } from './style';
 
 const Input = ({
     id,
@@ -12,7 +12,7 @@ const Input = ({
     isFullWidth,
     ...rest
 }) => (
-    <Container isFullWidth={isFullWidth}>
+    <Wrapper isFullWidth={isFullWidth}>
         <SCInput
             type="text"
             placeholder={placeholder}
@@ -23,7 +23,7 @@ const Input = ({
             {...rest}
         />
         {children}
-    </Container>
+    </Wrapper>
 );
 
 export default React.memo(Input);

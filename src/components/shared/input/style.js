@@ -1,15 +1,16 @@
 import styled from 'styled-components';
-import Styles from '../../../styles';
+import variables from '../../../styles/variables';
 
-export const Container = styled.div`
+export const Wrapper = styled.div`
     position: relative;
     width: ${props => props.isFullWidth && '100%'};
-    margin: 0 0 12px 0;
+    margin-bottom: ${variables.spacers.s};
 
     svg {
         position: absolute;
-        top: 10px;
-        left: 6px;
+        top: ${variables.spacers.s};
+        left: ${variables.spacers.xs};
+        color: ${props => props.theme.backgroundColor};
     }
 `;
 
@@ -17,15 +18,13 @@ export const SCInput = styled.input`
     width: 100%;
     padding: ${props =>
         props.customPadding ? props.customPadding : '12px 32px'};
-    color: ${Styles.color.black};
-    font-size: 14px;
-    border: 0.1rem solid ${Styles.color.black};
-    border-radius: 4px;
+    color: ${variables.colors.black};
+    border: ${variables.spacers.xxxs} solid ${variables.colors.black};
+    border-radius: ${variables.spacers.xxs};
     outline: none;
+    ${variables.typographys.mBold};
 
     :focus {
-        border: 0.1rem solid #fdd835;
+        border: ${variables.spacers.xxxs} solid #fdd835;
     }
 `;
-
-export default SCInput;

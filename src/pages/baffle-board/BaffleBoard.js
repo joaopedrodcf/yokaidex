@@ -1,16 +1,20 @@
 /* eslint-disable react/destructuring-assignment */
-import React from 'react';
-import { withRouter } from 'react-router';
+import React, { useContext } from 'react';
+import { useHistory } from 'react-router';
 import { Helmet } from 'react-helmet';
 import { Table, Row } from './style';
 import Image from '../../components/shared/image';
 import utils from '../../components/utils';
-import { withGameVersionContext, withBaffleBoardContext } from '../../store';
+import { GameVersionContext, BaffleBoardContext } from '../../store';
 import Global from '../../styles';
 import withTracker from '../../components/shared/with-tracker';
 
-const BaffleBoard = ({ context, history }) => {
-    const goTo = (name, gameVersion) => {
+const BaffleBoard = () => {
+    const { gameVersion } = useContext(GameVersionContext);
+    const { baffleBoard } = useContext(BaffleBoardContext);
+    const history = useHistory();
+
+    const goTo = name => {
         history.push(
             `/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(name)}`
         );
@@ -25,7 +29,7 @@ const BaffleBoard = ({ context, history }) => {
                 </title>
                 <meta
                     name="description"
-                    content={`Baffle board is quiz that unlocks special features in Yo-kai Watch ${context.gameVersion}`}
+                    content={`Baffle board is quiz that unlocks special features in Yo-kai Watch ${gameVersion}`}
                 />
             </Helmet>
             <Table>
@@ -37,13 +41,8 @@ const BaffleBoard = ({ context, history }) => {
                     </tr>
                 </thead>
                 <tbody>
-                    {context.baffleBoard.map(row => (
-                        <tr
-                            key={row.index}
-                            onClick={() =>
-                                goTo(row.solution, context.gameVersion)
-                            }
-                        >
+                    {baffleBoard.map(row => (
+                        <tr key={row.index} onClick={() => goTo(row.solution)}>
                             <td>{row.location}</td>
                             <td>{row.effect}</td>
                             <td>
@@ -64,6 +63,4 @@ const BaffleBoard = ({ context, history }) => {
     );
 };
 
-export default withRouter(
-    withGameVersionContext(withBaffleBoardContext(withTracker(BaffleBoard)))
-);
+export default withTracker(BaffleBoard);

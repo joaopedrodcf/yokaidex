@@ -1,14 +1,13 @@
-import React, { Component } from 'react';
-import memoize from 'fast-memoize';
-import genericWrapperComponent from './genericWrapperComponent';
+import React, { useState } from 'react';
 import items1 from '../mocks/yokai-watch-1/items';
 import items2 from '../mocks/yokai-watch-2/items';
 import items3 from '../mocks/yokai-watch-3/items';
-
 import equipments1 from '../mocks/yokai-watch-1/equipments';
 import equipments2 from '../mocks/yokai-watch-2/equipments';
 import equipments3 from '../mocks/yokai-watch-3/equipments';
 import utils from '../components/utils';
+
+export const ItemsContext = React.createContext();
 
 const filterItems = (items, filterName, selectedFilterItems) => {
     return items.filter(item => {
@@ -35,150 +34,89 @@ const filterItems = (items, filterName, selectedFilterItems) => {
     });
 };
 
-// eslint-disable-next-line func-names
-const getState = function(
-    items,
-    setItems,
-    getItem,
-    name,
-    selectedFilterItems,
-    handleText,
-    handleCheckbox
-) {
-    return {
-        items,
-        setItems,
-        getItem,
-        name,
-        selectedFilterItems,
-        handleText,
-        handleCheckbox
-    };
+const getItems = gameVersion => {
+    switch (gameVersion) {
+        case '1':
+            return [...items1, ...equipments1];
+        case '2':
+            return [...items2, ...equipments2];
+        default:
+            return [...items3, ...equipments3];
+    }
 };
 
-const memoizedGetState = memoize(getState);
+const ItemsProvider = ({ children }) => {
+    const [items, setItems] = useState(getItems(utils.getGameVersion()));
+    const [initialItems, setInitialItems] = useState(
+        getItems(utils.getGameVersion())
+    );
+    const [name, setName] = useState('');
+    const [selectedFilterItems, setSelectedFilterItems] = useState([]);
 
-export const ItemsContext = React.createContext();
+    const changeItems = gameVersion => {
+        setItems(getItems(gameVersion));
+        setInitialItems(getItems(gameVersion));
+    };
 
-export function withItemsContext(Element) {
-    return genericWrapperComponent('withItemsContext', ItemsContext, Element);
-}
-
-class ItemsProvider extends Component {
-    constructor(props) {
-        super(props);
-
-        this.setItems = gameVersion => {
-            this.setState({
-                items: this.getItems(gameVersion),
-                initialItems: this.getItems(gameVersion)
-            });
-        };
-
-        this.getItems = gameVersion => {
-            switch (gameVersion) {
-                case '1':
-                    return [...items1, ...equipments1];
-                case '2':
-                    return [...items2, ...equipments2];
-                default:
-                    return [...items3, ...equipments3];
-            }
-        };
-
-        this.getItem = name => {
-            const { initialItems } = this.state;
-
-            return initialItems.find(
-                item =>
-                    utils.uniformizeNames(item.name) ===
-                    utils.uniformizeNames(name)
-            );
-        };
-
-        this.handleText = event => {
-            const { selectedFilterItems, initialItems } = this.state;
-            const newName = event.target.value.toLowerCase();
-
-            const filteredItems = filterItems(
-                initialItems,
-                newName,
-                selectedFilterItems
-            );
-
-            this.setState({ name: newName, items: filteredItems });
-        };
-
-        this.handleCheckbox = event => {
-            const { checked } = event.target;
-            const nameLowerCase = event.target.name.toLowerCase();
-            const { selectedFilterItems, initialItems, name } = this.state;
-
-            let newSelectedFilterItems;
-            if (checked) {
-                newSelectedFilterItems = [
-                    ...selectedFilterItems,
-                    nameLowerCase
-                ];
-            } else {
-                newSelectedFilterItems = selectedFilterItems.filter(
-                    element => element !== nameLowerCase
-                );
-            }
-
-            const filteredItems = filterItems(
-                initialItems,
-                name,
-                newSelectedFilterItems
-            );
-
-            this.setState({
-                selectedFilterItems: newSelectedFilterItems,
-                items: filteredItems
-            });
-        };
-
-        this.state = {
-            // this needs to be based on the state of gameVersion
-            items: this.getItems(utils.getGameVersion()),
-            initialItems: this.getItems(utils.getGameVersion()),
-            setItems: this.setItems,
-            getItem: this.getItem,
-            name: '',
-            selectedFilterItems: [],
-            handleText: this.handleText,
-            handleCheckbox: this.handleCheckbox
-        };
-    }
-
-    render() {
-        const { children } = this.props;
-        const {
-            items,
-            setItems,
-            getItem,
-            name,
-            selectedFilterItems,
-            handleText,
-            handleCheckbox
-        } = this.state;
-
-        return (
-            <ItemsContext.Provider
-                value={memoizedGetState(
-                    items,
-                    setItems,
-                    getItem,
-                    name,
-                    selectedFilterItems,
-                    handleText,
-                    handleCheckbox
-                )}
-            >
-                {children}
-            </ItemsContext.Provider>
+    const getItem = itemName => {
+        return initialItems.find(
+            item =>
+                utils.uniformizeNames(item.name) ===
+                utils.uniformizeNames(itemName)
         );
-    }
-}
+    };
+
+    const handleText = event => {
+        const newName = event.target.value.toLowerCase();
+
+        const filteredItems = filterItems(
+            initialItems,
+            newName,
+            selectedFilterItems
+        );
+
+        setName(newName);
+        setItems(filteredItems);
+    };
+
+    const handleCheckbox = event => {
+        const { checked } = event.target;
+        const nameLowerCase = event.target.name.toLowerCase();
+
+        let newSelectedFilterItems;
+        if (checked) {
+            newSelectedFilterItems = [...selectedFilterItems, nameLowerCase];
+        } else {
+            newSelectedFilterItems = selectedFilterItems.filter(
+                element => element !== nameLowerCase
+            );
+        }
+
+        const filteredItems = filterItems(
+            initialItems,
+            name,
+            newSelectedFilterItems
+        );
+
+        setSelectedFilterItems(newSelectedFilterItems);
+        setItems(filteredItems);
+    };
+
+    return (
+        <ItemsContext.Provider
+            value={{
+                items,
+                changeItems,
+                getItem,
+                name,
+                selectedFilterItems,
+                handleText,
+                handleCheckbox
+            }}
+        >
+            {children}
+        </ItemsContext.Provider>
+    );
+};
 
 export default ItemsProvider;

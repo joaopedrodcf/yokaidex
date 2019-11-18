@@ -1,20 +1,20 @@
 import styled from 'styled-components';
-import Styles from '../../../styles';
+import variables from '../../../styles/variables';
 
-export const CheckboxContainer = styled.div`
+export const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     align-items: center;
 
     span {
-        margin-left: 12px;
+        margin-left: ${variables.spacers.s};
     }
 `;
 
 export const Icon = styled.svg`
     fill: none;
-    stroke: ${Styles.color.white};
-    stroke-width: 2px;
+    stroke: ${variables.colors.white};
+    stroke-width: ${variables.spacers.xxs};
 `;
 
 // Be aware that the custom attributes only work like this
@@ -37,7 +37,7 @@ export const HiddenCheckbox = styled.input.attrs(props => ({
     clip-path: inset(50%);
 `;
 
-export const StyledCheckbox = styled.div`
+export const SCCheckbox = styled.div`
     display: inline-block;
     width: 16px;
     height: 16px;
