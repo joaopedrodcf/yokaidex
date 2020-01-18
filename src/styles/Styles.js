@@ -16,10 +16,6 @@ const Container = styled.div`
     }
 
     @media (min-width: ${variables.breakpoints.lg}) {
-        padding: ${variables.spacers.s} 250px;
-    }
-
-    @media (min-width: ${variables.breakpoints.lg}) {
         padding: ${variables.spacers.s} 400px;
     }
 `;

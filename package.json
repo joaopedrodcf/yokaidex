@@ -1,6 +1,6 @@
 {
     "name": "yokaidex",
-    "version": "0.1.5",
+    "version": "0.2.0",
     "description": "Contains all yo-kais from the 3 main games, their locations, stats, favorite foods, skills. You can see also the baffle board solutions.",
     "license": "MIT",
     "homepage": "https://yokaidex.com",
@@ -18,7 +18,7 @@
         "lint": "eslint ./src"
     },
     "dependencies": {
-        "axios": "^0.19.0",
+        "axios": "^0.19.1",
         "fast-memoize": "^2.5.1",
         "history": "^4.10.1",
         "react": "^16.12.0",
@@ -29,22 +29,22 @@
         "react-lazy-load": "^3.0.13",
         "react-router": "^5.1.2",
         "react-router-dom": "^5.1.2",
-        "react-scripts": "3.2.0",
+        "react-scripts": "3.3.0",
         "react-sidebar": "^3.0.2",
         "react-switch": "^5.0.1",
         "react-virtualized": "^9.21.2",
-        "styled-components": "^5.0.0-rc.2"
+        "styled-components": "^5.0.0"
     },
     "devDependencies": {
         "clear-render": "^1.0.5",
-        "eslint": "^6.6.0",
-        "eslint-config-joaopedrodcf": "^1.3.2",
-        "husky": "^3.0.9",
-        "lint-staged": "^9.4.3",
+        "eslint": "^6.8.0",
+        "eslint-config-joaopedrodcf": "^1.3.3",
+        "husky": "^4.0.10",
+        "lint-staged": "^9.5.0",
         "prettier": "^1.19.1",
-        "prettier-config-joaopedrodcf": "^1.0.9",
-        "stylelint": "^12.0.0",
-        "stylelint-config-joaopedrodcf": "^0.0.2"
+        "prettier-config-joaopedrodcf": "^1.0.11",
+        "stylelint": "^13.0.0",
+        "stylelint-config-joaopedrodcf": "^0.0.4"
     },
     "browserslist": [
         ">0.2%",

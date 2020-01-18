@@ -21,10 +21,6 @@ export const SCSideInformation = styled.div`
     }
 
     @media (min-width: ${variables.breakpoints.lg}) {
-        padding: ${variables.spacers.s} 250px;
-    }
-
-    @media (min-width: ${variables.breakpoints.xl}) {
-        padding: ${variables.spacers.s} 500px;
+        padding: ${variables.spacers.s} 400px;
     }
 `;
