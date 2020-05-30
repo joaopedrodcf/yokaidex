@@ -6,13 +6,13 @@ import utils from '../../../components/utils';
 import maxStats from '../../../mocks/max-stats';
 
 // eslint-disable-next-line func-names
-const getStyle = function(stat, value) {
+const getStyle = function (stat, value) {
     return {
         width: utils.calculatePercentage(
             value,
-            maxStats.find(aux => aux.name === stat).max
+            maxStats.find((aux) => aux.name === stat).max
         ),
-        backgroundColor: maxStats.find(aux => aux.name === stat).color
+        backgroundColor: maxStats.find((aux) => aux.name === stat).color,
     };
 };
 

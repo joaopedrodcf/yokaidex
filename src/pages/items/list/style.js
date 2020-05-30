@@ -3,9 +3,9 @@ import variables from '../../../styles/variables';
 
 export const Section = styled.div`
     display: flex;
-    flex-direction: ${props => (props.isRow ? 'row' : 'column')};
+    flex-direction: ${(props) => (props.isRow ? 'row' : 'column')};
     align-items: flex-start;
-    justify-content: ${props =>
+    justify-content: ${(props) =>
         props.justifyContent ? props.justifyContent : 'column'};
     width: 100%;
     margin-bottom: ${variables.spacers.s};

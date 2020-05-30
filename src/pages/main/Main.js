@@ -21,10 +21,10 @@ const Main = () => {
         name,
         handleResetFilter,
         handleCheckbox,
-        handleText
+        handleText,
     } = useContext(YokaisContext);
 
-    const handleSubmit = event => {
+    const handleSubmit = (event) => {
         event.preventDefault();
     };
 

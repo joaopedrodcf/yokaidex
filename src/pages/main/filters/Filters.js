@@ -6,7 +6,7 @@ import {
     Collapsible,
     SpecialHeader,
     Column,
-    CollapsibleFilters
+    CollapsibleFilters,
 } from './style';
 import FilterButtons from './filter-buttons';
 import Checkbox from '../../../components/shared/checkbox';
@@ -15,7 +15,7 @@ import {
     ranks as ranksfilters,
     tribes as tribesFilters,
     misc as miscFilters,
-    types as typesFilters
+    types as typesFilters,
 } from '../../../mocks/filters';
 
 const Filters = ({
@@ -25,7 +25,7 @@ const Filters = ({
     types,
     misc,
     handleResetFilter,
-    handleCheckbox
+    handleCheckbox,
 }) => {
     const [isCollapsed, setCollapsed] = useState(true);
     const [isCollapsedFilterTribes, setCollapsedFilterTribes] = useState(true);
@@ -80,7 +80,7 @@ const Filters = ({
                         isCollapsed={isCollapsedFilterTribes}
                         checkboxtype="tribe"
                     >
-                        {tribesFilters.map(type => (
+                        {tribesFilters.map((type) => (
                             <InputContainer key={type}>
                                 <label>
                                     <Checkbox
@@ -107,7 +107,7 @@ const Filters = ({
                         isCollapsed={isCollapsedFilterRanks}
                         isToWrap
                     >
-                        {ranksfilters.map(type => (
+                        {ranksfilters.map((type) => (
                             <InputContainer key={type}>
                                 <label>
                                     <Checkbox
@@ -131,7 +131,7 @@ const Filters = ({
                         <Plus />
                     </SpecialHeader>
                     <CollapsibleFilters isCollapsed={isCollapsedFilterElements}>
-                        {elementsFilters.map(type => (
+                        {elementsFilters.map((type) => (
                             <InputContainer key={type}>
                                 <label>
                                     <Checkbox
@@ -155,7 +155,7 @@ const Filters = ({
                         <Plus />
                     </SpecialHeader>
                     <CollapsibleFilters isCollapsed={isCollapsedFilterTypes}>
-                        {typesFilters.map(el => (
+                        {typesFilters.map((el) => (
                             <InputContainer key={el}>
                                 <label>
                                     <Checkbox
@@ -179,7 +179,7 @@ const Filters = ({
                         <Plus />
                     </SpecialHeader>
                     <CollapsibleFilters isCollapsed={isCollapsedFilterMisc}>
-                        {miscFilters.map(type => (
+                        {miscFilters.map((type) => (
                             <InputContainer key={type}>
                                 <label>
                                     <Checkbox

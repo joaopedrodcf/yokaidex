@@ -22,7 +22,7 @@ export const ContainerEvolutions = styled.div`
     justify-content: center;
     width: 100%;
     margin-bottom: ${variables.spacers.s};
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
 
     a {
         display: flex;

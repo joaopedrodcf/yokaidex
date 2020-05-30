@@ -15,16 +15,16 @@ const ContactUs = () => {
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
 
-    const handleName = event => {
+    const handleName = (event) => {
         setName(event.target.value);
     };
-    const handleEmail = event => {
+    const handleEmail = (event) => {
         setEmail(event.target.value);
     };
-    const handleSubject = event => {
+    const handleSubject = (event) => {
         setSubject(event.target.value);
     };
-    const handleMessage = event => {
+    const handleMessage = (event) => {
         setMessage(event.target.value);
     };
 

@@ -16,10 +16,10 @@ const Items = () => {
         handleText,
         selectedFilterItems,
         handleCheckbox,
-        items
+        items,
     } = useContext(ItemsContext);
 
-    const handleSubmit = event => {
+    const handleSubmit = (event) => {
         event.preventDefault();
     };
 

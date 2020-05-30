@@ -14,7 +14,7 @@ export const SealElements = styled.div`
     align-items: center;
     width: 50%;
     padding: ${variables.spacers.s};
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
     ${variables.typographys.mBold};
 
     a {

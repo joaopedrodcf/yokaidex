@@ -9,7 +9,7 @@ export const Field = styled.div`
 
 export const Label = styled.label`
     margin-bottom: ${variables.spacers.xs};
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
     ${variables.typographys.lTitle};
     font-weight: bold;
 `;

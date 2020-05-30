@@ -10,7 +10,7 @@ const BigLabel = ({
     width,
     justifyContent,
     withoutWith,
-    children
+    children,
 }) => {
     return (
         <Global.BigLabel

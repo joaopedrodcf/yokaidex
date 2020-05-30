@@ -22,7 +22,7 @@ const Crankakai = () => {
                 </title>
             </Helmet>
             <ContainerSeal>
-                {crankakais.map(item => (
+                {crankakais.map((item) => (
                     <SealElements key={item.index}>
                         <Link
                             to={`/yokai-watch-${gameVersion}/items/${utils.uniformizeNames(

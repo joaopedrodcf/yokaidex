@@ -14,11 +14,11 @@ const equipments = [
             'Whatta Find',
             'Dropped by Lie-in',
             'Dropped by Chansin',
-            'Dropped by Mircle'
+            'Dropped by Mircle',
         ],
         statsInfo: { str: '+10', spr: '0', def: '0', spd: '-5' },
         priceInfo: { sell: '1,8', buy: '18' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 1,
@@ -34,11 +34,11 @@ const equipments = [
             'Whatta Find',
             'Dropped by Tublappa',
             "Dropped by N'more",
-            'Dropped by Grublappa'
+            'Dropped by Grublappa',
         ],
         statsInfo: { str: '+10', spr: '0', def: '-5', spd: '0' },
         priceInfo: { sell: '1,8', buy: '18' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 2,
@@ -60,11 +60,11 @@ const equipments = [
             'Dropped by Takoyakid',
             'Dropped by Gutsy Bones',
             'Quest – Officially Official!',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '+18', spr: '0', def: '0', spd: '-8' },
         priceInfo: { sell: '6,5', buy: '65' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 3,
@@ -88,11 +88,11 @@ const equipments = [
             'Dropped by Slumberhog',
             'Quest – Officially Official!',
             "Quest – Which Beetle's Better",
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '+18', spr: '0', def: '-8', spd: '0' },
         priceInfo: { sell: '6,5', buy: '65' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 4,
@@ -116,11 +116,11 @@ const equipments = [
             'Dropped by Time Keeler',
             'Dropped by Takoyaking',
             'Quest – Eerie, Roving Armor',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '+25', spr: '0', def: '0', spd: '-12' },
         priceInfo: { sell: '11', buy: '110' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 5,
@@ -148,11 +148,11 @@ const equipments = [
             'Dropped by Copperled',
             'Dropped by Hovernyan',
             'Dropped by Snortlehog',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '+25', spr: '0', def: '-12', spd: '0' },
         priceInfo: { sell: '11', buy: '110' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 6,
@@ -174,11 +174,11 @@ const equipments = [
             'Dropped by Spooklunk',
             'Quest – Find Gnomey!',
             'Quest – C-1 Grand Prix S',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '+35', spr: '0', def: '0', spd: '-15' },
         priceInfo: { sell: '28', buy: '280' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 7,
@@ -203,11 +203,11 @@ const equipments = [
             'Dropped by Massiface',
             'Quest – Find Gnomey!',
             'Quest – The Phantom Giant',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '+35', spr: '0', def: '-15', spd: '0' },
         priceInfo: { sell: '28', buy: '280' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 8,
@@ -220,11 +220,11 @@ const equipments = [
         locations: [
             'Dropped by Gargaros',
             "Quest – Nyada's Trials V",
-            'Quest – The Bony General'
+            'Quest – The Bony General',
         ],
         statsInfo: { str: '+50', spr: '0', def: '0', spd: '-25' },
         priceInfo: { sell: '80', buy: '800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 9,
@@ -238,11 +238,11 @@ const equipments = [
             'Divine Paradise – 5F',
             'Jungle Hunter',
             "Dropped by Cap'n Rex",
-            'Quest – Fleshy Souls General'
+            'Quest – Fleshy Souls General',
         ],
         statsInfo: { str: '+50', spr: '0', def: '-25', spd: '0' },
         priceInfo: { sell: '80', buy: '800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 10,
@@ -257,11 +257,11 @@ const equipments = [
             'Jungle Hunter',
             'Whatta Find',
             'Dropped by Slacka-slash',
-            'Dropped by Robonoko'
+            'Dropped by Robonoko',
         ],
         statsInfo: { str: '0', spr: '+10', def: '-5', spd: '0' },
         priceInfo: { sell: '1,8', buy: '18' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 11,
@@ -277,11 +277,11 @@ const equipments = [
             'Whatta Find',
             'Dropped by Illoo',
             'Dropped by Yoink',
-            'Dropped by Chatalie'
+            'Dropped by Chatalie',
         ],
         statsInfo: { str: '0', spr: '+10', def: '0', spd: '-5' },
         priceInfo: { sell: '1,8', buy: '18' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 12,
@@ -302,11 +302,11 @@ const equipments = [
             'Dropped by Toiletta',
             'Dropped by Happycane',
             'Quest – Springdale Star Pt. 1',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '+18', def: '-8', spd: '0' },
         priceInfo: { sell: '6,5', buy: '65' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 13,
@@ -327,11 +327,11 @@ const equipments = [
             'Dropped by Zappary',
             "Dropped by K'mon-K'mon",
             'Dropped by Droplette',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '+18', def: '0', spd: '-8' },
         priceInfo: { sell: '6,5', buy: '65' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 14,
@@ -360,11 +360,11 @@ const equipments = [
             'Dropped by Kin',
             "Quest – No Time For Fishin'!",
             'Quest – I Just Wanna Grow Up',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '+25', def: '-12', spd: '0' },
         priceInfo: { sell: '11', buy: '110' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 15,
@@ -392,11 +392,11 @@ const equipments = [
             'Dropped by Badsmella',
             "Quest – No Time For Fishin'!",
             'Quest – A Real Charmer',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '+25', def: '0', spd: '-12' },
         priceInfo: { sell: '11', buy: '110' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 16,
@@ -418,11 +418,11 @@ const equipments = [
             'Dropped by Clipso',
             'Quest – Find Mermaidyn!',
             'Quest – Springdale Star Pt. 2',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '+35', def: '-15', spd: '0' },
         priceInfo: { sell: '28', buy: '280' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 17,
@@ -443,11 +443,11 @@ const equipments = [
             'Dropped by Mermadonna',
             'Dropped by Unpleasant',
             'Quest – Find Mermaidyn!',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '+35', def: '0', spd: '-15' },
         priceInfo: { sell: '28', buy: '280' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 18,
@@ -459,11 +459,11 @@ const equipments = [
         locations: [
             'Dropped by Ogralus',
             "Quest – Nyada's Trials V",
-            'Quest – The Old Fox Shrine'
+            'Quest – The Old Fox Shrine',
         ],
         statsInfo: { str: '0', spr: '+50', def: '-25', spd: '0' },
         priceInfo: { sell: '80', buy: '800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 19,
@@ -477,11 +477,11 @@ const equipments = [
             'Divine Paradise – 3F',
             'Jungle Hunter',
             'Dropped by Flippa',
-            'Quest – Enma and the Serpent'
+            'Quest – Enma and the Serpent',
         ],
         statsInfo: { str: '0', spr: '+50', def: '0', spd: '-25' },
         priceInfo: { sell: '80', buy: '800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 20,
@@ -497,11 +497,11 @@ const equipments = [
             'Whatta Find',
             'Dropped by Wotchagot',
             'Dropped by Fidgephant',
-            "Dropped by Ol' Fortune"
+            "Dropped by Ol' Fortune",
         ],
         statsInfo: { str: '0', spr: '-5', def: '+10', spd: '0' },
         priceInfo: { sell: '1,8', buy: '18' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 21,
@@ -517,11 +517,11 @@ const equipments = [
             'Jungle Hunter',
             'Whatta Find',
             'Dropped by No-Go Kart',
-            'Dropped by Touphant'
+            'Dropped by Touphant',
         ],
         statsInfo: { str: '-5', spr: '0', def: '+10', spd: '0' },
         priceInfo: { sell: '1,8', buy: '18' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 22,
@@ -542,11 +542,11 @@ const equipments = [
             'Dropped by Babblong',
             'Dropped by Grumpus Khan',
             'Dropped by Sumodon',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '-8', def: '+18', spd: '0' },
         priceInfo: { sell: '6,5', buy: '65' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 23,
@@ -568,11 +568,11 @@ const equipments = [
             'Dropped by Alhail',
             'Dropped by Danke Sand',
             'Dropped by Whateverest',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '-8', spr: '0', def: '+18', spd: '0' },
         priceInfo: { sell: '6,5', buy: '65' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 24,
@@ -599,11 +599,11 @@ const equipments = [
             "Dropped by Cap'n Crash",
             'Quest – Secrets of Soulcery',
             'Quest – The Heartthrobs',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '-12', def: '+25', spd: '0' },
         priceInfo: { sell: '11', buy: '110' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 25,
@@ -630,11 +630,11 @@ const equipments = [
             'Dropped by Whatuption',
             'Quest – Secrets of Soulcery',
             'Quest – Gone Haunting',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '-12', spr: '0', def: '+25', spd: '0' },
         priceInfo: { sell: '11', buy: '110' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 26,
@@ -657,11 +657,11 @@ const equipments = [
             'Dropped by Unfairy',
             "Quest – The Shrine's Part",
             'Quest – Ultimate Bear Boy',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '-15', def: '+35', spd: '0' },
         priceInfo: { sell: '28', buy: '280' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 27,
@@ -683,11 +683,11 @@ const equipments = [
             'Dropped by Hoggles',
             "Quest – The Shrine's Part",
             'Quest – Treasure Hunters Pt. 3',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '-15', spr: '0', def: '+35', spd: '0' },
         priceInfo: { sell: '28', buy: '280' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 28,
@@ -699,7 +699,7 @@ const equipments = [
         locations: ['Quest – Watch the Skies'],
         statsInfo: { str: '0', spr: '-25', def: '+50', spd: '0' },
         priceInfo: { sell: '80', buy: '800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 29,
@@ -714,11 +714,11 @@ const equipments = [
             'Divine Paradise – 1F',
             'Jungle Hunter',
             'Dropped by Dame Dredful',
-            'Quest – The God of the Sea'
+            'Quest – The God of the Sea',
         ],
         statsInfo: { str: '-25', spr: '0', def: '+50', spd: '0' },
         priceInfo: { sell: '80', buy: '800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 30,
@@ -733,11 +733,11 @@ const equipments = [
             'Memory Store',
             'Jungle Hunter',
             'Whatta Find',
-            "Quest – Matt, Don't Give Up!"
+            "Quest – Matt, Don't Give Up!",
         ],
         statsInfo: { str: '-5', spr: '0', def: '0', spd: '+8' },
         priceInfo: { sell: '1,8', buy: '18' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 31,
@@ -754,11 +754,11 @@ const equipments = [
             'Dropped by Mirapo',
             'Dropped by Mircle',
             'Dropped by Dubbles',
-            "Quest – Matt, Don't Give Up!"
+            "Quest – Matt, Don't Give Up!",
         ],
         statsInfo: { str: '0', spr: '-5', def: '0', spd: '+8' },
         priceInfo: { sell: '1,8', buy: '18' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 32,
@@ -779,11 +779,11 @@ const equipments = [
             'Dropped by Rockabelly',
             'Dropped by Draggie',
             'Dropped by Panja Pupil',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '-8', spr: '0', def: '0', spd: '+15' },
         priceInfo: { sell: '6,5', buy: '65' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 33,
@@ -806,11 +806,11 @@ const equipments = [
             'Dropped by Frostina',
             'Dropped by Chippa',
             'Quest – Makeover Takeover',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '-8', def: '0', spd: '+15' },
         priceInfo: { sell: '6,5', buy: '65' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 34,
@@ -837,11 +837,11 @@ const equipments = [
             'Dropped by Eyeclone',
             'Quest – True Hide-and-Seek',
             'Quest – Ultra Hide-and-Seek',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '-12', spr: '0', def: '0', spd: '+20' },
         priceInfo: { sell: '11', buy: '110' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 35,
@@ -868,11 +868,11 @@ const equipments = [
             'Dropped by Slitheref',
             'Dropped by Jibakoma',
             'Quest – True Hide-and-Seek',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '-12', def: '0', spd: '+20' },
         priceInfo: { sell: '11', buy: '110' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 36,
@@ -893,11 +893,11 @@ const equipments = [
             'Dropped by Unkaind',
             'Dropped by Hans Full',
             "Quest – Retrace Dad's Steps",
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '-15', spr: '0', def: '0', spd: '+30' },
         priceInfo: { sell: '28', buy: '280' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 37,
@@ -921,11 +921,11 @@ const equipments = [
             'Dropped by Tarantutor',
             "Quest – Retrace Dad's Steps",
             'Quest – Expert Hide-and-Seek',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '-15', def: '0', spd: '+30' },
         priceInfo: { sell: '28', buy: '280' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 38,
@@ -937,7 +937,7 @@ const equipments = [
         locations: ['Quest – C-1 Grand Prix X'],
         statsInfo: { str: '-25', spr: '0', def: '0', spd: '40' },
         priceInfo: { sell: '80', buy: '800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 39,
@@ -951,11 +951,11 @@ const equipments = [
             'Gera Gera Land',
             'Divine Paradise – 4F',
             'Jungle Hunter',
-            "Quest – Nyada's Trials III"
+            "Quest – Nyada's Trials III",
         ],
         statsInfo: { str: '0', spr: '-25', def: '0', spd: '+40' },
         priceInfo: { sell: '80', buy: '800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 40,
@@ -968,7 +968,7 @@ const equipments = [
         locations: ['Dropped by Cadable', 'Dropped by Singcada', 'Lottery'],
         statsInfo: { str: '+35', spr: '0', def: '0', spd: '+35' },
         priceInfo: { sell: '15', buy: '15' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 41,
@@ -981,7 +981,7 @@ const equipments = [
         locations: ['Fusion.', 'Quest – Bam-Boom! Fusing!'],
         statsInfo: { str: '+50', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '20', buy: '20' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 42,
@@ -994,7 +994,7 @@ const equipments = [
         locations: ['Fusion.', 'Quest – Bam-Boom! Fusing!'],
         statsInfo: { str: '0', spr: '+50', def: '0', spd: '0' },
         priceInfo: { sell: '20', buy: '20' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 43,
@@ -1007,7 +1007,7 @@ const equipments = [
         locations: ['Fusion.', "Quest – The Ironworks' Part"],
         statsInfo: { str: '0', spr: '0', def: '+50', spd: '0' },
         priceInfo: { sell: '20', buy: '20' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 44,
@@ -1020,7 +1020,7 @@ const equipments = [
         locations: ['Fusion.', "Quest – The Ironworks' Part"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '+30' },
         priceInfo: { sell: '20', buy: '20' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 45,
@@ -1038,11 +1038,11 @@ const equipments = [
             'Dropped by Faux Kappa',
             'Dropped by Tigappa',
             'Dropped by Mad Kappa',
-            'Quest – The Realest Kappa'
+            'Quest – The Realest Kappa',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '30', buy: '30' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 46,
@@ -1055,7 +1055,7 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '+100', def: '0', spd: '+100' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 47,
@@ -1068,7 +1068,7 @@ const equipments = [
         locations: ['Quest – Trying Tangle Tango', 'Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '+50' },
         priceInfo: { sell: '18', buy: '18' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 48,
@@ -1081,7 +1081,7 @@ const equipments = [
         locations: ['Jungle Hunter', 'Dropped by Badude'],
         statsInfo: { str: '+50', spr: '0', def: '-25', spd: '0' },
         priceInfo: { sell: '30', buy: '30' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 49,
@@ -1093,7 +1093,7 @@ const equipments = [
         locations: ['Jungle Hunter', 'Quest – Inspirited Away'],
         statsInfo: { str: '0', spr: '+40', def: '+60', spd: '0' },
         priceInfo: { sell: '14', buy: '14' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 50,
@@ -1111,11 +1111,11 @@ const equipments = [
             'Dropped by Robonoko',
             'Dropped by Robodraggie',
             'Quest – From the Future!',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '+45', spd: '+20' },
         priceInfo: { sell: '35', buy: '35' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 51,
@@ -1127,11 +1127,11 @@ const equipments = [
         locations: [
             'Jungle Hunter',
             'Dropped by Sgt. Burly',
-            "Quest – Jibanyan's Secret"
+            "Quest – Jibanyan's Secret",
         ],
         statsInfo: { str: '+60', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '28', buy: '28' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 52,
@@ -1143,7 +1143,7 @@ const equipments = [
         locations: ["Quest – Jibanyan's Secret"],
         statsInfo: { str: '+40', spr: '0', def: '0', spd: '+40' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 53,
@@ -1162,11 +1162,11 @@ const equipments = [
             'Dropped by Irewig',
             'Dropped by Firewig',
             'Quest – Find Faux Kappa!',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '30', buy: '30' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 54,
@@ -1185,11 +1185,11 @@ const equipments = [
             'Dropped by Allnyta',
             'Dropped by Count Zapaway',
             'Quest – Find Faux Kappa!',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '30', buy: '30' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 55,
@@ -1202,11 +1202,11 @@ const equipments = [
         locations: [
             "Quest – Timers & More's Part",
             "Quest – Little Grandma's Helper",
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '+30', spr: '0', def: '0', spd: '+30' },
         priceInfo: { sell: '25', buy: '25' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 56,
@@ -1219,7 +1219,7 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '+30', def: '0', spd: '+30' },
         priceInfo: { sell: '25', buy: '25' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 57,
@@ -1232,7 +1232,7 @@ const equipments = [
         locations: ["Quest – Timers & More's Part", 'Lottery'],
         statsInfo: { str: '0', spr: '0', def: '+30', spd: '+30' },
         priceInfo: { sell: '25', buy: '25' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 58,
@@ -1244,7 +1244,7 @@ const equipments = [
         locations: ['Dropped by Kat Kraydel'],
         statsInfo: { str: '0', spr: '0', def: '+50', spd: '+50' },
         priceInfo: { sell: '100', buy: '100' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 59,
@@ -1255,11 +1255,11 @@ const equipments = [
         effect: '+ Damage to Wicked Yo-kai. Dmg. to non-Wicked.',
         locations: [
             'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
-            'Quest – Gera Gera Good-Byes'
+            'Quest – Gera Gera Good-Byes',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '150', buy: '150' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 60,
@@ -1271,7 +1271,7 @@ const equipments = [
         locations: ['Mystery Way – Crank–a–kai – Boar Mystery Coin'],
         statsInfo: { str: '+80', spr: '0', def: '0', spd: '-40' },
         priceInfo: { sell: '150', buy: '150' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 61,
@@ -1283,11 +1283,11 @@ const equipments = [
         locations: [
             'Mystery Way – Crank–a–kai – Deer Mystery Coin',
             "Quest – A Legend's Loco Motive",
-            'Quest – Tamer of Time'
+            'Quest – Tamer of Time',
         ],
         statsInfo: { str: '0', spr: '+80', def: '0', spd: '-40' },
         priceInfo: { sell: '150', buy: '150' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 62,
@@ -1298,11 +1298,11 @@ const equipments = [
         effect: '',
         locations: [
             'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
-            'Quest – Getting to Gera Gera'
+            'Quest – Getting to Gera Gera',
         ],
         statsInfo: { str: '0', spr: '0', def: '+80', spd: '-40' },
         priceInfo: { sell: '150', buy: '150' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 63,
@@ -1313,11 +1313,11 @@ const equipments = [
         effect: '',
         locations: [
             'Mystery Way – Crank–a–kai – Butterfly Mystery Coin',
-            'Quest – Whistory Lesson, Part 3'
+            'Quest – Whistory Lesson, Part 3',
         ],
         statsInfo: { str: '0', spr: '0', def: '-40', spd: '+80' },
         priceInfo: { sell: '150', buy: '150' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 64,
@@ -1330,7 +1330,7 @@ const equipments = [
         locations: ['Quest – The Gates of Whimsy', 'Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '25', buy: '25' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 65,
@@ -1344,11 +1344,11 @@ const equipments = [
             'Jungle Hunter',
             'Quest – The Gates of Whimsy',
             'Quest – Collection Correction',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '15', buy: '15' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 66,
@@ -1360,7 +1360,7 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '800', buy: '800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 67,
@@ -1372,7 +1372,7 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '700', buy: '700' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 68,
@@ -1384,7 +1384,7 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '600', buy: '600' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 69,
@@ -1396,7 +1396,7 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '500', buy: '500' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 70,
@@ -1408,7 +1408,7 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '400', buy: '400' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 71,
@@ -1420,7 +1420,7 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '300', buy: '300' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 72,
@@ -1432,7 +1432,7 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '200', buy: '200' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 73,
@@ -1444,8 +1444,8 @@ const equipments = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '100', buy: '100' },
-        type: 'equipments'
-    }
+        type: 'equipments',
+    },
 ];
 
 export default equipments;

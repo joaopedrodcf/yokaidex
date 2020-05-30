@@ -12,5 +12,5 @@ export const Wrapper = styled.div`
 export const WrapperCheckbox = styled.div`
     padding: 0 ${variables.spacers.s} ${variables.spacers.s}
         ${variables.spacers.s};
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
 `;

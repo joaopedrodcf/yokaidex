@@ -7,7 +7,7 @@ export const FiltersWrapper = styled.div`
     flex-direction: column;
     padding: 0 ${variables.spacers.s} ${variables.spacers.s}
         ${variables.spacers.s};
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
 
     @media (min-width: ${variables.breakpoints.sm}) {
         flex-direction: row;
@@ -33,11 +33,11 @@ export const Collapsible = styled.div`
     flex-direction: column;
 
     ${FiltersWrapper} {
-        display: ${props => props.isCollapsed && 'none'};
+        display: ${(props) => props.isCollapsed && 'none'};
     }
 
     ${InputContainer} {
-        display: ${props => props.isCollapsed && 'none'};
+        display: ${(props) => props.isCollapsed && 'none'};
     }
 
     button {
@@ -52,7 +52,7 @@ export const CollapsibleFilters = styled.div`
     justify-content: space-between;
 
     ${InputContainer} {
-        display: ${props => props.isCollapsed && 'none'};
+        display: ${(props) => props.isCollapsed && 'none'};
     }
 `;
 
@@ -72,6 +72,6 @@ export const SpecialHeader = styled.div`
 export const Column = styled.div`
     display: flex;
     flex-direction: column;
-    align-items: ${props => props.alignItems};
-    justify-content: ${props => props.justifyContent};
+    align-items: ${(props) => props.alignItems};
+    justify-content: ${(props) => props.justifyContent};
 `;

@@ -7,8 +7,8 @@ const Container = styled.div`
     align-items: center;
     margin-top: 56px;
     padding: ${variables.spacers.s};
-    color: ${props => props.theme.color};
-    background-color: ${props => props.theme.backgroundColor};
+    color: ${(props) => props.theme.color};
+    background-color: ${(props) => props.theme.backgroundColor};
     ${variables.typographys.m};
 
     @media (min-width: ${variables.breakpoints.md}) {
@@ -22,13 +22,13 @@ const Container = styled.div`
 
 export const Section = styled.div`
     display: flex;
-    flex-direction: ${props => {
+    flex-direction: ${(props) => {
         if (props.isRow) return 'row';
 
         return 'column';
     }};
     align-items: flex-start;
-    justify-content: ${props => {
+    justify-content: ${(props) => {
         if (props.justifyContent) return props.justifyContent;
 
         return 'column';
@@ -41,20 +41,20 @@ export const Section = styled.div`
 export const BigLabel = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: ${props => {
+    justify-content: ${(props) => {
         if (props.justifyContent) return props.justifyContent;
 
         return 'space-between';
     }};
-    width: ${props => {
+    width: ${(props) => {
         if (props.width) return props.width;
         if (props.withoutWith) return '';
 
         return '45%';
     }};
     padding: ${variables.spacers.xxs} ${variables.spacers.s};
-    color: ${props => props.color};
-    background-color: ${props => props.backgroundColor};
+    color: ${(props) => props.color};
+    background-color: ${(props) => props.backgroundColor};
     border-radius: ${variables.spacers.m};
     box-shadow: ${variables.shadows.s};
 `;
@@ -62,14 +62,14 @@ export const BigLabel = styled.div`
 export const BigLabelContent = styled.div`
     display: flex;
     align-items: center;
-    text-transform: ${props => props.uppercase && 'uppercase'};
+    text-transform: ${(props) => props.uppercase && 'uppercase'};
     ${variables.typographys.mBold};
 `;
 
 export const SectionHeader = styled.div`
     margin-bottom: ${variables.spacers.s};
     padding: ${variables.spacers.xs} ${variables.spacers.m};
-    background-color: ${props => props.color};
+    background-color: ${(props) => props.color};
     border-radius: ${variables.spacers.m};
     box-shadow: ${variables.shadows.s};
     ${variables.typographys.lBold};
@@ -81,31 +81,30 @@ export const Card = styled.div`
     justify-content: center;
     width: 100%;
     text-align: center;
-    background-color: ${props => props.theme.card.backgroundColor};
+    background-color: ${(props) => props.theme.card.backgroundColor};
     border-radius: ${variables.spacers.s};
     box-shadow: ${variables.shadows.s};
 `;
 
 export const CardTitle = styled.div`
     padding: ${variables.spacers.xs};
-    background-color: ${props => props.color};
+    background-color: ${(props) => props.color};
     border-radius: ${variables.spacers.s} ${variables.spacers.s} 0 0;
     ${variables.typographys.lBold};
 `;
 
 export const CardText = styled.div`
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: ${variables.spacers.s};
-    color: ${props => props.theme.color};
-    border-radius: 0 0 ${variables.spacers.s} ${variables.spacers.s};
-
-    flex-direction: ${props => {
+    flex-direction: ${(props) => {
         if (props.isRow) return 'row';
 
         return 'column';
     }};
+    align-items: center;
+    justify-content: center;
+    padding: ${variables.spacers.s};
+    color: ${(props) => props.theme.color};
+    border-radius: 0 0 ${variables.spacers.s} ${variables.spacers.s};
 
     img {
         margin-right: ${variables.spacers.s};
@@ -120,5 +119,5 @@ export default {
     SectionHeader,
     Card,
     CardTitle,
-    CardText
+    CardText,
 };

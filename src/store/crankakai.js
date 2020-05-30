@@ -6,7 +6,7 @@ import utils from '../components/utils';
 
 export const CrankakaisContext = React.createContext();
 
-const getCrankakais = gameVersion => {
+const getCrankakais = (gameVersion) => {
     switch (gameVersion) {
         case '1':
             return crankakai1;
@@ -22,18 +22,18 @@ const CrankakaisProvider = ({ children }) => {
         getCrankakais(utils.getGameVersion())
     );
 
-    const changeCrankakais = gameVersion => {
+    const changeCrankakais = (gameVersion) => {
         setCrankakais(getCrankakais(gameVersion));
     };
 
-    const getCrankakai = crankakaiIndexes => {
+    const getCrankakai = (crankakaiIndexes) => {
         if (crankakaiIndexes === undefined) {
             return;
         }
 
         const crankakaisArray = [];
 
-        crankakaiIndexes.forEach(item => {
+        crankakaiIndexes.forEach((item) => {
             crankakaisArray.push(crankakais[item]);
         });
 

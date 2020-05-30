@@ -11,7 +11,7 @@ function ProviderComposer({ contexts, children }) {
     return contexts.reduceRight(
         (kids, parent) =>
             React.cloneElement(parent, {
-                children: kids
+                children: kids,
             }),
         children
     );
@@ -24,7 +24,7 @@ const contexts = [
     <ItemsProvider />,
     <SidebarProvider />,
     <CrankakaisProvider />,
-    <ThemeProvider />
+    <ThemeProvider />,
 ];
 
 function ContextProvider({ children }) {

@@ -10,7 +10,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: { str: '+8', spr: '0', def: '0', spd: '-5' },
         priceInfo: { sell: '180', buy: '1800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 1,
@@ -22,7 +22,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: { str: '+8', spr: '0', def: '-5', spd: '0' },
         priceInfo: { sell: '180', buy: '1800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 2,
@@ -35,7 +35,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '+15', spr: '0', def: '0', spd: '-8' },
         priceInfo: { sell: '650', buy: '6500' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 3,
@@ -48,7 +48,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '+15', spr: '0', def: '-8', spd: '0' },
         priceInfo: { sell: '650', buy: '6500' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 4,
@@ -60,7 +60,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '+22', spr: '0', def: '0', spd: '-12' },
         priceInfo: { sell: '1400', buy: '14000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 5,
@@ -73,7 +73,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '+22', spr: '0', def: '-12', spd: '0' },
         priceInfo: { sell: '1400', buy: '14000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 6,
@@ -86,7 +86,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '+30', spr: '0', def: '0', spd: '-15' },
         priceInfo: { sell: '3300', buy: '33000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 7,
@@ -99,7 +99,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '+30', spr: '0', def: '-15', spd: '0' },
         priceInfo: { sell: '3300', buy: '33000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 8,
@@ -112,7 +112,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+40', spr: '0', def: '0', spd: '-25' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 9,
@@ -124,7 +124,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+40', spr: '0', def: '-25', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 10,
@@ -137,7 +137,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+65', spr: '0', def: '0', spd: '-40' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 11,
@@ -149,7 +149,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '+8', def: '-5', spd: '0' },
         priceInfo: { sell: '180', buy: '1800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 12,
@@ -161,7 +161,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '+8', def: '0', spd: '-5' },
         priceInfo: { sell: '180', buy: '1800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 13,
@@ -173,7 +173,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '+15', def: '-8', spd: '0' },
         priceInfo: { sell: '650', buy: '6500' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 14,
@@ -186,7 +186,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '+15', def: '0', spd: '-8' },
         priceInfo: { sell: '650', buy: '6500' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 15,
@@ -199,7 +199,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '0', spr: '+22', def: '-12', spd: '0' },
         priceInfo: { sell: '1400', buy: '14000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 16,
@@ -211,7 +211,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '0', spr: '+22', def: '0', spd: '-12' },
         priceInfo: { sell: '1400', buy: '14000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 17,
@@ -224,7 +224,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '+30', def: '-15', spd: '0' },
         priceInfo: { sell: '3300', buy: '33000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 18,
@@ -236,7 +236,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '0', spr: '+30', def: '0', spd: '-15' },
         priceInfo: { sell: '3300', buy: '33000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 19,
@@ -248,7 +248,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '+40', def: '-25', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 20,
@@ -260,7 +260,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '+40', def: '0', spd: '-25' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 21,
@@ -273,7 +273,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '+65', def: '-40', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 22,
@@ -285,7 +285,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '-5', def: '+8', spd: '0' },
         priceInfo: { sell: '180', buy: '1800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 23,
@@ -298,7 +298,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: { str: '-5', spr: '0', def: '+8', spd: '0' },
         priceInfo: { sell: '180', buy: '1800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 24,
@@ -310,7 +310,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '-8', def: '+15', spd: '0' },
         priceInfo: { sell: '650', buy: '6500' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 25,
@@ -322,7 +322,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '-8', spr: '0', def: '+15', spd: '0' },
         priceInfo: { sell: '650', buy: '6500' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 26,
@@ -334,7 +334,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '0', spr: '-12', def: '+22', spd: '0' },
         priceInfo: { sell: '1400', buy: '14000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 27,
@@ -346,7 +346,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '-12', spr: '0', def: '+22', spd: '0' },
         priceInfo: { sell: '1400', buy: '14000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 28,
@@ -358,7 +358,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '-15', def: '+30', spd: '0' },
         priceInfo: { sell: '3300', buy: '33000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 29,
@@ -371,7 +371,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '-15', spr: '0', def: '+30', spd: '0' },
         priceInfo: { sell: '3300', buy: '33000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 30,
@@ -383,7 +383,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '-25', def: '+40', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 31,
@@ -396,7 +396,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '-25', spr: '0', def: '+40', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 32,
@@ -409,7 +409,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '-40', spr: '0', def: '+65', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 33,
@@ -422,7 +422,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: { str: '-5', spr: '0', def: '0', spd: '+8' },
         priceInfo: { sell: '180', buy: '1800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 34,
@@ -434,7 +434,7 @@ const equipments = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '-5', def: '0', spd: '+8' },
         priceInfo: { sell: '180', buy: '1800' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 35,
@@ -446,7 +446,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '-8', spr: '0', def: '0', spd: '+15' },
         priceInfo: { sell: '650', buy: '6500' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 36,
@@ -459,7 +459,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '-8', def: '0', spd: '+15' },
         priceInfo: { sell: '650', buy: '6500' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 37,
@@ -471,7 +471,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '-12', spr: '0', def: '0', spd: '+22' },
         priceInfo: { sell: '1400', buy: '14000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 38,
@@ -483,7 +483,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '0', spr: '-12', def: '0', spd: '+22' },
         priceInfo: { sell: '1400', buy: '14000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 39,
@@ -496,7 +496,7 @@ const equipments = [
         locations: ['Whatta Find'],
         statsInfo: { str: '-15', spr: '0', def: '0', spd: '+30' },
         priceInfo: { sell: '3300', buy: '33000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 40,
@@ -508,7 +508,7 @@ const equipments = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '0', spr: '-15', def: '0', spd: '+30' },
         priceInfo: { sell: '3300', buy: '33000' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 41,
@@ -520,7 +520,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '-25', spr: '0', def: '0', spd: '+40' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 42,
@@ -533,7 +533,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '-25', def: '0', spd: '+40' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 43,
@@ -546,7 +546,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '-40', def: '0', spd: '+65' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 44,
@@ -559,7 +559,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 45,
@@ -572,7 +572,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1800', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 46,
@@ -585,7 +585,7 @@ const equipments = [
         locations: ['Run Through The Old Mansion'],
         statsInfo: { str: '+35', spr: '0', def: '0', spd: '+35' },
         priceInfo: { sell: '1800', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 47,
@@ -598,7 +598,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+30', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2200', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 48,
@@ -611,7 +611,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '+30', def: '0', spd: '0' },
         priceInfo: { sell: '2200', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 49,
@@ -624,7 +624,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '+30', spd: '0' },
         priceInfo: { sell: '2200', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 50,
@@ -637,7 +637,7 @@ const equipments = [
         locations: ['Help Out Some Guy from School!'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '+30' },
         priceInfo: { sell: '2200', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 51,
@@ -650,7 +650,7 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2200', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 52,
@@ -663,7 +663,7 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '+100', def: '0', spd: '+100' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 53,
@@ -676,7 +676,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '+50' },
         priceInfo: { sell: '1800', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 54,
@@ -689,7 +689,7 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '+60', spr: '0', def: '-30', spd: '0' },
         priceInfo: { sell: '3000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 55,
@@ -701,7 +701,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '+20', def: '+40', spd: '0' },
         priceInfo: { sell: '2500', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 56,
@@ -713,7 +713,7 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '+20', spd: '+20' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 57,
@@ -726,7 +726,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+60', spr: '0', def: '0', spd: '-30' },
         priceInfo: { sell: '3300', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 58,
@@ -738,7 +738,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+20', spr: '0', def: '0', spd: '+20' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 59,
@@ -751,7 +751,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+30', spr: '0', def: '0', spd: '+30' },
         priceInfo: { sell: '2700', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 60,
@@ -764,7 +764,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '+30', def: '0', spd: '+30' },
         priceInfo: { sell: '2700', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 61,
@@ -777,7 +777,7 @@ const equipments = [
         locations: ['Team Up Time! Wonder Edition!'],
         statsInfo: { str: '0', spr: '0', def: '+30', spd: '+30' },
         priceInfo: { sell: '2700', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 62,
@@ -789,7 +789,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '+30', spd: '+30' },
         priceInfo: { sell: '10000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 63,
@@ -802,7 +802,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '+50' },
         priceInfo: { sell: '2500', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 64,
@@ -815,7 +815,7 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '+25', spr: '+25', def: '0', spd: '0' },
         priceInfo: { sell: '2800', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 65,
@@ -828,7 +828,7 @@ const equipments = [
         locations: ['Pursuit! Dream Floor - Woods'],
         statsInfo: { str: '0', spr: '0', def: '+20', spd: '+20' },
         priceInfo: { sell: '2800', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 66,
@@ -841,7 +841,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+25', spr: '+25', def: '0', spd: '0' },
         priceInfo: { sell: '4000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 67,
@@ -854,7 +854,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '+20', spd: '+20' },
         priceInfo: { sell: '4000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 68,
@@ -867,7 +867,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+20', spr: '0', def: '0', spd: '+20' },
         priceInfo: { sell: '2500', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 69,
@@ -880,7 +880,7 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '+40', def: '0', spd: '+20' },
         priceInfo: { sell: '2000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 70,
@@ -893,7 +893,7 @@ const equipments = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '+20', def: '0', spd: '+20' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 71,
@@ -906,7 +906,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '+20', def: '0', spd: '+40' },
         priceInfo: { sell: '3000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 72,
@@ -919,7 +919,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+30', spr: '0', def: '0', spd: '+30' },
         priceInfo: { sell: '2500', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 73,
@@ -932,7 +932,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 74,
@@ -945,7 +945,7 @@ const equipments = [
         locations: ["Diana Gately & the Keeper's Old Man"],
         statsInfo: { str: '+35', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 75,
@@ -958,7 +958,7 @@ const equipments = [
         locations: ['The Calamity that Lurks Below...'],
         statsInfo: { str: '0', spr: '+35', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 76,
@@ -971,7 +971,7 @@ const equipments = [
         locations: ['He Who Descended into Darkness'],
         statsInfo: { str: '0', spr: '0', def: '+35', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 77,
@@ -984,7 +984,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 78,
@@ -997,7 +997,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '+35', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 79,
@@ -1009,7 +1009,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '+35', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 80,
@@ -1022,7 +1022,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '+20', spd: '+20' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 81,
@@ -1035,7 +1035,7 @@ const equipments = [
         locations: [null],
         statsInfo: { str: '+50', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'equipments'
+        type: 'equipments',
     },
     {
         index: 82,
@@ -1048,8 +1048,8 @@ const equipments = [
         locations: ['The Three Yo-kai Watches'],
         statsInfo: { str: '0', spr: '0', def: '+30', spd: '+30' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'equipments'
-    }
+        type: 'equipments',
+    },
 ];
 
 export default equipments;

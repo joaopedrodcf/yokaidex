@@ -14,7 +14,7 @@ const BaffleBoard = () => {
     const { baffleBoard } = useContext(BaffleBoardContext);
     const history = useHistory();
 
-    const goTo = name => {
+    const goTo = (name) => {
         history.push(
             `/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(name)}`
         );
@@ -41,7 +41,7 @@ const BaffleBoard = () => {
                     </tr>
                 </thead>
                 <tbody>
-                    {baffleBoard.map(row => (
+                    {baffleBoard.map((row) => (
                         <tr key={row.index} onClick={() => goTo(row.solution)}>
                             <td>{row.location}</td>
                             <td>{row.effect}</td>
