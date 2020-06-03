@@ -10,7 +10,7 @@ export const Move = styled.div`
     width: 100%;
     margin-bottom: ${variables.spacers.xs};
     padding: ${variables.spacers.s};
-    background-color: ${props => props.color};
+    background-color: ${(props) => props.color};
     border-radius: ${variables.spacers.s};
 
     > div:nth-child(1) {
@@ -26,7 +26,7 @@ export const Move = styled.div`
 
 export const MoveTitle = styled.div`
     margin-bottom: ${variables.spacers.s};
-    color: ${props => props.color};
+    color: ${(props) => props.color};
     ${variables.typographys.lBold};
 `;
 

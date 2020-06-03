@@ -4,7 +4,7 @@ const spacers = {
     xs: '6px',
     s: '12px',
     m: '24px',
-    l: '48px'
+    l: '48px',
 };
 
 export default spacers;

@@ -8,6 +8,6 @@ export const Row = styled.div`
     align-items: center;
     justify-content: center;
     margin-bottom: ${variables.spacers.s};
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
     text-align: justify;
 `;

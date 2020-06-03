@@ -9,7 +9,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '300', buy: '3000' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 1,
@@ -21,7 +21,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '600', buy: '6000' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 2,
@@ -33,7 +33,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2400', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 3,
@@ -46,7 +46,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 4,
@@ -59,7 +59,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '20', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 5,
@@ -71,7 +71,7 @@ const items = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '100', buy: '1000' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 6,
@@ -83,7 +83,7 @@ const items = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '800', buy: '8000' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 7,
@@ -96,7 +96,7 @@ const items = [
         locations: ['Wild Hunters'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2600', buy: '26000' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 8,
@@ -109,7 +109,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '9200', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 9,
@@ -122,7 +122,7 @@ const items = [
         locations: ['Inspector '],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '15000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 10,
@@ -134,7 +134,7 @@ const items = [
         locations: ['Phantomart'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '240', buy: '1200' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 11,
@@ -146,7 +146,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '480', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 12,
@@ -158,7 +158,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 13,
@@ -171,7 +171,7 @@ const items = [
         locations: ['Inspector '],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 14,
@@ -184,7 +184,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 15,
@@ -197,7 +197,7 @@ const items = [
         locations: ['Inspector '],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 16,
@@ -209,7 +209,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 17,
@@ -222,7 +222,7 @@ const items = [
         locations: ['Inspector '],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 18,
@@ -235,7 +235,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 19,
@@ -248,7 +248,7 @@ const items = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '98', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 20,
@@ -261,7 +261,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 21,
@@ -273,7 +273,7 @@ const items = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '98', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 22,
@@ -285,7 +285,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 23,
@@ -297,7 +297,7 @@ const items = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '98', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 24,
@@ -310,7 +310,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 25,
@@ -323,7 +323,7 @@ const items = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '98', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 26,
@@ -336,7 +336,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 27,
@@ -349,7 +349,7 @@ const items = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '98', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 28,
@@ -362,7 +362,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 29,
@@ -374,7 +374,7 @@ const items = [
         locations: ['Settle In Bookstore'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 30,
@@ -387,7 +387,7 @@ const items = [
         locations: ['Phantomart'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '100', buy: '500' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 31,
@@ -399,7 +399,7 @@ const items = [
         locations: ['Springdale Underground Area'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '300', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 32,
@@ -412,7 +412,7 @@ const items = [
         locations: ['Greengramps'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 33,
@@ -425,7 +425,7 @@ const items = [
         locations: ['Greengramps'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 34,
@@ -438,7 +438,7 @@ const items = [
         locations: ['Greengramps'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '20000', buy: '20000' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 35,
@@ -451,7 +451,7 @@ const items = [
         locations: ['Oh My Swirls! A Busted Watch!'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '60000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 36,
@@ -463,7 +463,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 37,
@@ -475,7 +475,7 @@ const items = [
         locations: ["Margarita's"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '30', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 38,
@@ -487,7 +487,7 @@ const items = [
         locations: ['Breezy Hills'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '30', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 39,
@@ -500,7 +500,7 @@ const items = [
         locations: ['Springdale Elementary - 2F'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 40,
@@ -512,7 +512,7 @@ const items = [
         locations: ['Triangle Lottery', 'Blasters T (Enma Palace 5)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 41,
@@ -525,7 +525,7 @@ const items = [
         locations: ['Triangle Lottery', 'Blasters T (Enma Palace 5)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 42,
@@ -538,11 +538,11 @@ const items = [
         locations: [
             'Triangle Lottery',
             'Blasters T (Blazing aura)',
-            'Super/Ultra Red Coin'
+            'Super/Ultra Red Coin',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 43,
@@ -555,7 +555,7 @@ const items = [
         locations: ['Jungle Hunter', 'Blasters T (Cluphinx Spade Mouth 2)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 44,
@@ -567,11 +567,11 @@ const items = [
         effect: '',
         locations: [
             'Scrapyard Crane mini game item',
-            'Quest - Feminine Fracas!'
+            'Quest - Feminine Fracas!',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 45,
@@ -583,7 +583,7 @@ const items = [
         locations: ['Triangle Lottery', 'Blasters T (Cluvian Keyhole 1)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 46,
@@ -596,7 +596,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 47,
@@ -608,11 +608,11 @@ const items = [
         locations: [
             'Blasters T (Tornado aura/Labyrinth of Treasures)',
             'Super/Ultra Orange Coin',
-            'Quest - Oh My Swirls! A Busted Watch!'
+            'Quest - Oh My Swirls! A Busted Watch!',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 48,
@@ -625,7 +625,7 @@ const items = [
         locations: ['Clown Time reward', 'Blasters T (Blizzaria EX aura)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 49,
@@ -636,11 +636,11 @@ const items = [
         effect: '',
         locations: [
             'Triangle Lottery',
-            'San Fantastico - Sea Ring: Tattleterror (15%)'
+            'San Fantastico - Sea Ring: Tattleterror (15%)',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 50,
@@ -653,7 +653,7 @@ const items = [
         locations: ['Blasters T (Blizzaria Aura)', 'Super/Ultra/Pink Coin'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 51,
@@ -665,7 +665,7 @@ const items = [
         locations: ['Jungle Hunter', 'BBQ Southmond (Wanted Points)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2200', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 52,
@@ -678,11 +678,11 @@ const items = [
         locations: [
             'BBQ Southmond (Wanted Points)',
             'Blasters T (Abyss aura)',
-            'Super/Ultra Blue Coin'
+            'Super/Ultra Blue Coin',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 53,
@@ -695,11 +695,11 @@ const items = [
         locations: [
             'San Fantastico - Sea Ring: Tattleterror (0.7%)',
             'Blasters T (Heavenly Aura)',
-            'Super/Ultra/Purple Coin'
+            'Super/Ultra/Purple Coin',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 54,
@@ -711,11 +711,11 @@ const items = [
         locations: [
             'Blasters T (Storm aura)',
             'Super/Ultra/Light-Blue Coin',
-            'Quest - A Ghost Club Odyssey'
+            'Quest - A Ghost Club Odyssey',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 55,
@@ -728,7 +728,7 @@ const items = [
         locations: ['BBQ Southmond (Wanted Points)', 'Zombie/Endless Night'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 56,
@@ -740,7 +740,7 @@ const items = [
         locations: ['Triangle Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 57,
@@ -753,11 +753,11 @@ const items = [
         locations: [
             'Wild Hunters (Dukesville)',
             'Blasters T (Whirlpool aura)',
-            'Super/Ultra/Green Coin'
+            'Super/Ultra/Green Coin',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 58,
@@ -770,7 +770,7 @@ const items = [
         locations: ['Triangle Lottery', 'Blasters T (Darkness aura)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 59,
@@ -782,7 +782,7 @@ const items = [
         locations: ['Wild Hunters (Dukesville)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 60,
@@ -794,11 +794,11 @@ const items = [
         effect: '',
         locations: [
             'Blasters T (Whirlwind aura)',
-            'Quest - The Sorrows of Old Zomboy'
+            'Quest - The Sorrows of Old Zomboy',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 61,
@@ -810,7 +810,7 @@ const items = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 62,
@@ -823,7 +823,7 @@ const items = [
         locations: ['San Fantastico - Sea Ring: Tattleterror (6.5%)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 63,
@@ -835,7 +835,7 @@ const items = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 64,
@@ -847,7 +847,7 @@ const items = [
         locations: ['BBQ Southmond (Wanted Points)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 65,
@@ -860,7 +860,7 @@ const items = [
         locations: ['Springdale Scratch-Off'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 66,
@@ -872,7 +872,7 @@ const items = [
         locations: ['Rub the Golden Egg'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 67,
@@ -884,7 +884,7 @@ const items = [
         locations: ["Yellow chest near apartments in shopper's row"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 68,
@@ -896,7 +896,7 @@ const items = [
         locations: ['Ultra BBQ Cross Walk Quiz', 'Springdale Scratch-Off'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 69,
@@ -908,11 +908,11 @@ const items = [
         effect: '',
         locations: [
             'Springdale Scratch-Off',
-            'Blasters T (Tomb of King Clupharaon 2)'
+            'Blasters T (Tomb of King Clupharaon 2)',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 70,
@@ -923,11 +923,11 @@ const items = [
         effect: '',
         locations: [
             'Blasters T (Tomb of King Clupharaon 3)',
-            "Quest - We're Super Comedy Heroes!"
+            "Quest - We're Super Comedy Heroes!",
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 71,
@@ -939,7 +939,7 @@ const items = [
         locations: ['Blasters T (Tomb of King Clupharaon 1)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 72,
@@ -952,7 +952,7 @@ const items = [
         locations: ['Jungle Hunter', 'Blasters T (Temple of Clusis 3)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 73,
@@ -965,7 +965,7 @@ const items = [
         locations: ['BBQ Southmond (Wanted Points)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 74,
@@ -978,7 +978,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 75,
@@ -991,7 +991,7 @@ const items = [
         locations: ['Ambrosia Pavillion - rare drop after beating Brutle'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 76,
@@ -1004,7 +1004,7 @@ const items = [
         locations: ['Triangle Lottery', 'Blasters T (Cluvian Keyhole 2)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3500', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 77,
@@ -1016,11 +1016,11 @@ const items = [
         effect: '',
         locations: [
             'Ambrosia Pavillion (Tempura Suk. Invite)',
-            'Quest - The Rookie Hero! Unbearaboy!'
+            'Quest - The Rookie Hero! Unbearaboy!',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 78,
@@ -1033,7 +1033,7 @@ const items = [
         locations: ['Wild Hunters (Dukesville)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 79,
@@ -1044,11 +1044,11 @@ const items = [
         effect: '',
         locations: [
             'Zombie/Endless Night',
-            'Blasters T (Tomb of King Clupharaon 4)'
+            'Blasters T (Tomb of King Clupharaon 4)',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 80,
@@ -1061,7 +1061,7 @@ const items = [
         locations: ['Ambrosia Pavillion (Sushi Sukiyaki Invite)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 81,
@@ -1073,7 +1073,7 @@ const items = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 82,
@@ -1086,7 +1086,7 @@ const items = [
         locations: ['Zombie/Endless Night'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '4000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 83,
@@ -1098,7 +1098,7 @@ const items = [
         locations: ['Scrapyard Trash Trade', 'BBQ Southmond (Wanted Points)'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '4000', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 84,
@@ -1111,7 +1111,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [0, 1]
+        crankakaiIndexes: [0, 1],
     },
     {
         index: 85,
@@ -1124,7 +1124,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [2, 3]
+        crankakaiIndexes: [2, 3],
     },
     {
         index: 86,
@@ -1137,7 +1137,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [4, 5]
+        crankakaiIndexes: [4, 5],
     },
     {
         index: 87,
@@ -1150,7 +1150,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [6, 7]
+        crankakaiIndexes: [6, 7],
     },
     {
         index: 88,
@@ -1163,7 +1163,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [8, 9]
+        crankakaiIndexes: [8, 9],
     },
     {
         index: 89,
@@ -1177,7 +1177,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [10, 11]
+        crankakaiIndexes: [10, 11],
     },
     {
         index: 90,
@@ -1190,7 +1190,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [12, 13]
+        crankakaiIndexes: [12, 13],
     },
     {
         index: 91,
@@ -1203,7 +1203,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [14, 15]
+        crankakaiIndexes: [14, 15],
     },
     {
         index: 92,
@@ -1216,7 +1216,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [16, 17]
+        crankakaiIndexes: [16, 17],
     },
     {
         index: 93,
@@ -1229,7 +1229,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [18, 19]
+        crankakaiIndexes: [18, 19],
     },
     {
         index: 94,
@@ -1242,7 +1242,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [20, 21]
+        crankakaiIndexes: [20, 21],
     },
     {
         index: 95,
@@ -1256,7 +1256,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [22]
+        crankakaiIndexes: [22],
     },
     {
         index: 96,
@@ -1269,7 +1269,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [23]
+        crankakaiIndexes: [23],
     },
     {
         index: 97,
@@ -1283,7 +1283,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [24]
+        crankakaiIndexes: [24],
     },
     {
         index: 98,
@@ -1297,7 +1297,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [25]
+        crankakaiIndexes: [25],
     },
     {
         index: 99,
@@ -1311,7 +1311,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [26]
+        crankakaiIndexes: [26],
     },
     {
         index: 100,
@@ -1325,7 +1325,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [27]
+        crankakaiIndexes: [27],
     },
     {
         index: 101,
@@ -1339,7 +1339,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [28]
+        crankakaiIndexes: [28],
     },
     {
         index: 102,
@@ -1353,7 +1353,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [29]
+        crankakaiIndexes: [29],
     },
     {
         index: 103,
@@ -1367,7 +1367,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [30]
+        crankakaiIndexes: [30],
     },
     {
         index: 104,
@@ -1381,7 +1381,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [31]
+        crankakaiIndexes: [31],
     },
     {
         index: 105,
@@ -1395,7 +1395,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [32]
+        crankakaiIndexes: [32],
     },
     {
         index: 106,
@@ -1409,7 +1409,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [33]
+        crankakaiIndexes: [33],
     },
     {
         index: 107,
@@ -1423,7 +1423,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [34]
+        crankakaiIndexes: [34],
     },
     {
         index: 108,
@@ -1437,7 +1437,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [35]
+        crankakaiIndexes: [35],
     },
     {
         index: 109,
@@ -1451,7 +1451,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [36]
+        crankakaiIndexes: [36],
     },
     {
         index: 110,
@@ -1465,7 +1465,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [37]
+        crankakaiIndexes: [37],
     },
     {
         index: 111,
@@ -1478,7 +1478,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [38]
+        crankakaiIndexes: [38],
     },
     {
         index: 112,
@@ -1491,7 +1491,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [39]
+        crankakaiIndexes: [39],
     },
     {
         index: 113,
@@ -1504,7 +1504,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [40]
+        crankakaiIndexes: [40],
     },
     {
         index: 114,
@@ -1517,7 +1517,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [41]
+        crankakaiIndexes: [41],
     },
     {
         index: 115,
@@ -1531,7 +1531,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [42]
+        crankakaiIndexes: [42],
     },
     {
         index: 116,
@@ -1545,7 +1545,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [43]
+        crankakaiIndexes: [43],
     },
     {
         index: 117,
@@ -1559,7 +1559,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [44]
+        crankakaiIndexes: [44],
     },
     {
         index: 118,
@@ -1573,7 +1573,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [45]
+        crankakaiIndexes: [45],
     },
     {
         index: 119,
@@ -1587,7 +1587,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [46]
+        crankakaiIndexes: [46],
     },
     {
         index: 120,
@@ -1601,7 +1601,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [47]
+        crankakaiIndexes: [47],
     },
     {
         index: 121,
@@ -1615,7 +1615,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [48]
+        crankakaiIndexes: [48],
     },
     {
         index: 122,
@@ -1629,7 +1629,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [49]
+        crankakaiIndexes: [49],
     },
     {
         index: 123,
@@ -1643,7 +1643,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [50]
+        crankakaiIndexes: [50],
     },
     {
         index: 124,
@@ -1657,7 +1657,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [51]
+        crankakaiIndexes: [51],
     },
     {
         index: 125,
@@ -1671,7 +1671,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [52]
+        crankakaiIndexes: [52],
     },
     {
         index: 126,
@@ -1685,7 +1685,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [53]
+        crankakaiIndexes: [53],
     },
     {
         index: 127,
@@ -1698,7 +1698,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [54]
+        crankakaiIndexes: [54],
     },
     {
         index: 128,
@@ -1712,7 +1712,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [55]
+        crankakaiIndexes: [55],
     },
     {
         index: 129,
@@ -1725,7 +1725,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [56]
+        crankakaiIndexes: [56],
     },
     {
         index: 130,
@@ -1739,7 +1739,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [57]
+        crankakaiIndexes: [57],
     },
     {
         index: 131,
@@ -1753,7 +1753,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [58]
+        crankakaiIndexes: [58],
     },
     {
         index: 132,
@@ -1767,7 +1767,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [59]
+        crankakaiIndexes: [59],
     },
     {
         index: 133,
@@ -1780,7 +1780,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 134,
@@ -1794,7 +1794,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [60]
+        crankakaiIndexes: [60],
     },
     {
         index: 135,
@@ -1808,7 +1808,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [61]
+        crankakaiIndexes: [61],
     },
     {
         index: 136,
@@ -1822,7 +1822,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [62]
+        crankakaiIndexes: [62],
     },
     {
         index: 137,
@@ -1835,7 +1835,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [63]
+        crankakaiIndexes: [63],
     },
     {
         index: 138,
@@ -1849,7 +1849,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [64]
+        crankakaiIndexes: [64],
     },
     {
         index: 139,
@@ -1863,7 +1863,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [65]
+        crankakaiIndexes: [65],
     },
     {
         index: 140,
@@ -1875,7 +1875,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 141,
@@ -1888,7 +1888,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [66]
+        crankakaiIndexes: [66],
     },
     {
         index: 142,
@@ -1901,7 +1901,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [67]
+        crankakaiIndexes: [67],
     },
     {
         index: 143,
@@ -1914,7 +1914,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [68]
+        crankakaiIndexes: [68],
     },
     {
         index: 144,
@@ -1927,7 +1927,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [69]
+        crankakaiIndexes: [69],
     },
     {
         index: 145,
@@ -1940,7 +1940,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [70]
+        crankakaiIndexes: [70],
     },
     {
         index: 146,
@@ -1953,7 +1953,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [71]
+        crankakaiIndexes: [71],
     },
     {
         index: 147,
@@ -1966,7 +1966,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [72]
+        crankakaiIndexes: [72],
     },
     {
         index: 148,
@@ -1979,7 +1979,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [73]
+        crankakaiIndexes: [73],
     },
     {
         index: 149,
@@ -1992,7 +1992,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [74]
+        crankakaiIndexes: [74],
     },
     {
         index: 150,
@@ -2005,7 +2005,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [75]
+        crankakaiIndexes: [75],
     },
     {
         index: 151,
@@ -2018,7 +2018,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [76]
+        crankakaiIndexes: [76],
     },
     {
         index: 152,
@@ -2031,7 +2031,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [77]
+        crankakaiIndexes: [77],
     },
     {
         index: 153,
@@ -2044,7 +2044,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [78]
+        crankakaiIndexes: [78],
     },
     {
         index: 154,
@@ -2057,7 +2057,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [79]
+        crankakaiIndexes: [79],
     },
     {
         index: 155,
@@ -2070,7 +2070,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [80]
+        crankakaiIndexes: [80],
     },
     {
         index: 156,
@@ -2084,7 +2084,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [81]
+        crankakaiIndexes: [81],
     },
     {
         index: 157,
@@ -2096,7 +2096,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '30', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 158,
@@ -2108,7 +2108,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 159,
@@ -2120,7 +2120,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 160,
@@ -2133,7 +2133,7 @@ const items = [
         locations: ["The Yo-kai Circus's One Last Hurrah"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 161,
@@ -2145,7 +2145,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 162,
@@ -2157,7 +2157,7 @@ const items = [
         locations: ['Perform! Dream Floor - Gold'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 163,
@@ -2170,7 +2170,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 164,
@@ -2182,7 +2182,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 165,
@@ -2194,7 +2194,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 166,
@@ -2207,7 +2207,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 167,
@@ -2220,7 +2220,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 168,
@@ -2232,7 +2232,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 169,
@@ -2245,7 +2245,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 170,
@@ -2257,7 +2257,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 171,
@@ -2270,7 +2270,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 172,
@@ -2282,7 +2282,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 173,
@@ -2295,7 +2295,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 174,
@@ -2308,7 +2308,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 175,
@@ -2321,7 +2321,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 176,
@@ -2333,7 +2333,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 177,
@@ -2346,7 +2346,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 178,
@@ -2359,7 +2359,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 179,
@@ -2372,7 +2372,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 180,
@@ -2385,7 +2385,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 181,
@@ -2397,7 +2397,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 182,
@@ -2410,7 +2410,7 @@ const items = [
         locations: ['A Cry for Help and a Family in Need!'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 183,
@@ -2423,7 +2423,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 184,
@@ -2435,7 +2435,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 185,
@@ -2448,7 +2448,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 186,
@@ -2460,7 +2460,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 187,
@@ -2472,7 +2472,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 188,
@@ -2485,7 +2485,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 189,
@@ -2498,7 +2498,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 190,
@@ -2511,7 +2511,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 191,
@@ -2524,7 +2524,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 192,
@@ -2537,7 +2537,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 193,
@@ -2550,7 +2550,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 194,
@@ -2563,7 +2563,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 195,
@@ -2576,7 +2576,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 196,
@@ -2589,7 +2589,7 @@ const items = [
         locations: ["A Girl's Gotta Have Dreams"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 197,
@@ -2602,7 +2602,7 @@ const items = [
         locations: ['Oh My Swirls! A Busted Watch!'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 198,
@@ -2615,7 +2615,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 199,
@@ -2628,7 +2628,7 @@ const items = [
         locations: ["We're Super Comedy Heroes!"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 200,
@@ -2641,7 +2641,7 @@ const items = [
         locations: ['The Three Yo-kai Watches'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 201,
@@ -2654,7 +2654,7 @@ const items = [
         locations: ["A Girl's Gotta Have Dreams"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 202,
@@ -2667,7 +2667,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 203,
@@ -2680,7 +2680,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 204,
@@ -2693,7 +2693,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 205,
@@ -2706,7 +2706,7 @@ const items = [
         locations: ["The Yo-kai Council's Secret Order"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 206,
@@ -2719,7 +2719,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 207,
@@ -2732,7 +2732,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 208,
@@ -2744,7 +2744,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 209,
@@ -2757,7 +2757,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 210,
@@ -2770,7 +2770,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 211,
@@ -2783,7 +2783,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 212,
@@ -2796,7 +2796,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 213,
@@ -2809,7 +2809,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 214,
@@ -2822,7 +2822,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 215,
@@ -2835,7 +2835,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 216,
@@ -2848,7 +2848,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 217,
@@ -2861,7 +2861,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 218,
@@ -2874,7 +2874,7 @@ const items = [
         locations: [null],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 219,
@@ -2887,8 +2887,8 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [82, 83]
-    }
+        crankakaiIndexes: [82, 83],
+    },
 ];
 
 export default items;

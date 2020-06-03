@@ -21,17 +21,17 @@ export const Table = styled.table`
 
     th {
         padding: ${variables.spacers.s};
-        color: ${props => props.theme.table.th.color};
+        color: ${(props) => props.theme.table.th.color};
         text-align: center;
-        background-color: ${props => props.theme.table.th.backgroundColor};
+        background-color: ${(props) => props.theme.table.th.backgroundColor};
         ${variables.typographys.l};
     }
 
     td {
         padding: ${variables.spacers.xs};
-        color: ${props => props.theme.table.tr.color};
+        color: ${(props) => props.theme.table.tr.color};
         text-align: start;
-        background-color: ${props => props.theme.table.tr.backgroundColor};
+        background-color: ${(props) => props.theme.table.tr.backgroundColor};
     }
 
     tr {

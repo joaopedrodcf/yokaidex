@@ -7,7 +7,7 @@ export const ProgressBar = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
     ${variables.typographys.mTitle};
     font-weight: 600;
 

@@ -6,7 +6,7 @@ const colors = {
     third: '#aab6fe ',
     greyLight: '#e0e0e0',
     grey: '#9e9e9e',
-    greyDark: '#616161'
+    greyDark: '#616161',
 };
 
 export default colors;

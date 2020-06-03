@@ -6,7 +6,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Anglerfish',
@@ -15,7 +15,7 @@ const fish = [
         rarity: 'Rare',
         buy: '',
         sell: '21.00',
-        rareSell: '21.00'
+        rareSell: '21.00',
     },
     {
         name: 'Beakfish',
@@ -24,7 +24,7 @@ const fish = [
         rarity: 'Rare',
         buy: '',
         sell: '13.80',
-        rareSell: '13.80'
+        rareSell: '13.80',
     },
     {
         name: 'Beltfish',
@@ -33,7 +33,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Black Bass',
@@ -42,7 +42,7 @@ const fish = [
         rarity: 'Common',
         buy: '',
         sell: '1.95',
-        rareSell: '1.95'
+        rareSell: '1.95',
     },
     {
         name: 'Blackfish',
@@ -51,7 +51,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Barracuda',
@@ -60,7 +60,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Carp',
@@ -69,7 +69,7 @@ const fish = [
         rarity: 'Common',
         buy: '',
         sell: '0.60',
-        rareSell: '0.60'
+        rareSell: '0.60',
     },
     {
         name: 'Catfish',
@@ -78,7 +78,7 @@ const fish = [
         rarity: 'Common',
         buy: '',
         sell: '1.50',
-        rareSell: '1.50'
+        rareSell: '1.50',
     },
     {
         name: 'Cherry Salmon',
@@ -87,7 +87,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Chub Mackerel',
@@ -96,7 +96,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Conger Eel',
@@ -105,7 +105,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Cowfish',
@@ -114,7 +114,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '9.90',
-        rareSell: '9.90'
+        rareSell: '9.90',
     },
     {
         name: 'Crab',
@@ -123,7 +123,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Crayfish',
@@ -132,7 +132,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Cuttlefish',
@@ -141,7 +141,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Eel',
@@ -150,7 +150,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Filefish',
@@ -159,7 +159,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Firefly Squid',
@@ -168,7 +168,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '2.16',
-        rareSell: '2.16'
+        rareSell: '2.16',
     },
     {
         name: 'Flounder',
@@ -177,7 +177,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Flying Fish',
@@ -186,7 +186,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Giant Huchen',
@@ -195,7 +195,7 @@ const fish = [
         rarity: 'Rare',
         buy: '',
         sell: '10.50',
-        rareSell: '10.50'
+        rareSell: '10.50',
     },
     {
         name: 'Grunt',
@@ -204,7 +204,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Halibut',
@@ -213,7 +213,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Jellyfish',
@@ -222,7 +222,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '2.40',
-        rareSell: '2.40'
+        rareSell: '2.40',
     },
     {
         name: 'Koi',
@@ -231,7 +231,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Loach',
@@ -240,7 +240,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Lobster',
@@ -249,7 +249,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Mackerel',
@@ -258,7 +258,7 @@ const fish = [
         rarity: '',
         buy: '2.50',
         sell: '0.75',
-        rareSell: '0.75'
+        rareSell: '0.75',
     },
     {
         name: 'Marlin',
@@ -267,7 +267,7 @@ const fish = [
         rarity: 'Rare',
         buy: '',
         sell: '30.00',
-        rareSell: '30.00'
+        rareSell: '30.00',
     },
     {
         name: 'Mullet',
@@ -276,7 +276,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Octopus',
@@ -285,7 +285,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Porgy',
@@ -294,7 +294,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Porcupine Fish',
@@ -303,7 +303,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Red Snapper',
@@ -312,7 +312,7 @@ const fish = [
         rarity: '',
         buy: '28.00',
         sell: '8.40',
-        rareSell: '8.40'
+        rareSell: '8.40',
     },
     {
         name: 'Reef Squid',
@@ -321,7 +321,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Rockfish',
@@ -330,7 +330,7 @@ const fish = [
         rarity: '',
         buy: '4.00',
         sell: '1.20',
-        rareSell: '1.20'
+        rareSell: '1.20',
     },
     {
         name: 'Salmon',
@@ -339,7 +339,7 @@ const fish = [
         rarity: 'Rare',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Sardine',
@@ -348,7 +348,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Sea Bass',
@@ -357,7 +357,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Sea Horse',
@@ -366,7 +366,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Shrimp',
@@ -375,7 +375,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Snakehead',
@@ -384,7 +384,7 @@ const fish = [
         rarity: 'Rare',
         buy: '',
         sell: '4.80',
-        rareSell: '4.80'
+        rareSell: '4.80',
     },
     {
         name: 'Softshell Turtle',
@@ -393,7 +393,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Spear Squid',
@@ -402,7 +402,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Squid',
@@ -411,7 +411,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Starfish',
@@ -420,7 +420,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Stingray',
@@ -429,7 +429,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Sweetfish',
@@ -438,7 +438,7 @@ const fish = [
         rarity: '',
         buy: '13.00',
         sell: '3.90',
-        rareSell: '3.90'
+        rareSell: '3.90',
     },
     {
         name: 'Tree Frog',
@@ -447,7 +447,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Toad',
@@ -456,7 +456,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Tuna',
@@ -465,7 +465,7 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
+        rareSell: '',
     },
     {
         name: 'Turtle',
@@ -474,7 +474,7 @@ const fish = [
         rarity: 'Common',
         buy: '',
         sell: '0.90',
-        rareSell: '0.90'
+        rareSell: '0.90',
     },
     {
         name: 'Whiting',
@@ -483,8 +483,8 @@ const fish = [
         rarity: '',
         buy: '',
         sell: '',
-        rareSell: ''
-    }
+        rareSell: '',
+    },
 ];
 
 export default fish;

@@ -6,12 +6,12 @@ const baffleboards = [
         clues: [
             'Wears traditional clothing',
             'Heartful Tribe',
-            'Makes Inspirited people hungry'
+            'Makes Inspirited people hungry',
         ],
         solution: 'Hungramps',
         effect: '30% discount at Everymart Uptown.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hungramps.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/hungramps.png',
     },
     {
         index: 1,
@@ -21,7 +21,7 @@ const baffleboards = [
         effect:
             'Allows certain bugs/fish to be traded in for 3x the amount of points.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blazion.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/blazion.png',
     },
     {
         index: 2,
@@ -29,12 +29,12 @@ const baffleboards = [
         clues: [
             'Three-paneled mirror',
             'Transports people through time',
-            'Reveal!'
+            'Reveal!',
         ],
         solution: 'Miradox',
         effect: 'Warp to Old Springdale.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/miradox.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/miradox.png',
     },
     {
         index: 3,
@@ -42,12 +42,12 @@ const baffleboards = [
         clues: [
             'Emissary from the future',
             'Resembles Jibanyan',
-            "Says he'll 'be back'"
+            "Says he'll 'be back'",
         ],
         solution: 'Robonyan',
         effect: 'Allows access to the waterfall area.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan.png',
     },
     {
         index: 4,
@@ -55,13 +55,13 @@ const baffleboards = [
         clues: [
             'Dragon Yo-kai',
             'Indecisive',
-            "His favorite phrase is 'Hmmm...'"
+            "His favorite phrase is 'Hmmm...'",
         ],
         solution: 'Draaagin',
         effect:
             'Allows access to abandoned tunnel east after a few in-game days.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/draaagin.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/draaagin.png',
     },
     {
         index: 5,
@@ -70,7 +70,7 @@ const baffleboards = [
         solution: "Ray O'Light",
         effect: 'Changes the weather to sunny.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ray_o_light.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ray_o_light.png',
     },
     {
         index: 6,
@@ -78,12 +78,12 @@ const baffleboards = [
         clues: [
             'Drizzly drizzle...',
             'Dampy damp...',
-            'Drizzly, drizzly drizzle...'
+            'Drizzly, drizzly drizzle...',
         ],
         solution: 'Drizzelda',
         effect: 'Changes the weather to rainy.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzelda.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzelda.png',
     },
     {
         index: 7,
@@ -91,12 +91,12 @@ const baffleboards = [
         clues: [
             'Holds bells in his right hand',
             'A classic Yo-kai',
-            'Happy happy!'
+            'Happy happy!',
         ],
         solution: 'High Gnomey',
         effect: 'Increases your daily Crank-a-kai attempts by one.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/high_gnomey.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/high_gnomey.png',
     },
     {
         index: 8,
@@ -104,12 +104,12 @@ const baffleboards = [
         clues: [
             'Neat-freak shogun',
             'Loves his antibacterial spray',
-            'Clean, clean!'
+            'Clean, clean!',
         ],
         solution: 'Washogun',
         effect: "Sproink's Quest Activator.",
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/washogun.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/washogun.png',
     },
     {
         index: 9,
@@ -118,7 +118,7 @@ const baffleboards = [
         solution: 'Master Oden',
         effect: "Oden can now be purchased from Shopper's Row Everymart.",
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/master_oden.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/master_oden.png',
     },
     {
         index: 10,
@@ -126,12 +126,12 @@ const baffleboards = [
         clues: [
             'Holds a small staff in one hand.',
             'Loves bread',
-            'Conjures apparitions'
+            'Conjures apparitions',
         ],
         solution: 'Illoo',
         effect: 'Allows access to 4F and 13F of the Springdale Business Tower',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/illoo.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/illoo.png',
     },
     {
         index: 11,
@@ -139,13 +139,13 @@ const baffleboards = [
         clues: [
             'Proud of soft skin',
             'Puffs up when angry',
-            'Face pops out of his body'
+            'Face pops out of his body',
         ],
         solution: 'Mochismo',
         effect:
             'After a few days in real time, the Sports Club will be built and accessible.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mochismo.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mochismo.png',
     },
     {
         index: 12,
@@ -153,12 +153,12 @@ const baffleboards = [
         clues: [
             'Yo-kai workout leader',
             'Peak physical condition',
-            'Feel the burn!'
+            'Feel the burn!',
         ],
         solution: 'Sgt. Burly',
         effect: 'Increases GP gain rate.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sgt._burly.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sgt._burly.png',
     },
     {
         index: 13,
@@ -167,7 +167,7 @@ const baffleboards = [
         solution: 'Wazzat',
         effect: "Allows Yo-kai's nicknames to be changed.",
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wazzat.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wazzat.png',
     },
     {
         index: 14,
@@ -175,12 +175,12 @@ const baffleboards = [
         clues: [
             'Healthy, thanks to seaweed',
             'One of a trio',
-            'Views Steppa as a rival'
+            'Views Steppa as a rival',
         ],
         solution: 'Wiglin',
         effect: 'Allows the water level to be changed.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wiglin.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wiglin.png',
     },
     {
         index: 15,
@@ -188,12 +188,12 @@ const baffleboards = [
         clues: [
             'Healthy, groovy seaweed',
             'One of a trio',
-            'Views Wiglin as a rival'
+            'Views Wiglin as a rival',
         ],
         solution: 'Steppa',
         effect: 'Allows the water level to be changed.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/steppa.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/steppa.png',
     },
     {
         index: 16,
@@ -201,12 +201,12 @@ const baffleboards = [
         clues: [
             'Loved by Wiglin',
             'Loved by Steppa',
-            'Not interested in either'
+            'Not interested in either',
         ],
         solution: 'Rhyth',
         effect: 'Allows the water level to be changed',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhyth.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/rhyth.png',
     },
     {
         index: 17,
@@ -214,12 +214,12 @@ const baffleboards = [
         clues: [
             'Likes taking detours',
             'Worries about scaly sharkskin',
-            'Vegetarian'
+            'Vegetarian',
         ],
         solution: 'Chummer',
         effect: 'Little Haven Station can now be accessed *.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chummer.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/chummer.png',
     },
     {
         index: 18,
@@ -229,7 +229,7 @@ const baffleboards = [
         solution: "Ol' Fortune",
         effect: 'Crank-a-kai Coin Fragments can now be exchanged.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__fortune.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__fortune.png',
     },
     {
         index: 19,
@@ -237,12 +237,12 @@ const baffleboards = [
         clues: [
             'Travels atop a cloud',
             'Wields a vacuum cleaner',
-            'Sucks up memories'
+            'Sucks up memories',
         ],
         solution: 'Vacuumory',
         effect: 'Allows Dame Dedtime (Dame Demona) to be re-battled.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/vacuumory.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/vacuumory.png',
     },
     {
         index: 20,
@@ -250,12 +250,12 @@ const baffleboards = [
         clues: [
             'Reflective',
             'Power of darkness',
-            'Summons spirits from his mirror'
+            'Summons spirits from his mirror',
         ],
         solution: 'Mircle',
         effect: 'Allows McKraken to be battled.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mircle.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mircle.png',
     },
     {
         index: 21,
@@ -264,7 +264,7 @@ const baffleboards = [
         solution: 'Wondernyan',
         effect: 'Once a day he will give you a random Crank-a-kai coin.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wondernyan.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wondernyan.png',
     },
     {
         index: 22,
@@ -272,13 +272,13 @@ const baffleboards = [
         clues: [
             'Traditional Japanese clothes',
             'Likes big flowers',
-            'Cherry blossoms'
+            'Cherry blossoms',
         ],
         solution: 'Elder Bloom',
         effect: 'Makes cherry trees bloom.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/elder_bloom.png'
-    }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/elder_bloom.png',
+    },
 ];
 
 export default baffleboards;

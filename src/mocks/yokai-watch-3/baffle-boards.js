@@ -6,7 +6,7 @@ const baffleBoard = [
         solution: 'Salty Bacon',
         effect: ' Allows you to buy Crispy Bacon Pizza.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/salty_bacon.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/salty_bacon.png',
     },
     {
         index: 1,
@@ -15,7 +15,7 @@ const baffleBoard = [
         solution: 'Pupsicle',
         effect: ' Turns the bath cold.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pupsicle.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pupsicle.png',
     },
     {
         index: 2,
@@ -23,12 +23,12 @@ const baffleBoard = [
         clues: [
             'Serious fighter',
             'Loves REAL fights',
-            'Try asking Shipshape Sailor'
+            'Try asking Shipshape Sailor',
         ],
         solution: 'El Gutso',
         effect: ' Turns the bath hot.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/el_gutso.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/el_gutso.png',
     },
     {
         index: 3,
@@ -36,12 +36,12 @@ const baffleBoard = [
         clues: [
             'Lean and mean',
             'Great functionality',
-            'Robot from the future'
+            'Robot from the future',
         ],
         solution: 'Robonyan F',
         effect: ' Once a day he will give you a Chocobar.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan_f.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/robonyan_f.png',
     },
     {
         index: 4,
@@ -49,12 +49,12 @@ const baffleBoard = [
         clues: [
             'Wears a loincloth',
             'Has a pan for a hat',
-            'Battles with a toothpick'
+            'Battles with a toothpick',
         ],
         solution: 'Pandle',
         effect: ' Will give access to a quest that will give you Glumdango.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pandle.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/pandle.png',
     },
     {
         index: 5,
@@ -64,7 +64,7 @@ const baffleBoard = [
         effect:
             'Will increase the amount of limited stock items and decrease the price of all items.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/retreeter.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/retreeter.png',
     },
     {
         index: 6,
@@ -72,13 +72,13 @@ const baffleBoard = [
         clues: [
             'Visits during the holidays',
             'Carries three sacks',
-            'Enjoys quizzes'
+            'Enjoys quizzes',
         ],
         solution: "Ol' Saint Trick",
         effect:
             'Enables you to trade various coin fragments for Crank-a-Kai coins.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__saint_trick.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ol__saint_trick.png',
     },
     {
         index: 7,
@@ -86,13 +86,13 @@ const baffleBoard = [
         clues: [
             'Has a chocolate nose',
             'Sells Choco-Bananas',
-            'Likes playing RPS'
+            'Likes playing RPS',
         ],
         solution: 'Cocobanana',
         effect:
             'Sells Chocobannanas. If beaten in Rock-paper-scissors he will give you a bonus Chocobannana.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cocobanana.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/cocobanana.png',
     },
     {
         index: 8,
@@ -101,7 +101,7 @@ const baffleBoard = [
         solution: 'Drizzelda',
         effect: ' Makes it rain.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzelda.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/drizzelda.png',
     },
     {
         index: 9,
@@ -109,12 +109,12 @@ const baffleBoard = [
         clues: [
             'Brightens up the day',
             'Has a dazzling smile',
-            'My darling sweet pea!'
+            'My darling sweet pea!',
         ],
         solution: "Ray O'Light",
         effect: ' Makes it sunny.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ray_o_light.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ray_o_light.png',
     },
     {
         index: 10,
@@ -122,13 +122,13 @@ const baffleBoard = [
         clues: [
             'Heartful Tribe',
             'Carries the...earth?',
-            'Loves the environment'
+            'Loves the environment',
         ],
         solution: 'Greengramps',
         effect:
             'Able to trade trash gotten from the Yo-kai Cleaner in exchange for items.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/greengramps.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/greengramps.png',
     },
     {
         index: 11,
@@ -137,7 +137,7 @@ const baffleBoard = [
         solution: 'Sgt. Burly',
         effect: ' Increases GP received by 1.2.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sgt._burly.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/sgt._burly.png',
     },
     {
         index: 12,
@@ -145,13 +145,13 @@ const baffleBoard = [
         clues: [
             'Incredibly stuck-up',
             'Bosses others around',
-            'Hurry up already!'
+            'Hurry up already!',
         ],
         solution: 'Snobetty',
         effect:
             'Breezy Hills Everymart will sell Choice tuna, Marbled beef, and golden dolls for more.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snobetty.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/snobetty.png',
     },
     {
         index: 13,
@@ -161,7 +161,7 @@ const baffleBoard = [
         effect:
             'Adds one extra crank to the daily Crank-a-Kai turns. She also heals your Yo-kai and gives you milk.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ghostess.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/ghostess.png',
     },
     {
         index: 14,
@@ -169,12 +169,12 @@ const baffleBoard = [
         clues: [
             'Heartful Tribe',
             'Star of the seaweed world',
-            'Has hordes of fans'
+            'Has hordes of fans',
         ],
         solution: 'Kelpacabana',
         effect: ' Will exchange Dancing stars for Victory poses.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kelpacabana.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kelpacabana.png',
     },
     {
         index: 15,
@@ -182,12 +182,12 @@ const baffleBoard = [
         clues: [
             'Wears a dashing Sand Suit',
             'Has side-parted hair',
-            'Incredibly humble'
+            'Incredibly humble',
         ],
         solution: 'Mister Sandmeh',
         effect: ' Will open a door needed in a quest.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mr._sandmeh.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/mr._sandmeh.png',
     },
     {
         index: 16,
@@ -196,7 +196,7 @@ const baffleBoard = [
         solution: 'Illoo',
         effect: ' Talk to him to travel to the Illusion version Sparkopolis.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/illoo.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/illoo.png',
     },
     {
         index: 17,
@@ -204,12 +204,12 @@ const baffleBoard = [
         clues: [
             'Governs recollections',
             'Has an odd suction device',
-            'Recovers lost memories'
+            'Recovers lost memories',
         ],
         solution: 'Vacuumory',
         effect: ' Talk to him to rematch Don Spiracy.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/vacuumory.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/vacuumory.png',
     },
     {
         index: 18,
@@ -218,7 +218,7 @@ const baffleBoard = [
         solution: 'Wazzat',
         effect: ' Allows you to change the names of your Yo-kai.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wazzat.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/wazzat.png',
     },
     {
         index: 19,
@@ -226,12 +226,12 @@ const baffleBoard = [
         clues: [
             'Inspirits those hard at work',
             'Looks like a tie',
-            'I just wanna go home...'
+            'I just wanna go home...',
         ],
         solution: 'Tie-red',
         effect: ' Enables you to work a part-time job in quality check.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tie-red.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/tie-red.png',
     },
     {
         index: 20,
@@ -239,12 +239,12 @@ const baffleBoard = [
         clues: [
             'Heartful Tribe',
             'Rides a mouse car',
-            'Likes pressing buttons'
+            'Likes pressing buttons',
         ],
         solution: 'Push Pup',
         effect: ' Be able to open the manhole nearby him.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/push_pup.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/push_pup.png',
     },
     {
         index: 21,
@@ -252,12 +252,12 @@ const baffleBoard = [
         clues: [
             'Lolls around over here',
             'Lolls around over there',
-            'Found a new continent'
+            'Found a new continent',
         ],
         solution: 'Kittylumbus',
         effect: 'Talk to him to rematch Yo-kaiju.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kittylumbus.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/kittylumbus.png',
     },
     {
         index: 22,
@@ -265,12 +265,12 @@ const baffleBoard = [
         clues: [
             'Works at a hospital',
             'Wears nurse clothes',
-            'Licks wounds better'
+            'Licks wounds better',
         ],
         solution: 'Nurse Tongus',
         effect: 'Once a day she will give you medicine.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nurse_tongus.png'
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/nurse_tongus.png',
     },
     {
         index: 23,
@@ -278,13 +278,13 @@ const baffleBoard = [
         clues: [
             'Mysterious Tribe',
             'Travels through time',
-            'Has three mirrors'
+            'Has three mirrors',
         ],
         solution: 'Miradox',
         effect: 'Takes you back to the past in a very limited area.',
         image:
-            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/miradox.png'
-    }
+            'https://res.cloudinary.com/dcrcweea8/image/upload/v1549117449/Yokai/yokais/miradox.png',
+    },
 ];
 
 export default baffleBoard;

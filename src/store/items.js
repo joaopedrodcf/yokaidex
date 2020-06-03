@@ -10,18 +10,18 @@ import utils from '../components/utils';
 export const ItemsContext = React.createContext();
 
 const filterItems = (items, filterName, selectedFilterItems) => {
-    return items.filter(item => {
+    return items.filter((item) => {
         let aux = true;
 
         const filters = {
-            item: selectedFilterItems
+            item: selectedFilterItems,
         };
 
         if (!item.name.toLowerCase().includes(filterName)) {
             return false;
         }
 
-        Object.keys(filters).forEach(type => {
+        Object.keys(filters).forEach((type) => {
             if (
                 filters[type].length > 0 &&
                 !filters[type].includes(item.type.toLowerCase())
@@ -34,7 +34,7 @@ const filterItems = (items, filterName, selectedFilterItems) => {
     });
 };
 
-const getItems = gameVersion => {
+const getItems = (gameVersion) => {
     switch (gameVersion) {
         case '1':
             return [...items1, ...equipments1];
@@ -53,20 +53,20 @@ const ItemsProvider = ({ children }) => {
     const [name, setName] = useState('');
     const [selectedFilterItems, setSelectedFilterItems] = useState([]);
 
-    const changeItems = gameVersion => {
+    const changeItems = (gameVersion) => {
         setItems(getItems(gameVersion));
         setInitialItems(getItems(gameVersion));
     };
 
-    const getItem = itemName => {
+    const getItem = (itemName) => {
         return initialItems.find(
-            item =>
+            (item) =>
                 utils.uniformizeNames(item.name) ===
                 utils.uniformizeNames(itemName)
         );
     };
 
-    const handleText = event => {
+    const handleText = (event) => {
         const newName = event.target.value.toLowerCase();
 
         const filteredItems = filterItems(
@@ -79,7 +79,7 @@ const ItemsProvider = ({ children }) => {
         setItems(filteredItems);
     };
 
-    const handleCheckbox = event => {
+    const handleCheckbox = (event) => {
         const { checked } = event.target;
         const nameLowerCase = event.target.name.toLowerCase();
 
@@ -88,7 +88,7 @@ const ItemsProvider = ({ children }) => {
             newSelectedFilterItems = [...selectedFilterItems, nameLowerCase];
         } else {
             newSelectedFilterItems = selectedFilterItems.filter(
-                element => element !== nameLowerCase
+                (element) => element !== nameLowerCase
             );
         }
 
@@ -111,7 +111,7 @@ const ItemsProvider = ({ children }) => {
                 name,
                 selectedFilterItems,
                 handleText,
-                handleCheckbox
+                handleCheckbox,
             }}
         >
             {children}

@@ -2,8 +2,8 @@ import React from 'react';
 import Global from '../../../styles';
 import BigLabel from '../../../components/big-label';
 
-const hasStatsInfo = statsInfo =>
-    Object.keys(statsInfo).some(key => statsInfo[key] !== '0');
+const hasStatsInfo = (statsInfo) =>
+    Object.keys(statsInfo).some((key) => statsInfo[key] !== '0');
 
 const Stats = ({ statsInfo }) => {
     if (!hasStatsInfo(statsInfo)) {

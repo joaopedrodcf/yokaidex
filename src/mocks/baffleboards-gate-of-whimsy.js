@@ -5,7 +5,7 @@ const baffleboards = [
         clue2: ' Long hair',
         clue3: ' Love',
         solution: ' Cupistol',
-        effect: ''
+        effect: '',
     },
     {
         location: '',
@@ -13,7 +13,7 @@ const baffleboards = [
         clue2: ' Not in the middle tree',
         clue3: ' Not the tree on the corner',
         solution: ' Cadin',
-        effect: ''
+        effect: '',
     },
     {
         location: '',
@@ -21,8 +21,8 @@ const baffleboards = [
         clue2: ' No-left',
         clue3: ' Wait-right',
         solution: ' Peckpocket',
-        effect: ''
-    }
+        effect: '',
+    },
 ];
 
 export default baffleboards;

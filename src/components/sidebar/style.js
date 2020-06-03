@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
 `;
 
 export const SCNavLink = styled(NavLink).attrs({
-    activeClassName: 'active'
+    activeClassName: 'active',
 })`
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ export const SCLink = styled.a`
 export const Sections = styled.div`
     display: flex;
     flex-direction: column;
-    border-top: ${props => props.showBorder && '2px solid #bdbdbd'};
+    border-top: ${(props) => props.showBorder && '2px solid #bdbdbd'};
 `;
 
 export const SectionsHeader = styled.div`
@@ -103,7 +103,7 @@ export const SectionsHeader = styled.div`
 
     ${variables.typographys.mTitle};
     font-weight: 600;
-    background-color: ${props => props.theme.backgroundColor};
+    background-color: ${(props) => props.theme.backgroundColor};
 `;
 
 export const ToggleSection = styled.div`
@@ -112,12 +112,12 @@ export const ToggleSection = styled.div`
     justify-content: flex-start;
     padding: ${variables.spacers.s};
     text-decoration: none;
-    background-color: ${props => props.theme.backgroundColor};
+    background-color: ${(props) => props.theme.backgroundColor};
     transition: all 250ms ease-in-out;
     will-change: transform;
 `;
 
 export const ToggleText = styled.div`
     margin-left: ${variables.spacers.s};
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
 `;

@@ -9,7 +9,7 @@ export const SCSideInformation = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
 
     > div,
     > img {

@@ -15,5 +15,5 @@ export {
     YokaisContext,
     BaffleBoardContext,
     ItemsContext,
-    ThemeContext
+    ThemeContext,
 };

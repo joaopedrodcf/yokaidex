@@ -17,7 +17,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
                 </Global.SectionHeader>
                 {utils
                     .getEvolution(evolutions, yokai.evolutionIndexes)
-                    .filter(evo => evo.type === 'level')
+                    .filter((evo) => evo.type === 'level')
                     .map((evo, index) => (
                         <ContainerEvolutions key={index}>
                             <Row>
@@ -59,7 +59,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
 
                 {utils
                     .getEvolution(evolutions, yokai.evolutionIndexes)
-                    .filter(evo => evo.type === 'fusion' && !evo.withItems)
+                    .filter((evo) => evo.type === 'fusion' && !evo.withItems)
                     .map((evo, index) => (
                         <ContainerEvolutions key={index}>
                             <Row>
@@ -117,7 +117,7 @@ const Evolution = ({ yokai, color, gameVersion }) => (
 
                 {utils
                     .getEvolution(evolutions, yokai.evolutionIndexes)
-                    .filter(evo => evo.type === 'fusion' && evo.withItems)
+                    .filter((evo) => evo.type === 'fusion' && evo.withItems)
                     .map((evo, index) => (
                         <ContainerEvolutions key={index}>
                             <Row>

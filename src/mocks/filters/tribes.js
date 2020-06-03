@@ -10,7 +10,7 @@ const tribes = [
     'Wicked',
     'Enma',
     'Wandroid',
-    'Boss'
+    'Boss',
 ];
 
 export default tribes;

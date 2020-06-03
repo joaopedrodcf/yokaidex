@@ -1,6 +1,6 @@
 {
     "name": "yokaidex",
-    "version": "0.2.0",
+    "version": "2.0.0",
     "description": "Contains all yo-kais from the 3 main games, their locations, stats, favorite foods, skills. You can see also the baffle board solutions.",
     "license": "MIT",
     "homepage": "https://yokaidex.com",
@@ -18,33 +18,45 @@
         "lint": "eslint ./src"
     },
     "dependencies": {
-        "axios": "^0.19.1",
-        "fast-memoize": "^2.5.1",
+        "axios": "^0.19.2",
+        "fast-memoize": "^2.5.2",
         "history": "^4.10.1",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0",
-        "react-feather": "^2.0.3",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1",
+        "react-feather": "^2.0.8",
         "react-ga": "^2.7.0",
-        "react-helmet": "^5.2.1",
+        "react-helmet": "^6.0.0",
         "react-lazy-load": "^3.0.13",
-        "react-router": "^5.1.2",
-        "react-router-dom": "^5.1.2",
-        "react-scripts": "3.3.0",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "3.4.1",
         "react-sidebar": "^3.0.2",
         "react-switch": "^5.0.1",
         "react-virtualized": "^9.21.2",
-        "styled-components": "^5.0.0"
+        "styled-components": "^5.1.1"
     },
     "devDependencies": {
         "clear-render": "^1.0.5",
-        "eslint": "^6.8.0",
-        "eslint-config-joaopedrodcf": "^1.3.3",
-        "husky": "^4.0.10",
-        "lint-staged": "^9.5.0",
-        "prettier": "^1.19.1",
-        "prettier-config-joaopedrodcf": "^1.0.11",
-        "stylelint": "^13.0.0",
-        "stylelint-config-joaopedrodcf": "^0.0.4"
+        "husky": "^4.2.5",
+        "lint-staged": "^10.2.7",
+        "prettier": "^2.0.5",
+        "stylelint": "^13.5.0",
+        "stylelint-config-rational-order": "^0.1.2",
+        "stylelint-config-recommended": "^3.0.0",
+        "stylelint-config-styled-components": "^0.1.1",
+        "stylelint-order": "^4.0.0",
+        "stylelint-processor-styled-components": "^1.10.0",
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.1.0",
+        "eslint-config-airbnb": "18.1.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-import": "^2.20.2",
+        "eslint-plugin-jsx-a11y": "^6.2.3",
+        "eslint-plugin-markdown": "^1.0.2",
+        "eslint-plugin-prettier": "^3.1.3",
+        "eslint-plugin-react": "7.20.0",
+        "eslint-plugin-react-perf": "^3.2.3",
+        "eslint-plugin-react-hooks": "^4.0.4"
     },
     "browserslist": [
         ">0.2%",
@@ -60,8 +72,7 @@
     "lint-staged": {
         "*.js": [
             "eslint ./src --fix",
-            "stylelint './src/**/*.js'",
-            "git add"
+            "stylelint './src/**/*.js'"
         ]
     }
 }

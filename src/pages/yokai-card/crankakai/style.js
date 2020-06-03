@@ -14,7 +14,7 @@ export const Requirement = styled.div`
     align-items: center;
     width: 50%;
     padding: ${variables.spacers.s};
-    color: ${props => props.theme.color};
+    color: ${(props) => props.theme.color};
     font-weight: 600;
     font-size: 16px;
     text-align: center;

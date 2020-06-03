@@ -5,7 +5,7 @@ import utils from '../components/utils';
 
 export const BaffleBoardContext = React.createContext();
 
-const getBaffleBoard = gameVersion => {
+const getBaffleBoard = (gameVersion) => {
     switch (gameVersion) {
         case '2':
             return baffleBoardYW2;
@@ -21,7 +21,7 @@ const BaffleBoardProvider = ({ children }) => {
         getBaffleBoard(utils.getGameVersion())
     );
 
-    const changeBaffleBoard = gameVersion => {
+    const changeBaffleBoard = (gameVersion) => {
         setBaffleBoard(getBaffleBoard(gameVersion));
     };
 

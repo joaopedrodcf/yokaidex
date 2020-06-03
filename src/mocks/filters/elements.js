@@ -6,7 +6,7 @@ const elements = [
     'Lightning',
     'Restoration',
     'Water',
-    'Wind'
+    'Wind',
 ];
 
 export default elements;

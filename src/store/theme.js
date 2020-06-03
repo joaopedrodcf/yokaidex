@@ -19,50 +19,50 @@ const ThemeProvider = ({ children }) => {
                   color: variables.colors.white,
                   selected: {
                       backgroundColor: '#424242',
-                      color: variables.colors.white
+                      color: variables.colors.white,
                   },
                   button: {
                       backgroundColor: variables.colors.white,
-                      color: variables.colors.black
+                      color: variables.colors.black,
                   },
                   card: {
-                      backgroundColor: '#212121'
+                      backgroundColor: '#212121',
                   },
                   table: {
                       th: {
                           color: variables.colors.black,
-                          backgroundColor: variables.colors.white
+                          backgroundColor: variables.colors.white,
                       },
                       tr: {
                           color: variables.colors.white,
-                          backgroundColor: '#212121'
-                      }
-                  }
+                          backgroundColor: '#212121',
+                      },
+                  },
               }
             : {
                   backgroundColor: variables.colors.white,
                   color: variables.colors.black,
                   selected: {
                       backgroundColor: '#bdbdbd',
-                      color: variables.colors.black
+                      color: variables.colors.black,
                   },
                   button: {
                       backgroundColor: variables.colors.black,
-                      color: variables.colors.white
+                      color: variables.colors.white,
                   },
                   card: {
-                      backgroundColor: variables.colors.white
+                      backgroundColor: variables.colors.white,
                   },
                   table: {
                       th: {
                           color: variables.colors.white,
-                          backgroundColor: variables.colors.black
+                          backgroundColor: variables.colors.black,
                       },
                       tr: {
                           color: variables.colors.black,
-                          backgroundColor: '#e0e0e0'
-                      }
-                  }
+                          backgroundColor: '#e0e0e0',
+                      },
+                  },
               };
     };
 

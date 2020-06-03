@@ -21,9 +21,9 @@ export const Icon = styled.svg`
 // For example 'data-ANYTHING' or 'aria-ANYTHING'
 // Custom attributes like 'checkboxtype' that we had previously don't work
 // Maybe in a feature styled-components version we can remove this
-export const HiddenCheckbox = styled.input.attrs(props => ({
+export const HiddenCheckbox = styled.input.attrs((props) => ({
     type: 'checkbox',
-    'data-checkbox-type': props.checkboxtype
+    'data-checkbox-type': props.checkboxtype,
 }))`
     position: absolute;
     width: 1px;
@@ -41,7 +41,7 @@ export const SCCheckbox = styled.div`
     display: inline-block;
     width: 16px;
     height: 16px;
-    background: ${props => (props.checked ? '#f06292' : '#f8bbd0')};
+    background: ${(props) => (props.checked ? '#f06292' : '#f8bbd0')};
     border-radius: 3px;
     transition: all 150ms;
 
@@ -50,6 +50,6 @@ export const SCCheckbox = styled.div`
     }
 
     ${Icon} {
-        visibility: ${props => (props.checked ? 'visible' : 'hidden')};
+        visibility: ${(props) => (props.checked ? 'visible' : 'hidden')};
     }
 `;

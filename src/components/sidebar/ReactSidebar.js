@@ -6,11 +6,11 @@ import { SidebarContext } from '../../store';
 const styles = {
     sidebar: { background: 'white', position: 'fixed' },
     root: {
-        overflow: 'initial'
+        overflow: 'initial',
     },
     content: {
-        overflowY: 'initial'
-    }
+        overflowY: 'initial',
+    },
 };
 
 const sidebar = <SCSidebar />;

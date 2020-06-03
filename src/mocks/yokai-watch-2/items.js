@@ -12,11 +12,11 @@ const items = [
             'Dropped by Brushido',
             'Dropped by Wotchagot',
             'Dropped by No-Go Kart',
-            'Dropped by Tongus'
+            'Dropped by Tongus',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,2', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 1,
@@ -62,11 +62,11 @@ const items = [
             'Dropped by Unkaind',
             'Dropped by Untidy',
             'Dropped by Unpleasant',
-            'Dropped by Unkeen'
+            'Dropped by Unkeen',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 2,
@@ -124,11 +124,11 @@ const items = [
             'Quest – Go for Rank C!',
             'Quest – Treasure Hunters Pt. 1',
             'Lottery',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8', buy: '0,8' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 3,
@@ -194,11 +194,11 @@ const items = [
             'Dropped by High Gnomey',
             'Dropped by Tyrat',
             'Dropped by Multimutt',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '26', buy: '260' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 4,
@@ -266,11 +266,11 @@ const items = [
             'Dropped by Shad. Venoct',
             'Dropped by Dame Dedtime',
             'Lottery',
-            'Password'
+            'Password',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '92', buy: '920' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 5,
@@ -311,11 +311,11 @@ const items = [
             "Quest – Jibanyan's Own Home",
             'Brush your teeth at your place. Can be repeated.',
             'Dropped by Darkyubi.',
-            'Dropped by Illuminoct.'
+            'Dropped by Illuminoct.',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '150', buy: '990' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 6,
@@ -332,11 +332,11 @@ const items = [
             'Dropped by Robonyan',
             'Dropped by Goldenyan',
             'Dropped by Leggly',
-            'Dropped by Wondernyan'
+            'Dropped by Wondernyan',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2,4', buy: '12' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 7,
@@ -360,11 +360,11 @@ const items = [
             'Dropped by Furdinand',
             'Dropped by Shamasol',
             'Quest – Super Hide-and-Seek',
-            'Quest – The Bear Boy Returns'
+            'Quest – The Bear Boy Returns',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '4,8', buy: '24' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 8,
@@ -417,11 +417,11 @@ const items = [
             'Lottery',
             'Dropped by Moximous N.',
             'Dropped by Illuminoct.',
-            'Dropped by Gargaros.'
+            'Dropped by Gargaros.',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '40', buy: '200' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 9,
@@ -473,11 +473,11 @@ const items = [
             'Excellent Tower – Scratch-off',
             'Dropped by Moximous K.',
             'Dropped by Darkyubi.',
-            'Dropped by Ogralus.'
+            'Dropped by Ogralus.',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '40', buy: '200' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 10,
@@ -528,11 +528,11 @@ const items = [
             'Quest – Find Pallysol!',
             'Quest – Independent Study, Pt. 3',
             'Lottery',
-            'Dropped by Orcanos.'
+            'Dropped by Orcanos.',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '40', buy: '200' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 11,
@@ -559,11 +559,11 @@ const items = [
             'Quest – A Card-Carrying Liar',
             'Quest – Independent Study, Pt. 1',
             'Quest – Independent Study, Pt. 2',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '250' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 12,
@@ -582,11 +582,11 @@ const items = [
             'Dropped by Scarasol',
             'Dropped by Smashibull',
             'Dropped by Firewig',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2,5', buy: '9,8' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 13,
@@ -612,11 +612,11 @@ const items = [
             'Dropped by Madmunch',
             'Quest – Customer Attraction!',
             'Quest – Your Local Mascot',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 14,
@@ -635,11 +635,11 @@ const items = [
             'Dropped by Miradox',
             'Dropped by Illoo',
             'Dropped by Elloo',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2,5', buy: '9,8' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 15,
@@ -662,11 +662,11 @@ const items = [
             'Dropped by Kingmera',
             'Dropped by Komashura',
             'Quest – Customer Attraction!',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 16,
@@ -685,11 +685,11 @@ const items = [
             'Dropped by Abodabat',
             'Dropped by Danke Sand',
             'Dropped by No Sandkyu',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2,5', buy: '9,8' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 17,
@@ -711,11 +711,11 @@ const items = [
             'Dropped by Touphant',
             'Dropped by Belfree',
             'Dropped by Coughkoff',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 18,
@@ -735,11 +735,11 @@ const items = [
             'Dropped by Urnaconda',
             'Dropped by Lady Longnek',
             'Dropped by Wrongnek',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2,5', buy: '9,8' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 19,
@@ -762,11 +762,11 @@ const items = [
             'Dropped by Lady Longnek',
             'Dropped by Wrongnek',
             'Quest – Your Local Mascot',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 20,
@@ -779,7 +779,7 @@ const items = [
         locations: ["Shopper's Row", 'Settle In Bookstore', 'Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2,5', buy: '9,8' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 21,
@@ -802,11 +802,11 @@ const items = [
             'Dropped by Tantroni',
             'Dropped by Yoodooit',
             'Dropped by Hurchin',
-            'Dropped by Compunzer'
+            'Dropped by Compunzer',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 22,
@@ -826,11 +826,11 @@ const items = [
             'Dropped by Vacuumory',
             'Dropped by Takoyakid',
             'Dropped by Takoyaking',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '2,5', buy: '9,8' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 23,
@@ -854,11 +854,11 @@ const items = [
             'Dropped by Spoilerina',
             'Quest – Your Local Mascot',
             'Quest – A Real Charmer',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 24,
@@ -886,11 +886,11 @@ const items = [
             'Dropped by Gilgaros',
             'Dropped by Madmunch',
             'Quest – Ghost Club at School',
-            'Dropped by Gargaros.'
+            'Dropped by Gargaros.',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 25,
@@ -917,11 +917,11 @@ const items = [
             'Dropped by Compunzer',
             'Dropped by Mermother',
             'Quest – Ghost Club at School',
-            'Dropped by Ogralus.'
+            'Dropped by Ogralus.',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 26,
@@ -944,11 +944,11 @@ const items = [
             'Dropped by Uber Geeko',
             'Dropped by Unikirin',
             'Dropped by Robodraggie',
-            'Dropped by Orcanos.'
+            'Dropped by Orcanos.',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 27,
@@ -971,11 +971,11 @@ const items = [
             'Dropped by Venoct',
             'Dropped by Shad. Venoct',
             'Dropped by Dandoodle',
-            'Dropped by Robomutt'
+            'Dropped by Robomutt',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 28,
@@ -998,11 +998,11 @@ const items = [
             'Dropped by Awevil',
             'Dropped by Furgus',
             'Dropped by Feargus',
-            'Quest – The Price of the World'
+            'Quest – The Price of the World',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3', buy: '30' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 29,
@@ -1035,11 +1035,11 @@ const items = [
             'Dropped by Grumples',
             'Quest – Long Lost Love',
             'Quest – The Price of the World',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '6', buy: '60' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 30,
@@ -1084,11 +1084,11 @@ const items = [
             'Quest – Back to Yo-kai World',
             'Quest – The Price of the World',
             'Quest – The Darknyan',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '24', buy: '120' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 31,
@@ -1123,11 +1123,11 @@ const items = [
             'Dropped by Blandon',
             'Dropped by Nul',
             'Dropped by Pandanoko',
-            'Quest – Treasure Hunters Pt. 2'
+            'Quest – Treasure Hunters Pt. 2',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '5' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 32,
@@ -1164,11 +1164,11 @@ const items = [
             'Dropped by Ledballoon',
             'Dropped by Dazzabel',
             'Dropped by Leadoni',
-            'Dropped by Spenp'
+            'Dropped by Spenp',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3', buy: '3' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 33,
@@ -1216,11 +1216,11 @@ const items = [
             'Dropped by Almi',
             'Dropped by Scaremaiden',
             'Lottery',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 34,
@@ -1285,11 +1285,11 @@ const items = [
             'Quest – Find Predictabull!',
             'Quest – Go for Rank A!',
             'Quest – The Price of Iron',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 35,
@@ -1344,11 +1344,11 @@ const items = [
             "Quest – Mr. Byrd's Tragic Tale",
             'Quest – Whistory Lesson, Part 2',
             'Lottery',
-            'Password'
+            'Password',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '200', buy: '200' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 36,
@@ -1362,11 +1362,11 @@ const items = [
             'Divine Paradise – 3F',
             'Mystery Way – Crank–a–kai – Mystery Coin',
             'Dropped by Castelius Max',
-            'Quest – Getting Gera Gera Going'
+            'Quest – Getting Gera Gera Going',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '600', buy: '600' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 37,
@@ -1378,7 +1378,7 @@ const items = [
         locations: ['Uptown – Fish Place', "Rusty's Mart"],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 38,
@@ -1403,11 +1403,11 @@ const items = [
             'Dropped by Enerfly',
             'Dropped by Enefly',
             'Dropped by Betterfly',
-            'Dropped by Peppillon'
+            'Dropped by Peppillon',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,3', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 39,
@@ -1426,11 +1426,11 @@ const items = [
             'Old Harrisville',
             'Gera Gera Land',
             'Infinite Inferno – 4th Circle',
-            'Quest – Trying Tangle Tango'
+            'Quest – Trying Tangle Tango',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 40,
@@ -1457,11 +1457,11 @@ const items = [
             'Dropped by Dubbles',
             'Dropped by Yoink',
             'Dropped by Wondernyan',
-            'Quest – The Secret Base'
+            'Quest – The Secret Base',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 41,
@@ -1480,11 +1480,11 @@ const items = [
             'Gera Gera Land',
             'Infinite Inferno – 1st Circle',
             'Quest – Hangout Havoc',
-            'Quest – Time and Toys'
+            'Quest – Time and Toys',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 42,
@@ -1496,7 +1496,7 @@ const items = [
         locations: ['Blasters.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 43,
@@ -1508,7 +1508,7 @@ const items = [
         locations: ['Blasters.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '3', buy: '3' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 44,
@@ -1519,11 +1519,11 @@ const items = [
         effect: '',
         locations: [
             'Blasters.',
-            'Wash your hands at your place. Can be repeated.'
+            'Wash your hands at your place. Can be repeated.',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5', buy: '5' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 45,
@@ -1539,11 +1539,11 @@ const items = [
             'Quest – Unkaind: Origins',
             'Quest – Untidy: Origins',
             'Quest – Unpleasant: Origins',
-            'Quest – Unkeen: Origins'
+            'Quest – Unkeen: Origins',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 46,
@@ -1555,7 +1555,7 @@ const items = [
         locations: ['Fusion.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 47,
@@ -1568,7 +1568,7 @@ const items = [
         locations: ['Fusion.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 48,
@@ -1581,7 +1581,7 @@ const items = [
         locations: ['Fusion.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 49,
@@ -1594,7 +1594,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 50,
@@ -1607,7 +1607,7 @@ const items = [
         locations: ['Dropped by Cupistol'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 51,
@@ -1619,7 +1619,7 @@ const items = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 52,
@@ -1632,7 +1632,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 53,
@@ -1644,7 +1644,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 54,
@@ -1656,7 +1656,7 @@ const items = [
         locations: ['Blasters.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 55,
@@ -1668,7 +1668,7 @@ const items = [
         locations: ['Quest – Too Much Makeover'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '35', buy: '35' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 56,
@@ -1681,7 +1681,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 57,
@@ -1693,7 +1693,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '22', buy: '22' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 58,
@@ -1706,7 +1706,7 @@ const items = [
         locations: ['Blasters.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 59,
@@ -1719,7 +1719,7 @@ const items = [
         locations: ['Blasters.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 60,
@@ -1731,7 +1731,7 @@ const items = [
         locations: ['Memory Store'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 61,
@@ -1745,11 +1745,11 @@ const items = [
             'Uptown Springdale – Desolate Lane',
             "Shopper's Row – Tranquility Apts. – C–303",
             "Shopper's Row – Nocturne Hospital",
-            'Whatta Find'
+            'Whatta Find',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 62,
@@ -1761,7 +1761,7 @@ const items = [
         locations: ['Whatta Find', 'Excellent Tower – Scratch-off'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '35', buy: '35' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 63,
@@ -1774,7 +1774,7 @@ const items = [
         locations: ['Whatta Find'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 64,
@@ -1787,7 +1787,7 @@ const items = [
         locations: ['Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 65,
@@ -1799,7 +1799,7 @@ const items = [
         locations: ['Jungle Hunter', 'Quest – C-1 Grand Prix Y'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '35', buy: '35' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 66,
@@ -1811,11 +1811,11 @@ const items = [
         effect: '',
         locations: [
             'Jungle Hunter',
-            'Randomly given by a passerby in the train (Central Line).'
+            'Randomly given by a passerby in the train (Central Line).',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '50', buy: '50' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 67,
@@ -1827,7 +1827,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '80', buy: '80' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 68,
@@ -1840,7 +1840,7 @@ const items = [
         locations: ['Meal mini-game at night at Grandma’s house.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '35', buy: '35' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 69,
@@ -1868,11 +1868,11 @@ const items = [
             'Dropped by Strawbnyan',
             'Dropped by Watermelnyan',
             'Dropped by Meganyan',
-            'Lottery'
+            'Lottery',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '5', buy: '5' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 70,
@@ -1885,7 +1885,7 @@ const items = [
         locations: ['Jungle Hunter'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '8', buy: '8' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 71,
@@ -1897,7 +1897,7 @@ const items = [
         locations: ["Quest – Nyada's Trials IV", 'Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 72,
@@ -1910,7 +1910,7 @@ const items = [
         locations: ["Quest – Nyada's Trials IV", 'Lottery'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 73,
@@ -1923,7 +1923,7 @@ const items = [
         locations: ['Blasters.'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,2', buy: '0,2' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 74,
@@ -1935,7 +1935,7 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 75,
@@ -1947,7 +1947,7 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 76,
@@ -1960,7 +1960,7 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 77,
@@ -1972,7 +1972,7 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 78,
@@ -1984,7 +1984,7 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 79,
@@ -1996,7 +1996,7 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 80,
@@ -2009,7 +2009,7 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 81,
@@ -2021,7 +2021,7 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 82,
@@ -2033,7 +2033,7 @@ const items = [
         locations: ['Password'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '10', buy: '10' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 83,
@@ -2047,11 +2047,11 @@ const items = [
             'Dropped by Panja Pupil',
             'Dropped by Panja Pro',
             'Dropped by Happycane',
-            'Dropped by Starrycane'
+            'Dropped by Starrycane',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,5', buy: '0,5' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 84,
@@ -2065,11 +2065,11 @@ const items = [
             'Dropped by Lodo',
             'Dropped by Herbiboy',
             'Dropped by Chummer',
-            'Dropped by Shrook'
+            'Dropped by Shrook',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0,5', buy: '0,5' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 85,
@@ -2082,7 +2082,7 @@ const items = [
         locations: ['Dropped by Dromp'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 86,
@@ -2097,12 +2097,12 @@ const items = [
             'Dropped by Hoggles',
             'QR Code',
             'Password',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [0, 1]
+        crankakaiIndexes: [0, 1],
     },
     {
         index: 87,
@@ -2119,12 +2119,12 @@ const items = [
             'Quest – Foodie Feuds',
             'QR Code',
             'Password',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [2, 3]
+        crankakaiIndexes: [2, 3],
     },
     {
         index: 88,
@@ -2140,12 +2140,12 @@ const items = [
             'Quest – The Haunted Hospital',
             'QR Code',
             'Password',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [4, 5]
+        crankakaiIndexes: [4, 5],
     },
     {
         index: 89,
@@ -2162,12 +2162,12 @@ const items = [
             'Quest – C-1 Grand Prix',
             'QR Code',
             'Password',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [6, 7]
+        crankakaiIndexes: [6, 7],
     },
     {
         index: 90,
@@ -2185,12 +2185,12 @@ const items = [
             "Quest – Who's That Girl",
             'QR Code',
             'Password',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [8, 9]
+        crankakaiIndexes: [8, 9],
     },
     {
         index: 91,
@@ -2208,12 +2208,12 @@ const items = [
             'Quest – C-1 Grand Prix A',
             'QR Code',
             'Password',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [10, 11]
+        crankakaiIndexes: [10, 11],
     },
     {
         index: 92,
@@ -2230,12 +2230,12 @@ const items = [
             'Quest – King of the Cicadas',
             'QR Code',
             'Password',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [12, 13]
+        crankakaiIndexes: [12, 13],
     },
     {
         index: 93,
@@ -2251,12 +2251,12 @@ const items = [
             "Quest – Nyada's Trials I",
             'QR Code',
             'Password',
-            'Excellent Tower – Scratch-off'
+            'Excellent Tower – Scratch-off',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [14, 15]
+        crankakaiIndexes: [14, 15],
     },
     {
         index: 94,
@@ -2269,7 +2269,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [16, 17]
+        crankakaiIndexes: [16, 17],
     },
     {
         index: 95,
@@ -2282,7 +2282,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [18, 19]
+        crankakaiIndexes: [18, 19],
     },
     {
         index: 96,
@@ -2295,7 +2295,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [20]
+        crankakaiIndexes: [20],
     },
     {
         index: 97,
@@ -2308,7 +2308,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [21]
+        crankakaiIndexes: [21],
     },
     {
         index: 98,
@@ -2321,7 +2321,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [22]
+        crankakaiIndexes: [22],
     },
     {
         index: 99,
@@ -2334,7 +2334,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [23]
+        crankakaiIndexes: [23],
     },
     {
         index: 100,
@@ -2347,7 +2347,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [26]
+        crankakaiIndexes: [26],
     },
     {
         index: 101,
@@ -2360,7 +2360,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [24]
+        crankakaiIndexes: [24],
     },
     {
         index: 102,
@@ -2373,7 +2373,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [25]
+        crankakaiIndexes: [25],
     },
     {
         index: 103,
@@ -2386,7 +2386,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [26]
+        crankakaiIndexes: [26],
     },
     {
         index: 104,
@@ -2397,12 +2397,12 @@ const items = [
         effect: '',
         locations: [
             'Mt.Wildwood – Crank–a–kai – Flower Excitement Coin',
-            'Password'
+            'Password',
         ],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [28]
+        crankakaiIndexes: [28],
     },
     {
         index: 105,
@@ -2415,7 +2415,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [29]
+        crankakaiIndexes: [29],
     },
     {
         index: 106,
@@ -2428,7 +2428,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [30]
+        crankakaiIndexes: [30],
     },
     {
         index: 107,
@@ -2441,7 +2441,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [31]
+        crankakaiIndexes: [31],
     },
     {
         index: 108,
@@ -2454,7 +2454,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [32]
+        crankakaiIndexes: [32],
     },
     {
         index: 109,
@@ -2467,7 +2467,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [32]
+        crankakaiIndexes: [32],
     },
     {
         index: 110,
@@ -2480,7 +2480,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [34]
+        crankakaiIndexes: [34],
     },
     {
         index: 111,
@@ -2493,7 +2493,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [35]
+        crankakaiIndexes: [35],
     },
     {
         index: 112,
@@ -2506,7 +2506,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [36]
+        crankakaiIndexes: [36],
     },
     {
         index: 113,
@@ -2519,7 +2519,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [36]
+        crankakaiIndexes: [36],
     },
     {
         index: 114,
@@ -2532,7 +2532,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [40]
+        crankakaiIndexes: [40],
     },
     {
         index: 115,
@@ -2545,7 +2545,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [42]
+        crankakaiIndexes: [42],
     },
     {
         index: 116,
@@ -2558,7 +2558,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [41]
+        crankakaiIndexes: [41],
     },
     {
         index: 117,
@@ -2571,7 +2571,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [43]
+        crankakaiIndexes: [43],
     },
     {
         index: 118,
@@ -2584,7 +2584,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
         type: 'items',
-        crankakaiIndexes: [38]
+        crankakaiIndexes: [38],
     },
     {
         index: 119,
@@ -2596,7 +2596,7 @@ const items = [
         locations: ['Uptown Springdale', 'QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 120,
@@ -2608,7 +2608,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 121,
@@ -2620,7 +2620,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 122,
@@ -2632,7 +2632,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 123,
@@ -2644,7 +2644,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 124,
@@ -2656,7 +2656,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 125,
@@ -2668,7 +2668,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 126,
@@ -2680,7 +2680,7 @@ const items = [
         locations: ['QR Code'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 127,
@@ -2693,7 +2693,7 @@ const items = [
         locations: ['Randomly given by a passerby'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 128,
@@ -2705,7 +2705,7 @@ const items = [
         locations: ['Clear Gates of Whimsy challenges'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 129,
@@ -2718,7 +2718,7 @@ const items = [
         locations: ['Mt. Wildwood'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 130,
@@ -2731,7 +2731,7 @@ const items = [
         locations: ['Quest – A Real Charmer'],
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '1', buy: '1' },
-        type: 'items'
+        type: 'items',
     },
     {
         index: 131,
@@ -2744,7 +2744,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [46]
+        crankakaiIndexes: [46],
     },
     {
         index: 132,
@@ -2757,7 +2757,7 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [45]
+        crankakaiIndexes: [45],
     },
     {
         index: 133,
@@ -2770,8 +2770,8 @@ const items = [
         statsInfo: { str: '0', spr: '0', def: '0', spd: '0' },
         priceInfo: { sell: '0', buy: '0' },
         type: 'items',
-        crankakaiIndexes: [39]
-    }
+        crankakaiIndexes: [39],
+    },
 ];
 
 export default items;

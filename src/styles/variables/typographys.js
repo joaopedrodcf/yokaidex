@@ -74,7 +74,7 @@ const typographys = {
     lTitle,
     xsBold,
     mBold,
-    lBold
+    lBold,
 };
 
 export default typographys;

@@ -8,20 +8,20 @@ import utils from '../components/utils';
 export const YokaisContext = React.createContext();
 
 const filterYokais = (yokais, filterName, filterFilters) => {
-    return yokais.filter(yokai => {
+    return yokais.filter((yokai) => {
         let aux = true;
 
         const filters = {
             tribe: filterFilters.tribe,
             rank: filterFilters.rank,
-            element: filterFilters.element
+            element: filterFilters.element,
         };
 
         if (!yokai.name.toLowerCase().includes(filterName)) {
             return false;
         }
 
-        Object.keys(filters).forEach(el => {
+        Object.keys(filters).forEach((el) => {
             if (
                 filters[el].length > 0 &&
                 !filters[el].includes(yokai[el].toLowerCase())
@@ -117,7 +117,7 @@ const filterYokais = (yokais, filterName, filterFilters) => {
     });
 };
 
-const getYokais = gameVersion => {
+const getYokais = (gameVersion) => {
     switch (gameVersion) {
         case '1':
             return yokaisGame1;
@@ -133,13 +133,13 @@ const initialStateCheckboxes = {
     rank: [],
     element: [],
     misc: [],
-    types: []
+    types: [],
 };
 
 const reducerCheckboxes = (state, { name, value }) => {
     return {
         ...state,
-        [name]: value
+        [name]: value,
     };
 };
 
@@ -157,15 +157,15 @@ const YokaisProvider = ({ children }) => {
 
     const { tribe, rank, element, misc, types } = checkboxes;
 
-    const changeYokais = gameVersion => {
+    const changeYokais = (gameVersion) => {
         setYokais(getYokais(gameVersion));
         setInitialYokais(getYokais(gameVersion));
     };
 
-    const getYokai = yokaiName => {
+    const getYokai = (yokaiName) => {
         if (yokaiName.includes('_boss')) {
             return initialYokais.find(
-                yokai =>
+                (yokai) =>
                     yokai.tribe.toLowerCase() === 'boss' &&
                     utils.uniformizeNames(yokai.name, 'boss') ===
                         utils.uniformizeNames(name)
@@ -173,7 +173,7 @@ const YokaisProvider = ({ children }) => {
         }
 
         return initialYokais.find(
-            yokai =>
+            (yokai) =>
                 utils.uniformizeNames(yokai.name) ===
                 utils.uniformizeNames(yokaiName)
         );
@@ -190,7 +190,7 @@ const YokaisProvider = ({ children }) => {
         setYokais(initialYokais);
     };
 
-    const handleCheckbox = event => {
+    const handleCheckbox = (event) => {
         const { checked } = event.target;
         const checkboxtype = event.target.getAttribute('data-checkbox-type');
         const nameLowerCase = event.target.name.toLowerCase();
@@ -201,7 +201,7 @@ const YokaisProvider = ({ children }) => {
             newCheckboxType = [...checkboxes[checkboxtype], nameLowerCase];
         } else {
             newCheckboxType = checkboxes[checkboxtype].filter(
-                x => x !== nameLowerCase
+                (x) => x !== nameLowerCase
             );
         }
 
@@ -211,7 +211,7 @@ const YokaisProvider = ({ children }) => {
             element,
             misc,
             types,
-            [checkboxtype]: newCheckboxType
+            [checkboxtype]: newCheckboxType,
         };
 
         const filteredYokais = filterYokais(initialYokais, name, filters);
@@ -220,7 +220,7 @@ const YokaisProvider = ({ children }) => {
         setYokais(filteredYokais);
     };
 
-    const handleText = event => {
+    const handleText = (event) => {
         const newName = event.target.value.toLowerCase();
 
         const filters = {
@@ -228,7 +228,7 @@ const YokaisProvider = ({ children }) => {
             rank,
             element,
             misc,
-            types
+            types,
         };
 
         const filteredYokais = filterYokais(initialYokais, newName, filters);
@@ -251,7 +251,7 @@ const YokaisProvider = ({ children }) => {
                 name,
                 handleResetFilter,
                 handleCheckbox,
-                handleText
+                handleText,
             }}
         >
             {children}

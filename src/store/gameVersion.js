@@ -6,7 +6,7 @@ export const GameVersionContext = React.createContext();
 const GameVersionProvider = ({ children }) => {
     const [gameVersion, setGameVersion] = useState(utils.getGameVersion());
 
-    const changeGameVersion = newGameVersion => {
+    const changeGameVersion = (newGameVersion) => {
         setGameVersion(newGameVersion);
     };
 

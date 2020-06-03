@@ -9,12 +9,12 @@ import Image from '../../../components/shared/image';
 const rowHeight = 109 + 12;
 
 const List = ({ gameVersion, yokais }) => {
-    const getGradientTribe = tribe => {
+    const getGradientTribe = (tribe) => {
         return {
             background: `linear-gradient(to bottom, ${utils.getGradientColor(
                 tribes,
                 tribe
-            )})`
+            )})`,
         };
     };
 

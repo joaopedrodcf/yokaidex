@@ -5,7 +5,7 @@ const sizeTable = {
     small: '35px',
     medium: '62px',
     large: '150px',
-    special: '25px'
+    special: '25px',
 };
 
 export const SCImage = styled.img`

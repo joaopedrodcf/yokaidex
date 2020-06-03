@@ -7,7 +7,7 @@ const types = [
     "'Merican",
     'Legendary mystery',
     'Treasure',
-    'Pioneer'
+    'Pioneer',
 ];
 
 export default types;

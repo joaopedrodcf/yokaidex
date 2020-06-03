@@ -7,8 +7,8 @@ export const SCButton = styled.button`
     align-items: center;
     justify-content: center;
     padding: ${variables.spacers.s} ${variables.spacers.m};
-    color: ${props => props.theme.button.color};
-    background-color: ${props => props.theme.button.backgroundColor};
+    color: ${(props) => props.theme.button.color};
+    background-color: ${(props) => props.theme.button.backgroundColor};
     border: 0;
     border-radius: ${variables.spacers.xxs};
     outline: none;

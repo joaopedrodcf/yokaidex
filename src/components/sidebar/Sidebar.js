@@ -15,7 +15,7 @@ import {
     Sections,
     SectionsHeader,
     ToggleSection,
-    ToggleText
+    ToggleText,
 } from './style';
 import ToggleSwitch from '../shared/toggle-switch/ToggleSwitch';
 import {
@@ -24,7 +24,7 @@ import {
     BaffleBoardContext,
     ItemsContext,
     CrankakaisContext,
-    ThemeContext
+    ThemeContext,
 } from '../../store';
 
 const Sidebar = () => {
@@ -35,7 +35,7 @@ const Sidebar = () => {
     const { changeItems } = useContext(ItemsContext);
     const { changeYokais } = useContext(YokaisContext);
 
-    const handleChangeGameVersion = event => {
+    const handleChangeGameVersion = (event) => {
         const version = event.currentTarget.getAttribute('version');
 
         changeGameVersion(version);
@@ -45,7 +45,7 @@ const Sidebar = () => {
         changeCrankakais(version);
     };
 
-    const checkIfSelected = version => {
+    const checkIfSelected = (version) => {
         return gameVersion === version;
     };
 
