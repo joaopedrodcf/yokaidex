@@ -8,6 +8,7 @@ import { CrankakaisContext, GameVersionContext } from '../../store';
 import utils from '../../components/utils';
 import Global from '../../styles';
 import withTracker from '../../components/shared/with-tracker';
+import ProductAdsAmazon from '../../components/product-ads-amazon';
 
 const Crankakai = () => {
     const { crankakais } = useContext(CrankakaisContext);
@@ -22,6 +23,7 @@ const Crankakai = () => {
                 </title>
             </Helmet>
             <ContainerSeal>
+                <ProductAdsAmazon />
                 {crankakais.map((item) => (
                     <SealElements key={item.index}>
                         <Link
