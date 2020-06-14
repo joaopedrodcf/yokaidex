@@ -16,6 +16,7 @@ import {
 } from '../../store';
 import Global from '../../styles';
 import withTracker from '../../components/shared/with-tracker';
+import ShareButtons from '../../components/share-buttons';
 
 const ItemCard = () => {
     const { getCrankakai } = useContext(CrankakaisContext);
@@ -39,10 +40,36 @@ const ItemCard = () => {
                     name="description"
                     content={`${item.name} is an item from Yo-kai Watch ${gameVersion}`}
                 />
+
+                {/* OG */}
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:title"
+                    content={`${item.name} | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}
+                />
+                <meta
+                    property="og:description"
+                    content={`${item.name} is an item from Yo-kai Watch ${gameVersion}`}
+                />
                 <meta name="og:image" content={item.image} />
+                <meta property="og:url" content={window.location.href} />
+
+                {/* TWITTER */}
+                <meta name="twitter:site" content="@yokaidex" />
+                <meta
+                    name="twitter:title"
+                    content={`${item.name} | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}
+                />
+                <meta
+                    name="twitter:description"
+                    content={`${item.name} is an item from Yo-kai Watch ${gameVersion}`}
+                />
+                <meta name="twitter:image" content={item.image} />
+                <meta name="twitter:card" content="summary_large_image" />
             </Helmet>
             <Image imageUrl={item.image} altText={item.name} size="medium" />
             <h1>{item.name}</h1>
+            <ShareButtons />
             <Price sell={item.priceInfo.sell} buy={item.priceInfo.buy} />
             <Stats statsInfo={item.statsInfo} />
             <Description description={item.description} />
