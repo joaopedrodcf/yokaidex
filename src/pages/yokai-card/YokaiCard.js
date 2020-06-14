@@ -47,6 +47,7 @@ const YokaiCard = () => {
             </Helmet>
 
             <Image imageUrl={yokai.image} altText={yokai.name} size="large" />
+            <h1>{yokai.name}</h1>
             <SideInformation
                 yokaiNumber={yokai.yokaiNumber}
                 rank={yokai.rank}

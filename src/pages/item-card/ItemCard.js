@@ -42,6 +42,7 @@ const ItemCard = () => {
                 <meta name="og:image" content={item.image} />
             </Helmet>
             <Image imageUrl={item.image} altText={item.name} size="medium" />
+            <h1>{item.name}</h1>
             <Price sell={item.priceInfo.sell} buy={item.priceInfo.buy} />
             <Stats statsInfo={item.statsInfo} />
             <Description description={item.description} />
