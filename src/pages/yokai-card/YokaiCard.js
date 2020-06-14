@@ -19,6 +19,7 @@ import utils from '../../components/utils';
 import { GameVersionContext, YokaisContext } from '../../store';
 import Global from '../../styles';
 import withTracker from '../../components/shared/with-tracker';
+import ShareButtons from '../../components/share-buttons';
 
 const YokaiCard = () => {
     const { gameVersion } = useContext(GameVersionContext);
@@ -43,11 +44,35 @@ const YokaiCard = () => {
                     name="description"
                     content={`${yokai.name} is a yo-kai from ${yokai.tribe} tribe, of the rank ${yokai.rank} and with the attribute ${yokai.element} in Yo-kai Watch ${gameVersion}`}
                 />
+                {/* OG */}
+                <meta property="og:type" content="website" />
+                <meta
+                    property="og:title"
+                    content={`${yokai.name} | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}
+                />
+                <meta
+                    property="og:description"
+                    content={`${yokai.name} is a yo-kai from ${yokai.tribe} tribe, of the rank ${yokai.rank} and with the attribute ${yokai.element} in Yo-kai Watch ${gameVersion}`}
+                />
                 <meta name="og:image" content={yokai.image} />
+                <meta property="og:url" content={window.location.href} />
+                {/* TWITTER */}
+                <meta name="twitter:site" content="@yokaidex" />
+                <meta
+                    name="twitter:title"
+                    content={`${yokai.name} | Yokaidex - Where you can find all the information from Yo-kai Watch games!`}
+                />
+                <meta
+                    name="twitter:description"
+                    content={`${yokai.name} is a yo-kai from ${yokai.tribe} tribe, of the rank ${yokai.rank} and with the attribute ${yokai.element} in Yo-kai Watch ${gameVersion}`}
+                />
+                <meta name="twitter:image" content={yokai.image} />
+                <meta name="twitter:card" content="summary_large_image" />
             </Helmet>
 
             <Image imageUrl={yokai.image} altText={yokai.name} size="large" />
             <h1>{yokai.name}</h1>
+            <ShareButtons />
             <SideInformation
                 yokaiNumber={yokai.yokaiNumber}
                 rank={yokai.rank}
