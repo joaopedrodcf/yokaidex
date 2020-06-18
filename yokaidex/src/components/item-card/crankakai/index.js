@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 import { ContainerSeal, SealElements } from './style';
 import utils from '../../utils';
 import Global from '../../../styles';

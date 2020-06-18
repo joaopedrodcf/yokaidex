@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 import ArrowRight from 'react-feather/dist/icons/arrow-right';
 import Plus from 'react-feather/dist/icons/plus';
 import { Row, Column, ContainerEvolutions } from './style';

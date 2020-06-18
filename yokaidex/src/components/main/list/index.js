@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 import { List as VirtualizedList, AutoSizer } from 'react-virtualized';
 import { Section, SectionWrapper, Row, SectionImageTitle } from './style';
 import utils from '../../utils';

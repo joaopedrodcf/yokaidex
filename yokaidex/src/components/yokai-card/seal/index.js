@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 import { Requirements, Requirement } from './style';
 import { legendarys } from '../../../mocks';
 import Global from '../../../styles';

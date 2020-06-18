@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
-import { ContextProvider, ThemeContext } from '../../store';
+import { ThemeContext } from '../../store';
 import ScrollToTop from '../shared/scroll-to-top';
 import Header from '../header';
 import Sidebar from '../sidebar';
@@ -43,20 +43,10 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Layout = ({ children }) => {
-    return (
-        <ScrollToTop>
-            <ContextProvider>
-                <Midleware>{children}</Midleware>
-            </ContextProvider>
-        </ScrollToTop>
-    );
-};
-
-const Midleware = ({ children }) => {
     const { getTheme } = useContext(ThemeContext);
 
     return (
-        <>
+        <ScrollToTop>
             <GlobalStyle theme={getTheme()} />
             <ThemeProvider theme={getTheme()}>
                 <Sidebar>
@@ -64,7 +54,7 @@ const Midleware = ({ children }) => {
                     {children}
                 </Sidebar>
             </ThemeProvider>
-        </>
+        </ScrollToTop>
     );
 };
 
