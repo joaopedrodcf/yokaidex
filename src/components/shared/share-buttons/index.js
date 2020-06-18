@@ -7,22 +7,25 @@ import {
     FacebookShareButton,
     FacebookIcon,
 } from 'react-share';
+import { useLocation } from 'react-router';
 import { Wrapper } from './style';
 
-const index = () => {
+const ShareButtons = () => {
+    const location = useLocation();
+
     return (
         <Wrapper>
-            <TwitterShareButton url={window.location.href}>
+            <TwitterShareButton url={location.href}>
                 <TwitterIcon size={32} round />
             </TwitterShareButton>
-            <WhatsappShareButton url={window.location.href}>
+            <WhatsappShareButton url={location.href}>
                 <WhatsappIcon size={32} round />
             </WhatsappShareButton>
-            <FacebookShareButton url={window.location.href}>
+            <FacebookShareButton url={location.href}>
                 <FacebookIcon size={32} round />
             </FacebookShareButton>
         </Wrapper>
     );
 };
 
-export default index;
+export default ShareButtons;

@@ -1,3 +1,5 @@
+import { useLocation } from 'react-router';
+
 const getColor = (types, wantedType) => {
     const typeRow = types.find(
         (aux) => wantedType.toLowerCase() === aux.name.toLowerCase()
@@ -70,8 +72,10 @@ const calculatePercentage = (value, max) => {
     return `${percentage}%`;
 };
 
-const getGameVersion = () => {
-    return window.location.pathname.split('/')[1].split('-')[2] || '3';
+const useGameVersion = () => {
+    const location = useLocation();
+
+    return location.pathname.split('/')[1].split('-')[2] || '3';
 };
 
 export default {
@@ -83,6 +87,6 @@ export default {
     uniformizeNames,
     capitalize,
     calculatePercentage,
-    getGameVersion,
+    useGameVersion,
     removeLocation,
 };

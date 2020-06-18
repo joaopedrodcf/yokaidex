@@ -1,7 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
-import { useParams } from 'react-router';
+import { useParams, useLocation } from 'react-router';
 import Crankakai from '../../components/yokai-card/crankakai';
 import Food from '../../components/yokai-card/food';
 import Moves from '../../components/yokai-card/moves';
@@ -25,6 +25,7 @@ const YokaiCard = () => {
     const { gameVersion } = useContext(GameVersionContext);
     const { getYokai } = useContext(YokaisContext);
     const { name } = useParams();
+    const location = useLocation();
 
     const yokai = getYokai(name);
 
@@ -55,7 +56,7 @@ const YokaiCard = () => {
                     content={`${yokai.name} is a yo-kai from ${yokai.tribe} tribe, of the rank ${yokai.rank} and with the attribute ${yokai.element} in Yo-kai Watch ${gameVersion}`}
                 />
                 <meta name="og:image" content={yokai.image} />
-                <meta property="og:url" content={window.location.href} />
+                <meta property="og:url" content={location.href} />
                 {/* TWITTER */}
                 <meta name="twitter:site" content="@yokaidex" />
                 <meta

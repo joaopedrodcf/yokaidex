@@ -1,7 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
-import { useParams } from 'react-router';
+import { useParams, useLocation } from 'react-router';
 import Crankakai from '../../components/item-card/crankakai';
 import Price from '../../components/item-card/price';
 import Stats from '../../components/item-card/stats';
@@ -23,6 +23,7 @@ const ItemCard = () => {
     const { gameVersion } = useContext(GameVersionContext);
     const { getItem } = useContext(ItemsContext);
     const { name } = useParams();
+    const location = useLocation();
 
     const item = getItem(name);
 
@@ -52,7 +53,7 @@ const ItemCard = () => {
                     content={`${item.name} is an item from Yo-kai Watch ${gameVersion}`}
                 />
                 <meta name="og:image" content={item.image} />
-                <meta property="og:url" content={window.location.href} />
+                <meta property="og:url" content={location.href} />
 
                 {/* TWITTER */}
                 <meta name="twitter:site" content="@yokaidex" />
