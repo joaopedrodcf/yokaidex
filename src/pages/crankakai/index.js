@@ -1,7 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
-import { Link } from 'react-router-dom';
+import { Link } from 'gatsby';
 import { ContainerSeal, SealElements } from './style';
 import Image from '../../components/shared/image';
 import { CrankakaisContext, GameVersionContext } from '../../store';

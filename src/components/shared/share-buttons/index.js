@@ -7,7 +7,7 @@ import {
     FacebookShareButton,
     FacebookIcon,
 } from 'react-share';
-import { useLocation } from 'react-router';
+import { useLocation } from '@reach/router';
 import { Wrapper } from './style';
 
 const ShareButtons = () => {

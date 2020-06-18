@@ -2,12 +2,12 @@
 import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
 import { Form } from './style';
-import Filters from '../../components/main/filters';
-import Search from '../../components/main/search';
-import List from '../../components/main/list';
-import { GameVersionContext, YokaisContext } from '../../store';
-import Global from '../../styles';
-import withTracker from '../../components/shared/with-tracker';
+import Filters from '../components/main/filters';
+import Search from '../components/main/search';
+import List from '../components/main/list';
+import { GameVersionContext, YokaisContext } from '../store';
+import Global from '../styles';
+import withTracker from '../components/shared/with-tracker';
 
 const Main = () => {
     const { gameVersion } = useContext(GameVersionContext);

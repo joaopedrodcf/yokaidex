@@ -1,10 +1,8 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { useContext } from 'react';
-import { useHistory } from 'react-router';
 import { Helmet } from 'react-helmet';
 import { Table, Row } from './style';
 import Image from '../../components/shared/image';
-import utils from '../../components/utils';
 import { GameVersionContext, BaffleBoardContext } from '../../store';
 import Global from '../../styles';
 import withTracker from '../../components/shared/with-tracker';
@@ -12,6 +10,11 @@ import withTracker from '../../components/shared/with-tracker';
 const BaffleBoard = () => {
     const { gameVersion } = useContext(GameVersionContext);
     const { baffleBoard } = useContext(BaffleBoardContext);
+
+    /*
+    import { useHistory } from '@reach/router';
+    import utils from '../../components/utils';
+    
     const history = useHistory();
 
     const goTo = (name) => {
@@ -19,6 +22,7 @@ const BaffleBoard = () => {
             `/yokai-watch-${gameVersion}/yokais/${utils.uniformizeNames(name)}`
         );
     };
+    */
 
     return (
         <Global.Container>

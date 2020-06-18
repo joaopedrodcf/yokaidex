@@ -1,4 +1,4 @@
-import { useLocation } from 'react-router';
+import { useLocation } from '@reach/router';
 
 const getColor = (types, wantedType) => {
     const typeRow = types.find(

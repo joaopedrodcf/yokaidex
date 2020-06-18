@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { useLocation } from 'react-router';
+import { useLocation } from '@reach/router';
 
 const ScrollToTop = ({ children }) => {
     const location = useLocation();

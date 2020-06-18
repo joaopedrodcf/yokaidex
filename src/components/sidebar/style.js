@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'gatsby';
 import variables from '../../styles/variables';
 
 export const Wrapper = styled.div`
@@ -22,7 +22,7 @@ export const Wrapper = styled.div`
     }
 `;
 
-export const SCNavLink = styled(NavLink).attrs({
+export const SCNavLink = styled(Link).attrs({
     activeClassName: 'active',
 })`
     display: flex;

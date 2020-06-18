@@ -1,7 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { useContext } from 'react';
 import { Helmet } from 'react-helmet';
-import { useParams, useLocation } from 'react-router';
+import { useParams, useLocation } from '@reach/router';
 import Crankakai from '../../components/yokai-card/crankakai';
 import Food from '../../components/yokai-card/food';
 import Moves from '../../components/yokai-card/moves';
