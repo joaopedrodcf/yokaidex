@@ -17,7 +17,7 @@ import {
     ToggleSection,
     ToggleText,
 } from './style';
-import ToggleSwitch from '../shared/toggle-switch/ToggleSwitch';
+import ToggleSwitch from '../shared/toggle-switch';
 import {
     GameVersionContext,
     YokaisContext,
