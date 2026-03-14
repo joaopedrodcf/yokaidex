@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+    --font-sans: "Quicksand", "Avenir Next", "Segoe UI", sans-serif;
+    --color-yokai-bg: #f8f8f8;
+    --color-yokai-surface: #ffffff;
+    --color-yokai-muted: #64748b;
+    --color-yokai-border: #d4d4d8;
+    --color-yokai-dark-bg: #09090b;
+    --color-yokai-dark-surface: #18181b;
+    --color-yokai-dark-border: #3f3f46;
+    --color-yokai-ink: #111111;
+    --color-yokai-ink-inverse: #fafafa;
+}
+
+:root {
+    color-scheme: light;
+}
+
+.dark {
+    color-scheme: dark;
+}
+
+html,
+body,
+#__nuxt {
+    min-height: 100%;
+}
+
+body {
+    @apply bg-[var(--color-yokai-bg)] text-[var(--color-yokai-ink)] antialiased;
+}
+
+.dark body {
+    @apply bg-[var(--color-yokai-dark-bg)] text-[var(--color-yokai-ink-inverse)];
+}
+
+a {
+    @apply transition-colors;
+}

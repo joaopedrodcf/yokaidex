@@ -1,0 +1,15 @@
+{
+    "$schema": "./node_modules/oxfmt/configuration_schema.json",
+    "ignorePatterns": [
+        ".agents/**",
+        "dist/**",
+        ".nuxt/**",
+        ".output/**",
+        "node_modules/**",
+        "skills-lock.json"
+    ],
+    "singleQuote": false,
+    "trailingComma": "all",
+    "printWidth": 80,
+    "tabWidth": 4
+}

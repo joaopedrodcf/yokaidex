@@ -1,0 +1,28 @@
+{
+    "$schema": "./node_modules/oxlint/configuration_schema.json",
+    "ignorePatterns": [
+        ".agents/**",
+        "dist/**",
+        ".nuxt/**",
+        ".output/**",
+        "node_modules/**"
+    ],
+    "plugins": [
+        "typescript",
+        "oxc",
+        "node",
+        "promise",
+        "vitest",
+        "vue",
+        "import"
+    ],
+    "env": {
+        "builtin": true,
+        "browser": true,
+        "es2024": true,
+        "node": true
+    },
+    "categories": {
+        "correctness": "error"
+    }
+}
