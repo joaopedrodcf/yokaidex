@@ -92,15 +92,18 @@ const statPalette: Record<string, string> = {
     spd: "bg-emerald-500",
 };
 
+const seoTitle = `${yokai.name} in Yo-kai Watch ${version}`;
+const seoDescription = `${yokai.name} is a ${yokai.tribe} yo-kai of rank ${yokai.rank.toUpperCase()} with the ${yokai.element} attribute in Yo-kai Watch ${version}. Browse stats, locations, favourite food, moves, and evolution details on Yokaidex.`;
+
 useSeoMeta({
-    title: yokai.name,
-    description: `${yokai.name} is a ${yokai.tribe} yo-kai of rank ${yokai.rank.toUpperCase()} with the ${yokai.element} attribute in Yo-kai Watch ${version}.`,
-    ogTitle: yokai.name,
-    ogDescription: `${yokai.name} is a ${yokai.tribe} yo-kai of rank ${yokai.rank.toUpperCase()} with the ${yokai.element} attribute in Yo-kai Watch ${version}.`,
+    title: seoTitle,
+    description: seoDescription,
+    ogTitle: seoTitle,
+    ogDescription: seoDescription,
     ogImage: yokai.image,
     twitterCard: "summary_large_image",
-    twitterTitle: yokai.name,
-    twitterDescription: `${yokai.name} is a ${yokai.tribe} yo-kai of rank ${yokai.rank.toUpperCase()} with the ${yokai.element} attribute in Yo-kai Watch ${version}.`,
+    twitterTitle: seoTitle,
+    twitterDescription: seoDescription,
     twitterImage: yokai.image,
 });
 

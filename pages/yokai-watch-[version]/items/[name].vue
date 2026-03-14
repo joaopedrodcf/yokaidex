@@ -58,15 +58,20 @@ const crankakaiPrizeGroups = crankakaiEntries.map((entry) => ({
     })),
 }));
 
+const seoTitle = `${displayItem.name} in Yo-kai Watch ${version}`;
+const seoDescription = item
+    ? `${displayItem.name} is a ${item.type} item in Yo-kai Watch ${version}. Browse its description, effect, locations, and related crank-a-kai rewards on Yokaidex.`
+    : `${displayItem.name} is a crank-a-kai coin or capsule entry in Yo-kai Watch ${version}. Browse its rewards and prize pool details on Yokaidex.`;
+
 useSeoMeta({
-    title: displayItem.name,
-    description: `${displayItem.name} is an item from Yo-kai Watch ${version}.`,
-    ogTitle: displayItem.name,
-    ogDescription: `${displayItem.name} is an item from Yo-kai Watch ${version}.`,
+    title: seoTitle,
+    description: seoDescription,
+    ogTitle: seoTitle,
+    ogDescription: seoDescription,
     ogImage: displayItem.image,
     twitterCard: "summary_large_image",
-    twitterTitle: displayItem.name,
-    twitterDescription: `${displayItem.name} is an item from Yo-kai Watch ${version}.`,
+    twitterTitle: seoTitle,
+    twitterDescription: seoDescription,
     twitterImage: displayItem.image,
 });
 
