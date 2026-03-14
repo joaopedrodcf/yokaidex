@@ -1,6 +1,7 @@
 import { buildPrerenderRoutes } from "./lib/routes";
 
-const siteUrl = process.env.NUXT_PUBLIC_SITE_URL || "https://yokaidex.netlify.app";
+const siteUrl =
+    process.env.NUXT_PUBLIC_SITE_URL || "https://yokaidex.netlify.app";
 const gaMeasurementId = process.env.NUXT_PUBLIC_GA_MEASUREMENT_ID || "";
 
 export default defineNuxtConfig({
