@@ -1,79 +1,44 @@
 {
     "name": "yokaidex",
-    "version": "2.0.0",
-    "description": "Contains all yo-kais from the 3 main games, their locations, stats, favorite foods, skills. You can see also the baffle board solutions.",
+    "version": "3.0.0",
+    "description": "Yokaidex on Nuxt with Yo-kai Watch data, SEO, analytics, and static prerendering.",
     "license": "MIT",
-    "homepage": "https://yokaidex.com",
-    "author": {
-        "name": "João Ferreira",
-        "email": "joaoferr93@gmail.com",
-        "url": "https://twitter.com/Joaopedrodcf"
-    },
-    "main": "src/index.js",
+    "type": "module",
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject",
-        "lint": "eslint ./src"
+        "check": "oxlint . && oxfmt . --check",
+        "check:fix": "oxlint . --fix && oxfmt .",
+        "dev": "nuxt dev",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "postinstall": "nuxt prepare",
+        "preview": "nuxt preview",
+        "test": "vitest run",
+        "typecheck": "vue-tsc --noEmit -p tsconfig.json"
     },
     "dependencies": {
-        "axios": "^0.19.2",
-        "fast-memoize": "^2.5.2",
-        "history": "^4.10.1",
-        "react": "^16.13.1",
-        "react-dom": "^16.13.1",
-        "react-feather": "^2.0.8",
-        "react-ga": "^2.7.0",
-        "react-helmet": "^6.0.0",
-        "react-lazy-load": "^3.0.13",
-        "react-router": "^5.2.0",
-        "react-router-dom": "^5.2.0",
-        "react-scripts": "3.4.1",
-        "react-share": "^4.2.0",
-        "react-sidebar": "^3.0.2",
-        "react-switch": "^5.0.1",
-        "react-virtualized": "^9.21.2",
-        "styled-components": "^5.1.1"
+        "@nuxt/a11y": "1.0.0-alpha.1",
+        "@nuxt/hints": "1.0.0",
+        "@nuxt/image": "2.0.0",
+        "@nuxt/scripts": "0.13.2",
+        "@nuxt/ui": "4.5.1",
+        "@nuxtjs/seo": "3.4.0",
+        "@vueuse/core": "14.2.1",
+        "nuxt": "4.4.2",
+        "tailwindcss": "4.2.1",
+        "vue": "3.5.30",
+        "vue-router": "5.0.3"
     },
     "devDependencies": {
-        "babel-eslint": "^10.1.0",
-        "clear-render": "^1.0.5",
-        "eslint": "^7.1.0",
-        "eslint-config-airbnb": "18.1.0",
-        "eslint-config-prettier": "^6.11.0",
-        "eslint-plugin-import": "^2.20.2",
-        "eslint-plugin-jsx-a11y": "^6.2.3",
-        "eslint-plugin-markdown": "^1.0.2",
-        "eslint-plugin-prettier": "^3.1.3",
-        "eslint-plugin-react": "7.20.0",
-        "eslint-plugin-react-hooks": "^4.0.4",
-        "eslint-plugin-react-perf": "^3.2.3",
-        "husky": "^4.2.5",
-        "lint-staged": "^10.2.7",
-        "prettier": "^2.0.5",
-        "stylelint": "^13.5.0",
-        "stylelint-config-rational-order": "^0.1.2",
-        "stylelint-config-recommended": "^3.0.0",
-        "stylelint-config-styled-components": "^0.1.1",
-        "stylelint-order": "^4.0.0",
-        "stylelint-processor-styled-components": "^1.10.0"
+        "@iconify-json/lucide": "1.2.97",
+        "oxfmt": "0.40.0",
+        "oxlint": "1.55.0",
+        "typescript": "5.9.3",
+        "vite": "8.0.0",
+        "vitest": "4.1.0",
+        "vue-tsc": "3.2.5"
     },
-    "browserslist": [
-        ">0.2%",
-        "not dead",
-        "not ie <= 11",
-        "not op_mini all"
-    ],
-    "husky": {
-        "hooks": {
-            "pre-commit": "lint-staged"
-        }
+    "engines": {
+        "node": "22.21.1"
     },
-    "lint-staged": {
-        "*.js": [
-            "eslint ./src --fix",
-            "stylelint './src/**/*.js'"
-        ]
-    }
+    "packageManager": "pnpm@9.12.3"
 }

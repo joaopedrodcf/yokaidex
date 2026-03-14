@@ -1,0 +1,65 @@
+name: CI
+
+on:
+    push:
+        branches:
+            - master
+            - main
+    pull_request:
+
+permissions:
+    contents: read
+
+concurrency:
+    group: ci-${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+env:
+    CI: "true"
+    NUXT_TELEMETRY_DISABLED: "1"
+
+jobs:
+    validate:
+        name: Validate
+        runs-on: ubuntu-latest
+        timeout-minutes: 20
+
+        steps:
+            - name: Check out repository
+              uses: actions/checkout@v4
+
+            - name: Set up pnpm
+              uses: pnpm/action-setup@v4
+              with:
+                  version: 9.12.3
+                  run_install: false
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version-file: .nvmrc
+                  cache: pnpm
+
+            - name: Install dependencies
+              run: pnpm install --frozen-lockfile
+
+            - name: Check lint and formatting
+              run: pnpm check
+
+            - name: Run tests
+              run: pnpm test
+
+            - name: Run typecheck
+              run: pnpm typecheck
+
+            - name: Generate production site
+              run: pnpm generate
+
+            - name: Upload generated site artifact
+              if: success()
+              uses: actions/upload-artifact@v4
+              with:
+                  name: site-output
+                  path: dist
+                  if-no-files-found: error
+                  retention-days: 7

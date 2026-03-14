@@ -1,0 +1,8 @@
+[build]
+command = "pnpm generate"
+publish = "dist"
+
+[build.environment]
+NODE_VERSION = "22.21.1"
+PNPM_VERSION = "9.12.3"
+NUXT_TELEMETRY_DISABLED = "1"
