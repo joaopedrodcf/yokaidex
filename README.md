@@ -1,59 +1,96 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5bc77de0-4f9f-458c-88d0-51adfbb64fa5/deploy-status)](https://app.netlify.com/sites/yokaidex/deploys)
 
-<a href="https://www.patreon.com/bePatron?u=18891840" data-patreon-widget-type="become-patron-button">Become a Patron!</a>
-
 # Yokaidex
 
-Yokaidex is a progressive web app(PWA) that has lots of information about Yo-kai Watch games.
+Yokaidex is a static Nuxt site with detailed Yo-kai Watch reference data for the three main games.
 
 ## Website
 
-The website is hosted on GitHub pages 👉 [yokaidex page](https://yokaidex.netlify.app)
+Production: [https://yokaidex.netlify.app](https://yokaidex.netlify.app)
+
+## Stack
+
+- Nuxt 4
+- Vue 3
+- TypeScript
+- Nuxt UI
+- Tailwind CSS
+- Nuxt Image with Cloudinary delivery
+- `@nuxtjs/seo`
+- `@nuxt/scripts`
+- pnpm
 
 ## Features
 
-- All yo-kais from the 3 main games
-- A page where you can see every yo-kai and filter it by name, rank, element and tribe(All at the same time)
-- This same page can be order in every column by rank, element and tribe.
-- Each yo-kai has a detailed page with tribe, element, rank, location, favourite food, skills, attacks, and also evolutions.
+- Browse yo-kai from Yo-kai Watch 1, 2, and 3
+- Filter the medallium by name, tribe, rank, element, misc tags, and special tags
+- Browse items and equipment with filtering by name and type
+- Detailed yo-kai pages with stats, moves, locations, favourite food, evolutions, and seal data
+- Baffle board and crank-a-kai reference pages
+- Static prerendering for SEO-friendly routes
 
-## How to run it locally
+## Requirements
 
-First clone the project
+- Node `22.21.1`
+- pnpm `9.12.3`
 
-```shell
+Version files included in the repo:
+
+- [.nvmrc](/Users/joaoferreira/projects/home/yokaidex/.nvmrc)
+- [.tool-version](/Users/joaoferreira/projects/home/yokaidex/.tool-version)
+
+## Getting started
+
+Clone the repository:
+
+```sh
 git clone https://github.com/joaopedrodcf/yokaidex.git
+cd yokaidex
 ```
 
-Then install the node_modules (this installs the server and the client)
+Install dependencies:
 
-```shell
-yarn
+```sh
+pnpm install
 ```
 
-Or
+Start the development server:
 
-```shell
-npm install
+```sh
+pnpm dev
 ```
 
-Finally you can start dev environment
+## Available scripts
 
-```shell
-yarn start
+```sh
+pnpm dev
+pnpm build
+pnpm generate
+pnpm preview
+pnpm check
+pnpm check:fix
+pnpm typecheck
+pnpm test
 ```
 
-Or
+## Deployment
 
-```shell
-npm run start start
-```
+The site is deployed on Netlify as a static generated site.
+
+Netlify build settings:
+
+- Build command: `pnpm generate`
+- Publish directory: `dist`
+- Node version: `22.21.1`
+- pnpm version: `9.12.3`
+
+Those settings are defined in [netlify.toml](/Users/joaoferreira/projects/home/yokaidex/netlify.toml).
 
 ## Disclaimer
 
-Yokaidex is a website with information about the games from Level-5: Yo-kai watch. All the information gathered here is to be used as a resource to help our community have more info about the game.
+Yokaidex is a fan-made reference site for Level-5's Yo-kai Watch games. All referenced names, characters, artwork, and related intellectual property belong to their respective owners, including Level-5 Inc., Nintendo Co., Ltd., Bandai Co., Ltd., and Koei Tecmo Holdings Co., Ltd.
 
-All of it is the intellectual property of Level-5 Inc., Nintendo Co., Ltd., Bandai Co., Ltd., Koei Tecmo Holdings Co., Ltd. and is protected by various copyrights and trademarks. The author believes that the use of this intellectual property for a fan reference is covered by fair use — the use is inherently educational, and the software would be severely impaired without the copyrighted material.
+This project is intended as an educational and community resource.
 
 ## License
 
