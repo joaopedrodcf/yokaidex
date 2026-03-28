@@ -96,12 +96,6 @@ export default defineNuxtConfig({
         zeroRuntime: true,
         credits: false,
     },
-    image: {
-        provider: "cloudinary",
-        cloudinary: {
-            baseURL: "https://res.cloudinary.com/dcrcweea8/image/upload/",
-        },
-    },
     ogImage: false,
     linkChecker: false,
     runtimeConfig: {
