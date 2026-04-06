@@ -1,4 +1,7 @@
 <script setup lang="ts">
+import { computed } from "vue";
+import { resolveImageUrl } from "../../lib/images";
+
 const props = withDefaults(
     defineProps<{
         src: string;
@@ -16,11 +19,13 @@ const sizeClasses = {
     md: "h-20 w-20",
     lg: "h-40 w-40",
 };
+
+const resolvedSrc = computed(() => resolveImageUrl(props.src));
 </script>
 
 <template>
     <img
-        :src="src"
+        :src="resolvedSrc"
         :alt="alt"
         loading="lazy"
         class="object-contain"

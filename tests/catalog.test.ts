@@ -8,6 +8,7 @@ import {
     findYokaiBySlug,
     slugifyName,
 } from "../lib/catalog";
+import { resolveImageUrl } from "../lib/images";
 
 describe("catalog helpers", () => {
     it("keeps boss slug compatibility", () => {
@@ -88,5 +89,28 @@ describe("catalog helpers", () => {
 
         expect(result).toHaveLength(1);
         expect(result[0]?.name).toBe("Nasty Medicine");
+    });
+
+    it("rewrites cloudinary asset URLs to imagekit", () => {
+        expect(
+            resolveImageUrl(
+                "https://res.cloudinary.com/dcrcweea8/image/upload/v1545501818/Yokai/items/restraint_belt.png",
+            ),
+        ).toBe(
+            "https://ik.imagekit.io/s0558jeir/yokaidex/items/restraint_belt.png",
+        );
+    });
+
+    it("leaves non-cloudinary URLs unchanged", () => {
+        expect(
+            resolveImageUrl(
+                "https://ik.imagekit.io/s0558jeir/yokaidex/items/restraint_belt.png",
+            ),
+        ).toBe(
+            "https://ik.imagekit.io/s0558jeir/yokaidex/items/restraint_belt.png",
+        );
+        expect(resolveImageUrl("/images/icons/icon-192x192.png")).toBe(
+            "/images/icons/icon-192x192.png",
+        );
     });
 });

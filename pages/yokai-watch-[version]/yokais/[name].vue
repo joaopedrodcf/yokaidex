@@ -13,6 +13,7 @@ import {
     normalizeGameVersion,
     tribes,
 } from "../../../lib/catalog";
+import { resolveImageUrl } from "../../../lib/images";
 
 const route = useRoute();
 const config = useRuntimeConfig();
@@ -100,11 +101,11 @@ useSeoMeta({
     description: seoDescription,
     ogTitle: seoTitle,
     ogDescription: seoDescription,
-    ogImage: yokai.image,
+    ogImage: resolveImageUrl(yokai.image),
     twitterCard: "summary_large_image",
     twitterTitle: seoTitle,
     twitterDescription: seoDescription,
-    twitterImage: yokai.image,
+    twitterImage: resolveImageUrl(yokai.image),
 });
 
 useHead({

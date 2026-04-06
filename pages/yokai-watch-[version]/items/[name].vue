@@ -10,6 +10,7 @@ import {
     getVersionPath,
     normalizeGameVersion,
 } from "../../../lib/catalog";
+import { resolveImageUrl } from "../../../lib/images";
 
 const route = useRoute();
 const config = useRuntimeConfig();
@@ -68,11 +69,11 @@ useSeoMeta({
     description: seoDescription,
     ogTitle: seoTitle,
     ogDescription: seoDescription,
-    ogImage: displayItem.image,
+    ogImage: resolveImageUrl(displayItem.image),
     twitterCard: "summary_large_image",
     twitterTitle: seoTitle,
     twitterDescription: seoDescription,
-    twitterImage: displayItem.image,
+    twitterImage: resolveImageUrl(displayItem.image),
 });
 
 useHead({
