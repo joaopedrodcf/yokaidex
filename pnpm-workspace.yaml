@@ -3,3 +3,8 @@ packages:
 
 savePrefix: ""
 engineStrict: true
+allowBuilds:
+    "@parcel/watcher": false
+    esbuild: false
+    sharp: false
+    vue-demi: false
