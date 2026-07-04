@@ -31,8 +31,8 @@ Production: [https://yokaidex.netlify.app](https://yokaidex.netlify.app)
 
 ## Requirements
 
-- Node `22.21.1`
-- pnpm `9.12.3`
+- Node `26.4.0`
+- pnpm `11.9.0`
 
 Version files included in the repo:
 
@@ -81,8 +81,8 @@ Netlify build settings:
 
 - Build command: `pnpm generate`
 - Publish directory: `dist`
-- Node version: `22.21.1`
-- pnpm version: `9.12.3`
+- Node version: `26.4.0`
+- pnpm version: `11.9.0`
 
 Those settings are defined in [netlify.toml](/Users/joaoferreira/projects/home/yokaidex/netlify.toml).
 
