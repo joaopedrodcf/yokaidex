@@ -632,7 +632,11 @@ watch(totalPages, (pageCount) => {
             color="primary"
             variant="solid"
             icon="i-lucide-sliders-horizontal"
-            @click="mobileFiltersOpen = true"
+            @click="
+                () => {
+                    mobileFiltersOpen = true;
+                }
+            "
         >
             <template #default>
                 <span class="flex items-center gap-2">
