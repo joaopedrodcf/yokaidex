@@ -36,7 +36,11 @@ const closeMenu = () => {
                         color="neutral"
                         variant="outline"
                         label="Menu"
-                        @click="menuOpen = true"
+                        @click="
+                            () => {
+                                menuOpen = true;
+                            }
+                        "
                     />
                 </div>
             </header>

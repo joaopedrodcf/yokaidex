@@ -23,7 +23,7 @@ export default defineNuxtConfig({
     },
     vite: {
         optimizeDeps: {
-            include: ["@vueuse/core"],
+            include: ["@vueuse/core", "@unhead/schema-org/vue"],
         },
     },
     pwa: {
