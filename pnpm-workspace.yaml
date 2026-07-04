@@ -8,3 +8,6 @@ allowBuilds:
     esbuild: false
     sharp: false
     vue-demi: false
+
+overrides:
+    "vite": "8.0.16"
