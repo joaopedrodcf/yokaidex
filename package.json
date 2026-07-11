@@ -37,7 +37,7 @@
         "typescript": "6.0.3",
         "vite": "8.1.4",
         "vitest": "4.1.9",
-        "vue-tsc": "3.3.6"
+        "vue-tsc": "3.3.7"
     },
     "engines": {
         "node": "26.5.0"
