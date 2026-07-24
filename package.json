@@ -30,7 +30,7 @@
         "vue-router": "5.1.0"
     },
     "devDependencies": {
-        "@iconify-json/lucide": "1.2.116",
+        "@iconify-json/lucide": "1.2.119",
         "@vite-pwa/nuxt": "1.1.1",
         "oxfmt": "0.58.0",
         "oxlint": "1.73.0",
