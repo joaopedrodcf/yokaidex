@@ -5,7 +5,6 @@ import {
     foods,
     getAbsoluteUrl,
     getEvolutionEntries,
-    getItemHref,
     getLegendarySeal,
     getMetadataEntry,
     getVersionPath,
@@ -339,110 +338,16 @@ useHead({
                     v-if="!isBoss && evolutionEntries.length"
                     title="Evolution"
                     :accent="accent"
+                    description="See what is needed and what this Yo-kai becomes."
                 >
                     <div class="space-y-4">
-                        <div
+                        <SharedEvolutionFlow
                             v-for="entry in evolutionEntries"
                             :key="entry.index"
-                            class="rounded-2xl border border-[var(--color-yokai-border)] p-4 dark:border-[var(--color-yokai-dark-border)]"
-                        >
-                            <div
-                                v-if="entry.type === 'level'"
-                                class="space-y-3"
-                            >
-                                <p class="text-sm font-semibold text-slate-500">
-                                    Level {{ entry.level }}
-                                </p>
-                                <div class="grid gap-3 md:grid-cols-2">
-                                    <component
-                                        v-for="member in entry.yokais"
-                                        :key="member.name"
-                                        :is="
-                                            getYokaiHref(version, member.name)
-                                                ? 'NuxtLink'
-                                                : 'div'
-                                        "
-                                        :to="
-                                            getYokaiHref(
-                                                version,
-                                                member.name,
-                                            ) || undefined
-                                        "
-                                        class="flex items-center gap-3 rounded-2xl bg-slate-100 p-3 dark:bg-zinc-900"
-                                    >
-                                        <SharedAppImage
-                                            :src="member.image"
-                                            :alt="member.name"
-                                        />
-                                        <span class="font-semibold">{{
-                                            member.name
-                                        }}</span>
-                                    </component>
-                                </div>
-                            </div>
-
-                            <div v-else class="space-y-3">
-                                <p class="text-sm font-semibold text-slate-500">
-                                    {{
-                                        entry.withItems
-                                            ? "Fusion with item"
-                                            : "Fusion"
-                                    }}
-                                </p>
-                                <div class="grid gap-3 md:grid-cols-3">
-                                    <component
-                                        v-for="member in entry.yokais"
-                                        :key="member.name"
-                                        :is="
-                                            getYokaiHref(version, member.name)
-                                                ? 'NuxtLink'
-                                                : 'div'
-                                        "
-                                        :to="
-                                            getYokaiHref(
-                                                version,
-                                                member.name,
-                                            ) || undefined
-                                        "
-                                        class="flex items-center gap-3 rounded-2xl bg-slate-100 p-3 dark:bg-zinc-900"
-                                    >
-                                        <SharedAppImage
-                                            :src="member.image"
-                                            :alt="member.name"
-                                        />
-                                        <span class="font-semibold">{{
-                                            member.name
-                                        }}</span>
-                                    </component>
-                                    <component
-                                        v-if="entry.item"
-                                        :is="
-                                            getItemHref(
-                                                version,
-                                                entry.item.name,
-                                            )
-                                                ? 'NuxtLink'
-                                                : 'div'
-                                        "
-                                        :to="
-                                            getItemHref(
-                                                version,
-                                                entry.item.name,
-                                            ) || undefined
-                                        "
-                                        class="flex items-center gap-3 rounded-2xl bg-slate-100 p-3 dark:bg-zinc-900"
-                                    >
-                                        <SharedAppImage
-                                            :src="entry.item.image"
-                                            :alt="entry.item.name"
-                                        />
-                                        <span class="font-semibold">{{
-                                            entry.item.name
-                                        }}</span>
-                                    </component>
-                                </div>
-                            </div>
-                        </div>
+                            :entry="entry"
+                            :version="version"
+                            :accent="accent"
+                        />
                     </div>
                 </SharedSectionCard>
 
