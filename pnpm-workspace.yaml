@@ -10,5 +10,5 @@ allowBuilds:
     vue-demi: false
 
 overrides:
-    "typescript": "npm:typescript-native-bridge@6.0.3-bridge.6.tsgo.7.0.2"
+    "typescript": "npm:typescript-native-bridge@6.0.3-bridge.16.tsgo.7.0.2"
     "vite": "8.1.5"
