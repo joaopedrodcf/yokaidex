@@ -11,4 +11,4 @@ allowBuilds:
 
 overrides:
     "typescript": "npm:typescript-native-bridge@6.0.3-bridge.6.tsgo.7.0.2"
-    "vite": "8.1.5"
+    "vite": "8.1.6"
