@@ -10,5 +10,14 @@ allowBuilds:
     vue-demi: false
 
 overrides:
-    "typescript": "npm:typescript-native-bridge@6.0.3-bridge.6.tsgo.7.0.2"
-    "vite": "8.1.5"
+    "typescript": "npm:typescript-native-bridge@v6.0.3-bridge.19.tsgo.7.0.2"
+    "vite": "8.3.6"
+minimumReleaseAgeExclude:
+    - "@oxlint-tsgolint/darwin-arm64@7.0.2006"
+    - "@oxlint-tsgolint/darwin-x64@7.0.2006"
+    - "@oxlint-tsgolint/linux-arm64@7.0.2006"
+    - "@oxlint-tsgolint/linux-x64@7.0.2006"
+    - "@oxlint-tsgolint/win32-arm64@7.0.2006"
+    - "@oxlint-tsgolint/win32-x64@7.0.2006"
+    - oxlint-tsgolint@7.0.2006
+    - vite@8.3.6

@@ -4,15 +4,6 @@ const siteUrl =
     process.env.NUXT_PUBLIC_SITE_URL || "https://yokaidex.netlify.app";
 const gaMeasurementId = process.env.NUXT_PUBLIC_GA_MEASUREMENT_ID || "";
 
-// Workaround for Vite server WebSocket issue in Nuxt 4.4.8 and vite
-const viteServerWebSocketWorkaround = {
-    $server: {
-        server: {
-            ws: false,
-        },
-    },
-} as Record<string, unknown>;
-
 export default defineNuxtConfig({
     compatibilityDate: "2026-03-14",
     modules: [
@@ -31,7 +22,6 @@ export default defineNuxtConfig({
         renderJsonPayloads: false,
     },
     vite: {
-        ...viteServerWebSocketWorkaround,
         optimizeDeps: {
             include: ["@vueuse/core", "@unhead/schema-org/vue"],
         },
@@ -136,10 +126,6 @@ export default defineNuxtConfig({
         head: {
             titleTemplate: "%s | Yokaidex",
             meta: [
-                {
-                    name: "viewport",
-                    content: "width=device-width, initial-scale=1",
-                },
                 {
                     name: "theme-color",
                     content: "#fdd835",
