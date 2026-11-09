@@ -184,10 +184,10 @@ importers:
         version: 1.3.12(@nuxt/schema@4.6.4)(@unhead/vue@3.4.3(@oxc-project/types@0.156.0)(esbuild@0.28.2)(lightningcss@1.32.0)(oxc-parser@0.153.0)(rolldown@1.2.16)(rollup@4.67.5)(vite@8.3.6(@types/node@25.5.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.46.0)(yaml@2.9.1))(vue@3.5.44(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2)))(confbox@0.3.2)(db0@0.3.4)(dotenv@17.3.1)(esbuild@0.28.2)(giget@3.3.0)(ioredis@5.11.1(supports-color@10.2.2))(jiti@2.7.0)(mlly@1.8.2)(rolldown@1.2.16)(rollup@4.67.5)(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2)(vite@8.3.6(@types/node@25.5.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.46.0)(yaml@2.9.1))(vue@3.5.44(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2))
       '@nuxt/ui':
         specifier: 4.12.0
-        version: 4.12.0(23949b0081b060a7d70ccc66babdabb9)
+        version: 4.12.0(2278e6bccf63b78fa2dda99345e101fd)
       '@nuxtjs/seo':
         specifier: 6.0.1
-        version: 6.0.1(b9ba2e7188ec63060f13df6f9e7c895f)
+        version: 6.0.1(73c0c1db6de597cc4bb64b84cae1ff62)
       '@nuxtjs/sitemap':
         specifier: 9.1.0
         version: 9.1.0(38e7328df0cab3d5ab794a1a4f721849)
@@ -198,8 +198,8 @@ importers:
         specifier: 4.6.4
         version: 4.6.4(@babel/plugin-syntax-jsx@7.28.6(@babel/core@7.29.0(supports-color@10.2.2)))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.0(supports-color@10.2.2)))(@oxc-project/types@0.156.0)(@parcel/watcher@2.5.6)(@types/node@25.5.0)(@vue/compiler-sfc@3.5.40)(acorn@8.18.0)(confbox@0.3.2)(db0@0.3.4)(dotenv@17.3.1)(esbuild@0.28.2)(giget@3.3.0)(ioredis@5.11.1(supports-color@10.2.2))(lightningcss@1.32.0)(mlly@1.8.2)(oxc-parser@0.153.0)(oxlint@1.91.0(oxlint-tsgolint@7.0.2006))(rolldown@1.2.16)(rollup-plugin-visualizer@7.0.1(rolldown@1.2.16)(rollup@4.67.5))(rollup@4.67.5)(srvx@1.0.8)(supports-color@10.2.2)(terser@5.46.0)(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2)(vite@8.3.6(@types/node@25.5.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.46.0)(yaml@2.9.1))(vue-tsc@3.3.14(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2))(yaml@2.9.1)
       tailwindcss:
-        specifier: 4.3.4
-        version: 4.3.4
+        specifier: 4.3.5
+        version: 4.3.5
       vue:
         specifier: 3.5.44
         version: 3.5.44(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2)
@@ -6707,6 +6707,9 @@ packages:
   tailwindcss@4.3.4:
     resolution: {integrity: sha512-PCJZTFFdG+sL3gvnP1Do9o6GbkvH2q0p04xSs3f7cSvmAeK+sttG+/7ncK1fdRwKFfC7n+wDDJaOMBSefkI9ow==}
 
+  tailwindcss@4.3.5:
+    resolution: {integrity: sha512-FcQk9BuffmEHJP2G0XmB2SplU1aLTI7j07Kunk+U74Ny+XiWOtzXz9aujFZ/avntw1e2cOv/3PkgzflQ7gX2vQ==}
+
   tapable@2.3.3:
     resolution: {integrity: sha512-uxc/zpqFg6x7C8vOE7lh6Lbda8eEL9zmVm/PLeTPBRhh1xCgdWaQ+J1CUieGpIfm2HdtsUpRv+HshiasBMcc6A==}
     engines: {node: '>=6'}
@@ -9685,7 +9688,7 @@ snapshots:
       rc9: 3.0.1
       std-env: 4.3.0
 
-  '@nuxt/ui@4.12.0(23949b0081b060a7d70ccc66babdabb9)':
+  '@nuxt/ui@4.12.0(2278e6bccf63b78fa2dda99345e101fd)':
     dependencies:
       '@floating-ui/dom': 1.8.0
       '@iconify/vue': 5.0.5(vue@3.5.44(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2))
@@ -9743,8 +9746,8 @@ snapshots:
       reka-ui: 2.11.0(vue@3.5.44(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2))
       scule: 1.3.0
       tailwind-merge: 3.7.0
-      tailwind-variants: 3.2.2(tailwind-merge@3.7.0)(tailwindcss@4.3.4)
-      tailwindcss: 4.3.4
+      tailwind-variants: 3.2.2(tailwind-merge@3.7.0)(tailwindcss@4.3.5)
+      tailwindcss: 4.3.5
       tinyglobby: 0.2.17
       typescript: typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2
       ufo: 1.6.4
@@ -9956,7 +9959,7 @@ snapshots:
       - unplugin
       - vue
 
-  '@nuxtjs/seo@6.0.1(b9ba2e7188ec63060f13df6f9e7c895f)':
+  '@nuxtjs/seo@6.0.1(73c0c1db6de597cc4bb64b84cae1ff62)':
     dependencies:
       '@nuxt/kit': 4.6.4(@nuxt/schema@4.6.4)(confbox@0.3.2)(dotenv@17.3.1)(giget@3.3.0)(jiti@2.7.0)(magic-string@1.4.5)(mlly@1.8.2)(oxc-parser@0.153.0)(rolldown@1.2.16)(unplugin@3.7.0(esbuild@0.28.2)(rolldown@1.2.16)(rollup@4.67.5)(vite@8.3.6(@types/node@25.5.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.46.0)(yaml@2.9.1)))
       '@nuxtjs/robots': 7.0.2(1e25b56ec9040584a402841b62394533)
@@ -9964,7 +9967,7 @@ snapshots:
       nuxt: 4.6.4(@babel/plugin-syntax-jsx@7.28.6(@babel/core@7.29.0(supports-color@10.2.2)))(@babel/plugin-syntax-typescript@7.29.7(@babel/core@7.29.0(supports-color@10.2.2)))(@oxc-project/types@0.156.0)(@parcel/watcher@2.5.6)(@types/node@25.5.0)(@vue/compiler-sfc@3.5.40)(acorn@8.18.0)(confbox@0.3.2)(db0@0.3.4)(dotenv@17.3.1)(esbuild@0.28.2)(giget@3.3.0)(ioredis@5.11.1(supports-color@10.2.2))(lightningcss@1.32.0)(mlly@1.8.2)(oxc-parser@0.153.0)(oxlint@1.91.0(oxlint-tsgolint@7.0.2006))(rolldown@1.2.16)(rollup-plugin-visualizer@7.0.1(rolldown@1.2.16)(rollup@4.67.5))(rollup@4.67.5)(srvx@1.0.8)(supports-color@10.2.2)(terser@5.46.0)(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2)(vite@8.3.6(@types/node@25.5.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.46.0)(yaml@2.9.1))(vue-tsc@3.3.14(typescript-native-bridge@6.0.3-bridge.19.tsgo.7.0.2))(yaml@2.9.1)
       nuxt-ai-ready: 3.4.0(b11210a3cb671035432d42409bf605bd)
       nuxt-link-checker: 6.0.1(a7667bf2ff519a3181ea43db4fca1806)
-      nuxt-og-image: 7.0.7(497be96d22ed39e58220b08b33c0f196)
+      nuxt-og-image: 7.0.7(49639e0a2b2a31b9d623196fe8c93a3d)
       nuxt-schema-org: 7.0.1(047f535238c6135b9d1729bb16d69c2f)
       nuxt-seo-utils: 9.0.1(e04aba5ec8e85f2329f2a7e82632ddf8)
       nuxt-site-config: 5.0.3(1e25b56ec9040584a402841b62394533)
@@ -13812,7 +13815,7 @@ snapshots:
       - vue
       - zod
 
-  nuxt-og-image@7.0.7(497be96d22ed39e58220b08b33c0f196):
+  nuxt-og-image@7.0.7(49639e0a2b2a31b9d623196fe8c93a3d):
     dependencies:
       '@clack/prompts': 1.8.1
       '@nuxt/kit': 4.6.4(@nuxt/schema@4.6.4)(confbox@0.3.2)(dotenv@17.3.1)(giget@3.3.0)(jiti@2.7.0)(magic-string@1.4.5)(mlly@1.8.2)(oxc-parser@0.153.0)(rolldown@1.2.16)(unplugin@3.7.0(esbuild@0.28.2)(rolldown@1.2.16)(rollup@4.67.5)(vite@8.3.6(@types/node@25.5.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.46.0)(yaml@2.9.1)))
@@ -13851,7 +13854,7 @@ snapshots:
       '@resvg/resvg-wasm': 2.6.2
       nitropack: 2.13.4(oxc-parser@0.153.0)(rolldown@1.2.16)(supports-color@10.2.2)(vite@8.3.6(@types/node@25.5.0)(esbuild@0.28.2)(jiti@2.7.0)(terser@5.46.0)(yaml@2.9.1))
       sharp: 0.35.5(@types/node@25.5.0)
-      tailwindcss: 4.3.4
+      tailwindcss: 4.3.5
     transitivePeerDependencies:
       - '@farmfe/core'
       - '@nuxt/schema'
@@ -15189,13 +15192,15 @@ snapshots:
 
   tailwind-merge@3.7.0: {}
 
-  tailwind-variants@3.2.2(tailwind-merge@3.7.0)(tailwindcss@4.3.4):
+  tailwind-variants@3.2.2(tailwind-merge@3.7.0)(tailwindcss@4.3.5):
     dependencies:
-      tailwindcss: 4.3.4
+      tailwindcss: 4.3.5
     optionalDependencies:
       tailwind-merge: 3.7.0
 
   tailwindcss@4.3.4: {}
+
+  tailwindcss@4.3.5: {}
 
   tapable@2.3.3: {}
 
